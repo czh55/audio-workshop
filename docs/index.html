@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>博客 SVG 总结墙</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: linear-gradient(135deg, #0f172a, #1e293b);
+      min-height: 100vh;
+      color: #e2e8f0;
+    }
+    .header {
+      text-align: center;
+      padding: 60px 20px 40px;
+    }
+    .header h1 {
+      font-size: 42px;
+      font-weight: 900;
+      background: linear-gradient(135deg, #60a5fa, #a78bfa, #f472b6);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 12px;
+    }
+    .header p {
+      font-size: 18px;
+      color: #94a3b8;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 0 24px 60px;
+    }
+    .card-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 16px;
+      padding: 24px;
+      transition: all 0.3s ease;
+      text-decoration: none;
+      color: inherit;
+      display: block;
+    }
+    .card:hover {
+      background: rgba(255,255,255,0.1);
+      border-color: rgba(255,255,255,0.2);
+      transform: translateY(-2px);
+      box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+    }
+    .card h3 {
+      font-size: 20px;
+      font-weight: 700;
+      margin-bottom: 8px;
+      color: #93c5fd;
+    }
+    .card p {
+      font-size: 14px;
+      color: #94a3b8;
+      line-height: 1.6;
+    }
+    .card .date {
+      font-size: 12px;
+      color: #64748b;
+      margin-top: 12px;
+    }
+    .empty {
+      text-align: center;
+      padding: 80px 20px;
+      color: #64748b;
+    }
+    .empty .icon {
+      font-size: 64px;
+      margin-bottom: 16px;
+    }
+    .empty p {
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>博客 SVG 总结墙</h1>
+    <p>所有通过 Webhook 提交的博客文章，自动生成深度 SVG 总结</p>
+  </div>
+  <div class="container">
+    <div class="card-list" id="cardList">
+      <!-- SVG 卡片由 JavaScript 动态生成 -->
+    </div>
+    <div class="empty" id="emptyState">
+      <div class="icon">📭</div>
+      <p>还没有总结，提交第一篇博客吧</p>
+    </div>
+  </div>
+
+  <script>
+    // 列出 docs/ 目录下的所有 .svg 文件
+    async function loadSvgs() {
+      const resp = await fetch('index.json');
+      if (!resp.ok) return;
+      const svgs = await resp.json();
+      if (svgs.length === 0) return;
+      document.getElementById('emptyState').style.display = 'none';
+      const list = document.getElementById('cardList');
+      svgs.forEach(s => {
+        const a = document.createElement('a');
+        a.className = 'card';
+        a.href = s.filename;
+        a.target = '_blank';
+        a.innerHTML = '<h3>' + escapeHtml(s.title || s.filename.replace('.svg','')) + '</h3>'
+          + '<p>' + escapeHtml(s.summary || '') + '</p>'
+          + '<div class="date">' + escapeHtml(s.date || '') + '</div>';
+        list.appendChild(a);
+      });
+    }
+    function escapeHtml(s) {
+      const d = document.createElement('div');
+      d.textContent = s;
+      return d.innerHTML;
+    }
+    loadSvgs();
+  </script>
+</body>
+</html>
