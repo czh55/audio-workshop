@@ -341,6 +341,28 @@
       opacity: 1;
       right: 16px;
     }
+    .card-error {
+      opacity: 0.5;
+      border-left: 3px solid #ef4444;
+    }
+    .card-error:hover {
+      opacity: 0.7;
+      transform: none;
+    }
+    .card-error .card-title {
+      color: #f87171;
+    }
+    .card-source-link {
+      display: inline-block;
+      font-size: 12px;
+      color: var(--text-muted);
+      margin-top: 8px;
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    .card-source-link:hover {
+      color: var(--accent);
+    }
 
     /* ====== 搜索 ====== */
     .search-bar {
@@ -555,7 +577,9 @@
           filteredDays = days.filter(d => {
             const items = dateMap[d].filter(item =>
               (item.title || '').toLowerCase().includes(query) ||
-              (item.summary || '').toLowerCase().includes(query)
+              (item.summary || '').toLowerCase().includes(query) ||
+              (item.url || '').toLowerCase().includes(query) ||
+              (item.error_message || '').toLowerCase().includes(query)
             );
             dateMap[d]._filtered = items;
             if (items.length > 0) visibleCount++;
@@ -604,10 +628,11 @@
           group.appendChild(label);
 
           items.forEach(item => {
+            var isError = item.error;
             const card = document.createElement('a');
-            card.className = 'card';
-            card.href = item.filename;
-            card.target = '_blank';
+            card.className = 'card' + (isError ? ' card-error' : '');
+            card.href = isError ? (item.url || '#') : item.filename;
+            card.target = isError ? '_blank' : '_blank';
 
             let tagsHtml = '';
             if (item.tags && item.tags.length > 0) {
@@ -616,13 +641,26 @@
                 '</div>';
             }
 
+            var titleText = isError
+              ? '⚠ ' + escapeHtml(item.title || '处理失败')
+              : escapeHtml(item.title || item.filename.replace('.svg',''));
+
+            var summaryText = isError
+              ? escapeHtml(item.error_message || '未能成功生成总结')
+              : escapeHtml(item.summary || '');
+
+            var sourceLink = (item.url && !isError)
+              ? '<a class="card-source-link" href="' + escapeHtml(item.url) + '" target="_blank">📎 原文链接</a>'
+              : '';
+
             card.innerHTML =
               '<div class="card-header">' +
-                '<span class="card-title">' + escapeHtml(item.title || item.filename.replace('.svg','')) + '</span>' +
+                '<span class="card-title">' + titleText + '</span>' +
                 '<span class="card-time">' + escapeHtml(item.time || '') + '</span>' +
               '</div>' +
-              '<div class="card-summary">' + escapeHtml(item.summary || '') + '</div>' +
+              '<div class="card-summary">' + summaryText + '</div>' +
               tagsHtml +
+              sourceLink +
               '<span class="card-link-icon">&#x2197;</span>';
 
             group.appendChild(card);
@@ -704,9 +742,19 @@
         }
       }
 
+      function countValid(items) {
+        var c = 0;
+        items.forEach(function(item) { if (!item.error) c++; });
+        return c;
+      }
       function updateStats(count, days) {
-        $('totalCount').textContent = count;
+        var errorCount = allData.filter(function(item) { return item.error; }).length;
+        var validCount = count - errorCount;
+        $('totalCount').textContent = validCount;
         $('totalDays').textContent = days;
+        if (errorCount > 0) {
+          $('totalCount').textContent = validCount + ' (+' + errorCount + ' 失败)';
+        }
       }
 
       $('calPrev').addEventListener('click', function() {
