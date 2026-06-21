@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>博客 SVG 总结墙</title>
+  <title>播客 SVG 总结墙</title>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     :root {
@@ -363,6 +363,15 @@
     .card-source-link:hover {
       color: var(--accent);
     }
+    .card-duration {
+      display: inline-block;
+      font-size: 12px;
+      color: var(--text-muted);
+      margin-top: 6px;
+      padding: 2px 8px;
+      border-radius: 6px;
+      background: rgba(167,139,250,0.1);
+    }
 
     /* ====== 搜索 ====== */
     .search-bar {
@@ -460,14 +469,18 @@
 </head>
 <body>
   <div class="hero">
-    <h1>博客 SVG 总结墙</h1>
-    <p>提交网址 → 自动抓取 · 分析 · 生成 SVG 总结</p>
+    <h1>播客 SVG 总结墙</h1>
+    <p>提交小宇宙播客网址 → 自动下载 · 转录 · 生成 SVG 总结</p>
   </div>
 
   <div class="stats-bar" id="statsBar">
     <div class="stat-item">
       <div class="stat-num" id="totalCount">0</div>
       <div class="stat-label">总总结</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num" id="totalDuration">0h</div>
+      <div class="stat-label">总时长</div>
     </div>
     <div class="stat-item">
       <div class="stat-num" id="totalDays">0</div>
@@ -505,8 +518,8 @@
   <div class="container" id="mainContainer">
     <div class="empty-state" id="emptyState">
       <span class="empty-icon">&#x1F4ED;</span>
-      <h2>还没有博客总结</h2>
-      <p>提交你的第一篇博客文章，自动生成深度 SVG 总结</p>
+      <h2>还没有播客总结</h2>
+      <p>提交你的第一期播客，自动下载、转录并生成深度 SVG 总结</p>
       <div class="empty-hint">curl -X POST &lt;webhook-url&gt; -d '{"url":"..."}'</div>
     </div>
     <div class="timeline" id="timeline" style="display:none;"></div>
@@ -624,7 +637,7 @@
 
           const label = document.createElement('div');
           label.className = 'date-label';
-          label.innerHTML = '<span>' + display + '</span><span class="weekday">' + wd + '</span><span class="count-badge">' + items.length + ' 篇</span>';
+          label.innerHTML = '<span>' + display + '</span><span class="weekday">' + wd + '</span><span class="count-badge">' + items.length + ' 期</span>';
           group.appendChild(label);
 
           items.forEach(item => {
@@ -653,13 +666,17 @@
               ? '<a class="card-source-link" href="' + escapeHtml(item.url) + '" target="_blank">📎 原文链接</a>'
               : '';
 
+            var durationHtml = (item.duration && !isError)
+              ? '<span class="card-duration">⏱ ' + escapeHtml(item.duration) + '</span>'
+              : '';
+
             card.innerHTML =
               '<div class="card-header">' +
                 '<span class="card-title">' + titleText + '</span>' +
-                '<span class="card-time">' + escapeHtml(item.time || '') + '</span>' +
               '</div>' +
               '<div class="card-summary">' + summaryText + '</div>' +
               tagsHtml +
+              durationHtml +
               sourceLink +
               '<span class="card-link-icon">&#x2197;</span>';
 
@@ -702,7 +719,7 @@
 
           if (dateMap[dateKey]) {
             cell.classList.add('has-data');
-            cell.title = dateMap[dateKey].length + ' 篇总结';
+            cell.title = dateMap[dateKey].length + ' 期总结';
             cell.addEventListener('click', function() { scrollToDate(dateKey); });
           }
           if (dateKey === today) {
@@ -755,6 +772,22 @@
         if (errorCount > 0) {
           $('totalCount').textContent = validCount + ' (+' + errorCount + ' 失败)';
         }
+
+        // 计算总时长
+        var totalMinutes = 0;
+        allData.forEach(function(item) {
+          if (item.error || !item.duration) return;
+          var m = item.duration.match(/(\d+)\s*小时?/);
+          if (m) totalMinutes += parseInt(m[1]) * 60;
+          m = item.duration.match(/(\d+)\s*分/);
+          if (m) totalMinutes += parseInt(m[1]);
+        });
+        if (totalMinutes >= 60) {
+          $('totalDuration').textContent = Math.floor(totalMinutes/60) + 'h' + (totalMinutes%60 > 0 ? totalMinutes%60 + 'm' : '');
+        } else {
+          $('totalDuration').textContent = totalMinutes + 'm';
+        }
+        if (totalMinutes === 0) $('totalDuration').textContent = '0h';
       }
 
       $('calPrev').addEventListener('click', function() {

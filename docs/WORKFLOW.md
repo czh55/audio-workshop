@@ -1,16 +1,18 @@
-# Blog → SVG 自动化工作流
+# 播客 → SVG 自动化工作流
 
-当 Cursor Automation 通过 Webhook 收到博客 URL 后，严格按本文档逐步骤执行。**不要跳过或合并任何步骤。**
+当 Cursor Automation 通过 Webhook 收到小宇宙播客链接后，严格按本文档逐步骤执行。**不要跳过或合并任何步骤。**
 
 ```
 Task Progress:
-- [ ] 1. 抓取网页（WebFetch 获取全文）
-- [ ] 2. 内容分析（六项硬性要求 + 六种卡片模板）
-- [ ] 3. 编写 SVG 生成脚本（.mjs + buildSvg + 完整 CSS）
-- [ ] 4. 执行脚本生成 SVG（node generate-{slug}.mjs）
-- [ ] 5. 更新 index.json
-- [ ] 6. Git 提交与推送
-- [ ] 7. 清理临时脚本
+- [ ] 1. 浏览器提取音频 URL（CDP 获取 audio src）
+- [ ] 2. 下载音频（curl -L -o）
+- [ ] 3. 安装依赖（ffmpeg + openai-whisper，仅首次）
+- [ ] 4. Whisper 转录（--model small --language Chinese）
+- [ ] 5. 读取转录稿并总结
+- [ ] 6. 生成 SVG（Node .mjs + svg-auto-height.mjs）
+- [ ] 7. 更新 index.json
+- [ ] 8. Git 提交与推送
+- [ ] 9. 清理临时文件
 ```
 
 ---
@@ -20,25 +22,87 @@ Task Progress:
 Webhook payload 格式：
 
 ```json
-{ "url": "https://example.com/your-blog-post" }
+{ "url": "https://www.xiaoyuzhoufm.com/episode/6a2be5da43a22a695582ad20" }
 ```
 
-从 payload 中提取 `url` 字段。若缺失，记录错误到 `docs/index.json` 并结束。
+从 payload 中提取 `url` 字段。若缺失，记录错误并结束。
 
 ---
 
-## Step 1：抓取网页
+## Step 1：浏览器提取音频 URL
 
-1. 使用 `WebFetch` 工具抓取 `url` 的内容
-2. 提取：标题、正文全文、作者（如有）、发布日期（如有）
-3. 若 WebFetch 返回 403/404 或无正文内容，在 `docs/index.json` 中记录失败项（见 Step 5），然后结束
-4. **必须完整阅读正文全文**，不要跳过任何章节
+小宇宙的音频 URL 在 `<audio>` 标签内，需用浏览器打开页面提取。
+
+```bash
+# 1.1 浏览器打开页面
+browser_navigate → {url}
+
+# 1.2 CDP 提取 audio src
+browser_cdp: Runtime.evaluate 执行:
+document.querySelector('audio')?.src || document.querySelector('audio source')?.src
+
+# 1.3 同时提取播客标题
+browser_cdp: Runtime.evaluate 执行:
+document.querySelector('.episode-title, h1')?.textContent?.trim()
+```
+
+获取到 audio_url 和 title 后进入下一步。若未找到音频链接，记录失败项并结束。
 
 ---
 
-## Step 2：内容分析
+## Step 2：下载音频
 
-这是整个流程最关键的步骤。按照以下规则分析文章内容。
+```bash
+curl -L -o "~/Projects/audio-workshop/{slug}.m4a" "{audio_url}" --progress-bar
+```
+
+- `{slug}`：从标题提取英文/拼音关键词，≤30 字符，不含空格和特殊字符
+- 示例：`curl -L -o "~/Projects/audio-workshop/spacex_history_podcast.m4a" "https://media.xyzcdn.net/xxx.m4a"`
+
+若下载失败（网络错误、403 等），重试最多 3 次。
+
+---
+
+## Step 3：安装依赖
+
+仅首次运行需要，已安装则跳过：
+
+```bash
+# 检查 ffmpeg
+which ffmpeg || brew install ffmpeg
+
+# 检查 whisper
+python3 -c "import whisper" 2>/dev/null || pip3 install --user openai-whisper
+
+# 设置 PATH
+export PATH="$PATH:/Users/chenzhiheng/Library/Python/3.9/bin"
+```
+
+---
+
+## Step 4：Whisper 转录
+
+```bash
+export PATH="$PATH:/Users/chenzhiheng/Library/Python/3.9/bin"
+cd ~/Projects/audio-workshop
+whisper {slug}.m4a --model small --language Chinese --output_dir .
+```
+
+**模型选择**：
+
+| 模型 | 中文质量 | 速度 | 适用 |
+|------|---------|------|------|
+| tiny | 一般 | 极快 | 快速预览 |
+| **small** | 较好 | 中等(~1h 音频≈1.5h) | **默认** |
+| medium | 很好 | 慢(~1h 音频≈4h) | 高质量需求 |
+
+转录产物：`{slug}.txt` `{slug}.srt` `{slug}.vtt` `{slug}.json`。
+
+---
+
+## Step 5：读取转录稿并总结
+
+读取 `{slug}.txt` 转录稿全文，按以下规则分析。
 
 ### 必须包含（继承 web-to-svg）
 
@@ -48,75 +112,16 @@ Webhook payload 格式：
 4. **对比分析**：多概念/观点并列时做横向对比表
 5. **方法边界**：每种方法/观点的适用上下限
 
-### 六种卡片模板（按需组合）
+### 播客特有处理
 
-根据文章类型，从以下模板中选取 3–5 种。每张卡片独立可读。
-
-**模板 A：概念拆解卡**
-```
-标题：是什么 + 一句话定性
-核心机制：用 2-3 句大白话解释怎么运作
-关键理解：为什么这样设计（深层原因）
-典型场景：什么时候用它
-边界说明：什么时候不该用它
-原文依据：引原文关键句
-相关概念：和 X 的区别/联系
-```
-
-**模板 B：方法/工具卡**
-```
-方法名 + 标签（适用场景标签）
-核心思路：一句话
-操作步骤：1→2→3→4 流程
-选型条件：什么情况下选它而非别的
-避坑：原文提到的陷阱或反模式
-对比相邻方法：和 Y 的关键差异
-原文引用
-```
-
-**模板 C：避坑清单卡**
-```
-坑名：一句话描述现象
-原因：为什么会踩
-原文说法：作者原话
-解法：怎么避免或修复
-严重程度：致命 / 小心 / 可忽略
-```
-
-**模板 D：决策/选型表**
-```
-场景 | 推荐方案 | 核心理由 | 不推荐的方案 | 为什么不行
-（至少覆盖 3 个不同场景）
-```
-
-**模板 E：跨概念对比表**
-```
-对比维度 | 概念A | 概念B | 概念C | 一句话结论
-（至少 3 维度 × 2 概念）
-```
-
-**模板 F：心法/原则卡**
-```
-原则：一句可记住的话
-为什么重要：反面案例
-原文支撑
-怎么落地：具体操作
-适用边界：什么情况例外
-```
-
-### 文章类型识别
-
-| 文章类型 | 识别特征 | 优先模板 | 侧重 |
-|---------|---------|---------|------|
-| 技术教程 | 含代码、步骤、命令 | B(方法卡)+C(避坑)+D(选型) | 落地操作 |
-| 观点/趋势文 | 含"我认为"、趋势判断 | A(概念拆解)+F(心法)+E(对比) | 认知转变 |
-| 工具介绍 | 介绍某产品/工具 | B(方法卡)+D(选型)+C(避坑) | 上手路径 |
-| 理论/方法论 | 含学术框架、模型 | A(概念拆解)+E(对比)+F(心法) | 边界与关系 |
-| 综述/盘点 | 含列表、分类 | D(选型表)+E(对比表)+A(概念拆解) | 全景对比 |
+- **标注时间戳关键节点**（Outline 章节）：如 `[02:15] SpaceX 早期融资困境`
+- **区分「嘉宾观点」与「主持人提问」**：使用 `.speaker-guest` `.speaker-host` 标签
+- **保留有争议的讨论点**，标注各方立场
+- **提取关键金句**：用 `.quote` 样式框标注
 
 ---
 
-## Step 3：编写 SVG 生成脚本
+## Step 6：生成 SVG
 
 在仓库根目录创建 `generate-{slug}.mjs` 脚本。**必须使用 `svg-auto-height.mjs` 的 `buildSvg` 函数。**
 
@@ -129,7 +134,7 @@ import { fileURLToPath } from 'url';
 import { buildSvg } from './svg-auto-height.mjs';
 
 const DIR = path.dirname(fileURLToPath(import.meta.url));
-const OUT = path.join(DIR, 'docs', 'YYYY-MM-DD-slug.svg');
+const OUT = path.join(DIR, 'docs', '{slug}-总结.svg');
 
 const CSS = `/* 见下方完整 CSS */`;
 
@@ -145,25 +150,39 @@ console.log('Generated:', OUT, 'height:', height, 'px');
 ```html
 <div class="container">
 
-<!-- 文首区：标题 + 标签 + 一句话概括 -->
-<h1>{文章标题}</h1>
+<!-- 文首区：标题 + 标签 + 一句话概括 + 时间轴 -->
+<h1>{播客标题}</h1>
 <div class="meta">
-  <span class="tag tag-blue">博客总结</span>
-  <span class="tag tag-purple">{主题标签2}</span>
-  <span class="tag tag-orange">{主题标签3}</span>
+  <span class="tag tag-blue">播客</span>
+  <span class="tag tag-purple">{主题标签}</span>
+  <span class="tag tag-orange">{时长}</span>
 </div>
-<div class="summary-line">{一句话概括}（以"本文解决的核心问题是……"开头）</div>
+<div class="summary-line">{一句话概括}</div>
 
-<!-- 认知纠偏（如有） -->
-<div class="correction">
-  <h3>⚠ 常见误解</h3>
-  <p>{纠偏内容}</p>
+<!-- 关键时间轴 -->
+<div class="timeline">
+  <h3>关键时间轴</h3>
+  <div class="timeline-item">
+    <span class="timeline-time">00:00</span>
+    <span class="timeline-text">开场介绍：主题引出</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">12:30</span>
+    <span class="timeline-text">核心章节1：...</span>
+  </div>
+  <!-- 更多时间节点 -->
 </div>
 
 <!-- 文首核心概念关系图 -->
 <div class="map">
   <h2>核心脉络</h2>
   <div class="diagram"><!-- 节点+箭头 --></div>
+</div>
+
+<!-- 认知纠偏（如有） -->
+<div class="correction">
+  <h3>⚠ 常见误解 / 认知纠偏</h3>
+  <p>{纠偏内容}</p>
 </div>
 
 <!-- 正文卡片区（按章节分组） -->
@@ -174,32 +193,27 @@ console.log('Generated:', OUT, 'height:', height, 'px');
   <div class="card">
     <h3>{概念名称}</h3>
     <p><b>核心机制：</b>用 2-3 句大白话解释</p>
-    <p><b>关键理解：</b>为什么这样设计</p>
-    <p><b>典型场景：</b>什么时候用它</p>
+    <p><b>关键理解：</b>为什么这样</p>
+    <p><b>典型场景：</b>什么时候用</p>
     <div class="relation">相关概念：和 X 的区别/联系</div>
-    <div class="highlight">原文依据：引原文关键句</div>
+    <div class="highlight">原文依据：转录稿关键句</div>
   </div>
 
-  <!-- 方法/工具卡（模板 B） -->
-  <div class="card">
-    <h3>{方法名}</h3>
-    <p><b>核心思路：</b>一句话</p>
-    <p><b>操作步骤：</b></p>
-    <ol>
-      <li>步骤1</li>
-      <li>步骤2</li>
-      <li>步骤3</li>
-      <li>步骤4</li>
-    </ol>
-    <div class="pitfall">避坑：原文提到的陷阱或反模式</div>
-    <div class="quote">原文引用</div>
+  <!-- 嘉宾观点卡 -->
+  <div class="card card-purple">
+    <h3>
+      <span class="speaker speaker-guest">嘉宾观点</span>
+      {观点摘要}
+    </h3>
+    <p>{详细阐述}</p>
+    <div class="quote">"{嘉宾原话}"</div>
   </div>
 
   <!-- 避坑清单卡（模板 C） -->
   <div class="card card-orange">
     <h3>⚠ {坑名}</h3>
     <p><b>原因：</b>为什么会踩</p>
-    <div class="pitfall">原文说法：作者原话</div>
+    <div class="pitfall">嘉宾说法：{原话}</div>
     <p><b>解法：</b>怎么避免或修复</p>
     <p><b>严重程度：</b>致命 / 小心 / 可忽略</p>
   </div>
@@ -207,12 +221,12 @@ console.log('Generated:', OUT, 'height:', height, 'px');
 
 <!-- 多观点对比表（模板 D/E） -->
 <div class="card">
-  <h3>决策对比</h3>
+  <h3>观点对比</h3>
   <table>
-    <tr><th>场景</th><th>推荐方案</th><th>核心理由</th><th>不推荐的方案</th><th>为什么不行</th></tr>
-    <tr><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td></tr>
-    <tr><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td></tr>
-    <tr><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td></tr>
+    <tr><th>维度</th><th>嘉宾观点</th><th>主流观点</th><th>一句话结论</th></tr>
+    <tr><td>...</td><td>...</td><td>...</td><td>...</td></tr>
+    <tr><td>...</td><td>...</td><td>...</td><td>...</td></tr>
+    <tr><td>...</td><td>...</td><td>...</td><td>...</td></tr>
   </table>
 </div>
 
@@ -220,7 +234,7 @@ console.log('Generated:', OUT, 'height:', height, 'px');
 <div class="card card-purple">
   <h3>💡 心法：{原则}</h3>
   <p><b>为什么重要：</b>反面案例</p>
-  <div class="quote">原文支撑</div>
+  <div class="quote">播客金句</div>
   <div class="action">怎么落地：具体操作</div>
   <p><b>适用边界：</b>什么情况例外</p>
 </div>
@@ -233,6 +247,8 @@ console.log('Generated:', OUT, 'height:', height, 'px');
     <li>要点1</li>
     <li>要点2</li>
     <li>要点3</li>
+    <li>要点4</li>
+    <li>要点5</li>
   </ul>
   <h3>行动清单</h3>
   <ol>
@@ -268,6 +284,11 @@ li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
 .tag-gray{background:#f1f5f9;color:#64748b}
 .meta{margin:12px 0 20px}
 .summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
 .map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,0.06)}
 .map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
 .diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
@@ -291,6 +312,9 @@ li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
 .card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
 .card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
 .card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.speaker{display:inline-block;font-size:13px;font-weight:600;padding:2px 10px;border-radius:12px;margin-right:8px}
+.speaker-host{background:#dbeafe;color:#1e40af}
+.speaker-guest{background:#ede9fe;color:#6b21a8}
 table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
 th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
 td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
@@ -300,19 +324,10 @@ tr:nth-child(even) td{background:#fafbfc}
 .conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,0.9);margin:20px 0 10px}
 .conclusion p,.conclusion li{color:rgba(255,255,255,0.9);font-size:15px}
 .footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}
 ```
 
-### XML 避坑（重要）
-
-- **禁止 HTML 注释中出现连续双连字符** `<!-- ... -->` 内不能有 `--`（XML 规范限制）
-- **禁止裸 `<` 符号**出现在文本中（如 `<$100`），必须转义为 `&lt;`
-- `buildSvg` 内置 `fixSvgXml()` 做了 `&` 转义和 `<br/>` 自闭合修复，无需手动处理
-- `buildSvg` 内置 50% 高度缓冲，无需手动加高度
-- `rsvg-convert` / Inkscape 不能正确渲染 foreignObject，勿用
-
----
-
-## Step 4：执行脚本生成 SVG
+### 运行
 
 ```bash
 node generate-{slug}.mjs
@@ -320,17 +335,15 @@ node generate-{slug}.mjs
 
 **Node 路径**：优先 `/Applications/Cursor.app/Contents/Resources/app/resources/helpers/node`。
 
-若执行失败，尝试 `which node` 找到系统 Node 路径。
+### XML 避坑
 
-文件名：`docs/YYYY-MM-DD-slug.svg`
-- `YYYY-MM-DD`：当天日期（北京时间 UTC+8）
-- `slug`：标题拼音首字母缩写或英文关键词，≤30 字符，不含空格和特殊字符
+- HTML 注释中禁止连续双连字符 `--`
+- 文本中裸 `<` 必须转义为 `&lt;`
+- `buildSvg` 已内置 `fixSvgXml()` 修复 `&` 和 `<br/>`
 
 ---
 
-## Step 5：质量自检
-
-生成后检查：
+## Step 7：质量自检
 
 - [ ] 每张卡片能回答"在问什么、关键理解、怎么用"
 - [ ] 至少包含 1 处落地建议（可执行的操作步骤）
@@ -338,38 +351,51 @@ node generate-{slug}.mjs
 - [ ] 涉及多方法时有选型/决策表
 - [ ] 每个概念都说明了适用边界
 - [ ] 多概念间有对比表（如有 2+ 概念）
-- [ ] 文首有概念关系图
+- [ ] 文首有核心脉络关系图
 - [ ] 结论区有三段式（总结 + 行动清单 + 认知转变）
+- [ ] 有时间轴关键节点
+- [ ] 区分了嘉宾观点与主持人提问
 - [ ] SVG 高度正常、XML 无错配标签
-- [ ] 用 file 命令确认文件是 SVG 格式，在浏览器可正常打开
 
 ---
 
-## Step 6：更新 index.json
+## Step 8：更新 index.json
 
-读取 `docs/index.json`，将新总结追加到数组开头（最新在前）。
+读取 `docs/index.json`，将新总结追加到数组开头。
 
 ```json
 {
   "date": "YYYY-MM-DD",
-  "filename": "YYYY-MM-DD-slug.svg",
-  "title": "文章标题",
+  "filename": "slug-总结.svg",
+  "title": "播客标题",
   "summary": "一句话摘要，≤120字",
-  "tags": ["AI", "趋势"],
-  "url": "https://原始链接",
-  "svg_height": 12345
+  "tags": ["商业", "科技"],
+  "url": "https://www.xiaoyuzhoufm.com/episode/原始ID",
+  "duration": "3小时01分",
+  "svg_height": 12620
 }
 ```
 
-若 Step 1 抓取失败或 Step 3-4 SVG 生成失败，记录失败项：
+**字段说明**：
+- `date`：生成日期 YYYY-MM-DD
+- `filename`：SVG 文件名（在 docs/ 目录下）
+- `title`：播客标题
+- `summary`：摘要（120 字内）
+- `tags`：标签数组（2-4 个）
+- `url`：原始播客链接
+- `duration`：音频时长
+- `svg_height`：SVG 高度像素值
+
+若失败，记录失败项：
 
 ```json
 {
   "date": "YYYY-MM-DD",
-  "title": "（失败）原始URL省略部分",
+  "title": "（失败）原始URL",
   "summary": "处理失败",
   "tags": [],
   "url": "https://原始链接",
+  "duration": "",
   "error": true,
   "error_message": "具体错误原因"
 }
@@ -377,25 +403,26 @@ node generate-{slug}.mjs
 
 ---
 
-## Step 7：Git 提交与推送
+## Step 9：Git 提交与推送
 
 ```bash
 git add docs/
-git commit -m "blog: summarize {文章标题}"
+git commit -m "podcast: summarize {播客标题}"
 git push origin main
 ```
 
-- 若 push 失败（冲突），先 `git pull --rebase` 再 push
-- 若仍然失败，记录错误到日志，不阻塞后续流程
+若 push 失败（冲突），先 `git pull --rebase` 再 push。若仍然失败，记录错误不阻塞。
 
 ---
 
-## Step 8：清理
-
-删除步骤 3 中创建的 `generate-{slug}.mjs` 临时脚本文件。
+## Step 10：清理
 
 ```bash
+# 删除生成脚本
 rm generate-{slug}.mjs
+
+# 可选：删除原始音频文件节省空间（转录稿保留）
+# rm {slug}.m4a
 ```
 
 ---
@@ -404,15 +431,27 @@ rm generate-{slug}.mjs
 
 GitHub Pages 会在推送后自动部署（约 1 分钟内生效）。
 
-- 首页：`https://czh55.github.io/audio-workshop/`
-- 直接 SVG 链接：`https://czh55.github.io/audio-workshop/YYYY-MM-DD-slug.svg`
+- 首页：`https://chenzhiheng.cn/audio-workshop/`
+
+---
+
+## 产出文件清单
+
+| 文件 | 说明 |
+|------|------|
+| `{slug}.m4a` | 原始音频 |
+| `{slug}.txt` | 纯文本转录稿 |
+| `{slug}.srt` | SRT 字幕 |
+| `{slug}.vtt` | WebVTT 字幕 |
+| `{slug}.json` | Whisper JSON（含置信度） |
+| `docs/{slug}-总结.svg` | 内容总结长图 |
 
 ---
 
 ## 约束
 
-- 不修改任何非 `docs/` 目录的文件（`generate-{slug}.mjs` 除外，用完立即删除）
+- 仅处理小宇宙（xiaoyuzhoufm.com）链接
+- 不修改非 `docs/` 目录的文件（`generate-{slug}.mjs` 除外，用完删除）
 - 不修改 `.gitignore`
-- SVG 文件大小控制在 200KB 以内
 - 每个 URL 只处理一次（检查 `index.json` 中是否已存在相同 `url` 的条目）
-- 严禁使用 `rsvg-convert` 或 Inkscape 渲染 SVG（它们不支持 `foreignObject`）
+- 严禁使用 `rsvg-convert` 或 Inkscape 渲染 SVG
