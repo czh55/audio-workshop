@@ -11,7 +11,7 @@ Task Progress:
 - [ ] 5. 读取转录稿并总结
 - [ ] 6. 生成 SVG（Node .mjs + svg-auto-height.mjs）
 - [ ] 7. 更新 index.json
-- [ ] 8. Git 提交与推送
+- [ ] 8. Git 提交并推送到 main（**必须**，Pages 才能展示）
 - [ ] 9. 清理临时文件
 ```
 
@@ -403,15 +403,28 @@ node generate-{slug}.mjs
 
 ---
 
-## Step 9：Git 提交与推送
+## Step 9：Git 提交与推送到 main（**必须**）
+
+> **此步骤不可跳过。** GitHub Pages 从 `main` 分支的 `docs/` 目录部署，只有推送到 `main` 后首页才能展示新内容。
 
 ```bash
+# 9.1 提交变更
 git add docs/
 git commit -m "podcast: summarize {播客标题}"
-git push origin main
+
+# 9.2 确保在 main 分支并推送（必须）
+git checkout main
+git pull origin main
+git merge {当前工作分支}   # 若已在 main 上则跳过
+git push -u origin main
 ```
 
-若 push 失败（冲突），先 `git pull --rebase` 再 push。若仍然失败，记录错误不阻塞。
+**要求：**
+- 最终变更**必须**出现在 `origin/main` 上，任务才算完成
+- 禁止仅推送到 feature 分支就结束；若 Automation 在 feature 分支开发，合并到 `main` 并 push 是收尾的必做动作
+- 推送前确认 `docs/index.json` 与 `docs/{slug}-总结.svg` 均已纳入提交
+
+若 push 失败（冲突），先 `git pull --rebase origin main` 再 push。若仍然失败，记录错误并标记任务未完成。
 
 ---
 
@@ -429,9 +442,11 @@ rm generate-{slug}.mjs
 
 ## 完成
 
-GitHub Pages 会在推送后自动部署（约 1 分钟内生效）。
+变更已推送到 `main` 后，GitHub Pages 会自动部署（约 1 分钟内生效）。
 
 - 首页：`https://chenzhiheng.cn/audio-workshop/`
+
+**验收：** 在浏览器打开首页，确认新条目与 SVG 链接可访问；若未出现，检查是否已 push 到 `main` 而非仅停留在 feature 分支。
 
 ---
 
@@ -455,3 +470,4 @@ GitHub Pages 会在推送后自动部署（约 1 分钟内生效）。
 - 不修改 `.gitignore`
 - 每个 URL 只处理一次（检查 `index.json` 中是否已存在相同 `url` 的条目）
 - 严禁使用 `rsvg-convert` 或 Inkscape 渲染 SVG
+- **必须将产出推送到 `main` 分支**，否则 GitHub Pages 无法展示，视为任务未完成
