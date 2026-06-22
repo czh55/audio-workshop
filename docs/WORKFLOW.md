@@ -22,10 +22,20 @@ Task Progress:
 Webhook payload 格式：
 
 ```json
-{ "url": "https://www.xiaoyuzhoufm.com/episode/6a2be5da43a22a695582ad20" }
+{
+  "url": "https://www.xiaoyuzhoufm.com/episode/6a2be5da43a22a695582ad20",
+  "date": "2026-06-22"
+}
 ```
 
+| 字段 | 必填 | 说明 |
+|------|------|------|
+| `url` | 是 | 小宇宙播客链接 |
+| `date` | 否 | 前端展示日期，格式 `YYYY-MM-DD`；**未提供时使用当天日期**（服务器本地时区） |
+
 从 payload 中提取 `url` 字段。若缺失，记录错误并结束。
+
+`date` 字段用于 Step 8 写入 `index.json`，首页按此日期分组展示（时间轴、日历打点均读取该字段，**不是**文件生成时间或播客发布时间）。
 
 ---
 
@@ -377,7 +387,7 @@ node generate-{slug}.mjs
 ```
 
 **字段说明**：
-- `date`：生成日期 YYYY-MM-DD
+- `date`：展示日期 `YYYY-MM-DD`。优先使用 Webhook payload 的 `date`；未提供则用**当天日期**（`date +%Y-%m-%d`）。前端首页时间轴与日历均读取此字段
 - `filename`：SVG 文件名（在 docs/ 目录下）
 - `title`：播客标题
 - `summary`：摘要（120 字内）
