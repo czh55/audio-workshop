@@ -1,6 +1,16 @@
 [
   {
     "date": "2026-06-23",
+    "filename": "photography_self_learn-总结.svg",
+    "title": "摄影这个东西，是可以自学的吗？",
+    "summary": "Photo Reason三位主播从摄影需不需要学、入门进阶自学路径到纽设/马格南课程推荐与踩坑经验，结论是努力比天赋更重要、摄影完全可以自学",
+    "tags": ["摄影", "自学", "艺术"],
+    "url": "https://www.xiaoyuzhoufm.com/episode/66bbaf3633591c27bedff423",
+    "duration": "1小时13分",
+    "svg_height": 10877
+  },
+  {
+    "date": "2026-06-23",
     "filename": "clawdbot_2026_phenomenon-总结.svg",
     "title": "E224｜深度拆解Clawdbot，为何它能成为2026年第一个现象级产品？",
     "summary": "硅谷101三位嘉宾从活人感、MD记忆架构、心跳机制到Mac mini隔离部署，全方位拆解OpenClaw为何引爆2026 Agent元年，并展望一人公司与按爬取付费新商业模式",
