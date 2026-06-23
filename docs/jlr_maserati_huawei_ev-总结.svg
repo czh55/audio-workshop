@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="8372" viewBox="0 0 1320 8372">
+  <foreignObject x="0" y="0" width="1320" height="8372">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,0.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:20px 28px;text-align:center;min-width:160px;font-weight:700;font-size:16px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3{color:#92400e;margin-bottom:8px}
+.correction p{color:#92400e;font-size:15px}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,0.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.speaker{display:inline-block;font-size:13px;font-weight:600;padding:2px 10px;border-radius:12px;margin-right:8px}
+.speaker-host{background:#dbeafe;color:#1e40af}
+.speaker-guest{background:#ede9fe;color:#6b21a8}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,0.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,0.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,0.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}</style>
+      <div class="container">
+
+<h1>捷豹路虎停产燃油车，玛莎拉蒂灵魂卖给华为？</h1>
+<div class="meta">
+  <span class="tag tag-blue">播客</span>
+  <span class="tag tag-purple">豪华合资</span>
+  <span class="tag tag-orange">59分钟</span>
+  <span class="tag tag-green">新能源转型</span>
+</div>
+<div class="summary-line">三刀串联玛莎拉蒂×华为×江淮「一车两卖」、Jeep×东风猛士模式与奇瑞捷豹路虎全面停产燃油车三大事件，揭示 Stellantis 系豪华品牌在华销量雪崩后「用品牌换生存」的新合资逻辑，以及中方主导技术、外方保留设计的行业范式转移。</div>
+
+<div class="timeline">
+  <h3>关键时间轴</h3>
+  <div class="timeline-item"><span class="timeline-time">00:48</span><span class="timeline-text">玛莎拉蒂寻求华为合作「续命」，鸿蒙智行第三种模式+一车两卖</span></div>
+  <div class="timeline-item"><span class="timeline-time">01:52</span><span class="timeline-text">国内挂尊界标、出口挂玛莎拉蒂标，江淮工厂共线生产</span></div>
+  <div class="timeline-item"><span class="timeline-time">09:39</span><span class="timeline-text">2025年华销量暴跌90%，仅千余辆，全球创新低</span></div>
+  <div class="timeline-item"><span class="timeline-time">11:57</span><span class="timeline-text">GranTurismo Folgore 89.88万→35.88万四折甩卖，纯电项目终止</span></div>
+  <div class="timeline-item"><span class="timeline-time">20:10</span><span class="timeline-text">生存抉择：与其等待消亡，不如用品牌换技术</span></div>
+  <div class="timeline-item"><span class="timeline-time">30:40</span><span class="timeline-text">Jeep 两次入华失败，考虑东风猛士技术合作</span></div>
+  <div class="timeline-item"><span class="timeline-time">35:06</span><span class="timeline-text">捷豹路虎2026年3月31日最后一台燃油路虎下线，Freelander品牌发布</span></div>
+  <div class="timeline-item"><span class="timeline-time">38:45</span><span class="timeline-text">捷豹XF月销275辆、路虎极光625辆，合计未破千</span></div>
+  <div class="timeline-item"><span class="timeline-time">46:43</span><span class="timeline-text">新规则：车型与投资由国内车企主导，海外品牌或仅换标</span></div>
+</div>
+
+<div class="map">
+  <h2>核心脉络</h2>
+  <div class="diagram">
+    <div class="node node-orange">豪华品牌<br/><small>销量雪崩</small></div>
+    <div class="arrow">→</div>
+    <div class="node">灵魂不值钱<br/><small>产品力归零</small></div>
+    <div class="arrow">→</div>
+    <div class="node node-green">绑定中国技术<br/><small>华为/奇瑞/东风</small></div>
+    <div class="arrow">→</div>
+    <div class="node node-orange">一车双标<br/><small>国内尊界/神行者</small></div>
+    <div class="arrow">→</div>
+    <div class="node">中国制造<br/><small>输出全球</small></div>
+  </div>
+</div>
+
+<div class="correction">
+  <h3>⚠ 常见误解 / 认知纠偏</h3>
+  <p><span class="speaker speaker-host">主持人三刀</span>明确反对「玛莎拉蒂放下身段找华为」的说法：在<strong>燃油车</strong>领域玛莎拉蒂仍是二王一后，有品牌溢价；但在<strong>新能源</strong>领域其灵魂本身就不值钱——89万没人要、35万不敢要。灵魂论的前提是灵魂能在市场上卖出价；当肉体（产品力）快被抛弃时，谈灵魂没有意义。</p>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">Part 1：玛莎拉蒂的困局与华为的「续命」合作</h2>
+
+  <div class="card">
+    <h3>「一车两卖」合作模式</h3>
+    <p><b>核心机制：</b>Stellantis（玛莎拉蒂母公司）+ 华为鸿蒙智行 + 江淮汽车三方合作。采用鸿蒙智行第三种模式（深度绑定体系），但与以往不同之处在于「一车两卖」——国内挂尊界标销售，出口挂玛莎拉蒂标。</p>
+    <p><b>关键理解：</b>江淮与华为已有尊界品牌（华为五界中最贵），玛莎拉蒂大概率与尊界共线生产。最快2027年有望量产。</p>
+    <p><b>典型场景：</b>类似模式已在 Stellantis 旗下 Jeep 与东风猛士合作中复现——猛士技术直接放入 Jeep 新能源越野车。</p>
+    <div class="relation">相关概念：与阿维塔（技术参与但不主导）、零部件供应模式相比，这是全栈赋能+渠道共享的最深度绑定</div>
+    <div class="highlight">原文依据：「国内它是挂着尊界的标在卖，国外是挂着玛莎拉蒂的标在卖，就是一句话就说清楚了」</div>
+  </div>
+
+  <div class="card card-purple">
+    <h3><span class="speaker speaker-host">主持人观点</span>这不是「放下身段」，是「灵魂本来就不值钱」</h3>
+    <p>燃油车领域玛莎拉蒂是纯正意大利超跑品牌，有溢价；但新能源领域造纯电超跑至今没有成功案例。2025年华销量仅千余辆（暴跌90%），产品力约值30万、品牌溢价占50万、智能体验连10万都不到。</p>
+    <div class="quote">「灵魂是附在肉体上的，你肉体就快被抛弃了，你还有什么灵魂的？」</div>
+    <div class="action">怎么落地：评价此类合作时，先区分该品牌在当前动力形式下是否仍有独立溢价，再判断「灵魂论」是否成立</div>
+    <p><b>适用边界：</b>奔驰宝马等仍有燃油车刚需和新能源基本盘的品牌，仍可浅尝辄止式合作；玛莎拉蒂/JLR 这类双输品牌才需要梭哈</p>
+  </div>
+
+  <div class="card card-orange">
+    <h3>⚠ GranTurismo Folgore 纯电滑铁卢</h3>
+    <p><b>原因：</b>400V平台卖89.88万（2025年800V已普及）；CLTC 533km实际仅300-400km；老车机无OTA；Stellantis 明确不再投资电动化，此为最后一批清仓退市。</p>
+    <div class="pitfall">三刀总结：「89万没人要，35万不敢要」——一周不到就被自媒体买光，但订车已不可能</div>
+    <p><b>解法：</b>彻底重构产品模式，绑定华为全栈智能+宁德时代电池+增程/纯电双动力</p>
+    <p><b>严重程度：</b>致命——直接导致品牌被迫「用品牌换技术」</p>
+  </div>
+
+  <div class="card">
+    <h3>黑箱 vs 白盒：技术合作交付模式</h3>
+    <p><b>核心机制：</b>「黑箱交付」= 整套技术打包给你，像魔法盒；「白盒交付」= 开放部分能力但保留核心秘密。玛莎拉蒂需要黑箱式全栈赋能才能短期补齐短板。</p>
+    <p><b>关键理解：</b>温和方案不足以救命——燃油车时代已是濒临淘汰品牌，新能源颗粒无收，只有全栈附能+彻底重构才有回主流市场的可能。</p>
+    <div class="highlight">原文依据：「你只有跟华为这种叫做全栈自研、全栈赋能，然后彻底去重构他的产品模式，你才能短时间内迅速的去补齐他的短板」</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">Part 2：传统豪车品牌的集体转型阵痛</h2>
+
+  <div class="card">
+    <h3>捷豹路虎：首个全面停产燃油车的豪华合资</h3>
+    <p><b>核心机制：</b>2026年3月31日，最后一台燃油路虎揽胜极光在常熟基地下线；同时发布全新电动品牌 Freelander（神行者）。奇瑞捷豹路虎成为首个全面关停燃油车的合资品牌。</p>
+    <p><b>关键理解：</b>其他合资也在喊停产但没真做——JLR 要么上岸要么跳船。常熟基地已砸30亿，未来五年推6款纯电/增程/插混车型，底子全是奇瑞技术。</p>
+    <div class="relation">与玛莎拉蒂对比：JLR 走奇瑞路线，玛莎拉蒂走华为路线，模式相同——中方主导技术运营，外方主导设计外观</div>
+    <div class="highlight">原文依据：「2026年3月31号，最后一辆燃油版的路虎揽胜极光在常熟的基地下线」</div>
+  </div>
+
+  <div class="card card-orange">
+    <h3>⚠ 销量断崖：8年缩减四分之三</h3>
+    <p><b>原因：</b>2017年高光时刻年销8万+（含进口超14万），2025年史上最低仅2万多台。2019起连降：-36%、-8.5%、-3%、-8.7%、-19%、-22%。</p>
+    <div class="pitfall">2026年3月：捷豹XF月销275辆，路虎极光625辆，国产合计未破千</div>
+    <p><b>解法：</b>Freelander 采用零库存+全授权轻资产+密集网点模式（类似新势力），统一交付售后</p>
+    <p><b>严重程度：</b>致命——不转型就等死，但转型意味着外方话语权让渡</p>
+  </div>
+
+  <div class="card">
+    <h3>Jeep 的华之殇</h3>
+    <p><b>核心机制：</b>Jeep 两次入华均告失败，未能跟上中国新能源节奏。最早国产的豪华越野品牌，两死两生后国产基本停掉只卖进口牧马人。现考虑与东风合作，猛士技术放入 Jeep 新能源越野车。</p>
+    <p><b>典型场景：</b>「一车双标」——Jeep 与猛士品牌并行销售同一技术底子的产品</p>
+    <div class="highlight">原文依据：「Jeep、玛莎拉蒂等纷纷考虑与东风、华为合作求存」</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">Part 3：合作新模式与中国汽车产业崛起</h2>
+
+  <div class="card">
+    <h3>合资话语权逆转</h3>
+    <p><b>核心机制：</b>新能源时代合资公司内中方话语权显著增强。外方最多主导设计外观，技术、运营、投资由国内车企主导。未来海外品牌在华新能源或仅「换标」。</p>
+    <p><b>关键理解：</b>这是中国制造向全球输出的标志性事件——欧洲豪华品牌内心灵魂换成中国魂。</p>
+    <div class="action">买车前必做：查该合资品牌跟谁合作，车机/三电/智驾大概率就是合作方的方案</div>
+  </div>
+
+  <div class="card">
+    <h3>三大合作路径对比</h3>
+    <table>
+      <tr><th>品牌</th><th>中国伙伴</th><th>技术方案</th><th>国内品牌</th><th>一句话结论</th></tr>
+      <tr><td>玛莎拉蒂</td><td>华为+江淮</td><td>鸿蒙智行全栈</td><td>尊界</td><td>设计留意式，灵魂换华为</td></tr>
+      <tr><td>捷豹路虎</td><td>奇瑞</td><td>奇瑞三电+智驾</td><td>Freelander神行者</td><td>全面电动化，外方仅设计</td></tr>
+      <tr><td>Jeep</td><td>东风</td><td>猛士越野平台</td><td>Jeep/猛士双标</td><td>越野基因+国产新能源</td></tr>
+    </table>
+  </div>
+
+  <div class="card card-purple">
+    <h3>💡 心法：活下去比交灵魂更重要</h3>
+    <p><b>为什么重要：</b>智能电动时代不要再幻想品牌高溢价。跟不上时代+新能源颗粒无收=跌下神坛，哪怕百年品牌也没用。</p>
+    <div class="quote">「绑定顶尖的这些技术，用品牌换生存，这才是破局之道」</div>
+    <div class="action">对消费者：玛莎拉蒂设计+华为智能，关键看价格——Grecale造型+华为全套卖35.8万你买不买？</div>
+    <p><b>适用边界：</b>奔驰宝马仍有燃油车红利可吃，可浅尝合作；边缘品牌必须梭哈</p>
+  </div>
+
+  <div class="card card-green">
+    <h3>Freelander 新商业模式三特点</h3>
+    <p><b>1. 零库存：</b>不压库存，按需生产</p>
+    <p><b>2. 全授权轻资产：</b>销售交付售后一体化，经销商少但网点多（商场也开店）</p>
+    <p><b>3. 统一交付售后：</b>一个城市一两个交付点/售后点，类似新势力模式</p>
+    <div class="relation">本质：传统合资花体系已完全失效，必须借用中国新势力运营逻辑</div>
+  </div>
+</div>
+
+<div class="conclusion">
+  <h2>总结与行动</h2>
+  <h3>核心要点</h3>
+  <ul>
+    <li>玛莎拉蒂×华为×江淮「一车两卖」：国内尊界标、出口玛莎拉蒂标，2027年有望量产</li>
+    <li>2025玛莎拉蒂华销量暴跌90%至千余辆，纯电 Folgore 89万→35万四折仍难卖</li>
+    <li>「灵魂论」在新能源领域不成立——产品力归零时灵魂无附着物</li>
+    <li>奇瑞捷豹路虎2026年3月全面停产燃油车，Freelander 品牌接棒电动化</li>
+    <li>合资新范式：中方主导技术运营，外方保留设计，海外品牌或仅换标</li>
+  </ul>
+  <h3>行动清单</h3>
+  <ol>
+    <li>买豪华合资品牌新能源前，先查清背后中国技术伙伴（华为/奇瑞/东风）及对应车机三电方案</li>
+    <li>关注尊界与玛莎拉蒂共线车型的最终定价——35万级 Grecale+华为全套是重要价格锚点</li>
+    <li>跟踪 Freelander 神行者2026年交付表现，验证传统合资电动化转型是否可行</li>
+    <li>对 Stellantis 系品牌（玛莎拉蒂/Jeep）保持谨慎——销量雪崩期品牌溢价持续缩水</li>
+    <li>用「肉体是否还有价值」框架替代「灵魂论」来评估外资品牌在华合作诚意</li>
+  </ol>
+  <h3>关键认知转变</h3>
+  <p>以前认为豪华品牌找华为是「放下身段交灵魂」；现在理解在新能源领域这些品牌的灵魂本身已无法卖出价——合作不是屈就，而是生存必需。合资时代外方主导技术的日子结束了，中国车企从学习者变成技术输出者。</p>
+</div>
+
+<div class="footer">百车全说 · 三刀 · 来源：小宇宙播客</div>
+</div>
+    </div>
+  </foreignObject>
+</svg>
