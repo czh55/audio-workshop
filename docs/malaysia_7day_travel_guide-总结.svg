@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="12726" viewBox="0 0 1320 12726">
+  <foreignObject x="0" y="0" width="1320" height="12726">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,0.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:20px 28px;text-align:center;min-width:160px;font-weight:700;font-size:16px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3{color:#92400e;margin-bottom:8px}
+.correction p{color:#92400e;font-size:15px}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,0.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.speaker{display:inline-block;font-size:13px;font-weight:600;padding:2px 10px;border-radius:12px;margin-right:8px}
+.speaker-host{background:#dbeafe;color:#1e40af}
+.speaker-guest{background:#ede9fe;color:#6b21a8}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,0.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,0.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,0.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}</style>
+      <div class="container">
+
+<h1>马来西亚7天6晚：榴莲自由是假象，我带回了这本1.3万字的避坑血泪史</h1>
+<div class="meta">
+  <span class="tag tag-blue">播客</span>
+  <span class="tag tag-purple">旅行攻略</span>
+  <span class="tag tag-orange">1小时43分</span>
+  <span class="tag tag-green">百车全说</span>
+</div>
+<div class="summary-line">三刀一家三口春节七天六晚马来西亚自由行实录：西马吉隆坡 Citywalk + 东马亚庇跳岛浮潜，总预算约2.5万。核心结论——出国感不强但性价比高，真正值的是与人交流、亲子开眼界，而非打卡景点；避坑关键是功课做足、别在商圈吃榴莲、别信小红书焦虑。</div>
+
+<div class="timeline">
+  <h3>关键时间轴</h3>
+  <div class="timeline-item"><span class="timeline-time">00:00</span><span class="timeline-text">开场：为何选马来西亚、西马东马路线规划、亚庇 vs 仙本那对比</span></div>
+  <div class="timeline-item"><span class="timeline-time">05:47</span><span class="timeline-text">春节三亚机票破万 vs 吉隆坡三千，七天六晚预算拆解约2.5万</span></div>
+  <div class="timeline-item"><span class="timeline-time">07:42</span><span class="timeline-text">亲子出国理念：寒暑假出国开眼界，不特种兵式打卡</span></div>
+  <div class="timeline-item"><span class="timeline-time">13:22</span><span class="timeline-text">廉航 vs 东航、MDAC入境卡、SIM卡与Maybank换汇技巧</span></div>
+  <div class="timeline-item"><span class="timeline-time">40:51</span><span class="timeline-text">吉隆坡百威年商圈、猫山王榴莲「刺客」400元事件</span></div>
+  <div class="timeline-item"><span class="timeline-time">45:51</span><span class="timeline-text">华人司机聊房价、土著优先政策与南洋华人处境</span></div>
+  <div class="timeline-item"><span class="timeline-time">01:01:25</span><span class="timeline-text">环滩岛浮潜果冻海、救生衣≠潜水、日落与京朝海鲜</span></div>
+  <div class="timeline-item"><span class="timeline-time">01:13:42</span><span class="timeline-text">大王花砸碎赔5万马币、长鼻猴与萤火虫红树林</span></div>
+  <div class="timeline-item"><span class="timeline-time">01:26:33</span><span class="timeline-text">亚庇飞吉隆坡、Sama-Sama机场酒店、登机口安检</span></div>
+  <div class="timeline-item"><span class="timeline-time">01:34:44</span><span class="timeline-text">万字攻略总结、听友互动与留言回复</span></div>
+</div>
+
+<div class="map">
+  <h2>核心脉络</h2>
+  <div class="diagram">
+    <div class="node">吉隆坡<br/>西马1天<br/>Citywalk+吃</div>
+    <span class="arrow">→</span>
+    <div class="node-green">亚庇<br/>东马5天<br/>海+雨林</div>
+    <span class="arrow">→</span>
+    <div class="node-orange">体验&gt;打卡<br/>交流&gt;景点<br/>功课&gt;冲动</div>
+  </div>
+</div>
+
+<div class="correction">
+  <h3>⚠ 常见误解 / 认知纠偏</h3>
+  <p><b>误解1：</b>马来西亚「榴莲自由」= 便宜又好吃。<b>真相：</b>非旺季（6-7月才集中上市）在商圈吃猫山王90+马币/公斤属正常价；本地小榴莲10-20马币虽便宜但口感发白稀拉，只是「扎个味」。</p>
+  <p><b>误解2：</b>出国就要把所有地标走一遍。<b>真相：</b>三刀刻意跳过双峰塔、默迪卡118，宁愿多吃、多聊——旅行价值在体验与认知框架，非打卡清单。</p>
+  <p><b>误解3：</b>小红书说的「提前3小时到机场」「景区人山人海」。<b>真相：</b>春节实测航班空位多、排队正常，亚庇机场提前2小时足够。</p>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">Part 1｜路线选择与预算</h2>
+
+  <div class="card">
+    <h3>西马 + 东马经典七日结构</h3>
+    <p><b>核心机制：</b>6-7天行程 = 吉隆坡1天（西马）+ 飞东马2小时（类似上海飞新疆）+ 亚庇或仙本那4-5天。吉隆坡华人多、基建好但「出国感弱」；东马主打海与雨林。</p>
+    <p><b>关键理解：</b>亚庇（沙巴首府）住宿基建更好、行程轻松；仙本那更原生态、需能吃苦。玩法本质相同：浮潜/跳岛/看海。</p>
+    <p><b>典型场景：</b>带初中孩子、想轻松玩海选亚庇；潜水发烧友、能接受简陋住宿选仙本那。</p>
+    <div class="relation">相关概念：「跳岛」不是跳水，是包船一天刷2-4个岛，岛上就是沙滩+浮潜+吃饭。</div>
+    <div class="highlight">原文依据：「路上的行程越折腾，那么在岛上无非就是沙滩玩一玩，然后拍拍照片打打卡，浮潜看鱼再吃个饭。」</div>
+  </div>
+
+  <div class="card card-purple">
+    <h3><span class="speaker speaker-host">主持人三刀</span>春节一家三口预算约2.5万</h3>
+    <p>机票（南京往返吉隆坡，春节约3000/人）+ 民宿600元/晚×6 ≈ 1.2-1.3万；餐饮约1000元/天×6；报团（浮潜+红树林）约3000。平时机票可低至1300往返杭州-亚庇。</p>
+    <div class="quote">「基本在马来西亚去玩吃住行报团，加在一起两万五左右，我觉得应该是能打得住的。」</div>
+  </div>
+
+  <div class="card card-purple">
+    <h3><span class="speaker speaker-host">主持人三刀</span>亲子出国：认知拼图而非即时改变</h3>
+    <p>初中六个寒暑假若都出国，可走十来国。不追求孩子立刻改变，而是让经历像拼图慢慢拼成完整认知——中国 vs 外国文化、英语重不重要、将来想成为什么样的人。</p>
+    <div class="quote">「他每一次的这些经历……就像一块拼图……最终他可能能拼成一片完整的图片，那个时候可能就会出现一个认知的觉醒。」</div>
+    <div class="action">怎么落地：五一十一国内短途，寒暑假出国；可接受请几天假补课，但不放弃出行机会。</div>
+    <p><b>适用边界：</b>需有一定经济条件和家庭共识；江苏等卷省需与补课安排平衡。</p>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">Part 2｜行前准备与落地攻略</h2>
+
+  <div class="card">
+    <h3>MDAC 电子入境卡（必做）</h3>
+    <p><b>核心机制：</b>马来西亚虽免签，但必须提前在线填 MDAC。未登记刷护照会报警，需现场填表耽误时间。</p>
+    <p><b>关键理解：</b>小红书有图文教程，10分钟/人，无需英文基础。打印备份非必须，线上登记即可自动过关。</p>
+    <div class="action">怎么落地：出发前准备机票订单+护照，按小红书步骤填写；三人约半小时。</div>
+  </div>
+
+  <div class="card">
+    <h3>SIM卡 vs 中国移动无忧行</h3>
+    <table>
+      <tr><th>方案</th><th>覆盖</th><th>价格</th><th>适用</th></tr>
+      <tr><td>Celcom</td><td>全马含偏远海岛</td><td>30马币/100GB/7天</td><td>西马+东马都玩</td></tr>
+      <tr><td>Hotlink</td><td>吉隆坡等大城市5G好</td><td>相近</td><td>只玩吉隆坡周边</td></tr>
+      <tr><td>移动无忧行</td><td>无需换卡</td><td>7天约60元</td><td>移动用户图方便</td></tr>
+    </table>
+    <div class="pitfall">嘉宾说法：「回国你没有流量……所以一定要带一根卡针。」落地出口买卡、回国入口无售卡点。</div>
+  </div>
+
+  <div class="card card-orange">
+    <h3>⚠ 换汇：Maybank 黄色 ATM 曲线</h3>
+    <p><b>原因：</b>国内机场换汇汇率可达2.7-2.8，Maybank ATM 含手续费约1.8+，差值是真金白银。</p>
+    <p><b>解法：</b>落地吉隆坡找黄色 Maybank 机器，有中文选项（中间一页可能跳马来文，用 AI 拍照翻译确认/取消键）。取500马币够用，临走前优先花完现金。</p>
+    <p><b>严重程度：</b>小心（小币种剩太多回国换汇麻烦）</p>
+  </div>
+
+  <div class="card">
+    <h3>Grab 打车 + 大行李首晚 MPV</h3>
+    <p>国内提前下载 Grab 绑定支付宝，吉隆坡基本秒接单、华人司机多。亚庇本地司机为主、英文交流。28寸+20寸行李箱首晚可携程约 MPV（约贵100元）求安心。</p>
+    <div class="highlight">原文依据：「Grap 在当地可以说是应该算是一家独大……基本上五秒以内十秒以内就有人接单。」</div>
+  </div>
+
+  <div class="card card-orange">
+    <h3>⚠ 长途飞行与住宿细节</h3>
+    <p><b>原因：</b>5小时+航班、机场物价2-3倍（手枪腿20马币、水5马币）、英式插座需转换头/接线板。</p>
+    <p><b>解法：</b>薄荷糖+下载剧集+降噪耳机+靠过道座位定时起身；自带过滤花洒（吉隆坡水沙多，滤芯变绿）；酒店/民宿让房东备转换头。</p>
+    <p><b>严重程度：</b>可忽略（有准备则无碍）</p>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">Part 3｜吉隆坡：吃、榴莲与「没出国感」</h2>
+
+  <div class="card">
+    <h3>为什么马来西亚「不好玩」？</h3>
+    <p><b>核心机制：</b>吉隆坡华人遍地、商场跟国内一样（霸王茶姬、大众点评打折），出国体验感不足。但若了解历史文化、跟当地人聊天、算一算费用，性价比其实不错。</p>
+    <div class="relation">相关概念：雀鸟公园适合带娃（90马币成人），门口5马币芒果沙冰必喝；百威年商场像迷宫，肥肥蟹需上午10点排队。</div>
+  </div>
+
+  <div class="card card-orange">
+    <h3>⚠ 猫山王榴莲「刺客」事件</h3>
+    <p><b>原因：</b>非榴莲季+百威年商圈+误把 RM 当 RMB，2公斤猫山王刷卡400+元。AI 查价称被宰（正常40-50马币/公斤），华人司机解释非旺季商圈89马币属正常行情。</p>
+    <div class="pitfall">嘉宾说法：「RM 是马来西亚的货币叫令吉，它不是 RMB……这就是没文化的代价。」</div>
+    <p><b>解法：</b>6-7月榴莲季去郊区买；亚庇榴莲一条街猫山王约50马币/公斤。先尝本地小榴莲1-2个即可，不必追求「自由」。</p>
+    <p><b>严重程度：</b>小心（情绪上被宰比贵更不爽）</p>
+  </div>
+
+  <div class="card">
+    <h3>导航：高德 &gt; 谷歌（在马来西亚）</h3>
+    <p>三刀实测高德地图路线更准、反应更快。找榴莲店被谷歌绕路后切换高德解决。</p>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">Part 4｜社会观察：华人、汽车与油价</h2>
+
+  <div class="card card-purple">
+    <h3><span class="speaker speaker-guest">华人司机</span>「纳税90%却是二等公民」</h3>
+    <p>马来西亚土著优先（固打制）：大学70%学额留马来人、企业需30%马来人持股、公务员77.7%马来人。华人第三代仍难享同等国民待遇，但买房偏好强（两套房一套出租给儿子）。</p>
+    <div class="quote">「华人那90%的税，却仍然是二等公民。」（时频道《南洋大宝荐》总结，三刀转述）</div>
+    <div class="relation">相关概念：1965年新加坡被逐出联邦，李光耀反对土著特权是核心原因之一。</div>
+  </div>
+
+  <div class="card">
+    <h3>马来西亚街头汽车生态</h3>
+    <table>
+      <tr><th>品牌/现象</th><th>特点</th><th>一句话</th></tr>
+      <tr><td>Perodua (第二国产车)</td><td>换壳大发/丰田，占街头7-8成</td><td>便宜耐修，Grab 最便宜档全是它</td></tr>
+      <tr><td>Proton 宝腾</td><td>吉利控股，X70/X50换标博越/缤越</td><td>国产新能源渗透中</td></tr>
+      <tr><td>比亚迪</td><td>10-15万马币，当地算豪车</td><td>95号油补贴后1.99马币/升，开电车=有钱人</td></tr>
+    </table>
+    <div class="highlight">原文依据：「开比亚迪的都是有钱人……这里的油本身就很便宜，他不去加那么便宜的油，反而去折腾去充电。」</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">Part 5｜亚庇玩法：海、雨林与避坑</h2>
+
+  <div class="card">
+    <h3>环滩岛浮潜（Day 4）</h3>
+    <p><b>核心机制：</b>56公里高速快艇1-1.5小时，果冻海能见度极高。浮潜=穿救生衣脸埋水面看鱼，不是潜水；会游泳也不建议脱救生衣，海浪大、海水咸涩难控。</p>
+    <p><b>关键理解：</b>五人精品团约600元/人含接送+午餐；自购面镜咬嘴鞋套约400元/人更卫生。GoPro 需原装防水壳先在家水盆测试防起雾。</p>
+    <div class="action">怎么落地：上午少吃+备塑料袋防晕船+降噪耳塞；船头船尾位置较稳。</div>
+    <div class="quote">「什么照片什么视频都不用拍，你就用心去感受海底这个世界，这个钱绝对是能够值回票价的。」</div>
+  </div>
+
+  <div class="card card-orange">
+    <h3>⚠ 丹绒亚路「最美日落」照骗</h3>
+    <p><b>原因：</b>无权威机构认证，小红书滤镜严重。三刀实看「也没什么特别的」，云层厚时更平淡。</p>
+    <p><b>解法：</b>教练推荐太平洋丝绸酒店穿过大堂到海滩，人少景同；或接受「来了就感受一下」心态。</p>
+    <p><b>严重程度：</b>可忽略（预期管理即可）</p>
+  </div>
+
+  <div class="card">
+    <h3>京朝/静文海鲜 + 苏梅鱼</h3>
+    <p>五菜约200马币（400人民币），苏梅鱼国内二级保护禁止捕捞、沙巴可合法吃。娘惹菜香料重，建议先少点试口味。大市场现挑海鲜有被调包风险（大龙虾变小）。</p>
+  </div>
+
+  <div class="card card-orange">
+    <h3>⚠ 大王花：手滑代价8万人民币</h3>
+    <p><b>原因：</b>花期仅3-7天，不可触摸。导游称有游客手机砸碎花瓣赔5万马币（约8万RMB），真实性未核实但景区明确警告。</p>
+    <p><b>解法：</b>爬山约1小时上下，整山仅3朵（常2朵枯萎）；拍照拿稳手机，用10马币纸币打卡。</p>
+    <p><b>严重程度：</b>致命（物理接触+拍照大意）</p>
+  </div>
+
+  <div class="card card-purple">
+    <h3><span class="speaker speaker-guest">导游/教练</span>红树林：长鼻猴 + 萤火虫</h3>
+    <p>长鼻猴鼻子向下长（≠匹诺曹向前），需长焦/望远镜。萤火虫林手机拍不出，只能用心感受——整片树林星星点点，比南京中山陵更震撼。一日游约500元/人，别坐大巴最后一排（靠背直如老虎凳）。</p>
+    <div class="quote">「你再好的手机……都是一片黑漆麻乌的，都拍不出来，所以你只能是用心去感受。」</div>
+  </div>
+
+  <div class="card">
+    <h3>亚庇 vs 吉隆坡 打车差异</h3>
+    <table>
+      <tr><th>维度</th><th>吉隆坡</th><th>亚庇</th><th>结论</th></tr>
+      <tr><td>司机语言</td><td>多数华人，中文顺畅</td><td>多数本地人，简单英文</td><td>东马需准备基础英文</td></tr>
+      <tr><td>住宿</td><td>公寓约600元/晚</td><td>JQ哲斯顿码头约600元/晚</td><td>民宿性价比一致</td></tr>
+      <tr><td>特殊规定</td><td>常规</td><td>榴莲禁入房间（酒店罚款）</td><td>东马注意榴莲外食</td></tr>
+    </table>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">Part 6｜返程与机场冷知识</h2>
+
+  <div class="card">
+    <h3>沙巴「国内航线」却要盖出境章</h3>
+    <p>1963年联邦制下东马保留移民管控权，防西马人口抢占资源。吉隆坡↔亚庇虽同国，护照需盖章，类似出境体验。</p>
+  </div>
+
+  <div class="card">
+    <h3>Sama-Sama 机场酒店 &amp; 登机口安检</h3>
+    <p>赶早班机推荐：大堂到航站楼约1-2分钟摆渡。吉隆坡机场先自助打印登机牌+行李牌，再自助托运。安检在登机口而非入口，充电宝/电脑可不拿出（水需扔、金属皮带需摘）。</p>
+    <div class="action">怎么落地：国内航班提前2小时足够；托运柜台注意开放时间（如3:50才开，早到只能干等）。</div>
+  </div>
+
+  <div class="card card-purple">
+    <h3>💡 心法：体验优先，功课前置</h3>
+    <p><b>为什么重要：</b>马来西亚不是景点型目的地，是「伪出国+真划算+重准备」型。没做功课就会在榴莲、换汇、机场物价上踩坑。</p>
+    <div class="quote">「去马来西亚想省钱，一定要多做功课，多去看一些去过的人给你做分享。」</div>
+    <div class="action">怎么落地：收藏1.3万字攻略、提前填 MDAC、Maybank 取现、Grab 绑定、6-7月再去吃榴莲。</div>
+    <p><b>适用边界：</b>若追求强烈异国风情或顶级海岛，可能失望；若亲子+海鲜+轻松海玩，亚庇很合适。</p>
+  </div>
+</div>
+
+<div class="conclusion">
+  <h2>总结与行动</h2>
+  <h3>核心要点</h3>
+  <ul>
+    <li>经典7日 = 吉隆坡1天 + 亚庇/仙本那5天；春节一家三口约2.5万，平时可减半</li>
+    <li>价值在体验与交流，非地标打卡；带孩子出国是拼认知拼图</li>
+    <li>行前必做：MDAC、Celcom卡+卡针、Maybank换汇、Grab、转换头/过滤花洒</li>
+    <li>榴莲：6-7月旺季去郊区，RM≠RMB；本地小榴莲便宜但口感差，尝1-2个即可</li>
+    <li>亚庇精华：环滩岛浮潜、红树林萤火虫、海鲜；大王花勿触摸、手机拿稳</li>
+  </ul>
+  <h3>行动清单</h3>
+  <ol>
+    <li>出发前3天：填 MDAC 入境卡，下载 Grab 并绑定支付宝，准备卡针和英式转换头</li>
+    <li>落地吉隆坡：Celcom 30马币/100GB，Maybank 黄色 ATM 取500马币</li>
+    <li>规划东马：亚庇选轻松路线（环滩岛1岛浮潜 + 红树林1日），大团需确认上船人数</li>
+    <li>吃榴莲：避开百威年商圈非旺季，去亚庇榴莲街或6-7月郊区，先查 RM 价格</li>
+    <li>返程：亚庇/吉隆坡机场提前2小时，赶早班机可考虑 Sama-Sama 机场酒店</li>
+  </ol>
+  <h3>关键认知转变</h3>
+  <p>以前认为「马来西亚不好玩、出国感不强就是亏」——现在理解了：它是一本1.3万字的避坑手册型目的地，性价比+亲子价值+华人社会观察才是核心回报；「榴莲自由」是假象，「功课自由」才是真自由。</p>
+</div>
+
+<div class="footer">来源：百车全说 · 三刀 · 小宇宙播客</div>
+
+</div>
+    </div>
+  </foreignObject>
+</svg>
