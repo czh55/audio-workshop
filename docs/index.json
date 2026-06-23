@@ -1,6 +1,16 @@
 [
   {
     "date": "2026-06-23",
+    "filename": "deepseek_v4_infra_context-总结.svg",
+    "title": "163: 详解DeepSeekV4：Infra巨婴、百万上下文走进现实、极致效率优化",
+    "summary": "晚点聊邀请架构与Infra一线从业者精读V4报告：DSA稀疏注意力让百万上下文实用化，放弃MLA冲击MRA路线，发布当天跑通推理RL全链路的工程标杆",
+    "tags": ["科技", "AI", "大模型"],
+    "url": "https://www.xiaoyuzhoufm.com/episode/69f2e8ef0694c843e7cd91b6",
+    "duration": "1小时34分",
+    "svg_height": 10979
+  },
+  {
+    "date": "2026-06-23",
     "filename": "iiac_coffee_gold_award-总结.svg",
     "title": "咖啡豆｜瑞幸库迪麦当劳纷纷「摘得」IIAC 金奖，为何金奖咖啡豆在国内遍地开花？",
     "summary": "声动早咖啡拆解 IIAC/ICT 赛事机制：85 分 + 前 25% 即金奖、无参赛门槛，对比卓越杯与 WBC，揭示瑞幸示范效应叠加万元级营销如何让金奖标签在中国咖啡市场遍地开花",
