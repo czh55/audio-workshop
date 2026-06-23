@@ -1,6 +1,16 @@
 [
   {
     "date": "2026-06-23",
+    "filename": "smart_perception_sensors-总结.svg",
+    "title": "摄像头、紫光波、激光雷达，UWB，谁才是智能感知的关键？",
+    "summary": "三刀大白话拆解超声波雷达、UWB、摄像头、毫米波雷达、激光雷达五大传感器，从理想L9取消超声波改用UWB切入，讲清原理优缺点与融合感知策略",
+    "tags": ["科技", "汽车", "智能驾驶"],
+    "url": "https://www.xiaoyuzhoufm.com/episode/6a0df9471b7bd5029589a9e1",
+    "duration": "56分33秒",
+    "svg_height": 10661
+  },
+  {
+    "date": "2026-06-23",
     "filename": "clawdbot_2026_phenomenon-总结.svg",
     "title": "E224｜深度拆解Clawdbot，为何它能成为2026年第一个现象级产品？",
     "summary": "硅谷101三位嘉宾从活人感、MD记忆架构、心跳机制到Mac mini隔离部署，全方位拆解OpenClaw为何引爆2026 Agent元年，并展望一人公司与按爬取付费新商业模式",
