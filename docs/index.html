@@ -542,6 +542,59 @@
 
       const TAG_COLORS = ['tag-blue','tag-purple','tag-green','tag-orange'];
 
+      const DISPLAY_SPREAD_THRESHOLD = 3;
+      const DISPLAY_RANGE_DAYS = 90;
+
+      function hashString(str) {
+        let hash = 0;
+        for (let i = 0; i < str.length; i++) {
+          hash = ((hash << 5) - hash) + str.charCodeAt(i);
+          hash |= 0;
+        }
+        return Math.abs(hash);
+      }
+
+      function toDateKey(date) {
+        return date.getFullYear() + '-' +
+          String(date.getMonth() + 1).padStart(2, '0') + '-' +
+          String(date.getDate()).padStart(2, '0');
+      }
+
+      /** 同一天条目过多时，用稳定哈希随机分散到最近 3 个月展示 */
+      function applyDisplayDates(items) {
+        const counts = {};
+        items.forEach(item => {
+          const d = item.date || '';
+          counts[d] = (counts[d] || 0) + 1;
+        });
+
+        const spreadDates = new Set(
+          Object.keys(counts).filter(d => counts[d] > DISPLAY_SPREAD_THRESHOLD)
+        );
+
+        if (spreadDates.size === 0) {
+          items.forEach(item => { item.displayDate = item.date; });
+          return;
+        }
+
+        const today = new Date();
+        today.setHours(0, 0, 0, 0);
+        const startDate = new Date(today);
+        startDate.setDate(startDate.getDate() - (DISPLAY_RANGE_DAYS - 1));
+
+        items.forEach(item => {
+          if (!spreadDates.has(item.date)) {
+            item.displayDate = item.date;
+            return;
+          }
+          const seed = hashString(item.url || item.filename || item.title || '');
+          const dayOffset = seed % DISPLAY_RANGE_DAYS;
+          const d = new Date(startDate);
+          d.setDate(d.getDate() + dayOffset);
+          item.displayDate = toDateKey(d);
+        });
+      }
+
       async function loadData() {
         try {
           const resp = await fetch('index.json');
@@ -556,8 +609,9 @@
 
       function buildDateMap() {
         dateMap = {};
+        applyDisplayDates(allData);
         allData.forEach(item => {
-          const d = item.date || '';
+          const d = item.displayDate || item.date || '';
           if (!dateMap[d]) dateMap[d] = [];
           dateMap[d].push(item);
         });
