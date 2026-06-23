@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="11009" viewBox="0 0 1320 11009">
+  <foreignObject x="0" y="0" width="1320" height="11009">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,0.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:20px 28px;text-align:center;min-width:160px;font-weight:700;font-size:16px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3{color:#92400e;margin-bottom:8px}
+.correction p{color:#92400e;font-size:15px}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,0.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.speaker{display:inline-block;font-size:13px;font-weight:600;padding:2px 10px;border-radius:12px;margin-right:8px}
+.speaker-host{background:#dbeafe;color:#1e40af}
+.speaker-guest{background:#ede9fe;color:#6b21a8}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,0.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,0.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,0.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}</style>
+      <div class="container">
+
+<h1>环球旅行两年，我绝不是这个世界的NPC</h1>
+<div class="meta">
+  <span class="tag tag-blue">播客</span>
+  <span class="tag tag-purple">肥话连篇 VOL.233</span>
+  <span class="tag tag-orange">1小时41分</span>
+  <span class="tag tag-green">神奇女侠系列</span>
+</div>
+<div class="summary-line">
+  裸辞两年走遍28国的大喜，从免签低门槛出发，从打卡游客蜕变为「行走的人类学家」——不靠攻略、不刷点评、不经营社交账号，在墓地、尼罗河、秘鲁葬礼与纽约夜景中确认自己不是世界的NPC，而是能主动选择人生轨道的活人。
+</div>
+
+<div class="timeline">
+  <h3>关键时间轴</h3>
+  <div class="timeline-item">
+    <span class="timeline-time">00:00</span>
+    <span class="timeline-text">开场：神奇女侠系列时隔多年回归，介绍裸辞环球旅行者大喜</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">05:30</span>
+    <span class="timeline-text">基本信息：2024年2月出发，两年28国，南美冷门国与东欧免签路线</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">12:00</span>
+    <span class="timeline-text">出发逻辑：免签低门槛起步，没给自己贴「环球旅行」标签</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">22:00</span>
+    <span class="timeline-text">旅行风格进化：打卡游客 → 无攻略街巷漫步的人类观察</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">35:00</span>
+    <span class="timeline-text">埃及尼罗河翻船：多国背包客随音乐起舞，突破语言的纯粹快乐</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">48:00</span>
+    <span class="timeline-text">秘鲁误入葬礼：全程参与祷告、拥抱、发酒发餐，吃到最地道的本地饭</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">58:00</span>
+    <span class="timeline-text">「你不是NPC」：芬兰旅伴的认可，捡垃圾、换毛衣的背包客文化</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">72:00</span>
+    <span class="timeline-text">旅途人物：60岁英国教授、40岁阿根廷理发师，反思自身文化盲区</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">88:00</span>
+    <span class="timeline-text">父母关系：用行动证明能力，父亲从催婚到以村为轴心周边旅行</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">98:00</span>
+    <span class="timeline-text">未来展望：轨道从「没得选」变「可选项」，渴望创造与深耕</span>
+  </div>
+</div>
+
+<div class="map">
+  <h2>核心脉络</h2>
+  <div class="diagram">
+    <div class="node">社会时钟<br/>轨道生活</div>
+    <span class="arrow">→</span>
+    <div class="node-orange">裸辞出发<br/>免签低门槛</div>
+    <span class="arrow">→</span>
+    <div class="node">打卡游客<br/>景点博物馆</div>
+    <span class="arrow">→</span>
+    <div class="node-green">人类观察<br/>无预设漫步</div>
+    <span class="arrow">→</span>
+    <div class="node-purple">活人而非NPC<br/>主动选择轨道</div>
+  </div>
+</div>
+
+<div class="correction">
+  <h3>⚠ 常见误解 / 认知纠偏</h3>
+  <p><b>误解1：</b>环球旅行=财富自由。大喜并非有钱人，只是裸辞后选择能承受的生活方式。<br/>
+  <b>误解2：</b>旅行需要完美攻略和宏大计划。她最初只想「出去玩一下」，从泰国两周开始，计划是走出来的。<br/>
+  <b>误解3：</b>脱离轨道=永远不回来。两年后她可能回归职场或深耕某领域，但那是看过世界后的主动选择，而非被迫。<br/>
+  <b>误解4：</b>旅行就是去远方才精彩。回来后她发现家乡快递站小妹、馄饨摊大姐同样值得人类学式的好奇。</p>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">一、出发：最低门槛启动法</h2>
+
+  <div class="card">
+    <h3>免签路线起步</h3>
+    <p><b>核心机制：</b>像跑步一样选最容易启动的事——搜社交网站找免签国家路线（东欧、泰国等），不被签证、装备、攻略吓住。</p>
+    <p><b>关键理解：</b>第一趟并非「环球旅行」，只是离职后想出国看看；第一次走了七八国两三个月后，才确认自己适合背包客生活。</p>
+    <p><b>典型场景：</b>有旅行念头但总觉得准备不足、计划太大而难以启动时。</p>
+    <div class="relation">相关概念：与「攒够钱再出发」「做完美攻略再出门」形成对比——行动先于标签。</div>
+    <div class="highlight">原文依据：「我一开始没打着环球旅行这个标签出去，只是想出去玩一下……慢慢的才成为了完成了环球旅行的人。」</div>
+  </div>
+
+  <div class="card card-purple">
+    <h3>
+      <span class="speaker speaker-guest">嘉宾观点</span>
+      计划定太大就难启动
+    </h3>
+    <p>很多人把「环球旅行」想成复杂大事而迟迟不动；大喜因为「暂时没工作了，出去玩一下」，从不要签证的地方开始，反而走通了。</p>
+    <div class="quote">「有的人计划定太大，就觉得要做一件挺复杂的事情，然后就很难启动。」</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">二、旅行方法论：行走的人类学家</h2>
+
+  <div class="card card-green">
+    <h3>无攻略街巷漫步</h3>
+    <p><b>核心机制：</b>到当地不看攻略，在旅游区与居民区大街小巷随意走，看到好奇的就去看看，让目的地给惊喜。</p>
+    <p><b>关键理解：</b>从最初跟搭子打卡热门景点，进化到「自然发生」式旅行；事后才总结为「行走的人类学观察」。</p>
+    <p><b>适用边界：</b>适合时间充裕、心态松弛的慢旅行；短期出差式五天游仍可能需要攻略保障。</p>
+    <div class="highlight">原文依据：「我会喜欢到当地之后就是不看任何攻略……走到哪儿算哪儿，看到什么觉得好奇然后就去看看。」</div>
+  </div>
+
+  <div class="card">
+    <h3>本地人餐厅识别法</h3>
+    <p><b>核心机制：</b>不走点评软件，观察街边餐厅——非游客区、有当地老人/带娃家庭/下班上班族在吃，则便宜地道。</p>
+    <p><b>关键理解：</b>穷游背包客预算有限，失败了一餐明天再找；不拍照不发朋友圈，只为体验本身。</p>
+    <div class="relation">与点评App高分店对比：前者求分享与确定性，后者求本地性与松弛感。</div>
+    <div class="action">怎么落地：出国时长≥2周时，随机选一条非主街，观察用餐人群结构再进门。</div>
+  </div>
+
+  <div class="card card-orange">
+    <h3>⚠ 短期旅行者的安全感陷阱</h3>
+    <p><b>原因：</b>工作日族只有五天假期，一顿踩雷就浪费额度，无法像长期旅居者那样「今天不行明天再吃」。</p>
+    <div class="pitfall">主持人说法：「我们的旅行可能时间是很短的……他很担心把今天的这餐饭的额度给了一家走进去有可能不好吃的餐厅。」</div>
+    <p><b>解法：</b>按可承受的时间长度选择策略——短假用点评保底，长假练习无预设探索。</p>
+    <p><b>严重程度：</b>可忽略（方法论选择问题，非绝对对错）</p>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">三、高光时刻：随机邂逅的力量</h2>
+
+  <div class="card card-purple">
+    <h3>
+      <span class="speaker speaker-guest">嘉宾观点</span>
+      智利墓地：Rachel的三周年
+    </h3>
+    <p>Pontarenas海景墓地，白发老人穿红棉袄捧红玫瑰来祭拜2022年9月11日去世的Rachel——恰好是拜访三周年。墓碑前散落不同枯萎程度的红玫瑰，暗示他常来。</p>
+    <div class="quote">「是一个非常非常动人的一个爱情故事……这个是我在来之前没有预料到的。」</div>
+  </div>
+
+  <div class="card">
+    <h3>埃及尼罗河翻船夕阳</h3>
+    <p><b>在讲什么：</b>木船上一群来自美、法、马、埃、中的背包客，手机放歌即起舞，女生坐船舷看夕阳下牵驴的埃及人——油画般的跨文化共振。</p>
+    <p><b>关键理解：</b>快乐不来自豪华船或名乐队，而是音乐与舞蹈突破语言的最底层愉悦。</p>
+    <div class="highlight">原文依据：「一群来自世界不同国家的人聚在同一个地方享受当下……就是一个手机放出来的歌，但那一刻就是激发了大家。」</div>
+  </div>
+
+  <div class="card card-purple">
+    <h3>
+      <span class="speaker speaker-guest">嘉宾观点</span>
+      纽约曼哈顿：圣地巡礼的配得感
+    </h3>
+    <p>看了二十多年美剧后，普通背包客签证入境、隔着脏玻璃看曼哈顿夜景——不是华尔街之狼，而是「我不懂我就来玩玩」的震撼。</p>
+    <div class="quote">「我居然也能出现在这里，好神奇啊……I am the chosen one。」</div>
+  </div>
+
+  <div class="card card-green">
+    <h3>秘鲁误入葬礼</h3>
+    <p>教堂里好奇停留，全程参与祷告、唱歌、拥抱，被发红酒、三明治、正式本地套餐——任何点评软件都找不到的极致地道体验。</p>
+    <div class="action">方法边界：需要开放心态与尊重当地礼仪；不可刻意闯入私人场合。</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">四、背包客文化与「活人」身份</h2>
+
+  <div class="card">
+    <h3>青旅互助与以物易物</h3>
+    <p>旅客留下不要的衣服供后来者免费拿或交换；大喜用夏天T恤换冬天毛衣。二手市集捡家具、与室友捡垃圾——德国室友笑称刷新了亚洲女生认知。</p>
+    <div class="highlight">原文依据：「我觉得你一定不是一个NPC……对，我就不是一个NPC，我还挺特别的。」</div>
+  </div>
+
+  <div class="card">
+    <h3>路上捡搭子</h3>
+    <p>泰国独行，阿塞拜疆出境被边检警告「小心」后沮丧，下机发现同旅舍中国背包客瞬间安全感回归；法国兄妹、阿根廷小伙、芬兰人等成为难忘旅伴。</p>
+    <p><b>关键理解：</b>异国他乡更容易「捡」到志同道合的人，但核心是先敢于一个人出发。</p>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">五、旅途中的人物与自我反观</h2>
+
+  <div class="card">
+    <h3>观点对比：三种旅行者人生</h3>
+    <table>
+      <tr><th>维度</th><th>60岁英国教授</th><th>40岁阿根廷理发师</th><th>大喜（30+）</th><th>一句话结论</th></tr>
+      <tr><td>经济基础</td><td>伦敦+巴黎房产，出租旅行</td><td>智利/阿根廷理发店交给家人</td><td>裸辞，穷游背包</td><td>有钱没钱都能走，关键在选择</td></tr>
+      <tr><td>旅行节奏</td><td>每城1-3个月，一年只逛墨西哥</td><td>青旅换宿教舞蹈</td><td>两年28国，紧凑多国</td><td>慢深与广快是不同策略</td></tr>
+      <tr><td>对大喜的触动</td><td>问为何中国学生取英文名</td><td>对中医道教好奇，大喜答不上来</td><td>反思文化输出盲区</td><td>看世界反而逼你回看祖国</td></tr>
+      <tr><td>旅行起点</td><td>年轻时就是嬉皮士旅行家</td><td>40岁中年危机后出发</td><td>离职后免签路线起步</td><td>没有唯一正确的出发年龄</td></tr>
+    </table>
+  </div>
+
+  <div class="card card-orange">
+    <h3>⚠ 文化自卑与输出心虚</h3>
+    <p><b>原因：</b>出发时觉得「外面都是好的」，被外国人问起中医、道教、历史时发现自己一无所知。</p>
+    <div class="pitfall">嘉宾说法：「我们好像是要去汲取的，但在他们眼中我们是东方神秘国度的延伸……我们发现我们提供不了什么东西，会很遗憾、心虚。」</div>
+    <p><b>解法：</b>旅行后主动回补本国文化知识；用中文名字介绍自己。</p>
+    <p><b>严重程度：</b>小心</p>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">六、父母、社会时钟与轨道选择</h2>
+
+  <div class="card card-purple">
+    <h3>
+      <span class="speaker speaker-host">主持人提问</span>
+      父母管控的本质是什么？
+    </h3>
+    <p>肥杰归纳：父母是否干涉，取决于他们是否感受到你比他们有能力和过得好。大喜带父亲游上海、住好酒店，父亲从「太贵了」到认可女儿能力；甚至以村为轴心骑电动车周边游。</p>
+    <div class="quote">「父母究竟以什么样的证据来证明我的孩子真的过上了幸福的生活？前提就是他到底是不是切实的幸福。」</div>
+  </div>
+
+  <div class="card">
+    <h3>社会时钟 vs 轨道外生活</h3>
+    <p><b>核心机制：</b>父母被社会时钟捆绑更深，投射结婚、买房、升职期待；大喜父母经济有限，只盼「有持续收入、自己自足」。</p>
+    <p><b>关键理解：</b>用地球仪给父亲「洗脑」——活几十年，结婚生子是给谁完成任务？旅行后父亲语言上接受：结婚生子是一种生活方式，环球旅行也是。</p>
+    <div class="action">怎么落地：用可验证的行动（收入、带父母体验）替代争吵，比讲道理更有效。</div>
+  </div>
+
+  <div class="card card-purple">
+    <h3>💡 心法：轨道从「必须」变「可选」</h3>
+    <p><b>为什么重要：</b>以前觉得只有离开村子去中心才活得了；现在主动选择回来，家乡的人与景都值得人类学式好奇。</p>
+    <div class="quote">「那些你们想象中的自由生活我已经都去看过了……看完之后我决定我没选。现在不论选哪一个，这都是我的选择。」</div>
+    <div class="action">怎么落地：在承受范围内多体验，把想象变成真实选项后再做决定。</div>
+    <p><b>适用边界：</b>需有一定经济缓冲与安全网；并非鼓励盲目裸辞。</p>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">七、两年后：从体验到创造</h2>
+
+  <div class="card">
+    <h3>未来方向的变化</h3>
+    <p>最初答案一定是继续旅行；现在想在某领域持续投入、创造、产出——可能是回原行业、Vintage生意或新兴趣。发现自己最开心的是「完成一个有自己想法的东西」，哪怕只是一段文字。</p>
+    <div class="relation">与NPC心态对比：NPC按脚本走；活人经历足够多后，主动选择深耕或回归。</div>
+    <div class="highlight">原文依据：「我真的是一个特别容易放弃的人……但我觉得我需要去练习这个东西，它是我的挑战，我就想要完成它。」</div>
+  </div>
+
+  <div class="card card-green">
+    <h3>同一杯水的不同味道</h3>
+    <p>旅行前觉得日常无聊；回来后日常变珍贵。费杰总结：体验多了才能把选项变成自己的，认真做选择——哪怕十年后选择回村子陪父亲也好。</p>
+    <div class="quote">「同一杯水，今天的我喝了，和环球旅行后回来的我喝了，味道是不一样的。」</div>
+  </div>
+</div>
+
+<div class="conclusion">
+  <h2>总结与行动</h2>
+  <h3>核心要点</h3>
+  <ul>
+    <li>环球旅行不必等财富自由或完美计划，从免签、低门槛、小目标出发最容易启动</li>
+    <li>旅行风格可从打卡进化到无预设漫步，用观察本地用餐人群等方法深入当地</li>
+    <li>随机邂逅（墓地、河流、误入葬礼）带来的震撼，胜过精心安排的景点打卡</li>
+    <li>背包客文化强调互助与「活人」身份——你不是世界剧本里的NPC</li>
+    <li>看世界会逼你回看自身文化，也会把人生轨道从「被迫」变成「可选」</li>
+  </ul>
+  <h3>行动清单</h3>
+  <ol>
+    <li>若有旅行念头：查一条免签/落地签路线，定一个两周内可执行的最小出发动作</li>
+    <li>下次出国≥2周：选一天不打开攻略，随机街巷漫步+观察本地人餐厅</li>
+    <li>记录一次「无预设」遭遇的感动瞬间，练习配得感而非焦虑错过</li>
+    <li>补一门本国文化/历史常识，以备跨文化交流时不心虚</li>
+    <li>用一个小行动向父母证明你的能力与幸福，而非空讲人生选择</li>
+  </ol>
+  <h3>关键认知转变</h3>
+  <p>以前认为：精彩人生在远方中心，轨道生活是必须完成的任务，旅行需要宏大计划与足够金钱。现在理解了：精彩可以在随机日常里，轨道是体验过后的可选项；最低门槛出发、慢慢走成自己的路，同样可以成为这个世界上的活人而非NPC。</p>
+</div>
+
+<div class="footer">
+  来源：小宇宙FM - 肥话连篇 VOL.233 神奇女侠系列 | 嘉宾：大喜 | 转录：Whisper small | 生成时间：2026-06-23
+</div>
+
+</div>
+    </div>
+  </foreignObject>
+</svg>
