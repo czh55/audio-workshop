@@ -1,7 +1,18 @@
 [
   {
     "date": "2026-06-23",
-    "filename": "ai_app_burst_e223-总结.svg",
+    "filename": "polyglot_five_languages-总结.svg",
+    "title": "002. 讲五门语言的人生是什么体验？",
+    "summary": "瑞雪Cloe与Yvonne Du两位polyglot畅聊五门语言人生：从追星自学英语、Lady Gaga点燃意大利语，到法语因爱情复活；核心洞见是任何语言都能掌握、口音是来时路的勋章",
+    "tags": [
+      "语言学习",
+      "自我成长",
+      "文化"
+    ],
+    "url": "https://www.xiaoyuzhoufm.com/episode/6931b3d53fec3166cf508299",
+    "duration": "61分钟",
+    "svg_height": 9323
+  },
     "title": "E223｜应用爆发之年：聊聊模型技术进化与商业化",
     "summary": "硅谷101对话阿里云千问许东、影石齐教授、予易吕迎杰：万相视频进入生产级、推理成本半年降量级、端云Omni 4B、360度自动剪辑与消费者意图识别从降本转向增效",
     "tags": [
