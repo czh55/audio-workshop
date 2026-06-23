@@ -1,10 +1,28 @@
 [
   {
     "date": "2026-06-23",
+    "filename": "gangrenboqi_zhuanshan_guide-总结.svg",
+    "title": "Ep194 可能是全网最完全冈仁波齐转山说明书",
+    "summary": "毛冬连续两年单日转冈仁波齐，联合咏哥、刘醒、弹旺在海拔4630米山脚下拆解马年转山热潮、52公里外转实操、卓玛拉垭口5600米难度与阿里高反机制",
+    "tags": [
+      "户外",
+      "旅行",
+      "西藏"
+    ],
+    "url": "https://www.xiaoyuzhoufm.com/episode/69f04d48b973c3fd59984685",
+    "duration": "2小时02分",
+    "svg_height": 9534
+  },
+  {
+    "date": "2026-06-23",
     "filename": "thinking_fast_slow_brain-总结.svg",
     "title": "Vol.331 思考，快与慢：我的大脑为什么总是欺骗我",
     "summary": "文化有限重读卡尼曼诺奖名著：系统一占95%决策且系统性犯错，系统二懒惰只盖章；锚定、损失厌恶、峰终定律与禀赋效应，附消费防坑与AI幻觉对照",
-    "tags": ["心理学", "行为经济学", "认知科学"],
+    "tags": [
+      "心理学",
+      "行为经济学",
+      "认知科学"
+    ],
     "url": "https://www.xiaoyuzhoufm.com/episode/69e576c91d989496e70382ca",
     "duration": "1小时56分",
     "svg_height": 9495
@@ -14,7 +32,11 @@
     "filename": "fatigue_economics_e227-总结.svg",
     "title": "E227 疲惫经济学：为什么技术进步了，我们却更累了？",
     "summary": "雨白与温逸飞解析技术越进步越累的悖论：八小时工作制源于冷战劳工妥协、AI先做监工、疲惫催生外卖等千亿产业，以及结构性疲惫下个体如何卸压",
-    "tags": ["经济学", "职场", "社会"],
+    "tags": [
+      "经济学",
+      "职场",
+      "社会"
+    ],
     "url": "https://www.xiaoyuzhoufm.com/episode/69b3b675772ac2295bfc01d0",
     "duration": "1小时05分",
     "svg_height": 9593
@@ -24,7 +46,11 @@
     "filename": "zhangxiaoyu_life_serious-总结.svg",
     "title": "E221 对话张潇雨：生活太重要，以至于不能太认真",
     "summary": "张潇雨五年后回归小酒馆：人生逻辑大于社会角色、把自己当作品、无我行动与 raw sensation 练习，讨论生活太重要反而不必太认真，以及命运如何用重复课题逼你自由",
-    "tags": ["自我成长", "播客", "哲学"],
+    "tags": [
+      "自我成长",
+      "播客",
+      "哲学"
+    ],
     "url": "https://www.xiaoyuzhoufm.com/episode/6972e4f5ef1cf272a7fa507a",
     "duration": "1小时24分",
     "svg_height": 9186
@@ -34,7 +60,11 @@
     "filename": "yaoshunyu_ai_interview-总结.svg",
     "title": "140. 对姚顺宇的4小时访谈：请允许我小疯一下！",
     "summary": "物理博士半道出家、参与Claude与Gemini训练的姚顺宇直言：AI英雄主义时代已过去，模型拉平后赌的是定义问题，靠谱比天才重要，Pre-train远未到头",
-    "tags": ["AI", "大模型", "科技"],
+    "tags": [
+      "AI",
+      "大模型",
+      "科技"
+    ],
     "url": "https://www.xiaoyuzhoufm.com/episode/6a00aa051b7bd50295dfe41d",
     "duration": "3小时51分",
     "svg_height": 11192
@@ -44,7 +74,11 @@
     "filename": "outdoor_geography_class-总结.svg",
     "title": "91｜一节户外地理课",
     "summary": "地理教师张老师为户外人解答冰川、湖泊颜色、等高线、营地选址、鳌太线、横断山脉等实战问题：地理的灵魂是实践，看懂风景比打卡更能提升徒步安全与乐趣",
-    "tags": ["户外", "地理", "徒步"],
+    "tags": [
+      "户外",
+      "地理",
+      "徒步"
+    ],
     "url": "https://www.xiaoyuzhoufm.com/episode/69cb7e21b977fb2c47b88308",
     "duration": "57分钟",
     "svg_height": 10761
@@ -54,7 +88,11 @@
     "filename": "model_y_3year_loss_champion-总结.svg",
     "title": "Model Y凭什么连赢三年，全球销冠背后没那么简单",
     "summary": "三刀拆解特斯拉Model Y连续三年全球乘用车销冠、累计超400万辆背后的深层逻辑：时代切换、透明定价、极致标准化与上海工厂产能叠加，电动车首次持续夺得全球销量王座",
-    "tags": ["汽车", "特斯拉", "新能源"],
+    "tags": [
+      "汽车",
+      "特斯拉",
+      "新能源"
+    ],
     "url": "https://www.xiaoyuzhoufm.com/episode/69d61071e2c8be3155aca11b",
     "duration": "1小时14分",
     "svg_height": 8714
@@ -64,7 +102,11 @@
     "filename": "beijing_autoshow_beyond_cars-总结.svg",
     "title": "这属北京车展，最值得看的不只是车",
     "summary": "三刀复盘2026北京车展：38万㎡供应商登台、选车从认品牌转向认供应链、智驾顶天立地双线推进、9系宇宙与BBA中国方案反击，游戏规则正被消费者重新定义",
-    "tags": ["汽车", "车展", "商业"],
+    "tags": [
+      "汽车",
+      "车展",
+      "商业"
+    ],
     "url": "https://www.xiaoyuzhoufm.com/episode/69ed0f5a1e94ae692125ffc1",
     "duration": "74分钟",
     "svg_height": 13355
@@ -74,7 +116,11 @@
     "filename": "lidar_800v_ideal_l9-总结.svg",
     "title": "四鹊激光雷达拍800V主动悬架，理想L9真被遥感了？",
     "summary": "三刀试驾理想L9 Levi's：四颗固态激光雷达补盲、800V全主动悬架分体式大力路线、上市直降5万至50万级，以及OTA备案≠实质审查的边界辨析",
-    "tags": ["汽车", "新能源", "智能驾驶"],
+    "tags": [
+      "汽车",
+      "新能源",
+      "智能驾驶"
+    ],
     "url": "https://www.xiaoyuzhoufm.com/episode/6a081febe1eb34a939819eab",
     "duration": "1小时45分",
     "svg_height": 8805
@@ -84,7 +130,11 @@
     "filename": "buy_car_impulse_guide-总结.svg",
     "title": "便宜不是香，冲动才是贵，这期专治买车上头",
     "summary": "三刀答疑五类买车上头场景：6万油换电未必省钱、途岳VS5看标不看参数、30万淘途锐3.0T不现实、给老人换零跑先问意愿、报KOL名字砍价反被套路",
-    "tags": ["汽车", "选车", "消费"],
+    "tags": [
+      "汽车",
+      "选车",
+      "消费"
+    ],
     "url": "https://www.xiaoyuzhoufm.com/episode/69e3b75f1d989496e7efabc1",
     "duration": "41分钟",
     "svg_height": 9357
@@ -94,7 +144,11 @@
     "filename": "greenlights_v329-总结.svg",
     "title": "Vol.329 绿灯：朝气蓬勃的生活，比蒸蒸日上的事业更重要",
     "summary": "文化有限共读马修·麦康纳《绿灯》：绿灯是拒绝错误路口而非开挂人生，生机勃勃的生活比事业巅峰更重要；拒1450万浪漫喜剧、成名后房车三年与认真生活哲学",
-    "tags": ["文学", "播客", "自传"],
+    "tags": [
+      "文学",
+      "播客",
+      "自传"
+    ],
     "url": "https://www.xiaoyuzhoufm.com/episode/69d1e86bb977fb2c47215ffc",
     "duration": "1小时22分",
     "svg_height": 10811
@@ -104,7 +158,11 @@
     "filename": "tesla_xinwangda_battery-总结.svg",
     "title": "特斯拉为什么选了「二线」电池厂欣旺达？",
     "summary": "三刀拆解欣旺达成特斯拉第五家电池供应商：只供电芯不供模组、出口欧洲车型，揭示供应链多元化与去供应商化双战略，以及业绩下滑下用二线厂商撬动宁王定价权的博弈逻辑",
-    "tags": ["汽车", "新能源", "供应链"],
+    "tags": [
+      "汽车",
+      "新能源",
+      "供应链"
+    ],
     "url": "https://www.xiaoyuzhoufm.com/episode/69ffaf4fe1eb34a93913ae93",
     "duration": "1小时05分",
     "svg_height": 9159
@@ -114,7 +172,11 @@
     "filename": "work_value_rebuild-总结.svg",
     "title": "E234｜当我不再被工作定义！5 个普通人的价值感重建时刻",
     "summary": "五位听友在职业倦怠、动物救助、网贷危机、求职焦虑与人生岔路口中，分别用陪伴、照顾、坦承、爱好与主动选择，重建不被头衔定义的自我价值",
-    "tags": ["自我成长", "职场", "生活"],
+    "tags": [
+      "自我成长",
+      "职场",
+      "生活"
+    ],
     "url": "https://www.xiaoyuzhoufm.com/episode/69fd8a69e1eb34a939f868c0",
     "duration": "3小时01分",
     "svg_height": 9639
@@ -124,7 +186,11 @@
     "filename": "ev_battery_lock_ota-总结.svg",
     "title": "8家车企被约谈是假，但锁电这件事真该聊聊",
     "summary": "三刀拆解8家车企锁电约谈假新闻，讲清OTA锁电机制、BMS快乐表、八年质保倒逼与车主权力边界，并给出留证维权与500人集体投诉实操路径",
-    "tags": ["汽车", "新能源", "维权"],
+    "tags": [
+      "汽车",
+      "新能源",
+      "维权"
+    ],
     "url": "https://www.xiaoyuzhoufm.com/episode/6a0430941b7bd5029510c81e",
     "duration": "47分钟",
     "svg_height": 7788
@@ -134,7 +200,11 @@
     "filename": "li_l9_livis_emotion_value-总结.svg",
     "title": "Vol.084 理想L9 Livis上市点评：没有冰彩沙式击中瞬间，凭什么情绪价值能成卖点？",
     "summary": "叭叭呜四位嘉宾深度点评理想L9 Livis上市：发布会平淡唯价格引爆、同质化下情绪价值成战场、具身智能仅10%架构交付、70%试驾为老车主",
-    "tags": ["汽车", "理想", "商业"],
+    "tags": [
+      "汽车",
+      "理想",
+      "商业"
+    ],
     "url": "https://www.xiaoyuzhoufm.com/episode/6a0c84b51b7bd5029576643a",
     "duration": "2小时11分",
     "svg_height": 8450
@@ -144,7 +214,11 @@
     "filename": "deepseek_v4_infra_context-总结.svg",
     "title": "163: 详解DeepSeekV4：Infra巨婴、百万上下文走进现实、极致效率优化",
     "summary": "晚点聊邀请架构与Infra一线从业者精读V4报告：DSA稀疏注意力让百万上下文实用化，放弃MLA冲击MRA路线，发布当天跑通推理RL全链路的工程标杆",
-    "tags": ["科技", "AI", "大模型"],
+    "tags": [
+      "科技",
+      "AI",
+      "大模型"
+    ],
     "url": "https://www.xiaoyuzhoufm.com/episode/69f2e8ef0694c843e7cd91b6",
     "duration": "1小时34分",
     "svg_height": 10979
@@ -154,7 +228,11 @@
     "filename": "iiac_coffee_gold_award-总结.svg",
     "title": "咖啡豆｜瑞幸库迪麦当劳纷纷「摘得」IIAC 金奖，为何金奖咖啡豆在国内遍地开花？",
     "summary": "声动早咖啡拆解 IIAC/ICT 赛事机制：85 分 + 前 25% 即金奖、无参赛门槛，对比卓越杯与 WBC，揭示瑞幸示范效应叠加万元级营销如何让金奖标签在中国咖啡市场遍地开花",
-    "tags": ["商业", "咖啡", "消费"],
+    "tags": [
+      "商业",
+      "咖啡",
+      "消费"
+    ],
     "url": "https://www.xiaoyuzhoufm.com/episode/69fca445e1eb34a939ee00db",
     "duration": "14分钟",
     "svg_height": 7940
@@ -164,7 +242,11 @@
     "filename": "smart_perception_sensors-总结.svg",
     "title": "摄像头、紫光波、激光雷达，UWB，谁才是智能感知的关键？",
     "summary": "三刀大白话拆解超声波雷达、UWB、摄像头、毫米波雷达、激光雷达五大传感器，从理想L9取消超声波改用UWB切入，讲清原理优缺点与融合感知策略",
-    "tags": ["科技", "汽车", "智能驾驶"],
+    "tags": [
+      "科技",
+      "汽车",
+      "智能驾驶"
+    ],
     "url": "https://www.xiaoyuzhoufm.com/episode/6a0df9471b7bd5029589a9e1",
     "duration": "56分33秒",
     "svg_height": 10661
@@ -174,7 +256,11 @@
     "filename": "worldcup_2026_guide-总结.svg",
     "title": "E114:2026世界杯装腔(观赛)指南",
     "summary": "胡刀刀三位中年老灯为非球迷储备社交货币：美加墨三国48强104场、史上最贵球票、伊朗跨境困局，到梅西C罗诸神黄昏与新王当立，附观赛时间表与装腔冷知识",
-    "tags": ["体育", "世界杯", "社交"],
+    "tags": [
+      "体育",
+      "世界杯",
+      "社交"
+    ],
     "url": "https://www.xiaoyuzhoufm.com/episode/6a1dbe807460cabdeb598746",
     "duration": "1小时08分",
     "svg_height": 12167
@@ -184,7 +270,11 @@
     "filename": "liuzhenyun_ep01_dialogue-总结.svg",
     "title": "EP01对话刘震云｜觉着无以自明的时候，我就不说话",
     "summary": "刘震云对谈《咸的玩笑》：从杜太白一日三餐写人物到异面人生、互联网困境与沉默哲学，当真相还在穿鞋谎言已跑遍全世界，无以自明时沉默本身就是做事",
-    "tags": ["文学", "播客", "社会"],
+    "tags": [
+      "文学",
+      "播客",
+      "社会"
+    ],
     "url": "https://www.xiaoyuzhoufm.com/episode/6a180c25ac7bdb080c322cf5",
     "duration": "1小时47分",
     "svg_height": 9081
@@ -194,7 +284,11 @@
     "filename": "jlr_maserati_huawei_ev-总结.svg",
     "title": "捷豹路虎停产燃油车，玛莎拉蒂灵魂卖给华为？",
     "summary": "三刀串联玛莎拉蒂×华为一车两卖、Jeep×东风与奇瑞捷豹路虎全面停产燃油车，揭示 Stellantis 系豪华品牌销量雪崩后「用品牌换生存」的新合资逻辑",
-    "tags": ["汽车", "新能源", "合资"],
+    "tags": [
+      "汽车",
+      "新能源",
+      "合资"
+    ],
     "url": "https://www.xiaoyuzhoufm.com/episode/6a11ed1b8b5c94538e9ab546",
     "duration": "59分钟",
     "svg_height": 8372
@@ -204,7 +298,11 @@
     "filename": "zhineng_yanjing_xuanpin_guide-总结.svg",
     "title": "👓智能眼镜选品与劝退指南 - 张焱/徐冉/东东枪/北冥乘海生",
     "summary": "科技修道院四位嘉宾辛辣拆解智能眼镜豆汁儿经济、See Through醋饺子困境与摄像头云台硬伤，并深入AI赛博永生与人类肉身价值的哲学讨论",
-    "tags": ["科技", "智能硬件", "AI"],
+    "tags": [
+      "科技",
+      "智能硬件",
+      "AI"
+    ],
     "url": "https://www.xiaoyuzhoufm.com/episode/69e875e81d989496e73b7892",
     "duration": "1小时42分",
     "svg_height": 8906
@@ -214,7 +312,11 @@
     "filename": "photography_self_learn-总结.svg",
     "title": "摄影这个东西，是可以自学的吗？",
     "summary": "Photo Reason三位主播从摄影需不需要学、入门进阶自学路径到纽设/马格南课程推荐与踩坑经验，结论是努力比天赋更重要、摄影完全可以自学",
-    "tags": ["摄影", "自学", "艺术"],
+    "tags": [
+      "摄影",
+      "自学",
+      "艺术"
+    ],
     "url": "https://www.xiaoyuzhoufm.com/episode/66bbaf3633591c27bedff423",
     "duration": "1小时13分",
     "svg_height": 10877
@@ -224,7 +326,11 @@
     "filename": "camera_phone_lazy_debate-总结.svg",
     "title": "放下相机，举起手机 | 我们是在偷懒吗？",
     "summary": "Photo Reason 白熊与赛文对比手机党与相机党路径，从熊野古道轻装实验到即时分享、算法抓拍与观察视角，论证手机摄影不是偷懒而是另一种创作方式",
-    "tags": ["摄影", "手机", "旅行"],
+    "tags": [
+      "摄影",
+      "手机",
+      "旅行"
+    ],
     "url": "https://www.xiaoyuzhoufm.com/episode/6a0c96fd1b7bd502957755eb",
     "duration": "1小时3分",
     "svg_height": 9458
@@ -234,7 +340,11 @@
     "filename": "clawdbot_2026_phenomenon-总结.svg",
     "title": "E224｜深度拆解Clawdbot，为何它能成为2026年第一个现象级产品？",
     "summary": "硅谷101三位嘉宾从活人感、MD记忆架构、心跳机制到Mac mini隔离部署，全方位拆解OpenClaw为何引爆2026 Agent元年，并展望一人公司与按爬取付费新商业模式",
-    "tags": ["科技", "AI", "Agent"],
+    "tags": [
+      "科技",
+      "AI",
+      "Agent"
+    ],
     "url": "https://www.xiaoyuzhoufm.com/episode/69828c85a712301410e31643",
     "duration": "79分40秒",
     "svg_height": 13289
@@ -244,7 +354,11 @@
     "filename": "ningshi_shenyuan_overseas_case-总结.svg",
     "title": "凝视深渊：中国留学生海外连环迷奸案",
     "summary": "深度追踪邹正豪等8名高学历留学生在英德美连环下药迷奸案，揭示Telegram数千人迷奸黑产网络，受害者50+全为中国女性",
-    "tags": ["社会", "罪案", "海外"],
+    "tags": [
+      "社会",
+      "罪案",
+      "海外"
+    ],
     "url": "https://www.xiaoyuzhoufm.com/episode/6a1c581b7460cabdeb58dcf4",
     "duration": "1小时57分",
     "svg_height": 10062
@@ -254,7 +368,11 @@
     "filename": "labubu_chaowan_legacy-总结.svg",
     "title": "005. 潮玩前辈教会Labubu的事：可爱是糖衣，不是铁饭碗",
     "summary": "余光Post对照宝可梦、Hello Kitty、暴力熊与玲娜贝儿，拆解潮玩IP长红四路径与泡泡玛特渠道商转型内容公司的先天挑战",
-    "tags": ["商业", "潮玩", "品牌"],
+    "tags": [
+      "商业",
+      "潮玩",
+      "品牌"
+    ],
     "url": "https://www.xiaoyuzhoufm.com/episode/68590ac14abe6e29cb8dbb32",
     "duration": "48分钟",
     "svg_height": 10647
@@ -264,7 +382,11 @@
     "filename": "huanqiu_lvxing_npc-总结.svg",
     "title": "环球旅行两年，我绝不是这个世界的NPC | VOL.233",
     "summary": "裸辞两年走遍28国的大喜分享：从免签低门槛出发，从打卡游客蜕变为行走的人类学家，在随机邂逅中确认自己不是世界NPC而是能主动选择轨道的活人",
-    "tags": ["生活", "旅行", "自我成长"],
+    "tags": [
+      "生活",
+      "旅行",
+      "自我成长"
+    ],
     "url": "https://www.xiaoyuzhoufm.com/episode/6a2564a77444b5722234d642",
     "duration": "1小时41分",
     "svg_height": 11009
@@ -274,7 +396,11 @@
     "filename": "rekoe_victim_mentality-总结.svg",
     "title": "17. 为什么每个人都觉得自己是受害者？",
     "summary": "热可可施宇解析受害者文化：从荣誉/尊严文化演变到自嬷时代，揭示美德受害者与比惨竞争的心理机制，探讨在承认创伤与反思受害者叙事间如何获得真正的自我力量",
-    "tags": ["社会", "心理", "文化"],
+    "tags": [
+      "社会",
+      "心理",
+      "文化"
+    ],
     "url": "https://www.xiaoyuzhoufm.com/episode/69c176b0521e5c0a80abbf7e",
     "duration": "42分16秒",
     "svg_height": 9243
@@ -284,7 +410,11 @@
     "filename": "byd_chengshi_zhijia-总结.svg",
     "title": "比亚迪城市智驾邪吼，其他车企为什么不跟？",
     "summary": "三刀拆解比亚迪CNOA城市领航一年安全兜底：无上限赔付、双保险定责、竞品为何不跟进，以及腾势Z9GT真实赔付案例",
-    "tags": ["汽车", "智能驾驶", "商业"],
+    "tags": [
+      "汽车",
+      "智能驾驶",
+      "商业"
+    ],
     "url": "https://www.xiaoyuzhoufm.com/episode/6a215963b30e1571aea0a58b",
     "duration": "1小时01分",
     "svg_height": 8135
@@ -294,7 +424,11 @@
     "filename": "dadi_daochenxing_celiang-总结.svg",
     "title": "115.从大地到星辰，人类如何丈量世界？",
     "summary": "从埃拉托斯特尼影子到红移测距，人类用八把递进尺子在无上帝视角下搭建起从地球到宇宙膨胀的完整测距阶梯，揭示时间空间互锁与层层校准的科学智慧",
-    "tags": ["科学史", "天文学", "科普"],
+    "tags": [
+      "科学史",
+      "天文学",
+      "科普"
+    ],
     "url": "https://www.xiaoyuzhoufm.com/episode/6a2a5b40dbccffcfa9c74208",
     "duration": "1小时12分",
     "svg_height": 11295
@@ -304,7 +438,11 @@
     "filename": "changnei_zihe_rensheng-总结.svg",
     "title": "\"置身厂内\"的我们，如何找回自洽的人生？",
     "summary": "前百度/携程/美团产品经理萌萌，用中概股暴跌600万学费从个股信仰转向史文森资产配置再迭代期权对冲，以投资体系支撑FIRE提前退休，在财务与精神双维度找回自洽",
-    "tags": ["FIRE", "投资", "职场"],
+    "tags": [
+      "FIRE",
+      "投资",
+      "职场"
+    ],
     "url": "https://www.xiaoyuzhoufm.com/episode/6a2e3f6543a22a695583690a",
     "duration": "1小时09分",
     "svg_height": 8361
@@ -314,7 +452,11 @@
     "filename": "jiangsida_zhenxiang_nengli-总结.svg",
     "title": "vol.51 对谈姜思达：面对真相的能力，比风口的保质期更长",
     "summary": "杨天真对谈姜思达，从辩论小会聊到创作与服务的拧巴、商人身份与道德底线，核心命题是在公众与私下落差中能否诚实面对自己，而非追逐风口",
-    "tags": ["自我认知", "商业", "播客"],
+    "tags": [
+      "自我认知",
+      "商业",
+      "播客"
+    ],
     "url": "https://www.xiaoyuzhoufm.com/episode/6a303f394233e62bc54a72fc",
     "duration": "1小时03分",
     "svg_height": 10331
@@ -324,7 +466,11 @@
     "filename": "france_philosophy_bac_truth-总结.svg",
     "title": "35 播客一周年｜我们试着做了法国哲学高考题……",
     "summary": "《抑扬格》即兴作答法国哲学高考题「真理是否总令人信服」：从地球圆平之辩、现象学明见性、柏拉图真理之暴力，到笛卡尔恶魔与街头闲谈中的琐碎之真",
-    "tags": ["哲学", "文化", "思辨"],
+    "tags": [
+      "哲学",
+      "文化",
+      "思辨"
+    ],
     "url": "https://www.xiaoyuzhoufm.com/episode/6a31510b4233e62bc54af33b",
     "duration": "59分钟",
     "svg_height": 10220
@@ -334,7 +480,11 @@
     "filename": "ev21_rag_upgrade_podcast-总结.svg",
     "title": "车企客服V2.1：企业级RAG架构升级精解报告",
     "summary": "车企客服从V1硬编码到V2.1 RAG架构的教科书级升级：Markdown知识库、向量+BM25混合检索、层次化切片与Agent精简，演示机到生产机的工程化落地路径",
-    "tags": ["科技", "AI", "RAG"],
+    "tags": [
+      "科技",
+      "AI",
+      "RAG"
+    ],
     "url": "https://www.xiaoyuzhoufm.com/episode/6a0294a1e1eb34a9393828da",
     "duration": "17分54秒",
     "svg_height": 9357
@@ -344,7 +494,11 @@
     "filename": "suixinfei_66000_worth-总结.svg",
     "title": "E116:6万6的随心飞产品，值得买吗？",
     "summary": "胡刀刀拆解海航66666顺行卡与6666随心飞：存6.6万一年退还、3333积分抵8张票，对比199元特种兵版，并分享信用卡倒刷处理与酒店协议价",
-    "tags": ["旅行", "理财", "生活"],
+    "tags": [
+      "旅行",
+      "理财",
+      "生活"
+    ],
     "url": "https://www.xiaoyuzhoufm.com/episode/6a2ff42043a22a6955843ab5",
     "duration": "39分钟",
     "svg_height": 9096
@@ -354,7 +508,11 @@
     "filename": "loewe_dangan_ep06-总结.svg",
     "title": "EP06. 打开罗意威档案：180年玩心依旧｜洪晃x程弋洋",
     "summary": "洪晃对话复旦西班牙文化专家程弋洋，从罗意威180周年档案展串联工匠集体创业、摩尔文化、佛朗哥时代到当代设计，揭示品牌工艺为核、玩心依旧的活力来源",
-    "tags": ["时尚", "文化", "品牌"],
+    "tags": [
+      "时尚",
+      "文化",
+      "品牌"
+    ],
     "url": "https://www.xiaoyuzhoufm.com/episode/6a2bd9764233e62bc548bd8b",
     "duration": "35分33秒",
     "svg_height": 9309
@@ -364,7 +522,11 @@
     "filename": "changxiao_zhongcao_yongzeng-总结.svg",
     "title": "心智种草如何破局？长效种草用增新解法",
     "summary": "优酷与小红书以《长安二十四计》为案例，用AI解析百万级评论区和T+7归因，实现从抢流量到抢心智的长效用增，种草用户留存付费反超效果广告",
-    "tags": ["商业", "增长", "AI"],
+    "tags": [
+      "商业",
+      "增长",
+      "AI"
+    ],
     "url": "https://www.xiaoyuzhoufm.com/episode/6a31023c43a22a695584af21",
     "duration": "1小时07分",
     "svg_height": 10703
@@ -374,7 +536,11 @@
     "filename": "SpaceX开发史-播客总结.svg",
     "title": "口述SpaceX开发史：马斯克用人观、最大IPO、太空与AI",
     "summary": "前SpaceX高管洪力德讲述SpaceX 20年发展史，涵盖猎鹰1号四次试射、马斯克用人哲学、星链商业模式及太空AI前景",
-    "tags": ["商业", "科技", "趋势"],
+    "tags": [
+      "商业",
+      "科技",
+      "趋势"
+    ],
     "url": "https://www.xiaoyuzhoufm.com/episode/6a2be5da43a22a695582ad20",
     "duration": "3小时01分",
     "svg_height": 12620
