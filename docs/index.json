@@ -1,6 +1,16 @@
 [
   {
     "date": "2026-06-23",
+    "filename": "smart_perception_sensors-总结.svg",
+    "title": "摄像头、紫光波、激光雷达，UWB，谁才是智能感知的关键？",
+    "summary": "三刀大白话拆解超声波雷达、UWB、摄像头、毫米波雷达、激光雷达五大传感器，从理想L9取消超声波改用UWB切入，讲清原理优缺点与融合感知策略",
+    "tags": ["科技", "汽车", "智能驾驶"],
+    "url": "https://www.xiaoyuzhoufm.com/episode/6a0df9471b7bd5029589a9e1",
+    "duration": "56分33秒",
+    "svg_height": 10661
+  },
+  {
+    "date": "2026-06-23",
     "filename": "worldcup_2026_guide-总结.svg",
     "title": "E114:2026世界杯装腔(观赛)指南",
     "summary": "胡刀刀三位中年老灯为非球迷储备社交货币：美加墨三国48强104场、史上最贵球票、伊朗跨境困局，到梅西C罗诸神黄昏与新王当立，附观赛时间表与装腔冷知识",
