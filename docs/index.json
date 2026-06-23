@@ -1,6 +1,20 @@
 [
   {
     "date": "2026-06-23",
+    "filename": "google_tpu_nvidia_e228-总结.svg",
+    "title": "E228｜谷歌TPU能撼动英伟达吗？前TPU工程师首次揭秘",
+    "summary": "前谷歌TPU工程师Henry Zhu拆解V6/V7/V8：流水线式ASIC+ XLA黑盒 vs GPU并行生态，限定大规模部署下TCO可挑战英伟达，但HBM/CoWoS产能与软件门槛是命门",
+    "tags": [
+      "AI",
+      "芯片",
+      "科技"
+    ],
+    "url": "https://www.xiaoyuzhoufm.com/episode/69b35445dc0cc48a76772b57",
+    "duration": "1小时07分",
+    "svg_height": 11781
+  },
+  {
+    "date": "2026-06-23",
     "filename": "ikea_stockholm2025-总结.svg",
     "title": "006. IKEA 最资深的「新人」：斯德哥尔摩2025系列",
     "summary": "余光Post惠思与设计师Jackie从感官设计、材质节奏与矿物配色拆解宜家斯德哥尔摩2025，并揭秘三阶段新品孵化与30年复古循环论",
