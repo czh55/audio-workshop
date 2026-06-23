@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="10647" viewBox="0 0 1320 10647">
+  <foreignObject x="0" y="0" width="1320" height="10647">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,0.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:20px 28px;text-align:center;min-width:160px;font-weight:700;font-size:16px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3{color:#92400e;margin-bottom:8px}
+.correction p{color:#92400e;font-size:15px}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,0.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.speaker{display:inline-block;font-size:13px;font-weight:600;padding:2px 10px;border-radius:12px;margin-right:8px}
+.speaker-host{background:#dbeafe;color:#1e40af}
+.speaker-guest{background:#ede9fe;color:#6b21a8}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,0.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,0.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,0.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}</style>
+      <div class="container">
+
+<h1>005. 潮玩前辈教会Labubu的事：可爱是糖衣，不是铁饭碗</h1>
+<div class="meta">
+  <span class="tag tag-blue">播客</span>
+  <span class="tag tag-purple">余光Post</span>
+  <span class="tag tag-orange">Labubu</span>
+  <span class="tag tag-green">潮玩IP</span>
+  <span class="tag tag-gray">48分钟</span>
+</div>
+<div class="summary-line">
+<strong>一句话概括：</strong>《余光Post》惠思与Jackie不聊Labubu为何火，而是对照宝可梦、Hello Kitty、暴力熊与玲娜贝儿，拆解潮玩IP长红的四条路径——故事宇宙、全渠道授权、时尚稀缺、人设体验——并指出泡泡玛特作为数据驱动渠道商转型内容公司的先天挑战：可爱是入口，铁饭碗在升级。
+</div>
+
+<div class="timeline">
+  <h3>关键时间轴</h3>
+  <div class="timeline-item"><span class="timeline-time">00:00</span><span class="timeline-text">开场：巴黎朋友高点买入Labubu端盒，几天内因放货腰斩套牢——非核心客群也被社交货币卷入</span></div>
+  <div class="timeline-item"><span class="timeline-time">05:30</span><span class="timeline-text">本期定位：不讨论火多久，从文化、商业与IP价值角度对照前辈IP</span></div>
+  <div class="timeline-item"><span class="timeline-time">08:00</span><span class="timeline-text">宝可梦：故事宇宙+多维度玩法，日本市场检验泡泡玛特出海失败</span></div>
+  <div class="timeline-item"><span class="timeline-time">14:00</span><span class="timeline-text">Hello Kitty：无嘴无立场、5万授权合作、故事会杀死她</span></div>
+  <div class="timeline-item"><span class="timeline-time">22:00</span><span class="timeline-text">暴力熊：职人玩具起源→KAWS联名意外发现可定制性→奢侈品路线</span></div>
+  <div class="timeline-item"><span class="timeline-time">32:00</span><span class="timeline-text">泡泡玛特影视部门成立，对标迪士尼内容路径；反向看玲娜贝儿人设玩法</span></div>
+  <div class="timeline-item"><span class="timeline-time">38:00</span><span class="timeline-text">潮玩三要素：艺术家背书、二级市场、人为稀缺性</span></div>
+  <div class="timeline-item"><span class="timeline-time">42:00</span><span class="timeline-text">香港：街头艺术×金融×拍卖，潮流文化身份补丁与Labubu文化模糊性</span></div>
+</div>
+
+<div class="map">
+  <h2>核心脉络：Labubu 的四条升级路径</h2>
+  <div class="diagram">
+    <div class="node">宝可梦路线<br/><small>故事宇宙</small><br/><small>深度×玩法</small></div>
+    <div class="arrow">|</div>
+    <div class="node node-green">Hello Kitty路线<br/><small>全渠道授权</small><br/><small>中立无立场</small></div>
+    <div class="arrow">|</div>
+    <div class="node node-orange">暴力熊路线<br/><small>时尚+限量</small><br/><small>艺术家联名</small></div>
+    <div class="arrow">|</div>
+    <div class="node">玲娜贝儿路线<br/><small>人设+体验</small><br/><small>跳过厚重内容</small></div>
+  </div>
+  <p style="text-align:center;margin-top:16px;font-size:15px;color:#64748b">泡泡玛特当前选择：影视内容基建（迪士尼路径）——但渠道商基因 vs IP公司思维是根本矛盾</p>
+</div>
+
+<div class="correction">
+  <h3>⚠ 常见误解 / 认知纠偏</h3>
+  <p><strong>误解1："Labubu火是因为丑萌/盲盒玩法"</strong> → 本期刻意回避此话题。嘉宾认为长红靠IP升级，不靠短期流量密码。</p>
+  <p style="margin-top:8px"><strong>误解2："泡泡玛特=IP公司"</strong> → 本质是<strong>数据驱动的渠道商</strong>：小范围测试→数据验证→加码铺货。毛利不火就换下一个IP。</p>
+  <p style="margin-top:8px"><strong>误解3："可爱就能长红"</strong> → Hello Kitty 50年长红靠无嘴中立+5万授权；Labubu 面部特征限定强，联名二创天然更难。可爱是糖衣，不是铁饭碗。</p>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">一、社交货币与泡沫：从巴黎朋友的Labubu故事说起</h2>
+
+  <div class="card">
+    <h3><span class="speaker speaker-host">主持人</span>非客群也被卷入的时代同频</h3>
+    <p><b>核心机制：</b>一位从不买手办、不理解虚拟形象情感连接的巴黎朋友，因朋友圈热议和TikTok开盲盒流量，在3699元高点买入Labubu端盒，几天后泡泡玛特大量放货，二手价跌至不足2000元。</p>
+    <p><b>关键理解：</b>Labubu已从潮玩小圈层扩散为<strong>社交货币</strong>——挂包装饰、换头像、参与时代同频，甚至LISA效应带动。这与买黄金的涨跌心态高度相似。</p>
+    <p><b>典型场景：</b>当你发现多年不换头像的朋友也换了Labubu头像，说明影响力已穿透非核心客群。</p>
+    <div class="highlight">原文依据：他给出的答案是看到网上很多人都在说，想着拿出点钱去参与一下这个时代。</div>
+  </div>
+
+  <div class="card card-orange">
+    <h3>⚠ 追高二级市场的陷阱</h3>
+    <p><b>原因：</b>人为稀缺（隐藏款1:144）+ 社交热度制造金融属性幻觉，但工厂流水线量产后稀缺性可瞬间瓦解。</p>
+    <div class="pitfall">嘉宾说法：才几天就赔了，在最高点买了，开心没几天遇到泡马特开始大量放货。</div>
+    <p><b>解法：</b>区分「喜欢形象」与「投机炒作」；盲盒基础价99元/二三十欧仍属日常消费，脱离此定价区间对标暴力熊逻辑时需极度谨慎。</p>
+    <p><b>严重程度：</b>小心（对投机客致命，对普通消费者可忽略）</p>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">二、宝可梦：故事宇宙才是IP不死之身</h2>
+
+  <div class="card card-purple">
+    <h3><span class="speaker speaker-guest">嘉宾观点</span>宝可梦是全球最吸睛IP的标杆</h3>
+    <p>宝可梦从动漫到游戏到卡牌，维度深入到文化层面，全球吸睛值约1000亿美金。泡泡玛特当年在日本开店，排队者以外国人为主，本地人不吃Labubu的外形和单薄背景故事。</p>
+    <div class="quote">我觉得宝可梦不死，因为他的维度太丰富了，就已经深入到文化层面了。</div>
+    <div class="relation">相关概念：Labubu若走宝可梦路线，需填充故事宇宙——但泡泡玛特基因是渠道商而非讲故事的人。</div>
+    <p><b>适用边界：</b>适合有长期内容投入能力和世界观构建能力的IP公司；对测试-放大型渠道商极其困难。</p>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">三、Hello Kitty：无嘴中立与全渠道授权</h2>
+
+  <div class="card">
+    <h3>无嘴、无表情、无立场：IP界的小瑞士</h3>
+    <p><b>核心机制：</b>Hello Kitty本质是衣服上的印花图案，不是玩偶。无嘴设计让她不会笑不会哭，绝对政治安全——可授权棺材、俄罗斯军用罐头，却不会被视为支持战争。</p>
+    <p><b>关键理解：</b>社长坚持50年不给加嘴，认为「故事会杀死她」。80年代美方提议加嘴遭怒斥「这不是迪斯尼」。</p>
+    <p><b>典型场景：</b>50年来约5万个授权合作、覆盖100+国家，每年新增2000个授权，每天6-8个新合作。</p>
+    <div class="highlight">原文依据：社长认为故事会杀死她。2024年才开始做动画片，是近50年来首次松动。</div>
+  </div>
+
+  <div class="card card-green">
+    <h3>Hello Kitty 与 Labubu 的相似与分野</h3>
+    <p>相似：初期都是无故事的受欢迎形象。分野：Hello Kitty走全渠道授权+极端中立；Labubu面部特征（九颗牙、大眼睛、尖耳朵）限定强，艺术家联名时「不能只是换皮又不能改太多」。</p>
+    <div class="relation">相关概念：三丽鸥也在数字时代焦虑，开始给旗下IP填充故事线以抓住新一代。</div>
+  </div>
+
+  <div class="card card-orange">
+    <h3>⚠ 设计师一次性买断的教训</h3>
+    <p><b>原因：</b>Hello Kitty 1974年只是三丽鸥30多个新图案之一，设计师交作业心态，仅获一次性稿费5500日元。</p>
+    <div class="pitfall">嘉宾说法：它现在长子都悔青了。当时没有IP概念，没想到会爆火。</div>
+    <p><b>解法：</b>IP合作应重视创作者长期权益；偶然爆火+时代红利（可爱经济无竞争对手）不可复制。</p>
+    <p><b>严重程度：</b>致命（对创作者）</p>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">四、暴力熊：从职人玩具到奢侈品联名</h2>
+
+  <div class="card">
+    <h3>暴力熊的三段进化史</h3>
+    <p><b>第一阶段（1990s）：</b>办公桌职人玩具。97年金融危机后日本社畜压力大，社长发现职场人需要「不被上司批评但让同事会心一笑」的低调叛逆表达——可拆卸解压。</p>
+    <p><b>第二阶段（偶然）：</b>KAWS在东京橱窗看到熊，主动提出合作。社长没信心只做了500个，二手暴涨十倍，发现价值在<strong>可定制性</strong>而非设计本身。</p>
+    <p><b>第三阶段：</b>90%资源转向奢侈品联名，毛利率超95%。但审美疲劳+假货冲击使稀缺标签失效，成「时代的眼泪」。</p>
+    <div class="quote">73%的暴力熊买家称「同事夸过我的熊」——懂潮流但不上头。</div>
+  </div>
+
+  <div class="card card-purple">
+    <h3><span class="speaker speaker-guest">嘉宾观点</span>Labubu 走暴力熊路线的天然困难</h3>
+    <p>暴力熊要求形象不幼稚、高宽容度以完成千人千面联名。Labubu偏幼稚化、外貌特征限定强。若走时尚+高价+限量路径，需维持稀缺性，但流水线生产难以避免赝品。</p>
+    <div class="action">怎么落地：潮玩天生矛盾——收藏品要求独一无二，工厂量产后即使限量也难保稀缺。</div>
+    <p><b>适用边界：</b>适合高净值小众收藏圈；Labubu当前定价面向大众（盲盒99元），与暴力熊价位阶级不同。</p>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">五、泡泡玛特的升级困境与路径选择</h2>
+
+  <div class="card">
+    <h3>受众极广带来的「选路得罪人」难题</h3>
+    <p>Labubu从盲盒爱好者→包挂社交货币→明星效应→非客群参与，受众面极广。选宝可梦路线可能失去潮流感，选暴力熊路线可能失去大众，混合则缺少纯粹动因。</p>
+    <div class="highlight">原文依据：选了其中一条路可能会得罪其他人，混合又会使产品缺少纯粹动因。</div>
+  </div>
+
+  <div class="card card-purple">
+    <h3><span class="speaker speaker-guest">嘉宾观点</span>泡泡玛特选择迪士尼路径，但基因是阅文式渠道商</h3>
+    <p>已成立影视部门做动画剧集加强内容基建。对标更贴切的是阅文：平台型渠道商→数据驱动选角（庆余年73%书粉票选张若昀）→痛苦转型制片公司（斗破苍穹、全职高手剧版失败后挖好莱坞团队、建编剧训练营）。</p>
+    <div class="quote">与其说他想做迪斯尼，倒不如说他在对标中国的阅文。他本质是一个渠道商，核心竞争力是铺货和选址，强于铺货弱于创作。</div>
+    <p><b>适用边界：</b>数据驱动在内容行业并非原罪，但渠道商转制片公司「非常非常有挑战」，除非「变成地才」堆资源堆运气。</p>
+  </div>
+
+  <div class="card">
+    <h3>玲娜贝儿：迪士尼的反向操作</h3>
+    <p>迪士尼为迎合中国碎片化和社交性，在上海迪士尼首发玲娜贝儿——人设替代故事（撩裙子、叉腰吵架的小狐狸），证明IP可跳过内容直接靠人设和体验变现，但仅限中国市场，欧美传统市场遇冷。</p>
+    <div class="relation">相关概念：泡泡玛特做内容 vs 迪士尼做人设，两家在互相靠近。玲娜贝儿IP周期预计也不会太长。</div>
+  </div>
+</div>
+
+<div class="card">
+  <h3>四条路径对比：Labubu 该学谁？</h3>
+  <table>
+    <tr><th>维度</th><th>宝可梦</th><th>Hello Kitty</th><th>暴力熊</th><th>玲娜贝儿</th></tr>
+    <tr><td>核心资产</td><td>故事宇宙+多玩法</td><td>中立形象+5万授权</td><td>可定制性+稀缺</td><td>人设+线下体验</td></tr>
+    <tr><td>Labubu匹配度</td><td>低（缺故事厚度）</td><td>低（无授权基因）</td><td>中（形象偏幼）</td><td>中（已广谱化）</td></tr>
+    <tr><td>泡泡玛特能力</td><td>先天不足</td><td>不具备</td><td>部分具备</td><td>可尝试</td></tr>
+    <tr><td>一句话结论</td><td>需十年内容投入</td><td>需50年中立定力</td><td>需放弃大众走高端</td><td>快钱但周期短</td></tr>
+  </table>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">六、潮玩定义与 Labubu 的时代情绪</h2>
+
+  <div class="card">
+    <h3>潮玩三要素（嘉宾归纳）</h3>
+    <ol>
+      <li><strong>艺术家/设计师背书：</strong>Labubu创作者龙家升，绘本画家，博洛尼亚奖，Labubu原是绘本小配角</li>
+      <li><strong>二级市场：</strong>闲鱼涨跌如黄金，赋予金融属性</li>
+      <li><strong>人为稀缺性：</strong>隐藏款1:144（0.69%概率）vs 暴力熊全球限量500个标注</li>
+    </ol>
+    <p>Jackie补充：潮玩是艺术品市场的「降级」——快销+大众情绪+图像化+限量稀缺，服务不缺钱的小众玩家。Labubu更偏收割大众。</p>
+  </div>
+
+  <div class="card card-green">
+    <h3>文化模糊性 = 全球投射空间</h3>
+    <p>Labubu文化背景模糊（北欧精灵影响的个人情绪具象化），无哪吒式固定体系，反而让欧洲年轻人、中国上班族、美国贵妇都能投射。形象像《头脑特工队》的情绪外化，无威胁感、毛绒亲和——契合疫情后Jellycat毛绒热潮。</p>
+    <div class="action">怎么落地：模糊性是全球化优势，但也是IP深度不足的代价。</div>
+  </div>
+
+  <div class="card card-purple">
+    <h3><span class="speaker speaker-guest">嘉宾观点</span>香港：潮流文化的杂交三角</h3>
+    <p>龙家升是香港人。香港扮演跨文化桥梁（日潮、西潮中转站），街头艺术×金融×苏富比/佳士得潮玩拍卖形成产业生态。当地年轻人面临身份认同摇摆，潮流文化成为「低门槛身份补丁」——以物自证，无需表态。</p>
+    <div class="quote">视觉表达比文本表达更重要。有态度比有故事背景重要很多。反传统叙事，不要那么重的故事。</div>
+    <p><b>适用边界：</b>此逻辑在身份模糊、消费旺盛的城市有效；纯内容驱动市场不一定买账。</p>
+  </div>
+</div>
+
+<div class="card card-purple">
+  <h3>💡 心法：可爱是糖衣，升级才是铁饭碗</h3>
+  <p><b>为什么重要：</b>Labubu的爆红有运气成分（数据驱动测试放大），但长红需要从前辈IP中选择并坚持一条升级路径。</p>
+  <div class="quote">我们也不是说要去指责别人喜欢或者不喜欢Labubu，只是提供一些观点。</div>
+  <div class="action">怎么落地：用宝可梦/Kitty/暴力熊/玲娜贝儿框架审视任何潮玩IP的下一步，而非仅看短期热度。</div>
+  <p><b>适用边界：</b>对纯收藏爱好者，喜欢本身无需「升级」；对品牌方和投资者，不升级就是熊孩子的命运。</p>
+</div>
+
+<div class="conclusion">
+  <h2>总结与行动</h2>
+  <h3>核心要点</h3>
+  <ul>
+    <li>Labubu 火不等于能长红：可爱和盲盒是入口，IP 升级才是护城河</li>
+    <li>四条前辈路径：宝可梦（故事）、Hello Kitty（授权中立）、暴力熊（时尚稀缺）、玲娜贝儿（人设体验）</li>
+    <li>泡泡玛特是数据驱动渠道商，转型内容公司对标阅文而非迪士尼，先天挑战巨大</li>
+    <li>潮玩三要素：艺术家背书、二级市场、人为稀缺——Labubu 三者兼备但价位偏大众</li>
+    <li>文化模糊性带来全球投射，香港潮流土壤与身份补丁逻辑是深层背景</li>
+  </ul>
+  <h3>行动清单</h3>
+  <ol>
+    <li>用四路径框架分析你关注的潮玩 IP：它走在哪条路上？缺什么能力？</li>
+    <li>若参与二级市场，设定心理价位上限，区分收藏喜好与投机心态</li>
+    <li>关注泡泡玛特影视部门产出质量，这是验证「迪士尼路径」的关键指标</li>
+    <li>对比 Hello Kitty 50 年无嘴定力，审视 Labubu 联名是否陷入「换皮困境」</li>
+    <li>留意放货节奏与隐藏款比例变化，稀缺性一旦被量化解，金融属性迅速消退</li>
+  </ol>
+  <h3>关键认知转变</h3>
+  <p>以前认为 Labubu 的火靠丑萌和盲盒运气；现在理解了潮玩长红是一套可拆解的 IP 方法论——前辈们用几十年试错给出了四条路，可爱只是糖衣，选路和坚持升级才是铁饭碗。</p>
+</div>
+
+</div>
+    </div>
+  </foreignObject>
+</svg>

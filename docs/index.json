@@ -1,6 +1,16 @@
 [
   {
     "date": "2026-06-23",
+    "filename": "labubu_chaowan_legacy-总结.svg",
+    "title": "005. 潮玩前辈教会Labubu的事：可爱是糖衣，不是铁饭碗",
+    "summary": "余光Post对照宝可梦、Hello Kitty、暴力熊与玲娜贝儿，拆解潮玩IP长红四路径与泡泡玛特渠道商转型内容公司的先天挑战",
+    "tags": ["商业", "潮玩", "品牌"],
+    "url": "https://www.xiaoyuzhoufm.com/episode/68590ac14abe6e29cb8dbb32",
+    "duration": "48分钟",
+    "svg_height": 10647
+  },
+  {
+    "date": "2026-06-23",
     "filename": "ev21_rag_upgrade_podcast-总结.svg",
     "title": "车企客服V2.1：企业级RAG架构升级精解报告",
     "summary": "车企客服从V1硬编码到V2.1 RAG架构的教科书级升级：Markdown知识库、向量+BM25混合检索、层次化切片与Agent精简，演示机到生产机的工程化落地路径",
