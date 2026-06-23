@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="9639" viewBox="0 0 1320 9639">
+  <foreignObject x="0" y="0" width="1320" height="9639">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,0.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:20px 28px;text-align:center;min-width:160px;font-weight:700;font-size:16px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3{color:#92400e;margin-bottom:8px}
+.correction p{color:#92400e;font-size:15px}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,0.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.speaker{display:inline-block;font-size:13px;font-weight:600;padding:2px 10px;border-radius:12px;margin-right:8px}
+.speaker-host{background:#dbeafe;color:#1e40af}
+.speaker-guest{background:#ede9fe;color:#6b21a8}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,0.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,0.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,0.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}</style>
+      <div class="container">
+
+<h1>E234 当我不再被工作定义！5 个普通人的价值感重建时刻｜小酒馆故事会 🍻</h1>
+<div class="meta">
+  <span class="tag tag-blue">播客</span>
+  <span class="tag tag-purple">有知有行·小酒馆</span>
+  <span class="tag tag-orange">3小时01分</span>
+  <span class="tag tag-green">自我成长</span>
+</div>
+<div class="summary-line">主持人羽白征集听友故事：在工作与收入之外，还有什么支撑你的价值感？五位普通人（编剧小洋、央企313、网贷幸存者小猫、大厂盖范、餐饮人老李）在职业倦怠、动物救助、财务危机、求职焦虑与人生岔路口中，分别用陪伴、照顾、坦承、爱好与主动选择，重建了不被头衔定义的自我。</div>
+
+<div class="timeline">
+  <h3>关键时间轴</h3>
+  <div class="timeline-item"><span class="timeline-time">00:00</span><span class="timeline-text">开场：工作、劳动与金钱和一个人价值的关系</span></div>
+  <div class="timeline-item"><span class="timeline-time">02:06</span><span class="timeline-text">第一位小洋：编剧职业倦怠，成为妈妈后带全家回河南老家</span></div>
+  <div class="timeline-item"><span class="timeline-time">13:00</span><span class="timeline-text">第二位313：建筑央企遭遇打压式上级，价值感来自救助六只猫狗</span></div>
+  <div class="timeline-item"><span class="timeline-time">44:00</span><span class="timeline-text">第三位小猫：两次陷入网贷近30万，学会向家人坦承求助</span></div>
+  <div class="timeline-item"><span class="timeline-time">01:33</span><span class="timeline-text">第四位盖范：2024文科生求职焦虑，术后西湖日落重捡爱好</span></div>
+  <div class="timeline-item"><span class="timeline-time">02:25</span><span class="timeline-text">第五位老李：餐饮工作狂离开上海，第一次主动选择回成都</span></div>
+  <div class="timeline-item"><span class="timeline-time">02:58</span><span class="timeline-text">结语：命运出同样的题，直到给出不同的答案</span></div>
+</div>
+
+<div class="map">
+  <h2>核心脉络</h2>
+  <div class="diagram">
+    <div class="node">工作/收入<br/>定义自我</div>
+    <div class="arrow">→</div>
+    <div class="node node-orange">转折时刻<br/>倦怠/危机/失去</div>
+    <div class="arrow">→</div>
+    <div class="node node-green">新价值锚点<br/>陪伴/照顾/坦承/爱好/选择</div>
+  </div>
+  <div class="diagram" style="margin-top:12px;">
+    <div class="node" style="font-size:14px;">小洋<br/>家人陪伴</div>
+    <div class="node" style="font-size:14px;">313<br/>动物救助</div>
+    <div class="node" style="font-size:14px;">小猫<br/>坦承求助</div>
+    <div class="node" style="font-size:14px;">盖范<br/>重捡爱好</div>
+    <div class="node" style="font-size:14px;">老李<br/>主动选择</div>
+  </div>
+</div>
+
+<div class="correction">
+  <h3>⚠ 常见误解 / 认知纠偏</h3>
+  <p><b>误解：</b>价值感只能来自事业成就、收入增长或被系统认可。<br/>
+  <b>纠偏：</b>五位嘉宾都在「成功」或「稳定」之外遭遇转折——编剧有代表作却倦怠、央企员工认真做事却被打压、优等生两次网贷、大厂offer到手却失去健康、餐饮逆袭后仍问「这是我选的路吗」。价值感可以来自具体的人、生命、爱好与主动选择，而不只是头衔和 KPI。</p>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">故事一：编剧小洋 · 从工作狂到陪伴女儿</h2>
+
+  <div class="card">
+    <h3>职业倦怠与生命转折</h3>
+    <p><b>核心机制：</b>小洋从河南小城靠写作贴补家用，2017年因目睹搭档「36元猫罐头」的体面生活进入影视编剧行业。从枪手到署名编剧，价值感长期绑定在「写出好作品、成为大编剧、坐主桌」上。</p>
+    <p><b>关键理解：</b>去年职业倦怠叠加成为新手妈妈、母亲病情恶化，她决定减产项目、带八口之家（四猫一狗）从上海回新乡。女儿第一次翻身让她看见「生命曾为一次翻身如此努力」——消解了生育必须「完整人生」的足议式自我剥削。</p>
+    <p><b>典型场景：</b>当创作热情消退、亲人需要陪伴时，把「我是谁」从行业评价中抽离，转向不可重来的家庭时光。</p>
+    <div class="relation">相关概念：编剧「窝囊费+挨骂费+创作费」三分结构 vs 观众以为的「一剧之本话语权」</div>
+    <div class="highlight">原文依据：「故事到最后，好像什么问题都没有解决，但我们还陪伴着彼此。」</div>
+  </div>
+
+  <div class="card card-purple">
+    <h3><span class="speaker speaker-guest">嘉宾观点</span>编剧的真实处境</h3>
+    <p>稿费三部分：窝囊费（平衡各方意见）、挨骂费（播出必挨骂）、认真创作报酬。编剧像「情绪按摩师」，后期修改常脱离最初创作意图，但情绪稳定是第一性的。</p>
+    <div class="quote">「开机宴上，我换了三次桌子，发现我在这个行业没有位置。老娘有一天要做主桌。」</div>
+  </div>
+
+  <div class="card card-orange">
+    <h3>⚠ 只用工作定义自己</h3>
+    <p><b>原因：</b>从小写作贴补、开机宴无座位的屈辱、行业功利氛围，把自尊和收入绑死在事业上。</p>
+    <div class="pitfall">嘉宾说法：一天写十几个小时，项目开机就成功、黄了就很失落。</div>
+    <p><b>解法：</b>减产接项目、回故乡陪伴母亲和女儿，写妈妈日记而非剧本，在生命中找回最初记忆。</p>
+    <p><b>严重程度：</b>小心（有代表作仍可能倦怠，需提前建立工作外锚点）</p>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">故事二：313 · 「我是一个好人」</h2>
+
+  <div class="card card-green">
+    <h3>从央企骨干到动物救助者</h3>
+    <p><b>核心机制：</b>建筑央企七年，区域创业期目标一致、考核向上；去年管理层换血，不了解业务的上级用职权打压，认真做事者承担更多责任却可能被牺牲。</p>
+    <p><b>关键理解：</b>313一直知道工作只是人生价值一部分，但此次事件让她追问「多做多错、不做不错，认真负责的意义在哪」。价值感核心变成「我是一个好人」——收养流浪小狗、救下受伤小猫，与伴侣共建六只猫狗的小家。</p>
+    <p><b>典型场景：</b>宠物需要更大空间→紧急换租→买房；小白狗像「月老红绳」牵来同频伴侣。</p>
+    <div class="highlight">原文依据：「之外，自己最大的价值是一个好人。」</div>
+  </div>
+
+  <div class="card card-purple">
+    <h3><span class="speaker speaker-guest">嘉宾观点</span>体制内工作异化</h3>
+    <p>经济下行+央企范体制下，人际关系可能压过业务本身。事情做好是领导能力，做不好是一线执行不到位。</p>
+    <div class="quote">「认认真真做事的人，是不是应该被这样对待？」</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">故事三：小猫 · 两次网贷与坦承</h2>
+
+  <div class="card card-orange">
+    <h3>以贷养贷的陷阱</h3>
+    <p><b>核心机制：</b>小县城成绩不错、父母离异反复拉扯要钱，极度渴望独立体面。网贷「丝滑小连招」：分期几百块看似可还→借新还旧→两次合计近30万。不敢拉总账单，幻想「找到1万5工作就能还」。</p>
+    <p><b>关键理解：</b>第一次向爸爸求助被拒，向妈妈坦白后一起拉账单；第二次在额度抽干、以贷养贷断裂后才再次坦承。承认「我一个人解决不了」是真正走出陷阱的开始。</p>
+    <p><b>典型场景：</b>还款日额度用尽、平台借不出任何钱——被迫面对现实。</p>
+    <div class="pitfall">避坑：以贷养贷、不敢算总账、用消费维持「优秀体面」人设。</div>
+    <div class="action">落地：向信任的人（先表姐、再妈妈）坦白；列清所有平台账单和支出明细；制定每月存钱还款计划。</div>
+  </div>
+
+  <div class="card">
+    <h3><span class="speaker speaker-host">主持人</span>请听众先不审判</h3>
+    <p>羽白恳请听众不要急于审判——值得听的不只是欠了多少钱，而是为什么一次次用同样方式让自己深陷泥潭，以及如何开始承认需要他人帮助。</p>
+    <div class="quote">「命运会一直给你同样的考验，直到你给出不一样的答案。」</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">故事四：盖范 · 求职焦虑与西湖日落</h2>
+
+  <div class="card">
+    <h3>从「只有offer才算数」到重捡爱好</h3>
+    <p><b>核心机制：</b>2024文科毕业生，疫情网课导致几乎无实习，价值全部绑在找工作上。拿到互联网大厂offer后工作压力致身体出问题，独自做手术。</p>
+    <p><b>关键理解：</b>术后麻药未退，工作日傍晚在西湖边长椅看日落——成对鸳鸯、野鸭、松鼠、老人唱歌。「原来工作日的午后，也是如此的美好。」意识到得到了不错工作，也失去了很多。</p>
+    <p><b>典型场景：</b>爱好（运动、画画、摄影、旅行、听播客）被求职和工作挤到边缘；外婆晚期被隐瞒，突击回家才发现。</p>
+    <div class="action">落地：恢复练琴、运动、摄影；接受「工作不是唯一紧急重要之事」。</div>
+  </div>
+
+  <div class="card card-purple">
+    <h3><span class="speaker speaker-guest">嘉宾观点</span>外婆与隐瞒</h3>
+    <p>家人因担心她状态隐瞒外婆癌症晚期，她突击回家练完琴后母亲才哭着告知。80多岁仍欧洲旅行的外婆，让她看见生命脆弱与陪伴的紧迫。</p>
+    <div class="quote">「老天在跟我开一个非常非常大的玩笑。」</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">故事五：老李 · 第一次主动选择</h2>
+
+  <div class="card">
+    <h3>从未选过的人生 vs 交给生命之流</h3>
+    <p><b>核心机制：</b>97年，美国留学（母亲决定出国、升学老师选校选专业语言学）、上海餐饮（因前任在上海而留下）。从月薪3000小县城到宰下第一个20万、100万，每周只休半天、靠酒精抵消压力。</p>
+    <p><b>关键理解：</b>2025年4月结束上海餐饮工作，纳瓦尔「三决定」（城市、事业、伴侣）+芒格逆向思维：不知道想要什么就先排除不想要的——上海不是答案，但不知哪里是答案，先迈出离开上海的第一步回成都。</p>
+    <p><b>典型场景：</b>亲密关系结束、工作结束，所有留沪理由消失，第一次「把自己交给生命之流」。</p>
+    <div class="highlight">原文依据：「我从来没有一次，是全然听从内心，给出答案并且行动。」</div>
+  </div>
+
+  <div class="card card-purple">
+    <h3><span class="speaker speaker-guest">嘉宾观点</span>餐饮工作狂的一天</h3>
+    <p>9点开会（财务/采购/主厨/老板轮值）→10点半营业准备→11:30-14:00服务→14:00起策划pop-up活动、设计菜单，常工作至23:00，每周只休半天。</p>
+    <div class="quote">「决定许多人一生绝大部分生活质量的，其实就只有三个决定：在哪里生活、从事什么、与谁一起。」</div>
+  </div>
+</div>
+
+<div class="card">
+  <h3>五位嘉宾价值重建路径对比</h3>
+  <table>
+    <tr><th>维度</th><th>转折触发</th><th>新价值锚点</th><th>一句话结论</th></tr>
+    <tr><td>小洋</td><td>倦怠+当妈+母亲病</td><td>陪伴女儿与母亲</td><td>减产回故乡，在不可重来的时光里确认陪伴</td></tr>
+    <tr><td>313</td><td>打压式上级</td><td>救助猫狗、做「好人」</td><td>具体照顾比抽象成就更能定义我是谁</td></tr>
+    <tr><td>小猫</td><td>网贷额度抽干</td><td>向家人坦承、还款</td><td>求助≠失败，不完美≠不值得被爱</td></tr>
+    <tr><td>盖范</td><td>术后西湖日落</td><td>运动/画画/摄影/家人</td><td>工作日午后也很美好，爱好值得挤回来</td></tr>
+    <tr><td>老李</td><td>留沪理由消失</td><td>主动离开、回成都</td><td>先排除不想要的，再寻找真正的生活</td></tr>
+  </table>
+</div>
+
+<div class="card card-purple">
+  <h3>💡 心法：工作重要，但不能是唯一答案</h3>
+  <p><b>为什么重要：</b>太久只用工作、收入、头衔理解自己，会把「我是谁」交给外界评价——只有顺利才好、只有增长才安全。</p>
+  <div class="quote">「工作和收入无法代表自己。远在这些之外，还有想陪伴的人，有想照顾的生命，有重新捡起来的爱好，也有需要坦承以对的人生课题。」</div>
+  <div class="action">怎么落地：列出工作外的3个价值来源；在转折来临前主动经营它们；遇到同类困境时先问「除了工作，还有什么在支撑我？」</div>
+  <p><b>适用边界：</b>不否认工作和金钱的重要性；财务危机仍需务实还款；职业选择需结合现实约束，而非浪漫逃避。</p>
+</div>
+
+<div class="conclusion">
+  <h2>总结与行动</h2>
+  <h3>核心要点</h3>
+  <ul>
+    <li>价值感不必绑定单一维度：五位嘉宾在「成功/稳定」之外都找到了新锚点</li>
+    <li>陪伴与具体照顾（家人、动物）可以比抽象成就更真实地定义「我是谁」</li>
+    <li>坦承求助和承认「我一个人解决不了」是走出财务/心理陷阱的关键一步</li>
+    <li>爱好与日常美好（西湖日落、练琴）提醒：工作不是唯一占用生命的事物</li>
+    <li>人生重大选择（城市、事业、伴侣）值得主动做出，而非被动跟随</li>
+  </ul>
+  <h3>行动清单</h3>
+  <ol>
+    <li>写下除工作外的3个价值来源（人/生命/爱好/关系），每周至少投入时间在其中一项</li>
+    <li>若财务吃紧：立即停止以贷养贷，向信任的人坦白并拉清全部账单</li>
+    <li>用纳瓦尔三问自检：我在哪座城市、做什么、与谁一起——是主动选的吗？</li>
+    <li>在职业倦怠期：评估减产/暂停是否可行，优先不可重来的陪伴时光</li>
+    <li>恢复一项被工作挤掉的爱好，选一个工作日下午刻意体验「非工作的美好」</li>
+  </ol>
+  <h3>关键认知转变</h3>
+  <p>以前认为：只有工作顺利、收入增长的我在系统里被认可，我的努力才算数、我才是好的。<br/>
+  现在理解了：人生中总有些时刻会提醒我们——不能只用工作和金钱确认自己的价值；陪伴、照顾、坦承、爱好与主动选择，同样是支撑「我是谁」的坚实答案。</p>
+</div>
+
+<div class="footer">来源：有知有行·知情小酒馆 E234 | 小酒馆故事会</div>
+
+</div>
+    </div>
+  </foreignObject>
+</svg>
