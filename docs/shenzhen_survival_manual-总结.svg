@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="10895" viewBox="0 0 1320 10895">
+  <foreignObject x="0" y="0" width="1320" height="10895">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,0.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:20px 28px;text-align:center;min-width:160px;font-weight:700;font-size:16px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3{color:#92400e;margin-bottom:8px}
+.correction p{color:#92400e;font-size:15px}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,0.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.speaker{display:inline-block;font-size:13px;font-weight:600;padding:2px 10px;border-radius:12px;margin-right:8px}
+.speaker-host{background:#dbeafe;color:#1e40af}
+.speaker-guest{background:#ede9fe;color:#6b21a8}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,0.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,0.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,0.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}</style>
+      <div class="container">
+
+<h1>Ep184 深圳生存手册：大量新鲜的搞钱方式涌入我的脑子</h1>
+<div class="meta">
+  <span class="tag tag-blue">播客</span>
+  <span class="tag tag-purple">基本无害</span>
+  <span class="tag tag-orange">2小时13分</span>
+  <span class="tag tag-green">城市生存手册</span>
+  <span class="tag tag-red">深圳</span>
+</div>
+<div class="summary-line">毛冬携宁嘉宇、小块、大雄、风哥及现场观众，在《基本无害》深圳站现场录制城市生存手册：拆解「全员搞钱」刻板印象，从城中村握手楼、莲花山塑料浴、领军人才落户到华强北美妆出海，呈现一座移民城市如何在房价压力下仍让人相信「还有机会」。</div>
+
+<div class="timeline">
+  <h3>关键时间轴</h3>
+  <div class="timeline-item"><span class="timeline-time">00:00</span><span class="timeline-text">开场预告：莲花山、塑料浴、深圳「种房子」与搞钱故事</span></div>
+  <div class="timeline-item"><span class="timeline-time">05:30</span><span class="timeline-text">嘉宾阵容：深三代、城中村土著、创业失败者、领军人才风哥</span></div>
+  <div class="timeline-item"><span class="timeline-time">18:00</span><span class="timeline-text">深圳户口值不值？本科生门槛、与北上对比</span></div>
+  <div class="timeline-item"><span class="timeline-time">28:00</span><span class="timeline-text">莲花山打卡与深圳水汇文化冲击：塑料内裤洗澡、小费习惯</span></div>
+  <div class="timeline-item"><span class="timeline-time">38:00</span><span class="timeline-text">握手楼与城中村：自建高密度楼、烟火气与低成本生存</span></div>
+  <div class="timeline-item"><span class="timeline-time">50:00</span><span class="timeline-text">社交疏离：房价第一档、通勤远、饭局少、文艺土壤薄</span></div>
+  <div class="timeline-item"><span class="timeline-time">65:00</span><span class="timeline-text">风哥创业史：2014年从布吉搬到科技园，环境塑造人</span></div>
+  <div class="timeline-item"><span class="timeline-time">78:00</span><span class="timeline-text">茶餐厅「走」字文化冲击：走青菜变成一碗素面</span></div>
+  <div class="timeline-item"><span class="timeline-time">95:00</span><span class="timeline-text">政策羊毛：文体通免费课程、创业补贴、税收优惠</span></div>
+  <div class="timeline-item"><span class="timeline-time">110:00</span><span class="timeline-text">观众搞钱故事：保洁阿姨荐股、美妆出海直播、TCG裁判</span></div>
+  <div class="timeline-item"><span class="timeline-time">125:00</span><span class="timeline-text">风哥谈自媒体：有用+有趣，别只因「能挣钱」就入场</span></div>
+  <div class="timeline-item"><span class="timeline-time">132:00</span><span class="timeline-text">收尾：嘻哈颁奖往事、下期预告、高驰赞助口播</span></div>
+</div>
+
+<div class="map">
+  <h2>核心脉络</h2>
+  <div class="diagram">
+    <div class="node">移民涌入<br/><small>还有机会</small></div>
+    <span class="arrow">→</span>
+    <div class="node-orange">低成本生存<br/><small>城中村·握手楼</small></div>
+    <span class="arrow">→</span>
+    <div class="node">搞钱生态<br/><small>创业·政策·副业</small></div>
+    <span class="arrow">→</span>
+    <div class="node-green">机会叙事<br/><small>vs 北上文艺</small></div>
+  </div>
+</div>
+
+<div class="correction">
+  <h3>⚠ 常见误解 / 认知纠偏</h3>
+  <p>深圳并非人人暴富：小块是「资深创业失败者」，风哥也曾从布吉偏远办公室摇着牙搬进科技园；「搞钱」背后是高压房价、长通勤和稀薄社交。文艺创作者在此常被边缘化，嘻哈颁奖做了七年几乎不赚钱，没赶上艺人签约红利。</p>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">一、城市身份与人口结构</h2>
+
+  <div class="card">
+    <h3>深圳人的三种身份光谱</h3>
+    <p><b>核心机制：</b>深圳几乎没有「纯土著」叙事，身份按迁入时间与户籍政策分层：特区前村里人、深三代建设者后代、纳税领军人才、普通打工人。</p>
+    <p><b>关键理解：</b>「来了就是深圳人」是政策口号，实际体验取决于户口、房产与行业。</p>
+    <p><b>典型场景：</b>评估自己是否要落户、租房选城中村还是远郊、创业是否值得押注深圳政策。</p>
+    <div class="relation">相关概念：与北上「落不了户反而更文艺」形成对照，深圳因落户仍有希望而让人更愿意拼搏。</div>
+    <div class="highlight">原文依据：风哥自称「收了钱当深圳人」的领军人才，公司纳税达几百万可获官方 title 及每年补贴；大雄三岁随父母从潮汕来，自认本地但非土著。</div>
+  </div>
+
+  <div class="card card-purple">
+    <h3><span class="speaker speaker-guest">嘉宾观点</span>风哥：环境塑造人，深圳接纳「低学历人才」</h3>
+    <p>2014年因合伙人在深圳创业而来，若去北京可能只是「无所事事的文艺青年」。深圳当时创业环境比上海便宜，比北京少文艺青年——「只有深圳才有这种逼学力人才」。从龙华布吉偏远办公室搬到科技园后，一切变顺利。</p>
+    <div class="quote">"幸亏你来到深圳，你要去的是北京，你就不是高级人才了。"</div>
+  </div>
+
+  <div class="card">
+    <h3>深圳户口：值不值得拿？</h3>
+    <p><b>核心机制：</b>本科生门槛已不高，但与老家户口比才有意义；无房户主要享受教育、医疗等城市配套。</p>
+    <p><b>适用边界：</b>若已在北上扎根或追求文艺生活，落户深圳未必加分；若计划长期打拼、享受政策补贴则值得考虑。</p>
+    <div class="highlight">原文依据：嘉宇在香港做媒体仍举手自认深圳人；风哥领军人才每年收国家三万补贴；本科生落户门槛「不高」。</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">二、居住与市井文化</h2>
+
+  <div class="card card-orange">
+    <h3>⚠ 城中村与握手楼：别当成普通小区</h3>
+    <p><b>原因：</b>深圳城中村是本地人自建四五层至七八层高密度楼，外观像小区但密度极高，南山较少、其他区遍地。</p>
+    <div class="pitfall">嘉宾说法：「你打开窗户就可以伸手握到对方」的握手楼；北方朋友常认不出城中村，误以为是正常住宅。</div>
+    <p><b>解法：</b>租房前确认楼栋类型；利用一层大排档、麻辣烫的烟火气低成本生活，但需接受拥挤与隐私缺失。</p>
+    <p><b>严重程度：</b>小心（影响居住体验，非致命）</p>
+  </div>
+
+  <div class="card">
+    <h3>莲花山与水汇：深圳式待客礼仪</h3>
+    <p><b>核心机制：</b>来深圳常被带去爬莲花山；水汇（洗浴中心）有独特规矩：一次性塑料内裤、穿着塑料袋泡澡，且普遍收小费（最低十元，有的高达一百）。</p>
+    <p><b>关键理解：</b>北方整体洗浴体验优于深圳——深圳水汇少有免费餐食，小费文化根深蒂固。</p>
+    <p><b>典型场景：</b>商务接待、朋友聚会选洗浴场所时提前预算小费，避免文化冲击。</p>
+    <div class="quote">"洗澡两百八，小费一百……洗澡本来应该是一个日常活动。"</div>
+  </div>
+
+  <div class="card card-purple">
+    <h3><span class="speaker speaker-host">主持人</span>毛冬：深圳其实在种房子</h3>
+    <p>即使深圳有鬼，也只是穷鬼的想法——城市建设的视觉印象是楼在「种」出来。握手厕、握手楼是密度极致化的缩影。</p>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">三、社交、文艺与城市气质</h2>
+
+  <div class="card">
+    <h3>为什么深圳朋友少、饭局少？</h3>
+    <p><b>核心机制：</b>房价中国第一档，大家住得分散（宝安到南山几十公里），聚会成本高；加上加班搞钱文化，社交让位于个人奋斗。</p>
+    <p><b>关键理解：</b>不是没人理你，是物理距离+时间稀缺；与北京上海「落不了户反而天天傻乐」不同，深圳人觉得还有机会、不想虚度。</p>
+    <div class="relation">与北上对比：北京有落不上户的魅力，文艺青年多；深圳没出几个明星歌手，嘻哈文化推广七年几乎不赚钱。</div>
+    <div class="highlight">原文依据：「好多以前的朋友都断了」；深圳第一个嘻哈颁奖典礼在福田办了很多年，但没签约艺人错过爆火红利。</div>
+  </div>
+
+  <div class="card">
+    <h3>茶餐厅「走」字文化</h3>
+    <p><b>核心机制：</b>港式茶餐厅菜单沿香港习惯，「走冰」=去冰，「走青菜」=不要青菜。外地人误把「走」理解成「来一个」，点「走青菜走牛肉丸走猪肉丸」结果上了一碗素面。</p>
+    <p><b>怎么用：</b>点餐前确认「走」=去掉/不要，而非添加。</p>
+  </div>
+
+  <div class="card">
+    <h3>观点对比：深圳 vs 北京 vs 上海</h3>
+    <table>
+      <tr><th>维度</th><th>深圳</th><th>北京</th><th>上海</th></tr>
+      <tr><td>城市气质</td><td>搞钱、拼搏、还有机会</td><td>文艺、落不了户也乐呵</td><td>精英百里、成本高</td></tr>
+      <tr><td>社交密度</td><td>低，住得远饭局少</td><td>高，胡同酒吧文化</td><td>街道权、精致社交</td></tr>
+      <tr><td>文艺土壤</td><td>薄，嘻哈/说唱影响力弱</td><td>浓，文艺青年聚集</td><td>时尚精英向</td></tr>
+      <tr><td>创业成本</td><td>相对较低，政策友好</td><td>文艺氛围浓但贵</td><td>陌生且昂贵</td></tr>
+      <tr><td>一句话结论</td><td>适合想拼、想搞钱的人</td><td>适合文艺与「躺平」</td><td>适合精英赛道</td></tr>
+    </table>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">四、搞钱生态：政策、创业与副业</h2>
+
+  <div class="card card-green">
+    <h3>政府羊毛：文体通与创业补贴</h3>
+    <p><b>核心机制：</b>各区「文体通」APP 提供成人书法、声乐、网球等免费或低价公益课；大学生创业有办公室补贴和每月资助；深圳公司税收优惠吸引外地人专门来注册。</p>
+    <div class="action">怎么落地：下载宝安/南山等区文体通报名免费课程；符合条件申请创业补贴；比较注册地税率再决定公司选址。</div>
+    <p><b>适用边界：</b>文化补贴丰富不代表文艺产业成熟；补贴有门槛和时效，需持续关注政策更新。</p>
+    <div class="highlight">原文依据：嘉宾免费学了六节网球；开心麻花票在南山文体通半价；北京前客特意来深圳办公司省税。</div>
+  </div>
+
+  <div class="card card-purple">
+    <h3><span class="speaker speaker-guest">嘉宾观点</span>林老板：Westwood 西餐厅，爱好也能赚钱</h3>
+    <p>在南山开两家西餐厅（Westwood 浅海店），香港也有分店，环境榜排第一。被小块追问「爱好还是真赚钱」后坦白：真赚钱。时间可以挤出来，「钱你也可以挤出来」。</p>
+    <div class="quote">"小块以为创业只有两种选择，要不然是出于爱好，要不然是赚钱。你没有想过能有个同志。"</div>
+  </div>
+
+  <div class="card">
+    <h3>观众搞钱故事集锦</h3>
+    <table>
+      <tr><th>案例</th><th>模式</th><th>关键动作</th><th>风险</th></tr>
+      <tr><td>保洁阿姨荐股</td><td>信息差套利</td><td>在有钱人家做保洁获取政策/公司内幕</td><td>合规与信息可靠性存疑</td></tr>
+      <tr><td>美妆出海直播</td><td>华强北式迭代</td><td>拿样品让人解析配方、海外换标、找主播分销</td><td>前期退货亏损、需行业积累</td></tr>
+      <tr><td>TCG卡牌裁判</td><td>兴趣变现</td><td>成为宝可梦官方裁判执裁比赛</td><td>收入有限，适合副业</td></tr>
+      <tr><td>风哥领军人才</td><td>政策+创业</td><td>公司纳税达标获人才认定与补贴</td><td>需真实业务与纳税体量</td></tr>
+    </table>
+  </div>
+
+  <div class="card card-orange">
+    <h3>⚠ 别只因「自媒体能挣钱」就入场</h3>
+    <p><b>原因：</b>风哥见过太多人听说自媒体赚钱就冲进来，既无行业价值也无趣味，基本不可能成功。</p>
+    <div class="pitfall">风哥说法：「就像早几年干淘宝能挣钱，你只知道它挣钱就来干，基本上不会成功。」</div>
+    <p><b>解法：</b>要么做行业资深提供价值（有用），要么安心当网络小丑让人硬笑（有趣），最好两者兼具。</p>
+    <p><b>严重程度：</b>小心（浪费精力，非致命）</p>
+  </div>
+
+  <div class="card card-purple">
+    <h3><span class="speaker speaker-guest">嘉宾观点</span>风哥：自媒体成功公式</h3>
+    <p>目标明确才做：拍摄内容要么非常有用（行业资深），要么非常有趣（纯小丑让人笑）。最好「又有用又有趣」。若只因听说赚钱而来，至少别指着它当事业。</p>
+    <div class="quote">"有用和有趣结合在一起。如果说你哎呦这东西挣钱……你就别干了。"</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">五、反面案例与人生选择</h2>
+
+  <div class="card">
+    <h3>小块：资深创业失败者</h3>
+    <p><b>核心机制：</b>小块代表「来了深圳但没搞到钱」的一面，关心别人创业成功故事正因为自己失败过。</p>
+    <p><b>关键理解：</b>深圳搞钱神话背后有大量沉默失败者；不是所有人都有林老板式的赚钱速度。</p>
+    <div class="relation">与林老板对比：同样在深圳，有人两年赚够别人两三年赔的，有人仍在摸索。</div>
+  </div>
+
+  <div class="card card-green">
+    <h3>💡 心法：深圳适合「相信还有机会」的人</h3>
+    <p><b>为什么重要：</b>房价高压下若失去希望会陷入焦虑；深圳的独特之处在于移民仍愿加班拼搏，而非像北上部分人群选择「算了」。</p>
+    <div class="quote">"可能大家来深圳都会觉得，我还是有机会的，我想拼一拼多加班……就大家不想虚度。"</div>
+    <div class="action">怎么落地：评估自己是「机会型」还是「生活型」人格再决定去留；利用文体通、创业补贴等政策降低试错成本。</div>
+    <p><b>适用边界：</b>若追求文艺氛围、紧密社交或低成本躺平，北京成都等可能更合适；若已有稳定远程收入，深圳高房价性价比需重算。</p>
+  </div>
+
+  <div class="card">
+    <h3>不搞钱的故事：辞职去尼泊尔</h3>
+    <p>一位观众分享与同事恋爱后准备双双辞职去尼泊尔旅居，「呆着不搞钱了」。嘉宇调侃这也很符合节目主旨。风哥补充自己不会辞职搞副业，「还要送外卖、做饭、小饭桌」。</p>
+    <div class="highlight">原文依据：「他已经辞了我马上辞了」；风哥「等我表达确实没有这么多之后，再说我认真搞钱」。</div>
+  </div>
+</div>
+
+<div class="conclusion">
+  <h2>总结与行动</h2>
+  <h3>核心要点</h3>
+  <ul>
+    <li>深圳是移民城市：身份光谱从城中村土著到领军人才，「来了就是深圳人」需结合户口与房产理解</li>
+    <li>居住文化独特：握手楼/城中村高密度低成本，莲花山水汇有塑料浴与小费习惯</li>
+    <li>社交与文艺偏薄：房价导致住得远、饭局少；嘻哈等文艺产业曾错过红利</li>
+    <li>搞钱生态成熟：文体通公益课、创业补贴、税收优惠、华强北式快速迭代</li>
+    <li>机会叙事是核心气质：与北上「落不了户反而洒脱」不同，深圳让人相信还能拼</li>
+  </ul>
+  <h3>行动清单</h3>
+  <ol>
+    <li>下载所在区「文体通」APP，报名免费网球/书法等公益课，降低生活成本</li>
+    <li>租房前确认是否城中村/握手楼，实地看楼间距与一层商业配套</li>
+    <li>若有创业计划，比对深圳与老家税率、办公补贴和大学生创业政策</li>
+    <li>做自媒体/副业前先自问：能提供行业价值吗？足够有趣吗？别只因「听说赚钱」</li>
+    <li>评估人格匹配：要拼机会选深圳，要文艺社交可能北上更合适</li>
+  </ol>
+  <h3>关键认知转变</h3>
+  <p>以前认为深圳人人暴富、遍地黄金；现在理解了搞钱神话背后是高房价、长通勤、稀薄社交和大量沉默失败者。深圳真正的吸引力不是「一定赚到大钱」，而是「还有机会」——这座城市仍在种房子，也仍在给愿意拼搏的人留位置。</p>
+</div>
+
+<div class="footer">来源：基本无害 Mostly Harmless · Ep184 深圳生存手册（上期）· 小宇宙</div>
+
+</div>
+    </div>
+  </foreignObject>
+</svg>
