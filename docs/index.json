@@ -1,6 +1,16 @@
 [
   {
     "date": "2026-06-23",
+    "filename": "greenlights_v329-总结.svg",
+    "title": "Vol.329 绿灯：朝气蓬勃的生活，比蒸蒸日上的事业更重要",
+    "summary": "文化有限共读马修·麦康纳《绿灯》：绿灯是拒绝错误路口而非开挂人生，生机勃勃的生活比事业巅峰更重要；拒1450万浪漫喜剧、成名后房车三年与认真生活哲学",
+    "tags": ["文学", "播客", "自传"],
+    "url": "https://www.xiaoyuzhoufm.com/episode/69d1e86bb977fb2c47215ffc",
+    "duration": "1小时22分",
+    "svg_height": 10811
+  },
+  {
+    "date": "2026-06-23",
     "filename": "smart_perception_sensors-总结.svg",
     "title": "摄像头、紫光波、激光雷达，UWB，谁才是智能感知的关键？",
     "summary": "三刀大白话拆解超声波雷达、UWB、摄像头、毫米波雷达、激光雷达五大传感器，从理想L9取消超声波改用UWB切入，讲清原理优缺点与融合感知策略",
