@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="9096" viewBox="0 0 1320 9096">
+  <foreignObject x="0" y="0" width="1320" height="9096">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,0.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:20px 28px;text-align:center;min-width:160px;font-weight:700;font-size:16px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3{color:#92400e;margin-bottom:8px}
+.correction p{color:#92400e;font-size:15px}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,0.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.speaker{display:inline-block;font-size:13px;font-weight:600;padding:2px 10px;border-radius:12px;margin-right:8px}
+.speaker-host{background:#dbeafe;color:#1e40af}
+.speaker-guest{background:#ede9fe;color:#6b21a8}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,0.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,0.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,0.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}</style>
+      <div class="container">
+
+<h1>E116：6万6的随心飞产品，值得买吗？</h1>
+<div class="meta">
+  <span class="tag tag-blue">播客</span>
+  <span class="tag tag-purple">海航顺行卡</span>
+  <span class="tag tag-orange">旅行羊毛</span>
+  <span class="tag tag-green">信用卡安全</span>
+  <span class="tag tag-gray">39分钟</span>
+</div>
+<div class="summary-line">
+  胡刀刀三位主播深度拆解海航 66666 顺行卡与 6666 随心飞：前者存 6.6 万一年全额退还、送 3333 积分约抵 8 张机票，后者 199 元/趟但限早晚班；同时分享信用卡境外倒刷处理流程与酒店协议价签法。
+</div>
+
+<div class="timeline">
+  <h3>关键时间轴</h3>
+  <div class="timeline-item">
+    <span class="timeline-time">00:00</span>
+    <span class="timeline-text">开场：海航顺行卡返场，一刀已购 66666 产品准备分享</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">02:30</span>
+    <span class="timeline-text">660 vs 666 两款产品定位：特种兵 199 元 vs 顺行卡 379 元无时段限制</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">08:00</span>
+    <span class="timeline-text">3333 积分机制：约等于 5% 理财收益，但海航曾破产重组</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">15:00</span>
+    <span class="timeline-text">退卡规则：提前退扣 13%，拉 3 新人可免违约金</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">26:00</span>
+    <span class="timeline-text">隐藏权益解锁：航班取消享公务舱待遇 + 400 元/人酒店</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">32:00</span>
+    <span class="timeline-text">信用卡倒刷实录：ATM 证明持卡、110 报警、关闭境外交易</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">36:00</span>
+    <span class="timeline-text">酒店协议价：营业执照即可签专属低价，比 OTA 更便宜</span>
+  </div>
+</div>
+
+<div class="map">
+  <h2>核心脉络</h2>
+  <div class="diagram">
+    <div class="node">6666 随心飞<br/><small>199元/趟·早晚班</small></div>
+    <div class="arrow">↔</div>
+    <div class="node node-green">66666 顺行卡<br/><small>379元/趟·全年可用</small></div>
+    <div class="arrow">→</div>
+    <div class="node node-orange">3333 积分<br/><small>≈8张免费票</small></div>
+    <div class="arrow">→</div>
+    <div class="node">金卡权益<br/><small>贵宾厅·快速通道</small></div>
+  </div>
+</div>
+
+<div class="correction">
+  <h3>⚠ 常见误解 / 认知纠偏</h3>
+  <p><strong>误解1：</strong>「6.6 万存一年没利息，纯亏」→ 3333 积分可抵约 8 张 379 元机票 + 燃油基建费，年化约 5%，但本质是<strong>海航信用背书的高风险理财</strong>。</p>
+  <p><strong>误解2：</strong>「379 元票可以给亲友买」→ 只能给自己买；给亲友须按原价，积分也不能代他人购票。</p>
+  <p><strong>误解3：</strong>「买了卡随时能退」→ 提前退卡扣 13%（约 8600 元），除非成功拉 3 个新人购买。</p>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">一、海航两款「随心飞」产品对比</h2>
+
+  <div class="card">
+    <h3>6666 随心飞（660 产品）</h3>
+    <p><b>核心机制：</b>6606 元一次性购买权益，每次飞行再付 199 元，仅限早晚航班，屏蔽寒暑假和热门航线。</p>
+    <p><b>关键理解：</b>单次成本最低，适合「特种兵」式旅行和能抢票的早起晚睡党；热门线（如深圳→呼伦贝尔）秒空。</p>
+    <p><b>典型场景：</b>深圳飞呼伦贝尔等本就是早班机，199 元极划算；一刀飞了 14 趟，汪飞一次呼和浩特即回本。</p>
+    <div class="relation">与顺行卡区别：660 最多同时订 3 张票（3 段里程），退改签需付费；顺行卡可订无限张且提前 7 天免费退。</div>
+    <div class="highlight">原文依据：「660 的机票只要你能抢到的话只有 199，但是他是有时间限制的」</div>
+  </div>
+
+  <div class="card card-purple">
+    <h3>
+      <span class="speaker speaker-guest">嘉宾观点</span>
+      66666 顺行卡：存 6.6 万一年全额退还
+    </h3>
+    <p>存 66666 元到海航一年，到期全额退还（无利息）。期间获赠 3333 积分，可抵扣约 8 张全国任意航线经济舱机票（含全价票、含价暑价春节），每张等值 379 元。</p>
+    <p>超过 8 张后，仍可按 379 元/张购票（仅限本人）。旺季节（春运前后、五一、十一）只能提前 7 天订票，其他时间可提前很多天购买。</p>
+    <div class="quote">"3333 大概是 66666 的 4.99%，大家可以理解为这是一个将近 5% 的理财产品"</div>
+    <div class="pitfall">嘉宾提醒：海航曾破产重组为新海航，「只要是花钱、只要是有投资都是有风险」——牛刀、熊刀均未购买，仅一刀持有。</div>
+  </div>
+
+  <div class="card">
+    <h3>观点对比：660 vs 66666 怎么选？</h3>
+    <table>
+      <tr><th>维度</th><th>6666 随心飞 (660)</th><th>66666 顺行卡</th><th>一句话结论</th></tr>
+      <tr><td>单次成本</td><td>199 元/趟</td><td>379 元/趟（前 8 张可用积分）</td><td>660 更便宜但限时段</td></tr>
+      <tr><td>时段限制</td><td>仅早晚班，屏蔽假期</td><td>任意时段，全年可用</td><td>顺行卡适合带老人/寒暑假出行</td></tr>
+      <tr><td>订票数量</td><td>最多同时 3 张</td><td>无限制</td><td>顺行卡适合高频飞</td></tr>
+      <tr><td>退改签</td><td>主动退改需扣费（7 天前 38/76 元）</td><td>提前 7 天免费退</td><td>顺行卡灵活性高得多</td></tr>
+      <tr><td>资金占用</td><td>6606 元不退还</td><td>66666 元一年后退还</td><td>顺行卡本质是零息存款+机票权益</td></tr>
+      <tr><td>适合人群</td><td>特种兵、抢票高手</td><td>寒暑假家庭出行、随心飞用户</td><td>很多人两个都买，搭配使用</td></tr>
+    </table>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">二、顺行卡隐藏权益与实操技巧</h2>
+
+  <div class="card card-green">
+    <h3>金卡权益：第一年准金卡，第二年真金卡</h3>
+    <p><b>核心机制：</b>购卡即送准金卡（可进 9 个海航自营贵宾厅），一年后升级为真金卡（几乎所有大城市贵宾厅 + 可带 1 人同行）。</p>
+    <p><b>关键理解：</b>这是海航留住用户的「钩子」——第二年不续卡也会优先选海航航班；快速值机通道可省 1 小时排队，额外 30kg 行李对连程和购物回国极实用。</p>
+    <p><b>典型场景：</b>一刀为母亲买顺行卡飞深圳→呼伦贝尔，第一排座位（普通用户需 2000 积分锁定）、优先登机让老人体验大幅提升。</p>
+    <div class="action">怎么落地：HU 航班可线上锁定第一排；其他航司旗下航班走贵宾厅快速通道 + 额外行李额。</div>
+    <p><b>适用边界：</b>深圳无海航自营贵宾厅；第一年准金卡只能进海航自营厅，不能进联盟厅。</p>
+  </div>
+
+  <div class="card card-purple">
+    <h3>
+      <span class="speaker speaker-guest">嘉宾观点</span>
+      航班取消时的「隐藏大招」
+    </h3>
+    <p>顺行卡用户遇航班取消，可享公务舱待遇 + 人均 400 元住宿费（三人即 1200 元额度）。还可改签到更合适的航班时段，甚至改到临近城市（如西安取消改兰州，西宁过去仅 1 小时火车）。</p>
+    <div class="quote">"当你买了 66666 的顺行卡之后，从这个时间你就变成一个高级用户了……不管用什么方式买的票，都能享受高级用户待遇"</div>
+    <div class="highlight">原文依据：一刀三人遇取消，定了皇冠假日套房，1200 额度还没用完；666666 和 66666 都可以改临近城市」。</div>
+  </div>
+
+  <div class="card card-orange">
+    <h3>⚠ 退卡与积分交易陷阱</h3>
+    <p><b>原因：</b>提前退卡扣 13%（约 8600 元）；拉 3 新人可免违约金，但实际只退 63333 元，3333 元转积分不退现金。</p>
+    <div class="pitfall">嘉宾说法：「你收了这个分之后，你不能以 379 块买这个机票啊，我必须要有一张顺行卡才行」——闲鱼 93 折收分只对持卡人有意义。</div>
+    <p><b>解法：</b>飞不够 8 次可将积分抵燃油基建费；积分可 93 折转卖但需有顺行卡才能用。</p>
+    <p><b>严重程度：</b>小心——No-show 3 次冻结权益 30 天，多次则扣全价票款。</p>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">三、值不值得买？三方立场</h2>
+
+  <div class="card">
+    <h3>观点对比：买 vs 不买</h3>
+    <table>
+      <tr><th>维度</th><th>一刀（已购）</th><th>牛刀（不买）</th><th>一句话结论</th></tr>
+      <tr><td>核心动机</td><td>为母亲省 3000 元机票 + 金卡体验</td><td>风险太高，生活要简单</td><td>有明确出行需求可考虑</td></tr>
+      <tr><td>飞行频率</td><td>「没有条件也要创造条件飞」</td><td>「千万别碰」</td><td>低频飞者相当于买 5% 理财</td></tr>
+      <tr><td>风险承受</td><td>接受海航信用风险</td><td>海航曾破产，不赌</td><td>年飞 1-2 次不太划算</td></tr>
+      <tr><td>心动瞬间</td><td>林芝半马往返 1 万+，379×12 可搞定</td><td>始终提醒「注意风险」</td><td>算清楚真实飞行计划再决定</td></tr>
+    </table>
+  </div>
+
+  <div class="card card-purple">
+    <h3>💡 心法：羊毛可以薅，但先算清账</h3>
+    <p><b>为什么重要：</b>「点心省小钱花大钱」——为省 3000 元存 66666；但一旦拥有身份就会创造出行理由。</p>
+    <div class="quote">"一旦你拥有了这个身份之后，没有条件也要创造条件飞"</div>
+    <div class="action">怎么落地：① 列出未来一年确定出行 3+ 次且票价 &gt; 379 元；② 确认能承担海航信用风险；③ 660+66666 搭配用，199 元航线走 660、其余走顺行卡积分。</div>
+    <p><b>适用边界：</b>飞行次数少、航线近且票价低时不值得；无 6.6 万流动资金者勿碰。</p>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">四、信用卡境外倒刷处理 SOP</h2>
+
+  <div class="card card-orange">
+    <h3>⚠ 凌晨 4:40 被倒刷：标准处理流程</h3>
+    <p><b>原因：</b>银行卡默认开通境外交易（含无卡支付），凌晨被盗刷时银行风控冻结卡片。</p>
+    <div class="pitfall">一刀亲历：两笔巨款凌晨被刷，未接银行来电（手机静音）。</div>
+    <p><b>解法（四步）：</b></p>
+    <ol>
+      <li><strong>立即致电银行</strong>，报告盗刷</li>
+      <li><strong>ATM 证明持卡</strong>：去任意 ATM 做查询/取款操作（即使卡已冻结），保留凭条拍照</li>
+      <li><strong>打 110 报警</strong>，取得出警号和报警回执，拍照保存</li>
+      <li><strong>提交材料给银行</strong>，交易一般不会被认可入账</li>
+    </ol>
+    <p><b>严重程度：</b>致命若不做 ATM 证明和报警——银行可能无法拒付。</p>
+  </div>
+
+  <div class="card card-green">
+    <h3>预防：关闭境外/夜间交易</h3>
+    <p><b>核心机制：</b>大部分银行 APP 可一键关闭境外交易、无卡支付、夜间交易；部分银行支持按国家/地区白名单（如只开新加坡），或临时解锁 30 分钟。</p>
+    <div class="action">怎么落地：打开银行 APP → 安全设置 → 关闭境外交易 + 关闭无卡支付 + 可选关闭夜间交易。也可关闭「中国境内交易」选项（防境内倒刷）。</div>
+    <div class="highlight">原文依据：「这一套流程是一个标准流程，而且非常的成熟，所以你不用担心你的钱就被划走了」</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">五、酒店协议价：营业执照即可签</h2>
+
+  <div class="card">
+    <h3>连锁酒店协议价签法</h3>
+    <p><b>核心机制：</b>打电话给目标酒店，提供营业执照（不要求是法人），即可签专属协议价，通常比 OTA 便宜且多含早餐。</p>
+    <p><b>关键理解：</b>一刀为呼伦贝尔之行签了喜来登协议价，大集团旗下酒店可能有全国通用低价。</p>
+    <p><b>典型场景：</b>西北连锁酒店前台询价 + 协议价签约，比携程/美团更划算。</p>
+    <div class="action">怎么落地：出行前致电目标酒店问协议价 → 发营业执照 → 对比 OTA 价格确认省钱幅度。</div>
+    <p><b>适用边界：</b>需有营业执照；非所有酒店都接受；协议价覆盖范围因酒店集团而异。</p>
+  </div>
+</div>
+
+<div class="conclusion">
+  <h2>总结与行动</h2>
+  <h3>核心要点</h3>
+  <ul>
+    <li>66666 顺行卡 = 零息存款 + 3333 积分（≈8 张票）+ 金卡权益，379 元/张无时段限制</li>
+    <li>6666 随心飞 = 199 元/趟但限早晚班，适合特种兵，可与顺行卡搭配</li>
+    <li>年化约 5% 收益背后是海航信用风险，曾破产重组，牛刀建议「千万别碰」</li>
+    <li>隐藏权益：航班取消享公务舱待遇 + 400 元/人酒店 + 可改临近城市</li>
+    <li>信用卡倒刷：ATM 证明 + 110 报警 + 关闭境外交易是标准 SOP</li>
+  </ul>
+  <h3>行动清单</h3>
+  <ol>
+    <li>打开银行 APP，立即关闭境外交易和无卡支付（防倒刷）</li>
+    <li>若考虑顺行卡：列出未来一年 3+ 次出行计划，算清 379×次数 vs 66666 占用成本</li>
+    <li>有营业执照的，下次出行前致电酒店问协议价，对比 OTA</li>
+    <li>已持卡用户：660 抢 199 元早班，顺行卡积分留给 660 没有的航线</li>
+    <li>遇航班取消不要慌，主动要求公务舱待遇和 400 元/人住宿额度</li>
+  </ol>
+  <h3>关键认知转变</h3>
+  <p>以前认为「随心飞就是便宜机票」，现在理解了顺行卡本质是<strong>海航信用背书的高收益理财 + 航空 VIP 身份</strong>——收益与风险并存，且会改变你的出行行为（「没有条件也要创造条件飞」）。买之前先问自己：是为了出行，还是为了理财？</p>
+</div>
+
+<div class="footer">来源：胡刀刀 E116 · 小宇宙播客 · 非商业推广，嘉宾自费购买分享</div>
+
+</div>
+    </div>
+  </foreignObject>
+</svg>
