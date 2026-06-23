@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="12167" viewBox="0 0 1320 12167">
+  <foreignObject x="0" y="0" width="1320" height="12167">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,0.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:20px 28px;text-align:center;min-width:160px;font-weight:700;font-size:16px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3{color:#92400e;margin-bottom:8px}
+.correction p{color:#92400e;font-size:15px}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,0.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.speaker{display:inline-block;font-size:13px;font-weight:600;padding:2px 10px;border-radius:12px;margin-right:8px}
+.speaker-host{background:#dbeafe;color:#1e40af}
+.speaker-guest{background:#ede9fe;color:#6b21a8}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,0.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,0.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,0.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}</style>
+      <div class="container">
+
+<h1>E114:2026世界杯装腔(观赛)指南</h1>
+<div class="meta">
+  <span class="tag tag-blue">播客</span>
+  <span class="tag tag-purple">胡刀刀</span>
+  <span class="tag tag-orange">1小时08分</span>
+  <span class="tag tag-green">世界杯</span>
+</div>
+<div class="summary-line">
+一句话概括：三位中年老灯为非球迷储备「社交货币」——美加墨三国合办48强104场、史上最贵球票与动态定价、伊朗跨境参赛困局，到梅西C罗诸神黄昏与新王当立，附北京时间观赛表、必看场次与中国元素（拉布布/马宁/联想AI越位）。
+</div>
+
+<div class="timeline">
+  <h3>关键时间轴</h3>
+  <div class="timeline-item">
+    <span class="timeline-time">00:00</span>
+    <span class="timeline-text">开场怀旧：四年一度的杜良恒，本期定位为非球迷也能听的装腔观赛指南</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">02:30</span>
+    <span class="timeline-text">基础信息：美加墨三国合办、48强104场、6月12日北京时间凌晨3点开幕</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">08:30</span>
+    <span class="timeline-text">对比卡塔尔：北美跨度4400公里，库拉索飞行1.1万公里，伊朗跨境参赛单日往返10小时+</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">15:00</span>
+    <span class="timeline-text">三国合办逻辑：分摊成本、对抗摩洛哥申办、美国拿走几乎全部淘汰赛</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">28:00</span>
+    <span class="timeline-text">球票史上最贵：决赛前排近3.3万美元，FIFA官方二手平台抽30%「苹果税」</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">38:00</span>
+    <span class="timeline-text">中国元素：泡泡玛特拉布布、马宁等三名裁判、联想AI越位系统、瑞幸库迪赞助对决</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">48:00</span>
+    <span class="timeline-text">冠军玄学：赔率前五定律+大热必死+无卫冕，最终剩英格兰/法国/巴西</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">55:00</span>
+    <span class="timeline-text">美伊宿命对决、阿兹特克球场传奇、诸神黄昏与新王当立（哈兰德/姆巴佩/亚马尔）</span>
+  </div>
+</div>
+
+<div class="map">
+  <h2>核心脉络</h2>
+  <div class="diagram">
+    <div class="node">三国合办<br/><small>美加墨</small><br/><small>48强·104场</small></div>
+    <div class="arrow">→</div>
+    <div class="node node-orange">观赛成本<br/><small>史上最贵票</small><br/><small>动态定价</small></div>
+    <div class="arrow">→</div>
+    <div class="node">地理挑战<br/><small>长途飞行</small><br/><small>高海拔+高温</small></div>
+    <div class="arrow">→</div>
+    <div class="node node-green">装腔谈资<br/><small>冷知识</small><br/><small>社交货币</small></div>
+    <div class="arrow">→</div>
+    <div class="node node-orange">诸神黄昏<br/><small>梅西C罗</small><br/><small>新王2亿欧元</small></div>
+  </div>
+</div>
+
+<div class="correction">
+  <h3>⚠ 常见误解 / 认知纠偏</h3>
+  <p><b>误解1：</b>「48强扩军=比赛注水、没人看」→ 1998年从24扩到32时也有人喊注水，但热度从未下降；扩军反而让更多弱队有爆冷空间，小组赛末轮因「8个最佳第三名」出线规则，摆烂会大幅减少。</p>
+  <p><b>误解2：</b>「三国合办=美国慷慨分蛋糕」→ 104场比赛中加拿大+墨西哥仅26场且以小组赛为主，<b>几乎全部淘汰赛都在美国</b>，最好的一块肉美国自己吃了。</p>
+  <p><b>误解3：</b>「意大利没进世界杯=意大利元素消失」→ 主题曲Dai Dai是意大利语（意为加油），西班牙无皇马球员反而更团结——意大利以另一种方式「无处不在」。</p>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">一、本届世界杯基础画像</h2>
+
+  <div class="card">
+    <h3>48强扩军与赛制变化</h3>
+    <p><b>核心机制：</b>史上首次三国（美国、加拿大、墨西哥）联合举办，从32强扩至48强，共104场比赛，夺冠需踢满8场。12个小组每组4队，前两名+8个成绩最好的第三名出线。</p>
+    <p><b>关键理解：</b>以前小组赛第三轮若已确定无法出线，弱队常「摆烂」；今年第三名仍可能晋级，末轮悬念大增。</p>
+    <p><b>典型场景：</b>饭局聊「这届有什么不一样」时，用「复活赛机制」类比综艺淘汰再复活，非球迷秒懂。</p>
+    <div class="relation">相关概念：与1998年24→32扩军争议一脉相承，但足球世界第一运动的魅力在于「比赛多≠热度降」</div>
+    <div class="highlight">原文依据：「反正话又说回来了，就是都扩军了，就是咱中国队还是没进」</div>
+  </div>
+
+  <div class="card card-purple">
+    <h3>
+      <span class="speaker speaker-guest">嘉宾观点</span>
+      卡塔尔紧凑 vs 北美辽阔：球员的最大敌人是距离
+    </h3>
+    <p>2022卡塔尔世界杯8座球场挤在多哈周边，最远开车不到1小时，球迷一天能看两场。本届北美大陆跨度极大：温哥华到墨西哥城最长跨4400公里。每队有独立驻地，踢完一场可能需飞几个时区、四五小时航程。</p>
+    <p>库拉索（人口15万、面积444平方公里，世界杯历史最小参赛地）驻佛罗里达，比赛却在休斯顿/堪萨斯城/费城，小组赛总飞行近11000公里。伊朗因签证问题驻地改墨西哥边境，比赛全在美国（洛杉矶×2、西雅图×1），单日跨境往返可能超10小时。</p>
+    <div class="quote">「感觉还没开始踢球，就已经消耗了人家很多体力了」</div>
+  </div>
+
+  <div class="card">
+    <h3>高海拔与高温：墨西哥的主场优势</h3>
+    <p><b>核心机制：</b>开幕式在墨西哥城阿兹特克体育场，海拔约2200米（接近西宁），竞技状态可能下降约30%。比赛多安排在墨西哥当地时间下午1点起——为照顾欧洲黄金转播时段，球员需同时面对高海拔和高温。</p>
+    <p><b>关键理解：</b>本届上下半场中间会额外插入约3分钟喝水暂停，类似1994年美国世界杯的球员抱怨传统。</p>
+    <p><b>适用边界：</b>加拿大和美国场地海拔较低；墨西哥东道主+地理优势，小组赛成绩值得关注，但「买它赢」需谨慎——彩票有风险。</p>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">二、三国合办：经济账与政治账</h2>
+
+  <div class="card card-green">
+    <h3>为什么要三国「拼多多」合办？</h3>
+    <p><b>省钱：</b>48队104场若单一国家承办，体育场等基建成本过重；美加墨均有现成高标准场馆（如阿兹特克体育场），分摊投资。</p>
+    <p><b>竞争：</b>2017-18申办时，2022已定亚洲、2018在欧洲，主要对手是摩洛哥。三国联合增强对非洲对手的竞争力，也让国际足联对首次48队大赛更放心。</p>
+    <p><b>分赃：</b>美国商业运作能力最强带头，加拿大墨西哥「喝点汤」——拿主办国保送名额+部分转播旅游收益，投入相对较小。</p>
+    <div class="action">怎么落地：聊「美国为什么愿意分」时，记住数字——104场中加墨仅26场，淘汰赛几乎全在美国。</div>
+  </div>
+
+  <div class="card">
+    <h3>未来主办模式展望</h3>
+    <p>2030世界杯：葡萄牙+西班牙+摩洛哥跨洲合办，百年纪念赛还将回到乌拉圭/阿根廷/巴拉圭。2034由沙特阿拉伯承办。因不能连续同洲举办，中国最早可能2042年申办世界杯。</p>
+    <div class="relation">相关概念：2002日韩合办后曾传闻禁止多国主办，但「规矩是死的人是活的」——有美国牵头就能成</div>
+  </div>
+
+  <div class="card card-orange">
+    <h3>⚠ 墨西哥治安：去现场观赛的风险</h3>
+    <p><b>原因：</b>2026春节期间墨西哥军方击毙大毒枭后遭大规模报复，国际足联一度犹豫，政府承诺投入近10万安保后才确认按原计划举办。</p>
+    <div class="pitfall">嘉宾说法：「墨西哥城晚上还是尽量少出去」「小城镇反而更安全」——2019年经验，当前局势需自行核实。</div>
+    <p><b>解法：</b>计划去墨西哥观赛者关注当地实时安全信息，优先选择有安保的赛事周边区域。</p>
+    <p><b>严重程度：</b>小心（对旅行者而言需认真评估，非一概禁止）</p>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">三、观赛时间表与装腔必备冷知识</h2>
+
+  <div class="card">
+    <h3>北京时间关键赛程</h3>
+    <table>
+      <tr><th>赛事</th><th>北京时间</th><th>装腔提示</th></tr>
+      <tr><td>开幕式+揭幕战</td><td>6月12日 凌晨3:00</td><td>熬夜党专属，中年老灯大概率看录像</td></tr>
+      <tr><td>小组赛</td><td>每天多场，凌晨至中午12:00</td><td>早起型选手友好（6-12点多场）</td></tr>
+      <tr><td>半决赛</td><td>7月15-16日 凌晨3:00</td><td>进入淘汰赛阶段后全面凌晨化</td></tr>
+      <tr><td>三四名</td><td>7月19日 凌晨4:00</td><td>——</td></tr>
+      <tr><td>决赛</td><td>7月20日 凌晨3:00</td><td>夏夜啤酒局最佳借口</td></tr>
+    </table>
+    <div class="action">怎么落地：非球迷不必每场看——挑2-3场「时间友好+有故事」的即可（见下方推荐场次）。</div>
+  </div>
+
+  <div class="card card-purple">
+    <h3>
+      <span class="speaker speaker-host">主持人提问</span>
+      球票为什么这么贵？FIFA在炒票吗？
+    </h3>
+    <p><span class="speaker speaker-guest">嘉宾观点：</span>本届标签除三国48强外，就是「史上最贵世界杯」。平均票价从卡塔尔约70美元涨到约120美元；决赛一类座官方价约32970美元（约24万人民币），二手市场甚至有百万美元标价（多为噱头）。</p>
+    <p>FIFA首次引入航司/网约车式动态定价，票价随对手、阶段、城市、购买时间波动，最低甚至有10美元票，整体像炒股。FIFA还推出官方唯一二手交易平台，买卖双方各收15%佣金（合计30%，被戏称「苹果税」）。</p>
+    <div class="quote">「Football Unites the World 应该改成足球团结有钱人的世界」</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">四、中国元素：没踢球但无处不在</h2>
+
+  <div class="card card-green">
+    <h3>拉布布、裁判与AI：中国队缺席的替代出场</h3>
+    <p><b>泡泡玛特拉布布：</b>获FIFA官方IP授权，穿世界杯球衣捧大力神杯的限量款国内售价599元，4月2日发售秒空；还有盲盒、可口可乐联名珍藏装。</p>
+    <p><b>三名中国裁判：</b>马宁（主裁，2022卡塔尔后再次入选）、傅明（VAR）、周飞（助理裁判）——共170人裁判组中占3席。</p>
+    <p><b>联想AI越位系统：</b>为104场比赛提供毫米级自动越位判定，结果直推裁判，缩短判罚时间，但也引发「体毛级越位扼杀意外性」争议。</p>
+    <p><b>赞助商：</b>海信、蒙牛连续三届顶级赞助；瑞幸赞助葡萄牙/西班牙，库迪赞助阿根廷——「球队四强对立，赞助商也四强对立」。</p>
+    <div class="highlight">原文依据：「虽然咱们国家队没去，但是咱们的拉布布去了」</div>
+  </div>
+
+  <div class="card">
+    <h3>主题曲与Shakira：意大利没来，意大利语来了</h3>
+    <p>本届主题曲《Dai Dai》由Shakira与尼日利亚歌手合作，Dai Dai是意大利语「加油/Come on」。意大利虽无缘本届世界杯，语言却出现在主题曲中。推广曲还有Blackpink Lisa的《Goals》，为TikTok传播定制。</p>
+    <div class="relation">相关概念：Shakira与世界杯结缘20年，从2006年《Hips Don't Lie》到2010年《Waka Waka》，开创非洲+拉丁风格</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">五、冠军预测、必看场次与地缘足球</h2>
+
+  <div class="card">
+    <h3>AI冠军玄学三连定律</h3>
+    <table>
+      <tr><th>定律</th><th>内容</th><th>本届应用</th><th>结论</th></tr>
+      <tr><td>赔率前五</td><td>21世纪冠军必在赛前赔率前五</td><td>西班牙、英格兰、法国、巴西、阿根廷</td><td>冠军在这五队中</td></tr>
+      <tr><td>大热必死</td><td>赔率第一往往成绩差</td><td>更多公司把西班牙排第一</td><td>淘汰西班牙</td></tr>
+      <tr><td>无卫冕</td><td>21世纪无队卫冕，上届冠军常小组出局</td><td>2022冠军阿根廷</td><td>淘汰阿根廷</td></tr>
+      <tr><td>最终候选</td><td>——</td><td>——</td><td><b>英格兰、法国、巴西</b></td></tr>
+    </table>
+    <p>嘉宾个人偏好：本看好无皇马球员的西班牙更团结，但按规律不得不排除；女儿投法国，自己投英格兰，最后「实在不行支持梅西」——但另一嘉宾是C罗派。</p>
+    <div class="pitfall">避坑：按赔率买咖啡押冠军（瑞幸=葡西，库迪=阿根廷）纯属娱乐，切勿当真理财。</div>
+  </div>
+
+  <div class="card card-purple">
+    <h3>必看场次推荐（按故事性+时间友好度）</h3>
+    <table>
+      <tr><th>场次</th><th>时间（北京时间）</th><th>看点</th></tr>
+      <tr><td>挪威 vs 法国</td><td>6月27日 凌晨3:00</td><td>哈兰德vs姆巴佩，两位2亿欧元前锋同组对决</td></tr>
+      <tr><td>英格兰 vs 克罗地亚</td><td>凌晨4:00</td><td>莫德里奇（40岁最后一届）vs 贝林厄姆，顶级中场对话</td></tr>
+      <tr><td>巴西 vs 摩洛哥</td><td>6月14日 早上6:00</td><td>传统强队vs上届黑马，时间友好</td></tr>
+      <tr><td>阿根廷 vs 约旦</td><td>6月18日 早上10:00</td><td>上届输沙特后夺冠，阿根廷对亚洲球队战绩可作玄学参考</td></tr>
+      <tr><td>美国 vs 伊朗（可能）</td><td>淘汰赛若同组第二相遇</td><td>1998伊朗胜（送白玫瑰）、2022美国胜（国旗风波），足球版看不见硝烟的战争</td></tr>
+    </table>
+  </div>
+
+  <div class="card">
+    <h3>阿兹特克体育场：足球界的「活化石」</h3>
+    <p>全球唯一三次举办世界杯的球场（1970/1986/2026），海拔2200米建在火山岩地基上。1970年半决赛意大利4-3西德被称为「世纪之战」；同届决赛巴西4-1意大利，巴西因此永久保留雷米特杯。1986年四分之一决赛，马拉多纳在此上演「上帝之手」和「世纪最佳进球」。</p>
+    <div class="action">装腔金句：「阿兹特克不是球场，是世界杯的硬碟——什么名场面都存过」</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">六、新军、黑马与诸神的黄昏</h2>
+
+  <div class="card card-orange">
+    <h3>首次参赛与意外晋级</h3>
+    <p><b>佛得角：</b>人口54万，非洲预选赛击败喀麦隆小组第一出线，世界杯历史第三小参赛国。</p>
+    <p><b>库拉索：</b>荷兰王国自治国，人口15万面积444平方公里，世界杯历史最小参赛地，球队有多名荷兰联赛球员。</p>
+    <p><b>乌兹别克斯坦、约旦：</b>亚洲新军，约旦力压韩国小组第一更出人意料。</p>
+    <p><b>海地：</b>非新军但最意外——政治瘫痪、安全失控的国家竟与巴西/摩洛哥/苏格兰同组，值得加油。</p>
+  </div>
+
+  <div class="card card-purple">
+    <h3>
+      <span class="speaker speaker-guest">嘉宾观点</span>
+      诸神黄昏 vs 新王当立
+    </h3>
+    <p><b>黄昏：</b>梅西（38岁，第六屆，2022已夺冠大满贯）、C罗（41岁，第六屆，精神图腾）、莫德里奇（40岁，打破梅罗金球垄断）、诺伊尔（40岁，门将踢后卫流派开创者）、内马尔（34岁，伤病后最后一届）。</p>
+    <p><b>新王：</b>哈兰德、姆巴佩、18岁亚马尔身价均达2亿欧元，本届正式进入「2亿时代」——挪威对法国那场是最佳检阅场。</p>
+    <div class="quote">「只要提到诸神黄昏，另外四个字就是新王当立」</div>
+    <p><b>适用边界：</b>老将看情怀与告别，新人看上限；身价不等于颜值，意大利南摩队退役后「足坛已无帅哥」——纯属嘉宾调侃。</p>
+  </div>
+
+  <div class="card">
+    <h3>日本队与中国足球：酸与希望</h3>
+    <p>日本上届连斩德国西班牙，近期又赢巴西，让中国足球球迷「酸」。自我安慰：坚持20-30年按规律搞足球还是有戏。中国U系列刚获亚洲杯亚军，半决赛赢澳大利亚，决赛0-3落后追回2球——微光仍在。</p>
+    <div class="pitfall">避坑：勿在饭局把日本队的成功简单归因于「民族性格」或单一因素，复杂得多；也勿因青年队成绩过度乐观。</div>
+  </div>
+</div>
+
+<div class="card">
+  <h3>观点对比：扩军支持与质疑</h3>
+  <table>
+    <tr><th>维度</th><th>支持扩军方（嘉宾主流）</th><th>质疑扩军方</th><th>一句话结论</th></tr>
+    <tr><td>比赛质量</td><td>更多冷门和惊喜，末轮更激烈</td><td>很多队不认识，场次注水</td><td>热度历史证明不太受影响</td></tr>
+    <tr><td>转播成本</td><td>场次多=FIFA和主办方能赚更多</td><td>中国转播权贵、比赛太多看不完</td><td>商业逻辑驱动，球迷可选择性观看</td></tr>
+    <tr><td>中国足球</td><td>——</td><td>扩了48强咱还是没进</td><td>更尴尬了，但青年队有微光</td></tr>
+  </table>
+</div>
+
+<div class="card card-purple">
+  <h3>💡 心法：把世界杯当「社交基础设施」而非「足球考试」</h3>
+  <p><b>为什么重要：</b>非球迷硬聊技战术容易露馅；掌握赛制变化、地缘故事、中国元素、诸神黄昏等话题，足够在饭局、办公室、朋友圈「装腔」一个月。</p>
+  <div class="quote">「不管你是球迷还是非球迷，我们都给你们未来一个月的社交货币提前储点值」</div>
+  <div class="action">怎么落地：挑3个话题深度准备（如美伊对决史、阿兹特克名场面、冠军玄学），比背32队大名单更有效。</div>
+  <p><b>适用边界：</b>真球迷面前别班门弄斧；对赌球、买彩票保持「彩票有风险，购彩需谨慎」清醒。</p>
+</div>
+
+<div class="conclusion">
+  <h2>总结与行动</h2>
+  <h3>核心要点</h3>
+  <ul>
+    <li>2026世界杯核心标签：美加墨三国合办、48强104场、史上最贵球票、诸神黄昏+新王2亿时代</li>
+    <li>赛制亮点：8个最佳第三名出线，小组赛末轮悬念大增；地理上北美跨度造成球员长途飞行消耗</li>
+    <li>中国元素：国家队缺席，但拉布布、三名裁判、联想AI越位、海信蒙牛瑞幸库迪赞助齐上阵</li>
+    <li>冠军玄学（娱乐向）：按赔率规律排除西班牙和阿根廷后，英格兰/法国/巴西为三强</li>
+    <li>必记名场面载体：阿兹特克球场（世纪之战/马拉多纳）、美伊三次相遇（白玫瑰与国旗风波）</li>
+  </ul>
+  <h3>行动清单</h3>
+  <ol>
+    <li>收藏北京时间表：小组赛挑早上6-10点的巴西vs摩洛哥、阿根廷vs约旦等「友好场次」</li>
+    <li>准备3个饭局话题：三国合办分赃逻辑、FIFA动态定价与30%二手佣金、伊朗跨境参赛的不公平</li>
+    <li>非球迷观赛策略：不必熬夜——重要淘汰赛看集锦，用冷知识参与聊天即可</li>
+    <li>想押冠军娱乐：了解瑞幸（葡西）vs库迪（阿根廷）赞助梗即可，别当真下注</li>
+    <li>夏天行动：找朋友喝啤酒看一场时间合适的比赛——「看球是最好的借口」</li>
+  </ol>
+  <h3>关键认知转变</h3>
+  <p>以前以为世界杯是球迷专属的技术盛宴；现在理解了它更像一场持续一个多月的文化事件——懂一点赛制、故事和中国元素，非球迷也能充分享受夏天的仪式感。正如嘉宾所说：「话老整就旧，让世界更精彩」——装腔的终极目标不是炫技，而是找个理由和朋友共度夏天。</p>
+</div>
+
+</div>
+    </div>
+  </foreignObject>
+</svg>
