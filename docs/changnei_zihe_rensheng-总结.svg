@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="8361" viewBox="0 0 1320 8361">
+  <foreignObject x="0" y="0" width="1320" height="8361">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,0.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:20px 28px;text-align:center;min-width:160px;font-weight:700;font-size:16px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3{color:#92400e;margin-bottom:8px}
+.correction p{color:#92400e;font-size:15px}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,0.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.speaker{display:inline-block;font-size:13px;font-weight:600;padding:2px 10px;border-radius:12px;margin-right:8px}
+.speaker-host{background:#dbeafe;color:#1e40af}
+.speaker-guest{background:#ede9fe;color:#6b21a8}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,0.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,0.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,0.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}</style>
+      <div class="container">
+
+<h1>"置身厂内"的我们，如何找回自洽的人生？</h1>
+<div class="meta">
+  <span class="tag tag-blue">厚雪长波</span>
+  <span class="tag tag-purple">FIRE</span>
+  <span class="tag tag-orange">大厂内耗</span>
+  <span class="tag tag-green">资产配置</span>
+  <span class="tag tag-gray">1小时09分</span>
+</div>
+
+<div class="summary-line">
+<strong>一句话概括：</strong>前百度/携程/美团产品经理萌萌，在互联网黄金时代走过15年后于2024年退休。她用中概股暴跌600万的学费，从段永平式个股信仰转向大卫·史文森资产配置，再迭代至塔勒布式期权对冲，以投资体系支撑FIRE生活——提前退休不是逃避，而是在财务与精神两个维度找回自洽。
+</div>
+
+<div class="timeline">
+  <h3>关键时间轴</h3>
+  <div class="timeline-item">
+    <span class="timeline-time">00:00</span>
+    <span class="timeline-text">开场：FIRE概念引入，35岁焦虑与提前退休的现实思考</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">08:00</span>
+    <span class="timeline-text">嘉宾萌萌履历：百度国际化→铝平网创业→携程攻略社区→点评/美团15年</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">22:00</span>
+    <span class="timeline-text">2024年退休决定性因素：工作不快乐+桥本甲状腺炎+身体最终替你做决定</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">35:00</span>
+    <span class="timeline-text">投资启蒙：大学炒股课→携程期权→美股中概股→美团重仓</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">48:00</span>
+    <span class="timeline-text">中概股暴跌：账面回撤600万，打破"我对美团认知最深所以能赚钱"的信念</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">55:00</span>
+    <span class="timeline-text">大卫·史文森资产配置：A港美指数+债券+黄金，PE分位动态调仓</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">65:00</span>
+    <span class="timeline-text">策略迭代：《避风港》期权对冲，97%权益+3%保险应对肥尾风险</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">75:00</span>
+    <span class="timeline-text">FIRE后生活：学心理学、录播客、学手碟、陪伴小孩，投资每天只看一眼</span>
+  </div>
+</div>
+
+<div class="map">
+  <h2>核心脉络</h2>
+  <div class="diagram">
+    <div class="node">大厂15年<br/>兴趣驱动工作</div>
+    <span class="arrow">→</span>
+    <div class="node-orange">增长放缓<br/>内耗+身体预警</div>
+    <span class="arrow">→</span>
+    <div class="node">第四次辞职<br/>2024退休</div>
+    <span class="arrow">→</span>
+    <div class="node-green">投资体系<br/>支撑FIRE</div>
+    <span class="arrow">→</span>
+    <div class="node-purple" style="background:linear-gradient(135deg,#ede9fe,#ddd6fe);border:2px solid #a78bfa;border-radius:16px;padding:20px 28px;text-align:center;min-width:160px;font-weight:700;font-size:16px;color:#6b21a8">自洽人生<br/>财务+精神双自由</div>
+  </div>
+</div>
+
+<div class="correction">
+  <h3>⚠ 常见误解 / 认知纠偏</h3>
+  <p><b>误解1：</b>FIRE就是躺平不工作。萌萌退休后学心理学、录播客、学手碟、带娃——"退休"是摆脱组织内耗，不是停止成长。<br/>
+  <b>误解2：</b>对公司认知最深就能靠个股赚钱。她对美团的了解无人能及，但中概股暴跌让她明白：个股信仰在系统性风险面前不堪一击。<br/>
+  <b>误解3：</b>逢低加仓是王道。她曾因美团从460跌到350就"一把补到顶"，新手最常犯的错就是加仓太快、没有节奏。</p>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">一、从"厂内"到退休：15年大厂路</h2>
+
+  <div class="card">
+    <h3>互联网黄金时代的职业轨迹</h3>
+    <p><b>核心机制：</b>萌萌2012年入行，经历百度（国际化/日文产品）→铝平网（携程旗下旅游社区创业，对标TripAdvisor，最终失败）→携程攻略社区→点评/美团（推荐菜、到店综合），横跨产品黄金增长期。</p>
+    <p><b>关键理解：</b>早期互联网是"草台班子"时代，产品经理缺口巨大，跳槽极易。但2024年时行业增长放缓，重复性工作增多，团队氛围内卷，兴趣驱动的工作模式难以为继。</p>
+    <p><b>典型场景：</b>当你发现工作不再带来正向收益（成就感下降），而负面因素（不自由、身体不适）持续叠加时，就是重新审视职业选择的信号。</p>
+    <div class="relation">相关概念：与"35岁焦虑"的联系——不是年龄本身，而是增长放缓后暴露的组织内耗和个人成长瓶颈。</div>
+    <div class="highlight">原文依据：「工作给我的成就感、愉悦的感觉逐年在下降，正向收益越来越少，负面的东西在逐步叠加。」</div>
+  </div>
+
+  <div class="card card-purple">
+    <h3><span class="speaker speaker-guest">嘉宾观点</span>退休是"处心积虑"而非冲动</h3>
+    <p>萌萌在美团提了四次辞职，前三次都被老板挽留。2024年底第四次，桥本甲状腺炎加重——做瑜伽+快走後凌晨三点睡不着、翻身都翻不动，身体最终替她做了决定。</p>
+    <div class="quote">"早就想好了最终离职，只是在做准备。前几次毕竟又都回来了，这一次是身体吧。"</div>
+    <p><b>适用边界：</b>有明确慢性病且工作加剧症状时，身体信号应被严肃对待；但若成就感主要来源于"组织一群人干成一件事"，FIRE后体验可能不好。</p>
+  </div>
+
+  <div class="card card-orange">
+    <h3>⚠ 大厂内耗陷阱</h3>
+    <p><b>原因：</b>公司增长放缓后，团队氛围变得"为上"而非"为用户"，管理者无法满足团队成员的成长诉求，双向不快乐。</p>
+    <div class="pitfall">嘉宾说法：「我带二十几人的团队，很大乐趣是看每个人发展诉求得到满足。我也满足不了他们，我自己不快乐，他们也不快乐。」</div>
+    <p><b>解法：</b>提前与家人沟通（公众号记录思考过程），算清财务账获得底气；确认成就感来源是否能在非组织生活中延续。</p>
+    <p><b>严重程度：</b>小心——不会立刻致命，但长期消耗身心健康，尤其对桥本等自身免疫疾病患者。</p>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">二、投资进化史：600万学费换来的体系</h2>
+
+  <div class="card">
+    <h3>阶段一：个股信仰（段永平影响）</h3>
+    <p><b>核心机制：</b>2015年起做美股中概股，重仓美团。逻辑是"我对这家公司认知最深，没理由投资别的个股能赚钱"。</p>
+    <p><b>关键理解：</b>个股投资在牛市中收益惊人，但中概股从高点暴跌后，"熬"的策略失效——美股2008后最多半年回原位，中概股从406下去至今未回。</p>
+    <div class="highlight">原文依据：「我有什么理由认为我可以投资别的个股赚钱？中概股你在406下去了，熬多少年也没到406。」</div>
+  </div>
+
+  <div class="card card-green">
+    <h3>阶段二：大卫·史文森资产配置</h3>
+    <p><b>核心机制：</b>2021年规划退休时，借鉴耶鲁模型：A股（沪深300/中证500）+美股（纳指/标普500）+港股+债券+黄金，每个指数持仓上限20%，基于PE分位动态调仓。</p>
+    <p><b>典型配置：</b>预留3-5年生活费，其余滚动投资；控制单一资产大类不超过30-40%。</p>
+    <div class="relation">与段永平的区别：段永平解决"选什么公司"，史文森解决"如何管理一个资金池、控制回撤、每年提取生活费"。</div>
+    <div class="action">怎么落地：用Google Sheet计算每年该持有多少股数，PE分位高时减配权益加仓债券，完全遵循纪律。</div>
+    <p><b>适用边界：</b>在牛市中会miss大量收益——纳指PE分位80%以上可以躺35年，严格按纪律会导致牛市大部分收益吃不到。</p>
+  </div>
+
+  <div class="card card-purple">
+    <h3><span class="speaker speaker-guest">嘉宾观点</span>阶段三：《避风港》期权对冲</h3>
+    <p>2025年迭代至塔勒布合伙人Mark Spitznagel的"避风港"策略：97%权益满仓+3%期权保险（put对冲），用极小成本对冲肥尾风险，而非通过低配权益来控回撤。</p>
+    <div class="quote">"它不是通过资产配置避免大幅回撤，而是资产满仓配，加3%的保险。3月回撤让我验证了对冲体系的思路是对的。"</div>
+    <p><b>适用边界：</b>需要一定期权知识和保证金管理；不做需要每天盯盘的alpha平衡策略——"新策略不能占我很多时间"。</p>
+  </div>
+
+  <div class="card">
+    <h3>投资框架对比</h3>
+    <table>
+      <tr><th>维度</th><th>个股信仰</th><th>史文森配置</th><th>避风港对冲</th><th>一句话结论</th></tr>
+      <tr><td>核心逻辑</td><td>深度认知=超额收益</td><td>分散+PE分位纪律</td><td>满仓+期权保险</td><td>从选股能力转向风险管理</td></tr>
+      <tr><td>最大回撤</td><td>不可控（中概股-60%+）</td><td>控制在30%以内</td><td>期权对冲极端下跌</td><td>目标年化10%+，回撤可控</td></tr>
+      <tr><td>时间投入</td><td>高（研究个股）</td><td>中（定期调仓）</td><td>低（偶尔补put）</td><td>FIRE后投资不应占大量时间</td></tr>
+      <tr><td>适用人群</td><td>有深度行业认知者</td><td>追求稳健长期增值</td><td>担心肥尾黑天鹅者</td><td>没有万能策略，需匹配自身阶段</td></tr>
+    </table>
+  </div>
+
+  <div class="card card-orange">
+    <h3>⚠ 逢低加仓太快</h3>
+    <p><b>原因：</b>新手看到股价下跌就觉得"机会来了"，没有预设加仓节奏和仓位上限，一把补到顶。</p>
+    <div class="pitfall">嘉宾说法：「美团460可能350，我就觉得机会来了，一下子已经补到顶了。」</div>
+    <p><b>解法：</b>设定明确的加仓节奏（分几批、每批触发条件）和单一持仓/asset class上限（不超过20-30%）。</p>
+    <p><b>严重程度：</b>致命——在趋势性下跌中会加速亏损。</p>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">三、FIRE决策框架与生活实况</h2>
+
+  <div class="card card-purple">
+    <h3>💡 心法：退休前必须想明白的两件事</h3>
+    <p><b>为什么重要：</b>财务没算清楚会天天焦虑（萌萌辞职前一天算十几遍"会不会破产"）；成就感来源不对会很快重返职场。</p>
+    <div class="quote">"财务上得算个账——未来花钱几项、投资收益率可能什么、不同环境下承担什么风险。第二，成就感来源是什么？如果来自组织一群人干成一件事，FIRE后体验可能不太好。"</div>
+    <div class="action">怎么落地：列出家庭支出项、预估投资收益率区间、做压力测试（熊市能否挺住）；诚实评估自己的成就感来自独立创作还是团队协作。</div>
+    <p><b>适用边界：</b>有人不算账也能FIRE（萌萌的朋友），但她是J人必须算明白；目前接触的"FIRE失败"案例仅一人，且因成就感缺失而非经济原因重返职场。</p>
+  </div>
+
+  <div class="card">
+    <h3><span class="speaker speaker-host">主持人提问</span>AI时代会不会后悔没拿大礼包？</h3>
+    <p>萌萌坦言挺失望没赶上AI裁员大礼包，但她的逻辑是：在公司的注意力必须放在公司关注的事上（如足疗），作为独立个人可以用AI研究自己真正感兴趣的领域（如心理学）。</p>
+    <div class="relation">争议点：是"错过大礼包"还是"获得注意力自由"？嘉宾立场明确偏向后者。</div>
+  </div>
+
+  <div class="card card-green">
+    <h3>FIRE后的真实日常</h3>
+    <p><b>核心机制：</b>投资每天只看一眼（涨跌多在1%以内），策略变动前提是"不能占很多时间"。主要时间分配给：陪伴小孩、学心理学、录自己的播客、学手碟。</p>
+    <p><b>关键理解：</b>生活内容每半年会变——半年前主攻心理学，最近在录播客。FIRE的核心不是"不工作"，而是"不为生存危机花更多时间"。</p>
+    <div class="highlight">原文依据：「辞职了天也没塌下来，那个焦虑就自己消失不见了。」</div>
+  </div>
+</div>
+
+<div class="conclusion">
+  <h2>总结与行动</h2>
+  <h3>核心要点</h3>
+  <ul>
+    <li>提前退休可以是"处心积虑"的准备过程，身体信号往往是最后一根稻草</li>
+    <li>个股深度认知≠投资安全，系统性风险需要资产配置或对冲策略来管理</li>
+    <li>投资体系应迭代但不过度——每次回撤要反思，但不必重新定义整个框架</li>
+    <li>FIRE前必须算清财务账、认清成就感来源，两者缺一不可</li>
+    <li>退休后的投资策略核心约束是：不占用大量时间，年化10%+、最大回撤30%以内</li>
+  </ul>
+  <h3>行动清单</h3>
+  <ol>
+    <li>列出家庭年度支出明细，用保守/中性/悲观三种投资收益率做10年现金流压力测试</li>
+    <li>审视当前持仓：单一资产/个股是否超过总资产30%？若是，制定分批减仓计划</li>
+    <li>为自己写一套投资规则（加仓节奏、仓位上限、调仓触发条件），用表格工具固化执行</li>
+    <li>诚实回答：你的成就感来自"独立创作"还是"带队成事"？这决定FIRE是否适合你</li>
+    <li>如果考虑离职，先通过写作（公众号/日记）与家人沟通思考过程，降低决策焦虑</li>
+  </ol>
+  <h3>关键认知转变</h3>
+  <p>以前认为"我对公司足够了解就能靠个股致富"，现在理解了投资的核心是风险管理——用体系化的资产配置和对冲策略，让投资成为不上班底气，而非另一个焦虑来源。以前觉得"退休就是逃避"，现在理解了FIRE是把时间还给真正感兴趣的事，实现财务与精神的双重自洽。</p>
+</div>
+
+<div class="footer">来源：厚雪长波 · 雪球出品 | 嘉宾：萌萌</div>
+
+</div>
+    </div>
+  </foreignObject>
+</svg>
