@@ -1,6 +1,16 @@
 [
   {
     "date": "2026-06-23",
+    "filename": "thinking_fast_slow_brain-总结.svg",
+    "title": "Vol.331 思考，快与慢：我的大脑为什么总是欺骗我",
+    "summary": "文化有限重读卡尼曼诺奖名著：系统一占95%决策且系统性犯错，系统二懒惰只盖章；锚定、损失厌恶、峰终定律与禀赋效应，附消费防坑与AI幻觉对照",
+    "tags": ["心理学", "行为经济学", "认知科学"],
+    "url": "https://www.xiaoyuzhoufm.com/episode/69e576c91d989496e70382ca",
+    "duration": "1小时56分",
+    "svg_height": 9495
+  },
+  {
+    "date": "2026-06-23",
     "filename": "ev_battery_lock_ota-总结.svg",
     "title": "8家车企被约谈是假，但锁电这件事真该聊聊",
     "summary": "三刀拆解8家车企锁电约谈假新闻，讲清OTA锁电机制、BMS快乐表、八年质保倒逼与车主权力边界，并给出留证维权与500人集体投诉实操路径",
