@@ -1,6 +1,20 @@
 [
   {
     "date": "2026-06-23",
+    "filename": "saas_ai_org_reform_e225-总结.svg",
+    "title": "E225 | SaaS业数千亿市值蒸发：AI如何改革组织架构？",
+    "summary": "Anthropic Cowork 11款插件引发SaaS末日，百融云创张潮峰解析席位订阅制松动、碳硅混合组织与RaaS按结果付费，合同审核56分钟变4分钟",
+    "tags": [
+      "SaaS",
+      "AI Agent",
+      "组织架构"
+    ],
+    "url": "https://www.xiaoyuzhoufm.com/episode/698fbbc62cbb0d7f6e4ae7e7",
+    "duration": "55分",
+    "svg_height": 13725
+  },
+  {
+    "date": "2026-06-23",
     "filename": "google_tpu_nvidia_e228-总结.svg",
     "title": "E228｜谷歌TPU能撼动英伟达吗？前TPU工程师首次揭秘",
     "summary": "前谷歌TPU工程师Henry Zhu拆解V6/V7/V8：流水线式ASIC+ XLA黑盒 vs GPU并行生态，限定大规模部署下TCO可挑战英伟达，但HBM/CoWoS产能与软件门槛是命门",
