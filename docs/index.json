@@ -1,6 +1,20 @@
 [
   {
     "date": "2026-06-23",
+    "filename": "google_tpu_nvidia_e228-总结.svg",
+    "title": "E228｜谷歌TPU能撼动英伟达吗？前TPU工程师首次揭秘",
+    "summary": "前谷歌TPU工程师Henry Zhu拆解V6/V7/V8：流水线式ASIC+ XLA黑盒 vs GPU并行生态，限定大规模部署下TCO可挑战英伟达，但HBM/CoWoS产能与软件门槛是命门",
+    "tags": [
+      "AI",
+      "芯片",
+      "科技"
+    ],
+    "url": "https://www.xiaoyuzhoufm.com/episode/69b35445dc0cc48a76772b57",
+    "duration": "1小时07分",
+    "svg_height": 11781
+  },
+  {
+    "date": "2026-06-23",
     "filename": "gangrenboqi_zhuanshan_guide-总结.svg",
     "title": "Ep194 可能是全网最完全冈仁波齐转山说明书",
     "summary": "毛冬连续两年单日转冈仁波齐，联合咏哥、刘醒、弹旺在海拔4630米山脚下拆解马年转山热潮、52公里外转实操、卓玛拉垭口5600米难度与阿里高反机制",
