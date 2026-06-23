@@ -1,6 +1,16 @@
 [
   {
     "date": "2026-06-23",
+    "filename": "product_qiuzhi_resume_talk-总结.svg",
+    "title": "E43.产品 | 求职经验谈：写简历的\"关键词\"思维 & 面试官\"成长\"比成功更重要",
+    "summary": "零实习 Elly 用关键词库快速迭代简历、逐字深挖预判追问、按公司定制 Notion 面试题库，三个月拿下京东/去哪儿后收割十余家大厂 SP，核心心法：求职像高考，基本功到位拿 80% offer",
+    "tags": ["产品经理", "求职", "简历"],
+    "url": "https://www.xiaoyuzhoufm.com/episode/61589826ae1d32c4f86c1933",
+    "duration": "30分钟",
+    "svg_height": 9054
+  },
+  {
+    "date": "2026-06-23",
     "filename": "ai_app_burst_e223-总结.svg",
     "title": "E223｜应用爆发之年：聊聊模型技术进化与商业化",
     "summary": "硅谷101对话阿里云千问许东、影石齐教授、予易吕迎杰：万相视频进入生产级、推理成本半年降量级、端云Omni 4B、360度自动剪辑与消费者意图识别从降本转向增效",
