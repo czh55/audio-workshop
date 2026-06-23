@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="9186" viewBox="0 0 1320 9186">
+  <foreignObject x="0" y="0" width="1320" height="9186">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,0.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:20px 28px;text-align:center;min-width:160px;font-weight:700;font-size:16px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3{color:#92400e;margin-bottom:8px}
+.correction p{color:#92400e;font-size:15px}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,0.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.speaker{display:inline-block;font-size:13px;font-weight:600;padding:2px 10px;border-radius:12px;margin-right:8px}
+.speaker-host{background:#dbeafe;color:#1e40af}
+.speaker-guest{background:#ede9fe;color:#6b21a8}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,0.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,0.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,0.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}</style>
+      <div class="container">
+
+<h1>E221 对话张潇雨：生活太重要，以至于不能太认真</h1>
+<div class="meta">
+  <span class="tag tag-blue">知行小酒馆</span>
+  <span class="tag tag-purple">自我成长</span>
+  <span class="tag tag-orange">1小时24分</span>
+  <span class="tag tag-green">张潇雨</span>
+</div>
+<div class="summary-line">有知有行发起人张潇雨消失五年后回归小酒馆：从「人生逻辑大于社会逻辑」的面试故事，到「把自己当作品」、无我行动与 raw sensation 情绪练习，探讨为何生活太重要反而不该太认真，以及命运如何用重复课题逼你走向自由。</div>
+
+<div class="timeline">
+  <h3>关键时间轴</h3>
+  <div class="timeline-item">
+    <span class="timeline-time">00:00</span>
+    <span class="timeline-text">开场：张潇雨五年「消失」与鲸鱼隐喻，小酒馆五周年契机</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">05:30</span>
+    <span class="timeline-text">面试故事：面试官帮雨白找更适合的去处，「人生逻辑大于一切逻辑」</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">18:00</span>
+    <span class="timeline-text">职业观：把能力搬到不卷的领域，神农尝百草却不爱「工作」本身</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">28:00</span>
+    <span class="timeline-text">王尔德金句：生活太重要以至于不能太认真，初中同学录即写此句</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">38:00</span>
+    <span class="timeline-text">投资第一课署名之争：隐去自我，把自己而非作品当人生作品</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">48:00</span>
+    <span class="timeline-text">雨白心路：从追大台嘉宾到「小酒馆故事会」，倾听普通人声音</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">58:00</span>
+    <span class="timeline-text">无我行动：事件层、情绪层、叙事层三层拆解，活在体验而非解释里</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">68:00</span>
+    <span class="timeline-text">Raw sensation 练习：感受身体感受而不命名情绪，真接纳 vs 假接纳</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">78:00</span>
+    <span class="timeline-text">关系模式：灵魂交融的病态渴望与「杀猪盘」式命运课题</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">88:00</span>
+    <span class="timeline-text">金钱安全感、未来只「玩」、热爱命运收束</span>
+  </div>
+</div>
+
+<div class="map">
+  <h2>核心脉络</h2>
+  <div class="diagram">
+    <div class="node">社会角色<br/>面试者/创始人</div>
+    <span class="arrow">→</span>
+    <div class="node-orange">人生逻辑<br/>人的层面交流</div>
+    <span class="arrow">→</span>
+    <div class="node-green">把自己当作品<br/>了解自我为终极目的</div>
+    <span class="arrow">→</span>
+    <div class="node">无我行动<br/>体验 &gt; 叙事</div>
+    <span class="arrow">→</span>
+    <div class="node-orange">热爱命运<br/>课题重复直到破模式</div>
+  </div>
+</div>
+
+<div class="correction">
+  <h3>⚠ 常见误解 / 认知纠偏</h3>
+  <p>「不能太认真」≠ 对感情和真心敷衍。张潇雨强调的是：不要把任何事抬成天大的叙事——成或不成，人生不会从此截然不同。底层乐观是「人都是要死的，没关系」，在此之上才有真正的轻松与真诚。</p>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">一、人生逻辑与社会角色</h2>
+
+  <div class="card">
+    <h3>人生逻辑大于一切逻辑</h3>
+    <p><b>核心机制：</b>面试是社会建构的角色游戏，但双方真正目标都是人生幸福。当岗位不匹配时，在人的层面帮对方找更适合的路，比完成招聘 KPI 更符合本质。</p>
+    <p><b>关键理解：</b>雨白因此相信「帮助他人一点点」能产生巨大效果，并来到有知有行。张潇雨讨厌被固定在社会身份里，宁愿做「风」到处吹，也不做严谨耕云的「累」。</p>
+    <p><b>典型场景：</b>招聘、合作、带人时，先问「这件事能否让你更幸福」，而非「你是否符合这个岗位」。</p>
+    <div class="relation">相关概念：与功利性「跳槽涨薪」不同，核心是人格层面的真诚，而非职场技巧。</div>
+    <div class="highlight">原文依据：「既然我们都是为了获得某种人生的幸福……那为什么不在这个层面去解决这问题呢？」</div>
+  </div>
+
+  <div class="card card-purple">
+    <h3><span class="speaker speaker-guest">嘉宾观点</span>把能力搬到「不卷」的领域</h3>
+    <p>在 A 行业卷出来的能力，搬到 B 行业可能摧枯拉朽。得到上打磨多年的知识萃取方法论，换到另一领域价值完全不同——从投资回报角度，应寻找能力被低估的战场。</p>
+    <div class="quote">「你在这个地儿卷，你不如在一个特别不卷的地去发挥。」</div>
+  </div>
+
+  <div class="card card-orange">
+    <h3>⚠ 假装热爱「工作」本身</h3>
+    <p><b>原因：</b>东亚教育、家庭期待、社会建构让人以为必须踏实勤恳，但张潇雨自认「真不爱干」上产品、对账、管理——爱的是意义与用户改变，不是工作形式。</p>
+    <div class="pitfall">嘉宾说法：「耕云、严谨、细致、承托……在我脑子中是一个字：累。我像风一样到处瞎吹。」</div>
+    <p><b>解法：</b>承认人格特征，停止装成另一种人；接受「什么都试过、没有特别爱干的」，反而能更自在。</p>
+    <p><b>严重程度：</b>小心——长期自我否定会消耗，但认清后可减少内耗。</p>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">二、把自己当作人生作品</h2>
+
+  <div class="card">
+    <h3>隐去自我与署名之争</h3>
+    <p><b>核心机制：</b>投资第一课出版时，读库老六建议只保留一个作者名以避免人称混淆。张潇雨爽快答应去掉署名——目的本是帮助用户成长，而非扬名立万。</p>
+    <p><b>关键理解：</b>他会自问「我在意吗？」若在意会说，但不执着。课程、文章、播客都是了解自我的手段，「把自己作为作品打磨」才是目的。</p>
+    <p><b>典型场景：</b>合作署名、功劳分配时，优先问目的而非面子。</p>
+    <div class="highlight">原文依据：「我做所有事情都是为了了解我自己，那些东西都是手段。」</div>
+  </div>
+
+  <div class="card card-purple">
+    <h3><span class="speaker speaker-host">主持人</span>小酒馆五年心态转变</h3>
+    <p>雨白从孤勇开播、羡慕大台嘉宾，到意识到听众要的是「普通人的投资理财与生活」——增设「小酒馆故事会」，征集各地听友真实故事（如「人生第一个十万」），成为最受欢迎栏目。</p>
+    <div class="quote">「我不应该去跟别人比拼嘉宾资源，我更应该去听普通用户的声音。」</div>
+  </div>
+
+  <div class="card">
+    <h3><span class="speaker speaker-guest">嘉宾观点</span>再推一步：连「普通人/名流」分别也拿掉</h3>
+    <p>一百年后没人知道嘉宾是谁，但当下真诚对话的能量永存。不必追逐名流，也不必刻意标榜「普通人」——只是两个真实的人在场交流。</p>
+    <div class="relation">相关概念：与流量播客的「一二线叙事」形成对照，小酒馆应成为「大家的小酒馆」。</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">三、无我行动与情绪练习</h2>
+
+  <div class="card">
+    <h3>三层拆解：事件、情绪、叙事</h3>
+    <p><b>核心机制：</b>任何事有三层——事件层（播客录砸了）、情绪层（懊悔自责）、叙事层（「我不适合干这个」）。多数人活在叙事层，给事件贴上「我」的标签，固化为自我认知（MBTI、创业者身份等）。</p>
+    <p><b>关键理解：</b>网球运动员最自发时打得最好，「我」进来就糟了。去掉选择者，只留选择——像刚醒来刷牙，身体自然行动，尚未冒出「我今天要干这些事」的叙述者。</p>
+    <p><b>典型场景：</b>项目失败、公开出丑后，先处理事实与情绪，延迟叙事层的身份结论。</p>
+    <div class="highlight">原文依据：「在整个过程中，只有选择，而没有选择者。」</div>
+  </div>
+
+  <div class="card card-green">
+    <h3>活在当下 = 活在体验里</h3>
+    <p>看日落时最幸福，因为脑子没有念头。念头一起来就开始解释、拍照、发圈——从体验滑入对体验的想法。活在当下即回到体验本身，而非体验的解释。</p>
+    <div class="action">怎么落地：情绪来时坐下，感受 raw sensation（胸闷、胃翻、头皮麻），不给情绪命名，不立刻分析或刷手机逃避。</div>
+    <p><b>适用边界：</b>需要长期练习；难受时跳出很正常，下次再来即可。</p>
+  </div>
+
+  <div class="card card-orange">
+    <h3>⚠ 假接纳：接纳是为了赶走情绪</h3>
+    <p><b>原因：</b>很多人「接纳」情绪，实则希望它消失——不愿让伤疤伴随余生，即不接纳。</p>
+    <div class="pitfall">嘉宾说法：「你接纳它是为了不接纳……带着伤疤一直走还觉得挺好，才是真接纳。」</div>
+    <p><b>解法：</b>雨白经历感情创伤后恐慌发作，友人建议反而更崩，最终只能坐下来感受身体，慢慢呼吸——压抑的情绪会以 panic 形式回归。</p>
+    <p><b>严重程度：</b>致命——长期压抑导致身心症状。</p>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">四、关系模式与命运课题</h2>
+
+  <div class="card card-purple">
+    <h3><span class="speaker speaker-guest">嘉宾观点</span>灵魂交融的病态渴望</h3>
+    <p>对重视的关系有极其不健康的期待：把对方当 AI 喂数据，希望被「以我不懂自己的方式理解」；需要自己在对方生命中「特别特殊」，不断确认特殊性而不再体验关系本身。</p>
+    <div class="quote">「我不用是你的最爱……但我需要我在里面特别特别特殊的，至于怎么特殊我都不知道。」</div>
+    <p>模式在惨烈崩溃中破裂——痛定思痛后，更淡然地体验关系，不求特殊，不过度分析。</p>
+  </div>
+
+  <div class="card">
+    <h3>命运与「杀猪盘」</h3>
+    <p><b>核心机制：</b>命运会持续给你一样的问题，直到你给出不同答案。关系、投资、自我完善——每次「完善」后可能再来一个大的（杀猪盘），识别能力会提高，掉进去也能更快出来。</p>
+    <p><b>关键理解：</b>戳破稳固价值体系的人是福报；破了模式就是新人。张潇雨对雨白：「如果我今天说的导致节目越做越差，我就是你的命运、你的报应。」</p>
+    <div class="relation">相关概念：与「创伤后成长」不同，强调主动识别重复课题而非被动等待时间治愈。</div>
+  </div>
+</div>
+
+<div class="card">
+  <h3>观点对比：投资与金钱观</h3>
+  <table>
+    <tr><th>维度</th><th>大众/课程所教</th><th>张潇雨个人</th><th>一句话结论</th></tr>
+    <tr><td>身份定位</td><td>价值投资者、严谨记录</td><td>「野路子」翻译者，大判断行、细节亏</td><td>教得好不等于自己做同款</td></tr>
+    <tr><td>核心功夫</td><td>选股、估值、纪律</td><td>底层金钱安全感，不需赚到钱才舒服</td><td>心态基础比技巧优先</td></tr>
+    <tr><td>未来规划</td><td>职业规划、目标拆解</td><td>不投资、不计划，「玩」字概括，生命自然带路</td><td>无为而为的休息期</td></tr>
+    <tr><td>日常操作</td><td>持续跟踪持仓</td><td>嫌琐碎严谨，大方向对就赚、细节亏很多</td><td>认清短板后选择退出</td></tr>
+  </table>
+</div>
+
+<div class="card card-purple">
+  <h3>💡 心法：热爱你的命运</h3>
+  <p><b>为什么重要：</b>抗拒命运会加倍痛苦；接受「宇宙通过你体验自己」，反而轻松。张潇雨对有知有行/小酒馆：「没啥感觉，能参谋就参谋，参谋不上就看着成长。」</p>
+  <div class="quote">「世界通过你在体验他自己，你只是这一切发生的场域。」</div>
+  <div class="action">怎么落地：微信签名改为「没关系，人都是要死的」；遇事问「天会塌吗」——除非重开，否则没什么不可承受。</div>
+  <p><b>适用边界：</b>不适用于需要严肃问责的安全/法律场景；是人生哲学层面的松脱，非逃避责任。</p>
+</div>
+
+<div class="conclusion">
+  <h2>总结与行动</h2>
+  <h3>核心要点</h3>
+  <ul>
+    <li>人生逻辑优先于社会角色逻辑：招聘、合作先在人的层面真诚相待</li>
+    <li>「不能太认真」是放下灾难化叙事，不是放弃真心</li>
+    <li>作品、课程、投资都是手段，「了解自己、完善自己」才是目的</li>
+    <li>无我行动：区分事件/情绪/叙事三层，活在体验而非解释里</li>
+    <li>真接纳愿意与伤疤共存；假接纳是为赶走情绪</li>
+    <li>命运用重复课题逼你破模式；破一次就向自由靠近一步</li>
+    <li>金钱安全感来自底层信任，而非投资技巧的堆砌</li>
+  </ul>
+  <h3>行动清单</h3>
+  <ol>
+    <li>下次情绪升起：坐下 5 分钟，只感受身体 raw sensation，不给情绪贴标签</li>
+    <li>遇到挫折：写下事件事实、情绪、叙事三层，延迟「我不行」的身份结论</li>
+    <li>自问一次「我在意署名/面子吗」——若不在意，大方隐去；若在意，坦诚说出</li>
+    <li>检视关系：是否总在确认「我是否特殊」而非体验当下互动</li>
+    <li>把微信或备忘录提醒设为：「没关系，人都是要死的」——遇事先松一口气</li>
+  </ol>
+  <h3>关键认知转变</h3>
+  <p>以前认为要认真对待每件事、把工作当人生主线、用成就和关系特殊性证明自己；现在理解了生活太重要反而不必灾难化，把自己当唯一作品，在体验与命运中「玩」下去——五年消失不是逃避，是鲸鱼在不同海域偶尔浮出水面的另一种活法。</p>
+</div>
+
+</div>
+    </div>
+  </foreignObject>
+</svg>
