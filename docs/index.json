@@ -1,6 +1,16 @@
 [
   {
     "date": "2026-06-23",
+    "filename": "france_philosophy_bac_truth-总结.svg",
+    "title": "35 播客一周年｜我们试着做了法国哲学高考题……",
+    "summary": "《抑扬格》即兴作答法国哲学高考题「真理是否总令人信服」：从地球圆平之辩、现象学明见性、柏拉图真理之暴力，到笛卡尔恶魔与街头闲谈中的琐碎之真",
+    "tags": ["哲学", "文化", "思辨"],
+    "url": "https://www.xiaoyuzhoufm.com/episode/6a31510b4233e62bc54af33b",
+    "duration": "59分钟",
+    "svg_height": 10220
+  },
+  {
+    "date": "2026-06-23",
     "filename": "ev21_rag_upgrade_podcast-总结.svg",
     "title": "车企客服V2.1：企业级RAG架构升级精解报告",
     "summary": "车企客服从V1硬编码到V2.1 RAG架构的教科书级升级：Markdown知识库、向量+BM25混合检索、层次化切片与Agent精简，演示机到生产机的工程化落地路径",
