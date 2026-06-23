@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="16059" viewBox="0 0 1320 16059">
+  <foreignObject x="0" y="0" width="1320" height="16059">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#fdf2f8,#fce7f3);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:38px;font-weight:900;background:linear-gradient(135deg,#9d174d,#db2777);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:24px;font-weight:700;color:#9d174d;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #fbcfe8}
+h3{font-size:19px;font-weight:700;color:#334155;margin-bottom:10px}
+p{font-size:15px;line-height:1.8;color:#475569;margin-bottom:8px}
+ul,ol{padding-left:20px;margin:8px 0}
+li{font-size:14px;line-height:1.7;color:#475569;margin-bottom:4px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-pink{background:#fce7f3;color:#9d174d}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:17px;line-height:1.7;color:#831843;padding:18px 24px;background:#fff;border-radius:12px;border-left:4px solid #db2777;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.section{margin-bottom:28px}
+.sec-title{font-size:20px;font-weight:700;color:#9d174d;margin-bottom:14px;padding-left:14px;border-left:4px solid #db2777}
+.card{background:#fff;border-radius:14px;padding:28px;margin-bottom:16px;box-shadow:0 4px 16px rgba(0,0,0,0.04);border-left:4px solid #db2777}
+.card.card-green{border-left-color:#10b981}
+.card h3{font-size:18px;font-weight:700;color:#831843;margin-bottom:10px}
+.card .highlight{background:#fef3c7;padding:10px 14px;border-radius:8px;margin:10px 0;font-size:14px;color:#92400e;border-left:3px solid #f59e0b}
+.card .pitfall{background:#fef2f2;padding:10px 14px;border-radius:8px;margin:10px 0;font-size:14px;color:#991b1b;border-left:3px solid #ef4444}
+.card .action{background:#eff6ff;padding:10px 14px;border-radius:8px;margin:10px 0;font-size:14px;color:#1e40af;border-left:3px solid #3b82f6}
+.conclusion{background:linear-gradient(135deg,#831843,#db2777);color:#fff;border-radius:18px;padding:32px;margin-top:28px}
+.conclusion h2{font-size:24px;font-weight:800;margin-top:0;margin-bottom:14px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,0.2);color:#fff}
+.conclusion h3{font-size:17px;font-weight:700;color:rgba(255,255,255,0.9);margin:18px 0 8px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,0.9);font-size:14px}
+.footer{text-align:center;color:#94a3b8;font-size:12px;padding:28px 0 12px}
+</style>
+      <div class="container">
+
+<h1>🤰 孕早期全攻略（0—20 周）</h1>
+<div class="meta">
+  <span class="tag tag-pink">22 节课</span>
+  <span class="tag tag-blue">5 个阶段</span>
+  <span class="tag tag-green">检查 · 营养 · 体重</span>
+</div>
+<div class="summary-line">
+  孕早期是胎儿器官分化的关键期。本攻略从 0 周到 20 周，覆盖检查（hCG、B超、甲功、唐筛、NT、大排畸）、营养（叶酸、碘、铁、钙、DHA）和体重运动三大板块，帮助准妈妈从容度过妊娠最初 5 个月。
+</div>
+
+<!-- ============ 0-4周 ============ -->
+<div class="section">
+<div class="sec-title">📅 0—4 周 · 确认怀孕与早期基础</div>
+
+<div class="card">
+<h3>第5课 · 宝宝逐渐成形，这 5 件事情你要知道</h3>
+<p><strong>在讲什么</strong>：孕早期的基础知识通讲——预产期推算、早期检查、早孕反应、饮食营养和常见焦虑问题。</p>
+<div class="highlight">
+  <strong>关键理解：</strong><br/>
+  ① 孕酮和 hCG 对判断胎儿健康状况作用有限，hCG 只反映胎盘生长，与胎儿健康无必然关系；孕酮波动大，不推荐用其水平指导保胎。<br/>
+  ② 预产期仅是 40 周的推算点，只有 5% 的宝宝会在预产期当天出生，月经规律者按末次月经第一天+40 周计算。<br/>
+  ③ 孕早期少量阴道出血不一定是流产征兆，超声正常就大多没问题，无需卧床不起或用黄体酮。
+</div>
+<div class="action">
+  <strong>行动项：</strong><br/>
+  · 用末次月经推算预产期（月份+9，日期+7），记入日历但不过度纠结<br/>
+  · 预约 7-9 周第一次 B 超，确认宫内妊娠和胎心<br/>
+  · 保持均衡饮食，无需大补特补
+</div>
+<div class="pitfall">
+  <strong>避坑：</strong>千万不要因为孕酮或 hCG 指标偏低就去求助不靠谱的偏方；早孕反应有无、大小都不能说明胎儿是否健康。
+</div>
+</div>
+
+<div class="card">
+<h3>第6课 · 营养：孕早期叶酸及微量元素补充</h3>
+<p><strong>在讲什么</strong>：叶酸、碘、铁、钙、维生素 D 等关键营养素的补充时机、剂量和方法。</p>
+<div class="highlight">
+  <strong>关键理解：</strong><br/>
+  ① 叶酸要从孕前 3 个月开始补充（每天≥0.4mg），因为神经管闭合发生在孕 5-6 周，叶酸浓度达标需要 12-14 周积累。<br/>
+  ② 孕妇对碘的需求量是普通人的 2 倍（230μg/天），缺碘可能影响宝宝智力发育甚至导致呆小症。<br/>
+  ③ 食物中叶酸生物利用率低（合成叶酸是食物中的 1.7 倍），食补不能替代叶酸补充剂。
+</div>
+<div class="action">
+  <strong>行动项：</strong><br/>
+  · 每天服用≥0.4mg 叶酸（复合维生素含 0.8mg 也安全），直到哺乳期结束<br/>
+  · 使用加碘盐 + 每周 1-2 次海产品（海带、紫菜等），每日碘不超过 600μg<br/>
+  · 每天摄入奶制品 300-500g + 深绿色蔬菜补钙
+</div>
+<div class="pitfall">
+  <strong>避坑：</strong>不要用无碘盐（孕期碘需求翻倍）；不要仅靠食补叶酸；红枣不补铁，贫血要多吃红肉；尿碘检查因波动大不适合评估个体碘营养。
+</div>
+</div>
+
+<div class="card">
+<h3>第7课 · 体重：孕期运动 3 原则及注意事项</h3>
+<p><strong>在讲什么</strong>：孕期运动的益处、分期原则（早期调整/中期稳定/晚期缓慢）和禁忌运动类型。</p>
+<div class="highlight">
+  <strong>关键理解：</strong><br/>
+  ① 规律有氧运动可改善心肺耐力、控制体重、降低妊娠糖尿病和子痫前期风险，产检正常的孕妇完全可以运动。<br/>
+  ② 孕三期运动节奏不同：0-12 周以调整为主，13-28 周以稳定为主，29-32 周以缓慢为主。<br/>
+  ③ 运动中出现呼吸困难、胸痛、阴道出血、规律宫缩（1 小时超 6-8 次）、羊水泄漏需立即停止就医。
+</div>
+<div class="action">
+  <strong>行动项：</strong><br/>
+  · 孕前有运动习惯 → 维持中等强度有氧运动（如慢跑）<br/>
+  · 孕前少运动 → 从低强度开始（走路、普拉提），逐渐增加<br/>
+  · 运动前后及时补水，运动时不憋气
+</div>
+<div class="pitfall">
+  <strong>避坑：</strong>避免高温瑜伽/普拉提、潜水、足球篮球等有撞击或跌倒风险的运动；不要等到运动中出现不适才补水。
+</div>
+</div>
+</div>
+
+<!-- ============ 5-8周 ============ -->
+<div class="section">
+<div class="sec-title">📅 5—8 周 · 确认妊娠与早孕反应应对</div>
+
+<div class="card">
+<h3>第8课 · 检查：hCG 检测及 B 超注意事项</h3>
+<p><strong>在讲什么</strong>：如何科学确认怀孕——从症状判断到尿检、血检、B 超的完整路径。</p>
+<div class="highlight">
+  <strong>关键理解：</strong><br/>
+  ① 月经推迟、阴道少量出血（与以往不同）、恶心呕吐/乳房胀痛是早孕三大信号。<br/>
+  ② 不建议多次复查血 hCG 和孕酮：胚胎好坏取决于自身质量，判断存活必须靠超声而非血检。<br/>
+  ③ 早孕期阴道 B 超安全无害，7-9 周做最合适，可确认宫内妊娠和胎心；＜5 周做 B 超可能看不到胚胎，徒增焦虑。
+</div>
+<div class="action">
+  <strong>行动项：</strong><br/>
+  · 月经推迟后用早孕试纸自测，阳性 → 预约 7-9 周经阴道 B 超<br/>
+  · 无腹痛、阴道出血等高危情况，无需频繁复查血 hCG<br/>
+  · 出现腹痛/阴道出血/早孕反应消失 → 及时复查 B 超
+</div>
+<div class="pitfall">
+  <strong>避坑：</strong>不要隔天去医院查血 hCG，对判断胚胎好坏没有帮助；不要常规检查孕酮，也不要根据孕酮数值补充黄体酮。
+</div>
+</div>
+
+<div class="card">
+<h3>第9课 · 检查：认识孕期甲减</h3>
+<p><strong>在讲什么</strong>：孕早期甲状腺功能与宝宝智力发育的关系，甲减的诊断标准和治疗方案。</p>
+<div class="highlight">
+  <strong>关键理解：</strong><br/>
+  ① 孕 10 周前宝宝所需甲状腺激素全部由母体供应，孕 18-20 周后才逐步"自力更生"，因此孕早期甲功尤为重要。<br/>
+  ② TSH 是最灵敏的甲功指标，孕 6 周内参照非孕期标准，孕 6 周以上 TSH＞4 mIU/L 可诊断甲减（旧标准 2.5 已过时）。<br/>
+  ③ 亚临床甲减（TSH 偏高但甲状腺素正常）不一定会影响宝宝智力，但会增加流产、早产风险，仍建议治疗。
+</div>
+<div class="action">
+  <strong>行动项：</strong><br/>
+  · 孕早期抽血检查 TSH、FT3、FT4，关注甲功状态<br/>
+  · 诊断甲减后用左旋甲状腺素（优甲乐）治疗，安全可靠，已使用 40+ 年<br/>
+  · 用药初期每 2-4 周复查，稳定后每 6-8 周复查，目标 TSH＜2.5 mIU/L
+</div>
+<div class="pitfall">
+  <strong>避坑：</strong>不要因为 TSH 在 2.5-4 间就过度焦虑，新标准以 4 为界；不要盲目补碘（碘过量同样伤甲状腺，每日不超过 600μg）。
+</div>
+</div>
+
+<div class="card">
+<h3>第10课 · 营养：优先保证碳水摄入</h3>
+<p><strong>在讲什么</strong>：孕早期饮食原则——不强调大补，孕吐时优先保碳水，体重略降也无需恐慌。</p>
+<div class="highlight">
+  <strong>关键理解：</strong><br/>
+  ① 孕早期无需额外增加热量和营养，饮食与孕前均衡即可，吃得多≠营养好，反而容易超重或巨大儿。<br/>
+  ② 孕吐严重时优先保证碳水摄入（主食、饼干、香蕉、苹果等），因为碳水不足身体会产生酮体，可能损伤胎儿大脑神经系统。<br/>
+  ③ 孕早期体重不增反降不必担心——3 个月的胎儿才 5 厘米，不会因为妈妈吃得少就发育不良。
+</div>
+<div class="action">
+  <strong>行动项：</strong><br/>
+  · 孕吐时可尝试冰苏打水、姜水或姜糖缓解恶心<br/>
+  · 复合维生素药片太大引发恶心 → 换为咀嚼型或单纯叶酸片<br/>
+  · 意外怀孕者，从发现后立即开始补叶酸即可，不必懊悔
+</div>
+<div class="pitfall">
+  <strong>避坑：</strong>不要刻意多吃"一人吃两人补"；水果、燕窝不能让宝宝皮肤变好——没有研究证据；不要因为孕吐不吃东西硬扛，能吃下什么就吃什么。
+</div>
+</div>
+
+<div class="card">
+<h3>第11课 · 营养：孕期饮食 3 大禁忌</h3>
+<p><strong>在讲什么</strong>：真正需要避免的食物只有三类，大部分民间禁忌没有科学依据。</p>
+<div class="highlight">
+  <strong>关键理解：</strong><br/>
+  ① 三类真禁忌：高汞大鱼（鲨鱼、剑鱼、大眼金枪鱼等）、酒精（无安全剂量）、生的/可能被污染的食物。<br/>
+  ② 咖啡因每天不超过 200mg（≈大杯拿铁 473ml），奶茶是隐形咖啡因大户（尤其是港式奶茶）。<br/>
+  ③ 糖是"空白热量"，孕期应减少含糖饮料，动物内脏每周 1-2 次每次 20-50g 即可。
+</div>
+<div class="action">
+  <strong>行动项：</strong><br/>
+  · 选择低汞鱼类：三文鱼、鳕鱼、沙丁鱼、罗非鱼，每周 2-3 次<br/>
+  · 厨房生熟分开，不吃生海鲜、未全熟鸡蛋、冷盘熟食<br/>
+  · 想喝奶茶自己用红茶+牛奶做，控糖控咖啡因
+</div>
+<div class="pitfall">
+  <strong>避坑：</strong>吃酱油不会让宝宝变黑、吃兔肉不会兔唇、吃螃蟹不会滑胎——这些民间说法均无科学依据；孕期不知情吃了"禁忌食物"也不必恐慌，产检正常就没事。
+</div>
+</div>
+
+<div class="card">
+<h3>第12课 · 体重：提前咨询医生，选择合适运动强度</h3>
+<p><strong>在讲什么</strong>：运动的安全性评估、强度判断方法、以及不适合运动的三类情况。</p>
+<div class="highlight">
+  <strong>关键理解：</strong><br/>
+  ① 判断运动强度优先看"疲劳程度"而非心率——中等强度意味着运动中还能正常交谈，必须停下来喘气就需要降低强度。<br/>
+  ② 孕早期和孕晚期心率宜保持在理想范围的最低值（如 30-39 岁：130-145 bpm，取 130）。<br/>
+  ③ 三类绝对不适合运动：严重心血管/肺/甲状腺/糖尿病等疾病、多胎+早产风险或严重贫血、前置胎盘/胎膜早破/持续阴道出血。
+</div>
+<div class="action">
+  <strong>行动项：</strong><br/>
+  · 咨询产检医生评估是否适合运动，结合孕前运动水平制定计划<br/>
+  · 无运动习惯 → 从每天 10 分钟、心率 90 bpm 起步<br/>
+  · 有运动习惯 → 每天 30 分钟、每周 2-3 次，心率从 100 bpm 起步
+</div>
+<div class="pitfall">
+  <strong>避坑：</strong>不要盲信"运动伤胎气"，产检正常就可以运动；不要以心率作为唯一标准，疲劳感优先；一旦出现危险征兆（呼吸困难、阴道出血等）立即停止就医。
+</div>
+</div>
+</div>
+
+<!-- ============ 9-12周 ============ -->
+<div class="section">
+<div class="sec-title">📅 9—12 周 · 建卡建档与早期筛查</div>
+
+<div class="card">
+<h3>第13课 · 检查：建卡、建档与分娩医院选择</h3>
+<p><strong>在讲什么</strong>：建卡（孕产妇健康手册）和建档（选择分娩医院）的区别、流程及公立/私立医院的选择逻辑。</p>
+<div class="highlight">
+  <strong>关键理解：</strong><br/>
+  ① 建卡一般在 6-12 周去社区办理，可能与生育保险报销挂钩；社区免费检查大医院往往不认可，不要因免费耽误正规产检。<br/>
+  ② 建档建议在 6-8 周 B 超后立即咨询心仪医院——热门医院可能出现"孕 8 周没建档就约不到床位"的情况。<br/>
+  ③ 公立医院重症救治能力强（适合有并发症的准妈妈），私立沟通时间充裕、紧跟国际指南（适合低风险+经济宽裕的准妈妈）。
+</div>
+<div class="action">
+  <strong>行动项：</strong><br/>
+  · 提前了解当地建卡政策和所需材料，联系社区咨询<br/>
+  · 6-8 周 B 超后立即联系目标医院了解建档流程<br/>
+  · 根据自身健康状况（有无内科疾病/并发症）选择公立或私立
+</div>
+<div class="pitfall">
+  <strong>避坑：</strong>不要因为有免费/减免券就跑去指定医院做筛查——大医院不一定认可结果；不要拖到 12 周以后才考虑建档，热门医院床位可能早已约满。
+</div>
+</div>
+
+<div class="card">
+<h3>第14课 · 检查：唐氏筛查、无创 DNA 和产前诊断</h3>
+<p><strong>在讲什么</strong>：唐氏筛查（早唐/中唐）、无创 DNA 和产前诊断（羊水穿刺）的完整对比。</p>
+<div class="highlight">
+  <strong>关键理解：</strong><br/>
+  ① 早唐（11-14 周，含 NT+抽血）检出率约 85%，中唐（14-21 周）检出率 65-75%，做了早唐就不需要做中唐。<br/>
+  ② 无创 DNA 检出率 99%、假阳性率＜0.2%，远优于传统唐筛但价格更高；它仍是"筛查"而非"诊断"，阳性仍需羊水穿刺确诊。<br/>
+  ③ 高风险 ≠ 有问题（高风险人群中约 50 个宝宝仅 1-2 个是唐宝宝），低风险 ≠ 绝对没风险。
+</div>
+<div class="action">
+  <strong>行动项：</strong><br/>
+  · 11-14 周做早唐（NT+抽血），错过可做中唐或无创 DNA<br/>
+  · 经济条件允许 + 追求高准确度 → 优先选择无创 DNA<br/>
+  · NT＞3.5mm 或超声发现严重结构异常 → 直接做产前诊断（羊水穿刺）
+</div>
+<div class="pitfall">
+  <strong>避坑：</strong>唐筛高风险不要重复做唐筛（仍以最高风险那次为准）；无创 DNA 不能替代羊水穿刺确诊；产前筛查完全自愿，不接受产前诊断的人不需要做筛查。
+</div>
+</div>
+
+<div class="card">
+<h3>第15课 · 检查：不是每个准妈妈都要做「优生五项」</h3>
+<p><strong>在讲什么</strong>：TORCH 筛查（弓形虫、风疹、巨细胞病毒、单纯疱疹病毒等）为什么不推荐常规做，以及什么情况才需要做。</p>
+<div class="highlight">
+  <strong>关键理解：</strong><br/>
+  ① TORCH 筛查四大不确定：假阳性率高、难判断感染时间、难判断是否传给胎儿、传给胎儿也不代表一定有问题——结果解读极其困难。<br/>
+  ② 医学指南不推荐常规做 TORCH 筛查，但其普遍存在是因为教科书对感染后果的夸大和医生缺乏系统了解。<br/>
+  ③ 仅两类人建议做：超声发现胎儿异常（头小、颅内钙化等）+ 有高危因素（吃了未熟肉/喝生水/清理猫砂）。
+</div>
+<div class="action">
+  <strong>行动项：</strong><br/>
+  · 如果已做 TORCH 且 IgM 阳性 → 不要过度焦虑，IgM 假阳性率高，换个医院可能就阴性了<br/>
+  · 找有能力做 IgG 亲和力检测的医院进一步判断感染时间<br/>
+  · 确定近期感染 → 到有产前诊断资质的医院进一步检查
+</div>
+<div class="pitfall">
+  <strong>避坑：</strong>不要因为看到"优生"二字就觉得必须做；IgM 阳性 ≠ 近期感染（痊愈后 IgM 可持续 1-2 年甚至数年阳性）；医生用"可能很严重"吓唬你时请冷静，TORCH 引起的先天性疾病发病率约万分之一。
+</div>
+</div>
+
+<div class="card">
+<h3>第16课 · 营养：饮食 3 原则，保证营养均衡</h3>
+<p><strong>在讲什么</strong>：孕期饮食三大原则——多样化、合理搭配、合理选择营养补充剂。</p>
+<div class="highlight">
+  <strong>关键理解：</strong><br/>
+  ① 每日 12 种食物、每周 25 种（不含调料）：谷薯 3+蔬菜水果 4+鱼肉蛋 3+奶豆坚果 2 的"手"法搭配。<br/>
+  ② 每天主食约 6 两（≈2 小碗米饭+1 拳薯类），蔬菜 300-500g（一半深绿），荤菜 200g（≈2-3 个巴掌大肉+1 个蛋），水果 1-2 拳。<br/>
+  ③ 天然食物是最好的营养来源，不要因为吃补充剂就有恃无恐；维生素 A 摄入过量（＞700μg）会导致胚胎毒性。
+</div>
+<div class="action">
+  <strong>行动项：</strong><br/>
+  · 用手量化每餐分量：1 拳主食 + 1-2 碗蔬菜 + 1 巴掌肉 + 1-2 杯奶<br/>
+  · 粗杂粮占主食 1/3 以上，水果选低 GI 的<br/>
+  · 孕吐严重时保证每天≥130g 碳水（≈2 两米饭+2 两馒头+1 个苹果）
+</div>
+<div class="pitfall">
+  <strong>避坑：</strong>不要因为吃了复合维生素就放松饮食管理；补钙前先评估日常奶制品和蔬菜摄入是否充足；营养补充剂要个体化选择，过犹不及。
+</div>
+</div>
+
+<div class="card">
+<h3>第17课 · 体重：了解 BMI 指数，孕期合理增重</h3>
+<p><strong>在讲什么</strong>：孕期体重管理的重要性、BMI 与理想增重范围、称重监测习惯。</p>
+<div class="highlight">
+  <strong>关键理解：</strong><br/>
+  ① 增重过多会显著增加妊娠糖尿病、高血压、巨大儿、剖宫产风险，还会影响宝宝成年后肥胖和心血管健康。<br/>
+  ② 中国准妈妈 BMI 18.5-23.9（标准体重）建议整个孕期增重控制在 10-12kg；孕早期仅增 0.5-2kg。<br/>
+  ③ 体重增长过快 + 合并血糖/血压问题 → 尽快就诊营养科，需要个性化方案。
+</div>
+<div class="action">
+  <strong>行动项：</strong><br/>
+  · 算 BMI：体重(kg)÷身高²(m²)，对照标准确定理想增重范围<br/>
+  · 孕早期每月称重 1 次，孕中晚期每周 1 次（同一时间、排空大小便、穿单衣）<br/>
+  · 每次产检关注体重+血糖+血压综合指标
+</div>
+<div class="pitfall">
+  <strong>避坑：</strong>不要以为"一人吃两人补"就大吃大喝，增重 20-30kg 极其危险；双胎/多胎妈妈的增重范围不同，需单独咨询医生；称重不规范（穿衣、吃饱测）会导致数据无效。
+</div>
+</div>
+</div>
+
+<!-- ============ 13-16周 ============ -->
+<div class="section">
+<div class="sec-title">📅 13—16 周 · 孕中期筛查与营养升级</div>
+
+<div class="card">
+<h3>第18课 · 宝宝快速成长，做好筛查保健康</h3>
+<p><strong>在讲什么</strong>：孕中期的核心任务——大排畸 B 超预约、糖耐检查、口腔护理和胎动监测。</p>
+<div class="highlight">
+  <strong>关键理解：</strong><br/>
+  ① 大排畸 B 超（20-24 周）是筛查宝宝结构异常的最重要检查，每家医院名额有限，建议 NT 后立即预约。<br/>
+  ② 糖耐检查约在 24 周，不过的概率高达 18.9%（5-6 个孕妇中 1 个），不要害怕，这是提醒你重视血糖的信号。<br/>
+  ③ 16-22 周多数妈妈会感受到首次胎动，胎动是监测宝宝宫内安危的重要指标——比胎心仪靠谱得多，胎动减少需就医。
+</div>
+<div class="action">
+  <strong>行动项：</strong><br/>
+  · NT 做完就预约大排畸 B 超（20-24 周），约不上可去区级妇幼或私立医院<br/>
+  · 24 周按时做糖耐，如不过→控制饮食+加强运动，必要时用药<br/>
+  · 孕中期处理牙科问题（相对安全期），不要拖到孕晚期
+</div>
+<div class="pitfall">
+  <strong>避坑：</strong>不要买胎心仪——多数宝宝就算有问题胎心也是好的，数胎动比听胎心的预测价值高得多；三维/四维超声只是显示形式不同，和大排畸准确率关系不大，别被"四维"营销迷惑。
+</div>
+</div>
+
+<div class="card">
+<h3>第19课 · 唐筛的 12 个常见问题</h3>
+<p><strong>在讲什么</strong>：关于唐筛选择和执行最常被问到的 12 个问题，从"夫妻正常要不要做"到"NT 厚度越小越好吗"。</p>
+<div class="highlight">
+  <strong>关键理解：</strong><br/>
+  ① 唐氏综合征 95% 与父母健康无关，是精卵形成过程中偶然出错，所以即使夫妻健康也要做筛查。<br/>
+  ② 早唐和中唐同时做只会增加假阳性率而不会明显提高检出率，单次筛查做了早唐就不需要中唐。<br/>
+  ③ NT 厚度不是越小越好——只要不大于相应孕周的界值就属于低风险，数值大小与宝宝聪明与否无关；无鼻骨不等于畸形，约 5% 正常宝宝也会出现。
+</div>
+<div class="action">
+  <strong>行动项：</strong><br/>
+  · 单次筛查：早唐 OR 中唐二选一即可<br/>
+  · 临界风险（1/270-1/1000）→ 建议做无创 DNA，也可选择接受低风险<br/>
+  · MOM 值单项异常不代表染色体有问题，以综合风险值为准
+</div>
+<div class="pitfall">
+  <strong>避坑：</strong>唐筛高风险不要复查唐筛；中唐的"开放性神经管缺陷高风险"不等于有问题，要靠超声确诊；35 岁以上并非必须羊水穿刺——充分知情后可自愿选择无创 DNA 或产前诊断。
+</div>
+</div>
+
+<div class="card">
+<h3>第20课 · 检查：Rh 阴性血才有必要做溶血检查</h3>
+<p><strong>在讲什么</strong>：ABO 溶血和 Rh 溶血的本质区别、风险程度及预防措施。</p>
+<div class="highlight">
+  <strong>关键理解：</strong><br/>
+  ① ABO 溶血发生率仅 0.6%，即便发生也多为新生儿黄疸（照蓝光即可），孕期不推荐做 ABO 抗体检查——只会徒增焦虑。<br/>
+  ② Rh 阴性（熊猫血）溶血则可能很严重，宝宝宫内容易出现严重贫血、水肿，需要积极预防和监测。<br/>
+  ③ 抗 D 免疫球蛋白是预防 Rh 溶血的关键——每次妊娠终止（包括流产）后都应注射，避免母体产生抗体影响下一次怀孕。
+</div>
+<div class="action">
+  <strong>行动项：</strong><br/>
+  · O 型血妈妈不需要常规查 ABO 抗体<br/>
+  · Rh 阴性妈妈：第一次产检做 Rh 分型和抗体筛查 → 第 28 周+产后 72h 各注射一次抗 D 免疫球蛋白<br/>
+  · 抗 D 免疫球蛋白需自行购买（国内医院不提供），注意 2-8℃ 冷链运输
+</div>
+<div class="pitfall">
+  <strong>避坑：</strong>不要使用茵陈汤等药物预防 ABO 溶血——无临床证据；弱 D 型（假 Rh 阴性）不会产生抗 D 抗体，不需要注射免疫球蛋白；抗体阳性不代表已经或必然发生溶血，需进一步监测宝宝贫血情况。
+</div>
+</div>
+
+<div class="card">
+<h3>第21课 · 检查：6 个关键的常规检查</h3>
+<p><strong>在讲什么</strong>：产检化验单解读——血型、血常规、尿常规、肝功能、传染病和宫高腹围。</p>
+<div class="highlight">
+  <strong>关键理解：</strong><br/>
+  ① 白细胞升高多数是孕期激素导致（＜15×10⁹/L 且无感染症状就正常），血红蛋白和 MCV 偏低需排查缺铁性贫血或地中海贫血。<br/>
+  ② 尿常规关键是尿蛋白——反复阳性+血压升高需警惕子痫前期；尿糖阳性在孕期常见，即使血糖正常也可能出现。<br/>
+  ③ 肝功能中转氨酶升高常与孕吐/保胎药/复合维生素有关，停药后多能恢复；白蛋白降低是血容量增加稀释所致，不是缺营养。
+</div>
+<div class="action">
+  <strong>行动项：</strong><br/>
+  · 留尿标本前清洗外阴，弃前段留中段，避免白带污染<br/>
+  · 血常规关注血红蛋白——贫血要区分缺铁性还是地中海贫血（南方高发）<br/>
+  · 记住传染病顺口溜："RPR 阳 TPPA 阳才是梅毒；乙肝表面抗体阳性是好事情（有免疫力）"
+</div>
+<div class="pitfall">
+  <strong>避坑：</strong>不要把白细胞高就当成感染；血脂偏高在孕期正常，不一定与饮食有关；宫高波动大，超声才是评估宝宝发育的金标准。
+</div>
+</div>
+
+<div class="card">
+<h3>第22课 · 营养：多吃鱼，多喝奶，每天增加 300 卡</h3>
+<p><strong>在讲什么</strong>：孕中期营养升级——每天增加 300 千卡热量和 15g 蛋白质，DHA 和钙的补充要点。</p>
+<div class="highlight">
+  <strong>关键理解：</strong><br/>
+  ① 孕中期每天比孕前/孕早期增加：蛋白质 15g + 钙 200mg + 铁 4mg + 能量 300 千卡；等价于 1 杯牛奶（200ml）+ 1 个鸡蛋或 1 巴掌肉。<br/>
+  ② DHA 对宝宝脑和视网膜发育重要，优先食补——每周 2-3 次低汞鱼类（三文鱼、鳕鱼等）每次 50g 即够；食补不足时口服 DHA≥200mg/天。<br/>
+  ③ 孕中期钙需求升至 1000mg/天，约等于每天 300-500g 奶制品+300-500g 深绿蔬菜+每周 1-2 次豆制品
+</div>
+<div class="action">
+  <strong>行动项：</strong><br/>
+  · 在孕前均衡饮食基础上每天加 1 杯奶+1 个蛋或巴掌大肉<br/>
+  · 每周吃 2-3 次三文鱼/鳕鱼/沙丁鱼等低汞鱼<br/>
+  · 不喝奶或蔬菜吃不够 → 酌情补钙剂（小剂量分次服，早晚各 300mg）
+</div>
+<div class="pitfall">
+  <strong>避坑：</strong>避免大型食肉鱼（鲨鱼、方头鱼等汞污染高）；钙片不要和牛奶一起吃（单次大量钙吸收率下降）；钙片会影响铁吸收，贫血者错开服用时间。
+</div>
+</div>
+
+<div class="card">
+<h3>第23课 · 营养：警惕孕期贫血，注意补铁</h3>
+<p><strong>在讲什么</strong>：孕期缺铁性贫血的机制、筛查指标、分阶段补铁方案及补铁注意事项。</p>
+<div class="highlight">
+  <strong>关键理解：</strong><br/>
+  ① 约 1/5 孕妇会出现贫血，缺铁性是最主要原因。胎儿需要大量铁，母体储备不足就会逐步耗竭。<br/>
+  ② 判断标准三档：铁蛋白＞30μg/L（充足）、20-30μg/L（铁耗竭早期）、＜20μg/L+血红蛋白＜110g/L（缺铁性贫血）。<br/>
+  ③ 孕早/中/晚期每日铁推荐量分别为 20/24/29mg；治疗缺铁性贫血需补充铁元素 100-200mg/天，2 周后复查。
+</div>
+<div class="action">
+  <strong>行动项：</strong><br/>
+  · 多吃红肉（牛羊肉），每周 1-2 次动物肝脏/血（每次 20-50g）<br/>
+  · 铁剂饭前 1 小时服用，避免与钙剂、牛奶、茶、咖啡同服<br/>
+  · 搭配新鲜蔬果（维生素 C）可促进铁吸收
+</div>
+<div class="pitfall">
+  <strong>避坑：</strong>红枣、花生、红糖、菠菜补血效果不理想——植物性铁含量低且吸收率差；铁剂引起便便变黑无需担心；不要海淘铁剂自行补铁（效果不确定+可能过量）。
+</div>
+</div>
+
+<div class="card">
+<h3>第24课 · 体重：孕期推荐的 5 项运动</h3>
+<p><strong>在讲什么</strong>：孕中期最适合的 5 种运动（走路、游泳、瑜伽、阻力训练、盆底肌训练）及不推荐的运动。</p>
+<div class="highlight">
+  <strong>关键理解：</strong><br/>
+  ① 有氧运动（游泳+走路）和有氧+力量（瑜伽+阻力训练+盆底肌训练）组合效果最佳，可根据自身情况选 1-3 种搭配。<br/>
+  ② 盆底肌训练可有效预防孕晚期和产后漏尿，尤其适合二胎妈妈或有腰痛史的准妈妈。<br/>
+  ③ 不推荐爬楼梯（韧带松弛+关节不稳，增加骨盆带疼痛和跌倒风险）和骑自行车（增加骨盆带压力），孕 3 个月后避免仰卧位运动以防低血压。
+</div>
+<div class="action">
+  <strong>行动项：</strong><br/>
+  · 运动少+心肺弱 → 走路+瑜伽<br/>
+  · 有运动基础 → 走路+阻力训练<br/>
+  · 有腰痛史 → 瑜伽+游泳；有漏尿风险 → 加入盆底肌训练
+</div>
+<div class="pitfall">
+  <strong>避坑：</strong>不要从零开始学游泳（孕期不是学习新技能的好时机）；不要爬楼梯锻炼；不要在高热环境中运动；运动中不憋气、勤补水。
+</div>
+</div>
+</div>
+
+<!-- ============ 17-20周 ============ -->
+<div class="section">
+<div class="sec-title">📅 17—20 周 · 大排畸与生活方式管理</div>
+
+<div class="card">
+<h3>第25课 · 检查：按时进行大排畸超声</h3>
+<p><strong>在讲什么</strong>：大排畸（胎儿结构超声检查）的时机、方法、局限性和结果解读。</p>
+<div class="highlight">
+  <strong>关键理解：</strong><br/>
+  ① 最佳检查窗口 20-24 周——宝宝各部分已发育成型但尚未大到遮挡，羊水量适中成像清晰。＜18 周或＞28 周都不利于观察。<br/>
+  ② 大排畸不是万能——只能检出约 50-60% 的结构问题，耳聋等无典型超声表现、宝宝体位和妈妈体重都会影响准确率。<br/>
+  ③ 三级二维超声足够做结构筛查，三维/四维超声在医学上没有太多使用价值——所谓"四维"只是让图像动起来而已。
+</div>
+<div class="action">
+  <strong>行动项：</strong><br/>
+  · 20-24 周按时做三级二维超声排畸检查，不需空腹，无需憋尿<br/>
+  · 如发现异常 → 咨询产科医生评估，可考虑产前诊断或转诊到有条件的医疗中心<br/>
+  · 排畸通过后仍要按时产检，按需进行后续 B 超
+</div>
+<div class="pitfall">
+  <strong>避坑：</strong>不要把大排畸当"终极神器"——即使通过也不能高枕无忧；不要被"四维"噱头误导多花钱，二维足够；大排畸完全自愿，但建议慎重评估风险后再决定做不做。
+</div>
+</div>
+
+<div class="card">
+<h3>第26课 · 营养：合理加餐，应对孕期饥饿感</h3>
+<p><strong>在讲什么</strong>：孕中期饥饿感的管理——少食多餐的节奏、不同时段加餐的食物选择和份量控制。</p>
+<div class="highlight">
+  <strong>关键理解：</strong><br/>
+  ① 加餐≠吃零食——含糖饮料、甜点、油炸食品属于"高糖高油高热量"，不适合加餐。<br/>
+  ② 三餐+三次加餐的热量分配：早餐 20-30% / 上午加餐 5-10% / 午餐 30% / 下午加餐 5-10% / 晚餐 20-30% / 睡前加餐 5-10%。<br/>
+  ③ 不同时段加餐策略：上午补碳水+蛋白质（燕麦、鸡蛋、全麦面包），下午补蔬果+酸奶/坚果，晚上清淡易消化（豆浆、牛奶、八宝粥，不加糖）。
+</div>
+<div class="action">
+  <strong>行动项：</strong><br/>
+  · 每天吃 5-6 餐，加餐在正餐后 2.5-3 小时：上午 9-10 点、下午 3-4 点、晚上 8-9 点<br/>
+  · 加餐吃到不饿就停，不要吃撑<br/>
+  · 妊娠糖尿病妈妈选低 GI 水果（苹果、蓝莓、草莓、奇异果等）
+</div>
+<div class="pitfall">
+  <strong>避坑：</strong>加餐不是多吃——是把全天食物总量分配到更多餐次，总热量不变；晚上加餐吃太多会影响睡眠；单餐碳水吃太多不利于血糖控制。
+</div>
+</div>
+
+<div class="card">
+<h3>第27课 · 体重：孕期旅行的 3 点注意</h3>
+<p><strong>在讲什么</strong>：孕期出行安全性评估、最佳旅行时间、出行前准备和旅途中的安全要点。</p>
+<div class="highlight">
+  <strong>关键理解：</strong><br/>
+  ① 只要妈妈和宝宝都健康，孕 36 周前旅行相对安全，但最佳时间是孕中期 14-28 周（早孕反应消失+精神恢复）。<br/>
+  ② 孕期血液高凝状态+久坐不动=下肢深静脉血栓风险显著升高；每 1-2 小时必须起身走动、伸展双腿。<br/>
+  ③ 安全带系法有讲究：腰带扣在髋骨下方，肩带放在腹部侧面穿过胸部中间——不能直接勒在肚子上。
+</div>
+<div class="action">
+  <strong>行动项：</strong><br/>
+  · 出行前做一次产检确认健康状况，带上产检本和足够药量<br/>
+  · 选择最快交通工具，全程系好安全带，选靠过道座位方便走动<br/>
+  · 穿宽松衣服，保持正常饮水，每 1-2 小时走动
+</div>
+<div class="pitfall">
+  <strong>避坑：</strong>高血压/早产迹象/双胎多胎不建议旅行；不要潜水（增加早产流产风险）；不要在海里游泳（达不到孕期游泳的卫生和安全条件）；登机前避开产气食物和碳酸汽水。
+</div>
+</div>
+</div>
+
+<!-- ============ 总结 ============ -->
+<div class="conclusion">
+<h2>📋 孕早期（0-20 周）核心要务总览</h2>
+<h3>🔬 检查节奏</h3>
+<p>0-4 周验孕 → 7-9 周 B 超（宫内+胎心）→ 孕早期甲功抽血 → 11-14 周早唐/NT → 20-24 周大排畸 → 24 周糖耐。两次最关键节点：NT 和大排畸，错过窗口就得用备选方案。</p>
+<h3>💊 营养三条底线</h3>
+<p><strong>叶酸</strong>：从备孕到哺乳期每天≥0.4mg；<strong>碘</strong>：加碘盐+每周海产品，每日 230μg；<strong>碳水</strong>：孕吐再严重也要保证每天≥130g 碳水，避免酮体伤害胎儿大脑。</p>
+<h3>⚖️ 体重管理</h3>
+<p>孕早期增 0.5-2kg，全程控制在 10-12kg（标准 BMI 中国妈妈）。运动≠禁忌——产检正常就可以运动，以"调整→稳定→缓慢"三节奏推进。</p>
+<h3>🚫 孕早期七大"不要"</h3>
+<p>① 不要频繁查 hCG/孕酮 ② 不要常规做 TORCH ③ 不要做 ABO 溶血 ④ 不要自行补黄体酮 ⑤ 不要大补特补 ⑥ 不要买胎心仪 ⑦ 不要因为民间禁忌乱忌口</p>
+</div>
+
+<div class="footer">孕期全攻略 · 孕早期 0-20 周综合知识图谱 | 共 22 节课 | 基于丁香妈妈课程转写稿整理</div>
+
+</div>
+    </div>
+  </foreignObject>
+</svg>

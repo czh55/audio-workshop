@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="6936" viewBox="0 0 1320 6936">
+  <foreignObject x="0" y="0" width="1320" height="6936">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#ecfeff,#cffafe);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:38px;font-weight:900;background:linear-gradient(135deg,#155e75,#0891b2);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:24px;font-weight:700;color:#155e75;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #a5f3fc}
+h3{font-size:19px;font-weight:700;color:#334155;margin-bottom:10px}
+p{font-size:15px;line-height:1.8;color:#475569;margin-bottom:8px}
+ul,ol{padding-left:20px;margin:8px 0}
+li{font-size:14px;line-height:1.7;color:#475569;margin-bottom:4px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-cyan{background:#cffafe;color:#155e75}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:17px;line-height:1.7;color:#164e63;padding:18px 24px;background:#fff;border-radius:12px;border-left:4px solid #0891b2;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.section{margin-bottom:28px}
+.sec-title{font-size:20px;font-weight:700;color:#155e75;margin-bottom:14px;padding-left:14px;border-left:4px solid #0891b2}
+.card{background:#fff;border-radius:14px;padding:28px;margin-bottom:16px;box-shadow:0 4px 16px rgba(0,0,0,0.04);border-left:4px solid #0891b2}
+.card.card-green{border-left-color:#10b981}
+.card h3{font-size:18px;font-weight:700;color:#164e63;margin-bottom:10px}
+.card .highlight{background:#fef3c7;padding:10px 14px;border-radius:8px;margin:10px 0;font-size:14px;color:#92400e;border-left:3px solid #f59e0b}
+.card .pitfall{background:#fef2f2;padding:10px 14px;border-radius:8px;margin:10px 0;font-size:14px;color:#991b1b;border-left:3px solid #ef4444}
+.card .action{background:#eff6ff;padding:10px 14px;border-radius:8px;margin:10px 0;font-size:14px;color:#1e40af;border-left:3px solid #3b82f6}
+.conclusion{background:linear-gradient(135deg,#164e63,#0891b2);color:#fff;border-radius:18px;padding:32px;margin-top:28px}
+.conclusion h2{font-size:24px;font-weight:800;margin-top:0;margin-bottom:14px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,0.2);color:#fff}
+.conclusion h3{font-size:17px;font-weight:700;color:rgba(255,255,255,0.9);margin:18px 0 8px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,0.9);font-size:14px}
+.footer{text-align:center;color:#94a3b8;font-size:12px;padding:28px 0 12px}
+</style>
+      
+<div class="container">
+
+  <h1>孕中期 21-28周 · 综合知识长图</h1>
+  <div class="meta">
+    <span class="tag tag-cyan">共 7 节课</span>
+    <span class="tag tag-blue">21-24周 × 3课</span>
+    <span class="tag tag-green">25-28周 × 4课</span>
+    <span class="tag tag-orange">检查 · 营养 · 体重 · 运动</span>
+  </div>
+
+  <div class="summary-line">
+    孕中期是体重和血糖管理的关键窗口。21-28周需完成两项重大筛查——<strong>糖耐量测试（OGTT）</strong>和<strong>妊娠高血压监测</strong>，同时从28周起开始<strong>每日数胎动</strong>。
+    饮食上遵循「管住嘴」：先菜肉后主食、全谷物替代精米面、少食多餐；运动上遵循「迈开腿」：量力而行、循序渐进，游泳是孕中期最佳运动。
+  </div>
+
+  <!-- ==================== 21-24周 ==================== -->
+  <div class="section">
+    <div class="sec-title">孕21-24周</div>
+
+    <!-- 第28课：糖耐量测试 -->
+    <div class="card">
+      <h3>第28课 · 检查：按时进行糖耐量测试（OGTT）</h3>
+      <p><strong>在讲什么</strong> — 孕期糖尿病筛查（OGTT）是孕中期最重要的化验之一，因为胎盘激素导致胰岛素抵抗，约每12位准妈妈就有1位可能发生妊娠期糖尿病。</p>
+      <div class="highlight">
+        <strong>关键理解</strong>
+        <ul>
+          <li>发病率6%-9%，亚洲女性更高；高危因素：≥35岁、BMI&gt;23、多囊卵巢、巨大儿史、糖尿病家族史</li>
+          <li>标准方案：孕24-28周，空腹喝75g葡萄糖+300ml水，测空腹、1h、2h三次血糖</li>
+          <li>诊断标准：空腹≥5.1 / 1h≥10.0 / 2h≥8.5 mmol/L，<strong>任意一项达标即诊断</strong></li>
+        </ul>
+      </div>
+      <div class="action">
+        <strong>行动项</strong>
+        <ul>
+          <li>检查前3天保持正常饮食，空腹8-12小时（只能少量白水）</li>
+          <li>检查当天提前到，静坐20-30分钟再采血</li>
+          <li>高危人群提前至孕16-18周筛查，及早干预</li>
+        </ul>
+      </div>
+      <div class="pitfall">
+        <strong>避坑</strong> — 检查前刻意节食或改变碳水比例会导致结果不准确；采血时间误差不超过5分钟；感冒发烧应改期。
+      </div>
+    </div>
+
+    <!-- 第29课：管住嘴 -->
+    <div class="card card-green">
+      <h3>第29课 · 营养：体重和血糖控制 上篇——管住嘴</h3>
+      <p><strong>在讲什么</strong> — 通过饮食调整控制体重和血糖，核心是大量蔬菜+适量肉蛋奶+低血糖生成指数主食，辅以少食多餐和健康烹饪。</p>
+      <div class="highlight">
+        <strong>关键理解</strong>
+        <ul>
+          <li><strong>进餐顺序</strong>：先吃蔬菜和肉蛋奶，再吃主食 → 膳食纤维和蛋白质延缓消化、提升饱腹感、平滑血糖</li>
+          <li><strong>GI 和 GL 双指标选碳水</strong>：GI看速率，GL兼顾含量。南瓜GI=75但GL很低，实际影响小；全谷物（糙米、燕麦、荞麦）替代精米白面</li>
+          <li><strong>少食多餐</strong>：早20-30% / 午30% / 晚20-30%，其余通过加餐补充（无糖酸奶、坚果、低GI水果）</li>
+        </ul>
+      </div>
+      <div class="action">
+        <strong>行动项</strong>
+        <ul>
+          <li>每天一斤蔬菜，深绿色占一半，肉类选鱼肉鸡鸭（白肉去皮）</li>
+          <li>大米饭→糙米红豆饭，白馒头→全麦荞麦馒头，白米粥→紫米燕麦粥</li>
+          <li>烹饪用清蒸、水煮、凉拌、快炒，少油少盐少糖</li>
+        </ul>
+      </div>
+      <div class="pitfall">
+        <strong>避坑</strong> — 喝果汁≠吃水果（加速吸收）；杂粮打成糊糊→血糖飙升；红烧肉/糖醋排骨脂肪和糖超标；红肉中猪肉脂肪最高。
+      </div>
+    </div>
+
+    <!-- 第30课：迈开腿 -->
+    <div class="card">
+      <h3>第30课 · 体重：体重和血糖控制 下篇——迈开腿</h3>
+      <p><strong>在讲什么</strong> — 运动是控制血糖的另一半武器，孕期运动八字原则：量力而行、循序渐进，中低强度有氧运动每天30分钟。</p>
+      <div class="highlight">
+        <strong>关键理解</strong>
+        <ul>
+          <li>糖耐量正常≠可以不控制血糖——高血糖仍会增加胎儿体重过重、畸形、新生儿低血糖等风险</li>
+          <li>运动强度自测：身体微热、呼吸加快但<strong>能完整对话</strong> = 合适强度</li>
+          <li>餐后1小时是最佳运动时机，不要空腹运动（防低血糖）</li>
+        </ul>
+      </div>
+      <div class="action">
+        <strong>行动项</strong>
+        <ul>
+          <li>快走、慢跑、游泳、健身操、家务劳动都是好选择；避免篮球、滑雪等碰撞运动</li>
+          <li>随身带饼干/糖果，运动中出现头晕、冒冷汗立即补充</li>
+          <li>身体沉重者分次少量运动（如3×10分钟）比连续30分钟更易坚持</li>
+        </ul>
+      </div>
+      <div class="pitfall">
+        <strong>避坑</strong> — 运动中出现阴道流血、头痛、胸闷、心悸、胎动减少应立即停止就医；血糖控制不达标及时到营养科/产科就诊，可能需要胰岛素。
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ==================== 25-28周 ==================== -->
+  <div class="section">
+    <div class="sec-title">孕25-28周</div>
+
+    <!-- 第31课：妊娠高血压 -->
+    <div class="card">
+      <h3>第31课 · 检查：认识妊娠高血压</h3>
+      <p><strong>在讲什么</strong> — 妊娠期高血压疾病是胎盘血管发育异常引起的妊娠特有疾病，包括妊高症和子痫前期，发病率不低（初产妇6-17%），需高度重视。</p>
+      <div class="highlight">
+        <strong>关键理解</strong>
+        <ul>
+          <li><strong>四类高血压</strong>：妊高症（单纯血压升高）→ 子痫前期（+尿蛋白/器官损伤）→ 慢性高血压合并妊娠 → 慢性高血压并发子痫前期</li>
+          <li>孕20周后隔4小时以上两次测高压≥140或低压≥90 = 诊断妊高症；子痫前期可能<strong>1-5周内快速发展</strong></li>
+          <li>子痫前期不只看尿蛋白：高压≥160/低压≥110、肝肾异常、血小板减少、剧烈头痛、视觉障碍也提示严重子痫前期</li>
+        </ul>
+      </div>
+      <div class="action">
+        <strong>行动项</strong>
+        <ul>
+          <li>高危人群（既往子痫前期/慢性高血压/多胎/自身免疫病）孕12-13周起每日口服阿司匹林100-150mg</li>
+          <li>每日摄入钙1000mg；控制体重增长</li>
+          <li>测血压前不喝咖啡因饮料，安静休息5分钟；怀疑白大衣高血压者在家监测记录</li>
+        </ul>
+      </div>
+      <div class="pitfall">
+        <strong>避坑</strong> — 年轻人也会得妊高症；尿蛋白阴性≠排除子痫前期；补充维生素C/D/E或鱼油<strong>很可能无效</strong>；出现头痛/视力模糊/上腹痛/水肿/尿少立即就医。
+      </div>
+    </div>
+
+    <!-- 第32课：数胎动 -->
+    <div class="card card-green">
+      <h3>第32课 · 检查：学会数胎动，关注宝宝健康</h3>
+      <p><strong>在讲什么</strong> — 胎动是胎儿健康的「晴雨表」。孕28周起每天数胎动，胎动减少可能是宫内缺氧的信号，需及时就医。</p>
+      <div class="highlight">
+        <strong>关键理解</strong>
+        <ul>
+          <li><strong>推荐方法「两小时十次法」</strong>：左侧卧位，每天专注数2小时，超过10次达标（连续胎动只记一次）</li>
+          <li><strong>胎动多一般没事，胎动少要警惕</strong>——缺氧的宝宝不动，胎动减少是宫内情况不好的提示</li>
+          <li><strong>不能用胎心仪代替数胎动</strong>——胎心率不能完全反映健康，胎动需要神经+肌肉+各大系统合力完成</li>
+        </ul>
+      </div>
+      <div class="action">
+        <strong>行动项</strong>
+        <ul>
+          <li>孕28周起，每天在宝宝活跃时（下午/晚上/睡前）用两小时十次法数胎动</li>
+          <li>可用孕期APP辅助记录</li>
+          <li>胎动次数不合格或与往常明显不同立即就医</li>
+        </ul>
+      </div>
+      <div class="pitfall">
+        <strong>避坑</strong> — 首次胎动时间不用跟别人比（16-22周均可，与胖瘦/胎盘位置/孕次有关）；晚上胎动多≠将来黑白颠倒；胎动多看频率不看强度。
+      </div>
+    </div>
+
+    <!-- 第33课：外出就餐 -->
+    <div class="card">
+      <h3>第33课 · 营养：外出就餐及工作餐选择</h3>
+      <p><strong>在讲什么</strong> — 孕期难免外出就餐和点外卖，关键在于选正规餐厅、吃全熟食物、荤素搭配且控油盐，过水吃法是控制体重的实用妙招。</p>
+      <div class="highlight">
+        <strong>关键理解</strong>
+        <ul>
+          <li>选有餐饮营业许可证的正规餐厅，路边摊无卫生保障</li>
+          <li>未全熟食物含致病菌和寄生虫：溏心蛋、牛排、生鱼片、蔬菜沙拉、未巴氏消毒鲜榨果汁</li>
+          <li>外卖三大原则：荤素都有+主食适量、多蒸煮少煎炸、<strong>过水再吃</strong>（大幅减少油盐糖）</li>
+        </ul>
+      </div>
+      <div class="action">
+        <strong>行动项</strong>
+        <ul>
+          <li>火锅多涮确保熟透；外卖套餐甜饮料换成白水或茶</li>
+          <li>避免汤面/炒饭/盖浇饭（主食多菜肉少），自带杂粮饭或单独加份青菜</li>
+          <li>坚持过水吃饭——起初淡，习惯后觉得不过水的菜过咸过油</li>
+        </ul>
+      </div>
+      <div class="pitfall">
+        <strong>避坑</strong> — 外卖酱汁单独包装不淋上去；控糖控体重者不要把套餐主食全吃完，先吃菜肉再吃主食，主食只吃半份。
+      </div>
+    </div>
+
+    <!-- 第34课：孕期游泳 -->
+    <div class="card card-green">
+      <h3>第34课 · 体重：孕期游泳的注意事项</h3>
+      <p><strong>在讲什么</strong> — 游泳是孕中期最推荐的运动：水的浮力减轻体重负担和脊柱压力，减少关节损伤，30分钟不累。但不会游泳者不建议孕期从零学。</p>
+      <div class="highlight">
+        <strong>关键理解</strong>
+        <ul>
+          <li>浮力优势：减轻腰痛背痛风险，比慢跑/爬山更保护关节（孕期松弛素使韧带松弛）</li>
+          <li>选场地三标准：环境舒适（臭氧消毒室内池为佳）、有专业救生员、水温29-35℃</li>
+          <li>心率控制：120-130为中等强度，超过140减速；最佳时间上午10点-下午2点（子宫不易收缩）</li>
+        </ul>
+      </div>
+      <div class="action">
+        <strong>行动项</strong>
+        <ul>
+          <li>下水前热身5-10分钟，穿防滑鞋，先在浅水区走一走</li>
+          <li>运动前喝250ml水，每20分钟补水一杯，游完再喝一杯</li>
+          <li>游完后及时擦干、冲洗、换衣，防阴道感染</li>
+        </ul>
+      </div>
+      <div class="pitfall">
+        <strong>避坑</strong> — 不去湖泊/海里游泳（细菌风险）；不潜水憋气；不会游泳≠不能在水里走+伸展；出现呼吸困难/胸痛/眩晕/阴道出血/宫缩/羊水泄漏立即停止就医。
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ==================== 总结 ==================== -->
+  <div class="conclusion">
+    <h2>21-28周 · 核心行动清单</h2>
+
+    <h3>🔬 两项必做检查</h3>
+    <ul>
+      <li><strong>OGTT糖耐量</strong>：孕24-28周，空腹喝75g葡萄糖，三次采血，任意一项超标即诊断妊娠期糖尿病</li>
+      <li><strong>血压监测</strong>：每次产检测血压，高危人群孕12-13周起服阿司匹林预防子痫前期</li>
+    </ul>
+
+    <h3>🍽️ 饮食三原则</h3>
+    <ul>
+      <li>进餐顺序：先菜肉 → 后主食</li>
+      <li>主食升级：全谷物替代精米白面，选低GI+低GL食物</li>
+      <li>外出就餐：正规餐厅 + 全熟食物 + 过水再吃</li>
+    </ul>
+
+    <h3>🏃 运动三原则</h3>
+    <ul>
+      <li>量力而行 — 以能完整对话为强度上限</li>
+      <li>循序渐进 — 分次少量比一次性长时间更容易坚持</li>
+      <li>游泳首选 — 浮力减负，保护关节，心率120-130</li>
+    </ul>
+
+    <h3>👶 28周起每天数胎动</h3>
+    <ul>
+      <li>两小时十次法 — 左侧卧位，2小时内≥10次达标</li>
+      <li>胎动减少立即就医 — 不能用胎心仪替代</li>
+    </ul>
+
+    <h3>⚠️ 紧急就医信号</h3>
+    <ul>
+      <li>剧烈头痛、视力模糊、上腹痛、水肿快速加重 → 子痫前期</li>
+      <li>阴道流血、持续宫缩、羊水泄漏</li>
+      <li>胎动明显减少或消失</li>
+    </ul>
+  </div>
+
+  <div class="footer">
+    内容来源：丁香妈妈《孕期全攻略》| 课程 28-34 | 制作日期：2026年6月
+  </div>
+
+</div>
+
+    </div>
+  </foreignObject>
+</svg>

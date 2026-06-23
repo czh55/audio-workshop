@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="10883" viewBox="0 0 1320 10883">
+  <foreignObject x="0" y="0" width="1320" height="10883">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#fef3c7,#fde68a);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:38px;font-weight:900;background:linear-gradient(135deg,#92400e,#d97706);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:24px;font-weight:700;color:#92400e;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #fde68a}
+h3{font-size:19px;font-weight:700;color:#334155;margin-bottom:10px}
+p{font-size:15px;line-height:1.8;color:#475569;margin-bottom:8px}
+ul,ol{padding-left:20px;margin:8px 0}
+li{font-size:14px;line-height:1.7;color:#475569;margin-bottom:4px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-amber{background:#fef3c7;color:#92400e}
+.tag-red{background:#fee2e2;color:#991b1b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:17px;line-height:1.7;color:#78350f;padding:18px 24px;background:#fff;border-radius:12px;border-left:4px solid #d97706;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.section{margin-bottom:28px}
+.sec-title{font-size:20px;font-weight:700;color:#92400e;margin-bottom:14px;padding-left:14px;border-left:4px solid #d97706}
+.card{background:#fff;border-radius:14px;padding:28px;margin-bottom:16px;box-shadow:0 4px 16px rgba(0,0,0,0.04);border-left:4px solid #d97706}
+.card h3{font-size:18px;font-weight:700;color:#78350f;margin-bottom:10px}
+.card .highlight{background:#fef3c7;padding:10px 14px;border-radius:8px;margin:10px 0;font-size:14px;color:#92400e;border-left:3px solid #f59e0b}
+.card .pitfall{background:#fef2f2;padding:10px 14px;border-radius:8px;margin:10px 0;font-size:14px;color:#991b1b;border-left:3px solid #ef4444}
+.card .action{background:#eff6ff;padding:10px 14px;border-radius:8px;margin:10px 0;font-size:14px;color:#1e40af;border-left:3px solid #3b82f6}
+.conclusion{background:linear-gradient(135deg,#78350f,#d97706);color:#fff;border-radius:18px;padding:32px;margin-top:28px}
+.conclusion h2{font-size:24px;font-weight:800;margin-top:0;margin-bottom:14px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,0.2);color:#fff}
+.conclusion h3{font-size:17px;font-weight:700;color:rgba(255,255,255,0.9);margin:18px 0 8px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,0.9);font-size:14px}
+.footer{text-align:center;color:#94a3b8;font-size:12px;padding:28px 0 12px}
+</style>
+      
+<div class="container">
+  <h1>04 孕晚期与临产（29-40周）</h1>
+  <div class="meta">
+    <span class="tag tag-amber">14 节课</span>
+    <span class="tag tag-blue">29-40 周</span>
+    <span class="tag tag-green">孕晚期 + 临产</span>
+  </div>
+  <div class="summary-line">
+    孕晚期是宝宝体重增长最快的阶段，准妈妈要关注营养（补钙补铁）、检查（B超/胎心监护/GBS）、运动（散步为主）和产前准备（顺产条件、呼吸法、待产包）。临产前重点做好身心准备，以积极心态试产、平常心看待结果。
+  </div>
+
+  <!-- ========== 第一部分：孕晚期 29-32 周 ========== -->
+  <div class="section">
+    <div class="sec-title">孕晚期 29-32 周：检查、营养与产前准备启动</div>
+
+    <div class="card">
+      <h3>35. 宝宝生长加速，关注妈妈健康</h3>
+      <p>孕晚期宝宝快速生长，准妈妈身体沉重、不适增多，需了解检查项目和生活注意事项，提前为分娩做准备。</p>
+      <div class="highlight">
+        <strong>关键理解：</strong><br/>
+        &amp;bull; 孕晚期必做 B 超（宝宝大小/羊水/胎盘/脐带），发现异常及时就医<br/>
+        &amp;bull; 数胎动是实时监测宝宝安危的核心手段，胎动减少立刻看医生<br/>
+        &amp;bull; 警惕手脚皮肤瘙痒（妊娠期肝内胆汁淤积症）和不明原因头痛头晕（妊娠期高血压）
+      </div>
+      <div class="action">
+        <strong>行动项：</strong><br/>
+        &amp;bull; 坚持产检 + 数胎动，饮食多吃红肉等富铁食物<br/>
+        &amp;bull; 提前和家人一起约见儿科医生（产前儿保），全家做好迎接新成员准备<br/>
+        &amp;bull; 开始预订月子中心床位，提前练习拉玛泽呼吸法
+      </div>
+      <div class="pitfall">
+        <strong>避坑：</strong><br/>
+        &amp;bull; 不要迷信白莲须、覆盆子等“助产”“去胎毒”食物，无科学依据<br/>
+        &amp;bull; 不推荐爬楼梯助产，增加摔倒风险
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>36. 按时进行小排畸检查</h3>
+      <p>28-32 周做胎儿生长超声（小排畸），评估宝宝发育情况、重要器官结构和羊水量。</p>
+      <div class="highlight">
+        <strong>关键理解：</strong><br/>
+        &amp;bull; 宝宝大小与孕周差异 1 周内正常，3 周以上要找原因（体重增长/血糖等）<br/>
+        &amp;bull; 超声报告股骨/肱骨偏短不一定有问题——亚洲人参照系不同、父母身材矮小也会影响<br/>
+        &amp;bull; 超声无法直接测量胎儿体重，只通过头围/腹围/股骨长等公式预估，帮助筛选过大过小宝宝
+      </div>
+      <div class="action">
+        <strong>行动项：</strong><br/>
+        &amp;bull; 28-32 周做小排畸；有高危因素（妊娠期糖尿病/高血压等）更有必要做<br/>
+        &amp;bull; 超声无辐射，对胎儿安全，不必担心
+      </div>
+      <div class="pitfall">
+        <strong>避坑：</strong><br/>
+        &amp;bull; 不用过度关注胎盘成熟度分级，临床价值不大<br/>
+        &amp;bull; 不要用网上计算器估重焦虑——“超声估重不准”是误解，它只是筛选工具
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>37. 注意补钙补铁，每天增加 450 卡</h3>
+      <p>孕晚期宝宝体重增长最快、骨骼牙齿发育需大量钙，同时为出生储备铁，饮食摄入非常关键。</p>
+      <div class="highlight">
+        <strong>关键理解：</strong><br/>
+        &amp;bull; 每天需增加蛋白质 30g、钙 200mg、能量 450 千卡、铁 29mg（比孕中期 +5mg）<br/>
+        &amp;bull; 补铁靠动物性血红素铁：红肉/动物血/肝脏，红枣阿胶花生不靠谱<br/>
+        &amp;bull; 补钙靠奶制品 + 凝固型豆制品（老豆腐/千张/豆腐干），内脂豆腐/豆浆/豆腐花钙含量不高
+      </div>
+      <div class="action">
+        <strong>行动项：</strong><br/>
+        &amp;bull; 每天增加 250g 奶 + 100g 鱼禽蛋肉；胃口不好可少食多餐<br/>
+        &amp;bull; 每餐保证 1 碗主食 + 1-2 碗蔬菜 + 适量肉蛋；水果每天 200-400g<br/>
+        &amp;bull; 口福钙剂分小剂量多次服用，不与奶制品/茶/铁剂同服
+      </div>
+      <div class="pitfall">
+        <strong>避坑：</strong><br/>
+        &amp;bull; 含糖奶味饮料、乳酸菌饮料不等于补钙<br/>
+        &amp;bull; 少吃肥肉和煎炸重口味食物，盐每天不超过 6g（加重水肿）
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>38. 适当运动，有效避免腰酸背痛</h3>
+      <p>孕晚期运动以舒缓安全为主：散步、游泳、部分瑜伽/普拉提动作，同时注意正确站坐卧姿势预防疼痛。</p>
+      <div class="highlight">
+        <strong>关键理解：</strong><br/>
+        &amp;bull; 运动原则是循序渐进、量力而行，不强调强度，家人陪伴下舒适活动为主<br/>
+        &amp;bull; 正确姿势：站姿两脚平均负重，坐姿腰后放靠垫，卧姿左侧卧双腿间夹枕头<br/>
+        &amp;bull; 弯腰捡东西用下蹲代替直接弯腰，减轻腰椎压力；骨盆带护具 + 瑜伽球动作可缓解腰骶痛
+      </div>
+      <div class="action">
+        <strong>行动项：</strong><br/>
+        &amp;bull; 散步每次 20-30 分钟、每周 2-3 次；能坚持 10 分钟也不错<br/>
+        &amp;bull; 坐瑜伽球做骨盆前倾/后倾/左右活动，放松腰周肌筋膜
+      </div>
+      <div class="pitfall">
+        <strong>避坑：</strong><br/>
+        &amp;bull; 不推荐仰泳和憋气水下游泳<br/>
+        &amp;bull; 运动不能临时抱佛脚——不是孕晚期做特定运动就能让顺产更快
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>39. 尝试顺产，要做好这 3 个准备</h3>
+      <p>顺产对妈妈恢复快、对宝宝神经发育和呼吸有益，但需要提前做好三项核心准备。</p>
+      <div class="highlight">
+        <strong>关键理解：</strong><br/>
+        &amp;bull; 顺产优势：妈妈恢复快/下奶快/损伤小；宝宝获得产道挤压助呼吸 + 肠道菌群 + 免疫球蛋白<br/>
+        &amp;bull; 临床试产人群中顺转剖概率约 10%，不必因噎废食<br/>
+        &amp;bull; 脐带绕颈、宝宝偏大、羊水少等不是剖宫产绝对依据，但增加不确定性
+      </div>
+      <div class="action">
+        <strong>行动项：</strong><br/>
+        &amp;bull; 孕期控制饮食 + 适当运动，控制妈妈和宝宝体重<br/>
+        &amp;bull; 分娩前和医生充分讨论试产条件和可能情况<br/>
+        &amp;bull; 分娩中听从医生建议，一旦出现危险及时转为剖宫产
+      </div>
+      <div class="pitfall">
+        <strong>避坑：</strong><br/>
+        &amp;bull; 不要因为不确定性放弃顺产<br/>
+        &amp;bull; 积极心态试产、平常心看待结果
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>40. 要不要剖，听医生的</h3>
+      <p>剖宫产是保障母子安全的有效手段，由医生根据临床指征判断，不要因非医学原因主动选择。</p>
+      <div class="highlight">
+        <strong>关键理解：</strong><br/>
+        &amp;bull; 严重妊娠期高血压/前置胎盘/胎盘早剥/脐带脱垂等是必须剖宫产的指征<br/>
+        &amp;bull; 剖宫产不能完全消除尿失禁和盆腔脱垂风险，产后盆底康复运动同样重要<br/>
+        &amp;bull; 现代技术下一些传统认为不能顺产的情况（脐带绕颈两周/部分双胞胎/二胎头胎剖）也可能试产
+      </div>
+      <div class="action">
+        <strong>行动项：</strong><br/>
+        &amp;bull; 分娩方式听医生的专业判断，母子平安是最终标准<br/>
+        &amp;bull; 条件允许的积极试产，和医生保持密切沟通
+      </div>
+      <div class="pitfall">
+        <strong>避坑：</strong><br/>
+        &amp;bull; 不要认为剖宫产宝宝智力差——没有证据<br/>
+        &amp;bull; 不要因为怕疼/怕阴道松弛/选时辰而要求剖宫产，无痛分娩和盆底康复能解决这些问题
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>41. 学会呼吸法，分娩少点痛</h3>
+      <p>拉玛泽呼吸法通过控制呼吸节奏转移注意力来缓解分娩疼痛，建议产前和准爸爸一起提前练习。</p>
+      <div class="highlight">
+        <strong>关键理解：</strong><br/>
+        &amp;bull; 拉玛泽是心理预防式分娩准备法，核心：集中精力控制呼吸节奏 → 转移疼痛注意<br/>
+        &amp;bull; 不同产程配合不同呼吸：宫口 0-3cm 慢呼吸 → 3-8cm 由慢到快 → 8-10cm 浅快呼吸<br/>
+        &amp;bull; 自由体位待产（怎么舒服怎么待）+ 分娩球也能有效缓解疼痛
+      </div>
+      <div class="action">
+        <strong>行动项：</strong><br/>
+        &amp;bull; 夫妻一起练习，准爸爸给指令，选舒服环境 + 柔和灯光 + 背景音乐<br/>
+        &amp;bull; 分娩时任一让自己舒服的呼吸方式都可以，不用严格按产程切换
+      </div>
+      <div class="pitfall">
+        <strong>避坑：</strong><br/>
+        &amp;bull; 张嘴大口快速呼吸容易过度换气<br/>
+        &amp;bull; 不需要问医生开了几指再选呼吸模式
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>42. 和家人一起约见儿保医生</h3>
+      <p>产前和家人（特别是同住的所有人）一起见儿科医生，提前掌握宝宝出生后的护理关键知识。</p>
+      <div class="highlight">
+        <strong>关键理解：</strong><br/>
+        &amp;bull; 绝大多数妈妈有足够母乳：产后头 24h 泌乳约 37ml 就够（宝宝胃如弹珠大）<br/>
+        &amp;bull; 宝宝必须仰卧睡、单独睡小床最安全，侧睡比趴睡窒息风险更高<br/>
+        &amp;bull; 13 价肺炎球菌疫苗和 5 价轮状病毒疫苗有严格接种时限，错过可能无法接种
+      </div>
+      <div class="action">
+        <strong>行动项：</strong><br/>
+        &amp;bull; 提前向儿科医生咨询母乳喂养/睡眠安全/疫苗接种/新生儿护理<br/>
+        &amp;bull; 宝宝出院即用面向后的安全提篮；二胎家庭每天 30 分钟高质量陪伴大宝<br/>
+        &amp;bull; 学会手挤奶方法，比吸奶器效果好；问题找国际认证泌乳顾问，不找开奶师
+      </div>
+      <div class="pitfall">
+        <strong>避坑：</strong><br/>
+        &amp;bull; 不要提前准备奶瓶和配方奶——降低纯母乳喂养率<br/>
+        &amp;bull; 不要让宝宝和大人同床睡；不要侧睡或趴睡
+      </div>
+    </div>
+  </div>
+
+  <!-- ========== 第二部分：孕晚期 33-36 周 ========== -->
+  <div class="section">
+    <div class="sec-title">孕晚期 33-36 周：关键检查与控制体重</div>
+
+    <div class="card">
+      <h3>42. 高危人群建议做胎心监护</h3>
+      <p>32 周后胎心监护可反映宝宝宫内有无缺氧，高危妊娠需规律做（每周一次），普通孕妇 36-37 周开始。</p>
+      <div class="highlight">
+        <strong>关键理解：</strong><br/>
+        &amp;bull; 高危妊娠（糖尿病/高血压/免疫疾病/多胎/羊水异常/胎儿偏小等）做胎心监护意义重大<br/>
+        &amp;bull; 非高危因素引起的缺氧往往是突发的（脐带扭转/打结），胎心监护无法预测，数胎动才是实时监测<br/>
+        &amp;bull; 不合格结果中 60% 以上不是真的缺氧（假阳性），保持平常心配合进一步检查
+      </div>
+      <div class="action">
+        <strong>行动项：</strong><br/>
+        &amp;bull; 高危妊娠从 32 周起每周一次胎心监护<br/>
+        &amp;bull; 做监护时左侧卧 15 度，选宝宝清醒时（放音乐/喝甜饮料唤醒）<br/>
+        &amp;bull; 胎心跳丢了自己压紧探头找回，避免因为信号丢失重复检查
+      </div>
+      <div class="pitfall">
+        <strong>避坑：</strong><br/>
+        &amp;bull; 普通孕妇不必租胎心监护仪回家——增加假报警和焦虑<br/>
+        &amp;bull; 不合格时吸氧没有实质意义，治疗核心是抓病因或及时分娩
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>43. 有条件建议做 GBS 检查</h3>
+      <p>35 周后做 GBS（B 组链球菌）筛查，阳性者分娩时使用静脉抗生素，可有效降低新生儿败血症/肺炎风险。</p>
+      <div class="highlight">
+        <strong>关键理解：</strong><br/>
+        &amp;bull; GBS 是阴道/直肠正常定植菌，不影响怀孕；顺产时有约 0.05% 概率感染宝宝<br/>
+        &amp;bull; 进入产程后静脉青霉素/头孢类抗生素 4 小时内可清除阴道 GBS，对宝宝安全<br/>
+        &amp;bull; 胎膜完整时阴道 GBS 和宝宝有天然屏障，临产前不需要用药
+      </div>
+      <div class="action">
+        <strong>行动项：</strong><br/>
+        &amp;bull; 计划顺产建议 35 周后做 GBS 筛查<br/>
+        &amp;bull; 阳性者临产时遵医嘱使用静脉抗生素；无筛查条件者根据风险因素（既往宝宝 GBS 感染/早产/胎膜早破/产程发热）判断<br/>
+        &amp;bull; 产后未用抗生素的 GBS 阳性妈妈，重点做好新生儿监护（异常哭闹/没精打采/呼吸急促/肤色变紫 → 立刻找儿科医生）
+      </div>
+      <div class="pitfall">
+        <strong>避坑：</strong><br/>
+        &amp;bull; GBS 阳性但胎膜完整前不需要口服或静脉抗生素<br/>
+        &amp;bull; 产后妈妈不需要补用抗生素
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>44. 控制体重，为顺产做准备</h3>
+      <p>合理控制体重和适当运动是帮助顺产最有效的方法，爬楼梯和各类“顺产茶”没有科学依据。</p>
+      <div class="highlight">
+        <strong>关键理解：</strong><br/>
+        &amp;bull; 宝宝出生体重 6 斤左右最理想，≥8 斤剖宫产概率大增、会阴撕裂风险高<br/>
+        &amp;bull; 运动的作用在于控制体重/缓解疼痛/改善睡眠/增加体力，不是立竿见影的<br/>
+        &amp;bull; 临产后只要疼痛可忍受，尽量保持活动有助于生得更快
+      </div>
+      <div class="action">
+        <strong>行动项：</strong><br/>
+        &amp;bull; 孕期总体重增长约 25 斤，孕晚期每周不超过 1 斤<br/>
+        &amp;bull; 每天不少于 30 分钟中等强度运动（快走/慢跑/游泳），心跳加快有出汗感<br/>
+        &amp;bull; 疼痛严重可选无痛分娩，或练拉玛泽呼吸法
+      </div>
+      <div class="pitfall">
+        <strong>避坑：</strong><br/>
+        &amp;bull; 不推荐爬楼梯助产（无帮助 + 增加跌倒风险）<br/>
+        &amp;bull; 白莲须/覆盆子茶/茉莉花苞茶等顺产茶没有科学依据，不能催产也不能去胎毒
+      </div>
+    </div>
+  </div>
+
+  <!-- ========== 第三部分：临产 37-40 周 ========== -->
+  <div class="section">
+    <div class="sec-title">临产 37-40 周：做好充足准备，迎接宝宝到来</div>
+
+    <div class="card">
+      <h3>46. 做好充足准备，迎接宝宝到来</h3>
+      <p>五个产前核心建议：首选顺产、无痛分娩、了解产房流程、备好待产包、应对过期妊娠。</p>
+      <div class="highlight">
+        <strong>关键理解：</strong><br/>
+        &amp;bull; 无痛分娩是安全有效的减痛方式，不会导致宝宝缺氧或妈妈腰痛——被称为“20 世纪最伟大的发明之一”<br/>
+        &amp;bull; 分娩分三个产程：第一产程开指（规律宫缩→宫口全开）→ 第二产程生宝宝 → 第三产程胎盘娩出<br/>
+        &amp;bull; 过期妊娠超过 1 周建议催产（水囊/前列腺素），继续等可能导致缺氧或宝宝过大难产
+      </div>
+      <div class="action">
+        <strong>行动项：</strong><br/>
+        &amp;bull; 首选顺产，充分信任医生的专业判断<br/>
+        &amp;bull; 有条件的选无痛分娩，没条件的提前练拉玛泽呼吸法<br/>
+        &amp;bull; 提前了解产房流程和三产程知识；让准爸爸熟悉入院路线和手续
+      </div>
+      <div class="pitfall">
+        <strong>避坑：</strong><br/>
+        &amp;bull; 不要因为怕疼而拒绝顺产<br/>
+        &amp;bull; 不要迷信无痛分娩有害的传言；不要为顺转剖而懊悔
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>47. 2 类食物助力分娩</h3>
+      <p>顺产不一定需要吃东西，补充水分和电解质即可；若想吃建议选择流质、易消化的淀粉类食物。</p>
+      <div class="highlight">
+        <strong>关键理解：</strong><br/>
+        &amp;bull; 不吃东西也不影响生孩子——喝水或运动饮料即可，避免呕吐和误吸风险<br/>
+        &amp;bull; 消化慢的高油脂高蛋白食物（鸡汤/巧克力）不推荐：不能快速供能 + 影响胃排空<br/>
+        &amp;bull; 剖宫产前需禁食禁水 6-8 小时，可能顺转剖的也建议禁食、少量喝水
+      </div>
+      <div class="action">
+        <strong>行动项：</strong><br/>
+        &amp;bull; 分娩时喝不含咖啡因的运动饮料（宝矿力/佳得乐）补充水分和电解质<br/>
+        &amp;bull; 想吃东西选粥、面条、香蕉等淀粉类流质半流质食物<br/>
+        &amp;bull; 剖宫产或高顺转剖风险的准妈妈建议禁食
+      </div>
+      <div class="pitfall">
+        <strong>避坑：</strong><br/>
+        &amp;bull; 山楂/螃蟹/白莲须/覆盆子茶催生无效，无科学依据<br/>
+        &amp;bull; 不推荐红牛（含咖啡因加快胎心率增加缺氧风险）；巧克力油腻不易消化
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>48. 产前备好「3 个包」</h3>
+      <p>待产需准备三个包（随身包/入院行李包/产后包），并提前熟悉入院路线和流程，产后优先母乳喂养。</p>
+      <div class="highlight">
+        <strong>关键理解：</strong><br/>
+        &amp;bull; 随身包：证件（身份证/医保卡/准生证）+ 银行卡/现金 + 手机充电宝；产检资料拍照备份<br/>
+        &amp;bull; 入院行李包：产褥垫/卫生巾/一次性内裤/防滑拖鞋/吸管杯 + 洗漱用品 + 不含咖啡因运动饮料<br/>
+        &amp;bull; 产后最好母乳喂养——不要过早奶瓶喂养（导致乳头混淆），需补充奶粉先咨询医生
+      </div>
+      <div class="action">
+        <strong>行动项：</strong><br/>
+        &amp;bull; 准备三个包并让准爸爸知道放在哪里<br/>
+        &amp;bull; 提前查好去医院的最优路线和备选路线，实地了解医院布局<br/>
+        &amp;bull; 宝宝衣物选纯棉、尺寸大一点的，纸尿裤 NB/S 码各一小包即可
+      </div>
+      <div class="pitfall">
+        <strong>避坑：</strong><br/>
+        &amp;bull; 不推荐红牛等含咖啡因功能饮料<br/>
+        &amp;bull; 不要过早给宝宝奶瓶喂养，增加母乳喂养困难
+      </div>
+    </div>
+  </div>
+
+  <!-- ========== 总结 ========== -->
+  <div class="conclusion">
+    <h2>孕晚期与临产核心要点回顾</h2>
+    <h3>检查路线图</h3>
+    <p>28-32 周小排畸（胎儿生长超声）→ 32 周后高危人群胎心监护 → 35 周后 GBS 筛查 → 36-37 周普通孕妇胎心监护 → 全程坚持数胎动</p>
+    <h3>营养铁律</h3>
+    <p>每天增加 450 千卡 + 250g 奶 + 100g 鱼禽蛋肉；补铁靠红肉/动物血/肝脏，补钙靠奶制品 + 凝固型豆制品；胃口不好少食多餐；孕晚期每周体重增长不超过 1 斤</p>
+    <h3>分娩决策原则</h3>
+    <p>首选顺产 → 有指征听医生剖 → 积极试产、平常心看结果 → 无痛分娩/拉玛泽呼吸减痛 → 自由体位 + 分娩球 → 三个待产包准备好 → 准爸爸熟悉路线</p>
+    <h3>新生儿护理要点</h3>
+    <p>母乳优先（奶瓶备而不用）→ 仰卧独睡小床 → 出院即用安全提篮 → 按时接种疫苗（13 价肺炎/5 价轮状勿超时限）→ 观察大小便判断喂养是否充足</p>
+  </div>
+  <div class="footer">孕期全攻略 · 04 孕晚期与临产 29-40 周 · 共 14 节课 · 生成于 2026-06-23</div>
+</div>
+    </div>
+  </foreignObject>
+</svg>

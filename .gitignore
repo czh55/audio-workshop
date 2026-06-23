@@ -11,6 +11,7 @@
 *.txt
 *.json
 !docs/index.json
+!docs/topics.json
 
 # Node modules
 node_modules/

@@ -1,0 +1,83 @@
+[
+  {
+    "id": "pregnancy-guide",
+    "type": "series",
+    "date": "2026-06-23",
+    "title": "孕期全攻略",
+    "subtitle": "丁香妈妈 × 卓正医疗",
+    "summary": "16位资深医生讲解，覆盖备孕到临产全周期。80节音频课程已转录并浓缩为7张可滚动知识长图。",
+    "tags": ["孕期", "健康", "知识系列"],
+    "stats": {
+      "lessons": 80,
+      "images": 7,
+      "doctors": 16,
+      "duration": "4h+"
+    },
+    "cover": "topics/pregnancy/00-总目录.svg",
+    "items": [
+      {
+        "order": 0,
+        "filename": "topics/pregnancy/00-总目录.svg",
+        "title": "知识总目录",
+        "summary": "80节课程索引与7张知识长图导航，快速定位备孕到临产各阶段要点。",
+        "svg_height": 2319
+      },
+      {
+        "order": 1,
+        "filename": "topics/pregnancy/01-发刊词与备孕.svg",
+        "title": "发刊词与备孕指南",
+        "summary": "从孕前检查到备孕营养，从不孕不育判断到四种排卵监测方法——科学备孕为新生命打造最好起跑线。",
+        "lessons": 5,
+        "svg_height": 4788
+      },
+      {
+        "order": 2,
+        "filename": "topics/pregnancy/02-孕早期0-20周.svg",
+        "title": "孕早期 0-20 周",
+        "summary": "覆盖 hCG、B超、唐筛、NT、大排畸等检查，以及叶酸、碘、铁、钙、DHA 营养与体重运动管理。",
+        "lessons": 22,
+        "svg_height": 16059
+      },
+      {
+        "order": 3,
+        "filename": "topics/pregnancy/03-孕中期21-28周.svg",
+        "title": "孕中期 21-28 周",
+        "summary": "糖耐量测试与妊娠高血压监测窗口期，28周起数胎动，饮食「管住嘴」、运动「迈开腿」。",
+        "lessons": 7,
+        "svg_height": 6936
+      },
+      {
+        "order": 4,
+        "filename": "topics/pregnancy/04-孕晚期与临产29-40周.svg",
+        "title": "孕晚期与临产 29-40 周",
+        "summary": "补钙补铁、B超/胎心监护/GBS、散步运动、拉玛泽呼吸法与待产包——临产前身心准备全指南。",
+        "lessons": 14,
+        "svg_height": 10883
+      },
+      {
+        "order": 5,
+        "filename": "topics/pregnancy/05-用药护肤与破除谣言.svg",
+        "title": "用药护肤与破除谣言",
+        "summary": "孕期用药安全、护肤防晒正确做法，破除饮食/症状/分娩/生活四类谣言，核心原则：利弊权衡。",
+        "lessons": 6,
+        "svg_height": 6050
+      },
+      {
+        "order": 6,
+        "filename": "topics/pregnancy/06-孕期不适与异常情况.svg",
+        "title": "孕期不适与异常情况",
+        "summary": "从急症识别到孕吐、便秘、腰背疼痛、睡眠与情绪调节——18课完整应对体系。",
+        "lessons": 18,
+        "svg_height": 11814
+      },
+      {
+        "order": 7,
+        "filename": "topics/pregnancy/07-孕期疾病治疗与护理.svg",
+        "title": "孕期疾病治疗与护理",
+        "summary": "妊娠糖尿病、高血压、甲状腺、乙肝、羊水与胎盘异常——早发现、科学治、不恐慌。",
+        "lessons": 7,
+        "svg_height": 5798
+      }
+    ]
+  }
+]

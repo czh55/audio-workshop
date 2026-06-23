@@ -1,0 +1,160 @@
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+import { buildSvg } from '/Users/chenzhiheng/Projects/audio-workshop/svg-auto-height.mjs';
+
+const DIR = path.dirname(fileURLToPath(import.meta.url));
+const OUT = path.join(DIR, '..', 'docs', 'topics', 'pregnancy', '00-总目录.svg');
+
+const CSS = `
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:40px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:22px;font-weight:700;color:#1e40af;margin:28px 0 12px;padding-bottom:6px;border-bottom:1px solid #e2e8f0}
+p{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:17px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.index-card{background:#fff;border-radius:14px;padding:24px 28px;margin-bottom:12px;box-shadow:0 2px 10px rgba(0,0,0,0.03);display:flex;align-items:center;justify-content:space-between}
+.index-card:hover{box-shadow:0 4px 16px rgba(0,0,0,0.06)}
+.index-num{font-size:28px;font-weight:900;margin-right:20px;min-width:48px;text-align:center}
+.index-info{flex:1}
+.index-info h3{font-size:17px;font-weight:700;color:#1e293b;margin-bottom:4px}
+.index-info p{font-size:14px;color:#64748b;margin:0}
+.index-meta{text-align:right;min-width:120px}
+.index-meta span{display:block;font-size:13px;color:#94a3b8;margin-bottom:2px}
+.color-dot{display:inline-block;width:12px;height:12px;border-radius:50%;margin-right:6px;vertical-align:middle}
+.dot-blue{background:linear-gradient(135deg,#0369a1,#0284c7)}
+.dot-pink{background:linear-gradient(135deg,#9d174d,#db2777)}
+.dot-cyan{background:linear-gradient(135deg,#155e75,#0891b2)}
+.dot-amber{background:linear-gradient(135deg,#92400e,#d97706)}
+.dot-purple{background:linear-gradient(135deg,#5b21b6,#7c3aed)}
+.dot-red{background:linear-gradient(135deg,#991b1b,#dc2626)}
+.dot-green{background:linear-gradient(135deg,#065f46,#059669)}
+.stats{background:#fff;border-radius:14px;padding:24px 28px;margin:24px 0;box-shadow:0 2px 10px rgba(0,0,0,0.03)}
+.stats-grid{display:flex;justify-content:space-around;text-align:center}
+.stat-item h2{font-size:32px;font-weight:900;margin:0 0 4px;border:none;padding:0}
+.stat-item p{font-size:14px;color:#64748b;margin:0}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:18px;padding:28px;margin-top:24px}
+.conclusion h2{font-size:22px;font-weight:800;margin:0 0 12px;padding:0;border:none;color:#fff}
+.conclusion p{color:rgba(255,255,255,0.9);font-size:14px}
+.footer{text-align:center;color:#94a3b8;font-size:12px;padding:24px 0 8px}
+`;
+
+const body = `
+<div class="container">
+<h1>孕期全攻略 · 知识总目录</h1>
+<div class="meta">
+  <span class="tag tag-blue">孕期知识</span>
+  <span class="tag tag-green">80节课</span>
+  <span class="tag tag-orange">7张知识长图</span>
+</div>
+<div class="summary-line">
+  <strong>丁香妈妈 × 卓正医疗</strong> 联合出品，16位资深医生讲解，覆盖备孕到临产全周期。80节音频课程现已转录为文字，并浓缩为7张可滚动的SVG知识长图。
+</div>
+
+<div class="stats">
+  <div class="stats-grid">
+    <div class="stat-item">
+      <h2 style="color:#1e40af">80</h2>
+      <p>节音频课程</p>
+    </div>
+    <div class="stat-item">
+      <h2 style="color:#db2777">7</h2>
+      <p>张知识长图</p>
+    </div>
+    <div class="stat-item">
+      <h2 style="color:#059669">16</h2>
+      <p>位医生联合</p>
+    </div>
+    <div class="stat-item">
+      <h2 style="color:#7c3aed">4h+</h2>
+      <p>音频总时长</p>
+    </div>
+  </div>
+</div>
+
+<h2>知识长图索引</h2>
+
+<div class="index-card">
+  <div class="index-num" style="color:#0369a1">01</div>
+  <div class="index-info">
+    <h3><span class="color-dot dot-blue"></span>发刊词与备孕指南</h3>
+    <p>课程导览 · 备孕营养 · 不孕不育判断 · 排卵监测方法 · 夫妻共同参与</p>
+  </div>
+  <div class="index-meta"><span>5节课</span><span>15KB</span></div>
+</div>
+
+<div class="index-card">
+  <div class="index-num" style="color:#db2777">02</div>
+  <div class="index-info">
+    <h3><span class="color-dot dot-pink"></span>孕早期 0-20 周</h3>
+    <p>叶酸补充 · hCG与B超 · 建卡建档 · 唐筛无创DNA · 大排畸 · 饮食三原则 · 孕期运动</p>
+  </div>
+  <div class="index-meta"><span>22节课</span><span>35KB</span></div>
+</div>
+
+<div class="index-card">
+  <div class="index-num" style="color:#0891b2">03</div>
+  <div class="index-info">
+    <h3><span class="color-dot dot-cyan"></span>孕中期 21-28 周</h3>
+    <p>糖耐量测试 · 体重与血糖控制 · 妊娠高血压 · 数胎动 · 小排畸检查 · 孕期游泳</p>
+  </div>
+  <div class="index-meta"><span>7节课</span><span>16KB</span></div>
+</div>
+
+<div class="index-card">
+  <div class="index-num" style="color:#d97706">04</div>
+  <div class="index-info">
+    <h3><span class="color-dot dot-amber"></span>孕晚期 29-40 周与临产</h3>
+    <p>胎心监护 · GBS筛查 · 体重控制 · 会阴按摩 · 待产三包 · 拉玛泽呼吸法 · 剖宫产指征</p>
+  </div>
+  <div class="index-meta"><span>14节课</span><span>23KB</span></div>
+</div>
+
+<div class="index-card">
+  <div class="index-num" style="color:#7c3aed">05</div>
+  <div class="index-info">
+    <h3><span class="color-dot dot-purple"></span>孕期用药安全与破除谣言</h3>
+    <p>用药全或无理论 · 孕期安全护肤 · 饮食谣言粉碎 · 胎毒与防辐射真相 · 宠物与孕期生活</p>
+  </div>
+  <div class="index-meta"><span>6节课</span><span>14KB</span></div>
+</div>
+
+<div class="index-card">
+  <div class="index-num" style="color:#dc2626">06</div>
+  <div class="index-info">
+    <h3><span class="color-dot dot-red"></span>孕期不适与异常情况</h3>
+    <p>孕吐 · 腹痛见红 · 异位妊娠 · 腰背酸痛 · 便秘痔疮 · 妊娠纹 · 口腔问题 · 凯格尔运动 · 情绪调节</p>
+  </div>
+  <div class="index-meta"><span>18节课</span><span>29KB</span></div>
+</div>
+
+<div class="index-card">
+  <div class="index-num" style="color:#059669">07</div>
+  <div class="index-info">
+    <h3><span class="color-dot dot-green"></span>孕期疾病治疗与护理</h3>
+    <p>妊娠糖尿病 · 妊娠高血压 · 甲状腺疾病 · 乙肝孕产 · 羊水异常 · 胎儿偏小偏大 · 胎盘问题</p>
+  </div>
+  <div class="index-meta"><span>7节课</span><span>14KB</span></div>
+</div>
+
+<div class="conclusion">
+  <h2>关于这套知识长图</h2>
+  <p>所有SVG长图均使用 foreignObject 技术嵌入 HTML 内容，可在浏览器中直接打开滚动阅读。每张卡片遵循「在讲什么 → 关键理解 → 行动清单 → 避坑提示」的知识组织方式。</p>
+  <p style="margin-top:12px">音频转录脚本位于 <code>pregnancy-knowledge/_transcribe*.sh</code>，各SVG生成脚本为 <code>generate-*.mjs</code>。</p>
+</div>
+
+<div class="footer">孕期全攻略 · 丁香妈妈 × 卓正医疗 · 知识总结 SVG 系列</div>
+</div>
+`;
+
+fs.mkdirSync(path.dirname(OUT), { recursive: true });
+
+const { svg, height } = await buildSvg({ css: CSS, body, width: 1320 });
+fs.writeFileSync(OUT, svg, 'utf8');
+console.log('Generated:', OUT, 'height:', height, 'px');
