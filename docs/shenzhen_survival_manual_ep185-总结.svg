@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="11915" viewBox="0 0 1320 11915">
+  <foreignObject x="0" y="0" width="1320" height="11915">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,0.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:20px 28px;text-align:center;min-width:160px;font-weight:700;font-size:16px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3{color:#92400e;margin-bottom:8px}
+.correction p{color:#92400e;font-size:15px;line-height:1.8}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,0.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.speaker{display:inline-block;font-size:13px;font-weight:600;padding:2px 10px;border-radius:12px;margin-right:8px}
+.speaker-host{background:#dbeafe;color:#1e40af}
+.speaker-guest{background:#ede9fe;color:#6b21a8}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,0.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,0.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,0.9);font-size:15px;line-height:1.8}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}</style>
+      <div class="container">
+
+<h1>Ep185 深圳生存手册：去岭南，去办公大楼约会！</h1>
+<div class="meta">
+  <span class="tag tag-blue">播客</span>
+  <span class="tag tag-purple">基本无害</span>
+  <span class="tag tag-orange">2小时16分</span>
+  <span class="tag tag-green">城市生存手册</span>
+  <span class="tag tag-red">深圳</span>
+</div>
+<div class="summary-line">毛冬、家宇、小块、大熊、风哥在深圳现场录制城市生存手册下篇：蠓虫与非洲大蜗牛、塘朗山猴子、蟑螂全屋生存术、地铁上班怨气与偷拍、大厂办公大楼约会、假离婚买房结三次婚、盐田山顶夜景与文华东方MO Bar，以及「无人在意」式包容与「能看到希望」的移民城市底色。</div>
+
+<div class="timeline">
+  <h3>关键时间轴</h3>
+  <div class="timeline-item"><span class="timeline-time">00:00</span><span class="timeline-text">片头：毛冬新年祝福与不丢东西；深圳生存手册下篇开场</span></div>
+  <div class="timeline-item"><span class="timeline-time">05:00</span><span class="timeline-text">生物冲击：蠓虫咬包一两个月不消、非洲大蜗牛比法国蜗牛大十倍、塘朗山猴子家族</span></div>
+  <div class="timeline-item"><span class="timeline-time">18:00</span><span class="timeline-text">租房蟑螂攻略：蟑螂屋+少油腻垃圾；荔枝季与黄皮果等岭南水果</span></div>
+  <div class="timeline-item"><span class="timeline-time">28:00</span><span class="timeline-text">语言篇：粤语/客家话/潮汕话并存，普通话mix，不必非学粤语</span></div>
+  <div class="timeline-item"><span class="timeline-time">42:00</span><span class="timeline-text">地铁文明与冲突：上班怨气、先下后上争执、目击者制止偷拍</span></div>
+  <div class="timeline-item"><span class="timeline-time">58:00</span><span class="timeline-text">亲密关系：异地链、大疆办公大楼约会、蠓虫毁掉小树林暧昧</span></div>
+  <div class="timeline-item"><span class="timeline-time">78:00</span><span class="timeline-text">观众分享：假离婚买房结三次婚、蓝眼泪浪漫与两周分手</span></div>
+  <div class="timeline-item"><span class="timeline-time">95:00</span><span class="timeline-text">约会指南：盐田盘山公路夜景、Coco Park vs 文华东方79楼MO Bar</span></div>
+  <div class="timeline-item"><span class="timeline-time">110:00</span><span class="timeline-text">夜生活：Livehouse B10、Home Bar；潮汕大排档与早茶文化</span></div>
+  <div class="timeline-item"><span class="timeline-time">125:00</span><span class="timeline-text">城市气质：无老货币、移民包容、「能看到希望」与山海连城</span></div>
+</div>
+
+<div class="map">
+  <h2>核心脉络</h2>
+  <div class="diagram">
+    <div class="node">移民城市<br/><small>无单一「深圳人」</small></div>
+    <span class="arrow">→</span>
+    <div class="node-orange">岭南生态冲击<br/><small>虫·蜗牛·猴·蟑螂</small></div>
+    <span class="arrow">→</span>
+    <div class="node">搞钱文化<br/><small>办公大楼约会</small></div>
+    <span class="arrow">→</span>
+    <div class="node-green">无人在意式包容<br/><small>性少数·各走各路</small></div>
+    <span class="arrow">→</span>
+    <div class="node">能看到希望<br/><small>阶层皆可落脚</small></div>
+  </div>
+</div>
+
+<div class="correction">
+  <h3>⚠ 常见误解 / 认知纠偏</h3>
+  <p><b>误解1：</b>深圳是粤语城市，必须学粤语才能生活。实际上普通话完全够用，各方言（粤语/客家/潮汕）并存但无强制。<br/>
+  <b>误解2：</b>城中村才有蟑螂。嘉宾经验：豪宅与城中村一样有，关键在卫生习惯而非地段。<br/>
+  <b>误解3：</b>深圳夜生活=北京式搭讪文化。Coco Park多为熟人局，天南海北聊不到一块，搭讪远不如北京自然。<br/>
+  <b>误解4：</b>「友好」=热情嘘寒问暖。深圳对性少数的友好是「无人在意」——各做各的事，不追问不评判。</p>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">一、岭南生态：虫子、蜗牛与猴子</h2>
+
+  <div class="card">
+    <h3>蠓虫（蒙虫）</h3>
+    <p><b>核心机制：</b>比蚊子更狠的叮咬昆虫，户外站立一分钟即可中招，包块先肿一大片再中心化脓流水，持续一两个月。</p>
+    <p><b>关键理解：</b>穿短裤在小树林「互咖啡」30分钟，整条腿肿到无法关心暧昧——岭南户外约会的隐形杀手。</p>
+    <p><b>典型场景：</b>公园、校园后山、任何有植被的户外亲密约会。</p>
+    <div class="relation">与蚊子对比：蚊子包几天消，蠓虫包是「光明反应式」长期溃烂。</div>
+    <div class="highlight">原文依据：「整个腿从这儿到这儿全部都肿了……互咖啡的30分钟左右，灵人关心只关心互咖啡。」</div>
+  </div>
+
+  <div class="card card-orange">
+    <h3>⚠ 非洲大蜗牛入侵</h3>
+    <p><b>原因：</b>1840年即已入侵的物种，体型远超北京手指盖大小蜗牛，路边常见，视觉冲击强。</p>
+    <div class="pitfall">嘉宾说法：「这边蜗牛全都那么大……巨吓人，比法国蜗牛大多了。」</div>
+    <p><b>解法：</b>当作城市生态一部分，别光脚走草地；别手摸。</p>
+    <p><b>严重程度：</b>小心（心理冲击大于实际伤害）</p>
+  </div>
+
+  <div class="card card-green">
+    <h3>塘朗山猴子管理</h3>
+    <p><b>核心机制：</b>南山区塘朗山市中心即可见猴群，从几只发展成家族；有固定下山投食时间与罚款机制（扰猴200元/次）。</p>
+    <p><b>关键理解：</b>深圳连猴子管理都「有素质」——定时上下班，比峨眉山等景区更文明，但仍需保持距离。</p>
+    <div class="action">怎么落地：梧桐山/塘朗山遇猴不打招呼、不投喂，打电话给林业员处理异常个体。</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">二、租房与生存：蟑螂、水果与餐厅信号</h2>
+
+  <div class="card">
+    <h3>蟑螂全屋定律</h3>
+    <p><b>核心机制：</b>蟑螂会飞，城中村与高档小区皆有可能；比起食物残渣，油腻垃圾和潮湿更招蟑螂。</p>
+    <p><b>关键理解：</b>有嘉宾入住三年零蟑螂——秘诀是极度洁癖+不堆油腻垃圾，而非地段玄学。</p>
+    <p><b>典型场景：</b>刚来深圳租房，听人说「那边蟑螂多」时的选址焦虑。</p>
+    <div class="action">怎么落地：蟑螂屋（胶诱盒）+ 及时清理油腻厨余 + 封堵缝隙；别指望换区就能根治。</div>
+    <div class="highlight">原文依据：「哪都有……马化腾他们家也有。比起垃圾油腻食物，潮湿是更核心的吸引因素。」</div>
+  </div>
+
+  <div class="card card-purple">
+    <h3>
+      <span class="speaker speaker-guest">嘉宾观点</span>
+      餐厅纸巾=好吃信号
+    </h3>
+    <p>广东饮食文化中，若餐厅桌上放的是Tempo品牌纸巾，几乎可判定不好吃——本地人总结的「避雷指标」。</p>
+    <div class="quote">「如果他用的是Tempo的，他绝对是不好吃的。」</div>
+  </div>
+
+  <div class="card">
+    <h3>岭南水果季</h3>
+    <p><b>在讲什么：</b>7-8月荔枝季满街飘香、路边可摘；过后接黄皮果、龙眼等广东特有水果，构成深圳生活的季节感。</p>
+    <p><b>怎么用：</b>逛菜市场跟季节走，比打卡网红店更能感受岭南日常。</p>
+    <div class="relation">与北方城市对比：深圳没有「老货币」历史感，但有热带/subtropical 物候节奏。</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">三、语言与地铁：混用普通话与上班怨气</h2>
+
+  <div class="card">
+    <h3>深圳方言拼图</h3>
+    <p><b>核心机制：</b>第一方言是粤语与客家话混合体，另有潮汕话片区；但移民城市现实中普通话+各口音混用是主流。</p>
+    <p><b>关键理解：</b>不会粤语完全能生活；会三句粤语（打招呼/谢谢/多少钱）是加分项而非刚需。</p>
+    <p><b>适用边界：</b>深入本地老社区、潮汕大排档点菜时可学当地方言；职场与年轻人社交普通话足够。</p>
+    <div class="highlight">原文依据：「深圳长大的小孩……你不会粤语没问题，但你只会粤语可能反而吃力。」</div>
+  </div>
+
+  <div class="card card-orange">
+    <h3>⚠ 地铁上班冲突</h3>
+    <p><b>原因：</b>深圳整体文明，但早高峰「先下后上」常被打破——起晚+赶车=怨气爆发，偶发肢体冲突与脏话互喷。</p>
+    <div class="pitfall">目击者描述：车公庙站男生持铁马栏杆冲击女士，双方互喷极难听脏话——「整体和平，局部冲突」。</div>
+    <p><b>解法：</b>错峰出行；被挤时先退让；目击偷拍大声提醒+要求查回收相册。</p>
+    <p><b>严重程度：</b>小心（高峰期情绪管理）</p>
+  </div>
+
+  <div class="card card-purple">
+    <h3>
+      <span class="speaker speaker-host">主持人提问</span>
+      地铁偷拍如何制止
+    </h3>
+    <p>嘉宾目击中年男子偷拍女乘客，大声提醒后要求查看回收相册，全车注视下男子删图溜走；深圳地铁有列车巡逻员但响应偏慢。</p>
+    <div class="quote">「他好像在偷拍你……你打开你的回收相册。」</div>
+    <div class="action">落地建议：通勤时勿只低头刷手机；注意周围男性异常举机角度，必要时大声求助。</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">四、亲密关系：办公大楼约会与深圳式现实</h2>
+
+  <div class="card card-purple">
+    <h3>
+      <span class="speaker speaker-guest">观众分享</span>
+      大疆办公大楼约会
+    </h3>
+    <p>大厂打工人觉得公司楼好看（空中花园等），周末约会直接带去办公大楼参观——工作与浪漫深度绑定，忙到一两周见不到面最终分手。</p>
+    <div class="quote">「我们俩约会都是去他的公司里约会……深圳北火车站那边，大疆。」</div>
+    <div class="relation">与北京对比：北京约会去酒吧/公园；深圳约会去公司大楼看夜景——搞钱城市的时间结构侵入亲密关系。</div>
+  </div>
+
+  <div class="card">
+    <h3>异地链</h3>
+    <p><b>核心机制：</b>深圳城市尺度大，住宝安 vs 住罗湖就算「异地链」，跨两个区通勤成本高，恋情易被距离消磨。</p>
+    <p><b>关键理解：</b>「首先不要找太远的」是本地 dating 第一法则，比性格匹配更先被提及。</p>
+    <p><b>适用边界：</b>双方都有车/同线地铁尚可；否则优先考虑同区或同线居住。</p>
+  </div>
+
+  <div class="card card-orange">
+    <h3>⚠ 假离婚买房（结三次婚）</h3>
+    <p><b>原因：</b>深圳房热时期，为攒首付资格假离婚成「常规操作」，民政局见怪不怪；女方提离婚时紧张到哭，二离则淡定「一回生二回熟」。</p>
+    <div class="pitfall">观众分享：真感情未破裂，完全为买房功利离婚；女生注意离婚后所购房产为婚前财产，家庭破裂时权益复杂。</div>
+    <p><b>解法：</b>若仅为政策套利，提前律师咨询财产协议；认清政策变化后此路已大幅收窄。</p>
+    <p><b>严重程度：</b>致命（法律与情感双重风险）</p>
+  </div>
+
+  <div class="card">
+    <h3>观点对比：深圳恋爱 vs 其他城市</h3>
+    <table>
+      <tr><th>维度</th><th>深圳</th><th>北京/成都等</th><th>一句话结论</th></tr>
+      <tr><td>约会场景</td><td>公司大楼、山顶夜景</td><td>酒吧搭讪、文艺街区</td><td>深圳浪漫绑定「搞钱」空间</td></tr>
+      <tr><td>搭讪文化</td><td>弱，熟人局为主</td><td>强，五道口/三里屯自然</td><td>别指望陌生人社交脱单</td></tr>
+      <tr><td>分手催化</td><td>忙、异地、买房现实</td><td>相对多元</td><td>「深圳现实是催化剂」</td></tr>
+      <tr><td>性少数友好</td><td>无人在意</td><td>视圈子而定</td><td>最大友好=不追问</td></tr>
+    </table>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">五、约会与夜生活实用指南</h2>
+
+  <div class="card card-green">
+    <h3>盐田高级中学盘山公路</h3>
+    <p><b>核心机制：</b>环山公路可开车至山顶，看盐田港夜景+一点海景；凌晨三四点仍有柠檬茶、烧烤摊，人多热闹。</p>
+    <p><b>关键理解：</b>风哥直言「深圳没什么浪漫地方」，但此处是嘉宾认可的少数免费浪漫点位。</p>
+    <div class="action">怎么落地：夜间驱车至盐田高级中学上方，带外套；适合自驾约会。</div>
+  </div>
+
+  <div class="card">
+    <h3>深业上城文华东方 MO Bar（79楼）</h3>
+    <p><b>在讲什么：</b>透明玻璃墙俯瞰深圳中心全景，无雾霾夜晚视野极佳；位置少需预约，人均约120-180元/杯。</p>
+    <p><b>与 Coco Park 对比：</b>福田Coco Park酒吧街偏吵、偏low、三三两两熟人局；MO Bar 适合「偶尔见市面」的仪式感约会。</p>
+    <div class="highlight">原文依据：「比起上海北京成都，深圳夜场文化确实比较落后……但79楼看夜景非常好。」</div>
+  </div>
+
+  <div class="card card-purple">
+    <h3>
+      <span class="speaker speaker-guest">嘉宾推荐</span>
+      Livehouse 与 Home Bar
+    </h3>
+    <p>华侨城B10常年办爵士音乐节（五条人等）；另有Home Bar等小型家庭酒吧兴起，适合不喜欢clubbing的文艺约会。</p>
+    <div class="quote">「你都没有想到深圳可以有这种国际级别的爵士音乐节，已经连续做了好多年了。」</div>
+  </div>
+
+  <div class="card">
+    <h3>看日落清单</h3>
+    <p><b>推荐点位：</b>深圳湾公园、深圳人才公园（普通人可进，风哥曾「盖楼」调侃）、前海、红树林；远期可租车去福建平潭追蓝眼泪。</p>
+    <p><b>避坑：</b>蓝眼泪虽浪漫但是污染物；浪漫追光后仍可能两周被相亲对象取代——深圳爱情常输给现实。</p>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">六、城市气质：包容、希望与无规则</h2>
+
+  <div class="card card-purple">
+    <h3>
+      <span class="speaker speaker-guest">风哥观点</span>
+      能看到希望
+    </h3>
+    <p>无论上市公司高管、大厂白领还是外卖快递，深圳都能容纳；半夜推车出街少遇城管，各阶层都觉得「有机会」——这是风哥跑遍全国后最偏爱深圳之处。</p>
+    <div class="quote">「生活在这儿，最重要的是能看到希望。」</div>
+  </div>
+
+  <div class="card">
+    <h3>无深圳人标签</h3>
+    <p><b>核心机制：</b>没有「老深圳人」文化认同，东北人/贵州人/任何人来一年都可自称深圳人；包容=不因籍贯排斥。</p>
+    <p><b>关键理解：</b>山东人若习惯酒桌排位可能不适——「没人把你当老大」；不上进也不会被鄙视，因为「没有人在意」。</p>
+    <div class="relation">与北方「套路」城市对比：深圳「什么规则都可以说」，各走各路，无单一成功模板。</div>
+  </div>
+
+  <div class="card card-purple">
+    <h3>💡 心法：无人在意=最大友好</h3>
+    <p><b>为什么重要：</b>性少数友好不是旗帜鲜明表态，而是同事不关心你的性向——各做各的事。</p>
+    <div class="quote">「非常友好体现在哪儿？就是无人在意吧……我要做我的事情，这就是最大的友好。」</div>
+    <div class="action">怎么落地：初来深圳别期待热情老乡文化；适应「不被关注」的自由感。</div>
+    <p><b>适用边界：</b>需要强社区归属感者可能孤独；追求隐私与多元者则舒适。</p>
+  </div>
+</div>
+
+<div class="conclusion">
+  <h2>总结与行动</h2>
+  <h3>核心要点</h3>
+  <ul>
+    <li>深圳生存第一课是岭南生态：蠓虫、大蜗牛、蟑螂、猴子——户外穿长裤，租房重卫生。</li>
+    <li>普通话足够生活，方言是加分非必须；地铁早高峰谨防怨气冲突与偷拍。</li>
+    <li>约会避异地链，大厂文化可能把约会地点变成办公大楼；夜生活重熟人局而非搭讪。</li>
+    <li>盐田盘山公路+文华东方79楼+深圳湾日落是少数浪漫点位；潮汕大排档比Tempo纸巾餐厅靠谱。</li>
+    <li>城市底色是移民包容与「能看到希望」——无单一深圳人形象，无人在意即自由。</li>
+  </ul>
+  <h3>行动清单</h3>
+  <ol>
+    <li>户外约会穿长裤防蠓虫，备蟑螂屋+严格厨余管理应对租房。</li>
+    <li>择偶优先同区/同地铁线；接受对方工作忙或接受办公大楼式约会。</li>
+    <li>周末约会试盐田山顶夜景或B10爵士演出；酒吧首选79楼MO Bar需预约。</li>
+    <li>早高峰地铁先下后上，目击偷拍大声制止并查回收相册。</li>
+    <li>用季节水果与潮汕大排档感受岭南，别被「必须学粤语」焦虑绑架。</li>
+  </ol>
+  <h3>关键认知转变</h3>
+  <p>以前以为深圳浪漫=北上广酒吧文化，现在理解了它是搞钱城市的生存手册：浪漫发生在公司楼顶、盘山公路和蓝眼泪公路之旅里，而包容的表现不是热情，而是「无人在意」——你可以成为任何样子，因为没人替你定义什么是深圳人。</p>
+</div>
+
+<div class="footer">来源：基本无害 Mostly Harmless · Ep185 · 小宇宙</div>
+</div>
+    </div>
+  </foreignObject>
+</svg>
