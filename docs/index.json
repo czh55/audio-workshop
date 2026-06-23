@@ -1,7 +1,14 @@
 [
   {
     "date": "2026-06-23",
-    "filename": "smart_perception_sensors-总结.svg",
+    "filename": "yaoshunyu_ai_interview-总结.svg",
+    "title": "140. 对姚顺宇的4小时访谈：请允许我小疯一下！",
+    "summary": "物理博士半道出家、参与Claude与Gemini训练的姚顺宇直言：AI英雄主义时代已过去，模型拉平后赌的是定义问题，靠谱比天才重要，Pre-train远未到头",
+    "tags": ["AI", "大模型", "科技"],
+    "url": "https://www.xiaoyuzhoufm.com/episode/6a00aa051b7bd50295dfe41d",
+    "duration": "3小时51分",
+    "svg_height": 11192
+  },
     "title": "摄像头、紫光波、激光雷达，UWB，谁才是智能感知的关键？",
     "summary": "三刀大白话拆解超声波雷达、UWB、摄像头、毫米波雷达、激光雷达五大传感器，从理想L9取消超声波改用UWB切入，讲清原理优缺点与融合感知策略",
     "tags": ["科技", "汽车", "智能驾驶"],

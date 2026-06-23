@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="11192" viewBox="0 0 1320 11192">
+  <foreignObject x="0" y="0" width="1320" height="11192">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,0.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:20px 28px;text-align:center;min-width:160px;font-weight:700;font-size:16px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3{color:#92400e;margin-bottom:8px}
+.correction p{color:#92400e;font-size:15px}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,0.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.speaker{display:inline-block;font-size:13px;font-weight:600;padding:2px 10px;border-radius:12px;margin-right:8px}
+.speaker-host{background:#dbeafe;color:#1e40af}
+.speaker-guest{background:#ede9fe;color:#6b21a8}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,0.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,0.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,0.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}</style>
+      <div class="container">
+
+<h1>140. 对姚顺宇的4小时访谈：请允许我小疯一下！</h1>
+<div class="meta">
+  <span class="tag tag-blue">播客</span>
+  <span class="tag tag-purple">AI / 大模型</span>
+  <span class="tag tag-orange">3小时51分</span>
+  <span class="tag tag-green">Anthropic</span>
+  <span class="tag tag-red">Gemini</span>
+</div>
+<div class="summary-line">
+一句话概括：物理博士半道出家、先后参与 Claude 3.7/4.5 与 Gemini 3 训练的姚顺宇，用近四小时直言行业已进入「集体主义时代」：模型能力拉平后赌的是定义问题，靠谱比天才重要，壳难逃脱模型引力，Pre-train 远未到头。
+</div>
+
+<div class="timeline">
+  <h3>关键时间轴</h3>
+  <div class="timeline-item">
+    <span class="timeline-time">02:41</span>
+    <span class="timeline-text">两个 Shunyu Yao：物理出身 vs CS 科班，清华同级、路径迥异</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">06:50</span>
+    <span class="timeline-text">竞争与逃逸：壳公司两种活法、Cursor 与模型公司的微妙关系</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">26:37</span>
+    <span class="timeline-text">「Pre-train 没有到头」：Scaling 仍有效，瓶颈在定义与数据</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">36:23</span>
+    <span class="timeline-text">Coding 爆发：GitHub 高质量数据 + 可验证反馈 + Agent 闭环</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">51:25</span>
+    <span class="timeline-text">字节与豆包：语音产品极强，硬蒸 vs 聪明蒸馏的灰色地带</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">01:05</span>
+    <span class="timeline-text">机器人：硬件先行、模型滞后，中国场景丰富但通用难</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">01:21</span>
+    <span class="timeline-text">物理底色：非厄米系统、量子纠缠与重整化群思维迁移到 AI</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">01:54</span>
+    <span class="timeline-text">Anthropic 岁月：Claude 3.7/4.5、Top-down 文化与创始团队互信</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">02:36</span>
+    <span class="timeline-text">「AI 本质是简单的」：靠谱、细致、负责任比智商更重要</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">02:42</span>
+    <span class="timeline-text">Gemini 3：Google bottom-up 组织 vs Anthropic 的 make-a-bet</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">03:02</span>
+    <span class="timeline-text">「Pre-train 也是一种 RL」：有限上下文训练、无限上下文使用</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">03:08</span>
+    <span class="timeline-text">技术预测：6-12 个月内 AI 将能端到端跑完研究实验闭环</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">03:24</span>
+    <span class="timeline-text">集体主义胜利：警惕神话个体，个人英雄主义时代已过去</span>
+  </div>
+</div>
+
+<div class="map">
+  <h2>核心脉络</h2>
+  <div class="diagram">
+    <div class="node">物理博士<br/>半道出家</div>
+    <span class="arrow">→</span>
+    <div class="node node-green">Anthropic<br/>Claude 3.7/4.5</div>
+    <span class="arrow">→</span>
+    <div class="node node-orange">Google DeepMind<br/>Gemini 3</div>
+    <span class="arrow">→</span>
+    <div class="node">集体主义 AI 时代<br/>定义问题 &gt; 追能力</div>
+  </div>
+</div>
+
+<div class="correction">
+  <h3>⚠ 常见误解 / 认知纠偏</h3>
+  <p><b>「老登」≠ 年龄。</b>姚顺宇反复强调：老登是一种人格——德不配位、仗着话语权否定年轻人、无法被实践检验却自封权威。靠谱的特质不会随年龄消失；好特质与生俱来，专业技能可以学，人格不能。<b>「英雄主义已死」≠ 没有杰出个人</b>，而是警惕把复杂集体成果简化为单一神话叙事。</p>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">一、行业格局：从追能力到赌定义</h2>
+
+  <div class="card">
+    <h3>AI 下半场：担心的事变了</h3>
+    <p><b>核心机制：</b>一年前大家还担心「能不能追上 OpenAI」；现在 OpenAI、Anthropic、Google 三家都不担心追不上，更难的是<b>想明白要做什么</b>——这是一个 bet，需要人的 insight。</p>
+    <p><b>关键理解：</b>模型在纸面上已高度同质化（SWE-bench 等差距多在 1-2 个百分点的噪声），但<b>实际使用体验仍有分化</b>：Claude 擅长 Agent/工具调用，Codex 在纯 coding 追赶，Gemini 在 reasoning 和日常场景表现好。</p>
+    <p><b>典型场景：</b>选模型时不只看榜单，要按场景实测——写代码、做 Agent、日常对话的需求不同。</p>
+    <div class="relation">相关概念：上半场 = 能力竞赛；下半场 = 问题定义 + 数据 + 工程细节的意愿博弈</div>
+    <div class="highlight">原文依据：「现在就是在任何至少在这三家当中，没有哪一家会真的担心自己追不上……更难的事情是想明白要去做什么。」</div>
+  </div>
+
+  <div class="card card-purple">
+    <h3><span class="speaker speaker-guest">嘉宾观点</span>每个人都是冲浪者，浪比人重要</h3>
+    <p>AI 行业最重要的特质不是脑子，而是<b>靠谱（couple）</b>——做事细致、对自己做的事负责任。个人英雄主义时代已经过去，现在大家都是冲浪的人，本质上是那个浪，而不是冲浪的人。</p>
+    <div class="quote">「AI 这个事本来也不太需要脑子……真的不太需要脑子。这个行业最重要的特质就是靠谱，就是做事细致，然后对自己做的事情负责任。」</div>
+  </div>
+
+  <div class="card">
+    <h3>壳（Wrapper）的两条逃生路</h3>
+    <p><b>核心机制：</b>Manus、OpenClaw 等「壳」最终卖给模型公司，说明壳难以长期逃脱模型引力。两条可能路径：① 长得够快（Cursor 路线），在模型公司反应过来前占领用户心智并自研模型；② 市场够小，模型公司懒得管（Midjourney 路线）。</p>
+    <p><b>关键理解：</b>Coding 是效率工具，容易出现赢家通吃；通用场景壳的生存率极低。</p>
+    <div class="relation">相关概念：ChatGPT 本质是搜索的延伸（交互性增强），不是完全独立的新需求</div>
+    <div class="highlight">原文依据：「壳在目前情况下活下来有两种我大概能想象的方式……Cursor 几乎是我能想到的 AI 原生创业公司增长得最快的。」</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">二、技术纵深：Pre-train、Coding 与蒸馏</h2>
+
+  <div class="card card-green">
+    <h3>Pre-train 没有到头</h3>
+    <p><b>核心机制：</b>Scaling law 仍有效，预训练远未饱和。瓶颈从「算力不够」转向「数据质量、问题定义、训练细节」——很多模型差异来自想象不到的工程细节（如 GitHub 数据天然质量更高）。</p>
+    <p><b>关键理解：</b>「Pre-train 也是一种 RL」——用有限上下文训练，使用时接近无限上下文（train-with-finite-context, use-as-infinite-context）。</p>
+    <p><b>适用边界：</b>不适用于已放弃继续 scale 的小团队；对头部实验室仍是主战场。</p>
+    <div class="highlight">原文依据：「我觉得 Pre-train 没有到头……模型做到 train-with-finite-context, use-as-infinite-context。」</div>
+  </div>
+
+  <div class="card">
+    <h3>为什么 Coding 爆发最快</h3>
+    <p><b>核心机制：</b>① GitHub 提供天然高质量、可验证的数据；② 代码对错可自动检验（编译、测试），形成 RL 闭环；③ Agent 写代码让产品形态变简单——Google 内部约 90% 代码由模型产生。</p>
+    <p><b>典型场景：</b>下一个爆发点可能是机器人（数据难、验证难）或更长 horizon 的 Agent 任务。</p>
+    <div class="relation">相关概念：除 coding 外，尚无真正 AI 原生的超级应用场景（ChatGPT 仍偏搜索延伸）</div>
+    <div class="highlight">原文依据：「Coding 的数据有一个非常天然的基础……可能 90% 的 coding 是模型产生的。」</div>
+  </div>
+
+  <div class="card card-orange">
+    <h3>⚠ 硬蒸馏 vs 聪明蒸馏</h3>
+    <p><b>原因：</b>「硬蒸」——直接拿别人模型输出当训练数据——商业上不道德、智力上愚蠢，说明不知道自己要干嘛，只会抄。</p>
+    <div class="pitfall">嘉宾说法：「干这样的事的公司……体现出来就是他其实都不知道自己想干嘛，他能干的唯一件事就是抄别人。」</div>
+    <p><b>解法：</b>「聪明蒸馏」——用自己模型生成数据、用其他模型做评价者的 Multi-Agent 训练链，技术上有趣但商业灰色。中国实验室可能成为真正的 Multi-Agent 训练先驱。</p>
+    <p><b>严重程度：</b>硬蒸 = 致命（暴露战略空洞）；聪明蒸馏 = 小心（法律与伦理未定）</p>
+  </div>
+
+  <div class="card">
+    <h3>观点对比：中美模型差异化路径</h3>
+    <table>
+      <tr><th>维度</th><th>美国头部（OpenAI/Anthropic/Google）</th><th>中国实验室（如字节豆包）</th><th>一句话结论</th></tr>
+      <tr><td>核心聚焦</td><td>工作效率、coding、reasoning、Agent</td><td>语音交互、生活场景、产品体验</td><td>豆包语音极强但 reasoning 弱于 Claude/GPT</td></tr>
+      <tr><td>数据策略</td><td>自研数据管线 + 高质量筛选</td><td>部分硬蒸转向软蒸馏</td><td>聪明蒸馏是技术前沿，硬蒸是战略懒惰</td></tr>
+      <tr><td>人才观</td><td>顶尖研究员驱动</td><td>产品+工程人才丰富</td><td>中国人才储备好，纯技术尚未全面追上</td></tr>
+      <tr><td>组织风格</td><td>Anthropic top-down / Google bottom-up</td><td>快速迭代、产品导向</td><td>组织文化决定能否 make-a-bet</td></tr>
+    </table>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">三、组织与文化：Anthropic vs Google</h2>
+
+  <div class="card card-purple">
+    <h3><span class="speaker speaker-guest">嘉宾观点</span>Anthropic 的 Top-down 为何罕见</h3>
+    <p>实行 top-down 需要技术一号位同时是公司决策人且有公信力——Dario/Jared/Sam 自己拍板。OpenAI 在 Ilya 离开后难做到；Google 是传统 bottom-up，研究员自己决定方向。</p>
+    <p>Startup 的优势是 make-a-bet：快速决策、强力推进。大公司优势是两面下注、任何方向成了都能跟上。</p>
+    <div class="quote">「闪超被（Anthropic）能够实行比较 top-down 的机制是一个很独特的事……技术的 leader 有公信力很重要，与此同时 CEO 没有成为一个阻力。」</div>
+  </div>
+
+  <div class="card">
+    <h3>离开 Anthropic 的动机与反思</h3>
+    <p><b>核心机制：</b>2025 年 9 月离开是为「学不一样的东西」，而非领导项目。当时对 Anthropic 偏悲观（API 卖 token 是差生意，只有 Google 能扛价格战），但后来 Claude Code 等产品巧思证明过度悲观。</p>
+    <p><b>关键理解：</b>不后悔——个人动机是自我提升，选择没有错。OpenAI 被 Google 揍了一拳，Anthropic 自己上道了。</p>
+    <div class="relation">相关概念：API 生意 vs 产品生意；差生意只有有完整产业链的公司能扛</div>
+    <div class="highlight">原文依据：「我离开的时候对这公司其实挺悲观的，但后来显然是我过度悲观了。」</div>
+  </div>
+
+  <div class="card">
+    <h3>大公司做不出 OpenClaw 的原因</h3>
+    <p><b>核心机制：</b>Google 等大厂无法上线需要用户让渡全部电脑权限的产品——法律风险、品牌风险、资源分配流程长。个人开源项目无此负担。</p>
+    <p><b>典型场景：</b>2026 趋势可能是个人/小团队先展示可能性，大厂随后打磨跟进。</p>
+    <div class="highlight">原文依据：「你 Google 是不可能提供这样的产品出去的……但是对于个人来说无所谓，我反正是一个开源的项目。」</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">四、物理底色与思维迁移</h2>
+
+  <div class="card card-green">
+    <h3>从理论物理到 AI 的跨界逻辑</h3>
+    <p><b>核心机制：</b>清华本科做凝聚态/非厄米系统，斯坦福博士做高能物理与量子信息。博士毕业后两周博后即离职转 AI——「总想挑战一些自己不太会的事」。</p>
+    <p><b>关键理解：</b>物理训练的是在不同能量尺度下找有效理论（重整化群）——经典物理是量子物理在大尺度下的退化。这种「多尺度抽象」思维有助于理解 AI 系统的层次结构。</p>
+    <p><b>典型场景：</b>跨学科不是劣势，深水区可能需要物理/数学高阶知识。</p>
+    <div class="relation">相关概念：姚期智也是物理转计算机——「从物理转到计算机后发现世界上没有什么难题了」</div>
+    <div class="highlight">原文依据：「读物理最大的帮助就是……学会怎么在一个很复杂系统里找到正确的抽象层次。」</div>
+  </div>
+
+  <div class="card card-purple">
+    <h3><span class="speaker speaker-guest">嘉宾观点</span>实践是检验真理的唯一标准</h3>
+    <p>无法被实验检验的理论（哲学、部分经济/政治）正确性靠信仰和权力决定。姚顺宇对「业内老登」的批评核心在此：无法检验却自封权威。</p>
+    <div class="quote">「你不用太担心因为自己的观点而惹到什么人。只要你的观点是自洽的……最终你在这个领域做得怎样，是有客观评价标准的。」</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">五、技术预测与前沿方向</h2>
+
+  <div class="card">
+    <h3>6-12 个月：AI 端到端做研究</h3>
+    <p><b>核心机制：</b>当前 AI 已能加速实验（写代码、跑实验），但完整链条——写 code → 跑实验 → 看结果 → 分析 → 提出新假设 → 设计新实验——尚未打通。未来半年到一年这条链将逐步完整。</p>
+    <p><b>适用边界：</b>「AI 自己做实验」定义仍模糊；目前是对人类研究者的加速，非完全自主。</p>
+    <div class="highlight">原文依据：「未来六到十二个月 AI 就会自己做实验……这条链条目前还没有完整，但我觉得这条链条可能是下一步会慢慢变得完整的事。」</div>
+  </div>
+
+  <div class="card">
+    <h3>世界模型：一万个人有一万个定义</h3>
+    <p><b>核心机制：</b>Google 的「世界模型」偏 end-to-end 视频/场景生成（给定状态+动作预测下一状态）；李飞飞等 lab 的定义可能完全不同。Continuous learning 与 long-context 管理无本质区别——KV cache 也是一种权重。</p>
+    <div class="relation">相关概念：范氏级变革 vs 有价值但非范式的进展（long horizon、硬件-模型协同）</div>
+    <div class="highlight">原文依据：「世界模型一万个人又一万个世界模型……每个人说的世界模型可能也在说不一样的事。」</div>
+  </div>
+
+  <div class="card card-orange">
+    <h3>⚠ 不要盲信技术预测</h3>
+    <p><b>原因：</b>录制于 2026 年 3 月，发布时 Meta-Manus 收购撤销、Cursor 可能被 SpaceX 收购等已发生，内容有滞后性。</p>
+    <div class="pitfall">嘉宾提醒：「AI 的世界实在变化太快、太出乎意料……技术细节涉及企业机密，有些不方便分享。」</div>
+    <p><b>解法：</b>把预测当思维框架而非时间表；关注方法论（如何定义问题、如何组织团队）而非具体产品走向。</p>
+    <p><b>严重程度：</b>可忽略（时效性），但方法论部分长期有效</p>
+  </div>
+
+  <div class="card card-purple">
+    <h3>💡 心法：AI 本质是简单的</h3>
+    <p><b>为什么重要：</b>行业被过度神秘化，让人觉得需要天才。反面案例：追逐风口而不建立自洽理解的人，最终会被客观标准检验。</p>
+    <div class="quote">「AI 这个事，本来也不太需要脑子……最重要的特质就是靠谱。」</div>
+    <div class="action">怎么落地：把精力放在问题定义、数据质量、实验细节和负责任交付上，而非追逐英雄叙事或八卦站队。</div>
+    <p><b>适用边界：</b>简单 ≠ 容易；「靠谱」在高压迭代环境中同样稀缺。</p>
+  </div>
+</div>
+
+<div class="conclusion">
+  <h2>总结与行动</h2>
+  <h3>核心要点</h3>
+  <ul>
+    <li>AI 下半场核心从「能不能做到」变为「做什么、怎么定义」——模型能力已拉平，赌的是 insight 与工程细节</li>
+    <li>个人英雄主义时代结束：靠谱、细致、负责任比智商更重要；警惕神话个体的叙事</li>
+    <li>壳公司难逃脱模型引力：要么极速增长+自研模型，要么切入模型看不上的小市场</li>
+    <li>Pre-train 远未到头，Coding 因数据可验证而率先爆发；硬蒸馏是战略懒惰，聪明蒸馏是技术前沿</li>
+    <li>组织文化决定竞争力：Anthropic 的 top-down 需要技术一号位有公信力，Google 的 bottom-up 适合两面下注</li>
+  </ul>
+  <h3>行动清单</h3>
+  <ol>
+    <li>选 AI 工具时按场景实测（coding / Agent / 日常），不只看公开 benchmark 排名</li>
+    <li>建立自洽的技术理解框架，用客观结果检验观点，而非迎合「老登」权威</li>
+    <li>若做 AI 产品，先想清楚：能否在模型公司反应前长大，或切入足够小的垂直场景</li>
+    <li>关注 long-context 与 Agent 端到端研究闭环的进展，这是未来 6-12 个月的关键变量</li>
+    <li>培养「靠谱」特质：做事细致、对交付负责，比追逐风口更重要</li>
+  </ol>
+  <h3>关键认知转变</h3>
+  <p>以前认为 AI 行业靠天才英雄和个人突破驱动；现在理解了这是一个集体主义、工程细节和问题定义的时代——每个人都是冲浪者，重要的是读懂浪的方向，用靠谱和自洽的观点在客观标准下赢得尊重，而非在社交媒体站队或神话个体。</p>
+</div>
+
+<p class="footer">来源：张小珺Jùn｜商业访谈录 · 姚顺宇访谈 · 录制于 2026年3月</p>
+
+</div>
+    </div>
+  </foreignObject>
+</svg>
