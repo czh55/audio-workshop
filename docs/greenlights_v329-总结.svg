@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="10811" viewBox="0 0 1320 10811">
+  <foreignObject x="0" y="0" width="1320" height="10811">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,0.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:20px 28px;text-align:center;min-width:160px;font-weight:700;font-size:16px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.node-red{background:linear-gradient(135deg,#fef2f2,#fee2e2);border-color:#fca5a5;color:#991b1b}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3{color:#92400e;margin-bottom:8px}
+.correction p{color:#92400e;font-size:15px}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,0.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.speaker{display:inline-block;font-size:13px;font-weight:600;padding:2px 10px;border-radius:12px;margin-right:8px}
+.speaker-host{background:#dbeafe;color:#1e40af}
+.speaker-guest{background:#ede9fe;color:#6b21a8}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,0.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,0.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,0.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}</style>
+      <div class="container">
+
+<h1>Vol.329 绿灯：朝气蓬勃的生活，比蒸蒸日上的事业更重要</h1>
+<div class="meta">
+  <span class="tag tag-blue">播客</span>
+  <span class="tag tag-purple">文化有限</span>
+  <span class="tag tag-green">文学·自传</span>
+  <span class="tag tag-orange">1小时22分</span>
+</div>
+<div class="summary-line">
+《文化有限》三位主播共读马修·麦康纳自传《绿灯》：这不是成功学回忆录，而是战术手册。核心洞见是拒绝错误路口才能一路绿灯，生机勃勃的生活比蒸蒸日上的事业更重要； fame 之后房车三年、拒绝1450万美元浪漫喜剧邀约，展现的是认真生活而非表演表达。
+</div>
+
+<div class="timeline">
+  <h3>关键时间轴</h3>
+  <div class="timeline-item">
+    <span class="timeline-time">00:00</span>
+    <span class="timeline-text">开场：文化有限首次聊名人自传，超哥提名《绿灯》及豆瓣差评劝退经历</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">04:00</span>
+    <span class="timeline-text">选书动机：朋友圈三人跨国家跨职业同时推荐，高中生读后感悟「没有红灯黄灯，绿灯无法带来喜悦」</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">12:00</span>
+    <span class="timeline-text">传记期待讨论：大壹警惕成功学指向，星光质疑自传真实性，对照《成长心理学》看人格成长</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">22:00</span>
+    <span class="timeline-text">创作姿态：面向自我写作 vs 互联网「勾引受众」的表演式表达</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">35:00</span>
+    <span class="timeline-text">核心金句：「生机勃勃的生活，比蒸蒸日上的事业更加重要」</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">45:00</span>
+    <span class="timeline-text">德州家庭教育：偷披萨要承认、成人礼真打架、亚军奖杯被妈改称冠军</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">55:00</span>
+    <span class="timeline-text">转型抉择：拒绝浪漫喜剧邀约从500万到1450万美元，剧本「越读越好」实则未变</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">68:00</span>
+    <span class="timeline-text">成名惶恐：400人仅4人没盯着你，房车三年激流勇退，修士四小时沉默后只说「我也一样」</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">78:00</span>
+    <span class="timeline-text">绿灯隐喻：不是开挂人生，而是拒绝许多路口转向；少评判他人，多关照自己</span>
+  </div>
+</div>
+
+<div class="map">
+  <h2>核心脉络</h2>
+  <div class="diagram">
+    <div class="node node-red">红灯/黄灯<br/>犹豫·惶恐·诱惑</div>
+    <span class="arrow">→</span>
+    <div class="node">拒绝错误转向<br/>认清想做什么</div>
+    <span class="arrow">→</span>
+    <div class="node-green">绿灯<br/>认真生活</div>
+    <span class="arrow">→</span>
+    <div class="node-orange">生机勃勃<br/>胜过事业巅峰</div>
+  </div>
+</div>
+
+<div class="correction">
+  <h3>⚠ 常见误解 / 认知纠偏</h3>
+  <p><b>误解1：</b>「绿灯」= 一路开挂、一切发生皆有利于我。<b>正解：</b>绿灯来自主动拒绝许多路口的转向；若一直开在要左转的车道上，遇红灯概率更高。</p>
+  <p><b>误解2：</b>奥斯卡影帝自传 = 表演秘籍 + 幕后八卦。<b>正解：</b>诺兰合作只写半句，奥斯卡篇仅五行；这是方法之书，不是电影课。</p>
+  <p><b>误解3：</b>麦康纳是坚定到1450万都不动摇的理想主义者。<b>正解：</b>选择都有价格，剧本随出价「变深刻」极真实；给2000万也许就拍了。</p>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">一、这本书到底是什么</h2>
+
+  <div class="card">
+    <h3>方法之书，不是成功学回忆录</h3>
+    <p><b>核心机制：</b>麦康纳自称写「战术手册」而非怀旧伤感回忆录，聚焦人生十字路口如何做决定、为何犹豫、如何穿越。</p>
+    <p><b>关键理解：</b>介于学术论文式大部头传记与空洞成功叙事之间，给的是心理暗示而非操作指向。</p>
+    <p><b>典型场景：</b>人生转折路口、对下一步决定极度犹豫时阅读，可能让内心选择略加坚定。</p>
+    <div class="relation">相关概念：与里克·鲁宾《创意行为》类似，抽象心法而非工具手册</div>
+    <div class="highlight">原文依据：「这是一本方法之书……基于我人生中的冒险，希望在必要的时候提供价值和宽慰和指导」</div>
+  </div>
+
+  <div class="card card-purple">
+    <h3>
+      <span class="speaker speaker-host">主持人·大壹</span>
+      警惕名人传记的「成功学陷阱」
+    </h3>
+    <p>读冯小刚《我把青春献给你》是为幕后八卦；抵触「我是怎么成功的」式炫耀，担心给读者不切实际的安慰。本书好在没有具体指向「怎么拍这片才成功」，而是提供抽象进入的可能性。</p>
+    <div class="quote">「我很抵触那种后验的经验……说我像他这么做，我是不是能好一些呢？」</div>
+  </div>
+
+  <div class="card card-purple">
+    <h3>
+      <span class="speaker speaker-guest">嘉宾视角·星光</span>
+      自传真实性：少指责他人，多关照自己
+    </h3>
+    <p>读自传天然期待真实、深度、不粉饰。但即便有虚构或粉饰，也可追问「他为何这样写」以窥真实心态。阅读目的是从工具箱里找到一把对自己有用的小改锥，而非考古真相。</p>
+    <div class="quote">「读专辑，就是少指责他人，多关照自己。」</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">二、绿灯：人生选择的交通隐喻</h2>
+
+  <div class="card card-green">
+    <h3>绿灯不是开挂，是拒绝错误转向</h3>
+    <p><b>核心机制：</b>人生重大转折时以为通不过去，后来穿过去了，有的靠好运，有的靠思考，这就是「绿灯」时刻。</p>
+    <p><b>关键理解：</b>没有红灯和黄灯，绿灯无法带来喜悦；挫折本身赋予绿灯意义。</p>
+    <p><b>典型场景：</b>面临职业转型、是否接高价但不喜欢的项目、是否追逐流量时，问自己：我是在哪条车道上？</p>
+    <div class="action">怎么落地：列出当前3个诱惑性选项，标注每个选项让你「左转」还是「直行」，优先选择减少红灯概率的车道</div>
+    <p><b>适用边界：</b>不适用于需要快速试错、广撒网的早期探索阶段；更适合已有清晰「不想做什么」的人。</p>
+  </div>
+
+  <div class="card">
+    <h3>1450万美元与「变深刻」的剧本</h3>
+    <p><b>核心机制：</b>拒绝浪漫喜剧转型期，邀约从500万加到1450万，每次重读剧本都觉得「更好」——字句完全相同，是出价改变了情绪判断。</p>
+    <p><b>关键理解：</b>所有选择都在比价；金钱回报是真实影响因素，不必把艺术追求真空化。</p>
+    <div class="highlight">原文依据：「如果我无法做自己想做的事，无论出价高低，我都不会勉强自己去做不想做的事。」</div>
+    <div class="relation">与「生机勃勃的生活」章节呼应：厌倦浪漫喜剧角色，但生活充实狂野本真</div>
+  </div>
+
+  <div class="card card-orange">
+    <h3>⚠ 把绿灯理解成「最好的安排」</h3>
+    <p><b>原因：</b>副标题易误导为灵性鸡汤「一切发生皆有利于我」。</p>
+    <div class="pitfall">麦康纳原意：拒绝许多路口转向，才能一路绿灯；仍有大量红灯黄灯经历。</div>
+    <p><b>解法：</b>把绿灯当作主动选择的结果，而非命运恩赐。</p>
+    <p><b>严重程度：</b>小心（会削弱主动决策的权重）</p>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">三、生活 &gt; 事业：全书最重要的一句话</h2>
+
+  <div class="card card-green">
+    <h3>生机勃勃的生活，比蒸蒸日上的事业更重要</h3>
+    <p><b>核心机制：</b>已是成功演员、不必为房租劳神，但找上门来的角色无法满足他；生活中真实的样子比银幕角色更让他认同。</p>
+    <p><b>关键理解：</b>工作与生活的失衡与名气、奥斯卡无关；所有人做内容/做事都会厌倦当下状态，需寻找新刺激。</p>
+    <p><b>典型场景：</b>事业顶峰却感到空虚；高收入但重复性工作；用职业成就掩盖生活贫瘠。</p>
+    <div class="quote">「我笑得更开怀，哭得更动情，爱得更深，恨得更切……相比于我在电影中扮演的任何角色，我在生活中真实的样子，更能让我全心认同。」</div>
+    <div class="action">怎么落地：每周问自己一次——这周的生活有没有比事业更「生机勃勃」？若没有，为一个非工作体验留出固定时间</div>
+  </div>
+
+  <div class="card card-purple">
+    <h3>
+      <span class="speaker speaker-host">主持人·超哥</span>
+      成名后房车三年：什么叫「有生活」
+    </h3>
+    <p>《杀戮时刻》爆红后巨大惶恐，开房车去雨林、南美、非洲，三年路上谈成斯皮尔伯格合作。对比今天明星爆火后接流量、直播卖货——麦康纳敢脱离光环，才有塑造角色的素材（如哥哥抽烟谈恋爱）。</p>
+    <div class="quote">「明星访谈不好听：第一没有真实人生经历，第二被政治正确箍住不敢表达。」</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">四、德州家庭教育：规矩分明的爱</h2>
+
+  <div class="card">
+    <h3>「亡命之徒」家庭的矛盾哲学</h3>
+    <p><b>核心机制：</b>充满爱的家庭，拥抱亲吻摔角打架，不藏怨恨；规矩分明——有足够勇气打破规则之前安分守己；体罚后立刻带你去吃喜欢的餐厅庆祝「吸取了教训」。</p>
+    <p><b>关键理解：</b>偷披萨不是大事，不承认才是大事；被抓到百分之百会狠教训。</p>
+    <div class="highlight">原文依据：「你只要承认就万事大吉……我偏偏没有这么做，这惩罚是我应得的。」</div>
+  </div>
+
+  <div class="card card-orange">
+    <h3>⚠ 用流行育儿标准评判一切</h3>
+    <p><b>原因：</b>体罚、肥皂洗嘴、打完带你去吃大餐，按今日标准像「家庭疯了」。</p>
+    <div class="pitfall">超哥观点：最重要不是方法，而是亲子间真实感情是否存在；母亲把亚军奖杯说成冠军，给了独特自信。</div>
+    <p><b>解法：</b>不追求放之四海而皆准的育儿真理；留存复杂方式，关注真实关系而非话术。</p>
+    <p><b>严重程度：</b>可忽略（文化语境差异大，不宜照搬方法）</p>
+  </div>
+
+  <div class="card">
+    <h3>成人礼：赢得尊重而非温柔奖励</h3>
+    <p>大哥成人礼：与父亲为是否偷滚木真打架，父亲被打倒后说「你有能力干败我了，今天你成人了」。二哥成人礼：父亲酒吧比尿高输了，开车往返300公里接儿子来「救兵」。</p>
+    <div class="relation">相关概念：与「认真生活」呼应——家庭用极端但真实的方式传递价值观</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">五、表达 vs 表演：创作姿态的当代困境</h2>
+
+  <div class="card card-purple">
+    <h3>
+      <span class="speaker speaker-host">主持人·大壹</span>
+      面向谁写作：古典城堡 vs 互联网勾引
+    </h3>
+    <p>麦康纳很少说「读到这里你有没有觉得我棒」；他切断与受众连接的诱惑，面向自我对话。对比今天所有表达都预设对象——讨好、表演、要点赞、要连接，表演与表达已寄生难分。</p>
+    <p><b>关键理解：</b>连接是「勾引」：想交流 + 想被喜欢，影响内容真实性。</p>
+    <div class="action">怎么落地：写一篇不预设读者的日记/笔记，检验「纯粹表达」是否还能发生</div>
+    <p><b>适用边界：</b>职业创作者无法完全脱离受众，但可区分「为内容本身」与「为受众反应」的两层动机</p>
+  </div>
+
+  <div class="card">
+    <h3>观点对比：名人表达的两种生态</h3>
+    <table>
+      <tr><th>维度</th><th>麦康纳《绿灯》</th><th>当代流量明星访谈</th><th>一句话结论</th></tr>
+      <tr><td>写作对象</td><td>面向自我，客观描述50年路途</td><td>面向粉丝/流量/政治正确</td><td>前者是城堡，后者是秀场</td></tr>
+      <tr><td>生活素材</td><td>房车三年、与陌生人相处、敢写政治不正确</td><td>被团队删稿、无真实经历、不敢表达</td><td>有生活才能演活人</td></tr>
+      <tr><td>成名反应</td><td>惶恐、不配得感、告解、重新校准</td><td>接流量、直播卖货、维持人设</td><td>惶恐有时是进步的燃料</td></tr>
+      <tr><td>团队干预</td><td>不删家庭争议内容</td><td>采访后逐条删「不能说」</td><td>团队保护的是人设不是表达</td></tr>
+    </table>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">六、认真生活：超哥的核心收获</h2>
+
+  <div class="card card-purple">
+    <h3>💡 心法：Take Serious 每一个转折点</h3>
+    <p><b>为什么重要：</b>反面案例是「太累了算了吧」「大家都这样我也这样」——不经意的一个算了，再加一个算了，错过很多机会。</p>
+    <div class="quote">「你不能让你生活中遭遇的东西就那么划过去了……他把每一个来到面前的东西都经过思考、分类整理。」</div>
+    <div class="action">怎么落地：遇到顺进来的好事，停下来问「这是我应该得到的吗？」；一个角色一句台词也认真拆解</div>
+    <p><b>适用边界：</b>不是每件事都要立刻解决；有些事「让它在那待一会儿」也是认真生活的一部分</p>
+  </div>
+
+  <div class="card">
+    <h3>修士四小时沉默：「我也一样」</h3>
+    <p>成名后寺院告解三半小时，修士一言不发并肩走过沙漠，最后只说「我也一样」。有时朋友需要的不是建议和行动纲领，而是情绪被接纳——「我再听，我可能跟你也一样」。</p>
+    <div class="relation">相关概念：不配得感在破天富贵时反而是好事，保持饥饿与谦卑</div>
+  </div>
+
+  <div class="card card-orange">
+    <h3>⚠ 盲目追求「配得感」</h3>
+    <p><b>原因：</b>今天鼓吹「你配得这一切」，但面对泼天名利时不配得感反而让人保持转变可能。</p>
+    <div class="pitfall">麦康纳爆红后觉得自己不配拯救电影，反而驱动精神重新校准。</div>
+    <p><b>解法：</b>区分「我值得更好的人际关系」与「我配得上所有名利」两种语境。</p>
+    <p><b>严重程度：</b>小心</p>
+  </div>
+</div>
+
+<div class="conclusion">
+  <h2>总结与行动</h2>
+  <h3>核心要点</h3>
+  <ul>
+    <li>《绿灯》是战术手册不是成功学：给心理暗示，不给奥斯卡路线图</li>
+    <li>绿灯=拒绝错误路口，不是一路开挂；红灯黄灯赋予绿灯意义</li>
+    <li>「生机勃勃的生活比蒸蒸日上的事业更重要」适用于任何职业阶段</li>
+    <li>所有选择都在比价：1450万让剧本「变深刻」是人性，不必真空化艺术追求</li>
+    <li>认真生活=对每个转折点Take Serious，不轻易说「算了」</li>
+    <li>读自传少指责他人多关照自己；即便有粉饰，也可追问「为何这样写」</li>
+    <li>纯粹表达与表演式勾引的区分，是当代创作者的核心困境</li>
+  </ul>
+  <h3>行动清单</h3>
+  <ol>
+    <li>列出当前3个重大选择，标注每个会让你「左转」还是「直行」，优先减少红灯概率的选项</li>
+    <li>本周为一个与工作无关的「生机勃勃」体验留出固定时间（见面、旅行、对话均可）</li>
+    <li>写一篇不预设读者的500字笔记，检验自己还能否纯粹表达</li>
+    <li>遇到顺遂时问一句：「这是我应该得到的吗？」保持审慎而非盲目配得感</li>
+    <li>读传记/回忆录时，只取一把对自己有用的小改锥，放下「必须全真」的执念</li>
+  </ol>
+  <h3>关键认知转变</h3>
+  <p>以前认为名人自传要么是成功学炫耀，要么是枯燥学术流水账，读了也没用。现在理解了：好的自传处于中间地带——还原一个普通人都会有的犹豫、惶恐与「我是谁」的追问；绿灯不是命运恩赐，而是认清「不想做什么」之后主动选择的结果。有钱有名也打不开那把锁，我们不必再苦苦追寻那把错的钥匙。</p>
+</div>
+
+<div class="footer">来源：文化有限 Vol.329 · 小宇宙播客 · 马修·麦康纳《绿灯》</div>
+
+</div>
+    </div>
+  </foreignObject>
+</svg>
