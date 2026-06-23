@@ -1,10 +1,28 @@
 [
   {
     "date": "2026-06-23",
+    "filename": "xpeng_v2_vla-总结.svg",
+    "title": "都在吹小鹏二代VLA，它到底厉害在哪？",
+    "summary": "三刀拆解小鹏第二代VLA：从1.0看懂到2.0洞察的代际跃迁，对比英伟达/理想/元戎启行四条路线，以及可解释性如何重建智驾信任",
+    "tags": [
+      "汽车",
+      "智能驾驶",
+      "AI"
+    ],
+    "url": "https://www.xiaoyuzhoufm.com/episode/69c80a05b977fb2c47790a55",
+    "duration": "1小时24分",
+    "svg_height": 11081
+  },
+  {
+    "date": "2026-06-23",
     "filename": "jia_huihua_tizhinei-总结.svg",
     "title": "E220 对话聂辉华：都说宇宙的尽头是考公，但体制内到底是什么样？",
     "summary": "聂辉华携《基层中国的运行逻辑》拆解考公三大误解、适合性判断与选岗逻辑：先选城市再定部门，避开收缩型城市，体制内并非铁饭碗而是等级制与人情社会的入场券",
-    "tags": ["考公", "基层治理", "政治经济学"],
+    "tags": [
+      "考公",
+      "基层治理",
+      "政治经济学"
+    ],
     "url": "https://www.xiaoyuzhoufm.com/episode/6969e300109824f9e1cca69e",
     "duration": "62分钟",
     "svg_height": 12426
@@ -14,7 +32,11 @@
     "filename": "zhangxue_jinianbaohong-总结.svg",
     "title": "张雪机年爆红后，我反而有点担心",
     "summary": "摆车全说三刀复盘张雪机车葡萄牙夺冠：4万块820RR领先进口大牌近4秒，但流量造神、资本涌入与售后革新背后，更担心他能否在光环中守住初心",
-    "tags": ["摩托车", "商业", "创业"],
+    "tags": [
+      "摩托车",
+      "商业",
+      "创业"
+    ],
     "url": "https://www.xiaoyuzhoufm.com/episode/69cd679eb977fb2c47dff9e8",
     "duration": "1小时32分",
     "svg_height": 8223
