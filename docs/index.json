@@ -1,6 +1,16 @@
 [
   {
     "date": "2026-06-23",
+    "filename": "deepseek_v4_infra_context-总结.svg",
+    "title": "163: 详解DeepSeekV4：Infra巨婴、百万上下文走进现实、极致效率优化",
+    "summary": "晚点聊邀请架构与Infra一线从业者精读V4报告：DSA稀疏注意力让百万上下文实用化，放弃MLA冲击MRA路线，发布当天跑通推理RL全链路的工程标杆",
+    "tags": ["科技", "AI", "大模型"],
+    "url": "https://www.xiaoyuzhoufm.com/episode/69f2e8ef0694c843e7cd91b6",
+    "duration": "1小时34分",
+    "svg_height": 10979
+  },
+  {
+    "date": "2026-06-23",
     "filename": "clawdbot_2026_phenomenon-总结.svg",
     "title": "E224｜深度拆解Clawdbot，为何它能成为2026年第一个现象级产品？",
     "summary": "硅谷101三位嘉宾从活人感、MD记忆架构、心跳机制到Mac mini隔离部署，全方位拆解OpenClaw为何引爆2026 Agent元年，并展望一人公司与按爬取付费新商业模式",
