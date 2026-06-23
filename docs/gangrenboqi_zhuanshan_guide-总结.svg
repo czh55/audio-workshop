@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="9534" viewBox="0 0 1320 9534">
+  <foreignObject x="0" y="0" width="1320" height="9534">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,0.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:20px 28px;text-align:center;min-width:160px;font-weight:700;font-size:16px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3{color:#92400e;margin-bottom:8px}
+.correction p{color:#92400e;font-size:15px}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,0.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.speaker{display:inline-block;font-size:13px;font-weight:600;padding:2px 10px;border-radius:12px;margin-right:8px}
+.speaker-host{background:#dbeafe;color:#1e40af}
+.speaker-guest{background:#ede9fe;color:#6b21a8}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,0.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,0.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,0.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}</style>
+      <div class="container">
+
+<h1>Ep194 可能是全网最完全冈仁波齐转山说明书</h1>
+<div class="meta">
+  <span class="tag tag-blue">播客</span>
+  <span class="tag tag-purple">基本无害 Mostly Harmless</span>
+  <span class="tag tag-orange">2小时02分</span>
+  <span class="tag tag-green">户外</span>
+</div>
+<div class="summary-line">
+  毛冬连续两年单日52公里转冈仁波齐，联合凯乐石咏哥、1314咖啡馆刘醒、藏族户外专业生弹旺，在海拔4630米山脚下直播后补录，从激发向往到安全抵达，拆解马年转山热潮、52公里外转实操、卓玛拉垭口5600米难度与阿里高反机制。
+</div>
+
+<div class="timeline">
+  <h3>关键时间轴</h3>
+  <div class="timeline-item">
+    <span class="timeline-time">00:00</span>
+    <span class="timeline-text">开场：冈仁波齐「宇宙中心」背景，凯乐石海拔4630米山脚下直播缘起</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">12:30</span>
+    <span class="timeline-text">四位嘉宾自我介绍：刘醒开1314咖啡馆、弹旺藏族放牧转场、咏哥25年户外老炮</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">26:45</span>
+    <span class="timeline-text">马年转山热潮：信众认为马年转一圈功德等于其他年份13圈，人流或从20万飙至百万</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">45:00</span>
+    <span class="timeline-text">转山实用攻略：52公里外转、塔钦适应、止热寺夜宿、先甜后苦路线选择</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">01:05:00</span>
+    <span class="timeline-text">一日走完的代价：毛冬两年单日走完，今年19小时因装备不足险些崩溃</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">01:25:00</span>
+    <span class="timeline-text">外转vs内转、冬季狼患、天气突变真实救援案例</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">01:45:00</span>
+    <span class="timeline-text">装备清单：保暖层、冰爪、护脸手套，以及心态放平果断下撤</span>
+  </div>
+</div>
+
+<div class="map">
+  <h2>核心脉络</h2>
+  <div class="diagram">
+    <div class="node">激发向往<br/><small>宇宙中心·马年功德</small></div>
+    <div class="arrow">→</div>
+    <div class="node node-green">塔钦适应<br/><small>1-2天冗余·弥散供氧</small></div>
+    <div class="arrow">→</div>
+    <div class="node node-orange">52km外转<br/><small>2-3天·止热寺</small></div>
+    <div class="arrow">→</div>
+    <div class="node">安全抵达<br/><small>天气·装备·下撤</small></div>
+  </div>
+</div>
+
+<div class="correction">
+  <h3>⚠ 常见误解 / 认知纠偏</h3>
+  <p>很多人以为「爬过入门雪山就能轻松走冈仁波齐」——错。毛冬去年登过慕士塔格7500米，今年照样高反。52公里平均海拔4700米以上，卓玛拉垭口5600米，阿里植被稀疏含氧量远低于川西云南，这是长距离疲惫行进，不是登顶后下撤。</p>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">一、这座山为什么值得来</h2>
+
+  <div class="card">
+    <h3>冈仁波齐：藏区「宇宙中心」</h3>
+    <p><b>核心机制：</b>海拔6638米的冈仁波齐（藏语「凯拉什」Kailash），被藏传佛教、苯教、印度教、耆那教共同视为圣山，外转52公里是千年信众传统，沿路因此发展出全球罕见的补给体系。</p>
+    <p><b>关键理解：</b>它不是纯荒野徒步——每隔3-10公里就有茶馆、热水、甜茶、方便面，止热寺脚下甚至有旅馆聚落，比国内多数高海拔线路「有人味」得多。</p>
+    <p><b>典型场景：</b>马年（生肖马年）转山功德被认为等于其他年份13圈，2026年4月25日开山后人流预计从往年20万暴增至百万级，宾馆价格从500元涨到1500元。</p>
+    <div class="relation">相关概念：外转（游客常规）vs 内转（需先外转13圈，今年马年官方不开放，路线更陡更危险）</div>
+    <div class="highlight">原文依据：「今年马年冈仁波齐比较受关注……当地朋友说马年转山的人可能从二十多万变成一百多万」</div>
+  </div>
+
+  <div class="card card-purple">
+    <h3>
+      <span class="speaker speaker-guest">嘉宾观点</span>
+      咏哥：不用激发向往，先上路先出发
+    </h3>
+    <p>咏哥说户外不需要刻意「激发」——家再好你也会想出门，出来之后一步一步感受自然、感受朋友、感受生活给你的东西，什么都可以解决。</p>
+    <div class="quote">「不用去感受任何东西，就是你先出来，然后再一步一步去感受。」</div>
+  </div>
+
+  <div class="card card-purple">
+    <h3>
+      <span class="speaker speaker-guest">嘉宾观点</span>
+      弹旺：藏族放牧与转山的亲切感
+    </h3>
+    <p>弹旺走冈仁波齐高尔密路线时感到熟悉——冬夏牧场迁徙也要翻两座山，高度和难度与卓玛拉垭口差不多。他家100头左右牦牛，20多头公牦牛组成驮队，父母先搭帐篷，孩子赶着母牛和小牛慢慢跟。</p>
+    <div class="quote">「走起来有很多的亲切跟熟悉感，因为跟他之前放牧的时候冬牧场夏牧场迁徙特别像。」</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">二、转山路线与强度拆解</h2>
+
+  <div class="card">
+    <h3>52公里外转：数据与体感</h3>
+    <p><b>核心机制：</b>起点塔钦海拔约4700米，全程平均4700米以上，翻越卓玛拉垭口最高5600米。6公里内爬升近1000米，强度不亚于高海拔雪山攀登。</p>
+    <p><b>关键理解：</b>阿里地区几乎无植被，整体含氧量比川西云南同海拔低得多，高反概率更高——很多藏族朋友在翻垭口时也要吸氧。</p>
+    <p><b>典型场景：</b>主流两天路线「先甜后苦」：第一天约20公里住止热寺，第二天约30公里翻垭口；也可「先苦后甜」第一天翻完垭口住不动地钉。</p>
+    <div class="relation">相关概念：止热寺（第一晚主流住宿点）、天葬台（补给点）、不动地钉（翻垭口后第一站）</div>
+    <div class="highlight">原文依据：「哪怕你爬过慕士塔格7500多米的人，今年去走冈仁波齐，该高反照样高反」</div>
+  </div>
+
+  <div class="card">
+    <h3>路线选择对比</h3>
+    <table>
+      <tr><th>维度</th><th>两天（推荐）</th><th>三天（最佳体验）</th><th>一天（不推荐）</th></tr>
+      <tr><td>节奏</td><td>先甜后苦，夜宿止热寺</td><td>充分感受风景与人文</td><td>匆匆赶路，少看风景</td></tr>
+      <tr><td>体力消耗</td><td>中等，可恢复</td><td>低，最从容</td><td>极高，17-19小时</td></tr>
+      <tr><td>风险</td><td>较低</td><td>最低</td><td>夜间遇狼、失温、高反加重</td></tr>
+      <tr><td>一句话结论</td><td>大多数人体能下的最优解</td><td>时间充裕者的首选</td><td>仅适合有明确拉练目的者</td></tr>
+    </table>
+  </div>
+
+  <div class="card card-orange">
+    <h3>⚠ 一日走完的陷阱</h3>
+    <p><b>原因：</b>毛冬去年17小时、今年19小时走完，今年因保暖不足遭遇低温大风，体能和意志双重崩溃，称「此生最疲惫」。</p>
+    <div class="pitfall">嘉宾说法：「除非你真的是拉练为目的，或者你走得很快不会走到大半夜，否则建议大家不要学我。」</div>
+    <p><b>解法：</b>至少分两天；若必须一日走完，务必天不亮出发、带头灯，但不要在深夜翻越垭口后段——见狼概率高达50%。</p>
+    <p><b>严重程度：</b>致命（冬季狼饿、失温、高反叠加）</p>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">三、高反、天气与安全保障</h2>
+
+  <div class="card">
+    <h3>塔钦适应：出发前最重要的准备</h3>
+    <p><b>核心机制：</b>到达塔钦小镇后，务必留出1-2天适应海拔，应对突发高反或恶劣天气。镇上已有弥散供氧旅馆（房间内置制氧机），比几年前纯落脚点好很多。</p>
+    <p><b>关键理解：</b>高反是「无成本的衰老体验」——走路喘、行动慢，但这也是了解身体宝贵的机会。适应过程中有不适是正常的。</p>
+    <p><b>典型场景：</b>刘醒第一次进藏在此高反躺了一晚，当地人主动帮助，后来决定留下开咖啡馆——命运安排。</p>
+    <div class="action">怎么落地：到塔钦后至少住1-2晚再出发；选有弥散供氧的房间；备好氧气瓶应对垭口段</div>
+    <p><b>适用边界：</b>若已有严重心肺疾病或从未有过高海拔经验，需咨询医生；孕妇、老人需格外谨慎</p>
+  </div>
+
+  <div class="card card-orange">
+    <h3>⚠ 天气突变：晴天与阴天是两个强度</h3>
+    <p><b>原因：</b>咏哥分享真实案例：与一位运动高手同行，过折返点后天气骤变，冰雹5分钟积5厘米厚，同伴失温昏迷，咏哥只能脱衣给他、拖着走，头顶雷电劈在周围。</p>
+    <div class="pitfall">嘉宾说法：「今天的天气不好，咱们该下车就下车……就差50米的爬升了，意外就发生了。」</div>
+    <p><b>解法：</b>心态放平，不追求「完成」标签；千里迢迢过来，天气或身体不对就果断下撤，以后有的是机会。</p>
+    <p><b>严重程度：</b>致命</p>
+  </div>
+
+  <div class="card card-orange">
+    <h3>⚠ 冬季狼患与夜间行进</h3>
+    <p><b>原因：</b>冬季小动物少、狼饿，甚至会跑到镇上。毛冬去年凌晨3-4点见两次狼，今年藏族老板警告「后面几公里有狼有熊」。</p>
+    <div class="pitfall">嘉宾说法：「到中堆的六七公里，大半夜走完那一段是最容易遇到狼跟熊的。」</div>
+    <p><b>解法：</b>藏族人天黑不走路、找地方住；游客也应天黑前抵达补给点，不要夜间翻垭口后段。</p>
+    <p><b>严重程度：</b>小心（夏天狼一般不攻击人，冬天风险显著升高）</p>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">四、装备与实操清单</h2>
+
+  <div class="card">
+    <h3>保暖层：用得最多的装备</h3>
+    <p><b>核心机制：</b>4-5月开山季节气温极低，卓玛拉垭口有积雪和冰。毛冬今年帽子护脸太薄、没戴手套、只穿一条羊毛打底裤，遭遇「冰雪奇缘」式崩溃。</p>
+    <p><b>关键理解：</b>保暖层比冲锋衣更关键——羽绒或厚棉服、保暖裤（秋裤）、厚手套、护脸、保暖帽缺一不可。</p>
+    <div class="action">怎么落地：登山靴（防滑）+ 冰爪（无攀登基础强烈建议）；备用保暖层至少一套；暖宝宝可备</div>
+    <div class="highlight">原文依据：「碰到大风要及时休整……帽子没戴合适，护脸也太薄了，头被吹傻了，手套也没带。」</div>
+  </div>
+
+  <div class="card">
+    <h3>装备对比表</h3>
+    <table>
+      <tr><th>装备</th><th>必须</th><th>建议</th><th>毛冬踩坑</th></tr>
+      <tr><td>保暖帽+护脸</td><td>✓ 防风防寒</td><td>能遮住耳朵和下半脸</td><td>护脸太薄，头被吹傻</td></tr>
+      <tr><td>厚手套</td><td>✓</td><td>防水保暖</td><td>完全没带</td></tr>
+      <tr><td>保暖裤+羽绒</td><td>✓ 多层</td><td>备用一套</td><td>只穿一条羊毛打底裤</td></tr>
+      <tr><td>冰爪</td><td>垭口有冰时</td><td>无攀登基础必带</td><td>未提及但建议</td></tr>
+      <tr><td>头灯</td><td>两天路线可选</td><td>一天走完必须</td><td>两年都用到深夜</td></tr>
+    </table>
+  </div>
+
+  <div class="card card-purple">
+    <h3>💡 心法：对藏族同胞多一分理解</h3>
+    <p><b>为什么重要：</b>补给点老板很多不懂普通话，不是不招呼你，是语言障碍。毛冬亲眼见游客因老板没及时回应而生气离开，他认为完全没必要。</p>
+    <div class="quote">「咱们如果去转山的话，还是对于藏族的朋友多一些理解跟包容。」</div>
+    <div class="action">怎么落地：学几句简单藏语问候；带现金（部分补给点无移动支付）；住大通铺别挑剔卫生，茶馆气氛很好</div>
+    <p><b>适用边界：</b>止热寺有相对好一点的标间，其他补给点多为大通铺或茶馆长椅</p>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">五、身心体验的四个阶段</h2>
+
+  <div class="card card-green">
+    <h3>从兴趣到麻木：转山的心理曲线</h3>
+    <p>毛冬描述转山经历的四个阶段：①靠兴趣好玩出发 → ②有点累靠疲惫支撑 → ③求生本能上来必须走出去 → ④连意志力都没了，在天地之间麻木地拖着肉体前行——抵达身心合一。</p>
+    <div class="quote">「走到最后连意志力都没有了，你就在那里在天地之间麻木地托着你这句肉体往前行走，那个时候其实就抵达了你身心合一的状态了。」</div>
+    <div class="relation">相关概念：极度疲惫后的自我对话，比风光更珍贵的内在收获</div>
+  </div>
+</div>
+
+<div class="conclusion">
+  <h2>总结与行动</h2>
+  <h3>核心要点</h3>
+  <ul>
+    <li>冈仁波齐外转52公里，平均海拔4700米+，卓玛拉垭口5600米，强度远超「走过入门雪山」者的预期</li>
+    <li>马年转山人流或破百万，4月25日开山后务必提前订房（价格可涨3倍）并留1-2天适应海拔</li>
+    <li>强烈建议2-3天走完，不要学毛冬一日走完——风景、安全、体验三者皆损</li>
+    <li>阿里含氧量低、植被稀疏，高反合理；保暖层、冰爪、手套护脸是生命线</li>
+    <li>天气不好或身体不对，果断下撤——心态放平，不追求完成标签</li>
+  </ul>
+  <h3>行动清单</h3>
+  <ol>
+    <li>抵达塔钦后至少住1-2晚适应，选弥散供氧旅馆，备好氧气瓶</li>
+    <li>按两天「先甜后苦」规划：第一天20公里住止热寺，第二天翻卓玛拉垭口</li>
+    <li>装备清单：厚保暖帽、护脸、防水手套、羽绒+保暖裤、登山靴、冰爪、头灯、备用保暖层</li>
+    <li>查好天气预报，垭口段遇大风低温立即休整，绝不硬撑</li>
+    <li>天黑前抵达补给点，不在夜间翻越垭口后段；对藏族同胞保持耐心与尊重</li>
+  </ol>
+  <h3>关键认知转变</h3>
+  <p>以前认为「有户外经验就能轻松转山」——现在理解了这是阿里高原上的52公里疲惫行军，海拔、含氧量、天气、保暖缺一不可；以前觉得「一日走完很酷」——现在明白慢慢走才能感受路上的人文与自我对话，安全抵达比完成标签重要一万倍。</p>
+</div>
+
+<div class="footer">来源：基本无害 Mostly Harmless · Ep194 · 小宇宙播客</div>
+</div>
+    </div>
+  </foreignObject>
+</svg>

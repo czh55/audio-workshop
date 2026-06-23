@@ -1,6 +1,16 @@
 [
   {
     "date": "2026-06-23",
+    "filename": "gangrenboqi_zhuanshan_guide-总结.svg",
+    "title": "Ep194 可能是全网最完全冈仁波齐转山说明书",
+    "summary": "毛冬连续两年单日转冈仁波齐，联合咏哥、刘醒、弹旺在海拔4630米山脚下拆解马年转山热潮、52公里外转实操、卓玛拉垭口5600米难度与阿里高反机制",
+    "tags": ["户外", "旅行", "西藏"],
+    "url": "https://www.xiaoyuzhoufm.com/episode/69f04d48b973c3fd59984685",
+    "duration": "2小时02分",
+    "svg_height": 9534
+  },
+  {
+    "date": "2026-06-23",
     "filename": "smart_perception_sensors-总结.svg",
     "title": "摄像头、紫光波、激光雷达，UWB，谁才是智能感知的关键？",
     "summary": "三刀大白话拆解超声波雷达、UWB、摄像头、毫米波雷达、激光雷达五大传感器，从理想L9取消超声波改用UWB切入，讲清原理优缺点与融合感知策略",
