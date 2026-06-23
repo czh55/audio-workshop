@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="9593" viewBox="0 0 1320 9593">
+  <foreignObject x="0" y="0" width="1320" height="9593">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,0.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:20px 28px;text-align:center;min-width:160px;font-weight:700;font-size:16px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3{color:#92400e;margin-bottom:8px}
+.correction p{color:#92400e;font-size:15px}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,0.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.speaker{display:inline-block;font-size:13px;font-weight:600;padding:2px 10px;border-radius:12px;margin-right:8px}
+.speaker-host{background:#dbeafe;color:#1e40af}
+.speaker-guest{background:#ede9fe;color:#6b21a8}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,0.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,0.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,0.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}</style>
+      <div class="container">
+
+<h1>E227 疲惫经济学：为什么技术进步了，我们却更累了？</h1>
+<div class="meta">
+  <span class="tag tag-blue">播客</span>
+  <span class="tag tag-purple">知行小酒馆</span>
+  <span class="tag tag-orange">1小时05分</span>
+  <span class="tag tag-green">疲惫经济学</span>
+</div>
+<div class="summary-line">主持人雨白从欧洲旅行中的「单线程工作」冲击出发，与经济学家温逸飞探讨一个悖论：技术越进步，我们反而越忙越累。外卖、效率工具赚的是「疲惫的钱」；八小时工作制来自冷战劳工妥协而非生产力馈赠；AI 先做监工再做工具。疲惫背后有结构性原因，不必全归咎于个人不够努力。</div>
+
+<div class="timeline">
+  <h3>关键时间轴</h3>
+  <div class="timeline-item"><span class="timeline-time">00:00</span><span class="timeline-text">开场：欧洲餐厅单线程工作 vs 国内随时在线，「疲惫经济学」概念引出</span></div>
+  <div class="timeline-item"><span class="timeline-time">05:35</span><span class="timeline-text">历史悖论：历次工业革命劳动强度反而最大，中国人均工作时长增加约一个月</span></div>
+  <div class="timeline-item"><span class="timeline-time">10:25</span><span class="timeline-text">八小时工作制真相：冷战时期高税+劳工运动妥协，非技术进步自然产物</span></div>
+  <div class="timeline-item"><span class="timeline-time">18:36</span><span class="timeline-text">AI 时代：先做 B 端监工与效率分析，摸鱼时代终结</span></div>
+  <div class="timeline-item"><span class="timeline-time">27:01</span><span class="timeline-text">老板经济学：996 比招两人更划算，工具化是竞争自然结果</span></div>
+  <div class="timeline-item"><span class="timeline-time">40:50</span><span class="timeline-text">结构性失业与县城婆罗门：财政转移支付的两条活水</span></div>
+  <div class="timeline-item"><span class="timeline-time">49:35</span><span class="timeline-text">双轨制：AI 相关 vs 传统产业，年轻人意义感消解</span></div>
+  <div class="timeline-item"><span class="timeline-time">58:00</span><span class="timeline-text">休息无正当性：儒家文化+高增长，普通人砸钱开店也不允许自己休息</span></div>
+  <div class="timeline-item"><span class="timeline-time">01:04</span><span class="timeline-text">政策转向：2024 起提振消费与民生开支，发展为了人还是为了增长</span></div>
+</div>
+
+<div class="map">
+  <h2>核心脉络</h2>
+  <div class="diagram">
+    <div class="node">技术进步<br/>效率提升</div>
+    <div class="arrow">→</div>
+    <div class="node node-orange">生产关系未变<br/>老板目标膨胀</div>
+    <div class="arrow">→</div>
+    <div class="node node-orange">劳动强度↑<br/>监管手段↑</div>
+    <div class="arrow">→</div>
+    <div class="node">疲惫催生新需求<br/>外卖/跑腿/AI监工</div>
+  </div>
+  <div class="diagram" style="margin-top:16px;">
+    <div class="node" style="font-size:14px;">纸笔时代<br/>可摸鱼</div>
+    <div class="arrow">→</div>
+    <div class="node" style="font-size:14px;">互联网时代<br/>随时在线</div>
+    <div class="arrow">→</div>
+    <div class="node" style="font-size:14px;">AI 时代<br/>监工+指派</div>
+    <div class="arrow">→</div>
+    <div class="node node-green" style="font-size:14px;">总需求满足后<br/>才可能真正轻松</div>
+  </div>
+</div>
+
+<div class="correction">
+  <h3>⚠ 常见误解 / 认知纠偏</h3>
+  <p><b>误解：</b>技术进步会自动带来更短工时、更多休息，AI 来了大家会没事干。<br/>
+  <b>纠偏：</b>劳动强度只跟生产关系相关，不跟工具相关。在总需求尚未满足阶段，老板欲望随生产力膨胀——手写三天一篇变 AI 一天三篇。八小时工作制是冷战劳工运动+高税妥协的产物，不是技术馈赠。AI 更可能先做监工，而非先替你干活。</p>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">一、疲惫从何而来：欧洲观察与「疲惫经济学」</h2>
+
+  <div class="card">
+    <h3><span class="speaker speaker-host">主持人</span>单线程工作 vs 随时在线</h3>
+    <p><b>核心机制：</b>雨白在欧洲餐厅站很久无人招呼——领位员只做领位，其他人各管各的，不会「眼里有活」。结账从开口到完成隔了二十分钟。当地人习以为常：每人固定职责、单线程工作，对劳动者更轻松。</p>
+    <p><b>关键理解：</b>回国一周后恢复「快节奏」：点外卖少配菜立刻想差评。作为消费者我们追求更快更好，但作为劳动者我们被即时通讯绑定为 24 小时在线。技术和效率进步了，休息的正当性却消失了。</p>
+    <p><b>典型场景：</b>中午没时间好好吃饭→外卖行业诞生；累到无法休息→「赚疲惫的钱」成为商业模式。</p>
+    <div class="relation">相关概念：疲惫经济学 = 社会看到人人很累，不是先消除疲惫，而是利用疲惫创造新需求与新产业</div>
+    <div class="highlight">原文依据：「很多生意本质上赚的是人们疲惫的钱……外卖赚的不就是我们疲惫的钱吗？」</div>
+  </div>
+
+  <div class="card card-purple">
+    <h3><span class="speaker speaker-guest">嘉宾观点</span>技术进步与劳动强度的反比关系</h3>
+    <p>历次工业革命——蒸汽机、电力、信息革命——按道理生产力飞跃，大家预期失业、工时缩短。实际数据相反：这些时代劳动强度往往最大。中国 2015 年至今人均工作时长增加约一个月，相当于多 20 个工作日。</p>
+    <div class="quote">「你的劳动机会和劳动强度只跟生产关系相关……只取决于老板有没有动机去改革生产制度。」</div>
+    <div class="action">怎么落地：评估自己的累，先问「是工具问题还是制度/目标膨胀问题」，而非单纯学更多效率工具</div>
+    <p><b>适用边界：</b>在总需求充分满足、供给过剩后，社会才有空间重新思考「发展为了什么」</p>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">二、八小时工作制：不是技术送的礼物</h2>
+
+  <div class="card">
+    <h3>冷战时期的妥协逻辑</h3>
+    <p><b>核心机制：</b>福特时代到 70 年代，福利增加、工时缩短。80 年代信息革命后强度回升。八小时工作制并非生产力进步的天然福利，而是无产阶级革命先驱迫使资本主义让步的结果。</p>
+    <p><b>关键理解：</b>苏联鼎盛时，西方资本家所得税累计可达 80%–90%——不交税工人可能掀桌子。重税以福利形式回流工人，同时改善工时与劳动关系。革命前后都是八小时，革命动力就降低了。</p>
+    <p><b>典型场景：</b>理解当下加班文化，不能指望「等 AI 更成熟就轻松了」，要看权力结构与替代性谈判筹码。</p>
+    <div class="highlight">原文依据：「八小时工作制不是因为生产力进步而获得的天然福利，是因为当时有些地方在进行无产阶级革命。」</div>
+  </div>
+
+  <div class="card card-orange">
+    <h3>⚠ 误以为 AI 会解放你</h3>
+    <p><b>原因：</b>大家只想 AI 代替工作，没想到 AI 可以监视工作——偷懒五分钟就提醒，再偷懒就报告老板。中国 AI 从 B 端切入（企业愿为效率付费），面试、会议分析、绩效量化已先行。</p>
+    <div class="pitfall">嘉宾说法：「好消息是不用太担心被 AI 失业；坏消息是你到时候可能会想说，我还不如失业了。」</div>
+    <p><b>解法：</b>认清监管升级是确定性趋势，在主业积累 AI 无法替代的判断力与生命体验</p>
+    <p><b>严重程度：</b>小心（个体可应对，但系统性趋势难逆）</p>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">三、老板经济学：996 是一笔账</h2>
+
+  <div class="card">
+    <h3>加班比招人划算</h3>
+    <p><b>核心机制：</b>员工月薪 2 万、八小时双休，月工时约 174 小时。活做不完招第二人，两人成本约 5.7 万（含社保），工时 348 小时。让一人 996 干 348 小时，双倍加班费约 7300，加社保总成本约 3.5 万——省 2 万多，还省去招聘、培训、工位、管理层级。</p>
+    <p><b>关键理解：</b>不是老板天生邪恶，而是市场淘汰逻辑：对手员工一人干五人活，你不跟上就消失。德国总理访华后演讲：欧洲四天工作制、work-life balance 不行，会被产业蚕食。</p>
+    <div class="relation">相关概念：温逸飞自己公司文化宽松（少加班、多假期），但前提是极强商业模式与战略——不是每个行业都能复制</div>
+    <div class="highlight">原文依据：「一个正常的老板如果按经营效率来算，宁可给双倍加班费让现有团队加班，也不找新员工。」</div>
+  </div>
+
+  <div class="card">
+    <h3>观点对比：欧洲慢生活 vs 东亚高增长</h3>
+    <table>
+      <tr><th>维度</th><th>欧洲模式</th><th>东亚高增长模式</th><th>一句话结论</th></tr>
+      <tr><td>工作节奏</td><td>单线程、职责清晰、可慢餐三小时</td><td>多线程、随时在线、效率优先</td><td>慢生活需高于市场的调节力，否则被竞争淘汰</td></tr>
+      <tr><td>福利来源</td><td>劳工运动+高税福利妥协</td><td>儒家文化+高增长惯性</td><td>休息正当性在东亚尤其弱</td></tr>
+      <tr><td>AI 时代走向</td><td>德国工厂外迁、工人抢服务业饭碗</td><td>B 端 AI 监工+一人干二十人活</td><td>全球趋同：强度上升，除非制度干预</td></tr>
+    </table>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">四、结构性疲惫：失业、双轨制与县城逻辑</h2>
+
+  <div class="card card-purple">
+    <h3><span class="speaker speaker-guest">嘉宾观点</span>结构性失业不必过度个人焦虑</h3>
+    <p>「你欠银行十万睡不着，欠一个亿反而睡得着」——足够多人同时失业，会有人来解决。中国已有产业集聚经验：东北、西北资源城市、三线建设后凋敝地区，靠财政转移两条活水——体制内工资/养老金 + 基建项目分包。</p>
+    <div class="quote">「县城婆罗门……所有人都在喝这个水龙头流出来的水，只是有人离得近多喝一点。」</div>
+    <p><b>适用边界：</b>个体悲欢不会被纳入政策考量，直到汇聚成不得不回应的声音。AI 时代只是把受影响人口和地区进一步扩大。</p>
+  </div>
+
+  <div class="card">
+    <h3>双轨制：马斯克相关 vs 马斯克无关</h3>
+    <p><b>核心机制：</b>资本市场分「AI/机器人/航天」与「老登资产」两套定价逻辑。美国硅谷与非硅谷已是两种货币感；中国顶尖 AI 应届生百万起薪 vs 大量毕业生找不到工作。</p>
+    <p><b>关键理解：</b>年轻人「大政委时代」——亲情、爱情、奋斗回报、房产信仰都在瓦解。信息触手可及却不知要什么，选择自由带来 100% 后果负担。</p>
+    <div class="relation">相关概念：吃鸡缩圈——圈外不是活不了，是另一种玩法；追求更多就要参与缩圈竞赛</div>
+    <div class="highlight">原文依据：「春晚机器人、新能源蓬勃向上，一看自己家庭资产负债表都是钢筋水泥——有一种被抛弃的感觉。」</div>
+  </div>
+
+  <div class="card card-orange">
+    <h3>⚠ 休息在中国没有正当性</h3>
+    <p><b>原因：</b>儒家文化叠加二战后高增长，新兴发达经济体多在儒家文化圈。普通人砸几十万开注定亏钱的餐饮店，也无法接受「只是休息一段时间」。</p>
+    <div class="pitfall">主持人观察：过年长辈有使不完劲儿大扫除，年轻人只想躺着——疲惫代际差异</div>
+    <p><b>解法：</b>意识到「努力工作的目标」在时代叙事中从共产主义理想变为「获得更努力工作的机会」，值得停下来追问</p>
+    <p><b>严重程度：</b>致命（文化惯性层面，短期难改）</p>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">五、政策转向与个体应对</h2>
+
+  <div class="card card-green">
+    <h3>国家层面：发展为了人还是为了增长</h3>
+    <p><b>核心机制：</b>中国历史上大部分时间是生产力不足、消费过剩，艰苦奋斗是文化惯性。2023–24 出现产能过剩，决策层开始提升民生开支比重——消费券、生育补贴、提振消费。</p>
+    <p><b>关键理解：</b>只有生产力充沛才有资格问「造这么多东西为了什么」。资产价格与短期 GDP 数据出现历史性背离，大家看的是十年维度的 AI 远景。</p>
+    <div class="action">落地建议：关注政策面向消费与民生的信号，但不必把宏观责任全揽到自己身上</div>
+  </div>
+
+  <div class="card card-purple">
+    <h3>💡 心法：绝对进步 vs 横向比较</h3>
+    <p><b>为什么重要：</b>横向比较永远焦虑——别人私人飞机了你坐高铁就难受，别人活 150 岁你 80 岁就不公平。人类快乐来源于优越而非绝对富足。</p>
+    <div class="quote">「你如果只想要一口饭吃不饿死，中国做得到……但如果你要更多，就要参与缩圈竞赛。」</div>
+    <div class="action">怎么落地：找到内心平静、减少无效比较；或坦然选择卷缩圈——两种都是清醒选择</div>
+    <p><b>适用边界：</b>AI 学习不必焦虑——等阶段性大版本，门槛会降低；核心竞争力是现实生命体验与领域积累，非工具熟练度</p>
+  </div>
+
+  <div class="card">
+    <h3>欲望无止境与总需求两阶段</h3>
+    <table>
+      <tr><th>阶段</th><th>特征</th><th>对劳动者意味</th><th>何时到来</th></tr>
+      <tr><td>第一阶段：总需求未满足</td><td>老板目标随工具膨胀，一人+AI 干二十人活</td><td>更忙、更卷、AI 做监工</td><td>当前</td></tr>
+      <tr><td>第二阶段：总需求充分满足</td><td>想要什么马上就有，工作成特权</td><td>为爱好工作，甚至付费工作</td><td>遥远，当代打工人难见</td></tr>
+    </table>
+  </div>
+</div>
+
+<div class="conclusion">
+  <h2>总结与行动</h2>
+  <h3>核心要点</h3>
+  <ul>
+    <li>技术进步不自动带来休息，劳动强度取决于生产关系与老板目标，非工具本身</li>
+    <li>八小时工作制是劳工运动+冷战妥协产物；AI 时代 B 端监工先于 C 端替代</li>
+    <li>疲惫催生外卖等千亿产业——「疲惫经济学」是结构性现象，非个人不努力</li>
+    <li>996 是理性经济账；不工具化的企业在竞争中处于劣势，需制度变革对冲</li>
+    <li>绝对生活水平指数级进步，横向比较才是焦虑来源；社会性问题不应由个体独自承担</li>
+  </ul>
+  <h3>行动清单</h3>
+  <ol>
+    <li>疲惫或饥饿时不做重大决策，尤其避免深夜复盘「错过哪些浪潮」</li>
+    <li>AI 学习保持节奏：深耕主业积累，等阶段性大版本再集中学，避免焦虑式追工具</li>
+    <li>明确自己要「够用就好」还是「参与缩圈」——两种路径都清醒即可</li>
+    <li>把疲惫部分归因于结构：卸掉「全是我不够努力」的包袱</li>
+    <li>照顾好自己：允许休息，休息不是道德缺陷</li>
+  </ol>
+  <h3>关键认知转变</h3>
+  <p>以前认为技术进步会让我更轻松、不够累是我不够努力；现在理解了在总需求未满足阶段，系统会利用疲惫创造新需求，AI 可能先监视而非解放。努力不应只为获得「更努力的资格」——若努力只让人更累，值得停下来问：这是在成全生活，还是在吞掉它？</p>
+</div>
+
+<div class="footer">知行小酒馆 E227 · 疲惫经济学 · 播客总结</div>
+</div>
+    </div>
+  </foreignObject>
+</svg>
