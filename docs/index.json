@@ -1,6 +1,16 @@
 [
   {
     "date": "2026-06-23",
+    "filename": "thinking_fast_slow_brain-总结.svg",
+    "title": "Vol.331 思考，快与慢：我的大脑为什么总是欺骗我",
+    "summary": "文化有限重读卡尼曼诺奖名著：系统一占95%决策且系统性犯错，系统二懒惰只盖章；锚定、损失厌恶、峰终定律与禀赋效应，附消费防坑与AI幻觉对照",
+    "tags": ["心理学", "行为经济学", "认知科学"],
+    "url": "https://www.xiaoyuzhoufm.com/episode/69e576c91d989496e70382ca",
+    "duration": "1小时56分",
+    "svg_height": 9495
+  },
+  {
+    "date": "2026-06-23",
     "filename": "fatigue_economics_e227-总结.svg",
     "title": "E227 疲惫经济学：为什么技术进步了，我们却更累了？",
     "summary": "雨白与温逸飞解析技术越进步越累的悖论：八小时工作制源于冷战劳工妥协、AI先做监工、疲惫催生外卖等千亿产业，以及结构性疲惫下个体如何卸压",
