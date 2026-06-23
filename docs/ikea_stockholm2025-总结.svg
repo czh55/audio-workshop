@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="10271" viewBox="0 0 1320 10271">
+  <foreignObject x="0" y="0" width="1320" height="10271">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,0.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:20px 28px;text-align:center;min-width:160px;font-weight:700;font-size:16px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3{color:#92400e;margin-bottom:8px}
+.correction p{color:#92400e;font-size:15px}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,0.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.speaker{display:inline-block;font-size:13px;font-weight:600;padding:2px 10px;border-radius:12px;margin-right:8px}
+.speaker-host{background:#dbeafe;color:#1e40af}
+.speaker-guest{background:#ede9fe;color:#6b21a8}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,0.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,0.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,0.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}</style>
+      <div class="container">
+
+<h1>006. IKEA 最资深的"新人"：斯德哥尔摩2025系列</h1>
+<div class="meta">
+  <span class="tag tag-blue">播客</span>
+  <span class="tag tag-purple">余光Post</span>
+  <span class="tag tag-green">家居设计</span>
+  <span class="tag tag-orange">IKEA</span>
+  <span class="tag tag-gray">42分钟</span>
+</div>
+<div class="summary-line">
+<strong>一句话概括：</strong>《余光Post》惠思与设计师Jackie从感官设计、材质节奏与矿物配色拆解宜家斯德哥尔摩2025系列，并揭秘宜家三阶段新品孵化机制与30年复古循环论——复古不是买回单品，而是通过设计回到美好年代。
+</div>
+
+<div class="timeline">
+  <h3>关键时间轴</h3>
+  <div class="timeline-item"><span class="timeline-time">00:00</span><span class="timeline-text">开场：2025斯德哥尔摩系列在上海夏衍旧居发布，嘉宾前后脚装修亲历</span></div>
+  <div class="timeline-item"><span class="timeline-time">03:30</span><span class="timeline-text">感官设计概念：触觉优先于视觉，地毯是客厅氛围稳定器</span></div>
+  <div class="timeline-item"><span class="timeline-time">08:00</span><span class="timeline-text">北欧设计 vs 包豪斯：从工厂理性拉回自然森林</span></div>
+  <div class="timeline-item"><span class="timeline-time">12:30</span><span class="timeline-text">材质混搭的节奏感：丝绒-藤条-玻璃-金属的明暗线与心理埋伏</span></div>
+  <div class="timeline-item"><span class="timeline-time">18:00</span><span class="timeline-text">6:3:1配色法则与跳色逻辑：矿物染料色 vs 化学荧光色</span></div>
+  <div class="timeline-item"><span class="timeline-time">24:00</span><span class="timeline-text">宜家新品三阶段：出发点→趋势捕捉→创意原型与压力测试</span></div>
+  <div class="timeline-item"><span class="timeline-time">32:00</span><span class="timeline-text">斯德哥尔摩编年史：1984年诞生，2025自然性高峰，风格实验室角色</span></div>
+  <div class="timeline-item"><span class="timeline-time">37:00</span><span class="timeline-text">30年复古循环论、童年滤镜与阿兰德·波顿「设计是爱的具象化」</span></div>
+</div>
+
+<div class="map">
+  <h2>核心脉络：从感官到商业的三条主线</h2>
+  <div class="diagram">
+    <div class="node">感官设计<br/><small>触觉&gt;视觉</small><br/><small>材质心理映射</small></div>
+    <div class="arrow">→</div>
+    <div class="node node-green">设计拆解<br/><small>材质节奏</small><br/><small>自然配色</small></div>
+    <div class="arrow">→</div>
+    <div class="node node-orange">商业机制<br/><small>三阶段孵化</small><br/><small>对抗性合作</small></div>
+    <div class="arrow">→</div>
+    <div class="node">复古理论<br/><small>30年循环</small><br/><small>风格实验室</small></div>
+  </div>
+  <p style="text-align:center;margin-top:16px;font-size:15px;color:#64748b">斯德哥尔摩2025 = 感官设计巅峰 × 可持续供应链就绪 × 自然性复古高峰的交汇点</p>
+</div>
+
+<div class="correction">
+  <h3>⚠ 常见误解 / 认知纠偏</h3>
+  <p><strong>误解1："北欧设计就是性冷淡全白"</strong> → 2025系列材质丰富、跳色大胆（姜黄、孔雀蓝、正绿），关键是自然联想而非纯色堆砌。</p>
+  <p style="margin-top:8px"><strong>误解2："设计就是好看就行"</strong> → 感官设计中<strong>触觉优先于视觉</strong>，坐下、躺下、握持的体验比外观更有决定性。</p>
+  <p style="margin-top:8px"><strong>误解3："宜家新品是设计师拍脑袋"</strong> → 设计、市场、工程三团队对抗性合作，经压力测试与成本演算才能量产。</p>
+  <p style="margin-top:8px"><strong>误解4："复古就是买回老单品"</strong> → 复古是<strong>通过设计回到美好年代</strong>，提供对当下的救赎，而非简单复刻。</p>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">一、感官设计：被低估的触觉力量</h2>
+
+  <div class="card">
+    <h3>感官设计</h3>
+    <p><b>核心机制：</b>设计不只管视觉好看，而是系统性考虑触觉、嗅觉、味觉、听觉，创造更沉浸的体验。在家居场景中，触感反而优先于视觉。</p>
+    <p><b>关键理解：</b>木头带来温暖自然感，金属带来理性冷静感，丝绒连接亲密柔和。材质对用户心理有系统性影响，已在工业设计领域有大量研究支撑。</p>
+    <p><b>典型场景：</b>星巴克用咖啡香味引导消费；Jellycat毛绒玩具优先设计触觉安全感；地毯的柔软会延伸到整个视觉评估体系，哪怕脚没踩到。</p>
+    <div class="relation">相关概念：与纯视觉导向的包豪斯钢管椅形成对比——后者给人"businessman"的冷峻感，北欧设计则把人拉回自然森林。</div>
+    <div class="highlight">原文依据：没有人买地毯是为了使用——但地毯是客厅氛围的稳定器，家是我们能够温柔嵌入的空间。</div>
+  </div>
+
+  <div class="card card-purple">
+    <h3><span class="speaker speaker-guest">嘉宾观点</span>地毯：触觉延伸视觉评估</h3>
+    <p>装修时纠结是否铺地毯——清洁麻烦是现实，但地毯的柔软舒适会以偏概全作用到整个家。感官对人的认知有很强引导性，这是被低估的设计维度。</p>
+    <div class="quote">"我能把这种柔软舒适的感觉和想象，以偏概全的作用到整个家。"</div>
+    <p><b>适用边界：</b>适合客厅、卧室等需要"嵌入感"的空间；不适合高人流、易脏区域（需权衡清洁成本）。</p>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">二、北欧设计：包豪斯的人性化变体</h2>
+
+  <div class="card">
+    <h3>北欧设计 vs 现代主义</h3>
+    <p><b>核心机制：</b>北欧设计继承包豪斯的功能性、几何结构、去装饰、工业量产标准，但填入人文主义血肉——强调人与自然共处、生活节奏平缓、可感知性。</p>
+    <p><b>关键理解：</b>包豪斯（1919-1960）崇尚功能追随形式；北欧设计盛期在六七十年代，天然感官化，把人从工厂办公室拉回自然森林，更有人味。</p>
+    <p><b>典型场景：</b>斯德哥尔摩系列用哑光温润木纹、不锋利边角，营造触觉安全感与视觉舒适。</p>
+    <div class="relation">相关概念：与法式奶油风（奶白色堆砌）对比——全柔软材质会像"窗帘城"，需棉麻对金属、木头衬托玻璃来制造心理起伏。</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">三、材质混搭的节奏感</h2>
+
+  <div class="card card-purple">
+    <h3><span class="speaker speaker-guest">嘉宾观点</span>材质混搭如音乐节奏</h3>
+    <p>2025系列有明线（哑光温润木纹、不锋利边角）和暗线（丝绒→木头→藤条→玻璃→金属→木质，循环跳跃）。柔软与坚硬、冷感与温度交替，制造"寻宝的快乐"和心理埋伏。</p>
+    <div class="quote">"它仿佛你听音乐一样，有高音有低音，有叮叮咚咚的装饰音——材质混搭提供视觉节奏感。"</div>
+    <p><b>典型场景：</b>台灯底座用石料（厚实可靠），支撑用纤细金属（坚固精致），灯罩用织物（柔软舒适）——父母评价"厚实=好东西"其实来自底座而非灯罩。</p>
+    <div class="action">怎么落地：遵循6:3:1配色法则——主色占60%、辅助色30%、点缀色10%，比例比具体颜色更重要。</div>
+  </div>
+
+  <div class="card card-orange">
+    <h3>⚠ 全柔软材质的陷阱</h3>
+    <p><b>原因：</b>如果一个房间全部用柔软丝绒，不会像家而像窗帘城。真正让人觉得可住的空间，需要多材质对比制造气口。</p>
+    <div class="pitfall">嘉宾说法：棉麻对金属，木头衬托玻璃，藤编穿插皮革——脆弱与坚固、柔软与坚硬要交替。</div>
+    <p><b>解法：</b>在奶油风/浅色家中，用30%的对比材质（金属灯、藤椅、木桌）打破单调。</p>
+    <p><b>严重程度：</b>小心（审美疲劳，非功能性问题）</p>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">四、配色逻辑：自然联想 vs 化学注意力</h2>
+
+  <div class="card">
+    <h3>跳色背后的自然逻辑</h3>
+    <p><b>核心机制：</b>正绿、姜黄、孔雀蓝看似跳脱，但遵循天然染料/矿物染料渊源——引发北欧清冷又温润的森林联想，关乎温度和湿度而非眼睛喜欢绿色。</p>
+    <p><b>关键理解：</b>同期春季系列用明黄、亮粉（现代化学染料）表达Playful和及时行乐，与斯德哥尔摩"安静自然低调时间感"的底色冲突。</p>
+    <p><b>典型场景：</b>孔雀蓝像千里江山图的矿物蓝；姜黄联想到香料；亮粉则让人想到霓虹灯——工业化产物，不适合自然系系列。</p>
+    <div class="highlight">原文依据：你不是眼睛喜欢绿色，而是大脑补充了身处在北欧清冷又有点温润的森林当中的联想。</div>
+  </div>
+
+  <div class="card">
+    <h3>配色对比：斯德哥尔摩 vs 春季系列</h3>
+    <table>
+      <tr><th>维度</th><th>斯德哥尔摩2025</th><th>春季系列</th><th>一句话结论</th></tr>
+      <tr><td>色彩来源</td><td>天然/矿物染料</td><td>现代化学染料</td><td>染料体系决定情绪叙事</td></tr>
+      <tr><td>情绪表达</td><td>安静、自然、时间感</td><td>Playful、及时行乐</td><td>颜色在说不同故事</td></tr>
+      <tr><td>典型色</td><td>正绿、姜黄、孔雀蓝</td><td>明黄、亮粉</td><td>同样跳色，联想完全不同</td></tr>
+      <tr><td>与材质关系</td><td>相互增强自然感</td><td>与哑光材质冲突</td><td>配色必须服从系列底色</td></tr>
+    </table>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">五、宜家新品孵化：三阶段对抗性合作</h2>
+
+  <div class="card">
+    <h3>宜家新品诞生三步曲</h3>
+    <p><b>第一步·出发点：</b>设计团队发现独立设计师品牌（如&amp;Tradition蘑菇灯）受中产追捧但价格高；市场团队发现中等价位设计款存在缺口——消费者不愿为基础款妥协，又买不起设计师原作。</p>
+    <p><b>第二步·趋势捕捉：</b>设计团队参考米兰家具展、潘通色趋势，输出设计预测（如中国红 vs 北欧红的文化差异）；市场团队做用户研究（愿为实木多付15%但拒绝超30%）和竞品走查。</p>
+    <p><b>第三步·创意原型：</b>设计师自由创作（如想象斯德哥尔摩50㎡公寓的完美家具），工程团队审核量产可行性，市场团队压力测试（混摆竞品观察消费者是否多走两步去摸）。</p>
+    <div class="relation">相关概念：成本演算团队解数学题——销量达10万件能否将真皮沙发压到1799欧。</div>
+  </div>
+
+  <div class="card card-purple">
+    <h3><span class="speaker speaker-guest">嘉宾观点</span>设计是带着镣铐跳舞</h3>
+    <p>设计师要与甲方、供应商、工厂多方"战斗"——实际是头脑风暴和灵感碰撞，各部门带着自己发现的问题和解决方案一起去碰，不伤情感。</p>
+    <div class="quote">"设计本身就是带着镣铐跳舞，没有人会让你百分之百自由发挥出一个对世界没有任何帮助的东西。"</div>
+    <p><b>适用边界：</b>宜家机制比中小设计公司更成熟；不健康的是利益纠葛型争吵，正常的设计反驳是快乐且有激情的。</p>
+  </div>
+
+  <div class="card">
+    <h3>三团队职责对比</h3>
+    <table>
+      <tr><th>团队</th><th>核心产出</th><th>关键方法</th><th>博弈焦点</th></tr>
+      <tr><td>设计团队</td><td>设计预测、原型、色彩研究</td><td>米兰展、潘通合作、文化色彩差异分析</td><td>创意自由度 vs 量产约束</td></tr>
+      <tr><td>市场团队</td><td>用户研究、竞品分析、成本演算</td><td>价格敏感度量化、混摆压力测试</td><td>市场可行性 vs 设计野心</td></tr>
+      <tr><td>工程团队</td><td>量产可行性审核</td><td>供应链评估、规模化降本路径</td><td>工艺极限 vs 设计表达</td></tr>
+    </table>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">六、复古理论：30年循环与风格实验室</h2>
+
+  <div class="card">
+    <h3>斯德哥尔摩编年史</h3>
+    <p><b>核心机制：</b>斯德哥尔摩系列1984年诞生，是宜家内部的风格实验室——试验材料比例、模块、色彩策略，成功设计会"毕业"进入更大众化的常规系列。</p>
+    <p><b>关键理解：</b>并非一直主张自然性——历代有都市感、装饰性高峰；2025迎来自然性高峰，恰逢可持续原料供应链准备就绪。</p>
+    <p><b>典型场景：</b>宜家博物馆（IKEA Museum）在瑞典Älmhult总部，设计档案馆真实存在，编年题是archive而非抽象归档。</p>
+    <div class="highlight">原文依据：斯德哥尔摩是先锋测试区，成功设计会毕业进入其他更大众化、更大规模生产的线里。</div>
+  </div>
+
+  <div class="card card-purple">
+    <h3><span class="speaker speaker-host">主持人</span>30年复古循环论</h3>
+    <p>人的审美敏感期在5-15岁，对童年接触的style产生强烈共鸣。欧美28-32年循环（千禧一代2010年追捧波西米亚风源于童年CP文化）；中国可能压缩至20年（飞跃白球鞋、大白兔香水都在召唤回忆）。</p>
+    <div class="quote">"我们不会盲目复刻，而是选择社交媒体上已被新一代自发讨论的旧款——通常发生在原版推出后28到32年。"</div>
+    <p>宜家还通过欧洲拍卖行成交指数、二手市场标签等数据考古精准捕捉复刻信号，并等待技术突破（如可持续材料）实现当年未能完成的梦。</p>
+  </div>
+
+  <div class="card card-purple">
+    <h3><span class="speaker speaker-guest">嘉宾观点</span>复古是对当下的救赎</h3>
+    <p>复古不是再度拥有一个单品，而是通过它回到美好年代。时尚界追捧千禧年经济上行美学，家具回归现代主义时期——暂时回到高产能、审美爆发、信心不过剩的氛围。</p>
+    <div class="quote">阿兰德·波顿："我的设计是爱的具象化。"——长辈的爱变成奶奶用过的藤椅，自然的爱变成花园奔跑体验幻化的印花沙发。</div>
+    <p><b>适用边界：</b>复古潮流有周期性，但"爱的具象化"是持久需求；技术就绪（可持续供应链）是2025自然性高峰的现实前提。</p>
+  </div>
+</div>
+
+<div class="card card-purple">
+  <h3>💡 心法：设计解决问题，而非自由表达</h3>
+  <p><b>为什么重要：</b>设计师若只追求100%自由发挥，产出可能对世界毫无帮助；宜家三团队对抗性合作恰恰是把设计拉回现实约束下的最优解。</p>
+  <div class="quote">"解决问题本身就是设计当中必须要去思考的——你必须要一直带着这个想法。"</div>
+  <div class="action">怎么落地：装修搭配时先问"这个材质解决什么感官/情绪问题"，再问"好不好看"。</div>
+  <p><b>适用边界：</b>艺术表达可以突破功能，但家居设计必须在日常使用约束内运作。</p>
+</div>
+
+<div class="conclusion">
+  <h2>总结与行动</h2>
+  <h3>核心要点</h3>
+  <ul>
+    <li>感官设计中触觉优先于视觉——地毯、材质触感会延伸到整个空间的情绪评估</li>
+    <li>材质混搭需要节奏感：柔软与坚硬、冷感与温度交替，制造心理起伏和"寻宝快乐"</li>
+    <li>跳色要遵循自然联想逻辑（矿物染料渊源），而非化学荧光色的注意力经济</li>
+    <li>宜家新品经三阶段孵化：出发点→趋势捕捉→创意原型，三团队对抗性合作</li>
+    <li>斯德哥尔摩是风格实验室，2025自然性高峰 × 可持续供应链就绪的交汇</li>
+    <li>30年复古循环源于5-15岁审美敏感期，复古是"爱的具象化"而非简单复刻</li>
+  </ul>
+  <h3>行动清单</h3>
+  <ol>
+    <li>用6:3:1法则审视家中配色：主色60%、辅助色30%、点缀色10%，打破全白奶油风的单调</li>
+    <li>在客厅/卧室引入一种对比材质（藤椅、金属灯、地毯），制造触觉与视觉的节奏感</li>
+    <li>选家具时先摸再判——厚实感、温润感比图片好看更重要</li>
+    <li>跳色选择有自然联想的矿物色系（姜黄、孔雀蓝），避开霓虹感化学色</li>
+    <li>去宜家时重点逛斯德哥尔摩系列，把它当作设计趋势的风向标而非单纯购物</li>
+  </ol>
+  <h3>关键认知转变</h3>
+  <p>以前认为"北欧风=性冷淡全白、好看就行"——现在理解了设计是感官系统工程：触觉引导认知、材质制造节奏、配色讲述自然故事，而宜家背后有一套精密的三团队孵化机制与30年复古数据考古，让"好设计"不是设计师的灵光一现，而是市场、工程与创意的对抗性最优解。</p>
+</div>
+
+<div class="footer">来源：余光Post · IKEA 斯德哥尔摩2025系列</div>
+</div>
+    </div>
+  </foreignObject>
+</svg>
