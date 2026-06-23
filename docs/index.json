@@ -1,6 +1,16 @@
 [
   {
     "date": "2026-06-23",
+    "filename": "rekoe_victim_mentality-总结.svg",
+    "title": "17. 为什么每个人都觉得自己是受害者？",
+    "summary": "热可可施宇解析受害者文化：从荣誉/尊严文化演变到自嬷时代，揭示美德受害者与比惨竞争的心理机制，探讨在承认创伤与反思受害者叙事间如何获得真正的自我力量",
+    "tags": ["社会", "心理", "文化"],
+    "url": "https://www.xiaoyuzhoufm.com/episode/69c176b0521e5c0a80abbf7e",
+    "duration": "42分16秒",
+    "svg_height": 9243
+  },
+  {
+    "date": "2026-06-23",
     "filename": "ev21_rag_upgrade_podcast-总结.svg",
     "title": "车企客服V2.1：企业级RAG架构升级精解报告",
     "summary": "车企客服从V1硬编码到V2.1 RAG架构的教科书级升级：Markdown知识库、向量+BM25混合检索、层次化切片与Agent精简，演示机到生产机的工程化落地路径",
