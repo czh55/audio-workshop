@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="11295" viewBox="0 0 1320 11295">
+  <foreignObject x="0" y="0" width="1320" height="11295">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,0.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:20px 28px;text-align:center;min-width:160px;font-weight:700;font-size:16px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3{color:#92400e;margin-bottom:8px}
+.correction p{color:#92400e;font-size:15px}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,0.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.speaker{display:inline-block;font-size:13px;font-weight:600;padding:2px 10px;border-radius:12px;margin-right:8px}
+.speaker-host{background:#dbeafe;color:#1e40af}
+.speaker-guest{background:#ede9fe;color:#6b21a8}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,0.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,0.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,0.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}</style>
+      <div class="container">
+
+<h1>115.从大地到星辰，人类如何丈量世界？</h1>
+<div class="meta">
+  <span class="tag tag-blue">播客</span>
+  <span class="tag tag-purple">科学史</span>
+  <span class="tag tag-green">天文学</span>
+  <span class="tag tag-orange">1小时12分</span>
+</div>
+<div class="summary-line">
+从埃拉托斯特尼的影子到红移测距，人类从未站在宇宙之外，却在系统内部用八把「丈量世界的尺子」一层层搭建起从地球周长到宇宙膨胀的完整地图——核心启示是：有限观察 + 可靠关系 + 层层校准，就能在没有上帝视角时理解整体。
+</div>
+
+<div class="timeline">
+  <h3>关键时间轴</h3>
+  <div class="timeline-item">
+    <span class="timeline-time">00:00</span>
+    <span class="timeline-text">开场：妻子问「科学爱好者看星空是否少了美感」→ 引出丈量世界主题</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">04:45</span>
+    <span class="timeline-text">第一把尺子：埃拉托斯特尼用两地正午影子夹角 7.2° 估算地球周长</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">13:30</span>
+    <span class="timeline-text">第二把尺子：经度 = 时间差 × 15°，哈里森航海钟解决大航海定位</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">24:00</span>
+    <span class="timeline-text">第三把尺子：大地测量三角网 + GPS 多卫星球面交会</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">40:00</span>
+    <span class="timeline-text">第四把尺子：金星凌日视差法确定天文单位，解锁太阳系尺度</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">52:00</span>
+    <span class="timeline-text">第五把尺子：地球轨道为基线测恒星周年视差，贝塞尔测天鹅座 61 星</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">63:00</span>
+    <span class="timeline-text">第六、七把尺子：造父变星与 Ia 型超新星标准烛光，哈勃确认河外星系</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">72:00</span>
+    <span class="timeline-text">第八把尺子：光谱红移 + 哈勃定律，测量宇宙膨胀历史</span>
+  </div>
+</div>
+
+<div class="map">
+  <h2>核心脉络：丈量世界的八把尺子</h2>
+  <div class="diagram">
+    <div class="node">影子<br/>地球大小</div>
+    <span class="arrow">→</span>
+    <div class="node">钟表<br/>经度定位</div>
+    <span class="arrow">→</span>
+    <div class="node">三角网<br/>大地测量</div>
+    <span class="arrow">→</span>
+    <div class="node node-green">视差<br/>太阳系</div>
+    <span class="arrow">→</span>
+    <div class="node node-green">轨道视差<br/>恒星距离</div>
+    <span class="arrow">→</span>
+    <div class="node node-orange">标准烛光<br/>星系距离</div>
+    <span class="arrow">→</span>
+    <div class="node node-orange">红移<br/>宇宙膨胀</div>
+  </div>
+</div>
+
+<div class="correction">
+  <h3>⚠ 常见误解 / 认知纠偏</h3>
+  <p><b>误解 1：</b>天文学里「越亮越近、越大越近」——错。太阳视直径与月亮相近，但太阳远得多也大得多；亮度可能是本身亮，也可能是距离近。<br/>
+  <b>误解 2：</b>测不到恒星视差 = 地球不动——错。恒星太远，当时仪器精度不够；测不到不代表没有公转。<br/>
+  <b>误解 3：</b>红移星系「飞离我们」= 我们在宇宙中心——错。均匀膨胀宇宙中，每个观测者都看到远处星系远离自己，无中心。<br/>
+  <b>误解 4：</b>GPS 是卫星「看见」你——错。本质是信号传播时间差测距，与航海钟「时间换空间」同逻辑。</p>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">第一把尺子：影子丈量地球</h2>
+
+  <div class="card">
+    <h3>埃拉托斯特尼的几何推算</h3>
+    <p><b>核心机制：</b>夏至正午，塞伊尼（阿斯旺）太阳直射井底无影，亚历山大港同一时刻立杆有影。两地垂直方向不同 → 地球是球体 → 地心角约 7.2°，即 1/50 圆周。</p>
+    <p><b>关键理解：</b>不需要绕地球走一圈，局部可测现象（影子角度）+ 合理模型（球体 + 平行阳光）→ 整体尺度问题转化为几何问题。</p>
+    <p><b>典型场景：</b>任何「无法直接测量整体，但可测局部差异」的尺度问题，都可借鉴此思路。</p>
+    <div class="relation">相关概念：与三角测量、视差法同属「小角度推大距离」几何家族</div>
+    <div class="highlight">原文依据：「局部的影子角度，可以对应到整个地球的原周……你不需要把整个地球走完，你只需要找到一个可以被测量的局部的现象」</div>
+  </div>
+
+  <div class="card card-purple">
+    <h3>
+      <span class="speaker speaker-host">主持人提问</span>
+      如果地球是平的会怎样？
+    </h3>
+    <p>平行光照射下，两地影子应一致；现实是一边无影一边有影 → 推翻平地假设。同一现象，普通人只见太阳方位，科学家看到曲率与地心角。</p>
+    <div class="quote">「大多数人看到影子只会知道太阳在哪边，而埃拉托斯特尼看到的影子，却能想到地球的曲率，想到地心角，想到整个地球的周长」</div>
+  </div>
+
+  <div class="card card-orange">
+    <h3>⚠ 误差不等于方法无效</h3>
+    <p><b>原因：</b>两地距离来自商队行程、不在同一经线、塞伊尼不在北回归线上——误差客观存在。</p>
+    <div class="pitfall">不要因测量误差否定几何框架的正确性</div>
+    <p><b>解法：</b>区分「方法是否成立」与「单次数据是否精确」；先建立正确关系，再迭代提高精度。</p>
+    <p><b>严重程度：</b>可忽略（对理解科学思维而言）</p>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">第二把尺子：时间丈量经度</h2>
+
+  <div class="card">
+    <h3>纬度 vs 经度：难度天壤之别</h3>
+    <p><b>核心机制：</b>纬度靠天体高度（北极星/正午太阳 + 六分仪）易测；经度无直观高度变化，核心是比较本地正午与基准地（格林尼治）的时间差——1 小时 ≈ 15° 经度。</p>
+    <p><b>关键理解：</b>地球自转把「时间差」变成「空间差」；航海钟表面计时，实际在定位。</p>
+    <p><b>典型场景：</b>海上无地标导航、任何需要「远程时间同步」的定位系统（GPS 同理）。</p>
+    <div class="relation">相关概念：与 GPS 信号传播时间测距、雷达测行星距离共享「时间 ↔ 空间」底层逻辑</div>
+    <div class="highlight">原文依据：「航海钟表面上在计时，它实际上是在定位，它是把时间差换成了空间差」</div>
+  </div>
+
+  <div class="card card-purple">
+    <h3>
+      <span class="speaker speaker-guest">哈里森工程路线</span>
+      木匠出身，迭代造 H1→H4 航海钟
+    </h3>
+    <p>不依赖钟摆（船晃）、设计温度补偿（不同金属膨胀抵消）、减少摩擦——工程化逐点改进，H4 接近怀表体积却达精度要求。类比现代 MVP 迭代发布。</p>
+    <div class="quote">「我们先搞一个能用的 MVP，然后一点一点的往前迭代」</div>
+  </div>
+
+  <div class="card card-orange">
+    <h3>⚠ 时间误差是生死问题</h3>
+    <p><b>原因：</b>地球每 4 分钟转 1°，赤道上 1° ≈ 111 km；几天累积几秒误差 → 偏航百余公里 → 触礁海难。</p>
+    <div class="pitfall">历史上因经度不准造成过严重海难</div>
+    <p><b>解法：</b>英国 1714 年经度法案悬赏；天文月距法 vs 精密钟表两条路线并行。</p>
+    <p><b>严重程度：</b>致命</p>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">第三把尺子：三角网与 GPS</h2>
+
+  <div class="card">
+    <h3>大地测量：从原点到三角网</h3>
+    <p><b>核心机制：</b>国家大地原点（如陕西泾阳 7 吨花岗岩标石）经天文观测得绝对经纬度 → 引出基准边 AB → 三角测量扩展控制网 → 河流道路村庄挂靠骨架。</p>
+    <p><b>关键理解：</b>经纬度是数字，地上不会写着坐标；必须先把真实世界映射进统一参考系（如 WGS84）。</p>
+    <p><b>典型场景：</b>国土测绘、城市基建、现代「国家水准点」圆形金属片仍受法律保护。</p>
+    <div class="action">怎么落地：路上见到刻编号的圆形金属水准点，即三角网节点的物理遗存</div>
+    <p><b>适用边界：</b>大范围须考虑地球椭球（参考椭球 + 大地基准），不同基准系下同一地点经纬度会有差异。</p>
+  </div>
+
+  <div class="card">
+    <h3>GPS 原理：空间三角网</h3>
+    <p><b>核心机制：</b>手机同时收多颗卫星信号；每颗卫星告知位置 + 信号发出时间 → 光速 × 传播时间 = 距离 → 一颗卫星限定球面，三颗交会定一点，第四颗修正时钟误差。</p>
+    <p><b>关键理解：</b>不是卫星「看见」你，是几何交会；高楼峡谷定位差因信号反射导致距离算错。</p>
+    <div class="highlight">原文依据：「GPS 的原理，它依然是一个几何问题……三角形从地面的三角网，变成了你和卫星之间的空间关系」</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">第四至五把尺子：视差丈量宇宙距离</h2>
+
+  <div class="card">
+    <h3>视差法：把地球当「双眼」</h3>
+    <p><b>核心机制：</b>已知基线长度 + 观测角度差 → 三角形确定距离。金星凌日：地球上南北观测者看到黑点路径不同 → 得地火距离 → 结合开普勒轨道比例（地球 1，金星 0.72）解锁整个太阳系公里数 → 定义 1 天文单位。</p>
+    <p><b>关键理解：</b>开普勒定律给比例地图，视差法给绝对标尺；二者结合才有一 AU = 1.5 亿公里。</p>
+    <p><b>适用边界：</b>基线有限——地球直径测太阳系够用，测恒星则需更大基线。</p>
+  </div>
+
+  <div class="card card-purple">
+    <h3>
+      <span class="speaker speaker-guest">周年视差</span>
+      地球轨道当「双眼」，1 月 vs 7 月观测
+    </h3>
+    <p>基线从地球直径扩展到 2 AU（约 3 亿公里）。贝塞尔 19 世纪测天鹅座 61 星视差 &lt; 1 角秒（约几公里外看硬币的夹角）→ 恒星距离进入定量时代。</p>
+    <div class="quote">「测不到视差，不是说明地球没有动，只是说明仪器还不够精密」</div>
+  </div>
+
+  <div class="card card-orange">
+    <h3>⚠ 黑滴效应干扰凌日观测</h3>
+    <p><b>原因：</b>金星边缘与太阳盘面接触时出现拉伸粘连，难判精确时刻；阴天则数年准备白费。</p>
+    <p><b>解法：</b>后来雷达往返时间测距（光速 × 时间/2）替代光学凌日。</p>
+    <p><b>严重程度：</b>小心（历史观测），可忽略（现代雷达）</p>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">第六至七把尺子：标准烛光与距离阶梯</h2>
+
+  <div class="card">
+    <h3>造父变星：周期 ↔ 光度标签</h3>
+    <p><b>核心机制：</b>造父变星亮度周期性变化，周期越长本身越亮。测周期 → 知绝对光度 → 对比视亮度 → 距离 ∝ 1/√亮度（平方反比律）。</p>
+    <p><b>关键理解：</b>哈勃在仙女座发现造父变星，距离远超银河系 → 确认河外星系存在，改写宇宙尺度认知。</p>
+    <div class="relation">距离阶梯第一层：视差法校准附近造父变星 → 用于更远星系</div>
+    <div class="highlight">原文依据：「进出的方法校准远出的方法，远出的方法再向外扩展……宇宙测距从来都是这样一层一层搭起来的」</div>
+  </div>
+
+  <div class="card">
+    <h3>Ia 型超新星：更远的标准烛光</h3>
+    <p><b>核心机制：</b>白矮星吸积伴星物质至临界质量热核失控爆炸，峰值亮度经光变曲线形状校正后较一致；亮到可观测极远星系。</p>
+    <p><b>适用边界：</b>星系太远则无法分辨单颗造父变星；尘埃吸收会增大误差；低层校准误差会传递到高层。</p>
+    <div class="action">校准链：视差 → 造父变星 → Ia 型超新星 → 更远星系，每层依赖上一层</div>
+  </div>
+
+  <div class="card">
+    <h3>测距方法对比</h3>
+    <table>
+      <tr><th>维度</th><th>视差法</th><th>造父变星</th><th>Ia 型超新星</th><th>红移</th></tr>
+      <tr><td>原理</td><td>纯几何角度</td><td>周期-光度关系</td><td>爆炸峰值光变曲线</td><td>光谱线波长偏移</td></tr>
+      <tr><td>可靠度</td><td>最高（几何）</td><td>高（需视差校准）</td><td>高（需造父校准）</td><td>需宇宙学模型</td></tr>
+      <tr><td>可达距离</td><td>附近恒星</td><td>本星系群/邻近星系</td><td>远距星系</td><td>宇宙学尺度</td></tr>
+      <tr><td>一句话结论</td><td>地基，不可省略</td><td>打开河外星系大门</td><td>推到宇宙深处</td><td>测膨胀历史非单点距离</td></tr>
+    </table>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">第八把尺子：红移与宇宙膨胀</h2>
+
+  <div class="card card-purple">
+    <h3>
+      <span class="speaker speaker-host">主持人阐释</span>
+      红移不是颜色变深，是谱线整体偏移
+    </h3>
+    <p>实验室知氢谱线应在 656.3 nm，遥远星系中出现在 720 nm → 整体红移。z = Δλ/λ；哈勃定律 v = H₀ × d。越遥远红移越大。</p>
+    <div class="quote">「当我们看向远方，其实就是看向过去……红移既是距离指标，它同时又回到了时间指标」</div>
+  </div>
+
+  <div class="card">
+    <h3>宇宙膨胀 vs 星系飞离</h3>
+    <p><b>核心机制：</b>星系镶嵌在空间中，空间本身膨胀拉长光波；气球表面各点相互远离，无中心点——每个观测者都见远处星系退行。</p>
+    <p><b>关键理解：</b>红移测距需宇宙学模型（物质密度、暗能量、曲率）；靠 Ia 型超新星距离校准红移-距离关系。</p>
+    <p><b>适用边界：</b>本节目止于红移；CMB、BAO、引力波等更大尺度工具更技术流。</p>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">科学思维：系统内部的丈量</h2>
+
+  <div class="card card-purple">
+    <h3>💡 心法：没有上帝视角，仍能建立整体知识</h3>
+    <p><b>为什么重要：</b>人类从未站在地球外、太阳系外、宇宙外；只有局部、有限的观察——影子、星光、钟表的滴答。</p>
+    <div class="quote">「科学真正厉害的地方就在于，它不要求我们一开始就拥有全部答案……在有限的观察里找出可靠的关系」</div>
+    <div class="action">怎么落地：遇到大问题，先找可测量的局部量，建立模型关系，再层层外推并交叉验证</div>
+    <p><b>适用边界：</b>关系必须稳定、可验证、能与其他事实互证；不能跳过低层校准直接信任高层推论。</p>
+  </div>
+
+  <div class="card card-purple">
+    <h3>
+      <span class="speaker speaker-guest">妻子之问</span>
+      科学理性会剥夺星空之美吗？
+    </h3>
+    <p>恰恰相反：了解每束光背后的距离、时间、元素与膨胀故事，星空反而更丰富。45 亿光年外的光，是那颗星球 45 亿年前的样子。</p>
+    <div class="quote">「每一束星光背后都有无穷多的故事」</div>
+  </div>
+</div>
+
+<div class="conclusion">
+  <h2>总结与行动</h2>
+  <h3>核心要点</h3>
+  <ul>
+    <li>丈量世界靠八把递进尺子：影子 → 钟表 → 三角网 → 视差 → 轨道视差 → 造父变星 → 超新星 → 红移</li>
+    <li>时间与空间在测距中密不可分：经度、GPS、雷达、红移皆然</li>
+    <li>宇宙距离是「阶梯」而非单一方法：每层校准下一层，误差会传递</li>
+    <li>天文学不能靠亮度/大小猜距离，须几何或已知标准烛光</li>
+    <li>科学的力量：系统内部、局部观察，靠稳定可验证关系理解整体</li>
+  </ul>
+  <h3>行动清单</h3>
+  <ol>
+    <li>下次看地图蓝点：联想经纬度、大地原点、卫星时间测距的数百年链条</li>
+    <li>抬头看星时：试分辨视差直觉——闭一只眼判断远近会变难，这恰是双眼测距原理</li>
+    <li>读科学新闻涉及「亿光年」：追问用了哪把尺子、低层如何校准</li>
+    <li>遇「越亮越近」直觉：主动区分固有亮度与距离衰减</li>
+    <li>把大问题拆成「可测局部量 + 模型关系」，而非追求一步到位的全局答案</li>
+  </ol>
+  <h3>关键认知转变</h3>
+  <p>以前认为丈量就是拿尺子量长度；现在理解了人类其实在读信号——影子角度、钟表时差、三角角度、光度衰减、谱线红移——在从未离开系统内部的前提下，一层层搭建起关于整个宇宙的地图。我们不在宇宙中心，但仍能理解宇宙。</p>
+</div>
+
+</div>
+    </div>
+  </foreignObject>
+</svg>
