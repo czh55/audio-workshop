@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="10761" viewBox="0 0 1320 10761">
+  <foreignObject x="0" y="0" width="1320" height="10761">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,0.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:20px 28px;text-align:center;min-width:160px;font-weight:700;font-size:16px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3{color:#92400e;margin-bottom:8px}
+.correction p{color:#92400e;font-size:15px}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,0.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.speaker{display:inline-block;font-size:13px;font-weight:600;padding:2px 10px;border-radius:12px;margin-right:8px}
+.speaker-host{background:#dbeafe;color:#1e40af}
+.speaker-guest{background:#ede9fe;color:#6b21a8}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,0.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,0.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,0.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}</style>
+      <div class="container">
+
+<h1>91｜一节户外地理课</h1>
+<div class="meta">
+  <span class="tag tag-blue">播客</span>
+  <span class="tag tag-purple">山合作用</span>
+  <span class="tag tag-green">户外地理</span>
+  <span class="tag tag-orange">57分钟</span>
+</div>
+<div class="summary-line">
+  高中地理教师兼科普博主张老师，应《山合作用》主播邀请，为户外徒步者系统解答冰川、湖泊颜色、等高线、营地选址、鳌太线、横断山脉、峡湾误区、植被判海拔、找水源、云海雷电等实战问题——地理的灵魂是实践，看懂风景比打卡风景更能提升徒步体验。
+</div>
+
+<div class="timeline">
+  <h3>关键时间轴</h3>
+  <div class="timeline-item">
+    <span class="timeline-time">03:17</span>
+    <span class="timeline-text">开场：地理老师户外是否像「开了天眼」</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">08:12</span>
+    <span class="timeline-text">冰川为何特别：暴力塑造地貌、冰塔林形成机制</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">18:50</span>
+    <span class="timeline-text">高原湖泊颜色差异：矿物质、冰川粉、喀斯特碳酸盐</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">20:02</span>
+    <span class="timeline-text">等高线入门：疏密判坡度、重合判陡崖、弯曲判山谷山脊</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">25:10</span>
+    <span class="timeline-text">鳌太线危险解析：南北方分界、冷暖空气交汇</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">28:40</span>
+    <span class="timeline-text">横断山脉：板块交界、二郎山隧道两侧气候巨变</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">31:24</span>
+    <span class="timeline-text">中国没有峡湾：冰川槽 vs 长江三峡流水切割</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">34:11</span>
+    <span class="timeline-text">植被判海拔：阔叶树、针叶树、高山杜鹃、石海</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">38:19</span>
+    <span class="timeline-text">户外找水源：沿山谷低处、干旱区看树木分布</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">39:23</span>
+    <span class="timeline-text">云海条件：爬够高 + 山下有云 = 站在云层之上</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">46:35</span>
+    <span class="timeline-text">户外神器：奥维地图+两步路、Windy、地貌学原理</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">49:44</span>
+    <span class="timeline-text">雷雨避险：不做最高点、远离孤立大树、及时下撤</span>
+  </div>
+</div>
+
+<div class="map">
+  <h2>核心脉络</h2>
+  <div class="diagram">
+    <div class="node">徒步疑问</div>
+    <span class="arrow">→</span>
+    <div class="node-green">自然地理<br/>冰川·湖泊·植被</div>
+    <span class="arrow">→</span>
+    <div class="node-orange">气象地理<br/>云海·雷电·鳌太</div>
+    <span class="arrow">→</span>
+    <div class="node">实践工具<br/>地图·APP·书籍</div>
+    <span class="arrow">→</span>
+    <div class="node-green">安全决策<br/>营地·路线·量力而行</div>
+  </div>
+</div>
+
+<div class="correction">
+  <h3>⚠ 常见误解 / 认知纠偏</h3>
+  <p><b>三峡是峡湾？</b>不是。峡湾是冰川滑动压出槽后海平面上升灌水形成，只出现在高纬度沿海；三峡是长江在石灰岩上流水切割的淡水峡谷，先有河后有峡。</p>
+  <p><b>青苔长在石头北边能判方向？</b>理论上北半球阳面蒸发强、阴面湿润适合青苔，但迎风坡降水、地形遮挡等因素常盖过光照影响，户外实操不可靠。</p>
+  <p><b>地球水总量不变，冰川化了无所谓？</b>淡水主要储存在冰里，南极北极冰融化会入海变咸水，海平面上升威胁沿海城市；内陆冰川融水更是川西西藏居民饮水来源。</p>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">一、冰川：户外地理的核心 fascination</h2>
+
+  <div class="card">
+    <h3>冰川形成与「暴力」塑形</h3>
+    <p><b>核心机制：</b>足够冷 + 积雪逐年压实成冰（非水直接结冰）。低海拔圆润山形多被水温柔侵蚀；高海拔锋利山脊是冰川固体下滑摩擦岩石的「暴力」产物。</p>
+    <p><b>关键理解：</b>看到冰川意味着沿途可集齐森林、草原、荒漠等多样景观；中国冰川多在海拔4000米以上，海洋性冰川（川西）发育快、碎石多、难接近；大陆性冰川（如曲登尼玛）水气少、更干净。</p>
+    <p><b>典型场景：</b>冰塔林是冰川下滑速度不均裂开、顶部融化更快形成的特殊形态；冰川底部与地面摩擦也会加速融化，所以常从底部先化。</p>
+    <div class="relation">相关概念：冰塔林 ⊂ 冰川形态；海洋性冰川 vs 大陆性冰川按水分来源划分</div>
+    <div class="highlight">原文依据：「冰川它是一种非常暴力的塑造地貌的方式……高海拔地区的山就特别的锋利，因为它其实就是冰川这样直接摩擦出来的。」</div>
+  </div>
+
+  <div class="card card-purple">
+    <h3>
+      <span class="speaker speaker-guest">嘉宾观点</span>
+      冰川正在消亡，但值得趁早去看
+    </h3>
+    <p>整体趋势是消融快于积雪补充，夏季川西冰川补充、冬季消亡，但总量在减少。海平面上升威胁上海等沿海城市；内陆融水断供影响当地饮水。张老师心愿清单：西藏曲登尼玛、新疆慕士塔格，国外阿拉斯加。</p>
+    <div class="quote">「所以我一看到什么冰川，我就想着赶紧去看，我就怕以后看不了了。」</div>
+  </div>
+
+  <div class="card card-orange">
+    <h3>⚠ 接近野生冰川的安全坑</h3>
+    <p><b>原因：</b>我国海洋性冰川移动快、表层碎石多，靠近可能被落石砸中；景区冰川出于保护和安全一般禁止踏上。</p>
+    <div class="pitfall">嘉宾说法：「如果你靠近那个冰川的话就可能被碎石给砸到……除非你去徒步去一些比较野生的地方。」</div>
+    <p><b>解法：</b>新手选白铺龙沟（波密，当天往返）；老驴可评估中山峰冰塔林（3天、爬升3000米+，高反风险极高）。</p>
+    <p><b>严重程度：</b>致命（高海拔+未开发线路）</p>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">二、读图与路线：从等高线到奥维地图</h2>
+
+  <div class="card">
+    <h3>等高线三口诀</h3>
+    <p><b>核心机制：</b>等高线密集=坡度陡；多条等高线重合=陡崖；弯曲等高线突向高处=山谷，突向低处=山脊。</p>
+    <p><b>关键理解：</b>大脑处理等高线不够直观，张老师更推荐奥维地图的3D立体地形叠加两步路轨迹。</p>
+    <p><b>典型场景：</b>探线沿山谷走——坡度缓、水源足；设计路线优先「易走」而非「最近」。</p>
+    <div class="action">怎么落地：下载奥维地图，导入两步路轨迹，出发前看前方坡度和地形</div>
+    <p><b>适用边界：</b>陌生高海拔地区仍应参考成熟线路，自行设计风险极大。</p>
+  </div>
+
+  <div class="card">
+    <h3>观点对比：地图工具选型</h3>
+    <table>
+      <tr><th>维度</th><th>两步路</th><th>奥维地图</th><th>一句话结论</th></tr>
+      <tr><td>核心优势</td><td>轨迹导航、社区成熟</td><td>等高线+3D立体地形</td><td>轨迹用两步路，地形判断用奥维</td></tr>
+      <tr><td>学习成本</td><td>低，直接跟轨迹走</td><td>需叠加轨迹，但更直观</td><td>不必心算等高线疏密</td></tr>
+      <tr><td>天气参考</td><td>—</td><td>配合 Windy 看宏观趋势</td><td>川西雨季看季节比看单日预报靠谱</td></tr>
+    </table>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">三、营地与安全：地理视角的决策框架</h2>
+
+  <div class="card card-orange">
+    <h3>⚠ 扎营选址避坑清单</h3>
+    <p><b>远离陡崖下方：</b>高海拔夜间石缝水结冰撑开岩石，落石风险远高于白天感知。</p>
+    <p><b>远离河谷底部：</b>汇水好，洪水风险大。</p>
+    <p><b>远离牧道：</b>草地被踩秃=牛羊常走的路，曾有帐篷被牛踩烂的案例。</p>
+    <p><b>慎选山脊线：</b>风速大、鳌太线等南北气流交汇处天气变化剧烈，非理想营地。</p>
+    <p><b>理想位置：</b>半山腰避风平坦处，靠近河谷但不过低。</p>
+    <div class="pitfall">嘉宾说法：「山脊线一般不是一个理想的扎营的场所……熬太线就在一个山脊线上，南北两边的冷空气在这地方交汇。」</div>
+  </div>
+
+  <div class="card">
+    <h3>鳌太线为何危险</h3>
+    <p><b>人为因素：</b>装备不全。 <b>自然因素：</b>秦岭是我国南北分界线（0°C等温线、800mm降水线），冷暖空气交汇导致雾大、强对流、突发降温——像站在暖气房门口，一会冷一会热。</p>
+    <p><b>关键理解：</b>夏天上山穿短袖，次日冷空气加强可迅速失温；冰雹夏天更多（热气流上升凝结），非冬天专属。</p>
+    <div class="highlight">原文依据：「如果你今天上山的时候是暖空气强一点……但如果明天突然间冷空气变强了，那这个就迅速的降温，就会引发一些危险。」</div>
+  </div>
+
+  <div class="card card-purple">
+    <h3>
+      <span class="speaker speaker-host">主持人提问</span>
+      雷雨时躲树林里安全吗？
+    </h3>
+    <p>可以，但<b>不要站在明显更高的孤立大树下</b>——树是引雷体。空旷草地你是最高点则极危险。山腰多树区域相对安全。橡胶雨靴不能可靠防雷，雷可穿过空气和地面。</p>
+    <div class="action">怎么落地：遇雷雨及时下撤，不做视野内最高点，远离孤立凸出物</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">四、地貌与植被：行走中的读景能力</h2>
+
+  <div class="card">
+    <h3>高原湖泊颜色密码</h3>
+    <p><b>核心机制：</b>冰川粉末偏蓝；喀斯特碳酸盐区（如九寨沟）反射蓝绿光；低海拔湖看藻类生物色；泥沙沉积物也影响色调。</p>
+    <p><b>典型场景：</b>九寨沟湖水清澈却有颜色，因碳酸盐反射蓝绿光；牛奶蓝/宝石蓝/绿色差异来自不同矿物质组合。</p>
+    <div class="relation">相关概念：与「冰川退化成干谷」对比——西藏可见童年被冰川覆盖、现已完全消融的荒凉谷地</div>
+  </div>
+
+  <div class="card">
+    <h3>植被判海拔速查</h3>
+    <table>
+      <tr><th>海拔约</th><th>植被特征</th><th>注意事项</th></tr>
+      <tr><td>1000-2000m</td><td>常绿阔叶林</td><td>还受降水影响，非绝对</td></tr>
+      <tr><td>3000m+</td><td>针叶树（尖硬叶）</td><td>云南四川物种有细微差异</td></tr>
+      <tr><td>4000m+</td><td>高山杜鹃、灌木</td><td>4500m以上转草原</td></tr>
+      <tr><td>4900m左右</td><td>石海（乱石堆）</td><td>再往上植被消失</td></tr>
+    </table>
+    <p><b>适用边界：</b>新疆阴坡树多阳坡少——因光照强蒸发大缺水，与「树喜光」的直觉相反；需结合当地水热条件判断。</p>
+  </div>
+
+  <div class="card card-purple">
+    <h3>
+      <span class="speaker speaker-guest">嘉宾观点</span>
+      横断山脉与高黎贡山
+    </h3>
+    <p><b>横断山脉：</b>多条南北走向山脉，四川盆地与青藏高原分界；板块交界地震多发；二郎山隧道东湿西晴，东侧阔叶林西侧干旱甚至有仙人掌（干热河谷，如泸定县）。</p>
+    <p><b>高黎贡山：</b>横断山脉南端，低纬度+高海拔垂直落差造就植物基因库——热量充足的热带植物与高海拔冷湿环境共存。</p>
+    <div class="quote">「地理的灵魂是实践……他们掌握了非常丰富的地理知识，但是他们都没有去真正的去实践过，我觉得还是有点可惜的。」</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">五、气象实战：云海与季节判断</h2>
+
+  <div class="card">
+    <h3>看云海的最简方法</h3>
+    <p><b>核心机制：</b>云海=水汽在某高度集中凝结。夏天凝结高度更高，冬天更低。</p>
+    <p><b>实操技巧：</b>看山下城镇天气预报——康定市区阴天=被云盖住，爬到4000米以上就站在云层之上看云海。万里无云的大晴天反而看不到。</p>
+    <div class="action">怎么落地：目标海拔 &gt; 山下云底高度 + 当天山下有云</div>
+    <p><b>适用边界：</b>Windy 在川西准确率有限，4-8月雨季即使预报晴天也可能下雨，宏观季节判断比微观预报更靠谱。</p>
+  </div>
+
+  <div class="card card-purple">
+    <h3>💡 心法：看懂风景，徒步才更有趣</h3>
+    <p><b>为什么重要：</b>只打卡拍照容易遗忘；理解层状岩石可能含化石、六边形柱状节理是火山岩浆冷却收缩，会让每次出行都有「掌控感」。</p>
+    <div class="quote">「当你能看懂风景的时候，而不是浅显的欣赏风景的时候，你会对这个徒步会有更深的认识。」</div>
+    <div class="action">怎么落地：出发前在中国知网下载目的地论文看结论；常备《地貌学原理》当字典；拍照回来查书或问AI</div>
+    <p><b>适用边界：</b>学术门槛其实很低，跳过公式只看结论即可；纪录片偏大众，特殊地貌需论文+教材补充。</p>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">六、推荐线路与资源</h2>
+
+  <div class="card">
+    <h3>线路推荐对比</h3>
+    <table>
+      <tr><th>线路</th><th>适合人群</th><th>亮点</th><th>风险</th></tr>
+      <tr><td>白铺龙沟（西藏波密）</td><td>新手/普通游客</td><td>古冰川+现代冰川地貌，当天往返</td><td>低</td></tr>
+      <tr><td>中山峰冰塔林（海螺沟旁）</td><td>专业老驴</td><td>2000m爬到5000m，贡嘎东坡植被极丰富</td><td>极高，高反救援案例</td></tr>
+      <tr><td>勒多曼因</td><td>中等爱好者</td><td>可摸冰川，相对容易</td><td>中</td></tr>
+      <tr><td>南天山北线（新疆）</td><td>结伴老驴</td><td>冰川上行走</td><td>高，需熟悉向导</td></tr>
+    </table>
+  </div>
+
+  <div class="card card-green">
+    <h3>学习资源</h3>
+    <ul>
+      <li><b>书籍：</b>《地貌学原理》（大学教材，无公式，图解冰川冰斗冰碛等）</li>
+      <li><b>网站：</b>中国知网——去川西前下载当地论文看结论</li>
+      <li><b>APP：</b>两步路 + 奥维地图 + Windy</li>
+      <li><b>博主：</b>小红书 @地里的地理（张老师）</li>
+    </ul>
+  </div>
+</div>
+
+<div class="conclusion">
+  <h2>总结与行动</h2>
+  <h3>核心要点</h3>
+  <ul>
+    <li>冰川是理解高海拔地貌的钥匙：暴力塑形、冰塔林、海洋性/大陆性之分，且正在加速消亡</li>
+    <li>中国没有峡湾；三峡是流水切割。湖泊颜色由矿物质、冰川粉、喀斯特等因素决定</li>
+    <li>等高线看疏密/重合/弯曲，但奥维3D地图比心算更实用；探线沿山谷、优先易走</li>
+    <li>扎营安全第一：避陡崖、避河谷底、避牧道、慎山脊；鳌太危险在冷暖交汇</li>
+    <li>植被可粗判海拔，但新疆阴阳坡、迎风坡等局地因素会颠覆直觉</li>
+  </ul>
+  <h3>行动清单</h3>
+  <ol>
+    <li>下载奥维地图，把下次徒步的两步路轨迹导入，出发前看3D坡度和地形</li>
+    <li>买或借阅《地貌学原理》，对照你去过的山读相关章节</li>
+    <li>出发前在中国知网搜索目的地地名+地貌，读论文结论做预习</li>
+    <li>检查扎营点：远离陡崖下方、河谷底部和牛羊踩秃的牧道</li>
+    <li>想看冰川趁早规划，新手从白铺龙沟或勒多曼因开始，勿盲目挑战中山峰</li>
+  </ol>
+  <h3>关键认知转变</h3>
+  <p>以前认为地理是课堂上的抽象知识、青苔能判方向、三峡就是峡湾；现在理解了地理的灵魂在户外实践——看懂风景比打卡风景更能带来安全感和深层乐趣，且地理知识对生活的帮助远大于对求职的帮助。</p>
+</div>
+
+<div class="footer">山合作用 · 91｜一节户外地理课 · 嘉宾：张老师（@地里的地理）</div>
+</div>
+    </div>
+  </foreignObject>
+</svg>
