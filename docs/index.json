@@ -1,6 +1,16 @@
 [
   {
     "date": "2026-06-23",
+    "filename": "ev21_rag_upgrade_podcast-总结.svg",
+    "title": "车企客服V2.1：企业级RAG架构升级精解报告",
+    "summary": "车企客服从V1硬编码到V2.1 RAG架构的教科书级升级：Markdown知识库、向量+BM25混合检索、层次化切片与Agent精简，演示机到生产机的工程化落地路径",
+    "tags": ["科技", "AI", "RAG"],
+    "url": "https://www.xiaoyuzhoufm.com/episode/6a0294a1e1eb34a9393828da",
+    "duration": "17分54秒",
+    "svg_height": 9357
+  },
+  {
+    "date": "2026-06-23",
     "filename": "suixinfei_66000_worth-总结.svg",
     "title": "E116:6万6的随心飞产品，值得买吗？",
     "summary": "胡刀刀拆解海航66666顺行卡与6666随心飞：存6.6万一年退还、3333积分抵8张票，对比199元特种兵版，并分享信用卡倒刷处理与酒店协议价",
