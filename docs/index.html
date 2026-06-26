@@ -742,7 +742,7 @@
           String(date.getDate()).padStart(2, '0');
       }
 
-      /** 同一天条目过多时，用稳定哈希随机分散到最近 3 个月展示 */
+      /** 同一天条目过多时，仅将超出阈值的条目用稳定哈希分散到最近 3 个月展示 */
       function applyDisplayDates(items) {
         const counts = {};
         items.forEach(item => {
@@ -764,16 +764,25 @@
         const startDate = new Date(today);
         startDate.setDate(startDate.getDate() - (DISPLAY_RANGE_DAYS - 1));
 
+        const keptOnDate = {};
+
         items.forEach(item => {
-          if (!spreadDates.has(item.date)) {
-            item.displayDate = item.date;
+          const d = item.date || '';
+          if (!spreadDates.has(d)) {
+            item.displayDate = d;
+            return;
+          }
+          const kept = keptOnDate[d] || 0;
+          if (kept < DISPLAY_SPREAD_THRESHOLD) {
+            item.displayDate = d;
+            keptOnDate[d] = kept + 1;
             return;
           }
           const seed = hashString(item.url || item.filename || item.title || '');
           const dayOffset = seed % DISPLAY_RANGE_DAYS;
-          const d = new Date(startDate);
-          d.setDate(d.getDate() + dayOffset);
-          item.displayDate = toDateKey(d);
+          const disp = new Date(startDate);
+          disp.setDate(disp.getDate() + dayOffset);
+          item.displayDate = toDateKey(disp);
         });
       }
 
