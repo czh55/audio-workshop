@@ -725,7 +725,7 @@
       const TAG_COLORS = ['tag-blue','tag-purple','tag-green','tag-orange'];
 
       const DISPLAY_SPREAD_THRESHOLD = 3;
-      const DISPLAY_RANGE_DAYS = 90;
+      const DISPLAY_RANGE_DAYS = 7;
 
       function hashString(str) {
         let hash = 0;
@@ -742,7 +742,7 @@
           String(date.getDate()).padStart(2, '0');
       }
 
-      /** 同一天条目过多时，仅将超出阈值的条目用稳定哈希分散到最近 3 个月展示 */
+      /** 同一天条目过多时，仅将超出阈值的条目用稳定哈希分散到过去 7 天内展示 */
       function applyDisplayDates(items) {
         const counts = {};
         items.forEach(item => {
