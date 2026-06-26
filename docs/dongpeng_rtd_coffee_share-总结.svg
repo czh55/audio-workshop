@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="8786" viewBox="0 0 1320 8786">
+  <foreignObject x="0" y="0" width="1320" height="8786">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,0.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:20px 28px;text-align:center;min-width:160px;font-weight:700;font-size:16px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3{color:#92400e;margin-bottom:8px}
+.correction p{color:#92400e;font-size:15px}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,0.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.speaker{display:inline-block;font-size:13px;font-weight:600;padding:2px 10px;border-radius:12px;margin-right:8px}
+.speaker-host{background:#dbeafe;color:#1e40af}
+.speaker-guest{background:#ede9fe;color:#6b21a8}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,0.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,0.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,0.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}</style>
+      <div class="container">
+
+<h1>即饮咖啡份额超过星巴克，能量饮料起家的东鹏如何攻占新品类？</h1>
+<div class="meta">
+  <span class="tag tag-blue">播客</span>
+  <span class="tag tag-purple">快消品</span>
+  <span class="tag tag-orange">13分钟</span>
+  <span class="tag tag-green">商业</span>
+</div>
+<div class="summary-line">
+一句话概括：声动早咖啡解读马上赢数据——东鹏即饮咖啡线下销售额份额升至第二、略高于星巴克，但雀巢仍占近半市场。节目拆解东鹏从能量饮料起家到复制「大容量低价+下沉渠道+一元乐享」打法，并提示即饮咖啡赛道已接近停滞、现磨咖啡持续分流。
+</div>
+
+<div class="timeline">
+  <h3>关键时间轴</h3>
+  <div class="timeline-item">
+    <span class="timeline-time">01:58</span>
+    <span class="timeline-text">商业动态：小红书筹备港股上市、DeepSeek 首轮融资、泡泡玛特手游停运、福克斯收购 Roku</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">06:19</span>
+    <span class="timeline-text">轻解读主线：东鹏即饮咖啡份额超星巴克，与雀巢差距仍大</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">06:24</span>
+    <span class="timeline-text">东鹏起源：2003 年国营厂濒临破产，林木勤接手并借鉴红牛逻辑</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">07:29</span>
+    <span class="timeline-text">2009 年塑料瓶装特饮 5 元/500ml 对标红牛 6 元/250ml，打开蓝领市场</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">08:27</span>
+    <span class="timeline-text">2021 年首款即饮咖啡上市，2025 年 5 月线下份额超星巴克</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">09:00</span>
+    <span class="timeline-text">打法一：大容量低价拿铁策略（330ml 仅 4.5 元）</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">10:44</span>
+    <span class="timeline-text">打法二：复用下沉渠道与「一元乐享」，渠道利润可达 45%</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">12:14</span>
+    <span class="timeline-text">挑战：促销退潮后留存存疑，即饮咖啡赛道接近停滞</span>
+  </div>
+</div>
+
+<div class="map">
+  <h2>核心脉络</h2>
+  <div class="diagram">
+    <div class="node">能量饮料<br/>蓝领渠道</div>
+    <span class="arrow">→</span>
+    <div class="node node-orange">性价比<br/>大容量低价</div>
+    <span class="arrow">→</span>
+    <div class="node node-green">下沉渠道<br/>一元乐享</div>
+    <span class="arrow">→</span>
+    <div class="node">即饮咖啡<br/>份额 #2</div>
+  </div>
+</div>
+
+<div class="correction">
+  <h3>⚠ 常见误解 / 认知纠偏</h3>
+  <p>「东鹏咖啡超过星巴克」≠ 全面碾压。马上赢数据仅指<strong>线下零售即饮咖啡销售额份额</strong>，雀巢仍以约 50% 居首；东鹏与星巴克差距不到 1%，排名仍可能波动。星巴克门店现磨与瓶装即饮是不同战场。</p>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">上半段：四条商业科技快讯</h2>
+
+  <div class="card">
+    <h3>小红书筹备港股上市</h3>
+    <p><b>核心机制：</b>彭博社称小红书拟 6 月底前递交港交所申请；2024 年融资估值约 171 亿美元，2025 年 9 月涨至 300 亿+，股东预期 2025 年利润约 30 亿美元。</p>
+    <p><b>关键理解：</b>广告收入占营收近 8 成，电商等新业务规模仍落后于抖音、快手，商业模式尚未摆脱广告依赖。</p>
+    <p><b>典型场景：</b>世界杯开赛前三日，小红书直播男性用户超 6 成，开赛首日观看人数较赛前增长 55 倍，打破平台直播在线峰值。</p>
+    <div class="relation">相关概念：与抖音快手比的是内容电商闭环能力，与 IPO 叙事比的是利润兑现与业务多元化</div>
+    <div class="highlight">原文依据：广告收入占到总营收的接近 8 成，电商等等新业务规模和抖音快手相比仍然有差距</div>
+  </div>
+
+  <div class="card card-purple">
+    <h3>
+      <span class="speaker speaker-host">主持人解读</span>
+      DeepSeek 首轮外部融资超 500 亿元
+    </h3>
+    <p>梁文峰个人出资 200 亿为最大方，腾讯 100 亿、宁德时代 50 亿，京东/网易/IDG 各 30 亿。除国家 AI 产业投资基金直投外，其余资金注入梁文峰管理实体、无投票权，股份 5 年锁定不可转让。</p>
+    <div class="quote">"5 年的锁定期目的也是要筛掉那些追求快速退出的投资者"</div>
+    <div class="action">怎么落地：解读 AI 公司融资时，除估值外应关注治理结构、锁定期与出资方真实意图</div>
+  </div>
+
+  <div class="card card-orange">
+    <h3>⚠ 泡泡玛特《梦想家园》停运</h3>
+    <p><b>原因：</b>2019 年拿版号、2024 年 6 月才上线，筹备 5 年；上线初登顶 iOS 下载榜，但运营公司两年累计亏损近 1.2 亿元。</p>
+    <div class="pitfall">王宁 2025 年 5 月承认电影和游戏业务都不够成功——IP 延长生命周期不能仅靠「不追求短期收益」叙事</div>
+    <p><b>解法：</b>潮玩 IP 跨媒介需匹配玩法与运营能力，版号≠产品成功</p>
+    <p><b>严重程度：</b>小心（对泡泡玛特主业影响有限，但暴露 IP 变现边界）</p>
+  </div>
+
+  <div class="card">
+    <h3>福克斯 220 亿美元收购 Roku</h3>
+    <p><b>核心机制：</b>福克斯 2019 年将娱乐资产售予迪士尼后聚焦新闻与体育；有线电视用户 15 年减半至约 5000 万，流媒体订阅（尤其含广告低价套餐）崛起。</p>
+    <p><b>关键理解：</b>莫多克家族罕见大额收购，意在流媒体时代补平台入口；但可能削弱未来竞标体育转播权的能力。</p>
+    <div class="relation">相关概念：与 2020 年收购免费流媒体 Tubi、去年推出订阅制 Fox One 形成组合拳</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">下半段：东鹏即饮咖啡轻解读</h2>
+
+  <div class="card">
+    <h3>即饮咖啡市场格局</h3>
+    <p><b>核心机制：</b>即饮咖啡=瓶装/罐装开盖即饮。马上赢 2025 年 5 月数据：东鹏线下销售额份额升至第二、略高于星巴克；雀巢长期占近半份额。东鹏与星巴克差距不足 1%。</p>
+    <p><b>关键理解：</b>排名波动空间大，不宜过度解读为「咖啡战争终局」。</p>
+    <p><b>典型场景：</b>便利店、加油站、夫妻店等线下零售场景，而非星巴克门店体验消费。</p>
+    <div class="highlight">原文依据：东鹏和星巴克在即饮咖啡市场的差距还不到 1%，行业的位置仍然可能会继续的波动</div>
+  </div>
+
+  <div class="card card-purple">
+    <h3>
+      <span class="speaker speaker-guest">节目分析</span>
+      从能量饮料到即饮咖啡的路径依赖
+    </h3>
+    <p>林木勤 2003 年接手濒临破产的东鹏，借鉴红牛代工厂经验推出东鹏特饮。2009 年 500ml 塑料装 5 元对标红牛 250ml 罐装 6 元，瞄准货车司机等蓝领；红牛换广告语后，东鹏打出「累了困了喝东鹏特饮」并签谢霆锋代言，迅速成为能量饮料第二。</p>
+    <div class="quote">"节省包装成本是东鹏能够实现高性价比的主要原因"</div>
+    <p>2021 年首款即饮咖啡上市。2025 年 Q1 能量饮料收入占比 75%（去年同期 80%），其他饮料（含即饮咖啡）占比 14% 且增速最快。</p>
+  </div>
+
+  <div class="card card-green">
+    <h3>打法一：延续性价比策略</h3>
+    <p><b>产品：</b>经典拿铁、生椰拿铁，330ml/500ml 两规格。深圳超市东鹏 330ml 售价 4.5 元，雀巢 Costa 更小规格约 5 元，星巴克瓶装约 13 元。</p>
+    <p><b>定价逻辑：</b>即饮咖啡市场「得拿铁者得天下」——拿铁占销售额 7 成以上。现磨咖啡中拿铁因加奶更贵；即饮咖啡中拿铁均价反而低于美式（拿铁约 2 元/100ml vs 美式 2.5 元+），因部分消费者把拿铁当饮料而非纯咖啡。</p>
+    <p><b>适用边界：</b>东鹏定位「好喝的饮料」与大容量低价，区别于雀巢/星巴克 300ml 以内、强调功能性提神的小规格产品。</p>
+    <div class="relation">相关概念：与瑞幸/库迪 9.9 现磨形成上下夹击——现磨培养日常消费习惯，即饮承接下沉与便利场景</div>
+  </div>
+
+  <div class="card card-green">
+    <h3>打法二：复用下沉市场渠道</h3>
+    <p><b>渠道选择：</b>不主攻高端便利店，依托原有网络进入加油站、高校、夫妻老婆店及下沉市场小店。2024 年拥有 3400+ 经销商，覆盖全部地级市。</p>
+    <p><b>营销：</b>「一元乐享」复制到即饮咖啡——开盖中奖可 1 元再购一瓶，核销门店获东鹏奖励。2023 年底东鹏咖啡渠道利润竞品第一：出厂价对比零售价毛利率约 33%，加一元乐享后接近 45%。</p>
+    <div class="action">落地建议：分析快消新品时，同时看终端零售价、渠道毛利与促销核销机制，三者共同决定铺货意愿</div>
+    <p><b>适用边界：</b>渠道建设与促销需大量成本投入；当消费者不再为低价或中奖购买时，口味与品牌能否留存仍是问号。</p>
+  </div>
+</div>
+
+<div class="card">
+  <h3>即饮咖啡 vs 现磨咖啡：赛道对比</h3>
+  <table>
+    <tr><th>维度</th><th>即饮咖啡（瓶装/罐装）</th><th>现磨咖啡（瑞幸/库迪等）</th><th>一句话结论</th></tr>
+    <tr><td>市场规模增速</td><td>欧睿：赛道接近停滞</td><td>占中国咖啡市场约 85%，双位数增长</td><td>风口在现磨，即饮是存量博弈</td></tr>
+    <tr><td>消费场景</td><td>便利、提神、饮料化</td><td>日常化、社交属性减弱</td><td>即饮承接「随手买」，现磨培养依赖</td></tr>
+    <tr><td>东鹏优势</td><td>大容量低价+下沉渠道+高渠道利润</td><td>不直接竞争门店体验</td><td>复制能量饮料打法，非咖啡专业路线</td></tr>
+    <tr><td>竞争压力</td><td>星巴克推袋装即饮、农夫山泉/锐澳入局</td><td>9.9 元持续分流即饮需求</td><td>长期复购是共同难题</td></tr>
+  </table>
+</div>
+
+<div class="card">
+  <h3>主要品牌即饮咖啡策略对比</h3>
+  <table>
+    <tr><th>维度</th><th>东鹏</th><th>雀巢/星巴克</th><th>一句话结论</th></tr>
+    <tr><td>规格定价</td><td>330ml 4.5 元，500ml 大容量</td><td>偏小规格，星巴克瓶装约 13 元</td><td>东鹏走量，传统巨头走功能与小容量</td></tr>
+    <tr><td>渠道</td><td>加油站、夫妻店、下沉市场</td><td>便利店等传统通路</td><td>东鹏避开高端便利店主战场</td></tr>
+    <tr><td>促销</td><td>一元乐享，渠道利润可达 45%</td><td>品牌溢价为主</td><td>东鹏用渠道利益驱动铺货</td></tr>
+    <tr><td>产品心智</td><td>咖啡饮料、好喝便宜</td><td>功能性提神、咖啡专业感</td><td>不同客群，短期可共存</td></tr>
+  </table>
+</div>
+
+<div class="card card-orange">
+  <h3>⚠ 东鹏咖啡的三大隐忧</h3>
+  <p><b>促销依赖：</b>一元乐享与低价尝鲜退潮后，口味与品牌认知能否留住用户存疑。</p>
+  <div class="pitfall">界面新闻：当消费者不再因为一元乐享或低价尝鲜而购买，东鹏咖啡能否留住用户还要打一个问号</div>
+  <p><b>赛道天花板：</b>即饮咖啡已成熟且接近停滞，现磨咖啡持续分流；东鹏电解质水增速反而快于即饮咖啡。</p>
+  <p><b>竞争加剧：</b>星巴克推袋装即饮、农夫山泉/锐澳等具备品牌与渠道资产者入局。</p>
+  <p><b>严重程度：</b>小心（份额第二亮眼，但结构性逆风明确）</p>
+</div>
+
+<div class="card card-purple">
+  <h3>💡 心法：快消第二曲线看「能力复用」而非「品类风口」</h3>
+  <p><b>为什么重要：</b>东鹏即饮咖啡的成功，本质是能量饮料时代积累的性价比制造、蓝领渠道与高渠道利润促销机制，被平移到新品类——而非即饮咖啡本身处于高速增长期。</p>
+  <div class="quote">"他们沿用了哪些能量饮料的打法呢？打法之一延续性价比策略，打法之二复用下沉市场渠道"</div>
+  <div class="action">怎么落地：评估企业跨界时，先画「能力清单」（供应链/渠道/促销/品牌），再判断新品类是否吃这套能力；勿把份额短期跃升等同于赛道红利</div>
+  <p><b>适用边界：</b>当品类进入存量博弈、竞品加码创新（袋装即饮、电解质水等），单纯复制打法的天花板会更快显现。</p>
+</div>
+
+<div class="conclusion">
+  <h2>总结与行动</h2>
+  <h3>核心要点</h3>
+  <ul>
+    <li>东鹏即饮咖啡线下份额第二、略高于星巴克，但雀巢仍占近半，与星巴克差距不足 1%</li>
+    <li>成功路径：大容量低价拿铁 + 下沉渠道（加油站/夫妻店）+ 一元乐享高渠道利润</li>
+    <li>即饮咖啡赛道接近停滞，现磨占市场 85% 且双位数增长，持续分流即饮需求</li>
+    <li>东鹏 Q1 能量饮料占比降至 75%，其他饮料（含咖啡）占比 14% 增速最快</li>
+    <li>促销退潮后的品牌留存与电解质水等更快增长品类，是下一步观察重点</li>
+  </ul>
+  <h3>行动清单</h3>
+  <ol>
+    <li>逛便利店时对比东鹏/雀巢/星巴克即饮咖啡的规格、单价（元/100ml）与促销标签（一元乐享等）</li>
+    <li>读快消财报时，区分「份额排名」与「品类增速」，避免把存量市场的排名跃升误判为风口</li>
+    <li>分析跨界案例时，列出企业可复用能力（渠道深度、包装成本、促销体系）再评估新品类匹配度</li>
+    <li>关注东鹏电解质水 vs 即饮咖啡的增速差异，作为「第二曲线质量」的先行指标</li>
+    <li>跟踪星巴克袋装即饮、农夫山泉等入局者对东鹏下沉渠道的实际挤压</li>
+  </ol>
+  <h3>关键认知转变</h3>
+  <p>以前认为「东鹏超星巴克」意味着咖啡品牌力逆袭；现在理解了这是线下即饮细分市场的渠道与价格战争，背后是能量饮料打法的复用，而真正的咖啡消费增长与品牌势能仍主要在现磨赛道。</p>
+</div>
+
+</div>
+    </div>
+  </foreignObject>
+</svg>
