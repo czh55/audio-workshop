@@ -322,7 +322,9 @@ def generate_for_svg(svg_path: Path, voice: str = DEFAULT_VOICE, force: bool = F
         return False
 
 
-def find_svg_files(all_topics: bool = False) -> list[Path]:
+def find_svg_files(all_topics: bool = False, pregnancy_only: bool = False) -> list[Path]:
+    if pregnancy_only:
+        return sorted(DOCS.glob("topics/pregnancy/*.svg"))
     files = sorted(DOCS.glob("*-总结.svg"))
     if all_topics:
         files.extend(sorted(DOCS.glob("topics/**/*.svg")))
@@ -336,6 +338,7 @@ def main():
     parser.add_argument("svg", nargs="?", help="SVG 文件路径")
     parser.add_argument("--all", action="store_true", help="处理全部播客总结 SVG")
     parser.add_argument("--with-topics", action="store_true", help="包含 topics/ 目录")
+    parser.add_argument("--pregnancy", action="store_true", help="仅孕期全攻略专题 (topics/pregnancy/)")
     parser.add_argument("--missing", action="store_true", help="仅处理尚无 MP3 的")
     parser.add_argument("--force", action="store_true", help="覆盖已有 MP3")
     parser.add_argument("--voice", default=DEFAULT_VOICE)
@@ -351,8 +354,8 @@ def main():
     targets: list[Path] = []
     if args.svg:
         targets = [Path(args.svg)]
-    elif args.all or args.missing:
-        targets = find_svg_files(all_topics=args.with_topics)
+    elif args.all or args.missing or args.pregnancy:
+        targets = find_svg_files(all_topics=args.with_topics, pregnancy_only=args.pregnancy)
         if args.missing:
             targets = [p for p in targets if not svg_to_audio_path(p).exists()]
     else:

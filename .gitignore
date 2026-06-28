@@ -13,6 +13,7 @@
 !docs/audio/**/*.txt
 !requirements.txt
 docs/audio/_batch.log
+docs/audio/_pregnancy_batch.log
 docs/audio/.tmp_*
 *.json
 !docs/index.json

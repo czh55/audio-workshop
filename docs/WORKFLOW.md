@@ -373,6 +373,7 @@ python3 scripts/generate_svg_audio.py docs/{slug}-总结.svg
 
 ```bash
 python3 scripts/generate_svg_audio.py --missing
+python3 scripts/generate_svg_audio.py --pregnancy   # 孕期全攻略专题
 ```
 
 跳过语音：`--skip-audio`（若 generate 流程集成时）

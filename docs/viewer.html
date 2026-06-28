@@ -152,7 +152,8 @@
     }
 
     function normalizedAudioUrl(svgFile) {
-      return 'audio/' + svgFile.replace(/-总结\.svg$/i, '.mp3');
+      var mp3 = svgFile.replace(/-总结(?=\.svg$)/i, '').replace(/\.svg$/i, '.mp3');
+      return 'audio/' + mp3;
     }
 
     function setSpeed(rate) {
