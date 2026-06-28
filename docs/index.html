@@ -722,6 +722,10 @@
         return d.innerHTML;
       }
 
+      function viewerUrl(filename) {
+        return 'viewer.html?f=' + encodeURIComponent(filename);
+      }
+
       const TAG_COLORS = ['tag-blue','tag-purple','tag-green','tag-orange'];
 
       const DISPLAY_SPREAD_THRESHOLD = 3;
@@ -908,7 +912,7 @@
 
             const card = document.createElement('a');
             card.className = 'chapter-card';
-            card.href = item.filename;
+            card.href = viewerUrl(item.filename);
             card.target = '_blank';
             card.innerHTML =
               '<div class="chapter-order">第 ' + String(item.order).padStart(2, '0') + ' 篇</div>' +
@@ -1003,8 +1007,8 @@
             var isError = item.error;
             const card = document.createElement('a');
             card.className = 'card' + (isError ? ' card-error' : '');
-            card.href = isError ? (item.url || '#') : item.filename;
-            card.target = isError ? '_blank' : '_blank';
+            card.href = isError ? (item.url || '#') : viewerUrl(item.filename);
+            card.target = '_blank';
 
             let tagsHtml = '';
             if (item.tags && item.tags.length > 0) {
