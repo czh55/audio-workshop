@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SVG 总结 · 朗读</title>
+  <title>SVG 总结 · 语音讲解</title>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     :root {
@@ -25,98 +25,81 @@
       position: sticky;
       top: 0;
       z-index: 100;
-      background: rgba(11, 17, 32, 0.92);
+      background: rgba(11, 17, 32, 0.94);
       backdrop-filter: blur(12px);
       border-bottom: 1px solid var(--border);
-      padding: 12px 20px;
+      padding: 14px 20px;
     }
     .toolbar-inner {
       max-width: 1400px;
       margin: 0 auto;
+    }
+    .toolbar-top {
       display: flex;
       flex-wrap: wrap;
       align-items: center;
       gap: 12px 16px;
+      margin-bottom: 12px;
     }
     .back-link {
       color: var(--text-secondary);
       text-decoration: none;
       font-size: 14px;
-      white-space: nowrap;
     }
     .back-link:hover { color: var(--accent); }
     .doc-title {
       flex: 1;
-      min-width: 120px;
       font-size: 15px;
       font-weight: 600;
-      color: var(--text);
       overflow: hidden;
       text-overflow: ellipsis;
       white-space: nowrap;
     }
-    .controls {
+    .audio-section {
+      background: linear-gradient(135deg, rgba(163,113,247,0.1), rgba(96,165,250,0.08));
+      border: 1px solid rgba(163,113,247,0.25);
+      border-radius: 14px;
+      padding: 16px 18px;
+    }
+    .audio-hint {
+      font-size: 13px;
+      color: var(--text-secondary);
+      margin-bottom: 12px;
+    }
+    .audio-player {
+      width: 100%;
+      height: 44px;
+      border-radius: 10px;
+    }
+    .playback-speed {
       display: flex;
       align-items: center;
       gap: 8px;
+      margin-top: 10px;
       flex-wrap: wrap;
     }
-    .btn {
+    .speed-label {
+      font-size: 12px;
+      color: var(--text-secondary);
+    }
+    .speed-btn {
       background: var(--surface);
       border: 1px solid var(--border);
-      color: var(--text);
-      padding: 8px 14px;
-      border-radius: 10px;
-      font-size: 13px;
+      color: var(--text-secondary);
+      padding: 6px 14px;
+      border-radius: 20px;
+      font-size: 12px;
       cursor: pointer;
-      transition: all 0.15s;
-      min-height: 36px;
     }
-    .btn:hover { border-color: var(--accent); color: var(--accent); }
-    .btn-primary {
-      background: linear-gradient(135deg, rgba(96,165,250,0.25), rgba(167,139,250,0.2));
-      border-color: rgba(96,165,250,0.4);
-    }
-    .btn-primary:hover { color: #fff; }
-    .btn:disabled { opacity: 0.4; cursor: not-allowed; }
-    .speed-group {
-      display: flex;
-      gap: 4px;
-    }
-    .speed-btn.active {
-      background: rgba(96,165,250,0.2);
+    .speed-btn:hover, .speed-btn.active {
       border-color: var(--accent);
       color: var(--accent);
+      background: rgba(96,165,250,0.12);
     }
-    .progress-wrap {
-      width: 100%;
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      margin-top: 4px;
-    }
-    .progress-bar {
-      flex: 1;
-      height: 4px;
-      background: rgba(255,255,255,0.08);
-      border-radius: 2px;
-      overflow: hidden;
-    }
-    .progress-fill {
-      height: 100%;
-      width: 0%;
-      background: linear-gradient(90deg, var(--accent), var(--accent2));
-      transition: width 0.2s;
-    }
-    .progress-label {
-      font-size: 12px;
-      color: var(--text-secondary);
-      min-width: 48px;
-      text-align: right;
-    }
-    .status {
-      font-size: 12px;
-      color: var(--text-secondary);
+    .audio-missing {
+      font-size: 13px;
+      color: #fbbf24;
+      padding: 12px 0 0;
     }
     .svg-wrap {
       max-width: 1400px;
@@ -140,32 +123,18 @@
       color: var(--text-secondary);
     }
     .error-box a { color: var(--accent); }
-    @media (max-width: 640px) {
-      .doc-title { order: 3; width: 100%; }
-      .toolbar-inner { gap: 8px; }
-    }
   </style>
 </head>
 <body>
   <div class="toolbar" id="toolbar" style="display:none;">
     <div class="toolbar-inner">
-      <a class="back-link" href="index.html">← 返回首页</a>
-      <div class="doc-title" id="docTitle">加载中…</div>
-      <div class="controls">
-        <button type="button" class="btn btn-primary" id="btnPlay">▶ 朗读</button>
-        <button type="button" class="btn" id="btnPause" disabled>⏸ 暂停</button>
-        <button type="button" class="btn" id="btnStop" disabled>⏹ 停止</button>
-        <div class="speed-group" aria-label="语速">
-          <button type="button" class="btn speed-btn" data-rate="0.75">0.75x</button>
-          <button type="button" class="btn speed-btn active" data-rate="1">1x</button>
-          <button type="button" class="btn speed-btn" data-rate="1.25">1.25x</button>
-          <button type="button" class="btn speed-btn" data-rate="1.5">1.5x</button>
-        </div>
+      <div class="toolbar-top">
+        <a class="back-link" href="index.html">← 返回首页</a>
+        <div class="doc-title" id="docTitle">加载中…</div>
       </div>
-      <div class="progress-wrap">
-        <div class="progress-bar"><div class="progress-fill" id="progressFill"></div></div>
-        <span class="progress-label" id="progressLabel">0%</span>
-        <span class="status" id="statusText">就绪</span>
+      <div class="audio-section" id="audioSection">
+        <p class="audio-hint">🎧 通勤时可听，跟着讲解走一遍（edge-tts 自然语音，与 daily-algo 同款）</p>
+        <div id="audioMount"></div>
       </div>
     </div>
   </div>
@@ -182,193 +151,57 @@
       return;
     }
 
-    var chunks = [];
-    var chunkIndex = 0;
-    var rate = 1;
-    var playing = false;
-    var paused = false;
-    var zhVoice = null;
+    function normalizedAudioUrl(svgFile) {
+      return 'audio/' + svgFile.replace(/-总结\.svg$/i, '.mp3');
+    }
 
-    var btnPlay = document.getElementById('btnPlay');
-    var btnPause = document.getElementById('btnPause');
-    var btnStop = document.getElementById('btnStop');
-    var progressFill = document.getElementById('progressFill');
-    var progressLabel = document.getElementById('progressLabel');
-    var statusText = document.getElementById('statusText');
-    var docTitle = document.getElementById('docTitle');
+    function setSpeed(rate) {
+      var audio = document.getElementById('summary-audio');
+      if (!audio) return;
+      audio.playbackRate = rate;
+      document.querySelectorAll('.speed-btn').forEach(function(btn) {
+        btn.classList.toggle('active', parseFloat(btn.getAttribute('data-rate')) === rate);
+      });
+    }
+    window.setSpeed = setSpeed;
+
+    function mountAudioPlayer(src) {
+      document.getElementById('audioMount').innerHTML =
+        '<audio controls preload="metadata" class="audio-player" id="summary-audio">' +
+          '<source src="' + escapeAttr(src) + '" type="audio/mpeg">' +
+          '您的浏览器不支持音频播放' +
+        '</audio>' +
+        '<div class="playback-speed">' +
+          '<span class="speed-label">速度</span>' +
+          '<button type="button" class="speed-btn" data-rate="0.75" onclick="setSpeed(0.75)">0.75x</button>' +
+          '<button type="button" class="speed-btn active" data-rate="1" onclick="setSpeed(1)">1x</button>' +
+          '<button type="button" class="speed-btn" data-rate="1.25" onclick="setSpeed(1.25)">1.25x</button>' +
+          '<button type="button" class="speed-btn" data-rate="1.5" onclick="setSpeed(1.5)">1.5x</button>' +
+        '</div>';
+    }
+
+    function showMissingAudio() {
+      document.getElementById('audioMount').innerHTML =
+        '<p class="audio-missing">语音文件尚未生成。运行：<code>python3 scripts/generate_svg_audio.py ' +
+        escapeHtml(file) + '</code></p>';
+    }
 
     function showError(msg) {
       document.getElementById('errorBox').innerHTML = msg;
       document.getElementById('errorBox').style.display = '';
     }
 
-    function pickVoice() {
-      var voices = speechSynthesis.getVoices();
-      zhVoice = voices.find(function(v) { return v.lang === 'zh-CN'; }) ||
-        voices.find(function(v) { return v.lang && v.lang.indexOf('zh') === 0; }) ||
-        null;
-    }
-    speechSynthesis.addEventListener('voiceschanged', pickVoice);
-    pickVoice();
-
-    function stripHtml(html) {
+    function escapeHtml(s) {
       var d = document.createElement('div');
-      d.innerHTML = html;
-      d.querySelectorAll('style, script').forEach(function(el) { el.remove(); });
-      return d;
+      d.textContent = s;
+      return d.innerHTML;
     }
 
-    function extractNarrationText(svgText) {
-      var parser = new DOMParser();
-      var doc = parser.parseFromString(svgText, 'image/svg+xml');
-      var fo = doc.querySelector('foreignObject');
-      if (!fo) return '';
-
-      var root = fo.querySelector('.container') || fo;
-      var clone = root.cloneNode(true);
-      clone.querySelectorAll('.footer, style, script').forEach(function(el) { el.remove(); });
-
-      var parts = [];
-      var selectors = 'h1, h2, h3, .sec-title, .summary-line, .timeline-text, .timeline-time, p, li, td, th, .quote, .highlight, .pitfall, .action, .relation, .node';
-      clone.querySelectorAll(selectors).forEach(function(el) {
-        var t = (el.innerText || '').replace(/\s+/g, ' ').trim();
-        if (t && t.length > 1) parts.push(t);
-      });
-
-      if (parts.length === 0) {
-        return (clone.innerText || '').replace(/\s+/g, ' ').trim();
-      }
-
-      var seen = {};
-      var unique = [];
-      parts.forEach(function(p) {
-        if (!seen[p]) { seen[p] = true; unique.push(p); }
-      });
-      return unique.join('。').replace(/。+/g, '。');
+    function escapeAttr(s) {
+      return String(s).replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;');
     }
 
-    function splitChunks(text, maxLen) {
-      maxLen = maxLen || 180;
-      if (!text) return [];
-      var sentences = text.split(/(?<=[。！？；\n])/);
-      var result = [];
-      var buf = '';
-      sentences.forEach(function(s) {
-        s = s.trim();
-        if (!s) return;
-        if ((buf + s).length <= maxLen) {
-          buf = buf ? buf + s : s;
-        } else {
-          if (buf) result.push(buf);
-          if (s.length <= maxLen) {
-            buf = s;
-          } else {
-            for (var i = 0; i < s.length; i += maxLen) {
-              result.push(s.slice(i, i + maxLen));
-            }
-            buf = '';
-          }
-        }
-      });
-      if (buf) result.push(buf);
-      return result;
-    }
-
-    function updateUI() {
-      var pct = chunks.length ? Math.round((chunkIndex / chunks.length) * 100) : 0;
-      progressFill.style.width = pct + '%';
-      progressLabel.textContent = pct + '%';
-      btnPlay.disabled = playing && !paused;
-      btnPause.disabled = !playing;
-      btnStop.disabled = !playing && chunkIndex === 0;
-      btnPlay.textContent = paused ? '▶ 继续' : (playing ? '▶ 朗读中' : '▶ 朗读');
-      if (!playing && chunkIndex === 0) statusText.textContent = '就绪 · 点击朗读播放 SVG 内容';
-      else if (paused) statusText.textContent = '已暂停';
-      else if (playing) statusText.textContent = '朗读中 ' + chunkIndex + '/' + chunks.length;
-      else if (chunkIndex >= chunks.length && chunks.length) statusText.textContent = '朗读完成';
-    }
-
-    function speakNext() {
-      if (!playing || paused) return;
-      if (chunkIndex >= chunks.length) {
-        playing = false;
-        updateUI();
-        return;
-      }
-      var u = new SpeechSynthesisUtterance(chunks[chunkIndex]);
-      u.lang = 'zh-CN';
-      u.rate = rate;
-      if (zhVoice) u.voice = zhVoice;
-      u.onend = function() {
-        if (playing && !paused) {
-          chunkIndex++;
-          updateUI();
-          speakNext();
-        }
-      };
-      u.onerror = function() {
-        playing = false;
-        paused = false;
-        statusText.textContent = '朗读出错，请重试';
-        updateUI();
-      };
-      speechSynthesis.speak(u);
-    }
-
-    function startPlay() {
-      if (!chunks.length) {
-        statusText.textContent = '没有可朗读的文本';
-        return;
-      }
-      if (paused) {
-        paused = false;
-        speechSynthesis.resume();
-        updateUI();
-        return;
-      }
-      speechSynthesis.cancel();
-      chunkIndex = 0;
-      playing = true;
-      paused = false;
-      updateUI();
-      speakNext();
-    }
-
-    function pausePlay() {
-      if (!playing) return;
-      speechSynthesis.pause();
-      paused = true;
-      updateUI();
-    }
-
-    function stopPlay() {
-      speechSynthesis.cancel();
-      playing = false;
-      paused = false;
-      chunkIndex = 0;
-      updateUI();
-    }
-
-    btnPlay.addEventListener('click', startPlay);
-    btnPause.addEventListener('click', pausePlay);
-    btnStop.addEventListener('click', stopPlay);
-
-    document.querySelectorAll('.speed-btn').forEach(function(btn) {
-      btn.addEventListener('click', function() {
-        rate = parseFloat(btn.getAttribute('data-rate'));
-        document.querySelectorAll('.speed-btn').forEach(function(b) { b.classList.remove('active'); });
-        btn.classList.add('active');
-        if (playing) {
-          var wasPaused = paused;
-          var idx = chunkIndex;
-          speechSynthesis.cancel();
-          chunkIndex = idx;
-          playing = true;
-          paused = wasPaused;
-          if (!wasPaused) speakNext();
-        }
-      });
-    });
+    var audioSrc = normalizedAudioUrl(file);
 
     fetch(file)
       .then(function(res) {
@@ -379,36 +212,32 @@
         var parser = new DOMParser();
         var doc = parser.parseFromString(svgText, 'image/svg+xml');
         var h1 = doc.querySelector('h1');
-        docTitle.textContent = h1 ? h1.textContent.trim() : file.replace(/\.svg$/i, '');
-        document.title = docTitle.textContent + ' · 朗读';
-
-        var narration = extractNarrationText(svgText);
-        chunks = splitChunks(narration);
-        if (!chunks.length) {
-          statusText.textContent = '未提取到可读文本';
-        }
+        var title = h1 ? h1.textContent.trim() : file.replace(/\.svg$/i, '');
+        document.getElementById('docTitle').textContent = title;
+        document.title = title + ' · 语音讲解';
 
         var obj = document.createElement('object');
         obj.type = 'image/svg+xml';
         obj.data = file;
-        obj.setAttribute('aria-label', docTitle.textContent);
         document.getElementById('svgWrap').appendChild(obj);
         document.getElementById('toolbar').style.display = '';
-        updateUI();
+
+        return fetch(audioSrc, { method: 'HEAD' });
+      })
+      .then(function(res) {
+        if (res && res.ok) {
+          mountAudioPlayer(audioSrc);
+        } else {
+          showMissingAudio();
+        }
       })
       .catch(function(err) {
-        showError('加载失败：' + escapeHtml(err.message) + '。<a href="index.html">返回首页</a>');
+        if (document.getElementById('toolbar').style.display !== 'none') {
+          showMissingAudio();
+        } else {
+          showError('加载失败：' + escapeHtml(err.message) + '。<a href="index.html">返回首页</a>');
+        }
       });
-
-    function escapeHtml(s) {
-      var d = document.createElement('div');
-      d.textContent = s;
-      return d.innerHTML;
-    }
-
-    window.addEventListener('beforeunload', function() {
-      speechSynthesis.cancel();
-    });
   })();
   </script>
 </body>

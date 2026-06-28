@@ -10,6 +10,7 @@ Task Progress:
 - [ ] 4. Whisper 转录（--model small --language Chinese）
 - [ ] 5. 读取转录稿并总结
 - [ ] 6. 生成 SVG（Node .mjs + svg-auto-height.mjs）
+- [ ] 6.5 生成语音讲解（edge-tts，从 SVG 提取旁白 → MP3）
 - [ ] 7. 更新 index.json
 - [ ] 8. Git 提交并推送到 main（**必须**，Pages 才能展示）
 - [ ] 9. 清理临时文件
@@ -350,6 +351,31 @@ node generate-{slug}.mjs
 - HTML 注释中禁止连续双连字符 `--`
 - 文本中裸 `<` 必须转义为 `&lt;`
 - `buildSvg` 已内置 `fixSvgXml()` 修复 `&` 和 `<br/>`
+
+---
+
+## Step 6.5：生成语音讲解（edge-tts）
+
+从刚生成的 SVG 提取结构化旁白，合成自然中文 MP3（与 daily-algo 同款 `zh-CN-XiaoxiaoNeural`）。
+
+```bash
+pip install -r requirements.txt   # 首次：edge-tts
+python3 scripts/generate_svg_audio.py docs/{slug}-总结.svg
+```
+
+产出：
+- `docs/audio/{slug}.mp3` — 网页播放器使用
+- `docs/audio/{slug}.txt` — 旁白稿备份
+
+首页通过 `viewer.html?f={slug}-总结.svg` 播放，优先加载 MP3，**不使用**浏览器 SpeechSynthesis。
+
+批量补全历史条目：
+
+```bash
+python3 scripts/generate_svg_audio.py --missing
+```
+
+跳过语音：`--skip-audio`（若 generate 流程集成时）
 
 ---
 

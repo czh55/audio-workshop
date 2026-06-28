@@ -1,6 +1,7 @@
-# Audio source files (large)
+# Audio source files (large) — 播客原始音频不提交；docs/audio 为 edge-tts 讲解
 *.m4a
 *.mp3
+!docs/audio/**/*.mp3
 *.wav
 *.flac
 
@@ -9,6 +10,8 @@
 *.vtt
 *.tsv
 *.txt
+!docs/audio/**/*.txt
+!requirements.txt
 *.json
 !docs/index.json
 !docs/topics.json
