@@ -12,6 +12,8 @@
 *.txt
 !docs/audio/**/*.txt
 !requirements.txt
+docs/audio/_batch.log
+docs/audio/.tmp_*
 *.json
 !docs/index.json
 !docs/topics.json

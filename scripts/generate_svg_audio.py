@@ -247,7 +247,7 @@ async def _synthesize_chunk(text: str, output: Path, voice: str):
     import edge_tts
 
     communicate = edge_tts.Communicate(text, voice)
-    await communicate.save(str(output))
+    await asyncio.wait_for(communicate.save(str(output)), timeout=120)
 
 
 def _concat_mp3(files: list[Path], output: Path):
