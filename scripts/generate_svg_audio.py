@@ -86,81 +86,134 @@ def extract_timeline(html: str) -> list[str]:
     return items
 
 
+def _normalize_speech_text(text: str) -> str:
+    text = text.replace("&bull;", "。").replace("•", "。")
+    text = re.sub(r"\s+", " ", text).strip()
+    text = re.sub(r"。+", "。", text)
+    return text
+
+
+def _extract_sec_title(block: str) -> str:
+    for pat in [
+        r'<div class="sec-title"[^>]*>(.*?)</div>',
+        r'<h2 class="sec-title"[^>]*>(.*?)</h2>',
+        r'class="sec-title"[^>]*>(.*?)</h2>',
+    ]:
+        m = re.search(pat, block, re.S | re.I)
+        if m:
+            return _normalize_speech_text(strip_html(m.group(1)))
+    return "正文"
+
+
+def _iter_card_inner_html(block: str):
+    """按 card 边界迭代，正确处理嵌套 div"""
+    pos = 0
+    while pos < len(block):
+        m = re.search(r'<div class="card[^"]*"[^>]*>', block[pos:], re.I)
+        if not m:
+            break
+        start = pos + m.end()
+        depth = 1
+        i = start
+        while i < len(block) and depth > 0:
+            next_open = re.search(r"<div[\s>]", block[i:], re.I)
+            next_close = re.search(r"</div>", block[i:], re.I)
+            if not next_close:
+                break
+            if next_open and next_open.start() < next_close.start():
+                depth += 1
+                i += next_open.end()
+            else:
+                depth -= 1
+                i += next_close.end()
+        if depth == 0:
+            yield block[start : i - len("</div>")]
+        pos = i
+
+
+def _extract_card_parts(card_html: str) -> list[str]:
+    parts: list[str] = []
+    h3_m = re.search(r"<h3[^>]*>(.*?)</h3>", card_html, re.S | re.I)
+    if h3_m:
+        parts.append(_normalize_speech_text(strip_html(h3_m.group(1))))
+
+    for p in re.finditer(r"<p[^>]*>(.*?)</p>", card_html, re.S | re.I):
+        t = _normalize_speech_text(strip_html(p.group(1)))
+        if t:
+            t = re.sub(
+                r"^(核心机制|关键理解|典型场景|在讲什么|原因|解法|严重程度|为什么重要|适用边界|怎么落地|行动项|避坑)[：:]\s*",
+                r"\1，",
+                t,
+            )
+            parts.append(t)
+
+    for cls in ["quote", "highlight", "pitfall", "action", "relation"]:
+        for q in re.finditer(rf'<div class="{cls}"[^>]*>(.*?)</div>', card_html, re.S | re.I):
+            t = _normalize_speech_text(strip_html(q.group(1)))
+            if t:
+                parts.append(t)
+    return parts
+
+
+def _split_div_blocks(html: str, class_name: str) -> list[str]:
+    """按 class 切分 div 块（跳过中间 HTML 注释）"""
+    chunks = re.split(rf'<div class="{class_name}"[^>]*>', html, flags=re.I)
+    return chunks[1:]
+
+
 def extract_sections(html: str) -> list[tuple[str, list[str]]]:
-    """按 .section 或大块 .card 提取章节"""
+    """按 .section / .card / .conclusion 提取章节，避免重复与 HTML 泄漏"""
     sections: list[tuple[str, list[str]]] = []
 
-    # 核心脉络 / 认知纠偏
     for cls, label in [("map", "核心脉络"), ("correction", "认知纠偏")]:
-        m = re.search(rf'<div class="{cls}"[^>]*>(.*?)</div>\s*(?=<div class="(?:map|correction|section|card|conclusion)|\Z)', html, re.S | re.I)
-        if m:
-            parts = []
-            for tag in re.finditer(r"<h[23][^>]*>(.*?)</h[23]>", m.group(1), re.S | re.I):
-                parts.append(strip_html(tag.group(1)))
-            for tag in re.finditer(r"<p[^>]*>(.*?)</p>", m.group(1), re.S | re.I):
-                t = strip_html(tag.group(1))
+        for block in _split_div_blocks(html, cls):
+            inner = re.split(r'<div class="(?:map|correction|section|card|conclusion)"', block, maxsplit=1, flags=re.I)[0]
+            parts: list[str] = []
+            for tag in re.finditer(r"<h[23][^>]*>(.*?)</h[23]>", inner, re.S | re.I):
+                t = _normalize_speech_text(strip_html(tag.group(1)))
+                if t:
+                    parts.append(t)
+            for tag in re.finditer(r"<p[^>]*>(.*?)</p>", inner, re.S | re.I):
+                t = _normalize_speech_text(strip_html(tag.group(1)))
                 if t:
                     parts.append(t)
             if parts:
                 sections.append((label, parts))
+            break
 
-    # 按 section 分块
-    for sec in re.finditer(
-        r'<div class="section"[^>]*>(.*?)</div>\s*(?=<div class="(?:section|card card|conclusion)|\Z)',
-        html,
-        re.S | re.I,
-    ):
-        block = sec.group(1)
-        title_m = re.search(r'class="sec-title"[^>]*>(.*?)</h2>', block, re.S | re.I)
-        sec_title = strip_html(title_m.group(1)) if title_m else "正文"
-
+    for block in _split_div_blocks(html, "section"):
+        inner = re.split(r'<div class="(?:section|conclusion)"', block, maxsplit=1, flags=re.I)[0]
+        sec_title = _extract_sec_title(inner)
         parts: list[str] = []
-        for card in re.finditer(r'<div class="card[^"]*"[^>]*>(.*?)</div>\s*(?=<div class="card|<div class="section|\Z)', block, re.S | re.I):
-            card_html = card.group(1)
-            h3_m = re.search(r"<h3[^>]*>(.*?)</h3>", card_html, re.S | re.I)
-            if h3_m:
-                parts.append(strip_html(h3_m.group(1)))
-            for p in re.finditer(r"<p[^>]*>(.*?)</p>", card_html, re.S | re.I):
-                t = strip_html(p.group(1))
-                if t:
-                    parts.append(re.sub(r"^(核心机制|关键理解|典型场景|原因|解法|严重程度|为什么重要|适用边界|怎么落地)[：:]\s*", r"\1，", t))
-            for cls in ["quote", "highlight", "pitfall", "action", "relation"]:
-                for q in re.finditer(rf'<div class="{cls}"[^>]*>(.*?)</div>', card_html, re.S | re.I):
-                    t = strip_html(q.group(1))
-                    if t:
-                        parts.append(t)
-
+        for card_html in _iter_card_inner_html(inner):
+            parts.extend(_extract_card_parts(card_html))
         if parts:
             sections.append((sec_title, parts))
 
-    # 独立 card（不在 section 内）
     if not sections:
-        for card in re.finditer(r'<div class="card[^"]*"[^>]*>(.*?)</div>', html, re.S | re.I):
-            parts = []
-            h3_m = re.search(r"<h3[^>]*>(.*?)</h3>", card.group(1), re.S | re.I)
-            if h3_m:
-                parts.append(strip_html(h3_m.group(1)))
-            for p in re.finditer(r"<p[^>]*>(.*?)</p>", card.group(1), re.S | re.I):
-                t = strip_html(p.group(1))
-                if t:
-                    parts.append(t)
+        for card_html in _iter_card_inner_html(html):
+            parts = _extract_card_parts(card_html)
             if parts:
                 sections.append(("要点", parts))
 
-    # 结论区
-    m = re.search(r'<div class="conclusion"[^>]*>(.*?)</div>', html, re.S | re.I)
-    if m:
-        parts = []
-        for li in re.finditer(r"<li[^>]*>(.*?)</li>", m.group(1), re.S | re.I):
-            t = strip_html(li.group(1))
+    for block in _split_div_blocks(html, "conclusion"):
+        inner = re.split(r'<div class="footer"', block, maxsplit=1, flags=re.I)[0]
+        parts: list[str] = []
+        for tag in re.finditer(r"<h[23][^>]*>(.*?)</h[23]>", inner, re.S | re.I):
+            t = _normalize_speech_text(strip_html(tag.group(1)))
             if t:
                 parts.append(t)
-        for p in re.finditer(r"<p[^>]*>(.*?)</p>", m.group(1), re.S | re.I):
-            t = strip_html(p.group(1))
+        for tag in re.finditer(r"<li[^>]*>(.*?)</li>", inner, re.S | re.I):
+            t = _normalize_speech_text(strip_html(tag.group(1)))
+            if t:
+                parts.append(t)
+        for tag in re.finditer(r"<p[^>]*>(.*?)</p>", inner, re.S | re.I):
+            t = _normalize_speech_text(strip_html(tag.group(1)))
             if t:
                 parts.append(t)
         if parts:
-            sections.append(("总结与行动", parts))
+            sections.append(("核心结论", parts))
+        break
 
     return sections
 
@@ -197,7 +250,12 @@ def build_narration_script(svg_path: Path) -> str:
 
     for i, (sec_title, parts) in enumerate(sections, 1):
         body_parts.append(f"接下来，{_ordinal(i)}部分，{sec_title}。")
-        body_parts.extend(parts)
+        seen: set[str] = set()
+        for p in parts:
+            key = p[:80]
+            if key not in seen:
+                seen.add(key)
+                body_parts.append(p)
 
     body_text = "\n\n".join(p.strip() for p in body_parts if p.strip())
     body_text = body_text.replace("→", "，得到").replace("=>", "等于")
