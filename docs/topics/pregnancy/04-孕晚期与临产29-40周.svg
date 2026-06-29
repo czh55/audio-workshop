@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="10883" viewBox="0 0 1320 10883">
-  <foreignObject x="0" y="0" width="1320" height="10883">
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="7122" viewBox="0 0 1320 7122">
+  <foreignObject x="0" y="0" width="1320" height="7122">
     <div xmlns="http://www.w3.org/1999/xhtml">
       <style>
 *{margin:0;padding:0;box-sizing:border-box}
@@ -32,8 +32,7 @@ li{font-size:14px;line-height:1.7;color:#475569;margin-bottom:4px}
 .conclusion p,.conclusion li{color:rgba(255,255,255,0.9);font-size:14px}
 .footer{text-align:center;color:#94a3b8;font-size:12px;padding:28px 0 12px}
 </style>
-      
-<div class="container">
+      <div class="container">
   <h1>04 孕晚期与临产（29-40周）</h1>
   <div class="meta">
     <span class="tag tag-amber">14 节课</span>
@@ -376,7 +375,6 @@ li{font-size:14px;line-height:1.7;color:#475569;margin-bottom:4px}
     <p>母乳优先（奶瓶备而不用）→ 仰卧独睡小床 → 出院即用安全提篮 → 按时接种疫苗（13 价肺炎/5 价轮状勿超时限）→ 观察大小便判断喂养是否充足</p>
   </div>
   <div class="footer">孕期全攻略 · 04 孕晚期与临产 29-40 周 · 共 14 节课 · 生成于 2026-06-23</div>
-</div>
     </div>
   </foreignObject>
 </svg>

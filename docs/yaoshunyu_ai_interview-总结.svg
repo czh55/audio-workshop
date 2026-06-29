@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="11192" viewBox="0 0 1320 11192">
-  <foreignObject x="0" y="0" width="1320" height="11192">
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="7509" viewBox="0 0 1320 7509">
+  <foreignObject x="0" y="0" width="1320" height="7509">
     <div xmlns="http://www.w3.org/1999/xhtml">
       <style>*{margin:0;padding:0;box-sizing:border-box}
 body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
@@ -317,8 +317,6 @@ tr:nth-child(even) td{background:#fafbfc}
 </div>
 
 <p class="footer">来源：张小珺Jùn｜商业访谈录 · 姚顺宇访谈 · 录制于 2026年3月</p>
-
-</div>
     </div>
   </foreignObject>
 </svg>

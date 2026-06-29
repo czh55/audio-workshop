@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="10271" viewBox="0 0 1320 10271">
-  <foreignObject x="0" y="0" width="1320" height="10271">
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="6895" viewBox="0 0 1320 6895">
+  <foreignObject x="0" y="0" width="1320" height="6895">
     <div xmlns="http://www.w3.org/1999/xhtml">
       <style>*{margin:0;padding:0;box-sizing:border-box}
 body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
@@ -271,7 +271,6 @@ tr:nth-child(even) td{background:#fafbfc}
 </div>
 
 <div class="footer">来源：余光Post · IKEA 斯德哥尔摩2025系列</div>
-</div>
     </div>
   </foreignObject>
 </svg>

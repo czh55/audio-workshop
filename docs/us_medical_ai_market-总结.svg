@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="8709" viewBox="0 0 1320 8709">
-  <foreignObject x="0" y="0" width="1320" height="8709">
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="5854" viewBox="0 0 1320 5854">
+  <foreignObject x="0" y="0" width="1320" height="5854">
     <div xmlns="http://www.w3.org/1999/xhtml">
       <style>*{margin:0;padding:0;box-sizing:border-box}
 body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
@@ -241,8 +241,6 @@ tr:nth-child(even) td{background:#fafbfc}
   </ol>
   <h3>关键认知转变</h3>
   <p>以前认为「AI医疗=机器人替医生看病」，现在理解了真正的价值是<strong>把医生从传真机和保险公司电话解放出来</strong>，同时用权威RAG和分流诊疗填补资源缺口——但责任主体永远是医生，AI只是放大器。</p>
-</div>
-
 </div>
     </div>
   </foreignObject>

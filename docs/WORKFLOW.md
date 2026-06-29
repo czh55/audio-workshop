@@ -422,7 +422,7 @@ python3 scripts/generate_svg_audio.py --pregnancy   # 孕期全攻略专题
 - `tags`：标签数组（2-4 个）
 - `url`：原始播客链接
 - `duration`：音频时长
-- `svg_height`：SVG 高度像素值
+- `svg_height`：SVG 高度像素值（由 `buildSvg` / `fix-svg-heights.mjs` 自动测量，约为内容高度 + 48px）
 
 若失败，记录失败项：
 

@@ -212,11 +212,18 @@ export function fixSvgXml(svg) {
     .replace(/<br\s*\/?>/gi, '<br/>');
 }
 
-/** 构建完整 SVG：自动测高 + XML 修复，加 50% 缓冲避免 foreignObject 截断 */
+/** CDP/估算结果之上追加的底部留白（像素） */
+export const SVG_HEIGHT_PADDING = 48;
+
+export function computeSvgHeight(measuredHeight) {
+  return Math.ceil(Number(measuredHeight) + SVG_HEIGHT_PADDING);
+}
+
+/** 构建完整 SVG：自动测高 + XML 修复，少量底部留白避免截断 */
 export async function buildSvg({ css, body, width = 1320 }) {
   const innerHtml = `<style>${css}</style>${body}`;
   const measuredHeight = await resolveSvgHeight(innerHtml, width);
-  const height = Math.ceil(measuredHeight * 1.5); // 50% buffer: CSS gradients, shadows, Chinese font rendering
+  const height = computeSvgHeight(measuredHeight);
   let svg = wrapForeignObjectSvg({ css, body, width, height });
   svg = fixSvgXml(svg);
   return { svg, height };

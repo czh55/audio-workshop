@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="9593" viewBox="0 0 1320 9593">
-  <foreignObject x="0" y="0" width="1320" height="9593">
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="6443" viewBox="0 0 1320 6443">
+  <foreignObject x="0" y="0" width="1320" height="6443">
     <div xmlns="http://www.w3.org/1999/xhtml">
       <style>*{margin:0;padding:0;box-sizing:border-box}
 body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
@@ -254,7 +254,6 @@ tr:nth-child(even) td{background:#fafbfc}
 </div>
 
 <div class="footer">知行小酒馆 E227 · 疲惫经济学 · 播客总结</div>
-</div>
     </div>
   </foreignObject>
 </svg>

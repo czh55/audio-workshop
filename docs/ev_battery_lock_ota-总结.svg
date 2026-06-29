@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="7788" viewBox="0 0 1320 7788">
-  <foreignObject x="0" y="0" width="1320" height="7788">
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="5240" viewBox="0 0 1320 5240">
+  <foreignObject x="0" y="0" width="1320" height="5240">
     <div xmlns="http://www.w3.org/1999/xhtml">
       <style>*{margin:0;padding:0;box-sizing:border-box}
 body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
@@ -213,8 +213,6 @@ tr:nth-child(even) td{background:#fafbfc}
   </ol>
   <h3>关键认知转变</h3>
   <p>以前认为「锁电是假新闻、跟我无关」→ 现在理解了软件定义汽车时代，车企与车主的权力边界才是核心：卖车时讲性能、OTA时讲优化、索赔时讲自然衰减，这套逻辑消费者承受不了，必须从监管源头和集体行动两个方向破局。</p>
-</div>
-
 </div>
     </div>
   </foreignObject>

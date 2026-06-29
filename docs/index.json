@@ -11,7 +11,7 @@
     ],
     "url": "https://www.xiaoyuzhoufm.com/episode/6a328b7643a22a69558568de",
     "duration": "1小时40分",
-    "svg_height": 9614
+    "svg_height": 6457
   },
   {
     "date": "2026-06-26",
@@ -25,17 +25,21 @@
     ],
     "url": "https://www.xiaoyuzhoufm.com/episode/6a3b90412e335a35a8089db4",
     "duration": "1小时06分",
-    "svg_height": 9074
+    "svg_height": 6097
   },
   {
     "date": "2026-06-26",
     "filename": "feipian_photography-总结.svg",
     "title": "废片启示录 | 我们的摄影，原来是这样进步的！",
     "summary": "Photo Reason老潘白熊塞文翻出废片黑历史，拆解过期胶卷HDR饱和度等陷阱，对比今年最爱作品，梳理画册工作坊社媒等进步节点",
-    "tags": ["摄影", "审美", "成长"],
+    "tags": [
+      "摄影",
+      "审美",
+      "成长"
+    ],
     "url": "https://www.xiaoyuzhoufm.com/episode/6a3aa7402e335a35a80840f8",
     "duration": "1小时06分",
-    "svg_height": 11970
+    "svg_height": 8028
   },
   {
     "date": "2026-06-26",
@@ -49,7 +53,7 @@
     ],
     "url": "https://www.xiaoyuzhoufm.com/episode/6a3a9bf79d2f5743683cb503",
     "duration": "15分钟",
-    "svg_height": 8445
+    "svg_height": 5678
   },
   {
     "date": "2026-06-26",
@@ -63,7 +67,7 @@
     ],
     "url": "https://www.xiaoyuzhoufm.com/episode/6a3bb9319d2f5743683d34b5",
     "duration": "15分钟",
-    "svg_height": 8654
+    "svg_height": 5817
   },
   {
     "date": "2026-06-26",
@@ -77,7 +81,7 @@
     ],
     "url": "https://www.xiaoyuzhoufm.com/episode/6a3151634233e62bc54af38c",
     "duration": "13分钟",
-    "svg_height": 8786
+    "svg_height": 5905
   },
   {
     "date": "2026-06-23",
@@ -91,7 +95,7 @@
     ],
     "url": "https://www.xiaoyuzhoufm.com/episode/6a30da0d4233e62bc54aa723",
     "duration": "55分钟",
-    "svg_height": 9288
+    "svg_height": 6240
   },
   {
     "date": "2026-06-23",
@@ -105,7 +109,7 @@
     ],
     "url": "https://www.xiaoyuzhoufm.com/episode/695370632db086f897c3798c",
     "duration": "2小时13分",
-    "svg_height": 10895
+    "svg_height": 7311
   },
   {
     "date": "2026-06-23",
@@ -119,17 +123,21 @@
     ],
     "url": "https://www.xiaoyuzhoufm.com/episode/695b9d21bdbeb6a09edc2193",
     "duration": "2小时16分",
-    "svg_height": 11915
+    "svg_height": 7991
   },
   {
     "date": "2026-06-23",
     "filename": "diqi_chedai_zhenxiang-总结.svg",
     "title": "7年低息车贷背后的真相：它真的是\"买车福利\"吗？",
     "summary": "三刀拆解七年低息贷款热潮：特斯拉银行车贷贴息2-3万，小米/理想/小鹏多走融资租赁，强制全险、GPS、车不属于你、逾期拖车，七年贷款与3-5年换车周期严重错配",
-    "tags": ["汽车", "金融", "消费"],
+    "tags": [
+      "汽车",
+      "金融",
+      "消费"
+    ],
     "url": "https://www.xiaoyuzhoufm.com/episode/697a6e79073030367a3e1b8b",
     "duration": "49分钟",
-    "svg_height": 9648
+    "svg_height": 6480
   },
   {
     "date": "2026-06-23",
@@ -143,7 +151,7 @@
     ],
     "url": "https://www.xiaoyuzhoufm.com/episode/6931b3d53fec3166cf508299",
     "duration": "61分钟",
-    "svg_height": 9323
+    "svg_height": 6263
   },
   {
     "date": "2026-06-23",
@@ -157,37 +165,49 @@
     ],
     "url": "https://www.xiaoyuzhoufm.com/episode/69a77745f44b398f59390e48",
     "duration": "58分28秒",
-    "svg_height": 8709
+    "svg_height": 5854
   },
   {
     "date": "2026-06-23",
     "filename": "uniqlo_aesthetic_spotlight-总结.svg",
     "title": "007. 优衣库：做审美的聚光灯，也赞许柔软的平凡",
     "summary": "余光Post拆解优衣库语法型品牌逻辑：模仿Zara亏50亿、摇粒绒豪赌、Made for All与东丽面料科技，Jil Sander联名抬高天花板，从普通人衣橱到设计师搭配的万能接口",
-    "tags": ["品牌", "商业", "时尚"],
+    "tags": [
+      "品牌",
+      "商业",
+      "时尚"
+    ],
     "url": "https://www.xiaoyuzhoufm.com/episode/68a8679f293471fed4f71f5f",
     "duration": "46分",
-    "svg_height": 10913
+    "svg_height": 7323
   },
   {
     "date": "2026-06-23",
     "filename": "malaysia_7day_travel_guide-总结.svg",
     "title": "马来西亚7天6晚：榴莲自由是假象，我带回了这本1.3万字的避坑血泪史",
     "summary": "三刀一家三口春节马来西亚七天六晚实录：西马吉隆坡+东马亚庇，预算约2.5万。核心是体验与交流而非打卡，避坑关键是MDAC、Maybank换汇、别在商圈非旺季吃猫山王",
-    "tags": ["旅行", "马来西亚", "攻略"],
+    "tags": [
+      "旅行",
+      "马来西亚",
+      "攻略"
+    ],
     "url": "https://www.xiaoyuzhoufm.com/episode/69a3189566e2c30377ca98d9",
     "duration": "1小时43分",
-    "svg_height": 12726
+    "svg_height": 8532
   },
   {
     "date": "2026-06-23",
     "filename": "product_qiuzhi_resume_talk-总结.svg",
     "title": "E43.产品 | 求职经验谈：写简历的\"关键词\"思维 & 面试官\"成长\"比成功更重要",
     "summary": "零实习 Elly 用关键词库快速迭代简历、逐字深挖预判追问、按公司定制 Notion 面试题库，三个月拿下京东/去哪儿后收割十余家大厂 SP，核心心法：求职像高考，基本功到位拿 80% offer",
-    "tags": ["产品经理", "求职", "简历"],
+    "tags": [
+      "产品经理",
+      "求职",
+      "简历"
+    ],
     "url": "https://www.xiaoyuzhoufm.com/episode/61589826ae1d32c4f86c1933",
     "duration": "30分钟",
-    "svg_height": 9054
+    "svg_height": 6084
   },
   {
     "date": "2026-06-23",
@@ -201,17 +221,21 @@
     ],
     "url": "https://www.xiaoyuzhoufm.com/episode/697c8fbbf7c35127c699c168",
     "duration": "1小时07分",
-    "svg_height": 12278
+    "svg_height": 8233
   },
   {
     "date": "2026-06-23",
     "filename": "quanji_hotel_oriental_aesthetics-总结.svg",
     "title": "012. 全季酒店：取一瓢东方美学，做全球代入的体面",
     "summary": "余光Post拆解全季酒店：2010年卡位300-500元差旅空档，以布置暗、木质温感与白粥式东方美学服务打工人；对比亚朵峰终造峰，全季走低方差稳定路线，季琦三无原则铸就国民酒店",
-    "tags": ["品牌", "商业", "文化"],
+    "tags": [
+      "品牌",
+      "商业",
+      "文化"
+    ],
     "url": "https://www.xiaoyuzhoufm.com/episode/691481ac6018cc2c9885eaa1",
     "duration": "49分钟",
-    "svg_height": 10692
+    "svg_height": 7176
   },
   {
     "date": "2026-06-23",
@@ -225,7 +249,7 @@
     ],
     "url": "https://www.xiaoyuzhoufm.com/episode/698fbbc62cbb0d7f6e4ae7e7",
     "duration": "55分",
-    "svg_height": 13725
+    "svg_height": 9198
   },
   {
     "date": "2026-06-23",
@@ -239,17 +263,21 @@
     ],
     "url": "https://www.xiaoyuzhoufm.com/episode/69b35445dc0cc48a76772b57",
     "duration": "1小时07分",
-    "svg_height": 11781
+    "svg_height": 7902
   },
   {
     "date": "2026-06-23",
     "filename": "ikea_stockholm2025-总结.svg",
     "title": "006. IKEA 最资深的「新人」：斯德哥尔摩2025系列",
     "summary": "余光Post惠思与设计师Jackie从感官设计、材质节奏与矿物配色拆解宜家斯德哥尔摩2025，并揭秘三阶段新品孵化与30年复古循环论",
-    "tags": ["家居设计", "IKEA", "设计"],
+    "tags": [
+      "家居设计",
+      "IKEA",
+      "设计"
+    ],
     "url": "https://www.xiaoyuzhoufm.com/episode/68776b0294c433b27200167f",
     "duration": "42分钟",
-    "svg_height": 10271
+    "svg_height": 6895
   },
   {
     "date": "2026-06-23",
@@ -263,7 +291,7 @@
     ],
     "url": "https://www.xiaoyuzhoufm.com/episode/69c80a05b977fb2c47790a55",
     "duration": "1小时24分",
-    "svg_height": 11081
+    "svg_height": 7435
   },
   {
     "date": "2026-06-23",
@@ -277,7 +305,7 @@
     ],
     "url": "https://www.xiaoyuzhoufm.com/episode/6969e300109824f9e1cca69e",
     "duration": "62分钟",
-    "svg_height": 12426
+    "svg_height": 8332
   },
   {
     "date": "2026-06-23",
@@ -291,7 +319,7 @@
     ],
     "url": "https://www.xiaoyuzhoufm.com/episode/69cd679eb977fb2c47dff9e8",
     "duration": "1小时32分",
-    "svg_height": 8223
+    "svg_height": 5530
   },
   {
     "date": "2026-06-23",
@@ -305,7 +333,7 @@
     ],
     "url": "https://www.xiaoyuzhoufm.com/episode/69f04d48b973c3fd59984685",
     "duration": "2小时02分",
-    "svg_height": 9534
+    "svg_height": 6404
   },
   {
     "date": "2026-06-23",
@@ -319,7 +347,7 @@
     ],
     "url": "https://www.xiaoyuzhoufm.com/episode/69e576c91d989496e70382ca",
     "duration": "1小时56分",
-    "svg_height": 9495
+    "svg_height": 6378
   },
   {
     "date": "2026-06-23",
@@ -333,7 +361,7 @@
     ],
     "url": "https://www.xiaoyuzhoufm.com/episode/69b3b675772ac2295bfc01d0",
     "duration": "1小时05分",
-    "svg_height": 9593
+    "svg_height": 6443
   },
   {
     "date": "2026-06-23",
@@ -347,7 +375,7 @@
     ],
     "url": "https://www.xiaoyuzhoufm.com/episode/6972e4f5ef1cf272a7fa507a",
     "duration": "1小时24分",
-    "svg_height": 9186
+    "svg_height": 6172
   },
   {
     "date": "2026-06-23",
@@ -361,7 +389,7 @@
     ],
     "url": "https://www.xiaoyuzhoufm.com/episode/6a00aa051b7bd50295dfe41d",
     "duration": "3小时51分",
-    "svg_height": 11192
+    "svg_height": 7509
   },
   {
     "date": "2026-06-23",
@@ -375,7 +403,7 @@
     ],
     "url": "https://www.xiaoyuzhoufm.com/episode/69cb7e21b977fb2c47b88308",
     "duration": "57分钟",
-    "svg_height": 10761
+    "svg_height": 7222
   },
   {
     "date": "2026-06-23",
@@ -389,7 +417,7 @@
     ],
     "url": "https://www.xiaoyuzhoufm.com/episode/69d61071e2c8be3155aca11b",
     "duration": "1小时14分",
-    "svg_height": 8714
+    "svg_height": 5857
   },
   {
     "date": "2026-06-23",
@@ -403,7 +431,7 @@
     ],
     "url": "https://www.xiaoyuzhoufm.com/episode/69ed0f5a1e94ae692125ffc1",
     "duration": "74分钟",
-    "svg_height": 13355
+    "svg_height": 8951
   },
   {
     "date": "2026-06-23",
@@ -417,7 +445,7 @@
     ],
     "url": "https://www.xiaoyuzhoufm.com/episode/6a081febe1eb34a939819eab",
     "duration": "1小时45分",
-    "svg_height": 8805
+    "svg_height": 5918
   },
   {
     "date": "2026-06-23",
@@ -431,7 +459,7 @@
     ],
     "url": "https://www.xiaoyuzhoufm.com/episode/69e3b75f1d989496e7efabc1",
     "duration": "41分钟",
-    "svg_height": 9357
+    "svg_height": 6286
   },
   {
     "date": "2026-06-23",
@@ -445,7 +473,7 @@
     ],
     "url": "https://www.xiaoyuzhoufm.com/episode/69d1e86bb977fb2c47215ffc",
     "duration": "1小时22分",
-    "svg_height": 10811
+    "svg_height": 7255
   },
   {
     "date": "2026-06-23",
@@ -459,7 +487,7 @@
     ],
     "url": "https://www.xiaoyuzhoufm.com/episode/69ffaf4fe1eb34a93913ae93",
     "duration": "1小时05分",
-    "svg_height": 9159
+    "svg_height": 6154
   },
   {
     "date": "2026-06-23",
@@ -473,7 +501,7 @@
     ],
     "url": "https://www.xiaoyuzhoufm.com/episode/69fd8a69e1eb34a939f868c0",
     "duration": "3小时01分",
-    "svg_height": 9639
+    "svg_height": 6474
   },
   {
     "date": "2026-06-23",
@@ -487,7 +515,7 @@
     ],
     "url": "https://www.xiaoyuzhoufm.com/episode/6a0430941b7bd5029510c81e",
     "duration": "47分钟",
-    "svg_height": 7788
+    "svg_height": 5240
   },
   {
     "date": "2026-06-23",
@@ -501,7 +529,7 @@
     ],
     "url": "https://www.xiaoyuzhoufm.com/episode/6a0c84b51b7bd5029576643a",
     "duration": "2小时11分",
-    "svg_height": 8450
+    "svg_height": 5681
   },
   {
     "date": "2026-06-23",
@@ -515,7 +543,7 @@
     ],
     "url": "https://www.xiaoyuzhoufm.com/episode/69f2e8ef0694c843e7cd91b6",
     "duration": "1小时34分",
-    "svg_height": 10979
+    "svg_height": 7367
   },
   {
     "date": "2026-06-23",
@@ -529,7 +557,7 @@
     ],
     "url": "https://www.xiaoyuzhoufm.com/episode/69fca445e1eb34a939ee00db",
     "duration": "14分钟",
-    "svg_height": 7940
+    "svg_height": 5341
   },
   {
     "date": "2026-06-23",
@@ -543,7 +571,7 @@
     ],
     "url": "https://www.xiaoyuzhoufm.com/episode/6a0df9471b7bd5029589a9e1",
     "duration": "56分33秒",
-    "svg_height": 10661
+    "svg_height": 7155
   },
   {
     "date": "2026-06-23",
@@ -557,7 +585,7 @@
     ],
     "url": "https://www.xiaoyuzhoufm.com/episode/6a1dbe807460cabdeb598746",
     "duration": "1小时08分",
-    "svg_height": 12167
+    "svg_height": 8159
   },
   {
     "date": "2026-06-23",
@@ -571,7 +599,7 @@
     ],
     "url": "https://www.xiaoyuzhoufm.com/episode/6a180c25ac7bdb080c322cf5",
     "duration": "1小时47分",
-    "svg_height": 9081
+    "svg_height": 6102
   },
   {
     "date": "2026-06-23",
@@ -585,7 +613,7 @@
     ],
     "url": "https://www.xiaoyuzhoufm.com/episode/6a11ed1b8b5c94538e9ab546",
     "duration": "59分钟",
-    "svg_height": 8372
+    "svg_height": 5629
   },
   {
     "date": "2026-06-23",
@@ -599,7 +627,7 @@
     ],
     "url": "https://www.xiaoyuzhoufm.com/episode/69e875e81d989496e73b7892",
     "duration": "1小时42分",
-    "svg_height": 8906
+    "svg_height": 5985
   },
   {
     "date": "2026-06-23",
@@ -613,7 +641,7 @@
     ],
     "url": "https://www.xiaoyuzhoufm.com/episode/66bbaf3633591c27bedff423",
     "duration": "1小时13分",
-    "svg_height": 10877
+    "svg_height": 7299
   },
   {
     "date": "2026-06-23",
@@ -627,7 +655,7 @@
     ],
     "url": "https://www.xiaoyuzhoufm.com/episode/6a0c96fd1b7bd502957755eb",
     "duration": "1小时3分",
-    "svg_height": 9458
+    "svg_height": 6353
   },
   {
     "date": "2026-06-23",
@@ -641,7 +669,7 @@
     ],
     "url": "https://www.xiaoyuzhoufm.com/episode/69828c85a712301410e31643",
     "duration": "79分40秒",
-    "svg_height": 13289
+    "svg_height": 8907
   },
   {
     "date": "2026-06-23",
@@ -655,7 +683,7 @@
     ],
     "url": "https://www.xiaoyuzhoufm.com/episode/6a1c581b7460cabdeb58dcf4",
     "duration": "1小时57分",
-    "svg_height": 10062
+    "svg_height": 6756
   },
   {
     "date": "2026-06-23",
@@ -669,7 +697,7 @@
     ],
     "url": "https://www.xiaoyuzhoufm.com/episode/68590ac14abe6e29cb8dbb32",
     "duration": "48分钟",
-    "svg_height": 10647
+    "svg_height": 7146
   },
   {
     "date": "2026-06-23",
@@ -683,7 +711,7 @@
     ],
     "url": "https://www.xiaoyuzhoufm.com/episode/6a2564a77444b5722234d642",
     "duration": "1小时41分",
-    "svg_height": 11009
+    "svg_height": 7387
   },
   {
     "date": "2026-06-23",
@@ -697,7 +725,7 @@
     ],
     "url": "https://www.xiaoyuzhoufm.com/episode/69c176b0521e5c0a80abbf7e",
     "duration": "42分16秒",
-    "svg_height": 9243
+    "svg_height": 6210
   },
   {
     "date": "2026-06-23",
@@ -711,7 +739,7 @@
     ],
     "url": "https://www.xiaoyuzhoufm.com/episode/6a215963b30e1571aea0a58b",
     "duration": "1小时01分",
-    "svg_height": 8135
+    "svg_height": 5471
   },
   {
     "date": "2026-06-23",
@@ -725,7 +753,7 @@
     ],
     "url": "https://www.xiaoyuzhoufm.com/episode/6a2a5b40dbccffcfa9c74208",
     "duration": "1小时12分",
-    "svg_height": 11295
+    "svg_height": 7578
   },
   {
     "date": "2026-06-23",
@@ -739,7 +767,7 @@
     ],
     "url": "https://www.xiaoyuzhoufm.com/episode/6a2e3f6543a22a695583690a",
     "duration": "1小时09分",
-    "svg_height": 8361
+    "svg_height": 5622
   },
   {
     "date": "2026-06-23",
@@ -753,7 +781,7 @@
     ],
     "url": "https://www.xiaoyuzhoufm.com/episode/6a303f394233e62bc54a72fc",
     "duration": "1小时03分",
-    "svg_height": 10331
+    "svg_height": 6935
   },
   {
     "date": "2026-06-23",
@@ -767,7 +795,7 @@
     ],
     "url": "https://www.xiaoyuzhoufm.com/episode/6a31510b4233e62bc54af33b",
     "duration": "59分钟",
-    "svg_height": 10220
+    "svg_height": 6861
   },
   {
     "date": "2026-06-23",
@@ -781,7 +809,7 @@
     ],
     "url": "https://www.xiaoyuzhoufm.com/episode/6a0294a1e1eb34a9393828da",
     "duration": "17分54秒",
-    "svg_height": 9357
+    "svg_height": 6286
   },
   {
     "date": "2026-06-23",
@@ -795,7 +823,7 @@
     ],
     "url": "https://www.xiaoyuzhoufm.com/episode/6a2ff42043a22a6955843ab5",
     "duration": "39分钟",
-    "svg_height": 9096
+    "svg_height": 6112
   },
   {
     "date": "2026-06-23",
@@ -809,7 +837,7 @@
     ],
     "url": "https://www.xiaoyuzhoufm.com/episode/6a2bd9764233e62bc548bd8b",
     "duration": "35分33秒",
-    "svg_height": 9309
+    "svg_height": 6254
   },
   {
     "date": "2026-06-22",
@@ -823,7 +851,7 @@
     ],
     "url": "https://www.xiaoyuzhoufm.com/episode/6a31023c43a22a695584af21",
     "duration": "1小时07分",
-    "svg_height": 10703
+    "svg_height": 7183
   },
   {
     "date": "2026-06-21",
@@ -837,6 +865,6 @@
     ],
     "url": "https://www.xiaoyuzhoufm.com/episode/6a2be5da43a22a695582ad20",
     "duration": "3小时01分",
-    "svg_height": 12620
+    "svg_height": 8335
   }
 ]

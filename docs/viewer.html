@@ -203,17 +203,26 @@
       return String(s).replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;');
     }
 
+    function measureContentHeight(inner) {
+      var container = inner.querySelector('.container') || inner;
+      var last = container.lastElementChild;
+      if (!last) return Math.ceil(inner.scrollHeight || 0);
+      var innerTop = inner.getBoundingClientRect().top;
+      var lastBottom = last.getBoundingClientRect().bottom;
+      return Math.ceil(lastBottom - innerTop);
+    }
+
     function autoResizeSvg(svgEl) {
       var fo = svgEl.querySelector('foreignObject');
       if (!fo) return;
       var inner = fo.querySelector('div');
       if (!inner) return;
       var width = Number(svgEl.getAttribute('width')) || 1320;
-      var contentH = Math.ceil(inner.scrollHeight || inner.offsetHeight || 0);
+      var contentH = measureContentHeight(inner);
       if (!contentH || contentH < 200) return;
       var newH = contentH + 48;
       var declared = Number(svgEl.getAttribute('height')) || 0;
-      if (newH <= declared) return;
+      if (Math.abs(newH - declared) < 24) return;
       svgEl.setAttribute('height', String(newH));
       svgEl.setAttribute('viewBox', '0 0 ' + width + ' ' + newH);
       fo.setAttribute('height', String(newH));

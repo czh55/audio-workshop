@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="9639" viewBox="0 0 1320 9639">
-  <foreignObject x="0" y="0" width="1320" height="9639">
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="6474" viewBox="0 0 1320 6474">
+  <foreignObject x="0" y="0" width="1320" height="6474">
     <div xmlns="http://www.w3.org/1999/xhtml">
       <style>*{margin:0;padding:0;box-sizing:border-box}
 body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
@@ -251,8 +251,6 @@ tr:nth-child(even) td{background:#fafbfc}
 </div>
 
 <div class="footer">来源：有知有行·知情小酒馆 E234 | 小酒馆故事会</div>
-
-</div>
     </div>
   </foreignObject>
 </svg>

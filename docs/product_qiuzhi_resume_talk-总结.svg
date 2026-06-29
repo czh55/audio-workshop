@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="9054" viewBox="0 0 1320 9054">
-  <foreignObject x="0" y="0" width="1320" height="9054">
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="6084" viewBox="0 0 1320 6084">
+  <foreignObject x="0" y="0" width="1320" height="6084">
     <div xmlns="http://www.w3.org/1999/xhtml">
       <style>*{margin:0;padding:0;box-sizing:border-box}
 body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
@@ -275,8 +275,6 @@ tr:nth-child(even) td{background:#fafbfc}
   </ol>
   <h3>关键认知转变</h3>
   <p>以前认为简历是固定文档、面试是单向考核。现在理解了：简历是关键词积木、面试是双向选择的学习机会——面试官最看重的不是你没犯过错，而是你从失败中获得了什么成长。</p>
-</div>
-
 </div>
     </div>
   </foreignObject>

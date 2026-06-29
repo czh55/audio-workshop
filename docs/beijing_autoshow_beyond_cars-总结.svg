@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="13355" viewBox="0 0 1320 13355">
-  <foreignObject x="0" y="0" width="1320" height="13355">
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="8951" viewBox="0 0 1320 8951">
+  <foreignObject x="0" y="0" width="1320" height="8951">
     <div xmlns="http://www.w3.org/1999/xhtml">
       <style>*{margin:0;padding:0;box-sizing:border-box}
 body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
@@ -332,8 +332,6 @@ tr:nth-child(even) td{background:#fafbfc}
 </div>
 
 <div class="footer">叭叭呜说 · 三刀 · 北京车展复盘 · 2026年4月</div>
-
-</div>
     </div>
   </foreignObject>
 </svg>

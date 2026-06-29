@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="2319" viewBox="0 0 1320 2319">
-  <foreignObject x="0" y="0" width="1320" height="2319">
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="1572" viewBox="0 0 1320 1572">
+  <foreignObject x="0" y="0" width="1320" height="1572">
     <div xmlns="http://www.w3.org/1999/xhtml">
       <style>
 *{margin:0;padding:0;box-sizing:border-box}
@@ -40,8 +40,7 @@ p{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
 .conclusion p{color:rgba(255,255,255,0.9);font-size:14px}
 .footer{text-align:center;color:#94a3b8;font-size:12px;padding:24px 0 8px}
 </style>
-      
-<div class="container">
+      <div class="container">
 <h1>孕期全攻略 · 知识总目录</h1>
 <div class="meta">
   <span class="tag tag-blue">孕期知识</span>
@@ -145,8 +144,6 @@ p{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
 </div>
 
 <div class="footer">孕期全攻略 · 丁香妈妈 × 卓正医疗 · 知识总结 SVG 系列</div>
-</div>
-
     </div>
   </foreignObject>
 </svg>
