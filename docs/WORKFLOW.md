@@ -393,6 +393,7 @@ python3 scripts/generate_svg_audio.py --pregnancy   # 孕期全攻略专题
 - [ ] 有时间轴关键节点
 - [ ] 区分了嘉宾观点与主持人提问
 - [ ] SVG 高度正常、XML 无错配标签
+- [ ] 生成后运行 `node scripts/fix-svg-heights.mjs docs/{slug}-总结.svg` 确认无截断（或在 viewer 中滚动到底部检查结论区）
 
 ---
 

@@ -106,7 +106,7 @@
       margin: 0 auto;
       padding: 16px;
     }
-    .svg-wrap object {
+    .svg-wrap svg {
       display: block;
       width: 100%;
       max-width: 1320px;
@@ -114,6 +114,7 @@
       border: none;
       border-radius: 12px;
       background: #f8fafc;
+      overflow: visible;
     }
     .error-box {
       max-width: 560px;
@@ -202,6 +203,22 @@
       return String(s).replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;');
     }
 
+    function autoResizeSvg(svgEl) {
+      var fo = svgEl.querySelector('foreignObject');
+      if (!fo) return;
+      var inner = fo.querySelector('div');
+      if (!inner) return;
+      var width = Number(svgEl.getAttribute('width')) || 1320;
+      var contentH = Math.ceil(inner.scrollHeight || inner.offsetHeight || 0);
+      if (!contentH || contentH < 200) return;
+      var newH = contentH + 48;
+      var declared = Number(svgEl.getAttribute('height')) || 0;
+      if (newH <= declared) return;
+      svgEl.setAttribute('height', String(newH));
+      svgEl.setAttribute('viewBox', '0 0 ' + width + ' ' + newH);
+      fo.setAttribute('height', String(newH));
+    }
+
     var audioSrc = normalizedAudioUrl(file);
 
     fetch(file)
@@ -217,10 +234,16 @@
         document.getElementById('docTitle').textContent = title;
         document.title = title + ' · 语音讲解';
 
-        var obj = document.createElement('object');
-        obj.type = 'image/svg+xml';
-        obj.data = file;
-        document.getElementById('svgWrap').appendChild(obj);
+        var wrap = document.getElementById('svgWrap');
+        wrap.innerHTML = svgText;
+        var svgEl = wrap.querySelector('svg');
+        if (svgEl) {
+          autoResizeSvg(svgEl);
+          if (document.fonts && document.fonts.ready) {
+            document.fonts.ready.then(function() { autoResizeSvg(svgEl); });
+          }
+          window.addEventListener('load', function() { autoResizeSvg(svgEl); });
+        }
         document.getElementById('toolbar').style.display = '';
 
         return fetch(audioSrc, { method: 'HEAD' });

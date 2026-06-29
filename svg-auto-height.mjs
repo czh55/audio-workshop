@@ -27,38 +27,58 @@ function findChrome() {
 /** 从 HTML 字符串统计结构，估算高度（无浏览器时的回退） */
 export function estimateHeightFromHtml(html, width = 1320) {
   const n = (re) => (html.match(re) || []).length;
-  const cards = n(/class="card"/g);
+  const cards = n(/class="card[\s"-]/g);
   const samples = n(/class="sample"/g);
-  const sections = n(/class="sec"/g);
+  const sections = n(/class="section"/g);
   const maps = n(/class="map"/g);
+  const corrections = n(/class="correction"/g);
+  const conclusions = n(/class="conclusion"/g);
+  const timelines = n(/class="timeline"/g);
+  const summaryLines = n(/class="summary-line"/g);
   const tableRows = n(/<tr[\s>]/gi);
   const pres = n(/<pre class="data"/g);
   const flowBlocks = n(/class="flow"/g);
   const dualBlocks = n(/class="dual"/g);
   const insightKey = n(/class="insight-key"/g);
   const listItems = n(/<li>/g);
+  const olItems = n(/<ol[\s>][\s\S]*?<\/ol>/gi);
   const h1 = n(/<h1>/g);
+  const h2 = n(/<h2[\s>]/gi);
+  const h3 = n(/<h3[\s>]/gi);
+  const paragraphs = n(/<p[\s>]/gi);
 
-  let h = 48; // body padding
-  h += h1 * 72 + 36; // title block
+  let h = 96; // body padding (48*2)
+  h += h1 * 80 + 40; // title + meta
+  h += summaryLines * 120;
+  h += timelines * 280;
   h += n(/class="legend"/g) * 44;
   h += maps * 580;
+  h += corrections * 320;
   h += insightKey * 160;
   h += flowBlocks * 100;
   h += dualBlocks * 180;
-  h += sections * 85;
-  h += cards * 330;
+  h += sections * 90;
+  h += cards * 340;
   h += samples * 460;
   h += pres * 110;
-  h += Math.max(0, tableRows) * 30;
-  h += listItems * 20;
-  h += 64; // footer
+  h += Math.max(0, tableRows) * 32;
+  h += conclusions * 520;
+  h += listItems * 32;
+  h += h2 * 56;
+  h += h3 * 40;
+  h += paragraphs * 52;
+  h += 80; // footer
+
+  // 结论区有序列表常含长句，按字符数追加
+  for (const ol of olItems) {
+    h += Math.ceil(ol.length / 80) * 28;
+  }
 
   // 宽表格/长代码块略增
   if (html.length > 80000) h += 400;
   else if (html.length > 40000) h += 200;
 
-  return Math.ceil(h * 1.02);
+  return Math.ceil(h * 1.08);
 }
 
 function cdpSend(ws, method, params = {}) {
