@@ -1,6 +1,20 @@
 [
   {
     "date": "2026-07-05",
+    "filename": "ziran_fat_loss_vol65-总结.svg",
+    "title": "Vol.65 减掉1公斤脂肪需要多久？如何真正减掉脂肪？",
+    "summary": "Elijah拆解减脂生化机制：84%脂肪以CO₂呼出；7700大卡公式受代谢适应与测量误差影响；体重秤高噪音；力量训练保肌比耗卡更重要；小缺口+高蛋白+周期化才是可持续框架",
+    "tags": [
+      "健康",
+      "减脂",
+      "运动科学"
+    ],
+    "url": "https://www.xiaoyuzhoufm.com/episode/6a40edc79d2f5743683f1353",
+    "duration": "36分钟",
+    "svg_height": 5750
+  },
+  {
+    "date": "2026-07-05",
     "filename": "ai_model_problem_first-总结.svg",
     "title": "硅谷AI一线体感：从Model first到Problem first，我们用三年想明白了这件事",
     "summary": "AI Odyssey 对话硅谷技术人 Leo：三年间 AI 从模型狂欢祛魅为背景音，创业者从 Model first 转向 Problem first，API Wrapper 被证伪，Vertical AI 与成本控制成共识",
