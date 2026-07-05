@@ -54,8 +54,9 @@ function parseSvgParts(text) {
 
 function needsFix(declared, needed) {
   if (!declared || !needed) return false;
-  const diff = Math.abs(declared - needed);
-  return diff > Math.max(24, needed * 0.03);
+  if (needed > declared + 2) return true;
+  if (declared > needed + 2) return true;
+  return false;
 }
 
 async function fixOne(fp) {

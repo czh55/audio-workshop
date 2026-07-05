@@ -901,7 +901,7 @@
             tagsHtml +
             '<div class="topic-summary">' + escapeHtml(topic.summary || '') + '</div>' +
             (statsHtml ? '<div class="topic-stats">' + statsHtml + '</div>' : '') +
-            (topic.cover ? '<a class="topic-cover-link" href="' + escapeHtml(topic.cover) + '" target="_blank">📖 打开总目录 →</a>' : '');
+            (topic.cover ? '<a class="topic-cover-link" href="' + escapeHtml(viewerUrl(topic.cover)) + '" target="_blank">📖 打开总目录 →</a>' : '');
 
           const chapters = document.createElement('div');
           chapters.className = 'topic-chapters';

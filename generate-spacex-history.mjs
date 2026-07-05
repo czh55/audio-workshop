@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { buildSvg } from './svg-auto-height.mjs';
+import { buildSvg, SVG_MOBILE_CSS } from './svg-auto-height.mjs';
 
 const DIR = path.dirname(fileURLToPath(import.meta.url));
 const OUT = path.join(DIR, 'SpaceX开发史-播客总结.svg');
@@ -59,7 +59,7 @@ td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-alig
 .conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,0.95);margin:20px 0 10px}
 .conclusion p,.conclusion li{color:rgba(255,255,255,0.9);font-size:15px;line-height:1.8}
 .footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
-.key-data{display:inline-block;background:#1e40af;color:#fff;padding:2px 8px;border-radius:4px;font-size:13px;font-weight:700;margin-right:4px}`;
+.key-data{display:inline-block;background:#1e40af;color:#fff;padding:2px 8px;border-radius:4px;font-size:13px;font-weight:700;margin-right:4px}${SVG_MOBILE_CSS}`;
 
 const body = `<div class="container">
 

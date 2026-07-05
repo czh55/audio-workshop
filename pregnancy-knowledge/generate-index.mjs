@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { buildSvg } from '/Users/chenzhiheng/Projects/audio-workshop/svg-auto-height.mjs';
+import { buildSvg, SVG_MOBILE_CSS } from '../svg-auto-height.mjs';
 
 const DIR = path.dirname(fileURLToPath(import.meta.url));
 const OUT = path.join(DIR, '..', 'docs', 'topics', 'pregnancy', '00-总目录.svg');
@@ -43,6 +43,7 @@ p{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
 .conclusion h2{font-size:22px;font-weight:800;margin:0 0 12px;padding:0;border:none;color:#fff}
 .conclusion p{color:rgba(255,255,255,0.9);font-size:14px}
 .footer{text-align:center;color:#94a3b8;font-size:12px;padding:24px 0 8px}
+${SVG_MOBILE_CSS}
 `;
 
 const body = `

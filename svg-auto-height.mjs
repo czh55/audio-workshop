@@ -31,6 +31,7 @@ export function estimateHeightFromHtml(html, width = 1320) {
   const samples = n(/class="sample"/g);
   const sections = n(/class="section"/g);
   const maps = n(/class="map"/g);
+  const nodes = n(/class="node[\s"-]/g);
   const corrections = n(/class="correction"/g);
   const conclusions = n(/class="conclusion"/g);
   const timelines = n(/class="timeline"/g);
@@ -47,12 +48,12 @@ export function estimateHeightFromHtml(html, width = 1320) {
   const h3 = n(/<h3[\s>]/gi);
   const paragraphs = n(/<p[\s>]/gi);
 
-  let h = 96; // body padding (48*2)
+  let h = 40; // 顶部/底部基础留白
   h += h1 * 80 + 40; // title + meta
   h += summaryLines * 120;
   h += timelines * 280;
   h += n(/class="legend"/g) * 44;
-  h += maps * 580;
+  h += maps * 200 + nodes * 120;
   h += corrections * 320;
   h += insightKey * 160;
   h += flowBlocks * 100;
@@ -106,7 +107,7 @@ export async function measureHtmlHeight(html, width = 1320) {
 
   const tmpDir = fs.mkdtempSync(path.join(os.tmpdir(), 'svg-measure-'));
   const tmpHtml = path.join(tmpDir, 'page.html');
-  const fullPage = `<!DOCTYPE html><html><head><meta charset="utf-8"><style>html,body{margin:0;padding:0;}</style></head><body>${html}</body></html>`;
+  const fullPage = `<!DOCTYPE html><html><head><meta charset="utf-8"><style>html,body{margin:0;padding:0;}</style></head><body><div xmlns="http://www.w3.org/1999/xhtml">${html}</div></body></html>`;
   fs.writeFileSync(tmpHtml, fullPage, 'utf8');
 
   const port = 9300 + Math.floor(Math.random() * 700);
@@ -164,12 +165,15 @@ export async function measureHtmlHeight(html, width = 1320) {
     }).catch(() => {});
 
     const { result } = await cdpSend(ws, 'Runtime.evaluate', {
-      expression: `Math.ceil(Math.max(
-        document.body.scrollHeight,
-        document.documentElement.scrollHeight,
-        document.body.offsetHeight,
-        document.documentElement.offsetHeight
-      ))`,
+      expression: `(function(){
+        var el = document.querySelector('div[xmlns]') || document.body;
+        return Math.ceil(Math.max(
+          el.scrollHeight,
+          el.offsetHeight,
+          document.body.scrollHeight,
+          document.documentElement.scrollHeight
+        ));
+      })()`,
       returnByValue: true,
     });
 
@@ -213,7 +217,10 @@ export function fixSvgXml(svg) {
 }
 
 /** CDP/估算结果之上追加的底部留白（像素） */
-export const SVG_HEIGHT_PADDING = 48;
+export const SVG_HEIGHT_PADDING = 80;
+
+/** 模板 CSS 中追加的移动端适配规则 */
+export const SVG_MOBILE_CSS = `@media (max-width:640px){body,.container{padding:16px 12px!important}.container{max-width:100%!important}h1{font-size:24px!important}h2,.sec-title{font-size:18px!important}h3{font-size:16px!important}p,li{font-size:14px!important}.summary-line{font-size:15px!important;padding:14px 16px!important}.map,.card,.timeline{padding:16px!important;margin-bottom:16px!important}.map h2{font-size:18px!important}.diagram{gap:10px!important;padding:10px 0!important}.node{min-width:100px!important;padding:12px 16px!important;font-size:13px!important}.arrow{font-size:18px!important}.conclusion{padding:20px!important}.footer{padding:20px 0 12px!important}}`;
 
 export function computeSvgHeight(measuredHeight) {
   return Math.ceil(Number(measuredHeight) + SVG_HEIGHT_PADDING);

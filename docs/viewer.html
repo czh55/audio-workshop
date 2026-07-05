@@ -109,12 +109,22 @@
     .svg-wrap svg {
       display: block;
       width: 100%;
+      height: auto;
       max-width: 1320px;
+      max-height: none;
       margin: 0 auto;
       border: none;
       border-radius: 12px;
       background: #f8fafc;
       overflow: visible;
+    }
+    @media (max-width: 640px) {
+      .toolbar { padding: 10px 12px; }
+      .toolbar-top { gap: 8px 12px; margin-bottom: 10px; }
+      .doc-title { font-size: 14px; white-space: normal; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+      .audio-section { padding: 12px 14px; border-radius: 12px; }
+      .audio-hint { font-size: 12px; margin-bottom: 10px; }
+      .svg-wrap { padding: 8px; }
     }
     .error-box {
       max-width: 560px;
@@ -203,13 +213,43 @@
       return String(s).replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;');
     }
 
+    var MOBILE_CSS = '@media (max-width:640px){body,.container{padding:16px 12px!important}.container{max-width:100%!important}h1{font-size:24px!important}h2,.sec-title{font-size:18px!important}h3{font-size:16px!important}p,li{font-size:14px!important}.summary-line{font-size:15px!important;padding:14px 16px!important}.map,.card,.timeline{padding:16px!important;margin-bottom:16px!important}.map h2{font-size:18px!important}.diagram{gap:10px!important;padding:10px 0!important}.node{min-width:100px!important;padding:12px 16px!important;font-size:13px!important}.arrow{font-size:18px!important}.conclusion{padding:20px!important}.footer{padding:20px 0 12px!important}}';
+
+    function getSvgCanvasWidth(svgEl) {
+      var vb = svgEl.getAttribute('viewBox');
+      if (vb) {
+        var parts = vb.trim().split(/\s+/);
+        if (parts.length === 4) return Number(parts[2]) || 1320;
+      }
+      return Number(svgEl.getAttribute('width')) || 1320;
+    }
+
+    function injectMobileCss(inner) {
+      if (inner.querySelector('[data-viewer-mobile]')) return;
+      var style = document.createElement('style');
+      style.setAttribute('data-viewer-mobile', '1');
+      style.textContent = MOBILE_CSS;
+      inner.insertBefore(style, inner.firstChild);
+    }
+
+    function makeSvgResponsive(svgEl) {
+      svgEl.removeAttribute('width');
+      svgEl.removeAttribute('height');
+      svgEl.setAttribute('preserveAspectRatio', 'xMidYMin meet');
+      svgEl.style.width = '100%';
+      svgEl.style.height = 'auto';
+      svgEl.style.maxHeight = 'none';
+    }
+
     function measureContentHeight(inner) {
       var container = inner.querySelector('.container') || inner;
+      var scrollH = Math.ceil(container.scrollHeight || inner.scrollHeight || 0);
       var last = container.lastElementChild;
-      if (!last) return Math.ceil(inner.scrollHeight || 0);
+      if (!last) return scrollH;
       var innerTop = inner.getBoundingClientRect().top;
       var lastBottom = last.getBoundingClientRect().bottom;
-      return Math.ceil(lastBottom - innerTop);
+      var rectH = Math.ceil(lastBottom - innerTop);
+      return Math.max(scrollH, rectH);
     }
 
     function autoResizeSvg(svgEl) {
@@ -217,15 +257,23 @@
       if (!fo) return;
       var inner = fo.querySelector('div');
       if (!inner) return;
-      var width = Number(svgEl.getAttribute('width')) || 1320;
+      var width = getSvgCanvasWidth(svgEl);
       var contentH = measureContentHeight(inner);
       if (!contentH || contentH < 200) return;
-      var newH = contentH + 48;
-      var declared = Number(svgEl.getAttribute('height')) || 0;
-      if (Math.abs(newH - declared) < 24) return;
-      svgEl.setAttribute('height', String(newH));
+      var newH = contentH + 80;
+      var vb = svgEl.getAttribute('viewBox');
+      var declared = vb ? Number(vb.trim().split(/\s+/)[3]) : Number(svgEl.getAttribute('height')) || 0;
+      if (newH <= declared + 2) return;
       svgEl.setAttribute('viewBox', '0 0 ' + width + ' ' + newH);
       fo.setAttribute('height', String(newH));
+    }
+
+    function setupSvgResizeObserver(svgEl) {
+      var fo = svgEl.querySelector('foreignObject');
+      var inner = fo && fo.querySelector('div');
+      if (!inner || typeof ResizeObserver === 'undefined') return;
+      var observer = new ResizeObserver(function() { autoResizeSvg(svgEl); });
+      observer.observe(inner);
     }
 
     var audioSrc = normalizedAudioUrl(file);
@@ -247,7 +295,12 @@
         wrap.innerHTML = svgText;
         var svgEl = wrap.querySelector('svg');
         if (svgEl) {
+          var fo = svgEl.querySelector('foreignObject');
+          var inner = fo && fo.querySelector('div');
+          if (inner) injectMobileCss(inner);
+          makeSvgResponsive(svgEl);
           autoResizeSvg(svgEl);
+          setupSvgResizeObserver(svgEl);
           if (document.fonts && document.fonts.ready) {
             document.fonts.ready.then(function() { autoResizeSvg(svgEl); });
           }
