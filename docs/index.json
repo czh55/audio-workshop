@@ -1,6 +1,20 @@
 [
   {
     "date": "2026-07-05",
+    "filename": "ai_model_problem_first-总结.svg",
+    "title": "硅谷AI一线体感：从Model first到Problem first，我们用三年想明白了这件事",
+    "summary": "AI Odyssey 对话硅谷技术人 Leo：三年间 AI 从模型狂欢祛魅为背景音，创业者从 Model first 转向 Problem first，API Wrapper 被证伪，Vertical AI 与成本控制成共识",
+    "tags": [
+      "AI",
+      "硅谷",
+      "创业"
+    ],
+    "url": "https://www.xiaoyuzhoufm.com/episode/6a454bb69d2f574368411608",
+    "duration": "35分钟",
+    "svg_height": 7658
+  },
+  {
+    "date": "2026-07-05",
     "filename": "us_tipping_invisible_tax-总结.svg",
     "title": "达霏欣｜名义上自愿的美国小费，如何成为难以拒绝的「隐形税」？",
     "summary": "声动早咖啡：世界杯将至美国餐馆拟强制20%小费，拆解Tip Credit隐形税、菜单价格分拆与tipflation三大成因，并提示强制小费对本地居民与服务员税负的影响",
