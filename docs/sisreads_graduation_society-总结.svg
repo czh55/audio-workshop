@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="7963" viewBox="0 0 1320 7963">
+  <foreignObject x="0" y="0" width="1320" height="7963">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,0.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:20px 28px;text-align:center;min-width:160px;font-weight:700;font-size:16px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3{color:#92400e;margin-bottom:8px}
+.correction p{color:#92400e;font-size:15px}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,0.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.speaker{display:inline-block;font-size:13px;font-weight:600;padding:2px 10px;border-radius:12px;margin-right:8px}
+.speaker-host{background:#dbeafe;color:#1e40af}
+.speaker-guest{background:#ede9fe;color:#6b21a8}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,0.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,0.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,0.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}</style>
+      <div class="container">
+
+<h1>S8E2 毕业后，我们与社会的距离</h1>
+<div class="meta">
+  <span class="tag tag-blue">播客</span>
+  <span class="tag tag-purple">姐姐好读sisreads</span>
+  <span class="tag tag-orange">52分钟</span>
+  <span class="tag tag-green">毕业</span>
+  <span class="tag tag-gray">社会化</span>
+</div>
+<div class="summary-line">毕业季特别节目：希希、小焦、老袁三位「资深毕业人士」从各自毕业记忆出发，借听友来信讨论激情破灭、社会化打分与毕业法则，追问毕业后如何与社会的距离自处。</div>
+
+<div class="timeline">
+  <h3>关键时间轴</h3>
+  <div class="timeline-item"><span class="timeline-time">00:49</span><span class="timeline-text">三位姐姐自我介绍：希希毕业开心、老袁不太开心、小焦毕业王者（五次）</span></div>
+  <div class="timeline-item"><span class="timeline-time">01:57</span><span class="timeline-text">毕业记忆：疫情线答辩、孤独夕阳、校园喝到六点、导师失踪仓促答辩</span></div>
+  <div class="timeline-item"><span class="timeline-time">07:21</span><span class="timeline-text">第一封信（楚楚）：顺流而下进入理想专业，却无法对劳动产生激情</span></div>
+  <div class="timeline-item"><span class="timeline-time">10:25</span><span class="timeline-text">激情是奢侈品吗？三位姐姐对「热爱」的不同定义</span></div>
+  <div class="timeline-item"><span class="timeline-time">13:41</span><span class="timeline-text">老袁艺考追梦：自学看手相、激情说服父亲</span></div>
+  <div class="timeline-item"><span class="timeline-time">16:58</span><span class="timeline-text">激情像风：有风时追，无风时歇；警惕激情被剥削</span></div>
+  <div class="timeline-item"><span class="timeline-time">19:28</span><span class="timeline-text">第二封信：社会化打分，靠本性善恶观处事</span></div>
+  <div class="timeline-item"><span class="timeline-time">21:12</span><span class="timeline-text">互评社会化程度：小焦最高、老袁最低、杯子倒扣名场面</span></div>
+  <div class="timeline-item"><span class="timeline-time">27:51</span><span class="timeline-text">社会学视角：社会化是社会再生产，规范由谁决定？</span></div>
+  <div class="timeline-item"><span class="timeline-time">32:20</span><span class="timeline-text">情感与工作剥离：小焦把社交当工作干，反而获得正反馈</span></div>
+  <div class="timeline-item"><span class="timeline-time">37:25</span><span class="timeline-text">往前看 vs 艺术家回望原地：老袁拒绝大厂、朋友三天离职</span></div>
+  <div class="timeline-item"><span class="timeline-time">41:09</span><span class="timeline-text">第三封信（毛毛）：毕业及失业但心却平静，仍在追求智识生活</span></div>
+  <div class="timeline-item"><span class="timeline-time">43:05</span><span class="timeline-text">毕业法则一：坚持须与快乐/健康搭配</span></div>
+  <div class="timeline-item"><span class="timeline-time">47:10</span><span class="timeline-text">毕业法则二：去远方，睁眼看社会的多种规则</span></div>
+  <div class="timeline-item"><span class="timeline-time">49:37</span><span class="timeline-text">毕业法则三：尚年轻，一切皆有可能</span></div>
+</div>
+
+<div class="map">
+  <h2>核心脉络</h2>
+  <div class="diagram">
+    <div class="node">毕业记忆<br/>仓促与庆祝</div>
+    <span class="arrow">→</span>
+    <div class="node node-orange">激情困惑<br/>热爱破灭</div>
+    <span class="arrow">→</span>
+    <div class="node node-green">社会化<br/>打分与反思</div>
+    <span class="arrow">→</span>
+    <div class="node">情感剥离<br/>微剂量不适</div>
+    <span class="arrow">→</span>
+    <div class="node node-green">三条毕业法则<br/>坚持+远方+年轻</div>
+  </div>
+</div>
+
+<div class="correction">
+  <h3>⚠ 常见误解 / 认知纠偏</h3>
+  <p><b>误解：</b>「社会化程度高」=情商高、值得羡慕。<b>纠偏：</b>在社会学里，社会化是社会再生产的机制（Parsons），小红书上的用法已脱离原意；说人「很社会」往往是骂人。<b>误解：</b>毕业前必须找到一生热爱。<b>纠偏：</b>激情会破灭、会变；快乐是更直觉的标准，「做了什么就想方设法去爱」也是路径。</p>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">一、毕业记忆：仓促与庆祝并存</h2>
+
+  <div class="card">
+    <h3>三种毕业体验</h3>
+    <p><b>核心机制：</b>毕业从来不是单一情绪——可以是解脱、孤独、迷茫或幸福的混合体。</p>
+    <p><b>关键理解：</b>希希硕士毕业时赶上疫情，校门口像交换情报一样领取毕业证，空荡北京路上看到绝美夕阳，在车里放声大笑「终于不用再读书了」。小焦博士答辩前导师失踪，最后一刻重组答辩委员会，在完全悬空感中毕业。老袁本科毕业穿格子裙与好友喝酒到凌晨六点，兴奋与迷茫并存。</p>
+    <p><b>典型场景：</b>当你觉得毕业「不够圆满」时，仓促和不确定其实是很多人的常态，从容毕业是幸运的少数。</p>
+    <div class="relation">相关概念：与听友信中「毕业及失业但心却平静」形成对照，情绪没有标准答案</div>
+    <div class="highlight">原文依据：「下一步脚已经迈出去了，上一步还没有解决问题呢」「我是谁，我在哪，我为什么会在这种完全悬空的感觉中毕业了」</div>
+  </div>
+
+  <div class="card card-purple">
+    <h3><span class="speaker speaker-host">主持人</span>当代大学生的焦虑</h3>
+    <p>希希提到给大一生上课时，学生就问如何规划职业，而她三十几岁也不知道。对比十年前大学生对职业发展课「嗤之以鼻」，现在焦虑明显提前。</p>
+    <div class="quote">「我一试也没有规划出来，他说我三十几次了，也不知道我的职业在哪里」</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">二、激情与热爱：奢侈品还是风向标？</h2>
+
+  <div class="card">
+    <h3>听友楚楚的困境</h3>
+    <p><b>核心机制：</b>按激情选了路，进入专业最好院校，实习后发现无法对劳动产生激情，改行又怕从零开始。</p>
+    <p><b>关键理解：</b>这种困惑说明你还在寻找，标准没有被模糊，其实是好事。追求激情本身是奢侈品，很多人面对的是「做A也可以做B也可以」的麻木。</p>
+    <p><b>典型场景：</b>已在理想位置时，不必立刻转行，可在做当前事的同时探索别的可能。</p>
+    <div class="highlight">原文依据：「我无法对这种劳动产生激情」「我觉得有这种困惑其实是一件好事，因为在这里说，你还在寻找」</div>
+  </div>
+
+  <div class="card card-purple">
+    <h3><span class="speaker speaker-guest">嘉宾观点</span>三种「激情」定义</h3>
+    <p><b>希希：</b>追求卓越，寻找能百分百发挥潜能的地方，持续在寻找中。</p>
+    <p><b>老袁：</b>激情=身心健康+不累着。因偏头痛，累着了就倒下，所以标准是不能把自己累坏。</p>
+    <p><b>小焦：</b>用「应不应该做」而非「想不想做」判断，把情感与工作剥离后反而获得正反馈。</p>
+    <div class="quote">「激情这个东西就像风一样，风来的时候我们就让风带着往前走一走，没有风的时候就歇一歇」</div>
+  </div>
+
+  <div class="card card-orange">
+    <h3>⚠ 激情陷阱：文艺圈的免费劳动</h3>
+    <p><b>原因：</b>文学、艺术、学术领域常用「爱得不够深」来剥削劳动力，不给钱的工作用激情包装。</p>
+    <div class="pitfall">嘉宾说法：「你不能吃这些苦，说明你爱得不够深」</div>
+    <p><b>解法：</b>无论是否追逐激情，自己的感受最重要，不要被激情绑架。</p>
+    <p><b>严重程度：</b>小心（长期可致倦怠与自我怀疑）</p>
+  </div>
+
+  <div class="card">
+    <h3>老袁的艺考往事</h3>
+    <p>全家无人从事文艺，父母五音不全。老袁打电话说「这辈子一定做这个」，父亲沉默后回应：在你身上感受到激情，愿意支持。甚至买了手相书打算靠看相赚钱去艺考（后未用上）。考上后却发现不适合，激情也会破灭。</p>
+    <div class="quote">「激情来的时候就去追逐他，没有激情的时候也不要消沉」</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">三、社会化：打分游戏与学术底色</h2>
+
+  <div class="card">
+    <h3>互评社会化程度（满分10）</h3>
+    <table>
+      <tr><th>维度</th><th>希希</th><th>小焦</th><th>老袁</th><th>一句话结论</th></tr>
+      <tr><td>自评</td><td>6分</td><td>5分</td><td>5分</td><td>三位自认「及格偏下」</td></tr>
+      <tr><td>互评最高</td><td>7-7.5分（创业者）</td><td>7-8分（会夸人）</td><td>5-5.5分（自由人）</td><td>小焦社交场合最游刃有余</td></tr>
+      <tr><td>核心特征</td><td>创业者，多方打交道</td><td>夸奖功力「ChatGPT要拜师」</td><td>艺术家气质，无体制训练痕迹</td><td>社会化是能力+意愿+心态</td></tr>
+    </table>
+  </div>
+
+  <div class="card card-purple">
+    <h3><span class="speaker speaker-guest">嘉宾观点</span>杯子倒扣事件</h3>
+    <p>电影学院跟剧组吃饭，老袁学到喝完酒倒扣杯子表示真诚。碩士时对着导师和同学这样做，全场「瞳孔地震」——社会化技能在不同场合适用性完全不同。</p>
+    <div class="quote">「如果他说你很社会，那这句话肯定是骂人的」</div>
+  </div>
+
+  <div class="card">
+    <h3>社会学视角：Socialization</h3>
+    <p><b>核心机制：</b>Parsons 结构功能主义中，社会化是社会再生产机制，像「文化下载」——学习大人该怎么做。</p>
+    <p><b>关键理解：</b>规范由谁决定？边缘群体没有这套语法。同一行为在不同文化环境可能离谱（倒扣酒杯、主座规矩）。</p>
+    <p><b>适用边界：</b>学术里社会化不是褒义词；延续糟糕文化（酒桌、等级座位）不等于成熟。</p>
+    <div class="relation">相关概念：与「情商」混用是误读；性别研究中讨论女性气质的社会化</div>
+    <div class="highlight">原文依据：「学这些东西真的不是在延续一些糟糕的文化吗」</div>
+  </div>
+
+  <div class="card card-orange">
+    <h3>⚠ 过早自我限定</h3>
+    <p><b>原因：</b>毕业生常说「我不适合跟人打交道」「我是内向的人」而拒绝机会。</p>
+    <div class="pitfall">老袁朋友劝其勿进大厂：「我们都是注定无法融入社会的人，会被社会伤害，所以要躲起来」</div>
+    <p><b>解法：</b>真的去做了也许能忍受，且年轻人可微剂量尝试不适。后续：劝老袁的朋友自己进字节三天就离职。</p>
+    <p><b>严重程度：</b>可忽略（若只是阶段性选择）/ 小心（若变成永久逃避）</p>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">四、向前看与情感剥离</h2>
+
+  <div class="card card-purple">
+    <h3><span class="speaker speaker-host">主持人</span>「做了什么就爱上」</h3>
+    <p>希希提出打开人生的方法：不是「爱什么做什么」，而是「做了什么就想方设法去爱」。身体也需要承受适度不适才能成长，心理上亦然。</p>
+    <div class="quote">「不是我爱什么去做什么，而是我做了什么就想方设法去爱这件事」</div>
+    <div class="action">怎么落地：对内向者，把必要社交当「工作」完成，不投入过多情感，降低心理门槛</div>
+  </div>
+
+  <div class="card card-purple">
+    <h3><span class="speaker speaker-guest">嘉宾观点</span>往前看 vs 回望原地</h3>
+    <p>老袁散步时朋友说「你还是要往前看，要做新的事情」——大为震撼，因为自己和很多朋友都不会往前看，停留在某阶段。但他也提出：艺术家需要停留在某处反复深挖，往前看的是普通人。</p>
+    <div class="quote">「往前看的人是普通人，艺术家是要停留在某处的人。I'm not an artist.」</div>
+  </div>
+
+  <div class="card">
+    <h3>小焦的情感剥离法</h3>
+    <p>用「应不应该做」替代「想不想做」。做项目经理需要社交时，当成工作干，情感与行为分离，反而做得不错并获得正反馈。社会化也许是把激情（情感）与事（行为）剥离的步骤。</p>
+    <p><b>适用边界：</b>适用于必要但不愉悦的任务；不适用于需要深度投入的创作核心</p>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">五、三条毕业法则</h2>
+
+  <div class="card card-purple">
+    <h3>💡 法则一：坚持须与快乐搭配</h3>
+    <p><b>为什么重要：</b>老袁曾因「坚持」在写剧本上吃了很多毫无意义的苦，直到毫无症状崩溃。优点必须成对出现：坚持+快乐/健康，善良+边界，勇敢+智慧，忍耐+自爱。</p>
+    <div class="quote">「坚持是一个很好的词，但这个世界上的优点必须要成对的出现」</div>
+    <div class="action">怎么落地：每次想用「坚持」说服自己时，问：这件事让我快乐吗？身心健康吗？</div>
+    <p><b>适用边界：</b>短期痛苦换长期正确方向时，仍需快乐作为底线校准</p>
+  </div>
+
+  <div class="card card-purple">
+    <h3>💡 法则二：去远方，睁眼看社会</h3>
+    <p><b>为什么重要：</b>小焦相信年轻时去更大世界（大城市、不同行业），能发现社会有多种规则，不必在封闭小社会里二选一「加入还是不加入」。</p>
+    <div class="quote">「当你睁眼看社会以后，你就会发现原来世界不止一种规则」</div>
+    <div class="action">怎么落地：在能力范围内换城市/行业体验，建立属于自己的社会规则，找到舒服的小社会</div>
+    <p><b>适用边界：</b>不必出国才算；小城市→省会→大城市也是路径</p>
+  </div>
+
+  <div class="card card-purple">
+    <h3>💡 法则三：尚年轻，一切皆有可能</h3>
+    <p><b>为什么重要：</b>年龄是心理感受而非数字。22岁觉得来不及进大厂，但各式各样的人在小领域获得成就都能活。以「活」为底线，追寻快乐或激情。</p>
+    <div class="quote">「你这么年轻，你想干什么就干什么」「一切皆有可能，就去尝试一些事情」</div>
+    <div class="action">怎么落地：不必大一规划全部人生；播客最初只是「姐妹零食」，两年后成为快乐来源</div>
+  </div>
+
+  <div class="card">
+    <h3>观点对比：追求标准</h3>
+    <table>
+      <tr><th>维度</th><th>激情/热爱</th><th>快乐</th><th>一句话结论</th></tr>
+      <tr><td>承诺大小</td><td>显得很大，像终身契约</td><td>当下直觉反应</td><td>快乐是更轻量的决策标准</td></tr>
+      <tr><td>适用阶段</td><td>方向探索期</td><td>日常选择期</td><td>可互补使用</td></tr>
+      <tr><td>风险</td><td>被剥削、破灭后消沉</td><td>可能显得「不够社会化」</td><td>快乐+健康是更稳的底线</td></tr>
+    </table>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">六、听友来信精选</h2>
+
+  <div class="card card-green">
+    <h3>毛毛：毕业及失业，心却平静</h3>
+    <p>跨考阶段恐惧，真正毕业时反而平静。毕业只是求学暂时割席，仍在追求智识生活，不会停步。</p>
+  </div>
+
+  <div class="card card-green">
+    <h3>巴巴托斯：毕业后各自奔赴</h3>
+    <p>毕业时没时间难过，相信距离不是问题。相似思维方式的朋友即使不同行业，相聚仍有无尽共同语言。</p>
+  </div>
+
+  <div class="card card-green">
+    <h3>Carmie Grace：高中即将毕业</h3>
+    <p>没变成功利做题机器，仍写日记、阅读、听歌。录节目时正值高考，祝愿天气晴朗、上岸梦校。</p>
+  </div>
+</div>
+
+<div class="conclusion">
+  <h2>总结与行动</h2>
+  <h3>核心要点</h3>
+  <ul>
+    <li>毕业情绪没有标准模板：仓促、孤独、解脱、迷茫都可以同时存在</li>
+    <li>对激情困惑不是失败，说明你还在寻找；激情会破灭、会变，快乐是更直觉的标准</li>
+    <li>「社会化程度高」不等于情商高；学术上是中性的再生产概念，酒桌规矩不等于成熟</li>
+    <li>情感可与工作剥离：把必要社交当任务完成，微剂量承受心理不适</li>
+    <li>坚持须与快乐/健康成对；去远方看多种社会规则；心理上保持年轻，一切皆有可能</li>
+  </ul>
+  <h3>行动清单</h3>
+  <ol>
+    <li>给自己社会化程度打分（1-10），写下理由，区分「能力」与「意愿」</li>
+    <li>列出一件你因「不适合我」而回避的事，试一次微剂量体验（聊天、实习、社交）</li>
+    <li>用「当下快乐吗？身心健康吗？」校准任何「坚持」决定</li>
+    <li>在能力范围内安排一次「远方」体验：新城市、新行业或新圈子</li>
+    <li>写给一年后的自己：不规划全部人生，只写三件想尝试的事</li>
+  </ol>
+  <h3>关键认知转变</h3>
+  <p>以前认为毕业就要找到终身热爱、把自己打磨成「社会人」；现在理解了激情是风、社会化有多种规则、快乐与坚持须成双，毕业后与社会的距离不必焦虑地缩短，可以按自己的节奏建立坐标。</p>
+</div>
+
+</div>
+    </div>
+  </foreignObject>
+</svg>
