@@ -763,11 +763,6 @@
           return;
         }
 
-        const today = new Date();
-        today.setHours(0, 0, 0, 0);
-        const startDate = new Date(today);
-        startDate.setDate(startDate.getDate() - (DISPLAY_RANGE_DAYS - 1));
-
         const keptOnDate = {};
 
         items.forEach(item => {
@@ -782,6 +777,10 @@
             keptOnDate[d] = kept + 1;
             return;
           }
+          // 以条目自身日期为锚点，而非“今天”，避免展示日期每天漂移
+          const anchor = new Date(d + 'T00:00:00');
+          const startDate = new Date(anchor);
+          startDate.setDate(startDate.getDate() - (DISPLAY_RANGE_DAYS - 1));
           const seed = hashString(item.url || item.filename || item.title || '');
           const dayOffset = seed % DISPLAY_RANGE_DAYS;
           const disp = new Date(startDate);
