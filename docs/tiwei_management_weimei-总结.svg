@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="8349" viewBox="0 0 1320 8349">
+  <foreignObject x="0" y="0" width="1320" height="8349">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,0.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:20px 28px;text-align:center;min-width:160px;font-weight:700;font-size:16px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3{color:#92400e;margin-bottom:8px}
+.correction p{color:#92400e;font-size:15px}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,0.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.speaker{display:inline-block;font-size:13px;font-weight:600;padding:2px 10px;border-radius:12px;margin-right:8px}
+.speaker-host{background:#dbeafe;color:#1e40af}
+.speaker-guest{background:#ede9fe;color:#6b21a8}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,0.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,0.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,0.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}@media (max-width:640px){body,.container{padding:16px 12px!important}.container{max-width:100%!important}h1{font-size:24px!important}h2,.sec-title{font-size:18px!important}h3{font-size:16px!important}p,li{font-size:14px!important}.summary-line{font-size:15px!important;padding:14px 16px!important}.map,.card,.timeline{padding:16px!important;margin-bottom:16px!important}.map h2{font-size:18px!important}.diagram{gap:10px!important;padding:10px 0!important}.node{min-width:100px!important;padding:12px 16px!important;font-size:13px!important}.arrow{font-size:18px!important}.conclusion{padding:20px!important}.footer{padding:20px 0 12px!important}}</style>
+      <div class="container">
+
+<h1>请人类全体起立，认真学习体味管理</h1>
+<div class="meta">
+  <span class="tag tag-blue">播客</span>
+  <span class="tag tag-purple">津津有味</span>
+  <span class="tag tag-orange">1小时28分</span>
+  <span class="tag tag-green">健康</span>
+</div>
+<div class="summary-line">某高老师与粒粒从「老人味」聊到汗味、口臭、脚臭与加龄臭：汗本身无味，臭味来自大汗腺信息素+细菌发酵+衣物滞留；东亚人 ABCC11 基因体味淡但别自满；睡眠&lt;6h 一周大汗腺分泌增 35%；换衣比只洗澡更重要；皮质醇是压力时代的体味开关。</div>
+
+<div class="timeline">
+  <h3>关键时间轴</h3>
+  <div class="timeline-item"><span class="timeline-time">02:00</span><span class="timeline-text">开场：人大概率不知道自己臭；医院一上午口臭攻击</span></div>
+  <div class="timeline-item"><span class="timeline-time">08:30</span><span class="timeline-text">社交距离框架：口臭最困扰，脚臭可隔间感知</span></div>
+  <div class="timeline-item"><span class="timeline-time">17:30</span><span class="timeline-text">小红书体臭帖泛滥；高铁光脚、不换袜习惯</span></div>
+  <div class="timeline-item"><span class="timeline-time">28:00</span><span class="timeline-text">体味研究：中年女性最好闻，中年男性最不受欢迎</span></div>
+  <div class="timeline-item"><span class="timeline-time">35:00</span><span class="timeline-text">大汗腺 vs 小汗腺；ABCC11 基因与东亚体味淡</span></div>
+  <div class="timeline-item"><span class="timeline-time">45:00</span><span class="timeline-text">加重体味：不换衣、阴干床单、睡眠剥夺、硫磺皂悖论</span></div>
+  <div class="timeline-item"><span class="timeline-time">55:00</span><span class="timeline-text">皮质醇进化逻辑：压力→大汗腺增殖→体味加重</span></div>
+  <div class="timeline-item"><span class="timeline-time">65:00</span><span class="timeline-text">减味方案：洗大汗腺位、弱酸沐浴、运动后 30 分钟换衣</span></div>
+  <div class="timeline-item"><span class="timeline-time">75:00</span><span class="timeline-text">饮食：蒜葱辣增味；蔬菜茶菇类减味；加龄臭 2-壬烯醛</span></div>
+  <div class="timeline-item"><span class="timeline-time">85:00</span><span class="timeline-text">老人味年龄节点与疾病预警；口罩共情策略</span></div>
+</div>
+
+<div class="map">
+  <h2>核心脉络</h2>
+  <div class="diagram">
+    <div class="node">汗液本身<br/>无味</div>
+    <div class="arrow">+</div>
+    <div class="node node-orange">大汗腺信息素<br/>+细菌发酵</div>
+    <div class="arrow">+</div>
+    <div class="node node-orange">衣物/床单<br/>滞留+阴干</div>
+    <div class="arrow">→</div>
+    <div class="node">社交距离内<br/>可感知臭味</div>
+  </div>
+  <div class="diagram" style="margin-top:16px;">
+    <div class="node node-green">压力/熬夜<br/>皮质醇↑</div>
+    <div class="arrow">→</div>
+    <div class="node node-orange">大汗腺分泌+35%<br/>洗一次澡不够</div>
+    <div class="arrow">→</div>
+    <div class="node node-green">运动消耗<br/>+换衣+洗大汗腺</div>
+  </div>
+</div>
+
+<div class="correction">
+  <h3>⚠ 常见误解 / 认知纠偏</h3>
+  <p><b>误解：</b>汗味是天生纯净、香水是盖味有害的；东亚人体味淡就可以三天不洗；运动完「烙汗」明天再洗；老人味=脏=不尊重老人。<br/>
+  <b>纠偏：</b>汗无味，臭来自大汗腺分泌物被细菌分解+衣物发酵；香水选品质好的可以；基因优势在出汗办公环境下会急剧缩水；运动后汗液在织物中发酵产硫化物；加龄臭（2-壬烯醛）是皮肤老化产物，不等于不讲卫生，但清洁与运动可延缓。</p>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">一、社交距离与体味感知</h2>
+
+  <div class="card">
+    <h3>社交距离框架</h3>
+    <p><b>核心机制：</b>只有进入社交距离（约 0.5–1.5 米）的体味才会造成困扰；远处骑车过去的臭味与你无关。</p>
+    <p><b>关键理解：</b>口臭是社交距离内杀伤力最大的体味；腋臭除非极浓否则影响范围小；脚臭可穿透隔间。</p>
+    <p><b>典型场景：</b>地铁、办公室、医院候诊、亲密关系。</p>
+    <div class="relation">相关概念：疫情戴口罩反而让人对自身体味更敏感</div>
+    <div class="highlight">原文依据：「口臭其实对人是困扰最大的……夜臭除非特别特别浓，否则影响不到太多人。」</div>
+  </div>
+
+  <div class="card card-purple">
+    <h3><span class="speaker speaker-host">主持人</span>医院口臭经历</h3>
+    <p>粒粒周一在医院一上午，几乎每个人口臭，严重打击食欲和对世界的好感；戴口罩的人身上一点味都没有，后悔疫情后少了这层屏障。</p>
+    <div class="quote">「我遇到的每一个人嘴里都是臭的……是不是我其实也是臭的，不然为什么那么特殊呢？」</div>
+  </div>
+
+  <div class="card card-orange">
+    <h3>⚠ 自以为不臭</h3>
+    <p><b>原因：</b>人对自身气味有嗅觉适应；父母对孩子有「闻着臭吃着香」滤镜。</p>
+    <div class="pitfall">嘉宾说法：「人大概率都不知道自己是臭的……能容忍自己散发异味影响别人的人，应该是不知道自己是臭的。」</div>
+    <p><b>解法：</b>主动问信任的人、注意运动后/熬夜后反馈、医院等密闭场景自检。</p>
+    <p><b>严重程度：</b>小心（长期影响社交与亲密关系）</p>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">二、大汗腺、基因与「种族天赋」</h2>
+
+  <div class="card">
+    <h3>大汗腺 vs 小汗腺</h3>
+    <p><b>核心机制：</b>小汗腺（全身+脚底）分泌无味汗液；大汗腺（腋下、外耳道、乳晕、会阴）分泌含信息素的黏稠分泌物，是体味主源。</p>
+    <p><b>关键理解：</b>脚臭多因足部疾病或汗液+细菌发酵，不是大汗腺；耳朵出汗=大汗腺发达，与腋臭概率相关。</p>
+    <p><b>典型场景：</b>判断自己是否有「湿耳垢」型 ABCC11 基因；选择洗腋下等大汗腺部位。</p>
+    <div class="relation">相关概念：ABCC11 基因突变使多数东亚人大汗腺不发达、体味淡</div>
+    <div class="highlight">原文依据：「东亚人这个好像有一个基因的突变……大多数人都没有什么体味。」</div>
+  </div>
+
+  <div class="card card-purple">
+    <h3><span class="speaker speaker-guest">嘉宾观点</span>体味研究的年龄排序</h3>
+    <p>引用体味捐赠研究：评估员对年龄组体味愉悦度排序为中年女性 &gt; 老年男性 &gt; 青年女性 &gt; 老年女性 &gt; 青年男性 &gt; 中年男性（最不受欢迎）。</p>
+    <div class="quote">「最好闻的是中年女性……最不受欢迎的是中年男性。」</div>
+  </div>
+
+  <div class="card">
+    <h3>观点对比：体味淡 ≠ 可以放纵</h3>
+    <table>
+      <tr><th>维度</th><th>基因优势派</th><th>后天管理派</th><th>一句话结论</th></tr>
+      <tr><td>东亚人</td><td>ABCC11 突变，大汗腺少</td><td>办公出汗、不换衣仍会臭</td><td>天赋会缩水，别自满</td></tr>
+      <tr><td>第三世界劳工</td><td>体力劳动易出汗</td><td>下班洗澡，反而淡</td><td>精神状态与清洁习惯更关键</td></tr>
+      <tr><td>城市打工人</td><td>体面上班</td><td>一天下来「没有不臭的」</td><td>环境+习惯抵消基因优势</td></tr>
+    </table>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">三、加重体味的日常行为</h2>
+
+  <div class="card card-orange">
+    <h3>⚠ 换衣服比洗澡更重要</h3>
+    <p><b>原因：</b>洗澡干净却穿脏衣、合成纤维不透气、床单阴干、房间通风差，气味在织物上发酵叠加。</p>
+    <div class="pitfall">嘉宾说法：「你觉得洗澡重要还是换衣服重要？……多了去了（洗澡不换衣）。」</div>
+    <p><b>解法：</b>贴身衣物每天换；运动后 30 分钟内换全套；床单勤洗晒干或烘干。</p>
+    <p><b>严重程度：</b>致命（最常见且可改）</p>
+  </div>
+
+  <div class="card card-orange">
+    <h3>⚠ 睡眠剥夺 + 皮质醇</h3>
+    <p><b>原因：</b>连续一周每天睡眠 &lt;6 小时，大汗腺分泌增加约 35%，洗一次澡解决不了。</p>
+    <div class="pitfall">嘉宾说法：「熬夜之后你身上……你屁股都是臭的……需要放一个大假。」</div>
+    <p><b>解法：</b>皮质醇是远古「备战激素」，要通过运动消耗出去，而非躺着焦虑。</p>
+    <p><b>严重程度：</b>致命（打工人高发）</p>
+  </div>
+
+  <div class="card">
+    <h3>皮质醇的进化逻辑</h3>
+    <p><b>核心机制：</b>慢性压力→皮质醇↑→抗炎、调动脂肪、大汗腺增殖→体味加重，古代用于部落战争辨敌我。</p>
+    <p><b>关键理解：</b>现代抽象压力无处发泄，皮质醇抵抗导致炎症、过敏、体味同时恶化。</p>
+    <p><b>典型场景：</b>赶项目连续熬夜一周后身上「齁臭」。</p>
+    <div class="action">怎么落地：识别压力源→运动/旅游等消耗皮质醇→再谈清洁</div>
+    <p><b>适用边界：</b>急性肾上腺素场景（逃跑）不适用此逻辑</p>
+  </div>
+
+  <div class="card card-orange">
+    <h3>⚠ 硫磺皂悖论</h3>
+    <p><b>原因：</b>硫磺皂杀菌但自身有臭鸡蛋味，使用者嗅觉适应，周围人却闻到。</p>
+    <div class="pitfall">嘉宾说法：「它会让你觉得自己一半干净，但周围的人觉得你是臭鸡蛋。」</div>
+    <p><b>解法：</b>祛痘等特定用途短期用，日常清洁换弱酸性沐浴露。</p>
+    <p><b>严重程度：</b>小心</p>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">四、减味行动清单（科学版）</h2>
+
+  <div class="card card-green">
+    <h3>清洁优先级</h3>
+    <p><b>1.</b> 大汗腺部位（腋下、外耳道、会阴）用沐浴露彻底清洁，勿只用清水冲。</p>
+    <p><b>2.</b> 体味重者：弱酸沐浴露后 75% 酒精棉片局部擦拭，降低细菌负荷。</p>
+    <p><b>3.</b> 运动后 30 分钟内更换全部贴身衣物，避免汗液在织物中发酵产硫化物。</p>
+    <p><b>4.</b> 口腔：每日多次刷牙+牙线/冲牙器；牙周病须治疗。</p>
+    <div class="action">怎么落地：泡脚后脚缝彻底擦干；选纯棉/银离子抗菌内衣</div>
+  </div>
+
+  <div class="card">
+    <h3>饮食双向影响</h3>
+    <table>
+      <tr><th>类型</th><th>代表食物</th><th>机制</th><th>建议</th></tr>
+      <tr><td>增味</td><td>大蒜、洋葱、辛辣、高盐卤味、红肉+酒</td><td>代谢负担、刺激汗腺、硫化物前体</td><td>社交前 24h 少吃</td></tr>
+      <tr><td>减味</td><td>番茄、蓝莓、绿茶、香菇、纳豆、坚果</td><td>抗氧化、调节肠道菌群</td><td>日常多吃，多喝水+膳食纤维</td></tr>
+    </table>
+  </div>
+
+  <div class="card card-purple">
+    <h3>💡 心法：香水不是罪</h3>
+    <p><b>为什么重要：</b>很多人把汗味当「原始纯净」，把香水当有害盖味；男生喷香水还被说「娘」。</p>
+    <div class="quote">「不要觉得汗味就是你与生俱来的……香水就是盖味的……买点贵的。」</div>
+    <div class="action">怎么落地：品质香水+基础清洁，比什么都不做更尊重身边人</div>
+    <p><b>适用边界：</b>疾病导致的体味（如尿味、严重牙周病）需就医，香水无法替代</p>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">五、加龄臭、疾病与年龄节点</h2>
+
+  <div class="card">
+    <h3>加龄臭（2-壬烯醛）</h3>
+    <p><b>核心机制：</b>皮肤 Omega-7 不饱和酸随衰老氧化生成 2-壬烯醛，叠加死皮菌群分解、内脏代谢衰退、口腔疾病、药物代谢物。</p>
+    <p><b>关键理解：</b>不是单一物质，是复合气味；衣服、床铺会吸附残留「痕迹」。</p>
+    <p><b>典型场景：</b>40–45 岁进入可检测阶段；55 岁以上 89% 可被他人明确感知。</p>
+    <div class="highlight">原文依据：「老人味不是单一物质造成的，是壬烯醛叠加了皮肤菌群代谢产物……」</div>
+  </div>
+
+  <div class="card card-orange">
+    <h3>⚠ 疾病预警体味</h3>
+    <p><b>原因：</b>肾衰竭可致口中有尿味；牙周急性炎症有恶臭；糖尿病等代谢病亦有特征气味。</p>
+    <div class="pitfall">嘉宾说法：「你闻到他嘴里有尿味，你就应该很警醒了，让他去检查就行。」</div>
+    <p><b>解法：</b>委婉建议就医，而非当众羞辱；对病患用口罩+共情，而非嫌弃。</p>
+    <p><b>严重程度：</b>致命（健康信号）</p>
+  </div>
+
+  <div class="card">
+    <h3>老人味年龄节点（个体有浮动）</h3>
+    <table>
+      <tr><th>年龄</th><th>特征</th><th>感知比例</th></tr>
+      <tr><td>40–45 岁</td><td>气味进入可检测阶段</td><td>压力/熬夜会放大</td></tr>
+      <tr><td>50–59 岁</td><td>男性变化最显著</td><td>约 50% 可感知明显味</td></tr>
+      <tr><td>55 岁+</td><td>皮脂氧化加速</td><td>89% 可被他人明确感知</td></tr>
+      <tr><td>60 岁+</td><td>气味明显上升</td><td>多数人可感知</td></tr>
+      <tr><td>75 岁+卧床</td><td>复合型体味</td><td>91% 长期卧床老人</td></tr>
+    </table>
+  </div>
+
+  <div class="card card-purple">
+    <h3><span class="speaker speaker-guest">嘉宾观点</span>共情策略</h3>
+    <p>面对因病致臭的患者：不发脾气、不发帖、不递漱口水羞辱；默默戴口罩，做好自己的事，不因此放弃自我清洁。</p>
+    <div class="quote">「我不会去选择自省别人做不好形象管理我要做好……这个时候口罩对我来说就是最有用的东西。」</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">六、人生各阶段体味图谱</h2>
+
+  <div class="card">
+    <h3>一生都「带味」</h3>
+    <p>奶香（父母滤镜）→ 幼童小狗/小鸡味 → 青春期浓重汗味+油脂 → 中年「灯味」（情绪词，非爹味）→ 老年加龄臭。每个人都可能自我感觉良好。</p>
+    <div class="relation">相关概念：青春期大汗腺体积增大 200%；更年期激素骤降也会改变分泌模式</div>
+    <div class="highlight">原文依据：「幼童期有小狗味小鸡味……中年是灯味……老年是加龄臭，我们一生都带着。」</div>
+  </div>
+
+  <div class="card card-purple">
+    <h3>💡 心法：高精力 ≈ 更干净</h3>
+    <p><b>为什么重要：</b>低精力、懒洋洋、下班后瘫沙发的人，更容易又油又臭；高精力代表健康侧面。</p>
+    <div class="quote">「人生不是只能做一件事……你可以学习的同时洗澡。」</div>
+    <div class="action">怎么落地：审视工作是否消耗过度；保持运动与规律作息</div>
+    <p><b>适用边界：</b>疾病或抑郁导致的低精力需另论，不是道德问题</p>
+  </div>
+</div>
+
+<div class="conclusion">
+  <h2>总结与行动</h2>
+  <h3>核心要点</h3>
+  <ul>
+    <li>汗本身无味，臭味=大汗腺分泌物+细菌+衣物发酵+压力激素</li>
+    <li>换衣服、洗大汗腺部位，往往比多洗一次澡更立竿见影</li>
+    <li>连续熬夜一周可使大汗腺分泌增约 35%，需运动消耗皮质醇</li>
+    <li>加龄臭从 40 岁起可检测，是皮肤老化产物，清洁与运动可延缓</li>
+    <li>口臭是社交杀手；疾病体味（如尿味）是就医信号，不是嘲笑理由</li>
+  </ul>
+  <h3>行动清单</h3>
+  <ol>
+    <li>今天检查：贴身衣物是否每天换、床单是否阴干、沐浴露是否只冲大汗腺位</li>
+    <li>运动后 30 分钟内换全套衣服，脚缝擦干再穿袜</li>
+    <li>睡眠保证 7h+，连续加班后安排恢复，别指望「烙汗」明天再洗</li>
+    <li>社交前 24 小时少吃蒜葱辣+红肉酒；多吃蔬菜喝茶</li>
+    <li>问信任的人「我有没有口气/体味」，别靠自我感觉</li>
+  </ol>
+  <h3>关键认知转变</h3>
+  <p>以前认为体味是天赋、汗味纯净、香水矫情、老人味=脏。现在理解了体味是可管理的综合结果：基因只给你起点，衣物、睡眠、压力、饮食和清洁习惯才决定你在社交距离内是否「齁臭」——善待身边人，从每天洗澡、勤换衣、管好皮质醇开始。</p>
+</div>
+
+<div class="footer">津津有味 · 某高老师 × 粒粒 · 转录总结</div>
+
+</div>
+    </div>
+  </foreignObject>
+</svg>
