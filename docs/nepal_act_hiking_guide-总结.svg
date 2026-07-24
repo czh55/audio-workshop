@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="7545" viewBox="0 0 1320 7545">
+  <foreignObject x="0" y="0" width="1320" height="7545">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,0.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:20px 28px;text-align:center;min-width:160px;font-weight:700;font-size:16px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3{color:#92400e;margin-bottom:8px}
+.correction p{color:#92400e;font-size:15px}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,0.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.speaker{display:inline-block;font-size:13px;font-weight:600;padding:2px 10px;border-radius:12px;margin-right:8px}
+.speaker-host{background:#dbeafe;color:#1e40af}
+.speaker-guest{background:#ede9fe;color:#6b21a8}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,0.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,0.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,0.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}
+@media (max-width:640px){body,.container{padding:16px 12px!important}.container{max-width:100%!important}h1{font-size:24px!important}h2,.sec-title{font-size:18px!important}h3{font-size:16px!important}p,li{font-size:14px!important}.summary-line{font-size:15px!important;padding:14px 16px!important}.map,.card,.timeline{padding:16px!important;margin-bottom:16px!important}.map h2{font-size:18px!important}.diagram{gap:10px!important;padding:10px 0!important}.node{min-width:100px!important;padding:12px 16px!important;font-size:13px!important}.arrow{font-size:18px!important}.conclusion{padding:20px!important}.footer{padding:20px 0 12px!important}}</style>
+      <div class="container">
+
+<h1>93｜为什么我们彻底爱上尼泊尔徒步！（交通住宿背夫花费全盘点）</h1>
+<div class="meta">
+  <span class="tag tag-blue">播客</span>
+  <span class="tag tag-purple">山合作用</span>
+  <span class="tag tag-green">尼泊尔ACT</span>
+  <span class="tag tag-orange">1小时19分</span>
+</div>
+<div class="summary-line">
+  前时尚杂志编辑 Sophie 与三三走完全球前十的 ACT（安纳普尔纳环线）精华段后复盘：烂路吉普车、Teahouse 住宿、背夫向导、饮食踩坑、换钱策略、4月完美天气窗口、装备查缺补漏，以及博卡拉/穆克提纳特/加德满都吃喝玩乐——缺点能忍、优点极想回去，给 ACT 打 8.5-9 分。
+</div>
+
+<div class="timeline">
+  <h3>关键时间轴</h3>
+  <div class="timeline-item">
+    <span class="timeline-time">03:16</span>
+    <span class="timeline-text">尼泊尔烂路名不虚传：12小时吉普车颠簸，头发结满灰土</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">12:46</span>
+    <span class="timeline-text">ACT 沿线 Guest House 住宿：75元/晚雪山窗景，不输瑞士英特拉肯</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">21:27</span>
+    <span class="timeline-text">背夫20美金/天、向导兼背夫25美金/天，马南后需交捐赠修路</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">28:00</span>
+    <span class="timeline-text">饮食吐槽：尼泊尔难吃排第一，蛋白质全靠鸡蛋</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">38:53</span>
+    <span class="timeline-text">换钱攻略：人均200元/天够用，马南和穆克提纳特有ATM</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">43:30</span>
+    <span class="timeline-text">4月中旬完美天气窗口：前后下雪起雾，卡在中间天天大晴天</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">45:10</span>
+    <span class="timeline-text">装备复盘：羽绒服、毛线帽、炉头、雪镜、恢复鞋、湿巾牙线</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">01:00:00</span>
+    <span class="timeline-text">博卡拉：费瓦湖划船、世界和平塔、裁缝店踩坑、攀岩咖啡</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">01:08:00</span>
+    <span class="timeline-text">穆克提纳特：印佛双圣地、108圣泉沐浴、藏传佛教尼姑庵</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">01:12:00</span>
+    <span class="timeline-text">加德满都泰米尔区：灰尘噪音、购物与返程</span>
+  </div>
+</div>
+
+<div class="map">
+  <h2>核心脉络</h2>
+  <div class="diagram">
+    <div class="node">加德满都<br/>12h烂路吉普</div>
+    <span class="arrow">→</span>
+    <div class="node node-green">ACT精华徒步<br/>Teahouse+背夫</div>
+    <span class="arrow">→</span>
+    <div class="node node-orange">Poon Hill<br/>日出观景</div>
+    <span class="arrow">→</span>
+    <div class="node">博卡拉休整<br/>穆克提纳特</div>
+  </div>
+</div>
+
+<div class="correction">
+  <h3>⚠ 常见误解 / 认知纠偏</h3>
+  <p>很多人以为尼泊尔徒步=吃苦省钱版西藏。实际上 ACT 是成熟的 Teahouse 文化（类似多洛米蒂/日本阿尔卑斯），沿途住宿餐饮齐全，不必重装。真正要忍的是：烂路交通、难吃饮食、高海拔热水贵——美景和友善的人抵消了这些缺点。</p>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">交通：烂路是入场券</h2>
+
+  <div class="card">
+    <h3>城市间吉普车包车</h3>
+    <p><b>核心机制：</b>尼泊尔公路极差，城市间移动基本靠吉普车。包车虽贵但舒适度远超拼车，且可按自己时间出发。</p>
+    <p><b>关键理解：</b>12小时烂路后拉开窗帘见雪山，瞬间觉得值了。但如果只为 Poon Hill 看日出而忍受这段路，性价比很低——必须搭配 ACT 多日徒步才划算。</p>
+    <p><b>典型场景：</b>4人团队包车，人均约1000+人民币，含背夫座位。</p>
+    <div class="highlight">原文依据：「做了12个小时那种烂路的车以后，你才能感受到他到底有多烂……第二天一早起来我拉开窗帘一看见那个雪山，我就觉得12个小时值了。」</div>
+  </div>
+
+  <div class="card card-orange">
+    <h3>⚠ 包车太松 vs 太挤</h3>
+    <p><b>原因：</b>拼车7-8人虽挤但互相卡住不易颠；4人包车+2背夫反而太松，所有人像弹球一样撞来撞去。</p>
+    <div class="pitfall">嘉宾说法：「坐得太松快也有太松快的不好之处，因为一颠起来所有人都在里头蹦。」</div>
+    <p><b>解法：</b>后排无安全带，需单手扶顶把手，一小时后手会僵直；尽量选有经验司机，Poon Hill 段尤其危险。</p>
+    <p><b>严重程度：</b>小心</p>
+  </div>
+
+  <div class="card">
+    <h3>交通费用参考（4人包车）</h3>
+    <table>
+      <tr><th>路段</th><th>费用</th><th>备注</th></tr>
+      <tr><td>加德满都→Upper Pisang（ACT起点）</td><td>262美金</td><td>12小时，比常规起点再往前</td></tr>
+      <tr><td>Kagbeni→Poon Hill</td><td>2万尼币（约1000元）</td><td>有还价空间，下午临时包车更贵</td></tr>
+      <tr><td>Poon Hill→博卡拉</td><td>1.5万尼币</td><td>司机顺路接单，较便宜</td></tr>
+      <tr><td>博卡拉→加德满都</td><td>1.6万尼币</td><td>可包空调轿车，不进灰</td></tr>
+    </table>
+    <div class="relation">尼币换算：除以20约等于人民币。四人分摊人均1000+元，被评价为「花得最值的一笔钱」。</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">住宿与背夫</h2>
+
+  <div class="card card-green">
+    <h3>Teahouse 住宿体系</h3>
+    <p><b>核心机制：</b>ACT 沿途设施完全围绕徒步设计，不用重装带补给。中午有 T-House 喝茶吃炒面，晚上住 Guest House，价格随海拔升高。</p>
+    <p><b>关键理解：</b>风景最好的 Selikaka 小独栋，正对面雪山大落地窗，每晚仅75人民币，「比瑞士还美不输瑞士」。</p>
+    <div class="highlight">原文依据：「你沿路都不用说要带特别多的补给以及重装，因为你沿路都可以有这些住宿的选择。」</div>
+  </div>
+
+  <div class="card card-purple">
+    <h3>
+      <span class="speaker speaker-guest">嘉宾观点</span>
+      背夫：尼泊尔最硬核的职业
+    </h3>
+    <p>背夫20美金/天、向导兼背夫25美金/天（旅行社抽成后到手不到100元/天）。翻5400米垭口穿帽衫无羽绒服，背30公斤走得比游客快，呼吸声都听不到，不用冰爪穿普通运动鞋。</p>
+    <div class="quote">「他全程走得最快的，背的那么重的东西都走得比我们快很多在前面，整个人非常的悠闲。」</div>
+    <div class="action">怎么落地：通过加德满都/博卡拉正规旅行社预订，避免路边假向导；谈好价格含餐食，不要背着背夫去别处吃饭。</div>
+  </div>
+
+  <div class="card card-orange">
+    <h3>⚠ 睡袋内胆：带 vs 不带</h3>
+    <p><b>原因：</b>山上被子薄，高海拔夜里冷；但背夫背了睡袋内胆后，沿途住宿免费（约定俗成）。</p>
+    <div class="pitfall">嘉宾说法：「如果你自己带了睡袋内胆，背夫就不用背他的了，那你的住宿费就要自己付。」</div>
+    <p><b>解法：</b>不带内胆、让背夫背，住宿免费更划算；怕冷可带薄内胆自用。</p>
+    <p><b>严重程度：</b>可忽略（经济账问题）</p>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">饮食：全球难吃冠军</h2>
+
+  <div class="card card-purple">
+    <h3>
+      <span class="speaker speaker-host">主持人</span>
+      尼泊尔饮食全吐槽
+    </h3>
+    <p>印度教影响素食多，蛋白质基本靠鸡蛋，吃到后面看见鸡蛋就想吐。蔬菜全是根茎类（土豆），鸡肉不像鸡肉。马南以上才有牦牛肉牛排/汉堡。</p>
+    <div class="quote">「在难吃这件事情上，我觉得目前尼泊尔排第一，比瑞士还难吃……难吃的点在于你没得可选。」</div>
+  </div>
+
+  <div class="card">
+    <h3>饮食费用与刺客</h3>
+    <p><b>典型场景：</b>Dal Bhat 传统套餐（米饭+汤+咸菜无限续）从山下550尼币到山上850-1000尼币。矿泉水150尼币/1.5升，比热水便宜得多。</p>
+    <p><b>关键理解：</b>陀龙拉翻垭口前那晚，一壶热水120人民币（2400尼币），「全城最贵的热水」，没看价格连喝几壶。</p>
+    <div class="action">怎么落地：带炉头烧水喝/洗脸；带湿巾、漱口水、牙线棒应对无法洗漱；路过小卖部多买苹果当膳食纤维；马南买牦牛肉萨拉米和苹果酒解馋。</div>
+  </div>
+
+  <div class="card card-orange">
+    <h3>⚠ 肠胃敏感者注意</h3>
+    <p><b>原因：</b>煎蛋用油不对或不够熟，同行有人当天肠胃不适。</p>
+    <div class="pitfall">嘉宾建议：「如果你肠胃比较敏感的话，还是吃水煮蛋会比较稳妥一些。」</div>
+    <p><b>严重程度：</b>小心</p>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">换钱与预算</h2>
+
+  <div class="card">
+    <h3>预算规划</h3>
+    <p><b>核心机制：</b>按小熊建议每人每天准备200人民币（含住宿+饮食）基本够用，不含购物和骑马等额外支出。</p>
+    <p><b>关键理解：</b>马南是汽车可达最后一站，有ATM但可能没钱；翻过垭口后穆克提纳特也有ATM。临时改行程、骑马需额外准备。</p>
+    <div class="relation">省钱方案：坐大巴+免费住宿+每餐一道菜，可压到50元/天，但「年纪大了吃不了那个苦」。</div>
+    <div class="highlight">原文依据：「我们按照200人民币换的钱，结果花得太超出了……到穆克提纳特就已经没有钱了。」</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">天气与装备</h2>
+
+  <div class="card card-green">
+    <h3>4月天气窗口</h3>
+    <p><b>核心机制：</b>3-5月是最佳徒步季，但今年雨季提前。她们卡在前后下雪起雾之间，天天大晴天，雨具完全没用上。</p>
+    <p><b>关键理解：</b>天气决定一切——没有好天气很难支撑走下去，尤其冲顶看景色。队友小路走后继续曼达里梦线，因大雾冲顶失败。</p>
+    <div class="quote">「如果没有一个好天气，就是很难支撑你走下去了。」</div>
+  </div>
+
+  <div class="card">
+    <h3>装备对比：必带 vs 可选</h3>
+    <table>
+      <tr><th>装备</th><th>建议</th><th>原因</th><th>结论</th></tr>
+      <tr><td>羽绒服+毛线帽</td><td>必带</td><td>营地炉子未生时冷，睡觉头冷易高反</td><td>翻垭口穿冲锋衣外即可</td></tr>
+      <tr><td>炉头</td><td>强烈建议</td><td>热水比食物贵，冰水洗脸痛苦</td><td>烧水喝/洗漱舒适度大增</td></tr>
+      <tr><td>雪镜/贴合墨镜</td><td>看情况</td><td>T湖雪地行走数小时，侧面漏光刺眼</td><td>频繁走5000m+雪地才值得买</td></tr>
+      <tr><td>雪套</td><td>看雪况</td><td>新雪需穿，踩实雪可不用</td><td>4月她们买了没用上</td></tr>
+      <tr><td>魔术头巾</td><td>可不带</td><td>围住喘不上气</td><td>方巾垂在帽下防晒更好</td></tr>
+      <tr><td>恢复鞋/营地鞋</td><td>推荐</td><td>一双徒步鞋+一双营地鞋足够</td><td>萨洛蒙越野跑鞋+厚底接近鞋组合佳</td></tr>
+      <tr><td>湿巾/牙线/晾衣绳</td><td>必带</td><td>无法洗澡洗漱，风大晾衣易丢</td><td>女生尤其需要</td></tr>
+    </table>
+  </div>
+
+  <div class="card card-purple">
+    <h3>💡 心法：裤子穿一条就够</h3>
+    <p><b>为什么重要：</b>腿部束缚感强时爬坡更累，软壳裤+抓绒裤+Legging 叠穿比羽绒裤实用。</p>
+    <div class="quote">「上身你有足够的保暖衣物的话，还是推荐大家裤子可以穿一条。」</div>
+    <div class="action">怎么落地：动态保暖抓绒+Legging 睡觉穿睡袋，营地换 Legging 套抓绒裤。</div>
+    <p><b>适用边界：</b>更冷季节或长时间雪地可能需要羽绒裤。</p>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">博卡拉 / 穆克提纳特 / 加德满都</h2>
+
+  <div class="card">
+    <h3>博卡拉休闲度假</h3>
+    <p>费瓦湖划船、世界和平塔看湿婆神庙（像主题公园/阿凡达配色）、湖边咖啡馆发呆。裁缝店「壁垒」踩坑：约定第三天取衣结果完全没开工，衣服质量一般。</p>
+    <div class="relation">进阶玩法：学攀岩、学咖啡，再走其他线路。</div>
+  </div>
+
+  <div class="card card-purple">
+    <h3>
+      <span class="speaker speaker-guest">嘉宾观点</span>
+      穆克提纳特：印佛双圣地
+    </h3>
+    <p>ACT 精华段终点，很多人到此折返。山顶108圣泉印度教徒沐浴朝圣，藏传佛教尼姑庵几乎无游客但敲门即开。酒店火塘烤脚是难忘体验。</p>
+    <div class="quote">「来到藏传佛教寺庙的时候，就会有一种非常干净圣洁的感觉。」</div>
+  </div>
+
+  <div class="card card-orange">
+    <h3>⚠ 加德满都泰米尔区</h3>
+    <p><b>原因：</b>出门即被灰尘和噪音笼罩，街窄车多摩托车挤一起，逛街很累。</p>
+    <p><b>解法：</b>快速采购后离开，不要期待城市体验。</p>
+    <p><b>严重程度：</b>可忽略（中转站性质）</p>
+  </div>
+</div>
+
+<div class="card">
+  <h3>ACT vs EBC vs Poon Hill 选型</h3>
+  <table>
+    <tr><th>维度</th><th>ACT精华段</th><th>EBC</th><th>仅Poon Hill</th></tr>
+    <tr><td>风景</td><td>安娜普尔纳群山环绕，全球前十</td><td>珠峰大本营，更震撼但更苦</td><td>鱼尾峰日出，景好</td></tr>
+    <tr><td>交通成本</td><td>12h吉普车到起点</td><td>两天车（12h+13h）</td><td>4h但更烂的路</td></tr>
+    <tr><td>设施成熟度</td><td>Teahouse完善，不必重装</td><td>类似但更高海拔</td><td>观景台+住宿</td></tr>
+    <tr><td>饮食</td><td>难吃但便宜</td><td>同样难吃</td><td>不值得为景忍受烂路</td></tr>
+    <tr><td>评分</td><td>8.5-9/10，想再去</td><td>交通成本更高</td><td>需搭配ACT才值</td></tr>
+  </table>
+</div>
+
+<div class="conclusion">
+  <h2>总结与行动</h2>
+  <h3>核心要点</h3>
+  <ul>
+    <li>ACT 精华段是全球前十徒步线，Teahouse 成熟不必重装，75元/晚雪山窗景性价比极高</li>
+    <li>城市间交通必须包吉普车（人均1000+元），烂路是入场券，但多日美景能抵消12小时颠簸</li>
+    <li>饮食是全球难吃冠军，蛋白质靠鸡蛋，务必带炉头、湿巾、备用零食</li>
+    <li>背夫通过正规旅行社预订（20-25美金/天），当地人体能惊人且友善纯朴</li>
+    <li>4月天气窗口至关重要，前后下雪起雾，需灵活安排+祈祷晴天队友</li>
+  </ul>
+  <h3>行动清单</h3>
+  <ol>
+    <li>出发前在加德满都旅行社预订背夫/向导，谈好包车路线和费用（参考上文价格表）</li>
+    <li>每人按200元/天换尼币，额外预留骑马/购物/改行程备用金；下载离线地图</li>
+    <li>装备清单：羽绒服、毛线帽、炉头、登山杖、冰爪、头灯、雪镜、湿巾牙线、双鞋（徒步+营地）</li>
+    <li>先听88/89期小熊种草篇了解线路，再听本期番外复盘交通住宿花费</li>
+    <li>关注3-5月或9-11月登山季，出发前查天气预报，尽量卡在晴窗期进山</li>
+  </ol>
+  <h3>关键认知转变</h3>
+  <p>以前以为尼泊尔徒步=吃苦省钱版高海拔拉练。现在理解了 ACT 是成熟的 Teahouse 徒步文化，真正要忍的是烂路和难吃，而不是装备负重和住宿条件——美景和友善的人会让你想一次又一次回去走其他线路。</p>
+</div>
+
+<div class="footer">山合作用 · 小宇宙播客总结 · 来源：xiaoyuzhoufm.com</div>
+
+</div>
+    </div>
+  </foreignObject>
+</svg>
