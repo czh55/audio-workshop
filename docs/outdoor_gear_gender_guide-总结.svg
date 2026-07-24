@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="6851" viewBox="0 0 1320 6851">
+  <foreignObject x="0" y="0" width="1320" height="6851">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,0.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:20px 28px;text-align:center;min-width:160px;font-weight:700;font-size:16px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3{color:#92400e;margin-bottom:8px}
+.correction p{color:#92400e;font-size:15px}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,0.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.speaker{display:inline-block;font-size:13px;font-weight:600;padding:2px 10px;border-radius:12px;margin-right:8px}
+.speaker-host{background:#dbeafe;color:#1e40af}
+.speaker-guest{background:#ede9fe;color:#6b21a8}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,0.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,0.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,0.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}
+@media (max-width:640px){body,.container{padding:16px 12px!important}.container{max-width:100%!important}h1{font-size:24px!important}h2,.sec-title{font-size:18px!important}h3{font-size:16px!important}p,li{font-size:14px!important}.summary-line{font-size:15px!important;padding:14px 16px!important}.map,.card,.timeline{padding:16px!important;margin-bottom:16px!important}.map h2{font-size:18px!important}.diagram{gap:10px!important;padding:10px 0!important}.node{min-width:100px!important;padding:12px 16px!important;font-size:13px!important}.arrow{font-size:18px!important}.conclusion{padding:20px!important}.footer{padding:20px 0 12px!important}}</style>
+      <div class="container">
+
+<h1>Vol.95 户外装备怎么选？男女购买到底有什么差异</h1>
+<div class="meta">
+  <span class="tag tag-blue">播客</span>
+  <span class="tag tag-green">岳下｜户外频道</span>
+  <span class="tag tag-purple">户外装备</span>
+  <span class="tag tag-orange">2小时24分</span>
+</div>
+<div class="summary-line">
+  岳下户外频道邀请装备评测人蟹老板与女性户外消费者米雅，从参数党 vs 体验派、军鸟机能风、一万预算五天徒步配置、冲锋衣/羽绒/鞋袜/背包选购，到运动内衣等被忽视的女性需求，拆解男女户外消费差异——真正决定体验的不是性别，而是场景、经验与身体感受。
+</div>
+
+<div class="timeline">
+  <h3>关键时间轴</h3>
+  <div class="timeline-item">
+    <span class="timeline-time">00:00</span>
+    <span class="timeline-text">开场：为什么想聊男女购买户外装备的差异</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">01:38</span>
+    <span class="timeline-text">嘉宾介绍：蟹老板（上千件装备评测）与米雅（200+件以服装为主）</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">10:31</span>
+    <span class="timeline-text">刻板印象互怼：男生要显得专业 vs 女生更看颜值？</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">13:02</span>
+    <span class="timeline-text">参数党 VS 体验派：Coolmax、防水指数到底要不要信</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">26:07</span>
+    <span class="timeline-text">一万元预算：从零配置五天徒步装备怎么花</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">38:14</span>
+    <span class="timeline-text">冲锋衣推荐与避坑：小白别上来就买硬壳</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">55:22</span>
+    <span class="timeline-text">羽绒/抓绒怎么选：鹅绒鸭绒、排骨羽绒、羽绒马甲</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">01:12:36</span>
+    <span class="timeline-text">鞋和袜子：最值得花钱的装备</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">01:28:05</span>
+    <span class="timeline-text">帽子、背包、登山杖：容易忽略却影响体验的小件</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">01:46:18</span>
+    <span class="timeline-text">性别之外：经验、场景与需求才是消费观真正的分水岭</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">02:10:07</span>
+    <span class="timeline-text">节目总结：边用边找，适合自己的才是最好的</span>
+  </div>
+</div>
+
+<div class="map">
+  <h2>核心脉络</h2>
+  <div class="diagram">
+    <div class="node">消费动机<br/>专业形象/颜值/体验</div>
+    <span class="arrow">→</span>
+    <div class="node-orange">决策方式<br/>参数理性 vs 试穿感受</div>
+    <span class="arrow">→</span>
+    <div class="node-green">花钱优先级<br/>鞋袜 &gt; 保暖层 &gt; 外壳</div>
+    <span class="arrow">→</span>
+    <div class="node">真正差异<br/>场景+经验+身体</div>
+  </div>
+</div>
+
+<div class="correction">
+  <h3>⚠ 常见误解 / 认知纠偏</h3>
+  <p>「男生只看参数、女生只看颜值」是过度简化。蟹老板指出：军鸟、机能风、山系户外对男性而言就是「颜值」；米雅也承认入坑后会越来越看重功能性。真正差异在于：男性倾向用数据和材料做购买前决策，女性更依赖试穿和上身感受——但两者最终都在追求「穿出去舒服、看起来对味」。</p>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">一、消费心理：刻板印象与真实动机</h2>
+
+  <div class="card">
+    <h3>男女户外消费的刻板印象</h3>
+    <p><b>核心机制：</b>米雅认为男性购买户外装备时想显得「很厉害、很专业」，军鸟等军事风装备卖的就是理想自我形象；蟹老板反驳说男性同样极度在意颜值，只是审美不同——机能风、军事风就是男性的情绪价值。</p>
+    <p><b>关键理解：</b>「参数党」并非无脑堆料，而是男性用理性维度（材料、数据、性价比）做购买前筛选；女性则更依赖试穿和上身后的长期感受，导致服装退货率极高。</p>
+    <p><b>典型场景：</b>男生研究 Coolmax 导汗纤维含量再下单；女生买五六件速干衣试穿后留一件最舒服的。</p>
+    <div class="relation">相关概念：参数是男性的「颜值筛选器」，颜值是女性的「体验预判器」</div>
+    <div class="highlight">原文依据：「女孩把所有的钱都花在衣服上，男孩把所有的钱都花在了装备上」——但蟹老板说装备对他就像玩具，会放床头把玩。</div>
+  </div>
+
+  <div class="card card-purple">
+    <h3>
+      <span class="speaker speaker-guest">嘉宾观点</span>
+      米雅：男性迷恋用不上的顶级参数
+    </h3>
+    <p>始祖鸟七八千的硬壳，天天挤地铁根本用不上，但参数越高的产品男性越喜欢——背后是「让自己显得很厉害」的心理需求，军鸟要卖给谁呢？你又不是军人。</p>
+    <div class="quote">"我觉得他内心可能是有一个自己理想当中的自己的一个形象。"</div>
+  </div>
+
+  <div class="card card-purple">
+    <h3>
+      <span class="speaker speaker-guest">嘉宾观点</span>
+      蟹老板：男性也在乎颜值，只是审美不同
+    </h3>
+    <p>军鸟、机能风、山系户外就是男性眼中的帅。好的版型是 1 米 65 到 1 米 75 穿都好看、显得魁梧——选自己帅、选自己美、选自己厉害都不丢人。</p>
+    <div class="quote">"不是说更重视数值和不重视体验，是你那体验哪来的？Coolmax 的导汗特性总得有根据，不能毛根据没有。"</div>
+  </div>
+
+  <div class="card">
+    <h3>观点对比：参数党 vs 体验派</h3>
+    <table>
+      <tr><th>维度</th><th>参数党（偏男性）</th><th>体验派（偏女性）</th><th>一句话结论</th></tr>
+      <tr><td>决策依据</td><td>材料数据、防水指数、充绒量、性价比</td><td>上身感受、版型、颜色搭配、朋友推荐</td><td>购买前理性 vs 购买后感性，各有盲区</td></tr>
+      <tr><td>试错方式</td><td>看评测、比参数、研究品牌技术</td><td>多买多试、无理由退货、社交媒体种草</td><td>女性退货成本高是品牌痛点</td></tr>
+      <tr><td>颜值定义</td><td>机能风、军事风、专业感</td><td>配色、剪裁、日常穿搭融合度</td><td>都在追求情绪价值，表达形式不同</td></tr>
+      <tr><td>典型误区</td><td>堆用不上的顶级参数（硬壳挤地铁）</td><td>忽视基础材料数据（只看好看）</td><td>蟹老板建议女性也适当看材料；米雅建议男性多重视感受</td></tr>
+    </table>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">二、一万预算五天徒步：花钱优先级</h2>
+
+  <div class="card card-green">
+    <h3>鞋袜第一：最值得投资的装备</h3>
+    <p><b>核心机制：</b>脚是户外唯一持续受力点，鞋不合适全程受罪；羊毛袜（如 150 元一双的顶级袜）能大幅减少摩擦和水泡，体验提升远大于一件贵冲锋衣。</p>
+    <p><b>关键理解：</b>米雅和蟹老板一致认为：一万预算里，先把鞋袜做好，再从袜子往上配。高帮徒步鞋约 2000 元档，羊毛袜是「最好的袜子」。</p>
+    <p><b>典型场景：</b>五天徒步、城市周边线路、非高海拔技术攀登。</p>
+    <div class="action">怎么落地：预算有限时，鞋 2000 + 袜子 300-500 + 其余再分配，比买顶级硬壳更值</div>
+    <div class="highlight">原文依据：「你就把袜子和鞋做好」「从袜子往上的东西」——鞋袜是优先级绝对第一。</div>
+  </div>
+
+  <div class="card">
+    <h3>一万元五天徒步配置参考</h3>
+    <table>
+      <tr><th>品类</th><th>米雅倾向</th><th>蟹老板倾向</th><th>共识</th></tr>
+      <tr><td>徒步鞋</td><td>买好的高帮鞋 ~2000 元</td><td>同样重视，按脚型选品牌</td><td>第一优先级，必须合脚</td></tr>
+      <tr><td>袜子</td><td>愿意花 150/双买羊毛袜</td><td>羊毛袜体验差异巨大</td><td>最值得「奢侈」的小件</td></tr>
+      <tr><td>帽子</td><td>极度重视，寻觅防雨防晒帽</td><td>认为帽子被低估</td><td>防晒+防雨帽值得投资</td></tr>
+      <tr><td>羽绒/保暖</td><td>愿意买顶配羽绒</td><td>排骨羽绒好穿但看审美</td><td>价格差异大的羽绒体感真的不同</td></tr>
+      <tr><td>冲锋衣</td><td>不会买最贵硬壳</td><td>小白买雨衣够用</td><td>别上来就硬壳，按场景选</td></tr>
+      <tr><td>背包</td><td>一个够用，颜值重要</td><td>入门不必追求顶级</td><td>35-45L 入门足够</td></tr>
+    </table>
+    <div class="pitfall">嘉宾共识：一万元五天徒步「肯定不够」配齐所有顶配，需要取舍。</div>
+  </div>
+
+  <div class="card card-orange">
+    <h3>⚠ 小白别上来就买硬壳冲锋衣</h3>
+    <p><b>原因：</b>硬壳（如 GORE-TEX Pro）为极端环境设计，日常徒步和城市通勤根本用不上；贵、闷、不舒服，买了就是浪费。</p>
+    <div class="pitfall">蟹老板说法：「小白不要上来就买冲锋衣，你用不上，你又不去六千米海拔，买个雨衣够用了。」</div>
+    <p><b>解法：</b>入门选软壳或三合一；真正需要硬壳的场景（高海拔、长时间暴雨）再升级。城市周边徒步，雨衣或入门防水外套即可。</p>
+    <p><b>严重程度：</b>小心——不会致命，但会让你花冤枉钱且体验差</p>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">三、品类深潜：羽绒、鞋、小件装备</h2>
+
+  <div class="card">
+    <h3>羽绒怎么选：参数背后的门道</h3>
+    <p><b>核心机制：</b>同样标称 100 克充绒、800 蓬松度，实际保暖差很多——关键看绒朵大小、绗缝方式（箱式 vs 咬型）、飞丝掺假比例。咬型绗缝会挤压边缘羽绒导致不蓬松。</p>
+    <p><b>关键理解：</b>鹅绒 vs 鸭绒：鹅绒绒朵更大、异味更小；灰鸭绒 vs 白鸭绒保暖性能一样，只是外观好看程度不同。欧洲品牌转向灰鸭绒+透明面料是环保考量。</p>
+    <p><b>典型场景：</b>城市户外、营地休息、中间保暖层。</p>
+    <div class="relation">相关概念：排骨羽绒好穿保暖但丑；羽绒马甲是蟹老板和米雅都推荐的灵活中间层</div>
+    <div class="highlight">原文依据：蟹老板推荐 Montane 排骨羽绒「真的好暖」；米雅偏爱 Peak Performance 羽绒马甲，可套在抓绒外、冲锋衣内。</div>
+  </div>
+
+  <div class="card">
+    <h3>徒步鞋：合脚比品牌重要</h3>
+    <p><b>核心机制：</b>不同品牌鞋楦差异大——Salomon 偏窄，Hoka 偏宽。蟹老板曾因颜值买不合脚的鞋，走几步就后悔。女性配色选择少是真实痛点。</p>
+    <p><b>关键理解：</b>一定要线下试穿，走几步感受。联名款配色好看但可能不合脚型，不能为颜值牺牲舒适度。</p>
+    <div class="action">怎么落地：先确定自己脚型（宽/窄/高足弓），再选品牌；Hoka、Salomon、Lowa 等按脚型匹配</div>
+    <p><b>适用边界：</b>越野跑鞋和徒步鞋场景不同；涂布鞋（越野跑鞋）目前女款配色普遍「丑」，是行业待解决问题。</p>
+  </div>
+
+  <div class="card">
+    <h3>帽子、背包、登山杖</h3>
+    <p><b>帽子：</b>米雅寻觅「防雨面料+防晒」的功能帽已久，认为被严重低估。蟹老板同意帽子体验提升大。</p>
+    <p><b>背包：</b>入门不必追求顶级，一个 35-45L 够用；但背负系统差异明显，建议线下试背。越野跑背包磨脖子是女性真实痛点。</p>
+    <p><b>登山杖：</b>入门选 Black Diamond、Leki、迪卡侬等知名品牌；铝合金杖弯了能掰回，碳纤维断了就废。Helinox 颜值高但偏贵。</p>
+    <div class="highlight">原文依据：「与其买杂牌，至少买洛克、牧高笛、迪卡侬，都不会差到哪去。」</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">四、被忽视的需求与争议讨论</h2>
+
+  <div class="card card-purple">
+    <h3>
+      <span class="speaker speaker-guest">嘉宾观点</span>
+      米雅：运动内衣是户外女性的最大痛点
+    </h3>
+    <p>外面穿顶配速干、羽绒，里面却是湿了干不了的运动内衣——承托力、速干性、防摩擦全部在凑合。越野跑背包磨腋下能撕下来一条皮。女性不是户外主力消费人群，这个需求长期被忽视。</p>
+    <div class="quote">"我们都能把人送上火星了，就是不能把运动内衣做好。"</div>
+  </div>
+
+  <div class="card card-orange">
+    <h3>⚠ 社交媒体种草陷阱</h3>
+    <p><b>原因：</b>小红书等平台推荐往往脱离真实使用场景，买一堆不适合自己的装备。</p>
+    <div class="pitfall">米雅建议：「少看社交媒体推荐，多问你周围真的玩户外的朋友。」</div>
+    <p><b>解法：</b>蟹老板也强调「边用边找」——早期一定会买很多不适合的，这是必经过程。多走线下店看实物。</p>
+    <p><b>严重程度：</b>小心——浪费钱和时间，但不会造成安全风险</p>
+  </div>
+
+  <div class="card">
+    <h3>争议点：性别差异的本质</h3>
+    <p>三位嘉宾最终共识：性别之外，更重要的是<b>经验深浅、使用场景、个人身体特点</b>。新手男性也会为颜值买单，资深女性也会研究充绒量。消费观差异是连续谱，不是二元对立。</p>
+    <div class="relation">蟹老板给男性：护肤方面可以多问女性，信息差巨大（如带防晒的唇膏）</div>
+  </div>
+</div>
+
+<div class="card card-purple">
+  <h3>💡 心法：边用边找，适合自己的才是最好的</h3>
+  <p><b>为什么重要：</b>蟹老板上千件装备是五年评测积累，不是一次买对；米雅两百件衣服是不断试错的结果。指望第一次就买对全部装备不现实。</p>
+  <div class="quote">"你只有使用了一个装备之后，你才知道你未来需要什么样的装备和服装。"</div>
+  <div class="action">怎么落地：先确定常玩场景（城市周边/重装/高海拔），按鞋袜→保暖→外壳顺序配置，每类先买 mid-range 试用再升级</div>
+  <p><b>适用边界：</b>安全相关装备（头盔、安全带）不能「边用边试错」，必须一步到位买合格产品</p>
+</div>
+
+<div class="conclusion">
+  <h2>总结与行动</h2>
+  <h3>核心要点</h3>
+  <ul>
+    <li>男女消费差异被夸大：男性也在乎颜值（机能/军事风），女性入坑后也会看参数</li>
+    <li>花钱优先级：鞋袜 &gt; 保暖层（羽绒/抓绒）&gt; 外壳（软壳/雨衣），小白别上来买硬壳</li>
+    <li>参数有意义但不能盲信：Coolmax、充绒量、防水指数是筛选维度，最终还要上身验证</li>
+    <li>羽绒保暖差异在绗缝工艺和绒朵质量，同标称克重体感可差很多</li>
+    <li>女性运动内衣、涂布鞋配色、越野跑背包摩擦是行业真实痛点</li>
+  </ul>
+  <h3>行动清单</h3>
+  <ol>
+    <li>第一次去线下户外店试穿徒步鞋，按脚型选品牌（Salomon 窄 / Hoka 宽），预算 1500-2500 元</li>
+    <li>投资 2-3 双美利奴羊毛袜（~150 元/双），比升级冲锋衣更能提升徒步体验</li>
+    <li>入门外壳选软壳或雨衣，确认常玩场景需要硬壳再升级（高海拔/长距离暴雨）</li>
+    <li>少看社交媒体种草，多问身边真实户外朋友；女性适当了解材料参数，男性多关注穿着感受</li>
+    <li>按场景列清单再下单：城市周边五天徒步 vs 高海拔技术攀登，配置完全不同</li>
+  </ol>
+  <h3>关键认知转变</h3>
+  <p>以前认为「男生看参数、女生看颜值」是户外消费的铁律；现在理解了两者都在追求舒适与自我表达，只是决策路径不同——真正该问的不是「男的女的怎么买」，而是「我的场景、经验、身体需要什么」。</p>
+</div>
+
+<div class="footer">来源：岳下｜户外频道 Vol.95 · 嘉宾：蟹老板、米雅 · 主持：老柴</div>
+
+</div>
+    </div>
+  </foreignObject>
+</svg>
