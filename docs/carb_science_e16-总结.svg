@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="7931" viewBox="0 0 1320 7931">
+  <foreignObject x="0" y="0" width="1320" height="7931">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,0.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:20px 28px;text-align:center;min-width:160px;font-weight:700;font-size:16px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3{color:#92400e;margin-bottom:8px}
+.correction p{color:#92400e;font-size:15px}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,0.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.speaker{display:inline-block;font-size:13px;font-weight:600;padding:2px 10px;border-radius:12px;margin-right:8px}
+.speaker-host{background:#dbeafe;color:#1e40af}
+.speaker-guest{background:#ede9fe;color:#6b21a8}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,0.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,0.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,0.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}
+@media (max-width:640px){body,.container{padding:16px 12px!important}.container{max-width:100%!important}h1{font-size:24px!important}h2,.sec-title{font-size:18px!important}h3{font-size:16px!important}p,li{font-size:14px!important}.summary-line{font-size:15px!important;padding:14px 16px!important}.map,.card,.timeline{padding:16px!important;margin-bottom:16px!important}.map h2{font-size:18px!important}.diagram{gap:10px!important;padding:10px 0!important}.node{min-width:100px!important;padding:12px 16px!important;font-size:13px!important}.arrow{font-size:18px!important}.conclusion{padding:20px!important}.footer{padding:20px 0 12px!important}}</style>
+      <div class="container">
+
+<h1>E16 如何科学吃碳水？先吃肉还是先吃饭？营养学博士的控糖实验室</h1>
+<div class="meta">
+  <span class="tag tag-blue">播客</span>
+  <span class="tag tag-purple">生物解码BioDecoder</span>
+  <span class="tag tag-orange">1小时02分</span>
+  <span class="tag tag-green">营养</span>
+  <span class="tag tag-red">血糖</span>
+</div>
+<div class="summary-line">代谢营养学博士陆陆做客，从动态血糖仪实测出发，系统拆解碳水化学结构、升糖指数/负荷、进食顺序、糖尿病分型与亚洲人内脏脂肪悖论，并揭示睡眠剥夺对血糖的杀伤力远超饮食本身。</div>
+
+<div class="timeline">
+  <h3>关键时间轴</h3>
+  <div class="timeline-item"><span class="timeline-time">00:00</span><span class="timeline-text">开场：主播佩戴 CGM 后重新审视碳水与血糖</span></div>
+  <div class="timeline-item"><span class="timeline-time">02:15</span><span class="timeline-text">单糖/双糖/多糖：淀粉、糖原、纤维的本质区别</span></div>
+  <div class="timeline-item"><span class="timeline-time">08:30</span><span class="timeline-text">东亚早餐「碳水炸弹」：小笼包、馄饨、油条</span></div>
+  <div class="timeline-item"><span class="timeline-time">15:00</span><span class="timeline-text">控糖重点：添加糖 vs 总碳水；读营养成分表</span></div>
+  <div class="timeline-item"><span class="timeline-time">22:00</span><span class="timeline-text">低碳/生酮：短期掉秤是肝糖原+水分，长期减重无差</span></div>
+  <div class="timeline-item"><span class="timeline-time">32:00</span><span class="timeline-text">升糖指数 GI 与升糖负荷 GL：西瓜 vs 白米饭</span></div>
+  <div class="timeline-item"><span class="timeline-time">42:00</span><span class="timeline-text">进食顺序研究：先蛋白蔬菜后碳水，血糖降 20%+</span></div>
+  <div class="timeline-item"><span class="timeline-time">52:00</span><span class="timeline-text">一型/二型糖尿病机制；亚洲人内脏脂肪与节俭基因</span></div>
+  <div class="timeline-item"><span class="timeline-time">68:00</span><span class="timeline-text">妊娠糖尿病、月经周期与口服避孕药对血糖的影响</span></div>
+  <div class="timeline-item"><span class="timeline-time">78:00</span><span class="timeline-text">睡眠剥夺 6 天：血糖清除率降 40%，胰岛素反应降 30%</span></div>
+  <div class="timeline-item"><span class="timeline-time">88:00</span><span class="timeline-text">压力激素、情绪与饭后久坐对血糖的二次冲击</span></div>
+</div>
+
+<div class="map">
+  <h2>核心脉络</h2>
+  <div class="diagram">
+    <div class="node">碳水摄入</div>
+    <div class="arrow">→</div>
+    <div class="node node-orange">GI/GL<br/>+进食顺序</div>
+    <div class="arrow">→</div>
+    <div class="node">血糖波动</div>
+    <div class="arrow">←</div>
+    <div class="node node-green">睡眠/压力<br/>激素调控</div>
+  </div>
+  <div class="diagram" style="margin-top:16px;">
+    <div class="node node-orange">反复血糖尖峰</div>
+    <div class="arrow">→</div>
+    <div class="node">β细胞过劳</div>
+    <div class="arrow">→</div>
+    <div class="node node-orange">胰岛素抵抗<br/>→二型糖尿病</div>
+  </div>
+</div>
+
+<div class="correction">
+  <h3>⚠ 常见误解 / 认知纠偏</h3>
+  <p><b>误解1：</b>「鸡胸肉三明治很健康，血糖不会飙」——碳水、蛋白、脂肪同时进入肠道，碳水仍被快速吸收；实测可飙至 200 mg/dL。<b>误解2：</b>「生酮一周瘦 1kg = 减脂成功」——那是肝糖原+水分流失，恢复正常饮食会反弹。<b>误解3：</b>「瘦子不可能得糖尿病」——一型与瘦型二型在亚洲人群中并不少见。<b>误解4：</b>「只看 GI 就能判断食物好坏」——芝士蛋糕 GI 低但高脂高热量；需综合 GI、GL、营养密度。</p>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">一、碳水化学：从分子到餐桌</h2>
+
+  <div class="card">
+    <h3>碳水化合物的三级结构</h3>
+    <p><b>核心机制：</b>糖是碳水化合物的俗称，按化学复杂度分为单糖（葡萄糖、果糖、半乳糖，直接入血）、双糖（蔗糖、乳糖、麦芽糖，可水解）和多糖（淀粉、糖原、纤维素，需酶解后才吸收）。</p>
+    <p><b>关键理解：</b>单糖升糖最快；纤维虽属碳水但不被吸收，应单独看待；中国人饮食中米饭、面条、土豆、红薯等淀粉类食物才是血糖主力，而非仅奶茶可乐。</p>
+    <p><b>典型场景：</b>读营养标签时区分 total carbs、fiber、added sugar；中国进口零食常不标注添加糖，信息价值大打折扣。</p>
+    <div class="relation">相关概念：控糖应优先限制添加糖（added sugar），而非盲目砍掉所有碳水</div>
+    <div class="highlight">原文依据：「我们应该控制的是添加糖……如果 added sugar 比较多，应该尽量去避免摄入」</div>
+  </div>
+
+  <div class="card card-purple">
+    <h3><span class="speaker speaker-guest">嘉宾观点</span>东亚饮食的碳水陷阱</h3>
+    <p>南方人早餐小笼包、小馄饨，北方人面条油条，本质是「碳水加碳水」——土豆丝盖饭、巴斯克地瓜卷饼同理。土豆常被当蔬菜，但主要营养是淀粉。</p>
+    <div class="quote">「我们中国人饮食中碳水占很大比例……小时候特别喜欢吃土豆丝盖饭，现在回想起来就是碳水加碳水」</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">二、饮食模式：低碳、生酮与地中海</h2>
+
+  <div class="card">
+    <h3>低碳饮食的真实效果</h3>
+    <p><b>核心机制：</b>同等热量缺口下，低碳 vs 高碳在 6-12 个月减重效果无显著差异（「卡路里就是卡路里」）。但低碳组甘油三酯降低、HDL 升高、空腹胰岛素降低，代谢指标更优。</p>
+    <p><b>关键理解：</b>低碳对已有血糖问题者帮助大；健康人长期生酮需大量脂肪/蛋白，饮食结构改变剧烈，酮体对肾脏负担大，大脑主要依赖葡萄糖供能。</p>
+    <p><b>适用边界：</b>生酮短期 1-2 周掉秤是肝糖原（每克结合 3-4 克水）消耗所致，非脂肪减少；癫痫儿童有治疗用途，普通人未必收益大于代价。</p>
+    <div class="highlight">原文依据：「短期一两个礼拜之内会有一个减重效果……主要是来源于肝脏糖原的消耗还有水分的消耗」</div>
+  </div>
+
+  <div class="card card-purple">
+    <h3><span class="speaker speaker-host">主持人实测</span>生酮一周后的反弹</h3>
+    <p>佩戴 CGM 期间低碳一周瘦 1kg，恢复正常饮食后立刻回来——证实为水分+糖原，非真正减脂。</p>
+    <div class="quote">「那一公斤其实并不是减肥得到的，而是因为我减少了糖摄入之后，肝糖原还有水分……正常吃饭之后那一公斤又回来了」</div>
+  </div>
+
+  <div class="card">
+    <h3>地中海饮食的隐藏技巧</h3>
+    <p><b>核心机制：</b>意大利餐前面包蘸橄榄油和醋——酸性环境抑制淀粉酶活性，油脂包裹延缓碳水吸收，虽碳水不少但升糖平缓。</p>
+    <p><b>典型场景：</b>披萨、芝士蛋糕因脂肪混合，CGM 实测血糖反而平稳，但卡路里和脂肪极高，不能只看 GI。</p>
+    <div class="relation">相关概念：与「三明治血糖飙升」对比——营养均衡≠升糖慢，关键在于碳水的消化路径是否被延缓</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">三、升糖指数与进食顺序</h2>
+
+  <div class="card">
+    <h3>GI 与 GL：两个都要看</h3>
+    <p><b>核心机制：</b>GI（升糖指数）衡量单位碳水升高血糖的速度（葡萄糖=100）；GL（升糖负荷）= GI × 碳水总量。高 GI：白米饭、白面包、土豆、葡萄（≥70）；中 GI：红薯、糙米、燕麦（56-69）。</p>
+    <p><b>关键理解：</b>西瓜 GI 高但含水量大、碳水总量低，GL 不高；白米饭 GI 和 GL 双高，危害更大。曲线下面积同时反映峰值高度和回落速度。</p>
+    <p><b>适用边界：</b>糖尿病人应重点关注 GI（胰岛素刺激）；普通人可兼顾 GL 控制总量。</p>
+    <div class="highlight">原文依据：「五口西瓜可能就饱了……但你吃五口米饭，碳水会多很多」</div>
+  </div>
+
+  <div class="card card-green">
+    <h3>进食顺序：先菜肉后主食</h3>
+    <p><b>核心机制：</b>二型糖尿病患者的对照研究：同样西式套餐，先吃蛋白质+蔬菜、等 15 分钟再吃碳水，餐后各时点血糖比先碳水组降低 20% 以上。</p>
+    <p><b>关键理解：</b>必须间隔约 15 分钟才有效；一口鸡肉立刻吃米饭则无效。慢吃、社交聚餐（边聊边吃）间接帮助控糖。</p>
+    <div class="action">怎么落地：晚餐先吃菜和肉，15 分钟后再添米饭；恢复外公「先吃菜配点小酒，吃够了再添饭」的传统习惯</div>
+    <div class="highlight">原文依据：「先吃蛋白质和蔬菜的那一组……血糖比先吃碳水的那一组下降 20% 或者更多」</div>
+  </div>
+
+  <div class="card card-orange">
+    <h3>⚠ 拆吃三明治仍不够</h3>
+    <p><b>原因：</b>一口三明治中碳水、蛋白、脂肪同时进入肠道，碳水未被包裹延缓，仍会快速吸收。</p>
+    <p><b>解法：</b>拆开吃——先吃鸡胸肉/蔬菜/芝士，间隔后再吃面包。</p>
+    <p><b>严重程度：</b>对胰岛素敏感人群：小心（实测可超 CGM 量程 200 mg/dL）</p>
+    <div class="pitfall">主持人实测：会议鸡胸肉三明治后血糖飙至 200 mg/dL，「营养非常均衡的东西，为什么血糖就飙升了」</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">四、糖尿病分型与亚洲人代谢悖论</h2>
+
+  <div class="card">
+    <h3>一型 vs 二型：钥匙与锁</h3>
+    <p><b>核心机制：</b>一型：自身免疫攻击 β 细胞，绝对胰岛素缺乏，青少年发病，与肥胖无关，患者常偏瘦。二型：胰岛素抵抗（锁生锈），钥匙还在但开不了门，肥胖尤其是内脏脂肪是主要诱因。</p>
+    <p><b>关键理解：</b>调控血糖的激素：胰岛素降血糖，胰高血糖素（饥饿/紧张时）升血糖；一型需终身注射胰岛素，二型注射胰岛素效果有限。</p>
+    <div class="relation">相关概念：Sana BioTech 异体胰岛细胞移植（敲除 HLA + 增强 CD47）为一型患者带来希望，但昂贵且有免疫/癌变风险</div>
+  </div>
+
+  <div class="card card-purple">
+    <h3><span class="speaker speaker-guest">嘉宾观点</span>亚洲人的「瘦胖子」悖论</h3>
+    <p>亚裔皮下脂肪纤维化程度更高，扩张到一定程度后无法继续储存，多余能量被迫流向内脏脂肪。四肢瘦、肚子圆（苹果型）的亚洲人，内脏脂肪可能很高，二型糖尿病风险反而高于均匀肥胖的西方人。</p>
+    <div class="quote">「亚裔皮下脂肪被上了一个枷锁……多余的能量只能走内脏脂肪这条路」</div>
+    <div class="action">梨形身材（臀腿易长肉）从代谢角度反而更健康</div>
+  </div>
+
+  <div class="card">
+    <h3>节俭基因假说（Thrifty Gene）</h3>
+    <p><b>核心机制：</b>1962 年 James Neel 提出：狩猎采集时代帮助储存能量的基因，在食物过剩的现代社会反成代谢负担。GWAS 发现某些 SNP 增加患病频率，但效应量小，基因提供「土壤」，生活方式决定「开花」。</p>
+    <p><b>适用边界：</b>不能解释所有人种差异，需与肥胖、饮食、运动等后天因素叠加。</p>
+  </div>
+
+  <div class="card">
+    <h3>观点对比</h3>
+    <table>
+      <tr><th>维度</th><th>一型糖尿病</th><th>二型糖尿病</th><th>一句话结论</th></tr>
+      <tr><td>发病机制</td><td>β 细胞被免疫摧毁</td><td>胰岛素抵抗</td><td>缺钥匙 vs 锁坏了</td></tr>
+      <tr><td>与肥胖关系</td><td>基本无关，患者常瘦</td><td>内脏脂肪是主因</td><td>瘦≠不得糖尿病</td></tr>
+      <tr><td>治疗</td><td>终身胰岛素注射</td><td>生活方式+药物</td><td>一型尚无根治方案</td></tr>
+      <tr><td>亚洲特点</td><td>可有家族遗传</td><td>瘦型二型常见</td><td>苹果型身材需警惕</td></tr>
+    </table>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">五、特殊人群：妊娠、月经与避孕药</h2>
+
+  <div class="card card-orange">
+    <h3>⚠ 妊娠糖尿病</h3>
+    <p><b>原因：</b>孕期胎盘激素（HPL）故意制造胰岛素抵抗，让血糖偏高以供给胎儿；但过高血糖导致胎儿高胰岛素血症→巨大儿→难产/新生儿低血糖。</p>
+    <p><b>解法：</b>应用进食顺序原则；维持安全范围内原有运动量（非孕期突然加量）；亚洲女性首次糖筛通过率低，可能与肌肉量较少、标准偏西方有关。</p>
+    <p><b>严重程度：</b>对母婴：致命级需医学管理</p>
+    <div class="pitfall">「中国人做糖水测试，基本上很少听说第一次就过的」</div>
+  </div>
+
+  <div class="card">
+    <h3>月经周期三阶段与血糖</h3>
+    <p><b>卵泡期（排卵前）：</b>雌激素高，胰岛素敏感性增强，血糖最稳定，适合高强度训练。</p>
+    <p><b>黄体期（排卵后-月经前）：</b>孕激素升高，轻度胰岛素抵抗，食欲旺盛、嗜甜食——「身体没吃到血糖，大部分留在血液中」。</p>
+    <p><b>月经期：</b>大出血前身体储备能量，想吃甜食是正常生理需求。</p>
+    <div class="relation">相关概念：经前暴食不是意志力问题，是激素驱动的胰岛素抵抗</div>
+  </div>
+
+  <div class="card">
+    <h3>口服避孕药与代谢</h3>
+    <table>
+      <tr><th>类型</th><th>成分</th><th>对血糖影响</th><th>避孕窗口</th></tr>
+      <tr><td>复方口服避孕药</td><td>雌激素+孕激素</td><td>减弱胰岛素敏感性，甘油三酯↑</td><td>宽（隔天吃影响不大）</td></tr>
+      <tr><td>纯孕激素（迷你丸）</td><td>仅孕激素</td><td>代谢影响较小</td><td>窄（需准时服用）</td></tr>
+    </table>
+    <p>二代/三代/四代雌激素分子结构不同，对血脂和血糖影响有差异，可咨询医生换版本。</p>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">六、睡眠与压力：被低估的血糖杀手</h2>
+
+  <div class="card card-purple">
+    <h3>💡 心法：睡眠是血糖的第一变量</h3>
+    <p><b>为什么重要：</b>主持人发现 CGM 数据中，熬夜对血糖的影响超过一切饮食因素——前一天没睡好，第二天血糖失控飙升；睡足则全天平稳。</p>
+    <div class="quote">「对血糖影响最大的……就是我血糖一直都很稳定，但只要我前一天熬夜……第二天血糖就是控制不住的飙升」</div>
+    <div class="action">怎么落地：优先保证 7-8 小时睡眠，比纠结吃什么更立竿见影</div>
+    <p><b>适用边界：</b>短期偶尔熬夜影响可逆；慢性睡眠剥夺需系统干预</p>
+  </div>
+
+  <div class="card">
+    <h3>Spiegel 1999 里程碑实验</h3>
+    <p><b>核心机制：</b>11 名健康青年，一组连续 6 天每天只睡 4 小时，另一组睡 8 小时，饮食活动量完全控制。睡眠剥夺组：餐后血糖清除率降低 40%，胰岛素反应降低 30%——β 细胞分泌能力下降 + 胰岛素作用受皮质醇抑制。</p>
+    <div class="highlight">原文依据：「仅仅六天的睡眠剥夺实验中，就能看到健康青年会有这样的一个反应」</div>
+  </div>
+
+  <div class="card card-orange">
+    <h3>⚠ 压力与情绪的血糖冲击</h3>
+    <p><b>长期压力：</b>失眠→皮质醇持续升高→血糖滞留血液中（战斗准备状态）。以色列 40 万人研究：战乱高压地区居民皮质醇更高、血糖问题更多。</p>
+    <p><b>短期压力：</b>肾上腺素/去甲肾上腺素促进肝糖原分解，快速释放葡萄糖。主持人饭后面试，血糖飙升超过正餐本身；吵架同理。</p>
+    <p><b>饭后久坐：</b>血糖先降后因肌肉不消耗糖而再次上升——「饭后百步走」有科学依据，走动激活肌肉消耗葡萄糖。</p>
+    <div class="pitfall">「我情绪上的影响对于血糖的反应更大，而且并没有很快回落」</div>
+  </div>
+</div>
+
+<div class="conclusion">
+  <h2>总结与行动</h2>
+  <h3>核心要点</h3>
+  <ul>
+    <li>控糖重点是限制添加糖，读懂营养标签中的 added sugar 和 fiber</li>
+    <li>进食顺序比食物种类更重要：先蛋白蔬菜，间隔 15 分钟，最后吃主食</li>
+    <li>GI 和 GL 都要看；不能因低 GI 就放纵高脂高热量食物</li>
+    <li>亚洲人苹果型身材内脏脂肪高，瘦≠代谢健康，梨形身材反而更安全</li>
+    <li>睡眠剥夺 6 天即可让健康人血糖清除率降 40%，比饮食更致命</li>
+  </ul>
+  <h3>行动清单</h3>
+  <ol>
+    <li>今晚开始：晚餐先吃菜和肉，15 分钟后再盛米饭</li>
+    <li>买零食前看营养标签，优先选 added sugar 低、fiber 高的产品</li>
+    <li>佩戴 CGM 或记录饮食+睡眠 2 周，找到自己的血糖触发因素</li>
+    <li>把睡眠提到 7-8 小时，作为控糖第一优先级</li>
+    <li>饭后散步 15-20 分钟，避免久坐导致血糖二次上升</li>
+  </ol>
+  <h3>关键认知转变</h3>
+  <p>以前认为「少吃碳水、不吃米饭」就能控糖减肥；现在理解了血糖是碳水结构、进食顺序、脂肪包裹、睡眠、压力和肌肉活动共同作用的结果——一把三明治可以同时含有三大营养素，但碳水吸收路径决定了血糖峰值，而熬夜对胰岛素的伤害可能比一顿白米饭更深远。</p>
+</div>
+
+<div class="footer">生物解码 BioDecoder · E16 · 嘉宾：代谢营养学博士陆陆</div>
+</div>
+    </div>
+  </foreignObject>
+</svg>
