@@ -16,6 +16,12 @@ Task Progress:
 - [ ] 9. 清理临时文件
 ```
 
+### CDN 访问限流
+
+- 对 Xiaoyuzhou FM CDN 音频下载的 curl 请求实行全局限流：两次请求的开始时间必须相隔至少 **30 秒**。
+- 下载失败（网络错误、403、429 等）时，不得立即重试；每次重试同样等待至少 30 秒，最多 3 次。达到上限后写入含 `"error": true` 的索引条目并停止。
+- 禁止并发处理多个播客 URL。
+
 ---
 
 ## 入口
@@ -63,14 +69,17 @@ document.querySelector('.episode-title, h1')?.textContent?.trim()
 
 ## Step 2：下载音频
 
+对 Xiaoyuzhou FM CDN 的 curl 请求必须通过全局节流器，保证与上一次请求相隔至少 30 秒。每次 curl 请求前执行：
+
 ```bash
+node rate-limit.mjs
 curl -L -o "~/Projects/audio-workshop/{slug}.m4a" "{audio_url}" --progress-bar
 ```
 
 - `{slug}`：从标题提取英文/拼音关键词，≤30 字符，不含空格和特殊字符
 - 示例：`curl -L -o "~/Projects/audio-workshop/spacex_history_podcast.m4a" "https://media.xyzcdn.net/xxx.m4a"`
 
-若下载失败（网络错误、403 等），重试最多 3 次。
+若下载失败（网络错误、403、429 等），重试最多 3 次；每次重试前也必须执行 `node rate-limit.mjs`，不得立即重试。达到上限后写入含 `"error": true` 的索引条目并停止。
 
 ---
 
@@ -446,24 +455,49 @@ python3 scripts/generate_svg_audio.py --pregnancy   # 孕期全攻略专题
 
 > **此步骤不可跳过。** GitHub Pages 从 `main` 分支的 `docs/` 目录部署，只有推送到 `main` 后首页才能展示新内容。
 
-```bash
-# 9.1 提交变更
-git add docs/
-git commit -m "podcast: summarize {播客标题}"
+### 9.1 确认当前分支并提交
 
-# 9.2 确保在 main 分支并推送（必须）
+开始前确认当前分支：
+
+```bash
 git checkout main
 git pull origin main
-git merge {当前工作分支}   # 若已在 main 上则跳过
+git checkout -B "{dev-branch}"
+```
+
+`{dev-branch}` 命名建议：`cursor/{slug}` 或 Automation 下发的分支名。不要直接在 `main` 上开发。
+
+提交变更：
+
+```bash
+git add docs/{slug}-总结.svg docs/index.json
+git commit -m "podcast: summarize {播客标题}"
+```
+
+### 9.2 推送开发分支
+
+```bash
+git pull --rebase origin main
+git push -u origin "{dev-branch}"
+```
+
+### 9.3 合并到 main 并推送
+
+```bash
+git checkout main
+git pull origin main
+git merge "{dev-branch}"
 git push -u origin main
 ```
 
-**要求：**
-- 最终变更**必须**出现在 `origin/main` 上，任务才算完成
-- 禁止仅推送到 feature 分支就结束；若 Automation 在 feature 分支开发，合并到 `main` 并 push 是收尾的必做动作
-- 推送前确认 `docs/index.json` 与 `docs/{slug}-总结.svg` 均已纳入提交
+### 9.4 重试策略
 
-若 push 失败（冲突），先 `git pull --rebase origin main` 再 push。若仍然失败，记录错误并标记任务未完成。
+网络失败按 4、8、16、32 秒退避重试。`git pull --rebase origin main` 或 `git merge` 出现冲突时，解决冲突后重新自检再继续推送。
+
+**要求：**
+- 最终发布目标是 `origin/main`。禁止以"已推送到开发分支"代替合并到 `main`。
+- 推送前确认 `docs/index.json` 与 `docs/{slug}-总结.svg` 均已纳入提交
+- 开发分支可以保留也可以后续清理
 
 ---
 
