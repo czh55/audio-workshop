@@ -1,5 +1,103 @@
 [
   {
+    "date": "2026-08-01",
+    "filename": "neo-labs-capital-wave-总结.svg",
+    "title": "亲历中美neo labs资本狂潮：AI for AI、机制可解释性和Max Tegmark",
+    "summary": "刘子鸣（KAN网络一作）从MIT到清华，亲述中美neo labs井喷本质：顶尖人才拒绝大头兵、Auto Research与世界模型的范式盲区、Physics of AI三轴方法论与圆模型路线",
+    "tags": [
+      "AI/科技",
+      "深度访谈",
+      "播客"
+    ],
+    "url": "https://www.xiaoyuzhoufm.com/episode/6a69b07eb581962ce2bd4d97",
+    "duration": "1小时50分",
+    "svg_height": 6230
+  },
+  {
+    "date": "2026-08-01",
+    "filename": "moving-12-times-self-discovery-总结.svg",
+    "title": "三年搬家12次：从潮汕到佛罗伦萨，人真的能靠迁徙找到自我吗？",
+    "summary": "切切讲述从潮汕工厂到北京、清迈、佛罗伦萨、米兰、巴黎的12次迁徙。核心洞察：迁徙不是寻找更好的城市，而是在流动中描摹出自己真正想要的生活样态",
+    "tags": [
+      "生活/成长",
+      "个人叙事",
+      "播客"
+    ],
+    "url": "https://www.xiaoyuzhoufm.com/episode/6a168ac5c6d2b9e2f88083ba",
+    "duration": "1小时10分",
+    "svg_height": 7546
+  },
+  {
+    "date": "2026-08-01",
+    "filename": "tanian-taweng-hiking-guide-总结.svg",
+    "title": "徒步他念他翁：从封山乌龙到商团避坑指南",
+    "summary": "山合作用主播分享西藏他念他翁看海线实用攻略：交通安排、天气与海拔、本地商团利弊、村民利益纠葛、装备清单。核心价值：户外徒步的真实避坑指南",
+    "tags": [
+      "户外/旅行",
+      "徒步攻略",
+      "播客"
+    ],
+    "url": "https://www.xiaoyuzhoufm.com/episode/6a68b4aeb581962ce2bcebd1",
+    "duration": "55分",
+    "svg_height": 6673
+  },
+  {
+    "date": "2026-08-01",
+    "filename": "suntory-oolong-china-photography-总结.svg",
+    "title": "三得利乌龙茶30年中国影像情结：桃源梦乡与女性成长",
+    "summary": "日本三得利用30年在中国拍广告给本国人看：六个阶段从插画到上田义彦，塑造了一代日本人的中国印象。核心主题：距离感摄影与品牌精神的交汇",
+    "tags": [
+      "摄影/艺术",
+      "商业/品牌",
+      "播客"
+    ],
+    "url": "https://www.xiaoyuzhoufm.com/episode/686c8ac893fd2d72b8109eec",
+    "duration": "1小时10分",
+    "svg_height": 6567
+  },
+  {
+    "date": "2026-08-01",
+    "filename": "kailash-trekking-guide-总结.svg",
+    "title": "冈仁波齐徒步全攻略：5600米海拔、52公里山路",
+    "summary": "松鹤分享冈仁波齐转山全攻略：错峰旅行、便携制氧机、路线拆解、救援车机制、219暴风雪、低反体验。核心忠告：知道什么时候该认怂坐车",
+    "tags": [
+      "户外/旅行",
+      "徒步攻略",
+      "播客"
+    ],
+    "url": "https://www.xiaoyuzhoufm.com/episode/6a65ab6ea3fec224d5a3742d",
+    "duration": "1小时25分",
+    "svg_height": 6178
+  },
+  {
+    "date": "2026-08-01",
+    "filename": "tower-records-shibuya-总结.svg",
+    "title": "Tower Records涩谷店：世界最大唱片店的浪漫与生存之道",
+    "summary": "用声音逛涩谷塔店八层+一地下：古典→流行→黑胶→K-POP→动漫→J-POP→咖啡→Live House。核心：实体唱片变成便利收藏品，唱片店承载偶然与记忆",
+    "tags": [
+      "音乐/文化",
+      "生活方式",
+      "播客"
+    ],
+    "url": "https://www.xiaoyuzhoufm.com/episode/6a05b787e1eb34a939678fa1",
+    "duration": "1小时40分",
+    "svg_height": 7668
+  },
+  {
+    "date": "2026-08-01",
+    "filename": "travel-camera-spring-guide-总结.svg",
+    "title": "旅行选/买相机的底层逻辑：春游轻松拍照指南",
+    "summary": "出行先想清楚旅行vs摄影谁优先，回避四类翻车（重/贵/专/陌生）。按城市/自然/聚会/自驾四场景推荐相机。核心：不要被社交媒体旅拍裹挟，体验第一",
+    "tags": [
+      "摄影/器材",
+      "旅行",
+      "播客"
+    ],
+    "url": "https://www.xiaoyuzhoufm.com/episode/67ff21081f1db84a568d2cec",
+    "duration": "50分",
+    "svg_height": 5502
+  },
+  {
     "date": "2026-07-24",
     "filename": "jundongkou_communication_ep250-总结.svg",
     "title": "250.君子动口不动手：聊聊沟通",

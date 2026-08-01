@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="6567" viewBox="0 0 1320 6567">
+  <foreignObject x="0" y="0" width="1320" height="6567">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:20px 28px;text-align:center;min-width:160px;font-weight:700;font-size:16px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3{color:#92400e;margin-bottom:8px}
+.correction p{color:#92400e;font-size:15px}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card.card-red{border-left-color:#ef4444}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.speaker{display:inline-block;font-size:13px;font-weight:600;padding:2px 10px;border-radius:12px;margin-right:8px}
+.speaker-host{background:#dbeafe;color:#1e40af}
+.speaker-guest{background:#ede9fe;color:#6b21a8}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}</style>
+      <div class="container">
+
+<h1>三得利乌龙茶30年中国影像情结：桃源梦乡与女性成长</h1>
+<div class="meta">
+  <span class="tag tag-blue">摄影/艺术</span>
+  <span class="tag tag-orange">商业/品牌</span>
+  <span class="tag tag-purple">文化</span>
+  <span class="tag tag-green">约1小时10分</span>
+  <span class="tag tag-gray">podcast: 怀炉写真机KairoCamera</span>
+</div>
+<div class="summary-line">日本三得利乌龙茶从1984到2011年，所有广告都在中国取景、用中国模特、讲中国故事，却只面向日本观众。节目分六个阶段详述：1984-1987中国风插画期、1987-1990茶叶主义与中国符号期、1991-1994上田义彦加入后的桃花源期、1995-2005中国女性走向世界期、2006-2009姐妹日常生活期、2010-2011中国明星期。核心主题：一个日本品牌如何塑造了一代日本人心中的"中国印象"，上田义彦的"距离感"摄影理念与"永远要憧憬"的品牌精神。</div>
+
+<div class="timeline">
+  <h3>关键时间轴</h3>
+  <div class="timeline-item"><span class="timeline-time">00:00</span><span class="timeline-text">开场：一个日本企业花30年在中国拍广告卖日本产品给日本人看</span></div>
+  <div class="timeline-item"><span class="timeline-time">04:28</span><span class="timeline-text">三得利决定做乌龙茶：选半发酵技术最高级的茶种，对标威士忌高端路线</span></div>
+  <div class="timeline-item"><span class="timeline-time">06:35</span><span class="timeline-text">1984-1987 阶段一：中国风插画（"大人篇"），因拿不到入境许可只能画漫画</span></div>
+  <div class="timeline-item"><span class="timeline-time">11:19</span><span class="timeline-text">1987-1990 阶段二：实拍摄+茶叶主义，展示福建采茶女工和工厂，社会主义美学</span></div>
+  <div class="timeline-item"><span class="timeline-time">14:11</span><span class="timeline-text">1990年：葛西勋凑齐团队，找来新人摄影师上田义彦，改变一切</span></div>
+  <div class="timeline-item"><span class="timeline-time">17:49</span><span class="timeline-text">1991-1994 阶段三：桃花源时期——京剧演员、淡黄中式服装的女子、情侣对唱、新婚夫妻、三姐妹骑自行车</span></div>
+  <div class="timeline-item"><span class="timeline-time">25:00</span><span class="timeline-text">"永遠に憧れて"（永远要憧憬）品牌精神的诞生，出自1992年广告歌</span></div>
+  <div class="timeline-item"><span class="timeline-time">28:20</span><span class="timeline-text">1995-2005 阶段四：中国女性走向世界——采茶姑娘、空姐（鉄腕アトム主题曲）、都市生活、海边跳舞</span></div>
+  <div class="timeline-item"><span class="timeline-time">31:00</span><span class="timeline-text">2000年：千禧年反叛风格——姐弟逆着自行车流跳舞</span></div>
+  <div class="timeline-item"><span class="timeline-time">33:00</span><span class="timeline-text">2002年：乐基儿演上海现代女性，配"上海ブギウギ"歌</span></div>
+  <div class="timeline-item"><span class="timeline-time">34:57</span><span class="timeline-text">2003年：哈尔滨松花江冰面——连中国人都没见过的美景</span></div>
+  <div class="timeline-item"><span class="timeline-time">36:53</span><span class="timeline-text">2004年：孙丽武术学校篇 + 与孙悟空合作篇（中美日大融合）</span></div>
+  <div class="timeline-item"><span class="timeline-time">40:22</span><span class="timeline-text">2005年：反日游行影响，无法赴中国拍摄，只能用空镜和特效</span></div>
+  <div class="timeline-item"><span class="timeline-time">41:24</span><span class="timeline-text">2006-2009 阶段五：姐妹篇——厨房做饭、练芭蕾、母女加入</span></div>
+  <div class="timeline-item"><span class="timeline-time">43:38</span><span class="timeline-text">2010-2011 阶段六：范冰冰和张震——明星化的终结</span></div>
+  <div class="timeline-item"><span class="timeline-time">45:27</span><span class="timeline-text">2012年第二次反日浪潮后，三得利放弃中国主题，改用欧美风格"美人ラクロル"</span></div>
+</div>
+
+<div class="map">
+  <h2>核心脉络：六大阶段，一部中国影像变迁史</h2>
+  <div class="diagram">
+    <div class="node">插画&amp;ldquo;大人篇&amp;rdquo;<br/>1984-1987</div>
+    <div class="arrow">&amp;rarr;</div>
+    <div class="node node-green">茶叶主义<br/>1987-1990</div>
+    <div class="arrow">&amp;rarr;</div>
+    <div class="node">桃花源（上田加入）<br/>1991-1994</div>
+    <div class="arrow">&amp;rarr;</div>
+    <div class="node node-green">女性走向世界<br/>1995-2005</div>
+    <div class="arrow">&amp;rarr;</div>
+    <div class="node node-orange">姐妹日常<br/>2006-2009</div>
+    <div class="arrow">&amp;rarr;</div>
+    <div class="node">中国明星<br/>2010-2011</div>
+  </div>
+</div>
+
+<div class="correction">
+  <h3>认知纠偏</h3>
+  <p>上田义彦的"中国摄影集"并非独立艺术项目，而是三得利乌龙茶30年广告系列的产物。广告摄影常被认为"不真实、不客观、被资本做局"，但这套广告证明：当一个商业项目被长期坚持、由优秀的艺术总监（葛西勋）+ 摄影师（上田义彦）+ 文案（安藤隆）合力锤炼，它同样可以具备记录时代的能力。布列松拍的中国被禁（太"真实"），久保田博二拍的像旅游宣传（给足面子），上田义彦的广告镜头反而更接近一个"本质的中国"——它提炼了美并传承了下来。</p>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">1. 产品定位：为什么必须是乌龙茶 + 中国？</h2>
+  <div class="card">
+    <h3>三得利的战略选择</h3>
+    <p><b>技术角度</b>：半发酵的乌龙茶是技术难度最高的茶类（要控制发酵到一半停止），在中国古代是贡品级别的存在。绿茶是未发酵，红茶是全发酵，日本人自己也没搞出半发酵。</p>
+    <p><b>市场角度</b>：全世界都知道福建的乌龙茶最好——武夷山和安溪产铁观音已是国际市场认知。三得利"原产地"策略天然与中国强绑定。</p>
+    <p><b>产品路线</b>：像做威士忌一样做高端茶饮——1984年的日本还没人习惯在街上买茶饮料喝。三得利决定把它做成一款有"海外标签""高级感"的饮品。</p>
+    <div class="quote">"三得利在营销时就决定了：这个产品一定要和中国强绑定。它的所有茶叶原料及采摘后处理全部在中国完成。"</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">2. 1984-1987 阶段一：中国风插画的"大人篇"</h2>
+  <div class="card">
+    <h3>拿不到入境许可，只能用漫画折衷</h3>
+    <p>艺术总监葛西勋本来想做中国实景拍摄，但1984-1985年日本摄制组拿不到进入中国的许可。于是退而求其次——以清朝官员（"大人"）形象为主角，背景是中式山水画但用现代构图法处理。</p>
+    <p><b>四年迭代</b>：第一年大人一人 → 第二年大人+妻子 → 第三年一家三口 → 第四年招女婿变四口之家（他们还特意研究了中国独生子女政策）。</p>
+    <p><b>文化意义</b>："大人"形象来自明治时期（1900年前后）的海报，是一个日本人对中国的"古代式想象"。</p>
+    <div class="relation">"幸好没有第五年，第六年的话估计就有第三代人了。"</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">3. 1987-1990 阶段二：茶叶主义与中国符号</h2>
+  <div class="card card-green">
+    <h3>终于实拍：展示产品源头</h3>
+    <p>1987年拿到许可后，团队仓促进中国。拍了福建采茶叶的女工和工厂分检烘焙景象——非常直接的"产品溯源"思路。</p>
+    <p><b>"茶叶主义"</b>：当时的中国也在向世界展示"社会主义的绿水青山"和"快乐劳动的年轻女工"。这是一种双向的文化展示，既是中国愿意被看到的一面，也是三得利想要传达的"原产地"标签。</p>
+    <p><b>1990年转折</b>：葛西勋不满足于纪录片式的拍法。他凑齐了三角团队——艺术总监自己、文案安藤隆、摄影师上田义彦。于是拍出了在京剧院的训练场景，开始寻找"文化上的中国符号"。</p>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">4. 1991-1994 阶段三：桃花源时期——上田义彦的影像革命</h2>
+  <div class="card">
+    <h3>"距离感"美学</h3>
+    <p><b>葛西勋为什么选上田义彦</b>：他看中的是上田照片中的"距离感"——不是传统广告把产品/人物打光打得很清晰、触手可及，而是一种"信息从四面八方的氛围里传递过来"的感觉。</p>
+    <div class="quote">上田义彦："我认为最美的光可能是从水底看到的那种光线——光经过一个物体慢慢被折射、反射和散射。"</div>
+    <p><b>广告的语言策略</b>：广告全程中文对白+中文歌曲，没有日文字幕，只有最后5-10秒用日文念品牌名和slogan。这种"听不懂但很美"的距离感本身就是品牌策略的一部分。</p>
+  </div>
+  <div class="card card-purple">
+    <h3>选角美学：中国人喜欢的中国形象</h3>
+    <p>模特全部来自舞蹈学院——素颜、高挑、细长的年轻女性，身材比日本女性高大。展现了"青春阳光、无忧无虑"的状态，与乌龙茶"保持好身材"的功能相一致。</p>
+    <p>反观西方品牌常被诟病的"丹凤眼+高颧骨"刻板印象——三得利/上田义彦选择的美的标准，与中国人的审美高度重合。这也是为什么中国人自己也喜欢这些广告。</p>
+    <div class="relation">"日本人在这个广告系列里对'什么是特别美的中国人'的理解，是跟中国人的梦想重合在一起的。反过来中国人对一个日本人什么是帅的、美的，也能很好地把握日本人的神韵。"</div>
+  </div>
+  <div class="card card-green">
+    <h3>"永远要憧憬"的诞生</h3>
+    <p>1992年广告《East Timber 有没有》采用了日本传统歌曲改编的中文版，背景是高山远景中一对年轻情侣。这首歌名后来成为上田义彦中国影集的名字——《永远要憧憬》（永遠に憧れて）。</p>
+    <p>拍摄地从武夷山扩展到云南、桂林等风景优美的地方，形成了"美得像梦一样的中国"的视觉基调。</p>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">5. 1995-2005 阶段四：中国女性走向世界</h2>
+  <div class="card">
+    <h3>十年稳定输出，记录中国变迁</h3>
+    <p><b>1995年回归茶叶采摘地</b>：拍采茶姑娘在船上开心的样子。</p>
+    <p><b>1996年发掘乐基儿</b>——香港艺人代表中国都市感。</p>
+    <p><b>1997年空姐故事</b>：在飞机上发乌龙茶，回宿舍喝乌龙茶，期待未来人生。BGM用的是《铁腕阿童木》主题曲的中文改编版——中日观众都熟悉的旋律成了文化连接的桥梁。</p>
+    <p><b>1999年旗袍姐妹跳舞</b>：旗袍叉开到大腿根，两个女孩非常自信地跳——展现了先进的女性形象认知。</p>
+    <p><b>2000年千禧年反叛</b>：姐弟在逆着自行车流中跳舞散步——对新时代的期待和反叛精神。</p>
+    <p><b>2002年乐基儿+《上海ブギウギ》</b>：现代上海女性形象，都市化、国际化。</p>
+    <p><b>2003年哈尔滨松花江冰面</b>："我作为一个中国人，可能都没见过松花江结冰后有人在上面滑冰的景象"。镜头的"他者视角"创造了连中国人都震撼的美。</p>
+    <p><b>2004年孙丽武术学校+与孙悟空合作</b>：中美日大融合——孙丽（孙）+孙悟空（孙）+三得利（Sun）的谐音梗。广告里三人听iPod喝乌龙茶，抽奖送4000台iPod。</p>
+    <div class="quote">日本网友评论："希望日中美三国在现实生活中可以把政治解决好一点，能让这样的美景真正多出现一些。"</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">6. 2005-2009 阶段五：政治阴影下的转向</h2>
+  <div class="card card-orange">
+    <h3>反日游行的影响</h3>
+    <p>2005年中国多城市反日游行（小泉政府上台后的中日关系紧张），三得利团队无法在中国拍摄，只能用之前拍的空镜加特效来填补广告内容。</p>
+    <p><b>2006-2009姐妹篇</b>：故事重心转移到日常生活场景——餐桌聊天、厨房做饭、练芭蕾、母女喝茶。乌龙茶变成生活场景的一部分，不再是远方的桃花源。</p>
+    <p><b>风格变化</b>：从宏大壮美的中国山水 → 温暖的日常家庭场景。虽然广告思路改变，但中国元素依然贯穿始终。</p>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">7. 2010-2011 阶段六：明星化终结</h2>
+  <div class="card card-red">
+    <h3>最后的广告：范冰冰与张震</h3>
+    <p>2010年张震、2010-2011年范冰冰——中国明星、中式旗袍、中华料理+乌龙茶。但视觉风格已经接近日本当代食品广告的套路：聚焦明星的一举一动和情绪，看不到壮阔的远方风景了。</p>
+    <p><b>终结的原因</b>：2012年比2005年更严重的反日浪潮，加上项目已经持续近30年，三得利决定彻底放弃中国主题。改用欧美风格"美人ラクロル"——在中日之外选一个第三方来代言产品。</p>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">8. 摄影哲学：上田义彦的"距离感"与中国元素的天然共鸣</h2>
+  <div class="card">
+    <h3>三条"距离感"的叠加</h3>
+    <p><b>第一层</b>：日本人对中国的遐想——本身就是一种距离感。</p>
+    <p><b>第二层</b>：现代人对乌托邦/桃花源的幻想——需要深入探索才能发现的独有之美。</p>
+    <p><b>第三层</b>：中国传统文化本身对当代人来说就是遥远的——唐宋建筑、书法、服饰像梦一样。</p>
+    <div class="highlight">"中式'梦'这个元素和摄影的距离感有非常高的匹配度。中国传统文化中——牡丹亭杜丽娘一场春梦体会到爱情——梦本身就是一个特别中式的文化元素。"</div>
+  </div>
+  <div class="card card-purple">
+    <h3>与布列松、久保田博二的对比</h3>
+    <table>
+      <tr><th>摄影师</th><th>拍法</th><th>中国官方态度</th><th>效果</th></tr>
+      <tr><td>布列松（马格南）</td><td>不修饰的真实、街拍人民的日常</td><td>被禁</td><td>西方视角的"真实中国"</td></tr>
+      <tr><td>久保田博二（马格南）</td><td>给足面子、像地方旅游宣传</td><td>接受</td><td>阳光积极的表面中国</td></tr>
+      <tr><td>上田义彦（三得利）</td><td>被艺术总监按住的商业化距离感</td><td>受欢迎</td><td>提炼了"美"的中国、更接近本质</td></tr>
+    </table>
+    <div class="relation">"我喜欢葛西勋把上田义彦控制住的感觉。一个广告经过层层审核、追求最广泛共识的过程，本身就是很中国的一种创作方式。"</div>
+  </div>
+</div>
+
+<div class="conclusion">
+  <h2>总结与行动</h2>
+  <h3>核心要点</h3>
+  <ul>
+    <li>三得利乌龙茶1984-2011的广告是罕见的文化档案——记录了近30年中国的视觉面貌变迁</li>
+    <li>六大阶段：插画 → 茶叶主义 → 桃花源（上田加入） → 女性走向世界 → 姐妹日常 → 明星期</li>
+    <li>上田义彦的"距离感"美学与中国元素天然契合：日本人的遐想+现代人的桃源梦+传统文化的遥远感</li>
+    <li>"永远要憧憬"不仅是一句广告语——它是贯穿30年的品牌精神，把美提炼出来传承给一代又一代观众</li>
+    <li>广告摄影的价值被低估：当商业项目被长期坚持和专业团队打磨，它可以具备"记录时代"的能力</li>
+    <li>诸多日本观众因为这个广告去中国旅游、学中文——它成为了一种文化沟通的载体</li>
+  </ul>
+  <h3>行动清单</h3>
+  <ol>
+    <li>搜索观看三得利乌龙茶历年广告合集（YouTube），理解"中国如何被世界看见"的另一条路径</li>
+    <li>如果你是摄影师/创作者——尝试找到属于自己的"中国风格"：不是模仿欧美/日本，而是从传统中提取现代视觉语言</li>
+    <li>重新审视广告摄影的价值：不一定要"揭露真实"，有意识地提炼美并传承它，也是一种责任</li>
+    <li>查找上田义彦影集《永远要憧憬》（永遠に憧れて），理解"距离感"在实际作品中的呈现</li>
+  </ol>
+  <h3>关键认知转变</h3>
+  <p>以前觉得"中国风格"很难定义——要么太传统显得陈旧，要么太现代失去辨识度。现在理解：日本团队找到了一个角度——用"他者的距离感"去呈现"中国式的梦与美"，让传统的遥远感本身成为审美的核心。这不是东方主义的猎奇，而是一种基于共鸣的创造性转化。</p>
+</div>
+
+<div class="footer">来源：怀炉写真机KairoCamera · 小宇宙FM · "三得利乌龙茶30年中国影像情结"</div>
+
+</div>
+    </div>
+  </foreignObject>
+</svg>
