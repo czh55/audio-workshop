@@ -36,9 +36,8 @@ def strip_html(html: str) -> str:
 
 def svg_to_audio_path(svg_path: Path) -> Path:
     rel = svg_path.relative_to(DOCS)
-    stem = rel.stem
-    if stem.endswith("-总结"):
-        stem = stem[:-3]
+    stem = re.sub(r"-(?:播客)?总结(?=\.svg$)", "", rel.name, flags=re.I)
+    stem = re.sub(r"\.svg$", "", stem)
     return AUDIO_DIR / rel.parent / f"{stem}.mp3"
 
 
@@ -383,7 +382,11 @@ def generate_for_svg(svg_path: Path, voice: str = DEFAULT_VOICE, force: bool = F
 def find_svg_files(all_topics: bool = False, pregnancy_only: bool = False) -> list[Path]:
     if pregnancy_only:
         return sorted(DOCS.glob("topics/pregnancy/*.svg"))
-    files = sorted(DOCS.glob("*-总结.svg"))
+    # docs/ 根目录下的总结 SVG（含 -总结 与 -播客总结 命名）
+    files = sorted(
+        p for p in DOCS.glob("*.svg")
+        if p.is_file() and re.search(r"-(?:播客)?总结\.svg$", p.name, re.I)
+    )
     if all_topics:
         files.extend(sorted(DOCS.glob("topics/**/*.svg")))
     return files

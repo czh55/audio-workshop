@@ -198,7 +198,7 @@
     }
 
     function normalizedAudioUrl(svgFile) {
-      var mp3 = svgFile.replace(/-总结(?=\.svg$)/i, '').replace(/\.svg$/i, '.mp3');
+      var mp3 = svgFile.replace(/-(?:播客)?总结(?=\.svg$)/i, '').replace(/\.svg$/i, '.mp3');
       return 'audio/' + mp3;
     }
 

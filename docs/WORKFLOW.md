@@ -11,6 +11,7 @@ Task Progress:
 - [ ] 5. 读取转录稿并总结
 - [ ] 6. 生成 SVG（Node .mjs + svg-auto-height.mjs）
 - [ ] 6.5 生成语音讲解（edge-tts，从 SVG 提取旁白 → MP3）
+- [ ] 6.6 生成 HTML 版本（scripts/svg-to-html.py，SVG 保持不变）
 - [ ] 7. 更新 index.json
 - [ ] 8. Git 提交并推送到 main（**必须**，Pages 才能展示）
 - [ ] 9. 清理临时文件
@@ -79,6 +80,8 @@ curl -L -o "~/Projects/audio-workshop/{slug}.m4a" "{audio_url}" --progress-bar
 - `{slug}`：从标题提取英文/拼音关键词，≤30 字符，不含空格和特殊字符
 - 示例：`curl -L -o "~/Projects/audio-workshop/spacex_history_podcast.m4a" "https://media.xyzcdn.net/xxx.m4a"`
 
+**文件名统一规则（重要）**：本仓库所有播客总结必须统一为 `{slug}-总结.svg`，禁止 `-播客总结.svg`、`-内容总结.svg` 等变体。生成脚本、音频播放器、HTML 转换均以 `-总结` 后缀推导路径；变体会导致语音/HTML 无法关联（历史遗留 `SpaceX开发史-播客总结.svg` 已特殊兼容，新条目不要再用）。
+
 若下载失败（网络错误、403、429 等），重试最多 3 次；每次重试前也必须执行 `node rate-limit.mjs`，不得立即重试。达到上限后写入含 `"error": true` 的索引条目并停止。
 
 ---
@@ -117,6 +120,13 @@ whisper {slug}.m4a --model small --language Chinese --output_dir .
 | medium | 很好 | 慢(~1h 音频≈4h) | 高质量需求 |
 
 转录产物：`{slug}.txt` `{slug}.srt` `{slug}.vtt` `{slug}.json`。
+
+**批量转录并发管理（关键经验）**：
+
+- 禁止裸跑多条 `whisper` 并行命令——CPU 争抢会拖慢所有任务，甚至因内存不足导致进程僵死（CPU 时间不再增长、无输出）。
+- 批量场景用 `transcribe_manager.py`（保持并发 ≤2，自动跳过已完成、记录每任务日志）。
+- 判断进程是否僵死：看 `ps -o time=` 的 CPU 累计时间是否持续增长，而非瞬时 `%CPU`。僵死进程需 `kill -9` 后由 manager 重启。
+- 单条命令超时是正常现象（small 模型 ~1h 音频 ≈ 1.5-2h CPU 时间），不要在转录中途重启机器。
 
 ---
 
@@ -406,6 +416,16 @@ python3 scripts/svg-to-html.py foo-总结.svg   # 单篇
 - 若 `docs/audio/{slug}.mp3` 存在则自动内嵌播放器
 - 孕期专题（topics/）不在此范围
 
+**音频路径推导（三处必须一致，勿单独改动）**：
+
+| 位置 | 规则 |
+|------|------|
+| `viewer.html` `normalizedAudioUrl()` | 去掉文件名尾 `-(?:播客)?总结` → `audio/{slug}.mp3` |
+| `scripts/generate_svg_audio.py` `svg_to_audio_path()` | 同上 |
+| `scripts/svg-to-html.py` `svg_to_audio_path()` | 同上 |
+
+修改任一处的推导逻辑时，必须同步其余两处。批量补语音用 `--missing`（会自动扫描 docs/ 根目录所有 `-(?:播客)?总结.svg`）。
+
 ---
 
 ## Step 7：质量自检
@@ -480,26 +500,32 @@ python3 scripts/svg-to-html.py foo-总结.svg   # 单篇
 ```bash
 git checkout main
 git pull origin main
-git checkout -B "{dev-branch}"
 ```
 
-`{dev-branch}` 命名建议：`cursor/{slug}` 或 Automation 下发的分支名。不要直接在 `main` 上开发。
+**分支策略（两种，按场景选择）：**
+- **单条 / 小批量（Automation 默认）**：直接在 `main` 上开发并提交。本项目实际运行中（含 GitHub Actions 重触发）均采用此方式，用户明确要求"提交到 main"。推送前务必 `git pull --rebase origin main` 避免分叉。
+- **批量改造 / 高风险变更**：走 `cursor/{slug}` 开发分支，`git merge` 后推送 `main`（见 9.2-9.3）。
 
 提交变更：
 
 ```bash
-git add docs/{slug}-总结.svg docs/index.json
+git add docs/{slug}-总结.svg docs/{slug}-总结.html docs/index.json
 git commit -m "podcast: summarize {播客标题}"
 ```
 
-### 9.2 推送开发分支
+语音产物（`docs/audio/{slug}.mp3` / `.txt`）单独一个 commit，或与 SVG 同 commit 均可（参考历史：批量总结与 voiceovers 曾分两个 commit）。
+
+### 9.2 分支流程（仅批量改造 / 高风险变更时）
 
 ```bash
+git checkout -B "{dev-branch}"
+git add docs/...
+git commit -m "podcast: summarize {播客标题}"
 git pull --rebase origin main
 git push -u origin "{dev-branch}"
 ```
 
-### 9.3 合并到 main 并推送
+### 9.3 合并到 main 并推送（仅分支流程）
 
 ```bash
 git checkout main
@@ -508,13 +534,15 @@ git merge "{dev-branch}"
 git push -u origin main
 ```
 
+> 直接提交 `main` 时跳过 9.2-9.3，改为：`git add ... && git commit && git pull --rebase origin main && git push origin main`。
+
 ### 9.4 重试策略
 
 网络失败按 4、8、16、32 秒退避重试。`git pull --rebase origin main` 或 `git merge` 出现冲突时，解决冲突后重新自检再继续推送。
 
 **要求：**
 - 最终发布目标是 `origin/main`。禁止以"已推送到开发分支"代替合并到 `main`。
-- 推送前确认 `docs/index.json` 与 `docs/{slug}-总结.svg` 均已纳入提交
+- 推送前确认 `docs/index.json` 与 `docs/{slug}-总结.svg`、`docs/{slug}-总结.html`（若有语音则含 `docs/audio/{slug}.mp3` / `.txt`）均已纳入提交
 - 开发分支可以保留也可以后续清理
 
 ---
@@ -545,12 +573,17 @@ rm generate-{slug}.mjs
 
 | 文件 | 说明 |
 |------|------|
-| `{slug}.m4a` | 原始音频 |
+| `{slug}.m4a` | 原始音频（清理时可删） |
 | `{slug}.txt` | 纯文本转录稿 |
 | `{slug}.srt` | SRT 字幕 |
 | `{slug}.vtt` | WebVTT 字幕 |
 | `{slug}.json` | Whisper JSON（含置信度） |
 | `docs/{slug}-总结.svg` | 内容总结长图 |
+| `docs/{slug}-总结.html` | 独立 HTML 版（`scripts/svg-to-html.py` 生成） |
+| `docs/audio/{slug}.mp3` | edge-tts 语音讲解 |
+| `docs/audio/{slug}.txt` | 语音旁白稿备份 |
+
+**工作区辅助脚本**（`download_batch.mjs` / `transcribe_manager.py`）：批量下载与并发转录工具，未纳入 git 跟踪，属于本地操作工具。
 
 ---
 
