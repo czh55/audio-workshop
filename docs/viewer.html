@@ -47,6 +47,23 @@
       font-size: 14px;
     }
     .back-link:hover { color: var(--accent); }
+    .en-link {
+      font-size: 13px;
+      color: #5eead4;
+      text-decoration: none;
+      white-space: nowrap;
+      font-weight: 600;
+      padding: 5px 12px;
+      border: 1px solid rgba(94,234,212,0.45);
+      border-radius: 99px;
+      background: rgba(94,234,212,0.08);
+      transition: all 0.2s;
+    }
+    .en-link:hover {
+      color: #fff;
+      border-color: #5eead4;
+      background: rgba(94,234,212,0.18);
+    }
     .doc-title {
       flex: 1;
       font-size: 15px;
@@ -167,6 +184,7 @@
       <div class="toolbar-top">
         <a class="back-link" href="index.html">← 返回首页</a>
         <div class="doc-title" id="docTitle">加载中…</div>
+        <a class="en-link" id="enLink" style="display:none;" target="_blank" rel="noopener">🌐 EN 双语版 ↗</a>
       </div>
       <div class="audio-section" id="audioSection">
         <details class="audio-details">
@@ -316,6 +334,19 @@
     }
 
     var audioSrc = normalizedAudioUrl(file);
+
+    // 推导英文版文件名（如 supermarket-choice-en.html），存在才显示 EN 入口
+    var enSlug = file.replace(/-(?:播客)?总结(?=\.svg$)/i, '').replace(/\.svg$/i, '');
+    var enHtml = enSlug + '-en.html';
+    fetch(enHtml, { method: 'HEAD' })
+      .then(function(res) {
+        if (res && res.ok) {
+          var link = document.getElementById('enLink');
+          link.href = enHtml;
+          link.style.display = '';
+        }
+      })
+      .catch(function() { /* 无英文版，不显示入口 */ });
 
     fetch(file)
       .then(function(res) {

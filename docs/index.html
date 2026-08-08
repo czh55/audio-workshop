@@ -1032,10 +1032,20 @@
 
           items.forEach(item => {
             var isError = item.error;
-            const card = document.createElement('a');
+            const card = document.createElement('div');
             card.className = 'card' + (isError ? ' card-error' : '');
-            card.href = isError ? (item.url || '#') : viewerUrl(item.filename);
-            card.target = '_blank';
+            card.style.cursor = 'pointer';
+            card.setAttribute('role', 'link');
+            card.setAttribute('tabindex', '0');
+            card.addEventListener('click', function(e) {
+              if (e.target.closest('a')) return; // 内部链接自行处理
+              window.open(isError ? (item.url || '#') : viewerUrl(item.filename), '_blank');
+            });
+            card.addEventListener('keydown', function(e) {
+              if (e.key === 'Enter') {
+                window.open(isError ? (item.url || '#') : viewerUrl(item.filename), '_blank');
+              }
+            });
 
             let tagsHtml = '';
             if (item.tags && item.tags.length > 0) {
