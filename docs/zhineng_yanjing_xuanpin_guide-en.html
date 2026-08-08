@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="👓智能眼镜选品与劝退指南 - 张焱/徐冉/东东枪/北冥乘海生 — Bilingual Learning Edition" />
+  <title>👓智能眼镜选品与劝退指南 - 张焱/徐冉/东东枪/北冥乘海生｜EN 双语学习版</title>
+  <style>:root{--teal-950:#073f42;--teal-800:#0d686c;--teal-700:#0f7c80;--teal-600:#14919b;--mint-100:#dff4ec;--mint-50:#f0faf6;--ink:#183536;--muted:#607879;--line:#d7e8e2;--paper:#fff;--amber:#a85d08;--shadow:0 12px 32px rgba(7,63,66,.08)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:24px}
+body{margin:0;color:var(--ink);background:#edf7f2;font-family:Inter,"PingFang SC","Noto Sans SC","Microsoft YaHei",system-ui,sans-serif;line-height:1.65}
+button,select{font:inherit}
+a{color:inherit}
+.hero{color:#fff;background:radial-gradient(circle at 85% 10%,rgba(129,230,196,.24),transparent 30%),linear-gradient(125deg,#073f42,#0d7377 56%,#14919b)}
+.hero-inner{width:min(1440px,100%);margin:auto;padding:44px clamp(20px,5vw,72px) 36px}
+.hero-flex{display:flex;gap:clamp(18px,3vw,40px);align-items:flex-start}
+.hero-cover{width:min(240px,42vw);height:auto;max-height:320px;object-fit:contain;object-position:center;border-radius:16px;border:1px solid rgba(255,255,255,.28);box-shadow:0 18px 44px rgba(0,0,0,.32);flex-shrink:0;background:rgba(255,255,255,.08)}
+.hero-text{min-width:0;flex:1}
+.eyebrow{margin:0 0 12px;font-size:.78rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;opacity:.8}
+h1{max-width:1020px;margin:0;font-size:clamp(1.7rem,3.6vw,3rem);line-height:1.15;letter-spacing:-.04em}
+.hero-en{margin:12px 0 22px;font-size:clamp(1rem,2vw,1.25rem);opacity:.82}
+.hero-meta{display:flex;flex-wrap:wrap;gap:9px;align-items:center}
+.chip{border:1px solid rgba(255,255,255,.28);border-radius:99px;padding:5px 11px;font-size:.82rem;background:rgba(255,255,255,.08)}
+.source-link{font-weight:750;text-decoration:none;border-bottom:1px solid rgba(255,255,255,.5)}
+.toolbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:22px}
+.toolbar label{font-size:.82rem;opacity:.82}
+.toolbar select{color:#fff;background:#0a5d61;border:1px solid rgba(255,255,255,.3);border-radius:8px;padding:7px 9px}
+.stop-btn{display:none;color:#fff;background:#8c3b2a;border:0;border-radius:8px;padding:8px 12px;cursor:pointer}
+.stop-btn.visible{display:inline-flex}
+.speech-status{min-height:1.4em;font-size:.82rem;opacity:.88}
+.lang-switch{display:inline-flex;gap:6px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.28);border-radius:99px;padding:4px}
+.lang-switch a{display:inline-block;padding:4px 13px;border-radius:99px;font-size:.8rem;font-weight:700;text-decoration:none;color:rgba(255,255,255,.75)}
+.lang-switch a.active{background:#fff;color:var(--teal-800)}
+.narration-player{margin-top:16px;padding:14px 18px;background:rgba(255,255,255,.1);border-radius:12px;border:1px solid rgba(255,255,255,.15)}
+.audio-label{color:rgba(255,255,255,.88);font-size:.82rem;font-weight:700;margin:0 0 8px}
+.page{width:min(1440px,100%);margin:auto;padding:28px clamp(16px,3vw,44px) 64px;display:grid;grid-template-columns:minmax(230px,280px) minmax(0,1fr);gap:30px;align-items:start}
+.sidebar{position:sticky;top:20px;min-width:0}
+.sidebar-box{background:rgba(255,255,255,.8);border:1px solid var(--line);border-radius:16px;padding:17px;box-shadow:var(--shadow);backdrop-filter:blur(12px)}
+.sidebar h2{margin:0 0 13px;font-size:.9rem;letter-spacing:.08em;color:var(--teal-800)}
+.map-link{display:grid;grid-template-columns:34px minmax(0,1fr);gap:9px;padding:10px 6px;text-decoration:none;border-top:1px solid var(--line)}
+.map-link:hover b{color:var(--teal-700)}
+.map-id{width:30px;height:30px;display:grid;place-items:center;border-radius:9px;color:#fff;background:var(--teal-700);font-size:.72rem;font-weight:800}
+.map-link b{display:block;font-size:.78rem;line-height:1.4}
+.map-link small{display:block;color:var(--muted);font-size:.67rem;line-height:1.4;margin-top:2px;overflow-wrap:anywhere}
+.content{min-width:0}
+.scene-card{background:var(--paper);border:1px solid var(--line);border-radius:20px;padding:clamp(20px,3vw,34px);margin-bottom:24px;box-shadow:var(--shadow);overflow:hidden}
+.scene-topline{display:flex;justify-content:space-between;gap:16px;align-items:center;margin-bottom:16px}
+.scene-id{display:inline-grid;place-items:center;min-width:42px;height:30px;padding:0 10px;color:#fff;background:var(--teal-700);border-radius:8px;font-size:.78rem;font-weight:850}
+.time{margin-left:10px;color:var(--muted);font-size:.82rem;font-variant-numeric:tabular-nums}
+.scene-card h2{margin:0 0 2px;font-size:clamp(1.35rem,2.4vw,2rem);line-height:1.25;color:var(--teal-950)}
+.scene-title-en{margin:0 0 18px;color:var(--teal-600);font-weight:700;font-size:.98rem}
+.context{margin:0 0 20px;padding:12px 15px;color:#496566;background:var(--mint-50);border-left:3px solid var(--teal-600);border-radius:0 10px 10px 0;font-size:.88rem}
+.context b{margin-right:10px;color:var(--teal-800)}
+.sentence-list{display:grid;gap:12px}
+.sentence{position:relative;display:grid;grid-template-columns:38px minmax(0,1fr);gap:12px;padding:16px;border:1px solid #e2ece8;border-radius:14px;background:#fcfefd;min-width:0}
+.sentence-no{color:var(--teal-600);font-size:.76rem;font-weight:850;font-variant-numeric:tabular-nums;padding-top:4px}
+.bilingual{min-width:0;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(14px,2vw,28px)}
+.lang-block{min-width:0}
+.lang-block p{margin:5px 0 0;overflow-wrap:anywhere}
+.en-block{padding-left:clamp(14px,2vw,28px);border-left:1px solid var(--line)}
+.en-block p{color:#0b5c60;font-weight:650}
+.lang-tag{display:inline-block;color:var(--muted);font-size:.66rem;font-weight:850;letter-spacing:.12em}
+.en-head{display:flex;justify-content:space-between;gap:10px;align-items:center;min-height:30px}
+.note{grid-column:2;margin:1px 0 0;color:#708182;font-size:.78rem}
+.note span{margin-right:7px;color:var(--amber);font-weight:750}
+.speak-btn{display:inline-flex;align-items:center;gap:7px;border:1px solid #b8d9d1;border-radius:9px;padding:7px 11px;color:var(--teal-800);background:#f5fbf8;cursor:pointer;white-space:nowrap;font-size:.78rem;font-weight:750;transition:.15s ease}
+.speak-btn:hover{color:#fff;background:var(--teal-700);border-color:var(--teal-700);transform:translateY(-1px)}
+.speak-btn.playing{color:#fff;background:var(--teal-700);border-color:var(--teal-700)}
+.speak-btn.compact{padding:4px 8px;font-size:.7rem}
+.speak-btn.icon-only{padding:3px 7px;margin-left:6px}
+.speak-btn.icon-only span:last-child{display:none}
+.pronounce-word{display:inline;margin:0;padding:0 2px;color:inherit;background:rgba(20,145,155,.08);border:0;border-bottom:1px dashed var(--teal-600);border-radius:3px;font:inherit;font-weight:inherit;line-height:inherit;cursor:pointer}
+.pronounce-word:hover,.pronounce-word:focus{color:var(--teal-950);background:#cceee4;border-bottom-style:solid;outline:3px solid rgba(20,145,155,.42);outline-offset:2px}
+.pronounce-word.playing{color:#fff;background:var(--teal-700);border-bottom-color:var(--teal-700)}
+.paraphrase{margin-top:18px;border-top:1px solid var(--line)}
+.paraphrase summary{padding:16px 0 3px;color:var(--teal-800);cursor:pointer;font-weight:800}
+.paraphrase summary span{color:var(--muted);font-size:.75rem;font-weight:500;margin-left:8px}
+.paraphrase ol{margin:12px 0 0;padding-left:22px}
+.paraphrase li{padding:7px 0 9px 5px}
+.paraphrase li p{margin:0;font-size:.9rem;font-weight:650}
+.paraphrase li small{display:block;color:var(--muted);font-size:.72rem;margin-top:2px}
+.chunks{margin-top:4px;color:var(--teal-700);font-size:.78rem}
+.study-section{margin:38px 0 0}
+.section-heading{display:flex;align-items:baseline;gap:10px;margin:0 0 15px;color:var(--teal-950);font-size:1.35rem}
+.section-heading small{color:var(--teal-600);font-size:.78rem;letter-spacing:.05em}
+.study-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.study-grid article{padding:17px;background:#fff;border:1px solid var(--line);border-radius:14px;box-shadow:0 6px 18px rgba(7,63,66,.05);min-width:0}
+.study-grid p{margin:0}
+.practice-en{margin-top:9px;color:var(--teal-700);font-weight:650;overflow-wrap:anywhere}
+.wrong{color:#a24831;text-decoration:line-through;overflow-wrap:anywhere}
+.right{color:var(--teal-700);font-weight:750;margin:5px 0;overflow-wrap:anywhere}
+.pitfalls p{color:var(--muted);font-size:.82rem}
+.shifts article{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1.5fr);gap:12px;align-items:center}
+.shifts b{color:var(--teal-600);font-size:1.2rem}
+.shifts strong{color:var(--teal-800)}
+footer{margin-top:38px;color:var(--muted);font-size:.78rem;text-align:center}
+.footer-note{margin-top:6px}
+@media (max-width:900px){
+  .page{grid-template-columns:1fr}
+  .sidebar{position:static}
+  .sidebar-box{overflow-x:auto;padding:12px}
+  .sidebar h2{padding-left:5px}
+  .map-nav{display:flex;width:max-content;gap:8px}
+  .map-link{width:240px;border:1px solid var(--line);border-radius:10px;padding:8px}
+  .bilingual{grid-template-columns:1fr}
+  .en-block{padding:12px 0 0;border-left:0;border-top:1px dashed var(--line)}
+}
+@media (max-width:620px){
+  .hero-inner{padding-top:30px}
+  .hero-flex{flex-direction:column;align-items:center}
+  .hero-cover{width:100%;max-width:360px}
+  .hero-text{text-align:center}
+  .page{padding-inline:10px;gap:18px}
+  .scene-card{border-radius:14px;padding:17px 13px}
+  .scene-topline{align-items:flex-start}
+  .scene-speak span:last-child{display:none}
+  .sentence{grid-template-columns:26px minmax(0,1fr);padding:13px 10px;gap:6px}
+  .note{grid-column:2}
+  .study-grid{grid-template-columns:1fr}
+  .shifts article{grid-template-columns:1fr;gap:5px}
+  .shifts b{transform:rotate(90deg);justify-self:start}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.speak-btn{transition:none}}</style>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="hero-flex">
+        <div class="hero-text">
+          <p class="eyebrow">Tech &amp; Consumer · 科技与消费</p>
+          <h1>👓智能眼镜选品与劝退指南 - 张焱/徐冉/东东枪/北冥乘海生</h1>
+          <p class="hero-en">Smart Glasses: A Buying &amp; Disillusionment Guide — with Zhang Yan, Xu Ran, Dongdong Qiang &amp; Beiming Cheng Haisheng</p>
+          <p class="summary-en" style="margin:0 0 14px;padding:14px 16px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.22);border-radius:12px;font-size:.95rem;line-height:1.7">Four guests — an edge-computing engineer, a heavy power user, and media people — take a sharp, unsparing look at smart glasses, AR, VR, and XR. They dismantle the fake demand, the 'Douzhir economy' where everyone takes a sip but few order another, and the trap of end-to-end family-bucket strategies. Then the show slides into a philosophical abyss about AI cyber-immortality and the value of the human body. It all ends with one brutally practical piece of advice: have your kids learn massage.</p>
+          <div class="hero-meta">
+            <span class="chip">2026-06-23</span>
+            <span class="chip">小宇宙FM</span>
+            <span class="chip">1小时42分</span>
+            <span class="chip">4 Scenes</span>
+            <span class="chip">Click underlined words to hear them</span>
+            <a class="source-link" href="https://www.xiaoyuzhoufm.com/episode/69e875e81d989496e73b7892" target="_blank" rel="noopener">原播客 ↗</a>
+          </div>
+        </div>
+      </div>
+      <div class="toolbar">
+        <div class="lang-switch"><div class="lang-switch"><a href="zhineng_yanjing_xuanpin_guide-总结.html">中文</a><a class="active" href="zhineng_yanjing_xuanpin_guide-en.html" aria-current="page">EN</a></div></div>
+        <label for="speech-rate">朗读速度</label>
+        <select id="speech-rate">
+          <option value="0.85">慢速 0.85×</option>
+          <option value="1" selected>正常 1×</option>
+          <option value="1.15">快速 1.15×</option>
+        </select>
+        <button id="stop-speech" class="stop-btn" type="button">■ 停止朗读</button>
+        <span id="speech-status" class="speech-status" role="status" aria-live="polite"></span>
+      </div>
+      <div class="narration-player">
+      <p class="audio-label">🎧 中文语音讲解</p>
+      <button class="speak-btn" type="button" data-audio="audio/zhineng_yanjing_xuanpin_guide.mp3" aria-label="播放语音讲解"><span aria-hidden="true">▶</span><span>播放语音讲解</span></button>
+    </div>
+    </div>
+  </header>
+  <main class="page">
+    <aside class="sidebar" aria-label="场景地图">
+      <div class="sidebar-box">
+        <h2>场景地图 · SCENE MAP</h2>
+        <nav class="map-nav">
+          <a class="map-link" href="#s1">
+          <span class="map-id">S1</span>
+          <span><b>一、概念框架：AR / VR / XR 到底差在哪</b><small> · Part 1: The Concepts — What Actually Differs Between AR, VR, and XR</small></span>
+        </a>
+<a class="map-link" href="#s2">
+          <span class="map-id">S2</span>
+          <span><b>二、过渡态陷阱：为什么现在不宜入手</b><small> · Part 2: The Transition Trap — Why Not to Buy Right Now</small></span>
+        </a>
+<a class="map-link" href="#s3">
+          <span class="map-id">S3</span>
+          <span><b>三、产业与技术深水区</b><small> · Part 3: Into the Deep Water of Industry and Technology</small></span>
+        </a>
+<a class="map-link" href="#s4">
+          <span class="map-id">S4</span>
+          <span><b>四、AI 时代的人类价值（节目后半段哲学深渊）</b><small> · Part 4: Human Value in the AI Age (The Philosophical Abyss)</small></span>
+        </a>
+        </nav>
+      </div>
+    </aside>
+    <div class="content">
+      <section class="scene-card" id="s1" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S1</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/zhineng_yanjing_xuanpin_guide/s1.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>一、概念框架：AR / VR / XR 到底差在哪</h2>
+      <p class="scene-title-en">Part 1: The Concepts — What Actually Differs Between AR, VR, and XR</p>
+      <p class="context"><b>情境</b>先讲清 VR/AR/XR 概念差别与市场现状，再吐槽 Vision Pro 的真实体验。语域：casual 科技闲聊 + 毒舌点评。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：VR 是全包裹蒙眼沉浸，AR 是在现实世界上叠加信息，XR 是介于两者之间的混合现实。但市场现状是——活下来的产品往往更像「挂在鼻子上的耳机」，而非科幻片里的全天候 AR 界面</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/zhineng_yanjing_xuanpin_guide/s1-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The core mechanism: VR is fully wrapped, eyes-covered immersion; AR overlays information onto the real world; XR is the mixed reality in between. But the market reality is that surviving products often look more like 'headphones hanging off your nose' than the all-day AR interface from sci-fi.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>immersion → 沉浸；overlay → 叠加；mixed reality → 混合现实；surviving products → 活下来的产品</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：技术分类清晰，但用户感知模糊。雷鸟 A 眼镜等轻量产品走音频+轻显示路线；Vision Pro 走高端 VR+透视路线，但半小时就累、不能上街、3D 内容极少</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/zhineng_yanjing_xuanpin_guide/s1-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key insight: the technical categories are clear, but user perception is blurry. Lightweight products like Thunderbird take the audio-plus-light-display route; the Vision Pro takes the high-end VR plus passthrough route, but you're exhausted after half an hour, you can't take it out on the street, and there's very little 3D content.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>lightweight products → 轻量产品；passthrough → 透视；take the A route → 走A路线；3D content → 3D内容</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>典型场景：VR 适合固定场景玩游戏（模拟飞行、滑雪）；AR 理想场景是导航/信息叠加，但摄像头和显示均未达标；音频眼镜适合通勤听播客</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/zhineng_yanjing_xuanpin_guide/s1-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">A typical scene: VR fits fixed-scene gaming like flight simulators or skiing; AR's ideal scene is navigation and information overlay, but the cameras and displays aren't good enough yet; audio glasses suit commuting while listening to podcasts.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>fixed-scene → 固定场景；flight simulator → 模拟飞行；navigation → 导航；commuting → 通勤</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据：「其实最后做这个 VR 眼镜，大家都是为了一袋醋……用了半小时，脑袋就勒得慌。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/zhineng_yanjing_xuanpin_guide/s1-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">In the author's own words: 'In the end, everyone making VR glasses is doing it for a jar of vinegar… after half an hour, your head feels squeezed.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>for a jar of vinegar → 为了一袋醋（比喻为小事折腾）；squeezed → 勒得慌</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）相关概念：See Through（透视）本是为 VR 加的外部世界通道，嘉宾称之为「为一盘醋包了顿饺子」——核心需求是沉浸，透视只是补丁</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/zhineng_yanjing_xuanpin_guide/s1-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">A related idea: See Through was built as a channel to the outside world for VR — the guests call it 'making a whole dumpling feast for a jar of vinegar': the core need is immersion, and passthrough is just a patch.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>See Through → 透视；patch → 补丁；a dumpling feast for a jar of vinegar → 为了一袋醋包顿饺子</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>张焱公司做端侧计算，核心能力是把传统 2D 视频（如猫和老鼠）实时转为双眼 3D 效果。过去院线转 3D 是大工程，现在小盒子就能完成——但眼镜库存不足、样机被借走展示，说明硬件供应链仍是瓶颈</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/zhineng_yanjing_xuanpin_guide/s1-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Zhang Yan's company does edge computing, and its core capability is turning traditional 2D videos (like Tom and Jerry) into dual-eye 3D in real time. Converting theaters to 3D used to be a huge project; now a small box can do it — but with glasses stock running low and demo units loaned out, hardware supply chains are still the bottleneck.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>edge computing → 端侧计算；real time → 实时；demo unit → 样机；supply chain bottleneck → 供应链瓶颈</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「看似在做好产品，其实在折腾小需求」</p><div class="chunks">a feast for a jar of vinegar · a tiny niche</div><small>第一句是节目金句，直接引用最有味道</small></li>
+<li><p>想说「产品像耳机不像眼镜」</p><div class="chunks">headphones on your nose · an audio story</div><small>两句都是犀利吐槽，适合口语点评</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s2" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S2</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/zhineng_yanjing_xuanpin_guide/s2.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>二、过渡态陷阱：为什么现在不宜入手</h2>
+      <p class="scene-title-en">Part 2: The Transition Trap — Why Not to Buy Right Now</p>
+      <p class="context"><b>情境</b>讲过渡态产品「取消了物理按键却没做好」的问题，以及智能眼镜的豆汁儿经济。语域：casual 科技吐槽 + 商业分析。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>原因：很多 AI 硬件在「一句话让 AI 帮你干事」的过渡阶段，就像极越汽车取消所有物理按键——产品维度很酷，但日常关空调、调音量要进菜单找，体验反人类</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/zhineng_yanjing_xuanpin_guide/s2-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The reason: many AI hardware products are stuck in the transition stage of 'having AI do things for you' — like the Jiyue car that removed all physical buttons: the product concept is cool, but when you need to turn off the AC or adjust the volume, you have to dig through menus, and the experience becomes anti-human.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>transition stage → 过渡阶段；physical buttons → 物理按键；dig through menus → 进菜单里找；anti-human → 反人类</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>解法：等「终极形态」清晰再入手——要么纯音频眼镜（需求明确），要么 AR 显示+生态成熟（至少 3-5 年），不要为「未来可能」付全款</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/zhineng_yanjing_xuanpin_guide/s2-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The solution: wait until the 'final form' is clear before buying — either pure audio glasses (a clear demand) or AR display with a mature ecosystem (at least 3-5 years). Don't pay full price for a 'maybe in the future.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>final form → 终极形态；pay full price → 付全款；mature ecosystem → 成熟生态</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>严重程度：小心——现在买大概率吃灰，但不致命</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/zhineng_yanjing_xuanpin_guide/s2-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The severity: be careful — you'll probably buy it and let it gather dust, but it's not fatal.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>severity → 严重程度；gather dust → 吃灰；fatal → 致命的</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）嘉宾说法：「你不是因为取消物理按键而取消的，是因为它真的能自己跑。你说我做自动驾驶做好了取消没问题，但中间态既没做好又取消了，就让人非常难受。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/zhineng_yanjing_xuanpin_guide/s2-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">As a guest puts it: 'You didn't remove the physical buttons for the sake of removing them; you removed them because it can really drive itself. Removing them after autonomous driving is done well would be fine, but this in-between state is neither done well nor kept — and that's what makes it so uncomfortable.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>for the sake of → 为了…而…；in-between state → 中间态；drive itself → 自己跑/自动驾驶</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：张焱用北京豆汁儿比喻智能眼镜市场——每个人都好奇尝一口，但天天喝的人极少。资本喜欢「性感」的全栈故事（显示+计算+AI），显示器公司不做计算就融不到钱，被迫烧钱做不擅长的事</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/zhineng_yanjing_xuanpin_guide/s2-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The core mechanism: Zhang Yan compares the smart-glasses market to Beijing's fermented Douzhir — everyone is curious enough for one sip, but very few drink it daily. Capital loves a sexy full-stack story of display plus computing plus AI; display companies can't raise money without computing, so they're forced to burn cash on what they're not good at.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>full-stack story → 全栈故事；raise money → 融资；burn cash → 烧钱；one sip → 尝一口</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：这不是单一产品问题，是产业结构问题。理想分工应是：眼镜厂做显示器、计算厂做芯片、内容厂做生态——像手机产业链。但现实是每个厂商都想端到端，结果「引雷能律」烧光现金流</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/zhineng_yanjing_xuanpin_guide/s2-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key insight: this isn't a single-product problem but an industry-structure problem. The ideal division of labor: glass makers do displays, computing companies do chips, content companies do ecosystems — like the phone industry chain. But in reality, every maker wants end-to-end, and the 'full-stack curse' burns out their cash flow.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>division of labor → 分工；end-to-end → 端到端；industry chain → 产业链；cash flow → 现金流</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「取消按键的前提是AI真的能干」</p><div class="chunks">only if · once the system works</div><small>两句都是条件句，第一句更口语</small></li>
+<li><p>想说「产品买来吃灰」</p><div class="chunks">gather dust · sit in a drawer</div><small>gather dust 是固定说法，最常用</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s3" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S3</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/zhineng_yanjing_xuanpin_guide/s3.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>三、产业与技术深水区</h2>
+      <p class="scene-title-en">Part 3: Into the Deep Water of Industry and Technology</p>
+      <p class="context"><b>情境</b>嘉宾对「眼镜上永远挂着显示」这一前提本身提出质疑，并讨论行业的终极形态缺失。语域：formal 产业思辨。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>与其在鼻子上挂屏幕，不如考虑视网膜投影或视神经侵入——当然脑机接口也有担忧。嘉宾提出外行但尖锐的质疑：持续在眼前显示这件事，眼镜是不是从一开始就是坏主意？</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/zhineng_yanjing_xuanpin_guide/s3-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Instead of hanging a screen on your nose, consider retinal projection or even optic-nerve invasion — though brain-computer interfaces bring their own worries. The guests raise an outsider's sharp question: could keeping a display in front of your eyes at all times make glasses a bad idea from the very start?</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>retinal projection → 视网膜投影；optic-nerve → 视神经；brain-computer interface → 脑机接口；from the very start → 从一开始</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）「有没有可能眼镜这个主意，就是个坏主意，就不是个好主意？」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/zhineng_yanjing_xuanpin_guide/s3-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">A quote: 'Could it be that the glasses idea itself is a bad idea?'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>could it be that… → 有没有可能…；a bad idea → 坏主意</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：马斯克做电动车只解决 A 到 B，不在车里拼冰箱；但国内车企拼体验消耗用户时间。眼镜行业缺乏「终极形态」共识——完美 AI 眼镜该是什么样，连从业者都想象不出来</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/zhineng_yanjing_xuanpin_guide/s3-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The core mechanism: Musk's EVs only solve getting from A to B; he doesn't stuff a refrigerator into the car. But domestic automakers compete on experiences that consume users' time. The glasses industry lacks a consensus on the 'final form' — even insiders can't picture what a perfect AI glasses should look like.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>solve A to B → 解决A到B；stuff into → 塞进；consensus → 共识；insiders → 从业者</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：人类 16 小时非工作时间都想「玩」，伟大产品应占据这些时间。但用「迷魂视觉系统」占据注意力，和用真实人际互动满足需求，是两条路</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/zhineng_yanjing_xuanpin_guide/s3-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key insight: humans want to 'play' during their sixteen non-working hours, and great products should own those hours. But occupying attention with a hypnotic visual system and satisfying needs through real human interaction are two different roads.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>non-working hours → 非工作时间；own those hours → 占据这些时间；hypnotic → 迷魂的；two different roads → 两条路</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）方法边界：如果远期目标要 20 年且地球资源不支持，整个体系有崩溃可能——张焱提醒要区分 10 年、20 年还是一辈子完不成的愿景</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/zhineng_yanjing_xuanpin_guide/s3-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The boundary: if the long-term goal takes twenty years and the planet's resources can't support it, the whole system may collapse — Zhang Yan reminds us to distinguish a ten-year vision, a twenty-year one, and one that can never be finished in a lifetime.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>distinguish A from B → 区分A和B；can't support → 不支持；in a lifetime → 一辈子内</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「眼镜这个主意本身可能就是错的」</p><div class="chunks">what if · the premise itself</div><small>第一句更口语挑衅；第二句更书面分析</small></li>
+<li><p>想说「要区分愿景的时间尺度」</p><div class="chunks">tell A from B · finishable vs fantasies</div><small>第一句是节目结论式说法，最推荐</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s4" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S4</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/zhineng_yanjing_xuanpin_guide/s4.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>四、AI 时代的人类价值（节目后半段哲学深渊）</h2>
+      <p class="scene-title-en">Part 4: Human Value in the AI Age (The Philosophical Abyss)</p>
+      <p class="context"><b>情境</b>节目后半段滑向赛博永生、AI灭人论与模型对冲的哲学讨论。语域：formal 哲学思辨。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>做 AI 的工程师视角极度「冷血」——一个普通人生大约 4TB 数据（图像、视频、音频）就能完整存储和复现。这不是直播设备，是视觉采集设备，正在采集每个人的人生镜像</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/zhineng_yanjing_xuanpin_guide/s4-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The engineer's view is extremely cold-blooded — an ordinary person's life is about 4TB of data (images, videos, audio) that can fully store and reproduce it. These aren't live-streaming devices; they are visual-capture devices, collecting a mirror image of everyone's life.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>cold-blooded → 冷血；reproduce → 复现；live-streaming → 直播；visual-capture → 视觉采集；mirror image → 人生镜像</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>适用边界：赛博永生对工程师是技术必然，对普通人是失控恐惧——人脸音频上传平台后，你只是选择「是或不是」，资产已被云化</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/zhineng_yanjing_xuanpin_guide/s4-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The boundary: cyber-immortality is a technical certainty to engineers, but to ordinary people it is the fear of losing control — once your face and audio are uploaded to a platform, you only choose 'yes or no,' and your assets have already been clouded.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>cyber-immortality → 赛博永生；losing control → 失控；upload → 上传；clouded → 被云化</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）「一个很普通的人生，大概只有 4 个 T 就能把你的一个生给存出来……我们为什么去做 AI 的原因，是我们这套东西在采集我们每个人的人生。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/zhineng_yanjing_xuanpin_guide/s4-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">A quote: 'An ordinary life only takes about four terabytes to store… the reason we do AI is that this system is collecting each of our lives.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>take about 4TB → 大约4T；the reason we do AI → 我们为什么做AI；collecting lives → 采集人生</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>原因：做智能驾驶、芯片的工程师普遍认为「人一定会被 AI 灭」——这不是乐观而是悲观。他们认为数字世界与人类平等，零一零一并不低人一头，是人类自持过高</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/zhineng_yanjing_xuanpin_guide/s4-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The reason: engineers in autonomous driving and chips broadly believe 'humans will surely be wiped out by AI' — and this is pessimism, not optimism. They consider the digital world equal to humans; zeros and ones are not inferior, and humans think too highly of themselves.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>be wiped out → 被灭；pessimism → 悲观；not inferior → 并不低人一头；think too highly of oneself → 自持过高</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>解法：模型之间的对冲（不同立场、目的训练出的模型互相制衡）可能是人类社会最后的希望；基因编辑等「自我加强」路线被伦理禁止，但技术窗口已存在</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/zhineng_yanjing_xuanpin_guide/s4-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The solution: the counterweight between models — models trained with different stances and purposes checking each other — may be humanity's last hope; gene editing as a 'self-reinforcement' path is ethically banned, but the technical window already exists.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>counterweight → 对冲；check each other → 互相制衡；self-reinforcement → 自我加强；ethical ban → 伦理禁止</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>严重程度：致命——对从业者而言这是严肃判断，不是科幻危言</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/zhineng_yanjing_xuanpin_guide/s4-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The severity: fatal — for practitioners this is a serious judgment, not sci-fi scaremongering.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>serious judgment → 严肃判断；scaremongering → 危言耸听；fatal → 致命的</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「4T就能存下一个人的一生」</p><div class="chunks">enough to store · fit in</div><small>两句都直白，fits in 更口语</small></li>
+<li><p>想说「工程师认为人类会被AI取代是悲观判断」</p><div class="chunks">a certainty · cold logic vs fear-mongering</div><small>第二句对比更强烈，适合复述观点</small></li>
+        </ol>
+      </details>
+    </section>
+      <section class="study-section" id="practice">
+      <h2 class="section-heading">今日可练 <small>PRACTICE TODAY</small></h2>
+      <div class="study-grid">
+        <article>
+          <p>用「for a jar of vinegar」说：为一袋醋包顿饺子。</p>
+          <div class="practice-en">
+            They built the whole passthrough system just for a jar of vinegar.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/zhineng_yanjing_xuanpin_guide/practice-0.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「gather dust」说：买来大概率吃灰。</p>
+          <div class="practice-en">
+            Buy it now and it'll gather dust for three years.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/zhineng_yanjing_xuanpin_guide/practice-1.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「what if」说：眼镜这个主意本身可能是错的。</p>
+          <div class="practice-en">
+            What if glasses as a concept were a bad idea from the start?
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/zhineng_yanjing_xuanpin_guide/practice-2.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「be wiped out」说：人一定会被AI灭。</p>
+          <div class="practice-en">
+            Many engineers believe humans will eventually be wiped out by AI.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/zhineng_yanjing_xuanpin_guide/practice-3.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article>
+      </div>
+    </section>
+      <section class="study-section pitfalls" id="pitfalls">
+      <h2 class="section-heading">避坑 <small>PITFALLS</small></h2>
+      <div class="study-grid">
+        <article>
+          <div class="wrong">✕ This product is very cool and will be used by many people.</div>
+          <div class="right">✓ It's cool on paper, but the real demand is a sip, not a daily habit.</div>
+          <p>will be used by many people 是主观臆断；用节目里的豆汁儿逻辑表达真实需求才准确。</p>
+        </article><article>
+          <div class="wrong">✕ The glasses can see through to the outside world.</div>
+          <div class="right">✓ The passthrough mode lets you see the outside world while wearing them.</div>
+          <p>see through 是「看穿/看透」；科技语境下的透视功能用 passthrough 或 see the outside world。</p>
+        </article><article>
+          <div class="wrong">✕ This product makes people feel very sick.</div>
+          <div class="right">✓ After half an hour, your head feels squeezed and you want to take it off.</div>
+          <p>feel sick 太宽泛；具体描述「头被勒得慌」才符合原文画面感。</p>
+        </article><article>
+          <div class="wrong">✕ The AI will collect our whole life's data.</div>
+          <div class="right">✓ These devices are collecting a mirror image of everyone's life — about 4TB per person.</div>
+          <p>collect data 太技术化；加上 mirror image 和 4TB 的具体意象，观点才有冲击力。</p>
+        </article>
+      </div>
+    </section>
+      <section class="study-section shifts" id="mindset">
+      <h2 class="section-heading">认知转变 <small>MINDSET SHIFTS</small></h2>
+      <div class="study-grid">
+        <article>
+          <span>以为智能眼镜是科幻电影里的全天候AR界面</span>
+          <b aria-hidden="true">→</b>
+          <strong>活下来的产品更像「挂在鼻子上的耳机」，核心是音频而不是显示</strong>
+        </article><article>
+          <span>以为眼镜厂商做端到端全栈是实力象征</span>
+          <b aria-hidden="true">→</b>
+          <strong>每家都做端到端是被资本逼的，理想分工应像手机产业链一样拆分</strong>
+        </article><article>
+          <span>以为AI永生是科幻、工程师在危言耸听</span>
+          <b aria-hidden="true">→</b>
+          <strong>对工程师这是技术必然的悲观判断，对普通人则是失控恐惧的开始</strong>
+        </article>
+      </div>
+    </section>
+      <footer>
+        双语学习版 · 场景/句子朗读使用 edge-tts（en-US） · 单词发音使用浏览器 Web Speech API
+        <div class="footer-note">中文版：<a href="zhineng_yanjing_xuanpin_guide-总结.html">zhineng_yanjing_xuanpin_guide-总结.html</a> · SVG 版：<a href="viewer.html?f=zhineng_yanjing_xuanpin_guide-总结.svg" target="_blank">zhineng_yanjing_xuanpin_guide-总结.svg</a></div>
+      </footer>
+    </div>
+  </main>
+  <script>(() => {
+  let activeAudio = null;
+  let activeBtn = null;
+  const status = document.getElementById('speech-status');
+  const stopBtn = document.getElementById('stop-speech');
+  const rateSel = document.getElementById('speech-rate');
+
+  const reset = () => {
+    if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+    activeBtn?.classList.remove('playing');
+    activeBtn = null;
+    stopBtn.classList.remove('visible');
+    status.textContent = '';
+  };
+
+  const playAudio = (url, btn) => {
+    reset();
+    const audio = new Audio(url);
+    audio.playbackRate = Number(rateSel.value);
+    activeAudio = audio;
+    activeBtn = btn;
+    btn.classList.add('playing');
+    stopBtn.classList.add('visible');
+    status.textContent = btn.classList.contains('scene-speak')
+      ? 'Reading the whole scene…'
+      : 'Reading…';
+
+    audio.onended = () => { if (activeAudio === audio) reset(); };
+    audio.onerror = () => { status.textContent = 'Audio failed to load.'; if (activeAudio === audio) reset(); };
+    audio.play().catch(() => { status.textContent = 'Playback failed.'; if (activeAudio === audio) reset(); });
+  };
+
+  document.addEventListener('click', e => {
+    const btn = e.target.closest('[data-audio]');
+    if (!btn) return;
+    e.preventDefault();
+    if (btn === activeBtn && activeAudio) { reset(); return; }
+    playAudio(btn.dataset.audio, btn);
+  });
+
+  stopBtn.addEventListener('click', reset);
+
+  const synth = window.speechSynthesis;
+  const getEnglishVoice = () => {
+    const voices = synth.getVoices();
+    return voices.find(v => /^en-(US|GB)/i.test(v.lang))
+        || voices.find(v => /^en/i.test(v.lang)) || null;
+  };
+
+  const difficultWords = new Set([
+    'assortment', 'SKU', 'premium', 'margin', 'middleman', 'OEM', 'rebranding',
+    'hoarding', 'PTSD', 'curation', 'repurchase', 'touchpoint', 'backlash',
+    'reshuffle', 'funnel', 'anchor', 'contract', 'psychology', 'private', 'label',
+    'editorial', 'familiar', 'competitors', 'authorization', 'flexibility'
+  ]);
+
+  const shouldPronounce = word => {
+    const n = word.toLowerCase().replace(/^[^a-z]+|[^a-z]+$/g, '');
+    return n.replace(/[^a-z]/g, '').length >= 8 || difficultWords.has(n);
+  };
+
+  const markPronounceableWords = root => {
+    const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+    const nodes = [];
+    while (walker.nextNode()) nodes.push(walker.currentNode);
+    nodes.forEach(node => {
+      if (node.parentElement?.closest('button, script, style')) return;
+      const text = node.nodeValue;
+      let m, last = 0, changed = false;
+      const frag = document.createDocumentFragment();
+      const re = /[A-Za-z]+(?:[-'’][A-Za-z]+)*/g;
+      while ((m = re.exec(text))) {
+        if (!shouldPronounce(m[0])) continue;
+        changed = true;
+        frag.append(text.slice(last, m.index));
+        const wb = document.createElement('button');
+        wb.type = 'button'; wb.className = 'pronounce-word';
+        wb.dataset.speak = m[0];
+        wb.setAttribute('aria-label', '\u8bfb\u5355\u8bcd ' + m[0]);
+        wb.title = '\u70b9\u51fb\u542c\u53d1\u97f3';
+        wb.textContent = m[0];
+        frag.append(wb);
+        last = m.index + m[0].length;
+      }
+      if (!changed) return;
+      frag.append(text.slice(last));
+      node.replaceWith(frag);
+    });
+  };
+
+  document.querySelectorAll(
+    '.english, .scene-title-en, .paraphrase li p, .chunks, .practice-en, .wrong, .right, .summary-en'
+  ).forEach(markPronounceableWords);
+
+  document.addEventListener('click', e => {
+    const wb = e.target.closest('.pronounce-word');
+    if (!wb) return;
+    e.preventDefault();
+    if (!synth) return;
+    synth.cancel();
+    if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+    activeBtn?.classList.remove('playing');
+    activeBtn = wb;
+    wb.classList.add('playing');
+    const u = new SpeechSynthesisUtterance(wb.dataset.speak);
+    u.lang = 'en-US';
+    u.rate = 0.88;
+    const v = getEnglishVoice();
+    if (v) u.voice = v;
+    u.onend = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+    u.onerror = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+    synth.speak(u);
+  });
+})();</script>
+</body>
+</html>

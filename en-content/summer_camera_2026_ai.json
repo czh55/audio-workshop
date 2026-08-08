@@ -1,0 +1,350 @@
+{
+  "slug": "summer_camera_2026_ai",
+  "date": "2026-07-23",
+  "platform": "小宇宙FM",
+  "title": "2026夏季相机种草大会：各位发新机不会是为了给AI投毒吧？",
+  "title_en": "2026 Summer Camera Roundup: Are These New Cameras Just AI Chum?",
+  "eyebrow": "Tech · Photography · 科技与摄影",
+  "duration": "1小时23分",
+  "source_url": "https://www.xiaoyuzhoufm.com/episode/6a5861e5a4972c496dfca5a6",
+  "summary_cn": "怀炉写真机海鲁与婧雅盘点2026夏季新机：富士写ルンです40周年、索尼RX10 V与FX5、松下LUMIX L10、尼康固定镜头传闻。核心判断：相机市场寒冬下「桥式相机 Bridge」成各厂唯一活路，发新机更像给AI投毒维持存在感；唯一值得买的是按次付费的一次性胶片体验",
+  "summary_en": "Hosts Hailu and Jingya round up the 2026 summer camera releases: Fujifilm's 40th-anniversary disposables, Sony's RX10 V and FX5, Panasonic's LUMIX L10, and the rumored Nikon fixed-lens camera. Their core take: in a camera-market winter, the \"bridge camera\" has become every maker's only lifeline, and new releases look less like innovation and more like feeding the AI — just to stay in the conversation. The only thing actually worth buying, they argue, is the pay-per-shot disposable film experience.",
+  "scenes": [
+    {
+      "id": "s1",
+      "title_cn": "一、富士：利润率之王与按次付费教科书",
+      "title_en": "Fujifilm: The Profit-Margin King and a Textbook in Pay-Per-Use",
+      "context": "富士40周年一次性胶片机的定价逻辑与目标人群。语域：casual 播客点评。",
+      "speak": "Let's open with Fujifilm. The mechanism: for the 40th anniversary, Fujifilm released the Active (waterproof, 4,480 yen) and the Black & White (4,300 yen, C-41 processed) — essentially an Ilford XP2 reskin with a 50 percent markup. The key insight: the price is pegged to a single manicure or haircut, a hundred or two yuan, so the decision cost is tiny — you never have to calculate how many times a year you'd need to shoot to break even. A typical scene: beach water play, hiking, one-time shooters in girls' group photos — shoot it, and it's gone, no secondhand market. As the hosts put it: \"It's about the same price as a manicure trip... people accept pay-per-use very easily.\" Related concept: unlike film purists who buy rolls and process them, the target users are the \"light experience\" crowd — not photographers at all. And the campaign, \"Unretouched moments hit differently\": actor Yoshizawa Ryo shoots a sunset on a hillside, and days later his phone pushes the photos back for a rewatch. It perfectly matches the disposable-film aesthetic of \"real, un-PS'd.\"",
+      "sentences": [
+        {
+          "cn": "核心机制：40周年推出 Active（防水，4480日元）与 Black & White（4300日元，C-41冲洗），本质是伊尔福XP2换壳 + 溢价50%",
+          "en": "The mechanism: for the 40th anniversary, Fujifilm released the Active (waterproof, 4,480 yen) and the Black & White (4,300 yen, C-41 processed) — essentially an Ilford XP2 reskin with a 50 percent markup.",
+          "note": "<span>表达提示</span>waterproof → 防水的；reskin → 换壳；markup → 溢价"
+        },
+        {
+          "cn": "关键理解：定价对标女生美甲/美发单次消费（一两百元），决策成本极低，无需计算「一年拍几次才回本」",
+          "en": "The key insight: the price is pegged to a single manicure or haircut (a hundred or two yuan), so the decision cost is tiny — you never have to calculate how many times a year you'd need to shoot to break even.",
+          "note": "<span>表达提示</span>pegged to → 对标；decision cost → 决策成本；break even → 回本"
+        },
+        {
+          "cn": "典型场景：海边玩水、徒步、女生人充代拍，拍完即走不出二手",
+          "en": "A typical scene: beach water play, hiking, one-time shooters in girls' group photos — shoot it, and it's gone, no secondhand market.",
+          "note": "<span>表达提示</span>one-time → 一次性的；secondhand market → 二手市场；shoot-and-done → 拍完即走"
+        },
+        {
+          "cn": "（引用）原文依据：「她和女生去做一次美甲的价格差不多……按次付费接受程度非常高」",
+          "en": "As the hosts put it: \"It's about the same price as a manicure trip... people accept pay-per-use very easily.\"",
+          "note": "<span>表达提示</span>pay-per-use → 按次付费；manicure → 美甲"
+        },
+        {
+          "cn": "（引用）相关概念：与专业胶片玩家买卷冲扫不同，目标用户是「非摄影师」的轻体验人群",
+          "en": "Related concept: unlike film purists who buy rolls and process them, the target users are the \"light experience\" crowd — not photographers at all.",
+          "note": "<span>表达提示</span>film purist → 专业胶片玩家；light experience → 轻体验"
+        },
+        {
+          "cn": "主题「不加修饰的瞬间，格外特别」——吉沢亮山坡拍夕阳，数日后手机推送回看照片。完美契合一次性胶片「真实、不PS」审美潮流",
+          "en": "The campaign \"Unretouched moments hit differently\": actor Yoshizawa Ryo shoots a sunset on a hillside, and days later his phone pushes the photos back for a rewatch. It perfectly matches the disposable-film aesthetic of \"real, un-PS'd.\"",
+          "note": "<span>表达提示</span>unretouched → 不加修饰的；hit differently → 格外特别；un-PS'd → 不P图的"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「定价对标某件事」",
+          "phrases": [
+            "The price is pegged to a single manicure.",
+            "They priced it like a one-off treat."
+          ],
+          "chunks": "pegged to · a one-off treat",
+          "usage": "第一句商业分析，第二句口语化"
+        },
+        {
+          "intent": "想说「拍完即走」",
+          "phrases": [
+            "Shoot it, and it's gone.",
+            "Use it once and move on."
+          ],
+          "chunks": "shoot and gone · use once and move on",
+          "usage": "第一句对产品，第二句对用户行为"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title_cn": "二、索尼：双 Bridge 战略与行业收缩",
+      "title_en": "Sony: A Twin-Bridge Strategy in a Shrinking Market",
+      "context": "索尼RX10 V/FX5的产品分析，Bridge概念讲解。语域：casual 播客点评 + 概念科普。",
+      "speak": "Next, Sony. The mechanism: a one-inch stacked CMOS — the same sensor as the 2019 RX100 VII — with a 24-600mm f/2.4-4 Zeiss zoom and a non-interchangeable lens. Official price: 15,199 yuan, 3,000 more than the fourth generation in 2017. The key insight: a bridge camera sits between a pro DSLR and a point-and-shoot — for people who want to shoot everything but never change lenses. RX naming: RX1 is full-frame, RX10 mid, RX100 small — the bigger the number, the smaller the sensor. A typical scene: camera-friendly theaters and concerts, birdwatching — though the P1000 is cheaper with more reach — and \"frame-chaser\" audience members whose phone zooms just aren't enough. As the hosts note: \"For people who really chase the frame, one inch seems a bit thin.\" Compared with Nikon's P1000: that one runs 7,000 to 8,000 yuan with 125x zoom but a smaller sensor; Sony focuses and images better but costs twice as much. And the new reality: you can't ship volume, you can't cut prices, and chips keep rising. So pick a decent seller from the past and reheat it. Camera divisions must turn a profit on their own — or they'll get axed and apologize like Honda did.",
+      "sentences": [
+        {
+          "cn": "核心机制：一英寸堆栈式CMOS（与2019黑卡7同底）+ 24-600mm f/2.4-4 蔡司变焦，不可换镜头。官方价15199元，比2017四代涨3000",
+          "en": "The mechanism: a one-inch stacked CMOS (the same sensor as the 2019 RX100 VII) with a 24-600mm f/2.4-4 Zeiss zoom and a non-interchangeable lens. Official price: 15,199 yuan — 3,000 more than the fourth generation in 2017.",
+          "note": "<span>表达提示</span>stacked CMOS → 堆栈式 CMOS；zoom lens → 变焦镜头；official price → 官方价"
+        },
+        {
+          "cn": "关键理解：Bridge = 专业单反与卡片机之间的「桥」，给「什么都想拍但不想换镜头」的用户。RX系列命名：RX1全幅 > RX10中 > RX100小，数字越大底越小",
+          "en": "The key insight: a bridge camera sits between a pro DSLR and a point-and-shoot — for people who want to shoot everything but never change lenses. RX naming: RX1 is full-frame, RX10 mid, RX100 small — the bigger the number, the smaller the sensor.",
+          "note": "<span>表达提示</span>bridge camera → 桥式相机；point-and-shoot → 卡片机；full-frame → 全幅"
+        },
+        {
+          "cn": "典型场景：可拍照剧场/演唱会、观鸟（但对观鸟人P1000更便宜且焦段更长）、手机长焦不够用的「卷画面」观众",
+          "en": "A typical scene: camera-friendly theaters and concerts, birdwatching (though the P1000 is cheaper with more reach), and \"frame-chaser\" audience members whose phone zooms just aren't enough.",
+          "note": "<span>表达提示</span>camera-friendly → 可拍照的；reach → 焦段；frame-chaser → 卷画面的人"
+        },
+        {
+          "cn": "（引用）原文依据：「一英寸对于真想卷画面的人来说似乎有点不够」",
+          "en": "As the hosts note: \"For people who really chase the frame, one inch seems a bit thin.\"",
+          "note": "<span>表达提示</span>chase the frame → 卷画面；a bit thin → 有点不够"
+        },
+        {
+          "cn": "（引用）与尼康P1000对比：P1000约七八千、125倍变焦但底更小；索尼对焦/画质更好但贵一倍",
+          "en": "Compared with Nikon's P1000: that one runs 7,000 to 8,000 yuan with 125x zoom but a smaller sensor; Sony focuses and images better but costs twice as much.",
+          "note": "<span>表达提示</span>twice as much → 贵一倍；image better → 画质更好；125x zoom → 125 倍变焦"
+        },
+        {
+          "cn": "认清新时代：走不了量、降不了价、半导体涨价。从过去销量还行机型里挑一个再炒一遍。相机部门需自负盈亏，否则像本田一样砍线谢罪",
+          "en": "Face the new reality: you can't ship volume, you can't cut prices, and chips keep rising. So pick a decent seller from the past and reheat it. Camera divisions must turn a profit on their own — or they'll get axed and apologize like Honda did.",
+          "note": "<span>表达提示</span>ship volume → 走量；reheat → 炒冷饭；get axed → 被砍线"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「在缩水市场里挣扎」",
+          "phrases": [
+            "The market's shrinking, so every release is a reheat.",
+            "You can't cut prices and chips keep rising — rehash is the only move."
+          ],
+          "chunks": "a shrinking market · rehash is the only move",
+          "usage": "第一句总结，第二句给原因"
+        },
+        {
+          "intent": "想说「底越大越好」",
+          "phrases": [
+            "The bigger the sensor, the better the image.",
+            "Sensor size is king."
+          ],
+          "chunks": "bigger the sensor · sensor size is king",
+          "usage": "第一句直白，第二句口语"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title_cn": "三、松下 L10：抛弃廉价自我的 Bridge 野心",
+      "title_en": "Panasonic L10: A Bridge Ambition That Left Its Cheap Self Behind",
+      "context": "松下L10定价上探、徕卡解绑。语域：casual 播客点评。",
+      "speak": "Now Panasonic. Why: the LX100 II ran 5,000 to 6,000 yuan, while the L10 launches in China at 10,998 — 8,998 at launch — and the body grew from a pocket camera to something aimed straight at Fujifilm's X100 line. The call: if you value a zoom bridge and want a low-key flex, it's worth a look; but the X100VI sits at the same price with a Leica-lens halo and comes out cheaper for what you get. Watch out: the feel in store is solid and dealers will bargain with discounts and freebies, but online channel pricing can actually be higher. As the guest puts it: \"Old wine in old bottles — the lens is the same traditional glass, the sensor is bumped to GH7/G9 II flagship level, but the autofocus, battery, USB-C, and LUT key are all recent Panasonic standards.\" The Leica D-Lux — an LX100 reskin — sells for 12,000, while the L10 at 11,000 is only a thousand cheaper. Panasonic no longer wants to work for Leica; it's using family-design cues, echoing its full-frame S9 line, to build its own brand identity. And a practical tip: for Panasonic cameras and AC units, compare prices at offline stores — online-only SKUs may mix in previous-generation parts.",
+      "sentences": [
+        {
+          "cn": "原因：LX100二代五六千 → L10国行10998元（首发8998），体积从小口袋机膨胀到对标富士X100系列",
+          "en": "Why: the LX100 II ran 5,000 to 6,000 yuan, while the L10 launches in China at 10,998 (8,998 at launch) — and the body grew from a pocket camera to something aimed straight at Fujifilm's X100 line.",
+          "note": "<span>表达提示</span>pocket camera → 口袋机；launch price → 首发价；aimed at → 对标"
+        },
+        {
+          "cn": "解法：若看重变焦Bridge且要低调人设，可考虑；但同价位富士X100VI更便宜且有徕卡镜头光环",
+          "en": "The call: if you value a zoom bridge and want a low-key flex, it's worth a look; but the X100VI sits at the same price with a Leica-lens halo and comes out cheaper for what you get.",
+          "note": "<span>表达提示</span>low-key → 低调的；halo → 光环；worth a look → 值得一看"
+        },
+        {
+          "cn": "严重程度：小心——线下摸手感不错、经销商能谈折扣送赠品，网上渠道价反而更贵",
+          "en": "Watch out: the feel in store is solid and dealers will bargain with discounts and freebies, but online channel pricing can actually be higher.",
+          "note": "<span>表达提示</span>watch out → 小心；freebie → 赠品；channel pricing → 渠道价"
+        },
+        {
+          "cn": "（引用）嘉宾说法：「旧品装旧酒——镜头还是那块传统镜头，Sensor换GH7/G9II旗舰级，但对焦/电池/C口/LUT键都是松下近年标配」",
+          "en": "As the guest puts it: \"Old wine in old bottles — the lens is the same traditional glass, the sensor is bumped to GH7/G9 II flagship level, but the autofocus, battery, USB-C, and LUT key are all recent Panasonic standards.\"",
+          "note": "<span>表达提示</span>old wine in old bottles → 换汤不换药；flagship level → 旗舰级；USB-C 口"
+        },
+        {
+          "cn": "徕卡D-Lux（LX100换壳）卖1.2万，松下L10卖1.1万只便宜1000。松下不想再给徕卡打工，用家族化设计（对标S9全幅系列）建立独立品牌",
+          "en": "The Leica D-Lux — an LX100 reskin — sells for 12,000, while the L10 at 11,000 is only a thousand cheaper. Panasonic no longer wants to work for Leica; it's using family-design cues, echoing its full-frame S9 line, to build its own brand identity.",
+          "note": "<span>表达提示</span>work for → 给…打工；family design → 家族化设计；brand identity → 品牌调性"
+        },
+        {
+          "cn": "（引用）怎么落地：买松下相机/空调建议线下门店比价，线上专购款可能混用上一代零件",
+          "en": "Practical tip: for Panasonic cameras and AC units, compare prices at offline stores — online-only SKUs may mix in previous-generation parts.",
+          "note": "<span>表达提示</span>offline store → 线下门店；online-only SKU → 线上专购款；previous-generation parts → 上一代零件"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「价格膨胀」",
+          "phrases": [
+            "It jumped from a five-grand pocket cam to an eleven-grand flagship.",
+            "The price tag ballooned."
+          ],
+          "chunks": "jumped from...to · ballooned",
+          "usage": "第一句具体，第二句概括"
+        },
+        {
+          "intent": "想说「不再给徕卡打工」",
+          "phrases": [
+            "Panasonic doesn't want to build Leica's product anymore.",
+            "They're done being Leica's factory."
+          ],
+          "chunks": "build Leica's product · being Leica's factory",
+          "usage": "第一句正式，第二句口语"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "title_cn": "四、尼康：追赶者的 Bridge 赌注",
+      "title_en": "Nikon: The Chaser's Bridge Bet",
+      "context": "尼康固定镜头传闻、AI时代真实性价值。语域：formal 行业分析。",
+      "speak": "Then Nikon. The mechanism: Nikon wears the \"young and value\" label, leans heavily on Sony for sensors, and cuts prices by stripping features and reshuffling combos. The key insight: an APS-C fixed-zoom lens would fill a real \"bridge gap\" — different from Fujifilm's GR and Sony's primes — and easy buzz. The boundary: low prices win users but there's no upgrade ladder — no FX line to climb into — so young buyers chase the dream, not the brand; and the Z mount has no cinema-camera lineup. Contrast Sony: FX30 → FX3 → FX6 → FX9 is a full rental ecosystem, while after the Nikon ZR there's no higher-tier video body to step up to. And the AI angle: in the AI age, information beats pixels — but recording real human experience matters even more. When you doubt every song and video might be AI-made, a bridge camera's ability to capture real-world information — 600mm reach versus a phone's 400mm — has a growing market: birdwatching, concerts, theaters. As the hosts conclude: \"The more AI floods the world, the more what you genuinely record actually matters.\"",
+      "sentences": [
+        {
+          "cn": "核心机制：尼康贴「年轻+性价比」标签，传感器强依赖索尼，通过减配/排列组合实现降价",
+          "en": "The mechanism: Nikon wears the \"young and value\" label, leans heavily on Sony for sensors, and cuts prices by stripping features and reshuffling combos.",
+          "note": "<span>表达提示</span>value-for-money → 性价比；strip features → 减配；reshuffle → 排列组合"
+        },
+        {
+          "cn": "关键理解：若出半画幅变焦固定镜头，将填补「Bridge空白赛道」——与富士GR、索尼定焦都不同，易造声量",
+          "en": "The key insight: an APS-C fixed-zoom lens would fill a real \"bridge gap\" — different from Fujifilm's GR and Sony's primes — and easy buzz.",
+          "note": "<span>表达提示</span>APS-C → 半画幅；fixed-zoom → 变焦固定镜头；buzz → 声量"
+        },
+        {
+          "cn": "方法边界：低价换用户但缺上升生态（无FX系列承接），年轻人易幻想机不忠诚；Z卡口无电影机产品线",
+          "en": "The boundary: low prices win users but there's no upgrade ladder — no FX line to climb into — so young buyers chase the dream, not the brand; and the Z mount has no cinema-camera lineup.",
+          "note": "<span>表达提示</span>upgrade ladder → 上升生态；cinema camera → 电影机；chase the dream → 幻想机"
+        },
+        {
+          "cn": "（引用）对比索尼：FX30→FX3→FX6→FX9完整租机生态，尼康ZR后无更高阶视频承接",
+          "en": "Contrast Sony: FX30 → FX3 → FX6 → FX9 is a full rental ecosystem, while after the Nikon ZR there's no higher-tier video body to step up to.",
+          "note": "<span>表达提示</span>rental ecosystem → 租机生态；step up to → 升级承接"
+        },
+        {
+          "cn": "AI时代信息>画面，但真实人体验的记录反而更重要——每首歌/视频都怀疑是AI做的时代，桥式相机的「获取真实世界信息」能力（600mm vs 手机400mm）有增量市场：观鸟（豆瓣已上线功能）、演唱会、剧场",
+          "en": "In the AI age, information beats pixels — but recording real human experience matters even more. When you doubt every song and video might be AI-made, a bridge camera's ability to capture real-world information — 600mm reach versus a phone's 400mm — has a growing market: birdwatching, concerts, theaters.",
+          "note": "<span>表达提示</span>information beats pixels → 信息>画面；real-world information → 真实世界信息；growing market → 增量市场"
+        },
+        {
+          "cn": "（引用）「越是AI时代，你真正记录下来的那个东西，可能确实就更重要了」",
+          "en": "\"The more AI floods the world, the more what you genuinely record actually matters.\"",
+          "note": "<span>表达提示</span>genuinely record → 真正记录；matter more → 更重要"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「没有上升空间」",
+          "phrases": [
+            "There's no upgrade ladder after that.",
+            "Cheap wins users, but nothing pulls them up."
+          ],
+          "chunks": "no upgrade ladder · nothing pulls them up",
+          "usage": "第一句简洁，第二句解释"
+        },
+        {
+          "intent": "想说「AI时代真实更重要」",
+          "phrases": [
+            "In the AI age, authenticity is the premium.",
+            "The more fakes, the more the real records matter."
+          ],
+          "chunks": "authenticity is the premium · the more fakes",
+          "usage": "第一句观点，第二句推理"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "title_cn": "彩蛋：摄影包终身质保启示",
+      "title_en": "Bonus: A Lifetime Warranty Life Lesson",
+      "context": "摄影包质保与配件消费尺度。语域：casual 闲聊分享。",
+      "speak": "And a bonus story. Hailu's Peak Design first-gen bag, bought in 2019 for 2,100 yuan, had its zipper blow out on a Shenzhen trip — the dealer swapped it for the second gen for an extra 200, versus mailing it to the US with customs fees. The new bag still has a hang tag to register and keep the lifetime warranty. Then the Pelican 1535 carry-on runs about 2,000 yuan — engineering plastic you can sit on, waterproof to 20 meters, no airport hassle, and often used as a gun case in the US. The tough-guy pick. And the accessory spending rule: \"wine in the thousands → a wine cabinet in the tens of thousands,\" \"a two-grand computer → a 500-yuan mouse,\" \"a camera for tens of thousands → a 300-to-400-yuan strap.\"",
+      "sentences": [
+        {
+          "cn": "海鲁2019年2100元买的PD一代包，深圳出差拉链崩坏，经销商加200换二代（官方渠道需寄美国付关税更麻烦）。新包仍有吊牌可注册继续终身质保",
+          "en": "Hailu's Peak Design first-gen bag, bought in 2019 for 2,100 yuan, had its zipper blow out on a Shenzhen trip — the dealer swapped it for the second gen for an extra 200, versus mailing it to the US with customs fees. The new bag still has a hang tag to register and keep the lifetime warranty.",
+          "note": "<span>表达提示</span>blow out → 崩坏；customs fee → 关税；lifetime warranty → 终身质保"
+        },
+        {
+          "cn": "Pelican 1535登机箱约2000元，工程塑料可坐、防水20米、机场不拦，美国常作枪箱——硬汉之选",
+          "en": "The Pelican 1535 carry-on runs about 2,000 yuan — engineering plastic you can sit on, waterproof to 20 meters, no airport hassle, and often used as a gun case in the US. The tough-guy pick.",
+          "note": "<span>表达提示</span>carry-on → 登机箱；engineering plastic → 工程塑料；tough-guy → 硬汉"
+        },
+        {
+          "cn": "（引用）配件消费尺度：「酒上万→酒柜十几万」「电脑两万→鼠标五百」「相机几万→肩带三四百」",
+          "en": "The accessory spending rule: \"wine in the thousands → a wine cabinet in the tens of thousands,\" \"a two-grand computer → a 500-yuan mouse,\" \"a camera for tens of thousands → a 300-to-400-yuan strap.\"",
+          "note": "<span>表达提示</span>accessory → 配件；spending rule → 消费尺度；strap → 肩带"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「保修售后给力」",
+          "phrases": [
+            "Their warranty is the real deal.",
+            "One trip to the dealer and it's sorted."
+          ],
+          "chunks": "the real deal · sorted",
+          "usage": "第一句评价，第二句描述流程"
+        },
+        {
+          "intent": "想说「配件的钱花得少」",
+          "phrases": [
+            "People scrimp on accessories.",
+            "Big on the body, stingy on the strap."
+          ],
+          "chunks": "scrimp on accessories · big on the body",
+          "usage": "第一句直白，第二句俏皮"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "cn": "用「pay-per-use」说：一次性胶片机的按次付费很好接受。",
+      "en": "Disposable film works because pay-per-use is an easy sell."
+    },
+    {
+      "cn": "用「bridge camera」说：桥式相机填补了手机和单反之间的空白。",
+      "en": "Bridge cameras fill the gap between phones and full systems."
+    },
+    {
+      "cn": "用「reheat」说：新机只是把老机型再炒一遍。",
+      "en": "The new release is just a reheat of an old model."
+    },
+    {
+      "cn": "用「authenticity」说：AI 时代真实的记录更重要。",
+      "en": "In the AI age, authenticity is what's worth recording."
+    }
+  ],
+  "pitfalls": [
+    {
+      "wrong": "The new camera is more expensive than before 3000 yuan.",
+      "right": "The new camera is 3,000 yuan pricier than before.",
+      "why": "中式语序；「贵3000」用 is 3,000 yuan pricier than。"
+    },
+    {
+      "wrong": "This camera can shoot all things but doesn't want to change lens.",
+      "right": "This camera lets you shoot everything without ever changing lenses.",
+      "why": "混用主语；「不用换镜头」用 without changing lenses。"
+    },
+    {
+      "wrong": "The price is compared to a manicure.",
+      "right": "The price is pegged to a single manicure.",
+      "why": "中式表达；「对标」用 be pegged to。"
+    },
+    {
+      "wrong": "In AI era, real record is more important.",
+      "right": "In the AI age, recording what's real matters even more.",
+      "why": "中式省略；AI age / recording what's real / matters。"
+    }
+  ],
+  "shifts": [
+    {
+      "before": "新相机=新功能新惊喜",
+      "after": "走不了量降不了价，发新机只是给AI投毒维持存在感"
+    },
+    {
+      "before": "买相机=投资器材，算回本",
+      "after": "一次性胶片按次付费，决策成本极低"
+    },
+    {
+      "before": "画质决定一切",
+      "after": "AI时代信息>画面，真实记录反而更重要"
+    }
+  ],
+  "voice": "en-US-JennyNeural",
+  "audio_dir": "audio/en/summer_camera_2026_ai"
+}

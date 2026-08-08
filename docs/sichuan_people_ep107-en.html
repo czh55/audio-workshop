@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="107. 四川人为什么这么神！ — Bilingual Learning Edition" />
+  <title>107. 四川人为什么这么神！｜EN 双语学习版</title>
+  <style>:root{--teal-950:#073f42;--teal-800:#0d686c;--teal-700:#0f7c80;--teal-600:#14919b;--mint-100:#dff4ec;--mint-50:#f0faf6;--ink:#183536;--muted:#607879;--line:#d7e8e2;--paper:#fff;--amber:#a85d08;--shadow:0 12px 32px rgba(7,63,66,.08)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:24px}
+body{margin:0;color:var(--ink);background:#edf7f2;font-family:Inter,"PingFang SC","Noto Sans SC","Microsoft YaHei",system-ui,sans-serif;line-height:1.65}
+button,select{font:inherit}
+a{color:inherit}
+.hero{color:#fff;background:radial-gradient(circle at 85% 10%,rgba(129,230,196,.24),transparent 30%),linear-gradient(125deg,#073f42,#0d7377 56%,#14919b)}
+.hero-inner{width:min(1440px,100%);margin:auto;padding:44px clamp(20px,5vw,72px) 36px}
+.hero-flex{display:flex;gap:clamp(18px,3vw,40px);align-items:flex-start}
+.hero-cover{width:min(240px,42vw);height:auto;max-height:320px;object-fit:contain;object-position:center;border-radius:16px;border:1px solid rgba(255,255,255,.28);box-shadow:0 18px 44px rgba(0,0,0,.32);flex-shrink:0;background:rgba(255,255,255,.08)}
+.hero-text{min-width:0;flex:1}
+.eyebrow{margin:0 0 12px;font-size:.78rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;opacity:.8}
+h1{max-width:1020px;margin:0;font-size:clamp(1.7rem,3.6vw,3rem);line-height:1.15;letter-spacing:-.04em}
+.hero-en{margin:12px 0 22px;font-size:clamp(1rem,2vw,1.25rem);opacity:.82}
+.hero-meta{display:flex;flex-wrap:wrap;gap:9px;align-items:center}
+.chip{border:1px solid rgba(255,255,255,.28);border-radius:99px;padding:5px 11px;font-size:.82rem;background:rgba(255,255,255,.08)}
+.source-link{font-weight:750;text-decoration:none;border-bottom:1px solid rgba(255,255,255,.5)}
+.toolbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:22px}
+.toolbar label{font-size:.82rem;opacity:.82}
+.toolbar select{color:#fff;background:#0a5d61;border:1px solid rgba(255,255,255,.3);border-radius:8px;padding:7px 9px}
+.stop-btn{display:none;color:#fff;background:#8c3b2a;border:0;border-radius:8px;padding:8px 12px;cursor:pointer}
+.stop-btn.visible{display:inline-flex}
+.speech-status{min-height:1.4em;font-size:.82rem;opacity:.88}
+.lang-switch{display:inline-flex;gap:6px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.28);border-radius:99px;padding:4px}
+.lang-switch a{display:inline-block;padding:4px 13px;border-radius:99px;font-size:.8rem;font-weight:700;text-decoration:none;color:rgba(255,255,255,.75)}
+.lang-switch a.active{background:#fff;color:var(--teal-800)}
+.narration-player{margin-top:16px;padding:14px 18px;background:rgba(255,255,255,.1);border-radius:12px;border:1px solid rgba(255,255,255,.15)}
+.audio-label{color:rgba(255,255,255,.88);font-size:.82rem;font-weight:700;margin:0 0 8px}
+.page{width:min(1440px,100%);margin:auto;padding:28px clamp(16px,3vw,44px) 64px;display:grid;grid-template-columns:minmax(230px,280px) minmax(0,1fr);gap:30px;align-items:start}
+.sidebar{position:sticky;top:20px;min-width:0}
+.sidebar-box{background:rgba(255,255,255,.8);border:1px solid var(--line);border-radius:16px;padding:17px;box-shadow:var(--shadow);backdrop-filter:blur(12px)}
+.sidebar h2{margin:0 0 13px;font-size:.9rem;letter-spacing:.08em;color:var(--teal-800)}
+.map-link{display:grid;grid-template-columns:34px minmax(0,1fr);gap:9px;padding:10px 6px;text-decoration:none;border-top:1px solid var(--line)}
+.map-link:hover b{color:var(--teal-700)}
+.map-id{width:30px;height:30px;display:grid;place-items:center;border-radius:9px;color:#fff;background:var(--teal-700);font-size:.72rem;font-weight:800}
+.map-link b{display:block;font-size:.78rem;line-height:1.4}
+.map-link small{display:block;color:var(--muted);font-size:.67rem;line-height:1.4;margin-top:2px;overflow-wrap:anywhere}
+.content{min-width:0}
+.scene-card{background:var(--paper);border:1px solid var(--line);border-radius:20px;padding:clamp(20px,3vw,34px);margin-bottom:24px;box-shadow:var(--shadow);overflow:hidden}
+.scene-topline{display:flex;justify-content:space-between;gap:16px;align-items:center;margin-bottom:16px}
+.scene-id{display:inline-grid;place-items:center;min-width:42px;height:30px;padding:0 10px;color:#fff;background:var(--teal-700);border-radius:8px;font-size:.78rem;font-weight:850}
+.time{margin-left:10px;color:var(--muted);font-size:.82rem;font-variant-numeric:tabular-nums}
+.scene-card h2{margin:0 0 2px;font-size:clamp(1.35rem,2.4vw,2rem);line-height:1.25;color:var(--teal-950)}
+.scene-title-en{margin:0 0 18px;color:var(--teal-600);font-weight:700;font-size:.98rem}
+.context{margin:0 0 20px;padding:12px 15px;color:#496566;background:var(--mint-50);border-left:3px solid var(--teal-600);border-radius:0 10px 10px 0;font-size:.88rem}
+.context b{margin-right:10px;color:var(--teal-800)}
+.sentence-list{display:grid;gap:12px}
+.sentence{position:relative;display:grid;grid-template-columns:38px minmax(0,1fr);gap:12px;padding:16px;border:1px solid #e2ece8;border-radius:14px;background:#fcfefd;min-width:0}
+.sentence-no{color:var(--teal-600);font-size:.76rem;font-weight:850;font-variant-numeric:tabular-nums;padding-top:4px}
+.bilingual{min-width:0;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(14px,2vw,28px)}
+.lang-block{min-width:0}
+.lang-block p{margin:5px 0 0;overflow-wrap:anywhere}
+.en-block{padding-left:clamp(14px,2vw,28px);border-left:1px solid var(--line)}
+.en-block p{color:#0b5c60;font-weight:650}
+.lang-tag{display:inline-block;color:var(--muted);font-size:.66rem;font-weight:850;letter-spacing:.12em}
+.en-head{display:flex;justify-content:space-between;gap:10px;align-items:center;min-height:30px}
+.note{grid-column:2;margin:1px 0 0;color:#708182;font-size:.78rem}
+.note span{margin-right:7px;color:var(--amber);font-weight:750}
+.speak-btn{display:inline-flex;align-items:center;gap:7px;border:1px solid #b8d9d1;border-radius:9px;padding:7px 11px;color:var(--teal-800);background:#f5fbf8;cursor:pointer;white-space:nowrap;font-size:.78rem;font-weight:750;transition:.15s ease}
+.speak-btn:hover{color:#fff;background:var(--teal-700);border-color:var(--teal-700);transform:translateY(-1px)}
+.speak-btn.playing{color:#fff;background:var(--teal-700);border-color:var(--teal-700)}
+.speak-btn.compact{padding:4px 8px;font-size:.7rem}
+.speak-btn.icon-only{padding:3px 7px;margin-left:6px}
+.speak-btn.icon-only span:last-child{display:none}
+.pronounce-word{display:inline;margin:0;padding:0 2px;color:inherit;background:rgba(20,145,155,.08);border:0;border-bottom:1px dashed var(--teal-600);border-radius:3px;font:inherit;font-weight:inherit;line-height:inherit;cursor:pointer}
+.pronounce-word:hover,.pronounce-word:focus{color:var(--teal-950);background:#cceee4;border-bottom-style:solid;outline:3px solid rgba(20,145,155,.42);outline-offset:2px}
+.pronounce-word.playing{color:#fff;background:var(--teal-700);border-bottom-color:var(--teal-700)}
+.paraphrase{margin-top:18px;border-top:1px solid var(--line)}
+.paraphrase summary{padding:16px 0 3px;color:var(--teal-800);cursor:pointer;font-weight:800}
+.paraphrase summary span{color:var(--muted);font-size:.75rem;font-weight:500;margin-left:8px}
+.paraphrase ol{margin:12px 0 0;padding-left:22px}
+.paraphrase li{padding:7px 0 9px 5px}
+.paraphrase li p{margin:0;font-size:.9rem;font-weight:650}
+.paraphrase li small{display:block;color:var(--muted);font-size:.72rem;margin-top:2px}
+.chunks{margin-top:4px;color:var(--teal-700);font-size:.78rem}
+.study-section{margin:38px 0 0}
+.section-heading{display:flex;align-items:baseline;gap:10px;margin:0 0 15px;color:var(--teal-950);font-size:1.35rem}
+.section-heading small{color:var(--teal-600);font-size:.78rem;letter-spacing:.05em}
+.study-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.study-grid article{padding:17px;background:#fff;border:1px solid var(--line);border-radius:14px;box-shadow:0 6px 18px rgba(7,63,66,.05);min-width:0}
+.study-grid p{margin:0}
+.practice-en{margin-top:9px;color:var(--teal-700);font-weight:650;overflow-wrap:anywhere}
+.wrong{color:#a24831;text-decoration:line-through;overflow-wrap:anywhere}
+.right{color:var(--teal-700);font-weight:750;margin:5px 0;overflow-wrap:anywhere}
+.pitfalls p{color:var(--muted);font-size:.82rem}
+.shifts article{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1.5fr);gap:12px;align-items:center}
+.shifts b{color:var(--teal-600);font-size:1.2rem}
+.shifts strong{color:var(--teal-800)}
+footer{margin-top:38px;color:var(--muted);font-size:.78rem;text-align:center}
+.footer-note{margin-top:6px}
+@media (max-width:900px){
+  .page{grid-template-columns:1fr}
+  .sidebar{position:static}
+  .sidebar-box{overflow-x:auto;padding:12px}
+  .sidebar h2{padding-left:5px}
+  .map-nav{display:flex;width:max-content;gap:8px}
+  .map-link{width:240px;border:1px solid var(--line);border-radius:10px;padding:8px}
+  .bilingual{grid-template-columns:1fr}
+  .en-block{padding:12px 0 0;border-left:0;border-top:1px dashed var(--line)}
+}
+@media (max-width:620px){
+  .hero-inner{padding-top:30px}
+  .hero-flex{flex-direction:column;align-items:center}
+  .hero-cover{width:100%;max-width:360px}
+  .hero-text{text-align:center}
+  .page{padding-inline:10px;gap:18px}
+  .scene-card{border-radius:14px;padding:17px 13px}
+  .scene-topline{align-items:flex-start}
+  .scene-speak span:last-child{display:none}
+  .sentence{grid-template-columns:26px minmax(0,1fr);padding:13px 10px;gap:6px}
+  .note{grid-column:2}
+  .study-grid{grid-template-columns:1fr}
+  .shifts article{grid-template-columns:1fr;gap:5px}
+  .shifts b{transform:rotate(90deg);justify-self:start}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.speak-btn{transition:none}}</style>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="hero-flex">
+        <div class="hero-text">
+          <p class="eyebrow">Regional Culture · 地域文化</p>
+          <h1>107. 四川人为什么这么神！</h1>
+          <p class="hero-en">107 Why Are Sichuan People So Amazing!</p>
+          <p class="summary-en" style="margin:0 0 14px;padding:14px 16px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.22);border-radius:12px;font-size:.95rem;line-height:1.7">Si Wen and her Suining hometown friend Li Siheng start from a fascinating contradiction — Sichuan people are both incredibly hardworking and extremely relaxed. They unpack the basin geography, the Paoge brotherhood code, Taoism's "follow nature" philosophy, women's economic independence, and a Zhuo Wenjun-style view of love, to explain why Sichuan people turn hardship into stand-up comedy and funerals into mahjong games, while still leading the country in early adoption of trends and tolerance.</p>
+          <div class="hero-meta">
+            <span class="chip">2026-07-24</span>
+            <span class="chip">小宇宙FM</span>
+            <span class="chip">53分</span>
+            <span class="chip">5 Scenes</span>
+            <span class="chip">Click underlined words to hear them</span>
+            <a class="source-link" href="https://www.xiaoyuzhoufm.com/episode/6a4c6ff93fb7233cbf44ed3b" target="_blank" rel="noopener">原播客 ↗</a>
+          </div>
+        </div>
+      </div>
+      <div class="toolbar">
+        <div class="lang-switch"><div class="lang-switch"><a href="sichuan_people_ep107-总结.html">中文</a><a class="active" href="sichuan_people_ep107-en.html" aria-current="page">EN</a></div></div>
+        <label for="speech-rate">朗读速度</label>
+        <select id="speech-rate">
+          <option value="0.85">慢速 0.85×</option>
+          <option value="1" selected>正常 1×</option>
+          <option value="1.15">快速 1.15×</option>
+        </select>
+        <button id="stop-speech" class="stop-btn" type="button">■ 停止朗读</button>
+        <span id="speech-status" class="speech-status" role="status" aria-live="polite"></span>
+      </div>
+      <div class="narration-player">
+      <p class="audio-label">🎧 中文语音讲解</p>
+      <button class="speak-btn" type="button" data-audio="audio/sichuan_people_ep107.mp3" aria-label="播放语音讲解"><span aria-hidden="true">▶</span><span>播放语音讲解</span></button>
+    </div>
+    </div>
+  </header>
+  <main class="page">
+    <aside class="sidebar" aria-label="场景地图">
+      <div class="sidebar-box">
+        <h2>场景地图 · SCENE MAP</h2>
+        <nav class="map-nav">
+          <a class="map-link" href="#s1">
+          <span class="map-id">S1</span>
+          <span><b>一、矛盾统一：最苦与最松</b><small> · A Living Contradiction: The Toughest and the Loosest</small></span>
+        </a>
+<a class="map-link" href="#s2">
+          <span class="map-id">S2</span>
+          <span><b>二、教育与人生节奏</b><small> · Education and the Pace of Life</small></span>
+        </a>
+<a class="map-link" href="#s3">
+          <span class="map-id">S3</span>
+          <span><b>三、女性文化与爱情观</b><small> · Women's Culture and Views on Love</small></span>
+        </a>
+<a class="map-link" href="#s4">
+          <span class="map-id">S4</span>
+          <span><b>四、袍哥、道教与包容</b><small> · Paoge Brotherhood, Taoism, and Tolerance</small></span>
+        </a>
+<a class="map-link" href="#s5">
+          <span class="map-id">S5</span>
+          <span><b>五、生活仪式与缺点</b><small> · Life Rituals and the Darker Side</small></span>
+        </a>
+        </nav>
+      </div>
+    </aside>
+    <div class="content">
+      <section class="scene-card" id="s1" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S1</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/sichuan_people_ep107/s1.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>一、矛盾统一：最苦与最松</h2>
+      <p class="scene-title-en">A Living Contradiction: The Toughest and the Loosest</p>
+      <p class="context"><b>情境</b>盆地地理决定了「来之不易所以珍惜」与「想得开」两种心态并存。语域：casual 聊天 + 地域文化分析。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：四川是盆地，交通闭塞、机会少，来之不易的工作格外珍惜；成都平原之外多丘陵山地，务农极累，农民工反而觉得工地比种地轻松</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/sichuan_people_ep107/s1-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The mechanism: Sichuan is a basin — poor transport, few opportunities, so a hard-won job is treasured. Outside the Chengdu Plain it's mostly hills and mountains, and farming is brutally tiring; migrant workers actually find construction sites easier than farming.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>basin → 盆地；hard-won → 来之不易；migrant worker → 农民工</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：不是天生爱吃苦，而是环境让人「想得开」——抱怨少、接受现状，把辛苦叙事成好笑故事</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/sichuan_people_ep107/s1-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key insight: they're not born loving hardship — the environment teaches them to let things go: fewer complaints, accepting reality, and narrating hardship as a funny story.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>let things go → 想得开；accept reality → 接受现状；narrate hardship → 把辛苦讲成故事</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>典型场景：鸟巢建设、西藏/川西伐木、全国「四川大军」家政与建筑工</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/sichuan_people_ep107/s1-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">A typical scene: building the Bird's Nest stadium, logging in Tibet and western Sichuan, and the nationwide "Sichuan army" of domestic workers and builders.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>domestic worker → 家政；construction worker → 建筑工</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据：「他们觉得去当建筑工比自己在家种地要轻松多了……很少真心抱怨这工作很辛苦」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/sichuan_people_ep107/s1-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">"They think working construction is much easier than farming back home... they rarely truly complain about how hard the work is."</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>truly complain → 真心抱怨；working construction → 当建筑工</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）相关概念：与江浙「生意基因」、上海内卷形成鲜明对比</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/sichuan_people_ep107/s1-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Related concept: a stark contrast to the Jiangsu-Zhejiang "business gene" and Shanghai's intense rat race.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>business gene → 生意基因；rat race → 内卷</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：喝茶躺着喝、广场躺、谭谈交通里违章者躺地抽烟——低能量但心态松，「累呀我好累」也能当理由</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/sichuan_people_ep107/s1-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The mechanism: tea drunk while lying down, lying in the square, and in the traffic-stop show "Tan Tan Traffic," rule-breakers lying on the ground smoking — low energy but a relaxed mindset, where even "I'm so tired" becomes a good enough excuse.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>low energy → 低能量；relaxed mindset → 心态松</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「又苦又松的矛盾」</p><div class="chunks">grind hard · chill to the bone</div><small>第一句平实，第二句俏皮</small></li>
+<li><p>想说「把辛苦讲成好笑故事」</p><div class="chunks">suffering into punchlines · material for comedy</div><small>第一句口语，第二句稍书面</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s2" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S2</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/sichuan_people_ep107/s2.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>二、教育与人生节奏</h2>
+      <p class="scene-title-en">Education and the Pace of Life</p>
+      <p class="context"><b>情境</b>不报班的母亲、倒数第一的家长；「因热爱而卷」与「因恐惧而卷」之别。语域：casual 家庭故事 + 观点。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：母亲拒绝报班：「童年就这段时间，必须玩好」；倒数第一家长说「总会有个倒数第一，不如你来」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/sichuan_people_ep107/s2-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The mechanism: a mother refused tutoring classes, saying "childhood only comes once — you must play well." And a last-in-class parent told the kid, "Someone has to be last — it might as well be you."</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>tutoring class → 报班；last in class → 倒数第一；it might as well be → 不如就…</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：顺其自然——是这块料不用逼，不是这块料逼死也学不好；高中竞争温和，后遂宁中学被衡水收购</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/sichuan_people_ep107/s2-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key insight: go with the flow — if it's in you, no forcing needed; if it's not, no amount of pressure helps. High school competition stayed gentle until Suining High School was taken over by Hengshui.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>go with the flow → 顺其自然；taken over → 被收购</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>适用边界：00后/10后状况未详述；成都可能与县城不同</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/sichuan_people_ep107/s2-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The boundary: the episode doesn't detail how it looks for Gen Z and Gen Alpha; Chengdu may differ from county towns.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>Gen Z / Gen Alpha → 00后/10后；county town → 县城</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）怎么落地：区分「因热爱而卷」与「因恐惧而卷」——嘉宾在大厂996是自我要求，不是外部压力</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/sichuan_people_ep107/s2-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">How to apply it: tell apart "grinding out of passion" from "grinding out of fear" — the guest's 996 at a big tech company was self-imposed, not external pressure.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>out of passion → 因热爱；self-imposed → 自我要求；996 → 996 工作制</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>原因：潮汕同乡会聊事业，四川人聚会在聊「去哪耍、火锅好不好吃」；不是不工作，而是不把讨论工作当社交核心</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/sichuan_people_ep107/s2-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The reason: at a Chaoshan hometown association they talk business; Sichuan people get together to discuss where to play and whether the hotpot is good. It's not that they don't work — it's that work talk isn't the center of their social life.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>hometown association → 同乡会；the center of social life → 社交核心</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>解法：理解地域文化差异，勿简单等同于「不上进」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/sichuan_people_ep107/s2-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The takeaway: understand the regional cultural difference — don't reduce it to "lacking ambition."</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>regional culture → 地域文化；lacking ambition → 不上进</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「顺其自然的教育观」</p><div class="chunks">at their own pace · no pushing</div><small>第一句温和，第二句直接</small></li>
+<li><p>想说「因热爱而卷 vs 因恐惧而卷」</p><div class="chunks">fear vs. passion · grind because they love it</div><small>第一句是金句，第二句展开解释</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s3" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S3</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/sichuan_people_ep107/s3.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>三、女性文化与爱情观</h2>
+      <p class="scene-title-en">Women's Culture and Views on Love</p>
+      <p class="context"><b>情境</b>四川女性的经济独立；卓文君式的有骨气爱情观。语域：casual 文化史讲述 + 观点。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>从小少见家庭主妇；母亲内外兼顾且甘之如饴；「谁有力气谁干活」——家务不是性别分工。因深圳太热放弃七年好工作与男友，「他不来上海就再找」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/sichuan_people_ep107/s3-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Few stay-at-home moms growing up; a mother who handles both work and home happily; and "whoever has the energy does the chores" — housework isn't gendered. One woman gave up a good seven-year job and her boyfriend because Shenzhen was too hot, deciding "if he won't come to Shanghai, I'll find someone else."</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>stay-at-home mom → 家庭主妇；gendered → 性别分工；find someone else → 再找</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据：「四川女的就是能干……为什么非要依附一个男人。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/sichuan_people_ep107/s3-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">"Sichuan women are just capable... why on earth should they depend on a man?"</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>capable → 能干；depend on a man → 依附男人</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：16岁守寡、17岁与司马相如私奔；穷得家徒四壁时开酒馆「当垆卖酒」逼父给钱；司马想纳妾，她回《白头吟》「愿得一人心」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/sichuan_people_ep107/s3-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The mechanism: widowed at 16, eloped with Sima Xiangru at 17; when they were dirt poor, she ran a tavern — "selling wine at the counter" — to pressure her wealthy father into helping. When Sima wanted a concubine, she answered with the poem "Baitou Yin": "I wish for one person's heart."</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>elope → 私奔；run a tavern → 当垆卖酒；concubine → 纳妾</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：四川推崇的是有气度、有原则的女性，而非苦等型爱情（梁祝式）；宋朝起成都商业发达，绣娘收入高于务农男性，经济基础塑造话语权</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/sichuan_people_ep107/s3-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key insight: Sichuan admires women with dignity and principles, not the suffering-waiting romance of a Liang-Zhu story. Chengdu has been commercially strong since the Song dynasty — embroiderers out-earned farming men, and economic power shaped their voice.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>dignity and principles → 气度与原则；embroiderer → 绣娘；economic power → 经济基础</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）相关概念：川军抗日男性外出，家中女性主导教育与氛围</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/sichuan_people_ep107/s3-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Related concept: when Sichuan men left to fight in the war against Japan, women ran education and the home atmosphere.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>run education → 主导教育；home atmosphere → 家庭氛围</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「谁有力气谁干活」</p><div class="chunks">whoever's got energy · no gender roles</div><small>第一句是原话，第二句解释</small></li>
+<li><p>想说「有骨气的爱情观」</p><div class="chunks">love with dignity · a waiting bride</div><small>第一句观点，第二句具体</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s4" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S4</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/sichuan_people_ep107/s4.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>四、袍哥、道教与包容</h2>
+      <p class="scene-title-en">Paoge Brotherhood, Taoism, and Tolerance</p>
+      <p class="context"><b>情境</b>袍哥义气与「耿直」文化；道法自然与反叛精神。语域：casual 文化史讲述。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：清末民国四川70%人口有袍哥身份；保路运动、抗战滇缅运输线靠袍哥保畅通；「袍哥人家绝不拉稀摆带」= 耿直、说干就干</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/sichuan_people_ep107/s4-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The mechanism: in the late Qing and Republican era, 70 percent of Sichuan's population had Paoge ties; the Railway Protection Movement and the Burma Road supply line in the war depended on the Paoge to keep things moving. "A Paoge man never drags his feet" — straightforward, and they act on it.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>brotherhood → 袍哥组织；supply line → 运输线；drag one's feet → 拉稀摆带/拖泥带水</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>典型场景：火锅源于码头纤夫煮下水；汶川地震牌友被埋仍记「欠王老大三千块」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/sichuan_people_ep107/s4-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">A typical scene: hotpot began with dock coolies boiling offal; and in the Wenchuan earthquake, a mahjong buddy buried in rubble still remembered he owed Boss Wang three thousand yuan.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>dock coolie → 码头纤夫；offal → 下水/内脏；buried in rubble → 被埋在废墟</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）「宁可人家欠咱，咱也不要欠人家。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/sichuan_people_ep107/s4-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">"Better that people owe us than we owe them."</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>owe → 欠；better that → 宁可…</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：青城山道教圣地，但不必皈依——道法自然、无为、被骂就骂回去（祥瑞）；道长劝人：牛不用耕地了，别吃拖拉机</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/sichuan_people_ep107/s4-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key insight: Mount Qingcheng is a Taoist holy site, but you don't have to convert — follow nature, don't force things, and if someone scolds you, scold back. One Taoist priest advised: the ox no longer plows, so don't eat the tractor.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>Taoist → 道教；holy site → 圣地；follow nature → 道法自然</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>典型场景：哪吒/孙悟空反叛精神；「白素贞在青城山修炼千年，一出四川就被抓」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/sichuan_people_ep107/s4-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">A typical scene: the rebellious spirit of Nezha and the Monkey King; and the joke that Bai Suzhen cultivated a thousand years on Mount Qingcheng, then got captured the moment she left Sichuan.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>rebellious spirit → 反叛精神；cultivate → 修炼</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）与三国义气、道教自然观共同塑造「难被规训」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/sichuan_people_ep107/s4-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Together with Three Kingdoms loyalty and the Taoist view of nature, this shapes a people who are hard to discipline.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>hard to discipline → 难被规训；Three Kingdoms loyalty → 三国义气</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「耿直、说干就干」</p><div class="chunks">straight talk · straight action</div><small>第一句口语，第二句对仗</small></li>
+<li><p>想说「被骂就骂回去」</p><div class="chunks">gives as good as he gets · scold right back</div><small>第一句是地道成语，第二句更直白</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s5" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S5</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/sichuan_people_ep107/s5.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>五、生活仪式与缺点</h2>
+      <p class="scene-title-en">Life Rituals and the Darker Side</p>
+      <p class="context"><b>情境</b>葬礼打麻将的庄子式豁达；「读空气」vs「有话直说」。语域：casual 文化观察。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>原因：千里吊唁太累，沉浸悲伤体验差；「人就是在苦中作乐」——仪式要做，生活要继续</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/sichuan_people_ep107/s5-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The reason: traveling a thousand miles to mourn is exhausting, and wallowing in grief feels bad — "people make joy out of suffering." Rituals must happen, but life must go on.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>wallow in grief → 沉浸悲伤；make joy out of suffering → 苦中作乐</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>解法：理解为庄子式豁达（妻死鼓盆而歌），非不尊重逝者</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/sichuan_people_ep107/s5-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The takeaway: read it as Zhuangzi-style detachment — he drummed and sang after his wife died — not as disrespect for the dead.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>detachment → 豁达；disrespect → 不尊重</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>严重程度：可忽略（文化差异）</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/sichuan_people_ep107/s5-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Severity: negligible — it's a cultural difference.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>negligible → 可忽略；cultural difference → 文化差异</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）母亲解释：灵堂摆四张自动麻将桌，让悲伤淡一点</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/sichuan_people_ep107/s5-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The mother's explanation: set up four auto-mahjong tables at the wake, to let the grief fade a little.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>wake → 灵堂；let the grief fade → 让悲伤淡一点</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>为什么重要：日本「读空气」式猜测他人情绪极耗精力；四川人「你不开心你就说，不说我就当你没不开心」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/sichuan_people_ep107/s5-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Why it matters: Japan's "reading the air" habit of guessing others' feelings is exhausting; a Sichuan person says "if you're unhappy, say it — if you don't, I'll assume you're fine."</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>reading the air → 读空气；assume you're fine → 当你没不开心</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>适用边界：职场/跨文化场合仍需适度察言观色</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/sichuan_people_ep107/s5-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The boundary: in work and cross-cultural settings, a bit of reading the room is still needed.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>read the room → 察言观色；cross-cultural → 跨文化</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「苦中作乐」</p><div class="chunks">joy in the hardest moments · laugh it off</div><small>第一句温和，第二句直接</small></li>
+<li><p>想说「不说我就当没这事」</p><div class="chunks">assume it's fine · no complaints heard</div><small>第一句口语，第二句俏皮</small></li>
+        </ol>
+      </details>
+    </section>
+      <section class="study-section" id="practice">
+      <h2 class="section-heading">今日可练 <small>PRACTICE TODAY</small></h2>
+      <div class="study-grid">
+        <article>
+          <p>用「hard-won」说：四川人珍惜来之不易的机会。</p>
+          <div class="practice-en">
+            Sichuan people treasure hard-won opportunities.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/sichuan_people_ep107/practice-0.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「go with the flow」说：顺其自然的教育方式。</p>
+          <div class="practice-en">
+            Their parenting style is all about going with the flow.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/sichuan_people_ep107/practice-1.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「love with dignity」说：四川推崇有骨气的爱。</p>
+          <div class="practice-en">
+            Sichuan admires love with dignity, not dependence.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/sichuan_people_ep107/practice-2.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「read the room」说：直说就行，不用读空气。</p>
+          <div class="practice-en">
+            Just say it directly — no need to read the room.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/sichuan_people_ep107/practice-3.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article>
+      </div>
+    </section>
+      <section class="study-section pitfalls" id="pitfalls">
+      <h2 class="section-heading">避坑 <small>PITFALLS</small></h2>
+      <div class="study-grid">
+        <article>
+          <div class="wrong">✕ Sichuan people can bear hardship and very relax.</div>
+          <div class="right">✓ Sichuan people endure hardship yet stay remarkably relaxed.</div>
+          <p>very relax 词性错误（应为 relaxed）；「能吃苦又松弛」用 endure hardship yet / both tough and laid-back。</p>
+        </article><article>
+          <div class="wrong">✕ The mother doesn't want to report class for child.</div>
+          <div class="right">✓ The mother refused to sign her kid up for tutoring classes.</div>
+          <p>report class 是「报到」的直译；报班是 sign up for / enroll in tutoring。</p>
+        </article><article>
+          <div class="wrong">✕ In Sichuan, women very capable, don't need man.</div>
+          <div class="right">✓ Sichuan women are so capable they don't need to depend on a man.</div>
+          <p>中式拼句缺动词与连词；用 so capable that / depend on a man 结构。</p>
+        </article><article>
+          <div class="wrong">✕ Funeral they play mahjong, not respect the dead.</div>
+          <div class="right">✓ Playing mahjong at a funeral isn't disrespect — it's Zhuangzi-style ease.</div>
+          <p>中式断句；解释文化现象用 it's not... it's... 结构。</p>
+        </article>
+      </div>
+    </section>
+      <section class="study-section shifts" id="mindset">
+      <h2 class="section-heading">认知转变 <small>MINDSET SHIFTS</small></h2>
+      <div class="study-grid">
+        <article>
+          <span>四川人爱吃苦是天性</span>
+          <b aria-hidden="true">→</b>
+          <strong>是盆地环境让人想得开，苦也能讲成段子</strong>
+        </article><article>
+          <span>葬礼打麻将=不尊重</span>
+          <b aria-hidden="true">→</b>
+          <strong>那是庄子式豁达：仪式要做，生活要继续</strong>
+        </article><article>
+          <span>说话要照顾气氛、委婉</span>
+          <b aria-hidden="true">→</b>
+          <strong>你不开心就说，不说我就当没有——直说更省力</strong>
+        </article>
+      </div>
+    </section>
+      <footer>
+        双语学习版 · 场景/句子朗读使用 edge-tts（en-US） · 单词发音使用浏览器 Web Speech API
+        <div class="footer-note">中文版：<a href="sichuan_people_ep107-总结.html">sichuan_people_ep107-总结.html</a> · SVG 版：<a href="viewer.html?f=sichuan_people_ep107-总结.svg" target="_blank">sichuan_people_ep107-总结.svg</a></div>
+      </footer>
+    </div>
+  </main>
+  <script>(() => {
+  let activeAudio = null;
+  let activeBtn = null;
+  const status = document.getElementById('speech-status');
+  const stopBtn = document.getElementById('stop-speech');
+  const rateSel = document.getElementById('speech-rate');
+
+  const reset = () => {
+    if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+    activeBtn?.classList.remove('playing');
+    activeBtn = null;
+    stopBtn.classList.remove('visible');
+    status.textContent = '';
+  };
+
+  const playAudio = (url, btn) => {
+    reset();
+    const audio = new Audio(url);
+    audio.playbackRate = Number(rateSel.value);
+    activeAudio = audio;
+    activeBtn = btn;
+    btn.classList.add('playing');
+    stopBtn.classList.add('visible');
+    status.textContent = btn.classList.contains('scene-speak')
+      ? 'Reading the whole scene…'
+      : 'Reading…';
+
+    audio.onended = () => { if (activeAudio === audio) reset(); };
+    audio.onerror = () => { status.textContent = 'Audio failed to load.'; if (activeAudio === audio) reset(); };
+    audio.play().catch(() => { status.textContent = 'Playback failed.'; if (activeAudio === audio) reset(); });
+  };
+
+  document.addEventListener('click', e => {
+    const btn = e.target.closest('[data-audio]');
+    if (!btn) return;
+    e.preventDefault();
+    if (btn === activeBtn && activeAudio) { reset(); return; }
+    playAudio(btn.dataset.audio, btn);
+  });
+
+  stopBtn.addEventListener('click', reset);
+
+  const synth = window.speechSynthesis;
+  const getEnglishVoice = () => {
+    const voices = synth.getVoices();
+    return voices.find(v => /^en-(US|GB)/i.test(v.lang))
+        || voices.find(v => /^en/i.test(v.lang)) || null;
+  };
+
+  const difficultWords = new Set([
+    'assortment', 'SKU', 'premium', 'margin', 'middleman', 'OEM', 'rebranding',
+    'hoarding', 'PTSD', 'curation', 'repurchase', 'touchpoint', 'backlash',
+    'reshuffle', 'funnel', 'anchor', 'contract', 'psychology', 'private', 'label',
+    'editorial', 'familiar', 'competitors', 'authorization', 'flexibility'
+  ]);
+
+  const shouldPronounce = word => {
+    const n = word.toLowerCase().replace(/^[^a-z]+|[^a-z]+$/g, '');
+    return n.replace(/[^a-z]/g, '').length >= 8 || difficultWords.has(n);
+  };
+
+  const markPronounceableWords = root => {
+    const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+    const nodes = [];
+    while (walker.nextNode()) nodes.push(walker.currentNode);
+    nodes.forEach(node => {
+      if (node.parentElement?.closest('button, script, style')) return;
+      const text = node.nodeValue;
+      let m, last = 0, changed = false;
+      const frag = document.createDocumentFragment();
+      const re = /[A-Za-z]+(?:[-'’][A-Za-z]+)*/g;
+      while ((m = re.exec(text))) {
+        if (!shouldPronounce(m[0])) continue;
+        changed = true;
+        frag.append(text.slice(last, m.index));
+        const wb = document.createElement('button');
+        wb.type = 'button'; wb.className = 'pronounce-word';
+        wb.dataset.speak = m[0];
+        wb.setAttribute('aria-label', '\u8bfb\u5355\u8bcd ' + m[0]);
+        wb.title = '\u70b9\u51fb\u542c\u53d1\u97f3';
+        wb.textContent = m[0];
+        frag.append(wb);
+        last = m.index + m[0].length;
+      }
+      if (!changed) return;
+      frag.append(text.slice(last));
+      node.replaceWith(frag);
+    });
+  };
+
+  document.querySelectorAll(
+    '.english, .scene-title-en, .paraphrase li p, .chunks, .practice-en, .wrong, .right, .summary-en'
+  ).forEach(markPronounceableWords);
+
+  document.addEventListener('click', e => {
+    const wb = e.target.closest('.pronounce-word');
+    if (!wb) return;
+    e.preventDefault();
+    if (!synth) return;
+    synth.cancel();
+    if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+    activeBtn?.classList.remove('playing');
+    activeBtn = wb;
+    wb.classList.add('playing');
+    const u = new SpeechSynthesisUtterance(wb.dataset.speak);
+    u.lang = 'en-US';
+    u.rate = 0.88;
+    const v = getEnglishVoice();
+    if (v) u.voice = v;
+    u.onend = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+    u.onerror = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+    synth.speak(u);
+  });
+})();</script>
+</body>
+</html>

@@ -23,9 +23,11 @@ PAGE_CSS = """\
 .html-toolbar .back-link:hover{text-decoration:underline}
 .html-toolbar-title{flex:1;font-size:14px;font-weight:600;color:#1e293b;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .html-toolbar .html-audio{width:260px;height:36px;border-radius:8px}
-.html-toolbar .html-svg-link{font-size:13px;color:#64748b;text-decoration:none;white-space:nowrap}
-.html-toolbar .html-svg-link:hover{color:#3b82f6;text-decoration:underline}
-@media (max-width:640px){
+       .html-toolbar .html-svg-link{font-size:13px;color:#64748b;text-decoration:none;white-space:nowrap}
+       .html-toolbar .html-svg-link:hover{color:#3b82f6;text-decoration:underline}
+       .html-toolbar .html-en-link{font-size:13px;color:#0d686c;text-decoration:none;white-space:nowrap;font-weight:600;padding:4px 10px;border:1px solid #99c6c0;border-radius:99px;background:#f0faf6}
+       .html-toolbar .html-en-link:hover{color:#3b82f6;border-color:#3b82f6}
+       @media (max-width:640px){
   .html-toolbar{flex-wrap:wrap;gap:10px;padding:10px 12px}
   .html-toolbar-title{flex-basis:100%;order:-1;font-size:13px}
   .html-toolbar .html-audio{width:100%}
@@ -73,6 +75,14 @@ def build_html(css: str, body: str, title: str, svg_name: str) -> str:
         else ""
     )
     svg_href = svg_name.replace(" ", "%20")
+    en_stem = re.sub(r"-(?:播客)?总结(?=\.svg$)", "", svg_name, flags=re.I)
+    en_stem = re.sub(r"\.svg$", "", en_stem)
+    en_html = f"{en_stem}-en.html"
+    en_link = (
+        f'<a class="html-en-link" href="{en_html}" target="_blank">EN 双语版 ↗</a>'
+        if (DOCS / en_html).exists()
+        else ""
+    )
     return f"""<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -92,6 +102,7 @@ body{{padding:0!important;margin:0!important}}
   <a class="back-link" href="index.html">← 返回首页</a>
   <div class="html-toolbar-title">{title}</div>
   {audio_html}
+  {en_link}
   <a class="html-svg-link" href="viewer.html?f={svg_href}" target="_blank">SVG 版 ↗</a>
 </div>
 {body}

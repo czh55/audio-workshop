@@ -1,0 +1,301 @@
+{
+  "slug": "zhineng_yanjing_xuanpin_guide",
+  "date": "2026-06-23",
+  "platform": "小宇宙FM",
+  "title": "👓智能眼镜选品与劝退指南 - 张焱/徐冉/东东枪/北冥乘海生",
+  "title_en": "Smart Glasses: A Buying & Disillusionment Guide — with Zhang Yan, Xu Ran, Dongdong Qiang & Beiming Cheng Haisheng",
+  "eyebrow": "Tech & Consumer · 科技与消费",
+  "duration": "1小时42分",
+  "source_url": "https://www.xiaoyuzhoufm.com/episode/69e875e81d989496e73b7892",
+  "summary_cn": "四位嘉宾从端侧计算从业者、重度体验用户到媒体人的视角，辛辣拆解智能眼镜/AR/VR/XR 的伪需求、豆汁儿经济与全家桶困境，并一路滑向 AI 赛博永生与人类肉身价值的哲学深渊——最后给出「让孩子去学按摩」的硬核生存建议",
+  "summary_en": "Four guests — an edge-computing engineer, a heavy power user, and media people — take a sharp, unsparing look at smart glasses, AR, VR, and XR. They dismantle the fake demand, the 'Douzhir economy' where everyone takes a sip but few order another, and the trap of end-to-end family-bucket strategies. Then the show slides into a philosophical abyss about AI cyber-immortality and the value of the human body. It all ends with one brutally practical piece of advice: have your kids learn massage.",
+  "scenes": [
+    {
+      "id": "s1",
+      "title_cn": "一、概念框架：AR / VR / XR 到底差在哪",
+      "title_en": "Part 1: The Concepts — What Actually Differs Between AR, VR, and XR",
+      "context": "先讲清 VR/AR/XR 概念差别与市场现状，再吐槽 Vision Pro 的真实体验。语域：casual 科技闲聊 + 毒舌点评。",
+      "speak": "Here are the definitions: VR is fully wrapped, eyes-covered immersion; AR overlays information on the real world; XR is the mixed reality in between. But the market reality is that surviving products look more like 'headphones hung on your nose' than the all-day AR interface from sci-fi films. The technical categories are clean, but user perception is blurry. Lightweight products like Thunderbird take the audio-plus-light-display route; the Vision Pro goes for high-end VR with passthrough, but you're exhausted in half an hour, you can't take it on the street, and there's almost no 3D content. VR suits fixed-scene gaming like flight simulators or skiing; AR's ideal scene is navigation and information overlay, but the cameras and displays aren't there yet; audio glasses suit commuting with podcasts. 'In the end, everyone making VR glasses is doing it for a jar of vinegar… after half an hour, your head feels squeezed.' See-through was built as a window to the outside world for VR — they call it making a whole dumpling feast for a single jar of vinegar. And Zhang Yan's company does edge computing that turns 2D videos into 3D in real time — but with glasses stock running low and demo units loaned out, hardware supply chains are still the bottleneck.",
+      "sentences": [
+        {
+          "cn": "核心机制：VR 是全包裹蒙眼沉浸，AR 是在现实世界上叠加信息，XR 是介于两者之间的混合现实。但市场现状是——活下来的产品往往更像「挂在鼻子上的耳机」，而非科幻片里的全天候 AR 界面",
+          "en": "The core mechanism: VR is fully wrapped, eyes-covered immersion; AR overlays information onto the real world; XR is the mixed reality in between. But the market reality is that surviving products often look more like 'headphones hanging off your nose' than the all-day AR interface from sci-fi.",
+          "note": "<span>表达提示</span>immersion → 沉浸；overlay → 叠加；mixed reality → 混合现实；surviving products → 活下来的产品"
+        },
+        {
+          "cn": "关键理解：技术分类清晰，但用户感知模糊。雷鸟 A 眼镜等轻量产品走音频+轻显示路线；Vision Pro 走高端 VR+透视路线，但半小时就累、不能上街、3D 内容极少",
+          "en": "The key insight: the technical categories are clear, but user perception is blurry. Lightweight products like Thunderbird take the audio-plus-light-display route; the Vision Pro takes the high-end VR plus passthrough route, but you're exhausted after half an hour, you can't take it out on the street, and there's very little 3D content.",
+          "note": "<span>表达提示</span>lightweight products → 轻量产品；passthrough → 透视；take the A route → 走A路线；3D content → 3D内容"
+        },
+        {
+          "cn": "典型场景：VR 适合固定场景玩游戏（模拟飞行、滑雪）；AR 理想场景是导航/信息叠加，但摄像头和显示均未达标；音频眼镜适合通勤听播客",
+          "en": "A typical scene: VR fits fixed-scene gaming like flight simulators or skiing; AR's ideal scene is navigation and information overlay, but the cameras and displays aren't good enough yet; audio glasses suit commuting while listening to podcasts.",
+          "note": "<span>表达提示</span>fixed-scene → 固定场景；flight simulator → 模拟飞行；navigation → 导航；commuting → 通勤"
+        },
+        {
+          "cn": "（引用）原文依据：「其实最后做这个 VR 眼镜，大家都是为了一袋醋……用了半小时，脑袋就勒得慌。」",
+          "en": "In the author's own words: 'In the end, everyone making VR glasses is doing it for a jar of vinegar… after half an hour, your head feels squeezed.'",
+          "note": "<span>表达提示</span>for a jar of vinegar → 为了一袋醋（比喻为小事折腾）；squeezed → 勒得慌"
+        },
+        {
+          "cn": "（引用）相关概念：See Through（透视）本是为 VR 加的外部世界通道，嘉宾称之为「为一盘醋包了顿饺子」——核心需求是沉浸，透视只是补丁",
+          "en": "A related idea: See Through was built as a channel to the outside world for VR — the guests call it 'making a whole dumpling feast for a jar of vinegar': the core need is immersion, and passthrough is just a patch.",
+          "note": "<span>表达提示</span>See Through → 透视；patch → 补丁；a dumpling feast for a jar of vinegar → 为了一袋醋包顿饺子"
+        },
+        {
+          "cn": "张焱公司做端侧计算，核心能力是把传统 2D 视频（如猫和老鼠）实时转为双眼 3D 效果。过去院线转 3D 是大工程，现在小盒子就能完成——但眼镜库存不足、样机被借走展示，说明硬件供应链仍是瓶颈",
+          "en": "Zhang Yan's company does edge computing, and its core capability is turning traditional 2D videos (like Tom and Jerry) into dual-eye 3D in real time. Converting theaters to 3D used to be a huge project; now a small box can do it — but with glasses stock running low and demo units loaned out, hardware supply chains are still the bottleneck.",
+          "note": "<span>表达提示</span>edge computing → 端侧计算；real time → 实时；demo unit → 样机；supply chain bottleneck → 供应链瓶颈"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「看似在做好产品，其实在折腾小需求」",
+          "phrases": [
+            "They're making a whole dumpling feast for a jar of vinegar.",
+            "All that engineering for a tiny niche of a need."
+          ],
+          "chunks": "a feast for a jar of vinegar · a tiny niche",
+          "usage": "第一句是节目金句，直接引用最有味道"
+        },
+        {
+          "intent": "想说「产品像耳机不像眼镜」",
+          "phrases": [
+            "These products are basically headphones hanging off your nose.",
+            "It's less a glasses story and more an audio story."
+          ],
+          "chunks": "headphones on your nose · an audio story",
+          "usage": "两句都是犀利吐槽，适合口语点评"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title_cn": "二、过渡态陷阱：为什么现在不宜入手",
+      "title_en": "Part 2: The Transition Trap — Why Not to Buy Right Now",
+      "context": "讲过渡态产品「取消了物理按键却没做好」的问题，以及智能眼镜的豆汁儿经济。语域：casual 科技吐槽 + 商业分析。",
+      "speak": "Many AI gadgets live in a transition phase, the 'tell AI to do it for you' stage. It's like the Jiyue car that removed every physical button — cool on paper, but when you need to turn off the air conditioning or adjust the volume, you have to dig through menus, and the experience becomes anti-human. So wait until the final form is clear: either a pure audio glasses (clear demand), or AR display with a mature ecosystem (at least three to five years). Don't pay full price for a 'maybe in the future.' It's risky — you'll probably buy it and let it gather dust, but it's not fatal. As one guest says: 'You didn't remove the physical buttons for the sake of removing them; you removed them because it really can drive itself. If autonomous driving were done well, removing them would be fine — but the in-between state is neither done well nor kept, and that's what's so uncomfortable.' Zhang Yan uses Beijing's fermented Douzhir to describe the market: everyone is curious enough for one sip, but very few drink it daily. Capital loves a sexy full-stack story of display plus computing plus AI; display makers can't raise money without computing, so they're forced to burn cash on what they're bad at.",
+      "sentences": [
+        {
+          "cn": "原因：很多 AI 硬件在「一句话让 AI 帮你干事」的过渡阶段，就像极越汽车取消所有物理按键——产品维度很酷，但日常关空调、调音量要进菜单找，体验反人类",
+          "en": "The reason: many AI hardware products are stuck in the transition stage of 'having AI do things for you' — like the Jiyue car that removed all physical buttons: the product concept is cool, but when you need to turn off the AC or adjust the volume, you have to dig through menus, and the experience becomes anti-human.",
+          "note": "<span>表达提示</span>transition stage → 过渡阶段；physical buttons → 物理按键；dig through menus → 进菜单里找；anti-human → 反人类"
+        },
+        {
+          "cn": "解法：等「终极形态」清晰再入手——要么纯音频眼镜（需求明确），要么 AR 显示+生态成熟（至少 3-5 年），不要为「未来可能」付全款",
+          "en": "The solution: wait until the 'final form' is clear before buying — either pure audio glasses (a clear demand) or AR display with a mature ecosystem (at least 3-5 years). Don't pay full price for a 'maybe in the future.'",
+          "note": "<span>表达提示</span>final form → 终极形态；pay full price → 付全款；mature ecosystem → 成熟生态"
+        },
+        {
+          "cn": "严重程度：小心——现在买大概率吃灰，但不致命",
+          "en": "The severity: be careful — you'll probably buy it and let it gather dust, but it's not fatal.",
+          "note": "<span>表达提示</span>severity → 严重程度；gather dust → 吃灰；fatal → 致命的"
+        },
+        {
+          "cn": "（引用）嘉宾说法：「你不是因为取消物理按键而取消的，是因为它真的能自己跑。你说我做自动驾驶做好了取消没问题，但中间态既没做好又取消了，就让人非常难受。」",
+          "en": "As a guest puts it: 'You didn't remove the physical buttons for the sake of removing them; you removed them because it can really drive itself. Removing them after autonomous driving is done well would be fine, but this in-between state is neither done well nor kept — and that's what makes it so uncomfortable.'",
+          "note": "<span>表达提示</span>for the sake of → 为了…而…；in-between state → 中间态；drive itself → 自己跑/自动驾驶"
+        },
+        {
+          "cn": "核心机制：张焱用北京豆汁儿比喻智能眼镜市场——每个人都好奇尝一口，但天天喝的人极少。资本喜欢「性感」的全栈故事（显示+计算+AI），显示器公司不做计算就融不到钱，被迫烧钱做不擅长的事",
+          "en": "The core mechanism: Zhang Yan compares the smart-glasses market to Beijing's fermented Douzhir — everyone is curious enough for one sip, but very few drink it daily. Capital loves a sexy full-stack story of display plus computing plus AI; display companies can't raise money without computing, so they're forced to burn cash on what they're not good at.",
+          "note": "<span>表达提示</span>full-stack story → 全栈故事；raise money → 融资；burn cash → 烧钱；one sip → 尝一口"
+        },
+        {
+          "cn": "关键理解：这不是单一产品问题，是产业结构问题。理想分工应是：眼镜厂做显示器、计算厂做芯片、内容厂做生态——像手机产业链。但现实是每个厂商都想端到端，结果「引雷能律」烧光现金流",
+          "en": "The key insight: this isn't a single-product problem but an industry-structure problem. The ideal division of labor: glass makers do displays, computing companies do chips, content companies do ecosystems — like the phone industry chain. But in reality, every maker wants end-to-end, and the 'full-stack curse' burns out their cash flow.",
+          "note": "<span>表达提示</span>division of labor → 分工；end-to-end → 端到端；industry chain → 产业链；cash flow → 现金流"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「取消按键的前提是AI真的能干」",
+          "phrases": [
+            "You can remove the buttons only if the AI truly does the job.",
+            "Removing physical controls is fine once the system actually works."
+          ],
+          "chunks": "only if · once the system works",
+          "usage": "两句都是条件句，第一句更口语"
+        },
+        {
+          "intent": "想说「产品买来吃灰」",
+          "phrases": [
+            "You'll buy it and it'll gather dust.",
+            "It'll end up sitting in a drawer after a week."
+          ],
+          "chunks": "gather dust · sit in a drawer",
+          "usage": "gather dust 是固定说法，最常用"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title_cn": "三、产业与技术深水区",
+      "title_en": "Part 3: Into the Deep Water of Industry and Technology",
+      "context": "嘉宾对「眼镜上永远挂着显示」这一前提本身提出质疑，并讨论行业的终极形态缺失。语域：formal 产业思辨。",
+      "speak": "Instead of hanging a screen on your nose, why not consider retinal projection or even optic-nerve invasion — though brain-computer interfaces raise their own fears. The guests raise an outsider's sharp question: is wearing a display in front of your eyes all day a bad idea from the very start? 'Could it be that the glasses idea itself is a bad idea?' Musk's EVs only solve getting from A to B; he doesn't stuff a refrigerator into the car, while domestic automakers compete on experiences that eat up users' time. The glasses industry lacks a consensus on the 'final form' — even insiders can't picture what a perfect AI glasses should look like. Humans want to 'play' during their sixteen non-working hours, and great products should own those hours. But occupying attention with a hypnotic visual system and satisfying needs with real human interaction are two different roads. If the long-term goal takes twenty years and the planet's resources can't support it, the whole system could collapse — Zhang Yan warns us to distinguish a ten-year vision from a twenty-year one and from one that will never finish in a lifetime.",
+      "sentences": [
+        {
+          "cn": "与其在鼻子上挂屏幕，不如考虑视网膜投影或视神经侵入——当然脑机接口也有担忧。嘉宾提出外行但尖锐的质疑：持续在眼前显示这件事，眼镜是不是从一开始就是坏主意？",
+          "en": "Instead of hanging a screen on your nose, consider retinal projection or even optic-nerve invasion — though brain-computer interfaces bring their own worries. The guests raise an outsider's sharp question: could keeping a display in front of your eyes at all times make glasses a bad idea from the very start?",
+          "note": "<span>表达提示</span>retinal projection → 视网膜投影；optic-nerve → 视神经；brain-computer interface → 脑机接口；from the very start → 从一开始"
+        },
+        {
+          "cn": "（引用）「有没有可能眼镜这个主意，就是个坏主意，就不是个好主意？」",
+          "en": "A quote: 'Could it be that the glasses idea itself is a bad idea?'",
+          "note": "<span>表达提示</span>could it be that… → 有没有可能…；a bad idea → 坏主意"
+        },
+        {
+          "cn": "核心机制：马斯克做电动车只解决 A 到 B，不在车里拼冰箱；但国内车企拼体验消耗用户时间。眼镜行业缺乏「终极形态」共识——完美 AI 眼镜该是什么样，连从业者都想象不出来",
+          "en": "The core mechanism: Musk's EVs only solve getting from A to B; he doesn't stuff a refrigerator into the car. But domestic automakers compete on experiences that consume users' time. The glasses industry lacks a consensus on the 'final form' — even insiders can't picture what a perfect AI glasses should look like.",
+          "note": "<span>表达提示</span>solve A to B → 解决A到B；stuff into → 塞进；consensus → 共识；insiders → 从业者"
+        },
+        {
+          "cn": "关键理解：人类 16 小时非工作时间都想「玩」，伟大产品应占据这些时间。但用「迷魂视觉系统」占据注意力，和用真实人际互动满足需求，是两条路",
+          "en": "The key insight: humans want to 'play' during their sixteen non-working hours, and great products should own those hours. But occupying attention with a hypnotic visual system and satisfying needs through real human interaction are two different roads.",
+          "note": "<span>表达提示</span>non-working hours → 非工作时间；own those hours → 占据这些时间；hypnotic → 迷魂的；two different roads → 两条路"
+        },
+        {
+          "cn": "（引用）方法边界：如果远期目标要 20 年且地球资源不支持，整个体系有崩溃可能——张焱提醒要区分 10 年、20 年还是一辈子完不成的愿景",
+          "en": "The boundary: if the long-term goal takes twenty years and the planet's resources can't support it, the whole system may collapse — Zhang Yan reminds us to distinguish a ten-year vision, a twenty-year one, and one that can never be finished in a lifetime.",
+          "note": "<span>表达提示</span>distinguish A from B → 区分A和B；can't support → 不支持；in a lifetime → 一辈子内"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「眼镜这个主意本身可能就是错的」",
+          "phrases": [
+            "What if glasses were a bad idea from the start?",
+            "The premise itself — a display on your nose — might be the flaw."
+          ],
+          "chunks": "what if · the premise itself",
+          "usage": "第一句更口语挑衅；第二句更书面分析"
+        },
+        {
+          "intent": "想说「要区分愿景的时间尺度」",
+          "phrases": [
+            "You have to tell a ten-year vision from a lifetime one.",
+            "Some goals are finishable; others are just fantasies."
+          ],
+          "chunks": "tell A from B · finishable vs fantasies",
+          "usage": "第一句是节目结论式说法，最推荐"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "title_cn": "四、AI 时代的人类价值（节目后半段哲学深渊）",
+      "title_en": "Part 4: Human Value in the AI Age (The Philosophical Abyss)",
+      "context": "节目后半段滑向赛博永生、AI灭人论与模型对冲的哲学讨论。语域：formal 哲学思辨。",
+      "speak": "The engineer's view is icy cold: an ordinary life is about four terabytes of data — images, videos, audio — enough to store and reproduce a person completely. These are not live-streaming devices; they are visual-capture devices, collecting a mirror of everyone's life. Cyber-immortality is a technical certainty to engineers, but to ordinary people it is the fear of losing control — once your face and voice are uploaded to a platform, you only choose 'yes or no,' and your asset has already been clouded. As one guest says: 'An ordinary life only takes about four terabytes to store… the reason we do AI is that this system is collecting everyone's life.' Engineers in autonomous driving and chips broadly believe humans will be wiped out by AI — and this is pessimism, not optimism. They think the digital world and humans are equal; zeros and ones are not inferior, and humans think too highly of themselves. The counterweight between models — models trained with different stances and purposes balancing each other — may be humanity's last hope; gene editing as a 'self-reinforcement' path is ethically banned, but the technical window already exists. For practitioners, this is a serious judgment, not sci-fi scaremongering.",
+      "sentences": [
+        {
+          "cn": "做 AI 的工程师视角极度「冷血」——一个普通人生大约 4TB 数据（图像、视频、音频）就能完整存储和复现。这不是直播设备，是视觉采集设备，正在采集每个人的人生镜像",
+          "en": "The engineer's view is extremely cold-blooded — an ordinary person's life is about 4TB of data (images, videos, audio) that can fully store and reproduce it. These aren't live-streaming devices; they are visual-capture devices, collecting a mirror image of everyone's life.",
+          "note": "<span>表达提示</span>cold-blooded → 冷血；reproduce → 复现；live-streaming → 直播；visual-capture → 视觉采集；mirror image → 人生镜像"
+        },
+        {
+          "cn": "适用边界：赛博永生对工程师是技术必然，对普通人是失控恐惧——人脸音频上传平台后，你只是选择「是或不是」，资产已被云化",
+          "en": "The boundary: cyber-immortality is a technical certainty to engineers, but to ordinary people it is the fear of losing control — once your face and audio are uploaded to a platform, you only choose 'yes or no,' and your assets have already been clouded.",
+          "note": "<span>表达提示</span>cyber-immortality → 赛博永生；losing control → 失控；upload → 上传；clouded → 被云化"
+        },
+        {
+          "cn": "（引用）「一个很普通的人生，大概只有 4 个 T 就能把你的一个生给存出来……我们为什么去做 AI 的原因，是我们这套东西在采集我们每个人的人生。」",
+          "en": "A quote: 'An ordinary life only takes about four terabytes to store… the reason we do AI is that this system is collecting each of our lives.'",
+          "note": "<span>表达提示</span>take about 4TB → 大约4T；the reason we do AI → 我们为什么做AI；collecting lives → 采集人生"
+        },
+        {
+          "cn": "原因：做智能驾驶、芯片的工程师普遍认为「人一定会被 AI 灭」——这不是乐观而是悲观。他们认为数字世界与人类平等，零一零一并不低人一头，是人类自持过高",
+          "en": "The reason: engineers in autonomous driving and chips broadly believe 'humans will surely be wiped out by AI' — and this is pessimism, not optimism. They consider the digital world equal to humans; zeros and ones are not inferior, and humans think too highly of themselves.",
+          "note": "<span>表达提示</span>be wiped out → 被灭；pessimism → 悲观；not inferior → 并不低人一头；think too highly of oneself → 自持过高"
+        },
+        {
+          "cn": "解法：模型之间的对冲（不同立场、目的训练出的模型互相制衡）可能是人类社会最后的希望；基因编辑等「自我加强」路线被伦理禁止，但技术窗口已存在",
+          "en": "The solution: the counterweight between models — models trained with different stances and purposes checking each other — may be humanity's last hope; gene editing as a 'self-reinforcement' path is ethically banned, but the technical window already exists.",
+          "note": "<span>表达提示</span>counterweight → 对冲；check each other → 互相制衡；self-reinforcement → 自我加强；ethical ban → 伦理禁止"
+        },
+        {
+          "cn": "严重程度：致命——对从业者而言这是严肃判断，不是科幻危言",
+          "en": "The severity: fatal — for practitioners this is a serious judgment, not sci-fi scaremongering.",
+          "note": "<span>表达提示</span>serious judgment → 严肃判断；scaremongering → 危言耸听；fatal → 致命的"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「4T就能存下一个人的一生」",
+          "phrases": [
+            "Four terabytes is enough to store a whole life.",
+            "Your entire life fits in four terabytes of data."
+          ],
+          "chunks": "enough to store · fit in",
+          "usage": "两句都直白，fits in 更口语"
+        },
+        {
+          "intent": "想说「工程师认为人类会被AI取代是悲观判断」",
+          "phrases": [
+            "Engineers see it as a certainty, not a sci-fi scare.",
+            "To them it's cold logic, not fear-mongering."
+          ],
+          "chunks": "a certainty · cold logic vs fear-mongering",
+          "usage": "第二句对比更强烈，适合复述观点"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "cn": "用「for a jar of vinegar」说：为一袋醋包顿饺子。",
+      "en": "They built the whole passthrough system just for a jar of vinegar."
+    },
+    {
+      "cn": "用「gather dust」说：买来大概率吃灰。",
+      "en": "Buy it now and it'll gather dust for three years."
+    },
+    {
+      "cn": "用「what if」说：眼镜这个主意本身可能是错的。",
+      "en": "What if glasses as a concept were a bad idea from the start?"
+    },
+    {
+      "cn": "用「be wiped out」说：人一定会被AI灭。",
+      "en": "Many engineers believe humans will eventually be wiped out by AI."
+    }
+  ],
+  "pitfalls": [
+    {
+      "wrong": "This product is very cool and will be used by many people.",
+      "right": "It's cool on paper, but the real demand is a sip, not a daily habit.",
+      "why": "will be used by many people 是主观臆断；用节目里的豆汁儿逻辑表达真实需求才准确。"
+    },
+    {
+      "wrong": "The glasses can see through to the outside world.",
+      "right": "The passthrough mode lets you see the outside world while wearing them.",
+      "why": "see through 是「看穿/看透」；科技语境下的透视功能用 passthrough 或 see the outside world。"
+    },
+    {
+      "wrong": "This product makes people feel very sick.",
+      "right": "After half an hour, your head feels squeezed and you want to take it off.",
+      "why": "feel sick 太宽泛；具体描述「头被勒得慌」才符合原文画面感。"
+    },
+    {
+      "wrong": "The AI will collect our whole life's data.",
+      "right": "These devices are collecting a mirror image of everyone's life — about 4TB per person.",
+      "why": "collect data 太技术化；加上 mirror image 和 4TB 的具体意象，观点才有冲击力。"
+    }
+  ],
+  "shifts": [
+    {
+      "before": "以为智能眼镜是科幻电影里的全天候AR界面",
+      "after": "活下来的产品更像「挂在鼻子上的耳机」，核心是音频而不是显示"
+    },
+    {
+      "before": "以为眼镜厂商做端到端全栈是实力象征",
+      "after": "每家都做端到端是被资本逼的，理想分工应像手机产业链一样拆分"
+    },
+    {
+      "before": "以为AI永生是科幻、工程师在危言耸听",
+      "after": "对工程师这是技术必然的悲观判断，对普通人则是失控恐惧的开始"
+    }
+  ],
+  "voice": "en-US-JennyNeural",
+  "audio_dir": "audio/en/zhineng_yanjing_xuanpin_guide"
+}

@@ -1,0 +1,478 @@
+{
+  "slug": "shenzhen_survival_manual_ep185",
+  "date": "2026-06-23",
+  "platform": "小宇宙FM",
+  "title": "Ep185 深圳生存手册：去岭南，去办公大楼约会！",
+  "title_en": "Ep185 Shenzhen Survival Manual: Go Lingnan — Date at an Office Tower!",
+  "eyebrow": "City Life & Society · 城市生活与社会",
+  "duration": "2小时16分",
+  "source_url": "https://www.xiaoyuzhoufm.com/episode/695b9d21bdbeb6a09edc2193",
+  "summary_cn": "毛冬、家宇、小块、大熊、风哥在深圳现场录制城市生存手册下篇：蠓虫与非洲大蜗牛、塘朗山猴子、蟑螂全屋生存术、地铁上班怨气与偷拍、大厂办公大楼约会、假离婚买房结三次婚、盐田山顶夜景与文华东方MO Bar，以及「无人在意」式包容与「能看到希望」的移民城市底色",
+  "summary_en": "Mao Dong, Jia Yu, Xiao Kuai, Da Xiong, and Feng Ge record part two of the Shenzhen survival manual live: biting midges and African giant snails, monkeys on Tanglang Mountain, cockroach-proof living, morning-metro rage and phone-snatching on trains, dates at big-tech office towers, fake-divorce home-buying that leads to three marriages, the night views from Yantian's hilltop and the Mandarin Oriental's MO Bar — and underneath it all, a migrant city whose tolerance is \"nobody cares\" and whose core promise is \"you can still see hope.\"",
+  "scenes": [
+    {
+      "id": "s1",
+      "title_cn": "一、岭南生态：虫子、蜗牛与猴子",
+      "title_en": "1. Lingnan Ecology: Bugs, Snails & Monkeys",
+      "context": "岭南户外的蠓虫叮咬、非洲大蜗牛与塘朗山猴子。语域：casual 现场分享 + 生存指南。",
+      "speak": "The mechanism: biting midges are worse than mosquitoes. Stand outdoors for a minute and you're hit; the bite swells into a big patch first, then the center oozes and scabs, lingering for a month or two. The key insight: one guest wore shorts to a thirty-minute \"coffee date\" in a little grove and came away with an entire leg swollen enough to forget about flirting — the invisible assassin of outdoor dates in Lingnan. The typical scene: parks, hills behind campuses, any leafy outdoor date spot. As the guest puts it, \"The whole leg was swollen from here to here… about 30 minutes of coffee, and all I could think about was the coffee.\" Compared with mosquitoes, whose bites fade in days, midge bites are the long-term, ulcerating kind. And the African giant snail: a species that invaded as early as 1840, far bigger than the fingernail-sized snails in Beijing, common along roadsides, and a serious visual shock.",
+      "sentences": [
+        {
+          "cn": "核心机制：比蚊子更狠的叮咬昆虫，户外站立一分钟即可中招，包块先肿一大片再中心化脓流水，持续一两个月",
+          "en": "The mechanism: biting midges are worse than mosquitoes. Stand outdoors for a minute and you're bitten; the welt first swells into a large patch, then the center oozes and scabs over, lingering for a month or two.",
+          "note": "<span>表达提示</span>biting midge → 蠓虫/小咬；welt → 包块；ooze → 化脓流水；linger → 持续"
+        },
+        {
+          "cn": "关键理解：穿短裤在小树林「互咖啡」30分钟，整条腿肿到无法关心暧昧——岭南户外约会的隐形杀手",
+          "en": "The key insight: one guest wore shorts to a 30-minute \"coffee date\" in a grove and came away with a leg so swollen he couldn't focus on the romance — the invisible assassin of outdoor dates in Lingnan.",
+          "note": "<span>表达提示</span>grove / small woods → 小树林；swollen → 肿；invisible assassin → 隐形杀手"
+        },
+        {
+          "cn": "典型场景：公园、校园后山、任何有植被的户外亲密约会",
+          "en": "The typical scene: parks, the hills behind campuses, any intimate outdoor date near greenery.",
+          "note": "<span>表达提示</span>intimate date → 亲密约会；greenery → 植被"
+        },
+        {
+          "cn": "（引用）原文依据：「整个腿从这儿到这儿全部都肿了……互咖啡的30分钟左右，灵人关心只关心互咖啡。」",
+          "en": "\"The whole leg was swollen from here to here… about 30 minutes of coffee, and I only cared about the coffee.\"",
+          "note": "<span>表达提示</span>swollen → 肿了；only care about → 只关心"
+        },
+        {
+          "cn": "（引用）与蚊子对比：蚊子包几天消，蠓虫包是「光明反应式」长期溃烂",
+          "en": "Compared with mosquitoes, whose bites fade in days, midge bites are the long-term, ulcerating kind.",
+          "note": "<span>表达提示</span>fade in days → 几天就消；ulcerating → 溃烂的；long-term → 长期的"
+        },
+        {
+          "cn": "原因：1840年即已入侵的物种，体型远超北京手指盖大小蜗牛，路边常见，视觉冲击强",
+          "en": "The cause: a species that invaded as early as 1840, far bigger than the fingernail-sized snails in Beijing, common along roadsides, and a serious visual shock.",
+          "note": "<span>表达提示</span>invasive species → 入侵物种；fingernail-sized → 手指盖大小；visual shock → 视觉冲击"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「蠓虫比蚊子可怕多了」",
+          "phrases": [
+            "Midges make mosquito bites look like a spa treatment.",
+            "A mosquito bite is nothing next to a midge welt."
+          ],
+          "chunks": "look like a spa treatment · next to",
+          "usage": "spa treatment 是夸张反讽；next to 表示「跟…相比」"
+        },
+        {
+          "intent": "想说「户外约会会变成灾难」",
+          "phrases": [
+            "A cute outdoor date turns into a bug-feeding session.",
+            "By the time the date ends, you're feeding the local ecosystem."
+          ],
+          "chunks": "bug-feeding session · feeding the local ecosystem",
+          "usage": "两种说法都带幽默，点评时用"
+        },
+        {
+          "intent": "想说「这蜗牛大得吓人」",
+          "phrases": [
+            "The snails are big enough to make you double-check your eyes.",
+            "They're practically small mammals with shells."
+          ],
+          "chunks": "double-check your eyes · small mammals with shells",
+          "usage": "第二句夸张得形象，适合脱口秀风格"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title_cn": "二、租房与生存：蟑螂、水果与餐厅信号",
+      "title_en": "2. Renting & Survival: Roaches, Fruit & Restaurant Signals",
+      "context": "蟑螂全屋生存术、广东水果常识，以及用餐厅纸巾品牌判断口味。语域：casual 现场分享 + 生活经验。",
+      "speak": "The mechanism: roaches fly here, and they can show up in urban villages or upscale complexes alike. Compared with food scraps, it's oily garbage and humidity that really attract them. The key insight: one guest lived three years with zero roaches — the secret was extreme cleanliness and never piling up greasy trash, not the district's luck. The typical situation: just moved to Shenzhen, worried about a rental because someone said \"that area is full of roaches.\" As they joke, \"They're everywhere… even Ma Huateng's house has them. More than greasy food, humidity is the real attractant.\" To handle it: roach traps with glue, clean greasy kitchen waste promptly, seal up gaps — and don't expect changing districts to fix it. And a piece of local dining wisdom: in Cantonese food culture, if a restaurant puts out Tempo-brand tissues on the table, it's almost a guarantee the food is bad — a \"red-flag indicator\" locals have learned to read.",
+      "sentences": [
+        {
+          "cn": "核心机制：蟑螂会飞，城中村与高档小区皆有可能；比起食物残渣，油腻垃圾和潮湿更招蟑螂",
+          "en": "The mechanism: roaches fly, and they can show up in urban villages or upscale complexes alike. Compared with food scraps, it's oily garbage and humidity that really attract them.",
+          "note": "<span>表达提示</span>cockroach / roach → 蟑螂；upscale complex → 高档小区；food scraps → 食物残渣；humidity → 潮湿"
+        },
+        {
+          "cn": "关键理解：有嘉宾入住三年零蟑螂——秘诀是极度洁癖+不堆油腻垃圾，而非地段玄学",
+          "en": "The key insight: one guest lived three years with zero roaches — the secret was extreme cleanliness and never piling up greasy trash, not district luck.",
+          "note": "<span>表达提示</span>zero roaches → 零蟑螂；extreme cleanliness → 极度洁癖；district luck → 地段玄学"
+        },
+        {
+          "cn": "典型场景：刚来深圳租房，听人说「那边蟑螂多」时的选址焦虑",
+          "en": "The typical situation: you've just arrived, and you're anxious about where to rent after someone says \"that area is full of roaches.\"",
+          "note": "<span>表达提示</span>anxious about → 焦虑；where to rent → 选址租房"
+        },
+        {
+          "cn": "（引用）原文依据：「哪都有……马化腾他们家也有。比起垃圾油腻食物，潮湿是更核心的吸引因素。」",
+          "en": "\"They're everywhere… even Ma Huateng's house has them. More than greasy food, humidity is the real attractant.\"",
+          "note": "<span>表达提示</span>attractant → 吸引因素；greasy food → 油腻食物"
+        },
+        {
+          "cn": "（引用）怎么落地：蟑螂屋（胶诱盒）+ 及时清理油腻厨余 + 封堵缝隙；别指望换区就能根治",
+          "en": "How to handle it: glue roach traps, clear greasy kitchen waste promptly, and seal up gaps — and don't expect changing districts to fix it for good.",
+          "note": "<span>表达提示</span>glue trap → 胶诱盒；kitchen waste → 厨余；seal up gaps → 封堵缝隙；for good → 根治"
+        },
+        {
+          "cn": "广东饮食文化中，若餐厅桌上放的是Tempo品牌纸巾，几乎可判定不好吃——本地人总结的「避雷指标」",
+          "en": "In Cantonese dining culture, if a restaurant puts out Tempo-brand tissues on the table, it's almost a guarantee the food is bad — a \"red-flag indicator\" locals have learned to read.",
+          "note": "<span>表达提示</span>red-flag indicator → 避雷指标；guarantee → 几乎可判定；tissues → 纸巾"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「蟑螂哪都有，跟地段无关」",
+          "phrases": [
+            "Roaches don't respect district boundaries.",
+            "Even the fanciest neighborhood has them."
+          ],
+          "chunks": "don't respect boundaries · even the fanciest",
+          "usage": "第一句拟人化俏皮；第二句平实强调"
+        },
+        {
+          "intent": "想说「干净才是关键」",
+          "phrases": [
+            "Cleanliness, not location, is the real repellent.",
+            "It's your habits that keep them out, not your zip code."
+          ],
+          "chunks": "the real repellent · your zip code",
+          "usage": "zip code 借代「地段」，非常口语化"
+        },
+        {
+          "intent": "想说「用纸巾判断餐厅口味」",
+          "phrases": [
+            "The tissue brand on the table is a dead giveaway.",
+            "Cheap tissues on the table = fast way out."
+          ],
+          "chunks": "a dead giveaway · fast way out",
+          "usage": "dead giveaway 是「明显暴露真相」的口语；第二句夸张"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title_cn": "三、语言与地铁：混用普通话与上班怨气",
+      "title_en": "3. Language & the Metro: Mixed Mandarin and Morning Commute Rage",
+      "context": "深圳的语言生态与早高峰地铁的怨气与偷拍应对。语域：casual 现场对谈 + 实用建议。",
+      "speak": "The first dialect is a mix of Cantonese and Hakka, with a Chaoshan dialect zone; but in this migrant city, Mandarin mixed with every accent is the real main stream. The key insight: you can live perfectly well without Cantonese; knowing three phrases — greeting, thanks, how much — is a bonus, not a requirement. The boundary: pick up local dialects when you go deep into old neighborhoods or order at Chaoshan food stalls; at work and with young people, Mandarin is enough. As they put it, \"Kids who grew up in Shenzhen… it's fine if you don't know Cantonese, but knowing only Cantonese might actually make things harder.\" The cause of metro rage: Shenzhen is generally civil, but the \"exit first, board later\" rule often breaks in the morning rush — getting up late plus rushing for the train equals a blowup, with occasional shoving and shouting matches. The fix: travel off-peak; give way when squeezed; and if you see someone taking creep shots, call it out loudly and ask to check and delete from the gallery.",
+      "sentences": [
+        {
+          "cn": "核心机制：第一方言是粤语与客家话混合体，另有潮汕话片区；但移民城市现实中普通话+各口音混用是主流",
+          "en": "The mechanism: the first dialect is a mix of Cantonese and Hakka, with a Chaoshan dialect zone on top. But in this migrant city, Mandarin blended with every accent is the real main stream.",
+          "note": "<span>表达提示</span>Cantonese → 粤语；Hakka → 客家话；Chaoshan dialect → 潮汕话；main stream → 主流"
+        },
+        {
+          "cn": "关键理解：不会粤语完全能生活；会三句粤语（打招呼/谢谢/多少钱）是加分项而非刚需",
+          "en": "The key insight: you can live perfectly well without Cantonese. Knowing three phrases — greetings, thanks, and \"how much\" — is a bonus, not a requirement.",
+          "note": "<span>表达提示</span>a bonus, not a requirement → 加分项而非刚需；greeting → 打招呼"
+        },
+        {
+          "cn": "适用边界：深入本地老社区、潮汕大排档点菜时可学当地方言；职场与年轻人社交普通话足够",
+          "en": "The boundary: pick up local dialects when you go deep into old neighborhoods or order at Chaoshan food stalls; at work and in young people's social circles, Mandarin is enough.",
+          "note": "<span>表达提示</span>old neighborhood → 老社区；food stall → 大排档；social circle → 社交圈"
+        },
+        {
+          "cn": "（引用）原文依据：「深圳长大的小孩……你不会粤语没问题，但你只会粤语可能反而吃力。」",
+          "en": "\"Kids who grew up in Shenzhen… it's fine if you don't know Cantonese, but if you only know Cantonese, things might actually get harder.\"",
+          "note": "<span>表达提示</span>grow up in → 在…长大；get harder → 反而吃力"
+        },
+        {
+          "cn": "原因：深圳整体文明，但早高峰「先下后上」常被打破——起晚+赶车=怨气爆发，偶发肢体冲突与脏话互喷",
+          "en": "The cause: Shenzhen is generally civil, but \"let people off before boarding\" often breaks down in the morning rush — sleeping in plus rushing for the train equals a rage blowup, with occasional shoving and shouting matches.",
+          "note": "<span>表达提示</span>morning rush → 早高峰；let off before boarding → 先下后上；rage blowup → 怨气爆发；shouting match → 脏话互喷"
+        },
+        {
+          "cn": "解法：错峰出行；被挤时先退让；目击偷拍大声提醒+要求查回收相册",
+          "en": "The fix: travel off-peak; give way when you're squeezed; and if you spot someone taking creep shots, call it out loudly and ask them to check and delete from the gallery.",
+          "note": "<span>表达提示</span>off-peak → 错峰；call it out → 大声提醒；creep shot → 偷拍；gallery → 相册"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「不会粤语也能活」",
+          "phrases": [
+            "You can get through life here without a word of Cantonese.",
+            "Mandarin alone will carry you fine."
+          ],
+          "chunks": "get through life · carry you fine",
+          "usage": "carry you 表示「足以应付」，很口语"
+        },
+        {
+          "intent": "想说「早高峰地铁让人暴躁」",
+          "phrases": [
+            "The morning metro turns civilized people into zombies.",
+            "Rush hour here tests everyone's last nerve."
+          ],
+          "chunks": "turns into zombies · test one's last nerve",
+          "usage": "test one's last nerve 是地道习语，表示「逼到极限」"
+        },
+        {
+          "intent": "想说「遇到偷拍要当场制止」",
+          "phrases": [
+            "Call it out on the spot and demand a check.",
+            "Don't look away — name it and make them delete it."
+          ],
+          "chunks": "on the spot · name it · make them delete it",
+          "usage": "name it 表示「直接指出来」，口语有力"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "title_cn": "四、亲密关系：办公大楼约会与深圳式现实",
+      "title_en": "4. Romance: Office-Tower Dates & Shenzhen-Style Reality",
+      "context": "大厂办公大楼约会、假离婚买房，以及城市尺度对恋情的消耗。语域：casual 现场对谈 + 都市观察。",
+      "speak": "Big-tech workers think their company buildings look great — rooftop gardens and all — so a weekend date might literally mean a tour of the office tower. Work and romance get deeply tangled, and couples busy enough to go one or two weeks without meeting eventually break up. As a guest recalls, \"Our dates were always at his company… near Shenzhen North Station, DJI.\" Compared with Beijing, where dates mean bars and parks, Shenzhen dates mean office-tower night views — the money-city's time structure seeps into intimacy. There's also the geographic factor: Shenzhen's scale is huge, so living in Bao'an versus Luohu counts as a long-distance relationship; crossing two districts is expensive, and love gets worn down by distance. The first rule of local dating: \"don't pick someone too far away\" — it comes up even before personality fit. The boundary: if both have cars or share a metro line, it's fine; otherwise, prioritize living in the same district or on the same line.",
+      "sentences": [
+        {
+          "cn": "大厂打工人觉得公司楼好看（空中花园等），周末约会直接带去办公大楼参观——工作与浪漫深度绑定，忙到一两周见不到面最终分手",
+          "en": "Big-tech workers find their office towers attractive — sky gardens and all — so a weekend date might mean touring the company building. Work and romance get deeply tangled, and couples busy enough to go one or two weeks without meeting eventually split up.",
+          "note": "<span>表达提示</span>office tower → 办公大楼；sky garden → 空中花园；deeply tangled → 深度绑定；split up → 分手"
+        },
+        {
+          "cn": "（引用）「我们俩约会都是去他的公司里约会……深圳北火车站那边，大疆。」",
+          "en": "\"Our dates were always at his company… near Shenzhen North Station, DJI.\"",
+          "note": "<span>表达提示</span>dates at the office → 在公司约会；company → 公司"
+        },
+        {
+          "cn": "（引用）与北京对比：北京约会去酒吧/公园；深圳约会去公司大楼看夜景——搞钱城市的时间结构侵入亲密关系",
+          "en": "The contrast with Beijing: dates there mean bars and parks; in Shenzhen, dates mean office-tower night views — the money city's time structure seeps into intimacy.",
+          "note": "<span>表达提示</span>seep into → 侵入/渗透；time structure → 时间结构；intimacy → 亲密关系"
+        },
+        {
+          "cn": "核心机制：深圳城市尺度大，住宝安 vs 住罗湖就算「异地链」，跨两个区通勤成本高，恋情易被距离消磨",
+          "en": "The mechanism: Shenzhen's scale is enormous, so living in Bao'an versus Luohu already counts as a long-distance link; crossing two districts is costly, and relationships get worn down by distance.",
+          "note": "<span>表达提示</span>long-distance link → 异地链；commute cost → 通勤成本；worn down by distance → 被距离消磨"
+        },
+        {
+          "cn": "关键理解：「首先不要找太远的」是本地 dating 第一法则，比性格匹配更先被提及",
+          "en": "The key insight: \"don't pick someone too far away\" is the number-one rule of local dating, mentioned even before personality fit.",
+          "note": "<span>表达提示</span>the number-one rule → 第一法则；personality fit → 性格匹配；dating → 约会/相亲"
+        },
+        {
+          "cn": "适用边界：双方都有车/同线地铁尚可；否则优先考虑同区或同线居住",
+          "en": "The boundary: if both of you have cars or share a metro line, it's workable; otherwise, prioritize living in the same district or on the same line.",
+          "note": "<span>表达提示</span>prioritize → 优先考虑；same district → 同区；workable → 尚可"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「把约会带到公司」",
+          "phrases": [
+            "The date venue is literally the office.",
+            "Romance here means a tour of the HQ."
+          ],
+          "chunks": "the date venue · a tour of the HQ",
+          "usage": "venue 是正式词；tour of the HQ 有幽默感"
+        },
+        {
+          "intent": "想说「跨区就像异地恋」",
+          "phrases": [
+            "Two districts apart is basically long distance.",
+            "In Shenzhen, district lines are relationship lines."
+          ],
+          "chunks": "basically long distance · district lines are relationship lines",
+          "usage": "第二句是文字游戏式总结，适合点评"
+        },
+        {
+          "intent": "想说「距离优先于性格」",
+          "phrases": [
+            "Proximity beats personality here.",
+            "Before compatibility, check the commute time."
+          ],
+          "chunks": "proximity beats personality · compatibility · commute time",
+          "usage": "proximity beats personality 是对仗句，有总结力"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "title_cn": "五、约会与夜生活实用指南",
+      "title_en": "5. Dating & Nightlife: A Practical Guide",
+      "context": "盐田山顶夜景与文华东方 MO Bar 两大浪漫点位，以及与 Coco Park 的对比。语域：casual 现场安利 + 实用推荐。",
+      "speak": "The Yantian hilltop: a ring road lets you drive to the top, where you get the Yantian port night view plus a sliver of sea; even at three or four in the morning, lemon tea and barbecue stalls are still open and buzzing with people. The key insight: Feng Ge flatly says \"Shenzhen has few romantic spots,\" but this is one of the few free romantic spots the guests all endorse. To do it: drive up past the Yantian Senior High School at night, bring a jacket, and make it a self-drive date. The MO Bar: floor-to-ceiling glass walls overlook the whole Shenzhen center; on a smog-free night the view is superb. Seats are limited and need reservations, at roughly 120 to 180 yuan a drink. Compared with Coco Park, whose bar street is loud, lowbrow, and full of small cliques, the MO Bar suits \"occasion dates\" with a touch of ceremony. As they put it, \"Compared with Shanghai, Beijing, and Chengdu, Shenzhen's nightlife scene is indeed less developed… but the view from the 79th floor is wonderful.\"",
+      "sentences": [
+        {
+          "cn": "核心机制：环山公路可开车至山顶，看盐田港夜景+一点海景；凌晨三四点仍有柠檬茶、烧烤摊，人多热闹",
+          "en": "The mechanism: a ring road lets you drive to the hilltop for the Yantian port night view plus a slice of sea. Even at 3 or 4 a.m., lemon-tea and barbecue stalls are still open and buzzing with people.",
+          "note": "<span>表达提示</span>hilltop → 山顶；night view → 夜景；buzzing with people → 人多热闹；ring road → 环山公路"
+        },
+        {
+          "cn": "关键理解：风哥直言「深圳没什么浪漫地方」，但此处是嘉宾认可的少数免费浪漫点位",
+          "en": "The key insight: Feng Ge flatly says \"Shenzhen has few romantic spots,\" yet this is one of the few free romantic spots the guests all endorse.",
+          "note": "<span>表达提示</span>flatly say → 直言；romantic spot → 浪漫点位；endorse → 认可"
+        },
+        {
+          "cn": "（引用）怎么落地：夜间驱车至盐田高级中学上方，带外套；适合自驾约会",
+          "en": "How to do it: drive up past Yantian Senior High School at night and bring a jacket; it's perfect for a self-drive date.",
+          "note": "<span>表达提示</span>drive up → 驱车上去；self-drive date → 自驾约会；bring a jacket → 带外套"
+        },
+        {
+          "cn": "在讲什么：透明玻璃墙俯瞰深圳中心全景，无雾霾夜晚视野极佳；位置少需预约，人均约120-180元/杯",
+          "en": "What it is: floor-to-ceiling glass walls overlook the whole Shenzhen center; on a smog-free night the visibility is superb. Seats are few and require reservations, at roughly 120-180 yuan per drink.",
+          "note": "<span>表达提示</span>floor-to-ceiling glass → 透明玻璃墙；smog-free → 无雾霾；visibility → 视野；reservation → 预约"
+        },
+        {
+          "cn": "与 Coco Park 对比：福田Coco Park酒吧街偏吵、偏low、三三两两熟人局；MO Bar 适合「偶尔见市面」的仪式感约会",
+          "en": "The contrast with Coco Park: Futian's Coco Park bar street is loud, lowbrow, and full of small cliques. The MO Bar suits \"occasional splurge\" dates with a sense of ceremony.",
+          "note": "<span>表达提示</span>lowbrow → 偏 low；clique → 熟人局；a sense of ceremony → 仪式感；occasional splurge → 偶尔见市面"
+        },
+        {
+          "cn": "（引用）原文依据：「比起上海北京成都，深圳夜场文化确实比较落后……但79楼看夜景非常好。」",
+          "en": "\"Compared with Shanghai, Beijing, and Chengdu, Shenzhen's nightlife culture is indeed less developed… but the view from the 79th floor is wonderful.\"",
+          "note": "<span>表达提示</span>nightlife culture → 夜场文化；less developed → 比较落后；the view is wonderful → 看夜景非常好"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「凌晨还有夜市烟火气」",
+          "phrases": [
+            "The night market is still alive at 3 a.m.",
+            "At four in the morning it's still buzzing."
+          ],
+          "chunks": "still alive · buzzing",
+          "usage": "buzzing 形容热闹氛围，比 crowded 更生动"
+        },
+        {
+          "intent": "想说「这家店适合偶尔奢侈一次」",
+          "phrases": [
+            "It's for the occasional splurge, not your weekly hangout.",
+            "Save it for a special occasion date."
+          ],
+          "chunks": "occasional splurge · special occasion",
+          "usage": "splurge 是「大手笔消费」；special occasion 是「特殊场合」"
+        },
+        {
+          "intent": "想说「夜生活虽弱但夜景很美」",
+          "phrases": [
+            "The nightlife may lag, but the skyline does not.",
+            "Weak on clubs, strong on views."
+          ],
+          "chunks": "the skyline does not · weak on clubs, strong on views",
+          "usage": "第二句是对仗短句，有总结感"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "title_cn": "六、城市气质：包容、希望与无规则",
+      "title_en": "6. City Character: Tolerance, Hope & No Fixed Rules",
+      "context": "收尾总结深圳的包容底色：无单一成功模板、「无人在意」式自由与「能看到希望」。语域：casual 现场感悟 + 城市点评。",
+      "speak": "Whether you're a listed-company executive, a big-tech white-collar worker, or a delivery rider, Shenzhen has room for you. Push a cart out at midnight and you rarely meet city inspectors; every class feels \"there's a chance.\" That's what Feng Ge loves most about Shenzhen after traveling the whole country. As he says, \"The most important thing about living here is being able to see hope.\" The mechanism: there's no \"old Shenzhener\" cultural identity — anyone from the northeast, Guizhou, or anywhere can call themselves a Shenzhener after a year. Tolerance here means not being excluded for where you're from. The key insight: a Shandong person used to the hierarchy of banquet seating might feel out of place — \"nobody treats you like the boss\" — and yet not being ambitious isn't looked down on either, because \"nobody cares.\" Compared with northern cities full of unspoken rules, in Shenzhen \"any rule can be discussed,\" everyone walks their own path, and there's no single template for success. Why it matters: being LGBTQ-friendly here isn't a loud statement — it's that coworkers simply don't care about your orientation, and everyone does their own thing.",
+      "sentences": [
+        {
+          "cn": "无论上市公司高管、大厂白领还是外卖快递，深圳都能容纳；半夜推车出街少遇城管，各阶层都觉得「有机会」——这是风哥跑遍全国后最偏爱深圳之处",
+          "en": "Whether you're a listed-company executive, a big-tech white-collar worker, or a delivery rider, Shenzhen has room for you. Push a cart out at midnight and you rarely meet city inspectors; every class feels \"there's a chance\" — and that's what Feng Ge loves most about Shenzhen after traveling the whole country.",
+          "note": "<span>表达提示</span>have room for → 容纳；city inspector → 城管；every class → 各阶层；travel the whole country → 跑遍全国"
+        },
+        {
+          "cn": "（引用）「生活在这儿，最重要的是能看到希望。」",
+          "en": "\"The most important thing about living here is being able to see hope.\"",
+          "note": "<span>表达提示</span>see hope → 看到希望；the most important thing → 最重要的事"
+        },
+        {
+          "cn": "核心机制：没有「老深圳人」文化认同，东北人/贵州人/任何人来一年都可自称深圳人；包容=不因籍贯排斥",
+          "en": "The mechanism: there's no \"old Shenzhener\" cultural identity — anyone from the northeast, Guizhou, or anywhere can call themselves a Shenzhener after a year. Tolerance means not being excluded for where you're from.",
+          "note": "<span>表达提示</span>cultural identity → 文化认同；exclude → 排斥；place of origin → 籍贯"
+        },
+        {
+          "cn": "关键理解：山东人若习惯酒桌排位可能不适——「没人把你当老大」；不上进也不会被鄙视，因为「没有人在意」",
+          "en": "The key insight: a Shandong person used to banquet seating hierarchy might feel out of place — \"nobody treats you like the boss.\" And not being ambitious won't get you judged either, because \"nobody cares.\"",
+          "note": "<span>表达提示</span>banquet seating hierarchy → 酒桌排位；out of place → 不适；ambitious → 上进的；nobody cares → 没人在意"
+        },
+        {
+          "cn": "（引用）与北方「套路」城市对比：深圳「什么规则都可以说」，各走各路，无单一成功模板",
+          "en": "Compared with northern cities of unspoken rules, in Shenzhen \"any rule can be discussed\" — everyone walks their own path, and there's no single template for success.",
+          "note": "<span>表达提示</span>unspoken rule → 潜规则/套路；walk one's own path → 各走各路；template for success → 成功模板"
+        },
+        {
+          "cn": "为什么重要：性少数友好不是旗帜鲜明表态，而是同事不关心你的性向——各做各的事",
+          "en": "Why it matters: being LGBTQ-friendly here isn't a loud statement — it's that coworkers simply don't care about your orientation, and everyone does their own thing.",
+          "note": "<span>表达提示</span>LGBTQ-friendly → 性少数友好；a loud statement → 旗帜鲜明的表态；orientation → 性向；do one's own thing → 各做各的事"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「深圳对所有人都有位置」",
+          "phrases": [
+            "There's a lane for everyone on Shenzhen's highway.",
+            "Executives and riders share the same city."
+          ],
+          "chunks": "a lane for everyone · share the same city",
+          "usage": "lane 比喻「车道/位置」，很形象"
+        },
+        {
+          "intent": "想说「没人在意你」既是冷漠也是自由",
+          "phrases": [
+            "\"Nobody cares\" cuts both ways — indifferent but liberating.",
+            "The lack of scrutiny is the gift nobody mentions."
+          ],
+          "chunks": "cuts both ways · lack of scrutiny",
+          "usage": "cuts both ways 表示「双刃剑」；scrutiny 指「关注/审视」"
+        },
+        {
+          "intent": "想说「没有单一成功模板」",
+          "phrases": [
+            "Success here has as many shapes as people.",
+            "No one-size-fits-all definition of making it."
+          ],
+          "chunks": "as many shapes as people · one-size-fits-all",
+          "usage": "one-size-fits-all 是「一刀切/千篇一律」的常用词"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "cn": "用「red-flag indicator」说：餐厅纸巾品牌是避雷指标。",
+      "en": "The tissue brand on the table is a red-flag indicator for locals."
+    },
+    {
+      "cn": "用「call it out」说：遇到偷拍要当场大声提醒。",
+      "en": "If you see someone taking creep shots, call it out on the spot."
+    },
+    {
+      "cn": "用「proximity beats personality」说：深圳约会先看距离。",
+      "en": "In Shenzhen dating, proximity often beats personality."
+    },
+    {
+      "cn": "用「nobody cares」说：深圳的包容是没人在意你。",
+      "en": "Shenzhen's tolerance is a \"nobody cares\" kind of freedom."
+    }
+  ],
+  "pitfalls": [
+    {
+      "wrong": "The mosquito bites me and it becomes a very big bag.",
+      "right": "The midge bite swells into a large welt, then oozes for weeks.",
+      "why": "蚊子/蠓虫要区分 species；「包块」用 welt/swelling，不是 bag（袋子）；oozes 描述化脓流水更准确。"
+    },
+    {
+      "wrong": "We date at his office building and watch night view.",
+      "right": "Our dates were literally at his company — touring the office tower and watching the night view.",
+      "why": "「去公司约会」在英文里要用 literally 强调反差感；tour the office 比 date at the building 更自然。"
+    },
+    {
+      "wrong": "Shenzhen's tolerance is that nobody manages you.",
+      "right": "Shenzhen's tolerance means nobody scrutinizes your background or ambitions.",
+      "why": "「没人在意」不是「没人管理」；scrutinize（审视）或 care 更贴切，表达自由而非失管。"
+    },
+    {
+      "wrong": "The food at this restaurant is definitely not delicious.",
+      "right": "The tissue brand on the table is a dead giveaway that the food isn't worth it.",
+      "why": "直接断言 not delicious 太绝对；用 dead giveaway 表达「民间避雷信号」，语气更符合分享语境。"
+    }
+  ],
+  "shifts": [
+    {
+      "before": "以为深圳的包容是热情的欢迎",
+      "after": "深圳的包容是「无人在意」——不被审视、不被排斥，各走各路"
+    },
+    {
+      "before": "以为城市魅力来自文化积淀",
+      "after": "深圳的核心魅力是「能看到希望」——对每个阶层都保留机会感"
+    },
+    {
+      "before": "以为约会就该去浪漫景点",
+      "after": "深圳式浪漫是办公大楼夜景与山顶柠檬茶——搞钱城市的独特时间结构"
+    }
+  ],
+  "voice": "en-US-JennyNeural",
+  "audio_dir": "audio/en/shenzhen_survival_manual_ep185"
+}

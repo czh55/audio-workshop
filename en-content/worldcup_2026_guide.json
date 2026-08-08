@@ -1,0 +1,458 @@
+{
+  "slug": "worldcup_2026_guide",
+  "date": "2026-06-23",
+  "platform": "小宇宙FM",
+  "title": "E114:2026世界杯装腔(观赛)指南",
+  "title_en": "E114: A 2026 World Cup Guide for Non-Fans (and Showoffs)",
+  "eyebrow": "Sports & Culture · 体育与文化",
+  "duration": "1小时08分",
+  "source_url": "https://www.xiaoyuzhoufm.com/episode/6a1dbe807460cabdeb598746",
+  "summary_cn": "一句话概括：三位中年老灯为非球迷储备「社交货币」——美加墨三国合办48强104场、史上最贵球票与动态定价、伊朗跨境参赛困局，到梅西C罗诸神黄昏与新王当立，附北京时间观赛表、必看场次与中国元素（拉布布/马宁/联想AI越位）",
+  "summary_en": "Three middle-aged hosts stock up 'social currency' for non-fans: the first ever three-nation World Cup across the US, Canada, and Mexico with 48 teams and 104 matches, the most expensive tickets in history with airline-style dynamic pricing, and Iran's cross-border qualification mess. They also cover the twilight of Messi and Ronaldo and the rise of new kings, plus a Beijing-time viewing schedule, must-watch matches, and China's omnipresent presence — Labubu figurines, referee Ma Ning, and Lenovo's AI offside system. The takeaway: non-fans don't need to watch everything — just pick a few time-friendly, story-rich games and enjoy the social currency.",
+  "scenes": [
+    {
+      "id": "s1",
+      "title_cn": "一、本届世界杯基础画像",
+      "title_en": "The 2026 World Cup at a Glance",
+      "context": "The hosts lay out the tournament's new format and geography. 语域：casual 闲聊科普。",
+      "speak": "First, the basics. For the first time ever, three countries — the US, Canada, and Mexico — co-host, and the field grows from 32 to 48 teams across 104 matches; champions must play eight games. Twelve groups of four, with the top two plus the eight best third-place teams advancing. In past tournaments, weaker teams often tanked the final group game once elimination was certain; this year a third-place finish can still get you through, so the last round is far more suspenseful. At dinner parties, compare it to a variety show's comeback round — teams get eliminated then revived — and non-fans get it instantly. Of course, as the hosts joke, they expanded the field, but our Chinese team still didn't make it. And geography is wildly different from 2022: Qatar's eight stadiums were an hour apart, so fans could catch two games a day; this time Vancouver to Mexico City spans up to 4,400 kilometers, with four-to-five-hour flights between games.",
+      "sentences": [
+        {
+          "cn": "核心机制：史上首次三国（美国、加拿大、墨西哥）联合举办，从32强扩至48强，共104场比赛，夺冠需踢满8场。12个小组每组4队，前两名+8个成绩最好的第三名出线",
+          "en": "The mechanism: for the first time ever, three countries — the US, Canada, and Mexico — co-host, and the field grows from 32 to 48 teams across 104 matches; champions must play eight games. Twelve groups of four, with the top two plus the eight best third-place teams advancing.",
+          "note": "<span>表达提示</span>co-host → 联合举办；advance → 出线；top two plus best third-place → 前两名+最好第三名"
+        },
+        {
+          "cn": "关键理解：以前小组赛第三轮若已确定无法出线，弱队常「摆烂」；今年第三名仍可能晋级，末轮悬念大增",
+          "en": "The insight: in past tournaments, weaker teams often tanked the final group game once elimination was certain; this year a third-place finish can still get you through, so the last round is far more suspenseful.",
+          "note": "<span>表达提示</span>tank → 摆烂/消极比赛；suspenseful → 悬念十足；get through → 晋级"
+        },
+        {
+          "cn": "典型场景：饭局聊「这届有什么不一样」时，用「复活赛机制」类比综艺淘汰再复活，非球迷秒懂",
+          "en": "Typical move: at a dinner party, when someone asks 'what's different this time,' compare it to a variety show's comeback round — teams get eliminated then revived — and non-fans get it instantly.",
+          "note": "<span>表达提示</span>comeback round → 复活赛；eliminated then revived → 淘汰再复活；get it instantly → 秒懂"
+        },
+        {
+          "cn": "（引用）原文依据：「反正话又说回来了，就是都扩军了，就是咱中国队还是没进」",
+          "en": "As the hosts joke: 'Anyway, bottom line — they expanded the field, but our Chinese team still didn't make it.'",
+          "note": "<span>表达提示</span>bottom line → 说到底；expand the field → 扩军；make it → 进（出线）"
+        },
+        {
+          "cn": "（引用）相关概念：与1998年24→32扩军争议一脉相承，但足球世界第一运动的魅力在于「比赛多≠热度降」",
+          "en": "Related concept: it echoes the 1998 debate when the field went from 24 to 32, but football's appeal as the world's top sport is that more matches don't mean less buzz.",
+          "note": "<span>表达提示</span>echo a debate → 一脉相承/呼应；more matches ≠ less buzz → 比赛多≠热度降"
+        },
+        {
+          "cn": "2022卡塔尔世界杯8座球场挤在多哈周边，最远开车不到1小时，球迷一天能看两场。本届北美大陆跨度极大：温哥华到墨西哥城最长跨4400公里。每队有独立驻地，踢完一场可能需飞几个时区、四五小时航程",
+          "en": "In 2022, Qatar's eight stadiums sat around Doha, at most an hour's drive apart, so fans could catch two games a day. This time North America is enormous: Vancouver to Mexico City spans up to 4,400 kilometers. Every team has its own base, and after a match they may fly across several time zones on four-to-five-hour flights.",
+          "note": "<span>表达提示</span>span → 跨越；time zones → 时区；team base → 驻地；flight legs → 航程"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「摆烂/消极比赛」",
+          "phrases": [
+            "Teams used to tank the last game.",
+            "They'd basically stop trying once they were out."
+          ],
+          "chunks": "tank a game · stop trying",
+          "usage": "tank 是体育圈常用口语"
+        },
+        {
+          "intent": "想说「秒懂」",
+          "phrases": [
+            "Non-fans get it instantly.",
+            "That analogy clicks right away."
+          ],
+          "chunks": "get it instantly · clicks right away",
+          "usage": "click 指「恍然大悟」"
+        },
+        {
+          "intent": "想说「一脉相承」",
+          "phrases": [
+            "It echoes the 1998 debate.",
+            "Same argument, different decade."
+          ],
+          "chunks": "echo the debate · same argument",
+          "usage": "echo 偏书面"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title_cn": "二、三国合办：经济账与政治账",
+      "title_en": "Three Nations, Two Ledgers: Economics and Politics",
+      "context": "The hosts explain why three countries are co-hosting. 语域：casual 闲聊拆解。",
+      "speak": "Why three countries? Cost: hosting 48 teams and 104 matches alone would overload one nation's infrastructure budget, and all three already have high-standard venues — like the Estadio Azteca — so the investment gets split. Competition: when bidding in 2017-18, the main rival was Morocco, and a joint bid strengthened their case while reassuring FIFA about a first 48-team event. And spoils: the US, with the strongest commercial machine, leads; Canada and Mexico get a slice of the pie — a host berth plus some broadcast and tourism revenue. Remember the number: of 104 matches, Canada and Mexico host only 26, and the knockouts are nearly all in America. Looking ahead, 2030 goes to Portugal, Spain, and Morocco with centenary matches in South America, 2034 to Saudi Arabia, and since the same confederation can't host back-to-back, China could bid as early as 2042.",
+      "sentences": [
+        {
+          "cn": "省钱：48队104场若单一国家承办，体育场等基建成本过重；美加墨均有现成高标准场馆（如阿兹特克体育场），分摊投资",
+          "en": "Saving money: hosting 48 teams and 104 matches alone would overload one country's infrastructure budget; the US, Canada, and Mexico already have high-standard venues — like the Estadio Azteca — so the investment gets split.",
+          "note": "<span>表达提示</span>infrastructure budget → 基建成本；split the investment → 分摊投资；high-standard venues → 高标准场馆"
+        },
+        {
+          "cn": "竞争：2017-18申办时，2022已定亚洲、2018在欧洲，主要对手是摩洛哥。三国联合增强对非洲对手的竞争力，也让国际足联对首次48队大赛更放心",
+          "en": "Competition: when bidding in 2017-18, with 2022 already in Asia and 2018 in Europe, the main rival was Morocco. A three-nation bid strengthened their case against the African challenger and reassured FIFA about pulling off the first 48-team tournament.",
+          "note": "<span>表达提示</span>bid → 申办；challenger → 竞争对手；reassure FIFA → 让国际足联放心"
+        },
+        {
+          "cn": "分赃：美国商业运作能力最强带头，加拿大墨西哥「喝点汤」——拿主办国保送名额+部分转播旅游收益，投入相对较小",
+          "en": "Splitting the spoils: the US, with the strongest commercial machine, takes the lead while Canada and Mexico get a slice of the pie — an automatic host berth plus some broadcast and tourism revenue, at a relatively small investment.",
+          "note": "<span>表达提示</span>take the lead → 带头；a slice of the pie → 分一杯羹/喝点汤；automatic host berth → 主办国保送名额"
+        },
+        {
+          "cn": "（引用）怎么落地：聊「美国为什么愿意分」时，记住数字——104场中加墨仅26场，淘汰赛几乎全在美国",
+          "en": "How to use this: when asked why the US is willing to share, remember the numbers — of 104 matches, Canada and Mexico host only 26, and the knockout rounds are nearly all in America.",
+          "note": "<span>表达提示</span>knockout rounds → 淘汰赛；host matches → 承办场次"
+        },
+        {
+          "cn": "2030世界杯：葡萄牙+西班牙+摩洛哥跨洲合办，百年纪念赛还将回到乌拉圭/阿根廷/巴拉圭。2034由沙特阿拉伯承办。因不能连续同洲举办，中国最早可能2042年申办世界杯",
+          "en": "For 2030: Portugal, Spain, and Morocco co-host across continents, with centenary matches returning to Uruguay, Argentina, and Paraguay. Saudi Arabia hosts 2034. Since the same confederation can't host back-to-back, China could bid as early as 2042.",
+          "note": "<span>表达提示</span>centenary matches → 百年纪念赛；back-to-back → 连续；confederation → 洲际足联"
+        },
+        {
+          "cn": "（引用）相关概念：2002日韩合办后曾传闻禁止多国主办，但「规矩是死的人是活的」——有美国牵头就能成",
+          "en": "Related concept: after the 2002 Japan-Korea joint bid, there were rumors of banning multi-nation hosting — but rules are written to be bent, and with the US leading, it works.",
+          "note": "<span>表达提示</span>rules are written to be bent → 规矩是死的人是活的；multi-nation hosting → 多国合办"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「分一杯羹」",
+          "phrases": [
+            "Canada and Mexico get a slice of the pie.",
+            "The US cuts them in for a share."
+          ],
+          "chunks": "a slice of the pie · cut sb in",
+          "usage": "a slice of the pie 更常用"
+        },
+        {
+          "intent": "想说「规矩是死的人是活的」",
+          "phrases": [
+            "Rules are written to be bent.",
+            "The rules are flexible when the US is leading."
+          ],
+          "chunks": "rules are written to be bent · flexible",
+          "usage": "bend the rules 地道表达"
+        },
+        {
+          "intent": "想说「主办国保送名额」",
+          "phrases": [
+            "They get an automatic host berth.",
+            "Hosts are guaranteed a spot."
+          ],
+          "chunks": "automatic host berth · guaranteed a spot",
+          "usage": "berth 偏体育术语"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title_cn": "三、观赛时间表与装腔必备冷知识",
+      "title_en": "Viewing Schedule and Showoff-Worthy Trivia",
+      "context": "The hosts share the viewing guide and the money talk. 语域：casual 闲聊 + 吐槽。",
+      "speak": "Here's how to watch without being a fan: just pick two or three games that are time-friendly and story-rich. The tagline this year, besides three nations and 48 teams, is the most expensive World Cup ever. Average ticket prices jumped from about 70 dollars in Qatar to about 120 dollars; official first-category final seats run about 32,970 dollars — roughly 240,000 yuan — and the secondary market even shows million-dollar listings, mostly for show. FIFA introduced airline-and-ride-hailing-style dynamic pricing for the first time: prices swing with opponents, stage, city, and purchase timing, with tickets as low as ten dollars — it's basically stock trading. And the official resale platform takes 15 percent from each side, 30 percent total, jokingly called the Apple tax. As the hosts quip, Football Unites the World should be renamed Football Unites the World of the Rich.",
+      "sentences": [
+        {
+          "cn": "（引用）怎么落地：非球迷不必每场看——挑2-3场「时间友好+有故事」的即可（见下方推荐场次）",
+          "en": "How to use this: non-fans don't need to watch everything — just pick two or three games that are 'time-friendly and story-rich,' like the ones recommended below.",
+          "note": "<span>表达提示</span>time-friendly → 时间友好；story-rich → 有故事；pick 2-3 games → 挑2-3场"
+        },
+        {
+          "cn": "嘉宾观点：本届标签除三国48强外，就是「史上最贵世界杯」。平均票价从卡塔尔约70美元涨到约120美元；决赛一类座官方价约32970美元（约24万人民币），二手市场甚至有百万美元标价（多为噱头）",
+          "en": "The guests' take: besides three nations and 48 teams, this is the 'most expensive World Cup ever.' Average ticket prices jumped from about 70 dollars in Qatar to about 120 dollars; official first-category final seats run about 32,970 dollars — roughly 240,000 yuan — and the secondary market even shows million-dollar listings, mostly for show.",
+          "note": "<span>表达提示</span>average ticket price → 平均票价；secondary market → 二手市场；mostly for show → 多为噱头"
+        },
+        {
+          "cn": "FIFA首次引入航司/网约车式动态定价，票价随对手、阶段、城市、购买时间波动，最低甚至有10美元票，整体像炒股。FIFA还推出官方唯一二手交易平台，买卖双方各收15%佣金（合计30%，被戏称「苹果税」）",
+          "en": "FIFA introduced airline-and-ride-hailing-style dynamic pricing for the first time: prices swing with opponents, stage, city, and purchase timing, with tickets as low as ten dollars — it's basically stock trading. FIFA also launched the only official resale platform, taking 15% commission from both buyer and seller — 30% total, jokingly called the 'Apple tax.'",
+          "note": "<span>表达提示</span>dynamic pricing → 动态定价；commission → 佣金；Apple tax → 苹果税；resale platform → 二手交易平台"
+        },
+        {
+          "cn": "（引用）「Football Unites the World 应该改成足球团结有钱人的世界」",
+          "en": "As the hosts quip: 'Football Unites the World should be renamed Football Unites the World of the Rich.'",
+          "note": "<span>表达提示</span>quip → 打趣；unites the world → 团结世界"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「多为噱头」",
+          "phrases": [
+            "Those million-dollar listings are mostly for show.",
+            "It's a stunt, not a real price."
+          ],
+          "chunks": "for show · a stunt",
+          "usage": "for show 很口语"
+        },
+        {
+          "intent": "想说「像炒股」",
+          "phrases": [
+            "Ticket prices trade like stocks.",
+            "It's basically day trading for tickets."
+          ],
+          "chunks": "trade like stocks · day trading",
+          "usage": "day trading 更形象"
+        },
+        {
+          "intent": "想说「被戏称」",
+          "phrases": [
+            "Jokingly called the Apple tax.",
+            "Fans nicknamed it the Apple tax."
+          ],
+          "chunks": "jokingly called · nicknamed",
+          "usage": "两种都常用"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "title_cn": "四、中国元素：没踢球但无处不在",
+      "title_en": "China's Presence: Not Playing, but Everywhere",
+      "context": "The hosts list China's fingerprints on the tournament. 语域：casual 盘点 + 小骄傲。",
+      "speak": "Our national team didn't make it — but our Labubu did. Pop Mart's Labubu, with official FIFA licensing, sold for 599 yuan and vanished instantly on April 2, plus blind boxes and a Coca-Cola collector's collab. Three Chinese referees made the cut in a 170-person officiating crew: Ma Ning as main referee, back again after Qatar 2022, Fu Ming on VAR, and Zhou Fei as assistant. Lenovo's AI offside system calls millimeter-level offsides across all 104 matches, pushed straight to the referee to cut decision time — but it also sparked the 'hairline offside kills the drama' debate. Sponsors: Hisense and Mengniu back the top tier for a third straight tournament; Luckin backs Portugal and Spain while Cotti backs Argentina — the quarterfinal rivalry plays out among sponsors too. And the anthem 'Dai Dai,' pairing Shakira with a Nigerian artist, means 'Come on' in Italian — Italy missed the cup, yet its language made the anthem.",
+      "sentences": [
+        {
+          "cn": "泡泡玛特拉布布：获FIFA官方IP授权，穿世界杯球衣捧大力神杯的限量款国内售价599元，4月2日发售秒空；还有盲盒、可口可乐联名珍藏装",
+          "en": "Pop Mart's Labubu: with official FIFA IP licensing, the limited edition — wearing a World Cup jersey and holding the trophy — sold for 599 yuan in China and sold out instantly on April 2; there are also blind boxes and a Coca-Cola collector's collab.",
+          "note": "<span>表达提示</span>limited edition → 限量款；sell out instantly → 秒空；collector's collab → 联名珍藏装"
+        },
+        {
+          "cn": "三名中国裁判：马宁（主裁，2022卡塔尔后再次入选）、傅明（VAR）、周飞（助理裁判）——共170人裁判组中占3席",
+          "en": "Three Chinese referees: Ma Ning as main referee — back again after Qatar 2022 — Fu Ming on VAR, and Zhou Fei as assistant referee — three spots in a 170-person officiating crew.",
+          "note": "<span>表达提示</span>main referee → 主裁；VAR → 视频助理裁判；officiating crew → 裁判组"
+        },
+        {
+          "cn": "联想AI越位系统：为104场比赛提供毫米级自动越位判定，结果直推裁判，缩短判罚时间，但也引发「体毛级越位扼杀意外性」争议",
+          "en": "Lenovo's AI offside system: millimeter-level automatic offside calls across all 104 matches, pushed straight to the referee to cut decision time — but it also sparked debate over 'hairline offsides killing the drama.'",
+          "note": "<span>表达提示</span>offside → 越位；hairline offside → 体毛级越位；kill the drama → 扼杀意外性"
+        },
+        {
+          "cn": "赞助商：海信、蒙牛连续三届顶级赞助；瑞幸赞助葡萄牙/西班牙，库迪赞助阿根廷——「球队四强对立，赞助商也四强对立」",
+          "en": "Sponsors: Hisense and Mengniu back the top tier for a third straight tournament; Luckin sponsors Portugal and Spain while Cotti backs Argentina — 'the quarterfinal rivalry plays out among sponsors too.'",
+          "note": "<span>表达提示</span>top-tier sponsor → 顶级赞助；back sb → 赞助/支持；rivalry → 对立"
+        },
+        {
+          "cn": "（引用）原文依据：「虽然咱们国家队没去，但是咱们的拉布布去了」",
+          "en": "As the hosts quip: 'Our national team didn't make it — but our Labubu did.'",
+          "note": "<span>表达提示</span>make it → 出线；national team → 国家队"
+        },
+        {
+          "cn": "本届主题曲《Dai Dai》由Shakira与尼日利亚歌手合作，Dai Dai是意大利语「加油/Come on」。意大利虽无缘本届世界杯，语言却出现在主题曲中。推广曲还有Blackpink Lisa的《Goals》，为TikTok传播定制",
+          "en": "The anthem 'Dai Dai' pairs Shakira with a Nigerian artist, and 'Dai Dai' is Italian for 'Come on.' Italy missed this World Cup, yet its language lives in the anthem. There's also a promo track, 'Goals' by Blackpink's Lisa, tailored for TikTok virality.",
+          "note": "<span>表达提示</span>anthem → 主题曲；promo track → 推广曲；tailored for virality → 为传播定制"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「秒空」",
+          "phrases": [
+            "It sold out instantly on April 2.",
+            "It was gone in seconds."
+          ],
+          "chunks": "sell out instantly · gone in seconds",
+          "usage": "sold out 是标准说法"
+        },
+        {
+          "intent": "想说「入选/占席」",
+          "phrases": [
+            "Three Chinese referees made the cut.",
+            "They took three spots in the 170-person crew."
+          ],
+          "chunks": "make the cut · take spots",
+          "usage": "make the cut 是惯用语"
+        },
+        {
+          "intent": "想说「无缘」",
+          "phrases": [
+            "Italy missed the World Cup.",
+            "Italy didn't qualify this time."
+          ],
+          "chunks": "miss the cup · didn't qualify",
+          "usage": "qualify 更正式"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "title_cn": "五、冠军预测、必看场次与地缘足球",
+      "title_en": "Title Predictions, Must-Watch Matches, and Geopolitical Football",
+      "context": "The hosts predict champions and introduce the Azteca's legend. 语域：casual 闲聊 + 装腔。",
+      "speak": "Predictions: one guest likes Spain — no Real Madrid players, so more united — but the pattern forces him to rule them out; his daughter votes France, he picks England, and in the end, if all else fails, back Messi, while another guest is team Ronaldo. One warning: betting your coffee purchases on champions by the odds — Luckin equals Portugal-Spain, Cotti equals Argentina — is purely for fun, not real investing. And the must-know venue: the Estadio Azteca, the only stadium to host three World Cups — 1970, 1986, and now 2026 — sitting at 2,200 meters on volcanic rock. In 1970, the Italy 4-3 West Germany semifinal became the Match of the Century, and Brazil beat Italy 4-1 to keep the Jules Rimet Trophy forever. In 1986, Maradona staged the Hand of God and the Goal of the Century here. As the hosts say, the Azteca isn't a stadium — it's the World Cup's hard drive.",
+      "sentences": [
+        {
+          "cn": "嘉宾个人偏好：本看好无皇马球员的西班牙更团结，但按规律不得不排除；女儿投法国，自己投英格兰，最后「实在不行支持梅西」——但另一嘉宾是C罗派",
+          "en": "The guests' picks: one likes Spain — no Real Madrid players, so more united — but the pattern forces him to rule them out; his daughter votes France, he picks England, and in the end it's 'if all else fails, back Messi' — while another guest is team Ronaldo.",
+          "note": "<span>表达提示</span>rule out → 排除；team Ronaldo → C罗派；if all else fails → 实在不行"
+        },
+        {
+          "cn": "（引用）避坑：按赔率买咖啡押冠军（瑞幸=葡西，库迪=阿根廷）纯属娱乐，切勿当真理财",
+          "en": "A warning: betting your coffee purchases on champions by the odds — Luckin equals Portugal-Spain, Cotti equals Argentina — is purely for fun; don't treat it as real investing.",
+          "note": "<span>表达提示</span>purely for fun → 纯属娱乐；by the odds → 按赔率；treat it as investing → 当真理财"
+        },
+        {
+          "cn": "全球唯一三次举办世界杯的球场（1970/1986/2026），海拔2200米建在火山岩地基上。1970年半决赛意大利4-3西德被称为「世纪之战」；同届决赛巴西4-1意大利，巴西因此永久保留雷米特杯。1986年四分之一决赛，马拉多纳在此上演「上帝之手」和「世纪最佳进球」",
+          "en": "The only stadium to host the World Cup three times — 1970, 1986, and now 2026 — sitting at 2,200 meters on volcanic rock. The 1970 semifinal, Italy 4-3 West Germany, is called the 'Match of the Century'; in that final Brazil beat Italy 4-1 and kept the Jules Rimet Trophy forever. In the 1986 quarterfinal, Maradona produced the 'Hand of God' and the 'Goal of the Century' here.",
+          "note": "<span>表达提示</span>Match of the Century → 世纪之战；Hand of God → 上帝之手；Jules Rimet Trophy → 雷米特杯"
+        },
+        {
+          "cn": "（引用）装腔金句：「阿兹特克不是球场，是世界杯的硬碟——什么名场面都存过」",
+          "en": "The showoff line: 'The Azteca isn't a stadium — it's the World Cup's hard drive. Every iconic moment is stored there.'",
+          "note": "<span>表达提示</span>hard drive → 硬盘；iconic moment → 名场面；store → 存档"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「实在不行支持梅西」",
+          "phrases": [
+            "If all else fails, back Messi.",
+            "As a last resort, I'm rooting for Messi."
+          ],
+          "chunks": "if all else fails · as a last resort",
+          "usage": "if all else fails 更口语"
+        },
+        {
+          "intent": "想说「纯属娱乐」",
+          "phrases": [
+            "It's purely for fun.",
+            "Don't treat it as real investing."
+          ],
+          "chunks": "purely for fun · real investing",
+          "usage": "对比句最自然"
+        },
+        {
+          "intent": "想说「名场面」",
+          "phrases": [
+            "Every iconic moment is stored there.",
+            "That stadium has seen it all."
+          ],
+          "chunks": "iconic moment · seen it all",
+          "usage": "seen it all 更口语"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "title_cn": "六、新军、黑马与诸神的黄昏",
+      "title_en": "Newcomers, Dark Horses, and the Gods' Dusk",
+      "context": "The hosts round up debutants and the aging legends. 语域：casual 盘点 + 情怀。",
+      "speak": "Now the newcomers and the legends. Cape Verde, population 540,000, topped its African group by beating Cameroon — the third-smallest nation ever to reach the World Cup. Curaçao, autonomous within the Kingdom of the Netherlands, with 150,000 people across 444 square kilometers, is the smallest ever to qualify, fielding several Eredivisie players. Uzbekistan and Jordan are new Asian qualifiers — Jordan topping its group ahead of South Korea was the bigger surprise. And Haiti, not a debutant but the most surprising, drew Brazil, Morocco, and Scotland despite paralyzed politics and collapsing security. On the dusk side: Messi at 38, his sixth cup, grand slam complete since 2022; Ronaldo at 41, also his sixth, a spiritual icon; Modric at 40, who broke the Ballon d'Or duopoly; Neuer at 40, the sweeper-keeper pioneer; and Neymar at 34, his last dance after injuries. And the new kings — Haaland, Mbappé, and 18-year-old Yamal — all at 200 million euros, opening the two-hundred-million era, best showcased by Norway versus France.",
+      "sentences": [
+        {
+          "cn": "佛得角：人口54万，非洲预选赛击败喀麦隆小组第一出线，世界杯历史第三小参赛国",
+          "en": "Cape Verde: population 540,000, topped its African qualifying group by beating Cameroon — the third-smallest nation ever to reach the World Cup.",
+          "note": "<span>表达提示</span>topped the group → 小组第一出线；smallest nation → 最小参赛国；qualifying group → 预选赛小组"
+        },
+        {
+          "cn": "库拉索：荷兰王国自治国，人口15万面积444平方公里，世界杯历史最小参赛地，球队有多名荷兰联赛球员",
+          "en": "Curaçao: an autonomous country in the Kingdom of the Netherlands, with 150,000 people across 444 square kilometers — the smallest ever to qualify, fielding several Eredivisie players.",
+          "note": "<span>表达提示</span>autonomous country → 自治国；Eredivisie → 荷兰甲级联赛；qualify → 出线"
+        },
+        {
+          "cn": "乌兹别克斯坦、约旦：亚洲新军，约旦力压韩国小组第一更出人意料",
+          "en": "Uzbekistan and Jordan: new Asian qualifiers, with Jordan topping its group ahead of South Korea — the bigger surprise.",
+          "note": "<span>表达提示</span>new qualifiers → 新军；ahead of South Korea → 力压韩国；the bigger surprise → 更出人意料"
+        },
+        {
+          "cn": "海地：非新军但最意外——政治瘫痪、安全失控的国家竟与巴西/摩洛哥/苏格兰同组，值得加油",
+          "en": "Haiti: not a debutant but the most surprising — a country with paralyzed politics and collapsing security somehow drew Brazil, Morocco, and Scotland in its group. They deserve support.",
+          "note": "<span>表达提示</span>paralyzed politics → 政治瘫痪；draw a group → 分在同一组；deserve support → 值得加油"
+        },
+        {
+          "cn": "黄昏：梅西（38岁，第六屆，2022已夺冠大满贯）、C罗（41岁，第六屆，精神图腾）、莫德里奇（40岁，打破梅罗金球垄断）、诺伊尔（40岁，门将踢后卫流派开创者）、内马尔（34岁，伤病后最后一届）",
+          "en": "The dusk: Messi, 38, at his sixth World Cup after completing the career grand slam in 2022; Ronaldo, 41, also at his sixth, a spiritual icon; Modric, 40, who broke the Messi-Ronaldo Ballon d'Or duopoly; Neuer, 40, who pioneered the sweeper-keeper role; and Neymar, 34, playing his last one after injuries.",
+          "note": "<span>表达提示</span>career grand slam → 大满贯；Ballon d'Or → 金球奖；sweeper-keeper → 门将踢后卫；spiritual icon → 精神图腾"
+        },
+        {
+          "cn": "新王：哈兰德、姆巴佩、18岁亚马尔身价均达2亿欧元，本届正式进入「2亿时代」——挪威对法国那场是最佳检阅场",
+          "en": "The new kings: Haaland, Mbappé, and 18-year-old Yamal each carry a 200-million-euro price tag, officially opening the '200-million era' this tournament — and Norway versus France is the perfect showcase.",
+          "note": "<span>表达提示</span>price tag → 身价；200-million era → 2亿时代；showcase → 检阅场/展示台"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「小组第一出线」",
+          "phrases": [
+            "Cape Verde topped its group.",
+            "They finished first, beating Cameroon."
+          ],
+          "chunks": "top the group · finish first",
+          "usage": "top the group 体育用语"
+        },
+        {
+          "intent": "想说「分在同一组」",
+          "phrases": [
+            "They drew Brazil, Morocco, and Scotland.",
+            "Their group is brutal — Brazil, Morocco, Scotland."
+          ],
+          "chunks": "draw a group · brutal group",
+          "usage": "brutal 口语形容「死亡之组」"
+        },
+        {
+          "intent": "想说「最后一届」",
+          "phrases": [
+            "Neymar is playing his last one.",
+            "This is a farewell tour for Neymar."
+          ],
+          "chunks": "last one · farewell tour",
+          "usage": "farewell tour 更煽情"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "cn": "用「tank」说：以前弱队确定出局后会摆烂。",
+      "en": "Weaker teams used to tank the final group game once elimination was certain."
+    },
+    {
+      "cn": "用「a slice of the pie」说：加拿大和墨西哥分一杯羹。",
+      "en": "Canada and Mexico get a slice of the pie — a host berth plus some broadcast revenue."
+    },
+    {
+      "cn": "用「for show」说：百万美元票价多为噱头。",
+      "en": "Those million-dollar ticket listings are mostly for show."
+    },
+    {
+      "cn": "用「make the cut」说：三名中国裁判入选裁判组。",
+      "en": "Three Chinese referees made the cut in a 170-person officiating crew."
+    }
+  ],
+  "pitfalls": [
+    {
+      "wrong": "The football field expanded to 48 teams.",
+      "right": "The tournament expanded from 32 to 48 teams.",
+      "why": "扩军指的是赛事规模（the field / the number of teams），不是球场 stadium/field；「参赛队数」用 the field 更地道。"
+    },
+    {
+      "wrong": "Messi and Ronaldo are very old this time.",
+      "right": "Messi at 38 and Ronaldo at 41 are entering the twilight of their careers.",
+      "why": "「诸神黄昏」用 twilight / the final act，比 very old 高级且准确；中文「黄昏」对应 twilight。"
+    },
+    {
+      "wrong": "The ticket price is very expensive.",
+      "right": "This is the most expensive World Cup ever — average tickets jumped from 70 to 120 dollars.",
+      "why": "expensive 的主语不能是 price；用 the most expensive World Cup + 具体数字对比才地道。"
+    },
+    {
+      "wrong": "China bid the World Cup in 2042.",
+      "right": "China could bid to host the World Cup as early as 2042.",
+      "why": "申办世界杯是 bid to host；2042 只是最早可能的时间点，用 could + as early as 表达不确定性。"
+    }
+  ],
+  "shifts": [
+    {
+      "before": "以为世界杯=熬夜看球",
+      "after": "非球迷只需挑2-3场「时间友好+有故事」的比赛，重在积累社交货币"
+    },
+    {
+      "before": "以为扩军48队会让世界杯变水",
+      "after": "第三名复活机制让末轮悬念大增，比赛多≠热度降"
+    },
+    {
+      "before": "以为中国队没去就与中国无关",
+      "after": "拉布布、马宁、联想AI越位、瑞幸库迪——中国元素无处不在"
+    }
+  ],
+  "voice": "en-US-JennyNeural",
+  "audio_dir": "audio/en/worldcup_2026_guide"
+}

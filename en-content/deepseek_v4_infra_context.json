@@ -1,0 +1,400 @@
+{
+  "slug": "deepseek_v4_infra_context",
+  "date": "2026-06-23",
+  "platform": "小宇宙FM",
+  "title": "163: 详解DeepSeekV4：Infra巨婴、百万上下文走进现实、极致效率优化",
+  "title_en": "DeepSeek V4 Explained: Infra 'Giant Baby', Million-Token Context Goes Real, Extreme Efficiency",
+  "eyebrow": "AI & Infrastructure · AI 与基础设施",
+  "duration": "1小时34分",
+  "source_url": "https://www.xiaoyuzhoufm.com/episode/69f2e8ef0694c843e7cd91b6",
+  "summary_cn": "晚点聊曼琪邀请UCLA博士生刘逸峰（架构/算法）与SGLang核心开发者赵晨阳（RadixArc Infra），精读DeepSeek V4技术报告：在R1测试时扩展范式下，通过DSA稀疏注意力、双压缩KV、Muon优化器与FP4量化RL等组合创新，让百万上下文从理论走向实用；同时揭示V4放弃V3 MLA架构对行业MRA路线的冲击，以及「Infra巨婴」式工程能力如何定义下一代开源模型竞争力",
+  "summary_en": "Latepost's Manqi invited Liu Yifeng, a UCLA PhD student working on architecture and algorithms, and Zhao Chenyang, a core SGLang developer on the RadixArc infra team, to read DeepSeek V4's technical report closely. Under R1's test-time-scaling paradigm, combined innovations — DSA sparse attention, dual-compressed KV, the Muon optimizer, and FP4-quantized RL — push million-token context from theory into practical use. The episode also unpacks how dropping V3's MLA shakes the industry's MRA direction, and how 'giant-baby' infra engineering is defining what open-source models can do next.",
+  "scenes": [
+    {
+      "id": "s1",
+      "title_cn": "一、V4定位与架构革新",
+      "title_en": "V4's Positioning and Architectural Breakthroughs",
+      "context": "The guests explain what V4 is and how it breaks from V3. 语域：formal 技术讲解 + 论文精读。",
+      "speak": "Let's start with what V4 is. It continues R1's test-time-scaling paradigm, combining DSA sparse attention, token-wise dual compression, the Muon optimizer, mHC residual connections, and FP4-quantized RL — pushing million-token context from theoretically possible to practically usable. The key insight: V4 isn't a single-point breakthrough but a coordinated algorithm-plus-infra design, where every architectural change forces a full rework of the inference stack, from KV cache to speculative sampling to prefix caching. That's what makes long-context agentic coding and million-token document reasoning real. At ICLR, the biggest shock was that DeepSeek dropped V3's MLA while Kimi K2 and GLM5 still follow MRA — sparking fierce debate over whether polishing MRA still makes sense, and showing that attention mechanisms have far more room to improve than anyone thought.",
+      "sentences": [
+        {
+          "cn": "核心机制：延续R1的测试时扩展（Test-Time Scaling）范式，用DSA稀疏注意力、Token-wise双压缩、Muon优化器、mHC残差连接、FP4量化RL等组合创新，在保持推理能力的同时将百万token上下文从「理论可能」推进到「工程可用」",
+          "en": "The mechanism: it continues R1's test-time-scaling paradigm, combining DSA sparse attention, token-wise dual compression, the Muon optimizer, mHC residual connections, and FP4-quantized RL. These innovations push million-token context from 'theoretically possible' to 'practically usable' while keeping reasoning ability intact.",
+          "note": "<span>表达提示</span>test-time scaling → 测试时扩展；sparse attention → 稀疏注意力；quantized RL → 量化强化学习；theoretically possible → 理论可能"
+        },
+        {
+          "cn": "关键理解：V4不是单点算法突破，而是「算法+Infra」协同设计——每次架构变动都倒逼KV Cache、投机采样、前缀缓存等推理栈全面重构",
+          "en": "The insight: V4 isn't a single-point algorithm breakthrough but a coordinated 'algorithm plus infra' design — every architectural change forces a full rework of the inference stack, from KV cache to speculative sampling to prefix caching.",
+          "note": "<span>表达提示</span>coordinated design → 协同设计；inference stack → 推理栈；KV cache → 键值缓存；speculative sampling → 投机采样"
+        },
+        {
+          "cn": "典型场景：长上下文Agent编程、多轮工具调用、百万token文档理解与推理",
+          "en": "Typical use cases: long-context agentic coding, multi-turn tool calls, and understanding and reasoning over million-token documents.",
+          "note": "<span>表达提示</span>long-context → 长上下文；agentic coding → Agent编程；multi-turn tool calls → 多轮工具调用"
+        },
+        {
+          "cn": "（引用）原文依据：「DeepSeek V4是继续在R1的测试时扩展方式下，用一系列组合创新和工程优化，让百万上下文从理论进入了实用性阶段」",
+          "en": "As the podcast states: 'DeepSeek V4 continues R1's test-time-scaling approach, using a series of combined innovations and engineering optimizations to move million-token context from theory into the practical stage.'",
+          "note": "<span>表达提示</span>combined innovations → 组合创新；engineering optimizations → 工程优化；practical stage → 实用性阶段"
+        },
+        {
+          "cn": "（引用）相关概念：与V3的MLA/MoE scale-up路径不同，V4在注意力层做了「回归+革新」——放弃MLA，引入DSA+SWA双压缩",
+          "en": "Related concept: unlike V3's MLA and MoE scale-up path, V4 does a 'return plus revolution' at the attention layer — dropping MLA and introducing DSA plus SWA dual compression.",
+          "note": "<span>表达提示</span>attention layer → 注意力层；dual compression → 双压缩；scale-up path → 扩张路线"
+        },
+        {
+          "cn": "刘逸峰在ICLR现场观察到：DeepSeek放弃V3的MLA架构，而Kimi K2、GLM5等仍走MRA路线，引发「继续在MRA上雕花还有没有意义」的激烈讨论。几个月前业界普遍认为架构收敛到MRA，V4的转向说明注意力机制改进空间远比想象的大",
+          "en": "At ICLR, Liu Yifeng observed that DeepSeek dropped V3's MLA while Kimi K2 and GLM5 still follow the MRA route, sparking fierce debate over whether continuing to polish MRA still makes sense. A few months ago the industry widely believed architecture had converged on MRA; V4's pivot shows attention mechanisms have far more room for improvement than anyone thought.",
+          "note": "<span>表达提示</span>architecture convergence → 架构收敛；pivot → 转向；room for improvement → 改进空间；polish → 雕花/打磨"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「从理论到实用」",
+          "phrases": [
+            "It moves the capability from theory into practice.",
+            "What was theoretical is now deployment-ready."
+          ],
+          "chunks": "from theory into practice · deployment-ready",
+          "usage": "deployment-ready 更工程化"
+        },
+        {
+          "intent": "想说「组合创新」",
+          "phrases": [
+            "It's a bundle of small innovations, not one big one.",
+            "The wins come from combining, not from a single trick."
+          ],
+          "chunks": "a bundle of innovations · combining, not a single trick",
+          "usage": "正式讲解用 bundle of innovations"
+        },
+        {
+          "intent": "想说「架构还没收敛」",
+          "phrases": [
+            "Architecture hasn't converged yet.",
+            "Everyone assumed MRA was final — it wasn't."
+          ],
+          "chunks": "architecture convergence · assumed final",
+          "usage": "收敛用 converge；口语用 settle on"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title_cn": "二、效率悖论与Token经济学",
+      "title_en": "The Efficiency Paradox and Token Economics",
+      "context": "The guests discuss why V4 seems to use more tokens even as it compresses. 语域：formal 技术讨论 + 播客点评。",
+      "speak": "Then comes the efficiency paradox. Why does V4 seem to spend more tokens even though it compresses? Because training objectives reward maximizing task completion, not using the fewest tokens, and token-wise compression loses information that the model then needs extra tokens to recover. The next optimization isn't simply lengthening the reasoning chain — it's solving more problems with the same token budget, which means baking a token-efficiency constraint into the RL reward function. The net is still positive, though the per-token gain is partly offset. As one guest says, there's a beauty to watering a garden with a fire hose — we're no longer asking whether we can do it, but what else there is to do.",
+      "sentences": [
+        {
+          "cn": "原因：训练目标倾向于「完成任务得奖励最大化」而非「最少token完成任务」；Token-wise压缩导致信息损失，模型需要更多token补足缺失信息",
+          "en": "Why: training objectives favor maximizing task-completion rewards over finishing tasks with the fewest tokens; token-wise compression loses information, so the model needs more tokens to make up the gap.",
+          "note": "<span>表达提示</span>task-completion reward → 任务完成奖励；make up the gap → 补足缺失；information loss → 信息损失"
+        },
+        {
+          "cn": "解法：下一步优化方向是「同样token数量解决更多问题」，而非单纯拉长推理链；需在RL奖励函数中引入token效率约束",
+          "en": "The fix: the next optimization is solving more problems with the same token budget, not just lengthening the reasoning chain; that means adding a token-efficiency constraint into the RL reward function.",
+          "note": "<span>表达提示</span>token budget → token数量；reward function → 奖励函数；efficiency constraint → 效率约束"
+        },
+        {
+          "cn": "严重程度：小心——单token效率提升被总token消耗增加部分抵消，但综合仍有净提升",
+          "en": "Severity: caution — the per-token efficiency gain is partly offset by higher total token consumption, but there's still a net improvement overall.",
+          "note": "<span>表达提示</span>partly offset → 部分抵消；net improvement → 净提升；per-token → 单token"
+        },
+        {
+          "cn": "（引用）嘉宾说法：「有种拿着高压水枪浇花的美感——我们现在不会说能不能做到，而是不知道还有哪些需要做的」",
+          "en": "As a guest puts it: 'There's a beauty to watering a garden with a fire hose — we're no longer asking whether we can do it, but what else there is to do.'",
+          "note": "<span>表达提示</span>fire hose → 高压水枪；there's a beauty to → 有种…的美感；no longer asking whether → 不再问能不能"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「高压水枪浇花」",
+          "phrases": [
+            "It's like watering flowers with a fire hose.",
+            "A sledgehammer approach — powerful, but wasteful."
+          ],
+          "chunks": "fire hose · sledgehammer approach",
+          "usage": "sledgehammer 比喻「杀鸡用牛刀」"
+        },
+        {
+          "intent": "想说「收益被部分抵消」",
+          "phrases": [
+            "The gain is partly offset by higher usage.",
+            "You win per token, but lose in total count."
+          ],
+          "chunks": "partly offset · win per token, lose in total",
+          "usage": "对比句好懂"
+        },
+        {
+          "intent": "想说「不知道还有哪些要做」",
+          "phrases": [
+            "We don't know what else remains to be done.",
+            "The unknown is no longer 'can we,' but 'what's next.'"
+          ],
+          "chunks": "what remains to be done · the unknown",
+          "usage": "正式讨论适用"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title_cn": "三、Infra工程：「巨婴」式竞争力",
+      "title_en": "Infra Engineering: 'Giant-Baby' Competitiveness",
+      "context": "The guests discuss how DeepSeek's infra work keeps the open-source community fed. 语域：formal 工程复盘 + 行业点评。",
+      "speak": "Now the infra story. When V3 launched, open-source took a full year to catch up on innovations like Large EP; V4's infra details are just as solid, and the RadixArc team ran the full inference and RL pipeline on launch day — historic for open source, where the wait used to be three to five months. As Zhao says, every DeepSeek release basically buys the community another year of research and infra life. V4's DSA plus dual compression forces a full rework of prefix caching, speculative sampling, and KV offload, with three heterogeneous KV cache pools deeply coupled to existing infrastructure. And remember the difference: inference is forward propagation without parameter feedback, while RL adds sampling plus parameter feedback — which demands much stricter train-inference consistency, especially under FP4 quantization.",
+      "sentences": [
+        {
+          "cn": "赵晨阳回顾：V3发布时Large EP等Infra创新，开源社区花了一年才补齐；V4的Infra细节同样扎实，RadixArc团队在发布当天就跑通了推理和RL全链路——这在开源领域是历史性突破（以往需等3-5个月）",
+          "en": "Zhao Chenyang looks back: when V3 launched, open-source took a full year to catch up on infra innovations like Large EP; V4's infra details are just as solid, and the RadixArc team ran the full inference and RL pipeline on launch day — a historic first in open source, where the wait used to be three to five months.",
+          "note": "<span>表达提示</span>catch up on → 补齐/追平；full pipeline → 全链路；historic first → 历史性突破；launch day → 发布当天"
+        },
+        {
+          "cn": "（引用）「DeepSeek每年的发布都会为开源社区的研究和Infra基本上是续命一年……今年我预感也不会例外」",
+          "en": "'Every year, DeepSeek's release basically buys the open-source community another year of research and infra life... I have a feeling this year will be no exception.'",
+          "note": "<span>表达提示</span>buy another year of life → 续命一年；no exception → 不例外"
+        },
+        {
+          "cn": "（引用）怎么落地：关注DeepSeek开源周发布的Kernel优化、KV Offload、投机采样适配代码，这些是推理引擎团队的优先集成项",
+          "en": "How to use it: follow DeepSeek's open-source week releases — kernel optimizations, KV offload, and speculative-sampling adapters — which are the top integration priorities for inference-engine teams.",
+          "note": "<span>表达提示</span>kernel optimization → 内核优化；KV offload → 键值缓存卸载；integration priority → 优先集成项"
+        },
+        {
+          "cn": "核心机制：V4的DSA+双压缩倒逼前缀缓存、投机采样、KV Offload全面重构；三套异构KV Cache池需与现有Prefix Cache设施深度耦合",
+          "en": "The mechanism: V4's DSA plus dual compression forces a full rework of prefix caching, speculative sampling, and KV offload; three heterogeneous KV cache pools must be deeply coupled with existing prefix-cache infrastructure.",
+          "note": "<span>表达提示</span>heterogeneous → 异构的；prefix cache → 前缀缓存；deeply coupled → 深度耦合"
+        },
+        {
+          "cn": "关键理解：推理是做不带参数回传的前向传播，RL是采样+参数回传——两者共享推理栈，但RL对训练推理一致性要求更高；FP4量化下的一致性更是难上加难",
+          "en": "The insight: inference is forward propagation without parameter feedback, while RL is sampling plus parameter feedback — they share the inference stack, but RL demands far stricter train-inference consistency, and under FP4 quantization that consistency gets even harder.",
+          "note": "<span>表达提示</span>forward propagation → 前向传播；train-inference consistency → 训练推理一致性；parameter feedback → 参数回传"
+        },
+        {
+          "cn": "典型场景：MOE大模型上的全流程强化学习、生产级推理部署",
+          "en": "Typical cases: full-loop reinforcement learning on MoE-scale models, and production-grade inference deployment.",
+          "note": "<span>表达提示</span>full-loop RL → 全流程强化学习；MoE → 混合专家模型；production-grade → 生产级"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「给社区续命」",
+          "phrases": [
+            "Each release buys the community another year.",
+            "It keeps the ecosystem alive until the next drop."
+          ],
+          "chunks": "buy another year · keep the ecosystem alive",
+          "usage": "buy time 是常见说法"
+        },
+        {
+          "intent": "想说「发布当天就跑通」",
+          "phrases": [
+            "They ran the whole pipeline on day one.",
+            "Same-day support is now the new benchmark."
+          ],
+          "chunks": "on day one · same-day support · benchmark",
+          "usage": "benchmark 指新标杆"
+        },
+        {
+          "intent": "想说「训练与推理一致性」",
+          "phrases": [
+            "RL demands train-inference consistency.",
+            "What works in training must match what ships."
+          ],
+          "chunks": "train-inference consistency · must match",
+          "usage": "技术术语直接使用"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "title_cn": "四、训练创新与评测哲学",
+      "title_en": "Training Innovations and Evaluation Philosophy",
+      "context": "The guests explain FP4 quantization and the 'split then distill' training strategy. 语域：formal 论文精读 + 训练方法论。",
+      "speak": "Now training innovations. DeepSeek uses pseudo-quantization during training and real quantization at sampling, reaching W4A4 — 4-bit weights and 4-bit activations — while most open-source teams sit at W4A16. Why it matters: sampling takes over 70 percent of RL time, and FP4 cuts memory-read pressure to speed it up — the extreme application of train-inference consistency in the quantization domain. As the podcast says, FP4 has essentially walked out of the hardware vendors' PowerPoints and become a real industrial standard for frontier models. And the post-training philosophy: split first, distill later. Train small experts on coding, math, and instruction-following, then let one unified student interpolate between them — like choosing exam subjects, more stable and controllable than joint multi-objective optimization.",
+      "sentences": [
+        {
+          "cn": "核心机制：训练时伪量化（Pseudo-Quantization）+ 采样时真实量化（Real Quantization）；DeepSeek做到W4A4（权重4bit、激活4bit），开源团队目前多为W4A16",
+          "en": "The mechanism: pseudo-quantization during training plus real quantization at sampling; DeepSeek reaches W4A4 — 4-bit weights and 4-bit activations — while most open-source teams are still at W4A16.",
+          "note": "<span>表达提示</span>pseudo-quantization → 伪量化；W4A4 → 权重4bit/激活4bit；weights and activations → 权重与激活"
+        },
+        {
+          "cn": "关键理解：RL采样占70%+时间，FP4降低显存读取压力直接加速采样；这是「训练推理一致性」在量化领域的极致实践",
+          "en": "The insight: sampling takes over 70% of RL time, and FP4 cuts memory-read pressure to speed it up directly — an extreme application of train-inference consistency in the quantization domain.",
+          "note": "<span>表达提示</span>memory-read pressure → 显存读取压力；sampling → 采样；quantization domain → 量化领域"
+        },
+        {
+          "cn": "典型场景：超大MoE模型的RLHF/RLAIF训练、Blackwell卡FP4生态",
+          "en": "Typical cases: RLHF and RLAIF training on very large MoE models, and the FP4 ecosystem on Blackwell GPUs.",
+          "note": "<span>表达提示</span>RLHF → 人类反馈强化学习；RLAIF → AI反馈强化学习；Blackwell → 英伟达新代GPU"
+        },
+        {
+          "cn": "（引用）原文依据：「FP4已经像是正式走出了硬件厂商的PPT，从开源语言模型世界里面真正跑上超级模型的工业标准」",
+          "en": "As the podcast states: 'FP4 has essentially walked out of the hardware vendors' PowerPoints and become a real industrial standard for frontier models in the open-source world.'",
+          "note": "<span>表达提示</span>walk out of the PPT → 走出PPT；industrial standard → 工业标准；frontier models → 超级模型"
+        },
+        {
+          "cn": "刘逸峰解读V4后训练：先训练多个小专家各自在coding/数学/指令遵循等目标上找局部最优，再让统一学生模型同时拟合多个教师的数据分布——类似高考选科的「插值」策略，比联合多目标优化更稳定可控",
+          "en": "Liu Yifeng reads V4's post-training: first train several small experts, each finding a local optimum on coding, math, instruction-following, and so on; then have one unified student model fit all the teachers' data distributions at once — an 'interpolation' strategy like choosing exam subjects, more stable and controllable than joint multi-objective optimization.",
+          "note": "<span>表达提示</span>local optimum → 局部最优；interpolation strategy → 插值策略；joint multi-objective optimization → 联合多目标优化"
+        },
+        {
+          "cn": "（引用）「联合训练就像在多目标空间里找帕累托最优，但梯度冲突很严重……先分裂再蒸馏，是在已收敛的离散点之间做插值，工程上更稳定」",
+          "en": "'Joint training is like finding a Pareto optimum in multi-objective space, but the gradient conflicts are severe... splitting first and then distilling interpolates between already-converged discrete points, which is far more stable in engineering.'",
+          "note": "<span>表达提示</span>Pareto optimum → 帕累托最优；gradient conflict → 梯度冲突；interpolate between → 在…之间插值"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「从PPT走向工业标准」",
+          "phrases": [
+            "It left the PowerPoint and became a real standard.",
+            "No longer a vendor slide — now a shipped reality."
+          ],
+          "chunks": "leave the PowerPoint · a shipped reality",
+          "usage": "对比短语有力"
+        },
+        {
+          "intent": "想说「分裂再蒸馏」",
+          "phrases": [
+            "Split first, distill later.",
+            "Train experts separately, then blend them into one."
+          ],
+          "chunks": "split first, distill later · blend into one",
+          "usage": "口语句式好记"
+        },
+        {
+          "intent": "想说「比联合优化更稳定」",
+          "phrases": [
+            "It's more stable than joint multi-objective training.",
+            "Interpolation beats fighting gradient conflicts."
+          ],
+          "chunks": "joint multi-objective · gradient conflicts",
+          "usage": "技术语境"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "title_cn": "五、行业格局与中美分化",
+      "title_en": "The Landscape: US-China Divergence",
+      "context": "The guests discuss the open-source ecosystem, data flywheels, and the divide between China and the US. 语域：formal 行业讨论 + 播客对谈。",
+      "speak": "Finally, the landscape. Manqi asks whether self-hosting means China's open-source models miss the data flywheel. Zhao pushes back: a 200-GPU, B200-scale deployment is beyond any individual's budget, and most open-source models are still called through cloud APIs, where traces are available. The real regret, he says, is that China still relies heavily on American closed models. Meanwhile every new architecture forces frameworks like SGLang and vLLM to adapt, and with five Chinese labs blooming at once — DeepSeek, Kimi, Xiaomi, MiniMax, and GLM — engine teams are drowning in work: ignorable for end users, fatal for infra teams. But open-source gains feed back into closed engines too, and the inference gap has largely closed. Running inference and RL on launch day is becoming the new benchmark.",
+      "sentences": [
+        {
+          "cn": "曼琪追问中国开源模型是否因自部署而缺失数据飞轮。赵晨阳反驳：200卡/B200规模部署成本非个人可承受，绝大多数开源模型仍通过云API调用，trace可获取；遗憾是国内仍大量用美国闭源模型",
+          "en": "Manqi asks whether China's open-source models miss the data flywheel because people self-host. Zhao Chenyang pushes back: a 200-GPU, B200-scale deployment is beyond any individual's budget, and most open-source models are still called through cloud APIs, where traces are available. The real regret, he says, is that China still relies heavily on American closed-source models.",
+          "note": "<span>表达提示</span>data flywheel → 数据飞轮；self-host → 自部署；cloud API → 云API调用；trace → 请求轨迹"
+        },
+        {
+          "cn": "原因：每家模型架构创新都倒逼SGLang/vLLM等框架适配，DeepSeek+Kimi+小米+Minimax+GLM五家百花齐放，推理引擎团队工作量爆炸",
+          "en": "Why: every new model architecture forces frameworks like SGLang and vLLM to adapt, and with DeepSeek, Kimi, Xiaomi, MiniMax, and GLM all blooming at once, inference-engine teams are drowning in work.",
+          "note": "<span>表达提示</span>framework adaptation → 框架适配；all blooming at once → 百花齐放；drowning in work → 工作量爆炸"
+        },
+        {
+          "cn": "解法：开源Infra性能提升会反哺闭源引擎；训练侧闭源仍领先，但推理侧差距已不大",
+          "en": "The fix: gains in open-source infra feed back into closed-source engines too; closed-source still leads on training, but the inference gap has largely closed.",
+          "note": "<span>表达提示</span>feed back into → 反哺；the gap has closed → 差距已不大；closed-source → 闭源"
+        },
+        {
+          "cn": "严重程度：可忽略（对终端用户），致命（对Infra团队）",
+          "en": "Severity: ignorable for end users, but fatal for infra teams.",
+          "note": "<span>表达提示</span>ignorable → 可忽略；fatal → 致命的；end user → 终端用户"
+        },
+        {
+          "cn": "（引用）嘉宾说法：「开源推理框架的重点是重口要调——同样一套框架要在DeepSeek、小米、Minimax、Kimi这么多模型中间都要支持上」",
+          "en": "As a guest puts it: 'The catch with open-source inference frameworks is that every mouth has a different appetite — one framework has to support DeepSeek, Xiaomi, MiniMax, Kimi, and so many more.'",
+          "note": "<span>表达提示</span>every mouth has a different appetite → 众口难调；support multiple models → 支持多个模型"
+        },
+        {
+          "cn": "为什么重要：算法创新若没有Infra落地，开源社区需等一年才能用上；V4证明「发布当天跑通推理+RL」正在成为新一代标杆",
+          "en": "Why it matters: without infra to land algorithmic innovations, the open-source community waits a year to use them; V4 proves 'running inference and RL on launch day' is becoming the new benchmark.",
+          "note": "<span>表达提示</span>land an innovation → 让创新落地；the new benchmark → 新一代标杆；launch day → 发布当天"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「数据飞轮缺失」",
+          "phrases": [
+            "Self-hosting may starve the data flywheel.",
+            "No traffic, no trace, no flywheel."
+          ],
+          "chunks": "starve the flywheel · no trace, no flywheel",
+          "usage": "flywheel 是商业术语"
+        },
+        {
+          "intent": "想说「工作量爆炸」",
+          "phrases": [
+            "Inference teams are drowning in work.",
+            "Supporting five architectures is a full-time war."
+          ],
+          "chunks": "drowning in work · a full-time war",
+          "usage": "口语夸张说法"
+        },
+        {
+          "intent": "想说「众口难调」",
+          "phrases": [
+            "Every mouth has a different appetite.",
+            "One framework, a dozen models to satisfy."
+          ],
+          "chunks": "every mouth has a different appetite · one framework, a dozen models",
+          "usage": "谚语式表达好记"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "cn": "用「from theory into practice」说：百万上下文从理论走向实用。",
+      "en": "Million-token context moved from theory into practice with V4's engineering."
+    },
+    {
+      "cn": "用「train-inference consistency」说：FP4下的一致性更难。",
+      "en": "Under FP4 quantization, train-inference consistency gets even harder to maintain."
+    },
+    {
+      "cn": "用「buy another year」说：每次发布给社区续命一年。",
+      "en": "Every DeepSeek release buys the open-source community another year of life."
+    },
+    {
+      "cn": "用「split first, distill later」说：先分裂再蒸馏更稳定。",
+      "en": "Split first, distill later — it's more stable than joint multi-objective optimization."
+    }
+  ],
+  "pitfalls": [
+    {
+      "wrong": "Million context enters practicality stage.",
+      "right": "Million-token context moved from theory into the practical stage.",
+      "why": "英文里 million 后面要接 token/context 名词；「进入实用性阶段」用 move into the practical stage。"
+    },
+    {
+      "wrong": "The model's ability is very strong.",
+      "right": "The model's reasoning ability holds up under million-token context.",
+      "why": "very strong 太泛；要具体说哪方面能力、在什么条件下成立。"
+    },
+    {
+      "wrong": "The Infra work is like a big baby.",
+      "right": "The 'giant-baby' infra style — massive capability with fully self-sufficient engineering.",
+      "why": "「巨婴」不能直译 big baby（纯贬义）；这里指工程能力强大又自足，需要解释性翻译。"
+    },
+    {
+      "wrong": "DeepSeek gave the community one more year of life.",
+      "right": "Every DeepSeek release buys the open-source community another year of research and infra life.",
+      "why": "「续命」不是 give life；用 buy another year of life 表达「争取到时间」。"
+    }
+  ],
+  "shifts": [
+    {
+      "before": "以为百万上下文只是营销话术",
+      "after": "DSA+双压缩让百万token从理论走进工程可用，是真实能力"
+    },
+    {
+      "before": "以为架构已经收敛到MRA",
+      "after": "V4放弃MLA说明注意力机制改进空间还很大，远未定型"
+    },
+    {
+      "before": "以为开源模型只能等闭源喂饭",
+      "after": "发布当天跑通推理+RL的「Infra巨婴」能力，正在定义下一代竞争力"
+    }
+  ],
+  "voice": "en-US-JennyNeural",
+  "audio_dir": "audio/en/deepseek_v4_infra_context"
+}

@@ -1,0 +1,360 @@
+{
+  "slug": "lidar_800v_ideal_l9",
+  "date": "2026-06-23",
+  "platform": "小宇宙FM",
+  "title": "四鹊激光雷达拍800V主动悬架，理想L9真被遥感了？",
+  "title_en": "Four LiDARs and an 800V Active Suspension: Was the Li L9 Really 'Remotely Altered'?",
+  "eyebrow": "Autos & Smart Driving · 汽车与智能驾驶",
+  "duration": "1小时45分",
+  "source_url": "https://www.xiaoyuzhoufm.com/episode/6a081febe1eb34a939819eab",
+  "summary_cn": "三刀试驾理想L9 Levi's后深度拆解：四颗固态激光雷达补盲、800V全主动悬架「大力出奇迹」、上市直降5万，以及OTA备案≠实质审查——旗舰SUV技术下放前夜，到底值不值得为50万买单？",
+  "summary_en": "After test-driving the Li L9 Levi's, Sandao breaks it down layer by layer: four solid-state LiDARs to cover the blind spots, an 800-volt fully active suspension that 'overpowers the physics,' a launch price cut of 50,000 yuan, and the fact that OTA filing is not the same as substantive review. On the eve of flagship-SUV technology trickling down, is the 500,000-yuan ticket worth it?",
+  "scenes": [
+    {
+      "id": "s1",
+      "title_cn": "一、上市定价与产品定位",
+      "title_en": "Launch Pricing and Product Positioning",
+      "context": "The Li L9 Levi's launched at 509,800 yuan, and what that means for the brand. 语域：casual 播客点评。",
+      "speak": "It officially launched on May 15. The Levi's is 509,800 yuan, 50,000 below the pre-sale price, and the Ultra is 459,000, 20,000 up from the old model. Order before June 30 and the final payment gets a 20,000 deduction; repeat buyers get another 10,000 off, bringing the out-the-door prices to about 489,800 and 439,800 respectively. The Levi's is a flagship special edition, like Nio's signature editions, with four LiDARs, the 800-volt active suspension, and power-closing doors as exclusive features — about 100,000 more than a regular L9. Whether a Pro version returns depends on Levi's sales. Buyers who were looking at the Wenjie M9 Ultimate or the Nio ES9, which run 600,000 to 700,000 on the road, discovered that a 5.25-meter L9 Levi's gives them the full flagship kit for under 500,000. If the L9 Levi's brand can't hold its own, the future pure-electric products will be seriously affected.",
+      "sentences": [
+        {
+          "cn": "核心机制：5月15日正式上市，Levi's 50.98万（较预售降5万）、Ultra 45.9万（较老款涨2万）。6月30日前下定尾款抵2万，老车主复购再减1万，到手价分别约48.98万和43.98万",
+          "en": "It officially launched on May 15. The Levi's is 509,800 yuan, 50,000 below the pre-sale price, and the Ultra is 459,000, 20,000 up from the old model. Order before June 30 and the final payment gets a 20,000 deduction; repeat buyers get another 10,000 off, bringing the out-the-door prices to about 489,800 and 439,800 respectively.",
+          "note": "<span>表达提示</span>pre-sale price → 预售价格；final payment → 尾款；repeat buyer → 老车主复购；out-the-door price → 到手价"
+        },
+        {
+          "cn": "关键理解：Levi's 是旗舰特别版（类似蔚来签名版），含四激光雷达、800V主动悬架、电吸门等专属配置，比普通L9贵约10万。Pro版是否回归取决于Levi's销量",
+          "en": "The insight: the Levi's is a flagship special edition, like Nio's signature editions, with four LiDARs, the 800-volt active suspension, and power-closing doors as exclusive features — about 100,000 yuan more than a regular L9. Whether a Pro version returns depends on Levi's sales.",
+          "note": "<span>表达提示</span>flagship special edition → 旗舰特别版；exclusive features → 专属配置；signature edition → 签名版"
+        },
+        {
+          "cn": "典型场景：预算原本看问界M9 Ultimate或蔚来ES9（60-70万落地）的用户，发现5.25米体量的L9 Levi's 50万内能拿下全套旗舰配置",
+          "en": "A typical case: buyers whose budget was aimed at the Wenjie M9 Ultimate or the Nio ES9, running 600,000 to 700,000 on the road, discovered that a 5.25-meter L9 Levi's gives them the full flagship kit for under 500,000.",
+          "note": "<span>表达提示</span>flagship kit → 旗舰配置；on the road → 落地价"
+        },
+        {
+          "cn": "（引用）原文依据：「如果L9的Levi's的销量和品牌标识没有站得住，将来对于它的纯电产品是有非常大的影响」",
+          "en": "The original quote: 'If the L9 Levi's sales and brand identity don't hold up, it will have a huge impact on the pure-electric products to come.'",
+          "note": "<span>表达提示</span>brand identity → 品牌标识；hold up → 站得住"
+        },
+        {
+          "cn": "（引用）相关概念：Levi's 是品牌锚点——L9高端站得住，未来纯电i9才有定价空间",
+          "en": "Related concept: the Levi's is the brand anchor — if the L9 holds the premium ground, the future pure-electric i9 has room to set its pricing.",
+          "note": "<span>表达提示</span>brand anchor → 品牌锚点；premium ground → 高端定位"
+        },
+        {
+          "cn": "试驾前签署1000万罚款保密协议（其他品牌通常500万）。更戏剧性的是，保密期内有咨询公司以高额费用邀约电话采访，问题全部指向L9 Levi's未公开参数——三刀直接拒绝",
+          "en": "Before the test drive he signed an NDA with a 10-million-yuan penalty — other brands usually ask for 5 million. More dramatic: during the embargo, a consulting firm offered him a hefty fee for a phone interview, with every question aimed at the L9 Levi's unpublished specs — Sandao turned it down flat.",
+          "note": "<span>表达提示</span>NDA → 保密协议；embargo period → 保密期；turn it down flat → 直接拒绝"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「50万内拿下全套旗舰配置」",
+          "phrases": [
+            "You get the full flagship kit for under 500,000.",
+            "The whole package, flagship specs included, lands under the 500k mark."
+          ],
+          "chunks": "the full flagship kit · lands under the mark",
+          "usage": "flagship kit 是汽车媒体常用说法"
+        },
+        {
+          "intent": "想说「品牌锚点」",
+          "phrases": [
+            "The Levi's is the brand anchor.",
+            "It's the halo model that lifts everything else."
+          ],
+          "chunks": "the brand anchor · the halo model",
+          "usage": "halo model 指「光环车型」，比 anchor 更口语"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title_cn": "二、四颗激光雷达：不计成本的补盲方案",
+      "title_en": "Four LiDARs: A No-Expense-Spared Blind-Spot Solution",
+      "context": "Why four LiDARs — one long-range plus three solid-state — and what they actually fix. 语域：casual 技术点评。",
+      "speak": "The setup: one long-range LiDAR on the roof at 300 meters, one solid-state focus-adjustable unit on each front fender for blind-spot coverage, and one solid-state unit at the rear for the back blind zone. The old L9 had only the single roof unit. Blind-spot LiDARs go after lateral cut-ins, pedestrians darting out, lane-change blind spots, and reversing AEB — especially the front-left and front-right blind zones near roller doors and corner parking spots. In the industry, one is enough, two is luxury, three is top trim, and four means no expense is spared. There's only one car on the market using four LiDARs today. But stacking hardware needs algorithms, compute, and a data loop to back it up. Four LiDARs solve specific blind-spot scenarios — that doesn't equal L3 or L4 autonomous capability.",
+      "sentences": [
+        {
+          "cn": "核心机制：顶置1颗远距激光雷达（300米）+ 左右前翼子板各1颗固态可变焦补盲 + 后向1颗固态补后方盲区。老款L9仅1颗顶置",
+          "en": "The setup: one long-range LiDAR on the roof at 300 meters, one solid-state focus-adjustable unit on each front fender for blind-spot coverage, and one solid-state unit at the rear for the back blind zone. The old L9 had only the single roof unit.",
+          "note": "<span>表达提示</span>long-range LiDAR → 远距激光雷达；solid-state → 固态；blind zone → 盲区"
+        },
+        {
+          "cn": "关键理解：补盲雷达专攻横向加塞、鬼探头、变道盲区、倒车AEB（尤其卷闸门/墙角车位左前/右前方盲区）。行业内1颗够用、2颗豪华、3颗顶配，4颗=不计成本",
+          "en": "The insight: blind-spot LiDARs go after lateral cut-ins, pedestrians darting out, lane-change blind spots, and reversing AEB — especially the front-left and front-right blind zones near roller doors and corner parking spots. In the industry, one is enough, two is luxury, three is top trim, and four means no expense is spared.",
+          "note": "<span>表达提示</span>lateral cut-in → 横向加塞；pedestrian darting out → 鬼探头；reversing AEB → 倒车自动紧急制动"
+        },
+        {
+          "cn": "典型场景：地库卷闸门旁停车位出库时，后视镜看不到的盲区车辆可被后向雷达提前预警阻止变道",
+          "en": "A typical scene: when pulling out of a parking spot beside a basement roller door, a vehicle hidden in the mirror blind spot can be flagged early by the rear LiDAR, preventing a blind lane change.",
+          "note": "<span>表达提示</span>pull out of a spot → 出库；flag early → 提前预警"
+        },
+        {
+          "cn": "（引用）原文依据：「四颗就是不计成本……用四颗激光雷达的，目前就这一款」",
+          "en": "The original quote: 'Four LiDARs means no expense is spared... this is the only model on the market using four LiDARs.'",
+          "note": "<span>表达提示</span>no expense spared → 不计成本"
+        },
+        {
+          "cn": "（引用）相关概念：与UWB近场感知配合——取消保险杠超声波雷达开孔，外观更简洁",
+          "en": "Related note: paired with UWB near-field sensing — the bumper's ultrasonic-sensor openings are gone, giving a cleaner exterior.",
+          "note": "<span>表达提示</span>UWB near-field sensing → 超宽带近场感知；ultrasonic sensor → 超声波雷达"
+        },
+        {
+          "cn": "原因：硬件堆叠需要算法、算力和数据闭环配合。四颗雷达解决的是特定盲区场景，不能等同于L3/L4自动驾驶能力",
+          "en": "The reason: stacking hardware requires algorithms, compute, and a data loop to back it up. Four LiDARs solve specific blind-spot scenarios — that doesn't equal L3 or L4 autonomous capability.",
+          "note": "<span>表达提示</span>data loop → 数据闭环；autonomous capability → 自动驾驶能力"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「1颗够用，2颗豪华，4颗不计成本」",
+          "phrases": [
+            "One is enough, two is luxury, four is no expense spared.",
+            "At four LiDARs, cost clearly isn't the concern."
+          ],
+          "chunks": "no expense spared · cost isn't the concern",
+          "usage": "no expense spared 是本集关键评价短语"
+        },
+        {
+          "intent": "想说「硬件堆料≠自动驾驶能力」",
+          "phrases": [
+            "Stacking hardware isn't the same as autonomous capability.",
+            "More sensors don't automatically mean Level 4."
+          ],
+          "chunks": "stack hardware · more sensors ≠ more autonomy",
+          "usage": "A ≠ B 结构适合做纠偏金句"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title_cn": "三、800V全主动悬架：「遥感」能力的物理基础",
+      "title_en": "The 800V Fully Active Suspension: The Physical Basis of the 'Remote Control'",
+      "context": "What the 800-volt active suspension can do, and its real limitations. 语域：casual 试驾点评。",
+      "speak": "The suspension can bow its nose to greet you when you approach, level itself on four independent corners when camping, and even lift a single wheel to insert a recovery board when stuck in sand. Sandao calls it emotional value delivered by the 800-volt high-voltage system — but he stresses the core value is still comfort and off-road capability. The boundary: the hydraulic lines carry some delay, and for high-frequency fine vibrations the filter isn't as refined as Nio's 48-volt system; if you want the most glued-to-the-road feel, try the ET9 or ES9 first. 'You can make it jump if you want... the 800-volt system provides emotional value — isn't that nice?' The 'three wheels and change a tire' and 'hop-hop to escape' demos are short-video stunts rarely triggered in daily commutes.",
+      "sentences": [
+        {
+          "cn": "靠近车辆时悬架可点头迎宾、露营时可四轮独立调平车身、陷沙时可单轮抬起插入脱困板——三刀称之为800V高压提供的情绪价值，但强调核心仍是舒适与通过性",
+          "en": "The suspension can bow its nose to greet you as you approach, level itself on four independent corners when camping, and even lift a single wheel to insert a recovery board when stuck in sand. Sandao calls it emotional value delivered by the 800-volt high-voltage system — but the core value is still comfort and off-road capability.",
+          "note": "<span>表达提示</span>bow its nose to greet → 点头迎宾；level itself → 调平车身；recovery board → 脱困板"
+        },
+        {
+          "cn": "适用边界：管路有一定延迟，对高频细碎震动过滤不如蔚来48V；追求极致贴地感应优先试ET9/ES9",
+          "en": "Boundary conditions: the hydraulic lines carry some delay, and the filtering of high-frequency fine vibrations isn't as refined as Nio's 48-volt system. If you want the most glued-to-the-road feel, try the ET9 or ES9 first.",
+          "note": "<span>表达提示</span>high-frequency vibrations → 高频细碎震动；glued to the road → 极致贴地"
+        },
+        {
+          "cn": "（引用）「你让它给你跳一下都没什么问题……800V高压给你提供情绪价值，这不挺好吗」",
+          "en": "The quote: 'You can even make it jump if you want... the 800-volt system provides emotional value — isn't that nice?'",
+          "note": "<span>表达提示</span>provide emotional value → 提供情绪价值"
+        },
+        {
+          "cn": "（引用）怎么落地：去4S店专门试减速带、烂路和泊车姿态演示，对比48V车型的细腻感差异",
+          "en": "How to test it: at the dealership, deliberately run over speed bumps and rough roads and watch the parking-posture demo, then compare the fine texture against a 48-volt car.",
+          "note": "<span>表达提示</span>speed bump → 减速带；fine texture → 细腻感"
+        },
+        {
+          "cn": "原因：「三条腿走路换轮胎」「蹦蹦跳跳脱困」是短视频传播手段，日常通勤极少触发",
+          "en": "The reason: 'three wheels up to change a tire' and 'hop-hop to escape a sand trap' are short-video marketing stunts — they're almost never triggered in daily commuting.",
+          "note": "<span>表达提示</span>short-video stunts → 短视频传播手段；daily commute → 日常通勤"
+        },
+        {
+          "cn": "解法：关注实际场景的点头抑制、侧倾控制和烂路舒适性，而非演示噱头",
+          "en": "The fix: judge the real stuff — nose-dive suppression in real scenarios, roll control, and rough-road comfort — instead of the demo gimmicks.",
+          "note": "<span>表达提示</span>nose-dive suppression → 点头抑制；roll control → 侧倾控制；demo gimmicks → 演示噱头"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「800V 提供的是情绪价值」",
+          "phrases": [
+            "The 800-volt system is mostly emotional value.",
+            "It's party tricks with real comfort underneath."
+          ],
+          "chunks": "emotional value · party tricks",
+          "usage": "emotional value 是中文营销热词的地道转译"
+        },
+        {
+          "intent": "想说「演示是噱头，日常用不上」",
+          "phrases": [
+            "Those demos are stunts you'll never trigger daily.",
+            "Showcase gimmicks, not commute realities."
+          ],
+          "chunks": "showcase gimmicks · commute realities",
+          "usage": "gimmick 指营销噱头"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "title_cn": "四、OTA「遥感」争议：备案与审查的边界",
+      "title_en": "The OTA 'Remote Alteration' Controversy: Filing vs. Review",
+      "context": "What OTA filing actually means legally, and why it's not substantive code review. 语域：casual 法规科普。",
+      "speak": "Automakers must file OTA updates with the regulator, recording the changed parameters, the functional adjustments, and the responsible party, so liability can be traced after the fact. But filing is not a substantive technical review of the underlying code. The infotainment system is closed and not open source, and the regulator doesn't have enough manpower to check every model and every version line by line. In practice: if an OTA update leaves the suspension or driving parameters abnormal and causes an accident, the filing records can precisely locate the responsible party and the changed version. A listener put it well: filing is essentially compliant information registration — a completely different thing from substantive technical review. The 'remote alteration' headline is playful — OTA can change a car's behavior remotely, but the legal framework relies on filing plus accountability, not line-by-line pre-review.",
+      "sentences": [
+        {
+          "cn": "核心机制：车企OTA升级需向主管部门备案，记录改动参数、功能调整内容和责任主体，便于事后溯源追责",
+          "en": "The mechanism: automakers must file OTA updates with the regulator, recording the changed parameters, the functional adjustments, and the responsible party, so liability can be traced after the fact.",
+          "note": "<span>表达提示</span>file with the regulator → 向主管部门备案；liability → 责任；trace after the fact → 事后溯源"
+        },
+        {
+          "cn": "关键理解：备案≠对底层代码的实质性技术审查。车机系统封闭非开源，监管无法配备足够人力逐车型逐版本排查代码",
+          "en": "The insight: filing is not a substantive technical review of the underlying code. The infotainment system is closed and not open source, and the regulator doesn't have enough manpower to check every model and every version line by line.",
+          "note": "<span>表达提示</span>substantive technical review → 实质性技术审查；line by line → 逐行排查"
+        },
+        {
+          "cn": "典型场景：若OTA后悬架/智驾参数异常导致事故，备案记录可精准定位责任主体和改动版本",
+          "en": "A typical case: if an OTA update leaves the suspension or driving parameters abnormal and causes an accident, the filing records can precisely locate the responsible party and the changed version.",
+          "note": "<span>表达提示</span>responsible party → 责任主体；pinpoint → 精确定位"
+        },
+        {
+          "cn": "（引用）听友原文：「备案本质是合规的信息登记，和实质性的技术审查完全是两回事」",
+          "en": "A listener's words: 'Filing is essentially compliant information registration — a completely different thing from substantive technical review.'",
+          "note": "<span>表达提示</span>information registration → 信息登记"
+        },
+        {
+          "cn": "（引用）相关概念：「遥感」标题戏谑——OTA可远程改变车辆行为，但法律框架靠备案登记+追责制度，非事前逐行审查",
+          "en": "Related concept: the 'remote alteration' headline is playful — OTA can change a car's behavior remotely, but the legal framework rests on filing plus accountability, not line-by-line pre-review.",
+          "note": "<span>表达提示</span>remote alteration → 远程篡改/遥感；accountability → 追责制度"
+        },
+        {
+          "cn": "为什么重要：800V 5C充电、420km CLTC续航、四激光雷达都是新上车技术，纸面参数需真实路况验证",
+          "en": "Why it matters: 800-volt 5C charging, 420 kilometers of CLTC range, and four LiDARs are all new tech landing on the car — the paper specs still need real-road verification.",
+          "note": "<span>表达提示</span>5C charging → 5C超充；CLTC range → CLTC续航；real-road verification → 真实路况验证"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「备案≠审查」",
+          "phrases": [
+            "Filing isn't review.",
+            "Registration is not the same as a technical audit."
+          ],
+          "chunks": "filing isn't review · registration vs audit",
+          "usage": "A isn't B 是澄清概念的最佳句式"
+        },
+        {
+          "intent": "想说「出事能溯源追责」",
+          "phrases": [
+            "If something goes wrong, the records trace it back.",
+            "The filing lets you pinpoint the version and the party at fault."
+          ],
+          "chunks": "trace it back · pinpoint the version",
+          "usage": "pinpoint 指精确定位"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "title_cn": "五、购车决策：旗舰SUV红海中的选择",
+      "title_en": "The Buying Decision: Choices in the Flagship-SUV Red Sea",
+      "context": "2026's flagship SUV war, and how to choose among the 9-series crowd. 语域：casual 购车建议。",
+      "speak": "In 2026, the Wenjie M9, Denza N9, Nio ES9, Lynk & Co 900, and Zeekr 9X are all launching around the same time — a true battle of the gods among flagship SUVs. Sandao emphasizes: buying a 9-series isn't a necessity, it's an upgrade — space, luxury, presence, and comfort solved in one stop, but the bill isn't small. His judgment rule: if 70 percent of the features hit your needs, put it on the shortlist; if 60 to 70 percent of the features are things you'll never use, drop it — there are plenty of 9-series choices. A big car is face; parking is daily life, so a 5.2-meter body needs real thought about your parking scenarios. The L9's interior walks a Land Rover and Nissan home-style route: light upper, dark lower, calm colors, second-row zero-gravity seats, and EC-dimmable privacy glass. You sit in relaxation, not sport. Before buying, decide what feeling you want: if you want to drive, find the battle stance; if you want to be driven, find the life feel.",
+      "sentences": [
+        {
+          "cn": "2026年问界M9、腾势N9、蔚来ES9、领克900、极氪9X等扎堆上市，旗舰SUV神仙打架。三刀强调：买9系不是刚需，是升级改善——空间、豪华、气场、舒适度痛点一站式解决，但费用不低",
+          "en": "In 2026, the Wenjie M9, Denza N9, Nio ES9, Lynk & Co 900, and Zeekr 9X are all launching around the same time — a true battle of the gods among flagship SUVs. Sandao emphasizes: buying a 9-series isn't a necessity, it's an upgrade — space, luxury, presence, and comfort solved in one stop, but the bill isn't small.",
+          "note": "<span>表达提示</span>battle of the gods → 神仙打架；solved in one stop → 一站式解决；presence → 气场"
+        },
+        {
+          "cn": "关键判断标准：70%功能点切中你 → 列入备选；6-7成以上功能用不上 → 直接放弃，9系选择很多",
+          "en": "His judgment rule: if 70 percent of the features hit your needs, put it on the shortlist; if 60 to 70 percent of the features are things you'll never use, drop it — there are plenty of 9-series choices.",
+          "note": "<span>表达提示</span>shortlist → 备选；hit your needs → 切中需求"
+        },
+        {
+          "cn": "（引用）相关概念：「车大是面子，停车是日子」——5.2米车长需考虑日常停车场景",
+          "en": "Related idea: 'a big car is face; parking is daily life' — a 5.2-meter body means you need to think hard about your everyday parking scenarios.",
+          "note": "<span>表达提示</span>face → 面子；parking scenarios → 停车场景"
+        },
+        {
+          "cn": "理想L9内饰走路虎/日产居家路线——上浅下深、配色不跳、二排零重力+EC调光隐私玻璃。坐进去是松弛感而非运动感。买车前先想清楚自己要什么感觉：想开车找战斗姿态，想坐车找生活感",
+          "en": "The L9 interior walks a Land Rover and Nissan home-style route: light upper, dark lower, calm colors, second-row zero-gravity seats, and EC-dimmable privacy glass. You sit into relaxation, not sport. Before buying, decide what feeling you want — if you want to drive, find the battle stance; if you want to be driven, find the life feel.",
+          "note": "<span>表达提示</span>zero-gravity seat → 零重力座椅；EC-dimmable glass → EC调光玻璃；battle stance vs life feel → 战斗姿态与生活感"
+        },
+        {
+          "cn": "（引用）原文依据：「买车的时候不是说这车好与不好，买车你要找你到底要什么感觉」",
+          "en": "The original quote: 'Buying a car isn't about good or bad — you have to find what feeling you actually want.'",
+          "note": "<span>表达提示</span>what feeling you want → 你要什么感觉"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「9系是升级改善，不是刚需」",
+          "phrases": [
+            "A 9-series is an upgrade, not a necessity.",
+            "You're buying an improvement, not covering a basic need."
+          ],
+          "chunks": "an upgrade, not a necessity",
+          "usage": "upgrade vs necessity 是购车建议的结论句"
+        },
+        {
+          "intent": "想说「车大是面子，停车是日子」",
+          "phrases": [
+            "A big car is face; parking is daily life.",
+            "The size impresses, but the garage decides."
+          ],
+          "chunks": "face vs daily life · the garage decides",
+          "usage": "对仗金句，适合做总结"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "cn": "用「no expense spared」说：四颗激光雷达不计成本。",
+      "en": "Four solid-state LiDARs is no expense spared — it's the only car on the market with that setup."
+    },
+    {
+      "cn": "用「blind spot」说：补盲雷达专攻侧向盲区。",
+      "en": "The fender LiDARs exist to cover the blind spots you can't see in the mirrors."
+    },
+    {
+      "cn": "用「filing isn't review」说：OTA 备案不等于实质审查。",
+      "en": "OTA filing is information registration, not a substantive technical review."
+    },
+    {
+      "cn": "用「upgrade, not a necessity」说：买 9 系是升级改善。",
+      "en": "Buying a 9-series flagship is an upgrade, not a necessity."
+    }
+  ],
+  "pitfalls": [
+    {
+      "wrong": "The Li L9 has four lidars, so it can drive itself.",
+      "right": "Four LiDARs solve specific blind-spot scenarios — that's not L3 or L4 autonomy.",
+      "why": "传感器数量≠自动驾驶等级；硬件堆料与能力等级的边界要说清，是本集纠偏核心。"
+    },
+    {
+      "wrong": "The suspension can jump, it is amazing.",
+      "right": "The active suspension offers emotional value — the demos are stunts; judge real comfort on bumps and roll control.",
+      "why": "跳一跳是营销演示；真正要看的是点头抑制、侧倾控制和烂路舒适性。"
+    },
+    {
+      "wrong": "OTA has been filed, so it is safe and legal.",
+      "right": "Filing is registration for liability tracing — not substantive review of the code.",
+      "why": "备案≠审查；把备案当安全背书是误解，法规框架靠备案+追责。"
+    },
+    {
+      "wrong": "The car is 5.2 meters, very big and good.",
+      "right": "A big car is face, but parking is daily life — match the size to your parking reality.",
+      "why": "只夸车大漏掉「停车是日子」的决策维度；购车建议要点出使用场景。"
+    }
+  ],
+  "shifts": [
+    {
+      "before": "以为激光雷达越多=自动驾驶越强",
+      "after": "四颗解决的是特定盲区补盲，不等于 L3/L4；判断看算法、算力与数据闭环"
+    },
+    {
+      "before": "以为 OTA 备案就是国家把关过安全性",
+      "after": "备案是合规登记，靠事后追责；纸面参数仍需真实路况验证"
+    },
+    {
+      "before": "以为买 9 系大车就是刚需、越大越好",
+      "after": "9 系是升级改善不是刚需——70% 功能切中才值得列入备选"
+    }
+  ],
+  "voice": "en-US-JennyNeural",
+  "audio_dir": "audio/en/lidar_800v_ideal_l9"
+}

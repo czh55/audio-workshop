@@ -373,6 +373,15 @@
     .card-links .card-source-link {
       margin-top: 0;
     }
+    .card-links .card-en-link {
+      color: var(--teal, #0d686c);
+      font-weight: 600;
+      border-bottom: 1px dashed rgba(13, 104, 108, 0.5);
+    }
+    .card-links .card-en-link:hover {
+      color: var(--accent);
+      border-bottom-style: solid;
+    }
     .card-duration {
       display: inline-block;
       font-size: 12px;
@@ -1051,6 +1060,13 @@
               ? '<a class="card-source-link" href="' + escapeHtml(item.filename.replace(/\.svg$/i, '.html')) + '" target="_blank">📄 HTML 版</a>'
               : '';
 
+            var enSlug = (!isError && item.filename)
+              ? item.filename.replace(/-(?:播客)?总结\.svg$/i, '')
+              : '';
+            var enLink = (item.en && enSlug)
+              ? '<a class="card-source-link card-en-link" href="' + escapeHtml(enSlug + '-en.html') + '" target="_blank">🌐 EN 双语版</a>'
+              : '';
+
             var durationHtml = (item.duration && !isError)
               ? '<span class="card-duration">⏱ ' + escapeHtml(item.duration) + '</span>'
               : '';
@@ -1062,7 +1078,7 @@
               '<div class="card-summary">' + summaryText + '</div>' +
               tagsHtml +
               durationHtml +
-              '<div class="card-links">' + sourceLink + htmlLink + '</div>' +
+              '<div class="card-links">' + sourceLink + htmlLink + enLink + '</div>' +
               '<span class="card-link-icon">&#x2197;</span>';
 
             group.appendChild(card);

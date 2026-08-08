@@ -1,0 +1,206 @@
+{
+  "slug": "iiac_coffee_gold_award",
+  "date": "2026-06-23",
+  "platform": "小宇宙FM",
+  "title": "咖啡豆｜瑞幸库迪麦当劳纷纷「摘得」IIAC 金奖，为何金奖咖啡豆在国内遍地开花？",
+  "title_en": "Coffee Beans: Luckin, Cotti, and McDonald's All 'Win' IIAC Gold — Why Is Gold-Award Coffee Blooming Everywhere in China?",
+  "eyebrow": "Food & Marketing · 食品与营销",
+  "duration": "14分钟",
+  "source_url": "https://www.xiaoyuzhoufm.com/episode/69fca445e1eb34a939ee00db",
+  "summary_cn": "一句话概括：听友 Stella 发现满大街咖啡豆都标「IIAC 金奖」——节目拆解 IIAC/ICT 赛事机制，对比卓越杯与 WBC，揭示金奖本质是「合格线认证」而非淘汰赛名次，瑞幸示范效应叠加万元级低成本营销，让金奖标签在中国咖啡市场遍地开花",
+  "summary_en": "Listener Stella noticed gold-award coffee beans on every street corner, so the show takes apart the IIAC and ICT judging mechanism. Compared with the Cup of Excellence and the WBC, the 'gold award' turns out to be a pass-line certification rather than a knockout ranking. Combined with Luckin's demonstration effect and ten-thousand-yuan-level cheap marketing, the gold label has bloomed across China's coffee market. The episode also covers quick business news: Samsung exiting China's home-appliance market, Moonshot's latest financing, and Google DeepMind betting on EVE Online to train AI for long-term planning.",
+  "scenes": [
+    {
+      "id": "s1",
+      "title_cn": "上半段：商业科技快讯",
+      "title_en": "Part 1: Business & Tech News Briefs",
+      "context": "The first half covers quick business and tech news. 语域：casual 新闻快讯 + 点评。",
+      "speak": "First, the news. On May 6, Samsung said it would stop selling TVs, monitors, and other home appliances in mainland China while keeping phones — the appliance market has hit its ceiling, and Hisense and TCL's rise crushed its premium positioning, with offline share below 4 percent and under 0.5 percent in refrigerators and washers. The same day its stock jumped over 14 percent, making it the second Asian company after TSMC to pass a trillion dollars in market value, powered by AI demand for memory. Meanwhile Moonshot is closing a 2-billion-dollar round at a post-money valuation above 20 billion, pivoting to model performance after DeepSeek stole the spotlight. And Google DeepMind bought a minority stake in the EVE Online developer to train AI for long-term planning — games are an ideal sandbox for AI training.",
+      "sentences": [
+        {
+          "cn": "核心机制：5 月 6 日三星宣布停止在中国大陆销售电视、显示器等家电，手机继续销售。中国家电增量触顶，海信/TCL 崛起挤压其高端溢价，线下采店份额不足 4%，冰洗不到 0.5%",
+          "en": "The mechanism: on May 6, Samsung announced it would stop selling TVs, monitors, and other home appliances in mainland China, while keeping phones. China's appliance market has hit its ceiling; Hisense and TCL's rise squeezed Samsung's premium positioning, with its offline share below 4% in most categories and under 0.5% in refrigerators and washers.",
+          "note": "<span>表达提示</span>hit its ceiling → 触顶；premium positioning → 高端溢价；offline share → 线下份额"
+        },
+        {
+          "cn": "关键理解：存储芯片涨价拖累家电盈利，三星实施业务聚焦；同日股价涨超 14%，成台积电之后第二家市值破万亿美元的亚洲公司——AI 对存储的需求成为新增长引擎",
+          "en": "The insight: rising memory-chip prices dragged down appliance profits, so Samsung focused its business; the same day its stock jumped over 14%, making it the second Asian company after TSMC to pass a trillion dollars in market value — AI demand for memory is the new growth engine.",
+          "note": "<span>表达提示</span>business focus → 业务聚焦；market value → 市值；trillion dollars → 万亿美元；growth engine → 增长引擎"
+        },
+        {
+          "cn": "（引用）原文依据：存储芯片涨价潮给三星带来怎样影响，是本期开场抛出的核心问题之一",
+          "en": "As the show opens: how the memory-chip price surge affects Samsung is one of the core questions of the episode.",
+          "note": "<span>表达提示</span>price surge → 涨价潮；core question → 核心问题"
+        },
+        {
+          "cn": "即将完成 20 亿美元融资，投后估值超 200 亿美元，累计融资超 376 亿人民币，居大模型初创之首。2024 年大额投放后产品发散，2025 年春节 DeepSeek 吸走注意力，公司转向「模型最佳表现优先」、减少 C 端投放、B 端开源、强化编程与智能体能力。同时面临激烈人才挖角，杨植麟宣布 2026 年平均激励翻倍",
+          "en": "Moonshot is about to close a 2-billion-dollar round at a post-money valuation above 20 billion, with total funding past 37.6 billion yuan — the most of any large-model startup. After heavy spending in 2024 scattered its product line, and DeepSeek stealing attention during the 2025 Spring Festival, the company pivoted to prioritizing model performance, cutting consumer-side ads, opening the B side, and strengthening coding and agent abilities. Facing fierce talent poaching, Yang Zhilin announced doubling average incentives in 2026.",
+          "note": "<span>表达提示</span>post-money valuation → 投后估值；pivot to → 转向；talent poaching → 人才挖角；incentives → 激励"
+        },
+        {
+          "cn": "核心机制：Google DeepMind 收购 EVE Online 开发商少数股权，用这款大型多人在线游戏训练 AI 的长期规划与持续学习能力。此前已通过星际争霸等游戏验证路径",
+          "en": "The mechanism: Google DeepMind bought a minority stake in the EVE Online developer, using this massive multiplayer game to train AI for long-term planning and continual learning — a path already validated with games like StarCraft.",
+          "note": "<span>表达提示</span>minority stake → 少数股权；long-term planning → 长期规划；continual learning → 持续学习；validate a path → 验证路径"
+        },
+        {
+          "cn": "典型场景：游戏提供规则清晰、反馈及时、可无限生成数据的虚拟世界，是 AI 训练的理想沙盒",
+          "en": "Typical case: games offer a virtual world with clear rules, instant feedback, and endlessly generated data — an ideal sandbox for AI training.",
+          "note": "<span>表达提示</span>sandbox → 沙盒/试验场；endless data → 无限数据；instant feedback → 及时反馈"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「市场触顶」",
+          "phrases": [
+            "The appliance market has hit its ceiling.",
+            "Growth has plateaued; there's no new room."
+          ],
+          "chunks": "hit its ceiling · plateau",
+          "usage": "plateau 是「进入平台期」"
+        },
+        {
+          "intent": "想说「业务聚焦」",
+          "phrases": [
+            "Samsung is focusing its business.",
+            "They're cutting everything that doesn't feed AI."
+          ],
+          "chunks": "focus its business · cut what doesn't feed AI",
+          "usage": "口语补充解释"
+        },
+        {
+          "intent": "想说「验证过的路径」",
+          "phrases": [
+            "The approach was validated with StarCraft.",
+            "They've already proven the path with games."
+          ],
+          "chunks": "validate a path · proven the path",
+          "usage": "validate 偏学术/商业"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title_cn": "下半段：IIAC 金奖咖啡豆深度拆解",
+      "title_en": "Part 2: The IIAC Gold-Award Coffee Bean, Explained",
+      "context": "The hosts unpack what the IIAC gold award actually means. 语域：casual 科普拆解 + 消费提醒。",
+      "speak": "Now the coffee. The IIAC — International Institute of Coffee Tasters — was founded in Italy in 1993, runs non-profit on membership fees, and its International Coffee Tasting has scored coffees in anonymous blind tastings since 2006. The gold award needs two conditions at once: at least 85 out of 100, and a top-25-percent finish. There are only gold and platinum tiers — no silver, no bronze. And the entry bar is low: pay about 2,000 yuan per product, ship samples, and any brand can compete. That's the institutional root of the gold bloom. So when you buy, tell a certification pass apart from a competition champion — one means pretty good, the other means one in ten thousand.",
+      "sentences": [
+        {
+          "cn": "核心机制：IIAC（International Institute of Coffee Tasters，国际咖啡品鉴协会）1993 年成立于意大利，非营利，靠会员费运营。其主办的 ICT（International Coffee Tasting）自 2006 年举办，采用匿名盲测打分",
+          "en": "The mechanism: the IIAC — the International Institute of Coffee Tasters — was founded in Italy in 1993, is non-profit, and runs on membership fees. Its event, the ICT, or International Coffee Tasting, has run since 2006 and scores coffees in anonymous blind tastings.",
+          "note": "<span>表达提示</span>blind tasting → 盲测；membership fees → 会员费；non-profit → 非营利"
+        },
+        {
+          "cn": "关键理解：金奖需同时满足两个条件：① 满分 100 分中得分 ≥ 85 分；② 排进当场品鉴会前 25%。前 25% 中的前 20% 可角逐铂金奖。只设金/铂两档，无银铜奖",
+          "en": "The insight: the gold award needs two conditions at once — a score of 85 or higher out of 100, and a finish in the top 25% of that session's tasting. The top 20% of that top 25% can compete for platinum. There are only gold and platinum tiers; no silver or bronze.",
+          "note": "<span>表达提示</span>top 25% → 前25%；gold and platinum tiers → 金/铂两档；meet two conditions → 满足两个条件"
+        },
+        {
+          "cn": "典型场景：品牌提交报名信息 → 每款产品约 2000 元参赛费 → 寄送样品。每年最多 10 款产品参赛，阶梯制报名费使多产品参赛更划算。评选范围含咖啡豆、胶囊、挂耳等",
+          "en": "Typical process: a brand submits registration, pays around 2,000 yuan per product, and ships samples. Up to ten products per brand per year, with tiered entry fees that make entering more products cheaper. The scope covers beans, capsules, drip bags, and more.",
+          "note": "<span>表达提示</span>entry fee → 参赛费；tiered fees → 阶梯制收费；drip bags → 挂耳咖啡"
+        },
+        {
+          "cn": "（引用）原文依据：「任何品牌只要缴纳了报名费、寄送样品就能够参赛」——这是金奖遍地开花的制度根源",
+          "en": "As the show says: 'Any brand that pays the entry fee and ships samples can compete' — that's the institutional root of gold awards blooming everywhere.",
+          "note": "<span>表达提示</span>institutional root → 制度根源；bloom everywhere → 遍地开花；pay the entry fee → 缴纳报名费"
+        },
+        {
+          "cn": "原因：「金奖」二字在中文语境自带稀缺感，但 ICT 不设淘汰赛、不设参赛门槛，85 分 + 前 25% 的门槛在品鉴会规模扩大后并不严苛。2024 年 8 月起国内累计举办 10 多场，单场 40 多款获奖",
+          "en": "Why: the word 'gold' carries built-in rarity in Chinese, but the ICT has no knockout rounds and no entry barrier, and the 85-point plus top-25% bar isn't strict once tasting sessions grow large. Since August 2024, more than ten sessions have been held in China, with over 40 entries winning at a single event.",
+          "note": "<span>表达提示</span>built-in rarity → 自带稀缺感；knockout rounds → 淘汰赛；entry barrier → 参赛门槛"
+        },
+        {
+          "cn": "解法：购买咖啡时区分「认证达标」与「赛事冠军」——前者代表「还不错」，后者才代表「万里挑一」",
+          "en": "The fix: when buying coffee, tell 'certification pass' apart from 'competition champion' — the first means 'pretty good,' the second means 'one in ten thousand.'",
+          "note": "<span>表达提示</span>certification pass → 认证达标；one in ten thousand → 万里挑一；tell A apart from B → 区分A和B"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「金奖≠第一名」",
+          "phrases": [
+            "Gold here means 'passed the bar,' not 'won the race.'",
+            "It's a certification, not a championship."
+          ],
+          "chunks": "passed the bar · certification, not a championship",
+          "usage": "对比句适合揭穿营销"
+        },
+        {
+          "intent": "想说「门槛很低」",
+          "phrases": [
+            "Any brand with two thousand yuan can enter.",
+            "The entry bar is almost nonexistent."
+          ],
+          "chunks": "entry bar · can enter",
+          "usage": "entry bar 指门槛"
+        },
+        {
+          "intent": "想说「遍地开花」",
+          "phrases": [
+            "Gold labels are blooming on every shelf.",
+            "The award has become ubiquitous."
+          ],
+          "chunks": "blooming on every shelf · ubiquitous",
+          "usage": "ubiquitous 偏书面"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "cn": "用「blind tasting」说：ICT采用匿名盲测打分。",
+      "en": "The ICT scores every coffee in anonymous blind tastings."
+    },
+    {
+      "cn": "用「one in ten thousand」说：赛事冠军才是万里挑一。",
+      "en": "A competition champion means one in ten thousand — a gold label just means 'pretty good.'"
+    },
+    {
+      "cn": "用「tell A apart from B」说：要区分认证达标和赛事冠军。",
+      "en": "Buyers need to tell a certification pass apart from a competition champion."
+    },
+    {
+      "cn": "用「hit its ceiling」说：中国家电市场触顶。",
+      "en": "China's home-appliance market has hit its ceiling, forcing Samsung to retreat."
+    }
+  ],
+  "pitfalls": [
+    {
+      "wrong": "The coffee won the first place in IIAC.",
+      "right": "The coffee won an IIAC gold award — but that's a pass-line certification, not first place.",
+      "why": "IIAC金奖不是「第一名」；用 pass-line certification / qualified 表达才准确。"
+    },
+    {
+      "wrong": "Gold award is very rare in China.",
+      "right": "Gold labels are blooming everywhere in China, precisely because the entry bar is low.",
+      "why": "事实与直觉相反——正因为门槛低才遍地开花；要纠正「金奖=稀缺」的错误认知。"
+    },
+    {
+      "wrong": "The coffee bean is very delicious, so it won the award.",
+      "right": "The brand paid an entry fee and scored above 85 in a blind tasting.",
+      "why": "「好喝才获奖」的因果是错的；获奖流程是报名+寄样+盲测打分，与主观口味无关。"
+    },
+    {
+      "wrong": "Samsung stopped selling TV in China.",
+      "right": "Samsung stopped selling TVs and other home appliances in mainland China — but it's keeping phones.",
+      "why": "「停止销售」用 stop selling；且要带上「保留手机业务」的对比，事实才完整。"
+    }
+  ],
+  "shifts": [
+    {
+      "before": "以为「IIAC金奖」=万里挑一的好豆",
+      "after": "金奖只是「85分+前25%」的合格线认证，参赛即有机会"
+    },
+    {
+      "before": "以为金奖豆一定比普通豆好喝",
+      "after": "获奖是流程+分数的结果，与你的口味偏好没有直接关系"
+    },
+    {
+      "before": "以为大品牌摘金是实力象征",
+      "after": "低门槛+低成本营销+示范效应，才是金奖遍地开花的真实原因"
+    }
+  ],
+  "voice": "en-US-JennyNeural",
+  "audio_dir": "audio/en/iiac_coffee_gold_award"
+}

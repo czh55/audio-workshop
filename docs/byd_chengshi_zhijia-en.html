@@ -1,0 +1,892 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="比亚迪城市智驾邪吼，其他车企为什么不跟？ — Bilingual Learning Edition" />
+  <title>比亚迪城市智驾邪吼，其他车企为什么不跟？｜EN 双语学习版</title>
+  <style>:root{--teal-950:#073f42;--teal-800:#0d686c;--teal-700:#0f7c80;--teal-600:#14919b;--mint-100:#dff4ec;--mint-50:#f0faf6;--ink:#183536;--muted:#607879;--line:#d7e8e2;--paper:#fff;--amber:#a85d08;--shadow:0 12px 32px rgba(7,63,66,.08)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:24px}
+body{margin:0;color:var(--ink);background:#edf7f2;font-family:Inter,"PingFang SC","Noto Sans SC","Microsoft YaHei",system-ui,sans-serif;line-height:1.65}
+button,select{font:inherit}
+a{color:inherit}
+.hero{color:#fff;background:radial-gradient(circle at 85% 10%,rgba(129,230,196,.24),transparent 30%),linear-gradient(125deg,#073f42,#0d7377 56%,#14919b)}
+.hero-inner{width:min(1440px,100%);margin:auto;padding:44px clamp(20px,5vw,72px) 36px}
+.hero-flex{display:flex;gap:clamp(18px,3vw,40px);align-items:flex-start}
+.hero-cover{width:min(240px,42vw);height:auto;max-height:320px;object-fit:contain;object-position:center;border-radius:16px;border:1px solid rgba(255,255,255,.28);box-shadow:0 18px 44px rgba(0,0,0,.32);flex-shrink:0;background:rgba(255,255,255,.08)}
+.hero-text{min-width:0;flex:1}
+.eyebrow{margin:0 0 12px;font-size:.78rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;opacity:.8}
+h1{max-width:1020px;margin:0;font-size:clamp(1.7rem,3.6vw,3rem);line-height:1.15;letter-spacing:-.04em}
+.hero-en{margin:12px 0 22px;font-size:clamp(1rem,2vw,1.25rem);opacity:.82}
+.hero-meta{display:flex;flex-wrap:wrap;gap:9px;align-items:center}
+.chip{border:1px solid rgba(255,255,255,.28);border-radius:99px;padding:5px 11px;font-size:.82rem;background:rgba(255,255,255,.08)}
+.source-link{font-weight:750;text-decoration:none;border-bottom:1px solid rgba(255,255,255,.5)}
+.toolbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:22px}
+.toolbar label{font-size:.82rem;opacity:.82}
+.toolbar select{color:#fff;background:#0a5d61;border:1px solid rgba(255,255,255,.3);border-radius:8px;padding:7px 9px}
+.stop-btn{display:none;color:#fff;background:#8c3b2a;border:0;border-radius:8px;padding:8px 12px;cursor:pointer}
+.stop-btn.visible{display:inline-flex}
+.speech-status{min-height:1.4em;font-size:.82rem;opacity:.88}
+.lang-switch{display:inline-flex;gap:6px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.28);border-radius:99px;padding:4px}
+.lang-switch a{display:inline-block;padding:4px 13px;border-radius:99px;font-size:.8rem;font-weight:700;text-decoration:none;color:rgba(255,255,255,.75)}
+.lang-switch a.active{background:#fff;color:var(--teal-800)}
+.narration-player{margin-top:16px;padding:14px 18px;background:rgba(255,255,255,.1);border-radius:12px;border:1px solid rgba(255,255,255,.15)}
+.audio-label{color:rgba(255,255,255,.88);font-size:.82rem;font-weight:700;margin:0 0 8px}
+.page{width:min(1440px,100%);margin:auto;padding:28px clamp(16px,3vw,44px) 64px;display:grid;grid-template-columns:minmax(230px,280px) minmax(0,1fr);gap:30px;align-items:start}
+.sidebar{position:sticky;top:20px;min-width:0}
+.sidebar-box{background:rgba(255,255,255,.8);border:1px solid var(--line);border-radius:16px;padding:17px;box-shadow:var(--shadow);backdrop-filter:blur(12px)}
+.sidebar h2{margin:0 0 13px;font-size:.9rem;letter-spacing:.08em;color:var(--teal-800)}
+.map-link{display:grid;grid-template-columns:34px minmax(0,1fr);gap:9px;padding:10px 6px;text-decoration:none;border-top:1px solid var(--line)}
+.map-link:hover b{color:var(--teal-700)}
+.map-id{width:30px;height:30px;display:grid;place-items:center;border-radius:9px;color:#fff;background:var(--teal-700);font-size:.72rem;font-weight:800}
+.map-link b{display:block;font-size:.78rem;line-height:1.4}
+.map-link small{display:block;color:var(--muted);font-size:.67rem;line-height:1.4;margin-top:2px;overflow-wrap:anywhere}
+.content{min-width:0}
+.scene-card{background:var(--paper);border:1px solid var(--line);border-radius:20px;padding:clamp(20px,3vw,34px);margin-bottom:24px;box-shadow:var(--shadow);overflow:hidden}
+.scene-topline{display:flex;justify-content:space-between;gap:16px;align-items:center;margin-bottom:16px}
+.scene-id{display:inline-grid;place-items:center;min-width:42px;height:30px;padding:0 10px;color:#fff;background:var(--teal-700);border-radius:8px;font-size:.78rem;font-weight:850}
+.time{margin-left:10px;color:var(--muted);font-size:.82rem;font-variant-numeric:tabular-nums}
+.scene-card h2{margin:0 0 2px;font-size:clamp(1.35rem,2.4vw,2rem);line-height:1.25;color:var(--teal-950)}
+.scene-title-en{margin:0 0 18px;color:var(--teal-600);font-weight:700;font-size:.98rem}
+.context{margin:0 0 20px;padding:12px 15px;color:#496566;background:var(--mint-50);border-left:3px solid var(--teal-600);border-radius:0 10px 10px 0;font-size:.88rem}
+.context b{margin-right:10px;color:var(--teal-800)}
+.sentence-list{display:grid;gap:12px}
+.sentence{position:relative;display:grid;grid-template-columns:38px minmax(0,1fr);gap:12px;padding:16px;border:1px solid #e2ece8;border-radius:14px;background:#fcfefd;min-width:0}
+.sentence-no{color:var(--teal-600);font-size:.76rem;font-weight:850;font-variant-numeric:tabular-nums;padding-top:4px}
+.bilingual{min-width:0;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(14px,2vw,28px)}
+.lang-block{min-width:0}
+.lang-block p{margin:5px 0 0;overflow-wrap:anywhere}
+.en-block{padding-left:clamp(14px,2vw,28px);border-left:1px solid var(--line)}
+.en-block p{color:#0b5c60;font-weight:650}
+.lang-tag{display:inline-block;color:var(--muted);font-size:.66rem;font-weight:850;letter-spacing:.12em}
+.en-head{display:flex;justify-content:space-between;gap:10px;align-items:center;min-height:30px}
+.note{grid-column:2;margin:1px 0 0;color:#708182;font-size:.78rem}
+.note span{margin-right:7px;color:var(--amber);font-weight:750}
+.speak-btn{display:inline-flex;align-items:center;gap:7px;border:1px solid #b8d9d1;border-radius:9px;padding:7px 11px;color:var(--teal-800);background:#f5fbf8;cursor:pointer;white-space:nowrap;font-size:.78rem;font-weight:750;transition:.15s ease}
+.speak-btn:hover{color:#fff;background:var(--teal-700);border-color:var(--teal-700);transform:translateY(-1px)}
+.speak-btn.playing{color:#fff;background:var(--teal-700);border-color:var(--teal-700)}
+.speak-btn.compact{padding:4px 8px;font-size:.7rem}
+.speak-btn.icon-only{padding:3px 7px;margin-left:6px}
+.speak-btn.icon-only span:last-child{display:none}
+.pronounce-word{display:inline;margin:0;padding:0 2px;color:inherit;background:rgba(20,145,155,.08);border:0;border-bottom:1px dashed var(--teal-600);border-radius:3px;font:inherit;font-weight:inherit;line-height:inherit;cursor:pointer}
+.pronounce-word:hover,.pronounce-word:focus{color:var(--teal-950);background:#cceee4;border-bottom-style:solid;outline:3px solid rgba(20,145,155,.42);outline-offset:2px}
+.pronounce-word.playing{color:#fff;background:var(--teal-700);border-bottom-color:var(--teal-700)}
+.paraphrase{margin-top:18px;border-top:1px solid var(--line)}
+.paraphrase summary{padding:16px 0 3px;color:var(--teal-800);cursor:pointer;font-weight:800}
+.paraphrase summary span{color:var(--muted);font-size:.75rem;font-weight:500;margin-left:8px}
+.paraphrase ol{margin:12px 0 0;padding-left:22px}
+.paraphrase li{padding:7px 0 9px 5px}
+.paraphrase li p{margin:0;font-size:.9rem;font-weight:650}
+.paraphrase li small{display:block;color:var(--muted);font-size:.72rem;margin-top:2px}
+.chunks{margin-top:4px;color:var(--teal-700);font-size:.78rem}
+.study-section{margin:38px 0 0}
+.section-heading{display:flex;align-items:baseline;gap:10px;margin:0 0 15px;color:var(--teal-950);font-size:1.35rem}
+.section-heading small{color:var(--teal-600);font-size:.78rem;letter-spacing:.05em}
+.study-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.study-grid article{padding:17px;background:#fff;border:1px solid var(--line);border-radius:14px;box-shadow:0 6px 18px rgba(7,63,66,.05);min-width:0}
+.study-grid p{margin:0}
+.practice-en{margin-top:9px;color:var(--teal-700);font-weight:650;overflow-wrap:anywhere}
+.wrong{color:#a24831;text-decoration:line-through;overflow-wrap:anywhere}
+.right{color:var(--teal-700);font-weight:750;margin:5px 0;overflow-wrap:anywhere}
+.pitfalls p{color:var(--muted);font-size:.82rem}
+.shifts article{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1.5fr);gap:12px;align-items:center}
+.shifts b{color:var(--teal-600);font-size:1.2rem}
+.shifts strong{color:var(--teal-800)}
+footer{margin-top:38px;color:var(--muted);font-size:.78rem;text-align:center}
+.footer-note{margin-top:6px}
+@media (max-width:900px){
+  .page{grid-template-columns:1fr}
+  .sidebar{position:static}
+  .sidebar-box{overflow-x:auto;padding:12px}
+  .sidebar h2{padding-left:5px}
+  .map-nav{display:flex;width:max-content;gap:8px}
+  .map-link{width:240px;border:1px solid var(--line);border-radius:10px;padding:8px}
+  .bilingual{grid-template-columns:1fr}
+  .en-block{padding:12px 0 0;border-left:0;border-top:1px dashed var(--line)}
+}
+@media (max-width:620px){
+  .hero-inner{padding-top:30px}
+  .hero-flex{flex-direction:column;align-items:center}
+  .hero-cover{width:100%;max-width:360px}
+  .hero-text{text-align:center}
+  .page{padding-inline:10px;gap:18px}
+  .scene-card{border-radius:14px;padding:17px 13px}
+  .scene-topline{align-items:flex-start}
+  .scene-speak span:last-child{display:none}
+  .sentence{grid-template-columns:26px minmax(0,1fr);padding:13px 10px;gap:6px}
+  .note{grid-column:2}
+  .study-grid{grid-template-columns:1fr}
+  .shifts article{grid-template-columns:1fr;gap:5px}
+  .shifts b{transform:rotate(90deg);justify-self:start}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.speak-btn{transition:none}}</style>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="hero-flex">
+        <div class="hero-text">
+          <p class="eyebrow">EV &amp; Smart Driving · 新能源与智驾</p>
+          <h1>比亚迪城市智驾邪吼，其他车企为什么不跟？</h1>
+          <p class="hero-en">BYD's City Pilot Safety Net: Why Won't Other Carmakers Follow?</p>
+          <p class="summary-en" style="margin:0 0 14px;padding:14px 16px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.22);border-radius:12px;font-size:.95rem;line-height:1.7">Three-Dao breaks down BYD's May 28 'Ganwei' launch: a one-year safety net for its CNOA urban pilot assist — unlimited payouts, a dual-insurance system, and backend-data fault attribution — and why Tesla, Huawei, and XPeng still haven't followed. The smart-driving race has shifted from feature showdowns to a systemic ecosystem war.</p>
+          <div class="hero-meta">
+            <span class="chip">2026-06-23</span>
+            <span class="chip">小宇宙FM</span>
+            <span class="chip">1小时01分</span>
+            <span class="chip">5 Scenes</span>
+            <span class="chip">Click underlined words to hear them</span>
+            <a class="source-link" href="https://www.xiaoyuzhoufm.com/episode/6a215963b30e1571aea0a58b" target="_blank" rel="noopener">原播客 ↗</a>
+          </div>
+        </div>
+      </div>
+      <div class="toolbar">
+        <div class="lang-switch"><div class="lang-switch"><a href="byd_chengshi_zhijia-总结.html">中文</a><a class="active" href="byd_chengshi_zhijia-en.html" aria-current="page">EN</a></div></div>
+        <label for="speech-rate">朗读速度</label>
+        <select id="speech-rate">
+          <option value="0.85">慢速 0.85×</option>
+          <option value="1" selected>正常 1×</option>
+          <option value="1.15">快速 1.15×</option>
+        </select>
+        <button id="stop-speech" class="stop-btn" type="button">■ 停止朗读</button>
+        <span id="speech-status" class="speech-status" role="status" aria-live="polite"></span>
+      </div>
+      <div class="narration-player">
+      <p class="audio-label">🎧 中文语音讲解</p>
+      <button class="speak-btn" type="button" data-audio="audio/byd_chengshi_zhijia.mp3" aria-label="播放语音讲解"><span aria-hidden="true">▶</span><span>播放语音讲解</span></button>
+    </div>
+    </div>
+  </header>
+  <main class="page">
+    <aside class="sidebar" aria-label="场景地图">
+      <div class="sidebar-box">
+        <h2>场景地图 · SCENE MAP</h2>
+        <nav class="map-nav">
+          <a class="map-link" href="#s1">
+          <span class="map-id">S1</span>
+          <span><b>一、CNOA城市领航兜底：规则与边界</b><small> · CNOA Urban Pilot Safety Net: Rules and Boundaries</small></span>
+        </a>
+<a class="map-link" href="#s2">
+          <span class="map-id">S2</span>
+          <span><b>二、双保险制度与后台定责机制</b><small> · Dual Insurance and Backend Fault Attribution</small></span>
+        </a>
+<a class="map-link" href="#s3">
+          <span class="map-id">S3</span>
+          <span><b>三、L2宣传与法律责任的根本矛盾</b><small> · The Fundamental Gap Between L2 Marketing and Legal Responsibility</small></span>
+        </a>
+<a class="map-link" href="#s4">
+          <span class="map-id">S4</span>
+          <span><b>四、为何其他车企不跟进</b><small> · Why Rivals Aren't Following Suit</small></span>
+        </a>
+<a class="map-link" href="#s5">
+          <span class="map-id">S5</span>
+          <span><b>五、比亚迪敢兜底的底层逻辑</b><small> · The Logic Under BYD's Bold Guarantee</small></span>
+        </a>
+        </nav>
+      </div>
+    </aside>
+    <div class="content">
+      <section class="scene-card" id="s1" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S1</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/byd_chengshi_zhijia/s1.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>一、CNOA城市领航兜底：规则与边界</h2>
+      <p class="scene-title-en">CNOA Urban Pilot Safety Net: Rules and Boundaries</p>
+      <p class="context"><b>情境</b>拆解发布会公布的智驾兜底条款——保什么、保多久、什么情况下触发。语域：casual 商业/汽车评测解说。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：合规开启CNOA城市领航后，若因智驾系统故障造成本方有责事故，由比亚迪全额赔付，无赔付上限，不走车主商业险，次年保费不涨</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/byd_chengshi_zhijia/s1-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The core mechanic: if you're using CNOA urban pilot in compliance and the smart-driving system fails and causes an at-fault accident, BYD pays the full amount — no payout cap, no commercial insurance claim, and no premium increase the following year.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>CNOA → City Navigation On Autopilot（城市领航辅助）；at-fault accident → 本方有责事故；payout cap → 赔付上限；premium → 保费</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：厂家免费赠送权益，有效期12个月。2026.5.28至2027.5.28上牌且配天神之眼A/B的新车从提车日起保；老车需OTA升级至5.0后从升级日起保一年。天神之眼C不在范围内</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/byd_chengshi_zhijia/s1-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Key point: the benefit is free and valid for 12 months. New cars registered between May 28, 2026 and May 28, 2027 with God's Eye A or B are covered from delivery; older cars get one year from the OTA 5.0 upgrade date. The God's Eye C isn't covered.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>God's Eye → 天神之眼（比亚迪智驾系统）；OTA → 空中升级；registered → 上牌；covered → 受保</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>典型场景：路口掉头时前车急停、系统未识别继续行驶导致刮擦——若后台数据确认系统识别/判断/执行有误，即符合兜底</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/byd_chengshi_zhijia/s1-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Typical scenario: you're making a U-turn, the car ahead brakes suddenly, the system fails to detect it and keeps going, causing a scrape — if backend data confirms the system misread, misjudged, or mishandled it, the safety net kicks in.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>U-turn → 掉头；scrape → 刮擦；backend data → 后台数据；kick in → 生效</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据：「因智驾系统故障造成本方有责事故……全部都是由比亚迪出钱，全额赔付，没有赔付的上限。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/byd_chengshi_zhijia/s1-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Direct quote: 'For at-fault accidents caused by a smart-driving system failure... BYD pays it all — full compensation, with no cap on the payout.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>full compensation → 全额赔付；no cap → 无上限；direct quote → 原文引用</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）相关概念：与智能泊车终身兜底是两套政策；与商业车险是并行关系而非替代关系</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/byd_chengshi_zhijia/s1-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Related point: this is a separate policy from the lifetime smart-parking guarantee; it runs in parallel with commercial auto insurance rather than replacing it.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>lifetime guarantee → 终身兜底；in parallel with → 与…并行；rather than → 而非</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>① 免费厂家权益；② 赔付无上限（商业险按保额封顶）；③ 兜底赔付不走保险出险记录，次年保费不受影响</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/byd_chengshi_zhijia/s1-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Three takeaways: it's a free manufacturer benefit; the payout has no cap while commercial insurance is capped by coverage; and the guarantee payment doesn't hit your insurance claim record, so next year's premium is unaffected.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>takeaway → 要点；coverage → 保额；claim record → 出险记录</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「车企敢承诺无限赔付是真心实意的」</p><div class="chunks">put money where mouth is · backed by real cash</div><small>第一句是地道习语，第二句偏正式分析</small></li>
+<li><p>想说「这个兜底不经过保险理赔」</p><div class="chunks">never touches your insurance record · outside the insurance system</div><small>日常口语用第一句，正式说明用第二句</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s2" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S2</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/byd_chengshi_zhijia/s2.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>二、双保险制度与后台定责机制</h2>
+      <p class="scene-title-en">Dual Insurance and Backend Fault Attribution</p>
+      <p class="context"><b>情境</b>讨论事故后车主如何同时走商业险与比亚迪兜底、后台数据如何逐帧定责，以及「车企既是运动员又是裁判员」的争议。语域：casual 商业分析 + 消费者视角。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：出事故后车主既可报商业车险，也可向比亚迪申请兜底。保险行业基本原则是同一损失不可重复获利</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/byd_chengshi_zhijia/s2-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Core mechanic: after an accident the owner can either file a commercial insurance claim or apply for BYD's safety net. The basic insurance principle is that you can't profit twice from the same loss.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>file a claim → 报案理赔；profit twice from the same loss → 同一损失重复获利；double-dip → 双重获利</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：若比亚迪确认兜底，实际赔付由比亚迪承担，不走保险理赔，出险记录不留，保费不涨。若判定非系统责任，则回到正常车险流程</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/byd_chengshi_zhijia/s2-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Key point: if BYD confirms coverage, BYD pays it directly — no insurance claim, no record, no premium increase. If it's judged not to be a system fault, the case goes back to the normal auto-insurance process.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>pay it directly → 直接承担赔付；no claim record → 无出险记录；back to the normal process → 回到常规流程</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>典型场景：小事故先报保险固定现场证据，同时APP申请兜底；比亚迪后台调取事故前后数据逐帧分析后判定</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/byd_chengshi_zhijia/s2-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Typical flow: for a minor accident, report it to insurance first to lock down scene evidence, then apply for the safety net in the app; BYD pulls the before-and-after driving data and rules on it frame by frame.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>lock down evidence → 固定证据；frame by frame → 逐帧；rule on → 作出判定</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据：「对车主来讲，智驾系统其实就是一个盲盒……对比亚迪后台的技术人员来讲，是个透明的盒子。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/byd_chengshi_zhijia/s2-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Direct quote: 'To the owner, the smart-driving system is basically a blind box... but to BYD's backend technicians, it's a transparent box.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>blind box → 盲盒；transparent box → 透明的盒子；backend technician → 后台技术人员</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>消费者担心「车企既是运动员又是裁判员」。三刀分析：篡改数据弊远大于利——EDR日志、行车记录仪、路口监控等多源证据可交叉验证；重大事故篡改涉及伪造证据等法律责任</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/byd_chengshi_zhijia/s2-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Consumers worry the automaker is 'both player and referee.' Three-Dao's take: tampering with data brings far more harm than good — EDR logs, dashcams, and intersection cameras cross-validate the evidence; in serious accidents, tampering means legal liability for falsifying evidence.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>player and referee → 运动员兼裁判员；EDR → 事件数据记录器；cross-validate → 交叉验证；falsifying evidence → 伪造证据</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）「你都已经是要兜底了……有个大神过来稍微给你实锤一下，那小事就真的变成大事了。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/byd_chengshi_zhijia/s2-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Direct quote: 'You're already relying on the safety net... if some expert comes along and confirms it, a small thing really does become a big deal.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>confirm/expose → 实锤；become a big deal → 变成大事；expert → 大神</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「车企自己定责，自己当裁判」</p><div class="chunks">player and referee · mark your own homework</div><small>第一句直白，第二句更口语俏皮</small></li>
+<li><p>想说「多方证据互相印证，篡改很难」</p><div class="chunks">cross-check · would be caught immediately</div><small>第一句偏正式，第二句更具体有说服力</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s3" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S3</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/byd_chengshi_zhijia/s3.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>三、L2宣传与法律责任的根本矛盾</h2>
+      <p class="scene-title-en">The Fundamental Gap Between L2 Marketing and Legal Responsibility</p>
+      <p class="context"><b>情境</b>讨论发布会话术如何让消费者脑补自动驾驶，而法律上驾驶员仍是第一责任人，以及比亚迪的解法。语域：casual 汽车行业观察。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>原因：车企发布会讲「自动变道、像老司机」，消费者脑补自动驾驶；出事故时回归L2框架——驾驶员是第一责任人</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/byd_chengshi_zhijia/s3-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The root cause: launch events talk about 'auto lane changes, driving like a veteran,' so consumers picture full self-driving — but in an accident, everything snaps back to the L2 framework, where the driver is the primary responsible party.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>drive like a veteran → 像老司机；full self-driving → 自动驾驶；snap back to → 回到；primary responsible party → 第一责任人</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>解法：比亚迪未宣称L3，兜底是在「合规使用+驾驶员仍须监管」前提下，若确认系系统问题则厂家担责</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/byd_chengshi_zhijia/s3-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The fix: BYD never claimed L3. The safety net only applies under compliant use with the driver still supervising — and if a system fault is confirmed, the manufacturer takes responsibility.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>claim L3 → 宣称L3级；supervising → 保持监管；take responsibility → 担责</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>适用边界：L3法规落地前，所有「高阶智驾」「L2.999」本质仍是L2，驾驶员全程监控义务不可免除</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/byd_chengshi_zhijia/s3-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Boundary: until L3 regulations land, all 'advanced driver assistance' and 'L2.999' marketing is still L2 at heart — the driver's duty to monitor the road at all times can't be waived.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>L2.999 → 擦边球宣传话术；at heart → 本质上；monitoring duty → 监控义务；waived → 被免除</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）高速事故案例：L2辅助驾驶≠自动驾驶，驾驶员长时间依赖智驾、未及时接管，车企不承担主责</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/byd_chengshi_zhijia/s3-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Highway case: L2 driver assistance is not self-driving — when a driver relies on the system too long and fails to take over in time, the automaker isn't primarily liable.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>take over → 接管；primarily liable → 承担主要责任；rely on → 依赖</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「宣传和法律责任对不上」</p><div class="chunks">marketing vs the law · on the hook for</div><small>第一句简洁有力，第二句更正式</small></li>
+<li><p>想说「法规落地前都按L2算」</p><div class="chunks">all still L2 legally · driver still in charge</div><small>第一句偏法律表述，第二句偏常识提醒</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s4" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S4</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/byd_chengshi_zhijia/s4.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>四、为何其他车企不跟进</h2>
+      <p class="scene-title-en">Why Rivals Aren't Following Suit</p>
+      <p class="context"><b>情境</b>分析兜底政策难以复制的门槛——技术短板、流程漏洞、现金流压力，以及特斯拉与中小新势力的不同处境。语域：casual 商业分析。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>为什么重要：兜底不是发海报，是真掏钱；技术短板、流程漏洞、责任不清都可能导致赔付成本无底洞</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/byd_chengshi_zhijia/s4-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Why it matters: a safety net isn't a poster — it's real money going out. Weak tech, flawed processes, and unclear liability can turn payout costs into a bottomless pit.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>not a poster → 不只是宣传；bottomless pit → 无底洞；flawed process → 流程漏洞</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>适用边界：中小新势力未必支撑无上限兜底；特斯拉全球体系无法单独为中国定制</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/byd_chengshi_zhijia/s4-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Boundary: smaller EV startups can hardly support unlimited payouts, and Tesla's global system can't be customized just for China.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>EV startup → 新势力造车；customize for China → 为中国定制；support → 支撑</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）「不是所有的车企都适合走品牌自赔这条路……一环都不能少，少一项就是从战略变成赌博。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/byd_chengshi_zhijia/s4-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Direct quote: 'Not every automaker can go down the self-pay path... every link has to be in place; miss one and a strategy turns into gambling.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>self-pay → 品牌自赔；every link in place → 一环都不能少；turn into gambling → 变成赌博</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）怎么落地：需足够车辆数据+系统控制能力+承受赔付波动的现金流</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/byd_chengshi_zhijia/s4-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">What it takes: enough vehicle data, full system control, and the cash flow to absorb swings in payouts.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>what it takes → 需要具备的条件；cash flow → 现金流；absorb swings → 承受波动</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「兜底是真金白银的承诺」</p><div class="chunks">real money on the table · open-ended payout promise</div><small>第一句口语，第二句偏金融分析</small></li>
+<li><p>想说「不是所有公司都玩得起」</p><div class="chunks">can afford this game · cost structure decides</div><small>第一句通俗，第二句偏商业洞察</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s5" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S5</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/byd_chengshi_zhijia/s5.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>五、比亚迪敢兜底的底层逻辑</h2>
+      <p class="scene-title-en">The Logic Under BYD's Bold Guarantee</p>
+      <p class="context"><b>情境</b>拆解比亚迪敢承诺的底气——自研芯片、垂直整合、海量车队数据与训练飞轮，以及一个不到24小时理赔的真实案例。语域：casual 技术+商业深度分析。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>玄机A3四纳米车规芯片量产，芯片、算法、整车控制掌握在自己体系内。供应商整合模式出事易踢皮球，比亚迪工程师同楼协作，责任链短、迭代快</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/byd_chengshi_zhijia/s5-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The Xuanji A3, a four-nanometer automotive-grade chip, is in mass production — the chip, the algorithm, and whole-vehicle control all live inside its own system. In supplier-integrated models, blame gets passed around; at BYD, engineers work in the same building, so the chain of responsibility is short and iteration is fast.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>automotive-grade chip → 车规芯片；pass the buck → 踢皮球；chain of responsibility → 责任链；iteration → 迭代</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）车规芯片须保证十年以上稳定，极端温区下不能「散热两分钟再走」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/byd_chengshi_zhijia/s5-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Direct quote: an automotive-grade chip must stay stable for over a decade — it can't just 'cool down for two minutes and go' under extreme temperatures.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>extreme temperature → 极端温度；stay stable → 保持稳定；reliability → 可靠性</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>全民智驾策略下搭载天神之眼的车辆规模巨大，复杂中国道路场景提供持续训练土壤。兜底后用户敢用，数据量翻4倍，算法进化，兜底成本可控</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/byd_chengshi_zhijia/s5-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">With a mass-market strategy, a huge fleet carries God's Eye, and China's complex roads provide endless training ground. Once the safety net makes people willing to use it, data volume quadruples, the algorithm improves, and the cost of guarantees stays manageable.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>training ground → 训练土壤；quadruple → 翻四倍；data flywheel → 数据飞轮；manageable → 可控</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）智能泊车兜底后使用率翻4倍——「不是不知道功能好，是怕出事锅要自己背。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/byd_chengshi_zhijia/s5-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Direct quote: after the smart-parking guarantee, usage quadrupled — 'it's not that people didn't know the feature was good; it's that they were afraid of taking the blame if something went wrong.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>take the blame → 背锅；usage rate → 使用率；quadruple → 翻四倍</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>5·29晚路口掉头，前车特斯拉急停、智驾未识别继续行驶导致刮擦。车主已升级天神之眼B 5.0并领取兜底权益。5·30下午比亚迪完成技术勘查并启动赔付，不到24小时</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/byd_chengshi_zhijia/s5-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">On the night of May 29, during a U-turn, a Tesla ahead braked suddenly, the system failed to detect it and kept going, causing a scrape. The owner had upgraded to God's Eye B 5.0 and claimed the benefit. By the afternoon of May 30, BYD finished its technical inspection and started the payout — within 24 hours.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>technical inspection → 技术勘查；start the payout → 启动赔付；within 24 hours → 不到24小时</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>适用边界：当前为小金额无人伤案例，多车追尾、人伤等复杂场景待观察</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/byd_chengshi_zhijia/s5-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Boundary: so far these are small, no-injury cases — complex scenarios like multi-car pileups and injuries remain to be seen.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>multi-car pileup → 多车追尾；no-injury → 无人伤；remain to be seen → 有待观察</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「自研掌握全链条」</p><div class="chunks">whole stack in-house · under one roof</div><small>第一句技术化，第二句画面感强</small></li>
+<li><p>想说「敢用的人越多，数据越好，越敢兜底」</p><div class="chunks">data flywheel · self-reinforcing loop</div><small>第一句直白，第二句偏商业术语</small></li>
+        </ol>
+      </details>
+    </section>
+      <section class="study-section" id="practice">
+      <h2 class="section-heading">今日可练 <small>PRACTICE TODAY</small></h2>
+      <div class="study-grid">
+        <article>
+          <p>用「kick in」说：条件满足时兜底才会生效。</p>
+          <div class="practice-en">
+            The safety net only kicks in when the conditions are met.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/byd_chengshi_zhijia/practice-0.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「pass the buck」说：供应商模式出事容易互相推诿。</p>
+          <div class="practice-en">
+            With the supplier model, everyone passes the buck when things go wrong.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/byd_chengshi_zhijia/practice-1.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「take over」说：驾驶员必须在关键时刻接管车辆。</p>
+          <div class="practice-en">
+            The driver has to take over at the critical moment.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/byd_chengshi_zhijia/practice-2.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「player and referee」说：车企既当运动员又当裁判。</p>
+          <div class="practice-en">
+            The carmaker is playing both player and referee on fault attribution.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/byd_chengshi_zhijia/practice-3.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article>
+      </div>
+    </section>
+      <section class="study-section pitfalls" id="pitfalls">
+      <h2 class="section-heading">避坑 <small>PITFALLS</small></h2>
+      <div class="study-grid">
+        <article>
+          <div class="wrong">✕ BYD pays all the money with no upper limit.</div>
+          <div class="right">✓ BYD pays the full amount with no cap on the payout.</div>
+          <p>upper limit 更偏技术参数上限；赔付语境用 cap / payout cap 更地道。</p>
+        </article><article>
+          <div class="wrong">✕ The driver is the first responsible person.</div>
+          <div class="right">✓ The driver is the primary responsible party.</div>
+          <p>first responsible person 是逐字直译；法律语境用 primary responsible party / primarily liable。</p>
+        </article><article>
+          <div class="wrong">✕ The car company is the athlete and the referee.</div>
+          <div class="right">✓ The automaker is acting as both player and referee.</div>
+          <p>比喻中的「运动员」用 player 而非 athlete；both…and… 结构更自然。</p>
+        </article><article>
+          <div class="wrong">✕ The system didn't know the front car stopped.</div>
+          <div class="right">✓ The system failed to detect the vehicle ahead braking suddenly.</div>
+          <p>didn't know 太口语且拟人化；描述系统识别失误用 fail to detect 更准确。</p>
+        </article>
+      </div>
+    </section>
+      <section class="study-section shifts" id="mindset">
+      <h2 class="section-heading">认知转变 <small>MINDSET SHIFTS</small></h2>
+      <div class="study-grid">
+        <article>
+          <span>以为智能驾驶比拼的是功能参数和发布会话术</span>
+          <b aria-hidden="true">→</b>
+          <strong>敢不敢承诺「无上限兜底」才是智驾竞争真正的分水岭</strong>
+        </article><article>
+          <span>以为车企自己定责一定偏袒自己，证据不可信</span>
+          <b aria-hidden="true">→</b>
+          <strong>EDR、行车记录仪、路口监控多源交叉验证，后台定责可以被监督</strong>
+        </article><article>
+          <span>以为「高阶智驾」「L2.999」就等于接近自动驾驶</span>
+          <b aria-hidden="true">→</b>
+          <strong>L3法规落地前都是L2，驾驶员全程监控义务不可免除</strong>
+        </article>
+      </div>
+    </section>
+      <footer>
+        双语学习版 · 场景/句子朗读使用 edge-tts（en-US） · 单词发音使用浏览器 Web Speech API
+        <div class="footer-note">中文版：<a href="byd_chengshi_zhijia-总结.html">byd_chengshi_zhijia-总结.html</a> · SVG 版：<a href="viewer.html?f=byd_chengshi_zhijia-总结.svg" target="_blank">byd_chengshi_zhijia-总结.svg</a></div>
+      </footer>
+    </div>
+  </main>
+  <script>(() => {
+  let activeAudio = null;
+  let activeBtn = null;
+  const status = document.getElementById('speech-status');
+  const stopBtn = document.getElementById('stop-speech');
+  const rateSel = document.getElementById('speech-rate');
+
+  const reset = () => {
+    if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+    activeBtn?.classList.remove('playing');
+    activeBtn = null;
+    stopBtn.classList.remove('visible');
+    status.textContent = '';
+  };
+
+  const playAudio = (url, btn) => {
+    reset();
+    const audio = new Audio(url);
+    audio.playbackRate = Number(rateSel.value);
+    activeAudio = audio;
+    activeBtn = btn;
+    btn.classList.add('playing');
+    stopBtn.classList.add('visible');
+    status.textContent = btn.classList.contains('scene-speak')
+      ? 'Reading the whole scene…'
+      : 'Reading…';
+
+    audio.onended = () => { if (activeAudio === audio) reset(); };
+    audio.onerror = () => { status.textContent = 'Audio failed to load.'; if (activeAudio === audio) reset(); };
+    audio.play().catch(() => { status.textContent = 'Playback failed.'; if (activeAudio === audio) reset(); });
+  };
+
+  document.addEventListener('click', e => {
+    const btn = e.target.closest('[data-audio]');
+    if (!btn) return;
+    e.preventDefault();
+    if (btn === activeBtn && activeAudio) { reset(); return; }
+    playAudio(btn.dataset.audio, btn);
+  });
+
+  stopBtn.addEventListener('click', reset);
+
+  const synth = window.speechSynthesis;
+  const getEnglishVoice = () => {
+    const voices = synth.getVoices();
+    return voices.find(v => /^en-(US|GB)/i.test(v.lang))
+        || voices.find(v => /^en/i.test(v.lang)) || null;
+  };
+
+  const difficultWords = new Set([
+    'assortment', 'SKU', 'premium', 'margin', 'middleman', 'OEM', 'rebranding',
+    'hoarding', 'PTSD', 'curation', 'repurchase', 'touchpoint', 'backlash',
+    'reshuffle', 'funnel', 'anchor', 'contract', 'psychology', 'private', 'label',
+    'editorial', 'familiar', 'competitors', 'authorization', 'flexibility'
+  ]);
+
+  const shouldPronounce = word => {
+    const n = word.toLowerCase().replace(/^[^a-z]+|[^a-z]+$/g, '');
+    return n.replace(/[^a-z]/g, '').length >= 8 || difficultWords.has(n);
+  };
+
+  const markPronounceableWords = root => {
+    const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+    const nodes = [];
+    while (walker.nextNode()) nodes.push(walker.currentNode);
+    nodes.forEach(node => {
+      if (node.parentElement?.closest('button, script, style')) return;
+      const text = node.nodeValue;
+      let m, last = 0, changed = false;
+      const frag = document.createDocumentFragment();
+      const re = /[A-Za-z]+(?:[-'’][A-Za-z]+)*/g;
+      while ((m = re.exec(text))) {
+        if (!shouldPronounce(m[0])) continue;
+        changed = true;
+        frag.append(text.slice(last, m.index));
+        const wb = document.createElement('button');
+        wb.type = 'button'; wb.className = 'pronounce-word';
+        wb.dataset.speak = m[0];
+        wb.setAttribute('aria-label', '\u8bfb\u5355\u8bcd ' + m[0]);
+        wb.title = '\u70b9\u51fb\u542c\u53d1\u97f3';
+        wb.textContent = m[0];
+        frag.append(wb);
+        last = m.index + m[0].length;
+      }
+      if (!changed) return;
+      frag.append(text.slice(last));
+      node.replaceWith(frag);
+    });
+  };
+
+  document.querySelectorAll(
+    '.english, .scene-title-en, .paraphrase li p, .chunks, .practice-en, .wrong, .right, .summary-en'
+  ).forEach(markPronounceableWords);
+
+  document.addEventListener('click', e => {
+    const wb = e.target.closest('.pronounce-word');
+    if (!wb) return;
+    e.preventDefault();
+    if (!synth) return;
+    synth.cancel();
+    if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+    activeBtn?.classList.remove('playing');
+    activeBtn = wb;
+    wb.classList.add('playing');
+    const u = new SpeechSynthesisUtterance(wb.dataset.speak);
+    u.lang = 'en-US';
+    u.rate = 0.88;
+    const v = getEnglishVoice();
+    if (v) u.voice = v;
+    u.onend = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+    u.onerror = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+    synth.speak(u);
+  });
+})();</script>
+</body>
+</html>

@@ -1,0 +1,360 @@
+{
+  "slug": "outdoor_geography_class",
+  "date": "2026-06-23",
+  "platform": "小宇宙FM",
+  "title": "91｜一节户外地理课",
+  "title_en": "91 | A Field Geography Class",
+  "eyebrow": "Geography & Outdoor Skills · 地理与户外",
+  "duration": "57分钟",
+  "source_url": "https://www.xiaoyuzhoufm.com/episode/69cb7e21b977fb2c47b88308",
+  "summary_cn": "高中地理教师兼科普博主张老师，应《山合作用》主播邀请，为户外徒步者系统解答冰川、湖泊颜色、等高线、营地选址、鳌太线、横断山脉、峡湾误区、植被判海拔、找水源、云海雷电等实战问题——地理的灵魂是实践，看懂风景比打卡风景更能提升徒步体验",
+  "summary_en": "Teacher Zhang, a high-school geography teacher and science popularizer, joins the Mountain Synergy podcast to answer practical questions for hikers: glaciers, why lakes are blue, contour lines, campsite selection, the Aotai route, the Hengduan Mountains, fjord misconceptions, reading altitude from vegetation, finding water, and sea-of-clouds and lightning. The soul of geography is practice — reading the landscape beats just checking it off your list.",
+  "scenes": [
+    {
+      "id": "s1",
+      "title_cn": "一、冰川：户外地理的核心 fascination",
+      "title_en": "Glaciers: The Core Fascination of Field Geography",
+      "context": "How glaciers shape mountains, why they melt from the bottom, and the different types. 语域：casual 科普讲解。",
+      "speak": "The mechanism is simple: it needs to be cold enough, and year after year the snow gets compacted into ice — it's not water freezing directly. Low-altitude, rounded mountains were mostly carved gently by water, while sharp high-altitude ridges are the violent product of glaciers sliding down and grinding against rock. Seeing a glacier usually means the trail also passes forest, grassland, and desert — a full sequence of landscapes. China's glaciers mostly sit above 4,000 meters. Maritime glaciers in western Sichuan grow fast and are covered in debris and hard to reach; continental glaciers like Qudenima have less moisture and stay cleaner. Ice towers form when a glacier's lower half moves at uneven speeds and cracks, and the tops melt faster; because the bottom grinding against the ground also speeds melting, glaciers usually melt from the base first.",
+      "sentences": [
+        {
+          "cn": "核心机制：足够冷 + 积雪逐年压实成冰（非水直接结冰）。低海拔圆润山形多被水温柔侵蚀；高海拔锋利山脊是冰川固体下滑摩擦岩石的「暴力」产物",
+          "en": "The mechanism: it needs to be cold enough, and year after year the snow gets compacted into ice — it's not water freezing directly. Low-altitude, rounded mountains were mostly carved gently by water, while sharp high-altitude ridges are the violent product of glaciers sliding down and grinding against rock.",
+          "note": "<span>表达提示</span>compact into ice → 压实成冰；rounded mountains → 圆润山形；grind against rock → 摩擦岩石"
+        },
+        {
+          "cn": "关键理解：看到冰川意味着沿途可集齐森林、草原、荒漠等多样景观；中国冰川多在海拔4000米以上，海洋性冰川（川西）发育快、碎石多、难接近；大陆性冰川（如曲登尼玛）水气少、更干净",
+          "en": "The insight: seeing a glacier usually means the trail also passes forest, grassland, and desert — a full sequence of landscapes. China's glaciers mostly sit above 4,000 meters. Maritime glaciers in western Sichuan develop fast and are covered in debris and hard to approach; continental glaciers like Qudenima have less moisture and stay cleaner.",
+          "note": "<span>表达提示</span>maritime glacier → 海洋性冰川；continental glacier → 大陆性冰川；debris → 碎石"
+        },
+        {
+          "cn": "典型场景：冰塔林是冰川下滑速度不均裂开、顶部融化更快形成的特殊形态；冰川底部与地面摩擦也会加速融化，所以常从底部先化",
+          "en": "A typical case: ice towers form when a glacier's lower half moves at uneven speeds and cracks, and the tops melt faster. Because the bottom grinding against the ground also speeds up melting, glaciers usually melt from the base first.",
+          "note": "<span>表达提示</span>ice tower → 冰塔林；melt from the base → 从底部先融"
+        },
+        {
+          "cn": "（引用）原文依据：「冰川它是一种非常暴力的塑造地貌的方式……高海拔地区的山就特别的锋利，因为它其实就是冰川这样直接摩擦出来的。」",
+          "en": "The original quote: 'A glacier is a very violent way of shaping the land... the mountains at high altitude are especially sharp, because that's literally what glaciers ground out.'",
+          "note": "<span>表达提示</span>shape the land → 塑造地貌；ground out → 磨出来的"
+        },
+        {
+          "cn": "（引用）相关概念：冰塔林 ⊂ 冰川形态；海洋性冰川 vs 大陆性冰川按水分来源划分",
+          "en": "Related terms: ice towers are one type of glacial form; maritime versus continental glaciers are classified by their moisture source.",
+          "note": "<span>表达提示</span>glacial form → 冰川形态；moisture source → 水分来源"
+        },
+        {
+          "cn": "整体趋势是消融快于积雪补充，夏季川西冰川补充、冬季消亡，但总量在减少。海平面上升威胁上海等沿海城市；内陆融水断供影响当地饮水。张老师心愿清单：西藏曲登尼玛、新疆慕士塔格，国外阿拉斯加",
+          "en": "Overall, melting outpaces snow replenishment: in western Sichuan, glaciers gain in summer and shrink in winter, but the total is declining. Rising sea levels threaten coastal cities like Shanghai, while inland areas losing meltwater face water-supply shortages. Teacher Zhang's wish list: Qudenima in Tibet, Muztagh Ata in Xinjiang, and Alaska abroad.",
+          "note": "<span>表达提示</span>melt outpaces replenishment → 消融快于补充；rising sea levels → 海平面上升；wish list → 心愿清单"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「冰川是暴力雕刻家」",
+          "phrases": [
+            "Glaciers carve mountains with brute force.",
+            "Those sharp ridges were literally scraped out by moving ice."
+          ],
+          "chunks": "carve with brute force · scraped out",
+          "usage": "carve/scrape 都是地貌动词，科普场景很贴切"
+        },
+        {
+          "intent": "想说「冰川先融底部」",
+          "phrases": [
+            "Glaciers melt from the bottom up.",
+            "The base melts first because of friction with the ground."
+          ],
+          "chunks": "melt from the bottom up · friction with the ground",
+          "usage": "melt from the bottom up 简洁直接"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title_cn": "二、读图与路线：从等高线到奥维地图",
+      "title_en": "Reading Maps & Routes: From Contour Lines to Ovital",
+      "context": "Contour line basics, why 3D maps beat 2D, and route design principles. 语域：casual 攻略讲解。",
+      "speak": "Contour lines that are packed close together mean a steep slope; multiple lines merging into one mean a cliff; lines curving toward higher ground mark a valley, and curving toward lower ground mark a ridge. The human brain just isn't great at visualizing contour lines, so Teacher Zhang recommends the Ovital map app's 3D terrain view overlaid with two-step-road tracks instead. When exploring a new line, walk along valleys — gentler slopes and more water. When designing a route, prioritize 'easy to walk' over 'shortest distance.' The boundary condition: in unfamiliar high-altitude areas, stick to proven routes; designing your own is extremely risky.",
+      "sentences": [
+        {
+          "cn": "核心机制：等高线密集=坡度陡；多条等高线重合=陡崖；弯曲等高线突向高处=山谷，突向低处=山脊",
+          "en": "The mechanism: packed contour lines mean a steep slope; multiple lines merging into one mean a cliff; lines curving toward higher ground mark a valley, and curving toward lower ground mark a ridge.",
+          "note": "<span>表达提示</span>contour lines → 等高线；steep slope → 陡坡；valley vs ridge → 山谷与山脊"
+        },
+        {
+          "cn": "关键理解：大脑处理等高线不够直观，张老师更推荐奥维地图的3D立体地形叠加两步路轨迹",
+          "en": "The insight: the human brain just isn't great at visualizing contour lines, so Teacher Zhang recommends the Ovital map app's 3D terrain view overlaid with two-step-road tracks instead.",
+          "note": "<span>表达提示</span>3D terrain → 立体地形；overlay tracks → 叠加轨迹"
+        },
+        {
+          "cn": "典型场景：探线沿山谷走——坡度缓、水源足；设计路线优先「易走」而非「最近」",
+          "en": "A typical case: when exploring a new line, walk along valleys — gentler slopes and more water. When designing a route, prioritize 'easy to walk' over 'shortest distance.'",
+          "note": "<span>表达提示</span>explore a new line → 探线；prioritize easy over short → 优先好走而非最近"
+        },
+        {
+          "cn": "适用边界：陌生高海拔地区仍应参考成熟线路，自行设计风险极大",
+          "en": "Boundary conditions: in unfamiliar high-altitude areas, still refer to proven routes — designing your own carries extremely high risk.",
+          "note": "<span>表达提示</span>proven routes → 成熟线路；carry high risk → 风险极大"
+        },
+        {
+          "cn": "（引用）怎么落地：下载奥维地图，导入两步路轨迹，出发前看前方坡度和地形",
+          "en": "How to do it: download the Ovital map app, import two-step-road tracks, and check the slope and terrain ahead before you set out.",
+          "note": "<span>表达提示</span>download the app → 下载应用；check the terrain ahead → 出发前看地形"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「等高线密集=坡陡」",
+          "phrases": [
+            "Packed contour lines mean a steep climb.",
+            "The tighter the lines, the steeper the slope."
+          ],
+          "chunks": "packed contour lines · the tighter, the steeper",
+          "usage": "the more… the more… 句型适合口语总结"
+        },
+        {
+          "intent": "想说「选好走的路，不选最近的路」",
+          "phrases": [
+            "Pick easy over short.",
+            "The shortest line isn't the smartest line."
+          ],
+          "chunks": "pick easy over short · the smartest line",
+          "usage": "pick A over B 是最简洁的选择表达"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title_cn": "三、营地与安全：地理视角的决策框架",
+      "title_en": "Camping & Safety: A Geographic Decision Framework",
+      "context": "Where not to camp — under cliffs, in valley bottoms, on livestock trails, or on ridges. 语域：casual 安全要点。",
+      "speak": "Stay away from the base of steep cliffs: at high altitude, water seeping into rock cracks freezes at night and pries the rock apart, so rockfall risk is far higher at night than it feels in the daytime. Stay away from valley bottoms: they collect water, so flood risk is high. Stay away from livestock trails: if the grass is trampled bare, cows and sheep regularly walk there, and there are real cases of tents being stomped to pieces by cattle. And be careful with ridgelines: wind speeds are high, and on the Aotai line, north and south air masses meet, making the weather flip violently. The ideal spot is a sheltered, flat spot on the mountainside — close to a river valley but not down in it.",
+      "sentences": [
+        {
+          "cn": "远离陡崖下方：高海拔夜间石缝水结冰撑开岩石，落石风险远高于白天感知",
+          "en": "Stay away from the base of steep cliffs: at high altitude, water seeping into rock cracks freezes at night and pries the rock apart, so rockfall risk is far higher at night than it feels in the daytime.",
+          "note": "<span>表达提示</span>seep into cracks → 渗入缝隙；pry the rock apart → 撑开岩石；rockfall → 落石"
+        },
+        {
+          "cn": "远离河谷底部：汇水好，洪水风险大",
+          "en": "Stay away from valley bottoms: they collect water, so the flood risk is high.",
+          "note": "<span>表达提示</span>collect water → 汇水；flood risk → 洪水风险"
+        },
+        {
+          "cn": "远离牧道：草地被踩秃=牛羊常走的路，曾有帐篷被牛踩烂的案例",
+          "en": "Stay away from livestock trails: grass trampled bare means cows and sheep regularly walk there, and there are real cases of tents being stomped to pieces by cattle.",
+          "note": "<span>表达提示</span>livestock trail → 牧道；trampled bare → 被踩秃；stomped to pieces → 被踩烂"
+        },
+        {
+          "cn": "慎选山脊线：风速大、鳌太线等南北气流交汇处天气变化剧烈，非理想营地",
+          "en": "Be careful with ridgelines: wind speeds are high, and on the Aotai line, where north and south air masses meet, the weather flips violently. Not an ideal campsite.",
+          "note": "<span>表达提示</span>ridgeline → 山脊线；air masses meet → 气流交汇；flip violently → 剧烈变化"
+        },
+        {
+          "cn": "理想位置：半山腰避风平坦处，靠近河谷但不过低",
+          "en": "The ideal spot: a sheltered, flat place on the mountainside — close to a river valley, but not down in it.",
+          "note": "<span>表达提示</span>sheltered from wind → 避风；mountainside → 山腰"
+        },
+        {
+          "cn": "（引用）嘉宾说法：「山脊线一般不是一个理想的扎营的场所……熬太线就在一个山脊线上，南北两边的冷空气在这地方交汇。」",
+          "en": "The guest's words: 'A ridgeline generally isn't an ideal place to camp... the Aotai line sits on a ridgeline where cold air from the north and south converges.'",
+          "note": "<span>表达提示</span>ideal place to camp → 理想扎营点；cold air converges → 冷空气交汇"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「别在崖底下扎营」",
+          "phrases": [
+            "Never pitch under a cliff face.",
+            "Camping beneath cliffs is asking for rockfall."
+          ],
+          "chunks": "pitch under a cliff · asking for rockfall",
+          "usage": "pitch 是搭帐篷的专业动词"
+        },
+        {
+          "intent": "想说「半山腰是最好的位置」",
+          "phrases": [
+            "Mid-slope is the sweet spot.",
+            "Sheltered and flat on the hillside — that's the ideal camp."
+          ],
+          "chunks": "the sweet spot · sheltered and flat",
+          "usage": "sweet spot 口语，指最佳位置"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "title_cn": "四、地貌与植被：行走中的读景能力",
+      "title_en": "Landforms & Vegetation: Reading the Landscape as You Walk",
+      "context": "Why lakes are blue, why shady slopes have more trees, and the plant gene pool of the Hengduan Mountains. 语域：casual 科普观察。",
+      "speak": "Glacier flour reflects blue, karst carbonate areas like Jiuzhaigou reflect blue-green light, low-altitude lakes show the color of their algae, and sediment also tints the water. Jiuzhaigou's water is crystal clear yet colored, because carbonates reflect blue-green light; the difference between milky blue, sapphire blue, and green comes from different mineral combos. In Xinjiang, the shady slope has more trees than the sunny one — because strong sunlight means heavy evaporation and less water, which flips the intuition that trees love sun. The Hengduan Mountains are a series of north-south ranges marking the boundary between the Sichuan Basin and the Qinghai-Tibet Plateau. On the Erlang Mountain tunnel, the east side is wet with broadleaf forest, while the west side is so dry it even has cacti, in dry-hot valleys like Luding. Gao Ligong Mountain, at the southern end, is a plant gene pool where low latitude plus huge vertical drops let tropical plants and high-altitude cold-wet species coexist.",
+      "sentences": [
+        {
+          "cn": "核心机制：冰川粉末偏蓝；喀斯特碳酸盐区（如九寨沟）反射蓝绿光；低海拔湖看藻类生物色；泥沙沉积物也影响色调",
+          "en": "The mechanism: glacier flour reflects blue, karst carbonate areas like Jiuzhaigou reflect blue-green light, low-altitude lakes show the color of their algae, and sediment also tints the water.",
+          "note": "<span>表达提示</span>glacier flour → 冰川粉末；karst carbonate → 喀斯特碳酸盐；sediment → 泥沙沉积物"
+        },
+        {
+          "cn": "典型场景：九寨沟湖水清澈却有颜色，因碳酸盐反射蓝绿光；牛奶蓝/宝石蓝/绿色差异来自不同矿物质组合",
+          "en": "A typical case: Jiuzhaigou's water is crystal clear yet colored, because carbonates reflect blue-green light; the difference between milky blue, sapphire blue, and green comes from different mineral combinations.",
+          "note": "<span>表达提示</span>milky blue → 牛奶蓝；sapphire blue → 宝石蓝；mineral combination → 矿物质组合"
+        },
+        {
+          "cn": "（引用）相关概念：与「冰川退化成干谷」对比——西藏可见童年被冰川覆盖、现已完全消融的荒凉谷地",
+          "en": "Related idea: compare this with 'glaciers degrading into dry valleys' — in Tibet you can see desolate valleys that were covered by glaciers in childhood and have now completely melted away.",
+          "note": "<span>表达提示</span>degrade into → 退化成；melt completely away → 完全消融"
+        },
+        {
+          "cn": "适用边界：新疆阴坡树多阳坡少——因光照强蒸发大缺水，与「树喜光」的直觉相反；需结合当地水热条件判断",
+          "en": "Boundary conditions: in Xinjiang, the shady slope has more trees and the sunny slope fewer — because strong sunlight means heavy evaporation and less water, which flips the intuition that trees love sun. Judge with local water and heat conditions.",
+          "note": "<span>表达提示</span>shady slope → 阴坡；heavy evaporation → 蒸发量大；flip the intuition → 反直觉"
+        },
+        {
+          "cn": "横断山脉：多条南北走向山脉，四川盆地与青藏高原分界；板块交界地震多发；二郎山隧道东湿西晴，东侧阔叶林西侧干旱甚至有仙人掌（干热河谷，如泸定县）",
+          "en": "The Hengduan Mountains: a series of north-south ranges marking the boundary between the Sichuan Basin and the Qinghai-Tibet Plateau, with frequent earthquakes at the plate junction. On the Erlang Mountain tunnel, the east side is wet with broadleaf forest, while the west side is so dry it even has cacti, in dry-hot valleys like Luding County.",
+          "note": "<span>表达提示</span>north-south ranges → 南北走向山脉；plate junction → 板块交界；dry-hot valley → 干热河谷"
+        },
+        {
+          "cn": "高黎贡山：横断山脉南端，低纬度+高海拔垂直落差造就植物基因库——热量充足的热带植物与高海拔冷湿环境共存",
+          "en": "Gao Ligong Mountain, at the southern end of the Hengduan range, is a plant gene pool: low latitude plus huge vertical drops let tropical heat-loving plants and high-altitude cold-wet species coexist.",
+          "note": "<span>表达提示</span>plant gene pool → 植物基因库；vertical drop → 垂直落差；coexist → 共存"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「湖水的颜色来自矿物质」",
+          "phrases": [
+            "The lake's color is a mineral signature.",
+            "Minerals and sediment are what paint the water blue or green."
+          ],
+          "chunks": "mineral signature · paint the water",
+          "usage": "paint the water 是形象的口语表达"
+        },
+        {
+          "intent": "想说「阴坡树反而多」",
+          "phrases": [
+            "The shady slope grows more trees than the sunny one.",
+            "Here, less sun means more forest."
+          ],
+          "chunks": "the shady slope · less sun, more forest",
+          "usage": "直观对照，适合户外闲聊"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "title_cn": "五、气象实战：云海与季节判断",
+      "title_en": "Weather in the Field: Sea of Clouds and Reading Seasons",
+      "context": "When and where to see a sea of clouds, and why big-picture season beats micro-forecasts. 语域：casual 实战技巧。",
+      "speak": "A sea of clouds is moisture condensing at one altitude level. In summer that condensation level sits higher, in winter lower. A practical trick: check the weather forecast for the town below the mountain. If Kangding city shows overcast, that means the town is under the clouds — climb above 4,000 meters and you'll be standing on top of the cloud layer, looking at a sea of clouds. Ironically, a perfectly clear sunny day means you'll see nothing. The boundary: Windy's accuracy in western Sichuan is limited, and in the April-to-August rainy season even a forecast of sun can bring rain. So judge by macro season rather than micro forecasts. Understanding why layered rock may hold fossils, or that hexagonal columnar joints are cooling cracks in volcanic magma, turns every trip into something you control.",
+      "sentences": [
+        {
+          "cn": "核心机制：云海=水汽在某高度集中凝结。夏天凝结高度更高，冬天更低",
+          "en": "The mechanism: a sea of clouds is moisture condensing at one altitude level. In summer that condensation level sits higher; in winter, lower.",
+          "note": "<span>表达提示</span>sea of clouds → 云海；condensation level → 凝结高度"
+        },
+        {
+          "cn": "实操技巧：看山下城镇天气预报——康定市区阴天=被云盖住，爬到4000米以上就站在云层之上看云海。万里无云的大晴天反而看不到",
+          "en": "A practical trick: check the weather forecast for the town below the mountain. If Kangding city shows overcast, that means the town is under the clouds — climb above 4,000 meters and you'll be standing on top of the cloud layer, looking at a sea of clouds. Ironically, a perfectly clear sunny day means you'll see nothing.",
+          "note": "<span>表达提示</span>overcast → 阴天；on top of the cloud layer → 站在云层之上"
+        },
+        {
+          "cn": "适用边界：Windy 在川西准确率有限，4-8月雨季即使预报晴天也可能下雨，宏观季节判断比微观预报更靠谱",
+          "en": "Boundary conditions: Windy's accuracy in western Sichuan is limited — in the April-to-August rainy season, even a forecast of sun can bring rain. Judge by macro season rather than micro forecasts.",
+          "note": "<span>表达提示</span>accuracy is limited → 准确率有限；rainy season → 雨季；macro season → 宏观季节"
+        },
+        {
+          "cn": "（引用）怎么落地：目标海拔 > 山下云底高度 + 当天山下有云",
+          "en": "How to apply it: your target altitude should be above the cloud-base height, plus there should be clouds in the town below that day.",
+          "note": "<span>表达提示</span>cloud base → 云底高度"
+        },
+        {
+          "cn": "为什么重要：只打卡拍照容易遗忘；理解层状岩石可能含化石、六边形柱状节理是火山岩浆冷却收缩，会让每次出行都有「掌控感」",
+          "en": "Why it matters: just checking in with photos is easy to forget. Understanding that layered rock may hold fossils, or that hexagonal columnar joints are cooling cracks in volcanic magma, gives every trip a sense of control.",
+          "note": "<span>表达提示</span>layered rock → 层状岩石；columnar joints → 柱状节理；a sense of control → 掌控感"
+        },
+        {
+          "cn": "适用边界：学术门槛其实很低，跳过公式只看结论即可；纪录片偏大众，特殊地貌需论文+教材补充",
+          "en": "Boundary conditions: the academic bar is actually low — skip the formulas and just read the conclusions. Documentaries are for the general audience; for special landforms, supplement with papers and textbooks.",
+          "note": "<span>表达提示</span>the academic bar → 学术门槛；supplement with → 用…补充"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「想看到云海，山下就得是阴天」",
+          "phrases": [
+            "To see a sea of clouds, the town below needs to be cloudy.",
+            "Overcast below is your ticket to a sea of clouds above."
+          ],
+          "chunks": "your ticket to · overcast below",
+          "usage": "your ticket to 表示「通往…的通行证」，很口语"
+        },
+        {
+          "intent": "想说「看宏观季节，别信微观预报」",
+          "phrases": [
+            "Trust the season, not the hourly forecast.",
+            "Micro-forecasts lie; the macro season tells the truth."
+          ],
+          "chunks": "trust the season · macro season",
+          "usage": "对仗句式适合做总结金句"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "cn": "用「compact into ice」说：积雪逐年压成冰。",
+      "en": "Snow compacted year after year turns into glacial ice — it's not water freezing directly."
+    },
+    {
+      "cn": "用「packed contour lines」说：等高线越密坡越陡。",
+      "en": "Packed contour lines on the map mean a steep slope ahead."
+    },
+    {
+      "cn": "用「the sweet spot」说：半山腰避风平坦处是最佳营地。",
+      "en": "A sheltered, flat spot on the mountainside is the campsite sweet spot."
+    },
+    {
+      "cn": "用「trust the season」说：别太信微观天气预报。",
+      "en": "Trust the season over the hourly forecast when hiking in western Sichuan."
+    }
+  ],
+  "pitfalls": [
+    {
+      "wrong": "The higher the mountain, the colder the glacier is.",
+      "right": "Glaciers need cold plus snow compacted over years — maritime vs continental depends on moisture sources.",
+      "why": "把冰川简单归为「高山冷」会漏掉压实成冰和海洋性/大陆性的关键；科普要讲机制。"
+    },
+    {
+      "wrong": "Trees like sunshine, so sunny slopes have more trees.",
+      "right": "In Xinjiang, the shady slope has more trees because intense sun dries out the soil — combine light with local water and heat.",
+      "why": "「树喜光」直觉在干旱区失效；要结合当地水热条件，这是本集重点反直觉。"
+    },
+    {
+      "wrong": "A clear sunny day is the best time to see the sea of clouds.",
+      "right": "An overcast town below means you can climb above the clouds — a perfect sunny day shows nothing.",
+      "why": "恰恰相反；云海要有云，晴天反而看不到，这是常见误区。"
+    },
+    {
+      "wrong": "The nearest path is the best path.",
+      "right": "Design routes for ease of walking, not shortest distance — valleys over ridges.",
+      "why": "「最近≠最好」是路线设计的核心原则；直译最近最优会误导安全判断。"
+    }
+  ],
+  "shifts": [
+    {
+      "before": "以为冰川只是「很冷的地方有冰」",
+      "after": "冰川是暴力雕刻地貌的机器——尖峰是磨出来的，且常从底部先融"
+    },
+    {
+      "before": "以为看地图靠等高线硬记",
+      "after": "大脑不擅长等高线——用奥维地图3D+两步路轨迹，出发前看前方坡度和地形"
+    },
+    {
+      "before": "以为户外风景就是打卡拍照",
+      "after": "看懂层状岩石、柱状节理、湖色成因，每次出行都有「掌控感」——地理的灵魂是实践"
+    }
+  ],
+  "voice": "en-US-JennyNeural",
+  "audio_dir": "audio/en/outdoor_geography_class"
+}

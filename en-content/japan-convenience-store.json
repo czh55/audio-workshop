@@ -1,0 +1,306 @@
+{
+  "slug": "japan-convenience-store",
+  "date": "2026-08-08",
+  "platform": "小宇宙FM",
+  "title": "日本人的便利店，就像童年的小卖部｜Vol.10 - 范来张口FM",
+  "title_en": "Japan's Convenience Store Is Like the Candy Shop of Our Childhood｜Vol.10 - Fanlai Zhangkou FM",
+  "eyebrow": "Japan Culture · 日本文化",
+  "duration": "40分",
+  "source_url": "https://www.xiaoyuzhoufm.com/episode/68ca55762c82c9dccacf9689",
+  "summary_cn": "一句话概括：日本便利店不是「卖吃卖喝的店」，而是 24 小时的政府办事窗口、无卡取款机、快递收发站和数字化生活接口——打印住民票、交罚单、取快递样样能干；它把「便利」做成了一套讲规矩的社会系统，而国内同牌子的便利店，本质更接近一个靠人情维系的升级版小卖部",
+  "summary_en": "The Japanese convenience store isn't just a place that sells food and drinks — it's a 24-hour government counter, a cardless ATM, a parcel station, and a gateway to digital life. Print a residence certificate, pay a fine, pick up a package: it does it all. The convenience store has turned 'convenience' into a rule-bound social system, while the same brand back in China is essentially just an upgraded corner shop held together by personal relationships.",
+  "scenes": [
+    {
+      "id": "s1",
+      "title_cn": "一、功能进化史：便利店如何变成「24小时政府窗口」",
+      "title_en": "How the Store Evolved Into a 24-Hour Government Window",
+      "context": "从自助打印机的三阶段进化讲到マイナンバー卡，说明便利店是普通人接触数字化系统的最日常接口。语域：casual 播客点评 + 生活观察。",
+      "speak": "The self-service printer at Japanese convenience stores evolved in three stages. First, you had to bring a USB drive or cable and plug it in to transfer files. Then each brand launched its own app, and you had to manually pair your phone with the machine — the connection was unstable, especially at FamilyMart. Now you pick your file on your phone, it generates a QR code, and the store machine scans it to automatically connect, transfer, and print. This machine is a microcosm of a digitalizing society: every new technology that rolls out — the apps, the My Number card — upgrades the printer right along with it. For international students, printing a certificate of residence used to mean taking a day off work to visit the ward office. Now they just swipe their My Number card at the store. And since paper insurance certificates are being phased out from December, students basically have no choice but to get the card.",
+      "sentences": [
+        {
+          "cn": "核心机制：日本便利店自助打印机的进化分三阶段：①最早必须带 U 盘/数据线插上机器传文件；②各品牌推出 APP 后，需手动连接配对再传文件，连接不稳定（全家尤甚，常搜不到信号）；③现在手机选好文件自动生成二维码，到店让机器一扫即自动连接、传文件、打印",
+          "en": "The self-service printer at Japanese convenience stores evolved in three stages. First, you had to bring a USB drive or cable and plug it in to transfer files. Then each brand launched its own app, and you had to manually pair your phone with the machine — the connection was unstable, especially at FamilyMart, which often couldn't find a signal. Now you pick your file on your phone, it generates a QR code, and the store machine scans it to automatically connect, transfer, and print.",
+          "note": "<span>表达提示</span>self-service printer → 自助打印机；QR code → 二维码；pair → 配对（设备连接）；transfer files → 传输文件"
+        },
+        {
+          "cn": "关键理解：这台机器是「社会数字化」的缩影——每轮新技术（APP、マイナンバー卡）上线，打印机就跟着升级，它成了普通人与数字化系统之间最日常的接口",
+          "en": "The key insight: this machine is a microcosm of a digitalizing society. Every time a new technology rolls out — the apps, the My Number card — the printer upgrades right along with it, becoming the most everyday interface between ordinary people and the digital system.",
+          "note": "<span>表达提示</span>microcosm → 缩影；roll out → 上线/推出；My Number card → マイナンバー个人编号卡；interface → 接口"
+        },
+        {
+          "cn": "典型场景：留学生申请学校、出愿、考试常要交住民票，以前必须工作日请假跑区役所，现在刷マイナンバー卡就能在便利店自助打出",
+          "en": "Typical scene: international students applying to schools or taking exams often need a certificate of residence. Before, they had to take a day off during the week to go to the ward office; now they can swipe their My Number card and print it out themselves at a convenience store.",
+          "note": "<span>表达提示</span>certificate of residence → 住民票；ward office → 区役所；take a day off → 请假"
+        },
+        {
+          "cn": "（引用）原文依据：「以前我要开住民票的时候，必须在周一到周五去区役所才可以开得出来……现在就变成了周六日或者是节假日，只要我想去，我就可以去便利店开出这个住民票。」",
+          "en": "Quote from the show: \"Before, to get my certificate of residence, I had to go to the ward office Monday through Friday. Now, on weekends or holidays, whenever I want, I can just go to a convenience store and print it out.\"",
+          "note": "<span>表达提示</span>direct quote → 原文引用；weekends or holidays → 周六日或节假日；print it out → 打出来"
+        },
+        {
+          "cn": "（引用）相关概念：与「マイナンバー卡」「区役所」「社会数字化」直接相关",
+          "en": "Related concepts: this ties directly to the My Number card, the ward office, and the digitalization of society.",
+          "note": "<span>表达提示</span>tie directly to → 与…直接相关；digitalization of society → 社会数字化"
+        },
+        {
+          "cn": "核心机制：日本数字身份证（マイナンバーカード）把税务、年金、保险等个人数据整合到一张卡；政府曾以 2 万日元积分推广，普及率仍不高；今年12月起保险证停发，看病只能靠它，留学生基本「不得不办」",
+          "en": "Japan's digital ID, the My Number card, consolidates tax, pension, and insurance data onto a single card. The government once offered 20,000 yen in points to promote it, yet adoption stayed low. Now, from December, paper insurance certificates are being phased out — to see a doctor you have to use the card — so international students basically have no choice but to get one.",
+          "note": "<span>表达提示</span>consolidate onto a single card → 整合到一张卡；phase out → 逐步停发；have no choice but to → 不得不"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「扫码后机器自动连上手机传文件」",
+          "phrases": [
+            "The machine scans your QR code and the file sends itself over.",
+            "Just scan the code and the printer pulls up your file automatically."
+          ],
+          "chunks": "scan the code · send itself over · pull up a file",
+          "usage": "scan the code 最日常；send itself over 有画面感，适合聊天"
+        },
+        {
+          "intent": "想说「现在不得不办这张卡」",
+          "phrases": [
+            "They've basically got no choice but to get the card.",
+            "It's no longer optional — everyone has to have one."
+          ],
+          "chunks": "no choice but to · no longer optional",
+          "usage": "no choice but to 口语；no longer optional 更书面，适合点评"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title_cn": "二、三大品牌暗战：711凭什么逆袭成第一",
+      "title_en": "The Three-Brand War: Why 7-Eleven Won",
+      "context": "从 711 自有工厂、限定甜品、炸鸡盲测三个角度解释 711 如何反超全家与罗森。语域：casual 探店测评 + 供应链分析。",
+      "speak": "Seven-Eleven is the only convenience store chain in Japan with its own food factory, so it fully controls quality and how fast new items hit the shelves. FamilyMart and Lawson, by contrast, work with third parties — to put it bluntly, it's just white-labeling. The in-house factory produces two results: desserts widely rated the best in the industry, and the fastest release cadence, with limited editions and seasonal fruit ice pops never stopping. Typical finds: cookie-filled mochi, mint chocolate choux, and a frozen-fruit smoothie machine no other chain has. Seven-Eleven's fried chicken, Nana Chiki, is a classic latecomer, only seven or eight years old — but in the hosts' blind taste test across all three chains, it came out best, and the price stayed competitive too.",
+      "sentences": [
+        {
+          "cn": "核心机制：711 是全日本唯一有自己食品工厂的便利店品牌，自产自控品质与上新速度；全家、罗森则是与第三方合作（贴牌），出品稳定性取决于代工厂",
+          "en": "Seven-Eleven is the only convenience store chain in Japan with its own food factory, so it fully controls quality and how fast new items hit the shelves. FamilyMart and Lawson, by contrast, work with third-party partners — in other words, they white-label other companies' products, so their consistency depends on their contract manufacturers.",
+          "note": "<span>表达提示</span>own food factory → 自有食品工厂；white-label → 贴牌；contract manufacturer → 代工厂"
+        },
+        {
+          "cn": "关键理解：「自有工厂」带来两个结果——甜品口味公认第一 + 更新速度最快（限定品、当季水果冰棍不断），这是供应链能力直接转化为产品竞争力的样本",
+          "en": "The key insight: the in-house factory produces two results — desserts widely rated the best in the industry, and the fastest release cadence, with limited editions and seasonal fruit ice pops never stopping. It's a textbook example of supply-chain capability converting directly into product competitiveness.",
+          "note": "<span>表达提示</span>in-house factory → 自有工厂；release cadence → 上新节奏；limited edition → 限定品；textbook example → 典型样本"
+        },
+        {
+          "cn": "典型场景：限定甜品曲奇夹心雪媚娘、薄荷巧克力泡芙、当季梨/桃/草莓冰棍，真材实料而非香精味；还有冷冻水果现打奶昔（从冰柜拿水果冰杯自己打），别家没有",
+          "en": "Typical scene: limited desserts like cookie-filled mochi, mint chocolate choux, and seasonal pear, peach, and strawberry ice pops — made with real ingredients, not artificial flavoring. There's also a frozen-fruit smoothie station, where you grab a cup of frozen fruit from the freezer and blend it yourself — no other chain has that.",
+          "note": "<span>表达提示</span>cookie-filled mochi → 曲奇夹心雪媚娘；choux → 泡芙；ice pop → 冰棍；artificial flavoring → 香精味"
+        },
+        {
+          "cn": "（引用）原文依据：「711 是唯一一个有自己工厂的，出品是很稳定的……其他两个虽然说都是自营的东西，但他们是和第三方合作的，说白了就是贴牌的。」",
+          "en": "Quote from the show: \"Seven-Eleven is the only one with its own factory, so the quality is very consistent. The other two claim everything is their own brand, but they work with third parties — to put it bluntly, it's just white-labeling.\"",
+          "note": "<span>表达提示</span>to put it bluntly → 说白了；consistent quality → 出品稳定"
+        },
+        {
+          "cn": "（引用）相关概念：与「全家的贴牌」「711 炸鸡」「供应链管理」相关",
+          "en": "Related concepts: this connects to FamilyMart's white-labeling, Seven-Eleven's fried chicken, and supply-chain management.",
+          "note": "<span>表达提示</span>fried chicken → 炸鸡；supply-chain management → 供应链管理；connect to → 与…相关"
+        },
+        {
+          "cn": "核心机制：711 的炸鸡（ななチキ）才推出七八年，是典型后来者；主持人一行买三家炸鸡横向盲测，结论是 711 最好吃，且价格在三家中仍具竞争力",
+          "en": "Seven-Eleven's fried chicken, Nana Chiki, has only been around for seven or eight years — a classic latecomer. The hosts bought fried chicken from all three chains and did a blind taste test; the verdict was that Seven-Eleven's was the best, and its price stayed competitive against the other two.",
+          "note": "<span>表达提示</span>latecomer → 后来者；blind taste test → 盲测；verdict → 结论"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「说白了就是贴牌」",
+          "phrases": [
+            "To put it bluntly, it's just white-labeling.",
+            "Basically, they're repackaging someone else's products under their own name."
+          ],
+          "chunks": "to put it bluntly · white-label · repackage under one's own name",
+          "usage": "to put it bluntly 用于口语转折；repackage 更正式，适合分析"
+        },
+        {
+          "intent": "想说「甜品味道公认第一」",
+          "phrases": [
+            "Widely considered the best-tasting desserts in the game.",
+            "Everyone agrees their desserts are the top pick."
+          ],
+          "chunks": "widely considered · in the game · the top pick",
+          "usage": "in the game 很口语；top pick 适合总结推荐"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title_cn": "三、便利店不便利：这些坑要避开",
+      "title_en": "When the Store Isn't Convenient: Pitfalls to Avoid",
+      "context": "用「不便店」的吐槽讲东京便利店没有厕所的真相，再分析为何卖得贵、结账慢及对应解法。语域：casual 生活吐槽 + 实用攻略。",
+      "speak": "Plenty of stores in central Tokyo have no restroom, or post a sign saying staff only. Running to three stores and still finding no toilet is totally normal — netizens nicknamed these places 'inconvenience stores.' The reasons: land is so expensive that the toilet area often becomes storage; maintenance is a hassle; and everyone treats the store as a public toilet, which staff can't manage. Why do prices run high? Operations are expensive, so a 99-yen supermarket water costs over 150 yen here. Limited editions sell out in seconds in Chinese neighborhoods. And when one cashier is stuck on a complicated transaction during rush hour, the line barely moves. The workaround: stock up at the supermarket, use the store only for emergencies, and avoid rush hours.",
+      "sentences": [
+        {
+          "cn": "原因：① 东京地价太贵，单店面积小，厕所常被拿来当仓库；② 管理麻烦——厕所要打扫，日本人要求高，脏厕所会拉低店铺形象；③ 防止滥用——人流量太大，人人当公共厕所用，店员根本管不过来",
+          "en": "Why so many stores skip the restroom: first, Tokyo land is so expensive that stores are small and the toilet area often gets converted into storage. Second, maintenance is a hassle — someone has to clean it, Japanese standards are high, and a dirty restroom drags down the store's image. Third, they want to prevent misuse: foot traffic is so heavy that everyone treats the store as a public toilet, and staff simply can't manage it.",
+          "note": "<span>表达提示</span>converted into storage → 拿来当仓库；drag down the image → 拉低形象；foot traffic → 客流量"
+        },
+        {
+          "cn": "解法：着急时优先找麦当劳或商场；车站外的大店更可能有厕所；别把「便利店有厕所」当作默认设定",
+          "en": "The workaround: when you're in a hurry, head for a McDonald's or a shopping mall first. Bigger stores outside the station are more likely to have a restroom. And don't treat a convenience-store toilet as the default.",
+          "note": "<span>表达提示</span>workaround → 解法/绕路方案；in a hurry → 着急；as the default → 当作默认"
+        },
+        {
+          "cn": "（引用）「没有厕所的便利店，你就别叫便利店了。」——网友对「不便店」的吐槽",
+          "en": "Quote: \"If a convenience store has no restroom, it shouldn't be called a convenience store.\" — a netizen's jab at the so-called 'inconvenience stores'.",
+          "note": "<span>表达提示</span>netizen → 网友；jab at → 吐槽；inconvenience store → 不便店（谐音梗）"
+        },
+        {
+          "cn": "（引用）东京都内很多便利店没有厕所，或厕所贴着「仅限店员使用」，连跑三家都找不到厕所很正常；网友给这类店起了个名字叫「不便店」",
+          "en": "Many stores in central Tokyo have no restroom, or post a sign saying 'staff only.' Running to three stores and still finding no toilet is totally normal — netizens gave these places the nickname 'inconvenience stores.'",
+          "note": "<span>表达提示</span>staff only → 仅限店员使用；nickname → 绰号；run to three stores → 连跑三家"
+        },
+        {
+          "cn": "原因：① 运营成本高导致售价贵——超市 99 日元的水，便利店通常卖 150 日元以上；② 限定款宣传铺天盖地，中国人聚居区秒空（贡茶芒果乌龙茶推出时都内全断货）；③ 店员一人身兼数职，复杂业务 + 人多时结账极慢",
+          "en": "Why prices run high: operations are expensive, so a bottle of water that costs 99 yen at the supermarket usually sells for over 150 yen at a convenience store. Limited-edition promotions are everywhere, and in Chinese neighborhoods they sell out in seconds — when Gong Cha's mango oolong tea launched, it sold out across Tokyo. Also, each staff member juggles multiple duties, so when a customer handles a complicated transaction during busy hours, checkout crawls.",
+          "note": "<span>表达提示</span>sell out in seconds → 秒空；juggles multiple duties → 身兼数职；checkout crawls → 结账极慢"
+        },
+        {
+          "cn": "解法：日常囤货去超市，便利店只买应急品；限定款去本地人社区店买；避开早晚高峰；看到只有一个收银台在办复杂业务时，换一家店或换时段",
+          "en": "The workaround: stock up at the supermarket for daily needs, and use convenience stores only for emergency items. For limited editions, go to neighborhood stores where locals shop. Avoid rush hours, and if you see the only register stuck on a complicated transaction, just pick another store or come back later.",
+          "note": "<span>表达提示</span>stock up → 囤货；emergency items → 应急品；rush hours → 高峰时段"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「厕所被拿来当仓库」",
+          "phrases": [
+            "The toilet area got turned into storage space.",
+            "They converted the restroom into a stockroom."
+          ],
+          "chunks": "turn into storage · convert into a stockroom",
+          "usage": "两者可互换；convert 偏书面，turn into 更口语"
+        },
+        {
+          "intent": "想说「一个人结账慢得让人抓狂」",
+          "phrases": [
+            "The checkout crawls when one cashier is stuck on a complicated sale.",
+            "The line barely moves because a single register is tied up."
+          ],
+          "chunks": "checkout crawls · the line barely moves · tied up",
+          "usage": "crawl 形容龟速很形象；tied up 指被占住，很口语"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "title_cn": "四、本质差异：人情社会 vs 规矩社会",
+      "title_en": "The Core Difference: A Society of Connections vs a Society of Rules",
+      "context": "对比中日同品牌便利店的本质差异：国内是「锦上添花」的升级小卖部，日本是「兜底」的规矩社会系统。语域：casual 播客点评 + 文化观察。",
+      "speak": "The core contrast: in China, the convenience store is a nice-to-have — you pop in only for a last-minute drink, cigarettes, or snacks, relying on the corner shop and online shopping day to day, and you could go a whole year without entering one. In Japan, the store is a safety net: when you don't feel like cooking or going to a restaurant, it always gives you a choice that won't let you down. Substitutability decides positioning — Chinese stores can be replaced by corner shops plus online shopping; Japanese ones are irreplaceable because of their sheer density of functions. As the host put it, back home convenience stores are basically just corner shops that only sell things. Japanese convenience stores are the ones that truly deserve the name.",
+      "sentences": [
+        {
+          "cn": "核心机制：国内便利店是「锦上添花」——临时买水、烟、零食才进，日常靠楼下小卖部和网购，一年不进店都行；日本便利店是「兜底」——不想做饭、不想去餐厅时，它随时给你一个不会出错的选择",
+          "en": "The core contrast: in China, the convenience store is a nice-to-have — you pop in only for a last-minute drink, cigarettes, or snacks, relying on the corner shop downstairs and online shopping day to day, and you could go a whole year without entering one. In Japan, the convenience store is a safety net: when you don't feel like cooking or going to a restaurant, it always gives you a choice that won't let you down.",
+          "note": "<span>表达提示</span>nice-to-have → 锦上添花；safety net → 兜底；corner shop → 小卖部；won't let you down → 不会出错"
+        },
+        {
+          "cn": "关键理解：功能的「可替代性」决定了定位——国内便利店可被小卖部 + 网购替代；日本便利店因功能密度高（打印/缴费/ATM/快递/政务）而不可替代",
+          "en": "The key insight: substitutability determines positioning. Chinese convenience stores can be replaced by corner shops plus online shopping; Japanese ones are irreplaceable because of their sheer density of functions — printing, bill payment, ATM, parcel pickup, and government services all under one roof.",
+          "note": "<span>表达提示</span>substitutability → 可替代性；density of functions → 功能密度；parcel pickup → 取快递"
+        },
+        {
+          "cn": "典型场景：日本上班族每天上下班顺手进店买水、上厕所、交费、买冰淇淋；国内打工人日常买菜买粮去超市和菜场",
+          "en": "Typical scene: Japanese office workers drop in every day on the way to and from work for water, a restroom stop, a bill payment, and an ice cream. Back home, workers buy their groceries and staples at supermarkets and wet markets.",
+          "note": "<span>表达提示</span>drop in → 顺路进店；on the way to and from work → 上下班路上；wet market → 菜场"
+        },
+        {
+          "cn": "（引用）原文依据：「便利店不是吃饭的首选，而是兜底。就算你哪天不想做饭、不想去餐厅，便利店也随时能给你一个不会出错的选择。它不是最好吃的，但你去那一定没错。」",
+          "en": "Quote from the show: \"A convenience store isn't your first choice for a meal — it's the safety net. Even if you don't feel like cooking or eating out, it always gives you a choice that won't go wrong. It isn't the best food, but it's never a bad call.\"",
+          "note": "<span>表达提示</span>first choice → 首选；never a bad call → 去那一定没错"
+        },
+        {
+          "cn": "（引用）相关概念：与「安全感」「密度」「社会缩影」相关",
+          "en": "Related concepts: it ties to a sense of security, density, and the store as a microcosm of society.",
+          "note": "<span>表达提示</span>a sense of security → 安全感；microcosm of society → 社会缩影"
+        },
+        {
+          "cn": "（引用）「国内的便利店就可以统称为小卖部，它只是卖东西的……日本的便利店才真的称得上做便利店。」",
+          "en": "Quote: \"Back home, convenience stores are basically just corner shops — they only sell things. Japanese convenience stores are the ones that truly deserve the name.\"",
+          "note": "<span>表达提示</span>deserve the name → 称得上；basically just → 基本上就是"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「一边是锦上添花，一边是兜底」",
+          "phrases": [
+            "Back home it's a nice-to-have; in Japan it's a safety net.",
+            "One is a convenience, the other is a lifesaver."
+          ],
+          "chunks": "nice-to-have · safety net · a convenience vs a lifesaver",
+          "usage": "nice-to-have / safety net 对仗工整，适合总结；lifesaver 偏夸张口语"
+        },
+        {
+          "intent": "想说「随时给我一个不会出错的选择」",
+          "phrases": [
+            "It always gives me a choice that can't go wrong.",
+            "No matter what, there's a safe pick waiting for you."
+          ],
+          "chunks": "can't go wrong · a safe pick · no matter what",
+          "usage": "can't go wrong 最常用；a safe pick 更口语化"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "cn": "用「safety net」说：日本便利店是生活的兜底。",
+      "en": "In Japan, the convenience store is the safety net of everyday life."
+    },
+    {
+      "cn": "用「phase out」说：纸质保险证正在被停用。",
+      "en": "Paper insurance certificates are being phased out, so everyone has to switch to the digital card."
+    },
+    {
+      "cn": "用「blind taste test」说：他们盲测了三家的炸鸡。",
+      "en": "They did a blind taste test of fried chicken from all three chains, and Seven-Eleven won."
+    },
+    {
+      "cn": "用「won't let you down」说：便利店的选择不会让你失望。",
+      "en": "Whatever you pick at a Japanese convenience store, it won't let you down."
+    }
+  ],
+  "pitfalls": [
+    {
+      "wrong": "The convenience store toilet is used as a warehouse.",
+      "right": "The toilet area gets converted into storage space.",
+      "why": "warehouse 指大型仓库；门店内「挪用成储物间」用 storage space / stockroom 更贴切。"
+    },
+    {
+      "wrong": "The Chinese convenience store is 'adds flowers to brocade'.",
+      "right": "Back home it's a nice-to-have; in Japan it's a safety net.",
+      "why": "成语逐字直译成英文没人听懂；nice-to-have / safety net 是英文里对应的地道说法。"
+    },
+    {
+      "wrong": "I must ask leave on weekdays to go to the ward office.",
+      "right": "I have to take a day off during the week to go to the ward office.",
+      "why": "「请假」地道说法是 take a day off / take leave；ask leave 是中式直译，虽然能懂但不自然。"
+    },
+    {
+      "wrong": "The store manager is one person doing many positions.",
+      "right": "Each staff member juggles multiple duties.",
+      "why": "doing many positions 是直译；地道表达是 juggle multiple duties / wear many hats。"
+    }
+  ],
+  "shifts": [
+    {
+      "before": "以为便利店只是「卖东西的地方」",
+      "after": "日本便利店是政务/金融/物流的 24 小时接口，功能密度决定它不可替代"
+    },
+    {
+      "before": "以为「自有工厂 vs 贴牌」差别不大",
+      "after": "自建工厂与第三方贴牌，决定品质稳定和上新速度的差距"
+    },
+    {
+      "before": "以为连锁品牌哪国都一样",
+      "after": "中日同品牌便利店本质不同——一边是「补充」，一边是「兜底」"
+    }
+  ],
+  "voice": "en-US-JennyNeural",
+  "audio_dir": "audio/en/japan-convenience-store"
+}

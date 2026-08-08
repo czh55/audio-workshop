@@ -1,0 +1,1049 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="摄像头、紫光波、激光雷达，UWB，谁才是智能感知的关键？ — Bilingual Learning Edition" />
+  <title>摄像头、紫光波、激光雷达，UWB，谁才是智能感知的关键？｜EN 双语学习版</title>
+  <style>:root{--teal-950:#073f42;--teal-800:#0d686c;--teal-700:#0f7c80;--teal-600:#14919b;--mint-100:#dff4ec;--mint-50:#f0faf6;--ink:#183536;--muted:#607879;--line:#d7e8e2;--paper:#fff;--amber:#a85d08;--shadow:0 12px 32px rgba(7,63,66,.08)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:24px}
+body{margin:0;color:var(--ink);background:#edf7f2;font-family:Inter,"PingFang SC","Noto Sans SC","Microsoft YaHei",system-ui,sans-serif;line-height:1.65}
+button,select{font:inherit}
+a{color:inherit}
+.hero{color:#fff;background:radial-gradient(circle at 85% 10%,rgba(129,230,196,.24),transparent 30%),linear-gradient(125deg,#073f42,#0d7377 56%,#14919b)}
+.hero-inner{width:min(1440px,100%);margin:auto;padding:44px clamp(20px,5vw,72px) 36px}
+.hero-flex{display:flex;gap:clamp(18px,3vw,40px);align-items:flex-start}
+.hero-cover{width:min(240px,42vw);height:auto;max-height:320px;object-fit:contain;object-position:center;border-radius:16px;border:1px solid rgba(255,255,255,.28);box-shadow:0 18px 44px rgba(0,0,0,.32);flex-shrink:0;background:rgba(255,255,255,.08)}
+.hero-text{min-width:0;flex:1}
+.eyebrow{margin:0 0 12px;font-size:.78rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;opacity:.8}
+h1{max-width:1020px;margin:0;font-size:clamp(1.7rem,3.6vw,3rem);line-height:1.15;letter-spacing:-.04em}
+.hero-en{margin:12px 0 22px;font-size:clamp(1rem,2vw,1.25rem);opacity:.82}
+.hero-meta{display:flex;flex-wrap:wrap;gap:9px;align-items:center}
+.chip{border:1px solid rgba(255,255,255,.28);border-radius:99px;padding:5px 11px;font-size:.82rem;background:rgba(255,255,255,.08)}
+.source-link{font-weight:750;text-decoration:none;border-bottom:1px solid rgba(255,255,255,.5)}
+.toolbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:22px}
+.toolbar label{font-size:.82rem;opacity:.82}
+.toolbar select{color:#fff;background:#0a5d61;border:1px solid rgba(255,255,255,.3);border-radius:8px;padding:7px 9px}
+.stop-btn{display:none;color:#fff;background:#8c3b2a;border:0;border-radius:8px;padding:8px 12px;cursor:pointer}
+.stop-btn.visible{display:inline-flex}
+.speech-status{min-height:1.4em;font-size:.82rem;opacity:.88}
+.lang-switch{display:inline-flex;gap:6px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.28);border-radius:99px;padding:4px}
+.lang-switch a{display:inline-block;padding:4px 13px;border-radius:99px;font-size:.8rem;font-weight:700;text-decoration:none;color:rgba(255,255,255,.75)}
+.lang-switch a.active{background:#fff;color:var(--teal-800)}
+.narration-player{margin-top:16px;padding:14px 18px;background:rgba(255,255,255,.1);border-radius:12px;border:1px solid rgba(255,255,255,.15)}
+.audio-label{color:rgba(255,255,255,.88);font-size:.82rem;font-weight:700;margin:0 0 8px}
+.page{width:min(1440px,100%);margin:auto;padding:28px clamp(16px,3vw,44px) 64px;display:grid;grid-template-columns:minmax(230px,280px) minmax(0,1fr);gap:30px;align-items:start}
+.sidebar{position:sticky;top:20px;min-width:0}
+.sidebar-box{background:rgba(255,255,255,.8);border:1px solid var(--line);border-radius:16px;padding:17px;box-shadow:var(--shadow);backdrop-filter:blur(12px)}
+.sidebar h2{margin:0 0 13px;font-size:.9rem;letter-spacing:.08em;color:var(--teal-800)}
+.map-link{display:grid;grid-template-columns:34px minmax(0,1fr);gap:9px;padding:10px 6px;text-decoration:none;border-top:1px solid var(--line)}
+.map-link:hover b{color:var(--teal-700)}
+.map-id{width:30px;height:30px;display:grid;place-items:center;border-radius:9px;color:#fff;background:var(--teal-700);font-size:.72rem;font-weight:800}
+.map-link b{display:block;font-size:.78rem;line-height:1.4}
+.map-link small{display:block;color:var(--muted);font-size:.67rem;line-height:1.4;margin-top:2px;overflow-wrap:anywhere}
+.content{min-width:0}
+.scene-card{background:var(--paper);border:1px solid var(--line);border-radius:20px;padding:clamp(20px,3vw,34px);margin-bottom:24px;box-shadow:var(--shadow);overflow:hidden}
+.scene-topline{display:flex;justify-content:space-between;gap:16px;align-items:center;margin-bottom:16px}
+.scene-id{display:inline-grid;place-items:center;min-width:42px;height:30px;padding:0 10px;color:#fff;background:var(--teal-700);border-radius:8px;font-size:.78rem;font-weight:850}
+.time{margin-left:10px;color:var(--muted);font-size:.82rem;font-variant-numeric:tabular-nums}
+.scene-card h2{margin:0 0 2px;font-size:clamp(1.35rem,2.4vw,2rem);line-height:1.25;color:var(--teal-950)}
+.scene-title-en{margin:0 0 18px;color:var(--teal-600);font-weight:700;font-size:.98rem}
+.context{margin:0 0 20px;padding:12px 15px;color:#496566;background:var(--mint-50);border-left:3px solid var(--teal-600);border-radius:0 10px 10px 0;font-size:.88rem}
+.context b{margin-right:10px;color:var(--teal-800)}
+.sentence-list{display:grid;gap:12px}
+.sentence{position:relative;display:grid;grid-template-columns:38px minmax(0,1fr);gap:12px;padding:16px;border:1px solid #e2ece8;border-radius:14px;background:#fcfefd;min-width:0}
+.sentence-no{color:var(--teal-600);font-size:.76rem;font-weight:850;font-variant-numeric:tabular-nums;padding-top:4px}
+.bilingual{min-width:0;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(14px,2vw,28px)}
+.lang-block{min-width:0}
+.lang-block p{margin:5px 0 0;overflow-wrap:anywhere}
+.en-block{padding-left:clamp(14px,2vw,28px);border-left:1px solid var(--line)}
+.en-block p{color:#0b5c60;font-weight:650}
+.lang-tag{display:inline-block;color:var(--muted);font-size:.66rem;font-weight:850;letter-spacing:.12em}
+.en-head{display:flex;justify-content:space-between;gap:10px;align-items:center;min-height:30px}
+.note{grid-column:2;margin:1px 0 0;color:#708182;font-size:.78rem}
+.note span{margin-right:7px;color:var(--amber);font-weight:750}
+.speak-btn{display:inline-flex;align-items:center;gap:7px;border:1px solid #b8d9d1;border-radius:9px;padding:7px 11px;color:var(--teal-800);background:#f5fbf8;cursor:pointer;white-space:nowrap;font-size:.78rem;font-weight:750;transition:.15s ease}
+.speak-btn:hover{color:#fff;background:var(--teal-700);border-color:var(--teal-700);transform:translateY(-1px)}
+.speak-btn.playing{color:#fff;background:var(--teal-700);border-color:var(--teal-700)}
+.speak-btn.compact{padding:4px 8px;font-size:.7rem}
+.speak-btn.icon-only{padding:3px 7px;margin-left:6px}
+.speak-btn.icon-only span:last-child{display:none}
+.pronounce-word{display:inline;margin:0;padding:0 2px;color:inherit;background:rgba(20,145,155,.08);border:0;border-bottom:1px dashed var(--teal-600);border-radius:3px;font:inherit;font-weight:inherit;line-height:inherit;cursor:pointer}
+.pronounce-word:hover,.pronounce-word:focus{color:var(--teal-950);background:#cceee4;border-bottom-style:solid;outline:3px solid rgba(20,145,155,.42);outline-offset:2px}
+.pronounce-word.playing{color:#fff;background:var(--teal-700);border-bottom-color:var(--teal-700)}
+.paraphrase{margin-top:18px;border-top:1px solid var(--line)}
+.paraphrase summary{padding:16px 0 3px;color:var(--teal-800);cursor:pointer;font-weight:800}
+.paraphrase summary span{color:var(--muted);font-size:.75rem;font-weight:500;margin-left:8px}
+.paraphrase ol{margin:12px 0 0;padding-left:22px}
+.paraphrase li{padding:7px 0 9px 5px}
+.paraphrase li p{margin:0;font-size:.9rem;font-weight:650}
+.paraphrase li small{display:block;color:var(--muted);font-size:.72rem;margin-top:2px}
+.chunks{margin-top:4px;color:var(--teal-700);font-size:.78rem}
+.study-section{margin:38px 0 0}
+.section-heading{display:flex;align-items:baseline;gap:10px;margin:0 0 15px;color:var(--teal-950);font-size:1.35rem}
+.section-heading small{color:var(--teal-600);font-size:.78rem;letter-spacing:.05em}
+.study-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.study-grid article{padding:17px;background:#fff;border:1px solid var(--line);border-radius:14px;box-shadow:0 6px 18px rgba(7,63,66,.05);min-width:0}
+.study-grid p{margin:0}
+.practice-en{margin-top:9px;color:var(--teal-700);font-weight:650;overflow-wrap:anywhere}
+.wrong{color:#a24831;text-decoration:line-through;overflow-wrap:anywhere}
+.right{color:var(--teal-700);font-weight:750;margin:5px 0;overflow-wrap:anywhere}
+.pitfalls p{color:var(--muted);font-size:.82rem}
+.shifts article{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1.5fr);gap:12px;align-items:center}
+.shifts b{color:var(--teal-600);font-size:1.2rem}
+.shifts strong{color:var(--teal-800)}
+footer{margin-top:38px;color:var(--muted);font-size:.78rem;text-align:center}
+.footer-note{margin-top:6px}
+@media (max-width:900px){
+  .page{grid-template-columns:1fr}
+  .sidebar{position:static}
+  .sidebar-box{overflow-x:auto;padding:12px}
+  .sidebar h2{padding-left:5px}
+  .map-nav{display:flex;width:max-content;gap:8px}
+  .map-link{width:240px;border:1px solid var(--line);border-radius:10px;padding:8px}
+  .bilingual{grid-template-columns:1fr}
+  .en-block{padding:12px 0 0;border-left:0;border-top:1px dashed var(--line)}
+}
+@media (max-width:620px){
+  .hero-inner{padding-top:30px}
+  .hero-flex{flex-direction:column;align-items:center}
+  .hero-cover{width:100%;max-width:360px}
+  .hero-text{text-align:center}
+  .page{padding-inline:10px;gap:18px}
+  .scene-card{border-radius:14px;padding:17px 13px}
+  .scene-topline{align-items:flex-start}
+  .scene-speak span:last-child{display:none}
+  .sentence{grid-template-columns:26px minmax(0,1fr);padding:13px 10px;gap:6px}
+  .note{grid-column:2}
+  .study-grid{grid-template-columns:1fr}
+  .shifts article{grid-template-columns:1fr;gap:5px}
+  .shifts b{transform:rotate(90deg);justify-self:start}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.speak-btn{transition:none}}</style>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="hero-flex">
+        <div class="hero-text">
+          <p class="eyebrow">Auto &amp; Tech · 汽车与技术</p>
+          <h1>摄像头、紫光波、激光雷达，UWB，谁才是智能感知的关键？</h1>
+          <p class="hero-en">Cameras, Millimeter-Wave, LiDAR, UWB — What Actually Drives Smart Perception?</p>
+          <p class="summary-en" style="margin:0 0 14px;padding:14px 16px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.22);border-radius:12px;font-size:.95rem;line-height:1.7">The host breaks down the five sensors behind new-energy smart driving in plain language — ultrasonic radar, UWB, cameras, millimeter-wave radar, and LiDAR — starting from the Li L9 ditching its twelve ultrasonic sensors for UWB. Each sensor's principle, pros and cons, and fusion strategy is explained, so buyers can't be fooled by salespeople. The episode covers why ultrasonic radars lost their place, how UWB nails precise near-field positioning, why a camera that understands beats a camera that only sees, how 3D and 4D millimeter-wave radar differ, and why expensive LiDAR is still indispensable. The takeaway: no sensor or stack is perfect, so the real competition is fusing sensors well and letting algorithms grasp space.</p>
+          <div class="hero-meta">
+            <span class="chip">2026-06-23</span>
+            <span class="chip">小宇宙FM</span>
+            <span class="chip">56分33秒</span>
+            <span class="chip">6 Scenes</span>
+            <span class="chip">Click underlined words to hear them</span>
+            <a class="source-link" href="https://www.xiaoyuzhoufm.com/episode/6a0df9471b7bd5029589a9e1" target="_blank" rel="noopener">原播客 ↗</a>
+          </div>
+        </div>
+      </div>
+      <div class="toolbar">
+        <div class="lang-switch"><div class="lang-switch"><a href="smart_perception_sensors-总结.html">中文</a><a class="active" href="smart_perception_sensors-en.html" aria-current="page">EN</a></div></div>
+        <label for="speech-rate">朗读速度</label>
+        <select id="speech-rate">
+          <option value="0.85">慢速 0.85×</option>
+          <option value="1" selected>正常 1×</option>
+          <option value="1.15">快速 1.15×</option>
+        </select>
+        <button id="stop-speech" class="stop-btn" type="button">■ 停止朗读</button>
+        <span id="speech-status" class="speech-status" role="status" aria-live="polite"></span>
+      </div>
+      <div class="narration-player">
+      <p class="audio-label">🎧 中文语音讲解</p>
+      <button class="speak-btn" type="button" data-audio="audio/smart_perception_sensors.mp3" aria-label="播放语音讲解"><span aria-hidden="true">▶</span><span>播放语音讲解</span></button>
+    </div>
+    </div>
+  </header>
+  <main class="page">
+    <aside class="sidebar" aria-label="场景地图">
+      <div class="sidebar-box">
+        <h2>场景地图 · SCENE MAP</h2>
+        <nav class="map-nav">
+          <a class="map-link" href="#s1">
+          <span class="map-id">S1</span>
+          <span><b>一、超声波雷达：被UWB取代的老将</b><small> · Ultrasonic Radar: The Veteran Replaced by UWB</small></span>
+        </a>
+<a class="map-link" href="#s2">
+          <span class="map-id">S2</span>
+          <span><b>二、UWB：精准近场定位的新星</b><small> · UWB: The New Star of Precise Near-Field Positioning</small></span>
+        </a>
+<a class="map-link" href="#s3">
+          <span class="map-id">S3</span>
+          <span><b>三、摄像头：看得懂比看得清重要</b><small> · Cameras: Understanding Beats Resolution</small></span>
+        </a>
+<a class="map-link" href="#s4">
+          <span class="map-id">S4</span>
+          <span><b>四、毫米波雷达：3D与4D的进化</b><small> · Millimeter-Wave Radar: From 3D to 4D</small></span>
+        </a>
+<a class="map-link" href="#s5">
+          <span class="map-id">S5</span>
+          <span><b>五、激光雷达：贵但不可或缺</b><small> · LiDAR: Expensive but Indispensable</small></span>
+        </a>
+<a class="map-link" href="#s6">
+          <span class="map-id">S6</span>
+          <span><b>六、五大传感器横向对比</b><small> · The Five Sensors Compared</small></span>
+        </a>
+        </nav>
+      </div>
+    </aside>
+    <div class="content">
+      <section class="scene-card" id="s1" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S1</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/smart_perception_sensors/s1.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>一、超声波雷达：被UWB取代的老将</h2>
+      <p class="scene-title-en">Ultrasonic Radar: The Veteran Replaced by UWB</p>
+      <p class="context"><b>情境</b>The host explains why the cheap, reliable ultrasonic radar is being phased out. 语域：casual 大白话科普。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：像蝙蝠一样发射超声波，通过回弹时间差判断距离，适合几米内低速近距离探测（倒车、侧方停车、靠墙挪车）</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/smart_perception_sensors/s1-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The mechanism: it sends out ultrasonic waves like a bat and works out distance from the echo timing — great for close-range, low-speed detection within a few meters, like reversing, parallel parking, and creeping along a wall.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>ultrasonic waves → 超声波；echo timing → 回弹时间差；close-range detection → 近距离探测</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：便宜（前装成本几乎可忽略）、稳定、成熟，曾是全系标配。但只能告诉你「这里有障碍物、离多远」，无法理解「这是柱子还是塑料袋」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/smart_perception_sensors/s1-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The insight: it's cheap — the front-install cost is nearly negligible — plus stable and mature, so it used to be standard on every trim. But it can only tell you 'there's an obstacle here and it's this far away'; it can't tell a pillar from a plastic bag.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>standard on every trim → 全系标配；obstacle → 障碍物；negligible cost → 成本可忽略</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>典型场景：基础倒车提醒、低速避障、前后泊车辅助</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/smart_perception_sensors/s1-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Typical uses: basic reversing alerts, low-speed obstacle avoidance, and front and rear parking assist.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>reversing alerts → 倒车提醒；parking assist → 泊车辅助；obstacle avoidance → 避障</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据：「超声波雷达的眼里，柱子、垃圾桶、猫、塑料袋本质区别不大，对它来讲都是障碍物」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/smart_perception_sensors/s1-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">As the show puts it: 'In the eyes of an ultrasonic radar, a pillar, a trash can, a cat, and a plastic bag are basically the same thing — they're all just obstacles.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>in the eyes of → 在…眼里；basically the same → 本质区别不大</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）相关概念：被UWB近场感知取代，理想L9一口气取消12颗</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/smart_perception_sensors/s1-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Related concept: it's being replaced by UWB near-field sensing — the Li L9 dropped all twelve of its ultrasonic sensors at once.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>near-field sensing → 近场感知；drop / replace → 取消/替换</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>原因：①只测距离，无法理解空间语义；②易受雨雪、积水、斜坡、细小障碍物影响（细柱子撞车案例）；③跟不上高阶智驾对空间定位的需求</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/smart_perception_sensors/s1-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Why: first, it only measures distance and can't grasp spatial meaning; second, it's easily confused by rain, snow, standing water, slopes, and thin obstacles — there's a famous case of a car hitting a thin pole; third, it can't keep up with what advanced autonomous driving needs for spatial positioning.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>spatial meaning → 空间语义；spatial positioning → 空间定位；keep up with → 跟不上</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>3 组表达</span></summary>
+        <ol>
+          <li><p>想说「全系标配」</p><div class="chunks">come standard on · standard equipment</div><small>come standard on 更口语</small></li>
+<li><p>想说「本质区别不大」</p><div class="chunks">basically the same · can't tell apart</div><small>can't tell apart 更直白</small></li>
+<li><p>想说「跟不上需求」</p><div class="chunks">keep up with · fall short of</div><small>fall short of 偏书面</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s2" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S2</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/smart_perception_sensors/s2.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>二、UWB：精准近场定位的新星</h2>
+      <p class="scene-title-en">UWB: The New Star of Precise Near-Field Positioning</p>
+      <p class="context"><b>情境</b>The host explains why UWB is replacing ultrasonic sensors. 语域：casual 科普 + 类比。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>超宽带无线电信号实现1米级测距精度，几乎不受温湿度影响。能识别路牌、树枝、低于20cm的宠物/儿童玩具，同步输出距离与方向。但用大白话说，它就是一个特别精准的近场定位技术</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/smart_perception_sensors/s2-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Ultra-wideband radio signals deliver meter-level ranging accuracy, almost unaffected by temperature and humidity. It can recognize road signs, branches, and pets or kids' toys under 20 centimeters, outputting distance and direction at the same time. In plain words, it's just a really precise near-field positioning technology.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>ultra-wideband → 超宽带；meter-level accuracy → 米级精度；near-field positioning → 近场定位；in plain words → 用大白话说</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）"蓝牙是知道有人来了，UWB是知道有个人站在左前门，距离1.2米还是1.1米，正在朝车尾方向移动"</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/smart_perception_sensors/s2-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">As the show puts it: 'Bluetooth knows someone is coming. UWB knows there's a person standing at the left front door, whether it's 1.2 meters or 1.1 meters away, and that they're moving toward the rear.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>Bluetooth vs UWB → 蓝牙 vs 超宽带；moving toward → 朝…移动</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：从宝马推动的UWB数字钥匙（无感解锁/上锁）进化到车辆近场感知系统的一部分。自动泊车时：摄像头负责「看见了什么」，UWB负责「精确测距」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/smart_perception_sensors/s2-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The mechanism: it evolved from the BMW-led UWB digital key for hands-free locking and unlocking into part of the car's near-field sensing. During auto parking, the camera handles 'what we see' while UWB handles 'exact distance.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>digital key → 数字钥匙；hands-free unlock → 无感解锁；exact ranging → 精确测距</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：解决的是位置关系，不是世界建模。适合无感进入、低速避障、贴边停车，远了不行</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/smart_perception_sensors/s2-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The insight: UWB solves positional relationships, not world modeling. It's great for hands-free entry, low-speed obstacle avoidance, and parking tight against a curb — but it's useless at a distance.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>positional relationship → 位置关系；world modeling → 世界建模；tight against a curb → 贴边停车</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>典型场景：无感解锁、自动泊车、离车泊入、窄路通行</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/smart_perception_sensors/s2-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Typical uses: hands-free unlock, auto parking, remote valet parking, and squeezing through narrow lanes.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>auto parking → 自动泊车；remote valet → 离车泊入；narrow lanes → 窄路</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据：「UWB解决位置关系而不是世界建模，它充其量用来解决近场感知需求」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/smart_perception_sensors/s2-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">As the show says: 'UWB solves positional relationships, not world modeling — at best, it covers your near-field sensing needs.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>at best → 充其量；cover needs → 满足需求</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>3 组表达</span></summary>
+        <ol>
+          <li><p>想说「用大白话说」</p><div class="chunks">in plain words · put simply</div><small>两者都口语，put simply 更短</small></li>
+<li><p>想说「无感解锁」</p><div class="chunks">unlocks as you walk up · hands-free</div><small>hands-free 是产品术语</small></li>
+<li><p>想说「充其量」</p><div class="chunks">at best · beyond close range</div><small>at best 常用</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s3" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S3</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/smart_perception_sensors/s3.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>三、摄像头：看得懂比看得清重要</h2>
+      <p class="scene-title-en">Cameras: Understanding Beats Resolution</p>
+      <p class="context"><b>情境</b>The host explains why cameras are the most human-like sensor, and its limits. 语域：casual 科普 + 观点对比。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：最接近人眼的传感器。马斯克认为人靠眼睛开车，车也该靠摄像头（特斯拉纯视觉）。中国车企大多不敢走纯视觉，仍保留激光雷达融合方案</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/smart_perception_sensors/s3-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The mechanism: it's the sensor closest to the human eye. Musk argues that people drive with their eyes, so cars should too — that's Tesla's vision-only approach. Most Chinese automakers don't dare go vision-only and still keep LiDAR fusion.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>vision-only → 纯视觉；closest to the human eye → 最接近人眼；LiDAR fusion → 激光雷达融合</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：摄像头怕逆光、大雨大雪、浓雾炫光、暗光环境——人眼晚上也看不清，何况摄像头</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/smart_perception_sensors/s3-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The insight: cameras struggle with backlight, heavy rain and snow, fog and glare, and low light — human eyes can barely see at night, let alone a camera.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>backlight → 逆光；glare → 炫光；low light → 暗光；let alone → 何况</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>典型场景：车道识别、交通标志、行人检测、泊车视觉建图</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/smart_perception_sensors/s3-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Typical uses: lane recognition, traffic-sign reading, pedestrian detection, and visual mapping for parking.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>lane recognition → 车道识别；pedestrian detection → 行人检测；visual mapping → 视觉建图</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据：「摄像头真正厉害的不是看得清，而是看得懂」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/smart_perception_sensors/s3-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">As the show puts it: 'What makes cameras great isn't seeing clearly — it's understanding what they see.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>see clearly vs understand → 看得清 vs 看得懂</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）相关概念：与激光雷达融合弥补恶劣天气短板；与UWB配合实现泊车测距</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/smart_perception_sensors/s3-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Related concepts: fusing with LiDAR covers the weakness in bad weather, and pairing with UWB delivers precise ranging while parking.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>cover the weakness → 弥补短板；pair with → 与…配合</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>马斯克严格控制成本，不接受激光雷达价格。2021年白色卡车事故后，2023年前后特斯拉全面转向纯视觉。但纯视觉在恶劣天气下仍有明显短板，中国复杂路况下激光雷达短期内不会被抛弃</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/smart_perception_sensors/s3-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Musk strictly controls costs and won't accept LiDAR's price. After the 2021 white-truck crash, Tesla went fully vision-only around 2023. But pure vision still has obvious weaknesses in bad weather, so under China's complex road conditions, LiDAR won't be abandoned anytime soon.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>control costs → 控制成本；complex road conditions → 复杂路况；abandon → 抛弃</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>3 组表达</span></summary>
+        <ol>
+          <li><p>想说「纯视觉路线」</p><div class="chunks">betting purely on cameras · vision-only</div><small>vision-only 是术语</small></li>
+<li><p>想说「何况」</p><div class="chunks">let alone · even worse</div><small>let alone 最常用</small></li>
+<li><p>想说「不会很快被抛弃」</p><div class="chunks">not abandoned anytime soon · here to stay</div><small>here to stay 更口语</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s4" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S4</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/smart_perception_sensors/s4.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>四、毫米波雷达：3D与4D的进化</h2>
+      <p class="scene-title-en">Millimeter-Wave Radar: From 3D to 4D</p>
+      <p class="context"><b>情境</b>The host explains the difference between 3D and 4D millimeter-wave radar. 语域：casual 科普 + 买车建议。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：通过电磁波探测目标，对天气不敏感，擅长测速度和距离。像人的嗅觉——不需要眼睛也能感知，但视力不咋地</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/smart_perception_sensors/s4-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The mechanism: it detects targets with electromagnetic waves, shrugs off weather, and excels at measuring speed and distance. Think of it as smell — you can sense things without eyes, but the 'eyesight' is mediocre.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>electromagnetic waves → 电磁波；shrug off weather → 对天气不敏感；excels at → 擅长</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据：「毫米波雷达最典型三个指标：速度、距离、角度——所以叫3D毫米波雷达」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/smart_perception_sensors/s4-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">As the show says: 'Millimeter-wave radar's three classic metrics are speed, distance, and angle — that's why it's called 3D millimeter-wave radar.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>three metrics → 三个指标；angle → 角度</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：3D只有X/Y平面信息，缺少高度。4D通过测量俯仰角获取Z轴，加上分辨率提升，可生成高精度点云图。华为ADS 4.0、以色列Arbe Felix 4D是代表产品</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/smart_perception_sensors/s4-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The mechanism: 3D only has X and Y plane info — no height. 4D measures the elevation angle to get the Z axis, and with better resolution it can build high-precision point clouds. Huawei's ADS 4.0 and Israel's Arbe Felix 4D are the flagship examples.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>elevation angle → 俯仰角；point cloud → 点云；flagship example → 代表产品</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：4D测速点率3万点/秒 vs 256线激光雷达300万点/秒，代际差距决定短期内无法替代激光雷达</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/smart_perception_sensors/s4-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The insight: 4D radar emits 30,000 points per second versus 3 million for a 256-line LiDAR — that generational gap means it can't replace LiDAR anytime soon.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>points per second → 点率；generational gap → 代际差距；256-line LiDAR → 256线激光雷达</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>适用边界：高速ACC、AEB主动刹车仍高度依赖；城区精细建模仍需激光雷达</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/smart_perception_sensors/s4-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Where it works: highway ACC and AEB auto braking still lean on it heavily, while fine-grained urban modeling still needs LiDAR.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>ACC / AEB → 自适应巡航 / 主动刹车；lean on → 依赖；fine-grained → 精细的</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）怎么落地：买车时问销售「3D和4D差在哪」，能答出Z轴高度信息的就是专业销售</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/smart_perception_sensors/s4-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">How to use this: when you buy, ask the salesperson 'What's the difference between 3D and 4D?' If they can explain the Z-axis height info, they know their stuff.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>Z-axis → Z轴高度；know one's stuff → 懂行</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>3 组表达</span></summary>
+        <ol>
+          <li><p>想说「对天气不敏感」</p><div class="chunks">shrug off · doesn't faze it</div><small>shrug off 形象，口语</small></li>
+<li><p>想说「视力不咋地」</p><div class="chunks">mediocre · fuzzy picture</div><small>fuzzy 更口语</small></li>
+<li><p>想说「懂行的销售」</p><div class="chunks">know one's stuff · nail an answer</div><small>know one's stuff 常用</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s5" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S5</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/smart_perception_sensors/s5.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>五、激光雷达：贵但不可或缺</h2>
+      <p class="scene-title-en">LiDAR: Expensive but Indispensable</p>
+      <p class="context"><b>情境</b>The host explains why LiDAR's cost is worth it for complex scenarios. 语域：casual 科普 + 成本吐槽。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：不断发射激光，根据反射时间建立三维地图。价值不是「看见了什么」，而是精准测距+空间建模——知道前面有什么、多远、轮廓是什么</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/smart_perception_sensors/s5-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The mechanism: it keeps firing laser pulses and builds a 3D map from their return times. Its value isn't 'what it sees' — it's precise ranging plus spatial modeling: knowing what's ahead, how far, and what shape it is.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>laser pulses → 激光脉冲；return time → 反射时间；spatial modeling → 空间建模</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：贵（马斯克最大顾虑）、吃算力（数据量巨大）、维修成本高（理想L9四颗激光雷达，追尾不只是换保险杠）</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/smart_perception_sensors/s5-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The insight: it's pricey — Musk's biggest concern — it devours compute because the data volume is huge, and repairs cost a fortune; the Li L9 has four LiDAR units, so a rear-end doesn't just mean a new bumper.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>devour compute → 吃算力；data volume → 数据量；rear-end → 追尾；bumper → 保险杠</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>典型场景：城区NOA、高速NOA、空间理解、L4自动驾驶准备</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/smart_perception_sensors/s5-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Typical uses: urban NOA, highway NOA, spatial understanding, and getting ready for L4 autonomy.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>urban NOA → 城区领航辅助；L4 autonomy → L4自动驾驶</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据：「激光雷达的价值不是看见了什么，而是精准测距加上空间建模」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/smart_perception_sensors/s5-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">As the show says: 'LiDAR's value isn't what it sees — it's precise ranging plus spatial modeling.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>precise ranging → 精准测距；spatial modeling → 空间建模</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）相关概念：半固态（车顶主雷达）+ 全固态（侧面/尾部补盲）组合部署</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/smart_perception_sensors/s5-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Related concept: semi-solid-state units sit on the roof as the main radar, while solid-state units cover blind spots at the sides and rear.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>semi-solid-state → 半固态；cover blind spots → 补盲</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>原因：①贵，低成本车/低配不会装（比亚迪全民智驾≠全民激光雷达）；②维修成本高；③数据量巨大，非常吃算力和电力</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/smart_perception_sensors/s5-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Why it's not everywhere: first, cost — low-cost cars and base trims skip it, and BYD's 'smart driving for all' doesn't mean 'LiDAR for all'; second, repairs are expensive; third, the data volume is massive, draining compute and power.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>base trims → 低配；smart driving for all → 全民智驾；drain compute and power → 吃算力和电力</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>3 组表达</span></summary>
+        <ol>
+          <li><p>想说「吃算力」</p><div class="chunks">a compute hog · eat compute</div><small>hog 口语夸张；devour 书面</small></li>
+<li><p>想说「补盲」</p><div class="chunks">cover blind spots · watch the sides</div><small>cover blind spots 是术语</small></li>
+<li><p>想说「低配不装」</p><div class="chunks">base trims · skip entirely</div><small>skip 口语</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s6" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S6</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/smart_perception_sensors/s6.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>六、五大传感器横向对比</h2>
+      <p class="scene-title-en">The Five Sensors Compared</p>
+      <p class="context"><b>情境</b>The host wraps up with fusion strategy and buying advice. 语域：casual 总结 + 买车建议。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>为什么重要：没有任何一个传感器是完美的，也没有任何一套方案是完美的。以前传统汽车靠机械理解世界，现在拼的是传感器感知世界+算法理解空间的能力</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/smart_perception_sensors/s6-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Why it matters: no single sensor is perfect, and no single stack is perfect. Old-school cars understood the world mechanically; today the game is about sensors perceiving the world plus algorithms understanding space.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>sensor stack → 传感器方案；perceive the world → 感知世界；understand space → 理解空间</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>适用边界：技术仍在快速迭代（天花板看不到），满足当下需求就买，不必无限等待</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/smart_perception_sensors/s6-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Where it stands: the tech is still iterating fast — no ceiling in sight — so buy what meets today's needs instead of waiting forever.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>no ceiling in sight → 天花板看不到；meet today's needs → 满足当下需求；iterating fast → 快速迭代</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）"真正厉害的不是某一种传感器很厉害，而是这家车企能不能把最先进的传感器全部融合进来，系统又吃得准、拿捏得住"</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/smart_perception_sensors/s6-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">As the show says: 'What's truly impressive isn't one killer sensor — it's whether the carmaker can fuse the best sensors into one system that stays accurate and in control.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>fuse sensors → 融合传感器；stay accurate → 吃得准；stay in control → 拿捏得住</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）怎么落地：买车前先问「用的什么智驾方案」，再试驾体验，多跟老车主沟通，别被销售忽悠传感器数量</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/smart_perception_sensors/s6-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">How to use this: before buying, ask what smart-driving solution it uses, test-drive it, talk to long-time owners, and don't let salespeople wow you with sensor counts.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>smart-driving solution → 智驾方案；test-drive → 试驾；sensor counts → 传感器数量</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>3 组表达</span></summary>
+        <ol>
+          <li><p>想说「没有完美方案」</p><div class="chunks">no perfect sensor · trade-offs</div><small>trade-offs 是常用词</small></li>
+<li><p>想说「天花板看不到」</p><div class="chunks">no ceiling in sight · still climbing</div><small>两种都很口语</small></li>
+<li><p>想说「被销售忽悠」</p><div class="chunks">fool you · spec sheet numbers</div><small>spec sheet 指参数表</small></li>
+        </ol>
+      </details>
+    </section>
+      <section class="study-section" id="practice">
+      <h2 class="section-heading">今日可练 <small>PRACTICE TODAY</small></h2>
+      <div class="study-grid">
+        <article>
+          <p>用「in plain words」说：用大白话说，UWB就是精准的近场定位。</p>
+          <div class="practice-en">
+            In plain words, UWB is just precise near-field positioning.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/smart_perception_sensors/practice-0.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「let alone」说：人眼晚上都看不清，何况摄像头。</p>
+          <div class="practice-en">
+            Human eyes can barely see at night, let alone a camera.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/smart_perception_sensors/practice-1.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「know one's stuff」说：能答出Z轴的销售是懂行的。</p>
+          <div class="practice-en">
+            A salesperson who explains the Z axis really knows their stuff.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/smart_perception_sensors/practice-2.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「cover blind spots」说：全固态雷达负责补盲。</p>
+          <div class="practice-en">
+            Solid-state LiDAR units cover the side and rear blind spots.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/smart_perception_sensors/practice-3.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article>
+      </div>
+    </section>
+      <section class="study-section pitfalls" id="pitfalls">
+      <h2 class="section-heading">避坑 <small>PITFALLS</small></h2>
+      <div class="study-grid">
+        <article>
+          <div class="wrong">✕ Ultrasonic radar can see the pillar is a pillar.</div>
+          <div class="right">✓ Ultrasonic radar knows there's an obstacle, but can't tell a pillar from a plastic bag.</div>
+          <p>超声波雷达只能测距离，没有语义理解；see/understand 都指「识别出是什么」，这里必须用 can't tell A from B。</p>
+        </article><article>
+          <div class="wrong">✕ UWB can solve the whole world model.</div>
+          <div class="right">✓ UWB solves positional relationships, not world modeling.</div>
+          <p>世界建模是激光雷达/视觉的活儿；UWB 只管近场位置关系，说反了就违背节目原意。</p>
+        </article><article>
+          <div class="wrong">✕ Camera is better than LiDAR because it is cheaper.</div>
+          <div class="right">✓ Tesla picked cameras for cost and philosophy, but Chinese makers keep LiDAR for complex road conditions.</div>
+          <p>单纯「便宜」不是选择摄像头的唯一原因，还有马斯克的视觉哲学；要给出完整因果。</p>
+        </article><article>
+          <div class="wrong">✕ 4D radar can replace LiDAR now.</div>
+          <div class="right">✓ 4D radar's 30,000 points per second is still far below LiDAR's 3 million — no replacement yet.</div>
+          <p>点率代际差距是硬数据；「替代」要说明时间与数据依据。</p>
+        </article>
+      </div>
+    </section>
+      <section class="study-section shifts" id="mindset">
+      <h2 class="section-heading">认知转变 <small>MINDSET SHIFTS</small></h2>
+      <div class="study-grid">
+        <article>
+          <span>以为传感器越多越安全</span>
+          <b aria-hidden="true">→</b>
+          <strong>决定安全性的是融合质量与算法，不是传感器数量（「拿捏得住」才是关键）</strong>
+        </article><article>
+          <span>以为激光雷达是智商税，纯视觉足够</span>
+          <b aria-hidden="true">→</b>
+          <strong>恶劣天气与复杂路况下激光雷达的测距+建模能力短期不可替代</strong>
+        </article><article>
+          <span>买车被销售用「12个雷达」话术忽悠</span>
+          <b aria-hidden="true">→</b>
+          <strong>先问智驾方案、再试驾、问老车主，用「3D和4D差在哪」检验销售专业度</strong>
+        </article>
+      </div>
+    </section>
+      <footer>
+        双语学习版 · 场景/句子朗读使用 edge-tts（en-US） · 单词发音使用浏览器 Web Speech API
+        <div class="footer-note">中文版：<a href="smart_perception_sensors-总结.html">smart_perception_sensors-总结.html</a> · SVG 版：<a href="viewer.html?f=smart_perception_sensors-总结.svg" target="_blank">smart_perception_sensors-总结.svg</a></div>
+      </footer>
+    </div>
+  </main>
+  <script>(() => {
+  let activeAudio = null;
+  let activeBtn = null;
+  const status = document.getElementById('speech-status');
+  const stopBtn = document.getElementById('stop-speech');
+  const rateSel = document.getElementById('speech-rate');
+
+  const reset = () => {
+    if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+    activeBtn?.classList.remove('playing');
+    activeBtn = null;
+    stopBtn.classList.remove('visible');
+    status.textContent = '';
+  };
+
+  const playAudio = (url, btn) => {
+    reset();
+    const audio = new Audio(url);
+    audio.playbackRate = Number(rateSel.value);
+    activeAudio = audio;
+    activeBtn = btn;
+    btn.classList.add('playing');
+    stopBtn.classList.add('visible');
+    status.textContent = btn.classList.contains('scene-speak')
+      ? 'Reading the whole scene…'
+      : 'Reading…';
+
+    audio.onended = () => { if (activeAudio === audio) reset(); };
+    audio.onerror = () => { status.textContent = 'Audio failed to load.'; if (activeAudio === audio) reset(); };
+    audio.play().catch(() => { status.textContent = 'Playback failed.'; if (activeAudio === audio) reset(); });
+  };
+
+  document.addEventListener('click', e => {
+    const btn = e.target.closest('[data-audio]');
+    if (!btn) return;
+    e.preventDefault();
+    if (btn === activeBtn && activeAudio) { reset(); return; }
+    playAudio(btn.dataset.audio, btn);
+  });
+
+  stopBtn.addEventListener('click', reset);
+
+  const synth = window.speechSynthesis;
+  const getEnglishVoice = () => {
+    const voices = synth.getVoices();
+    return voices.find(v => /^en-(US|GB)/i.test(v.lang))
+        || voices.find(v => /^en/i.test(v.lang)) || null;
+  };
+
+  const difficultWords = new Set([
+    'assortment', 'SKU', 'premium', 'margin', 'middleman', 'OEM', 'rebranding',
+    'hoarding', 'PTSD', 'curation', 'repurchase', 'touchpoint', 'backlash',
+    'reshuffle', 'funnel', 'anchor', 'contract', 'psychology', 'private', 'label',
+    'editorial', 'familiar', 'competitors', 'authorization', 'flexibility'
+  ]);
+
+  const shouldPronounce = word => {
+    const n = word.toLowerCase().replace(/^[^a-z]+|[^a-z]+$/g, '');
+    return n.replace(/[^a-z]/g, '').length >= 8 || difficultWords.has(n);
+  };
+
+  const markPronounceableWords = root => {
+    const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+    const nodes = [];
+    while (walker.nextNode()) nodes.push(walker.currentNode);
+    nodes.forEach(node => {
+      if (node.parentElement?.closest('button, script, style')) return;
+      const text = node.nodeValue;
+      let m, last = 0, changed = false;
+      const frag = document.createDocumentFragment();
+      const re = /[A-Za-z]+(?:[-'’][A-Za-z]+)*/g;
+      while ((m = re.exec(text))) {
+        if (!shouldPronounce(m[0])) continue;
+        changed = true;
+        frag.append(text.slice(last, m.index));
+        const wb = document.createElement('button');
+        wb.type = 'button'; wb.className = 'pronounce-word';
+        wb.dataset.speak = m[0];
+        wb.setAttribute('aria-label', '\u8bfb\u5355\u8bcd ' + m[0]);
+        wb.title = '\u70b9\u51fb\u542c\u53d1\u97f3';
+        wb.textContent = m[0];
+        frag.append(wb);
+        last = m.index + m[0].length;
+      }
+      if (!changed) return;
+      frag.append(text.slice(last));
+      node.replaceWith(frag);
+    });
+  };
+
+  document.querySelectorAll(
+    '.english, .scene-title-en, .paraphrase li p, .chunks, .practice-en, .wrong, .right, .summary-en'
+  ).forEach(markPronounceableWords);
+
+  document.addEventListener('click', e => {
+    const wb = e.target.closest('.pronounce-word');
+    if (!wb) return;
+    e.preventDefault();
+    if (!synth) return;
+    synth.cancel();
+    if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+    activeBtn?.classList.remove('playing');
+    activeBtn = wb;
+    wb.classList.add('playing');
+    const u = new SpeechSynthesisUtterance(wb.dataset.speak);
+    u.lang = 'en-US';
+    u.rate = 0.88;
+    const v = getEnglishVoice();
+    if (v) u.voice = v;
+    u.onend = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+    u.onerror = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+    synth.speak(u);
+  });
+})();</script>
+</body>
+</html>

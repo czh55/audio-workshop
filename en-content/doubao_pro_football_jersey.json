@@ -1,0 +1,274 @@
+{
+  "slug": "doubao_pro_football_jersey",
+  "date": "2026-06-26",
+  "platform": "小宇宙FM",
+  "title": "淘宝闪购｜豆包专业版正式上线收费，足球球衣成为时尚单品",
+  "title_en": "Taobao Flash Sale | Doubao Pro Goes Paid, and Football Jerseys Become a Fashion Item",
+  "eyebrow": "AI & Consumer Trends · AI与消费趋势",
+  "duration": "15分钟",
+  "source_url": "https://www.xiaoyuzhoufm.com/episode/6a3bb9319d2f5743683d34b5",
+  "summary_cn": "一句话概括：声动早咖啡 6 月 25 日晨间档：字节推出豆包专业版三级定价验证办公场景价值；阿里腾讯收缩游戏押注 AI；大疆 Pocket 4 与 Meta 智能眼镜新品激战；孙正义质疑太空数据中心；世界杯特调解析足球球衣如何从球迷周边变成年轻人日常穿搭与时尚单品",
+  "summary_en": "In the June 25 morning edition of Early Morning Coffee, ByteDance launched Doubao Pro with three price tiers to test whether power users will pay for office-focused AI; Alibaba and Tencent are pulling back from gaming to bet on AI; DJI's Pocket 4 and Meta's new smart glasses go head to head; Son Masayoshi questions the economics of space data centers; and a World Cup special looks at how football jerseys went from fan merchandise to a daily fashion staple for young people.",
+  "scenes": [
+    {
+      "id": "s1",
+      "title_cn": "AI 与科技动态",
+      "title_en": "AI & Tech Updates",
+      "context": "字节推出付费版豆包专业版，DeepSeek 组建 Honest 团队主攻 Agent。语域：casual 播客播报 + 商业点评。",
+      "speak": "On June 24, ByteDance launched a paid service built on the Doubao 2.1 large-model family, with monthly tiers of 68, 200, and 500 yuan, aimed at complex office scenarios like software development, data analysis, and design, offering higher quotas and a brand-new office-task mode. The key insight: this carves out a high-value tier on top of the free Doubao rather than replacing it. According to 36Kr, ByteDance won't track paid-user conversion rates this year; the short-term goal is simply to see whether the Pro features earn market recognition. The typical user is a professional who needs lots of tokens and complex multi-step office tasks; for everyday questions, the free version still works fine. As the episode quotes, \"Free users' daily features and quotas stay unchanged,\" and \"the short-term goal isn't to add users at scale but to validate the value of the Pro features.\" This is the same freemium path as ChatGPT Plus and Copilot Pro. Meanwhile, DeepSeek set up a new team called Honest and is hiring Agent talent at scale; team lead Cui Tianyi says the talent gap is huge. The team's goal is turning large-model capabilities into agents that can actually execute tasks. Insiders call Honest the scaffolding around the model — tool calling, context engineering, memory management — system work that squeezes maximum capability out of a model without changing its architecture.",
+      "sentences": [
+        {
+          "cn": "核心机制：6 月 24 日字节基于豆包 2.1 系列大模型推出付费服务，月费 68/200/500 元三档，面向软件开发、数据分析、设计等复杂办公场景，提供更高额度与全新办公任务模式",
+          "en": "On June 24, ByteDance launched a paid service built on the Doubao 2.1 large-model family, with monthly tiers of 68, 200, and 500 yuan. It targets complex office scenarios like software development, data analysis, and design, offering higher quotas and a brand-new office-task mode.",
+          "note": "<span>表达提示</span>price tier → 定价档位；quota → 额度；office-task mode → 办公任务模式；large-model family → 大模型系列"
+        },
+        {
+          "cn": "关键理解：这是在免费豆包之外开辟高价值场景，而非替代免费版。36 氪报道字节今年暂不考核付费用户比例，短期运营目标是验证专业版功能价值能否获市场认可",
+          "en": "The key insight: this opens a high-value tier beyond the free Doubao rather than replacing it. Per 36Kr, ByteDance won't be measured on paid-user share this year; the short-term goal is simply to validate whether the Pro features earn market recognition.",
+          "note": "<span>表达提示</span>carve out a high-value tier → 开辟高价值场景；paid-user share → 付费用户比例；validate → 验证；earn market recognition → 获得市场认可"
+        },
+        {
+          "cn": "典型场景：需要大量 token、复杂多步办公任务的职场用户；普通日常问答仍可用免费版",
+          "en": "The typical user: professionals who burn through lots of tokens and run complex, multi-step office tasks. For everyday Q&A, the free version still gets the job done.",
+          "note": "<span>表达提示</span>burn through tokens → 消耗大量 token；multi-step task → 多步任务；everyday Q&A → 日常问答"
+        },
+        {
+          "cn": "（引用）原文依据：「免费版用户的日常功能和额度保持不变」「短期运营目标也不是大规模增加用户，而是要验证专业版的功能价值」",
+          "en": "\"Free users' daily features and quotas stay unchanged,\" and \"the short-term goal isn't adding users at scale but validating the value of the Pro features.\"",
+          "note": "<span>表达提示</span>stay unchanged → 保持不变；at scale → 大规模地；validate the value → 验证价值"
+        },
+        {
+          "cn": "（引用）相关概念：与 ChatGPT Plus、Copilot Pro 同属「免费引流 + 专业付费」的 AI 应用商业化路径",
+          "en": "The model it belongs to: the same \"free to attract, premium to pay\" commercialization path as ChatGPT Plus and Copilot Pro.",
+          "note": "<span>表达提示</span>commercialization path → 商业化路径；free to attract, premium to pay → 免费引流+专业付费"
+        },
+        {
+          "cn": "DeepSeek 新成立 Honest 团队大规模招聘 Agent 人才，负责人崔天益称人才缺口很大。团队目标是把大模型能力转化为能实际执行任务的智能体产品。行业人士将 Honest 称为大模型脚手架——工具调用、上下文工程、记忆管理等系统工程，在不改模型架构和参数的前提下最大化模型能力",
+          "en": "DeepSeek set up a new team called Honest and is hiring Agent talent at scale; lead Cui Tianyi says the talent gap is huge. The team's goal is turning large-model capabilities into agent products that actually execute tasks. Insiders call Honest the scaffolding around the model — tool calling, context engineering, memory management — systems work that squeezes maximum capability out of a model without touching its architecture or parameters.",
+          "note": "<span>表达提示</span>agent → 智能体；talent gap → 人才缺口；scaffolding → 脚手架；tool calling → 工具调用；context engineering → 上下文工程；squeeze out capability → 最大化模型能力"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「免费版依然能用」",
+          "phrases": [
+            "The free version still handles everyday use just fine.",
+            "For daily questions, you don't need to pay a yuan."
+          ],
+          "chunks": "handle everyday use · don't need to pay a yuan",
+          "usage": "第一句中性客观，第二句口语强调免费"
+        },
+        {
+          "intent": "想说「先免费圈人，再收专业钱」",
+          "phrases": [
+            "It's the classic freemium play — hook them free, charge for pro.",
+            "Free version for reach, paid version for power users."
+          ],
+          "chunks": "freemium play · hook them free · reach vs. power users",
+          "usage": "hook 很口语；reach vs. power users 适合书面分析"
+        },
+        {
+          "intent": "想说「团队在做外围系统工程」",
+          "phrases": [
+            "Their job is the plumbing around the model, not the model itself.",
+            "They build the scaffolding that lets the model actually do things."
+          ],
+          "chunks": "the plumbing around · scaffolding",
+          "usage": "plumbing（管道/基础设施）和 scaffolding 都是行业里形容外围工程的比喻"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title_cn": "商业与消费动态",
+      "title_en": "Business & Consumer Updates",
+      "context": "阿里出售游戏、腾讯收缩投资；大疆与影石、Meta 智能眼镜的硬件竞争。语域：casual 播客播报 + 竞争格局点评。",
+      "speak": "Alibaba is considering selling Lingxi Interactive, maker of Three Kingdoms Strategy, whose peak annual revenue hit the billions; the valuation is seven to nine billion yuan, and management reporting has already shifted from the business unit to the CFO. Tencent is also re-evaluating its global gaming investments and plans to exit some overseas studios. The key insight: when management control moves from business to finance, it usually signals weak growth momentum; selling mature game assets frees resources for AI and cloud computing. A boundary note: Lingxi is still a mature cash-flow asset — buyers care about steady revenue, not AI stories — and Tencent is trimming some overseas studios, not exiting gaming wholesale. In hardware, DJI's Osmo Pocket 4 sold out on launch day, with resale premiums around 5,000 yuan, a thousand-plus above the official price. Insta360 released Luna in early June, and DJI followed within five days, pricing 200 yuan lower. The two are also fighting a patent war in the US, but the competition has pushed pro camera features down to the 3,000-yuan bracket, and entrants like OPPO and vivo may push prices lower still. Meta launched its own-brand Meta Glass series starting at 299 dollars, 80 dollars cheaper than the second-gen Ray-Ban, still made by EssilorLuxottica. Counterpoint data puts Meta's smart-glasses market share above 80 percent, yet Snap has already shipped a 2,000-plus-dollar AR pair and Apple has similar plans. Meta is even considering a camera-free audio-only version to cut prices further.",
+      "sentences": [
+        {
+          "cn": "核心机制：阿里考虑出售灵犀互娱（《三国志·战略版》年流水峰值数十亿），估值 70–90 亿元，管理权已从业务转向 CFO 汇报。腾讯也在重新评估全球游戏投资，计划退出部分海外工作室",
+          "en": "Alibaba is considering selling Lingxi Interactive, maker of \"Three Kingdoms Strategy,\" whose peak annual revenue hit the tens of billions; the valuation is 7-9 billion yuan, and management reporting has already moved from the business unit to the CFO. Tencent is also re-evaluating its global gaming investments and plans to exit some overseas studios.",
+          "note": "<span>表达提示</span>valuation → 估值；management reporting → 管理权/汇报线；exit investments → 退出投资；overseas studio → 海外工作室"
+        },
+        {
+          "cn": "关键理解：管理权从业务转向财务通常意味着增长动力不足；出售成熟游戏资产可将资源投入 AI 和云计算",
+          "en": "The key insight: when management reporting shifts from business to finance, it usually signals weak growth momentum. Selling mature game assets frees up resources for AI and cloud computing.",
+          "note": "<span>表达提示</span>growth momentum → 增长动力；mature asset → 成熟资产；free up resources → 释放资源"
+        },
+        {
+          "cn": "适用边界：灵犀互娱仍是成熟现金流资产，买家看的是稳定流水而非 AI 叙事；腾讯收缩的是部分海外工作室而非全面退出游戏",
+          "en": "The boundary: Lingxi remains a mature cash-flow asset — buyers care about steady revenue, not AI narratives. Tencent is trimming some overseas studios, not exiting gaming wholesale.",
+          "note": "<span>表达提示</span>cash-flow asset → 现金流资产；steady revenue → 稳定流水；trim → 收缩；wholesale → 全面地"
+        },
+        {
+          "cn": "大疆 Osmo Pocket 4 开售即售罄，二手一度溢价至 5000 元（官方低 1000+）。影石 6 月初发布 Luna 后 5 天大疆跟进，定价低 200 元。两家公司还在美国打专利战，但竞争也让专业摄影机功能下放到 3000 元价位。OPPO、vivo 等厂商入局可能进一步拉低价格",
+          "en": "DJI's Osmo Pocket 4 sold out on launch day, with resale prices briefly hitting 5,000 yuan, more than 1,000 above the official price. Insta360 released Luna in early June, and DJI followed within five days, pricing it 200 yuan lower. The two are also fighting a patent war in the US, but the competition has pushed pro camera features down to the 3,000-yuan bracket. Entrants like OPPO and vivo may push prices lower still.",
+          "note": "<span>表达提示</span>sell out on launch day → 开售即售罄；resale premium → 二手溢价；patent war → 专利战；push features down → 功能下放；price bracket → 价位档"
+        },
+        {
+          "cn": "（引用）怎么落地：关注 3000 元档云台相机功能下放趋势，选购时对比防抖、传感器与生态而非只看品牌",
+          "en": "How to apply it: watch the trend of pro gimbal-camera features trickling down to the 3,000-yuan bracket, and when you buy, compare stabilization, sensor, and ecosystem rather than just the brand.",
+          "note": "<span>表达提示</span>gimbal camera → 云台相机；trickle down → 下放/下沉；stabilization → 防抖；ecosystem → 生态"
+        },
+        {
+          "cn": "Meta 发布自有品牌 Meta Glass 系列，起价 299 美元（比雷朋第二代便宜 80 美元），仍由依视路陆逊梯卡代工。Counterpoint 数据显示 Meta 在智能眼镜市场份额超 80%，但 Snap 已发布 2000+ 美元 AR 眼镜，苹果也计划类似产品。Meta 考虑推出无摄像头纯音频版以进一步降价",
+          "en": "Meta launched its own-brand Meta Glass series starting at $299, $80 cheaper than the second-gen Ray-Ban, still made by EssilorLuxottica. Counterpoint data puts Meta's smart-glasses share above 80%, yet Snap has shipped a $2,000-plus AR pair and Apple has similar plans. Meta is even considering a camera-free, audio-only version to cut prices further.",
+          "note": "<span>表达提示</span>own-brand → 自有品牌；contract manufacturer / made by → 代工；market share → 市场份额；audio-only → 纯音频版"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「控制权转给财务说明增长乏力」",
+          "phrases": [
+            "Once reporting moves to the CFO, it's a sign growth has stalled.",
+            "Handing the unit to finance says the growth story is over."
+          ],
+          "chunks": "reporting moves to the CFO · growth has stalled · the growth story is over",
+          "usage": "第一句适合分析播报，第二句更有叙事感"
+        },
+        {
+          "intent": "想说「竞争让高级功能越来越便宜」",
+          "phrases": [
+            "The rivalry keeps pushing pro features down-market.",
+            "Competition is making flagship tech trickle into budget gear."
+          ],
+          "chunks": "push down-market · trickle into budget gear",
+          "usage": "down-market 是商业术语，trickle into 更形象口语"
+        },
+        {
+          "intent": "想说「厂商想再降价抢市场」",
+          "phrases": [
+            "They're looking for ways to shave the price further.",
+            "A cheaper, stripped-down version is on the table."
+          ],
+          "chunks": "shave the price · stripped-down version · on the table",
+          "usage": "shave 表示小幅削减；stripped-down 形容去掉功能的减配版"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title_cn": "世界杯特调：足球球衣时尚化",
+      "title_en": "World Cup Special: Football Jerseys Go Fashion",
+      "context": "从抖音销量数据切入，解析球衣如何从球迷周边变成穿搭单品，以及 Blokecore 复古穿搭热潮。语域：casual 播客点评 + 消费观察。",
+      "speak": "On Douyin, the official FIFA store sells over ten thousand jerseys a month, three times its mascot figurines, and some Portugal and Argentina sizes are sold out. But the driver has shifted from \"supporting a team\" to social styling. So when you shop, be clear whether you're buying as a fan or as a fashion buyer — if it's the latter, focus on design, color, and how it pairs, not the team's record. The severity is low — it's a consumption choice — though in the collector space, watch out for fakes. The show's take: China's absence from the World Cup actually brings \"no-team freedom\" — young people can pick a team purely by taste, a liberty fans in football-powerhouse countries don't have. The Blokecore look — jersey, jeans, retro sneakers — was already trending on Douyin and Xiaohongshu before the 2022 Qatar World Cup. For 2026, the clearest design trend is retro, and LeadLeo Research expects the domestic retro-football consumption market to potentially exceed 5 billion yuan. Shops in Sanlitun print numbers with long queues, Shanghai's Xintiandi hosted a retro-football market that drew thousands, and Xiaohongshu jersey-styling searches keep climbing. As the show puts it, \"Football jerseys are becoming a new social language, just like sneakers.\"",
+      "sentences": [
+        {
+          "cn": "原因：抖音 FIFA 官方旗舰店球衣月销过万，超吉祥物挂饰三倍，葡阿部分尺码断货——但驱动因素已从「支持球队」转向社交穿搭",
+          "en": "The cause: the official FIFA flagship store on Douyin sells over 10,000 jerseys a month, three times its mascot figurines, with some Portugal and Argentina sizes sold out. But the driver has shifted from \"supporting a team\" to social styling.",
+          "note": "<span>表达提示</span>flagship store → 旗舰店；mascot figurine → 吉祥物挂饰；sold out → 断货；social styling → 社交穿搭"
+        },
+        {
+          "cn": "解法：选购时明确自己是「球迷身份」还是「穿搭消费」，后者更应关注设计、配色与搭配而非球队战绩",
+          "en": "The fix: be clear whether you're buying as a fan or as a fashion buyer. If it's the latter, focus on design, color, and how it pairs — not the team's record.",
+          "note": "<span>表达提示</span>fan identity → 球迷身份；fashion buyer → 穿搭消费者；how it pairs → 搭配效果"
+        },
+        {
+          "cn": "严重程度：可忽略（消费选择层面）；收藏场景下需警惕假货",
+          "en": "Severity: negligible — it's a consumption choice. In the collector space, though, watch out for counterfeits.",
+          "note": "<span>表达提示</span>negligible → 可忽略；collector space → 收藏圈；counterfeit / fake → 假货"
+        },
+        {
+          "cn": "（引用）节目观点：中国缺席世界杯反而带来「无主队压力」——年轻人可按审美自由选股，这是足球强国年轻人没有的自由",
+          "en": "The show's take: China's absence from the World Cup actually brings \"no-team freedom\" — young people can pick a team purely by taste, a liberty that fans in football-powerhouse countries don't have.",
+          "note": "<span>表达提示</span>no-team freedom → 无主队压力；pick a team by taste → 按审美选队；football powerhouse → 足球强国"
+        },
+        {
+          "cn": "球衣+牛仔裤+复古运动鞋的 Blokecore 穿搭 2022 年卡塔尔世界杯前已在抖音、小红书走红。2026 年世界杯球衣设计最明显趋势是复古，头豹研究院预计国内复古足球相关消费市场规模有望突破 50 亿元。三里屯印字排长队、上海新天地复古足球市集涌入数千人，小红书球衣穿搭搜索量持续飙升",
+          "en": "The Blokecore look — jersey, jeans, and retro sneakers — was already going viral on Douyin and Xiaohongshu before the 2022 Qatar World Cup. For 2026, the most obvious jersey-design trend is retro, and LeadLeo Research expects the domestic retro-football market to potentially exceed 5 billion yuan. Sanlitun shops see long queues for jersey printing, Shanghai's Xintiandi retro-football market drew thousands, and Xiaohongshu searches for jersey styling keep surging.",
+          "note": "<span>表达提示</span>Blokecore → 球衣+牛仔裤穿搭风潮；retro → 复古；go viral → 走红；keep surging → 持续飙升"
+        },
+        {
+          "cn": "（引用）「足球球衣正在像球鞋一样变成新的社交语言。」",
+          "en": "\"Football jerseys are becoming a new social language, just like sneakers.\"",
+          "note": "<span>表达提示</span>social language → 社交语言；just like sneakers → 像球鞋一样"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「现在买球衣是为了穿搭不是支持球队」",
+          "phrases": [
+            "People buy jerseys for the fit now, not the fandom.",
+            "It's a fashion purchase wearing a sports costume."
+          ],
+          "chunks": "for the fit · not the fandom · a fashion purchase",
+          "usage": "for the fit / not the fandom 是对仗俏皮的说法；第二句更正式"
+        },
+        {
+          "intent": "想说「中国球迷没有主队压力」",
+          "phrases": [
+            "We get to pick teams the way others pick playlists.",
+            "Without a home team, fandom is a matter of taste."
+          ],
+          "chunks": "pick teams · a matter of taste",
+          "usage": "pick playlists 的类比口语化且形象；a matter of taste 偏书面"
+        },
+        {
+          "intent": "想说「复古风潮带动一大片消费」",
+          "phrases": [
+            "The retro wave has fueled a whole mini-economy.",
+            "Vintage styling is driving spending far beyond the jerseys themselves."
+          ],
+          "chunks": "retro wave · fuel a mini-economy · beyond the jerseys",
+          "usage": "fuel 是商务报道常用动词；第二句强调外溢效应"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "cn": "用「carve out」说：字节在免费版之外开辟付费高价值场景。",
+      "en": "ByteDance is carving out a paid, high-value tier beyond the free Doubao."
+    },
+    {
+      "cn": "用「free up」说：卖游戏资产可以释放资源给 AI。",
+      "en": "Selling mature gaming assets frees up resources for AI and cloud computing."
+    },
+    {
+      "cn": "用「sold out」说：Pocket 4 开售即售罄。",
+      "en": "The Osmo Pocket 4 sold out on launch day."
+    },
+    {
+      "cn": "用「pick a team by taste」说：中国年轻人按审美选队。",
+      "en": "Young fans in China can pick a team purely by taste."
+    }
+  ],
+  "pitfalls": [
+    {
+      "wrong": "The free version's function is not changed.",
+      "right": "The free version's daily features and quotas stay unchanged.",
+      "why": "「功能不变」直译成 function is not changed 生硬；用 features and quotas stay unchanged 更符合产品语境。"
+    },
+    {
+      "wrong": "Alibaba wants to sell the game company.",
+      "right": "Alibaba is considering selling Lingxi Interactive at a 7-9 billion yuan valuation.",
+      "why": "considering selling 表达「考虑中」的未定状态；补上估值信息让说法更完整专业。"
+    },
+    {
+      "wrong": "The camera's price is very low, cheaper than Insta360.",
+      "right": "DJI priced it 200 yuan below Insta360's competing model.",
+      "why": "cheaper than 缺参照物与价差信息；priced X below 表达具体价差更地道。"
+    },
+    {
+      "wrong": "Football clothes become a very popular thing for young people.",
+      "right": "Jerseys have gone from fan merchandise to a daily fashion staple.",
+      "why": "football clothes 是直译；用 jerseys / kits，搭配 from … to … 结构表达身份转变。"
+    }
+  ],
+  "shifts": [
+    {
+      "before": "以为 AI 付费意味着免费版缩水",
+      "after": "付费专业版是开辟高价值场景，免费版日常功能保持不变"
+    },
+    {
+      "before": "以为卖游戏 = 不看好游戏行业",
+      "after": "出售成熟现金流资产是为 AI 与云腾出资源，游戏只是战略再平衡"
+    },
+    {
+      "before": "以为买球衣=球迷行为、看球队战绩",
+      "after": "买球衣已是穿搭消费——看设计配色搭配，甚至享受「无主队」的审美自由"
+    }
+  ],
+  "voice": "en-US-JennyNeural",
+  "audio_dir": "audio/en/doubao_pro_football_jersey"
+}

@@ -1,0 +1,1043 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="都在吹小鹏二代VLA，它到底厉害在哪？ — Bilingual Learning Edition" />
+  <title>都在吹小鹏二代VLA，它到底厉害在哪？｜EN 双语学习版</title>
+  <style>:root{--teal-950:#073f42;--teal-800:#0d686c;--teal-700:#0f7c80;--teal-600:#14919b;--mint-100:#dff4ec;--mint-50:#f0faf6;--ink:#183536;--muted:#607879;--line:#d7e8e2;--paper:#fff;--amber:#a85d08;--shadow:0 12px 32px rgba(7,63,66,.08)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:24px}
+body{margin:0;color:var(--ink);background:#edf7f2;font-family:Inter,"PingFang SC","Noto Sans SC","Microsoft YaHei",system-ui,sans-serif;line-height:1.65}
+button,select{font:inherit}
+a{color:inherit}
+.hero{color:#fff;background:radial-gradient(circle at 85% 10%,rgba(129,230,196,.24),transparent 30%),linear-gradient(125deg,#073f42,#0d7377 56%,#14919b)}
+.hero-inner{width:min(1440px,100%);margin:auto;padding:44px clamp(20px,5vw,72px) 36px}
+.hero-flex{display:flex;gap:clamp(18px,3vw,40px);align-items:flex-start}
+.hero-cover{width:min(240px,42vw);height:auto;max-height:320px;object-fit:contain;object-position:center;border-radius:16px;border:1px solid rgba(255,255,255,.28);box-shadow:0 18px 44px rgba(0,0,0,.32);flex-shrink:0;background:rgba(255,255,255,.08)}
+.hero-text{min-width:0;flex:1}
+.eyebrow{margin:0 0 12px;font-size:.78rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;opacity:.8}
+h1{max-width:1020px;margin:0;font-size:clamp(1.7rem,3.6vw,3rem);line-height:1.15;letter-spacing:-.04em}
+.hero-en{margin:12px 0 22px;font-size:clamp(1rem,2vw,1.25rem);opacity:.82}
+.hero-meta{display:flex;flex-wrap:wrap;gap:9px;align-items:center}
+.chip{border:1px solid rgba(255,255,255,.28);border-radius:99px;padding:5px 11px;font-size:.82rem;background:rgba(255,255,255,.08)}
+.source-link{font-weight:750;text-decoration:none;border-bottom:1px solid rgba(255,255,255,.5)}
+.toolbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:22px}
+.toolbar label{font-size:.82rem;opacity:.82}
+.toolbar select{color:#fff;background:#0a5d61;border:1px solid rgba(255,255,255,.3);border-radius:8px;padding:7px 9px}
+.stop-btn{display:none;color:#fff;background:#8c3b2a;border:0;border-radius:8px;padding:8px 12px;cursor:pointer}
+.stop-btn.visible{display:inline-flex}
+.speech-status{min-height:1.4em;font-size:.82rem;opacity:.88}
+.lang-switch{display:inline-flex;gap:6px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.28);border-radius:99px;padding:4px}
+.lang-switch a{display:inline-block;padding:4px 13px;border-radius:99px;font-size:.8rem;font-weight:700;text-decoration:none;color:rgba(255,255,255,.75)}
+.lang-switch a.active{background:#fff;color:var(--teal-800)}
+.narration-player{margin-top:16px;padding:14px 18px;background:rgba(255,255,255,.1);border-radius:12px;border:1px solid rgba(255,255,255,.15)}
+.audio-label{color:rgba(255,255,255,.88);font-size:.82rem;font-weight:700;margin:0 0 8px}
+.page{width:min(1440px,100%);margin:auto;padding:28px clamp(16px,3vw,44px) 64px;display:grid;grid-template-columns:minmax(230px,280px) minmax(0,1fr);gap:30px;align-items:start}
+.sidebar{position:sticky;top:20px;min-width:0}
+.sidebar-box{background:rgba(255,255,255,.8);border:1px solid var(--line);border-radius:16px;padding:17px;box-shadow:var(--shadow);backdrop-filter:blur(12px)}
+.sidebar h2{margin:0 0 13px;font-size:.9rem;letter-spacing:.08em;color:var(--teal-800)}
+.map-link{display:grid;grid-template-columns:34px minmax(0,1fr);gap:9px;padding:10px 6px;text-decoration:none;border-top:1px solid var(--line)}
+.map-link:hover b{color:var(--teal-700)}
+.map-id{width:30px;height:30px;display:grid;place-items:center;border-radius:9px;color:#fff;background:var(--teal-700);font-size:.72rem;font-weight:800}
+.map-link b{display:block;font-size:.78rem;line-height:1.4}
+.map-link small{display:block;color:var(--muted);font-size:.67rem;line-height:1.4;margin-top:2px;overflow-wrap:anywhere}
+.content{min-width:0}
+.scene-card{background:var(--paper);border:1px solid var(--line);border-radius:20px;padding:clamp(20px,3vw,34px);margin-bottom:24px;box-shadow:var(--shadow);overflow:hidden}
+.scene-topline{display:flex;justify-content:space-between;gap:16px;align-items:center;margin-bottom:16px}
+.scene-id{display:inline-grid;place-items:center;min-width:42px;height:30px;padding:0 10px;color:#fff;background:var(--teal-700);border-radius:8px;font-size:.78rem;font-weight:850}
+.time{margin-left:10px;color:var(--muted);font-size:.82rem;font-variant-numeric:tabular-nums}
+.scene-card h2{margin:0 0 2px;font-size:clamp(1.35rem,2.4vw,2rem);line-height:1.25;color:var(--teal-950)}
+.scene-title-en{margin:0 0 18px;color:var(--teal-600);font-weight:700;font-size:.98rem}
+.context{margin:0 0 20px;padding:12px 15px;color:#496566;background:var(--mint-50);border-left:3px solid var(--teal-600);border-radius:0 10px 10px 0;font-size:.88rem}
+.context b{margin-right:10px;color:var(--teal-800)}
+.sentence-list{display:grid;gap:12px}
+.sentence{position:relative;display:grid;grid-template-columns:38px minmax(0,1fr);gap:12px;padding:16px;border:1px solid #e2ece8;border-radius:14px;background:#fcfefd;min-width:0}
+.sentence-no{color:var(--teal-600);font-size:.76rem;font-weight:850;font-variant-numeric:tabular-nums;padding-top:4px}
+.bilingual{min-width:0;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(14px,2vw,28px)}
+.lang-block{min-width:0}
+.lang-block p{margin:5px 0 0;overflow-wrap:anywhere}
+.en-block{padding-left:clamp(14px,2vw,28px);border-left:1px solid var(--line)}
+.en-block p{color:#0b5c60;font-weight:650}
+.lang-tag{display:inline-block;color:var(--muted);font-size:.66rem;font-weight:850;letter-spacing:.12em}
+.en-head{display:flex;justify-content:space-between;gap:10px;align-items:center;min-height:30px}
+.note{grid-column:2;margin:1px 0 0;color:#708182;font-size:.78rem}
+.note span{margin-right:7px;color:var(--amber);font-weight:750}
+.speak-btn{display:inline-flex;align-items:center;gap:7px;border:1px solid #b8d9d1;border-radius:9px;padding:7px 11px;color:var(--teal-800);background:#f5fbf8;cursor:pointer;white-space:nowrap;font-size:.78rem;font-weight:750;transition:.15s ease}
+.speak-btn:hover{color:#fff;background:var(--teal-700);border-color:var(--teal-700);transform:translateY(-1px)}
+.speak-btn.playing{color:#fff;background:var(--teal-700);border-color:var(--teal-700)}
+.speak-btn.compact{padding:4px 8px;font-size:.7rem}
+.speak-btn.icon-only{padding:3px 7px;margin-left:6px}
+.speak-btn.icon-only span:last-child{display:none}
+.pronounce-word{display:inline;margin:0;padding:0 2px;color:inherit;background:rgba(20,145,155,.08);border:0;border-bottom:1px dashed var(--teal-600);border-radius:3px;font:inherit;font-weight:inherit;line-height:inherit;cursor:pointer}
+.pronounce-word:hover,.pronounce-word:focus{color:var(--teal-950);background:#cceee4;border-bottom-style:solid;outline:3px solid rgba(20,145,155,.42);outline-offset:2px}
+.pronounce-word.playing{color:#fff;background:var(--teal-700);border-bottom-color:var(--teal-700)}
+.paraphrase{margin-top:18px;border-top:1px solid var(--line)}
+.paraphrase summary{padding:16px 0 3px;color:var(--teal-800);cursor:pointer;font-weight:800}
+.paraphrase summary span{color:var(--muted);font-size:.75rem;font-weight:500;margin-left:8px}
+.paraphrase ol{margin:12px 0 0;padding-left:22px}
+.paraphrase li{padding:7px 0 9px 5px}
+.paraphrase li p{margin:0;font-size:.9rem;font-weight:650}
+.paraphrase li small{display:block;color:var(--muted);font-size:.72rem;margin-top:2px}
+.chunks{margin-top:4px;color:var(--teal-700);font-size:.78rem}
+.study-section{margin:38px 0 0}
+.section-heading{display:flex;align-items:baseline;gap:10px;margin:0 0 15px;color:var(--teal-950);font-size:1.35rem}
+.section-heading small{color:var(--teal-600);font-size:.78rem;letter-spacing:.05em}
+.study-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.study-grid article{padding:17px;background:#fff;border:1px solid var(--line);border-radius:14px;box-shadow:0 6px 18px rgba(7,63,66,.05);min-width:0}
+.study-grid p{margin:0}
+.practice-en{margin-top:9px;color:var(--teal-700);font-weight:650;overflow-wrap:anywhere}
+.wrong{color:#a24831;text-decoration:line-through;overflow-wrap:anywhere}
+.right{color:var(--teal-700);font-weight:750;margin:5px 0;overflow-wrap:anywhere}
+.pitfalls p{color:var(--muted);font-size:.82rem}
+.shifts article{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1.5fr);gap:12px;align-items:center}
+.shifts b{color:var(--teal-600);font-size:1.2rem}
+.shifts strong{color:var(--teal-800)}
+footer{margin-top:38px;color:var(--muted);font-size:.78rem;text-align:center}
+.footer-note{margin-top:6px}
+@media (max-width:900px){
+  .page{grid-template-columns:1fr}
+  .sidebar{position:static}
+  .sidebar-box{overflow-x:auto;padding:12px}
+  .sidebar h2{padding-left:5px}
+  .map-nav{display:flex;width:max-content;gap:8px}
+  .map-link{width:240px;border:1px solid var(--line);border-radius:10px;padding:8px}
+  .bilingual{grid-template-columns:1fr}
+  .en-block{padding:12px 0 0;border-left:0;border-top:1px dashed var(--line)}
+}
+@media (max-width:620px){
+  .hero-inner{padding-top:30px}
+  .hero-flex{flex-direction:column;align-items:center}
+  .hero-cover{width:100%;max-width:360px}
+  .hero-text{text-align:center}
+  .page{padding-inline:10px;gap:18px}
+  .scene-card{border-radius:14px;padding:17px 13px}
+  .scene-topline{align-items:flex-start}
+  .scene-speak span:last-child{display:none}
+  .sentence{grid-template-columns:26px minmax(0,1fr);padding:13px 10px;gap:6px}
+  .note{grid-column:2}
+  .study-grid{grid-template-columns:1fr}
+  .shifts article{grid-template-columns:1fr;gap:5px}
+  .shifts b{transform:rotate(90deg);justify-self:start}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.speak-btn{transition:none}}</style>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="hero-flex">
+        <div class="hero-text">
+          <p class="eyebrow">AI &amp; Autonomous Driving · AI 与智能驾驶</p>
+          <h1>都在吹小鹏二代VLA，它到底厉害在哪？</h1>
+          <p class="hero-en">Why Is Everyone Raving About XPeng's Gen-2 VLA?</p>
+          <p class="summary-en" style="margin:0 0 14px;padding:14px 16px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.22);border-radius:12px;font-size:.95rem;line-height:1.7">This episode takes three deep cuts at XPeng's second-generation VLA world model: the generational leap from VLA 1.0 'understanding what you see' to 2.0 'insight'; a comparison of four tech routes from Huawei, Nvidia, Li Auto, and Yuanrong Qixing; and how interpretability rebuilds public trust in autonomous driving. The core argument: sensing isn't understanding, and action isn't reasoning — the real question is whether the car can predict intent and explain itself in human language.</p>
+          <div class="hero-meta">
+            <span class="chip">2026-06-23</span>
+            <span class="chip">小宇宙FM</span>
+            <span class="chip">1小时24分</span>
+            <span class="chip">6 Scenes</span>
+            <span class="chip">Click underlined words to hear them</span>
+            <a class="source-link" href="https://www.xiaoyuzhoufm.com/episode/69c80a05b977fb2c47790a55" target="_blank" rel="noopener">原播客 ↗</a>
+          </div>
+        </div>
+      </div>
+      <div class="toolbar">
+        <div class="lang-switch"><div class="lang-switch"><a href="xpeng_v2_vla-总结.html">中文</a><a class="active" href="xpeng_v2_vla-en.html" aria-current="page">EN</a></div></div>
+        <label for="speech-rate">朗读速度</label>
+        <select id="speech-rate">
+          <option value="0.85">慢速 0.85×</option>
+          <option value="1" selected>正常 1×</option>
+          <option value="1.15">快速 1.15×</option>
+        </select>
+        <button id="stop-speech" class="stop-btn" type="button">■ 停止朗读</button>
+        <span id="speech-status" class="speech-status" role="status" aria-live="polite"></span>
+      </div>
+      <div class="narration-player">
+      <p class="audio-label">🎧 中文语音讲解</p>
+      <button class="speak-btn" type="button" data-audio="audio/xpeng_v2_vla.mp3" aria-label="播放语音讲解"><span aria-hidden="true">▶</span><span>播放语音讲解</span></button>
+    </div>
+    </div>
+  </header>
+  <main class="page">
+    <aside class="sidebar" aria-label="场景地图">
+      <div class="sidebar-box">
+        <h2>场景地图 · SCENE MAP</h2>
+        <nav class="map-nav">
+          <a class="map-link" href="#s1">
+          <span class="map-id">S1</span>
+          <span><b>一、VLA是什么：从「看到」到「看懂」再到「洞察」</b><small> · What Is VLA? From 'Seeing' to 'Understanding' to 'Insight'</small></span>
+        </a>
+<a class="map-link" href="#s2">
+          <span class="map-id">S2</span>
+          <span><b>二、一代 vs 二代：从「看懂」到「洞察」</b><small> · Gen 1 vs Gen 2: From 'Understanding' to 'Insight'</small></span>
+        </a>
+<a class="map-link" href="#s3">
+          <span class="map-id">S3</span>
+          <span><b>三、硬件战争：垂直整合 vs 平台生态</b><small> · The Hardware War: Vertical Integration vs. Platform Ecosystem</small></span>
+        </a>
+<a class="map-link" href="#s4">
+          <span class="map-id">S4</span>
+          <span><b>四、软件灵魂：两种AI人格</b><small> · The Software Soul: Two AI Personalities</small></span>
+        </a>
+<a class="map-link" href="#s5">
+          <span class="map-id">S5</span>
+          <span><b>五、信任重建：可解释性才是终极武器</b><small> · Rebuilding Trust: Interpretability Is the Ultimate Weapon</small></span>
+        </a>
+<a class="map-link" href="#s6">
+          <span class="map-id">S6</span>
+          <span><b>六、2026拐点：从交通工具到物理智能</b><small> · The 2026 Inflection Point: From Vehicle to Physical Intelligence</small></span>
+        </a>
+        </nav>
+      </div>
+    </aside>
+    <div class="content">
+      <section class="scene-card" id="s1" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S1</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/xpeng_v2_vla/s1.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>一、VLA是什么：从「看到」到「看懂」再到「洞察」</h2>
+      <p class="scene-title-en">What Is VLA? From 'Seeing' to 'Understanding' to 'Insight'</p>
+      <p class="context"><b>情境</b>VLA 模型的定义、各家实现差异与智驾进化三阶段。语域：casual 技术科普 + formal 架构分析。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：视觉语言行动模型——先「看到」路况，用「语言」描述理解，再「执行」驾驶动作。把感知、推理、决策融为一体</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/xpeng_v2_vla/s1-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The core mechanism: a Vision-Language-Action model — it first 'sees' the road, uses 'language' to describe and understand it, then 'executes' the driving action, fusing perception, reasoning, and decision-making into one.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>VLA（Vision-Language-Action）→ 视觉语言行动模型；fuse into one → 融为一体；perception → 感知</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：端侧端到端智驾宣传几乎都挂VLA标签，但各家的实现深度天差地别。有激光雷达走融合感知，无激光雷达走纯视觉，本质都是视觉为基础</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/xpeng_v2_vla/s1-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key insight: nearly every on-device end-to-end autonomous driving campaign slaps on a VLA label, but the depth of implementation varies wildly. Cars with lidar use fused perception; cars without lidar go pure vision — at the core, everything is vision-based.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>on-device → 端侧；end-to-end → 端到端；lidar → 激光雷达</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>典型场景：复杂路口博弈、无标线道路、施工改道等开放场景——没有标准答案的「半开放题」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/xpeng_v2_vla/s1-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">A typical scene: complex intersection games, unmarked roads, construction detours — open scenarios with no standard answer, 'semi-open questions.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>intersection game → 路口博弈；unmarked road → 无标线道路；semi-open question → 半开放题</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据：「感知不等于理解，只是看到了不能看懂；动作不等于推理，只会条件反射硬射，不会去思考。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/xpeng_v2_vla/s1-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">As the episode put it: 'Sensing doesn't equal understanding — just seeing something doesn't mean you understand it. And action doesn't equal reasoning — a pure reflex is a hard shot, not thinking.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>sensing ≠ understanding → 感知≠理解；conditioned reflex → 条件反射；hard shot → 硬射</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）相关概念：端到端 ≠ VLA；VLA是端到端的一种高级形态，增加了语言推理层</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/xpeng_v2_vla/s1-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Related concept: end-to-end doesn't equal VLA; VLA is an advanced form of end-to-end with an added language reasoning layer.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>advanced form → 高级形态；language reasoning layer → 语言推理层</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>第一阶段：规则硬编码——像背字典，题库没有的题就愣住。 第二阶段：数据模仿——像小镇做题家，刷题多但题目改个弯就翻车。 第三阶段（VLA 1.0）：开始理解题意——看到画面，尝试回答「我为什么要这么打方向、踩这一脚刹车」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/xpeng_v2_vla/s1-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Stage one, rule hard-coding — like memorizing a dictionary; if the question isn't in the bank, the car freezes. Stage two, data imitation — like a small-town test grinder; aced the drills, but trip over any question that bends the format. Stage three, VLA 1.0 — it starts to understand the question: looking at the scene, trying to answer 'why am I turning the wheel this way, and tapping this brake?'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>hard-coding → 硬编码；test grinder → 刷题机器/小镇做题家；turn the wheel → 打方向</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「感知不等于理解」</p><div class="chunks">sensing isn't understanding · seeing isn't getting it</div><small>isn't 强调对比</small></li>
+<li><p>想说「端到端≠VLA」</p><div class="chunks">doesn't equal · plus a reasoning layer</div><small>plus a…layer 简洁准确</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s2" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S2</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/xpeng_v2_vla/s2.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>二、一代 vs 二代：从「看懂」到「洞察」</h2>
+      <p class="scene-title-en">Gen 1 vs Gen 2: From 'Understanding' to 'Insight'</p>
+      <p class="context"><b>情境</b>一代的场景到动作映射与二代的意图理解与风险预判。语域：formal 技术对比分析。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：能识别路口、行人、施工锥桶，知道该减速让行。从「背题」进化到「会读题」，但理解还不够深，不会预判</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/xpeng_v2_vla/s2-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The core mechanism: it recognizes intersections, pedestrians, and construction cones, and knows to slow down and yield. It evolved from 'memorizing questions' to 'reading questions,' but its understanding isn't deep — no anticipation.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>slow down and yield → 减速让行；memorize → 背题；anticipation → 预判</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：场景→动作的映射，本质是「我见过类似的，所以我知道大概怎么办」——经验驱动</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/xpeng_v2_vla/s2-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key insight: a scene-to-action mapping, essentially 'I've seen something like this, so I roughly know what to do' — experience-driven.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>mapping → 映射；experience-driven → 经验驱动；roughly know → 大概知道</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>适用边界：常见场景表现不错，但遇到全新博弈局面容易犹豫或犯错</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/xpeng_v2_vla/s2-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The boundary: common scenarios work well, but brand-new game situations easily cause hesitation or mistakes.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>hesitation → 犹豫；game situation → 博弈局面；brand-new → 全新的</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据：「一代主要还是在做场景到动作的一个映射，二代已经开始去理解场景到意图的这个过程，然后再做动作的一个推演。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/xpeng_v2_vla/s2-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">As the episode put it: 'Gen one mostly maps scenes to actions; gen two has started to understand the scene-to-intent process, then runs an action simulation.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>scene-to-intent → 场景到意图；action simulation → 动作推演</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：不只识别「这是不是路口」，还要判断「这个行人是要过马路还是站着等人」「那台电动车下一秒会不会横切」——预测意图和风险</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/xpeng_v2_vla/s2-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The core mechanism: not just recognizing 'is this an intersection?' but judging 'is this pedestrian crossing or waiting?' 'will that scooter cut across next second?' — predicting intent and risk.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>cut across → 横切；predict intent → 预测意图；cross the road → 过马路</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：世界模型驱动。即使没见过一模一样的场景，也能根据当前环境推测将来会发生什么，提前做防御性驾驶</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/xpeng_v2_vla/s2-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key insight: world-model-driven. Even without seeing an identical scene, it can infer what will happen next based on the current environment and drive defensively in advance.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>world model → 世界模型；defensive driving → 防御性驾驶；infer → 推测</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「一代靠经验，二代靠推理」</p><div class="chunks">maps scenes to actions · reasons scene to intent</div><small>map vs reason 对仗</small></li>
+<li><p>想说「预判意图」</p><div class="chunks">predict intent · what will happen next</div><small>predict intent 是AI术语</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s3" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S3</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/xpeng_v2_vla/s3.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>三、硬件战争：垂直整合 vs 平台生态</h2>
+      <p class="scene-title-en">The Hardware War: Vertical Integration vs. Platform Ecosystem</p>
+      <p class="context"><b>情境</b>小鹏三颗图灵芯片的垂直整合与英伟达开放平台的路线之争。语域：formal 芯片与商业战略。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：三颗自研图灵芯片，总算力2250 Tops（英伟达Thor旗舰2000 Tops），配216GB大内存，将300亿参数大模型完整塞入车端本地运行</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/xpeng_v2_vla/s3-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The core mechanism: three self-developed Turing chips, 2,250 Tops of total compute — above Nvidia Thor's flagship 2,000 Tops — plus 216 GB of large memory, fitting a full 30-billion-parameter model onto the vehicle for on-device running.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>compute → 算力；parameter model → 参数大模型；on-device running → 车端本地运行</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：推理延迟50-100毫秒，比人类「眼睛看到→脚踩刹车」还快。开车和听歌两个系统两个大脑互不干扰，避免资源冲突导致莫名急刹</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/xpeng_v2_vla/s3-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key insight: 50-100 milliseconds of inference latency — faster than a human's 'eyes see it to foot hits the brake.' Driving and music playback run as two systems on two brains, so they never interfere, avoiding mystery hard stops caused by resource conflicts.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>inference latency → 推理延迟；hard stop → 急刹；resource conflict → 资源冲突</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>典型场景：高速上前方事故，云端往返半秒可能已冲出几十米——本地推理是生死距离</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/xpeng_v2_vla/s3-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">A typical scene: an accident up ahead on the highway; a round trip to the cloud taking half a second might already carry you tens of meters forward — on-device inference is a matter of life and death in distance.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>round trip to the cloud → 云端往返；a matter of life and death → 生死攸关</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据：「小鹏其实是自研方案放在自己的量产车上，纸面参数比芯片巨头英伟达会稍微高一点。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/xpeng_v2_vla/s3-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">As the episode put it: 'XPeng's is actually a self-developed solution on its own mass-produced cars, with paper specs slightly higher than chip giant Nvidia's.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>self-developed solution → 自研方案；paper specs → 纸面参数；mass-produced cars → 量产车</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）相关概念：垂直整合思维——从底层硬件到上层软件全链路自研，性能榨到极致，但只能自己用</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/xpeng_v2_vla/s3-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Related concept: vertical integration thinking — full-chain self-development from bottom hardware to top software, performance squeezed to the extreme, but usable only by itself.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>vertical integration → 垂直整合；full-chain → 全链路；squeeze to the extreme → 榨到极致</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>英伟达不造车，提供「物理AI」开放平台——最好的炉子、最锋利的刀具、最新鲜的食材，让比亚迪/吉利/日产等车企按自己口味「做菜」。适合全球化铺开，按各国路况法规定制驾驶风格</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/xpeng_v2_vla/s3-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Nvidia doesn't build cars; it offers an open 'physical AI' platform — the best stove, the sharpest knives, the freshest ingredients — letting BYD, Geely, and Nissan cook to their own taste. It suits global expansion, customizing driving styles per country's road conditions and regulations.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>physical AI → 物理AI；cook to your taste → 按自己口味做菜；global expansion → 全球化铺开</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「小鹏全链路自研」</p><div class="chunks">own the whole chain · vertical integration</div><small>own the whole chain 形象</small></li>
+<li><p>想说「英伟达提供食材让车企做菜」</p><div class="chunks">hands over the kitchen · not a finished dish</div><small>做饭比喻贴切</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s4" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S4</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/xpeng_v2_vla/s4.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>四、软件灵魂：两种AI人格</h2>
+      <p class="scene-title-en">The Software Soul: Two AI Personalities</p>
+      <p class="context"><b>情境</b>理想的世界模拟推演与小鹏的司机-分析师-批评家三人格。语域：formal 技术路线对比。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：看到行人瞬间，立刻在脑中生成十几个未来3秒的3D动画短片（停下看手机/突然横穿/被自行车吓到），给每种分配概率，选择无论哪种未来都安全的策略</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/xpeng_v2_vla/s4-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The core mechanism: the moment it sees a pedestrian, it instantly generates a dozen 3D animated storyboards of the next three seconds — stopping to check the phone, darting across suddenly, startled by a bicycle — assigns each a probability, and chooses the strategy that's safe under every possible future.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>storyboard → 分镜/动画短片；assign probability → 分配概率；safe under every future → 无论哪种未来都安全</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：像下围棋高手落子前想十几步变化。用3D高斯溅射构建可被推演的三维世界，算力消耗极大、成本极高</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/xpeng_v2_vla/s4-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key insight: like a Go grandmaster thinking dozens of moves ahead before placing a stone. It builds an inferable 3D world with 3D Gaussian splatting, extremely compute-hungry and costly.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>Go grandmaster → 围棋高手；3D Gaussian splatting → 3D高斯溅射；compute-hungry → 算力消耗极大</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>适用边界：赌的是「穷举所有可能性」值得——但世界上永远有未知风险，不可能穷举</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/xpeng_v2_vla/s4-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The boundary: it's betting that 'exhaustively enumerating every possibility' is worth it — but the world always has unknown risks; you can never enumerate them all.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>exhaustively enumerate → 穷举；unknown risk → 未知风险</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据：「理想赌的是对未来的一个判断，他觉得这种趋势是靠谱的，将来用这么大的算力带来一点点安全冗余是值得的。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/xpeng_v2_vla/s4-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">As the episode put it: 'Li Auto is betting on a judgment about the future — it believes this trend is sound, and spending this much compute for a bit of extra safety redundancy is worth it.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>bet on a judgment → 赌一个判断；safety redundancy → 安全冗余；worth it → 值得</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：400亿参数VLA模型，三种人格同时工作：司机（专心开车）、分析师（记录每次不完美操作的因果）、批评家（从安全/舒适/流畅三维度打分）</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/xpeng_v2_vla/s4-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The core mechanism: a 40-billion-parameter VLA model with three personas working at once — the Driver (focusing on driving), the Analyst (recording the cause and effect of every imperfect move), and the Critic (scoring on safety, comfort, and smoothness).</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>persona → 人格；cause and effect → 因果；score on → 按…打分</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：失败案例自动优先提取进入下一轮训练，形成自我进化闭环。迭代周期可缩短到12小时（传统车企一周）</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/xpeng_v2_vla/s4-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key insight: failed cases are automatically prioritized into the next training round, forming a self-evolving loop. The iteration cycle can shrink to 12 hours — versus one week for traditional automakers.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>self-evolving loop → 自我进化闭环；iteration cycle → 迭代周期；prioritize → 优先提取</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「理想穷举所有未来」</p><div class="chunks">enumerate every future · dozen storyboards</div><small>enumerate（穷举）很学术</small></li>
+<li><p>想说「小鹏自我进化闭环」</p><div class="chunks">grades its own driving · back into training</div><small>go straight back 口语流畅</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s5" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S5</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/xpeng_v2_vla/s5.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>五、信任重建：可解释性才是终极武器</h2>
+      <p class="scene-title-en">Rebuilding Trust: Interpretability Is the Ultimate Weapon</p>
+      <p class="context"><b>情境</b>「哑巴开车」如何摧毁信任，以及二代VLA用语音解释操作。语域：formal 行业反思 + casual 场景描述。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>为什么重要：过去几年智驾事故闹得沸沸扬扬，根本原因是「哑巴开车」——出了事给你看几百页日志和神经网络权重图，普通人看不懂，监管也头疼</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/xpeng_v2_vla/s5-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Why it matters: the past few years of autonomous driving accidents made a huge fuss, and the root cause is 'a mute driving' — after an accident, the car hands you hundreds of pages of logs and neural-network weight maps; ordinary people can't read them, and regulators are equally stumped.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>make a fuss → 闹得沸沸扬扬；neural-network weights → 神经网络权重；regulator → 监管</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>适用边界：解释太频繁也会啰嗦（每天开车都在跟你讲话），需要平衡透明度与打扰度</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/xpeng_v2_vla/s5-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The boundary: explaining too often also gets annoying — talking to you every day on the commute — so you need a balance between transparency and interruption.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>transparency → 透明度；interruption → 打扰；get annoying → 变得啰嗦</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）"由于我观察到前方有临时路牌，但是信号灯被积雪覆盖无法识别，因此我是根据前方穿制服的交警他的手势引导，我是慢速通过的。"</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/xpeng_v2_vla/s5-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">As the episode put it: 'Because I observed a temporary road sign ahead, but the traffic light was covered by snow and unrecognizable, I therefore followed the hand signals of a police officer in uniform ahead and passed through slowly.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>temporary road sign → 临时路牌；covered by snow → 被积雪覆盖；hand signals → 手势引导</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）怎么落地：二代VLA能在车内用语音解释每一次操作的原因——右后方救护车接近所以让路。透明比任何参数都重要</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/xpeng_v2_vla/s5-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">How to apply it: the gen-2 VLA can explain the reason for every maneuver in the car by voice — giving way because an ambulance is approaching from the rear right. Transparency matters more than any spec sheet.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>explain by voice → 用语音解释；give way → 让路；spec sheet → 参数表</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>原因：车企吹得天花乱坠，但智驾体验最终取决于真实路况——中国道路的博弈复杂度全球独一无二</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/xpeng_v2_vla/s5-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The reason: automakers hype endlessly, but the autonomous driving experience ultimately depends on real road conditions — and China's road game complexity is globally unique.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>hype → 吹嘘；real road conditions → 真实路况；globally unique → 全球独一无二</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>解法：试驾时主动要求走复杂路况，观察预判能力和意图理解，而非只在空旷路段演示</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/xpeng_v2_vla/s5-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The fix: on a test drive, proactively ask to hit complex traffic, observing prediction and intent understanding rather than demoing only on empty stretches.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>test drive → 试驾；complex traffic → 复杂路况；empty stretch → 空旷路段</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「哑巴开车是信任危机的根源」</p><div class="chunks">mute driver · no explanation no trust</div><small>no X no Y 格言式</small></li>
+<li><p>想说「解释比参数重要」</p><div class="chunks">transparency beats · explaining why beats listing what</div><small>A beats B 简洁对比</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s6" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S6</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/xpeng_v2_vla/s6.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>六、2026拐点：从交通工具到物理智能</h2>
+      <p class="scene-title-en">The 2026 Inflection Point: From Vehicle to Physical Intelligence</p>
+      <p class="context"><b>情境</b>VLA架构外溢到机器人，以及为何2026是拐点。语域：formal 行业展望 + casual 类比。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：VLA架构不限于汽车——能理解视觉、运用语言、做出行动的AI系统，从车里拿出来放到机器人里就能做更多事。小鹏同时做自动驾驶和人形机器人，技术可无缝迁移</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/xpeng_v2_vla/s6-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The core mechanism: the VLA architecture isn't limited to cars — an AI system that can understand vision, use language, and take actions can do far more once you take it out of the car and drop it into a robot. XPeng builds both autonomous driving and humanoid robots, so the technology migrates seamlessly.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>humanoid robot → 人形机器人；seamless migration → 无缝迁移；drop into → 放入</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：2026年是自动驾驶巨大拐点——不只是车变聪明，而是车学会用人类听得懂的方式解释自己为什么变聪明。见证的不是交通工具革命，而是通用物理智能革命</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/xpeng_v2_vla/s6-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key insight: 2026 is a huge inflection point for autonomous driving — not just cars getting smarter, but cars learning to explain why they got smarter in language humans can understand. What we're witnessing isn't just a transportation revolution, but a general physical intelligence revolution.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>inflection point → 拐点；transportation revolution → 交通工具革命；physical intelligence → 物理智能</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据：「你现在换不换新的车、带不带智驾，其实你就开始接触这个东西了——像不像第一次看到iPhone，或80后用猫拨号上网那种兴奋。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/xpeng_v2_vla/s6-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">As the episode put it: 'Whether you switch to a new car now or not, whether it has autonomous driving or not, you're starting to touch this thing — isn't it like seeing the iPhone for the first time, or the excitement of dial-up internet in the 80s?'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>touch this thing → 接触这个东西；dial-up internet → 拨号上网；excitement → 兴奋</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）相关概念：摩根士丹利指出小鹏二代VLA落地使其具备与特斯拉全球竞争能力，但格局变化远不止汽车，还包括具身智能</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/xpeng_v2_vla/s6-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Related concept: Morgan Stanley points out that XPeng's gen-2 VLA gives it the ability to compete with Tesla globally — but the shift in the landscape goes far beyond cars, reaching embodied intelligence.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>Morgan Stanley → 摩根士丹利；embodied intelligence → 具身智能；shift the landscape → 改变格局</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「VLA能装进机器人」</p><div class="chunks">same brain · still works</div><small>still works 口语</small></li>
+<li><p>想说「2026是拐点」</p><div class="chunks">inflection point · changes everything</div><small>changes everything 强调</small></li>
+        </ol>
+      </details>
+    </section>
+      <section class="study-section" id="practice">
+      <h2 class="section-heading">今日可练 <small>PRACTICE TODAY</small></h2>
+      <div class="study-grid">
+        <article>
+          <p>用「sensing ≠ understanding」说：看到不等于理解。</p>
+          <div class="practice-en">
+            Sensing isn't understanding — the car sees the road but must also grasp intent.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/xpeng_v2_vla/practice-0.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「world model」说：二代VLA靠世界模型预判。</p>
+          <div class="practice-en">
+            The gen-2 VLA is world-model-driven — it infers the future from the current scene.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/xpeng_v2_vla/practice-1.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「on-device inference」说：本地推理是生死距离。</p>
+          <div class="practice-en">
+            On-device inference is a matter of life and death — cloud round trips waste a life-saving half second.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/xpeng_v2_vla/practice-2.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「interpretability」说：可解释性重建信任。</p>
+          <div class="practice-en">
+            Interpretability rebuilds trust — the car tells you why it braked, in plain language.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/xpeng_v2_vla/practice-3.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article>
+      </div>
+    </section>
+      <section class="study-section pitfalls" id="pitfalls">
+      <h2 class="section-heading">避坑 <small>PITFALLS</small></h2>
+      <div class="study-grid">
+        <article>
+          <div class="wrong">✕ The VLA model can see and do things.</div>
+          <div class="right">✓ The VLA model fuses seeing, language understanding, and action into one pipeline.</div>
+          <p>see and do 太笼统；fuse…into one 体现三合一机制。</p>
+        </article><article>
+          <div class="wrong">✕ XPeng's chip is more strong than Nvidia.</div>
+          <div class="right">✓ XPeng's three Turing chips reach 2,250 Tops, slightly above Nvidia Thor's flagship.</div>
+          <p>more strong 语法错误；用数字说话更有说服力。</p>
+        </article><article>
+          <div class="wrong">✕ The car can speak the reason.</div>
+          <div class="right">✓ The gen-2 VLA can explain every maneuver in voice.</div>
+          <p>speak the reason 是中式表达；explain every maneuver 才是完整说法。</p>
+        </article><article>
+          <div class="wrong">✕ Li Auto thinks a lot of possibilities.</div>
+          <div class="right">✓ Li Auto enumerates possible futures — a dozen storyboards with assigned probabilities.</div>
+          <p>think a lot 太随意；enumerate + assign probabilities 是技术准确的说法。</p>
+        </article>
+      </div>
+    </section>
+      <section class="study-section shifts" id="mindset">
+      <h2 class="section-heading">认知转变 <small>MINDSET SHIFTS</small></h2>
+      <div class="study-grid">
+        <article>
+          <span>以为端到端就是VLA</span>
+          <b aria-hidden="true">→</b>
+          <strong>端到端≠VLA——VLA是加语言推理层的高级形态</strong>
+        </article><article>
+          <span>以为识别得准就是好智驾</span>
+          <b aria-hidden="true">→</b>
+          <strong>识别只是感知；预测意图与解释操作才是2.0的灵魂</strong>
+        </article><article>
+          <span>以为可解释性是营销噱头</span>
+          <b aria-hidden="true">→</b>
+          <strong>可解释性重建公众信任——透明比任何参数都重要</strong>
+        </article>
+      </div>
+    </section>
+      <footer>
+        双语学习版 · 场景/句子朗读使用 edge-tts（en-US） · 单词发音使用浏览器 Web Speech API
+        <div class="footer-note">中文版：<a href="xpeng_v2_vla-总结.html">xpeng_v2_vla-总结.html</a> · SVG 版：<a href="viewer.html?f=xpeng_v2_vla-总结.svg" target="_blank">xpeng_v2_vla-总结.svg</a></div>
+      </footer>
+    </div>
+  </main>
+  <script>(() => {
+  let activeAudio = null;
+  let activeBtn = null;
+  const status = document.getElementById('speech-status');
+  const stopBtn = document.getElementById('stop-speech');
+  const rateSel = document.getElementById('speech-rate');
+
+  const reset = () => {
+    if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+    activeBtn?.classList.remove('playing');
+    activeBtn = null;
+    stopBtn.classList.remove('visible');
+    status.textContent = '';
+  };
+
+  const playAudio = (url, btn) => {
+    reset();
+    const audio = new Audio(url);
+    audio.playbackRate = Number(rateSel.value);
+    activeAudio = audio;
+    activeBtn = btn;
+    btn.classList.add('playing');
+    stopBtn.classList.add('visible');
+    status.textContent = btn.classList.contains('scene-speak')
+      ? 'Reading the whole scene…'
+      : 'Reading…';
+
+    audio.onended = () => { if (activeAudio === audio) reset(); };
+    audio.onerror = () => { status.textContent = 'Audio failed to load.'; if (activeAudio === audio) reset(); };
+    audio.play().catch(() => { status.textContent = 'Playback failed.'; if (activeAudio === audio) reset(); });
+  };
+
+  document.addEventListener('click', e => {
+    const btn = e.target.closest('[data-audio]');
+    if (!btn) return;
+    e.preventDefault();
+    if (btn === activeBtn && activeAudio) { reset(); return; }
+    playAudio(btn.dataset.audio, btn);
+  });
+
+  stopBtn.addEventListener('click', reset);
+
+  const synth = window.speechSynthesis;
+  const getEnglishVoice = () => {
+    const voices = synth.getVoices();
+    return voices.find(v => /^en-(US|GB)/i.test(v.lang))
+        || voices.find(v => /^en/i.test(v.lang)) || null;
+  };
+
+  const difficultWords = new Set([
+    'assortment', 'SKU', 'premium', 'margin', 'middleman', 'OEM', 'rebranding',
+    'hoarding', 'PTSD', 'curation', 'repurchase', 'touchpoint', 'backlash',
+    'reshuffle', 'funnel', 'anchor', 'contract', 'psychology', 'private', 'label',
+    'editorial', 'familiar', 'competitors', 'authorization', 'flexibility'
+  ]);
+
+  const shouldPronounce = word => {
+    const n = word.toLowerCase().replace(/^[^a-z]+|[^a-z]+$/g, '');
+    return n.replace(/[^a-z]/g, '').length >= 8 || difficultWords.has(n);
+  };
+
+  const markPronounceableWords = root => {
+    const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+    const nodes = [];
+    while (walker.nextNode()) nodes.push(walker.currentNode);
+    nodes.forEach(node => {
+      if (node.parentElement?.closest('button, script, style')) return;
+      const text = node.nodeValue;
+      let m, last = 0, changed = false;
+      const frag = document.createDocumentFragment();
+      const re = /[A-Za-z]+(?:[-'’][A-Za-z]+)*/g;
+      while ((m = re.exec(text))) {
+        if (!shouldPronounce(m[0])) continue;
+        changed = true;
+        frag.append(text.slice(last, m.index));
+        const wb = document.createElement('button');
+        wb.type = 'button'; wb.className = 'pronounce-word';
+        wb.dataset.speak = m[0];
+        wb.setAttribute('aria-label', '\u8bfb\u5355\u8bcd ' + m[0]);
+        wb.title = '\u70b9\u51fb\u542c\u53d1\u97f3';
+        wb.textContent = m[0];
+        frag.append(wb);
+        last = m.index + m[0].length;
+      }
+      if (!changed) return;
+      frag.append(text.slice(last));
+      node.replaceWith(frag);
+    });
+  };
+
+  document.querySelectorAll(
+    '.english, .scene-title-en, .paraphrase li p, .chunks, .practice-en, .wrong, .right, .summary-en'
+  ).forEach(markPronounceableWords);
+
+  document.addEventListener('click', e => {
+    const wb = e.target.closest('.pronounce-word');
+    if (!wb) return;
+    e.preventDefault();
+    if (!synth) return;
+    synth.cancel();
+    if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+    activeBtn?.classList.remove('playing');
+    activeBtn = wb;
+    wb.classList.add('playing');
+    const u = new SpeechSynthesisUtterance(wb.dataset.speak);
+    u.lang = 'en-US';
+    u.rate = 0.88;
+    const v = getEnglishVoice();
+    if (v) u.voice = v;
+    u.onend = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+    u.onerror = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+    synth.speak(u);
+  });
+})();</script>
+</body>
+</html>

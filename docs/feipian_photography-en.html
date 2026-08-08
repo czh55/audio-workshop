@@ -1,0 +1,957 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="废片启示录 | 我们的摄影，原来是这样进步的！ — Bilingual Learning Edition" />
+  <title>废片启示录 | 我们的摄影，原来是这样进步的！｜EN 双语学习版</title>
+  <style>:root{--teal-950:#073f42;--teal-800:#0d686c;--teal-700:#0f7c80;--teal-600:#14919b;--mint-100:#dff4ec;--mint-50:#f0faf6;--ink:#183536;--muted:#607879;--line:#d7e8e2;--paper:#fff;--amber:#a85d08;--shadow:0 12px 32px rgba(7,63,66,.08)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:24px}
+body{margin:0;color:var(--ink);background:#edf7f2;font-family:Inter,"PingFang SC","Noto Sans SC","Microsoft YaHei",system-ui,sans-serif;line-height:1.65}
+button,select{font:inherit}
+a{color:inherit}
+.hero{color:#fff;background:radial-gradient(circle at 85% 10%,rgba(129,230,196,.24),transparent 30%),linear-gradient(125deg,#073f42,#0d7377 56%,#14919b)}
+.hero-inner{width:min(1440px,100%);margin:auto;padding:44px clamp(20px,5vw,72px) 36px}
+.hero-flex{display:flex;gap:clamp(18px,3vw,40px);align-items:flex-start}
+.hero-cover{width:min(240px,42vw);height:auto;max-height:320px;object-fit:contain;object-position:center;border-radius:16px;border:1px solid rgba(255,255,255,.28);box-shadow:0 18px 44px rgba(0,0,0,.32);flex-shrink:0;background:rgba(255,255,255,.08)}
+.hero-text{min-width:0;flex:1}
+.eyebrow{margin:0 0 12px;font-size:.78rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;opacity:.8}
+h1{max-width:1020px;margin:0;font-size:clamp(1.7rem,3.6vw,3rem);line-height:1.15;letter-spacing:-.04em}
+.hero-en{margin:12px 0 22px;font-size:clamp(1rem,2vw,1.25rem);opacity:.82}
+.hero-meta{display:flex;flex-wrap:wrap;gap:9px;align-items:center}
+.chip{border:1px solid rgba(255,255,255,.28);border-radius:99px;padding:5px 11px;font-size:.82rem;background:rgba(255,255,255,.08)}
+.source-link{font-weight:750;text-decoration:none;border-bottom:1px solid rgba(255,255,255,.5)}
+.toolbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:22px}
+.toolbar label{font-size:.82rem;opacity:.82}
+.toolbar select{color:#fff;background:#0a5d61;border:1px solid rgba(255,255,255,.3);border-radius:8px;padding:7px 9px}
+.stop-btn{display:none;color:#fff;background:#8c3b2a;border:0;border-radius:8px;padding:8px 12px;cursor:pointer}
+.stop-btn.visible{display:inline-flex}
+.speech-status{min-height:1.4em;font-size:.82rem;opacity:.88}
+.lang-switch{display:inline-flex;gap:6px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.28);border-radius:99px;padding:4px}
+.lang-switch a{display:inline-block;padding:4px 13px;border-radius:99px;font-size:.8rem;font-weight:700;text-decoration:none;color:rgba(255,255,255,.75)}
+.lang-switch a.active{background:#fff;color:var(--teal-800)}
+.narration-player{margin-top:16px;padding:14px 18px;background:rgba(255,255,255,.1);border-radius:12px;border:1px solid rgba(255,255,255,.15)}
+.audio-label{color:rgba(255,255,255,.88);font-size:.82rem;font-weight:700;margin:0 0 8px}
+.page{width:min(1440px,100%);margin:auto;padding:28px clamp(16px,3vw,44px) 64px;display:grid;grid-template-columns:minmax(230px,280px) minmax(0,1fr);gap:30px;align-items:start}
+.sidebar{position:sticky;top:20px;min-width:0}
+.sidebar-box{background:rgba(255,255,255,.8);border:1px solid var(--line);border-radius:16px;padding:17px;box-shadow:var(--shadow);backdrop-filter:blur(12px)}
+.sidebar h2{margin:0 0 13px;font-size:.9rem;letter-spacing:.08em;color:var(--teal-800)}
+.map-link{display:grid;grid-template-columns:34px minmax(0,1fr);gap:9px;padding:10px 6px;text-decoration:none;border-top:1px solid var(--line)}
+.map-link:hover b{color:var(--teal-700)}
+.map-id{width:30px;height:30px;display:grid;place-items:center;border-radius:9px;color:#fff;background:var(--teal-700);font-size:.72rem;font-weight:800}
+.map-link b{display:block;font-size:.78rem;line-height:1.4}
+.map-link small{display:block;color:var(--muted);font-size:.67rem;line-height:1.4;margin-top:2px;overflow-wrap:anywhere}
+.content{min-width:0}
+.scene-card{background:var(--paper);border:1px solid var(--line);border-radius:20px;padding:clamp(20px,3vw,34px);margin-bottom:24px;box-shadow:var(--shadow);overflow:hidden}
+.scene-topline{display:flex;justify-content:space-between;gap:16px;align-items:center;margin-bottom:16px}
+.scene-id{display:inline-grid;place-items:center;min-width:42px;height:30px;padding:0 10px;color:#fff;background:var(--teal-700);border-radius:8px;font-size:.78rem;font-weight:850}
+.time{margin-left:10px;color:var(--muted);font-size:.82rem;font-variant-numeric:tabular-nums}
+.scene-card h2{margin:0 0 2px;font-size:clamp(1.35rem,2.4vw,2rem);line-height:1.25;color:var(--teal-950)}
+.scene-title-en{margin:0 0 18px;color:var(--teal-600);font-weight:700;font-size:.98rem}
+.context{margin:0 0 20px;padding:12px 15px;color:#496566;background:var(--mint-50);border-left:3px solid var(--teal-600);border-radius:0 10px 10px 0;font-size:.88rem}
+.context b{margin-right:10px;color:var(--teal-800)}
+.sentence-list{display:grid;gap:12px}
+.sentence{position:relative;display:grid;grid-template-columns:38px minmax(0,1fr);gap:12px;padding:16px;border:1px solid #e2ece8;border-radius:14px;background:#fcfefd;min-width:0}
+.sentence-no{color:var(--teal-600);font-size:.76rem;font-weight:850;font-variant-numeric:tabular-nums;padding-top:4px}
+.bilingual{min-width:0;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(14px,2vw,28px)}
+.lang-block{min-width:0}
+.lang-block p{margin:5px 0 0;overflow-wrap:anywhere}
+.en-block{padding-left:clamp(14px,2vw,28px);border-left:1px solid var(--line)}
+.en-block p{color:#0b5c60;font-weight:650}
+.lang-tag{display:inline-block;color:var(--muted);font-size:.66rem;font-weight:850;letter-spacing:.12em}
+.en-head{display:flex;justify-content:space-between;gap:10px;align-items:center;min-height:30px}
+.note{grid-column:2;margin:1px 0 0;color:#708182;font-size:.78rem}
+.note span{margin-right:7px;color:var(--amber);font-weight:750}
+.speak-btn{display:inline-flex;align-items:center;gap:7px;border:1px solid #b8d9d1;border-radius:9px;padding:7px 11px;color:var(--teal-800);background:#f5fbf8;cursor:pointer;white-space:nowrap;font-size:.78rem;font-weight:750;transition:.15s ease}
+.speak-btn:hover{color:#fff;background:var(--teal-700);border-color:var(--teal-700);transform:translateY(-1px)}
+.speak-btn.playing{color:#fff;background:var(--teal-700);border-color:var(--teal-700)}
+.speak-btn.compact{padding:4px 8px;font-size:.7rem}
+.speak-btn.icon-only{padding:3px 7px;margin-left:6px}
+.speak-btn.icon-only span:last-child{display:none}
+.pronounce-word{display:inline;margin:0;padding:0 2px;color:inherit;background:rgba(20,145,155,.08);border:0;border-bottom:1px dashed var(--teal-600);border-radius:3px;font:inherit;font-weight:inherit;line-height:inherit;cursor:pointer}
+.pronounce-word:hover,.pronounce-word:focus{color:var(--teal-950);background:#cceee4;border-bottom-style:solid;outline:3px solid rgba(20,145,155,.42);outline-offset:2px}
+.pronounce-word.playing{color:#fff;background:var(--teal-700);border-bottom-color:var(--teal-700)}
+.paraphrase{margin-top:18px;border-top:1px solid var(--line)}
+.paraphrase summary{padding:16px 0 3px;color:var(--teal-800);cursor:pointer;font-weight:800}
+.paraphrase summary span{color:var(--muted);font-size:.75rem;font-weight:500;margin-left:8px}
+.paraphrase ol{margin:12px 0 0;padding-left:22px}
+.paraphrase li{padding:7px 0 9px 5px}
+.paraphrase li p{margin:0;font-size:.9rem;font-weight:650}
+.paraphrase li small{display:block;color:var(--muted);font-size:.72rem;margin-top:2px}
+.chunks{margin-top:4px;color:var(--teal-700);font-size:.78rem}
+.study-section{margin:38px 0 0}
+.section-heading{display:flex;align-items:baseline;gap:10px;margin:0 0 15px;color:var(--teal-950);font-size:1.35rem}
+.section-heading small{color:var(--teal-600);font-size:.78rem;letter-spacing:.05em}
+.study-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.study-grid article{padding:17px;background:#fff;border:1px solid var(--line);border-radius:14px;box-shadow:0 6px 18px rgba(7,63,66,.05);min-width:0}
+.study-grid p{margin:0}
+.practice-en{margin-top:9px;color:var(--teal-700);font-weight:650;overflow-wrap:anywhere}
+.wrong{color:#a24831;text-decoration:line-through;overflow-wrap:anywhere}
+.right{color:var(--teal-700);font-weight:750;margin:5px 0;overflow-wrap:anywhere}
+.pitfalls p{color:var(--muted);font-size:.82rem}
+.shifts article{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1.5fr);gap:12px;align-items:center}
+.shifts b{color:var(--teal-600);font-size:1.2rem}
+.shifts strong{color:var(--teal-800)}
+footer{margin-top:38px;color:var(--muted);font-size:.78rem;text-align:center}
+.footer-note{margin-top:6px}
+@media (max-width:900px){
+  .page{grid-template-columns:1fr}
+  .sidebar{position:static}
+  .sidebar-box{overflow-x:auto;padding:12px}
+  .sidebar h2{padding-left:5px}
+  .map-nav{display:flex;width:max-content;gap:8px}
+  .map-link{width:240px;border:1px solid var(--line);border-radius:10px;padding:8px}
+  .bilingual{grid-template-columns:1fr}
+  .en-block{padding:12px 0 0;border-left:0;border-top:1px dashed var(--line)}
+}
+@media (max-width:620px){
+  .hero-inner{padding-top:30px}
+  .hero-flex{flex-direction:column;align-items:center}
+  .hero-cover{width:100%;max-width:360px}
+  .hero-text{text-align:center}
+  .page{padding-inline:10px;gap:18px}
+  .scene-card{border-radius:14px;padding:17px 13px}
+  .scene-topline{align-items:flex-start}
+  .scene-speak span:last-child{display:none}
+  .sentence{grid-template-columns:26px minmax(0,1fr);padding:13px 10px;gap:6px}
+  .note{grid-column:2}
+  .study-grid{grid-template-columns:1fr}
+  .shifts article{grid-template-columns:1fr;gap:5px}
+  .shifts b{transform:rotate(90deg);justify-self:start}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.speak-btn{transition:none}}</style>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="hero-flex">
+        <div class="hero-text">
+          <p class="eyebrow">Photography &amp; Growth · 摄影与成长</p>
+          <h1>废片启示录 | 我们的摄影，原来是这样进步的！</h1>
+          <p class="hero-en">The Reject-Photo Revelation: How We Actually Improved Our Photography</p>
+          <p class="summary-en" style="margin:0 0 14px;padding:14px 16px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.22);border-radius:12px;font-size:.95rem;line-height:1.7">In this episode, Pan, Bai Xiong, and Seven from Photo Reason dig up their reject-photo shame files, breaking down each failure from technical mistakes to aesthetic misfires. They then hold those shots against the work they're proudest of this year and map the milestones that moved them forward: client commissions, photobooks, workshops, gear upgrades, and social media. The takeaway: "reject photo" is not an insult — it's a stepping stone. Being able to spot a bad photo from your own past is itself proof that your eye has grown.</p>
+          <div class="hero-meta">
+            <span class="chip">2026-06-26</span>
+            <span class="chip">小宇宙FM</span>
+            <span class="chip">1小时06分</span>
+            <span class="chip">5 Scenes</span>
+            <span class="chip">Click underlined words to hear them</span>
+            <a class="source-link" href="https://www.xiaoyuzhoufm.com/episode/6a3aa7402e335a35a80840f8" target="_blank" rel="noopener">原播客 ↗</a>
+          </div>
+        </div>
+      </div>
+      <div class="toolbar">
+        <div class="lang-switch"><div class="lang-switch"><a href="feipian_photography-总结.html">中文</a><a class="active" href="feipian_photography-en.html" aria-current="page">EN</a></div></div>
+        <label for="speech-rate">朗读速度</label>
+        <select id="speech-rate">
+          <option value="0.85">慢速 0.85×</option>
+          <option value="1" selected>正常 1×</option>
+          <option value="1.15">快速 1.15×</option>
+        </select>
+        <button id="stop-speech" class="stop-btn" type="button">■ 停止朗读</button>
+        <span id="speech-status" class="speech-status" role="status" aria-live="polite"></span>
+      </div>
+      <div class="narration-player">
+      <p class="audio-label">🎧 中文语音讲解</p>
+      <button class="speak-btn" type="button" data-audio="audio/feipian_photography.mp3" aria-label="播放语音讲解"><span aria-hidden="true">▶</span><span>播放语音讲解</span></button>
+    </div>
+    </div>
+  </header>
+  <main class="page">
+    <aside class="sidebar" aria-label="场景地图">
+      <div class="sidebar-box">
+        <h2>场景地图 · SCENE MAP</h2>
+        <nav class="map-nav">
+          <a class="map-link" href="#s1">
+          <span class="map-id">S1</span>
+          <span><b>一、什么是「废片」？三位主播的黑历史</b><small> · 1. What Is a "Reject Photo"? The Hosts' Shame Files</small></span>
+        </a>
+<a class="map-link" href="#s2">
+          <span class="map-id">S2</span>
+          <span><b>二、今年最爱 vs 废片：进步看得见</b><small> · 2. This Year's Favorites vs. the Rejects: Progress You Can See</small></span>
+        </a>
+<a class="map-link" href="#s3">
+          <span class="map-id">S3</span>
+          <span><b>三、进步从哪来？关键节点拆解</b><small> · 3. Where Does Progress Come From? Key Milestones</small></span>
+        </a>
+<a class="map-link" href="#s4">
+          <span class="map-id">S4</span>
+          <span><b>四、社交媒体时代：会不会拍出未来的废片？</b><small> · 4. The Social-Media Era: Are We Making Tomorrow's Rejects?</small></span>
+        </a>
+<a class="map-link" href="#s5">
+          <span class="map-id">S5</span>
+          <span><b>五、心法与金句</b><small> · 5. Mindset &amp; Golden Lines</small></span>
+        </a>
+        </nav>
+      </div>
+    </aside>
+    <div class="content">
+      <section class="scene-card" id="s1" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S1</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/feipian_photography/s1.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>一、什么是「废片」？三位主播的黑历史</h2>
+      <p class="scene-title-en">1. What Is a "Reject Photo"? The Hosts' Shame Files</p>
+      <p class="context"><b>情境</b>三位主播给「废片」下定义，并翻出各自的翻车历史：从过期胶卷到构图灾难。语域：casual 播客闲聊 + 复盘。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：废片不是统一标准，而是「相对现在的你」而言无效或落后的照片。白熊定义为「无效画面」——画面与想表达的内容严重不符；老潘强调技术不成立+无意识拍摄；塞文则认为是审美过时——形式大于内容</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/feipian_photography/s1-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">A reject photo isn't a universal standard — it's a shot that's ineffective or outdated relative to who you are now. Bai Xiong defines it as "ineffective imagery": the frame badly mismatches what you meant to express. Pan stresses images where the technique falls apart and the shooting was unconscious. Seven sees it as outdated taste — form over substance.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>reject photo → 废片（outtake 也常用）；ineffective imagery → 无效画面；form over substance → 形式大于内容</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：三人选废片有个共同巧合：都集中在数码转胶片阶段（白熊、老潘）或早期数码后期（塞文），说明转型期最容易产出「当时开心、现在无效」的照片</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/feipian_photography/s1-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">There's a telling coincidence: all three picked their reject photos from the same kind of period — the switch from digital to film for Bai Xiong and Pan, or early digital post-processing for Seven. Transitions are exactly when you're most likely to produce shots that felt great then but don't hold up now.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>transition period → 转型期；a telling coincidence → 耐人寻味的巧合；don't hold up → 经不起推敲</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>典型场景：翻网盘、翻朋友圈黑历史，随便点开一张都惨不忍睹</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/feipian_photography/s1-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The classic scene: scrolling through old cloud drives and Moments archives — every file you open is a horror show.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>cloud drive → 网盘；Moments → 朋友圈；a horror show → 惨不忍睹（口语）</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据：「废片听上去像个贬义词，但其实都是你的进步的垫脚石。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/feipian_photography/s1-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">"Reject photo" sounds like an insult, but every one of them is a stepping stone on your path to getting better.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>insult → 贬义词/冒犯性词汇；stepping stone → 垫脚石</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）相关概念：废片 vs 进步 —— 能识别废片本身就意味着审美已提升</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/feipian_photography/s1-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The concept: rejects versus progress. Being able to recognize a reject photo already means your taste has moved forward.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>recognize → 识别；taste → 审美/品味；move forward → 提升</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>朋友寄来三十来卷过期胶卷（两三年到十年不等），产生「按快门几乎免费」的错觉。几年间大量盲拍：老机器对焦跟不上、构图杂乱（路人电线杆入镜）、过期胶卷噪点重、二三十块便宜冲扫校色敷衍</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/feipian_photography/s1-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">A friend sent him thirty-odd rolls of expired film, some two years old, some ten. It created the illusion that pressing the shutter was nearly free, so for years he fired away blindly: the old camera couldn't keep up with focus, the framing was a mess with strangers and utility poles wandering into frame, the expired film was grainy, and the cheap twenty-to-thirty-yuan developing and scanning came back with sloppy color correction.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>expired film → 过期胶卷；fire away / shoot blindly → 盲拍；developing and scanning → 冲扫；sloppy color correction → 敷衍的校色</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>3 组表达</span></summary>
+        <ol>
+          <li><p>想说「废片是相对现在的自己而言的」</p><div class="chunks">relative to · can't keep up with · current eye</div><small>relative to 偏书面分析，can't keep up with 口语常用</small></li>
+<li><p>想说「这张照片现在看很尴尬」</p><div class="chunks">cringe-fest · facepalm</div><small>两者都口语，cringe-fest 强调持续的尴尬感，facepalm 指单个瞬间</small></li>
+<li><p>想说「你当时开心不代表拍得好」</p><div class="chunks">thrilled at the moment · survive the rearview</div><small>survive the rearview 很有画面感，适合点评时用</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s2" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S2</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/feipian_photography/s2.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>二、今年最爱 vs 废片：进步看得见</h2>
+      <p class="scene-title-en">2. This Year's Favorites vs. the Rejects: Progress You Can See</p>
+      <p class="context"><b>情境</b>白熊与老潘分别拿出今年最满意的一张照片，与过去的写真和废片对比，讨论什么是「自然真实」。语域：casual 作品分享 + 审美讨论。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：五一期间草原徒步，到牧民家后跟随放羊的舅舅，持续拍摄一个女孩。最终选了一张眯眼、额发被风吹起的半身肖像，天空与草坪分割线恰好落在脖子位置</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/feipian_photography/s2-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">During a May Day hike on the grasslands, they stopped at a herder's home and followed the uncle who tends sheep, shooting one girl over and over. The final pick: a half-length portrait of her squinting, bangs blown by the wind, where the line between sky and grassland falls right at her neck.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>herder → 牧民；half-length portrait → 半身肖像；squint → 眯眼；bangs → 额发</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：与过去写真的核心区别——这张照片是自然的、真实的，能感受到人物情绪；旧写真是摆美的动作，有形式无灵魂</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/feipian_photography/s2-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key difference from her old portraits: this photo feels natural and real — you can sense the person's emotion. The old studio work was people striking pretty poses, all form and no soul.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>strike a pose → 摆姿势；all form and no soul → 有形式无灵魂；sense one's emotion → 感受到情绪</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>适用边界：「分割线不能切脖子」等构图教条在此失效——关键看视线是否落在人物脸上</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/feipian_photography/s2-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The boundary: composition rules like "don't let the horizon cut the neck" fail here — what matters is whether your eye lands on the person's face.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>composition rule → 构图教条；the horizon cuts the neck → 分割线切脖子；your eye lands on → 视线落在</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据：「你能感觉到这张照片是自然的，是真实的……以前的那些写真更多像是在摆一个很美的动作。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/feipian_photography/s2-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">"You can feel this photo is natural, is real… the portraits from before were more like striking a beautiful pose."</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>portrait / photo shoot → 写真；strike a beautiful pose → 摆一个很美的动作</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：春节空城，在南北高架立交人行天桥来回走十分钟，等待红/黄/绿信号灯颜色错开，找到柱子、斑马线、高架、信号灯的和谐构图后按下快门。受 Stephen Shore 等大师潜移默化影响</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/feipian_photography/s2-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">During the Spring Festival empty city, he walked back and forth on a footbridge over the South-North elevated highway for ten minutes, waiting for the red, yellow, and green traffic lights to fall out of sync, then pressed the shutter once the pillars, crosswalk, overpass, and signals lined up in a harmonious frame. The quiet influence of masters like Stephen Shore shows through.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>empty city → 空城；fall out of sync → 颜色错开；line up in a harmonious frame → 形成和谐构图；潜移默化 → a subtle/quiet influence</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：与废片（高台俯拍船只穿插杂乱）截然相反——这是深思熟虑、等待过的画面，每个元素有独立空间</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/feipian_photography/s2-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The exact opposite of his reject photos — those chaotic overhead shots of boats crisscrossing. This one is deliberate and waited for, with every element given its own breathing room.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>deliberate → 深思熟虑；crisscross → 杂乱穿插；breathing room → 独立空间/留白</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「这张照片是抓拍出来的真实瞬间」</p><div class="chunks">caught on the fly · not staged · in front of the lens</div><small>caught on the fly 很口语；分析作品时说 not staged</small></li>
+<li><p>想说「构图里每个元素都各就各位」</p><div class="chunks">each element · let sth breathe</div><small>let sth breathe 是摄影/设计语境常用短语</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s3" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S3</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/feipian_photography/s3.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>三、进步从哪来？关键节点拆解</h2>
+      <p class="scene-title-en">3. Where Does Progress Come From? Key Milestones</p>
+      <p class="context"><b>情境</b>老潘与白熊分别拆解自己的进步节点：商单、画册、工作坊、器材升级与街拍社群。语域：casual 复盘 + 经验谈。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：① 16-17 民宿商单学会三脚架和室内后期 ② 阿那亚模仿网上好作品「开窍」 ③ 禄来后第一次哈苏冲扫，发现胶片真正画质 ④ 做播客被迫看画册，潜移默化打开视野 ⑤ Jerome 工作坊高压走出舒适圈 ⑥ Mamiya 6x7 替代禄来，构图更有张力</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/feipian_photography/s3-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">His milestones: at 16-17, a guesthouse commercial taught him tripods and indoor post-processing; at Aranya, copying great work online made things click; his first Hasselblad scan after the Rolleiflex revealed what film could really do; starting a podcast forced him to study photobooks and quietly broadened his vision; Jerome's high-pressure workshop pushed him out of his comfort zone; and swapping the Rolleiflex for a Mamiya 6x7 gave his compositions more tension.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>make things click → 开窍；broaden one's vision → 打开视野；comfort zone → 舒适圈；composition tension → 构图张力</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：画册不能立竿见影，但看够多够久后，某天站在路口脑中会浮现「应该这样拍」的影子。商单是外部压力逼迫进步的有效方式</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/feipian_photography/s3-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Photobooks don't pay off overnight — but look at enough of them for long enough, and one day you'll stand at an intersection and a ghost of "this is how it should be shot" surfaces in your head. Commissions are an effective way for outside pressure to force progress.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>pay off overnight → 立竿见影；a ghost of… surfaces → 脑中浮现…的影子；commission → 商单；outside pressure → 外部压力</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>适用边界：工作坊需要心理准备——Jerome 是高压老师</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/feipian_photography/s3-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">A heads-up for workshops: come mentally prepared — Jerome is an intense instructor.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>heads-up → 提前提醒；intense instructor → 高压老师；mentally prepared → 心理准备</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）怎么落地：持续收藏阅读摄影画册；有条件参加高强度工作坊；升级冲扫质量重新认识胶片</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/feipian_photography/s3-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">How to put it into practice: keep collecting and reading photography books; join an intense workshop if you can; and upgrade your developing and scanning to meet film again on new terms.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>put sth into practice → 落地/付诸实践；meet sth on new terms → 换个视角重新认识</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：① 20-21 上海街拍社群高强度拍摄（每周 6-7 天，每天 2 小时，持续半年）——量变产生质变，开始思考「怎么拍得不一样」 ② 22-23 研究艺术史和摄影史，从形式转向内容，刻意训练观察细微事物 ③ 来 PR 后接触欧美摄影师，关注真正想拍的话题而非闪光形式</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/feipian_photography/s3-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Her milestones: at 20-21, intense street photography with a Shanghai community — six or seven days a week, two hours a day, for half a year. Quantity turned into quality, and she started asking how to shoot differently. At 22-23, she studied art history and photo history, shifting from form to content and deliberately training herself to notice small details. After moving to PR, she met Western photographers and focused on subjects she truly wanted to shoot instead of flashy forms.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>quantity turns into quality → 量变产生质变；shift from form to content → 从形式转向内容；flashy → 花哨/耀眼</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：技术构图变成肌肉记忆后「不用去想」，反而更多精力给内容。前期学三分法、黄金螺旋等都是形式，摄影史帮你理解审美发展脉络</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/feipian_photography/s3-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Once technique and composition become muscle memory, you stop having to think about them and free up energy for content. Early on, the rule of thirds and the golden spiral are all form; photo history is what helps you understand the thread of how taste develops.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>muscle memory → 肌肉记忆；rule of thirds → 三分法；golden spiral → 黄金螺旋；the thread of taste → 审美发展脉络</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「量变产生质变」</p><div class="chunks">quantity turns into quality · sustained over months</div><small>口语用第一句，书面点评用第二句</small></li>
+<li><p>想说「这些进步不是突然发生的」</p><div class="chunks">happen overnight · stack up piece by piece · unglamorous steps</div><small>stack up 很口语，评论文章用 unglamorous steps</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s4" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S4</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/feipian_photography/s4.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>四、社交媒体时代：会不会拍出未来的废片？</h2>
+      <p class="scene-title-en">4. The Social-Media Era: Are We Making Tomorrow's Rejects?</p>
+      <p class="context"><b>情境</b>讨论平台算法和流行风格是否会让今天的作品变成未来的废片，以及三位主播各自的发图策略。语域：casual 播客讨论 + 平台观察。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>原因：小红书不断推流行机位、闪光灯风格、同质化内容。当年流行的局部留色、赛博朋克饱和、韩文水印，今天回看就是废片。若按平台规则创作，几年后可能同样尴尬</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/feipian_photography/s4-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The cause: platforms like Xiaohongshu keep pushing viral camera angles, flash styles, and homogenized content. The trends of the day — selective color, cyberpunk saturation, Korean watermarks — look like rejects today. Create to the platform's rules now, and years later you may face the same embarrassment.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>viral camera angle → 流行机位；selective color → 局部留色；cyberpunk saturation → 赛博朋克饱和；homogenized content → 同质化内容</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>解法：创作核心不变，只在宣传形式（标题、封面）上适度迎合；拍什么自己决定，封面图可以配合平台调性</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/feipian_photography/s4-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The fix: keep the core of your work unchanged and only bend on the packaging — titles and cover images. You decide what to shoot; the cover can follow the platform's vibe.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>the packaging → 宣传形式/包装；cover image → 封面图；platform vibe → 平台调性；bend on → 在…上让步</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>严重程度：小心（影响长期作品集一致性）</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/feipian_photography/s4-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Severity: be careful — it threatens the coherence of your long-term portfolio.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>portfolio coherence → 作品集一致性；threaten → 影响/威胁；long-term → 长期的</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）老潘担忧：「如果我们按照这种方式来创作，会不会就是我们今天看过去的废片一样的感受？」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/feipian_photography/s4-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Pan worries: "If we keep creating this way, won't we feel about these the way we feel about our old rejects today?"</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>feel about → 对…的感受；keep creating this way → 一直按这种方式创作</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>白熊：最好看的反而不马上发；朋友圈发项目「上海礼厢」系列+活人感日常；小红书封面要有网感</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/feipian_photography/s4-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Bai Xiong: save your best work — don't post it right away. On WeChat Moments she posts her "Shanghai Gift Room" series plus everyday human moments; on Xiaohongshu, the cover has to have that internet flavor.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>save the best for later → 好东西不急着发；human moments → 活人感日常；internet flavor → 网感</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>塞文：平时很少随手拍；旅行/工作坊期间每天发一组朋友圈（从 500-1000 张中选 9 张），小红书滞后精选发布，营造稍专业人设</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/feipian_photography/s4-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Seven: he rarely snap-shoots day to day; during trips or workshops he posts one set daily on Moments — picking nine from five hundred to a thousand shots — and posts a curated selection on Xiaohongshu later, building a slightly more professional persona.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>snap-shoot → 随手拍；curated selection → 精选发布；persona → 人设</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「迎合平台会毁掉作品的独特性」</p><div class="chunks">fast track to · looking dated · the first casualty</div><small>fast track to 口语点评；the first casualty 是书面表达</small></li>
+<li><p>想说「好东西不急着发」</p><div class="chunks">don't get posted first · hold back</div><small>hold back 更主动，符合刻意运营的语气</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s5" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S5</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/feipian_photography/s5.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>五、心法与金句</h2>
+      <p class="scene-title-en">5. Mindset & Golden Lines</p>
+      <p class="context"><b>情境</b>收尾的心法总结：废片是垫脚石、跟过去的自己比、拍一千张才有一张好的。语域：casual 播客点评 + 鼓励收尾。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>为什么重要：害怕废片就不敢拍，而不拍就没有进步。正是当年喜欢到愿意发朋友圈的那些「废片」，推动你持续拍摄直到拍出满意作品</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/feipian_photography/s5-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Why it matters: fear of rejects stops you from shooting, and not shooting means no progress. It's the very "rejects" you loved enough to post on Moments back then that kept you shooting until you made work you're proud of.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>fear of rejects → 害怕废片；kept you shooting → 推动你持续拍摄；work you're proud of → 满意的作品</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>适用边界：跟过去的自己比，不跟别人比；废片是主观相对概念，不代表当年没有真诚喜悦</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/feipian_photography/s5-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The boundary: compare against your past self, not against others. A "reject" is a subjective, relative label — it doesn't mean there was no genuine joy back then.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>compare against your past self → 跟过去的自己比；subjective label → 主观标签；genuine joy → 真诚的喜悦</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）「你只有一张一张的废片拍出来之后，才慢慢的拍到你自己喜欢的照片。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/feipian_photography/s5-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">"Only after you shoot out reject after reject do you slowly start to get photos you actually love."</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>shoot out → 拍出来；reject after reject → 一张又一张废片</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）怎么落地：翻出旧照对照分析；参与 Photo Reason「废片在哪里」投稿活动，勇敢展示黑历史</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/feipian_photography/s5-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">How to apply it: dig out your old shots and compare them; join Photo Reason's "Where Are Your Rejects" submission campaign and bravely show your shame files.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>dig out → 翻出；shame files / black history → 黑历史；submission campaign → 投稿活动</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>为什么重要：平卡索夫说拍 1000 张可能只有一张好甚至没有；一次旅行/拍摄中有一张满意就该骄傲。Amy 在伊斯坦布尔工作坊结束时也这样安慰老潘</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/feipian_photography/s5-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Why it matters: Pinkhasov says out of a thousand frames you might get one good one — or none. If you leave a trip or a shoot with one shot you're happy with, that's something to be proud of. Amy gave Pan the same comfort at the end of the Istanbul workshop.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>out of a thousand frames → 一千张里；leave with one shot you're happy with → 带走一张满意的就知足；comfort → 安慰</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>适用边界：适用于缓解出片焦虑，不意味着可以停止练习——量变仍是质变前提</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/feipian_photography/s5-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The boundary: it soothes output anxiety, but it doesn't mean you can stop practicing — volume is still the precondition for transformation.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>soothe anxiety → 缓解焦虑；output anxiety → 出片焦虑；precondition → 前提</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「拍得烂也比不拍强」</p><div class="chunks">beats · an empty memory card · infinitely better</div><small>第一句口语俏皮，第二句适合直接劝告</small></li>
+<li><p>想说「有一张好照片就值得骄傲」</p><div class="chunks">a keeper · is a win · something to celebrate</div><small>a keeper 是摄影/钓鱼语境常用词，形容能留下的佳作</small></li>
+        </ol>
+      </details>
+    </section>
+      <section class="study-section" id="practice">
+      <h2 class="section-heading">今日可练 <small>PRACTICE TODAY</small></h2>
+      <div class="study-grid">
+        <article>
+          <p>用「reject photo」说：废片是进步的证据。</p>
+          <div class="practice-en">
+            Every reject photo is proof that your eye is growing.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/feipian_photography/practice-0.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「strike a pose」说：以前写真是在摆姿势。</p>
+          <div class="practice-en">
+            My old portraits were mostly me striking a pose, not being myself.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/feipian_photography/practice-1.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「make things click」说：模仿好作品让我开窍。</p>
+          <div class="practice-en">
+            Copying good work online is what finally made things click for me.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/feipian_photography/practice-2.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「a keeper」说：一次旅行有一张满意的就该骄傲。</p>
+          <div class="practice-en">
+            If you come back from a trip with even one keeper, you can be proud.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/feipian_photography/practice-3.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article>
+      </div>
+    </section>
+      <section class="study-section pitfalls" id="pitfalls">
+      <h2 class="section-heading">避坑 <small>PITFALLS</small></h2>
+      <div class="study-grid">
+        <article>
+          <div class="wrong">✕ My old photos are very garbage.</div>
+          <div class="right">✓ A lot of my old shots are flat-out rejects now.</div>
+          <p>garbage 直译很粗鲁且不自然；讨论作品用 reject / outtake / didn't hold up 更地道，也符合播客语境。</p>
+        </article><article>
+          <div class="wrong">✕ The photo's composition is very beautiful.</div>
+          <div class="right">✓ The composition is well balanced — every element has room to breathe.</div>
+          <p>beautiful 太宽泛；摄影点评常用 balanced、harmonious、deliberate 描述构图，用具体特征代替笼统形容词。</p>
+        </article><article>
+          <div class="wrong">✕ I improved my photography skills very fast.</div>
+          <div class="right">✓ My progress came in small, unglamorous steps over years.</div>
+          <p>very fast 太笼统；强调渐进积累用 step by step、milestone、stack up 等词，也符合本期「没有捷径」的观点。</p>
+        </article><article>
+          <div class="wrong">✕ This photo makes me feel very shy.</div>
+          <div class="right">✓ This shot makes me cringe a little now.</div>
+          <p>shy 是描述性格的词；对作品「尴尬/难为情」用 cringe、facepalm、embarrassing 才地道。</p>
+        </article>
+      </div>
+    </section>
+      <section class="study-section shifts" id="mindset">
+      <h2 class="section-heading">认知转变 <small>MINDSET SHIFTS</small></h2>
+      <div class="study-grid">
+        <article>
+          <span>以为废片 = 失败的作品，越少越好</span>
+          <b aria-hidden="true">→</b>
+          <strong>废片是进步的垫脚石——能识别废片本身就证明审美在提升</strong>
+        </article><article>
+          <span>以为进步来自器材升级或天赋</span>
+          <b aria-hidden="true">→</b>
+          <strong>进步来自商单压力、画册浸泡、工作坊与社群等一个个具体节点</strong>
+        </article><article>
+          <span>以为构图教条（分割线不切脖子）必须遵守</span>
+          <b aria-hidden="true">→</b>
+          <strong>教条只是起点，关键看画面是否真实自然、视线是否落在人物身上</strong>
+        </article>
+      </div>
+    </section>
+      <footer>
+        双语学习版 · 场景/句子朗读使用 edge-tts（en-US） · 单词发音使用浏览器 Web Speech API
+        <div class="footer-note">中文版：<a href="feipian_photography-总结.html">feipian_photography-总结.html</a> · SVG 版：<a href="viewer.html?f=feipian_photography-总结.svg" target="_blank">feipian_photography-总结.svg</a></div>
+      </footer>
+    </div>
+  </main>
+  <script>(() => {
+  let activeAudio = null;
+  let activeBtn = null;
+  const status = document.getElementById('speech-status');
+  const stopBtn = document.getElementById('stop-speech');
+  const rateSel = document.getElementById('speech-rate');
+
+  const reset = () => {
+    if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+    activeBtn?.classList.remove('playing');
+    activeBtn = null;
+    stopBtn.classList.remove('visible');
+    status.textContent = '';
+  };
+
+  const playAudio = (url, btn) => {
+    reset();
+    const audio = new Audio(url);
+    audio.playbackRate = Number(rateSel.value);
+    activeAudio = audio;
+    activeBtn = btn;
+    btn.classList.add('playing');
+    stopBtn.classList.add('visible');
+    status.textContent = btn.classList.contains('scene-speak')
+      ? 'Reading the whole scene…'
+      : 'Reading…';
+
+    audio.onended = () => { if (activeAudio === audio) reset(); };
+    audio.onerror = () => { status.textContent = 'Audio failed to load.'; if (activeAudio === audio) reset(); };
+    audio.play().catch(() => { status.textContent = 'Playback failed.'; if (activeAudio === audio) reset(); });
+  };
+
+  document.addEventListener('click', e => {
+    const btn = e.target.closest('[data-audio]');
+    if (!btn) return;
+    e.preventDefault();
+    if (btn === activeBtn && activeAudio) { reset(); return; }
+    playAudio(btn.dataset.audio, btn);
+  });
+
+  stopBtn.addEventListener('click', reset);
+
+  const synth = window.speechSynthesis;
+  const getEnglishVoice = () => {
+    const voices = synth.getVoices();
+    return voices.find(v => /^en-(US|GB)/i.test(v.lang))
+        || voices.find(v => /^en/i.test(v.lang)) || null;
+  };
+
+  const difficultWords = new Set([
+    'assortment', 'SKU', 'premium', 'margin', 'middleman', 'OEM', 'rebranding',
+    'hoarding', 'PTSD', 'curation', 'repurchase', 'touchpoint', 'backlash',
+    'reshuffle', 'funnel', 'anchor', 'contract', 'psychology', 'private', 'label',
+    'editorial', 'familiar', 'competitors', 'authorization', 'flexibility'
+  ]);
+
+  const shouldPronounce = word => {
+    const n = word.toLowerCase().replace(/^[^a-z]+|[^a-z]+$/g, '');
+    return n.replace(/[^a-z]/g, '').length >= 8 || difficultWords.has(n);
+  };
+
+  const markPronounceableWords = root => {
+    const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+    const nodes = [];
+    while (walker.nextNode()) nodes.push(walker.currentNode);
+    nodes.forEach(node => {
+      if (node.parentElement?.closest('button, script, style')) return;
+      const text = node.nodeValue;
+      let m, last = 0, changed = false;
+      const frag = document.createDocumentFragment();
+      const re = /[A-Za-z]+(?:[-'’][A-Za-z]+)*/g;
+      while ((m = re.exec(text))) {
+        if (!shouldPronounce(m[0])) continue;
+        changed = true;
+        frag.append(text.slice(last, m.index));
+        const wb = document.createElement('button');
+        wb.type = 'button'; wb.className = 'pronounce-word';
+        wb.dataset.speak = m[0];
+        wb.setAttribute('aria-label', '\u8bfb\u5355\u8bcd ' + m[0]);
+        wb.title = '\u70b9\u51fb\u542c\u53d1\u97f3';
+        wb.textContent = m[0];
+        frag.append(wb);
+        last = m.index + m[0].length;
+      }
+      if (!changed) return;
+      frag.append(text.slice(last));
+      node.replaceWith(frag);
+    });
+  };
+
+  document.querySelectorAll(
+    '.english, .scene-title-en, .paraphrase li p, .chunks, .practice-en, .wrong, .right, .summary-en'
+  ).forEach(markPronounceableWords);
+
+  document.addEventListener('click', e => {
+    const wb = e.target.closest('.pronounce-word');
+    if (!wb) return;
+    e.preventDefault();
+    if (!synth) return;
+    synth.cancel();
+    if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+    activeBtn?.classList.remove('playing');
+    activeBtn = wb;
+    wb.classList.add('playing');
+    const u = new SpeechSynthesisUtterance(wb.dataset.speak);
+    u.lang = 'en-US';
+    u.rate = 0.88;
+    const v = getEnglishVoice();
+    if (v) u.voice = v;
+    u.onend = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+    u.onerror = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+    synth.speak(u);
+  });
+})();</script>
+</body>
+</html>

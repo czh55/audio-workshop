@@ -1,0 +1,424 @@
+{
+  "slug": "tiwei_management_weimei",
+  "date": "2026-07-23",
+  "platform": "小宇宙FM",
+  "title": "请人类全体起立，认真学习体味管理",
+  "title_en": "All of Humanity, Please Rise: Time to Learn Body Odor Management",
+  "eyebrow": "Health & Daily Life · 健康与日常生活",
+  "duration": "1小时28分",
+  "source_url": "https://www.xiaoyuzhoufm.com/episode/6a5b5f8b14e09e78bf26ca17",
+  "summary_cn": "某高老师与粒粒从「老人味」聊到汗味、口臭、脚臭与加龄臭：汗本身无味，臭味来自大汗腺信息素+细菌发酵+衣物滞留；东亚人 ABCC11 基因体味淡但别自满；睡眠<6h 一周大汗腺分泌增 35%；换衣比只洗澡更重要；皮质醇是压力时代的体味开关",
+  "summary_en": "A teacher nicknamed Gao and host Lili start from 'old person smell' and work through sweat, bad breath, smelly feet, and aging odor. Sweat itself is odorless — the smell comes from apocrine gland pheromones, bacterial fermentation, and residue in clothes. East Asians carry the ABCC11 gene variant that keeps body odor mild, but that's no excuse for complacency. Sleeping under six hours for a week boosts apocrine secretion by 35 percent. Changing clothes matters more than showering. And cortisol is the body-odor switch of our stressful era.",
+  "scenes": [
+    {
+      "id": "s1",
+      "title_cn": "一、社交距离与体味感知",
+      "title_en": "Social Distance and How We Perceive Body Odor",
+      "context": "体味困扰只发生在社交距离内，口臭是杀伤力最大的体味。语域：casual 播客闲聊 + 科普。",
+      "speak": "Let's start with the basics: only body odor within social distance, about half a meter to one and a half, becomes a problem. Something you smell riding past in the distance has nothing to do with you. And among all body odors, bad breath is the most damaging within social distance. Underarm smell barely travels unless it's extremely strong, but smelly feet can cut right through a cubicle wall. Think of the typical scenes: the subway, the office, waiting rooms, and close relationships. As the hosts say, bad breath is actually the biggest nuisance for people, while underarm odor, unless extremely strong, doesn't affect that many people. Interestingly, pandemic-era mask wearing made people more sensitive to their own body odor. Lili spent a Monday morning at the hospital, and nearly everyone had bad breath — it crushed her appetite and her goodwill toward the world. People wearing masks gave off no smell at all, and she wished she hadn't given up that barrier after the pandemic.",
+      "sentences": [
+        {
+          "cn": "核心机制：只有进入社交距离（约 0.5–1.5 米）的体味才会造成困扰；远处骑车过去的臭味与你无关",
+          "en": "The core mechanism: only body odor within social distance, about half a meter to one and a half, becomes a problem. Something you smell riding past in the distance has nothing to do with you.",
+          "note": "<span>表达提示</span>social distance → 社交距离；body odor → 体味；has nothing to do with you → 与你无关"
+        },
+        {
+          "cn": "关键理解：口臭是社交距离内杀伤力最大的体味；腋臭除非极浓否则影响范围小；脚臭可穿透隔间",
+          "en": "The key insight: bad breath is the most damaging odor within social distance. Underarm smell barely travels unless it's extremely strong, but smelly feet can cut right through a cubicle wall.",
+          "note": "<span>表达提示</span>bad breath → 口臭；underarm → 腋下；cut through → 穿透"
+        },
+        {
+          "cn": "典型场景：地铁、办公室、医院候诊、亲密关系",
+          "en": "Typical scenes: the subway, the office, waiting rooms, and close relationships.",
+          "note": "<span>表达提示</span>waiting room → 候诊室；close relationship → 亲密关系"
+        },
+        {
+          "cn": "（引用）原文依据：「口臭其实对人是困扰最大的……夜臭除非特别特别浓，否则影响不到太多人。」",
+          "en": "Direct quote: 'Bad breath is actually the biggest nuisance for people... unless underarm odor is extremely strong, it doesn't affect that many people.'",
+          "note": "<span>表达提示</span>nuisance → 困扰；extremely strong → 特别浓"
+        },
+        {
+          "cn": "（引用）相关概念：疫情戴口罩反而让人对自身体味更敏感",
+          "en": "Related concept: pandemic-era mask wearing actually made people more sensitive to their own body odor.",
+          "note": "<span>表达提示</span>pandemic-era → 疫情期间；sensitive to → 对…敏感"
+        },
+        {
+          "cn": "粒粒周一在医院一上午，几乎每个人口臭，严重打击食欲和对世界的好感；戴口罩的人身上一点味都没有，后悔疫情后少了这层屏障",
+          "en": "Lili spent a Monday morning at the hospital, and nearly everyone had bad breath — it crushed her appetite and her goodwill toward the world. People wearing masks gave off no smell at all, and she wished she hadn't given up that barrier after the pandemic.",
+          "note": "<span>表达提示</span>crush one's appetite → 打击食欲；goodwill toward the world → 对世界的好感；barrier → 屏障"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「只有离得近才闻得到」",
+          "phrases": [
+            "It only matters when someone gets within arm's reach.",
+            "The smell only becomes an issue up close."
+          ],
+          "chunks": "within arm's reach · up close",
+          "usage": "第一句更口语，第二句中性"
+        },
+        {
+          "intent": "想说「口罩成了挡臭屏障」",
+          "phrases": [
+            "Masks doubled as a smell barrier.",
+            "Wearing a mask blocked out other people's breath."
+          ],
+          "chunks": "doubled as a barrier · blocked out",
+          "usage": "第二句更具体"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title_cn": "二、大汗腺、基因与「种族天赋」",
+      "title_en": "Apocrine Glands, Genes, and the 'Ethnic Advantage'",
+      "context": "大汗腺与 ABCC11 基因突变，东亚人体味淡是基因突变的结果。语域：casual 科普 + 基因话题。",
+      "speak": "Next, the biology. Eccrine glands, all over the body and on the soles, secrete odorless sweat. Apocrine glands — underarms, ear canals, areolas, and the perineum — secrete a thick, pheromone-rich fluid that is the main source of body odor. Smelly feet mostly come from foot conditions or sweat plus bacterial fermentation, not from apocrine glands. And here's a neat indicator: sweaty ears mean developed apocrine glands, which correlates with the likelihood of underarm odor. You can check whether you carry the wet-earwax variant of the ABCC11 gene, and choose to wash apocrine-rich areas like the underarms. As the episode notes, East Asians seem to have a gene mutation, so most people have very little body odor. That mutation leaves most East Asians with underdeveloped apocrine glands and mild body odor. But don't get smug. A body-odor donation study had raters rank how pleasant each age group smelled: the order was middle-aged women, elderly men, young women, elderly women, young men, and, least favored, middle-aged men.",
+      "sentences": [
+        {
+          "cn": "核心机制：小汗腺（全身+脚底）分泌无味汗液；大汗腺（腋下、外耳道、乳晕、会阴）分泌含信息素的黏稠分泌物，是体味主源",
+          "en": "The core mechanism: eccrine glands, all over the body and on the soles, secrete odorless sweat. Apocrine glands — underarms, ear canals, areolas, and the perineum — secrete a thick, pheromone-rich fluid that is the main source of body odor.",
+          "note": "<span>表达提示</span>eccrine gland → 小汗腺；apocrine gland → 大汗腺；pheromone → 信息素；perineum → 会阴"
+        },
+        {
+          "cn": "关键理解：脚臭多因足部疾病或汗液+细菌发酵，不是大汗腺；耳朵出汗=大汗腺发达，与腋臭概率相关",
+          "en": "The key insight: smelly feet mostly come from foot conditions or sweat plus bacterial fermentation, not from apocrine glands. Sweaty ears mean developed apocrine glands, which correlates with the likelihood of underarm odor.",
+          "note": "<span>表达提示</span>fermentation → 发酵；sweaty ears → 耳朵出汗；correlate with → 与…相关"
+        },
+        {
+          "cn": "典型场景：判断自己是否有「湿耳垢」型 ABCC11 基因；选择洗腋下等大汗腺部位",
+          "en": "A typical scene: checking whether you carry the 'wet earwax' variant of the ABCC11 gene, and choosing to wash apocrine-rich areas like the underarms.",
+          "note": "<span>表达提示</span>wet earwax → 湿耳垢；gene variant → 基因变异型"
+        },
+        {
+          "cn": "（引用）原文依据：「东亚人这个好像有一个基因的突变……大多数人都没有什么体味。」",
+          "en": "Direct quote: 'East Asians seem to have a gene mutation... so most people have very little body odor.'",
+          "note": "<span>表达提示</span>gene mutation → 基因突变；little body odor → 体味淡"
+        },
+        {
+          "cn": "（引用）相关概念：ABCC11 基因突变使多数东亚人大汗腺不发达、体味淡",
+          "en": "Related concept: the ABCC11 gene mutation leaves most East Asians with underdeveloped apocrine glands and mild body odor.",
+          "note": "<span>表达提示</span>underdeveloped → 不发达；mild body odor → 体味淡"
+        },
+        {
+          "cn": "引用体味捐赠研究：评估员对年龄组体味愉悦度排序为中年女性 > 老年男性 > 青年女性 > 老年女性 > 青年男性 > 中年男性（最不受欢迎）",
+          "en": "A body-odor donation study: when raters ranked how pleasant each age group smelled, the order was middle-aged women, elderly men, young women, elderly women, young men, and, least favored, middle-aged men.",
+          "note": "<span>表达提示</span>rater → 评估员；rank → 排序；least favored → 最不受欢迎"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「东亚人体味淡是基因突变的结果」",
+          "phrases": [
+            "Mild body odor in East Asians comes down to a gene mutation.",
+            "It's not a virtue — it's a genetic roll of the dice."
+          ],
+          "chunks": "comes down to · a genetic roll of the dice",
+          "usage": "第二句提醒别自满，很点题"
+        },
+        {
+          "intent": "想说「大汗腺是体味主源」",
+          "phrases": [
+            "The apocrine glands are where the smell comes from.",
+            "Body odor is mostly apocrine business."
+          ],
+          "chunks": "where the smell comes from · apocrine business",
+          "usage": "第二句俏皮口语"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title_cn": "三、加重体味的日常行为",
+      "title_en": "Everyday Habits That Make Odor Worse",
+      "context": "洗澡不换衣、睡眠不足与皮质醇——日常行为如何加重体味。语域：casual 播客分享 + 生活建议。",
+      "speak": "Now, the everyday habits that quietly make it worse. The cause is simple: you shower clean but put on worn clothes, synthetic fibers don't breathe, sheets dry in the shade, and rooms are poorly ventilated — odors ferment and pile up on the fabric. The fix: change your underwear every day; swap the whole outfit within 30 minutes of exercise; and wash sheets often, drying them in the sun or a dryer. This one is fatal — it's the most common cause, and the easiest to fix. As the guest puts it: which do you think matters more, showering or changing clothes? Plenty of people shower without changing. Then there's sleep: a week of sleeping under six hours a night raises apocrine secretion by about 35 percent — one shower won't fix it. And cortisol, the ancient prepare-for-battle hormone, has to be burned off through exercise rather than lying there anxious.",
+      "sentences": [
+        {
+          "cn": "原因：洗澡干净却穿脏衣、合成纤维不透气、床单阴干、房间通风差，气味在织物上发酵叠加",
+          "en": "The cause: you shower clean but put on worn clothes, synthetic fibers don't breathe, sheets dry in the shade, and rooms are poorly ventilated — odors ferment and pile up on the fabric.",
+          "note": "<span>表达提示</span>synthetic fiber → 合成纤维；ventilate → 通风；ferment → 发酵；pile up → 叠加"
+        },
+        {
+          "cn": "解法：贴身衣物每天换；运动后 30 分钟内换全套；床单勤洗晒干或烘干",
+          "en": "The fix: change your underwear every day; swap the whole outfit within 30 minutes of exercise; and wash sheets often, drying them in the sun or a dryer.",
+          "note": "<span>表达提示</span>underwear → 贴身衣物；swap the whole outfit → 换全套；sheets → 床单"
+        },
+        {
+          "cn": "严重程度：致命（最常见且可改）",
+          "en": "How serious: fatal — the most common cause, and the easiest to fix.",
+          "note": "<span>表达提示</span>the most common cause → 最常见原因；easy to fix → 容易改"
+        },
+        {
+          "cn": "（引用）嘉宾说法：「你觉得洗澡重要还是换衣服重要？……多了去了（洗澡不换衣）。」",
+          "en": "Guest quote: 'Which do you think matters more, showering or changing clothes?... Plenty of people shower without changing.'",
+          "note": "<span>表达提示</span>matters more → 更重要；plenty of → 多了去了"
+        },
+        {
+          "cn": "原因：连续一周每天睡眠 <6 小时，大汗腺分泌增加约 35%，洗一次澡解决不了",
+          "en": "The cause: a week of sleeping under six hours a night raises apocrine secretion by about 35 percent — one shower won't fix it.",
+          "note": "<span>表达提示</span>sleep under six hours → 睡眠不足 6 小时；secretion → 分泌；one shower won't fix it → 洗一次澡解决不了"
+        },
+        {
+          "cn": "解法：皮质醇是远古「备战激素」，要通过运动消耗出去，而非躺着焦虑",
+          "en": "The fix: cortisol is an ancient 'prepare-for-battle' hormone, so burn it off through exercise rather than lying there anxious.",
+          "note": "<span>表达提示</span>cortisol → 皮质醇；burn off → 消耗掉；prepare-for-battle → 备战"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「洗澡不如换衣服重要」",
+          "phrases": [
+            "Changing your clothes beats showering, honestly.",
+            "A clean body in dirty clothes is pointless."
+          ],
+          "chunks": "beats showering · clean body, dirty clothes",
+          "usage": "第一句直接，第二句点破荒诞"
+        },
+        {
+          "intent": "想说「睡不够身体就在加重体味」",
+          "phrases": [
+            "Skimping on sleep literally makes you smell more.",
+            "Sleep less, sweat more — it's biochemical."
+          ],
+          "chunks": "skimp on sleep · biochemical",
+          "usage": "第二句简洁有力"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "title_cn": "四、减味行动清单（科学版）",
+      "title_en": "The Scientific Odor-Reduction Checklist",
+      "context": "一份可执行的减味行动清单——清洁、换衣、口腔与观念。语域：casual 清单式讲解 + 观念反思。",
+      "speak": "So here's the scientific odor-reduction checklist. One: thoroughly wash the apocrine-rich areas — underarms, ear canals, perineum — with body wash, not just a rinse of water. Two: if you're on the stronger-smelling side, after a mildly acidic body wash, wipe the area with a 75-percent alcohol pad to lower the bacterial load. Three: change all your underlayers within 30 minutes of exercise, so sweat doesn't ferment in the fabric and produce sulfur compounds. Four: for the mouth, brush multiple times a day plus floss or a water flosser, and treat periodontal disease if you have it. To make it real: after soaking your feet, dry thoroughly between the toes, and pick cotton or silver-ion antibacterial undergarments. And why does this matter? Because many people treat sweat smell as primitive purity and perfume as a harmful cover-up, and men who wear cologne even get called girly.",
+      "sentences": [
+        {
+          "cn": "1. 大汗腺部位（腋下、外耳道、会阴）用沐浴露彻底清洁，勿只用清水冲",
+          "en": "One: thoroughly wash the apocrine-rich areas — underarms, ear canals, perineum — with body wash, not just a rinse of water.",
+          "note": "<span>表达提示</span>body wash → 沐浴露；thoroughly wash → 彻底清洁；a rinse → 用水冲一下"
+        },
+        {
+          "cn": "2. 体味重者：弱酸沐浴露后 75% 酒精棉片局部擦拭，降低细菌负荷",
+          "en": "Two: if you're on the stronger-smelling side, after a mildly acidic body wash, wipe the area with a 75-percent alcohol pad to lower the bacterial load.",
+          "note": "<span>表达提示</span>mildly acidic → 弱酸；alcohol pad → 酒精棉片；bacterial load → 细菌负荷"
+        },
+        {
+          "cn": "3. 运动后 30 分钟内更换全部贴身衣物，避免汗液在织物中发酵产硫化物",
+          "en": "Three: change all your underlayers within 30 minutes of exercise, so sweat doesn't ferment in the fabric and produce sulfur compounds.",
+          "note": "<span>表达提示</span>underlayer → 贴身衣物；sulfur compound → 硫化物；produce → 产生"
+        },
+        {
+          "cn": "4. 口腔：每日多次刷牙+牙线/冲牙器；牙周病须治疗",
+          "en": "Four: for the mouth, brush multiple times a day plus floss or a water flosser, and treat periodontal disease if you have it.",
+          "note": "<span>表达提示</span>floss → 牙线；water flosser → 冲牙器；periodontal disease → 牙周病"
+        },
+        {
+          "cn": "（引用）怎么落地：泡脚后脚缝彻底擦干；选纯棉/银离子抗菌内衣",
+          "en": "How to make it real: after soaking your feet, dry thoroughly between the toes; and pick cotton or silver-ion antibacterial undergarments.",
+          "note": "<span>表达提示</span>between the toes → 脚缝；silver-ion → 银离子；antibacterial → 抗菌"
+        },
+        {
+          "cn": "为什么重要：很多人把汗味当「原始纯净」，把香水当有害盖味；男生喷香水还被说「娘」",
+          "en": "Why it matters: many people treat sweat smell as 'primitive purity' and perfume as a harmful cover-up; men who wear cologne even get called 'girly.'",
+          "note": "<span>表达提示</span>primitive purity → 原始纯净；cover-up → 掩盖物；get called → 被人说"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「洗对了地方比洗得久重要」",
+          "phrases": [
+            "Where you wash matters more than how long.",
+            "Target the apocrine zones, not just the surface."
+          ],
+          "chunks": "where you wash · target the zones",
+          "usage": "第一句好记，第二句更科普"
+        },
+        {
+          "intent": "想说「不要用香水盖味，而是消除根源」",
+          "phrases": [
+            "Don't mask the smell — eliminate the source.",
+            "Perfume on top of odor just makes it worse."
+          ],
+          "chunks": "mask vs eliminate · on top of",
+          "usage": "第二句点出常见误区"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "title_cn": "五、加龄臭、疾病与年龄节点",
+      "title_en": "Aging Odor, Disease, and the Age Milestones",
+      "context": "老人味（加龄臭）的成因、可检测的年龄节点，以及疾病气味的就医建议。语域：casual 科普 + 人文关怀。",
+      "speak": "Then there's aging odor. The core mechanism: as skin's unsaturated Omega-7 acid oxidizes with age, it produces 2-nonenal, layered on top of dead-skin bacteria breakdown, declining organ metabolism, oral disease, and drug metabolites. It's not one substance but a compound smell, and clothes and bedding absorb the lingering traces. The milestones: it becomes detectable from ages 40 to 45, and beyond 55, 89 percent of people can be clearly smelled by others. As the episode explains, old person smell isn't caused by a single substance; it's 2-nonenal stacked on the metabolic products of skin flora. And sometimes smell signals disease: kidney failure can give the mouth a urine-like smell, acute periodontal inflammation stinks, and metabolic diseases like diabetes have their own characteristic scents. So the fix is to gently suggest seeing a doctor instead of humiliating someone in public — for the sick, reach for a mask and empathy rather than disgust.",
+      "sentences": [
+        {
+          "cn": "核心机制：皮肤 Omega-7 不饱和酸随衰老氧化生成 2-壬烯醛，叠加死皮菌群分解、内脏代谢衰退、口腔疾病、药物代谢物",
+          "en": "The core mechanism: as skin's unsaturated Omega-7 acid oxidizes with age, it produces 2-nonenal, layered on top of dead-skin bacteria breakdown, declining organ metabolism, oral disease, and drug metabolites.",
+          "note": "<span>表达提示</span>Omega-7 → 欧米伽-7；2-nonenal → 2-壬烯醛；oxidize → 氧化；metabolite → 代谢物"
+        },
+        {
+          "cn": "关键理解：不是单一物质，是复合气味；衣服、床铺会吸附残留「痕迹」",
+          "en": "The key insight: it's not one substance but a compound smell, and clothes and bedding absorb the lingering traces.",
+          "note": "<span>表达提示</span>compound smell → 复合气味；bedding → 床铺；lingering trace → 残留痕迹"
+        },
+        {
+          "cn": "典型场景：40–45 岁进入可检测阶段；55 岁以上 89% 可被他人明确感知",
+          "en": "Typical milestones: detectable from ages 40 to 45, and beyond 55, 89 percent of people can be clearly smelled by others.",
+          "note": "<span>表达提示</span>detectable → 可检测的；clearly smelled → 被明确感知"
+        },
+        {
+          "cn": "（引用）原文依据：「老人味不是单一物质造成的，是壬烯醛叠加了皮肤菌群代谢产物……」",
+          "en": "Direct quote: 'Old person smell isn't caused by a single substance; it's 2-nonenal stacked on the metabolic products of skin flora...'",
+          "note": "<span>表达提示</span>skin flora → 皮肤菌群；metabolic product → 代谢产物；stack on → 叠加"
+        },
+        {
+          "cn": "原因：肾衰竭可致口中有尿味；牙周急性炎症有恶臭；糖尿病等代谢病亦有特征气味",
+          "en": "The cause: kidney failure can give the mouth a urine-like smell; acute periodontal inflammation stinks; and metabolic diseases like diabetes have their own characteristic scents.",
+          "note": "<span>表达提示</span>kidney failure → 肾衰竭；acute inflammation → 急性炎症；characteristic scent → 特征气味"
+        },
+        {
+          "cn": "解法：委婉建议就医，而非当众羞辱；对病患用口罩+共情，而非嫌弃",
+          "en": "The fix: gently suggest seeing a doctor instead of humiliating someone in public; for the sick, reach for a mask and empathy rather than disgust.",
+          "note": "<span>表达提示</span>gently suggest → 委婉建议；humiliate → 羞辱；empathy → 共情；disgust → 嫌弃"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「老人味是复合气味，不是单一物质」",
+          "phrases": [
+            "Aging odor is a cocktail, not a single molecule.",
+            "It's a blend of compounds, not one thing."
+          ],
+          "chunks": "a cocktail · a blend of compounds",
+          "usage": "cocktail 更形象"
+        },
+        {
+          "intent": "想说「建议就医要委婉，别当面嫌弃」",
+          "phrases": [
+            "Bring it up gently — never in front of others.",
+            "Name it kindly, and offer help, not shame."
+          ],
+          "chunks": "bring it up gently · name it kindly",
+          "usage": "第二句更有温度"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "title_cn": "六、人生各阶段体味图谱",
+      "title_en": "The Body-Odor Map of a Lifetime",
+      "context": "从奶香到加龄臭的人生体味图谱，以及精力状态与体味的关系。语域：casual 播客总结 + 温情收尾。",
+      "speak": "Finally, the body-odor map of a lifetime. The arc runs: milky scent, through a parent's lens; then the puppy-and-chick smell of early childhood; the heavy sweat and oil of adolescence; the middle-aged lamp smell, an emotional word, not dad-style nagging; and finally the aging odor of old age. Everyone can end up feeling fine about themselves. As the episode puts it, early childhood has the puppy-and-chick smell, middle age is the lamp smell, and old age is aging odor — we carry it all through life. Biologically, in puberty apocrine gland volume grows by 200 percent, and menopause's hormone plunge changes secretion patterns too. Why does this matter? People with low energy, who feel sluggish and collapse on the couch after work, tend to get oilier and smellier — high energy is a sign of health. Though low energy caused by illness or depression is a different case — it's not a moral failing. And as the hosts say, life isn't limited to doing one thing: you can shower while learning.",
+      "sentences": [
+        {
+          "cn": "奶香（父母滤镜）→ 幼童小狗/小鸡味 → 青春期浓重汗味+油脂 → 中年「灯味」（情绪词，非爹味）→ 老年加龄臭。每个人都可能自我感觉良好",
+          "en": "The map: milky scent, through a parent's lens, then the puppy-and-chick smell of early childhood, the heavy sweat and oil of adolescence, the middle-aged 'lamp smell' — an emotional word, not dad-style nagging — and finally the aging odor of old age. Everyone can end up feeling fine about themselves.",
+          "note": "<span>表达提示</span>parent's lens → 父母滤镜；lamp smell → 灯味；nagging → 爹味；aging odor → 加龄臭"
+        },
+        {
+          "cn": "（引用）原文依据：「幼童期有小狗味小鸡味……中年是灯味……老年是加龄臭，我们一生都带着。」",
+          "en": "Direct quote: 'Early childhood has the puppy-and-chick smell... middle age is the lamp smell... and old age is aging odor — we carry it all through life.'",
+          "note": "<span>表达提示</span>puppy-and-chick smell → 小狗小鸡味；carry it all through life → 一生都带着"
+        },
+        {
+          "cn": "（引用）相关概念：青春期大汗腺体积增大 200%；更年期激素骤降也会改变分泌模式",
+          "en": "Related concept: in puberty, apocrine gland volume grows by 200 percent; menopause's hormone plunge changes secretion patterns too.",
+          "note": "<span>表达提示</span>puberty → 青春期；gland volume → 腺体体积；menopause → 更年期；hormone plunge → 激素骤降"
+        },
+        {
+          "cn": "为什么重要：低精力、懒洋洋、下班后瘫沙发的人，更容易又油又臭；高精力代表健康侧面",
+          "en": "Why it matters: people with low energy, who feel sluggish and collapse on the couch after work, tend to get oilier and smellier; high energy is a sign of health.",
+          "note": "<span>表达提示</span>sluggish → 懒洋洋；collapse on the couch → 瘫沙发；oily → 油"
+        },
+        {
+          "cn": "适用边界：疾病或抑郁导致的低精力需另论，不是道德问题",
+          "en": "The boundary: low energy caused by illness or depression is a different case — it's not a moral failing.",
+          "note": "<span>表达提示</span>a different case → 另论；moral failing → 道德问题"
+        },
+        {
+          "cn": "（引用）「人生不是只能做一件事……你可以学习的同时洗澡。」",
+          "en": "Direct quote: 'Life isn't limited to doing one thing... you can shower while learning.'",
+          "note": "<span>表达提示</span>limited to → 局限于；at the same time → 同时"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「体味图谱贯穿一生」",
+          "phrases": [
+            "Every stage of life has its own signature smell.",
+            "We carry a different scent at every age."
+          ],
+          "chunks": "signature smell · carry a different scent",
+          "usage": "第一句更正式，第二句更柔和"
+        },
+        {
+          "intent": "想说「低精力的人更易油腻有味道」",
+          "phrases": [
+            "Low-energy living makes you oilier and smellier.",
+            "Sluggish days show up in how you smell."
+          ],
+          "chunks": "low-energy living · show up in your smell",
+          "usage": "第二句把抽象联系说得很形象"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "cn": "用「social distance」说：只有社交距离内的体味才困扰人。",
+      "en": "Only body odor within social distance actually bothers people."
+    },
+    {
+      "cn": "用「gene mutation」说：东亚人体味淡是基因突变的结果。",
+      "en": "East Asians' mild body odor comes down to a gene mutation."
+    },
+    {
+      "cn": "用「bacterial load」说：酒精棉片能降低细菌负荷。",
+      "en": "An alcohol pad helps lower the bacterial load."
+    },
+    {
+      "cn": "用「empathy」说：对病患用共情，而不是嫌弃。",
+      "en": "Meet the sick with a mask and empathy, not disgust."
+    }
+  ],
+  "pitfalls": [
+    {
+      "wrong": "My sweat is very smelly today.",
+      "right": "My sweat smells strong today.",
+      "why": "smelly 多形容物与人；sweat smells strong 是更自然的搭配。"
+    },
+    {
+      "wrong": "The old person smell is because of 2-nonenal material.",
+      "right": "Aging odor is a compound smell built on 2-nonenal and skin bacteria.",
+      "why": "「物质」不能直译为 material；compound smell 才是加龄臭的科学表述。"
+    },
+    {
+      "wrong": "I shower every day so I have no smell.",
+      "right": "Showering daily isn't enough if you keep wearing dirty clothes.",
+      "why": "体味主因之一是衣物滞留；只强调洗澡会忽略换衣这个更重要的变量。"
+    },
+    {
+      "wrong": "Don't laugh at the patient, you should cover your nose.",
+      "right": "Don't humiliate the patient — reach for a mask and empathy.",
+      "why": "cover your nose 是嫌弃动作；mask + empathy 才是原文提倡的共情方式。"
+    }
+  ],
+  "shifts": [
+    {
+      "before": "以为汗味=脏、香水=矫情",
+      "after": "汗本身无味，臭味来自大汗腺+细菌+衣物；遮味不如除根"
+    },
+    {
+      "before": "以为洗澡就够，不用换衣",
+      "after": "换衣比只洗澡更重要——气味在织物上发酵叠加"
+    },
+    {
+      "before": "以为老人味是一种宿命",
+      "after": "加龄臭是壬烯醛+菌群+代谢的复合气味，可通过清洁与就医管理"
+    }
+  ],
+  "voice": "en-US-JennyNeural",
+  "audio_dir": "audio/en/tiwei_management_weimei"
+}

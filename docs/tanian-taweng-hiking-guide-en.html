@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="徒步他念他翁：从封山乌龙到商团避坑指南 — Bilingual Learning Edition" />
+  <title>徒步他念他翁：从封山乌龙到商团避坑指南｜EN 双语学习版</title>
+  <style>:root{--teal-950:#073f42;--teal-800:#0d686c;--teal-700:#0f7c80;--teal-600:#14919b;--mint-100:#dff4ec;--mint-50:#f0faf6;--ink:#183536;--muted:#607879;--line:#d7e8e2;--paper:#fff;--amber:#a85d08;--shadow:0 12px 32px rgba(7,63,66,.08)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:24px}
+body{margin:0;color:var(--ink);background:#edf7f2;font-family:Inter,"PingFang SC","Noto Sans SC","Microsoft YaHei",system-ui,sans-serif;line-height:1.65}
+button,select{font:inherit}
+a{color:inherit}
+.hero{color:#fff;background:radial-gradient(circle at 85% 10%,rgba(129,230,196,.24),transparent 30%),linear-gradient(125deg,#073f42,#0d7377 56%,#14919b)}
+.hero-inner{width:min(1440px,100%);margin:auto;padding:44px clamp(20px,5vw,72px) 36px}
+.hero-flex{display:flex;gap:clamp(18px,3vw,40px);align-items:flex-start}
+.hero-cover{width:min(240px,42vw);height:auto;max-height:320px;object-fit:contain;object-position:center;border-radius:16px;border:1px solid rgba(255,255,255,.28);box-shadow:0 18px 44px rgba(0,0,0,.32);flex-shrink:0;background:rgba(255,255,255,.08)}
+.hero-text{min-width:0;flex:1}
+.eyebrow{margin:0 0 12px;font-size:.78rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;opacity:.8}
+h1{max-width:1020px;margin:0;font-size:clamp(1.7rem,3.6vw,3rem);line-height:1.15;letter-spacing:-.04em}
+.hero-en{margin:12px 0 22px;font-size:clamp(1rem,2vw,1.25rem);opacity:.82}
+.hero-meta{display:flex;flex-wrap:wrap;gap:9px;align-items:center}
+.chip{border:1px solid rgba(255,255,255,.28);border-radius:99px;padding:5px 11px;font-size:.82rem;background:rgba(255,255,255,.08)}
+.source-link{font-weight:750;text-decoration:none;border-bottom:1px solid rgba(255,255,255,.5)}
+.toolbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:22px}
+.toolbar label{font-size:.82rem;opacity:.82}
+.toolbar select{color:#fff;background:#0a5d61;border:1px solid rgba(255,255,255,.3);border-radius:8px;padding:7px 9px}
+.stop-btn{display:none;color:#fff;background:#8c3b2a;border:0;border-radius:8px;padding:8px 12px;cursor:pointer}
+.stop-btn.visible{display:inline-flex}
+.speech-status{min-height:1.4em;font-size:.82rem;opacity:.88}
+.lang-switch{display:inline-flex;gap:6px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.28);border-radius:99px;padding:4px}
+.lang-switch a{display:inline-block;padding:4px 13px;border-radius:99px;font-size:.8rem;font-weight:700;text-decoration:none;color:rgba(255,255,255,.75)}
+.lang-switch a.active{background:#fff;color:var(--teal-800)}
+.narration-player{margin-top:16px;padding:14px 18px;background:rgba(255,255,255,.1);border-radius:12px;border:1px solid rgba(255,255,255,.15)}
+.audio-label{color:rgba(255,255,255,.88);font-size:.82rem;font-weight:700;margin:0 0 8px}
+.page{width:min(1440px,100%);margin:auto;padding:28px clamp(16px,3vw,44px) 64px;display:grid;grid-template-columns:minmax(230px,280px) minmax(0,1fr);gap:30px;align-items:start}
+.sidebar{position:sticky;top:20px;min-width:0}
+.sidebar-box{background:rgba(255,255,255,.8);border:1px solid var(--line);border-radius:16px;padding:17px;box-shadow:var(--shadow);backdrop-filter:blur(12px)}
+.sidebar h2{margin:0 0 13px;font-size:.9rem;letter-spacing:.08em;color:var(--teal-800)}
+.map-link{display:grid;grid-template-columns:34px minmax(0,1fr);gap:9px;padding:10px 6px;text-decoration:none;border-top:1px solid var(--line)}
+.map-link:hover b{color:var(--teal-700)}
+.map-id{width:30px;height:30px;display:grid;place-items:center;border-radius:9px;color:#fff;background:var(--teal-700);font-size:.72rem;font-weight:800}
+.map-link b{display:block;font-size:.78rem;line-height:1.4}
+.map-link small{display:block;color:var(--muted);font-size:.67rem;line-height:1.4;margin-top:2px;overflow-wrap:anywhere}
+.content{min-width:0}
+.scene-card{background:var(--paper);border:1px solid var(--line);border-radius:20px;padding:clamp(20px,3vw,34px);margin-bottom:24px;box-shadow:var(--shadow);overflow:hidden}
+.scene-topline{display:flex;justify-content:space-between;gap:16px;align-items:center;margin-bottom:16px}
+.scene-id{display:inline-grid;place-items:center;min-width:42px;height:30px;padding:0 10px;color:#fff;background:var(--teal-700);border-radius:8px;font-size:.78rem;font-weight:850}
+.time{margin-left:10px;color:var(--muted);font-size:.82rem;font-variant-numeric:tabular-nums}
+.scene-card h2{margin:0 0 2px;font-size:clamp(1.35rem,2.4vw,2rem);line-height:1.25;color:var(--teal-950)}
+.scene-title-en{margin:0 0 18px;color:var(--teal-600);font-weight:700;font-size:.98rem}
+.context{margin:0 0 20px;padding:12px 15px;color:#496566;background:var(--mint-50);border-left:3px solid var(--teal-600);border-radius:0 10px 10px 0;font-size:.88rem}
+.context b{margin-right:10px;color:var(--teal-800)}
+.sentence-list{display:grid;gap:12px}
+.sentence{position:relative;display:grid;grid-template-columns:38px minmax(0,1fr);gap:12px;padding:16px;border:1px solid #e2ece8;border-radius:14px;background:#fcfefd;min-width:0}
+.sentence-no{color:var(--teal-600);font-size:.76rem;font-weight:850;font-variant-numeric:tabular-nums;padding-top:4px}
+.bilingual{min-width:0;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(14px,2vw,28px)}
+.lang-block{min-width:0}
+.lang-block p{margin:5px 0 0;overflow-wrap:anywhere}
+.en-block{padding-left:clamp(14px,2vw,28px);border-left:1px solid var(--line)}
+.en-block p{color:#0b5c60;font-weight:650}
+.lang-tag{display:inline-block;color:var(--muted);font-size:.66rem;font-weight:850;letter-spacing:.12em}
+.en-head{display:flex;justify-content:space-between;gap:10px;align-items:center;min-height:30px}
+.note{grid-column:2;margin:1px 0 0;color:#708182;font-size:.78rem}
+.note span{margin-right:7px;color:var(--amber);font-weight:750}
+.speak-btn{display:inline-flex;align-items:center;gap:7px;border:1px solid #b8d9d1;border-radius:9px;padding:7px 11px;color:var(--teal-800);background:#f5fbf8;cursor:pointer;white-space:nowrap;font-size:.78rem;font-weight:750;transition:.15s ease}
+.speak-btn:hover{color:#fff;background:var(--teal-700);border-color:var(--teal-700);transform:translateY(-1px)}
+.speak-btn.playing{color:#fff;background:var(--teal-700);border-color:var(--teal-700)}
+.speak-btn.compact{padding:4px 8px;font-size:.7rem}
+.speak-btn.icon-only{padding:3px 7px;margin-left:6px}
+.speak-btn.icon-only span:last-child{display:none}
+.pronounce-word{display:inline;margin:0;padding:0 2px;color:inherit;background:rgba(20,145,155,.08);border:0;border-bottom:1px dashed var(--teal-600);border-radius:3px;font:inherit;font-weight:inherit;line-height:inherit;cursor:pointer}
+.pronounce-word:hover,.pronounce-word:focus{color:var(--teal-950);background:#cceee4;border-bottom-style:solid;outline:3px solid rgba(20,145,155,.42);outline-offset:2px}
+.pronounce-word.playing{color:#fff;background:var(--teal-700);border-bottom-color:var(--teal-700)}
+.paraphrase{margin-top:18px;border-top:1px solid var(--line)}
+.paraphrase summary{padding:16px 0 3px;color:var(--teal-800);cursor:pointer;font-weight:800}
+.paraphrase summary span{color:var(--muted);font-size:.75rem;font-weight:500;margin-left:8px}
+.paraphrase ol{margin:12px 0 0;padding-left:22px}
+.paraphrase li{padding:7px 0 9px 5px}
+.paraphrase li p{margin:0;font-size:.9rem;font-weight:650}
+.paraphrase li small{display:block;color:var(--muted);font-size:.72rem;margin-top:2px}
+.chunks{margin-top:4px;color:var(--teal-700);font-size:.78rem}
+.study-section{margin:38px 0 0}
+.section-heading{display:flex;align-items:baseline;gap:10px;margin:0 0 15px;color:var(--teal-950);font-size:1.35rem}
+.section-heading small{color:var(--teal-600);font-size:.78rem;letter-spacing:.05em}
+.study-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.study-grid article{padding:17px;background:#fff;border:1px solid var(--line);border-radius:14px;box-shadow:0 6px 18px rgba(7,63,66,.05);min-width:0}
+.study-grid p{margin:0}
+.practice-en{margin-top:9px;color:var(--teal-700);font-weight:650;overflow-wrap:anywhere}
+.wrong{color:#a24831;text-decoration:line-through;overflow-wrap:anywhere}
+.right{color:var(--teal-700);font-weight:750;margin:5px 0;overflow-wrap:anywhere}
+.pitfalls p{color:var(--muted);font-size:.82rem}
+.shifts article{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1.5fr);gap:12px;align-items:center}
+.shifts b{color:var(--teal-600);font-size:1.2rem}
+.shifts strong{color:var(--teal-800)}
+footer{margin-top:38px;color:var(--muted);font-size:.78rem;text-align:center}
+.footer-note{margin-top:6px}
+@media (max-width:900px){
+  .page{grid-template-columns:1fr}
+  .sidebar{position:static}
+  .sidebar-box{overflow-x:auto;padding:12px}
+  .sidebar h2{padding-left:5px}
+  .map-nav{display:flex;width:max-content;gap:8px}
+  .map-link{width:240px;border:1px solid var(--line);border-radius:10px;padding:8px}
+  .bilingual{grid-template-columns:1fr}
+  .en-block{padding:12px 0 0;border-left:0;border-top:1px dashed var(--line)}
+}
+@media (max-width:620px){
+  .hero-inner{padding-top:30px}
+  .hero-flex{flex-direction:column;align-items:center}
+  .hero-cover{width:100%;max-width:360px}
+  .hero-text{text-align:center}
+  .page{padding-inline:10px;gap:18px}
+  .scene-card{border-radius:14px;padding:17px 13px}
+  .scene-topline{align-items:flex-start}
+  .scene-speak span:last-child{display:none}
+  .sentence{grid-template-columns:26px minmax(0,1fr);padding:13px 10px;gap:6px}
+  .note{grid-column:2}
+  .study-grid{grid-template-columns:1fr}
+  .shifts article{grid-template-columns:1fr;gap:5px}
+  .shifts b{transform:rotate(90deg);justify-self:start}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.speak-btn{transition:none}}</style>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="hero-flex">
+        <div class="hero-text">
+          <p class="eyebrow">Outdoor &amp; Travel · 户外/旅行</p>
+          <h1>徒步他念他翁：从封山乌龙到商团避坑指南</h1>
+          <p class="hero-en">Trekking Tanian Taweng: From a Mountain-Closure Mix-Up to a Tour Operator Survival Guide</p>
+          <p class="summary-en" style="margin:0 0 14px;padding:14px 16px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.22);border-radius:12px;font-size:.95rem;line-height:1.7">Hosts Sophie and Sansan share their trekking experience on the lake-viewing route of Tanian Taweng in Tibet. They hit a false mountain-closure alarm before setting out, then got a living Buddha's rain-blessing dead on target — five days of heavy rain out of six. They cover transport in and out, weather and altitude data, the pros and cons of local tour operators, disputes among villagers, trekking distances and climbs, and a full gear list. The core theme: a practical guide to avoiding pitfalls in outdoor trekking, especially choosing a local operator and respecting boundaries. This route is 'heavy-pack only.'</p>
+          <div class="hero-meta">
+            <span class="chip">2026-08-01</span>
+            <span class="chip">小宇宙FM</span>
+            <span class="chip">55分</span>
+            <span class="chip">6 Scenes</span>
+            <span class="chip">Click underlined words to hear them</span>
+            <a class="source-link" href="https://www.xiaoyuzhoufm.com/episode/6a68b4aeb581962ce2bcebd1" target="_blank" rel="noopener">原播客 ↗</a>
+          </div>
+        </div>
+      </div>
+      <div class="toolbar">
+        <div class="lang-switch"><div class="lang-switch"><a href="tanian-taweng-hiking-guide-总结.html">中文</a><a class="active" href="tanian-taweng-hiking-guide-en.html" aria-current="page">EN</a></div></div>
+        <label for="speech-rate">朗读速度</label>
+        <select id="speech-rate">
+          <option value="0.85">慢速 0.85×</option>
+          <option value="1" selected>正常 1×</option>
+          <option value="1.15">快速 1.15×</option>
+        </select>
+        <button id="stop-speech" class="stop-btn" type="button">■ 停止朗读</button>
+        <span id="speech-status" class="speech-status" role="status" aria-live="polite"></span>
+      </div>
+      <div class="narration-player">
+      <p class="audio-label">🎧 中文语音讲解</p>
+      <button class="speak-btn" type="button" data-audio="audio/tanian-taweng-hiking-guide.mp3" aria-label="播放语音讲解"><span aria-hidden="true">▶</span><span>播放语音讲解</span></button>
+    </div>
+    </div>
+  </header>
+  <main class="page">
+    <aside class="sidebar" aria-label="场景地图">
+      <div class="sidebar-box">
+        <h2>场景地图 · SCENE MAP</h2>
+        <nav class="map-nav">
+          <a class="map-link" href="#s1">
+          <span class="map-id">S1</span>
+          <span><b>1. 交通：比ACT和TMB更碎片的噩梦</b><small> · Transport: A Nightmare More Fragmented Than the ACT or TMB</small></span>
+        </a>
+<a class="map-link" href="#s2">
+          <span class="map-id">S2</span>
+          <span><b>2. 天气：活佛 vs 道家，6天5雨</b><small> · Weather: A Living Buddha vs Daoism, Rain on 5 of 6 Days</small></span>
+        </a>
+<a class="map-link" href="#s3">
+          <span class="map-id">S3</span>
+          <span><b>3. 路线数据与体验</b><small> · Route Data and the Experience</small></span>
+        </a>
+<a class="map-link" href="#s4">
+          <span class="map-id">S4</span>
+          <span><b>4. 商团避坑全景</b><small> · The Full Tour Operator Minefield</small></span>
+        </a>
+<a class="map-link" href="#s5">
+          <span class="map-id">S5</span>
+          <span><b>5. 两个向导的人物画像</b><small> · Portraits of the Two Guides</small></span>
+        </a>
+<a class="map-link" href="#s6">
+          <span class="map-id">S6</span>
+          <span><b>6. 最终结论：选择指南</b><small> · Final Verdict: A Choosing Guide</small></span>
+        </a>
+        </nav>
+      </div>
+    </aside>
+    <div class="content">
+      <section class="scene-card" id="s1" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S1</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/tanian-taweng-hiking-guide/s1.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>1. 交通：比ACT和TMB更碎片的噩梦</h2>
+      <p class="scene-title-en">Transport: A Nightmare More Fragmented Than the ACT or TMB</p>
+      <p class="context"><b>情境</b>拆解北京到拉岗村的五段碎片化交通，对比ACT整段交通的累法。语域：casual 攻略复盘 + 吐槽。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>北京→香格里拉：无直飞，必须转机（原因：客流不足 + 西南是东航大本营）。第一天就这么没了</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/tanian-taweng-hiking-guide/s1-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Beijing to Shangri-La: no direct flight, you have to transfer — because passenger volume is low and the southwest is China Eastern's home turf. The whole first day is gone just like that.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>direct flight → 直飞；transfer → 转机；home turf → 大本营</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>香格里拉→曲子卡：报"最快五小时"，实际开了九小时。曲子卡是温泉乡，可以住温泉酒店</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/tanian-taweng-hiking-guide/s1-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Shangri-La to Quzika: they said 'five hours at best,' but the drive actually took nine. Quzika is a hot-spring town where you can stay in a hot-spring hotel.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>at best → 最快/最多；hot-spring town → 温泉乡</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>曲子卡→拉岗村：一小时车程，但路被挖烂（怀疑是村里故意为之），必须换车。行李从车顶掉下山坡，司机没发觉，第二个掉下去才发现</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/tanian-taweng-hiking-guide/s1-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Quzika to Lagang village: an hour by car, but the road was wrecked — possibly on purpose by the villagers — so they had to switch vehicles. Luggage fell off the roof and rolled down the slope; the driver didn't notice until a second bag dropped.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>switch vehicles → 换车；wreck the road → 挖烂道路；roll down the slope → 掉下山坡</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）交通对比：ACT是两段"整段"交通（飞+12小时吉普），他念他翁是被切成碎片——转机、转车、换车，每段都不长但累计极累</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/tanian-taweng-hiking-guide/s1-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Transport comparison: the Annapurna Circuit is two solid legs — a flight plus a twelve-hour jeep ride. Tanian Taweng is cut into fragments: transfer flights, van rides, vehicle switches. Each leg is short, but they add up to exhausting.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>solid leg → 整段；cut into fragments → 切成碎片；add up to → 累计成</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>地崩营地→沙多村：一小时沙石山路 1200元/车（5人平摊）</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/tanian-taweng-hiking-guide/s1-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Dibeng camp to Shaduo village: one hour of gravel mountain road at 1,200 yuan per vehicle, split five ways.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>gravel road → 沙石路；per vehicle → 每车；split five ways → 5人平摊</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>左贡→昌都机场：2.5-3小时（全国最远机场之一）500元</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/tanian-taweng-hiking-guide/s1-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Zuogong to Qamdo airport: two and a half to three hours — one of the most remote airports in the country — for 500 yuan.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>remote airport → 偏远机场；Qamdo → 昌都</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「第一天就这么没了」</p><div class="chunks">gone just like that · burned on travel</div><small>gone just like that 带吐槽语气，很口语</small></li>
+<li><p>想说「每段不长但累死人」</p><div class="chunks">each leg is short · stack up · brutal</div><small>stack up 很形象；brutal 口语表达累爆</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s2" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S2</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/tanian-taweng-hiking-guide/s2.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>2. 天气：活佛 vs 道家，6天5雨</h2>
+      <p class="scene-title-en">Weather: A Living Buddha vs Daoism, Rain on 5 of 6 Days</p>
+      <p class="context"><b>情境</b>讲活佛求雨精准命中的戏剧化天气，以及温度数据和雨中打发时间。语域：casual 经历吐槽 + 数据记录。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>活佛求雨：进山当天被告知活佛为庄稼求了雨，精准下到徒步者头上。6天徒步下了5天雨，越下越大，最后一天彻底不停</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/tanian-taweng-hiking-guide/s2-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The living Buddha's rain: on the day they entered the mountains, they were told a living Buddha had prayed for rain for the crops — and it landed precisely on the trekkers' heads. Five days of rain out of six, getting heavier, and on the last day it never stopped.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>living Buddha → 活佛；pray for rain → 求雨；land on one's head → 下到头上</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>用道家对抗活佛：营地里一个朋友给了道家收宇宙咒语，念完之后居然看到了一点雪山。"在人家地盘请一点道家的力量。"</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/tanian-taweng-hiking-guide/s2-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Fighting the living Buddha with Daoism: a friend at camp gave them a Daoist 'contain-the-universe' mantra; after chanting it, they actually caught a glimpse of the snowy peak. 'You invite a bit of Daoist power while on someone else's turf.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>Daoism → 道家；mantra → 咒语；on someone else's turf → 在别人地盘</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>温度数据：木屋晚上约5°C，双湖营地（4700米）接近0°C，白天约10°C出头，出太阳能到十几度</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/tanian-taweng-hiking-guide/s2-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Temperature data: about 5°C at night in the wooden huts, close to 0°C at the Twin Lakes camp at 4,700 meters, a little above 10°C during the day, and into the teens when the sun came out.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>wooden hut → 木屋；Twin Lakes camp → 双湖营地；the teens → 十几度</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>下雨如何打发时间：帐篷里看顶上水珠猜会聚成一条还是两条长线——"这已经无聊到这种程度"</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/tanian-taweng-hiking-guide/s2-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">How they killed time in the rain: lying in the tent watching the water droplets on the ceiling and betting whether they'd join into one line or two — 'that's how bored we were.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>kill time → 打发时间；water droplet → 水珠；how bored we were → 无聊到这种程度</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）"我们俩不能单独出去。实锤就是天气之子，逢我们俩出去必下雨。" (富士山C级天气 + 长滩岛台风 + 航班取消)</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/tanian-taweng-hiking-guide/s2-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Quote: "The two of us can't go out alone. It's confirmed — we're weather children: every time we go out, it rains." Add Mount Fuji's C-grade weather, a typhoon in Boracay, and a canceled flight to the list.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>weather child → 天气之子；confirmed → 实锤；canceled flight → 航班取消</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「逢出门必下雨」</p><div class="chunks">step out · the sky opens · cursed</div><small>cursed 偏玩笑吐槽；step out 很日常</small></li>
+<li><p>想说「无聊到看水滴猜线」</p><div class="chunks">bet on drips · bored out of one's mind</div><small>bored out of one's mind 是高频口语短语</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s3" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S3</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/tanian-taweng-hiking-guide/s3.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>3. 路线数据与体验</h2>
+      <p class="scene-title-en">Route Data and the Experience</p>
+      <p class="context"><b>情境</b>评估6天路线的合理性，天气好坏对体验的决定性影响。语域：casual 复盘点评。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）关键体验：6天太长（无聊时间被拉长），如果天气好可能无所谓；天气不好每一分钟都是煎熬。石头走这条线用了4天，感觉更合理</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/tanian-taweng-hiking-guide/s3-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key experience: six days is too long — the downtime stretches out. In good weather it might not matter, but in bad weather every minute is torture. The hiker 'Shitou' finished this route in four days, which feels more reasonable.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>downtime → 无聊时间/空档；torture → 煎熬；stretch out → 被拉长</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「天气不好每一分钟都是煎熬」</p><div class="chunks">every minute is torture · feel like an eternity</div><small>torture 夸张但贴切；eternity 也常用</small></li>
+<li><p>想说「6天太长，4天更合理」</p><div class="chunks">drag · squeeze into</div><small>drag 形容时间难熬；squeeze into 压缩进</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s4" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S4</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/tanian-taweng-hiking-guide/s4.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>4. 商团避坑全景</h2>
+      <p class="scene-title-en">The Full Tour Operator Minefield</p>
+      <p class="context"><b>情境</b>详细列举村界分配向导、无信号换向导、向导资质存疑、装备不达标等问题。语域：casual 避坑清单 + 提醒。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>前两天的路线属于拉岗村 → 只能拉岗村的向导和马夫到。第三天开始属于沙多村 → 拉岗向导直接回家，沙多向导来接。中间没有任何交接，在营地等新向导来找你。更离谱的是：隔壁的营地（乌格曲龙）又属于另一个村，沙多向导不愿经过，于是跳过</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/tanian-taweng-hiking-guide/s4-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The first two days of the route belong to Lagang village, so only Lagang guides and horsemen can work it. From day three it belongs to Shaduo village — the Lagang guides simply go home and Shaduo guides take over, with no handover at all; you just wait at camp for the new guide to find you. Even crazier: the neighboring camp, Wuququlong, belongs to yet another village, and the Shaduo guides refused to pass through it, so it got skipped.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>handover → 交接；horseman → 马夫；take over → 接手</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）关键风险：中间没有手机信号，你联系不到任何人。换向导时，你无法选择用哪个向导——村长会从轮值表上随机分配。分到一个汉语完全不会的向导是真实发生过的事</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/tanian-taweng-hiking-guide/s4-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key risk: there's no cell signal in between, so you can't reach anyone. When guides switch, you don't get to choose — the village chief assigns them randomly from a rotation list. Getting a guide who speaks zero Mandarin has actually happened.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>cell signal → 手机信号；rotation list → 轮值表；assign randomly → 随机分配</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>向导证：宣传"有证向导"，实际全是当地牧民。他们有高原生存智慧（判断天气、用气罐点火），但缺乏专业培训：不掌握队伍节奏、不告诉什么时候休息、随便带着走小道破坏高山植被</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/tanian-taweng-hiking-guide/s4-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Guide licenses: they advertise 'certified guides,' but they're actually local herders. They have high-altitude survival wisdom — reading the weather, lighting stoves with gas canisters — but lack professional training: they don't manage the group's pace, don't tell you when to rest, and randomly cut off-trail paths that damage alpine vegetation.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>certified guide → 有证向导；herder → 牧民；high-altitude survival → 高原生存；alpine vegetation → 高山植被</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>路书：地名前后顺序是错的，爬升和距离全不准确，怀疑是抄来的</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/tanian-taweng-hiking-guide/s4-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The route sheet: the place names are in the wrong order, and the climbs and distances are all inaccurate — likely copied from somewhere.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>route sheet → 路书；in the wrong order → 顺序颠倒；inaccurate → 不准确</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>装备：帐篷没地丁（用一次性筷子替代）、睡袋是棉的不达标（双湖营地冻死了）、做饭帐篷极小且漏雨（下雨天蹲在地上吃）、没有集体防水袋（只给化肥袋）</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/tanian-taweng-hiking-guide/s4-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The gear: the tent had no pegs — they used disposable chopsticks instead. The sleeping bags were cotton and didn't meet the standard — they froze at Twin Lakes camp. The kitchen tent was tiny and leaked, so they squatted on the ground eating in the rain. No shared dry bags — they were given fertilizer bags instead.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>tent peg → 地丁；disposable chopsticks → 一次性筷子；dry bag → 防水袋；fertilizer bag → 化肥袋</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）重要提醒：无论商团怎么说，自己带帐篷、睡袋、睡垫。幸运的是Sophie和三三因为"穷讲究"自己带了装备，否则后果不堪设想</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/tanian-taweng-hiking-guide/s4-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Key reminder: no matter what the operator says, bring your own tent, sleeping bag, and pad. Luckily Sophie and Sansan brought their own gear out of sheer fussiness — otherwise the consequences don't bear thinking about.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>sleeping pad → 睡垫；fussiness → 讲究；don't bear thinking about → 不堪设想</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「向导交接没有任何交代」</p><div class="chunks">zero communication · show up · briefing</div><small>briefing 偏职场；show up with no briefing 更口语</small></li>
+<li><p>想说「后果不堪设想」</p><div class="chunks">don't bear thinking about · could have ended badly</div><small>don't bear thinking about 是地道惯用语</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s5" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S5</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/tanian-taweng-hiking-guide/s5.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>5. 两个向导的人物画像</h2>
+      <p class="scene-title-en">Portraits of the Two Guides</p>
+      <p class="context"><b>情境</b>用魔幻细节勾勒两位向导：牦牛大户唐卡画师，与沙多村独生子的驱风口哨。语域：casual 讲故事 + 文化观察。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>标签：200头牦牛（约200万资产）、6个女儿、唐卡画师（家传非遗）、戴高度近视眼镜（因画唐卡）</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/tanian-taweng-hiking-guide/s5-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">His profile: 200 yaks — roughly two million yuan in assets — six daughters, a thangka painter carrying a family intangible-heritage craft, and thick glasses from years of painting thangkas.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>yak → 牦牛；thangka → 唐卡；intangible heritage → 非遗</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>魔幻故事：当过向导时捡到被母猴抛弃的金丝猴，养了两年（猴子和家人非常亲密，能拿纸巾），被举报后被迫放归山林，再也没有见过</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/tanian-taweng-hiking-guide/s5-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">A surreal story: as a guide he once found a golden snub-nosed monkey abandoned by its mother, raised it for two years — the monkey was so close to the family it could fetch tissues — then, after being reported, he had to release it into the wild and never saw it again.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>golden snub-nosed monkey → 金丝猴；abandoned → 被抛弃；release into the wild → 放归山林</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>消费观：给老婆买170多万首饰（蜜蜡、天珠、皮草），一晚上打牌输28万后出门打工一年挣回30万。牦牛国庆节会自己回家，"跑去别人牧场吃草没关系"</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/tanian-taweng-hiking-guide/s5-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">His spending style: over 1.7 million yuan in jewelry for his wife — amber, dzi beads, fur — and after losing 280,000 in one night of card games, he went out to work for a year and earned 300,000 back. His yaks come home on their own for National Day, and it's no problem if they graze in someone else's pasture.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>amber → 蜜蜡；dzi bead → 天珠；card game → 打牌；pasture → 牧场</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>有趣细节：隔山能认出自己家的牦牛（"我们家牦牛尾巴比较短"），长得像彭磊，被称为"藏地文青"</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/tanian-taweng-hiking-guide/s5-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Fun detail: he can pick out his own yaks from across the mountain — 'our yaks have shorter tails.' He looks like the musician Peng Lei and gets called the 'Tibetan artsy type.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>pick out → 认出；artsy type → 文青；from across the mountain → 隔山</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）藏族花钱方式：大件一掷千金（天珠几十万、赛马上百万），小处极度节俭（烂裤子一直穿、不买好冲锋衣）</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/tanian-taweng-hiking-guide/s5-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The Tibetan way of spending: splurging on big-ticket items — dzi beads worth hundreds of thousands, racehorses over a million — yet extremely frugal on small things, wearing worn-out pants and skipping a good jacket.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>splurge → 一掷千金；big-ticket item → 大件；frugal → 节俭；worn-out → 穿烂的</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>背景：沙多村村民，家里独生子（藏族很少只生一个）。会吹驱风口哨（类似雨后鸟叫声）</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/tanian-taweng-hiking-guide/s5-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Background: he's from Shaduo village and an only son — rare among Tibetan families, who rarely have just one child. He can whistle the wind-away call, a sound like birds after rain.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>only son → 独生子；wind-away whistle → 驱风口哨</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「大件一掷千金，小处极度节俭」</p><div class="chunks">splurge · pinch pennies · lavish vs frugal</div><small>pinch pennies 很口语；lavish/frugal 对仗书面</small></li>
+<li><p>想说「隔山认出自家的牦牛」</p><div class="chunks">spot from a mountain away · know by</div><small>spot from a mountain away 有画面感</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s6" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S6</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/tanian-taweng-hiking-guide/s6.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>6. 最终结论：选择指南</h2>
+      <p class="scene-title-en">Final Verdict: A Choosing Guide</p>
+      <p class="context"><b>情境</b>汇总五大风险，给出「这不是说走就走路线」的结论。语域：formal 总结点评。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）核心风险总结：交通成本高 + 天气看运气 + 商团不专业 + 村界纠纷导致队伍被拆 + 无信号无法求救。这不是一条"去就完了"的路线</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/tanian-taweng-hiking-guide/s6-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The core risk summary: high transport costs, weather that's a roll of the dice, unprofessional tour operators, village-boundary disputes that split the group, and no signal to call for help. This is not a 'just go' route.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>a roll of the dice → 看运气；village-boundary dispute → 村界纠纷；just go → 说走就走/去就完了</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「去就完了的路线」</p><div class="chunks">not a just-go trail · casual trek</div><small>just-go 是口语化的引号用法</small></li>
+<li><p>想说「天气是掷骰子」</p><div class="chunks">a roll of the dice · gamble on the sky</div><small>a roll of the dice 地道惯用语</small></li>
+        </ol>
+      </details>
+    </section>
+      <section class="study-section" id="practice">
+      <h2 class="section-heading">今日可练 <small>PRACTICE TODAY</small></h2>
+      <div class="study-grid">
+        <article>
+          <p>用「switch vehicles」说：路太烂必须换车。</p>
+          <div class="practice-en">
+            The road was wrecked, so they had to switch vehicles.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/tanian-taweng-hiking-guide/practice-0.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「a roll of the dice」说：高原天气全看运气。</p>
+          <div class="practice-en">
+            At altitude, the weather is a roll of the dice.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/tanian-taweng-hiking-guide/practice-1.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「zero signal」说：山里完全没信号，求救无门。</p>
+          <div class="practice-en">
+            With zero cell signal in the mountains, there's no way to call for help.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/tanian-taweng-hiking-guide/practice-2.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「bring your own」说：装备一定要自己带。</p>
+          <div class="practice-en">
+            No matter what the operator promises, bring your own tent and sleeping bag.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/tanian-taweng-hiking-guide/practice-3.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article>
+      </div>
+    </section>
+      <section class="study-section pitfalls" id="pitfalls">
+      <h2 class="section-heading">避坑 <small>PITFALLS</small></h2>
+      <div class="study-grid">
+        <article>
+          <div class="wrong">✕ The village chief divides the guide from the list randomly.</div>
+          <div class="right">✓ The village chief assigns the guide randomly from a rotation list.</div>
+          <p>「从列表里分配」是 assign from a list；divide 更偏向「切分」，语义不合适。</p>
+        </article><article>
+          <div class="wrong">✕ The guide doesn't tell us when to take a rest and when to go.</div>
+          <div class="right">✓ The guides don't manage the pace or tell you when to rest.</div>
+          <p>向导的核心问题是不会控制节奏 manage the pace，而不是机械地告诉你出发时间。</p>
+        </article><article>
+          <div class="wrong">✕ The tent has no ground nail, we used one-time chopsticks.</div>
+          <div class="right">✓ The tent had no pegs — they used disposable chopsticks instead.</div>
+          <p>「地丁」是 tent pegs/stakes；「一次性筷子」是 disposable chopsticks，不是 one-time。</p>
+        </article><article>
+          <div class="wrong">✕ Lucky we brought our own equipment, otherwise the consequence is unimaginable.</div>
+          <div class="right">✓ Luckily they brought their own gear — otherwise the consequences don't bear thinking about.</div>
+          <p>don't bear thinking about 是「不堪设想」的地道惯用语；unimaginable 更偏向形容事物本身。</p>
+        </article>
+      </div>
+    </section>
+      <section class="study-section shifts" id="mindset">
+      <h2 class="section-heading">认知转变 <small>MINDSET SHIFTS</small></h2>
+      <div class="study-grid">
+        <article>
+          <span>以为徒步天数越多越值回票价</span>
+          <b aria-hidden="true">→</b>
+          <strong>天气不好时 6 天是煎熬，4 天可能更合理</strong>
+        </article><article>
+          <span>以为「有证向导」= 专业培训过</span>
+          <b aria-hidden="true">→</b>
+          <strong>有高原生存智慧不等于有带队专业能力</strong>
+        </article><article>
+          <span>以为商团会备齐装备</span>
+          <b aria-hidden="true">→</b>
+          <strong>帐篷睡袋睡垫必须自己带，别把命交给别人</strong>
+        </article>
+      </div>
+    </section>
+      <footer>
+        双语学习版 · 场景/句子朗读使用 edge-tts（en-US） · 单词发音使用浏览器 Web Speech API
+        <div class="footer-note">中文版：<a href="tanian-taweng-hiking-guide-总结.html">tanian-taweng-hiking-guide-总结.html</a> · SVG 版：<a href="viewer.html?f=tanian-taweng-hiking-guide-总结.svg" target="_blank">tanian-taweng-hiking-guide-总结.svg</a></div>
+      </footer>
+    </div>
+  </main>
+  <script>(() => {
+  let activeAudio = null;
+  let activeBtn = null;
+  const status = document.getElementById('speech-status');
+  const stopBtn = document.getElementById('stop-speech');
+  const rateSel = document.getElementById('speech-rate');
+
+  const reset = () => {
+    if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+    activeBtn?.classList.remove('playing');
+    activeBtn = null;
+    stopBtn.classList.remove('visible');
+    status.textContent = '';
+  };
+
+  const playAudio = (url, btn) => {
+    reset();
+    const audio = new Audio(url);
+    audio.playbackRate = Number(rateSel.value);
+    activeAudio = audio;
+    activeBtn = btn;
+    btn.classList.add('playing');
+    stopBtn.classList.add('visible');
+    status.textContent = btn.classList.contains('scene-speak')
+      ? 'Reading the whole scene…'
+      : 'Reading…';
+
+    audio.onended = () => { if (activeAudio === audio) reset(); };
+    audio.onerror = () => { status.textContent = 'Audio failed to load.'; if (activeAudio === audio) reset(); };
+    audio.play().catch(() => { status.textContent = 'Playback failed.'; if (activeAudio === audio) reset(); });
+  };
+
+  document.addEventListener('click', e => {
+    const btn = e.target.closest('[data-audio]');
+    if (!btn) return;
+    e.preventDefault();
+    if (btn === activeBtn && activeAudio) { reset(); return; }
+    playAudio(btn.dataset.audio, btn);
+  });
+
+  stopBtn.addEventListener('click', reset);
+
+  const synth = window.speechSynthesis;
+  const getEnglishVoice = () => {
+    const voices = synth.getVoices();
+    return voices.find(v => /^en-(US|GB)/i.test(v.lang))
+        || voices.find(v => /^en/i.test(v.lang)) || null;
+  };
+
+  const difficultWords = new Set([
+    'assortment', 'SKU', 'premium', 'margin', 'middleman', 'OEM', 'rebranding',
+    'hoarding', 'PTSD', 'curation', 'repurchase', 'touchpoint', 'backlash',
+    'reshuffle', 'funnel', 'anchor', 'contract', 'psychology', 'private', 'label',
+    'editorial', 'familiar', 'competitors', 'authorization', 'flexibility'
+  ]);
+
+  const shouldPronounce = word => {
+    const n = word.toLowerCase().replace(/^[^a-z]+|[^a-z]+$/g, '');
+    return n.replace(/[^a-z]/g, '').length >= 8 || difficultWords.has(n);
+  };
+
+  const markPronounceableWords = root => {
+    const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+    const nodes = [];
+    while (walker.nextNode()) nodes.push(walker.currentNode);
+    nodes.forEach(node => {
+      if (node.parentElement?.closest('button, script, style')) return;
+      const text = node.nodeValue;
+      let m, last = 0, changed = false;
+      const frag = document.createDocumentFragment();
+      const re = /[A-Za-z]+(?:[-'’][A-Za-z]+)*/g;
+      while ((m = re.exec(text))) {
+        if (!shouldPronounce(m[0])) continue;
+        changed = true;
+        frag.append(text.slice(last, m.index));
+        const wb = document.createElement('button');
+        wb.type = 'button'; wb.className = 'pronounce-word';
+        wb.dataset.speak = m[0];
+        wb.setAttribute('aria-label', '\u8bfb\u5355\u8bcd ' + m[0]);
+        wb.title = '\u70b9\u51fb\u542c\u53d1\u97f3';
+        wb.textContent = m[0];
+        frag.append(wb);
+        last = m.index + m[0].length;
+      }
+      if (!changed) return;
+      frag.append(text.slice(last));
+      node.replaceWith(frag);
+    });
+  };
+
+  document.querySelectorAll(
+    '.english, .scene-title-en, .paraphrase li p, .chunks, .practice-en, .wrong, .right, .summary-en'
+  ).forEach(markPronounceableWords);
+
+  document.addEventListener('click', e => {
+    const wb = e.target.closest('.pronounce-word');
+    if (!wb) return;
+    e.preventDefault();
+    if (!synth) return;
+    synth.cancel();
+    if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+    activeBtn?.classList.remove('playing');
+    activeBtn = wb;
+    wb.classList.add('playing');
+    const u = new SpeechSynthesisUtterance(wb.dataset.speak);
+    u.lang = 'en-US';
+    u.rate = 0.88;
+    const v = getEnglishVoice();
+    if (v) u.voice = v;
+    u.onend = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+    u.onerror = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+    synth.speak(u);
+  });
+})();</script>
+</body>
+</html>

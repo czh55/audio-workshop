@@ -1,0 +1,365 @@
+{
+  "slug": "bull-market-desire",
+  "date": "2026-08-08",
+  "platform": "小宇宙FM",
+  "title": "Vol.30 为什么牛市反而让你焦躁，因为人的欲望是三角形的 - 重阳Talk",
+  "title_en": "Why a Bull Market Makes You Anxious: Desire Is a Triangle",
+  "eyebrow": "Investing & Psychology · 投资与心理",
+  "duration": "17分",
+  "source_url": "https://www.xiaoyuzhoufm.com/episode/6a6571816356eb2d9be867cb",
+  "summary_cn": "一句话概括：牛市（尤其是结构性牛市）之所以比熊市更让人焦躁，是因为\"总有人比你赚得更多\"——这枚欲望媒介点燃了勒内·吉拉尔所说的模仿欲望。吉拉尔用\"主体—客体—介体\"的欲望三角形解释：绝大多数欲望不是发自内心，而是模仿身边人（内部介体）得来的。而格雷厄姆、巴菲特、芒格们给出的解药，恰恰是识别\"内在欲望\"与\"模仿欲望\"、主动远离媒介、拥抱慢富复利",
+  "summary_en": "A bull market — especially a structural one — makes people more anxious than a bear market because \"someone always earns more than you\": that desire-mediator ignites what René Girard called mimetic desire. Girard's desire triangle of subject, object, and mediator explains that most desires aren't born within us but copied from the people around us. The antidote from Graham, Buffett, and Munger: recognize the difference between authentic desire and mimetic desire, actively distance yourself from the mediators, and embrace the slow compounding of getting rich gradually.",
+  "scenes": [
+    {
+      "id": "s1",
+      "title_cn": "一、结构性牛市：为什么\"涨\"反而让人更焦躁",
+      "title_en": "Structural Bull Market: Why Rising Prices Make People More Anxious",
+      "context": "结构性牛市里热门板块独享资金、没站在风口的人承受相对剥夺感。语域：formal 财经评论 + 心理学视角。",
+      "speak": "First, the structural bull market — why rising prices make people more anxious. In a bull market, the people making money are always the minority. In a structural bull market, hot sectors like AI from late February to late June this year monopolize the capital inflow, while the rest of the market suffers a capital-bleeding effect: you miss the joy of gains and endure the anguish of being banned from printing money. A bear market tests one dimension — patience; but an extremely polarized structural bull market tests your greed and envy at once. Typical scene: watching AI-chasers double their money while your holdings stagnate — and since July, tech corrected sharply while value and dividend stocks bounced, so those who chased the rally got hit on both sides. The stock market is an amplifier of human nature, and in a structural bull market, that amplification is on full display.",
+      "sentences": [
+        {
+          "cn": "核心机制：牛市中赚钱的永远是少数。结构性牛市里，热门板块（今年2月底至6月底的AI）独享资金流入，其余板块遭受\"资金抽血效应\"——没站在风口的人不仅分享不到上涨的愉悦，还承受着相对的\"禁止印钞（禁止收益）\"般的苦恼",
+          "en": "In a bull market, the people making money are always the minority. In a structural bull market, hot sectors — like AI from late February to late June this year — monopolize the capital inflow, while the rest of the market suffers a \"capital-bleeding\" effect: people not on the hot side not only miss the joy of gains but endure the anguish of \"being banned from printing money.\"",
+          "note": "<span>表达提示</span>structural bull market → 结构性牛市；capital inflow → 资金流入；capital-bleeding → 抽血；hot sector → 热门板块"
+        },
+        {
+          "cn": "关键理解：熊市考验的是单一的耐心维度；而极致分化的结构性牛市，同时考验你的贪婪、嫉妒等本能欲望。看不透、管不好这份欲望，不仅陷入无尽焦躁，还会让投资动作变形，最终\"两头不讨好\"",
+          "en": "The key insight: a bear market tests a single dimension — patience; but an extremely polarized structural bull market tests your greed, envy, and other instinctive desires at once. Fail to see through and manage those desires, and you sink into endless anxiety, your investing moves distort, and you end up pleasing nobody.",
+          "note": "<span>表达提示</span>test patience → 考验耐心；polarized → 极致分化的；instinctive desires → 本能欲望；moves distort → 动作变形"
+        },
+        {
+          "cn": "典型场景：看着身边追AI的人翻倍，自己的持仓滞涨；7月以来科技股剧烈调整、老登股（价值／红利类）反弹，此前没熬住而去追光的投资人，已经遭受两面挨打的痛苦",
+          "en": "A typical scene: watching the people chasing AI double their money while your holdings stagnate; since July, tech stocks have corrected sharply while value and dividend \"old-guard\" stocks bounced — investors who couldn't hold out and chased the rally are now suffering a double hit.",
+          "note": "<span>表达提示</span>holdings stagnate → 持仓滞涨；correct sharply → 剧烈调整；value/dividend stocks → 价值/红利股；chase the rally → 追高"
+        },
+        {
+          "cn": "（引用）原文依据：\"股市是人性放大器，在一场结构性牛市中，这种放大效应更是淋漓尽致。\"",
+          "en": "\"The stock market is an amplifier of human nature, and in a structural bull market that amplification is on full display.\"",
+          "note": "<span>表达提示</span>amplifier → 放大器；on full display → 淋漓尽致"
+        },
+        {
+          "cn": "（引用）相关概念：焦躁不是市场给的，是\"别人赚得比我多\"这个介体给的——这正是下一节\"欲望三角形\"理论的入场券",
+          "en": "Related concept: the anxiety isn't handed out by the market — it comes from the mediator of \"others earning more than me,\" which is exactly the ticket into the desire-triangle theory in the next section.",
+          "note": "<span>表达提示</span>mediator → 介体；ticket into → 入场券；desire triangle → 欲望三角形"
+        },
+        {
+          "cn": "美国经济学家金德尔伯格在经典著作《疯狂、惊恐与崩溃》中写过一句扎心的话——他说这句话的时候，吉拉尔还没发明出欲望几何学，这是他观察历史上无数次金融泡沫得出的直观感受",
+          "en": "American economist Charles Kindleberger wrote a piercing line in his classic Manias, Panics, and Crashes — said before Girard invented his geometry of desire, this was the intuitive conclusion from watching countless financial bubbles in history.",
+          "note": "<span>表达提示</span>piercing line → 扎心的话；Manias, Panics, and Crashes → 疯狂、惊恐与崩溃；financial bubble → 金融泡沫"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「别人赚得比我多让我焦躁」",
+          "phrases": [
+            "My anxiety comes from seeing others earn more.",
+            "It's not the market that stresses me — it's my neighbor's gains."
+          ],
+          "chunks": "others earn more · my neighbor's gains",
+          "usage": "第二句用 neighbor 形象化，很口语"
+        },
+        {
+          "intent": "想说「牛市是人性放大器」",
+          "phrases": [
+            "A bull market amplifies human nature.",
+            "The market turns your instincts up to eleven."
+          ],
+          "chunks": "amplifies human nature · turn up to eleven",
+          "usage": "turn up to eleven 是英文俚语，表开到最大"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title_cn": "二、欲望三角形：吉拉尔的欲望几何学",
+      "title_en": "The Desire Triangle: Girard's Geometry of Desire",
+      "context": "主体-客体-介体三角模型、直线模型无法解释的矛盾、文学证据。语域：formal 学术讲解 + 通俗举例。",
+      "speak": "Second, the desire triangle. The triangle has three vertices: the subject who desires, the object desired, and the mediator the subject imitates. We crave something not because it's inherently valuable, but because others want it too, or someone else owns it. Before Girard, academia used a straight-line model — desire born from your own needs and instincts. But the straight line can't explain the contradictions: people often don't know what they want and just frantically chase whatever others chase; something worthless becomes instantly attractive once it's someone else's object of desire. Think of dating rituals or designer bags — you want the bag because influencers and friends have it. As Girard said, desire, like gravity, never exists alone inside anything; it's born in the space where we influence each other. All our desires are essentially projections of other people's. And literature proves it: Don Quixote imitates knightly novels, Madame Bovary imitates romantic ones — and ends in tragedy.",
+      "sentences": [
+        {
+          "cn": "核心机制：三角形由三个顶点构成——主体（产生欲望的人）、客体（被渴望的事物或人）、介体（主体模仿的对象）。我们渴望某个东西，往往不是因为它本身有多大价值，而是因为别人也想要、或者别人拥有它",
+          "en": "The triangle has three vertices — the subject (the person who desires), the object (the thing or person desired), and the mediator (the model the subject imitates). We crave something not because it's inherently valuable, but because others want it too, or someone else owns it.",
+          "note": "<span>表达提示</span>subject / object / mediator → 主体/客体/介体；vertex → 顶点；inherently valuable → 本身有价值"
+        },
+        {
+          "cn": "关键理解：吉拉尔之前，学术界普遍是\"主体到客体\"的直线模型：人因自身需求、本能、喜好而产生欲望。但直线模型无法解释大量矛盾现象——人们常常不知道自己想要什么，只会疯狂追逐别人追捧的事物；原本没有价值的东西，一旦成为他人的欲望目标，就瞬间变得极具吸引力",
+          "en": "The key insight: before Girard, academia generally held a straight-line model from subject to object — desire born from your own needs, instincts, and tastes. But the straight line can't explain a mass of contradictions: people often don't know what they want and just frantically chase whatever others chase; something worthless becomes instantly attractive once it becomes someone else's object of desire.",
+          "note": "<span>表达提示</span>straight-line model → 直线模型；frantically chase → 疯狂追逐；object of desire → 欲望目标"
+        },
+        {
+          "cn": "典型场景：恋爱中\"必须\"互送某种礼物、吃某个大餐；想买某个名牌包，往往是因为看到社交媒体上的别人或身边的朋友都这么做",
+          "en": "A typical scene: in dating, the \"must\" of gifting a certain present or eating a certain meal; wanting a certain designer bag often because you see influencers or friends doing the same.",
+          "note": "<span>表达提示</span>designer bag → 名牌包；influencer → 社交媒体博主；the must of … → …的必要"
+        },
+        {
+          "cn": "（引用）原文依据：\"欲望就像万有引力一样，不会单独存在于任何事物或者个体内部，它诞生于我们能够相互影响的空间当中。换句话说，我们所有的欲望，本质上都是他人欲望的投影。\"",
+          "en": "\"Desire, like gravity, never exists alone inside any thing or person — it is born in the space where we can influence each other. In other words, all our desires are essentially projections of other people's desires.\"",
+          "note": "<span>表达提示</span>like gravity → 像万有引力；projection → 投影"
+        },
+        {
+          "cn": "核心机制：除了饿了要吃饭这类最基本的生理需求，人类绝大多数欲望都不是发自内心的原创，而是通过模仿他人得来的",
+          "en": "The mechanism: apart from basic physiological needs like eating when hungry, the vast majority of human desire isn't original — it's acquired by imitating others.",
+          "note": "<span>表达提示</span>physiological need → 生理需求；acquire by imitation → 通过模仿获得"
+        },
+        {
+          "cn": "关键理解：文学是最佳证据——唐吉诃德沉迷骑士小说，产生成为游侠骑士的欲望，这是对骑士典范的模仿；福楼拜笔下的包法利夫人不断模仿浪漫小说中的爱情典范，产生对奢华生活和浪漫爱情的无尽欲望，最终走向悲剧",
+          "en": "The key insight: literature is the best evidence — Don Quixote, obsessed with chivalric novels, desires to become a knight-errant, an imitation of the knightly model; Flaubert's Madame Bovary endlessly imitates the romantic heroines of novels, producing endless desire for luxury and romantic love, ending in tragedy.",
+          "note": "<span>表达提示</span>knight-errant → 游侠骑士；imitation → 模仿；end in tragedy → 走向悲剧"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「想要是因为别人也想要」",
+          "phrases": [
+            "You want it because someone else wants it, not because you do.",
+            "Desire is contagious — it spreads through models."
+          ],
+          "chunks": "someone else wants it · desire is contagious",
+          "usage": "第二句更精炼，适合金句"
+        },
+        {
+          "intent": "想说「欲望是他人欲望的投影」",
+          "phrases": [
+            "All desire is a projection of other people's desire.",
+            "We borrow our wants from the people around us."
+          ],
+          "chunks": "projection of others' desire · borrow our wants",
+          "usage": "第一句学术，第二句通俗"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title_cn": "三、泡沫的必然性与进化的代价",
+      "title_en": "The Inevitability of Bubbles and the Cost of Evolution",
+      "context": "每一轮泡沫的火索是新科技、周期蝉的捕食者饱和效应、进化有代价。语域：formal 评论 + 生物学类比。",
+      "speak": "Third, the inevitability of bubbles and the cost of evolution. From the first tulip bubble to the South Sea, canal, railway, and internet bubbles, every bubble's fuse is usually new technology — it sparks imaginings of new seas and new land. But what turns the bubble into a roaring fire is the greed of human desire. Consider the periodical cicada: larvae burrow underground for 17 years feeding on root sap, then billions of adults emerge in the second week of May, mate frantically, lay eggs, and all die before the end of June. It's a predator-saturation effect so wildly successful that no predator can eat that much food in a few weeks — and predator saturation is the bubble effect. From the big picture, bubbles push technology forward, and that may be evolution's basic law — but evolution comes at a cost, and nobody wants to be the cannon fodder.",
+      "sentences": [
+        {
+          "cn": "核心机制：从最早的郁金香泡沫，到南海泡沫、运河泡沫、铁路泡沫、互联网泡沫，每一轮泡沫的火索往往都是新科技、新发明——它激发人们对\"新城大海\"的想象；但让泡沫最终燃起熊熊大火的，是人心贪婪的欲望",
+          "en": "From the first tulip bubble to the South Sea, canal, railway, and internet bubbles, the fuse of every bubble is usually new technology — it sparks imaginings of \"new seas and new land.\" But what turns the bubble into a roaring fire is the greed of human desire.",
+          "note": "<span>表达提示</span>tulip bubble → 郁金香泡沫；fuse → 火索/导火索；spark imaginings → 激发想象；roaring fire → 熊熊大火"
+        },
+        {
+          "cn": "关键理解：有一种叫周期蝉的昆虫，幼虫在地下蛰伏17年，吸食树根汁液；期满后数十亿只成虫于5月的第二周破土而出，疯狂交配、产卵，并在6月底前全部死亡。这种\"捕食者饱和效应\"无比成功——没有任何捕食者能在短短几周内吃掉这么多食物。捕食者饱和效应，就是泡沫效应",
+          "en": "The key insight: there's an insect called the periodical cicada whose larvae burrow underground for 17 years, feeding on tree-root sap; when their time comes, billions of adults emerge in the second week of May, mate frantically, lay eggs, and all die before the end of June. This \"predator-saturation effect\" is wildly successful — no predator can eat that much food in a few weeks. Predator saturation is the bubble effect.",
+          "note": "<span>表达提示</span>periodical cicada → 周期蝉；burrow underground → 在地下蛰伏；predator saturation → 捕食者饱和效应"
+        },
+        {
+          "cn": "典型场景：某大型行业会议上，有投资人亲口说\"赚不到一百倍，就对不起这个时代\"。AI牛市中确实有人赚得盆满钵满，这些发生在你身边的十倍百倍造富神话，正是吉拉尔所说的欲望媒介",
+          "en": "A typical scene: at a major industry conference, an investor said flat out, \"if I don't make a hundred times, I'm letting down this era.\" In the AI bull market some people truly made a fortune — the ten-fold, hundred-fold rags-to-riches stories happening around you are exactly what Girard calls desire mediators.",
+          "note": "<span>表达提示</span>make a hundred times → 赚一百倍；rags-to-riches → 造富神话；desire mediator → 欲望媒介"
+        },
+        {
+          "cn": "（引用）原文依据：\"在泡沫中前进，可能正是进化的基本规律，或者说进化的悖论。这个悖论清晰地展现出：进化是有代价的。\"",
+          "en": "\"Moving forward within bubbles may be the basic law of evolution, or its paradox. That paradox clearly shows: evolution comes at a cost.\"",
+          "note": "<span>表达提示</span>basic law → 基本规律；paradox → 悖论；come at a cost → 有代价"
+        },
+        {
+          "cn": "（引用）适用边界：从宏观人类进程看，正是泡沫推动了新科技发展壮大、推动了社会进步；若每个人都极致理性，就不会有人为高度不确定性的未来买单。因此不应简单把泡沫定义为贬义词——它某种意义上可能是\"进化的代名词\"",
+          "en": "The boundary: from the big picture of human progress, it's bubbles that pushed new technology to grow and society forward; if everyone were perfectly rational, no one would pay for highly uncertain futures. So we shouldn't simply define bubbles as pejorative — in a sense they may be \"synonymous with evolution.\"",
+          "note": "<span>表达提示</span>the big picture → 宏观进程；pejorative → 贬义；synonymous with → 代名词/同义词"
+        },
+        {
+          "cn": "原因：塞伦盖蒂大草原上，每年角马迁徙过河时总引发剧烈踩踏，一批角马成为牺牲品，幸存者踏着同类的尸体前行。投资行为客观上有利于技术、经济和社会的进步，但没有谁希望自己成为\"进化的炮灰\"",
+          "en": "The reason: on the Serengeti, every year the wildebeest migration crossing a river triggers terrible stampedes — some die as sacrifices while the survivors walk over their kin's bodies. Investing objectively helps technology, the economy, and society, but nobody wants to be \"cannon fodder of evolution.\"",
+          "note": "<span>表达提示</span>wildebeest migration → 角马迁徙；stampede → 踩踏；sacrifice → 牺牲品；cannon fodder → 炮灰"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「泡沫的导火索是新技术，点燃它的却是贪婪」",
+          "phrases": [
+            "New tech lights the fuse, but greed burns the house down.",
+            "Innovation starts the bubble; human desire inflates it."
+          ],
+          "chunks": "lights the fuse · burns the house down · inflates it",
+          "usage": "第一句更有画面，第二句更工整"
+        },
+        {
+          "intent": "想说「进化是有代价的」",
+          "phrases": [
+            "Evolution comes at a cost — and the cost is paid by some.",
+            "Progress has a body count."
+          ],
+          "chunks": "comes at a cost · progress has a body count",
+          "usage": "第二句很重但很有力，适合口语评论"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "title_cn": "四、大师们的欲望管理：慢富、纪律与远离媒介",
+      "title_en": "The Masters' Desire Management: Slow Wealth, Discipline, and Distance from Mediators",
+      "context": "格雷厄姆1930年抄底的教训、巴菲特回奥马哈、邓普顿去巴哈马。语域：formal 传记叙述 + 投资智慧。",
+      "speak": "Fourth, the masters' desire management. Benjamin Graham lived through the epic 1929 bubble and crash — then entered the market too early in 1930, his fund lost 70% overall, nearly going bankrupt, and that bitter experience taught him the dangers of leverage and speculation. He published Security Analysis in 1934, drawing a strict line between investing and speculating, and gave us equity mindset, margin of safety, and Mr. Market — earning the title father of value investing. Buffett later added the circle of competence. His lesson: every time you think 'this time is different, I must add leverage,' remember that Graham's trouble wasn't failing to see value — it was failing to manage desire. Value investing is hardest on temperament, because it goes against human nature. That's why Buffett moved back to the remote town of Omaha in 1956, and Templeton to the Bahamas in 1968 — physical distance is the first line of defense against desire mediators.",
+      "sentences": [
+        {
+          "cn": "核心机制：本杰明·格雷厄姆是1929年史诗级股市泡沫及大崩盘的亲历者。崩盘后他于1930年过早进场抄底，导致管理的基金整体亏损70%、濒临破产——这次惨痛经历让他意识到杠杆与投机的危害",
+          "en": "Benjamin Graham lived through the epic 1929 bubble and crash. After the crash, he entered the market too early in 1930, and his fund lost 70% overall, nearly going bankrupt — that bitter experience taught him the dangers of leverage and speculation.",
+          "note": "<span>表达提示</span>live through → 亲历；crash → 大崩盘；go bankrupt → 濒临破产；leverage → 杠杆"
+        },
+        {
+          "cn": "关键理解：痛定思痛，他于1934年出版《证券分析》，对投资与投机做了严格区分，并提炼出股权思维、安全边际、市场先生三大核心理念，从此被称为\"价值投资之父\"。巴菲特后来在这套理念基座上加入了能力圈这一环",
+          "en": "The key insight: learning from the pain, he published Security Analysis in 1934, drawing a strict line between investing and speculating, and distilling three core ideas — equity mindset, margin of safety, and Mr. Market — which earned him the title \"father of value investing.\" Buffett later added the circle of competence onto that foundation.",
+          "note": "<span>表达提示</span>Security Analysis → 证券分析；margin of safety → 安全边际；Mr. Market → 市场先生；circle of competence → 能力圈"
+        },
+        {
+          "cn": "典型场景：每次你产生\"这次不一样、必须加杠杆上车\"的念头时，想想格雷厄姆1930年的抄底教训——他的困境不是看不懂价值，而是管不住欲望",
+          "en": "A typical scene: every time you feel \"this time is different, I must add leverage and get on,\" think of Graham's 1930 bottom-fishing lesson — his trouble wasn't failing to see value, it was failing to manage desire.",
+          "note": "<span>表达提示</span>bottom-fishing → 抄底；add leverage → 加杠杆；fail to manage desire → 管不住欲望"
+        },
+        {
+          "cn": "（引用）原文依据：\"价值投资最难的可能不在于技巧，而在于心性——因为它是一套逆人性的投资哲学。\"",
+          "en": "\"The hardest part of value investing isn't technique — it's temperament, because it's a philosophy that goes against human nature.\"",
+          "note": "<span>表达提示</span>temperament → 心性；go against human nature → 逆人性"
+        },
+        {
+          "cn": "核心机制：1956年，26岁的巴菲特离开纽约、回到偏僻的老家奥马哈小镇——那里的欲望媒介密度显然小很多；1968年，55岁的约翰·邓普顿爵士从华尔街搬到巴哈马拿骚定居，在那里，华尔街日报要晚一个星期才能到达",
+          "en": "The mechanism: in 1956, 26-year-old Buffett left New York for the remote town of Omaha — where the density of desire mediators is clearly much lower; in 1968, 55-year-old Sir John Templeton moved from Wall Street to Nassau in the Bahamas, where the Wall Street Journal arrived a week late.",
+          "note": "<span>表达提示</span>remote town → 偏僻的小镇；density → 密度；desire mediator → 欲望媒介"
+        },
+        {
+          "cn": "关键理解：两人都像\"大隐于股市的世外高人\"，善于屏蔽外界干扰。价值投资最难在心性，而市场先生天天在眼前营造\"一夜暴富\"的欲望媒介——物理距离，就是他们对抗欲望的第一道防线",
+          "en": "The key insight: both were like \"hermits living quietly inside the market,\" good at blocking outside noise. Value investing is hardest on temperament, and Mr. Market builds a \"get rich overnight\" desire mediator right in front of your eyes every day — physical distance is their first line of defense against desire.",
+          "note": "<span>表达提示</span>hermit → 世外高人；block outside noise → 屏蔽外界干扰；first line of defense → 第一道防线"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「价值投资最难的是心性」",
+          "phrases": [
+            "Value investing is 10% technique and 90% temperament.",
+            "The hardest thing to manage isn't the portfolio — it's yourself."
+          ],
+          "chunks": "10% technique, 90% temperament · manage yourself",
+          "usage": "第一句是流传的说法，第二句更直白"
+        },
+        {
+          "intent": "想说「物理距离是第一道防线」",
+          "phrases": [
+            "Physical distance is their first defense against temptation.",
+            "Sometimes the best trade is moving to a quieter place."
+          ],
+          "chunks": "physical distance · first defense",
+          "usage": "第一句书面，第二句带点幽默"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "title_cn": "五、破心中贼：对治牛市焦躁的实操框架",
+      "title_en": "Defeating the Inner Bandit: A Practical Framework for Bull-Market Anxiety",
+      "context": "道德经的知足观、模仿欲望的声音识别、追风口与找\"下一个光\"。语域：formal 投资哲学 + 实操建议。",
+      "speak": "Finally, defeating the inner bandit. The Tao Te Ching, chapter 9: hold a cup full and it spills — wealth accumulating to the brim is a cue to stop; what's too sharp cannot last. Chapter 46: no disaster is greater than not knowing contentment. Buffett and Munger live simply and champion delayed gratification, yet ended up enormously wealthy — the sage's maxims and the compounding path are cut from the same cloth. So whenever a 10% annual return stops feeling tasty, remind yourself: that instant of disdain is the voice of mimetic desire, not the judgment of authentic desire. The more people chase a hot trend, the higher the mediator density, and the more your judgment gets kidnapped by mimetic desire — chase early and you share the pie, chase late and it backfires. And if AI is a real productivity revolution, opportunities will keep coming — the rational move isn't squeezing into a crowded space, it's finding the under-explored, undervalued next light.",
+      "sentences": [
+        {
+          "cn": "核心机制：《道德经》第9章：\"持而盈之，不如其已；揣而锐之，不可长保\"——财物积累到快要满溢出来，不如懂得收手；锋芒太露的东西难以长久。第46章：\"祸莫大于不知足，咎莫大于欲得，故知足之足常足矣\"——没有比不知足更大的灾祸，没有比贪婪更大的过错",
+          "en": "Chapter 9 of the Tao Te Ching: \"Hold a cup full and it spills; sharpen a blade and it dulls\" — wealth accumulating to the brim is a cue to stop; what's too sharp cannot last. Chapter 46: \"No disaster is greater than not knowing contentment, no fault greater than craving\" — hence the contentment that knows enough always suffices.",
+          "note": "<span>表达提示</span>Tao Te Ching → 道德经；contentment → 知足；to the brim → 满溢；craving → 贪婪/欲得"
+        },
+        {
+          "cn": "关键理解：巴菲特、芒格物质欲望很低，推崇延迟享受，却最终享有巨富——老子的箴言与复利之道一脉相承",
+          "en": "The key insight: Buffett and Munger have low material desires and champion delayed gratification, yet ended up enormously wealthy — Laozi's maxims and the compounding path are cut from the same cloth.",
+          "note": "<span>表达提示</span>delayed gratification → 延迟享受；compounding → 复利；cut from the same cloth → 一脉相承"
+        },
+        {
+          "cn": "典型场景：每当年化10%的收益\"不香\"时，提醒自己：那一瞬间的嫌弃，正是模仿欲望的声音，而非内在欲望的判断",
+          "en": "A typical scene: whenever a 10% annual return stops feeling \"tasty,\" remind yourself — that instant of disdain is the voice of mimetic desire, not the judgment of authentic desire.",
+          "note": "<span>表达提示</span>annual return → 年化收益；mimetic desire → 模仿欲望；authentic desire → 内在欲望"
+        },
+        {
+          "cn": "（引用）原文依据：\"财富之道，也是一门如何看待和管理欲望的学问。你有什么样的欲望，决定你有什么样的投资行为。\"",
+          "en": "\"The way of wealth is also a study of how to view and manage desire. Your desires decide your investment behavior.\"",
+          "note": "<span>表达提示</span>the way of wealth → 财富之道；investment behavior → 投资行为"
+        },
+        {
+          "cn": "原因：追风口的人越多，介体密度越高，你的判断就越被模仿欲望绑架；追得早分羹，追得晚反噬。牛市里\"怕踏空\"的情绪，最容易让人背叛自己的投资和人生纪律",
+          "en": "The reason: the more people chase a hot trend, the higher the mediator density, and the more your judgment gets kidnapped by mimetic desire; chase early and you share the pie, chase late and it backfires. In a bull market, the \"fear of missing out\" is what most easily makes people betray their own investing and life discipline.",
+          "note": "<span>表达提示</span>mediator density → 介体密度；kidnap one's judgment → 绑架判断；fear of missing out (FOMO) → 怕踏空；backfire → 反噬"
+        },
+        {
+          "cn": "解法：如果AI真的是一场切实的生产力革命，那么机会将层出不穷。理性的做法，不是把自己挤进已经拥挤不堪的地方，而是去寻找未被充分发掘、且被低估的\"下一个光\"",
+          "en": "The solution: if AI is truly a real productivity revolution, opportunities will keep coming. The rational move isn't squeezing into an already crowded space — it's finding the under-explored, undervalued \"next light.\"",
+          "note": "<span>表达提示</span>productivity revolution → 生产力革命；crowded space → 拥挤的地方；undervalued → 被低估的；the next light → 下一个光"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「知足之足常足」",
+          "phrases": [
+            "Contentment that knows enough is always enough.",
+            "The richest are often those who want the least."
+          ],
+          "chunks": "know enough · want the least",
+          "usage": "第二句更适合口语评论"
+        },
+        {
+          "intent": "想说「追风口不如找下一个光」",
+          "phrases": [
+            "Don't squeeze into the crowded lane — find the next light.",
+            "Instead of chasing what's hot, look for what's overlooked."
+          ],
+          "chunks": "crowded lane · the next light · overlooked",
+          "usage": "第一句是本期标题意象，第二句更实用"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "cn": "用「structural bull market」说：结构性牛市里，热门板块独享资金。",
+      "en": "In a structural bull market, the hot sectors monopolize the capital inflow."
+    },
+    {
+      "cn": "用「mimetic desire」说：那瞬间的嫌弃，是模仿欲望的声音。",
+      "en": "That instant of disdain is the voice of mimetic desire, not your own judgment."
+    },
+    {
+      "cn": "用「margin of safety」说：格雷厄姆的价值投资三支柱：股权思维、安全边际、市场先生。",
+      "en": "Graham's value investing rests on equity mindset, margin of safety, and Mr. Market."
+    },
+    {
+      "cn": "用「the next light」说：与其挤进拥挤的地方，不如找被低估的下一个光。",
+      "en": "Instead of squeezing into a crowded space, look for the undervalued next light."
+    }
+  ],
+  "pitfalls": [
+    {
+      "wrong": "The bull market makes my heart very anxious.",
+      "right": "A bull market fuels anxiety — not because prices fell, but because others earned more.",
+      "why": "中式直译\"心里焦虑\"；英文用 fuel anxiety / feel restless，并补上\"别人赚更多\"的原因才完整。"
+    },
+    {
+      "wrong": "I am very envious that others earn money.",
+      "right": "I feel a twinge of envy watching others cash in.",
+      "why": "very envious 太直白；a twinge of envy 更地道地表达\"一阵嫉妒\"。"
+    },
+    {
+      "wrong": "Value investing is very difficult.",
+      "right": "Value investing is simple in principle but brutal on temperament.",
+      "why": "difficult 太空泛；value investing 的难点在心性（temperament），不是技巧。"
+    },
+    {
+      "wrong": "I must follow the trend and buy AI stocks.",
+      "right": "Chasing the hot sector late means buying at the top — FOMO is a desire trap.",
+      "why": "follow the trend 是中式直译；英文说 chase the hot sector / FOMO，并点出追高接盘的后果。"
+    }
+  ],
+  "shifts": [
+    {
+      "before": "牛市焦虑是因为市场不给力",
+      "after": "焦躁来自\"别人赚得比我多\"这个介体——是模仿欲望在说话"
+    },
+    {
+      "before": "欲望发自内心，想要就是真想要",
+      "after": "绝大多数欲望是模仿来的，识别它才能管住它"
+    },
+    {
+      "before": "怕踏空，赶紧追上车",
+      "after": "追得早分羹、追得晚反噬；宁可找被低估的下一个光"
+    }
+  ],
+  "voice": "en-US-JennyNeural",
+  "audio_dir": "audio/en/bull-market-desire"
+}

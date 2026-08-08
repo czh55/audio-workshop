@@ -1,0 +1,365 @@
+{
+  "slug": "product_qiuzhi_resume_talk",
+  "date": "2026-06-23",
+  "platform": "小宇宙FM",
+  "title": "E43.产品 | 求职经验谈：写简历的\"关键词\"思维 & 面试官\"成长\"比成功更重要",
+  "title_en": "E43 Product | Job-Hunting Talk: The 'Keyword' Mindset for Resumes & Why Growth Beats Success in Interviews",
+  "eyebrow": "Career & Job Hunting · 职场与求职",
+  "duration": "30分钟",
+  "source_url": "https://www.xiaoyuzhoufm.com/episode/61589826ae1d32c4f86c1933",
+  "summary_cn": "一句话概括：零实习背景的 Elly 用三个月备战拿下京东/去哪儿 offer，后收割字节/Shopee/美团/滴滴等十余家大厂 SP。核心方法论：简历关键词库快速迭代、逐字深挖预判面试追问、按公司定制面试题库与高效复盘——求职像高考，基本功到位就能拿到 80% 的 offer",
+  "summary_en": "In one sentence: Elly, with zero internship background, prepared for three months and landed offers from JD and Qunar, then swept special offers from ByteDance, Shopee, Meituan, Didi, and over a dozen other top companies. The core methodology: keep a fast-iterating keyword library for your resume, dig into every line to anticipate follow-up questions, and build a custom interview question bank per company with efficient review. Job hunting is like the college entrance exam — nail the fundamentals and 80% of the offers are within reach.",
+  "scenes": [
+    {
+      "id": "s1",
+      "title_cn": "一、求职基本功：像高考一样系统备战",
+      "title_en": "Fundamentals: Prepare Like You're Studying for the Gaokao",
+      "context": "把求职类比高考，强调方向先行的系统备战流程。语域：casual 方法分享。",
+      "speak": "The core framework: job hunting is like the gaokao — 80% of the baseline score comes from fundamentals. The process: know yourself, define a direction, polish your resume, do mock interviews, review your mistakes, and then pick offers on your own terms. The key insight: first figure out what direction you want, then build experience with intent. Effort without direction is a scattergun; preparation with direction hits the target precisely. The typical case: a product applicant with zero or little internship experience prepares systematically for three months and lands a big-tech offer — Elly herself went from zero internships to JD and Qunar, then over a dozen special offers. As the original episode put it, if you nail these fundamentals, you have a shot at 80% of the offers out there. The contrast: unlike blasting your resume everywhere, it's not casting a wide net — it's polishing for a specific target and then applying precisely. First, the resume keyword library: keep a complete keyword bank, let resume iteration be driven entirely by keyword matching, and when you switch direction, just reshuffle the keywords for an instant update.",
+      "sentences": [
+        {
+          "cn": "核心机制：求职和高考一样，80% 的基础分靠基本功。流程是：认识自己→定义方向→打磨简历→模拟面试→复盘错题→反向选择 offer",
+          "en": "The core framework: job hunting is like the gaokao — 80% of the baseline score comes from fundamentals. The process: know yourself, define a direction, polish your resume, do mock interviews, review your mistakes, and then pick offers on your own terms.",
+          "note": "<span>表达提示</span>baseline score → 基础分；mock interview → 模拟面试；on your own terms → 反向选择/按自己的条件"
+        },
+        {
+          "cn": "关键理解：必须先搞清楚自己想做什么方向，再针对性积累。没有方向的努力是散弹，有方向的准备才能精准命中",
+          "en": "The key insight: first figure out what direction you want, then build experience with intent. Effort without direction is a scattergun; preparation with direction hits the target precisely.",
+          "note": "<span>表达提示</span>scattergun → 散弹（无目标乱打）；hit the target → 精准命中；with intent → 有针对性地"
+        },
+        {
+          "cn": "典型场景：零基础/少实习的产品求职者，用 3 个月系统备战拿下大厂 offer（Elly 本人案例：零实习→京东/去哪儿→十余家 SP）",
+          "en": "The typical case: a product applicant with zero or little internship experience prepares systematically for 3 months and lands a big-tech offer — Elly herself went from zero internships to JD and Qunar, then over a dozen special offers.",
+          "note": "<span>表达提示</span>big-tech → 大厂；special offer（SP）→ 特别薪资offer；land an offer → 拿下 offer"
+        },
+        {
+          "cn": "（引用）原文依据：「如果说这个基本功做好了，80% 的 offer 也是有机会的。」",
+          "en": "As the original episode put it: 'If you nail these fundamentals, you have a shot at 80% of the offers out there.'",
+          "note": "<span>表达提示</span>nail the fundamentals → 基本功做到位；have a shot at → 有机会拿到"
+        },
+        {
+          "cn": "（引用）相关概念：与\"海投简历\"的区别——不是广撒网，而是定向打磨后精准投递",
+          "en": "The contrast: unlike blasting your resume everywhere, it's not casting a wide net — it's polishing for a specific target and then applying precisely.",
+          "note": "<span>表达提示</span>cast a wide net → 广撒网；apply precisely → 精准投递；blast resumes → 海投简历"
+        },
+        {
+          "cn": "① 简历关键词库：维护完整关键词库，简历迭代完全取决于关键词匹配，换方向时只需重组关键词即可秒级迭代",
+          "en": "First, the resume keyword library: keep a complete keyword bank, let resume iteration be driven entirely by keyword matching, and when you switch direction, just reshuffle the keywords for an instant update.",
+          "note": "<span>表达提示</span>keyword library → 关键词库；iterate → 迭代；reshuffle → 重组"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「求职像高考，基础分占大头」",
+          "phrases": [
+            "Job hunting is like the gaokao — fundamentals carry 80% of the score.",
+            "Get the basics right and most offers are within reach."
+          ],
+          "chunks": "fundamentals carry the score · within reach",
+          "usage": "within reach（够得着）很口语自然"
+        },
+        {
+          "intent": "想说「先定方向再努力」",
+          "phrases": [
+            "Decide your direction before you grind.",
+            "Aim first; the effort follows the target."
+          ],
+          "chunks": "decide before you grind · aim first",
+          "usage": "grind（埋头苦干）是年轻人常用的口语"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title_cn": "二、关键词思维：简历的\"搭积木\"方法论",
+      "title_en": "The Keyword Mindset: A Building-Block Method for Resumes",
+      "context": "关键词的两个作用、同一段经历映射多个关键词的方法，以及面试官为什么依赖关键词。语域：casual 方法论 + 面试官视角。",
+      "speak": "Keywords serve two purposes: first, they match your target direction; second, when interviewers have no time to read your resume closely, keywords become their entry point and a summary of your experience. The key insight: one internship can map to multiple keywords — data analysis, user research, user-journey optimization. Put different keywords on the same experience and it fits different job descriptions. A typical scene: switching from strategy PM to user PM doesn't require rewriting your resume — just pull the user research and user operations keywords out of your bank and rearrange them. As the episode put it, one experience can carry different keywords, so just attach multiple keywords to a single experience. The workflow: list your experience details, extract your own keywords, download the target company's JD and extract its keywords, match them both ways, then rewrite your resume accordingly. The reason: interviewers read dozens of resumes a day and have no time for word-by-word reading. Resumes without keywords drown in the screening stage.",
+      "sentences": [
+        {
+          "cn": "核心机制：关键词有两个作用：① 与求职方向 match；② 面试官没时间细读简历时，关键词是切入点和经历概括",
+          "en": "Keywords serve two purposes: first, they match your target direction; second, when interviewers have no time to read your resume closely, keywords become their entry point and a summary of your experience.",
+          "note": "<span>表达提示</span>entry point → 切入点；summary of experience → 经历概括；match a direction → 与方向匹配"
+        },
+        {
+          "cn": "关键理解：一段实习经历可以映射多个关键词（如数据分析、用户分析、用户路径优化），同一段经历放不同关键词就能适配不同 JD",
+          "en": "The key insight: one internship can map to multiple keywords — data analysis, user research, user-journey optimization. Put different keywords on the same experience and it fits different job descriptions.",
+          "note": "<span>表达提示</span>map to → 映射到；job description（JD）→ 职位描述；user journey → 用户路径"
+        },
+        {
+          "cn": "典型场景：从策略 PM 转用户 PM 时，不需要重写简历，只需从词库中提取\"用户分析/用户运营\"关键词重组即可",
+          "en": "A typical scene: switching from strategy PM to user PM doesn't require rewriting your resume — just pull the 'user research / user operations' keywords out of your bank and rearrange them.",
+          "note": "<span>表达提示</span>pull out of the bank → 从词库提取；rearrange → 重组；switch roles → 转方向"
+        },
+        {
+          "cn": "（引用）原文依据：「你一段经历是可以有不同的关键词的……你就把一段经历放多个关键词。」",
+          "en": "As the episode put it: 'One experience can carry different keywords… just attach multiple keywords to a single experience.'",
+          "note": "<span>表达提示</span>attach … to … → 把…挂到…；carry keywords → 承载关键词"
+        },
+        {
+          "cn": "（引用）操作流程：列出经历细节 → 自主提取关键词 → 下载目标公司 JD 提取关键词 → 双向 match → 重组简历表述",
+          "en": "The workflow: list your experience details, extract your own keywords, download the target company's JD and extract its keywords, match them both ways, then rewrite your resume accordingly.",
+          "note": "<span>表达提示</span>workflow → 操作流程；extract keywords → 提取关键词；match both ways → 双向匹配"
+        },
+        {
+          "cn": "原因：面试官每天看几十份简历，没有时间逐字阅读。没有关键词的简历在筛选阶段就被淹没",
+          "en": "The reason: interviewers read dozens of resumes a day and have no time for word-by-word reading. Resumes without keywords drown in the screening stage.",
+          "note": "<span>表达提示</span>screening stage → 筛选阶段；drown in → 被淹没；dozens of → 几十份"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「同一段经历可以配不同关键词」",
+          "phrases": [
+            "One experience can carry multiple keywords.",
+            "The same internship can be framed to fit any JD."
+          ],
+          "chunks": "carry multiple keywords · framed to fit",
+          "usage": "frame（表述/包装）是简历场景的高频词"
+        },
+        {
+          "intent": "想说「面试官没空细读简历」",
+          "phrases": [
+            "Interviewers skim, they don't read.",
+            "Nobody reads resumes word by word."
+          ],
+          "chunks": "skim, don't read · word by word",
+          "usage": "skim（略读）表达很精准"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title_cn": "三、简历深挖：微观逐字 + 宏观归因",
+      "title_en": "Deep-Digging Your Resume: Micro Detail, Macro Attribution",
+      "context": "从「做了什么」到「为什么做、结果如何、指标局限在哪」的面试思维，以及工具选择如何反映分析维度。语域：casual 面试技巧分享。",
+      "speak": "The core mechanism: your resume says what you did and the results, but the interview is about why you did it, how it turned out, and where the metrics fall short. You should plan that story while writing the resume. The key insight: ask yourself three questions — does this metric truly represent success? Why was it the only metric available at the time? How would you improve it now? As the episode noted, Google Analytics tracks which channels the traffic comes from and how conversion rates look; Mixpanel matters more for seeing how users navigate the product — because their metric dimensions differ. In related terms: Google Analytics focuses on traffic, channels, and conversion; Mixpanel on user-behavior paths — your tool choice reveals which analysis dimension you think in. As an intern, don't just list trivial tasks — think about: what was the team's OKR? What was my role? What did I contribute to the OKR? And why did the project succeed or fail? A startup case: the job-seeking community project won an award but actually failed — user numbers spiked during spring and autumn recruiting but couldn't hold; old users left as soon as they got offers and couldn't be retained; the time, labor, and experience costs were too high for the business value. When interviewers ask why he didn't continue a success, macro attribution is the best answer.",
+      "sentences": [
+        {
+          "cn": "核心机制：简历写的是\"做了什么、成果如何\"，但面试讲的是\"为什么做、结果如何、指标局限在哪\"。写简历时就要想好怎么讲",
+          "en": "The core mechanism: your resume says what you did and the results, but the interview is about why you did it, how it turned out, and where the metrics fall short. You should plan that story while writing the resume.",
+          "note": "<span>表达提示</span>metrics → 指标；fall short → 有局限/不足；plan the story → 想好怎么讲"
+        },
+        {
+          "cn": "关键理解：自问三连：这个指标能代表方案成功吗？当时为什么只能用这个指标？现在你会怎么改进？",
+          "en": "The key insight: ask yourself three questions — does this metric truly represent success? Why was it the only metric available at the time? How would you improve it now?",
+          "note": "<span>表达提示</span>represent success → 代表成功；improve on it → 改进；self-questioning → 自问"
+        },
+        {
+          "cn": "（引用）\"Google Analytics 是看流量从哪个渠道进来、转化率如何；Mixpanel 更重要的是看用户在产品上的使用路径——因为它们的指标维度不一样。\"",
+          "en": "As the episode noted: 'Google Analytics tracks which channels the traffic comes from and how conversion rates look; Mixpanel matters more for seeing how users navigate the product — because their metric dimensions differ.'",
+          "note": "<span>表达提示</span>conversion rate → 转化率；traffic channel → 流量渠道；metric dimension → 指标维度"
+        },
+        {
+          "cn": "（引用）相关概念：Google Analytics（流量/渠道/转化）vs Mixpanel（用户行为路径）——工具选择反映分析维度差异",
+          "en": "In related terms: Google Analytics focuses on traffic, channels, and conversion; Mixpanel on user-behavior paths — your tool choice reveals which analysis dimension you think in.",
+          "note": "<span>表达提示</span>user-behavior path → 用户行为路径；reveal → 反映；think in dimensions → 按维度思考"
+        },
+        {
+          "cn": "作为实习生不能只写琐碎任务，要思考：团队 OKR 是什么？我的角色？对 OKR 的贡献？项目为什么能成/不能成？",
+          "en": "As an intern, don't just list trivial tasks — think about: what was the team's OKR? What was my role? What did I contribute to the OKR? And why did the project succeed or fail?",
+          "note": "<span>表达提示</span>OKR（Objectives and Key Results）→ 目标与关键结果；trivial tasks → 琐碎任务；contribute to → 对…的贡献"
+        },
+        {
+          "cn": "创业案例：求职社区项目拿了奖但实际失败——春招秋招用户量激增但无法维持，老用户拿 offer 就走无法留存，时间/人力/经验成本过高，商业利益不足。面试官追问\"既然成功为什么不继续\"时，宏观归因就是最佳回答",
+          "en": "A startup case: the job-seeking community project won an award but actually failed — user numbers spiked during spring and autumn recruiting but couldn't hold; old users left as soon as they got offers and couldn't be retained; the time, labor, and experience costs were too high for the business value. When interviewers ask why he didn't continue a 'success,' macro attribution is the best answer.",
+          "note": "<span>表达提示</span>spike → 激增；retention → 留存；macro attribution → 宏观归因"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「面试讲的是为什么而不是做了什么」",
+          "phrases": [
+            "Interviews are about the why, not the what.",
+            "You need the story behind the bullet point."
+          ],
+          "chunks": "the why, not the what · the story behind",
+          "usage": "the why, not the what 是地道的小对仗"
+        },
+        {
+          "intent": "想说「项目失败也要能讲清楚」",
+          "phrases": [
+            "You should be able to explain a failed project.",
+            "Macro attribution turns a failure into a strength."
+          ],
+          "chunks": "macro attribution · turn failure into strength",
+          "usage": "turn A into B 结构很万能"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "title_cn": "四、面试准备与高效复盘",
+      "title_en": "Interview Prep and High-Efficiency Review",
+      "context": "按公司定制面试题库、只记两类关键问题的复盘法。语域：casual 方法 + 经验分享。",
+      "speak": "When interviewing at Meituan, Elly compared Meituan's products against Ele.me across the board, and its grocery business against Qdama. So when interviewers asked how she saw Meituan, she had plenty of ground to stand on. During prep, discovering which question types you're better at helps you define the direction that suits you. The reason: autumn recruiting is extremely tight — one interview rolls straight into the next, so there's no time to write down every question. The fix: only write down two types — new questions you hadn't prepared for, and valuable ones where you underperformed or the interviewer was clearly unsatisfied. During review, ask: why did the interviewer ask this, and what answer were they hoping to hear? How serious is this? Watch out — wasting time on ineffective review makes you miss the real gaps you should fill. Ineffective review means listing every question and answer in a flat log with no targeting at all.",
+      "sentences": [
+        {
+          "cn": "面美团时，Elly 会把美团产品与饿了么、买菜业务与钱大妈做全方位对比。这样当面试官问\"你怎么看美团\"时，有充足底气展开讨论",
+          "en": "When interviewing at Meituan, Elly compared Meituan's products against Ele.me across the board, and its grocery business against Qdama. So when interviewers asked how she saw Meituan, she had plenty of ground to stand on.",
+          "note": "<span>表达提示</span>across the board → 全方位；have ground to stand on → 有底气；compare A against B → 拿A和B对比"
+        },
+        {
+          "cn": "（引用）准备时发现哪类问题更擅长，反过来帮助定义自己适合的方向",
+          "en": "During prep, discovering which question types you're better at helps you define the direction that suits you.",
+          "note": "<span>表达提示</span>question type → 题型；suit you → 适合你"
+        },
+        {
+          "cn": "原因：秋招时间极紧，面完一个接着下一个，没时间每个问题都记",
+          "en": "The reason: autumn recruiting is extremely tight — one interview rolls straight into the next, so there's no time to write down every question.",
+          "note": "<span>表达提示</span>autumn recruiting → 秋招；roll into → 紧接着；one after another → 一个接一个"
+        },
+        {
+          "cn": "解法：只记两类问题——① 新问题（没准备过的）；② 有价值的问题（自己表现不满意或面试官明显不满的）。复盘时问\"面试官为什么问这个？他希望听到什么答案？\"",
+          "en": "The fix: only write down two types — new questions you hadn't prepared for, and valuable ones where you underperformed or the interviewer was clearly unsatisfied. During review, ask: why did the interviewer ask this, and what answer were they hoping to hear?",
+          "note": "<span>表达提示</span>underperform → 表现不佳；clearly unsatisfied → 明显不满；review → 复盘"
+        },
+        {
+          "cn": "严重程度：小心——浪费时间在无效复盘上，错过真正该补的短板",
+          "en": "How serious is this? Watch out — wasting time on ineffective review makes you miss the real gaps you should fill.",
+          "note": "<span>表达提示</span>ineffective review → 无效复盘；fill the gap → 补齐短板；miss out on → 错过"
+        },
+        {
+          "cn": "（引用）低效复盘：列出所有问答流水账，没有针对性",
+          "en": "Ineffective review means listing every question and answer in a flat log with no targeting at all.",
+          "note": "<span>表达提示</span>flat log → 流水账；no targeting → 没有针对性"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「按公司定制面试准备」",
+          "phrases": [
+            "Tailor your prep to each company.",
+            "Build a custom question bank for every target."
+          ],
+          "chunks": "tailor your prep · custom question bank",
+          "usage": "tailor（定制）是职场高频词"
+        },
+        {
+          "intent": "想说「复盘只记两类问题」",
+          "phrases": [
+            "Only log the questions that matter.",
+            "Skip the transcript, keep the signal."
+          ],
+          "chunks": "log what matters · keep the signal",
+          "usage": "keep the signal（抓重点）很带感"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "title_cn": "五、心态：双向选择与\"可教性\"",
+      "title_en": "Mindset: Two-Way Choosing and Coachability",
+      "context": "把面试当学习机会的双向选择心态、被拒不必内耗。语域：casual 心态分享。",
+      "speak": "Why it matters: caring too much about the outcome makes you choke; treating interviews as learning chances lets you talk deeply with top people, even staying in touch long-term. The boundary: in full-time job hunting you need balance — two-way choosing doesn't mean coasting; you still prepare seriously. As the episode put it, iterate yourself like a product — be your own product manager. How to apply it: before every interview, ask yourself what you can learn from this conversation — not whether you'll get the offer. The core mechanism: especially at big companies like ByteDance and Meituan, the first person you face may be your future teammate. Clashing personalities hurt more than skill gaps. The key insight: a rejection may just mean the timing or chemistry wasn't right — even if you'd gotten in, the collaboration might not have clicked. Relax and reframe: this interview is another chance to talk to a top player.",
+      "sentences": [
+        {
+          "cn": "为什么重要：太在乎结果会紧张失常；把面试当学习机会，反而能跟大佬深度交流，甚至保持长期联系",
+          "en": "Why it matters: caring too much about the outcome makes you choke; treating interviews as learning chances lets you talk deeply with top people, even staying in touch long-term.",
+          "note": "<span>表达提示</span>choke → 紧张失常；stay in touch → 保持联系；treat A as B → 把A当B"
+        },
+        {
+          "cn": "适用边界：全职求职时需平衡——双向选择不等于摆烂，仍需认真准备",
+          "en": "The boundary: in full-time job hunting you need balance — two-way choosing doesn't mean coasting; you still prepare seriously.",
+          "note": "<span>表达提示</span>two-way choosing → 双向选择；coast → 摆烂/划水；prepare seriously → 认真准备"
+        },
+        {
+          "cn": "（引用）\"像迭代产品一样去迭代自己——做自己的产品经理。\"",
+          "en": "As the episode put it: 'Iterate yourself like a product — be your own product manager.'",
+          "note": "<span>表达提示</span>iterate yourself → 迭代自己；be your own PM → 做自己的产品经理"
+        },
+        {
+          "cn": "（引用）落地：每次面试前问自己\"我能从这次交流中学到什么\"，而非\"我能不能拿到 offer\"",
+          "en": "How to apply it: before every interview, ask yourself what you can learn from this conversation — not whether you'll get the offer.",
+          "note": "<span>表达提示</span>learn from the conversation → 从交流中学到；shift the question → 换个问法"
+        },
+        {
+          "cn": "核心机制：尤其字节/美团等大厂，你面对的第一个人可能就是未来同事。合不来比能力不足更痛苦",
+          "en": "The core mechanism: especially at big companies like ByteDance and Meituan, the first person you face may be your future teammate. Clashing personalities hurt more than skill gaps.",
+          "note": "<span>表达提示</span>future teammate → 未来同事；clashing personalities → 气场不合；skill gap → 能力差距"
+        },
+        {
+          "cn": "关键理解：被拒可能是缘分未到、气场不合——就算入职也未必能合作愉快。放平心态：\"这个面试我又可以面到大佬了。\"",
+          "en": "The key insight: a rejection may just mean the timing or chemistry wasn't right — even if you'd gotten in, the collaboration might not have clicked. Relax and reframe: 'This interview is another chance to talk to a top player.'",
+          "note": "<span>表达提示</span>chemistry → 气场/缘分；reframe → 换个角度看；click → 合拍"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「把面试当学习机会」",
+          "phrases": [
+            "Treat every interview as a learning session.",
+            "It's a chance to talk to top people, win or lose."
+          ],
+          "chunks": "learning session · win or lose",
+          "usage": "win or lose 很有画面感"
+        },
+        {
+          "intent": "想说「被拒可能只是气场不合」",
+          "phrases": [
+            "A rejection may just be a chemistry mismatch.",
+            "Not getting in doesn't mean you're not good enough."
+          ],
+          "chunks": "chemistry mismatch · good enough",
+          "usage": "chemistry（气场）谈人际很地道"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "cn": "用「fundamentals」说：求职的基本功占80%的分数。",
+      "en": "In job hunting, fundamentals carry 80% of the score — prepare like you're studying for an exam."
+    },
+    {
+      "cn": "用「map to」说：一段经历可以映射多个关键词。",
+      "en": "One internship can map to multiple keywords, so reframe it to fit different job descriptions."
+    },
+    {
+      "cn": "用「the why, not the what」说：面试讲的是为什么。",
+      "en": "Interviews are about the why, not the what — explain the reasoning behind each result."
+    },
+    {
+      "cn": "用「coachability」说：面试官看重可教性。",
+      "en": "Interviewers weigh coachability as much as skill — show you're eager to learn."
+    }
+  ],
+  "pitfalls": [
+    {
+      "wrong": "My resume uses many keywords to match the company.",
+      "right": "My resume is keyword-mapped to the target role so it survives screening.",
+      "why": "keyword-mapped / align with 才是「对齐关键词」的地道说法；use keywords to match 太生硬。"
+    },
+    {
+      "wrong": "I sent my resume to a hundred companies like scattering seeds.",
+      "right": "Blasting a hundred resumes is casting a wide net — targeted, polished applications work better.",
+      "why": "scatter seeds 是中式直译；广撒网地道说法是 cast a wide net。"
+    },
+    {
+      "wrong": "The interviewer asked why my project failed, I said because of bad luck.",
+      "right": "Macro attribution answers failure with structure: the market wasn't there, the costs were too high.",
+      "why": "面试讲失败要用宏观归因给结构化解释；bad luck 会被认为缺乏思考。"
+    },
+    {
+      "wrong": "I review every question after each interview.",
+      "right": "I only log new questions and ones I underperformed on — that keeps review efficient.",
+      "why": "逐题流水账是低效复盘；只记新问题+有价值的问题才是本期方法论。"
+    }
+  ],
+  "shifts": [
+    {
+      "before": "以为海投简历就是努力",
+      "after": "定向打磨+关键词精准投递，基本功到位 80% 的 offer 都有机会"
+    },
+    {
+      "before": "以为简历写清楚做了什么就行",
+      "after": "面试问的是「为什么做、指标局限在哪」，写简历时就要想好怎么讲"
+    },
+    {
+      "before": "以为面试是单向被挑选",
+      "after": "面试是双向选择——把面试当学习机会，被拒也可能只是气场不合"
+    }
+  ],
+  "voice": "en-US-JennyNeural",
+  "audio_dir": "audio/en/product_qiuzhi_resume_talk"
+}

@@ -1,0 +1,306 @@
+{
+  "slug": "ziran_fat_loss_vol65",
+  "date": "2026-07-05",
+  "platform": "小宇宙FM",
+  "title": "Vol.65 减掉1公斤脂肪需要多久？如何真正减掉脂肪？",
+  "title_en": "Vol.65 How Long Does It Take to Lose 1kg of Fat? How Do You Actually Lose Fat?",
+  "eyebrow": "Health & Fitness · 健康与健身",
+  "duration": "36分钟",
+  "source_url": "https://www.xiaoyuzhoufm.com/episode/6a40edc79d2f5743683f1353",
+  "summary_cn": "壶铃世界冠军、体能教练 Elijah 用生化机制拆解减脂：84% 脂肪以 CO₂ 呼出；7700 大卡公式在代谢适应、糖原水和测量误差下极不精确；体重秤是高噪音信号；运动保肌比耗卡更重要；真正有效的框架是小缺口+高蛋白+力量训练+睡眠+周期化",
+  "summary_en": "Elijah, a world champion kettlebell athlete and strength coach, breaks down fat loss through biochemistry: 84 percent of fat leaves the body as carbon dioxide; the 7,700-calorie formula is wildly imprecise once metabolic adaptation, glycogen water, and measurement error kick in; the scale is a high-noise signal; exercise matters more for preserving muscle than for burning calories; and the framework that actually works is a small deficit plus high protein, strength training, sleep, and periodization.",
+  "scenes": [
+    {
+      "id": "s1",
+      "title_cn": "一、脂肪去哪了：呼吸才是主出口",
+      "title_en": "Where Does Fat Go? Breathing Is the Main Exit",
+      "context": "用 2014 年 BMJ 研究引出「脂肪以 CO₂ 形式呼出」的生化机制，并计算 1kg 脂肪组织的真实热量。语域：formal 科学科普 + 数据拆解。",
+      "speak": "The mechanism: about 87 percent of body fat is triglycerides. When the body needs energy, adrenaline and glucagon trigger lipolysis, and free fatty acids enter the mitochondria for aerobic oxidation, producing ATP, water, and carbon dioxide. The CO2 leaves through your lungs; the water leaves through urine and sweat. The key insight: a 2014 BMJ study asked more than 150 doctors where fat goes when you lose it, and 98 percent got it wrong — the most common answer being 'it turns into energy.' The right answer: you breathe it out as CO2. To oxidize more fat, you want a low-insulin environment plus enough mitochondrial oxidizing capacity from aerobic training and preserved muscle. As Elijah says, you literally breathe your fat out — this is not a metaphor, it's a literal chemical reaction. One gram of pure fat oxidizes to about nine kilocalories, and one kilogram of fat tissue contains roughly 870 grams of triglycerides — about 7,830 kilocalories, close to the classic 7,700. But as a practical tool, the human body is not a calorie calculator.",
+      "sentences": [
+        {
+          "cn": "核心机制：体内脂肪约 87% 为甘油三酯。需要能量时，肾上腺素/胰高血糖素触发脂肪分解，游离脂肪酸进入线粒体有氧氧化，产物为 ATP、水和二氧化碳。CO₂ 经肺排出，水经尿液、汗液排出",
+          "en": "The mechanism: about 87 percent of body fat is triglycerides. When the body needs energy, adrenaline and glucagon trigger lipolysis, and free fatty acids enter the mitochondria for aerobic oxidation, producing ATP, water, and carbon dioxide. The CO2 leaves through your lungs; the water leaves through urine and sweat.",
+          "note": "<span>表达提示</span>triglycerides → 甘油三酯；lipolysis → 脂肪分解；aerobic oxidation → 有氧氧化；mitochondria → 线粒体"
+        },
+        {
+          "cn": "关键理解：2014 年 BMJ 研究问 150+ 医生「减脂时脂肪去哪了」，98% 答错（最常见答「变成能量/热量」）。正确答案是呼吸呼出 CO₂",
+          "en": "The key insight: a 2014 BMJ study asked more than 150 doctors where fat goes when you lose it, and 98 percent got it wrong — the most common answer being 'it turns into energy.' The right answer: you breathe it out as CO2.",
+          "note": "<span>表达提示</span>BMJ → 英国医学期刊；turn into energy → 变成能量；breathe it out → 呼出去"
+        },
+        {
+          "cn": "典型场景：想多氧化脂肪，需要低胰岛素环境 + 足够线粒体氧化能力（有氧训练、保肌）",
+          "en": "How to use it: to oxidize more fat, you want a low-insulin environment plus enough mitochondrial oxidizing capacity — which comes from aerobic training and preserving muscle.",
+          "note": "<span>表达提示</span>low-insulin environment → 低胰岛素环境；oxidizing capacity → 氧化能力；aerobic training → 有氧训练"
+        },
+        {
+          "cn": "（引用）原文依据：「你在字面意义上把脂肪呼出去了……这不是比喻，这是一个字面意义上的化学反应。」",
+          "en": "'You literally breathe your fat out… this is not a metaphor — it's a literal chemical reaction.'",
+          "note": "<span>表达提示</span>literally → 字面意义上；not a metaphor → 不是比喻；chemical reaction → 化学反应"
+        },
+        {
+          "cn": "（引用）相关概念：减脂 ≠ 燃烧；减脂 = 脂肪分子转化为气体和水离开身体",
+          "en": "Related idea: fat loss is not 'burning' — it's fat molecules converting into gas and water and leaving the body.",
+          "note": "<span>表达提示</span>fat loss ≠ burning → 减脂不是燃烧；convert into gas → 转化为气体；leave the body → 离开身体"
+        },
+        {
+          "cn": "1g 纯脂肪氧化约 9 大卡，1kg 脂肪组织含约 870g 甘油三酯 → 7830 大卡，与 7700 接近。但作为实践工具，人体不是热量计算器",
+          "en": "One gram of pure fat oxidizes to about 9 kilocalories, and one kilogram of fat tissue contains roughly 870 grams of triglycerides — about 7,830 kilocalories, close to the classic 7,700. But as a practical tool, the human body is not a calorie calculator.",
+          "note": "<span>表达提示</span>kilocalorie → 大卡；fat tissue → 脂肪组织；calorie calculator → 热量计算器"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「脂肪是呼出去的不是烧掉的」",
+          "phrases": [
+            "You literally exhale the fat — 84 percent of it leaves as CO2.",
+            "Fat leaves the body as gas and water, not as heat."
+          ],
+          "chunks": "exhale the fat · leaves as CO2 · gas and water",
+          "usage": "exhale 是科学表达，适合正式场合"
+        },
+        {
+          "intent": "想说「人体不是简单的热量计算器」",
+          "phrases": [
+            "The body isn't a simple calorie spreadsheet.",
+            "You can't just do the math — the body doesn't follow the formula."
+          ],
+          "chunks": "a calorie spreadsheet · do the math · follow the formula",
+          "usage": "spreadsheet 比喻很现代很口语"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title_cn": "二、代谢适应：身体比你更聪明",
+      "title_en": "Metabolic Adaptation: Your Body Is Smarter Than You",
+      "context": "用真人秀选手反弹案例讲清代谢适应的三层机制：基础代谢、NEAT、食欲激素。语域：formal 科学科普 + 案例复盘。",
+      "speak": "The setup: fourteen reality-show contestants dieted extremely and trained hard, losing 58 kilograms on average. Six years later almost all of them regained the weight, and their resting metabolism was still about 500 kilocalories a day lower than people of the same weight who never dieted — the body remembers the starvation history and keeps saving energy. Adaptation has three layers. First, resting metabolism drops beyond what the weight loss itself explains. Second, NEAT, non-exercise activity thermogenesis, collapses, which can cancel out more than half of your calorie deficit. Third, leptin falls and ghrelin rises, and that appetite surge can't be fought with willpower alone. Every aggressive diet lowers your metabolic floor a little more, so when you stop dieting, the body thinks it's entered a calorie surplus. The fix: a small deficit of about 300 kilocalories a day avoids triggering big adaptation, and periodized maintenance phases let the hormone system reset.",
+      "sentences": [
+        {
+          "cn": "核心机制：14 名真人秀选手极端节食+高强度运动，平均减 58kg。6 年后几乎全员反弹，且静息代谢仍比同体重从未减肥者低约 500 大卡/天——身体「记住」挨饿历史，持续省能量",
+          "en": "The setup: fourteen reality-show contestants dieted extremely and trained hard, losing 58 kilograms on average. Six years later almost all of them regained the weight, and their resting metabolism was still about 500 kilocalories a day lower than people of the same weight who never dieted — the body 'remembers' the starvation history and keeps saving energy.",
+          "note": "<span>表达提示</span>resting metabolism → 静息代谢；regain the weight → 反弹；remember the starvation history → 记住挨饿历史"
+        },
+        {
+          "cn": "关键理解：代谢适应三层：①基础代谢下降（超出体重减少本身的每单位代谢率下降）；② NEAT（非运动活动产热）急剧下降，可抵消热量缺口一半以上；③瘦素↓、胃饥饿素↑，食欲增强非意志力可对抗",
+          "en": "The key insight: adaptation has three layers. First, resting metabolism drops beyond what the weight loss itself explains. Second, NEAT — non-exercise activity thermogenesis — collapses, which can cancel out more than half of your calorie deficit. Third, leptin falls and ghrelin rises, and that appetite surge can't be fought with willpower alone.",
+          "note": "<span>表达提示</span>NEAT → 非运动活动产热；leptin → 瘦素；ghrelin → 胃饥饿素；cancel out → 抵消"
+        },
+        {
+          "cn": "典型场景：每次激进节食都让代谢底盘更低一点，停止节食后身体认为进入热量盈余",
+          "en": "How to use it: every aggressive diet lowers your metabolic floor a little more, so when you stop dieting, the body thinks it's entered a calorie surplus.",
+          "note": "<span>表达提示</span>metabolic floor → 代谢底盘；calorie surplus → 热量盈余；aggressive diet → 激进节食"
+        },
+        {
+          "cn": "（引用）原文依据：「每一次激进的节食，都会让你的代谢底盘比以前更低一点点。」",
+          "en": "'Every aggressive diet lowers your metabolic floor a little more than before.'",
+          "note": "<span>表达提示</span>metabolic floor → 代谢底盘；a little more → 更低一点点"
+        },
+        {
+          "cn": "原因：你以为在少吃，身体本能走得更慢、站得更少、动得更少（NEAT 补偿）。跑完步反而躺更多，食欲也因运动增加",
+          "en": "Why: you think you're eating less, but your body instinctively walks slower, stands less, and moves less — the NEAT compensation. After a run you lie down even more, and your appetite grows with exercise too.",
+          "note": "<span>表达提示</span>NEAT compensation → 非运动活动代偿；instinctively → 本能地；appetite grows → 食欲增加"
+        },
+        {
+          "cn": "解法：小缺口（300 大卡/天）避免大幅触发适应；周期化维持期让激素系统回归",
+          "en": "The fix: a small deficit of about 300 kilocalories a day avoids triggering big adaptation, and periodized maintenance phases let the hormone system reset.",
+          "note": "<span>表达提示</span>small deficit → 小缺口；periodized maintenance → 周期化维持期；let … reset → 让…回归"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「越节食，身体越省电」",
+          "phrases": [
+            "The more you diet, the more your body goes into power-saving mode.",
+            "Crash dieting just trains your metabolism to spend less."
+          ],
+          "chunks": "power-saving mode · crash dieting · spend less",
+          "usage": "power-saving mode 是绝妙的比喻，口语推荐"
+        },
+        {
+          "intent": "想说「意志力斗不过激素」",
+          "phrases": [
+            "No amount of willpower beats a ghrelin surge.",
+            "Appetite hormones will outlast your discipline every time."
+          ],
+          "chunks": "no amount of willpower · outlast your discipline",
+          "usage": "outlast 表达「比…更持久」，点评金句"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title_cn": "三、体重秤、运动与最后 5 公斤",
+      "title_en": "The Scale, Exercise, and the Last 5 Kilograms",
+      "context": "拆解体重秤上那些与脂肪无关的「噪音」，以及运动的真正价值是保肌而非耗卡。语域：formal 健身科普 + 数据拆解。",
+      "speak": "The mechanism: a single reading is swayed by glycogen and water — each gram of glycogen binds three to four grams of water, adding one to two kilograms on your body — plus sodium-driven water retention of half to one and a half kilograms, menstrual cycles that can add one to three kilograms in the luteal phase, and the weight of the food and drinks you just consumed. None of it is fat. The key insight: a weekly average of fasted morning weigh-ins, plus waist and thigh measurements and how your clothes fit, beats any single daily number. Lifters may see the scale hold still while their waist shrinks, because muscle weighs more than fat. And here's the math: a 70-kilogram adult running at 10 kilometers per hour burns about 700 kilocalories, theoretically one kilogram of fat in eleven days. But metabolic adaptation, NEAT compensation, and post-exercise appetite eat most of that gap, and a single ordinary delivery meal takes one to two hours of moderate exercise to cancel out. Exercise's real value is preserving muscle, improving insulin sensitivity, and optimizing hormones — strength training is the most underrated fat-loss tool.",
+      "sentences": [
+        {
+          "cn": "核心机制：单点体重受糖原+水（1g 糖原结合 3-4g 水，体内 1-2kg 相关水）、钠水潴留（±0.5-1.5kg）、月经周期（黄体期可 +1-3kg）、食物/饮水重量影响，与脂肪无关",
+          "en": "The mechanism: a single reading is swayed by glycogen and water — each gram of glycogen binds three to four grams of water, adding one to two kilograms on your body — plus sodium-driven water retention of half to one and a half kilograms, menstrual cycles that can add one to three kilograms in the luteal phase, and the weight of the food and drinks you just consumed. None of it is fat.",
+          "note": "<span>表达提示</span>water retention → 水分潴留；luteal phase → 黄体期；single reading → 单点读数"
+        },
+        {
+          "cn": "关键理解：用一周晨起空腹平均值 + 腰围/腿围 + 衣服合身度，比每日单点数字更有意义。力量训练者可能体重不变但腰围缩小（肌肉重于脂肪）",
+          "en": "The key insight: a weekly average of fasted morning weigh-ins, plus waist and thigh measurements and how your clothes fit, beats any single daily number. Lifters may see the scale hold still while their waist shrinks, because muscle weighs more than fat.",
+          "note": "<span>表达提示</span>fasted morning weigh-in → 晨起空腹称重；waist measurement → 腰围；muscle weighs more than fat → 肌肉重于脂肪"
+        },
+        {
+          "cn": "（引用）原文依据：「用单字的体重来评判你的减脂努力，是一个非常高噪音的评估方式。」",
+          "en": "'Judging your fat-loss effort by a single number on the scale is a very high-noise way to evaluate it.'",
+          "note": "<span>表达提示</span>high-noise → 高噪音；single number → 单点数字；evaluate → 评估"
+        },
+        {
+          "cn": "（引用）相关概念：减脂进展评估应多指标并行，而非盯每日体重",
+          "en": "Related idea: track several indicators in parallel rather than staring at the daily scale.",
+          "note": "<span>表达提示</span>in parallel → 并行；track indicators → 跟踪指标；stare at → 盯着"
+        },
+        {
+          "cn": "核心机制：70kg 成人：跑步 10km/小时约 700 大卡 → 理论 11 天减 1kg 脂肪。但代谢适应、NEAT 补偿、运动后食欲增加会吃掉大部分缺口。一顿普通外卖 1000-1500 大卡，需 1-2 小时中等强度运动才能抵消",
+          "en": "The math: a 70-kilogram adult running at 10 kilometers per hour burns about 700 kilocalories — theoretically one kilogram of fat in eleven days. But metabolic adaptation, NEAT compensation, and post-exercise appetite eat most of that gap. A single ordinary delivery meal runs 1,000 to 1,500 kilocalories and takes one to two hours of moderate exercise to cancel out.",
+          "note": "<span>表达提示</span>eat the gap → 吃掉缺口；cancel out → 抵消；delivery meal → 外卖"
+        },
+        {
+          "cn": "关键理解：运动真正价值：①保留/增加肌肉（代谢活跃组织）；②改善胰岛素敏感性；③优化激素环境。力量训练是减脂最被低估工具——不是因为耗卡多，而是因为保肌维持代谢率",
+          "en": "The key insight: exercise's real value is preserving or building muscle, a metabolically active tissue; improving insulin sensitivity; and optimizing the hormone environment. Strength training is the most underrated fat-loss tool — not because it burns many calories, but because keeping muscle maintains your metabolic rate.",
+          "note": "<span>表达提示</span>insulin sensitivity → 胰岛素敏感性；metabolically active tissue → 代谢活跃组织；underrated tool → 被低估的工具"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「体重秤上数字会骗人」",
+          "phrases": [
+            "The scale lies to you on any single day.",
+            "That one number is mostly water, not fat."
+          ],
+          "chunks": "the scale lies · mostly water, not fat",
+          "usage": "第二句很直白，适合日常交流"
+        },
+        {
+          "intent": "想说「运动真正的作用是保肌」",
+          "phrases": [
+            "Exercise's real job is keeping the muscle you have.",
+            "Don't train to burn calories — train to keep your metabolism."
+          ],
+          "chunks": "keeping the muscle · train to keep your metabolism",
+          "usage": "第二句是观点陈述，适合点评"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "title_cn": "四、五大减脂迷思与有效框架",
+      "title_en": "Five Fat-Loss Myths and a Framework That Works",
+      "context": "四条原则 + 两条落地边界：小缺口、保肌、睡眠、周期化，以及何时该停下。语域：formal 健身框架总结 + 播客收尾。",
+      "speak": "Principle one: a small, sustained deficit beats aggressive dieting — 300 kilocalories a day, 500 at most, so you don't trigger a large metabolic adaptation. Principle two: preserving muscle is the core — 1.6 to 2.0 grams of protein per kilogram of body weight plus structured strength training, so the deficit doesn't break down muscle. Principle three: sleep and stress — with too little sleep, cortisol rises, ghrelin rises, and leptin falls, and in matched interventions, the group with good sleep lost more fat and kept more muscle. Principle four: periodize and accept plateaus — fat loss is not linear, so after a stretch, a two-to-four-week maintenance phase near energy balance lets hormones reset before the next block. And the boundary: for non-competitive goals, prioritize sustainability; if fat loss is seriously hurting your social life, work, or quality of life, it's time to ask whether it's even necessary. In practice, today, check that your protein hits 1.6 to 2.0 grams per kilogram; this week, weigh in daily and use the weekly average to judge progress.",
+      "sentences": [
+        {
+          "cn": "原则一：小持续缺口优于激进节食——每天 300 大卡（最多 500），不易触发大幅代谢适应",
+          "en": "Principle one: a small, sustained deficit beats aggressive dieting — 300 kilocalories a day, 500 at most, so you don't trigger a large metabolic adaptation.",
+          "note": "<span>表达提示</span>sustained deficit → 持续缺口；at most → 最多；trigger adaptation → 触发适应"
+        },
+        {
+          "cn": "原则二：保肌是核心——蛋白质 1.6-2.0g/kg 体重 + 系统力量训练，防止缺口期分解肌肉",
+          "en": "Principle two: preserving muscle is the core — 1.6 to 2.0 grams of protein per kilogram of body weight plus structured strength training, so the deficit doesn't break down muscle.",
+          "note": "<span>表达提示</span>per kilogram of body weight → 每公斤体重；break down muscle → 分解肌肉；structured training → 系统训练"
+        },
+        {
+          "cn": "原则三：睡眠与压力——睡眠不足皮质醇↑、胃饥饿素↑、瘦素↓，同样干预下睡眠质量好组减脂更多、保肌更好",
+          "en": "Principle three: sleep and stress. With too little sleep, cortisol rises, ghrelin rises, and leptin falls; in matched interventions, the group with good sleep lost more fat and kept more muscle.",
+          "note": "<span>表达提示</span>cortisol → 皮质醇；matched intervention → 同等干预；sleep quality → 睡眠质量"
+        },
+        {
+          "cn": "原则四：周期化接受平台期——减脂非线性；减到一定程度后 2-4 周维持期（接近能量平衡）让激素回归，再继续下阶段，长期效果好于连续限制",
+          "en": "Principle four: periodize and accept plateaus. Fat loss is not linear; after a stretch, a two-to-four-week maintenance phase near energy balance lets hormones reset before the next block, and that beats continuous restriction over the long run.",
+          "note": "<span>表达提示</span>plateau → 平台期；maintenance phase → 维持期；energy balance → 能量平衡；not linear → 非线性"
+        },
+        {
+          "cn": "适用边界：非竞技目标优先可持续性；若减脂已严重影响社交、工作、生活质量，需反思是否必要",
+          "en": "Boundary: for non-competitive goals, prioritize sustainability; if fat loss is seriously hurting your social life, work, or quality of life, it's time to ask whether it's even necessary.",
+          "note": "<span>表达提示</span>prioritize sustainability → 优先可持续性；quality of life → 生活质量"
+        },
+        {
+          "cn": "（引用）怎么落地：今天检查蛋白质是否够 1.6-2.0g/kg；未来一周每天称重取周均值评估进展",
+          "en": "In practice: today, check that your protein hits 1.6 to 2.0 grams per kilogram; this week, weigh in daily and use the weekly average to judge progress.",
+          "note": "<span>表达提示</span>weigh in daily → 每天称重；weekly average → 周均值；judge progress → 评估进展"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「慢就是快」",
+          "phrases": [
+            "Slow and steady wins the fat-loss race.",
+            "The sustainable path beats the fast path that you quit."
+          ],
+          "chunks": "slow and steady · the sustainable path · you quit",
+          "usage": "slow and steady wins the race 是现成谚语"
+        },
+        {
+          "intent": "想说「平台期是正常的」",
+          "phrases": [
+            "Plateaus are part of the process, not a failure.",
+            "Weight loss isn't linear — expect the flat weeks."
+          ],
+          "chunks": "part of the process · not linear · flat weeks",
+          "usage": "flat weeks 指没变化的几周，很口语"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "cn": "用「literally breathe it out」说：脂肪是被你呼出去的。",
+      "en": "Fat is literally breathed out — 84 percent of it leaves as carbon dioxide."
+    },
+    {
+      "cn": "用「metabolic floor」说：每次激进节食都压低代谢底盘。",
+      "en": "Every aggressive diet pushes your metabolic floor a little lower."
+    },
+    {
+      "cn": "用「high-noise」说：体重秤是高噪音信号。",
+      "en": "The daily scale is a high-noise signal — use the weekly average instead."
+    },
+    {
+      "cn": "用「preserving muscle」说：减脂核心是保肌。",
+      "en": "The core of fat loss is preserving muscle, which maintains your metabolic rate."
+    }
+  ],
+  "pitfalls": [
+    {
+      "wrong": "Fat is burned when you exercise.",
+      "right": "Fat isn't burned — it's converted to CO2 and water and breathed out.",
+      "why": "burn 是常见迷思；用 converted to CO2 才准确对应原文的生化机制。"
+    },
+    {
+      "wrong": "I lost 2kg this week, great!",
+      "right": "Single weigh-ins are noisy — track the weekly average and your waist size.",
+      "why": "单日体重含糖原水、钠与月经周期等噪音；用 weekly average 表达「多指标并行」。"
+    },
+    {
+      "wrong": "I will diet harder to lose weight faster.",
+      "right": "Every aggressive diet lowers your metabolic floor — a small deficit of 300 calories beats a crash diet.",
+      "why": "越激进越容易反弹；用 metabolic floor 表达「代谢底盘被压低」的机制。"
+    },
+    {
+      "wrong": "Cardio is the best way to lose fat.",
+      "right": "Strength training is the most underrated fat-loss tool — it preserves the muscle that keeps your metabolism up.",
+      "why": "耗卡不是重点；保肌维持代谢率才是运动真正的价值，用 underrated tool 点题。"
+    }
+  ],
+  "shifts": [
+    {
+      "before": "以为脂肪是「烧掉」的",
+      "after": "脂肪以 CO₂ 和水的形式被呼出、排出——是化学反应，不是燃烧"
+    },
+    {
+      "before": "以为节食越狠瘦得越快",
+      "after": "激进节食会拉低代谢底盘；小缺口 + 周期化才可持续"
+    },
+    {
+      "before": "以为盯每日体重就能评估减脂",
+      "after": "体重秤是高噪音信号，要看周均值、腰围与衣服合身度"
+    }
+  ],
+  "voice": "en-US-JennyNeural",
+  "audio_dir": "audio/en/ziran_fat_loss_vol65"
+}

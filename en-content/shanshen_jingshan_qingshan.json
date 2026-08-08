@@ -1,0 +1,400 @@
+{
+  "slug": "shanshen_jingshan_qingshan",
+  "date": "2026-06-23",
+  "platform": "小宇宙FM",
+  "title": "96 | 山神会保佑每一个把垃圾带走的人",
+  "title_en": "Ep. 96 | The Mountain God Blesses Everyone Who Carries Their Trash Out",
+  "eyebrow": "Outdoors & Environmental · 户外与环保",
+  "duration": "55分钟",
+  "source_url": "https://www.xiaoyuzhoufm.com/episode/6a30da0d4233e62bc54aa723",
+  "summary_cn": "程序员牧匠创办公益组织「手护自然」，五年百余期净山活动清运约12吨垃圾。本期从破窗效应、自热锅重灾区、垃圾清理费陷阱到LNT七大原则，系统拆解户外乱扔垃圾的成因、危害与普通人可立刻执行的减废行动",
+  "summary_en": "Mujiang, a programmer, founded the volunteer group \"Shou Hu Zi Ran\" (Hands Protecting Nature). Over five years and more than a hundred mountain-cleanup events, volunteers hauled out about 12 tons of trash. This episode breaks down why people litter outdoors — from the broken-window effect and self-heating hotpot hotspots to the hidden traps of \"cleanup fees\" — and ends with the seven Leave No Trace principles and the small, practical waste-reduction steps anyone can take on their next hike.",
+  "scenes": [
+    {
+      "id": "s1",
+      "title_cn": "手护自然：从顺手捡垃圾到百人公益组织",
+      "title_en": "Shou Hu Zi Ran: From Picking Up Trash to a Hundred-Person Volunteer Group",
+      "context": "介绍「手护自然」公益组织的起源、运作方式与规模数据。语域：casual 播客采访 + 组织介绍。",
+      "speak": "The group was founded in October 2020 by Mujiang, a programmer from Yunnan. On weekends, volunteers head into the mountains to pick up trash along the whole route, gather it at the end, carry it down, and drop it at the village recycling station, where the city's waste system takes over. The key insight: picking up trash yourself has an extremely low barrier — a pair of gloves and a bag — but running it as an organization brings a second set of problems: trademark registration, a legal entity, and sustainable funding. Charity and organizational survival are two different challenges. By the numbers: over a hundred events, roughly 12 tons of trash — about one person's decades of household waste — more than thirty team leads, over seven thousand volunteers in the community, and each event capped at fifty people. As he says, \"We've run over a hundred events so far and picked up about 12 tons of trash… more than thirty team leads, around seven thousand volunteers.\" Conceptually it complements Leave No Trace: Shou Hu Zi Ran does the cleanup afterward, while LNT focuses on prevention and minimal impact beforehand. Mujiang writes code by day and squeezes time for mountain cleanups in his spare hours. In 2018, on Hebei's Xiaowutai, he first carried two bags of trash down on a whim; in 2019, on Gongga in western Sichuan, he saw self-heating meals and disposable raincoats on high-altitude trails — \"out-of-awareness trash\" — and realized the problem was systemic. In 2020 he organized it.",
+      "sentences": [
+        {
+          "cn": "核心机制：2020年10月由云南籍程序员牧匠发起，周末组织志愿者进山全程捡垃圾，把沿线垃圾汇总带下山，投放至村里垃圾回收站，由城市系统统一处理",
+          "en": "Founded in October 2020 by Mujiang, a programmer from Yunnan, the group organizes weekend volunteer trips into the mountains to pick up trash along the whole route, gather it at the end, carry it down, and drop it at the village recycling station for the city's waste system to handle.",
+          "note": "<span>表达提示</span>volunteer trip → 志愿活动；recycling station → 回收站；waste system → 垃圾处理系统"
+        },
+        {
+          "cn": "关键理解：个人捡垃圾门槛极低（一双手套+一个袋子），但组织化运营需考虑商标注册、公司主体、经费可持续——公益行为与组织生存是两套难题",
+          "en": "The key insight: individual cleanup has an extremely low barrier — a pair of gloves and a bag — but running it as an organization brings trademark registration, a legal entity, and sustainable funding. Charity and organizational survival are two different challenges.",
+          "note": "<span>表达提示</span>low barrier → 门槛低；legal entity → 公司主体；sustainable funding → 经费可持续；two different challenges → 两套难题"
+        },
+        {
+          "cn": "典型数据：100+期活动、约12吨垃圾（≈一人几十年生活垃圾量）、30+领队、7000+社群志愿者，活动限50人/期",
+          "en": "The numbers: 100-plus events, about 12 tons of trash — roughly one person's decades of household waste — over 30 team leads, 7,000-plus community volunteers, with each event capped at 50 people.",
+          "note": "<span>表达提示</span>team lead → 领队；community volunteer → 社群志愿者；capped at → 上限为"
+        },
+        {
+          "cn": "（引用）原文依据：「我们到现在一共有一百多期活动，然后捡到垃圾12吨左右吧……领队有30多个，志愿者大概有7000多人。」",
+          "en": "\"We've run over a hundred events so far and picked up about 12 tons of trash… more than thirty team leads, around seven thousand volunteers.\"",
+          "note": "<span>表达提示</span>run events → 办活动；pick up trash → 捡垃圾"
+        },
+        {
+          "cn": "（引用）相关概念：与「Leave No Trace（LNT）无痕户外」互补——手护自然做「事后清理」，LNT强调「事前预防、最小冲击」",
+          "en": "It complements Leave No Trace: Shou Hu Zi Ran handles post-hoc cleanup, while LNT stresses prevention and minimal impact beforehand.",
+          "note": "<span>表达提示</span>Leave No Trace (LNT) → 无痕户外；post-hoc cleanup → 事后清理；minimal impact → 最小冲击"
+        },
+        {
+          "cn": "牧匠白天写代码（「码农」），业余挤出时间做净山。2018年河北小五台首次顺手带两袋垃圾下山，2019年川西贡嘎看到高海拔路线上的自热饭、一次性雨衣等「认知外垃圾」，意识到问题系统性，2020年组织化运作",
+          "en": "Mujiang writes code by day and squeezes time for cleanups in his spare hours. In 2018, on Hebei's Xiaowutai, he first carried two bags of trash down on a whim; in 2019, on Gongga in western Sichuan, he saw self-heating meals and disposable raincoats on high-altitude trails — \"out-of-awareness trash\" — and realized the problem was systemic. In 2020 he went organized.",
+          "note": "<span>表达提示</span>squeeze time for → 挤出时间做；on a whim → 顺手/一时兴起；out-of-awareness trash → 认知外垃圾；disposable raincoat → 一次性雨衣"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「捡垃圾门槛很低」",
+          "phrases": [
+            "All you need is a pair of gloves and a bag.",
+            "The barrier to entry is basically zero."
+          ],
+          "chunks": "all you need · barrier to entry",
+          "usage": "第一句具体口语，第二句是商业化的抽象说法"
+        },
+        {
+          "intent": "想说「公益和组织运营是两码事」",
+          "phrases": [
+            "Doing good and running an organization are two separate games.",
+            "The volunteering is easy; the sustainability is the hard part."
+          ],
+          "chunks": "two separate games · the sustainability is the hard part",
+          "usage": "two separate games 口语；第二句强调难点转移"
+        },
+        {
+          "intent": "想说「把垃圾带下山交给城市处理」",
+          "phrases": [
+            "Carry it out and let the city system deal with it.",
+            "Everything comes down to one rule: pack it out."
+          ],
+          "chunks": "carry it out · pack it out",
+          "usage": "pack it out 是 LNT 的标准口号，户外圈都懂"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title_cn": "垃圾从哪来：谁扔、扔什么、扔在哪",
+      "title_en": "Where the Trash Comes From: Who Litters, What, and Where",
+      "context": "拆解户外垃圾的主要来源：自热锅、食物包装，以及破窗效应。语域：casual 播客对谈 + 户外知识。",
+      "speak": "First, the self-heating hotpot. It's bulky, full of soup and oil, and hard to carry back down — and it pollutes heavily if left behind. Casual hikers, unaware of lightweight cooking options, think hotpots are the only option outdoors. The fix: for day hikes, keep trail food as simple as possible — sandwiches, rice balls, bread, sausages — and de-package it at home into reusable containers. Severity: fatal, ranking in the top three of what they clean up: water bottles, then food bags, then hotpot boxes. As the guest puts it, \"Don't bring self-heating hotpots hiking… they're bulky, and they produce lots of soup and oil, so first of all you'll struggle to carry them back down.\" Second, the broken-window effect: any piece of human trash, even \"biodegradable\" stuff, sends later visitors the signal that \"it's okay to drop things here,\" so one spot spreads into a whole area — visual pollution plus copied behavior. The key point: at home you wouldn't spit sunflower seeds on the floor, so don't do it outdoors either. Discuss whether something is civilized first, and whether it degrades second.",
+      "sentences": [
+        {
+          "cn": "原因：体积大、汤汁油多、难携带下山；留在野外污染极大。普通玩家因缺乏轻量化炊具认知，以为户外只能带自热锅",
+          "en": "The cause: hotpots are bulky, full of soup and oil, and hard to carry back down; left behind, they pollute heavily. Casual hikers, unaware of lightweight cooking gear, assume self-heating hotpots are the only option outdoors.",
+          "note": "<span>表达提示</span>self-heating hotpot → 自热锅；lightweight cooking gear → 轻量化炊具；the only option → 唯一选择"
+        },
+        {
+          "cn": "解法：单日徒步路餐越简单越好——三明治、饭团、面包、火腿肠；提前在家去包装，装入可重复保鲜盒",
+          "en": "The fix: for day hikes, keep trail food as simple as possible — sandwiches, rice balls, bread, and sausages. De-package it at home and store it in reusable containers.",
+          "note": "<span>表达提示</span>trail food → 路餐；de-package → 去包装；reusable container → 可重复保鲜盒"
+        },
+        {
+          "cn": "严重程度：致命（占清理量前三：水瓶 > 食品袋 > 自热锅盒）",
+          "en": "Severity: critical — it ranks in the top three of cleanup volume: water bottles, then food bags, then hotpot boxes.",
+          "note": "<span>表达提示</span>rank in the top three → 占清理量前三；cleanup volume → 清理量"
+        },
+        {
+          "cn": "（引用）嘉宾说法：「出去徒步不要带自热锅……体积又大，产生的那些汤汁和油又多，首先你自己很难带下来。」",
+          "en": "\"Don't bring self-heating hotpots hiking… they're bulky, and they produce lots of soup and oil, so first of all you'll struggle to carry them back down.\"",
+          "note": "<span>表达提示</span>bulky → 体积大；struggle to carry → 很难带"
+        },
+        {
+          "cn": "核心机制：任何人为垃圾（哪怕「可降解」）都会向后来者发送「这里可以扔」的信号，从一点扩散成面，视觉污染叠加行为模仿",
+          "en": "The mechanism: any piece of human trash, even \"biodegradable\" stuff, sends later visitors the signal that \"it's okay to drop things here,\" so one spot spreads into a whole area — visual pollution layered on copied behavior.",
+          "note": "<span>表达提示</span>biodegradable → 可降解；send a signal → 发出信号；visual pollution → 视觉污染；copied behavior → 行为模仿"
+        },
+        {
+          "cn": "关键理解：在家嗑瓜子不会吐地上，户外也不该吐；先讨论文明与否，再讨论能否降解",
+          "en": "The key point: at home you wouldn't spit sunflower-seed shells on the floor, so you shouldn't outdoors either. Discuss whether something is civilized first, and whether it degrades second.",
+          "note": "<span>表达提示</span>sunflower-seed shells → 瓜子皮；civilized → 文明的；degrade → 降解"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「自热锅很难带下山」",
+          "phrases": [
+            "A hotpot is a nightmare to haul back down.",
+            "You'll never want to carry that greasy pot out again."
+          ],
+          "chunks": "a nightmare to haul · carry out",
+          "usage": "a nightmare to 是口语强调；第二句带点自嘲语气"
+        },
+        {
+          "intent": "想说「一处垃圾会引来更多垃圾」",
+          "phrases": [
+            "One piece of trash invites the next.",
+            "Litter begets litter — that's the broken-window effect."
+          ],
+          "chunks": "invites the next · litter begets litter · broken-window effect",
+          "usage": "broken-window effect 是学术术语；litter begets litter 是口语金句"
+        },
+        {
+          "intent": "想说「在家不做的事户外也别做」",
+          "phrases": [
+            "If you wouldn't do it in your living room, don't do it in the wild.",
+            "The same manners apply — just with better scenery."
+          ],
+          "chunks": "the same manners apply · in the wild",
+          "usage": "第一句直白有力，第二句是俏皮说法"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title_cn": "野外垃圾的隐藏代价",
+      "title_en": "The Hidden Costs of Wilderness Trash",
+      "context": "讨论「垃圾清理费」陷阱与垃圾对野生动物的影响。语域：casual 播客对谈 + 警示分析。",
+      "speak": "Here's a trap: after outdoor activities exploded in popularity, villagers along popular trails started charging \"cleanup fees.\" But they lack the capacity and knowledge to actually deal with the waste, so the common results are burning, burying, or hiding it in bushes. The fix: carry out the trash you generate and bring it back to the city's proper processing system — that's the cheapest and most reliable option. Severity: critical, because it creates the wrong expectation that \"I paid, so I can litter.\" As the guest recalls, \"I was shocked to find the trash had all been buried — they just made it invisible… and you think the problem is solved.\" On Hong Kong's MacLehose Trail, wild boars smelling food trash approach campsites; in Hebei campsites, cattle drawn by food once caused a scary incident with a herd rushing at a tent. Dumping oily, spicy soup kills vegetation and changes animal foraging habits — like the black birds on Beilingshan that show up every Sunday right on time for the abandoned camp waste. The boundary: inland low-elevation trails have fewer wild animals, but the risk of changing animal behavior exists just the same in dense camping zones.",
+      "sentences": [
+        {
+          "cn": "原因：户外火爆后，路线周边村民以「净山费/垃圾处理费」收费，但缺乏处理能力与知识，常见焚烧、掩埋、藏灌木",
+          "en": "The cause: after the outdoor boom, villagers near popular trails started charging \"cleanup fees.\" But they lack the capacity and knowledge to deal with the waste, so the common results are burning, burying, or hiding it in bushes.",
+          "note": "<span>表达提示</span>cleanup fee → 净山费/垃圾处理费；capacity → 处理能力；bury/hide → 掩埋/藏"
+        },
+        {
+          "cn": "解法：自己产生的垃圾自己带走，带回城市完善处理系统——成本最低、最可靠",
+          "en": "The fix: carry out the trash you generate and bring it back to the city's proper processing system — the cheapest and most reliable option.",
+          "note": "<span>表达提示</span>carry out → 带下山；processing system → 处理系统；reliable option → 可靠选择"
+        },
+        {
+          "cn": "严重程度：致命（制造「已付费可乱扔」的错误预期）",
+          "en": "Severity: critical — it creates the wrong expectation that \"I paid, so I can litter.\"",
+          "note": "<span>表达提示</span>create a false expectation → 制造错误预期；litter → 乱扔垃圾"
+        },
+        {
+          "cn": "（引用）嘉宾说法：「意外发现垃圾都被埋起来了，只是不让你看见了……你就认为这个问题解决了。」",
+          "en": "\"I was shocked to find the trash had all been buried — they just made it invisible… and you think the problem is solved.\"",
+          "note": "<span>表达提示</span>make it invisible → 让你看不见；the problem is solved → 问题解决了"
+        },
+        {
+          "cn": "香港麦理浩径野猪闻食物垃圾靠近营地；河北露营区牛羊被食物吸引，曾出现牛群冲撞帐篷险情。倾倒含油辣汤破坏植被，改变动物觅食习惯（如北灵山黑鸟周日准时等拔营垃圾）",
+          "en": "On Hong Kong's MacLehose Trail, wild boars smelling food trash approach campsites. At Hebei campsites, cattle drawn by food once caused a scare when a herd rushed at a tent. Dumping oily, spicy soup kills vegetation and changes animals' foraging habits — like the black birds on Beilingshan that show up every Sunday right on time for the abandoned camp waste.",
+          "note": "<span>表达提示</span>wild boar → 野猪；campsite → 营地；foraging habit → 觅食习惯；show up right on time → 准时出现"
+        },
+        {
+          "cn": "适用边界：内地低海拔线路野生动物较少，但改变动物行为的风险在露营密集区同样存在",
+          "en": "The boundary: inland low-elevation trails have fewer wild animals, but the risk of changing animal behavior exists just the same in dense camping zones.",
+          "note": "<span>表达提示</span>low-elevation trail → 低海拔线路；dense camping zone → 露营密集区；just the same → 同样存在"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「收费不等于处理干净」",
+          "phrases": [
+            "Paying a fee doesn't mean it actually gets cleaned up.",
+            "The trash just got buried out of sight — not disposed of."
+          ],
+          "chunks": "doesn't mean · buried out of sight · disposed of",
+          "usage": "out of sight 强调「眼不见」；disposed of 是正式说法"
+        },
+        {
+          "intent": "想说「垃圾改变了动物的习惯」",
+          "phrases": [
+            "Our scraps are retraining the local wildlife.",
+            "Trash is literally reprogramming animal behavior."
+          ],
+          "chunks": "retrain · reprogramming animal behavior",
+          "usage": "retrain 有「训练」的俏皮感；reprogramming 是科技隐喻"
+        },
+        {
+          "intent": "想说「别把责任甩给别人」",
+          "phrases": [
+            "Take ownership — carry out what you carried in.",
+            "Your trash is your problem to pack out."
+          ],
+          "chunks": "take ownership · pack out",
+          "usage": "take ownership 是职场常用短语，放在这里很有力"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "title_cn": "LNT 无痕户外与行前准备",
+      "title_en": "Leave No Trace & Pre-Trip Preparation",
+      "context": "介绍 LNT 无痕户外的核心理念、培训体系，以及行前的水食准备建议。语域：casual 播客讲解 + 实用指南。",
+      "speak": "Leave No Trace started in the United States as an outdoor lifestyle: when you're in nature, minimize your impact — not just trash, but damage to the ground, disturbance to plants and animals, and the effect on other visitors, like blasting music out loud. The key insight: absolute zero trace isn't possible, but good pre-trip preparation avoids most avoidable impacts. The hardest principle for ordinary people: taking the time to prepare well. The training path: a casual intro takes ten to thirty minutes; the professional version is a two-day-one-night field practice covering campsite selection, waste handling, hanging food, and walking on different terrain. Shou Hu Zi Ran is also promoting LNT instructor training — and waste handling is just one part; where you camp and how you handle fire, like no fires in fire season or using a fire pan, matter just as much. On water: use a hydration bladder or soft flask — an empty bag doesn't get thrown away — and if you bring bottled water, tear off the labels at home first. On food: sandwiches and rice balls go in containers, de-packaged at home, and avoid foods with troublesome peels — skip the watermelon, and pick cucumber, tomato, or apple instead.",
+      "sentences": [
+        {
+          "cn": "核心机制：美国发起的户外生活方式，倡导在自然中活动时将冲击最小化——不仅是垃圾，还包括地表损害、动植物干扰、对其他游客的影响（如外放音乐）",
+          "en": "Started in the US, Leave No Trace is an outdoor lifestyle that calls for minimizing impact while in nature — not just trash, but damage to the ground, disturbance to plants and animals, and the effect on other visitors, like blasting music out loud.",
+          "note": "<span>表达提示</span>minimize impact → 将冲击最小化；surface damage → 地表损害；blasting music → 外放音乐"
+        },
+        {
+          "cn": "关键理解：无法做到绝对无痕，但通过充分行前准备可避免大部分本可避免的冲击。普通人最难的一条：花时间做好充分准备",
+          "en": "The key insight: absolute zero trace isn't achievable, but thorough pre-trip preparation avoids most avoidable impacts. The hardest principle for ordinary people: taking the time to prepare well.",
+          "note": "<span>表达提示</span>zero trace → 绝对无痕；pre-trip preparation → 行前准备；avoidable impact → 本可避免的冲击"
+        },
+        {
+          "cn": "培训路径：休闲了解10–30分钟；专业版两天一夜野外实践（选营地、处理垃圾、食物悬挂、不同地质行走）",
+          "en": "The training path: a casual intro takes 10-30 minutes; the professional version is a two-day, one-night field practice covering campsite selection, waste handling, food hanging, and walking on different terrain.",
+          "note": "<span>表达提示</span>field practice → 野外实践；campsite selection → 选营地；food hanging → 食物悬挂；terrain → 地质/地形"
+        },
+        {
+          "cn": "（引用）相关概念：手护自然也在推广LNT讲师培训；处理垃圾只是LNT的一部分，扎营选址、用火（防火季禁火/焚火台）同样重要",
+          "en": "Shou Hu Zi Ran is also promoting LNT instructor training. Waste handling is only part of LNT — campsite choice and fire use, like no fires in fire season or using a fire pan, matter just as much.",
+          "note": "<span>表达提示</span>instructor training → 讲师培训；fire season → 防火季；fire pan → 焚火台；matter just as much → 同样重要"
+        },
+        {
+          "cn": "水：用水袋/水囊，空袋不会扔；瓶装水提前在家撕标签",
+          "en": "On water: use a hydration bladder or soft flask — an empty bag doesn't get thrown away — and if you bring bottled water, tear off the labels at home first.",
+          "note": "<span>表达提示</span>hydration bladder → 水袋；soft flask → 水囊；tear off the label → 撕标签"
+        },
+        {
+          "cn": "食：三明治/饭团装保鲜盒，去包装在家完成；少带需处理果皮（西瓜麻烦，黄瓜/西红柿/苹果较好）",
+          "en": "On food: sandwiches and rice balls go in containers, de-packaged at home; avoid foods with troublesome peels — watermelon is a hassle, so pick cucumber, tomato, or apple instead.",
+          "note": "<span>表达提示</span>troublesome peels → 麻烦的果皮；a hassle → 麻烦事；instead → 换一种"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「做不到零冲击，但可以减少」",
+          "phrases": [
+            "You can't leave zero trace, but you can leave a smaller one.",
+            "Perfect is impossible; lighter is the goal."
+          ],
+          "chunks": "leave a smaller trace · lighter is the goal",
+          "usage": "第一句是对仗金句，第二句更口语"
+        },
+        {
+          "intent": "想说「关键在提前准备」",
+          "phrases": [
+            "The battle is won before you hit the trail.",
+            "Most impacts are avoidable with a little prep."
+          ],
+          "chunks": "battle won before · a little prep",
+          "usage": "第一句生动，适合点评；第二句平实直接"
+        },
+        {
+          "intent": "想说「少带需要处理的食物」",
+          "phrases": [
+            "Skip the foods that leave peels behind.",
+            "Choose snacks that go wrapper-free and peel-free."
+          ],
+          "chunks": "skip the foods · wrapper-free and peel-free",
+          "usage": "wrapper-free / peel-free 是环保语境常用造词"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "title_cn": "组织运营的现实困境",
+      "title_en": "The Real Struggle of Running the Organization",
+      "context": "讨论长期做净山志愿者的疲惫感与「捡不完」的无力感，以及牧匠的回应。语域：casual 播客对谈 + 心声分享。",
+      "speak": "Why it's hard: hauling ten-plus kilos of trash down the mountain feels like manual labor, and the next time you come, the trail is full of trash again — you start to doubt whether volunteer appeals make any difference at all. Mujiang's answer: after the emotion fades, he still \"can't stand it\" when he sees trash. The solution has to run on multiple tracks — better regulations, public awareness, and volunteer cleanup — without expecting any single fix to work overnight. Severity: moderate — it affects long-term participation, but it doesn't negate the value of the action. As online feedback puts it: \"At first it felt great, but later no matter how much I picked up there was always more — it even felt empty and hopeless.\"",
+      "sentences": [
+        {
+          "cn": "原因：扛十几公斤垃圾下山像干体力活；下次来路线又满垃圾，怀疑「光靠志愿者呼吁有没有意义」",
+          "en": "The cause: hauling ten-plus kilos of trash down the mountain feels like manual labor, and the next time you come, the trail is full of trash again — you start to doubt whether volunteer appeals make any difference.",
+          "note": "<span>表达提示</span>haul down → 扛下山；manual labor → 体力活；make a difference → 有意义/有作用"
+        },
+        {
+          "cn": "解法：牧匠：情绪过后看到垃圾仍「看不过去」；需要法规完善+公众意识+志愿清理多线并行，不期待一次解决",
+          "en": "Mujiang's answer: after the emotion fades, he still \"can't stand it\" when he sees trash. The fix has to run on multiple tracks — better regulations, public awareness, and volunteer cleanup — without expecting any single effort to solve it at once.",
+          "note": "<span>表达提示</span>can't stand it → 看不过去；run on multiple tracks → 多线并行；regulation → 法规；public awareness → 公众意识"
+        },
+        {
+          "cn": "严重程度：小心（影响长期参与，但不否定行动价值）",
+          "en": "Severity: moderate — it affects long-term participation, but it doesn't negate the value of the action.",
+          "note": "<span>表达提示</span>long-term participation → 长期参与；negate the value → 否定价值"
+        },
+        {
+          "cn": "（引用）网络反馈：「刚开始很有成就感，后来怎么捡都捡不完，甚至感到空虚和绝望。」",
+          "en": "\"At first it felt rewarding, but later no matter how much I picked up there was always more — it even felt empty and hopeless.\"",
+          "note": "<span>表达提示</span>feel rewarding → 有成就感；empty and hopeless → 空虚和绝望"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「做久了会怀疑意义」",
+          "phrases": [
+            "After a while you start wondering if it's worth it.",
+            "The endlessness of it chips away at your motivation."
+          ],
+          "chunks": "wonder if it's worth it · chip away at",
+          "usage": "chip away at 表示一点点消磨，很适合描述这种无力感"
+        },
+        {
+          "intent": "想说「不能指望一次性解决」",
+          "phrases": [
+            "You can't fix this with one big push.",
+            "It's a marathon across multiple fronts, not a sprint."
+          ],
+          "chunks": "one big push · a marathon · multiple fronts",
+          "usage": "marathon vs. sprint 是经典比喻，讨论长期问题时很常用"
+        },
+        {
+          "intent": "想说「尽管难，但还是值得做」",
+          "phrases": [
+            "Hard as it is, it's still worth doing.",
+            "The frustration doesn't cancel out the good it does."
+          ],
+          "chunks": "hard as it is · worth doing · cancel out",
+          "usage": "cancel out 表示「抵消」，正式口语皆可"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "cn": "用「pack it out」说：把带进来的垃圾带出去。",
+      "en": "Whatever you carry in, pack it out — that's the golden rule."
+    },
+    {
+      "cn": "用「broken-window effect」说：一处垃圾会引来更多。",
+      "en": "One piece of trash invites the next — that's the broken-window effect."
+    },
+    {
+      "cn": "用「can't stand it」说：他看到垃圾就看不下去。",
+      "en": "He still can't stand it when he sees trash on the trail."
+    },
+    {
+      "cn": "用「chip away at」说：捡不完的垃圾消磨积极性。",
+      "en": "The never-ending trash chips away at volunteers' motivation."
+    }
+  ],
+  "pitfalls": [
+    {
+      "wrong": "The mountain god will bless every person who takes the garbage away.",
+      "right": "The mountain god blesses everyone who carries their trash out.",
+      "why": "直译 takes the garbage away 生硬；carries their trash out 对应户外圈 pack out 的惯例表达更自然。"
+    },
+    {
+      "wrong": "The hotpot is very big and hard to bring down.",
+      "right": "The hotpot is bulky, greasy, and a nightmare to haul back down.",
+      "why": "big 太泛；bulky 特指体积大占空间，haul 对应「负重搬运」的语境。"
+    },
+    {
+      "wrong": "People pay money to let villagers clean the garbage.",
+      "right": "Villagers charge \"cleanup fees\" but lack the capacity to actually process the waste.",
+      "why": "直译丢掉了「收了钱却没处理能力」的关键转折；补出因果才能说清陷阱所在。"
+    },
+    {
+      "wrong": "We can't clean all garbage, but we can do less.",
+      "right": "You can't leave zero trace, but you can leave a smaller one.",
+      "why": "「做少一点」直译成 do less 含义模糊；用 leave a smaller trace 才对应 LNT 的「减少冲击」语义。"
+    }
+  ],
+  "shifts": [
+    {
+      "before": "以为可降解垃圾扔山里没关系",
+      "after": "任何垃圾都会发出「这里可以扔」的信号，先谈文明再谈降解"
+    },
+    {
+      "before": "以为付了「净山费」就等于处理好了",
+      "after": "很多清理费只是把垃圾埋起来/烧掉——自己带下山才是可靠方案"
+    },
+    {
+      "before": "以为环保 = 事后捡垃圾",
+      "after": "LNT 的核心是事前预防与充分准备，行前把包装、路餐、用水准备好"
+    }
+  ],
+  "voice": "en-US-JennyNeural",
+  "audio_dir": "audio/en/shanshen_jingshan_qingshan"
+}

@@ -1,0 +1,924 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="车企客服V2.1：企业级RAG架构升级精解报告 — Bilingual Learning Edition" />
+  <title>车企客服V2.1：企业级RAG架构升级精解报告｜EN 双语学习版</title>
+  <style>:root{--teal-950:#073f42;--teal-800:#0d686c;--teal-700:#0f7c80;--teal-600:#14919b;--mint-100:#dff4ec;--mint-50:#f0faf6;--ink:#183536;--muted:#607879;--line:#d7e8e2;--paper:#fff;--amber:#a85d08;--shadow:0 12px 32px rgba(7,63,66,.08)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:24px}
+body{margin:0;color:var(--ink);background:#edf7f2;font-family:Inter,"PingFang SC","Noto Sans SC","Microsoft YaHei",system-ui,sans-serif;line-height:1.65}
+button,select{font:inherit}
+a{color:inherit}
+.hero{color:#fff;background:radial-gradient(circle at 85% 10%,rgba(129,230,196,.24),transparent 30%),linear-gradient(125deg,#073f42,#0d7377 56%,#14919b)}
+.hero-inner{width:min(1440px,100%);margin:auto;padding:44px clamp(20px,5vw,72px) 36px}
+.hero-flex{display:flex;gap:clamp(18px,3vw,40px);align-items:flex-start}
+.hero-cover{width:min(240px,42vw);height:auto;max-height:320px;object-fit:contain;object-position:center;border-radius:16px;border:1px solid rgba(255,255,255,.28);box-shadow:0 18px 44px rgba(0,0,0,.32);flex-shrink:0;background:rgba(255,255,255,.08)}
+.hero-text{min-width:0;flex:1}
+.eyebrow{margin:0 0 12px;font-size:.78rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;opacity:.8}
+h1{max-width:1020px;margin:0;font-size:clamp(1.7rem,3.6vw,3rem);line-height:1.15;letter-spacing:-.04em}
+.hero-en{margin:12px 0 22px;font-size:clamp(1rem,2vw,1.25rem);opacity:.82}
+.hero-meta{display:flex;flex-wrap:wrap;gap:9px;align-items:center}
+.chip{border:1px solid rgba(255,255,255,.28);border-radius:99px;padding:5px 11px;font-size:.82rem;background:rgba(255,255,255,.08)}
+.source-link{font-weight:750;text-decoration:none;border-bottom:1px solid rgba(255,255,255,.5)}
+.toolbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:22px}
+.toolbar label{font-size:.82rem;opacity:.82}
+.toolbar select{color:#fff;background:#0a5d61;border:1px solid rgba(255,255,255,.3);border-radius:8px;padding:7px 9px}
+.stop-btn{display:none;color:#fff;background:#8c3b2a;border:0;border-radius:8px;padding:8px 12px;cursor:pointer}
+.stop-btn.visible{display:inline-flex}
+.speech-status{min-height:1.4em;font-size:.82rem;opacity:.88}
+.lang-switch{display:inline-flex;gap:6px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.28);border-radius:99px;padding:4px}
+.lang-switch a{display:inline-block;padding:4px 13px;border-radius:99px;font-size:.8rem;font-weight:700;text-decoration:none;color:rgba(255,255,255,.75)}
+.lang-switch a.active{background:#fff;color:var(--teal-800)}
+.narration-player{margin-top:16px;padding:14px 18px;background:rgba(255,255,255,.1);border-radius:12px;border:1px solid rgba(255,255,255,.15)}
+.audio-label{color:rgba(255,255,255,.88);font-size:.82rem;font-weight:700;margin:0 0 8px}
+.page{width:min(1440px,100%);margin:auto;padding:28px clamp(16px,3vw,44px) 64px;display:grid;grid-template-columns:minmax(230px,280px) minmax(0,1fr);gap:30px;align-items:start}
+.sidebar{position:sticky;top:20px;min-width:0}
+.sidebar-box{background:rgba(255,255,255,.8);border:1px solid var(--line);border-radius:16px;padding:17px;box-shadow:var(--shadow);backdrop-filter:blur(12px)}
+.sidebar h2{margin:0 0 13px;font-size:.9rem;letter-spacing:.08em;color:var(--teal-800)}
+.map-link{display:grid;grid-template-columns:34px minmax(0,1fr);gap:9px;padding:10px 6px;text-decoration:none;border-top:1px solid var(--line)}
+.map-link:hover b{color:var(--teal-700)}
+.map-id{width:30px;height:30px;display:grid;place-items:center;border-radius:9px;color:#fff;background:var(--teal-700);font-size:.72rem;font-weight:800}
+.map-link b{display:block;font-size:.78rem;line-height:1.4}
+.map-link small{display:block;color:var(--muted);font-size:.67rem;line-height:1.4;margin-top:2px;overflow-wrap:anywhere}
+.content{min-width:0}
+.scene-card{background:var(--paper);border:1px solid var(--line);border-radius:20px;padding:clamp(20px,3vw,34px);margin-bottom:24px;box-shadow:var(--shadow);overflow:hidden}
+.scene-topline{display:flex;justify-content:space-between;gap:16px;align-items:center;margin-bottom:16px}
+.scene-id{display:inline-grid;place-items:center;min-width:42px;height:30px;padding:0 10px;color:#fff;background:var(--teal-700);border-radius:8px;font-size:.78rem;font-weight:850}
+.time{margin-left:10px;color:var(--muted);font-size:.82rem;font-variant-numeric:tabular-nums}
+.scene-card h2{margin:0 0 2px;font-size:clamp(1.35rem,2.4vw,2rem);line-height:1.25;color:var(--teal-950)}
+.scene-title-en{margin:0 0 18px;color:var(--teal-600);font-weight:700;font-size:.98rem}
+.context{margin:0 0 20px;padding:12px 15px;color:#496566;background:var(--mint-50);border-left:3px solid var(--teal-600);border-radius:0 10px 10px 0;font-size:.88rem}
+.context b{margin-right:10px;color:var(--teal-800)}
+.sentence-list{display:grid;gap:12px}
+.sentence{position:relative;display:grid;grid-template-columns:38px minmax(0,1fr);gap:12px;padding:16px;border:1px solid #e2ece8;border-radius:14px;background:#fcfefd;min-width:0}
+.sentence-no{color:var(--teal-600);font-size:.76rem;font-weight:850;font-variant-numeric:tabular-nums;padding-top:4px}
+.bilingual{min-width:0;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(14px,2vw,28px)}
+.lang-block{min-width:0}
+.lang-block p{margin:5px 0 0;overflow-wrap:anywhere}
+.en-block{padding-left:clamp(14px,2vw,28px);border-left:1px solid var(--line)}
+.en-block p{color:#0b5c60;font-weight:650}
+.lang-tag{display:inline-block;color:var(--muted);font-size:.66rem;font-weight:850;letter-spacing:.12em}
+.en-head{display:flex;justify-content:space-between;gap:10px;align-items:center;min-height:30px}
+.note{grid-column:2;margin:1px 0 0;color:#708182;font-size:.78rem}
+.note span{margin-right:7px;color:var(--amber);font-weight:750}
+.speak-btn{display:inline-flex;align-items:center;gap:7px;border:1px solid #b8d9d1;border-radius:9px;padding:7px 11px;color:var(--teal-800);background:#f5fbf8;cursor:pointer;white-space:nowrap;font-size:.78rem;font-weight:750;transition:.15s ease}
+.speak-btn:hover{color:#fff;background:var(--teal-700);border-color:var(--teal-700);transform:translateY(-1px)}
+.speak-btn.playing{color:#fff;background:var(--teal-700);border-color:var(--teal-700)}
+.speak-btn.compact{padding:4px 8px;font-size:.7rem}
+.speak-btn.icon-only{padding:3px 7px;margin-left:6px}
+.speak-btn.icon-only span:last-child{display:none}
+.pronounce-word{display:inline;margin:0;padding:0 2px;color:inherit;background:rgba(20,145,155,.08);border:0;border-bottom:1px dashed var(--teal-600);border-radius:3px;font:inherit;font-weight:inherit;line-height:inherit;cursor:pointer}
+.pronounce-word:hover,.pronounce-word:focus{color:var(--teal-950);background:#cceee4;border-bottom-style:solid;outline:3px solid rgba(20,145,155,.42);outline-offset:2px}
+.pronounce-word.playing{color:#fff;background:var(--teal-700);border-bottom-color:var(--teal-700)}
+.paraphrase{margin-top:18px;border-top:1px solid var(--line)}
+.paraphrase summary{padding:16px 0 3px;color:var(--teal-800);cursor:pointer;font-weight:800}
+.paraphrase summary span{color:var(--muted);font-size:.75rem;font-weight:500;margin-left:8px}
+.paraphrase ol{margin:12px 0 0;padding-left:22px}
+.paraphrase li{padding:7px 0 9px 5px}
+.paraphrase li p{margin:0;font-size:.9rem;font-weight:650}
+.paraphrase li small{display:block;color:var(--muted);font-size:.72rem;margin-top:2px}
+.chunks{margin-top:4px;color:var(--teal-700);font-size:.78rem}
+.study-section{margin:38px 0 0}
+.section-heading{display:flex;align-items:baseline;gap:10px;margin:0 0 15px;color:var(--teal-950);font-size:1.35rem}
+.section-heading small{color:var(--teal-600);font-size:.78rem;letter-spacing:.05em}
+.study-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.study-grid article{padding:17px;background:#fff;border:1px solid var(--line);border-radius:14px;box-shadow:0 6px 18px rgba(7,63,66,.05);min-width:0}
+.study-grid p{margin:0}
+.practice-en{margin-top:9px;color:var(--teal-700);font-weight:650;overflow-wrap:anywhere}
+.wrong{color:#a24831;text-decoration:line-through;overflow-wrap:anywhere}
+.right{color:var(--teal-700);font-weight:750;margin:5px 0;overflow-wrap:anywhere}
+.pitfalls p{color:var(--muted);font-size:.82rem}
+.shifts article{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1.5fr);gap:12px;align-items:center}
+.shifts b{color:var(--teal-600);font-size:1.2rem}
+.shifts strong{color:var(--teal-800)}
+footer{margin-top:38px;color:var(--muted);font-size:.78rem;text-align:center}
+.footer-note{margin-top:6px}
+@media (max-width:900px){
+  .page{grid-template-columns:1fr}
+  .sidebar{position:static}
+  .sidebar-box{overflow-x:auto;padding:12px}
+  .sidebar h2{padding-left:5px}
+  .map-nav{display:flex;width:max-content;gap:8px}
+  .map-link{width:240px;border:1px solid var(--line);border-radius:10px;padding:8px}
+  .bilingual{grid-template-columns:1fr}
+  .en-block{padding:12px 0 0;border-left:0;border-top:1px dashed var(--line)}
+}
+@media (max-width:620px){
+  .hero-inner{padding-top:30px}
+  .hero-flex{flex-direction:column;align-items:center}
+  .hero-cover{width:100%;max-width:360px}
+  .hero-text{text-align:center}
+  .page{padding-inline:10px;gap:18px}
+  .scene-card{border-radius:14px;padding:17px 13px}
+  .scene-topline{align-items:flex-start}
+  .scene-speak span:last-child{display:none}
+  .sentence{grid-template-columns:26px minmax(0,1fr);padding:13px 10px;gap:6px}
+  .note{grid-column:2}
+  .study-grid{grid-template-columns:1fr}
+  .shifts article{grid-template-columns:1fr;gap:5px}
+  .shifts b{transform:rotate(90deg);justify-self:start}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.speak-btn{transition:none}}</style>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="hero-flex">
+        <div class="hero-text">
+          <p class="eyebrow">AI Engineering · AI 工程</p>
+          <h1>车企客服V2.1：企业级RAG架构升级精解报告</h1>
+          <p class="hero-en">Auto Customer Service V2.1: A Deep Dive into Enterprise-Grade RAG Architecture</p>
+          <p class="summary-en" style="margin:0 0 14px;padding:14px 16px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.22);border-radius:12px;font-size:.95rem;line-height:1.7">How a carmaker's customer-service system went from V1's hard-coded dictionary pattern, through architecture decoupling, a Markdown knowledge base, hybrid vector + BM25 retrieval, hierarchical chunking, and agent slimming, to a textbook-grade production RAG deployment. The gap between a demo machine and a production machine is bridged by engineering details, not by throwing more hardware at the problem.</p>
+          <div class="hero-meta">
+            <span class="chip">2026-06-23</span>
+            <span class="chip">小宇宙FM</span>
+            <span class="chip">17分54秒</span>
+            <span class="chip">5 Scenes</span>
+            <span class="chip">Click underlined words to hear them</span>
+            <a class="source-link" href="https://www.xiaoyuzhoufm.com/episode/6a0294a1e1eb34a9393828da" target="_blank" rel="noopener">原播客 ↗</a>
+          </div>
+        </div>
+      </div>
+      <div class="toolbar">
+        <div class="lang-switch"><div class="lang-switch"><a href="ev21_rag_upgrade_podcast-总结.html">中文</a><a class="active" href="ev21_rag_upgrade_podcast-en.html" aria-current="page">EN</a></div></div>
+        <label for="speech-rate">朗读速度</label>
+        <select id="speech-rate">
+          <option value="0.85">慢速 0.85×</option>
+          <option value="1" selected>正常 1×</option>
+          <option value="1.15">快速 1.15×</option>
+        </select>
+        <button id="stop-speech" class="stop-btn" type="button">■ 停止朗读</button>
+        <span id="speech-status" class="speech-status" role="status" aria-live="polite"></span>
+      </div>
+      <div class="narration-player">
+      <p class="audio-label">🎧 中文语音讲解</p>
+      <button class="speak-btn" type="button" data-audio="audio/ev21_rag_upgrade_podcast.mp3" aria-label="播放语音讲解"><span aria-hidden="true">▶</span><span>播放语音讲解</span></button>
+    </div>
+    </div>
+  </header>
+  <main class="page">
+    <aside class="sidebar" aria-label="场景地图">
+      <div class="sidebar-box">
+        <h2>场景地图 · SCENE MAP</h2>
+        <nav class="map-nav">
+          <a class="map-link" href="#s1">
+          <span class="map-id">S1</span>
+          <span><b>一、V1痛点与RAG解耦</b><small> · V1 Pain Points and RAG Decoupling</small></span>
+        </a>
+<a class="map-link" href="#s2">
+          <span class="map-id">S2</span>
+          <span><b>二、知识库工程化</b><small> · Engineering the Knowledge Base</small></span>
+        </a>
+<a class="map-link" href="#s3">
+          <span class="map-id">S3</span>
+          <span><b>三、混合检索与工具选型</b><small> · Hybrid Retrieval and Tool Selection</small></span>
+        </a>
+<a class="map-link" href="#s4">
+          <span class="map-id">S4</span>
+          <span><b>四、层次化切片与Agent精简</b><small> · Hierarchical Chunking and Agent Slimming</small></span>
+        </a>
+<a class="map-link" href="#s5">
+          <span class="map-id">S5</span>
+          <span><b>五、未来优化路线图</b><small> · Future Optimization Roadmap</small></span>
+        </a>
+        </nav>
+      </div>
+    </aside>
+    <div class="content">
+      <section class="scene-card" id="s1" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S1</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/ev21_rag_upgrade_podcast/s1.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>一、V1痛点与RAG解耦</h2>
+      <p class="scene-title-en">V1 Pain Points and RAG Decoupling</p>
+      <p class="context"><b>情境</b>V1 把车型参数硬编码进 Python 字典，业务数据与代码死死绑定。语域：casual 技术播客讲解。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：车企各车型售价、续航、配置参数以Python字典硬编码在代码里，业务数据与代码死死绑定</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/ev21_rag_upgrade_podcast/s1-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Core mechanism: each model's price, range, and configuration parameters were hard-coded as Python dictionaries in the code — business data was tightly bound to code.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>hard-coded → 硬编码；configuration parameters → 配置参数；tightly bound → 死死绑定</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：就像把随时要更新的商品目录刻在石碑上——价格微调10元也要研发改代码、走完整测试发布流程</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/ev21_rag_upgrade_podcast/s1-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Key insight: like carving an ever-updating product catalog into a stone tablet — even a 10-yuan price adjustment means R&D changes code and runs the entire test-and-release pipeline.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>carve into a stone tablet → 刻在石碑上；price adjustment → 价格微调；test-and-release pipeline → 测试发布流程</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>典型场景：产品线快速迭代的市场环境下，运营无法自助更新，只能等研发排期</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/ev21_rag_upgrade_podcast/s1-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Typical scenario: in a market of fast product-line iteration, operations can't update on their own — they have to wait for R&D's schedule.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>product-line iteration → 产品线迭代；self-serve → 自助；wait for the schedule → 等排期</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据：「初代版本最大的痛点，我们可以总结为知识耦合……以字典的格式直接硬编码，固化在了Python代码里面」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/ev21_rag_upgrade_podcast/s1-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Direct quote: 'The biggest pain of the first version can be summarized as knowledge coupling... hard-coded as dictionaries directly in the Python code.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>knowledge coupling → 知识耦合；hard-coded → 硬编码；summarize → 总结</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）相关概念：知识耦合 vs 知识解耦——后者让知识库独立于业务代码，成为可灵活更新的外置资产</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/ev21_rag_upgrade_podcast/s1-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Related concept: knowledge coupling vs. decoupling — the latter makes the knowledge base an external asset independent of business code that can be flexibly updated.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>coupling vs decoupling → 耦合 vs 解耦；external asset → 外置资产；flexibly updated → 灵活更新</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>检索模块专职从外部知识库调取真实文档；大模型不再依赖过时训练知识凭空捏造，只做语言组织和逻辑梳理。职责拆分直接掐断幻觉源头</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/ev21_rag_upgrade_podcast/s1-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The retrieval module specializes in pulling real documents from the external knowledge base; the LLM no longer fabricates from stale training knowledge — it only handles language organization and logic. This division of labor cuts off the hallucination source at the root.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>retrieval module → 检索模块；fabricate → 凭空捏造；division of labor → 职责拆分；cut off at the root → 掐断源头</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「数据与代码绑定太死」</p><div class="chunks">welded to the code · stuck together like glue</div><small>第一句书面，第二句口语形象</small></li>
+<li><p>想说「职责拆分能消除幻觉」</p><div class="chunks">separating retrieval from generation · retriever fetches, LLM talks</div><small>第一句技术结论，第二句俏皮总结</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s2" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S2</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/ev21_rag_upgrade_podcast/s2.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>二、知识库工程化</h2>
+      <p class="scene-title-en">Engineering the Knowledge Base</p>
+      <p class="context"><b>情境</b>用 Markdown + Git 把知识库工程化，把更新权力还给业务线。语域：casual 技术讲解 + 工程理念。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：用轻量化Markdown存储业务知识，自带标题层级结构；接入Git做版本管理，运营人员用文本编辑器即可修改</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/ev21_rag_upgrade_podcast/s2-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Core mechanism: store business knowledge in lightweight Markdown files, which come with built-in heading hierarchy; plug them into Git for version management, and operations staff can edit with any text editor.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>lightweight Markdown → 轻量化Markdown；heading hierarchy → 标题层级；version management → 版本管理</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：把更新知识库的权力交还给业务线，砍掉研发排期这个漫长前置环节。价格手抖少写一个零？一键回滚历史版本</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/ev21_rag_upgrade_podcast/s2-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Key insight: hand the power to update the knowledge base back to the business line, removing the long R&D scheduling step. Type a price with a missing zero? One-click rollback to a previous version.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>hand power back to → 把权力交还；rollback → 回滚；missing a zero → 少写一个零</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>典型场景：非技术人员维护车企产品文档、FAQ、参数表</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/ev21_rag_upgrade_podcast/s2-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Typical scenario: non-engineers maintaining product docs, FAQs, and parameter tables.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>non-engineers → 非技术人员；product docs → 产品文档；parameter tables → 参数表</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据：「用轻量化的Markdown文件来存储业务知识……可以直接接入像Git这样的代码版本管理工具进行管控」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/ev21_rag_upgrade_podcast/s2-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Direct quote: 'Use lightweight Markdown files to store business knowledge... which can be plugged directly into a version-control tool like Git for management.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>version-control tool → 版本管理工具；plug into → 接入；for management → 进行管控</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）与重型数据库对比：中小体量知识库不需要昂贵复杂的数据库系统，Markdown+Git是四两拨千斤的方案</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/ev21_rag_upgrade_podcast/s2-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Compared with heavyweight databases: a small-to-medium knowledge base doesn't need an expensive complex database system — Markdown plus Git is a four-ounce lever moving a thousand-pound stone.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>heavyweight database → 重型数据库；four-ounce lever → 四两拨千斤；small-to-medium scale → 中小体量</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>很多技术团队踩坑：总觉得越复杂的工具越好。但报告给出的主流优选方案恰恰是Markdown——轻量、结构化、对非技术人员友好</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/ev21_rag_upgrade_podcast/s2-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Many tech teams fall into the trap of assuming more complex tools are better. The mainstream preferred solution here is plain Markdown — lightweight, structured, and friendly to non-engineers.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>fall into the trap → 踩坑；mainstream choice → 主流优选方案；friendly to → 对…友好</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「越简单越好，别过度设计」</p><div class="chunks">don't over-engineer · simplest working tool</div><small>第一句直白，第二句是工程格言</small></li>
+<li><p>想说「回滚是知识库的安全网」</p><div class="chunks">Git history as safety net · just roll it back</div><small>第一句正式，第二句口语</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s3" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S3</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/ev21_rag_upgrade_podcast/s3.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>三、混合检索与工具选型</h2>
+      <p class="scene-title-en">Hybrid Retrieval and Tool Selection</p>
+      <p class="context"><b>情境</b>向量检索管语义、BM25 管字面术语，7:3 混合把召回率提升约 30%。语域：casual 技术讲解。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：向量检索擅长语义相似度（「Model 3售价」≈「Model 3定价标准」）；BM25铁面无私做关键词字面匹配，专治冷门术语</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/ev21_rag_upgrade_podcast/s3-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Core mechanism: vector retrieval excels at semantic similarity ('Model 3 price' ≈ 'Model 3 pricing standard'); BM25 is the impartial literal keyword matcher, ideal for obscure jargon.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>semantic similarity → 语义相似度；impartial → 铁面无私的；literal matching → 字面匹配；obscure jargon → 冷门术语</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：70%权重给自然语言语义理解（用户提问主流），30%权重守住专业术语底线。混合后文档召回率比单一模式提升约30%</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/ev21_rag_upgrade_podcast/s3-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Key insight: give 70% weight to natural-language semantic understanding (how users mostly ask) and 30% to hold the line on technical terms. Hybrid retrieval lifts document recall by roughly 30% over a single mode.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>weight → 权重；hold the line on → 守住；document recall → 文档召回率</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>典型场景：用户搜索「OEM门」这类向量模型训练时没学过的偏门专业名词</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/ev21_rag_upgrade_podcast/s3-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Typical scenario: users searching niche terms like 'OEM door' — jargon the vector model never encountered in training.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>niche term → 偏门专业名词；encounter in training → 训练时见过</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据：「向量检索占0.7，BM25占0.3……文档召回率比单一模式提升了差不多30%」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/ev21_rag_upgrade_podcast/s3-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Direct quote: 'Vector retrieval takes 0.7 and BM25 takes 0.3... document recall improved by about 30% compared with a single mode.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>vector retrieval → 向量检索；document recall → 文档召回率</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>车企客服知识库切片后仅几十到几百个片段，选Meta开源的FAISS轻量框架——无需独立数据库服务，本地内存运行，单次检索<240ms</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/ev21_rag_upgrade_podcast/s3-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">After chunking, the customer-service knowledge base is only dozens to hundreds of fragments, so they chose Meta's open-source FAISS — a lightweight framework needing no separate database service, running in local memory, with single retrievals under 240 ms.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>fragments → 片段；lightweight framework → 轻量框架；local memory → 本地内存；retrieval latency → 检索延迟</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>适用边界：中小体量场景（数百片段以内）；数据量达百万级时需迁移分布式向量库</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/ev21_rag_upgrade_podcast/s3-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Boundary: fits small-to-medium scenarios (within a few hundred fragments); when data reaches millions of records, you migrate to a distributed vector database.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>small-to-medium scenario → 中小体量场景；millions of records → 百万级数据；distributed vector database → 分布式向量库</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「两种检索互为补充」</p><div class="chunks">semantics + exact match · cover each other's blind spots</div><small>第一句直白，第二句更凝练</small></li>
+<li><p>想说「用合适的工具而不是最重的工具」</p><div class="chunks">right-size tool · keep the stack light</div><small>第一句下结论，第二句是工程原则</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s4" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S4</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/ev21_rag_upgrade_podcast/s4.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>四、层次化切片与Agent精简</h2>
+      <p class="scene-title-en">Hierarchical Chunking and Agent Slimming</p>
+      <p class="context"><b>情境</b>遵循 Markdown 标题层级切分，500 字符 + 50 重叠区，保留文档元数据实现溯源。语域：casual 技术讲解。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：遵循Markdown标题层级在章节自然边界初次拆分，保证每个单元是完整业务逻辑模块；二次精细分割，最优500字符+50字符重叠区</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/ev21_rag_upgrade_podcast/s4-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Core mechanism: follow the Markdown heading hierarchy to do the initial split at natural chapter boundaries, keeping each unit a complete business-logic block; then a finer second pass with an optimal 500-character chunk and a 50-character overlap.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>chunk → 切片；natural boundary → 自然边界；overlap → 重叠区；business-logic block → 业务逻辑模块</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：固定长度一刀切会把「这款发动机」和「采用了最新技术」斩断在两段，大模型像看碎报纸一样产生逻辑偏差。重叠区像砌砖咬合缝，保证语义连贯</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/ev21_rag_upgrade_podcast/s4-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Key insight: a fixed-length blind cut slices 'this engine' from 'adopts the latest technology,' so the LLM reads like torn newspaper and drifts logically. The overlap is like interlocking masonry joints — it keeps the semantics coherent.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>blind cut → 一刀切；torn newspaper → 碎报纸；interlocking joints → 咬合缝；semantic coherence → 语义连贯</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>典型场景：长篇产品手册、技术文档入库前的预处理</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/ev21_rag_upgrade_podcast/s4-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Typical scenario: preprocessing long product manuals and technical documents before they go into the knowledge base.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>preprocessing → 预处理；product manual → 产品手册；enter the base → 入库</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据：「利用Markdown的一二级标题，在章节的自然边界完成初次拆分……设计了50字符的上下文重叠区域」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/ev21_rag_upgrade_podcast/s4-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Direct quote: 'Use the Markdown first- and second-level headings to complete the initial split at chapter natural boundaries... and design a 50-character overlapping context region.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>first/second-level heading → 一二级标题；chapter boundary → 章节边界；overlapping context region → 上下文重叠区域</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）杀手锏：完整保留文档层级元数据，回答可自带「身份证」——引用自某某文档某某章节，解决知识溯源</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/ev21_rag_upgrade_podcast/s4-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Killer feature: keep the full document hierarchy metadata so each answer carries its own 'ID card' — citing which document and which section — solving knowledge traceability.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>metadata → 元数据；traceability → 溯源；'ID card' → 身份证（比喻）</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>原因：每500字符闭眼砍一刀，文档逻辑结构被粗暴斩断，大模型读取残缺碎片极易产生理解偏差</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/ev21_rag_upgrade_podcast/s4-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Why: slashing every 500 characters without looking severs the document's logical structure, and the LLM reading broken fragments easily produces comprehension errors.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>slash without looking → 闭眼砍；sever → 斩断；comprehension error → 理解偏差</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「切分要跟着文档结构走」</p><div class="chunks">chunk along structure · headings decide boundaries</div><small>第一句直白，第二句讲方法</small></li>
+<li><p>想说「答案要能追溯到来源」</p><div class="chunks">cite its source · traceability is evidence</div><small>第一句是要求，第二句是价值提炼</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s5" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S5</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/ev21_rag_upgrade_podcast/s5.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>五、未来优化路线图</h2>
+      <p class="scene-title-en">Future Optimization Roadmap</p>
+      <p class="context"><b>情境</b>工程化思维的价值：不堆硬件，靠合理的解耦与选型让可维护性提升 10 倍以上。语域：casual 技术总结 + 方法论。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>为什么重要：高规格技术重构不一定要堆最贵软硬件；合理架构解耦+恰当工具选型，可维护性提升10倍以上</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/ev21_rag_upgrade_podcast/s5-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Why it matters: a high-spec technical rebuild doesn't have to pile on the priciest software and hardware; with sensible architecture decoupling and proper tool selection, maintainability improves tenfold or more.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>high-spec rebuild → 高规格技术重构；maintainability → 可维护性；pile on → 堆砌；tenfold → 十倍</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>适用边界：通用方法论适用于所有高准确率要求的RAG场景；具体权重配比需基于业务实测调整</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/ev21_rag_upgrade_podcast/s5-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Boundary: the general methodology applies to any RAG scenario demanding high accuracy; the specific weight ratios should be tuned against measured business metrics.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>general methodology → 通用方法论；weight ratios → 权重配比；tuned against → 基于…调整</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）「魔鬼都在细节里……用工程化的思维，去解决那些看似琐碎但致命的问题，才是让AI从玩具变成生产力的唯一途径」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/ev21_rag_upgrade_podcast/s5-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Direct quote: 'The devil is in the details... using engineering thinking to solve those seemingly trivial but fatal problems is the only way to turn AI from a toy into productivity.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>devil in the details → 魔鬼在细节里；engineering thinking → 工程化思维；from toy to productivity → 从玩具到生产力</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）怎么落地：从企业客服「精准高效解答疑问」这八个字出发，逐步解耦知识、选型工具、优化切片、收敛Agent</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/ev21_rag_upgrade_podcast/s5-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">How to apply it: start from the eight characters 'answer customer questions accurately and efficiently,' then progressively decouple the knowledge, select the tools, optimize the chunking, and slim down the agent.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>progressively → 逐步；decouple → 解耦；slim down the agent → 收敛Agent；optimize chunking → 优化切片</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「工程化比堆硬件更值钱」</p><div class="chunks">engineering beats hardware · payoff from design choices</div><small>第一句直白，第二句是结论提炼</small></li>
+<li><p>想说「先定位问题再选方案」</p><div class="chunks">problem first · understand the need before the stack</div><small>第一句是流程，第二句是提醒</small></li>
+        </ol>
+      </details>
+    </section>
+      <section class="study-section" id="practice">
+      <h2 class="section-heading">今日可练 <small>PRACTICE TODAY</small></h2>
+      <div class="study-grid">
+        <article>
+          <p>用「hard-coded」说：价格参数被硬编码进了代码里。</p>
+          <div class="practice-en">
+            The price parameters were hard-coded directly into the Python code.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/ev21_rag_upgrade_podcast/practice-0.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「rollback」说：改错了数据可以一键回滚。</p>
+          <div class="practice-en">
+            If you mess up an edit, you can roll back to the previous version.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/ev21_rag_upgrade_podcast/practice-1.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「cut off at the root」说：职责拆分掐断了幻觉的源头。</p>
+          <div class="practice-en">
+            Separating the roles cuts off the hallucination source at the root.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/ev21_rag_upgrade_podcast/practice-2.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「devil is in the details」说：看似琐碎的工程细节最致命。</p>
+          <div class="practice-en">
+            The devil is in the details — those trivial details are the fatal ones.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/ev21_rag_upgrade_podcast/practice-3.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article>
+      </div>
+    </section>
+      <section class="study-section pitfalls" id="pitfalls">
+      <h2 class="section-heading">避坑 <small>PITFALLS</small></h2>
+      <div class="study-grid">
+        <article>
+          <div class="wrong">✕ The data and code are very tight together.</div>
+          <div class="right">✓ Business data was tightly coupled with the code.</div>
+          <p>「绑定」用 coupled/bound 而非 tight together；这是技术语境的标准表达。</p>
+        </article><article>
+          <div class="wrong">✕ Vector retrieval and BM25 each have 0.7 and 0.3 weight.</div>
+          <div class="right">✓ Vector retrieval takes a 0.7 weight and BM25 takes 0.3.</div>
+          <p>take/get/account for 表达权重占比更地道；have weight 略显生硬。</p>
+        </article><article>
+          <div class="wrong">✕ The knowledge base uses Markdown to store, which is very light.</div>
+          <div class="right">✓ The knowledge base is stored in lightweight Markdown files.</div>
+          <p>very light 太口语；「轻量化」用 lightweight 作为修饰语更准确。</p>
+        </article><article>
+          <div class="wrong">✕ The AI model can't be fooled if we cut the data at 500 characters.</div>
+          <div class="right">✓ Blind fixed-length cuts break the logical structure and cause comprehension errors.</div>
+          <p>500字符不是保险，反而是问题源头；要表达「盲切会破坏结构」这一结论。</p>
+        </article>
+      </div>
+    </section>
+      <section class="study-section shifts" id="mindset">
+      <h2 class="section-heading">认知转变 <small>MINDSET SHIFTS</small></h2>
+      <div class="study-grid">
+        <article>
+          <span>以为 RAG 效果靠更强的模型和更大的算力</span>
+          <b aria-hidden="true">→</b>
+          <strong>架构解耦、知识工程化、混合检索、分层切片——工程细节才是生产力</strong>
+        </article><article>
+          <span>以为数据库越重越好，企业就该上重型系统</span>
+          <b aria-hidden="true">→</b>
+          <strong>中小体量用 Markdown+Git 四两拨千斤，简单工具往往是优选</strong>
+        </article><article>
+          <span>以为把知识切得越小越好</span>
+          <b aria-hidden="true">→</b>
+          <strong>切分要跟随文档结构 + 保留重叠区，固定长度一刀切反而制造逻辑偏差</strong>
+        </article>
+      </div>
+    </section>
+      <footer>
+        双语学习版 · 场景/句子朗读使用 edge-tts（en-US） · 单词发音使用浏览器 Web Speech API
+        <div class="footer-note">中文版：<a href="ev21_rag_upgrade_podcast-总结.html">ev21_rag_upgrade_podcast-总结.html</a> · SVG 版：<a href="viewer.html?f=ev21_rag_upgrade_podcast-总结.svg" target="_blank">ev21_rag_upgrade_podcast-总结.svg</a></div>
+      </footer>
+    </div>
+  </main>
+  <script>(() => {
+  let activeAudio = null;
+  let activeBtn = null;
+  const status = document.getElementById('speech-status');
+  const stopBtn = document.getElementById('stop-speech');
+  const rateSel = document.getElementById('speech-rate');
+
+  const reset = () => {
+    if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+    activeBtn?.classList.remove('playing');
+    activeBtn = null;
+    stopBtn.classList.remove('visible');
+    status.textContent = '';
+  };
+
+  const playAudio = (url, btn) => {
+    reset();
+    const audio = new Audio(url);
+    audio.playbackRate = Number(rateSel.value);
+    activeAudio = audio;
+    activeBtn = btn;
+    btn.classList.add('playing');
+    stopBtn.classList.add('visible');
+    status.textContent = btn.classList.contains('scene-speak')
+      ? 'Reading the whole scene…'
+      : 'Reading…';
+
+    audio.onended = () => { if (activeAudio === audio) reset(); };
+    audio.onerror = () => { status.textContent = 'Audio failed to load.'; if (activeAudio === audio) reset(); };
+    audio.play().catch(() => { status.textContent = 'Playback failed.'; if (activeAudio === audio) reset(); });
+  };
+
+  document.addEventListener('click', e => {
+    const btn = e.target.closest('[data-audio]');
+    if (!btn) return;
+    e.preventDefault();
+    if (btn === activeBtn && activeAudio) { reset(); return; }
+    playAudio(btn.dataset.audio, btn);
+  });
+
+  stopBtn.addEventListener('click', reset);
+
+  const synth = window.speechSynthesis;
+  const getEnglishVoice = () => {
+    const voices = synth.getVoices();
+    return voices.find(v => /^en-(US|GB)/i.test(v.lang))
+        || voices.find(v => /^en/i.test(v.lang)) || null;
+  };
+
+  const difficultWords = new Set([
+    'assortment', 'SKU', 'premium', 'margin', 'middleman', 'OEM', 'rebranding',
+    'hoarding', 'PTSD', 'curation', 'repurchase', 'touchpoint', 'backlash',
+    'reshuffle', 'funnel', 'anchor', 'contract', 'psychology', 'private', 'label',
+    'editorial', 'familiar', 'competitors', 'authorization', 'flexibility'
+  ]);
+
+  const shouldPronounce = word => {
+    const n = word.toLowerCase().replace(/^[^a-z]+|[^a-z]+$/g, '');
+    return n.replace(/[^a-z]/g, '').length >= 8 || difficultWords.has(n);
+  };
+
+  const markPronounceableWords = root => {
+    const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+    const nodes = [];
+    while (walker.nextNode()) nodes.push(walker.currentNode);
+    nodes.forEach(node => {
+      if (node.parentElement?.closest('button, script, style')) return;
+      const text = node.nodeValue;
+      let m, last = 0, changed = false;
+      const frag = document.createDocumentFragment();
+      const re = /[A-Za-z]+(?:[-'’][A-Za-z]+)*/g;
+      while ((m = re.exec(text))) {
+        if (!shouldPronounce(m[0])) continue;
+        changed = true;
+        frag.append(text.slice(last, m.index));
+        const wb = document.createElement('button');
+        wb.type = 'button'; wb.className = 'pronounce-word';
+        wb.dataset.speak = m[0];
+        wb.setAttribute('aria-label', '\u8bfb\u5355\u8bcd ' + m[0]);
+        wb.title = '\u70b9\u51fb\u542c\u53d1\u97f3';
+        wb.textContent = m[0];
+        frag.append(wb);
+        last = m.index + m[0].length;
+      }
+      if (!changed) return;
+      frag.append(text.slice(last));
+      node.replaceWith(frag);
+    });
+  };
+
+  document.querySelectorAll(
+    '.english, .scene-title-en, .paraphrase li p, .chunks, .practice-en, .wrong, .right, .summary-en'
+  ).forEach(markPronounceableWords);
+
+  document.addEventListener('click', e => {
+    const wb = e.target.closest('.pronounce-word');
+    if (!wb) return;
+    e.preventDefault();
+    if (!synth) return;
+    synth.cancel();
+    if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+    activeBtn?.classList.remove('playing');
+    activeBtn = wb;
+    wb.classList.add('playing');
+    const u = new SpeechSynthesisUtterance(wb.dataset.speak);
+    u.lang = 'en-US';
+    u.rate = 0.88;
+    const v = getEnglishVoice();
+    if (v) u.voice = v;
+    u.onend = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+    u.onerror = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+    synth.speak(u);
+  });
+})();</script>
+</body>
+</html>

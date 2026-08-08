@@ -1,0 +1,892 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Vol.331 思考，快与慢：我的大脑为什么总是欺骗我 — Bilingual Learning Edition" />
+  <title>Vol.331 思考，快与慢：我的大脑为什么总是欺骗我｜EN 双语学习版</title>
+  <style>:root{--teal-950:#073f42;--teal-800:#0d686c;--teal-700:#0f7c80;--teal-600:#14919b;--mint-100:#dff4ec;--mint-50:#f0faf6;--ink:#183536;--muted:#607879;--line:#d7e8e2;--paper:#fff;--amber:#a85d08;--shadow:0 12px 32px rgba(7,63,66,.08)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:24px}
+body{margin:0;color:var(--ink);background:#edf7f2;font-family:Inter,"PingFang SC","Noto Sans SC","Microsoft YaHei",system-ui,sans-serif;line-height:1.65}
+button,select{font:inherit}
+a{color:inherit}
+.hero{color:#fff;background:radial-gradient(circle at 85% 10%,rgba(129,230,196,.24),transparent 30%),linear-gradient(125deg,#073f42,#0d7377 56%,#14919b)}
+.hero-inner{width:min(1440px,100%);margin:auto;padding:44px clamp(20px,5vw,72px) 36px}
+.hero-flex{display:flex;gap:clamp(18px,3vw,40px);align-items:flex-start}
+.hero-cover{width:min(240px,42vw);height:auto;max-height:320px;object-fit:contain;object-position:center;border-radius:16px;border:1px solid rgba(255,255,255,.28);box-shadow:0 18px 44px rgba(0,0,0,.32);flex-shrink:0;background:rgba(255,255,255,.08)}
+.hero-text{min-width:0;flex:1}
+.eyebrow{margin:0 0 12px;font-size:.78rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;opacity:.8}
+h1{max-width:1020px;margin:0;font-size:clamp(1.7rem,3.6vw,3rem);line-height:1.15;letter-spacing:-.04em}
+.hero-en{margin:12px 0 22px;font-size:clamp(1rem,2vw,1.25rem);opacity:.82}
+.hero-meta{display:flex;flex-wrap:wrap;gap:9px;align-items:center}
+.chip{border:1px solid rgba(255,255,255,.28);border-radius:99px;padding:5px 11px;font-size:.82rem;background:rgba(255,255,255,.08)}
+.source-link{font-weight:750;text-decoration:none;border-bottom:1px solid rgba(255,255,255,.5)}
+.toolbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:22px}
+.toolbar label{font-size:.82rem;opacity:.82}
+.toolbar select{color:#fff;background:#0a5d61;border:1px solid rgba(255,255,255,.3);border-radius:8px;padding:7px 9px}
+.stop-btn{display:none;color:#fff;background:#8c3b2a;border:0;border-radius:8px;padding:8px 12px;cursor:pointer}
+.stop-btn.visible{display:inline-flex}
+.speech-status{min-height:1.4em;font-size:.82rem;opacity:.88}
+.lang-switch{display:inline-flex;gap:6px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.28);border-radius:99px;padding:4px}
+.lang-switch a{display:inline-block;padding:4px 13px;border-radius:99px;font-size:.8rem;font-weight:700;text-decoration:none;color:rgba(255,255,255,.75)}
+.lang-switch a.active{background:#fff;color:var(--teal-800)}
+.narration-player{margin-top:16px;padding:14px 18px;background:rgba(255,255,255,.1);border-radius:12px;border:1px solid rgba(255,255,255,.15)}
+.audio-label{color:rgba(255,255,255,.88);font-size:.82rem;font-weight:700;margin:0 0 8px}
+.page{width:min(1440px,100%);margin:auto;padding:28px clamp(16px,3vw,44px) 64px;display:grid;grid-template-columns:minmax(230px,280px) minmax(0,1fr);gap:30px;align-items:start}
+.sidebar{position:sticky;top:20px;min-width:0}
+.sidebar-box{background:rgba(255,255,255,.8);border:1px solid var(--line);border-radius:16px;padding:17px;box-shadow:var(--shadow);backdrop-filter:blur(12px)}
+.sidebar h2{margin:0 0 13px;font-size:.9rem;letter-spacing:.08em;color:var(--teal-800)}
+.map-link{display:grid;grid-template-columns:34px minmax(0,1fr);gap:9px;padding:10px 6px;text-decoration:none;border-top:1px solid var(--line)}
+.map-link:hover b{color:var(--teal-700)}
+.map-id{width:30px;height:30px;display:grid;place-items:center;border-radius:9px;color:#fff;background:var(--teal-700);font-size:.72rem;font-weight:800}
+.map-link b{display:block;font-size:.78rem;line-height:1.4}
+.map-link small{display:block;color:var(--muted);font-size:.67rem;line-height:1.4;margin-top:2px;overflow-wrap:anywhere}
+.content{min-width:0}
+.scene-card{background:var(--paper);border:1px solid var(--line);border-radius:20px;padding:clamp(20px,3vw,34px);margin-bottom:24px;box-shadow:var(--shadow);overflow:hidden}
+.scene-topline{display:flex;justify-content:space-between;gap:16px;align-items:center;margin-bottom:16px}
+.scene-id{display:inline-grid;place-items:center;min-width:42px;height:30px;padding:0 10px;color:#fff;background:var(--teal-700);border-radius:8px;font-size:.78rem;font-weight:850}
+.time{margin-left:10px;color:var(--muted);font-size:.82rem;font-variant-numeric:tabular-nums}
+.scene-card h2{margin:0 0 2px;font-size:clamp(1.35rem,2.4vw,2rem);line-height:1.25;color:var(--teal-950)}
+.scene-title-en{margin:0 0 18px;color:var(--teal-600);font-weight:700;font-size:.98rem}
+.context{margin:0 0 20px;padding:12px 15px;color:#496566;background:var(--mint-50);border-left:3px solid var(--teal-600);border-radius:0 10px 10px 0;font-size:.88rem}
+.context b{margin-right:10px;color:var(--teal-800)}
+.sentence-list{display:grid;gap:12px}
+.sentence{position:relative;display:grid;grid-template-columns:38px minmax(0,1fr);gap:12px;padding:16px;border:1px solid #e2ece8;border-radius:14px;background:#fcfefd;min-width:0}
+.sentence-no{color:var(--teal-600);font-size:.76rem;font-weight:850;font-variant-numeric:tabular-nums;padding-top:4px}
+.bilingual{min-width:0;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(14px,2vw,28px)}
+.lang-block{min-width:0}
+.lang-block p{margin:5px 0 0;overflow-wrap:anywhere}
+.en-block{padding-left:clamp(14px,2vw,28px);border-left:1px solid var(--line)}
+.en-block p{color:#0b5c60;font-weight:650}
+.lang-tag{display:inline-block;color:var(--muted);font-size:.66rem;font-weight:850;letter-spacing:.12em}
+.en-head{display:flex;justify-content:space-between;gap:10px;align-items:center;min-height:30px}
+.note{grid-column:2;margin:1px 0 0;color:#708182;font-size:.78rem}
+.note span{margin-right:7px;color:var(--amber);font-weight:750}
+.speak-btn{display:inline-flex;align-items:center;gap:7px;border:1px solid #b8d9d1;border-radius:9px;padding:7px 11px;color:var(--teal-800);background:#f5fbf8;cursor:pointer;white-space:nowrap;font-size:.78rem;font-weight:750;transition:.15s ease}
+.speak-btn:hover{color:#fff;background:var(--teal-700);border-color:var(--teal-700);transform:translateY(-1px)}
+.speak-btn.playing{color:#fff;background:var(--teal-700);border-color:var(--teal-700)}
+.speak-btn.compact{padding:4px 8px;font-size:.7rem}
+.speak-btn.icon-only{padding:3px 7px;margin-left:6px}
+.speak-btn.icon-only span:last-child{display:none}
+.pronounce-word{display:inline;margin:0;padding:0 2px;color:inherit;background:rgba(20,145,155,.08);border:0;border-bottom:1px dashed var(--teal-600);border-radius:3px;font:inherit;font-weight:inherit;line-height:inherit;cursor:pointer}
+.pronounce-word:hover,.pronounce-word:focus{color:var(--teal-950);background:#cceee4;border-bottom-style:solid;outline:3px solid rgba(20,145,155,.42);outline-offset:2px}
+.pronounce-word.playing{color:#fff;background:var(--teal-700);border-bottom-color:var(--teal-700)}
+.paraphrase{margin-top:18px;border-top:1px solid var(--line)}
+.paraphrase summary{padding:16px 0 3px;color:var(--teal-800);cursor:pointer;font-weight:800}
+.paraphrase summary span{color:var(--muted);font-size:.75rem;font-weight:500;margin-left:8px}
+.paraphrase ol{margin:12px 0 0;padding-left:22px}
+.paraphrase li{padding:7px 0 9px 5px}
+.paraphrase li p{margin:0;font-size:.9rem;font-weight:650}
+.paraphrase li small{display:block;color:var(--muted);font-size:.72rem;margin-top:2px}
+.chunks{margin-top:4px;color:var(--teal-700);font-size:.78rem}
+.study-section{margin:38px 0 0}
+.section-heading{display:flex;align-items:baseline;gap:10px;margin:0 0 15px;color:var(--teal-950);font-size:1.35rem}
+.section-heading small{color:var(--teal-600);font-size:.78rem;letter-spacing:.05em}
+.study-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.study-grid article{padding:17px;background:#fff;border:1px solid var(--line);border-radius:14px;box-shadow:0 6px 18px rgba(7,63,66,.05);min-width:0}
+.study-grid p{margin:0}
+.practice-en{margin-top:9px;color:var(--teal-700);font-weight:650;overflow-wrap:anywhere}
+.wrong{color:#a24831;text-decoration:line-through;overflow-wrap:anywhere}
+.right{color:var(--teal-700);font-weight:750;margin:5px 0;overflow-wrap:anywhere}
+.pitfalls p{color:var(--muted);font-size:.82rem}
+.shifts article{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1.5fr);gap:12px;align-items:center}
+.shifts b{color:var(--teal-600);font-size:1.2rem}
+.shifts strong{color:var(--teal-800)}
+footer{margin-top:38px;color:var(--muted);font-size:.78rem;text-align:center}
+.footer-note{margin-top:6px}
+@media (max-width:900px){
+  .page{grid-template-columns:1fr}
+  .sidebar{position:static}
+  .sidebar-box{overflow-x:auto;padding:12px}
+  .sidebar h2{padding-left:5px}
+  .map-nav{display:flex;width:max-content;gap:8px}
+  .map-link{width:240px;border:1px solid var(--line);border-radius:10px;padding:8px}
+  .bilingual{grid-template-columns:1fr}
+  .en-block{padding:12px 0 0;border-left:0;border-top:1px dashed var(--line)}
+}
+@media (max-width:620px){
+  .hero-inner{padding-top:30px}
+  .hero-flex{flex-direction:column;align-items:center}
+  .hero-cover{width:100%;max-width:360px}
+  .hero-text{text-align:center}
+  .page{padding-inline:10px;gap:18px}
+  .scene-card{border-radius:14px;padding:17px 13px}
+  .scene-topline{align-items:flex-start}
+  .scene-speak span:last-child{display:none}
+  .sentence{grid-template-columns:26px minmax(0,1fr);padding:13px 10px;gap:6px}
+  .note{grid-column:2}
+  .study-grid{grid-template-columns:1fr}
+  .shifts article{grid-template-columns:1fr;gap:5px}
+  .shifts b{transform:rotate(90deg);justify-self:start}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.speak-btn{transition:none}}</style>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="hero-flex">
+        <div class="hero-text">
+          <p class="eyebrow">Psychology &amp; Behavioral Economics · 心理学与行为经济学</p>
+          <h1>Vol.331 思考，快与慢：我的大脑为什么总是欺骗我</h1>
+          <p class="hero-en">Vol.331 Thinking, Fast and Slow: Why Does My Brain Keep Fooling Me?</p>
+          <p class="summary-en" style="margin:0 0 14px;padding:14px 16px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.22);border-radius:12px;font-size:.95rem;line-height:1.7">Three hosts from the Wenhua Youxian podcast revisit Daniel Kahneman's Nobel-winning classic. System One, the fast intuition, handles 95% of daily decisions; System Two, the slow reasoner, is inherently lazy and mostly just rubber-stamps. From anchoring and loss aversion to the peak-end rule, they show how the brain fails in systematic, predictable ways — and how awareness plus a checklist of questions can push back against irrationality.</p>
+          <div class="hero-meta">
+            <span class="chip">2026-06-23</span>
+            <span class="chip">小宇宙FM</span>
+            <span class="chip">1小时56分</span>
+            <span class="chip">5 Scenes</span>
+            <span class="chip">Click underlined words to hear them</span>
+            <a class="source-link" href="https://www.xiaoyuzhoufm.com/episode/69e576c91d989496e70382ca" target="_blank" rel="noopener">原播客 ↗</a>
+          </div>
+        </div>
+      </div>
+      <div class="toolbar">
+        <div class="lang-switch"><div class="lang-switch"><a href="thinking_fast_slow_brain-总结.html">中文</a><a class="active" href="thinking_fast_slow_brain-en.html" aria-current="page">EN</a></div></div>
+        <label for="speech-rate">朗读速度</label>
+        <select id="speech-rate">
+          <option value="0.85">慢速 0.85×</option>
+          <option value="1" selected>正常 1×</option>
+          <option value="1.15">快速 1.15×</option>
+        </select>
+        <button id="stop-speech" class="stop-btn" type="button">■ 停止朗读</button>
+        <span id="speech-status" class="speech-status" role="status" aria-live="polite"></span>
+      </div>
+      <div class="narration-player">
+      <p class="audio-label">🎧 中文语音讲解</p>
+      <button class="speak-btn" type="button" data-audio="audio/thinking_fast_slow_brain.mp3" aria-label="播放语音讲解"><span aria-hidden="true">▶</span><span>播放语音讲解</span></button>
+    </div>
+    </div>
+  </header>
+  <main class="page">
+    <aside class="sidebar" aria-label="场景地图">
+      <div class="sidebar-box">
+        <h2>场景地图 · SCENE MAP</h2>
+        <nav class="map-nav">
+          <a class="map-link" href="#s1">
+          <span class="map-id">S1</span>
+          <span><b>第一部分：双系统理论基础</b><small> · Part One: The Two-System Framework</small></span>
+        </a>
+<a class="map-link" href="#s2">
+          <span class="map-id">S2</span>
+          <span><b>第二、三部分：启发法偏见与过度自信</b><small> · Parts Two &amp; Three: Heuristics, Bias, and Overconfidence</small></span>
+        </a>
+<a class="map-link" href="#s3">
+          <span class="map-id">S3</span>
+          <span><b>第四部分：前景理论与损失厌恶</b><small> · Part Four: Prospect Theory and Loss Aversion</small></span>
+        </a>
+<a class="map-link" href="#s4">
+          <span class="map-id">S4</span>
+          <span><b>第五部分：两个自我与幸福</b><small> · Part Five: Two Selves and Happiness</small></span>
+        </a>
+<a class="map-link" href="#s5">
+          <span class="map-id">S5</span>
+          <span><b>生活应用与 AI 联想</b><small> · Everyday Applications and an AI Tangent</small></span>
+        </a>
+        </nav>
+      </div>
+    </aside>
+    <div class="content">
+      <section class="scene-card" id="s1" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S1</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/thinking_fast_slow_brain/s1.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>第一部分：双系统理论基础</h2>
+      <p class="scene-title-en">Part One: The Two-System Framework</p>
+      <p class="context"><b>情境</b>Introduces System One and System Two and how little control we actually have. 语域：casual 播客讨论。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：系统一是自主运行的无意识快思考，擅长直觉联想和情感反应，占日常决策95%-96%；系统二是需刻意调动、耗能的逻辑慢思考，负责复杂计算，但天生懒惰，多数时候只做「橡皮图章」认可系统一的结论</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/thinking_fast_slow_brain/s1-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">System One is the unconscious fast thinking that runs on its own, great at intuitive association and emotional reaction, handling 95 to 96 percent of daily decisions. System Two is the effortful, energy-burning slow logic responsible for complex calculations, but it's lazy by nature and mostly just rubber-stamps System One's conclusions.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>System One / System Two → 系统一/系统二；rubber-stamp → 橡皮图章（只盖章不思考）；run on its own → 自主运行</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：你以为的深思熟虑，95%已由系统一完成，系统二只是事后确认。自由意志可能比我们想象的更有限</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/thinking_fast_slow_brain/s1-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The deliberation you think you're doing has, 95 percent of the time, already been done by System One — System Two only confirms it afterwards. Free will may be far more limited than we'd like to believe.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>deliberation → 深思熟虑；confirm afterwards → 事后确认；free will → 自由意志</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>典型场景：听播客是系统一；突然被问17×24等于多少，系统二才被唤醒</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/thinking_fast_slow_brain/s1-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">A typical case: listening to a podcast runs on System One; the moment someone asks you what 17 times 24 equals, System Two gets awakened.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>run on System One → 由系统一主导；awaken → 被唤醒</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据：「系统二只有在确确实实必须启动和被唤醒的时候，才会出来说你这个不对」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/thinking_fast_slow_brain/s1-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The original quote: 'System Two only steps in when it absolutely has to be engaged and awakened — and then it says, wait, this isn't right.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>step in → 出面/介入；absolutely has to be engaged → 确确实实必须启动</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）相关概念：与《贪婪的多巴胺》连读会产生巨大自我厌弃感，建议分开读</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/thinking_fast_slow_brain/s1-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Related reading note: reading this alongside The Molecule of More can trigger a massive wave of self-loathing, so the hosts suggest reading them separately.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>self-loathing → 自我厌弃；read them separately → 分开读</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>大壹用网络梗类比：系统二懒惰如父爱如山——因为它不动。只有「请家长」的关头才出来纠正，平时系统一自由发挥</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/thinking_fast_slow_brain/s1-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Dayi compared System Two's laziness to a popular internet meme: a father's love is as unmoving as a mountain — because he doesn't move. Only in a 'called-to-see-the-principal' crisis does he show up to correct you; the rest of the time System One does whatever it wants.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>as unmoving as a mountain → 父爱如山（梗）；crisis → 紧要关头</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「系统二平时不干活，关键时刻才出手」</p><div class="chunks">show up when it has to · stay dormant until</div><small>show up 更口语；stay dormant 更书面</small></li>
+<li><p>想说「你以为的深思熟虑其实没那么多」</p><div class="chunks">feel like careful thought · on autopilot</div><small>autopilot 形容下意识决策很形象</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s2" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S2</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/thinking_fast_slow_brain/s2.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>第二、三部分：启发法偏见与过度自信</h2>
+      <p class="scene-title-en">Parts Two & Three: Heuristics, Bias, and Overconfidence</p>
+      <p class="context"><b>情境</b>Why small samples create fake patterns, and how anchoring steers our judgments. 语域：casual 案例讲解。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>原因：小样本极易出现极端结果（随机波动），但系统一强行做因果解释，拒绝接受「没有原因，就是随机」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/thinking_fast_slow_brain/s2-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The cause: small samples easily produce extreme results — it's just random fluctuation. But System One forces a causal story onto it and refuses to accept that there's no reason; it's simply random.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>random fluctuation → 随机波动；force a causal story → 强行因果解释；it's simply random → 没有原因就是随机</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>解法：遇到小样本统计结论，先问样本量是否足够，再决定是否采信因果叙事</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/thinking_fast_slow_brain/s2-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The fix: when you see a statistical conclusion from a tiny sample, first ask whether the sample size is big enough, then decide whether to buy the causal narrative.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>sample size → 样本量；buy the narrative → 采信这个叙事</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>严重程度：小心（医疗焦虑、地域歧视常源于此）</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/thinking_fast_slow_brain/s2-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">How serious: watch out — a lot of medical anxiety and regional prejudice stems from exactly this pattern.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>medical anxiety → 医疗焦虑；regional prejudice → 地域歧视；stem from → 源于</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）嘉宾说法：「医生给你解释不出来为什么就得这个病，从科学角度就是随机，但系统一不接受这个解释」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/thinking_fast_slow_brain/s2-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The guest's take: 'The doctor can't explain why you got this disease. From a scientific standpoint it's simply random — but System One won't accept that explanation.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>from a scientific standpoint → 从科学角度；won't accept the explanation → 不接受这个解释</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：先出现的数字会锚定后续判断。甘地去世年龄实验：先问「是否大于140岁」，再问具体年龄，答案会锚定在140附近</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/thinking_fast_slow_brain/s2-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The mechanism: the first number that appears anchors your later judgment. In the Gandhi age experiment, people first asked whether he died before or after 140 ended up anchoring their exact-age answers near 140.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>anchor → 锚定；anchoring effect → 锚定效应</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：营销「限量12罐」、谈判开价10块砍到8块，都在利用锚定操控你的决策区间</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/thinking_fast_slow_brain/s2-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The insight: marketing gimmicks like 'limited to 12 cans' and a negotiator opening at 10 and settling at 8 are all manipulating the range of your decision via anchoring.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>limited to 12 cans → 限量12罐；open at 10 and settle at 8 → 开价10砍到8；manipulate the decision range → 操控决策区间</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「小样本不能说明问题」</p><div class="chunks">a tiny sample proves nothing · read meaning into</div><small>read meaning into 指强行解读，很地道</small></li>
+<li><p>想说「第一个数字会框住你的判断」</p><div class="chunks">set the frame · anchor everything</div><small>anchor 是本集核心动词，商务谈判/营销都适用</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s3" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S3</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/thinking_fast_slow_brain/s3.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>第四部分：前景理论与损失厌恶</h2>
+      <p class="scene-title-en">Part Four: Prospect Theory and Loss Aversion</p>
+      <p class="context"><b>情境</b>How we judge gains and losses relative to a reference point, and why losses sting more. 语域：casual 行为经济学讲解。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：人对收益/损失的评价不是看绝对金额，而是看相对于参考点的变化。同样5万年终奖，预期8万的人痛苦，预期1万的人狂喜</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/thinking_fast_slow_brain/s3-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The mechanism: we don't evaluate gains and losses by absolute amount, but by change relative to a reference point. Give the same 50,000-yuan year-end bonus to two people — the one who expected 80,000 suffers, the one who expected 10,000 is overjoyed.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>reference point → 参考点；year-end bonus → 年终奖；relative to → 相对于</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：大脑难以接受绝对值，必须放在比较体系中才有意义</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/thinking_fast_slow_brain/s3-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The insight: the brain struggles with absolute values — numbers only make sense when placed inside a comparison system.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>absolute value → 绝对值；comparison system → 比较体系</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据：「人的神经系统很难接受绝对值，必须放在某个体系里面，对变化值更敏感」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/thinking_fast_slow_brain/s3-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The original quote: 'The human nervous system has a hard time accepting absolute values — it has to be placed in some framework, and it's far more sensitive to changes in value.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>nervous system → 神经系统；sensitive to change → 对变化敏感</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：同等数额的损失带来的痛苦，约为收益快乐的1.5-2.5倍。抛硬币实验：正面输100美元，反面需赢约200美元才愿参加</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/thinking_fast_slow_brain/s3-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The mechanism: the pain of losing a given amount is about 1.5 to 2.5 times the pleasure of gaining the same. In the coin-flip experiment, most people only join if the upside is around 200 dollars against a 100-dollar loss on tails.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>loss aversion → 损失厌恶；coin-flip experiment → 抛硬币实验</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>典型场景：炒股时卖掉盈利股（A股）而非亏损股（B股），因为卖出亏损股等于「确认损失」；30天试用期让人产生禀赋效应，降低退货率</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/thinking_fast_slow_brain/s3-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">A typical case: people sell their winning stock while holding the loser, because selling the loser means 'confirming the loss.' And a 30-day free trial creates the endowment effect, which lowers return rates.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>confirm a loss → 确认损失；endowment effect → 禀赋效应；return rate → 退货率</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）怎么落地：重大消费前问「如果从没拥有过这个东西，我愿意花多少钱买？」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/thinking_fast_slow_brain/s3-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">How to apply it: before any major purchase, ask yourself — 'If I'd never owned this thing, how much would I be willing to pay for it?'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>major purchase → 重大消费；be willing to pay → 愿意花多少钱买</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「人只对相对变化敏感」</p><div class="chunks">be wired for · it's the delta that moves us</div><small>delta 在口语里指变化量，年轻化表达</small></li>
+<li><p>想说「损失比收益更痛」</p><div class="chunks">losses hurt · sting of losing · outweigh</div><small>outweigh 是书面点评常用；第一句是数据化口语表达</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s4" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S4</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/thinking_fast_slow_brain/s4.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>第五部分：两个自我与幸福</h2>
+      <p class="scene-title-en">Part Five: Two Selves and Happiness</p>
+      <p class="context"><b>情境</b>The experiencing self versus the remembering self, and how the peak-end rule shapes memory. 语域：casual 哲学讨论。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：体验自我关注当下每一分钟的感受（腰酸、嘴干），无决策权且易遗忘；记忆自我负责评价过去、做决策，遵循峰终定律和时长忽视</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/thinking_fast_slow_brain/s4-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The mechanism: the experiencing self lives in every single moment — the aching back, the dry mouth — but it has no say in decisions and forgets easily. The remembering self evaluates the past, makes the decisions, and follows the peak-end rule and duration neglect.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>experiencing self → 体验自我；remembering self → 记忆自我；peak-end rule → 峰终定律；duration neglect → 时长忽视</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：嗑瓜子效应——不管之前多开心，最后一颗坏的就会毁掉整次体验的记忆评价</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/thinking_fast_slow_brain/s4-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The insight: the sunflower-seed effect — no matter how happy you were along the way, one bad seed at the end ruins your entire memory of the experience.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>sunflower-seed effect → 嗑瓜子效应；ruin the memory → 毁掉记忆评价</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）「我们到底是活当下还是活记忆？会不会因为过于关注对幸福的记忆而忽视了当下？」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/thinking_fast_slow_brain/s4-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The quote: 'Are we living in the present or living in memory? Could it be that our over-attention to remembering happiness makes us neglect the present itself?'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>live in the present → 活在当下；neglect the present → 忽视当下</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）相关概念：为朋友圈打卡而忍受旅途疲惫，是记忆自我绑架体验自我的典型</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/thinking_fast_slow_brain/s4-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Related idea: enduring a miserable trip just to check in at scenic spots for social media is a classic case of the remembering self hijacking the experiencing self.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>check in at → 打卡；hijack → 绑架</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>为什么重要：GDP高、社会地位好（记忆自我满足），但每天焦虑失眠（体验自我痛苦），社会未必真正幸福</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/thinking_fast_slow_brain/s4-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Why it matters: a society can have high GDP and strong social status — satisfying the remembering self — while people lie awake anxious every night, the experiencing self suffering. That society may not be truly happy.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>social status → 社会地位；lie awake anxious → 焦虑失眠</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>适用边界：长期规划仍需记忆自我参与，但不能以牺牲所有当下体验为代价</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/thinking_fast_slow_brain/s4-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Boundary conditions: long-term planning still needs the remembering self in charge — just not at the cost of every present moment.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>long-term planning → 长期规划；at the cost of → 以…为代价</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「最后的体验决定整段记忆」</p><div class="chunks">color the memory · how it ends is how you remember</div><small>color 作动词指「给…定调」，很地道</small></li>
+<li><p>想说「记忆自我绑架了体验自我」</p><div class="chunks">hijack · sacrifice the moment for</div><small>hijack 生动但有攻击性，适合吐槽；sacrifice the moment 更中性</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s5" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S5</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/thinking_fast_slow_brain/s5.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>生活应用与 AI 联想</h2>
+      <p class="scene-title-en">Everyday Applications and an AI Tangent</p>
+      <p class="context"><b>情境</b>Xing Guang connects the two-system model to large language models and how to prompt them. 语域：casual 联想吐槽。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>星光联想：大模型「洗车不带车」翻车率超80%，因为被「50米」距离锚定，忽视「洗车」目标函数——AI的长篇大论像系统二，底层仍是启发式快思考</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/thinking_fast_slow_brain/s5-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Xing Guang's tangent: a large model 'taking a car to the car wash' fails over 80 percent of the time, because it gets anchored by the 50-meter distance and ignores the objective function — washing the car. A model's long-winded reasoning looks like System Two, but underneath it's still heuristic fast thinking.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>objective function → 目标函数；get anchored by → 被锚定；long-winded reasoning → 长篇大论式推理</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）怎么落地：向AI提问时明确前置条件和目标函数，警惕其逻辑严密但前提遗漏的「幻觉」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/thinking_fast_slow_brain/s5-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">How to apply it: when you prompt an AI, state your preconditions and objective function explicitly, and watch out for its 'hallucinations' — perfectly logical reasoning built on missing premises.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>preconditions → 前置条件；hallucination → 幻觉；missing premise → 遗漏的前提</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「AI也会被锚定带偏」</p><div class="chunks">get anchored by · latch onto · lose sight of the mission</div><small>latch onto 指死咬一个点，非常口语</small></li>
+<li><p>想说「幻觉是逻辑严密但前提错了」</p><div class="chunks">sound logic · wrong premise · airtight reasoning</div><small>airtight 形容「无懈可击」很传神</small></li>
+        </ol>
+      </details>
+    </section>
+      <section class="study-section" id="practice">
+      <h2 class="section-heading">今日可练 <small>PRACTICE TODAY</small></h2>
+      <div class="study-grid">
+        <article>
+          <p>用「rubber-stamp」说：系统二只是给系统一的结论盖章。</p>
+          <div class="practice-en">
+            System Two mostly just rubber-stamps whatever System One already decided.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/thinking_fast_slow_brain/practice-0.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「anchor」说：第一个报价会锚定整个谈判区间。</p>
+          <div class="practice-en">
+            The opening offer anchors the whole negotiation range.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/thinking_fast_slow_brain/practice-1.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「loss aversion」说：亏100块的痛比赚100块的爽更强烈。</p>
+          <div class="practice-en">
+            Loss aversion means losing 100 yuan stings more than winning 100 yuan feels good.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/thinking_fast_slow_brain/practice-2.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「peak-end rule」说：旅行好不好玩，取决于最高点和结尾。</p>
+          <div class="practice-en">
+            By the peak-end rule, you judge the whole trip by its best moment and its ending.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/thinking_fast_slow_brain/practice-3.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article>
+      </div>
+    </section>
+      <section class="study-section pitfalls" id="pitfalls">
+      <h2 class="section-heading">避坑 <small>PITFALLS</small></h2>
+      <div class="study-grid">
+        <article>
+          <div class="wrong">✕ The doctor can't explain why I got this disease.</div>
+          <div class="right">✓ From a scientific standpoint it's simply random — but System One won't accept that explanation.</div>
+          <p>加上 it's simply random 和 System One won't accept 才保留原文的反差结构；只翻前半句就丢了核心。</p>
+        </article><article>
+          <div class="wrong">✕ Loss's pain is bigger than gain's happiness.</div>
+          <div class="right">✓ The pain of a loss is about twice the joy of an equal gain.</div>
+          <p>中式英语直译；用 the pain of… / the joy of… 对称结构 + 约数 twice 才地道。</p>
+        </article><article>
+          <div class="wrong">✕ My decision was changed by the first number.</div>
+          <div class="right">✓ My judgment got anchored by the first number I saw.</div>
+          <p>锚定效应固定搭配是 get anchored by；说 changed by 丢失了专业术语色彩。</p>
+        </article><article>
+          <div class="wrong">✕ The AI is very smart but makes mistakes.</div>
+          <div class="right">✓ The model produces airtight logic built on a missing premise — that's the hallucination.</div>
+          <p>smart but makes mistakes 太泛；点出 airtight logic + missing premise 才说清「幻觉」的本质。</p>
+        </article>
+      </div>
+    </section>
+      <section class="study-section shifts" id="mindset">
+      <h2 class="section-heading">认知转变 <small>MINDSET SHIFTS</small></h2>
+      <div class="study-grid">
+        <article>
+          <span>以为自己在理性决策，深思熟虑</span>
+          <b aria-hidden="true">→</b>
+          <strong>95% 的决策系统一已完成，系统二只是事后盖章——自由意志比想象中有限</strong>
+        </article><article>
+          <span>以为「贵」是绝对概念，价格有固定意义</span>
+          <b aria-hidden="true">→</b>
+          <strong>人只对相对参考点的变化敏感——5万年终奖，预期8万痛苦，预期1万狂喜</strong>
+        </article><article>
+          <span>以为快乐等于体验的总和</span>
+          <b aria-hidden="true">→</b>
+          <strong>记忆自我按「峰终定律」评价一切——结局好，整段就好；为打卡牺牲当下，是本末倒置</strong>
+        </article>
+      </div>
+    </section>
+      <footer>
+        双语学习版 · 场景/句子朗读使用 edge-tts（en-US） · 单词发音使用浏览器 Web Speech API
+        <div class="footer-note">中文版：<a href="thinking_fast_slow_brain-总结.html">thinking_fast_slow_brain-总结.html</a> · SVG 版：<a href="viewer.html?f=thinking_fast_slow_brain-总结.svg" target="_blank">thinking_fast_slow_brain-总结.svg</a></div>
+      </footer>
+    </div>
+  </main>
+  <script>(() => {
+  let activeAudio = null;
+  let activeBtn = null;
+  const status = document.getElementById('speech-status');
+  const stopBtn = document.getElementById('stop-speech');
+  const rateSel = document.getElementById('speech-rate');
+
+  const reset = () => {
+    if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+    activeBtn?.classList.remove('playing');
+    activeBtn = null;
+    stopBtn.classList.remove('visible');
+    status.textContent = '';
+  };
+
+  const playAudio = (url, btn) => {
+    reset();
+    const audio = new Audio(url);
+    audio.playbackRate = Number(rateSel.value);
+    activeAudio = audio;
+    activeBtn = btn;
+    btn.classList.add('playing');
+    stopBtn.classList.add('visible');
+    status.textContent = btn.classList.contains('scene-speak')
+      ? 'Reading the whole scene…'
+      : 'Reading…';
+
+    audio.onended = () => { if (activeAudio === audio) reset(); };
+    audio.onerror = () => { status.textContent = 'Audio failed to load.'; if (activeAudio === audio) reset(); };
+    audio.play().catch(() => { status.textContent = 'Playback failed.'; if (activeAudio === audio) reset(); });
+  };
+
+  document.addEventListener('click', e => {
+    const btn = e.target.closest('[data-audio]');
+    if (!btn) return;
+    e.preventDefault();
+    if (btn === activeBtn && activeAudio) { reset(); return; }
+    playAudio(btn.dataset.audio, btn);
+  });
+
+  stopBtn.addEventListener('click', reset);
+
+  const synth = window.speechSynthesis;
+  const getEnglishVoice = () => {
+    const voices = synth.getVoices();
+    return voices.find(v => /^en-(US|GB)/i.test(v.lang))
+        || voices.find(v => /^en/i.test(v.lang)) || null;
+  };
+
+  const difficultWords = new Set([
+    'assortment', 'SKU', 'premium', 'margin', 'middleman', 'OEM', 'rebranding',
+    'hoarding', 'PTSD', 'curation', 'repurchase', 'touchpoint', 'backlash',
+    'reshuffle', 'funnel', 'anchor', 'contract', 'psychology', 'private', 'label',
+    'editorial', 'familiar', 'competitors', 'authorization', 'flexibility'
+  ]);
+
+  const shouldPronounce = word => {
+    const n = word.toLowerCase().replace(/^[^a-z]+|[^a-z]+$/g, '');
+    return n.replace(/[^a-z]/g, '').length >= 8 || difficultWords.has(n);
+  };
+
+  const markPronounceableWords = root => {
+    const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+    const nodes = [];
+    while (walker.nextNode()) nodes.push(walker.currentNode);
+    nodes.forEach(node => {
+      if (node.parentElement?.closest('button, script, style')) return;
+      const text = node.nodeValue;
+      let m, last = 0, changed = false;
+      const frag = document.createDocumentFragment();
+      const re = /[A-Za-z]+(?:[-'’][A-Za-z]+)*/g;
+      while ((m = re.exec(text))) {
+        if (!shouldPronounce(m[0])) continue;
+        changed = true;
+        frag.append(text.slice(last, m.index));
+        const wb = document.createElement('button');
+        wb.type = 'button'; wb.className = 'pronounce-word';
+        wb.dataset.speak = m[0];
+        wb.setAttribute('aria-label', '\u8bfb\u5355\u8bcd ' + m[0]);
+        wb.title = '\u70b9\u51fb\u542c\u53d1\u97f3';
+        wb.textContent = m[0];
+        frag.append(wb);
+        last = m.index + m[0].length;
+      }
+      if (!changed) return;
+      frag.append(text.slice(last));
+      node.replaceWith(frag);
+    });
+  };
+
+  document.querySelectorAll(
+    '.english, .scene-title-en, .paraphrase li p, .chunks, .practice-en, .wrong, .right, .summary-en'
+  ).forEach(markPronounceableWords);
+
+  document.addEventListener('click', e => {
+    const wb = e.target.closest('.pronounce-word');
+    if (!wb) return;
+    e.preventDefault();
+    if (!synth) return;
+    synth.cancel();
+    if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+    activeBtn?.classList.remove('playing');
+    activeBtn = wb;
+    wb.classList.add('playing');
+    const u = new SpeechSynthesisUtterance(wb.dataset.speak);
+    u.lang = 'en-US';
+    u.rate = 0.88;
+    const v = getEnglishVoice();
+    if (v) u.voice = v;
+    u.onend = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+    u.onerror = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+    synth.speak(u);
+  });
+})();</script>
+</body>
+</html>

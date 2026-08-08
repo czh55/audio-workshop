@@ -1,0 +1,355 @@
+{
+  "slug": "ev21_rag_upgrade_podcast",
+  "date": "2026-06-23",
+  "platform": "小宇宙FM",
+  "title": "车企客服V2.1：企业级RAG架构升级精解报告",
+  "title_en": "Auto Customer Service V2.1: A Deep Dive into Enterprise-Grade RAG Architecture",
+  "eyebrow": "AI Engineering · AI 工程",
+  "duration": "17分54秒",
+  "source_url": "https://www.xiaoyuzhoufm.com/episode/6a0294a1e1eb34a9393828da",
+  "summary_cn": "一句话概括：一家车企客服系统从V1硬编码字典模式，历经架构解耦、Markdown知识库、向量+BM25混合检索、层次化切片到Agent精简，完成教科书级RAG生产落地——演示机与生产机之间的鸿沟，靠工程化细节而非堆硬件来跨越",
+  "summary_en": "How a carmaker's customer-service system went from V1's hard-coded dictionary pattern, through architecture decoupling, a Markdown knowledge base, hybrid vector + BM25 retrieval, hierarchical chunking, and agent slimming, to a textbook-grade production RAG deployment. The gap between a demo machine and a production machine is bridged by engineering details, not by throwing more hardware at the problem.",
+  "scenes": [
+    {
+      "id": "s1",
+      "title_cn": "一、V1痛点与RAG解耦",
+      "title_en": "V1 Pain Points and RAG Decoupling",
+      "context": "V1 把车型参数硬编码进 Python 字典，业务数据与代码死死绑定。语域：casual 技术播客讲解。",
+      "speak": "In V1, every model's price, range, and configuration parameters were hard-coded as Python dictionaries inside the code — business data and code were inseparable. It's like carving a product catalog that needs constant updates into a stone tablet: even a ten-yuan price tweak means R&D changes code and runs the whole test-and-release pipeline. In a market where product lines iterate fast, operations can't self-serve updates; they wait for R&D scheduling. As the report says, the biggest pain of the first version is knowledge coupling — data hard-coded as dictionaries inside Python code. The fix is decoupling: the knowledge base becomes an external asset independent of business code, freely updatable. The retrieval module's job is to pull real documents from the external knowledge base; the LLM no longer relies on stale training knowledge to invent things — it only organizes language and logic. That division of labor cuts off the source of hallucination at the root.",
+      "sentences": [
+        {
+          "cn": "核心机制：车企各车型售价、续航、配置参数以Python字典硬编码在代码里，业务数据与代码死死绑定",
+          "en": "Core mechanism: each model's price, range, and configuration parameters were hard-coded as Python dictionaries in the code — business data was tightly bound to code.",
+          "note": "<span>表达提示</span>hard-coded → 硬编码；configuration parameters → 配置参数；tightly bound → 死死绑定"
+        },
+        {
+          "cn": "关键理解：就像把随时要更新的商品目录刻在石碑上——价格微调10元也要研发改代码、走完整测试发布流程",
+          "en": "Key insight: like carving an ever-updating product catalog into a stone tablet — even a 10-yuan price adjustment means R&D changes code and runs the entire test-and-release pipeline.",
+          "note": "<span>表达提示</span>carve into a stone tablet → 刻在石碑上；price adjustment → 价格微调；test-and-release pipeline → 测试发布流程"
+        },
+        {
+          "cn": "典型场景：产品线快速迭代的市场环境下，运营无法自助更新，只能等研发排期",
+          "en": "Typical scenario: in a market of fast product-line iteration, operations can't update on their own — they have to wait for R&D's schedule.",
+          "note": "<span>表达提示</span>product-line iteration → 产品线迭代；self-serve → 自助；wait for the schedule → 等排期"
+        },
+        {
+          "cn": "（引用）原文依据：「初代版本最大的痛点，我们可以总结为知识耦合……以字典的格式直接硬编码，固化在了Python代码里面」",
+          "en": "Direct quote: 'The biggest pain of the first version can be summarized as knowledge coupling... hard-coded as dictionaries directly in the Python code.'",
+          "note": "<span>表达提示</span>knowledge coupling → 知识耦合；hard-coded → 硬编码；summarize → 总结"
+        },
+        {
+          "cn": "（引用）相关概念：知识耦合 vs 知识解耦——后者让知识库独立于业务代码，成为可灵活更新的外置资产",
+          "en": "Related concept: knowledge coupling vs. decoupling — the latter makes the knowledge base an external asset independent of business code that can be flexibly updated.",
+          "note": "<span>表达提示</span>coupling vs decoupling → 耦合 vs 解耦；external asset → 外置资产；flexibly updated → 灵活更新"
+        },
+        {
+          "cn": "检索模块专职从外部知识库调取真实文档；大模型不再依赖过时训练知识凭空捏造，只做语言组织和逻辑梳理。职责拆分直接掐断幻觉源头",
+          "en": "The retrieval module specializes in pulling real documents from the external knowledge base; the LLM no longer fabricates from stale training knowledge — it only handles language organization and logic. This division of labor cuts off the hallucination source at the root.",
+          "note": "<span>表达提示</span>retrieval module → 检索模块；fabricate → 凭空捏造；division of labor → 职责拆分；cut off at the root → 掐断源头"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「数据与代码绑定太死」",
+          "phrases": [
+            "The data was welded to the code.",
+            "Data and code were stuck together like glue."
+          ],
+          "chunks": "welded to the code · stuck together like glue",
+          "usage": "第一句书面，第二句口语形象"
+        },
+        {
+          "intent": "想说「职责拆分能消除幻觉」",
+          "phrases": [
+            "Separating retrieval from generation kills hallucinations.",
+            "Let the retriever fetch facts; let the LLM just talk."
+          ],
+          "chunks": "separating retrieval from generation · retriever fetches, LLM talks",
+          "usage": "第一句技术结论，第二句俏皮总结"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title_cn": "二、知识库工程化",
+      "title_en": "Engineering the Knowledge Base",
+      "context": "用 Markdown + Git 把知识库工程化，把更新权力还给业务线。语域：casual 技术讲解 + 工程理念。",
+      "speak": "Business knowledge goes into lightweight Markdown files, which come with built-in heading hierarchy. Hook them into Git for version management, and operations can edit with any text editor. The key: give the power to update the knowledge base back to the business line, cutting out the long R&D scheduling queue. Sloppy price update missing a zero? One-click rollback to a previous version. This is for non-engineers maintaining product docs, FAQs, and parameter tables. As the report says, lightweight Markdown files store business knowledge and can plug directly into a version-control tool like Git. Compared with heavyweight databases: for a small or medium knowledge base you don't need an expensive, complex database system — Markdown plus Git is a four-ounce solution that lifts a thousand pounds. Many tech teams fall into the trap of assuming more complex tools are better; the mainstream choice here is plain Markdown — lightweight, structured, and friendly to non-engineers.",
+      "sentences": [
+        {
+          "cn": "核心机制：用轻量化Markdown存储业务知识，自带标题层级结构；接入Git做版本管理，运营人员用文本编辑器即可修改",
+          "en": "Core mechanism: store business knowledge in lightweight Markdown files, which come with built-in heading hierarchy; plug them into Git for version management, and operations staff can edit with any text editor.",
+          "note": "<span>表达提示</span>lightweight Markdown → 轻量化Markdown；heading hierarchy → 标题层级；version management → 版本管理"
+        },
+        {
+          "cn": "关键理解：把更新知识库的权力交还给业务线，砍掉研发排期这个漫长前置环节。价格手抖少写一个零？一键回滚历史版本",
+          "en": "Key insight: hand the power to update the knowledge base back to the business line, removing the long R&D scheduling step. Type a price with a missing zero? One-click rollback to a previous version.",
+          "note": "<span>表达提示</span>hand power back to → 把权力交还；rollback → 回滚；missing a zero → 少写一个零"
+        },
+        {
+          "cn": "典型场景：非技术人员维护车企产品文档、FAQ、参数表",
+          "en": "Typical scenario: non-engineers maintaining product docs, FAQs, and parameter tables.",
+          "note": "<span>表达提示</span>non-engineers → 非技术人员；product docs → 产品文档；parameter tables → 参数表"
+        },
+        {
+          "cn": "（引用）原文依据：「用轻量化的Markdown文件来存储业务知识……可以直接接入像Git这样的代码版本管理工具进行管控」",
+          "en": "Direct quote: 'Use lightweight Markdown files to store business knowledge... which can be plugged directly into a version-control tool like Git for management.'",
+          "note": "<span>表达提示</span>version-control tool → 版本管理工具；plug into → 接入；for management → 进行管控"
+        },
+        {
+          "cn": "（引用）与重型数据库对比：中小体量知识库不需要昂贵复杂的数据库系统，Markdown+Git是四两拨千斤的方案",
+          "en": "Compared with heavyweight databases: a small-to-medium knowledge base doesn't need an expensive complex database system — Markdown plus Git is a four-ounce lever moving a thousand-pound stone.",
+          "note": "<span>表达提示</span>heavyweight database → 重型数据库；four-ounce lever → 四两拨千斤；small-to-medium scale → 中小体量"
+        },
+        {
+          "cn": "很多技术团队踩坑：总觉得越复杂的工具越好。但报告给出的主流优选方案恰恰是Markdown——轻量、结构化、对非技术人员友好",
+          "en": "Many tech teams fall into the trap of assuming more complex tools are better. The mainstream preferred solution here is plain Markdown — lightweight, structured, and friendly to non-engineers.",
+          "note": "<span>表达提示</span>fall into the trap → 踩坑；mainstream choice → 主流优选方案；friendly to → 对…友好"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「越简单越好，别过度设计」",
+          "phrases": [
+            "Don't over-engineer it — plain Markdown wins here.",
+            "The simplest tool that works is the right tool."
+          ],
+          "chunks": "don't over-engineer · simplest working tool",
+          "usage": "第一句直白，第二句是工程格言"
+        },
+        {
+          "intent": "想说「回滚是知识库的安全网」",
+          "phrases": [
+            "Git history is your safety net for the knowledge base.",
+            "A wrong edit? Just roll it back."
+          ],
+          "chunks": "Git history as safety net · just roll it back",
+          "usage": "第一句正式，第二句口语"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title_cn": "三、混合检索与工具选型",
+      "title_en": "Hybrid Retrieval and Tool Selection",
+      "context": "向量检索管语义、BM25 管字面术语，7:3 混合把召回率提升约 30%。语域：casual 技术讲解。",
+      "speak": "Vector retrieval is great at semantic similarity — 'Model 3 price' is close to 'Model 3 pricing standard.' BM25 is the impartial literal matcher, great for obscure technical terms. The weighting: 70 percent for natural-language semantic understanding, since that's how users mostly ask, and 30 percent to hold the line on jargon. Mixed retrieval lifts document recall by about 30 percent over a single mode. Typical case: users search for niche terms like 'OEM door' that the vector model never saw in training. As the report says, vector retrieval gets 0.7 and BM25 gets 0.3, lifting recall by roughly 30 percent. After chunking, this customer-service knowledge base is only dozens to hundreds of fragments, so they picked Meta's open-source FAISS — a lightweight framework that needs no separate database service, runs in local memory, and returns each retrieval in under 240 milliseconds. The boundary: it fits small-to-medium scenarios up to a few hundred fragments; at millions of records you migrate to a distributed vector database.",
+      "sentences": [
+        {
+          "cn": "核心机制：向量检索擅长语义相似度（「Model 3售价」≈「Model 3定价标准」）；BM25铁面无私做关键词字面匹配，专治冷门术语",
+          "en": "Core mechanism: vector retrieval excels at semantic similarity ('Model 3 price' ≈ 'Model 3 pricing standard'); BM25 is the impartial literal keyword matcher, ideal for obscure jargon.",
+          "note": "<span>表达提示</span>semantic similarity → 语义相似度；impartial → 铁面无私的；literal matching → 字面匹配；obscure jargon → 冷门术语"
+        },
+        {
+          "cn": "关键理解：70%权重给自然语言语义理解（用户提问主流），30%权重守住专业术语底线。混合后文档召回率比单一模式提升约30%",
+          "en": "Key insight: give 70% weight to natural-language semantic understanding (how users mostly ask) and 30% to hold the line on technical terms. Hybrid retrieval lifts document recall by roughly 30% over a single mode.",
+          "note": "<span>表达提示</span>weight → 权重；hold the line on → 守住；document recall → 文档召回率"
+        },
+        {
+          "cn": "典型场景：用户搜索「OEM门」这类向量模型训练时没学过的偏门专业名词",
+          "en": "Typical scenario: users searching niche terms like 'OEM door' — jargon the vector model never encountered in training.",
+          "note": "<span>表达提示</span>niche term → 偏门专业名词；encounter in training → 训练时见过"
+        },
+        {
+          "cn": "（引用）原文依据：「向量检索占0.7，BM25占0.3……文档召回率比单一模式提升了差不多30%」",
+          "en": "Direct quote: 'Vector retrieval takes 0.7 and BM25 takes 0.3... document recall improved by about 30% compared with a single mode.'",
+          "note": "<span>表达提示</span>vector retrieval → 向量检索；document recall → 文档召回率"
+        },
+        {
+          "cn": "车企客服知识库切片后仅几十到几百个片段，选Meta开源的FAISS轻量框架——无需独立数据库服务，本地内存运行，单次检索<240ms",
+          "en": "After chunking, the customer-service knowledge base is only dozens to hundreds of fragments, so they chose Meta's open-source FAISS — a lightweight framework needing no separate database service, running in local memory, with single retrievals under 240 ms.",
+          "note": "<span>表达提示</span>fragments → 片段；lightweight framework → 轻量框架；local memory → 本地内存；retrieval latency → 检索延迟"
+        },
+        {
+          "cn": "适用边界：中小体量场景（数百片段以内）；数据量达百万级时需迁移分布式向量库",
+          "en": "Boundary: fits small-to-medium scenarios (within a few hundred fragments); when data reaches millions of records, you migrate to a distributed vector database.",
+          "note": "<span>表达提示</span>small-to-medium scenario → 中小体量场景；millions of records → 百万级数据；distributed vector database → 分布式向量库"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「两种检索互为补充」",
+          "phrases": [
+            "Vector search understands; BM25 catches exact terms.",
+            "Semantics and exact matches each cover the other's blind spot."
+          ],
+          "chunks": "semantics + exact match · cover each other's blind spots",
+          "usage": "第一句直白，第二句更凝练"
+        },
+        {
+          "intent": "想说「用合适的工具而不是最重的工具」",
+          "phrases": [
+            "FAISS is the right-size tool for this job.",
+            "When the data is small, keep the stack light."
+          ],
+          "chunks": "right-size tool · keep the stack light",
+          "usage": "第一句下结论，第二句是工程原则"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "title_cn": "四、层次化切片与Agent精简",
+      "title_en": "Hierarchical Chunking and Agent Slimming",
+      "context": "遵循 Markdown 标题层级切分，500 字符 + 50 重叠区，保留文档元数据实现溯源。语域：casual 技术讲解。",
+      "speak": "First, split at the natural boundaries of Markdown heading levels so every unit is a complete business logic block; then do a finer second pass — an optimal chunk of 500 characters with a 50-character overlap. A fixed-length blind cut would slice 'this engine' away from 'adopts the latest technology,' making the LLM read like crumpled newspaper and drift logically. The overlap is like interlocking bricks in masonry — it keeps semantics continuous. This is the preprocessing step for long product manuals and technical docs before they enter the base. As the report says, use the first and second Markdown headings to do the initial split at chapter boundaries... and design a 50-character overlapping context region. The killer feature: keep the full document hierarchy metadata, so each answer comes with its own 'ID card' — citing which doc and which section — solving traceability. The problem with blind cuts: slashing every 500 characters without looking severs the logical structure, and the LLM reading broken fragments easily produces comprehension errors.",
+      "sentences": [
+        {
+          "cn": "核心机制：遵循Markdown标题层级在章节自然边界初次拆分，保证每个单元是完整业务逻辑模块；二次精细分割，最优500字符+50字符重叠区",
+          "en": "Core mechanism: follow the Markdown heading hierarchy to do the initial split at natural chapter boundaries, keeping each unit a complete business-logic block; then a finer second pass with an optimal 500-character chunk and a 50-character overlap.",
+          "note": "<span>表达提示</span>chunk → 切片；natural boundary → 自然边界；overlap → 重叠区；business-logic block → 业务逻辑模块"
+        },
+        {
+          "cn": "关键理解：固定长度一刀切会把「这款发动机」和「采用了最新技术」斩断在两段，大模型像看碎报纸一样产生逻辑偏差。重叠区像砌砖咬合缝，保证语义连贯",
+          "en": "Key insight: a fixed-length blind cut slices 'this engine' from 'adopts the latest technology,' so the LLM reads like torn newspaper and drifts logically. The overlap is like interlocking masonry joints — it keeps the semantics coherent.",
+          "note": "<span>表达提示</span>blind cut → 一刀切；torn newspaper → 碎报纸；interlocking joints → 咬合缝；semantic coherence → 语义连贯"
+        },
+        {
+          "cn": "典型场景：长篇产品手册、技术文档入库前的预处理",
+          "en": "Typical scenario: preprocessing long product manuals and technical documents before they go into the knowledge base.",
+          "note": "<span>表达提示</span>preprocessing → 预处理；product manual → 产品手册；enter the base → 入库"
+        },
+        {
+          "cn": "（引用）原文依据：「利用Markdown的一二级标题，在章节的自然边界完成初次拆分……设计了50字符的上下文重叠区域」",
+          "en": "Direct quote: 'Use the Markdown first- and second-level headings to complete the initial split at chapter natural boundaries... and design a 50-character overlapping context region.'",
+          "note": "<span>表达提示</span>first/second-level heading → 一二级标题；chapter boundary → 章节边界；overlapping context region → 上下文重叠区域"
+        },
+        {
+          "cn": "（引用）杀手锏：完整保留文档层级元数据，回答可自带「身份证」——引用自某某文档某某章节，解决知识溯源",
+          "en": "Killer feature: keep the full document hierarchy metadata so each answer carries its own 'ID card' — citing which document and which section — solving knowledge traceability.",
+          "note": "<span>表达提示</span>metadata → 元数据；traceability → 溯源；'ID card' → 身份证（比喻）"
+        },
+        {
+          "cn": "原因：每500字符闭眼砍一刀，文档逻辑结构被粗暴斩断，大模型读取残缺碎片极易产生理解偏差",
+          "en": "Why: slashing every 500 characters without looking severs the document's logical structure, and the LLM reading broken fragments easily produces comprehension errors.",
+          "note": "<span>表达提示</span>slash without looking → 闭眼砍；sever → 斩断；comprehension error → 理解偏差"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「切分要跟着文档结构走」",
+          "phrases": [
+            "Chunk along the document's own structure, not by ruler.",
+            "Let headings decide where a chunk begins and ends."
+          ],
+          "chunks": "chunk along structure · headings decide boundaries",
+          "usage": "第一句直白，第二句讲方法"
+        },
+        {
+          "intent": "想说「答案要能追溯到来源」",
+          "phrases": [
+            "Every answer should cite its source document.",
+            "Traceability turns an answer into evidence."
+          ],
+          "chunks": "cite its source · traceability is evidence",
+          "usage": "第一句是要求，第二句是价值提炼"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "title_cn": "五、未来优化路线图",
+      "title_en": "Future Optimization Roadmap",
+      "context": "工程化思维的价值：不堆硬件，靠合理的解耦与选型让可维护性提升 10 倍以上。语域：casual 技术总结 + 方法论。",
+      "speak": "Why it matters: a high-spec technical rebuild doesn't have to mean the most expensive software and hardware — with reasonable architecture decoupling and proper tool selection, maintainability can improve tenfold or more. The methodology generalizes to any RAG scenario demanding high accuracy; specific weight ratios should be tuned against real business metrics. As the report says, the devil is in the details... engineering thinking applied to those seemingly trivial but fatal problems is the only way to turn AI from a toy into productivity. In practice: start from the eight characters 'accurately and efficiently answering customer questions,' then progressively decouple the knowledge, select tools, optimize chunking, and slim down the agent.",
+      "sentences": [
+        {
+          "cn": "为什么重要：高规格技术重构不一定要堆最贵软硬件；合理架构解耦+恰当工具选型，可维护性提升10倍以上",
+          "en": "Why it matters: a high-spec technical rebuild doesn't have to pile on the priciest software and hardware; with sensible architecture decoupling and proper tool selection, maintainability improves tenfold or more.",
+          "note": "<span>表达提示</span>high-spec rebuild → 高规格技术重构；maintainability → 可维护性；pile on → 堆砌；tenfold → 十倍"
+        },
+        {
+          "cn": "适用边界：通用方法论适用于所有高准确率要求的RAG场景；具体权重配比需基于业务实测调整",
+          "en": "Boundary: the general methodology applies to any RAG scenario demanding high accuracy; the specific weight ratios should be tuned against measured business metrics.",
+          "note": "<span>表达提示</span>general methodology → 通用方法论；weight ratios → 权重配比；tuned against → 基于…调整"
+        },
+        {
+          "cn": "（引用）「魔鬼都在细节里……用工程化的思维，去解决那些看似琐碎但致命的问题，才是让AI从玩具变成生产力的唯一途径」",
+          "en": "Direct quote: 'The devil is in the details... using engineering thinking to solve those seemingly trivial but fatal problems is the only way to turn AI from a toy into productivity.'",
+          "note": "<span>表达提示</span>devil in the details → 魔鬼在细节里；engineering thinking → 工程化思维；from toy to productivity → 从玩具到生产力"
+        },
+        {
+          "cn": "（引用）怎么落地：从企业客服「精准高效解答疑问」这八个字出发，逐步解耦知识、选型工具、优化切片、收敛Agent",
+          "en": "How to apply it: start from the eight characters 'answer customer questions accurately and efficiently,' then progressively decouple the knowledge, select the tools, optimize the chunking, and slim down the agent.",
+          "note": "<span>表达提示</span>progressively → 逐步；decouple → 解耦；slim down the agent → 收敛Agent；optimize chunking → 优化切片"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「工程化比堆硬件更值钱」",
+          "phrases": [
+            "Engineering beats hardware when it comes to quality.",
+            "The payoff comes from design choices, not bigger machines."
+          ],
+          "chunks": "engineering beats hardware · payoff from design choices",
+          "usage": "第一句直白，第二句是结论提炼"
+        },
+        {
+          "intent": "想说「先定位问题再选方案」",
+          "phrases": [
+            "Start from the real problem, then pick the tool.",
+            "Understand the need before you reach for the stack."
+          ],
+          "chunks": "problem first · understand the need before the stack",
+          "usage": "第一句是流程，第二句是提醒"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "cn": "用「hard-coded」说：价格参数被硬编码进了代码里。",
+      "en": "The price parameters were hard-coded directly into the Python code."
+    },
+    {
+      "cn": "用「rollback」说：改错了数据可以一键回滚。",
+      "en": "If you mess up an edit, you can roll back to the previous version."
+    },
+    {
+      "cn": "用「cut off at the root」说：职责拆分掐断了幻觉的源头。",
+      "en": "Separating the roles cuts off the hallucination source at the root."
+    },
+    {
+      "cn": "用「devil is in the details」说：看似琐碎的工程细节最致命。",
+      "en": "The devil is in the details — those trivial details are the fatal ones."
+    }
+  ],
+  "pitfalls": [
+    {
+      "wrong": "The data and code are very tight together.",
+      "right": "Business data was tightly coupled with the code.",
+      "why": "「绑定」用 coupled/bound 而非 tight together；这是技术语境的标准表达。"
+    },
+    {
+      "wrong": "Vector retrieval and BM25 each have 0.7 and 0.3 weight.",
+      "right": "Vector retrieval takes a 0.7 weight and BM25 takes 0.3.",
+      "why": "take/get/account for 表达权重占比更地道；have weight 略显生硬。"
+    },
+    {
+      "wrong": "The knowledge base uses Markdown to store, which is very light.",
+      "right": "The knowledge base is stored in lightweight Markdown files.",
+      "why": "very light 太口语；「轻量化」用 lightweight 作为修饰语更准确。"
+    },
+    {
+      "wrong": "The AI model can't be fooled if we cut the data at 500 characters.",
+      "right": "Blind fixed-length cuts break the logical structure and cause comprehension errors.",
+      "why": "500字符不是保险，反而是问题源头；要表达「盲切会破坏结构」这一结论。"
+    }
+  ],
+  "shifts": [
+    {
+      "before": "以为 RAG 效果靠更强的模型和更大的算力",
+      "after": "架构解耦、知识工程化、混合检索、分层切片——工程细节才是生产力"
+    },
+    {
+      "before": "以为数据库越重越好，企业就该上重型系统",
+      "after": "中小体量用 Markdown+Git 四两拨千斤，简单工具往往是优选"
+    },
+    {
+      "before": "以为把知识切得越小越好",
+      "after": "切分要跟随文档结构 + 保留重叠区，固定长度一刀切反而制造逻辑偏差"
+    }
+  ],
+  "voice": "en-US-JennyNeural",
+  "audio_dir": "audio/en/ev21_rag_upgrade_podcast"
+}

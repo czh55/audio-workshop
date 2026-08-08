@@ -1,0 +1,1075 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="我们的创作就是共同的反抗｜去罗马 — Bilingual Learning Edition" />
+  <title>我们的创作就是共同的反抗｜去罗马｜EN 双语学习版</title>
+  <style>:root{--teal-950:#073f42;--teal-800:#0d686c;--teal-700:#0f7c80;--teal-600:#14919b;--mint-100:#dff4ec;--mint-50:#f0faf6;--ink:#183536;--muted:#607879;--line:#d7e8e2;--paper:#fff;--amber:#a85d08;--shadow:0 12px 32px rgba(7,63,66,.08)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:24px}
+body{margin:0;color:var(--ink);background:#edf7f2;font-family:Inter,"PingFang SC","Noto Sans SC","Microsoft YaHei",system-ui,sans-serif;line-height:1.65}
+button,select{font:inherit}
+a{color:inherit}
+.hero{color:#fff;background:radial-gradient(circle at 85% 10%,rgba(129,230,196,.24),transparent 30%),linear-gradient(125deg,#073f42,#0d7377 56%,#14919b)}
+.hero-inner{width:min(1440px,100%);margin:auto;padding:44px clamp(20px,5vw,72px) 36px}
+.hero-flex{display:flex;gap:clamp(18px,3vw,40px);align-items:flex-start}
+.hero-cover{width:min(240px,42vw);height:auto;max-height:320px;object-fit:contain;object-position:center;border-radius:16px;border:1px solid rgba(255,255,255,.28);box-shadow:0 18px 44px rgba(0,0,0,.32);flex-shrink:0;background:rgba(255,255,255,.08)}
+.hero-text{min-width:0;flex:1}
+.eyebrow{margin:0 0 12px;font-size:.78rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;opacity:.8}
+h1{max-width:1020px;margin:0;font-size:clamp(1.7rem,3.6vw,3rem);line-height:1.15;letter-spacing:-.04em}
+.hero-en{margin:12px 0 22px;font-size:clamp(1rem,2vw,1.25rem);opacity:.82}
+.hero-meta{display:flex;flex-wrap:wrap;gap:9px;align-items:center}
+.chip{border:1px solid rgba(255,255,255,.28);border-radius:99px;padding:5px 11px;font-size:.82rem;background:rgba(255,255,255,.08)}
+.source-link{font-weight:750;text-decoration:none;border-bottom:1px solid rgba(255,255,255,.5)}
+.toolbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:22px}
+.toolbar label{font-size:.82rem;opacity:.82}
+.toolbar select{color:#fff;background:#0a5d61;border:1px solid rgba(255,255,255,.3);border-radius:8px;padding:7px 9px}
+.stop-btn{display:none;color:#fff;background:#8c3b2a;border:0;border-radius:8px;padding:8px 12px;cursor:pointer}
+.stop-btn.visible{display:inline-flex}
+.speech-status{min-height:1.4em;font-size:.82rem;opacity:.88}
+.lang-switch{display:inline-flex;gap:6px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.28);border-radius:99px;padding:4px}
+.lang-switch a{display:inline-block;padding:4px 13px;border-radius:99px;font-size:.8rem;font-weight:700;text-decoration:none;color:rgba(255,255,255,.75)}
+.lang-switch a.active{background:#fff;color:var(--teal-800)}
+.narration-player{margin-top:16px;padding:14px 18px;background:rgba(255,255,255,.1);border-radius:12px;border:1px solid rgba(255,255,255,.15)}
+.audio-label{color:rgba(255,255,255,.88);font-size:.82rem;font-weight:700;margin:0 0 8px}
+.page{width:min(1440px,100%);margin:auto;padding:28px clamp(16px,3vw,44px) 64px;display:grid;grid-template-columns:minmax(230px,280px) minmax(0,1fr);gap:30px;align-items:start}
+.sidebar{position:sticky;top:20px;min-width:0}
+.sidebar-box{background:rgba(255,255,255,.8);border:1px solid var(--line);border-radius:16px;padding:17px;box-shadow:var(--shadow);backdrop-filter:blur(12px)}
+.sidebar h2{margin:0 0 13px;font-size:.9rem;letter-spacing:.08em;color:var(--teal-800)}
+.map-link{display:grid;grid-template-columns:34px minmax(0,1fr);gap:9px;padding:10px 6px;text-decoration:none;border-top:1px solid var(--line)}
+.map-link:hover b{color:var(--teal-700)}
+.map-id{width:30px;height:30px;display:grid;place-items:center;border-radius:9px;color:#fff;background:var(--teal-700);font-size:.72rem;font-weight:800}
+.map-link b{display:block;font-size:.78rem;line-height:1.4}
+.map-link small{display:block;color:var(--muted);font-size:.67rem;line-height:1.4;margin-top:2px;overflow-wrap:anywhere}
+.content{min-width:0}
+.scene-card{background:var(--paper);border:1px solid var(--line);border-radius:20px;padding:clamp(20px,3vw,34px);margin-bottom:24px;box-shadow:var(--shadow);overflow:hidden}
+.scene-topline{display:flex;justify-content:space-between;gap:16px;align-items:center;margin-bottom:16px}
+.scene-id{display:inline-grid;place-items:center;min-width:42px;height:30px;padding:0 10px;color:#fff;background:var(--teal-700);border-radius:8px;font-size:.78rem;font-weight:850}
+.time{margin-left:10px;color:var(--muted);font-size:.82rem;font-variant-numeric:tabular-nums}
+.scene-card h2{margin:0 0 2px;font-size:clamp(1.35rem,2.4vw,2rem);line-height:1.25;color:var(--teal-950)}
+.scene-title-en{margin:0 0 18px;color:var(--teal-600);font-weight:700;font-size:.98rem}
+.context{margin:0 0 20px;padding:12px 15px;color:#496566;background:var(--mint-50);border-left:3px solid var(--teal-600);border-radius:0 10px 10px 0;font-size:.88rem}
+.context b{margin-right:10px;color:var(--teal-800)}
+.sentence-list{display:grid;gap:12px}
+.sentence{position:relative;display:grid;grid-template-columns:38px minmax(0,1fr);gap:12px;padding:16px;border:1px solid #e2ece8;border-radius:14px;background:#fcfefd;min-width:0}
+.sentence-no{color:var(--teal-600);font-size:.76rem;font-weight:850;font-variant-numeric:tabular-nums;padding-top:4px}
+.bilingual{min-width:0;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(14px,2vw,28px)}
+.lang-block{min-width:0}
+.lang-block p{margin:5px 0 0;overflow-wrap:anywhere}
+.en-block{padding-left:clamp(14px,2vw,28px);border-left:1px solid var(--line)}
+.en-block p{color:#0b5c60;font-weight:650}
+.lang-tag{display:inline-block;color:var(--muted);font-size:.66rem;font-weight:850;letter-spacing:.12em}
+.en-head{display:flex;justify-content:space-between;gap:10px;align-items:center;min-height:30px}
+.note{grid-column:2;margin:1px 0 0;color:#708182;font-size:.78rem}
+.note span{margin-right:7px;color:var(--amber);font-weight:750}
+.speak-btn{display:inline-flex;align-items:center;gap:7px;border:1px solid #b8d9d1;border-radius:9px;padding:7px 11px;color:var(--teal-800);background:#f5fbf8;cursor:pointer;white-space:nowrap;font-size:.78rem;font-weight:750;transition:.15s ease}
+.speak-btn:hover{color:#fff;background:var(--teal-700);border-color:var(--teal-700);transform:translateY(-1px)}
+.speak-btn.playing{color:#fff;background:var(--teal-700);border-color:var(--teal-700)}
+.speak-btn.compact{padding:4px 8px;font-size:.7rem}
+.speak-btn.icon-only{padding:3px 7px;margin-left:6px}
+.speak-btn.icon-only span:last-child{display:none}
+.pronounce-word{display:inline;margin:0;padding:0 2px;color:inherit;background:rgba(20,145,155,.08);border:0;border-bottom:1px dashed var(--teal-600);border-radius:3px;font:inherit;font-weight:inherit;line-height:inherit;cursor:pointer}
+.pronounce-word:hover,.pronounce-word:focus{color:var(--teal-950);background:#cceee4;border-bottom-style:solid;outline:3px solid rgba(20,145,155,.42);outline-offset:2px}
+.pronounce-word.playing{color:#fff;background:var(--teal-700);border-bottom-color:var(--teal-700)}
+.paraphrase{margin-top:18px;border-top:1px solid var(--line)}
+.paraphrase summary{padding:16px 0 3px;color:var(--teal-800);cursor:pointer;font-weight:800}
+.paraphrase summary span{color:var(--muted);font-size:.75rem;font-weight:500;margin-left:8px}
+.paraphrase ol{margin:12px 0 0;padding-left:22px}
+.paraphrase li{padding:7px 0 9px 5px}
+.paraphrase li p{margin:0;font-size:.9rem;font-weight:650}
+.paraphrase li small{display:block;color:var(--muted);font-size:.72rem;margin-top:2px}
+.chunks{margin-top:4px;color:var(--teal-700);font-size:.78rem}
+.study-section{margin:38px 0 0}
+.section-heading{display:flex;align-items:baseline;gap:10px;margin:0 0 15px;color:var(--teal-950);font-size:1.35rem}
+.section-heading small{color:var(--teal-600);font-size:.78rem;letter-spacing:.05em}
+.study-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.study-grid article{padding:17px;background:#fff;border:1px solid var(--line);border-radius:14px;box-shadow:0 6px 18px rgba(7,63,66,.05);min-width:0}
+.study-grid p{margin:0}
+.practice-en{margin-top:9px;color:var(--teal-700);font-weight:650;overflow-wrap:anywhere}
+.wrong{color:#a24831;text-decoration:line-through;overflow-wrap:anywhere}
+.right{color:var(--teal-700);font-weight:750;margin:5px 0;overflow-wrap:anywhere}
+.pitfalls p{color:var(--muted);font-size:.82rem}
+.shifts article{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1.5fr);gap:12px;align-items:center}
+.shifts b{color:var(--teal-600);font-size:1.2rem}
+.shifts strong{color:var(--teal-800)}
+footer{margin-top:38px;color:var(--muted);font-size:.78rem;text-align:center}
+.footer-note{margin-top:6px}
+@media (max-width:900px){
+  .page{grid-template-columns:1fr}
+  .sidebar{position:static}
+  .sidebar-box{overflow-x:auto;padding:12px}
+  .sidebar h2{padding-left:5px}
+  .map-nav{display:flex;width:max-content;gap:8px}
+  .map-link{width:240px;border:1px solid var(--line);border-radius:10px;padding:8px}
+  .bilingual{grid-template-columns:1fr}
+  .en-block{padding:12px 0 0;border-left:0;border-top:1px dashed var(--line)}
+}
+@media (max-width:620px){
+  .hero-inner{padding-top:30px}
+  .hero-flex{flex-direction:column;align-items:center}
+  .hero-cover{width:100%;max-width:360px}
+  .hero-text{text-align:center}
+  .page{padding-inline:10px;gap:18px}
+  .scene-card{border-radius:14px;padding:17px 13px}
+  .scene-topline{align-items:flex-start}
+  .scene-speak span:last-child{display:none}
+  .sentence{grid-template-columns:26px minmax(0,1fr);padding:13px 10px;gap:6px}
+  .note{grid-column:2}
+  .study-grid{grid-template-columns:1fr}
+  .shifts article{grid-template-columns:1fr;gap:5px}
+  .shifts b{transform:rotate(90deg);justify-self:start}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.speak-btn{transition:none}}</style>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="hero-flex">
+        <div class="hero-text">
+          <p class="eyebrow">Photography &amp; Art · 摄影与艺术</p>
+          <h1>我们的创作就是共同的反抗｜去罗马</h1>
+          <p class="hero-en">Our Creation Is Our Shared Resistance | Going to Rome</p>
+          <p class="summary-en" style="margin:0 0 14px;padding:14px 16px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.22);border-radius:12px;font-size:.95rem;line-height:1.7">Huanxingdi interviews photographer Qu Luoma. From moldy film rolls to 'dirty' black-and-white images, from the paralysis of county-town life to turning the lens on himself, and on to the power boundaries with his model and partner Mazi — his photography isn't about chasing perfection. In an age of standardization, where phones define the 'correct' skin tone and AI generates flawless images, he uses imperfect truth as a shared act of resistance, showing that the real 'Rome' may already be right here.</p>
+          <div class="hero-meta">
+            <span class="chip">2026-07-23</span>
+            <span class="chip">小宇宙FM</span>
+            <span class="chip">1小时36分</span>
+            <span class="chip">6 Scenes</span>
+            <span class="chip">Click underlined words to hear them</span>
+            <a class="source-link" href="https://www.xiaoyuzhoufm.com/episode/6a5c7053a3fec224d59fd201" target="_blank" rel="noopener">原播客 ↗</a>
+          </div>
+        </div>
+      </div>
+      <div class="toolbar">
+        <div class="lang-switch"><div class="lang-switch"><a href="huanxingdi_rome_resist-总结.html">中文</a><a class="active" href="huanxingdi_rome_resist-en.html" aria-current="page">EN</a></div></div>
+        <label for="speech-rate">朗读速度</label>
+        <select id="speech-rate">
+          <option value="0.85">慢速 0.85×</option>
+          <option value="1" selected>正常 1×</option>
+          <option value="1.15">快速 1.15×</option>
+        </select>
+        <button id="stop-speech" class="stop-btn" type="button">■ 停止朗读</button>
+        <span id="speech-status" class="speech-status" role="status" aria-live="polite"></span>
+      </div>
+      <div class="narration-player">
+      <p class="audio-label">🎧 中文语音讲解</p>
+      <button class="speak-btn" type="button" data-audio="audio/huanxingdi_rome_resist.mp3" aria-label="播放语音讲解"><span aria-hidden="true">▶</span><span>播放语音讲解</span></button>
+    </div>
+    </div>
+  </header>
+  <main class="page">
+    <aside class="sidebar" aria-label="场景地图">
+      <div class="sidebar-box">
+        <h2>场景地图 · SCENE MAP</h2>
+        <nav class="map-nav">
+          <a class="map-link" href="#s1">
+          <span class="map-id">S1</span>
+          <span><b>一、摄影改变命运：先看见自己，再被他人看见</b><small> · Photography Changes a Life: See Yourself First, Then Be Seen</small></span>
+        </a>
+<a class="map-link" href="#s2">
+          <span class="map-id">S2</span>
+          <span><b>二、风格偶然论：没钱、发霉与「没得选」</b><small> · Style by Accident: No Money, Mold, and No Options</small></span>
+        </a>
+<a class="map-link" href="#s3">
+          <span class="map-id">S3</span>
+          <span><b>三、「脏」的美学：在完美时代拥抱瑕疵</b><small> · The Aesthetic of 'Dirty': Embracing Imperfection in an Age of Polish</small></span>
+        </a>
+<a class="map-link" href="#s4">
+          <span class="map-id">S4</span>
+          <span><b>四、县城停滞与镜头转向自我</b><small> · County-Town Stagnation and Turning the Lens Inward</small></span>
+        </a>
+<a class="map-link" href="#s5">
+          <span class="map-id">S5</span>
+          <span><b>五、摄影权力：马子、同意与亲密边界</b><small> · Photographic Power: Mazi, Consent, and Intimate Boundaries</small></span>
+        </a>
+<a class="map-link" href="#s6">
+          <span class="map-id">S6</span>
+          <span><b>六、去罗马：目的地还是已在路上？</b><small> · Going to Rome: A Destination, or Already On the Road?</small></span>
+        </a>
+        </nav>
+      </div>
+    </aside>
+    <div class="content">
+      <section class="scene-card" id="s1" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S1</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/huanxingdi_rome_resist/s1.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>一、摄影改变命运：先看见自己，再被他人看见</h2>
+      <p class="scene-title-en">Photography Changes a Life: See Yourself First, Then Be Seen</p>
+      <p class="context"><b>情境</b>加入环行地后从「没被看到」到被陪伴，镜头先看见自己。语域：casual 对谈 + 个人成长。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：去罗马2024年5月加入环行地，此前有「没被看到」的感受；社区让他持续分享，摄影成为被看见与被陪伴的通道</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/huanxingdi_rome_resist/s1-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Qu Luoma joined Huanxingdi in May 2024, after years of feeling unseen. The community pushed him to keep sharing, and photography became a channel to be seen and accompanied.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>unseen → 没被看到；community → 社区；keep sharing → 持续分享；channel → 通道</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：摄影的改变不是先获得技术，而是先通过镜头看见自己——遣怀、记忆归属、自我认同，然后才希望他人感受到同样的东西</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/huanxingdi_rome_resist/s1-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key insight: photography didn't change him by teaching technique first — he first learned to see himself through the lens, to release feelings, anchor memory, and find identity, and only then hoped others would feel the same.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>anchor memory → 记忆归属；release feelings → 遣怀；find identity → 自我认同</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>典型场景：小众社区中持续更新的创作者，与「加入后遗忘」的大多数形成对比</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/huanxingdi_rome_resist/s1-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">A typical scene: the creators who keep posting in a niche community, in contrast to the majority who join and are then forgotten.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>niche community → 小众社区；keep posting → 持续更新；in contrast to → 与…形成对比</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据：「在那之前我会觉得自己比较没有被看到……摄影对我们的改变可能更多的是先让自己变得合一」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/huanxingdi_rome_resist/s1-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Direct quote: 'Before that, I felt like I wasn't really seen... photography's change for us is more about becoming whole with ourselves first.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>become whole → 变得合一；feel unseen → 觉得自己没被看到</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）相关概念：与主持人「发朋友圈也是相互陪伴」的动机相通，表达与被看见是基本人性需求</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/huanxingdi_rome_resist/s1-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Related concept: it matches the host's point that posting on social media is also mutual companionship — expression and being seen are basic human needs.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>mutual companionship → 相互陪伴；basic human need → 基本人性需求</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>摄影与音乐本质都是表达；朋友英宁拍十二年书后转做乐队吉他手，说明形式可切换，目的不变</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/huanxingdi_rome_resist/s1-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Photography and music are both expression at heart. Their friend Yingning shot books for twelve years, then switched to being a band guitarist — the form can change, but the purpose stays.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>at heart → 本质上；switch → 转换；the form can change → 形式可切换</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「先看见自己，再被看见」</p><div class="chunks">see yourself first · the lens turned inward</div><small>第一句直接，第二句意象化</small></li>
+<li><p>想说「表达是被看见的基本需求」</p><div class="chunks">basic human needs · existence acknowledged</div><small>第二句更偏哲理</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s2" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S2</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/huanxingdi_rome_resist/s2.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>二、风格偶然论：没钱、发霉与「没得选」</h2>
+      <p class="scene-title-en">Style by Accident: No Money, Mold, and No Options</p>
+      <p class="context"><b>情境</b>风格往往是条件限制的产物，不是理性规划。语域：casual 对谈 + 艺术观点。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：早期黑白源于别人不要的练手卷、相机镜头发霉；霉斑意外好看，奠定了后来的审美方向</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/huanxingdi_rome_resist/s2-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The core mechanism: his early black-and-white work came from practice rolls nobody wanted and a moldy lens. The mold spots turned out to look good by accident, and they set the direction of his later aesthetic.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>practice roll → 练手卷；moldy lens → 发霉的镜头；aesthetic → 审美方向</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：深濑昌久拍虚的乌鸦、森山大道的快照、威廉·艾格斯顿的彩色革命，都是条件限制下的结果，不是理性规划</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/huanxingdi_rome_resist/s2-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key insight: Fukase's blurry crows, Moriyama's snapshots, and Eggleston's color revolution were all results of constraints, not rational planning.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>blurry → 虚的；snapshot → 快照；color revolution → 彩色革命；constraint → 条件限制</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>典型场景：爱好者纠结「我该学什么风格」，但经典风格往往是歪打正着</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/huanxingdi_rome_resist/s2-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">A typical scene: hobbyists agonize over which style to learn, but the classic styles were often accidental hits.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>agonize over → 纠结；accidental hit → 歪打正着</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据：「很多人的风格其实是来自什么——没钱……甚至不会调色……反而成就了他的某种风格」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/huanxingdi_rome_resist/s2-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Direct quote: 'Many people's styles actually come from... being broke... even not knowing how to color-grade... and that ironically made their style.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>being broke → 没钱；color-grade → 调色；ironically → 反而</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>原因：社会营销教你该学某种风格（胶片缝、某种调色），让普通爱好者陷入选择焦虑</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/huanxingdi_rome_resist/s2-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The cause: social marketing teaches you that you should adopt some style — film simulation, a certain grade — and plunges ordinary hobbyists into choice anxiety.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>film simulation → 胶片模拟；choice anxiety → 选择焦虑；plunge into → 陷入</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>解法：接受风格是自然发生的，不必强行对标大师；你的限制可能就是你的签名</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/huanxingdi_rome_resist/s2-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The fix: accept that style happens naturally — don't force yourself to match the masters. Your limitations might just be your signature.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>match the masters → 对标大师；your signature → 你的签名</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「风格是歪打正着」</p><div class="chunks">an accident turned identity · constraints became the signature</div><small>第二句更凝练</small></li>
+<li><p>想说「限制可能是签名」</p><div class="chunks">limit defines you · flaw is your fingerprint</div><small>第二句更诗意</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s3" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S3</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/huanxingdi_rome_resist/s3.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>三、「脏」的美学：在完美时代拥抱瑕疵</h2>
+      <p class="scene-title-en">The Aesthetic of 'Dirty': Embracing Imperfection in an Age of Polish</p>
+      <p class="context"><b>情境</b>不完美时代的「脏」美学——工业标准定义「正确」，AI 产出完美。语域：casual 对谈 + 美学讨论。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>去罗马自认不完美、有缺陷，因此自然被粗糙、颗粒感、模糊影像吸引——就像烂掉的苹果仍有果蝇愿意停留</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/huanxingdi_rome_resist/s3-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Qu Luoma admits he's imperfect and flawed, so he's naturally drawn to roughness, grain, and blur — just like a rotten apple still has fruit flies willing to land on it.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>grain → 颗粒感；flawed → 有缺陷；fruit fly → 果蝇</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）「就像一个苹果它如果烂掉的话，那它也还是会有果蝇会想要去吃它。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/huanxingdi_rome_resist/s3-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Direct quote: 'It's like an apple — if it's rotten, there are still fruit flies that want to eat it.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>rotten → 烂掉；fruit fly → 果蝇</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：手机拍照越来越强，实质是定义「正确肤色」「正确蓝天」的工业标准；AI进一步产出完美无瑕内容，让人逃离真实</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/huanxingdi_rome_resist/s3-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The core mechanism: as phone cameras get more powerful, they're really defining industrial standards for the 'correct skin tone' and 'correct blue sky.' AI takes it further, producing flawless content that lets people escape reality.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>industrial standard → 工业标准；correct skin tone → 正确肤色；flawless → 完美无瑕</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：「脏」不是贬义——丝胶、虚胶、不满意的调色，恰是真实现状的映射；强行磨掉脏，反而失真</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/huanxingdi_rome_resist/s3-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key insight: 'dirty' isn't a put-down — the grain, the blur, the unsatisfying grade are exactly a map of reality. Forcing the dirt away makes the picture less true.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>put-down → 贬义；a map of reality → 真实现状的映射；less true → 失真</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>适用边界：为反而反消费主义仍是陷阱；感性选择不必理性辩护，但需警惕表演性叛逆</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/huanxingdi_rome_resist/s3-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The boundary: rebelling against consumerism for its own sake is still a trap. You don't have to rationally justify an emotional choice, but watch out for performative rebellion.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>for its own sake → 为反而反；performative rebellion → 表演性叛逆；justify → 辩护</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据：「脏就是一直在存在的……这些脏的东西它才是真实的东西」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/huanxingdi_rome_resist/s3-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Direct quote: 'The dirty is always there... the dirty things are the real things.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>the dirty is always there → 脏一直存在；the real things → 真实的东西</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「完美是工业标准，脏才是真实」</p><div class="chunks">manufactured perfection · grit is real</div><small>第二句简洁</small></li>
+<li><p>想说「为反而反也是陷阱」</p><div class="chunks">rebel just to rebel · its own pose</div><small>第二句点出表演性</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s4" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S4</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/huanxingdi_rome_resist/s4.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>四、县城停滞与镜头转向自我</h2>
+      <p class="scene-title-en">County-Town Stagnation and Turning the Lens Inward</p>
+      <p class="context"><b>情境</b>县城停滞状态与 2024 年镜头转向自我，以及创作者的暂停恐慌。语域：casual 对谈 + 自我反思。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：去罗马未刻意拍县城文学，但老家是县城、题材碰巧契合；核心是「停滞状态」——停在80/90年代，与当下脱节的无力感</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/huanxingdi_rome_resist/s4-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The core mechanism: Qu Luoma never set out to shoot 'county-town literature,' but his hometown is a county town, so the subject fit by chance. The core is a state of stagnation — frozen in the eighties and nineties, that powerless feeling of being out of sync with now.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>county town → 县城；stagnation → 停滞状态；out of sync with → 与…脱节</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：时代难以向往未来，只能往回看（复古、千禧年）；2024年身体变化（失眠、闷、虚无）促使镜头从外部世界转向自我</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/huanxingdi_rome_resist/s4-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key insight: when the times make it hard to long for the future, you look backward — retro, Y2K. In 2024, bodily changes, insomnia, suffocation, and a sense of nothingness pushed his lens from the outer world to himself.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>long for the future → 向往未来；insomnia → 失眠；nothingness → 虚无；turn inward → 转向自我</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>典型场景：废墟、工地、无人处——没有身份与规则的地方，本身就是一种表达</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/huanxingdi_rome_resist/s4-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">A typical scene: ruins, construction sites, empty places — where there are no identities or rules, the place itself is an expression.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>ruins → 废墟；construction site → 工地；empty place → 无人处</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据：「去年开始把镜头从别人转向了自己……好像有点不知道我现在在干嘛」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/huanxingdi_rome_resist/s4-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Direct quote: 'Last year I started turning the lens from others to myself... it's like I don't really know what I'm doing right now.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>turn the lens from others to myself → 把镜头从别人转向自己</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>原因：创作者常因暂停而恐慌，觉得「失去了表达」或「亏了」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/huanxingdi_rome_resist/s4-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The cause: creators often panic during a pause, feeling they've 'lost expression' or that they're 'losing out.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>panic → 恐慌；lose out → 亏了；pause → 暂停</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>解法：表达可随时进行（连线、写作、生活本身）；痛苦也重要，不必强行榨取创作</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/huanxingdi_rome_resist/s4-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The fix: expression can happen anytime — a phone call, writing, life itself. Pain matters too; you don't have to force creativity out of yourself.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>force creativity out → 强行榨取创作；life itself → 生活本身</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「时代让人只能往回看」</p><div class="chunks">nostalgia fills the gap · retreat to the past</div><small>第二句更直白</small></li>
+<li><p>想说「暂停不丢人，不必强行创作」</p><div class="chunks">creativity isn't a quota · constant output</div><small>第二句很有安慰感</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s5" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S5</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/huanxingdi_rome_resist/s5.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>五、摄影权力：马子、同意与亲密边界</h2>
+      <p class="scene-title-en">Photographic Power: Mazi, Consent, and Intimate Boundaries</p>
+      <p class="context"><b>情境</b>摄影师与模特之间的权力不对等，以及亲密关系中的隐蔽暴力。语域：casual 对谈 + 权力反思。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：摄影师持机即拥有叙述权；被拍者暴露自己，权力不对等。亲密关系中这种暴力最隐蔽——荒木经惟、深濑昌久拍洋子、彩花信代等案例皆如此</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/huanxingdi_rome_resist/s5-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The core mechanism: holding the camera means holding the power to narrate. The subject exposes themselves; the power is unequal. In intimate relationships this violence is most hidden — think of Araki, Fukase photographing Yoko, and similar cases.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>the power to narrate → 叙述权；power imbalance → 权力不对等；intimate relationship → 亲密关系</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：危险不在于拥有权力，而在于忘记自己拥有权力</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/huanxingdi_rome_resist/s5-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key insight: the danger isn't having power — it's forgetting that you have it.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>the danger isn't having power → 危险不在于拥有权力；forget you have it → 忘记自己拥有权力</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据：「不是权利本身的问题，而是摄影师忘记了自己拥有这样的权利的时候，才最可怕」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/huanxingdi_rome_resist/s5-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Direct quote: 'It's not the power itself that's the problem — it's when the photographer forgets he has it that it gets truly frightening.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>the power itself → 权力本身；truly frightening → 最可怕</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>拍两年商业婚礼后，条件反射用商业话术指导马子摆姿，马子觉得「不是女朋友而是客人」，拍摄终止并争吵。去罗马事后承认这是「暴力」，早期不自知</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/huanxingdi_rome_resist/s5-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">After two years of commercial wedding shoots, he reflexively used sales-pitch directions to pose Mazi. Mazi felt like 'not a girlfriend but a client,' and the shoot ended in an argument. Qu Luoma later admitted this was a kind of violence he hadn't recognized early on.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>sales-pitch direction → 商业话术指导；reflexively → 条件反射；admit → 承认</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）「我就觉得很舒服……我觉得我不是他的女朋友了，好像是一个客人跟一个婚礼摄影师的感觉。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/huanxingdi_rome_resist/s5-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Direct quote: 'It felt really off... I felt like I wasn't his girlfriend anymore, more like a client with a wedding photographer.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>felt really off → 很不舒服；a client with a photographer → 客人与摄影师</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>马子对去罗马是希腊神话中的 Muse——灵感女神，给予启发与陪伴的共同成长，而非物化凝视。两人相互创作，马子本身也有极强表达力</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/huanxingdi_rome_resist/s5-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">For Qu Luoma, Mazi is the Muse of Greek myth — a source of inspiration, accompanying shared growth, not an objectifying gaze. The two create for each other, and Mazi herself is a powerful voice.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>Muse → 缪斯（灵感女神）；objectifying gaze → 物化凝视；shared growth → 共同成长</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「危险的是忘记自己拥有权力」</p><div class="chunks">forget the power you hold · power becomes violence</div><small>第二句更警句化</small></li>
+<li><p>想说「拍摄让女朋友觉得像客户」</p><div class="chunks">client not a partner · a transaction</div><small>第二句点出根源</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s6" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S6</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/huanxingdi_rome_resist/s6.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>六、去罗马：目的地还是已在路上？</h2>
+      <p class="scene-title-en">Going to Rome: A Destination, or Already On the Road?</p>
+      <p class="context"><b>情境</b>「条条大路通罗马」的隐喻——罗马是终点还是当下，以及作品与反思的收尾。语域：casual 对谈 + 哲理收尾。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>为什么重要：「条条大路通罗马」常被引用却少人追问罗马是什么；摄影追求的真爱与真，或许不在远方终点，而在相互陪伴的当下</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/huanxingdi_rome_resist/s6-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Why it matters: 'All roads lead to Rome' is quoted constantly, but few ask what Rome actually is. The genuine love and truth photography pursues may not be a distant destination but the present moment of mutual companionship.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>all roads lead to Rome → 条条大路通罗马；mutual companionship → 相互陪伴；distant destination → 远方终点</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>适用边界：去罗马希望被记住的是照片（电子永生），而非人设魅力——表达凝结在影像中</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/huanxingdi_rome_resist/s6-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The boundary: Qu Luoma wants to be remembered by his photographs, a kind of digital immortality, not by his persona's charm — the expression lives on in the images.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>digital immortality → 电子永生；persona → 人设；live on in → 凝结在…中</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）「我可能已经到了罗马了，但是我可能就是看不到，这就是在罗马。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/huanxingdi_rome_resist/s6-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Direct quote: 'I may have already reached Rome, but I just can't see it — and that's what being in Rome is.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>reached Rome → 到了罗马；can't see it → 看不到</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）怎么落地：从漳州搬到宁波只是「离开」，未必有明确目的地；人生可能一直在路上，到达也可能失望</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/huanxingdi_rome_resist/s6-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">How to make it real: moving from Zhangzhou to Ningbo was just 'leaving' — not necessarily heading somewhere. Life may be a permanent road, and arrival may disappoint.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>just leaving → 只是离开；a permanent road → 一直在路上；arrival may disappoint → 到达也可能失望</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>主持人：深濑昌久才华毋庸置疑，但洋子的感受被忽视；欣赏作品时需带怀疑与思辨，不能一股脑说好</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/huanxingdi_rome_resist/s6-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The host: Fukase's talent is beyond doubt, but Yoko's feelings were ignored. When you appreciate such work, bring doubt and critical thinking — don't just cheer everything.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>critical thinking → 思辨；beyond doubt → 毋庸置疑；cheer everything → 一股脑说好</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>嘉宾：认同需要反思权力，承认自己并非完全清白，但意识本身是第一步</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/huanxingdi_rome_resist/s6-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The guest agrees: we need to reflect on power and admit we're not entirely innocent — but awareness itself is the first step.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>reflect on power → 反思权力；entirely innocent → 完全清白；awareness is the first step → 意识是第一步</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「可能已经在罗马却看不见」</p><div class="chunks">here all along · the moment you're in</div><small>第二句更哲理</small></li>
+<li><p>想说「欣赏作品也要带思辨」</p><div class="chunks">admire the work, question the maker · ugly power</div><small>第一句是很好的态度总结</small></li>
+        </ol>
+      </details>
+    </section>
+      <section class="study-section" id="practice">
+      <h2 class="section-heading">今日可练 <small>PRACTICE TODAY</small></h2>
+      <div class="study-grid">
+        <article>
+          <p>用「feel unseen」说：加入社区之前他觉得自己没被看到。</p>
+          <div class="practice-en">
+            Before joining the community, he felt unseen.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/huanxingdi_rome_resist/practice-0.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「accidental hit」说：他的风格是歪打正着。</p>
+          <div class="practice-en">
+            His style was an accidental hit born from constraints.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/huanxingdi_rome_resist/practice-1.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「forget you have it」说：危险在于忘记自己拥有权力。</p>
+          <div class="practice-en">
+            The danger is forgetting the power you hold.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/huanxingdi_rome_resist/practice-2.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「all roads lead to Rome」说：条条大路通罗马，但很少有人追问罗马是什么。</p>
+          <div class="practice-en">
+            All roads lead to Rome, yet few people ask what Rome actually is.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/huanxingdi_rome_resist/practice-3.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article>
+      </div>
+    </section>
+      <section class="study-section pitfalls" id="pitfalls">
+      <h2 class="section-heading">避坑 <small>PITFALLS</small></h2>
+      <div class="study-grid">
+        <article>
+          <div class="wrong">✕ My photography makes me be seen by others.</div>
+          <div class="right">✓ Photography became a way for me to be seen and accompanied.</div>
+          <p>make me be seen 语法生硬；became a way to be seen 更自然，且补上 accompanied 这个陪伴维度。</p>
+        </article><article>
+          <div class="wrong">✕ His style came from no money and moldy lens.</div>
+          <div class="right">✓ His style grew out of being broke and shooting with a moldy lens.</div>
+          <p>came from 搭配太裸；grow out of 表达「从…长出来」更地道。</p>
+        </article><article>
+          <div class="wrong">✕ The dirty things are the truth of life.</div>
+          <div class="right">✓ The dirty things are what's real — forcing the flaws away makes it less true.</div>
+          <p>truth of life 太空泛；补上「磨掉脏反而失真」才完整表达原意。</p>
+        </article><article>
+          <div class="wrong">✕ The photographer had power, so he was bad.</div>
+          <div class="right">✓ Holding the camera isn't the problem — forgetting your power is.</div>
+          <p>原文不是「有权力=坏」，而是「忘记自己有权力」才危险；直接否定会丢失观点。</p>
+        </article>
+      </div>
+    </section>
+      <section class="study-section shifts" id="mindset">
+      <h2 class="section-heading">认知转变 <small>MINDSET SHIFTS</small></h2>
+      <div class="study-grid">
+        <article>
+          <span>以为摄影要先学技术、追风格</span>
+          <b aria-hidden="true">→</b>
+          <strong>先通过镜头看见自己，风格是限制的副产品</strong>
+        </article><article>
+          <span>以为完美才是好照片</span>
+          <b aria-hidden="true">→</b>
+          <strong>「脏」才是真实——工业标准定义的完美反而失真</strong>
+        </article><article>
+          <span>以为持相机就是掌控者</span>
+          <b aria-hidden="true">→</b>
+          <strong>镜头是权力：忘记自己拥有权力，才是最危险的事</strong>
+        </article>
+      </div>
+    </section>
+      <footer>
+        双语学习版 · 场景/句子朗读使用 edge-tts（en-US） · 单词发音使用浏览器 Web Speech API
+        <div class="footer-note">中文版：<a href="huanxingdi_rome_resist-总结.html">huanxingdi_rome_resist-总结.html</a> · SVG 版：<a href="viewer.html?f=huanxingdi_rome_resist-总结.svg" target="_blank">huanxingdi_rome_resist-总结.svg</a></div>
+      </footer>
+    </div>
+  </main>
+  <script>(() => {
+  let activeAudio = null;
+  let activeBtn = null;
+  const status = document.getElementById('speech-status');
+  const stopBtn = document.getElementById('stop-speech');
+  const rateSel = document.getElementById('speech-rate');
+
+  const reset = () => {
+    if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+    activeBtn?.classList.remove('playing');
+    activeBtn = null;
+    stopBtn.classList.remove('visible');
+    status.textContent = '';
+  };
+
+  const playAudio = (url, btn) => {
+    reset();
+    const audio = new Audio(url);
+    audio.playbackRate = Number(rateSel.value);
+    activeAudio = audio;
+    activeBtn = btn;
+    btn.classList.add('playing');
+    stopBtn.classList.add('visible');
+    status.textContent = btn.classList.contains('scene-speak')
+      ? 'Reading the whole scene…'
+      : 'Reading…';
+
+    audio.onended = () => { if (activeAudio === audio) reset(); };
+    audio.onerror = () => { status.textContent = 'Audio failed to load.'; if (activeAudio === audio) reset(); };
+    audio.play().catch(() => { status.textContent = 'Playback failed.'; if (activeAudio === audio) reset(); });
+  };
+
+  document.addEventListener('click', e => {
+    const btn = e.target.closest('[data-audio]');
+    if (!btn) return;
+    e.preventDefault();
+    if (btn === activeBtn && activeAudio) { reset(); return; }
+    playAudio(btn.dataset.audio, btn);
+  });
+
+  stopBtn.addEventListener('click', reset);
+
+  const synth = window.speechSynthesis;
+  const getEnglishVoice = () => {
+    const voices = synth.getVoices();
+    return voices.find(v => /^en-(US|GB)/i.test(v.lang))
+        || voices.find(v => /^en/i.test(v.lang)) || null;
+  };
+
+  const difficultWords = new Set([
+    'assortment', 'SKU', 'premium', 'margin', 'middleman', 'OEM', 'rebranding',
+    'hoarding', 'PTSD', 'curation', 'repurchase', 'touchpoint', 'backlash',
+    'reshuffle', 'funnel', 'anchor', 'contract', 'psychology', 'private', 'label',
+    'editorial', 'familiar', 'competitors', 'authorization', 'flexibility'
+  ]);
+
+  const shouldPronounce = word => {
+    const n = word.toLowerCase().replace(/^[^a-z]+|[^a-z]+$/g, '');
+    return n.replace(/[^a-z]/g, '').length >= 8 || difficultWords.has(n);
+  };
+
+  const markPronounceableWords = root => {
+    const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+    const nodes = [];
+    while (walker.nextNode()) nodes.push(walker.currentNode);
+    nodes.forEach(node => {
+      if (node.parentElement?.closest('button, script, style')) return;
+      const text = node.nodeValue;
+      let m, last = 0, changed = false;
+      const frag = document.createDocumentFragment();
+      const re = /[A-Za-z]+(?:[-'’][A-Za-z]+)*/g;
+      while ((m = re.exec(text))) {
+        if (!shouldPronounce(m[0])) continue;
+        changed = true;
+        frag.append(text.slice(last, m.index));
+        const wb = document.createElement('button');
+        wb.type = 'button'; wb.className = 'pronounce-word';
+        wb.dataset.speak = m[0];
+        wb.setAttribute('aria-label', '\u8bfb\u5355\u8bcd ' + m[0]);
+        wb.title = '\u70b9\u51fb\u542c\u53d1\u97f3';
+        wb.textContent = m[0];
+        frag.append(wb);
+        last = m.index + m[0].length;
+      }
+      if (!changed) return;
+      frag.append(text.slice(last));
+      node.replaceWith(frag);
+    });
+  };
+
+  document.querySelectorAll(
+    '.english, .scene-title-en, .paraphrase li p, .chunks, .practice-en, .wrong, .right, .summary-en'
+  ).forEach(markPronounceableWords);
+
+  document.addEventListener('click', e => {
+    const wb = e.target.closest('.pronounce-word');
+    if (!wb) return;
+    e.preventDefault();
+    if (!synth) return;
+    synth.cancel();
+    if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+    activeBtn?.classList.remove('playing');
+    activeBtn = wb;
+    wb.classList.add('playing');
+    const u = new SpeechSynthesisUtterance(wb.dataset.speak);
+    u.lang = 'en-US';
+    u.rate = 0.88;
+    const v = getEnglishVoice();
+    if (v) u.voice = v;
+    u.onend = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+    u.onerror = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+    synth.speak(u);
+  });
+})();</script>
+</body>
+</html>

@@ -1,0 +1,365 @@
+{
+  "slug": "model_y_3year_loss_champion",
+  "date": "2026-06-23",
+  "platform": "小宇宙FM",
+  "title": "Model Y凭什么连赢三年，全球销冠背后没那么简单",
+  "title_en": "Why the Model Y Has Won for Three Straight Years: The Global Best-Seller Is More Than Meets the Eye",
+  "eyebrow": "Autos & Business · 汽车与商业",
+  "duration": "1小时14分",
+  "source_url": "https://www.xiaoyuzhoufm.com/episode/69d61071e2c8be3155aca11b",
+  "summary_cn": "一句话概括：三刀拆解特斯拉 Model Y 连续三年全球乘用车销冠、累计超 400 万辆背后的深层逻辑——不是产品力碾压卡罗拉，而是时代切换、透明定价、极致标准化与上海工厂产能叠加，让电动车首次且持续夺得全球销量王座",
+  "summary_en": "In one sentence: Sandao breaks down the deep logic behind Tesla Model Y winning the global passenger-car sales crown for three consecutive years and passing 4 million units — it's not that its product crushed the Corolla, but the era switch, transparent pricing, extreme standardization, and Shanghai Gigafactory capacity stacking up, letting an electric vehicle claim the global sales throne for the first time, and hold it.",
+  "scenes": [
+    {
+      "id": "s1",
+      "title_cn": "一、全球销冠数据与市场透视",
+      "title_en": "The Global Sales Data and Market View",
+      "context": "The Model Y is the world's best-selling passenger car — with no qualifiers. 语域：casual 数据点评。",
+      "speak": "The Model Y is the world's number-one passenger car with no qualifiers at all — no sedan-versus-SUV split, no gas-versus-EV-or-hybrid caveat. It took the crown in 2023 with 1.223 million units, then 1.185 million in 2024 and 1.07 million in 2025, for over 4 million total globally. This is the first time in EV history that an electric car took the global sales crown, and it hasn't given it up for three years. When you're judging an industry inflection point, you look at category switching, not single-model spec comparisons. Compared with the Corolla's 55 million cumulative units across 12 generations since 1966, the Model Y has 4 million in just four years — young, but the growth rate is astonishing.",
+      "sentences": [
+        {
+          "cn": "核心机制：Model Y 是不加任何定语的全球乘用车销量第一——不分轿车/SUV、不分燃油/纯电/插混。2023 年 122.3 万辆首夺冠军，2024 年 118.5 万、2025 年 107 万仍居榜首，累计全球超 400 万辆",
+          "en": "The Model Y is the world's number-one passenger car with no qualifiers — no sedan-versus-SUV split, no gas-versus-EV-or-hybrid caveat. It took the crown in 2023 with 1.223 million units, then 1.185 million in 2024 and 1.07 million in 2025, for over 4 million total globally.",
+          "note": "<span>表达提示</span>no qualifiers → 不加任何定语；passenger car → 乘用车；take the crown → 夺得冠军"
+        },
+        {
+          "cn": "关键理解：这是电动车史上首次夺得全球销量冠军，且连续三年未让位。燃油车在此趋势下「翻身」概率极低——历史这一页已翻篇",
+          "en": "The insight: this is the first time in EV history that an electric car took the global sales crown, and it hasn't given it up for three straight years. Under this trend, gas cars have almost no chance of 'turning the tide' — that page of history has turned.",
+          "note": "<span>表达提示</span>EV history → 电动车史；turn the tide → 翻身；that page has turned → 那一页翻过去了"
+        },
+        {
+          "cn": "典型场景：判断行业拐点时，看的是「品类切换」而非单一车型参数对比",
+          "en": "A typical case: when judging an industry inflection point, look at category switching — not single-model spec comparisons.",
+          "note": "<span>表达提示</span>industry inflection point → 行业拐点；category switching → 品类切换"
+        },
+        {
+          "cn": "（引用）原文依据：「电动车史上第一次夺得了全球销量的冠军，而且它一夺得之后它就不下来了，它就连续三年。」",
+          "en": "The original quote: 'For the first time in EV history it took the global sales crown — and once it took it, it never came down. Three years running.'",
+          "note": "<span>表达提示</span>three years running → 连续三年"
+        },
+        {
+          "cn": "（引用）相关概念：与卡罗拉 5500 万辆累计（1966 年至今 12 代）比，Model Y 才 4 年 400 万——年轻但增速惊人",
+          "en": "Related comparison: against the Corolla's 55 million cumulative units across 12 generations since 1966, the Model Y has 4 million in just four years — young, but the growth rate is astonishing.",
+          "note": "<span>表达提示</span>cumulative units → 累计销量；growth rate → 增速"
+        },
+        {
+          "cn": "统计口径是新车销量。海外成熟市场（欧美、澳日）二手车销量往往大于新车，但开惯了卡罗拉的人换车时倾向买更好的新车而非二手 Model Y。全球 70% 电车市场在中国，Model Y 中国销量约占全球四成到五成（约 100–200 万辆）",
+          "en": "The statistics count new-car sales. In mature overseas markets like Europe, America, Australia, and Japan, used-car sales often exceed new ones — but people who've driven a Corolla tend to buy a better new car, not a used Model Y. With 70 percent of the world's EV market in China, the Model Y's China sales account for roughly 40 to 50 percent of its global total, about 1 to 2 million units.",
+          "note": "<span>表达提示</span>new-car sales → 新车销量；used-car sales → 二手车销量；account for → 占…比例"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「不加任何定语的全球第一」",
+          "phrases": [
+            "It's number one with no qualifiers.",
+            "No segment, no fuel type — just the global crown."
+          ],
+          "chunks": "no qualifiers · no segment, no fuel type",
+          "usage": "no qualifiers 是简洁有力的点评表达"
+        },
+        {
+          "intent": "想说「历史这一页已经翻篇」",
+          "phrases": [
+            "That page of history has turned.",
+            "The era of gas cars leading sales is over."
+          ],
+          "chunks": "that page has turned · an era is over",
+          "usage": "that page has turned 是口语化比喻"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title_cn": "二、决策心理学：没心动但能行动",
+      "title_en": "Decision Psychology: It Doesn't Wow You, It Makes You Act",
+      "context": "Why Tesla's transparent pricing lowers decision friction instead of creating excitement peaks. 语域：casual 消费心理分析。",
+      "speak": "Tesla uses one fixed price, a minimal page, and no discriminatory add-ons — the base and top trims look nearly identical from outside, a 'bare-shell' strategy that removes the sting of feeling disrespected at the last step. Compare that with Porsche, where unpainted wheels in gray look cheap if you don't spend, and skipping the rear entertainment is a trap. Many car buyers are 'hollow' at the moment of decision — excited on the test drive, hesitant at signing. Tesla lowers decision friction; it doesn't manufacture a peak of excitement. It doesn't wow you, but it makes you act. Chinese EV makers, by contrast, do a major update plus feature-stacking every year, manufacturing FOMO. Tesla manufactures certainty.",
+      "sentences": [
+        {
+          "cn": "核心机制：特斯拉一口价、页面极简、选装不歧视——高低配外观几乎无差（「毛坯房」策略），避免临门一脚时「尊严被践踏」的憋屈感。对比保时捷轮毂标不花钱就是灰色、后排娱乐不选就是坑",
+          "en": "The mechanism: Tesla uses one fixed price, a minimal page, and no discriminatory add-ons — the base and top trims look nearly identical from outside, a 'bare-shell' strategy that removes the sting of feeling disrespected at the last step. Compare that with Porsche, where unpainted gray wheels look cheap if you don't pay, and skipping the rear entertainment is a trap.",
+          "note": "<span>表达提示</span>one fixed price → 一口价；bare-shell strategy → 毛坯房策略；discriminatory add-ons → 歧视性选装"
+        },
+        {
+          "cn": "关键理解：很多消费者买车是「虚」的——试乘兴奋但下单犹豫。特斯拉降低的是决策摩擦，不是制造心动峰值",
+          "en": "The insight: many car buyers are 'hollow' at the moment of decision — excited on the test drive, hesitant at signing. Tesla lowers decision friction; it doesn't manufacture a peak of excitement.",
+          "note": "<span>表达提示</span>test drive → 试乘试驾；decision friction → 决策摩擦；hesitant at signing → 下单时犹豫"
+        },
+        {
+          "cn": "典型场景：预算 25–30 万、不想研究配置矩阵、讨厌销售套路的首次购车者",
+          "en": "A typical case: first-time buyers with a 250,000-to-300,000 yuan budget who don't want to study the config matrix and hate sales tactics.",
+          "note": "<span>表达提示</span>budget → 预算；config matrix → 配置矩阵；sales tactics → 销售套路"
+        },
+        {
+          "cn": "（引用）原文依据：「它没有让你惊艳，但是它能让你行动。」",
+          "en": "The original quote: 'It doesn't wow you — but it makes you act.'",
+          "note": "<span>表达提示</span>doesn't wow you → 没让你惊艳；make you act → 让你行动"
+        },
+        {
+          "cn": "（引用）相关概念：与国产新能源「一年一大改+堆配置」形成鲜明对比——后者制造 FOMO，前者制造确定感",
+          "en": "Related contrast: Chinese EV makers do a major redesign plus feature-stacking every year, manufacturing FOMO — while Tesla manufactures certainty.",
+          "note": "<span>表达提示</span>feature-stacking → 堆配置；manufacture FOMO → 制造错失焦虑"
+        },
+        {
+          "cn": "原因：国产车企一年一明显变化，消费者习惯性「等明年更好」。但现金流充裕、确有换车需求时，等待机会成本极高",
+          "en": "The cause: domestic makers change noticeably every year, so consumers habitually 'wait for next year to be better.' But when your cash flow is strong and you genuinely need a new car, the cost of waiting is extremely high.",
+          "note": "<span>表达提示</span>wait for next year → 等明年；cost of waiting → 等待机会成本"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「没让你心动，但让你行动」",
+          "phrases": [
+            "It doesn't wow you — it makes you act.",
+            "No heart-flutter, just an easy yes."
+          ],
+          "chunks": "wow you vs make you act · an easy yes",
+          "usage": "wow/make you act 是本期金句，点评必备"
+        },
+        {
+          "intent": "想说「制造确定感 vs 制造 FOMO」",
+          "phrases": [
+            "They manufacture FOMO; Tesla manufactures certainty.",
+            "One sells the fear of missing out, the other sells peace of mind."
+          ],
+          "chunks": "manufacture FOMO · manufacture certainty · peace of mind",
+          "usage": "manufacture 作动词指「刻意制造」，很犀利"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title_cn": "三、产品哲学：卡罗拉时代 vs 特斯拉时代",
+      "title_en": "Product Philosophy: The Corolla Era vs. the Tesla Era",
+      "context": "Toyota's lean-production standard answer versus the Model Y's social currency. 语域：casual 对比分析。",
+      "speak": "Toyota's lean production means cheap, durable, fuel-efficient, and reliable. Behind 55 million Corollas sits a parts-verification standard that far exceeds the '100,000-kilometer test then launch' of new forces. The Corolla isn't just a car — it's a whole virtuous loop of manufacturing logic: good enough taste, bigger sales, lower cost, cheaper price. The quote: the Corolla is buy-it-and-it-never-breaks, extremely low cost — nearly the standard answer of the gasoline era. The Model Y went from first delivery in 2020 to the crown in 2023 in just three to four years. It's not that its product is spare; consumer desire changed. The Model Y is a trendy toy and social currency — celebrity entrepreneurs drive it. Many people recognize Tesla first, and only later recognize EVs: brand before category.",
+      "sentences": [
+        {
+          "cn": "核心机制：丰田精益生产——便宜、耐用、省油、稳定。全球 5500 万辆背后是零部件验证标准远超新势力「百万公里试验就上市」",
+          "en": "The mechanism: Toyota's lean production — cheap, durable, fuel-efficient, stable. Behind the 55 million Corollas sits a parts-verification standard that far exceeds the '100,000-kilometer test then launch' of the new forces.",
+          "note": "<span>表达提示</span>lean production → 精益生产；parts-verification standard → 零部件验证标准"
+        },
+        {
+          "cn": "关键理解：卡罗拉代表的不只是一辆车，而是一整套制造逻辑的正循环：口味好→销量大→成本更低→更便宜",
+          "en": "The insight: the Corolla isn't just a car — it's a whole virtuous loop of manufacturing logic: taste good enough, bigger sales, lower cost, cheaper price.",
+          "note": "<span>表达提示</span>virtuous loop → 正循环；manufacturing logic → 制造逻辑"
+        },
+        {
+          "cn": "（引用）原文依据：「卡罗拉就是买回来不出问题，就是成本很低，几乎就是燃油车时代的一个标准答案。」",
+          "en": "The original quote: 'The Corolla is buy-it-and-it-never-breaks, extremely low cost — it's almost the standard answer of the gasoline era.'",
+          "note": "<span>表达提示</span>never breaks → 不出问题；standard answer → 标准答案"
+        },
+        {
+          "cn": "核心机制：2020 年交付到 2023 年登顶仅用约 3–4 年，不是产品力留白，而是消费欲望变了——Model Y 是时髦玩具/社交货币，明星企业家都在开",
+          "en": "The mechanism: from first delivery in 2020 to the crown in 2023, it took only about three to four years. It's not that its product is spare — consumer desire changed. The Model Y is a trendy toy and social currency, and celebrity entrepreneurs drive it.",
+          "note": "<span>表达提示</span>social currency → 社交货币；trendy toy → 时髦玩具"
+        },
+        {
+          "cn": "适用边界：在「电动车=特斯拉」的认知框架内是安全选择；追求冰箱彩电大沙发或极致智驾体验者未必满意",
+          "en": "Boundary conditions: within the mental frame of 'EV equals Tesla,' it's the safe choice — but those who want a fridge, TV, and big sofa, or the ultimate smart-driving experience, may not be satisfied.",
+          "note": "<span>表达提示</span>the safe choice → 安全选择；smart-driving experience → 智驾体验"
+        },
+        {
+          "cn": "（引用）相关概念：很多人「先认特斯拉，后认电动车」——品牌先于品类",
+          "en": "Related idea: many people 'recognize Tesla first, and only later recognize EVs' — the brand comes before the category.",
+          "note": "<span>表达提示</span>brand before category → 品牌先于品类"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「正循环：越好卖越便宜」",
+          "phrases": [
+            "Sell more, cost less, price lower — a virtuous loop.",
+            "It's a flywheel: volume drives cost down drives price down."
+          ],
+          "chunks": "virtuous loop · a flywheel",
+          "usage": "flywheel 是商业圈高频词"
+        },
+        {
+          "intent": "想说「先认特斯拉，后认电动车」",
+          "phrases": [
+            "They buy Tesla first and EVs second.",
+            "The brand comes before the category."
+          ],
+          "chunks": "brand before category",
+          "usage": "brand before category 是精炼结论式表达"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "title_cn": "四、体系能力：成本、产能与毛利",
+      "title_en": "System Capability: Cost, Capacity, and Margins",
+      "context": "Price history, the two profitable EV makers, and Shanghai Gigafactory's scale. 语域：casual 财务分析。",
+      "speak": "The price history: the 2020 imported Long Range started at 488,000 yuan; 2021 local production brought it to 339,900; by 2026 the Long Range AWD is 313,500 and the rear-drive entry is 263,500, with a 79,000 down payment and five years interest-free. Sales rise, costs fall, and the price follows the cost — a virtuous cycle. Among pure new-energy automakers, only Tesla and BYD reliably make money; the difference between a 5 percent and 15 percent gross margin is life or death. Shanghai produces about 52 percent of Tesla's global deliveries, with weekly capacity near 25,000 units, compared with Xiaomi's SU7 early output of roughly 3,000 a week. Megacasting, self-developed batteries and chips, and a deeply integrated supply chain keep costs falling. The range isn't necessarily the longest, but the displayed range matches reality well, and resale value is among the best in EVs.",
+      "sentences": [
+        {
+          "cn": "核心机制：2020 进口长续航 48.8 万 → 2021 国产 33.99 万 → 2026 长续航四驱 31.35 万、后驱入门 26.35 万（首付 7.9 万五年免息）。销量涨、成本降、价格跟成本走，形成正循环",
+          "en": "The mechanism: the 2020 imported Long Range started at 488,000 yuan; 2021 local production brought it to 339,900; by 2026, the Long Range AWD is 313,500 and the rear-drive entry model is 263,500, with a 79,000 down payment and five years interest-free. Sales rise, costs fall, and the price follows the cost — a virtuous cycle.",
+          "note": "<span>表达提示</span>down payment → 首付；interest-free → 免息；price follows cost → 价格跟成本走"
+        },
+        {
+          "cn": "关键理解：纯新能源车企能稳定赚钱的仅特斯拉和比亚迪；5% vs 15% 毛利率差 10 个点已是生死之别",
+          "en": "The insight: among pure new-energy automakers, only Tesla and BYD reliably make money. The difference between a 5 percent and a 15 percent gross margin is a matter of life and death.",
+          "note": "<span>表达提示</span>gross margin → 毛利率；life and death → 生死之别"
+        },
+        {
+          "cn": "（引用）原文依据：「卖得多，它的价格越便宜，它的价格是跟它成本走的。」",
+          "en": "The original quote: 'The more it sells, the cheaper it gets — the price follows the cost.'",
+          "note": "<span>表达提示</span>follow the cost → 跟着成本走"
+        },
+        {
+          "cn": "占全球特斯拉交付约 52%，周产能近 2.5 万辆（对比小米 SU7 早期周产约 3000 台量级）。一体化压铸、自研电池芯片、高度整合供应链支撑成本持续下降",
+          "en": "Shanghai produces about 52 percent of Tesla's global deliveries, with weekly capacity near 25,000 units — versus Xiaomi's SU7 early output of roughly 3,000 a week. Megacasting, self-developed batteries and chips, and a deeply integrated supply chain keep costs falling.",
+          "note": "<span>表达提示</span>weekly capacity → 周产能；megacasting → 一体化压铸；integrated supply chain → 整合供应链"
+        },
+        {
+          "cn": "（引用）相关概念：续航不一定最长，但表显与实际达成率高，二手保值率电动车中数一数二",
+          "en": "Related note: the range isn't necessarily the longest, but the displayed range matches real-world driving well, and its resale value is among the best in EVs.",
+          "note": "<span>表达提示</span>displayed range → 表显续航；resale value → 二手保值率"
+        },
+        {
+          "cn": "原因：海外经销商不担心质量，担心「你能开多久」——高合慕尼黑机场店、长城收缩等案例让老外看到中国品牌「今天倒一个明天撤一个」",
+          "en": "The cause: overseas dealers don't worry about quality — they worry about 'how long will you survive.' Cases like HiPhi's Munich airport store and Great Wall's pullback show foreigners a Chinese-brand pattern of 'one falls today, one withdraws tomorrow.'",
+          "note": "<span>表达提示</span>dealers → 经销商；withdraw → 收缩撤退；one falls, one withdraws → 今天倒一个明天撤一个"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「价格跟成本走」",
+          "phrases": [
+            "The price follows the cost down.",
+            "As costs fall, the sticker price follows."
+          ],
+          "chunks": "price follows cost · sticker price",
+          "usage": "sticker price 指官方标价"
+        },
+        {
+          "intent": "想说「毛利率差几个点就是生死」",
+          "phrases": [
+            "A few margin points is the difference between life and death.",
+            "Five versus fifteen percent margin decides who survives."
+          ],
+          "chunks": "life or death · who survives",
+          "usage": "margin points 是财务语境常用词"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "title_cn": "五、消费场景与选车建议",
+      "title_en": "Purchase Scenarios and Car-Buying Advice",
+      "context": "Why his wife instantly said yes to a Tesla, and why happiness is ability divided by desire. 语域：casual 生活化建议。",
+      "speak": "Sandao uses his wife's car upgrade as the example: she couldn't name more than a couple of EV brands, but mention Tesla and it's 'sure, no problem.' She doesn't ask about features, specs, or space — she just trusts the brand, and it must be a new car. Suggest BYD instead and you trigger the reaction 'wait, do you think I'm only worthy of a BYD?' Many people buy Tesla first and the EV second — they recognize Tesla before they recognize EVs. And here's the deeper logic: someone who can only afford an Alto but dreams of a Ferrari every day lives in misery. Match the car to your real cash flow, not to an overdrawn desire. Happiness equals ability divided by desire: strong ability, small desire — that's a happy life.",
+      "sentences": [
+        {
+          "cn": "三刀以妻子换车为例：报不出几个电车品牌，但一说特斯拉「可以啊没问题」——不问功能配置空间，只认品牌且一定要新车。推比亚迪会引发「你是不是觉得我只配开比亚迪」的情绪反应",
+          "en": "Sandao uses his wife's car upgrade as the example: she couldn't name more than a couple of EV brands, but mention Tesla and it's 'sure, no problem.' She doesn't ask about features, specs, or space — she just trusts the brand, and it must be a new car. Suggest BYD instead and you trigger the reaction 'wait, do you think I'm only worthy of a BYD?'",
+          "note": "<span>表达提示</span>be worthy of → 只配…；specs → 参数配置；trigger a reaction → 引发情绪反应"
+        },
+        {
+          "cn": "适用边界：对电车无深度研究的保守型消费者；追求性价比或国产智驾领先者应选择性听取",
+          "en": "Boundary conditions: this fits conservative buyers with little deep research into EVs — while value-seekers or those who think domestic smart driving leads should take this advice selectively.",
+          "note": "<span>表达提示</span>conservative buyers → 保守型消费者；take advice selectively → 选择性听取"
+        },
+        {
+          "cn": "（引用）「很多人是先买特斯拉，后买电动车。它是先认特斯拉，后认电动车。」",
+          "en": "The quote: 'Many people buy Tesla first, then EVs. They recognize Tesla before they recognize EVs.'",
+          "note": "<span>表达提示</span>recognize the brand → 认品牌"
+        },
+        {
+          "cn": "为什么重要：开奥托的能力却天天想法拉利，只会生不如死。选车应匹配真实现金流，而非透支欲望",
+          "en": "Why it matters: someone who can only afford an Alto but dreams of a Ferrari every day lives in misery. Choose a car that matches your real cash flow, not one that overdrafts your desire.",
+          "note": "<span>表达提示</span>cash flow → 现金流；overdraft one's desire → 透支欲望"
+        },
+        {
+          "cn": "适用边界：现金流充裕且确有升级需求时，「等等党」反而可能错过最佳体验窗口",
+          "en": "Boundary conditions: when your cash flow is solid and you genuinely need an upgrade, 'waiting for the next version' may actually make you miss the best experience window.",
+          "note": "<span>表达提示</span>experience window → 体验窗口"
+        },
+        {
+          "cn": "（引用）「幸福等于能力比上欲望。能力强欲望小，那你肯定很幸福。」",
+          "en": "The quote: 'Happiness equals ability divided by desire. Strong ability, small desire — you're bound to be happy.'",
+          "note": "<span>表达提示</span>ability divided by desire → 能力比上欲望；bound to be happy → 一定很幸福"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「一提特斯拉就能下单」",
+          "phrases": [
+            "Mention Tesla and it's an instant yes.",
+            "No questions asked — the brand alone closes the deal."
+          ],
+          "chunks": "an instant yes · close the deal",
+          "usage": "close the deal 是销售/购物口语"
+        },
+        {
+          "intent": "想说「幸福=能力÷欲望」",
+          "phrases": [
+            "Happiness equals ability divided by desire.",
+            "Trim the desire or grow the ability — that's the formula."
+          ],
+          "chunks": "ability divided by desire",
+          "usage": "公式化表达，金句式"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "cn": "用「no qualifiers」说：不加任何定语的全球第一。",
+      "en": "The Model Y is the global best-seller with no qualifiers — not segment, not fuel type."
+    },
+    {
+      "cn": "用「decision friction」说：特斯拉降低的是决策摩擦。",
+      "en": "Tesla lowers decision friction with one price and no add-on pressure."
+    },
+    {
+      "cn": "用「virtuous loop」说：销量越大、成本越低、价格越便宜。",
+      "en": "It's a virtuous loop: bigger sales, lower costs, cheaper prices."
+    },
+    {
+      "cn": "用「ability divided by desire」说：能力强欲望小就幸福。",
+      "en": "Happiness is ability divided by desire — strong ability, small desires, and you're content."
+    }
+  ],
+  "pitfalls": [
+    {
+      "wrong": "Model Y is better than Corolla in quality.",
+      "right": "The Model Y won not on product specs but on an era switch and system capability.",
+      "why": "三刀明确指出不是产品力碾压卡罗拉；用 era switch + system capability 才符合原意。"
+    },
+    {
+      "wrong": "Tesla is very cheap, so many people buy it.",
+      "right": "Tesla removes decision friction — one transparent price, no discriminatory add-ons.",
+      "why": "便宜只是结果；关键是「决策摩擦低、定价透明」的心理机制。"
+    },
+    {
+      "wrong": "Chinese cars are updated every year, which is good.",
+      "right": "Yearly redesigns manufacture FOMO, while Tesla manufactures certainty.",
+      "why": "一年一改带来的「等明年更好」反而抬高等待机会成本；对比结构要说全。"
+    },
+    {
+      "wrong": "My wife only recognizes Tesla brand, she is shallow.",
+      "right": "She recognizes Tesla before recognizing EVs — for conservative buyers, brand is the safe choice.",
+      "why": "不是肤浅，而是保守型消费者的理性简化；用 brand before category 解释更公允。"
+    }
+  ],
+  "shifts": [
+    {
+      "before": "以为 Model Y 夺冠是「产品力碾压卡罗拉」",
+      "after": "是时代切换+透明定价+标准化+上海产能的合力——品类切换而非单车型对比"
+    },
+    {
+      "before": "以为国产一年一大改是「诚意」",
+      "after": "一年一改制造 FOMO 与「等明年更好」的等待成本；特斯拉给的是确定感"
+    },
+    {
+      "before": "以为选车就是比参数、比配置",
+      "after": "先匹配真实现金流，幸福=能力÷欲望——别透支欲望去买能力之外的车"
+    }
+  ],
+  "voice": "en-US-JennyNeural",
+  "audio_dir": "audio/en/model_y_3year_loss_champion"
+}

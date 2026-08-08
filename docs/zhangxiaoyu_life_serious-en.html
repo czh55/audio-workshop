@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="E221 对话张潇雨：生活太重要，以至于不能太认真 — Bilingual Learning Edition" />
+  <title>E221 对话张潇雨：生活太重要，以至于不能太认真｜EN 双语学习版</title>
+  <style>:root{--teal-950:#073f42;--teal-800:#0d686c;--teal-700:#0f7c80;--teal-600:#14919b;--mint-100:#dff4ec;--mint-50:#f0faf6;--ink:#183536;--muted:#607879;--line:#d7e8e2;--paper:#fff;--amber:#a85d08;--shadow:0 12px 32px rgba(7,63,66,.08)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:24px}
+body{margin:0;color:var(--ink);background:#edf7f2;font-family:Inter,"PingFang SC","Noto Sans SC","Microsoft YaHei",system-ui,sans-serif;line-height:1.65}
+button,select{font:inherit}
+a{color:inherit}
+.hero{color:#fff;background:radial-gradient(circle at 85% 10%,rgba(129,230,196,.24),transparent 30%),linear-gradient(125deg,#073f42,#0d7377 56%,#14919b)}
+.hero-inner{width:min(1440px,100%);margin:auto;padding:44px clamp(20px,5vw,72px) 36px}
+.hero-flex{display:flex;gap:clamp(18px,3vw,40px);align-items:flex-start}
+.hero-cover{width:min(240px,42vw);height:auto;max-height:320px;object-fit:contain;object-position:center;border-radius:16px;border:1px solid rgba(255,255,255,.28);box-shadow:0 18px 44px rgba(0,0,0,.32);flex-shrink:0;background:rgba(255,255,255,.08)}
+.hero-text{min-width:0;flex:1}
+.eyebrow{margin:0 0 12px;font-size:.78rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;opacity:.8}
+h1{max-width:1020px;margin:0;font-size:clamp(1.7rem,3.6vw,3rem);line-height:1.15;letter-spacing:-.04em}
+.hero-en{margin:12px 0 22px;font-size:clamp(1rem,2vw,1.25rem);opacity:.82}
+.hero-meta{display:flex;flex-wrap:wrap;gap:9px;align-items:center}
+.chip{border:1px solid rgba(255,255,255,.28);border-radius:99px;padding:5px 11px;font-size:.82rem;background:rgba(255,255,255,.08)}
+.source-link{font-weight:750;text-decoration:none;border-bottom:1px solid rgba(255,255,255,.5)}
+.toolbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:22px}
+.toolbar label{font-size:.82rem;opacity:.82}
+.toolbar select{color:#fff;background:#0a5d61;border:1px solid rgba(255,255,255,.3);border-radius:8px;padding:7px 9px}
+.stop-btn{display:none;color:#fff;background:#8c3b2a;border:0;border-radius:8px;padding:8px 12px;cursor:pointer}
+.stop-btn.visible{display:inline-flex}
+.speech-status{min-height:1.4em;font-size:.82rem;opacity:.88}
+.lang-switch{display:inline-flex;gap:6px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.28);border-radius:99px;padding:4px}
+.lang-switch a{display:inline-block;padding:4px 13px;border-radius:99px;font-size:.8rem;font-weight:700;text-decoration:none;color:rgba(255,255,255,.75)}
+.lang-switch a.active{background:#fff;color:var(--teal-800)}
+.narration-player{margin-top:16px;padding:14px 18px;background:rgba(255,255,255,.1);border-radius:12px;border:1px solid rgba(255,255,255,.15)}
+.audio-label{color:rgba(255,255,255,.88);font-size:.82rem;font-weight:700;margin:0 0 8px}
+.page{width:min(1440px,100%);margin:auto;padding:28px clamp(16px,3vw,44px) 64px;display:grid;grid-template-columns:minmax(230px,280px) minmax(0,1fr);gap:30px;align-items:start}
+.sidebar{position:sticky;top:20px;min-width:0}
+.sidebar-box{background:rgba(255,255,255,.8);border:1px solid var(--line);border-radius:16px;padding:17px;box-shadow:var(--shadow);backdrop-filter:blur(12px)}
+.sidebar h2{margin:0 0 13px;font-size:.9rem;letter-spacing:.08em;color:var(--teal-800)}
+.map-link{display:grid;grid-template-columns:34px minmax(0,1fr);gap:9px;padding:10px 6px;text-decoration:none;border-top:1px solid var(--line)}
+.map-link:hover b{color:var(--teal-700)}
+.map-id{width:30px;height:30px;display:grid;place-items:center;border-radius:9px;color:#fff;background:var(--teal-700);font-size:.72rem;font-weight:800}
+.map-link b{display:block;font-size:.78rem;line-height:1.4}
+.map-link small{display:block;color:var(--muted);font-size:.67rem;line-height:1.4;margin-top:2px;overflow-wrap:anywhere}
+.content{min-width:0}
+.scene-card{background:var(--paper);border:1px solid var(--line);border-radius:20px;padding:clamp(20px,3vw,34px);margin-bottom:24px;box-shadow:var(--shadow);overflow:hidden}
+.scene-topline{display:flex;justify-content:space-between;gap:16px;align-items:center;margin-bottom:16px}
+.scene-id{display:inline-grid;place-items:center;min-width:42px;height:30px;padding:0 10px;color:#fff;background:var(--teal-700);border-radius:8px;font-size:.78rem;font-weight:850}
+.time{margin-left:10px;color:var(--muted);font-size:.82rem;font-variant-numeric:tabular-nums}
+.scene-card h2{margin:0 0 2px;font-size:clamp(1.35rem,2.4vw,2rem);line-height:1.25;color:var(--teal-950)}
+.scene-title-en{margin:0 0 18px;color:var(--teal-600);font-weight:700;font-size:.98rem}
+.context{margin:0 0 20px;padding:12px 15px;color:#496566;background:var(--mint-50);border-left:3px solid var(--teal-600);border-radius:0 10px 10px 0;font-size:.88rem}
+.context b{margin-right:10px;color:var(--teal-800)}
+.sentence-list{display:grid;gap:12px}
+.sentence{position:relative;display:grid;grid-template-columns:38px minmax(0,1fr);gap:12px;padding:16px;border:1px solid #e2ece8;border-radius:14px;background:#fcfefd;min-width:0}
+.sentence-no{color:var(--teal-600);font-size:.76rem;font-weight:850;font-variant-numeric:tabular-nums;padding-top:4px}
+.bilingual{min-width:0;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(14px,2vw,28px)}
+.lang-block{min-width:0}
+.lang-block p{margin:5px 0 0;overflow-wrap:anywhere}
+.en-block{padding-left:clamp(14px,2vw,28px);border-left:1px solid var(--line)}
+.en-block p{color:#0b5c60;font-weight:650}
+.lang-tag{display:inline-block;color:var(--muted);font-size:.66rem;font-weight:850;letter-spacing:.12em}
+.en-head{display:flex;justify-content:space-between;gap:10px;align-items:center;min-height:30px}
+.note{grid-column:2;margin:1px 0 0;color:#708182;font-size:.78rem}
+.note span{margin-right:7px;color:var(--amber);font-weight:750}
+.speak-btn{display:inline-flex;align-items:center;gap:7px;border:1px solid #b8d9d1;border-radius:9px;padding:7px 11px;color:var(--teal-800);background:#f5fbf8;cursor:pointer;white-space:nowrap;font-size:.78rem;font-weight:750;transition:.15s ease}
+.speak-btn:hover{color:#fff;background:var(--teal-700);border-color:var(--teal-700);transform:translateY(-1px)}
+.speak-btn.playing{color:#fff;background:var(--teal-700);border-color:var(--teal-700)}
+.speak-btn.compact{padding:4px 8px;font-size:.7rem}
+.speak-btn.icon-only{padding:3px 7px;margin-left:6px}
+.speak-btn.icon-only span:last-child{display:none}
+.pronounce-word{display:inline;margin:0;padding:0 2px;color:inherit;background:rgba(20,145,155,.08);border:0;border-bottom:1px dashed var(--teal-600);border-radius:3px;font:inherit;font-weight:inherit;line-height:inherit;cursor:pointer}
+.pronounce-word:hover,.pronounce-word:focus{color:var(--teal-950);background:#cceee4;border-bottom-style:solid;outline:3px solid rgba(20,145,155,.42);outline-offset:2px}
+.pronounce-word.playing{color:#fff;background:var(--teal-700);border-bottom-color:var(--teal-700)}
+.paraphrase{margin-top:18px;border-top:1px solid var(--line)}
+.paraphrase summary{padding:16px 0 3px;color:var(--teal-800);cursor:pointer;font-weight:800}
+.paraphrase summary span{color:var(--muted);font-size:.75rem;font-weight:500;margin-left:8px}
+.paraphrase ol{margin:12px 0 0;padding-left:22px}
+.paraphrase li{padding:7px 0 9px 5px}
+.paraphrase li p{margin:0;font-size:.9rem;font-weight:650}
+.paraphrase li small{display:block;color:var(--muted);font-size:.72rem;margin-top:2px}
+.chunks{margin-top:4px;color:var(--teal-700);font-size:.78rem}
+.study-section{margin:38px 0 0}
+.section-heading{display:flex;align-items:baseline;gap:10px;margin:0 0 15px;color:var(--teal-950);font-size:1.35rem}
+.section-heading small{color:var(--teal-600);font-size:.78rem;letter-spacing:.05em}
+.study-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.study-grid article{padding:17px;background:#fff;border:1px solid var(--line);border-radius:14px;box-shadow:0 6px 18px rgba(7,63,66,.05);min-width:0}
+.study-grid p{margin:0}
+.practice-en{margin-top:9px;color:var(--teal-700);font-weight:650;overflow-wrap:anywhere}
+.wrong{color:#a24831;text-decoration:line-through;overflow-wrap:anywhere}
+.right{color:var(--teal-700);font-weight:750;margin:5px 0;overflow-wrap:anywhere}
+.pitfalls p{color:var(--muted);font-size:.82rem}
+.shifts article{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1.5fr);gap:12px;align-items:center}
+.shifts b{color:var(--teal-600);font-size:1.2rem}
+.shifts strong{color:var(--teal-800)}
+footer{margin-top:38px;color:var(--muted);font-size:.78rem;text-align:center}
+.footer-note{margin-top:6px}
+@media (max-width:900px){
+  .page{grid-template-columns:1fr}
+  .sidebar{position:static}
+  .sidebar-box{overflow-x:auto;padding:12px}
+  .sidebar h2{padding-left:5px}
+  .map-nav{display:flex;width:max-content;gap:8px}
+  .map-link{width:240px;border:1px solid var(--line);border-radius:10px;padding:8px}
+  .bilingual{grid-template-columns:1fr}
+  .en-block{padding:12px 0 0;border-left:0;border-top:1px dashed var(--line)}
+}
+@media (max-width:620px){
+  .hero-inner{padding-top:30px}
+  .hero-flex{flex-direction:column;align-items:center}
+  .hero-cover{width:100%;max-width:360px}
+  .hero-text{text-align:center}
+  .page{padding-inline:10px;gap:18px}
+  .scene-card{border-radius:14px;padding:17px 13px}
+  .scene-topline{align-items:flex-start}
+  .scene-speak span:last-child{display:none}
+  .sentence{grid-template-columns:26px minmax(0,1fr);padding:13px 10px;gap:6px}
+  .note{grid-column:2}
+  .study-grid{grid-template-columns:1fr}
+  .shifts article{grid-template-columns:1fr;gap:5px}
+  .shifts b{transform:rotate(90deg);justify-self:start}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.speak-btn{transition:none}}</style>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="hero-flex">
+        <div class="hero-text">
+          <p class="eyebrow">Personal Growth &amp; Philosophy · 个人成长与哲学</p>
+          <h1>E221 对话张潇雨：生活太重要，以至于不能太认真</h1>
+          <p class="hero-en">E221 A Conversation with Zhang Xiaoyu: Life Is Too Important to Take Too Seriously</p>
+          <p class="summary-en" style="margin:0 0 14px;padding:14px 16px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.22);border-radius:12px;font-size:.95rem;line-height:1.7">Zhang Xiaoyu, founder of Youzhiyouxing, returns to the podcast after five years in hiding. From an interview story about 'life logic over social logic,' to treating yourself as a work of art, action without a self, and the raw-sensation emotional practice, he explores why life is too important to be taken too seriously — and how fate keeps repeating lessons until they force you toward freedom.</p>
+          <div class="hero-meta">
+            <span class="chip">2026-06-23</span>
+            <span class="chip">小宇宙FM</span>
+            <span class="chip">1小时24分</span>
+            <span class="chip">4 Scenes</span>
+            <span class="chip">Click underlined words to hear them</span>
+            <a class="source-link" href="https://www.xiaoyuzhoufm.com/episode/6972e4f5ef1cf272a7fa507a" target="_blank" rel="noopener">原播客 ↗</a>
+          </div>
+        </div>
+      </div>
+      <div class="toolbar">
+        <div class="lang-switch"><div class="lang-switch"><a href="zhangxiaoyu_life_serious-总结.html">中文</a><a class="active" href="zhangxiaoyu_life_serious-en.html" aria-current="page">EN</a></div></div>
+        <label for="speech-rate">朗读速度</label>
+        <select id="speech-rate">
+          <option value="0.85">慢速 0.85×</option>
+          <option value="1" selected>正常 1×</option>
+          <option value="1.15">快速 1.15×</option>
+        </select>
+        <button id="stop-speech" class="stop-btn" type="button">■ 停止朗读</button>
+        <span id="speech-status" class="speech-status" role="status" aria-live="polite"></span>
+      </div>
+      <div class="narration-player">
+      <p class="audio-label">🎧 中文语音讲解</p>
+      <button class="speak-btn" type="button" data-audio="audio/zhangxiaoyu_life_serious.mp3" aria-label="播放语音讲解"><span aria-hidden="true">▶</span><span>播放语音讲解</span></button>
+    </div>
+    </div>
+  </header>
+  <main class="page">
+    <aside class="sidebar" aria-label="场景地图">
+      <div class="sidebar-box">
+        <h2>场景地图 · SCENE MAP</h2>
+        <nav class="map-nav">
+          <a class="map-link" href="#s1">
+          <span class="map-id">S1</span>
+          <span><b>一、人生逻辑与社会角色</b><small> · Life Logic vs. Social Roles</small></span>
+        </a>
+<a class="map-link" href="#s2">
+          <span class="map-id">S2</span>
+          <span><b>二、把自己当作人生作品</b><small> · Treating Yourself as a Work of Art</small></span>
+        </a>
+<a class="map-link" href="#s3">
+          <span class="map-id">S3</span>
+          <span><b>三、无我行动与情绪练习</b><small> · Action Without a Self and Emotional Practice</small></span>
+        </a>
+<a class="map-link" href="#s4">
+          <span class="map-id">S4</span>
+          <span><b>四、关系模式与命运课题</b><small> · Relationship Patterns and Life's Repeating Lessons</small></span>
+        </a>
+        </nav>
+      </div>
+    </aside>
+    <div class="content">
+      <section class="scene-card" id="s1" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S1</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/zhangxiaoyu_life_serious/s1.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>一、人生逻辑与社会角色</h2>
+      <p class="scene-title-en">Life Logic vs. Social Roles</p>
+      <p class="context"><b>情境</b>An interview philosophy that prioritizes a person's happiness over matching a job description. 语域：casual 对话分享。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：面试是社会建构的角色游戏，但双方真正目标都是人生幸福。当岗位不匹配时，在人的层面帮对方找更适合的路，比完成招聘 KPI 更符合本质</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/zhangxiaoyu_life_serious/s1-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">An interview is a role-playing game constructed by society, but both sides are really after a happy life. When a role doesn't fit, helping the person find a better path at the human level is truer to the essence than hitting a recruiting KPI.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>role-playing game → 角色游戏；truer to the essence → 更符合本质；recruiting KPI → 招聘指标</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：雨白因此相信「帮助他人一点点」能产生巨大效果，并来到有知有行。张潇雨讨厌被固定在社会身份里，宁愿做「风」到处吹，也不做严谨耕云的「累」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/zhangxiaoyu_life_serious/s1-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Yu Bai came to believe that 'helping others a little' can have a huge effect, and that belief is what brought her to Youzhiyouxing. Zhang Xiaoyu hates being fixed inside a social identity — he'd rather be the wind, blowing everywhere, than a rigid cloud that carefully plows the sky.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>social identity → 社会身份；be the wind → 做风（自由流动的隐喻）</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>典型场景：招聘、合作、带人时，先问「这件事能否让你更幸福」，而非「你是否符合这个岗位」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/zhangxiaoyu_life_serious/s1-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">A typical case: when recruiting, partnering, or mentoring, ask first — 'will this make you happier?' — not 'do you match this role?'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>recruiting → 招聘；mentoring → 带人</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据：「既然我们都是为了获得某种人生的幸福……那为什么不在这个层面去解决这问题呢？」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/zhangxiaoyu_life_serious/s1-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The original quote: 'Since we're all here to gain some happiness in life... why not solve the problem on that level?'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>gain happiness → 获得幸福；on that level → 在那个层面</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）相关概念：与功利性「跳槽涨薪」不同，核心是人格层面的真诚，而非职场技巧</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/zhangxiaoyu_life_serious/s1-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Related point: unlike the utilitarian 'job-hopping for a raise,' the core here is sincerity at the level of personhood — not workplace tactics.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>utilitarian → 功利性的；sincerity at the level of personhood → 人格层面的真诚</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>在 A 行业卷出来的能力，搬到 B 行业可能摧枯拉朽。得到上打磨多年的知识萃取方法论，换到另一领域价值完全不同——从投资回报角度，应寻找能力被低估的战场</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/zhangxiaoyu_life_serious/s1-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">An ability sharpened through brutal competition in industry A can be crushing when moved to industry B. The knowledge-extraction methodology he honed for years at Dedao takes on completely different value in another field — from an investment-return angle, you should seek the battlefield where your abilities are undervalued.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>be crushing → 摧枯拉朽；knowledge-extraction methodology → 知识萃取方法论；undervalued → 被低估</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「先问是否让你更幸福，而不是合不合岗位」</p><div class="chunks">fit the box · the wrong question</div><small>fit the box 指符合框定岗位，很口语</small></li>
+<li><p>想说「能力换个地方价值更大」</p><div class="chunks">the right arena · undervalued</div><small>arena 指战场/赛场；undervalued 指被低估</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s2" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S2</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/zhangxiaoyu_life_serious/s2.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>二、把自己当作人生作品</h2>
+      <p class="scene-title-en">Treating Yourself as a Work of Art</p>
+      <p class="context"><b>情境</b>Why Zhang Xiaoyu happily removed his own name from a book, and the purpose behind all his work. 语域：casual 叙述。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：投资第一课出版时，读库老六建议只保留一个作者名以避免人称混淆。张潇雨爽快答应去掉署名——目的本是帮助用户成长，而非扬名立万</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/zhangxiaoyu_life_serious/s2-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">When The First Lesson of Investing was about to publish, DuKu editor Liu Laoliu suggested keeping only one author name to avoid pronoun confusion. Zhang Xiaoyu agreed without hesitation to drop his byline — the point was to help users grow, not to make a name for himself.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>byline → 署名；drop the byline → 去掉署名；make a name for oneself → 扬名立万</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：他会自问「我在意吗？」若在意会说，但不执着。课程、文章、播客都是了解自我的手段，「把自己作为作品打磨」才是目的</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/zhangxiaoyu_life_serious/s2-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">He often asks himself, 'Do I actually care?' If he does, he says so — but he doesn't cling. Courses, articles, and podcasts are all just tools for understanding himself; polishing himself as a work of art is the real goal.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>don't cling → 不执着；polish oneself as a work of art → 把自己当作品打磨</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>典型场景：合作署名、功劳分配时，优先问目的而非面子</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/zhangxiaoyu_life_serious/s2-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">A typical case: when it comes to bylines and credit distribution, ask about the purpose first, not about face.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>credit distribution → 功劳分配；about face → 面子</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据：「我做所有事情都是为了了解我自己，那些东西都是手段。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/zhangxiaoyu_life_serious/s2-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The original quote: 'Everything I do is for understanding myself — those things are just the means.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>just the means → 只是手段</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>雨白从孤勇开播、羡慕大台嘉宾，到意识到听众要的是「普通人的投资理财与生活」——增设「小酒馆故事会」，征集各地听友真实故事（如「人生第一个十万」），成为最受欢迎栏目</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/zhangxiaoyu_life_serious/s2-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Yu Bai started her show solo, envying guests from big stations — until she realized listeners wanted 'ordinary people's investing and life.' That's how the 'Little Tavern Story Nights' segment was born, collecting real listener stories like 'my first 100,000 yuan,' and it became the most popular column.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>envy guests → 羡慕嘉宾；Story Nights → 故事会；the most popular column → 最受欢迎栏目</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）「我不应该去跟别人比拼嘉宾资源，我更应该去听普通用户的声音。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/zhangxiaoyu_life_serious/s2-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The quote: 'I shouldn't compete with other shows over guest resources — I should listen to ordinary users' voices instead.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>compete over guest resources → 比拼嘉宾资源；ordinary users' voices → 普通用户的声音</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「这些只是了解自己的手段」</p><div class="chunks">a tool for · the means and the end</div><small>the means / the end 是「手段与目的」的标准表达</small></li>
+<li><p>想说「别跟别人拼资源，去听普通人的声音」</p><div class="chunks">compete on star guests · hear the ordinary listener</div><small>compete on 指在某个维度竞争</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s3" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S3</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/zhangxiaoyu_life_serious/s3.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>三、无我行动与情绪练习</h2>
+      <p class="scene-title-en">Action Without a Self and Emotional Practice</p>
+      <p class="context"><b>情境</b>The three layers of any event, and why removing 'I' improves everything. 语域：casual 哲学练习。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：任何事有三层——事件层（播客录砸了）、情绪层（懊悔自责）、叙事层（「我不适合干这个」）。多数人活在叙事层，给事件贴上「我」的标签，固化为自我认知（MBTI、创业者身份等）</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/zhangxiaoyu_life_serious/s3-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Anything has three layers: the event layer — the podcast flopped; the emotion layer — regret and self-blame; and the narrative layer — 'I'm not cut out for this.' Most people live in the narrative layer, stamping the event with 'me' and hardening it into self-identity, like an MBTI label or a founder identity.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>event layer / emotion layer / narrative layer → 事件层/情绪层/叙事层；not cut out for → 不适合</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：网球运动员最自发时打得最好，「我」进来就糟了。去掉选择者，只留选择——像刚醒来刷牙，身体自然行动，尚未冒出「我今天要干这些事」的叙述者</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/zhangxiaoyu_life_serious/s3-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">A tennis player plays best when most spontaneous; the moment 'I' steps in, it falls apart. Remove the chooser and leave only the choice — like brushing your teeth right after waking, the body just moves, before the narrator pipes up with 'today I have to do all these things.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>spontaneous → 自发；fall apart → 崩坏；the narrator pipes up → 叙述者冒出来</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>典型场景：项目失败、公开出丑后，先处理事实与情绪，延迟叙事层的身份结论</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/zhangxiaoyu_life_serious/s3-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">A typical case: after a project fails or you embarrass yourself publicly, handle the facts and the emotions first — and delay the identity verdict in the narrative layer.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>embarrass oneself publicly → 公开出丑；identity verdict → 身份结论</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据：「在整个过程中，只有选择，而没有选择者。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/zhangxiaoyu_life_serious/s3-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The original quote: 'In the whole process, there is only the choice — no chooser.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>no chooser → 没有选择者</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>看日落时最幸福，因为脑子没有念头。念头一起来就开始解释、拍照、发圈——从体验滑入对体验的想法。活在当下即回到体验本身，而非体验的解释</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/zhangxiaoyu_life_serious/s3-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Watching a sunset is the happiest moment because the mind has no thoughts. The moment a thought arises, you start explaining, photographing, posting — sliding from the experience into ideas about the experience. Living in the present is returning to the experience itself, not the explanation of it.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>slide from experience into ideas → 从体验滑入想法；live in the present → 活在当下</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>适用边界：需要长期练习；难受时跳出很正常，下次再来即可</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/zhangxiaoyu_life_serious/s3-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Boundary conditions: this takes long-term practice — it's fine to fall out of it when you feel awful; just come back and try again next time.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>long-term practice → 长期练习；fall out of it → 跳出来</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「只有选择，没有选择者」</p><div class="chunks">no chooser · drop the I</div><small>drop the 'I' 是本集金句式口语</small></li>
+<li><p>想说「从体验滑向对体验的想法」</p><div class="chunks">slide from A into B · narrating instead of living</div><small>narrating instead of living 是精炼对照表达</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s4" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S4</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/zhangxiaoyu_life_serious/s4.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>四、关系模式与命运课题</h2>
+      <p class="scene-title-en">Relationship Patterns and Life's Repeating Lessons</p>
+      <p class="context"><b>情境</b>Zhang Xiaoyu's unhealthy expectations in close relationships, and why fate repeats the same question. 语域：casual 真诚自白。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>对重视的关系有极其不健康的期待：把对方当 AI 喂数据，希望被「以我不懂自己的方式理解」；需要自己在对方生命中「特别特殊」，不断确认特殊性而不再体验关系本身</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/zhangxiaoyu_life_serious/s4-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">For relationships he valued, he held deeply unhealthy expectations: treating the other person like an AI he could feed data to, hoping to be understood 'in ways he didn't understand himself,' and needing to be 'especially special' in the other's life — constantly re-confirming his specialness instead of experiencing the relationship itself.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>feed data to → 喂数据；re-confirm one's specialness → 不断确认特殊性</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>模式在惨烈崩溃中破裂——痛定思痛后，更淡然地体验关系，不求特殊，不过度分析</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/zhangxiaoyu_life_serious/s4-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The pattern broke down in a brutal collapse. After thinking it through in the pain, he now experiences relationships more calmly — no demand for specialness, no over-analyzing.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>brutal collapse → 惨烈崩溃；over-analyze → 过度分析</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）「我不用是你的最爱……但我需要我在里面特别特别特殊的，至于怎么特殊我都不知道。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/zhangxiaoyu_life_serious/s4-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The quote: 'I don't need to be your favorite... but I need to be especially special in it — and I don't even know how I want to be special.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>especially special → 特别特别特殊（有意夸张）</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：命运会持续给你一样的问题，直到你给出不同答案。关系、投资、自我完善——每次「完善」后可能再来一个大的（杀猪盘），识别能力会提高，掉进去也能更快出来</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/zhangxiaoyu_life_serious/s4-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The mechanism: fate keeps handing you the same problem until you give a different answer. Relationships, investing, self-improvement — each time you 'fix' yourself, a bigger one may come, like a pig-slaughtering scam, but your ability to recognize it rises, and you can get out faster.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>pig-slaughtering scam → 杀猪盘（诈骗类型）；recognize the pattern → 识别模式</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：戳破稳固价值体系的人是福报；破了模式就是新人。张潇雨对雨白：「如果我今天说的导致节目越做越差，我就是你的命运、你的报应。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/zhangxiaoyu_life_serious/s4-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The insight: people who puncture your rock-solid value system are a blessing. Once the pattern breaks, you're a new person. Zhang Xiaoyu told Yu Bai: 'If what I say today makes your show worse and worse, then I'm your fate — your karma.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>puncture → 戳破；blessing → 福报；karma → 报应</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）相关概念：与「创伤后成长」不同，强调主动识别重复课题而非被动等待时间治愈</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/zhangxiaoyu_life_serious/s4-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Related idea: unlike 'post-traumatic growth,' this emphasizes actively recognizing the repeating lesson instead of passively waiting for time to heal you.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>post-traumatic growth → 创伤后成长；repeating lesson → 重复课题</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「命运会一直给同样的问题，直到你给出不同答案」</p><div class="chunks">the same exam · repeat the question</div><small>宇宙派题这种说法适合闲聊；pass the exam 更直接</small></li>
+<li><p>想说「戳破你价值体系的人是贵人」</p><div class="chunks">crack one's certainty · break one's patterns</div><small>crack 比 break 更带「撬开」的意味</small></li>
+        </ol>
+      </details>
+    </section>
+      <section class="study-section" id="practice">
+      <h2 class="section-heading">今日可练 <small>PRACTICE TODAY</small></h2>
+      <div class="study-grid">
+        <article>
+          <p>用「be cut out for」说：我不适合干这个。</p>
+          <div class="practice-en">
+            The narrative layer whispers 'I'm not cut out for this' — that's where most people live.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/zhangxiaoyu_life_serious/practice-0.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「drop the I」说：去掉选择者，只留选择。</p>
+          <div class="practice-en">
+            Once you drop the 'I', you're left with pure choice — the action just happens.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/zhangxiaoyu_life_serious/practice-1.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「puncture」说：戳破你稳固价值体系的人是福报。</p>
+          <div class="practice-en">
+            The people who puncture your rock-solid belief system are quietly a blessing.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/zhangxiaoyu_life_serious/practice-2.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「the means, the end」说：作品只是手段，了解自己是目的。</p>
+          <div class="practice-en">
+            Every project is the means; knowing yourself is the end.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/zhangxiaoyu_life_serious/practice-3.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article>
+      </div>
+    </section>
+      <section class="study-section pitfalls" id="pitfalls">
+      <h2 class="section-heading">避坑 <small>PITFALLS</small></h2>
+      <div class="study-grid">
+        <article>
+          <div class="wrong">✕ I want to be very special in your life.</div>
+          <div class="right">✓ I need to be especially special in your life — even if I can't say how.</div>
+          <p>very special 不够；原文的「特别特别特殊」是有意夸张的自我暴露，用 especially special 才保留那份坦诚。</p>
+        </article><article>
+          <div class="wrong">✕ The podcast was recorded badly, I am very regretful.</div>
+          <div class="right">✓ The event layer is 'the episode flopped'; the emotion layer is regret — don't let the narrative layer turn it into identity.</div>
+          <p>三层结构是本集核心框架；只翻一句悔恨就丢了「别给事件贴标签」的要点。</p>
+        </article><article>
+          <div class="wrong">✕ I am very suitable for this job.</div>
+          <div class="right">✓ The real question is whether the job makes you happier, not whether you fit it.</div>
+          <p>suitable 直译没抓到重点——张潇雨主张「幸福优先于匹配」，要翻出这层对比。</p>
+        </article><article>
+          <div class="wrong">✕ I should not compare guests with other podcasts.</div>
+          <div class="right">✓ Don't compete on guest resources — listen to ordinary users' voices.</div>
+          <p>compare guests 是「比较」；核心是「别在嘉宾资源这个维度竞争」，用 compete on 才准确。</p>
+        </article>
+      </div>
+    </section>
+      <section class="study-section shifts" id="mindset">
+      <h2 class="section-heading">认知转变 <small>MINDSET SHIFTS</small></h2>
+      <div class="study-grid">
+        <article>
+          <span>以为面试/合作就是匹配岗位与能力</span>
+          <b aria-hidden="true">→</b>
+          <strong>双方真正要的是人生幸福——在人的层面真诚帮助，比完成 KPI 更接近本质</strong>
+        </article><article>
+          <span>以为课程、作品是为了扬名立万、证明自己</span>
+          <b aria-hidden="true">→</b>
+          <strong>它们只是了解自己的手段，「把自己作为作品打磨」才是目的</strong>
+        </article><article>
+          <span>以为出丑失败就要定义自己「不适合这个」</span>
+          <b aria-hidden="true">→</b>
+          <strong>事件层、情绪层、叙事层要分开——别急着把事件贴成自我身份</strong>
+        </article>
+      </div>
+    </section>
+      <footer>
+        双语学习版 · 场景/句子朗读使用 edge-tts（en-US） · 单词发音使用浏览器 Web Speech API
+        <div class="footer-note">中文版：<a href="zhangxiaoyu_life_serious-总结.html">zhangxiaoyu_life_serious-总结.html</a> · SVG 版：<a href="viewer.html?f=zhangxiaoyu_life_serious-总结.svg" target="_blank">zhangxiaoyu_life_serious-总结.svg</a></div>
+      </footer>
+    </div>
+  </main>
+  <script>(() => {
+  let activeAudio = null;
+  let activeBtn = null;
+  const status = document.getElementById('speech-status');
+  const stopBtn = document.getElementById('stop-speech');
+  const rateSel = document.getElementById('speech-rate');
+
+  const reset = () => {
+    if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+    activeBtn?.classList.remove('playing');
+    activeBtn = null;
+    stopBtn.classList.remove('visible');
+    status.textContent = '';
+  };
+
+  const playAudio = (url, btn) => {
+    reset();
+    const audio = new Audio(url);
+    audio.playbackRate = Number(rateSel.value);
+    activeAudio = audio;
+    activeBtn = btn;
+    btn.classList.add('playing');
+    stopBtn.classList.add('visible');
+    status.textContent = btn.classList.contains('scene-speak')
+      ? 'Reading the whole scene…'
+      : 'Reading…';
+
+    audio.onended = () => { if (activeAudio === audio) reset(); };
+    audio.onerror = () => { status.textContent = 'Audio failed to load.'; if (activeAudio === audio) reset(); };
+    audio.play().catch(() => { status.textContent = 'Playback failed.'; if (activeAudio === audio) reset(); });
+  };
+
+  document.addEventListener('click', e => {
+    const btn = e.target.closest('[data-audio]');
+    if (!btn) return;
+    e.preventDefault();
+    if (btn === activeBtn && activeAudio) { reset(); return; }
+    playAudio(btn.dataset.audio, btn);
+  });
+
+  stopBtn.addEventListener('click', reset);
+
+  const synth = window.speechSynthesis;
+  const getEnglishVoice = () => {
+    const voices = synth.getVoices();
+    return voices.find(v => /^en-(US|GB)/i.test(v.lang))
+        || voices.find(v => /^en/i.test(v.lang)) || null;
+  };
+
+  const difficultWords = new Set([
+    'assortment', 'SKU', 'premium', 'margin', 'middleman', 'OEM', 'rebranding',
+    'hoarding', 'PTSD', 'curation', 'repurchase', 'touchpoint', 'backlash',
+    'reshuffle', 'funnel', 'anchor', 'contract', 'psychology', 'private', 'label',
+    'editorial', 'familiar', 'competitors', 'authorization', 'flexibility'
+  ]);
+
+  const shouldPronounce = word => {
+    const n = word.toLowerCase().replace(/^[^a-z]+|[^a-z]+$/g, '');
+    return n.replace(/[^a-z]/g, '').length >= 8 || difficultWords.has(n);
+  };
+
+  const markPronounceableWords = root => {
+    const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+    const nodes = [];
+    while (walker.nextNode()) nodes.push(walker.currentNode);
+    nodes.forEach(node => {
+      if (node.parentElement?.closest('button, script, style')) return;
+      const text = node.nodeValue;
+      let m, last = 0, changed = false;
+      const frag = document.createDocumentFragment();
+      const re = /[A-Za-z]+(?:[-'’][A-Za-z]+)*/g;
+      while ((m = re.exec(text))) {
+        if (!shouldPronounce(m[0])) continue;
+        changed = true;
+        frag.append(text.slice(last, m.index));
+        const wb = document.createElement('button');
+        wb.type = 'button'; wb.className = 'pronounce-word';
+        wb.dataset.speak = m[0];
+        wb.setAttribute('aria-label', '\u8bfb\u5355\u8bcd ' + m[0]);
+        wb.title = '\u70b9\u51fb\u542c\u53d1\u97f3';
+        wb.textContent = m[0];
+        frag.append(wb);
+        last = m.index + m[0].length;
+      }
+      if (!changed) return;
+      frag.append(text.slice(last));
+      node.replaceWith(frag);
+    });
+  };
+
+  document.querySelectorAll(
+    '.english, .scene-title-en, .paraphrase li p, .chunks, .practice-en, .wrong, .right, .summary-en'
+  ).forEach(markPronounceableWords);
+
+  document.addEventListener('click', e => {
+    const wb = e.target.closest('.pronounce-word');
+    if (!wb) return;
+    e.preventDefault();
+    if (!synth) return;
+    synth.cancel();
+    if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+    activeBtn?.classList.remove('playing');
+    activeBtn = wb;
+    wb.classList.add('playing');
+    const u = new SpeechSynthesisUtterance(wb.dataset.speak);
+    u.lang = 'en-US';
+    u.rate = 0.88;
+    const v = getEnglishVoice();
+    if (v) u.voice = v;
+    u.onend = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+    u.onerror = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+    synth.speak(u);
+  });
+})();</script>
+</body>
+</html>

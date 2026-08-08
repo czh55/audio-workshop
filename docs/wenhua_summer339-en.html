@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Vol.339 夏日特辑：夏天在各种意义上都漫长且愉快，日子发出声响 — Bilingual Learning Edition" />
+  <title>Vol.339 夏日特辑：夏天在各种意义上都漫长且愉快，日子发出声响｜EN 双语学习版</title>
+  <style>:root{--teal-950:#073f42;--teal-800:#0d686c;--teal-700:#0f7c80;--teal-600:#14919b;--mint-100:#dff4ec;--mint-50:#f0faf6;--ink:#183536;--muted:#607879;--line:#d7e8e2;--paper:#fff;--amber:#a85d08;--shadow:0 12px 32px rgba(7,63,66,.08)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:24px}
+body{margin:0;color:var(--ink);background:#edf7f2;font-family:Inter,"PingFang SC","Noto Sans SC","Microsoft YaHei",system-ui,sans-serif;line-height:1.65}
+button,select{font:inherit}
+a{color:inherit}
+.hero{color:#fff;background:radial-gradient(circle at 85% 10%,rgba(129,230,196,.24),transparent 30%),linear-gradient(125deg,#073f42,#0d7377 56%,#14919b)}
+.hero-inner{width:min(1440px,100%);margin:auto;padding:44px clamp(20px,5vw,72px) 36px}
+.hero-flex{display:flex;gap:clamp(18px,3vw,40px);align-items:flex-start}
+.hero-cover{width:min(240px,42vw);height:auto;max-height:320px;object-fit:contain;object-position:center;border-radius:16px;border:1px solid rgba(255,255,255,.28);box-shadow:0 18px 44px rgba(0,0,0,.32);flex-shrink:0;background:rgba(255,255,255,.08)}
+.hero-text{min-width:0;flex:1}
+.eyebrow{margin:0 0 12px;font-size:.78rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;opacity:.8}
+h1{max-width:1020px;margin:0;font-size:clamp(1.7rem,3.6vw,3rem);line-height:1.15;letter-spacing:-.04em}
+.hero-en{margin:12px 0 22px;font-size:clamp(1rem,2vw,1.25rem);opacity:.82}
+.hero-meta{display:flex;flex-wrap:wrap;gap:9px;align-items:center}
+.chip{border:1px solid rgba(255,255,255,.28);border-radius:99px;padding:5px 11px;font-size:.82rem;background:rgba(255,255,255,.08)}
+.source-link{font-weight:750;text-decoration:none;border-bottom:1px solid rgba(255,255,255,.5)}
+.toolbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:22px}
+.toolbar label{font-size:.82rem;opacity:.82}
+.toolbar select{color:#fff;background:#0a5d61;border:1px solid rgba(255,255,255,.3);border-radius:8px;padding:7px 9px}
+.stop-btn{display:none;color:#fff;background:#8c3b2a;border:0;border-radius:8px;padding:8px 12px;cursor:pointer}
+.stop-btn.visible{display:inline-flex}
+.speech-status{min-height:1.4em;font-size:.82rem;opacity:.88}
+.lang-switch{display:inline-flex;gap:6px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.28);border-radius:99px;padding:4px}
+.lang-switch a{display:inline-block;padding:4px 13px;border-radius:99px;font-size:.8rem;font-weight:700;text-decoration:none;color:rgba(255,255,255,.75)}
+.lang-switch a.active{background:#fff;color:var(--teal-800)}
+.narration-player{margin-top:16px;padding:14px 18px;background:rgba(255,255,255,.1);border-radius:12px;border:1px solid rgba(255,255,255,.15)}
+.audio-label{color:rgba(255,255,255,.88);font-size:.82rem;font-weight:700;margin:0 0 8px}
+.page{width:min(1440px,100%);margin:auto;padding:28px clamp(16px,3vw,44px) 64px;display:grid;grid-template-columns:minmax(230px,280px) minmax(0,1fr);gap:30px;align-items:start}
+.sidebar{position:sticky;top:20px;min-width:0}
+.sidebar-box{background:rgba(255,255,255,.8);border:1px solid var(--line);border-radius:16px;padding:17px;box-shadow:var(--shadow);backdrop-filter:blur(12px)}
+.sidebar h2{margin:0 0 13px;font-size:.9rem;letter-spacing:.08em;color:var(--teal-800)}
+.map-link{display:grid;grid-template-columns:34px minmax(0,1fr);gap:9px;padding:10px 6px;text-decoration:none;border-top:1px solid var(--line)}
+.map-link:hover b{color:var(--teal-700)}
+.map-id{width:30px;height:30px;display:grid;place-items:center;border-radius:9px;color:#fff;background:var(--teal-700);font-size:.72rem;font-weight:800}
+.map-link b{display:block;font-size:.78rem;line-height:1.4}
+.map-link small{display:block;color:var(--muted);font-size:.67rem;line-height:1.4;margin-top:2px;overflow-wrap:anywhere}
+.content{min-width:0}
+.scene-card{background:var(--paper);border:1px solid var(--line);border-radius:20px;padding:clamp(20px,3vw,34px);margin-bottom:24px;box-shadow:var(--shadow);overflow:hidden}
+.scene-topline{display:flex;justify-content:space-between;gap:16px;align-items:center;margin-bottom:16px}
+.scene-id{display:inline-grid;place-items:center;min-width:42px;height:30px;padding:0 10px;color:#fff;background:var(--teal-700);border-radius:8px;font-size:.78rem;font-weight:850}
+.time{margin-left:10px;color:var(--muted);font-size:.82rem;font-variant-numeric:tabular-nums}
+.scene-card h2{margin:0 0 2px;font-size:clamp(1.35rem,2.4vw,2rem);line-height:1.25;color:var(--teal-950)}
+.scene-title-en{margin:0 0 18px;color:var(--teal-600);font-weight:700;font-size:.98rem}
+.context{margin:0 0 20px;padding:12px 15px;color:#496566;background:var(--mint-50);border-left:3px solid var(--teal-600);border-radius:0 10px 10px 0;font-size:.88rem}
+.context b{margin-right:10px;color:var(--teal-800)}
+.sentence-list{display:grid;gap:12px}
+.sentence{position:relative;display:grid;grid-template-columns:38px minmax(0,1fr);gap:12px;padding:16px;border:1px solid #e2ece8;border-radius:14px;background:#fcfefd;min-width:0}
+.sentence-no{color:var(--teal-600);font-size:.76rem;font-weight:850;font-variant-numeric:tabular-nums;padding-top:4px}
+.bilingual{min-width:0;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(14px,2vw,28px)}
+.lang-block{min-width:0}
+.lang-block p{margin:5px 0 0;overflow-wrap:anywhere}
+.en-block{padding-left:clamp(14px,2vw,28px);border-left:1px solid var(--line)}
+.en-block p{color:#0b5c60;font-weight:650}
+.lang-tag{display:inline-block;color:var(--muted);font-size:.66rem;font-weight:850;letter-spacing:.12em}
+.en-head{display:flex;justify-content:space-between;gap:10px;align-items:center;min-height:30px}
+.note{grid-column:2;margin:1px 0 0;color:#708182;font-size:.78rem}
+.note span{margin-right:7px;color:var(--amber);font-weight:750}
+.speak-btn{display:inline-flex;align-items:center;gap:7px;border:1px solid #b8d9d1;border-radius:9px;padding:7px 11px;color:var(--teal-800);background:#f5fbf8;cursor:pointer;white-space:nowrap;font-size:.78rem;font-weight:750;transition:.15s ease}
+.speak-btn:hover{color:#fff;background:var(--teal-700);border-color:var(--teal-700);transform:translateY(-1px)}
+.speak-btn.playing{color:#fff;background:var(--teal-700);border-color:var(--teal-700)}
+.speak-btn.compact{padding:4px 8px;font-size:.7rem}
+.speak-btn.icon-only{padding:3px 7px;margin-left:6px}
+.speak-btn.icon-only span:last-child{display:none}
+.pronounce-word{display:inline;margin:0;padding:0 2px;color:inherit;background:rgba(20,145,155,.08);border:0;border-bottom:1px dashed var(--teal-600);border-radius:3px;font:inherit;font-weight:inherit;line-height:inherit;cursor:pointer}
+.pronounce-word:hover,.pronounce-word:focus{color:var(--teal-950);background:#cceee4;border-bottom-style:solid;outline:3px solid rgba(20,145,155,.42);outline-offset:2px}
+.pronounce-word.playing{color:#fff;background:var(--teal-700);border-bottom-color:var(--teal-700)}
+.paraphrase{margin-top:18px;border-top:1px solid var(--line)}
+.paraphrase summary{padding:16px 0 3px;color:var(--teal-800);cursor:pointer;font-weight:800}
+.paraphrase summary span{color:var(--muted);font-size:.75rem;font-weight:500;margin-left:8px}
+.paraphrase ol{margin:12px 0 0;padding-left:22px}
+.paraphrase li{padding:7px 0 9px 5px}
+.paraphrase li p{margin:0;font-size:.9rem;font-weight:650}
+.paraphrase li small{display:block;color:var(--muted);font-size:.72rem;margin-top:2px}
+.chunks{margin-top:4px;color:var(--teal-700);font-size:.78rem}
+.study-section{margin:38px 0 0}
+.section-heading{display:flex;align-items:baseline;gap:10px;margin:0 0 15px;color:var(--teal-950);font-size:1.35rem}
+.section-heading small{color:var(--teal-600);font-size:.78rem;letter-spacing:.05em}
+.study-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.study-grid article{padding:17px;background:#fff;border:1px solid var(--line);border-radius:14px;box-shadow:0 6px 18px rgba(7,63,66,.05);min-width:0}
+.study-grid p{margin:0}
+.practice-en{margin-top:9px;color:var(--teal-700);font-weight:650;overflow-wrap:anywhere}
+.wrong{color:#a24831;text-decoration:line-through;overflow-wrap:anywhere}
+.right{color:var(--teal-700);font-weight:750;margin:5px 0;overflow-wrap:anywhere}
+.pitfalls p{color:var(--muted);font-size:.82rem}
+.shifts article{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1.5fr);gap:12px;align-items:center}
+.shifts b{color:var(--teal-600);font-size:1.2rem}
+.shifts strong{color:var(--teal-800)}
+footer{margin-top:38px;color:var(--muted);font-size:.78rem;text-align:center}
+.footer-note{margin-top:6px}
+@media (max-width:900px){
+  .page{grid-template-columns:1fr}
+  .sidebar{position:static}
+  .sidebar-box{overflow-x:auto;padding:12px}
+  .sidebar h2{padding-left:5px}
+  .map-nav{display:flex;width:max-content;gap:8px}
+  .map-link{width:240px;border:1px solid var(--line);border-radius:10px;padding:8px}
+  .bilingual{grid-template-columns:1fr}
+  .en-block{padding:12px 0 0;border-left:0;border-top:1px dashed var(--line)}
+}
+@media (max-width:620px){
+  .hero-inner{padding-top:30px}
+  .hero-flex{flex-direction:column;align-items:center}
+  .hero-cover{width:100%;max-width:360px}
+  .hero-text{text-align:center}
+  .page{padding-inline:10px;gap:18px}
+  .scene-card{border-radius:14px;padding:17px 13px}
+  .scene-topline{align-items:flex-start}
+  .scene-speak span:last-child{display:none}
+  .sentence{grid-template-columns:26px minmax(0,1fr);padding:13px 10px;gap:6px}
+  .note{grid-column:2}
+  .study-grid{grid-template-columns:1fr}
+  .shifts article{grid-template-columns:1fr;gap:5px}
+  .shifts b{transform:rotate(90deg);justify-self:start}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.speak-btn{transition:none}}</style>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="hero-flex">
+        <div class="hero-text">
+          <p class="eyebrow">Culture &amp; Arts · 文化艺术</p>
+          <h1>Vol.339 夏日特辑：夏天在各种意义上都漫长且愉快，日子发出声响</h1>
+          <p class="hero-en">Vol.339 Summer Special: Summer, Long and Pleasant in Every Sense, When the Days Ring Out</p>
+          <p class="summary-en" style="margin:0 0 14px;padding:14px 16px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.22);border-radius:12px;font-size:.95rem;line-height:1.7">A quarterly summer special of the show 'Culture is Finite': hosts Dayi, Chao Ge, and Xingguang each recommend music, films, series, and books — twelve works in total. From the twenty-year turnaround in how Jay Chou's 'Qilixiang' was received, to a 1990s film about slow romance, the meteorological decisions behind the Normandy landings, and a novel where love and totalitarianism mirror each other, the thread is that a long, lazy summer is the right time to regain your 'physical instincts' and your ability to say goodbye seriously.</p>
+          <div class="hero-meta">
+            <span class="chip">2026-07-05</span>
+            <span class="chip">小宇宙FM</span>
+            <span class="chip">1小时46分</span>
+            <span class="chip">4 Scenes</span>
+            <span class="chip">Click underlined words to hear them</span>
+            <a class="source-link" href="https://www.xiaoyuzhoufm.com/episode/6a2e306f4233e62bc549769e" target="_blank" rel="noopener">原播客 ↗</a>
+          </div>
+        </div>
+      </div>
+      <div class="toolbar">
+        <div class="lang-switch"><div class="lang-switch"><a href="wenhua_summer339-总结.html">中文</a><a class="active" href="wenhua_summer339-en.html" aria-current="page">EN</a></div></div>
+        <label for="speech-rate">朗读速度</label>
+        <select id="speech-rate">
+          <option value="0.85">慢速 0.85×</option>
+          <option value="1" selected>正常 1×</option>
+          <option value="1.15">快速 1.15×</option>
+        </select>
+        <button id="stop-speech" class="stop-btn" type="button">■ 停止朗读</button>
+        <span id="speech-status" class="speech-status" role="status" aria-live="polite"></span>
+      </div>
+      <div class="narration-player">
+      <p class="audio-label">🎧 中文语音讲解</p>
+      <button class="speak-btn" type="button" data-audio="audio/wenhua_summer339.mp3" aria-label="播放语音讲解"><span aria-hidden="true">▶</span><span>播放语音讲解</span></button>
+    </div>
+    </div>
+  </header>
+  <main class="page">
+    <aside class="sidebar" aria-label="场景地图">
+      <div class="sidebar-box">
+        <h2>场景地图 · SCENE MAP</h2>
+        <nav class="map-nav">
+          <a class="map-link" href="#s1">
+          <span class="map-id">S1</span>
+          <span><b>一、音乐：时代回声与专业舞台</b><small> · Music: Echoes of an Era and a Stage That Demands Real Skill</small></span>
+        </a>
+<a class="map-link" href="#s2">
+          <span class="map-id">S2</span>
+          <span><b>二、电影：状态电影 vs 决策电影</b><small> · Film: Movies of Mood vs. Movies of Decision</small></span>
+        </a>
+<a class="map-link" href="#s3">
+          <span class="map-id">S3</span>
+          <span><b>三、剧集与游戏：周末休息与版权现实</b><small> · Series &amp; Games: Weekend Escapes and the Reality of IP Rights</small></span>
+        </a>
+<a class="map-link" href="#s4">
+          <span class="map-id">S4</span>
+          <span><b>四、书籍：体验阅读与结构看见</b><small> · Books: Reading as Experience and Seeing the Structure</small></span>
+        </a>
+        </nav>
+      </div>
+    </aside>
+    <div class="content">
+      <section class="scene-card" id="s1" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S1</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/wenhua_summer339/s1.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>一、音乐：时代回声与专业舞台</h2>
+      <p class="scene-title-en">Music: Echoes of an Era and a Stage That Demands Real Skill</p>
+      <p class="context"><b>情境</b>借浪姐翻唱《搁浅》回溯周杰伦《七里香》的20年口碑反转，并讨论全开麦直播赛制如何让专业唱功重新成为硬指标。语域：casual 播客点评 + 音乐怀旧。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：借浪姐曾沛慈、叶一茜合唱《搁浅》，回溯2004年《七里香》发行时论坛差评——「水平回潮」「说唱不好」「广告歌太多」——与今日巅峰认知的对照</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/wenhua_summer339/s1-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The show uses a Sisters Who Make Waves cover of 'Stranded' by Zeng Peici and Ye Yiqian to revisit the harsh forum reviews when Jay Chou's 'Qilixiang' came out in 2004 — 'a step backward in skill,' 'bad rapping,' 'too many commercial songs' — set against the masterpiece status it enjoys today.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>cover → 翻唱；step backward in skill → 水平回潮；masterpiece status → 神作地位。Sisters Who Make Waves 即「浪姐」。</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：当时纷争会褪色，留下来的是作品本身；全开麦直播赛制让「会不会唱」重新成为硬指标，专业歌手（如曾沛慈：超级星光大道→金钟奖）的价值被放大</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/wenhua_summer339/s1-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key insight: the feuds of that time faded, and what survived is the work itself. The live, fully unmixed singing format has made 'can you actually sing' a hard requirement again, amplifying the value of trained singers like Zeng Peici, who went from the talent show Super Star Avenue to winning a Golden Bell Award.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>live unmixed format → 全开麦直播；hard requirement → 硬指标；talent show → 选秀节目；amplify → 放大价值</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>典型场景：想判断一首老歌是否被时代误读时，去搜当年首发评论；追综艺时区分「唱着玩」与「动真感情」的舞台</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/wenhua_summer339/s1-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">How to use this: when you wonder whether an old song was misunderstood by its era, dig up the reviews from its release year; when you watch a reality show, learn to tell a casual performance from one sung with real feeling.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>dig up → 翻出/挖出；release year → 发行年份；sing with real feeling → 动真感情</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据：「当时的那些纷争……好像变得没有那么重要，真正留下来的还是周杰伦自己的歌」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/wenhua_summer339/s1-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">'Back then, all those disputes… they seem to matter so much less now. What truly survived is Jay Chou's music itself.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>disputes → 纷争；matter less → 变得不那么重要；what truly survived → 真正留下来的东西</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）相关概念：与当下「翻红考古」类似，但重点在媒体环境变化（论坛→社交媒体）如何改写评价周期</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/wenhua_summer339/s1-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Related idea: it resembles today's 'throwback archaeology' trend, but the focus here is on how the media landscape shifting from forums to social media rewrites the cycle of public judgment.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>throwback archaeology → 翻红考古；media landscape → 媒体环境；evaluation cycle → 评价周期</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>00后哲学系说唱歌手，歌里年轻人拒葡萄汁、批判商业社会，老板问「牺牲现在换未来？」——最终全场酒水六折，「刷卡买」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/wenhua_summer339/s1-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">A post-2000 rapper who majored in philosophy, his lyrics show young people refusing grape juice and criticizing consumer society. The boss asks, 'Sacrifice now for the future?' — in the end, the whole bar gets drinks at forty percent off, and they pay by card.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>majored in philosophy → 哲学系出身；consumer society → 消费社会；forty percent off → 打六折</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「一首歌当年被骂，现在被封神」</p><div class="chunks">be trashed on release · be hailed as a masterpiece · treated as a classic</div><small>trashed 口语很形象；hailed as a masterpiece 更正式</small></li>
+<li><p>想说「唱功重新变成硬指标」</p><div class="chunks">a hard requirement · unmixed stage · you're exposed</div><small>be exposed 指被「打回原形」，口语点评常用</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s2" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S2</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/wenhua_summer339/s2.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>二、电影：状态电影 vs 决策电影</h2>
+      <p class="scene-title-en">Film: Movies of Mood vs. Movies of Decision</p>
+      <p class="context"><b>情境</b>解读埃里克·侯麦《夏天的故事》的「状态电影」写法、诺曼底登陆的气象决策，以及两类观影需求的方法边界。语域：casual 影评闲聊 + 少量术语。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>在讲什么：1996年Eric Rohmer作品，男孩暑假在海边与三名女孩关系暧昧，最终用「去接录音设备」的电话逃避选择——开放结局</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/wenhua_summer339/s2-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">What it's about: a 1996 film by Éric Rohmer in which a boy spends a summer at the seaside caught between three girls, and finally escapes making a choice through a phone call about picking up recording equipment — an open ending.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>caught between → 夹在…之间；open ending → 开放结局；escape a choice → 逃避选择</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：电影呈现「状态」而非强情节：无手机时代口头约定、餐厅偶遇、短暑假里通过聊天逐步认识；「生理信息」——身体诚实、理智不确定——是今日社交软件难以复制的张力</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/wenhua_summer339/s2-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key insight: the film presents a state of being rather than a plot-driven story — verbal promises in a pre-smartphone era, chance encounters at restaurants, getting to know each other through talk over a short summer. 'Physical information' — the body is honest while the mind hesitates — is a tension that today's dating apps can't reproduce.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>a state of being → 状态（电影的「状态写法」）；plot-driven → 强情节的；physical information → 生理信息；tension → 张力</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>怎么用：夏日放松观看；若做复古穿搭研究，96年服装即淘宝「复古老钱风」源头之一</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/wenhua_summer339/s2-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">How to use it: watch it as a relaxed summer movie; if you're researching vintage outfits, the 1996 wardrobe is one of the roots of the 'old-money aesthetic' trend on Taobao.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>vintage outfit → 复古穿搭；old-money aesthetic → 老钱风；root/origin → 源头</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）别用「脚踏三只船」道德标签误读——那是20岁对自我与未来的整体不确定，非单纯渣男叙事</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/wenhua_summer339/s2-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Don't misread it with the moral label 'three-timing' — the boy's drift is the whole uncertainty of a twenty-year-old about himself and his future, not a simple playboy narrative.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>misread → 误读；three-timing → 脚踏三只船；playboy narrative → 渣男叙事</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>气象学家斯塔格在诺曼底登陆前72小时预测天气，三层冲突：科学判断 vs 军事窗口、艾森豪威尔协调各军种、妻子医院被炸仍不能离岗</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/wenhua_summer339/s2-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Meteorologist James Stagg had to predict the weather 72 hours before D-Day under three layers of conflict: scientific judgment versus the military's weather window, Eisenhower juggling the different branches of the armed forces, and Stagg's wife lying in a bombed hospital while he cannot leave his post.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>weather window → 登陆气象窗口；juggle → 同时协调；layers of conflict → 层层冲突</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>方法边界：适合想理解「非草台班子团队如何在极限压力下交付」的观众；不是战争大片爽片路线</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/wenhua_summer339/s2-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Boundary: this one is for viewers who want to understand how a serious, well-oiled team delivers under extreme pressure — it is not the blockbuster, action-war route.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>well-oiled team → 运转精良的团队（非草台班子）；deliver under pressure → 在压力下交付；blockbuster → 大片</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「电影讲的是状态，不是情节」</p><div class="chunks">a mood piece · plot-driven · that's the point</div><small>mood piece 是影评术语；第二句更口语俏皮</small></li>
+<li><p>想说「身体很诚实，理智却犹豫」</p><div class="chunks">the body tells the truth · keep hesitating · can't decide</div><small>第一句更书面，第二句日常聊天更顺</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s3" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S3</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/wenhua_summer339/s3.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>三、剧集与游戏：周末休息与版权现实</h2>
+      <p class="scene-title-en">Series & Games: Weekend Escapes and the Reality of IP Rights</p>
+      <p class="context"><b>情境</b>推荐轻松系剧集与一款可自主选择的3A游戏，并科普漫威蜘蛛侠/X战警版权分裂史。语域：casual 播客闲聊 + 版权科普。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>亚马逊出品，黑白/彩色双版本可选；本·莱利侦探版蜘蛛侠，偏轻松搞笑而非硬核黑电影。附带漫威版权分裂史：蜘蛛侠售索尼、X战警售福斯，索尼需按合约周期出片否则版权回流</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/wenhua_summer339/s3-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">An Amazon original with both black-and-white and color versions; this is Ben Reilly's detective Spider-Man, leaning light and comedic rather than hard-boiled noir. It also comes with a lesson in Marvel's rights history: Spider-Man was licensed to Sony and the X-Men to Fox, and Sony has to release movies on a contract schedule or the rights revert.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>Amazon original → 亚马逊出品；hard-boiled noir → 硬核黑电影；rights revert → 版权回流；contract schedule → 合约周期</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）怎么落地：漫威粉可当作版权课；普通观众当8集轻松 noir 喜剧</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/wenhua_summer339/s3-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">How to use it: Marvel fans can treat it as a lesson in licensing, while casual viewers can just enjoy an eight-episode light noir comedy.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>treat A as B → 把A当作B；licensing → 版权授权；light comedy → 轻松喜剧</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>星光在剧集环节「跑题」推荐：片头片尾、演职员表、叙事总监设置让3A接近影视工业，且玩家可参与选择</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/wenhua_summer339/s3-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Xingguang goes off-topic in the series segment to recommend a game: its opening credits, end credits, and a 'narrative director' setting bring a triple-A title close to the film industry — and the player gets to make the choices.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>go off-topic → 跑题；opening/end credits → 片头/片尾演职员表；triple-A title → 3A 游戏；narrative director → 叙事总监</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>2005台剧，三位45+女友：八点档演员开酒吧、电台主播捉奸离婚后儿子出柜、母胎solo水电工杨世美。核心戏：杨世美与陈冠忠因生活秩序不合分手，两人坐在草坪上想象「若在一起会怎样」，冠忠说「可那就不是你了」——体面告别</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/wenhua_summer339/s3-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">A 2005 Taiwanese drama about three women over forty-five: a prime-time actress who opens a bar, a radio host who catches her husband cheating, divorces, and later sees her son come out, and Yang Shimei, an electrician who has never been in a relationship. The centerpiece: Yang Shimei and Chen Guanzhong break up because their ways of life clash, then sit on the lawn imagining 'what if we had stayed together' — he says, 'But then you wouldn't be you anymore.' A dignified goodbye.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>prime-time drama → 八点档；catch sb cheating → 捉奸；come out → 出柜；dignified goodbye → 体面告别</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）「告别不是为对方，是为把这段关系在你心里好好归档。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/wenhua_summer339/s3-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">'A goodbye isn't for the other person — it's so you can file the relationship away properly in your own heart.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>file away → 归档；properly → 好好地/妥当地；in one's own heart → 在心里</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）别用断联、互喷代替告别——剧集示范的是「想象共同未来后再承认不合适」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/wenhua_summer339/s3-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Don't replace a goodbye with ghosting or lashing out — the show demonstrates 'imagining a shared future together, then admitting it's not right.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>ghosting → 断联/消失；lash out → 互相攻击；admit it's not right → 承认不合适</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「这部剧很轻松，不用带脑」</p><div class="chunks">low-stakes · on autopilot · easy viewing</div><small>on autopilot 指不用动脑，口语很常见</small></li>
+<li><p>想说「体面分手比撕破脸好」</p><div class="chunks">a dignified goodbye · burn the bridge · end things properly</div><small>burn the bridge 指撕破脸/把事情做绝</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s4" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S4</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/wenhua_summer339/s4.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>四、书籍：体验阅读与结构看见</h2>
+      <p class="scene-title-en">Books: Reading as Experience and Seeing the Structure</p>
+      <p class="context"><b>情境</b>从一本旧书店漫画的「体验式阅读」、东德背景小说《凯罗斯》的爱情与极权同构，到古建解剖图入门书。语域：casual 读书分享 + 文学点评。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>超哥推荐漫画：旧书店员工与客人的日常，2024日本漫画大赏。店长说读书若只为猎奇长知识「多没劲」，是为体会糟心、憋气、心碎等人生滋味</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/wenhua_summer339/s4-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Chao Ge recommends a manga about the daily life of a secondhand-bookstore clerk and its customers, winner of the 2024 Manga Taisho Award. The shopkeeper says reading purely for fun facts and knowledge is 'so boring' — the point is to taste life's feelings: frustration, suffocation, heartbreak.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>secondhand bookstore → 旧书店；Manga Taisho Award → 日本漫画大赏；taste life's feelings → 体会人生滋味</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>适用边界：想放松、无 KPI 阅读时；不适合当效率方法论</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/wenhua_summer339/s4-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Boundary: great for relaxed reading with no KPI attached; don't treat it as a productivity method.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>with no KPI attached → 不带考核指标；productivity method → 效率方法论</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>19岁 Katharina 与50+东德体制内作家 Hans 六年不伦；Hans 控制欲（录音带、悔过书）影射东德意识形态。苏公生点破：「爱情和极权是同构的」——理解 Katharina 为何不离开，需把 Hans 读成即将消亡的政权</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/wenhua_summer339/s4-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Katharina, nineteen, carries on a six-year affair with Hans, a writer in his fifties inside the East German establishment. Hans's controlling behavior — tape recordings, written confessions — mirrors the regime's ideology. The narrator puts it plainly: 'Love and totalitarianism share the same structure.' To understand why Katharina doesn't leave, you have to read Hans as a regime about to die.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>have an affair → 不伦/婚外情；inside the establishment → 体制内；totalitarianism → 极权；share the same structure → 同构</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：柏林墙倒塌后广播停波、编辑部领信封失业，政权死亡与个人关系终结并置书写</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/wenhua_summer339/s4-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key insight: after the Berlin Wall falls, the radio station goes silent and editors receive their pink slips in envelopes — the death of a regime and the end of a relationship are written in parallel.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>go silent → 停波/沉寂；pink slip → 解雇通知；in parallel → 并置书写</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据：「就像波西米亚人里秘密死去时，所有朋友都完全没有差距。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/wenhua_summer339/s4-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">'Just as in Bohemian life, when a secret dies, none of the friends ever notice the difference.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>保持诗意的直译；none ever notice → 无人察觉；引号内为剧中原文的英文转述</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>1949台北出生，追随梁思成足迹；72座古建、190+解剖图、900+实景（新版彩色）。佛光寺东大殿纵剖「劈开」见唐代梁架——术语（斗拱、梁架）用图讲清</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/wenhua_summer339/s4-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Born in Taipei in 1949, the author follows in Liang Sicheng's footsteps: 72 ancient buildings, over 190 cutaway diagrams, and more than 900 real photographs in the new color edition. The longitudinal section of Foguang Temple's Great East Hall is 'split open' to reveal the Tang dynasty timber frame — terms like dougong bracket sets and roof trusses are explained through drawings.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>cutaway diagram → 解剖图；longitudinal section → 纵剖面；timber frame → 梁架；dougong bracket set → 斗拱；follow in sb's footsteps → 追随…足迹</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「读书是为了体会情绪，不是涨知识」</p><div class="chunks">read to feel · collect facts · live the feelings</div><small>第一句简短有力，适合口头总结</small></li>
+<li><p>想说「要读懂角色，得把TA当成隐喻」</p><div class="chunks">read A as B · a metaphor · see A as B</div><small>read sb as sth 是文学评论标准说法</small></li>
+        </ol>
+      </details>
+    </section>
+      <section class="study-section" id="practice">
+      <h2 class="section-heading">今日可练 <small>PRACTICE TODAY</small></h2>
+      <div class="study-grid">
+        <article>
+          <p>用「What truly survived is…」说：真正留下来的是作品本身。</p>
+          <div class="practice-en">
+            What truly survived the feud was the song itself, not the hype around it.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/wenhua_summer339/practice-0.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「caught between」说：他夹在两个选择之间。</p>
+          <div class="practice-en">
+            He was caught between two paths and couldn't bring himself to choose.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/wenhua_summer339/practice-1.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「a dignified goodbye」说：体面的告别需要想象共同未来。</p>
+          <div class="practice-en">
+            A dignified goodbye means imagining a shared future first, then letting go.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/wenhua_summer339/practice-2.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「read A as B」说：要把 Hans 读成即将消亡的政权。</p>
+          <div class="practice-en">
+            You have to read Hans as a regime that is about to die.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/wenhua_summer339/practice-3.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article>
+      </div>
+    </section>
+      <section class="study-section pitfalls" id="pitfalls">
+      <h2 class="section-heading">避坑 <small>PITFALLS</small></h2>
+      <div class="study-grid">
+        <article>
+          <div class="wrong">✕ The song was very famous, now everyone says it is good.</div>
+          <div class="right">✓ The song was trashed on release but is now hailed as a masterpiece.</div>
+          <p>只说他『现在出名』丢掉了时间维度；用 trashed on release / hailed as a masterpiece 才能体现口碑反转。</p>
+        </article><article>
+          <div class="wrong">✕ He likes three girls at the same time, he is a bad man.</div>
+          <div class="right">✓ He drifts between three girls — it's the uncertainty of being twenty, not a playboy story.</div>
+          <p>直译『坏男人』太粗暴；drift between + 补一句 not a playboy story 才贴合原意。</p>
+        </article><article>
+          <div class="wrong">✕ The show tells us a lot of knowledge about copyright.</div>
+          <div class="right">✓ The show doubles as a lesson in how Marvel's licensing works.</div>
+          <p>knowledge 是中式直译；『顺带科普』用 doubles as a lesson in …。</p>
+        </article><article>
+          <div class="wrong">✕ The old bookstore's owner says reading is for seeing more things.</div>
+          <div class="right">✓ The shopkeeper says the point of reading is to taste life's feelings.</div>
+          <p>『多没劲』的翻译重点是体会情绪而非涨知识；用 the point is to + taste。</p>
+        </article>
+      </div>
+    </section>
+      <section class="study-section shifts" id="mindset">
+      <h2 class="section-heading">认知转变 <small>MINDSET SHIFTS</small></h2>
+      <div class="study-grid">
+        <article>
+          <span>以为老作品当年受欢迎，就是一路好评到今天</span>
+          <b aria-hidden="true">→</b>
+          <strong>口碑会随媒体环境反转——论坛时代被骂的歌，二十年后再被封神</strong>
+        </article><article>
+          <span>以为爱情故事看得懂就够了</span>
+          <b aria-hidden="true">→</b>
+          <strong>把角色读成隐喻（如 Hans=将死的政权），才真正读懂了人物行为</strong>
+        </article><article>
+          <span>以为告别就是断联、互喷、冷处理</span>
+          <b aria-hidden="true">→</b>
+          <strong>体面的告别是先想象共同未来，再好好把关系在心里归档</strong>
+        </article>
+      </div>
+    </section>
+      <footer>
+        双语学习版 · 场景/句子朗读使用 edge-tts（en-US） · 单词发音使用浏览器 Web Speech API
+        <div class="footer-note">中文版：<a href="wenhua_summer339-总结.html">wenhua_summer339-总结.html</a> · SVG 版：<a href="viewer.html?f=wenhua_summer339-总结.svg" target="_blank">wenhua_summer339-总结.svg</a></div>
+      </footer>
+    </div>
+  </main>
+  <script>(() => {
+  let activeAudio = null;
+  let activeBtn = null;
+  const status = document.getElementById('speech-status');
+  const stopBtn = document.getElementById('stop-speech');
+  const rateSel = document.getElementById('speech-rate');
+
+  const reset = () => {
+    if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+    activeBtn?.classList.remove('playing');
+    activeBtn = null;
+    stopBtn.classList.remove('visible');
+    status.textContent = '';
+  };
+
+  const playAudio = (url, btn) => {
+    reset();
+    const audio = new Audio(url);
+    audio.playbackRate = Number(rateSel.value);
+    activeAudio = audio;
+    activeBtn = btn;
+    btn.classList.add('playing');
+    stopBtn.classList.add('visible');
+    status.textContent = btn.classList.contains('scene-speak')
+      ? 'Reading the whole scene…'
+      : 'Reading…';
+
+    audio.onended = () => { if (activeAudio === audio) reset(); };
+    audio.onerror = () => { status.textContent = 'Audio failed to load.'; if (activeAudio === audio) reset(); };
+    audio.play().catch(() => { status.textContent = 'Playback failed.'; if (activeAudio === audio) reset(); });
+  };
+
+  document.addEventListener('click', e => {
+    const btn = e.target.closest('[data-audio]');
+    if (!btn) return;
+    e.preventDefault();
+    if (btn === activeBtn && activeAudio) { reset(); return; }
+    playAudio(btn.dataset.audio, btn);
+  });
+
+  stopBtn.addEventListener('click', reset);
+
+  const synth = window.speechSynthesis;
+  const getEnglishVoice = () => {
+    const voices = synth.getVoices();
+    return voices.find(v => /^en-(US|GB)/i.test(v.lang))
+        || voices.find(v => /^en/i.test(v.lang)) || null;
+  };
+
+  const difficultWords = new Set([
+    'assortment', 'SKU', 'premium', 'margin', 'middleman', 'OEM', 'rebranding',
+    'hoarding', 'PTSD', 'curation', 'repurchase', 'touchpoint', 'backlash',
+    'reshuffle', 'funnel', 'anchor', 'contract', 'psychology', 'private', 'label',
+    'editorial', 'familiar', 'competitors', 'authorization', 'flexibility'
+  ]);
+
+  const shouldPronounce = word => {
+    const n = word.toLowerCase().replace(/^[^a-z]+|[^a-z]+$/g, '');
+    return n.replace(/[^a-z]/g, '').length >= 8 || difficultWords.has(n);
+  };
+
+  const markPronounceableWords = root => {
+    const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+    const nodes = [];
+    while (walker.nextNode()) nodes.push(walker.currentNode);
+    nodes.forEach(node => {
+      if (node.parentElement?.closest('button, script, style')) return;
+      const text = node.nodeValue;
+      let m, last = 0, changed = false;
+      const frag = document.createDocumentFragment();
+      const re = /[A-Za-z]+(?:[-'’][A-Za-z]+)*/g;
+      while ((m = re.exec(text))) {
+        if (!shouldPronounce(m[0])) continue;
+        changed = true;
+        frag.append(text.slice(last, m.index));
+        const wb = document.createElement('button');
+        wb.type = 'button'; wb.className = 'pronounce-word';
+        wb.dataset.speak = m[0];
+        wb.setAttribute('aria-label', '\u8bfb\u5355\u8bcd ' + m[0]);
+        wb.title = '\u70b9\u51fb\u542c\u53d1\u97f3';
+        wb.textContent = m[0];
+        frag.append(wb);
+        last = m.index + m[0].length;
+      }
+      if (!changed) return;
+      frag.append(text.slice(last));
+      node.replaceWith(frag);
+    });
+  };
+
+  document.querySelectorAll(
+    '.english, .scene-title-en, .paraphrase li p, .chunks, .practice-en, .wrong, .right, .summary-en'
+  ).forEach(markPronounceableWords);
+
+  document.addEventListener('click', e => {
+    const wb = e.target.closest('.pronounce-word');
+    if (!wb) return;
+    e.preventDefault();
+    if (!synth) return;
+    synth.cancel();
+    if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+    activeBtn?.classList.remove('playing');
+    activeBtn = wb;
+    wb.classList.add('playing');
+    const u = new SpeechSynthesisUtterance(wb.dataset.speak);
+    u.lang = 'en-US';
+    u.rate = 0.88;
+    const v = getEnglishVoice();
+    if (v) u.voice = v;
+    u.onend = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+    u.onerror = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+    synth.speak(u);
+  });
+})();</script>
+</body>
+</html>

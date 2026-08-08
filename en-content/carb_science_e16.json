@@ -1,0 +1,424 @@
+{
+  "slug": "carb_science_e16",
+  "date": "2026-07-24",
+  "platform": "小宇宙FM",
+  "title": "E16 如何科学吃碳水？先吃肉还是先吃饭？营养学博士的控糖实验室",
+  "title_en": "E16 How to Eat Carbs Smartly? Meat First or Rice First? A Nutrition PhD's Glucose-Control Lab",
+  "eyebrow": "Health & Nutrition · 健康营养",
+  "duration": "1小时02分",
+  "source_url": "https://www.xiaoyuzhoufm.com/episode/6944f0791d7e78adb4a8915e",
+  "summary_cn": "代谢营养学博士陆陆做客，从动态血糖仪实测出发，系统拆解碳水化学结构、升糖指数/负荷、进食顺序、糖尿病分型与亚洲人内脏脂肪悖论，并揭示睡眠剥夺对血糖的杀伤力远超饮食本身",
+  "summary_en": "Metabolic-nutrition PhD Lu Lu joins the show with real data from continuous glucose monitors. Together they systematically break down the chemistry of carbohydrates — from monosaccharides to starches — glycemic index and glycemic load, food ordering, diabetes subtypes, and the Asian paradox of visceral fat. They also reveal that sleep deprivation wrecks blood sugar far more than any single meal. The bottom line: controlling added sugar matters more than cutting all carbs, and seven to eight hours of sleep beats any dietary tweak.",
+  "scenes": [
+    {
+      "id": "s1",
+      "title_cn": "一、碳水化学：从分子到餐桌",
+      "title_en": "Carb Chemistry: From Molecule to Table",
+      "context": "单糖、双糖、多糖的区别；真正该控的是添加糖；「碳水加碳水」的日常。语域：formal 科普讲解。",
+      "speak": "Let's start at the molecular level. The mechanism: sugar is the everyday word for carbohydrates, which split by chemical complexity into monosaccharides — glucose, fructose, galactose, which enter the blood directly — disaccharides like sucrose, lactose, and maltose, which can be hydrolyzed, and polysaccharides like starch, glycogen, and cellulose, which are only absorbed after enzymatic breakdown. The key insight: monosaccharides spike blood sugar fastest. Fiber counts as a carb but isn't absorbed, so treat it separately. For Chinese diets, starchy foods — rice, noodles, potatoes, sweet potatoes — are the real blood-sugar drivers, not just milk tea and cola. A typical scene: when reading nutrition labels, separate total carbs, fiber, and added sugar. Imported snacks sold in China often skip the added-sugar line, which gutses the label's value. The original line: \"What we should be controlling is added sugar... if the added sugar is high, you should try to avoid it.\" The related concept: controlling sugar means limiting added sugar first — not blindly cutting all carbohydrates. And a reality check on the table: southern breakfasts of soup dumplings and wontons, northern ones of noodles and fried dough sticks — it's really \"carbs on carbs.\" Shredded potato over rice and Basque sweet-potato wraps work the same way. Potatoes are usually treated as a vegetable, but their main nutrient is starch.",
+      "sentences": [
+        {
+          "cn": "核心机制：糖是碳水化合物的俗称，按化学复杂度分为单糖（葡萄糖、果糖、半乳糖，直接入血）、双糖（蔗糖、乳糖、麦芽糖，可水解）和多糖（淀粉、糖原、纤维素，需酶解后才吸收）",
+          "en": "The mechanism: sugar is the everyday word for carbohydrates, which split by chemical complexity into monosaccharides — glucose, fructose, galactose, which enter the blood directly — disaccharides like sucrose, lactose, and maltose, which can be hydrolyzed, and polysaccharides like starch, glycogen, and cellulose, which are only absorbed after enzymatic breakdown.",
+          "note": "<span>表达提示</span>monosaccharide → 单糖；disaccharide → 双糖；polysaccharide → 多糖；enzymatic breakdown → 酶解"
+        },
+        {
+          "cn": "关键理解：单糖升糖最快；纤维虽属碳水但不被吸收，应单独看待；中国人饮食中米饭、面条、土豆、红薯等淀粉类食物才是血糖主力，而非仅奶茶可乐",
+          "en": "The key insight: monosaccharides spike blood sugar fastest. Fiber counts as a carb but isn't absorbed, so treat it separately. For Chinese diets, starchy foods — rice, noodles, potatoes, sweet potatoes — are the real blood-sugar drivers, not just milk tea and cola.",
+          "note": "<span>表达提示</span>spike blood sugar → 升糖；fiber → 膳食纤维；starchy food → 淀粉类食物"
+        },
+        {
+          "cn": "典型场景：读营养标签时区分 total carbs、fiber、added sugar；中国进口零食常不标注添加糖，信息价值大打折扣",
+          "en": "A typical scene: when reading nutrition labels, separate total carbs, fiber, and added sugar. Imported snacks sold in China often skip the added-sugar line, which gutses the label's value.",
+          "note": "<span>表达提示</span>nutrition label → 营养标签；total carbs → 总碳水；added sugar → 添加糖"
+        },
+        {
+          "cn": "（引用）原文依据：「我们应该控制的是添加糖……如果 added sugar 比较多，应该尽量去避免摄入」",
+          "en": "\"What we should be controlling is added sugar... if the added sugar is high, you should try to avoid it.\"",
+          "note": "<span>表达提示</span>avoid intake → 避免摄入；high added sugar → 添加糖多"
+        },
+        {
+          "cn": "（引用）相关概念：控糖应优先限制添加糖（added sugar），而非盲目砍掉所有碳水",
+          "en": "Related concept: controlling sugar means limiting added sugar first — not blindly cutting all carbohydrates.",
+          "note": "<span>表达提示</span>limit first → 优先限制；blindly cut → 盲目砍掉"
+        },
+        {
+          "cn": "南方人早餐小笼包、小馄饨，北方人面条油条，本质是「碳水加碳水」——土豆丝盖饭、巴斯克地瓜卷饼同理。土豆常被当蔬菜，但主要营养是淀粉",
+          "en": "Southern breakfasts of soup dumplings and wontons, northern ones of noodles and fried dough sticks — it's really \"carbs on carbs.\" Shredded potato over rice and Basque sweet-potato wraps work the same way. Potatoes are usually treated as a vegetable, but their main nutrient is starch.",
+          "note": "<span>表达提示</span>carbs on carbs → 碳水加碳水；fried dough sticks → 油条；main nutrient → 主要营养"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「控糖先控添加糖」",
+          "phrases": [
+            "Cut added sugar first, keep the rest of the carbs.",
+            "The first target isn't all carbs — it's added sugar."
+          ],
+          "chunks": "cut added sugar first · the first target",
+          "usage": "第一句是行动，第二句是原则"
+        },
+        {
+          "intent": "想说「碳水加碳水的吃法」",
+          "phrases": [
+            "It's carbs on top of carbs.",
+            "Two starch-heavy foods, one meal."
+          ],
+          "chunks": "carbs on top of carbs · starch-heavy foods",
+          "usage": "第一句口语总结，第二句中性描述"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title_cn": "二、饮食模式：低碳、生酮与地中海",
+      "title_en": "Diet Patterns: Low-Carb, Keto, and Mediterranean",
+      "context": "同等热量缺口下低碳 vs 高碳减重无差异；生酮掉秤的真相是水分。语域：formal 科普讲解 + 数据引用。",
+      "speak": "Then the diet patterns. The mechanism: with the same calorie deficit, low-carb and high-carb diets show no significant weight-loss difference over 6 to 12 months — \"a calorie is a calorie.\" But the low-carb group had lower triglycerides, higher HDL, and lower fasting insulin — better metabolic markers. The key insight: low-carb helps most when you already have blood-sugar issues. For healthy people, long-term keto demands heavy fat and protein, a drastic shift in diet; ketones strain the kidneys, and the brain mainly runs on glucose. The boundary: the weight lost in the first one to two weeks of keto is glycogen from the liver — each gram binds three to four grams of water — not fat. Keto has a therapeutic role for children with epilepsy, but for ordinary people the cost may not be worth it. The original line: \"In the short term, one to two weeks, you'll see weight loss... it mainly comes from liver glycogen depletion and water loss.\" And the self-experiment: while wearing a CGM, one week of low-carb shed one kilogram — which came right back after returning to a normal diet. That confirms it was water plus glycogen, not real fat loss. As Lu Lu puts it: \"That kilogram wasn't from fat loss — it was liver glycogen and water after I cut sugar... once I ate normally again, the kilogram came back.\"",
+      "sentences": [
+        {
+          "cn": "核心机制：同等热量缺口下，低碳 vs 高碳在 6-12 个月减重效果无显著差异（「卡路里就是卡路里」）。但低碳组甘油三酯降低、HDL 升高、空腹胰岛素降低，代谢指标更优",
+          "en": "The mechanism: with the same calorie deficit, low-carb and high-carb diets show no significant weight-loss difference over 6 to 12 months — \"a calorie is a calorie.\" But the low-carb group had lower triglycerides, higher HDL, and lower fasting insulin — better metabolic markers.",
+          "note": "<span>表达提示</span>calorie deficit → 热量缺口；triglyceride → 甘油三酯；fasting insulin → 空腹胰岛素"
+        },
+        {
+          "cn": "关键理解：低碳对已有血糖问题者帮助大；健康人长期生酮需大量脂肪/蛋白，饮食结构改变剧烈，酮体对肾脏负担大，大脑主要依赖葡萄糖供能",
+          "en": "The key insight: low-carb helps most when you already have blood-sugar issues. For healthy people, long-term keto demands heavy fat and protein, a drastic shift in diet; ketones strain the kidneys, and the brain mainly runs on glucose.",
+          "note": "<span>表达提示</span>long-term keto → 长期生酮；ketone → 酮体；run on glucose → 靠葡萄糖供能"
+        },
+        {
+          "cn": "适用边界：生酮短期 1-2 周掉秤是肝糖原（每克结合 3-4 克水）消耗所致，非脂肪减少；癫痫儿童有治疗用途，普通人未必收益大于代价",
+          "en": "The boundary: the weight lost in the first one to two weeks of keto is glycogen from the liver — each gram binds three to four grams of water — not fat. Keto has a therapeutic role for children with epilepsy, but for ordinary people the cost may not be worth it.",
+          "note": "<span>表达提示</span>glycogen → 糖原；therapeutic role → 治疗用途；worth it → 收益大于代价"
+        },
+        {
+          "cn": "（引用）原文依据：「短期一两个礼拜之内会有一个减重效果……主要是来源于肝脏糖原的消耗还有水分的消耗」",
+          "en": "\"In the short term, one to two weeks, you'll see weight loss... it mainly comes from liver glycogen depletion and water loss.\"",
+          "note": "<span>表达提示</span>glycogen depletion → 糖原消耗；water loss → 水分消耗"
+        },
+        {
+          "cn": "佩戴 CGM 期间低碳一周瘦 1kg，恢复正常饮食后立刻回来——证实为水分+糖原，非真正减脂",
+          "en": "While wearing a CGM, one week of low-carb shed one kilogram — which came right back after returning to a normal diet. That confirms it was water plus glycogen, not real fat loss.",
+          "note": "<span>表达提示</span>CGM → 动态血糖仪；came right back → 立刻回来；fat loss → 减脂"
+        },
+        {
+          "cn": "（引用）「那一公斤其实并不是减肥得到的，而是因为我减少了糖摄入之后，肝糖原还有水分……正常吃饭之后那一公斤又回来了」",
+          "en": "\"That kilogram wasn't from fat loss — it was liver glycogen and water after I cut sugar... once I ate normally again, the kilogram came back.\"",
+          "note": "<span>表达提示</span>eat normally → 正常吃饭；came back → 又回来了"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「减重上低碳高碳没差别」",
+          "phrases": [
+            "Low-carb and high-carb lose the same amount of weight.",
+            "A calorie is a calorie for weight loss."
+          ],
+          "chunks": "same amount of weight · a calorie is a calorie",
+          "usage": "第一句具体，第二句是金句"
+        },
+        {
+          "intent": "想说「掉秤是水分不是脂肪」",
+          "phrases": [
+            "That's water weight, not fat.",
+            "It comes off fast and comes back faster."
+          ],
+          "chunks": "water weight · not fat · comes right back",
+          "usage": "第一句直说，第二句俏皮"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title_cn": "三、升糖指数与进食顺序",
+      "title_en": "Glycemic Index and Food Ordering",
+      "context": "GI/GL 的核心区别；先菜肉后碳水的机制与 15 分钟间隔。语域：formal 科普讲解。",
+      "speak": "Now the glycemic index and food ordering. The mechanism: GI, the glycemic index, measures how fast a fixed amount of carbs raises blood sugar — glucose is 100. GL, the glycemic load, is GI times total carbs. High-GI foods include white rice, white bread, potatoes, and grapes, at 70 or above; medium ones like sweet potato, brown rice, and oats sit between 56 and 69. The key insight: watermelon has a high GI but is mostly water with low total carbs, so its GL stays low; white rice is high on both GI and GL, making it the bigger offender. The area under the curve captures both the peak height and how fast it falls back. The boundary: people with diabetes should focus on GI because of the insulin response; everyone else can manage both GI and total intake through GL. The original line: \"Five bites of watermelon might fill you up... but five bites of rice bring a lot more carbs.\" And the ordering mechanism: in a controlled study of type 2 diabetes patients, with the same Western-style meal, eating protein and vegetables first, waiting 15 minutes, then eating the carbs, lowered post-meal blood sugar by more than 20 percent at every time point versus the carbs-first group. The key insight: the 15-minute gap is essential — a bite of chicken followed immediately by rice doesn't work. Eating slowly and social meals, where you chat between bites, help control sugar almost by accident.",
+      "sentences": [
+        {
+          "cn": "核心机制：GI（升糖指数）衡量单位碳水升高血糖的速度（葡萄糖=100）；GL（升糖负荷）= GI × 碳水总量。高 GI：白米饭、白面包、土豆、葡萄（≥70）；中 GI：红薯、糙米、燕麦（56-69）",
+          "en": "The mechanism: GI, the glycemic index, measures how fast a fixed amount of carbs raises blood sugar — glucose is 100. GL, the glycemic load, is GI times total carbs. High-GI foods include white rice, white bread, potatoes, and grapes, at 70 or above; medium ones like sweet potato, brown rice, and oats sit between 56 and 69.",
+          "note": "<span>表达提示</span>glycemic index → 升糖指数；glycemic load → 升糖负荷；fixed amount → 单位量"
+        },
+        {
+          "cn": "关键理解：西瓜 GI 高但含水量大、碳水总量低，GL 不高；白米饭 GI 和 GL 双高，危害更大。曲线下面积同时反映峰值高度和回落速度",
+          "en": "The key insight: watermelon has a high GI but is mostly water with low total carbs, so its GL stays low; white rice is high on both GI and GL, making it the bigger offender. The area under the curve captures both the peak height and how fast it falls back.",
+          "note": "<span>表达提示</span>area under the curve → 曲线下面积；peak height → 峰值；fall back → 回落"
+        },
+        {
+          "cn": "适用边界：糖尿病人应重点关注 GI（胰岛素刺激）；普通人可兼顾 GL 控制总量",
+          "en": "The boundary: people with diabetes should focus on GI because of the insulin response; everyone else can manage both GI and total intake through GL.",
+          "note": "<span>表达提示</span>insulin response → 胰岛素刺激；manage total intake → 控制总量"
+        },
+        {
+          "cn": "（引用）原文依据：「五口西瓜可能就饱了……但你吃五口米饭，碳水会多很多」",
+          "en": "\"Five bites of watermelon might fill you up... but five bites of rice bring a lot more carbs.\"",
+          "note": "<span>表达提示</span>fill you up → 吃饱；a lot more carbs → 碳水多很多"
+        },
+        {
+          "cn": "核心机制：二型糖尿病患者的对照研究：同样西式套餐，先吃蛋白质+蔬菜、等 15 分钟再吃碳水，餐后各时点血糖比先碳水组降低 20% 以上",
+          "en": "The mechanism: in a controlled study of type 2 diabetes patients, with the same Western-style meal, eating protein and vegetables first, waiting 15 minutes, then eating the carbs, lowered post-meal blood sugar by more than 20 percent at every time point versus the carbs-first group.",
+          "note": "<span>表达提示</span>controlled study → 对照研究；post-meal blood sugar → 餐后血糖；time point → 时点"
+        },
+        {
+          "cn": "关键理解：必须间隔约 15 分钟才有效；一口鸡肉立刻吃米饭则无效。慢吃、社交聚餐（边聊边吃）间接帮助控糖",
+          "en": "The key insight: the 15-minute gap is essential — a bite of chicken followed immediately by rice doesn't work. Eating slowly and social meals, where you chat between bites, help control sugar almost by accident.",
+          "note": "<span>表达提示</span>by accident → 无意中/间接；eat slowly → 慢吃"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「GI 高不等于 GL 高」",
+          "phrases": [
+            "High GI doesn't always mean high GL.",
+            "Watermelon spikes fast but loads light."
+          ],
+          "chunks": "high GI · high GL · loads light",
+          "usage": "第一句准确，第二句俏皮"
+        },
+        {
+          "intent": "想说「先吃菜肉再吃米饭」",
+          "phrases": [
+            "Protein and veg first, carbs 15 minutes later.",
+            "Front-load the fiber and protein."
+          ],
+          "chunks": "protein and veg first · front-load",
+          "usage": "第一句具体操作，第二句更概念化"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "title_cn": "四、糖尿病分型与亚洲人代谢悖论",
+      "title_en": "Diabetes Subtypes and the Asian Metabolic Paradox",
+      "context": "一型二型的本质区别；亚裔皮下脂肪「枷锁」与苹果型身材风险。语域：formal 科普讲解。",
+      "speak": "Then the diabetes subtypes. The mechanism: type 1 is an autoimmune attack on beta cells — absolute insulin deficiency, onset in youth, unrelated to obesity, patients often slim. Type 2 is insulin resistance — the lock is rusted; the key is still there but can't turn. Obesity, especially visceral fat, is the main trigger. The key insight: the hormones that manage blood sugar — insulin lowers it, while glucagon raises it during hunger or stress. Type 1 requires lifelong insulin injections; for type 2, injected insulin helps much less. The related concept: Sana BioTech's allogeneic islet-cell transplants — knocking out HLA and boosting CD47 — bring hope for type 1 patients, but they're costly and carry immune and cancer risks. Then the Asian paradox: Asian subcutaneous fat is more fibrotic; once it can't expand further, surplus energy is forced into visceral fat. An Asian with slim limbs and a round belly — the apple shape — may carry very high visceral fat, putting type 2 risk above evenly obese Westerners. As the doctor puts it: \"Asian subcutaneous fat has been put in shackles... surplus energy can only take the road of visceral fat.\" And the flip side: the pear shape — gaining weight around hips and thighs — is actually the healthier one metabolically.",
+      "sentences": [
+        {
+          "cn": "核心机制：一型：自身免疫攻击 β 细胞，绝对胰岛素缺乏，青少年发病，与肥胖无关，患者常偏瘦。二型：胰岛素抵抗（锁生锈），钥匙还在但开不了门，肥胖尤其是内脏脂肪是主要诱因",
+          "en": "The mechanism: type 1 is an autoimmune attack on beta cells — absolute insulin deficiency, onset in youth, unrelated to obesity, patients often slim. Type 2 is insulin resistance — the lock is rusted; the key is still there but can't turn. Obesity, especially visceral fat, is the main trigger.",
+          "note": "<span>表达提示</span>beta cell → β 细胞；insulin resistance → 胰岛素抵抗；visceral fat → 内脏脂肪"
+        },
+        {
+          "cn": "关键理解：调控血糖的激素：胰岛素降血糖，胰高血糖素（饥饿/紧张时）升血糖；一型需终身注射胰岛素，二型注射胰岛素效果有限",
+          "en": "The key insight: the hormones that manage blood sugar — insulin lowers it, while glucagon raises it during hunger or stress. Type 1 requires lifelong insulin injections; for type 2, injected insulin helps much less.",
+          "note": "<span>表达提示</span>glucagon → 胰高血糖素；lifelong injection → 终身注射"
+        },
+        {
+          "cn": "（引用）相关概念：Sana BioTech 异体胰岛细胞移植（敲除 HLA + 增强 CD47）为一型患者带来希望，但昂贵且有免疫/癌变风险",
+          "en": "Related concept: Sana BioTech's allogeneic islet-cell transplants — knocking out HLA and boosting CD47 — bring hope for type 1 patients, but they're costly and carry immune and cancer risks.",
+          "note": "<span>表达提示</span>islet-cell transplant → 胰岛细胞移植；knock out → 敲除"
+        },
+        {
+          "cn": "亚裔皮下脂肪纤维化程度更高，扩张到一定程度后无法继续储存，多余能量被迫流向内脏脂肪。四肢瘦、肚子圆（苹果型）的亚洲人，内脏脂肪可能很高，二型糖尿病风险反而高于均匀肥胖的西方人",
+          "en": "Asian subcutaneous fat is more fibrotic; once it can't expand further, surplus energy is forced into visceral fat. An Asian with slim limbs and a round belly — the apple shape — may carry very high visceral fat, putting type 2 risk above evenly obese Westerners.",
+          "note": "<span>表达提示</span>subcutaneous fat → 皮下脂肪；fibrotic → 纤维化；apple shape → 苹果型身材"
+        },
+        {
+          "cn": "（引用）「亚裔皮下脂肪被上了一个枷锁……多余的能量只能走内脏脂肪这条路」",
+          "en": "\"Asian subcutaneous fat has been put in shackles... surplus energy can only take the road of visceral fat.\"",
+          "note": "<span>表达提示</span>shackles → 枷锁；surplus energy → 多余能量"
+        },
+        {
+          "cn": "（引用）梨形身材（臀腿易长肉）从代谢角度反而更健康",
+          "en": "The pear shape — gaining weight around hips and thighs — is actually the healthier one metabolically.",
+          "note": "<span>表达提示</span>pear shape → 梨形身材；metabolically → 从代谢角度"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「钥匙还在，锁坏了」",
+          "phrases": [
+            "The key still fits, but the lock is rusted.",
+            "Insulin is there — the body just won't listen."
+          ],
+          "chunks": "lock is rusted · won't listen",
+          "usage": "第一句是原文比喻，第二句更通俗"
+        },
+        {
+          "intent": "想说「瘦也可能内脏脂肪高」",
+          "phrases": [
+            "Slim on the outside, fatty on the inside.",
+            "The apple shape hides visceral fat even in thin people."
+          ],
+          "chunks": "slim outside · fatty inside · apple shape",
+          "usage": "第一句是总结，第二句更准确"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "title_cn": "五、特殊人群：妊娠、月经与避孕药",
+      "title_en": "Special Groups: Pregnancy, Menstrual Cycle, and Birth Control",
+      "context": "妊娠期为何故意胰岛素抵抗；月经周期两阶段血糖差异。语域：formal 科普讲解。",
+      "speak": "Next, special groups. The reason: the placenta's hormone HPL deliberately creates insulin resistance, keeping blood sugar a bit high to feed the fetus. But overly high sugar causes fetal hyperinsulinemia, then a large baby, then difficult delivery or newborn hypoglycemia. The solution: apply the food-ordering principle, keep your usual exercise within a safe range — don't suddenly ramp up — and note that Asian women pass the first glucose screening less often, possibly because of lower muscle mass and standards built around Western bodies. Severity: for both mother and baby, this is a life-threatening level that needs medical management. As one guest says: \"With the glucose tolerance test, you rarely hear of a Chinese woman passing on the first try.\" Then the menstrual cycle. In the follicular phase, before ovulation, estrogen is high, insulin sensitivity rises, and blood sugar is at its most stable — a good window for high-intensity training. In the luteal phase, after ovulation and before the period, progesterone rises with mild insulin resistance — bigger appetite, cravings for sweets: \"the body isn't getting the glucose; most of it stays in the blood.\"",
+      "sentences": [
+        {
+          "cn": "原因：孕期胎盘激素（HPL）故意制造胰岛素抵抗，让血糖偏高以供给胎儿；但过高血糖导致胎儿高胰岛素血症→巨大儿→难产/新生儿低血糖",
+          "en": "The reason: the placenta's hormone HPL deliberately creates insulin resistance, keeping blood sugar a bit high to feed the fetus. But overly high sugar causes fetal hyperinsulinemia, then a large baby, then difficult delivery or newborn hypoglycemia.",
+          "note": "<span>表达提示</span>placenta → 胎盘；fetal hyperinsulinemia → 胎儿高胰岛素血症；newborn hypoglycemia → 新生儿低血糖"
+        },
+        {
+          "cn": "解法：应用进食顺序原则；维持安全范围内原有运动量（非孕期突然加量）；亚洲女性首次糖筛通过率低，可能与肌肉量较少、标准偏西方有关",
+          "en": "The solution: apply the food-ordering principle, keep your usual exercise within a safe range — don't suddenly ramp up — and note that Asian women pass the first glucose screening less often, possibly because of lower muscle mass and standards built around Western bodies.",
+          "note": "<span>表达提示</span>glucose screening → 糖筛；muscle mass → 肌肉量；ramp up → 突然加量"
+        },
+        {
+          "cn": "严重程度：对母婴：致命级需医学管理",
+          "en": "Severity: for both mother and baby, this is a life-threatening level that needs medical management.",
+          "note": "<span>表达提示</span>life-threatening → 致命级；medical management → 医学管理"
+        },
+        {
+          "cn": "（引用）「中国人做糖水测试，基本上很少听说第一次就过的」",
+          "en": "\"With the glucose tolerance test, you rarely hear of a Chinese woman passing on the first try.\"",
+          "note": "<span>表达提示</span>glucose tolerance test → 糖耐量测试；pass on the first try → 第一次就过"
+        },
+        {
+          "cn": "卵泡期（排卵前）：雌激素高，胰岛素敏感性增强，血糖最稳定，适合高强度训练",
+          "en": "In the follicular phase, before ovulation, estrogen is high, insulin sensitivity rises, and blood sugar is at its most stable — a good window for high-intensity training.",
+          "note": "<span>表达提示</span>follicular phase → 卵泡期；insulin sensitivity → 胰岛素敏感性"
+        },
+        {
+          "cn": "黄体期（排卵后-月经前）：孕激素升高，轻度胰岛素抵抗，食欲旺盛、嗜甜食——「身体没吃到血糖，大部分留在血液中」",
+          "en": "In the luteal phase, after ovulation and before the period, progesterone rises with mild insulin resistance — bigger appetite, cravings for sweets: \"the body isn't getting the glucose; most of it stays in the blood.\"",
+          "note": "<span>表达提示</span>luteal phase → 黄体期；progesterone → 孕激素；cravings for sweets → 嗜甜食"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「孕期血糖高是故意的」",
+          "phrases": [
+            "Pregnancy raises sugar on purpose — to feed the baby.",
+            "The body keeps glucose high for the fetus."
+          ],
+          "chunks": "on purpose · to feed the baby · for the fetus",
+          "usage": "第一句口语，第二句科学化"
+        },
+        {
+          "intent": "想说「月经周期血糖跟着变」",
+          "phrases": [
+            "Blood sugar swings with your cycle.",
+            "Stable before ovulation, hungry and craving sweets after."
+          ],
+          "chunks": "swings with your cycle · craving sweets",
+          "usage": "第一句概括，第二句具体"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "title_cn": "六、睡眠与压力：被低估的血糖杀手",
+      "title_en": "Sleep and Stress: The Underrated Blood-Sugar Killer",
+      "context": "熬夜对血糖的杀伤力超过饮食；睡眠剥夺实验数据。语域：formal 科普讲解 + 数据引用。",
+      "speak": "And finally, the underrated killer. Why it matters: in the host's CGM data, staying up late affected blood sugar more than any dietary factor — sleep badly one night and the next day's sugar spirals out of control; sleep well and the whole day stays stable. The boundary: occasional late nights are reversible; chronic sleep deprivation needs systematic intervention. As the host puts it: \"The biggest thing affecting my blood sugar... mine was always stable, but if I stayed up late the night before, the next day it spiked uncontrollably.\" How to apply it: prioritize seven to eight hours of sleep — it delivers faster results than obsessing over what you eat. The mechanism: in one study, 11 healthy young adults were split into two groups — six days of four-hour sleeps versus eight-hour sleeps, with diet and activity fully controlled. The sleep-deprived group cleared post-meal glucose 40 percent slower and cut insulin response by 30 percent — beta cells secreted less, and cortisol suppressed insulin's action. The original line: \"In just six days of sleep deprivation, you can already see this response in healthy young adults.\"",
+      "sentences": [
+        {
+          "cn": "为什么重要：主持人发现 CGM 数据中，熬夜对血糖的影响超过一切饮食因素——前一天没睡好，第二天血糖失控飙升；睡足则全天平稳",
+          "en": "Why it matters: in the host's CGM data, staying up late affected blood sugar more than any dietary factor — sleep badly one night and the next day's sugar spirals out of control; sleep well and the whole day stays stable.",
+          "note": "<span>表达提示</span>stay up late → 熬夜；spiral out of control → 失控飙升"
+        },
+        {
+          "cn": "适用边界：短期偶尔熬夜影响可逆；慢性睡眠剥夺需系统干预",
+          "en": "The boundary: occasional late nights are reversible; chronic sleep deprivation needs systematic intervention.",
+          "note": "<span>表达提示</span>reversible → 可逆的；chronic sleep deprivation → 慢性睡眠剥夺"
+        },
+        {
+          "cn": "（引用）「对血糖影响最大的……就是我血糖一直都很稳定，但只要我前一天熬夜……第二天血糖就是控制不住的飙升」",
+          "en": "\"The biggest thing affecting my blood sugar... mine was always stable, but if I stayed up late the night before, the next day it spiked uncontrollably.\"",
+          "note": "<span>表达提示</span>biggest thing → 影响最大的因素；spike uncontrollably → 控制不住地飙升"
+        },
+        {
+          "cn": "（引用）怎么落地：优先保证 7-8 小时睡眠，比纠结吃什么更立竿见影",
+          "en": "How to apply it: prioritize seven to eight hours of sleep — it delivers faster results than obsessing over what you eat.",
+          "note": "<span>表达提示</span>prioritize → 优先保证；fast results → 立竿见影"
+        },
+        {
+          "cn": "核心机制：11 名健康青年，一组连续 6 天每天只睡 4 小时，另一组睡 8 小时，饮食活动量完全控制。睡眠剥夺组：餐后血糖清除率降低 40%，胰岛素反应降低 30%——β 细胞分泌能力下降 + 胰岛素作用受皮质醇抑制",
+          "en": "The mechanism: in one study, 11 healthy young adults were split into two groups — six days of four-hour sleeps versus eight-hour sleeps, with diet and activity fully controlled. The sleep-deprived group cleared post-meal glucose 40 percent slower and cut insulin response by 30 percent — beta cells secreted less, and cortisol suppressed insulin's action.",
+          "note": "<span>表达提示</span>sleep-deprived → 睡眠剥夺；clear glucose → 清除血糖；cortisol → 皮质醇"
+        },
+        {
+          "cn": "（引用）原文依据：「仅仅六天的睡眠剥夺实验中，就能看到健康青年会有这样的一个反应」",
+          "en": "\"In just six days of sleep deprivation, you can already see this response in healthy young adults.\"",
+          "note": "<span>表达提示</span>healthy young adults → 健康青年；this response → 这样的反应"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「熬夜比吃错更伤血糖」",
+          "phrases": [
+            "Missing sleep hits your sugar harder than any meal.",
+            "A bad night outranks a bad diet."
+          ],
+          "chunks": "hits your sugar harder · outranks a bad diet",
+          "usage": "第一句准确，第二句是金句"
+        },
+        {
+          "intent": "想说「睡足七到八小时」",
+          "phrases": [
+            "Get your seven to eight hours — no shortcuts.",
+            "Sleep first, diet second."
+          ],
+          "chunks": "seven to eight hours · sleep first · diet second",
+          "usage": "第一句行动指令，第二句排序原则"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "cn": "用「added sugar」说：控糖先控添加糖。",
+      "en": "When it comes to sugar control, start with added sugar."
+    },
+    {
+      "cn": "用「water weight」说：生酮前两周掉的是水分不是脂肪。",
+      "en": "The first two weeks on keto are mostly water weight, not fat."
+    },
+    {
+      "cn": "用「front-load」说：先吃纤维和蛋白质，把碳水留在最后。",
+      "en": "Front-load the fiber and protein, and save the carbs for last."
+    },
+    {
+      "cn": "用「prioritize sleep」说：7-8 小时睡眠比纠结吃什么都管用。",
+      "en": "Prioritize seven to eight hours of sleep — it beats obsessing over every meal."
+    }
+  ],
+  "pitfalls": [
+    {
+      "wrong": "Eating sugar is bad, so I cut all carbohydrate.",
+      "right": "Cutting all carbs isn't the goal — controlling added sugar is.",
+      "why": "all carbohydrate 用单数中式；「控糖」重点是 added sugar 而非全砍碳水。"
+    },
+    {
+      "wrong": "The keto diet lost one kg, then it came back after eating.",
+      "right": "I lost one kilogram on keto, but it was water weight — it returned once I ate normally.",
+      "why": "主语错误：减肥的是人不是饮食；且要说明那是水分不是脂肪。"
+    },
+    {
+      "wrong": "Diabetes people should eat less sugar.",
+      "right": "People with diabetes should manage GI and total carbohydrate load.",
+      "why": "diabetes people 是中式搭配，用 people with diabetes；重点是 GI/GL 管理。"
+    },
+    {
+      "wrong": "Yesterday I slept late, so today my blood sugar is high.",
+      "right": "Because I stayed up late last night, my blood sugar is out of control today.",
+      "why": "slept late 多指「睡懒觉/起得晚」，熬夜用 stay up late；out of control 更贴「飙升」。"
+    }
+  ],
+  "shifts": [
+    {
+      "before": "控糖就是不吃米饭",
+      "after": "先控添加糖，主食选 GI/GL 更低的，不必全砍碳水"
+    },
+    {
+      "before": "生酮两周掉 3 斤=瘦了",
+      "after": "那是肝糖原加水分，正常吃饭就回来"
+    },
+    {
+      "before": "吃什么比睡不睡重要",
+      "after": "睡不够 7-8 小时，血糖杀手是熬夜不是那顿饭"
+    }
+  ],
+  "voice": "en-US-JennyNeural",
+  "audio_dir": "audio/en/carb_science_e16"
+}

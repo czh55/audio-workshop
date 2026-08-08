@@ -1,0 +1,956 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="在日本，慢慢过出了属于我们的夏天｜Vol.55 - 范来张口FM — Bilingual Learning Edition" />
+  <title>在日本，慢慢过出了属于我们的夏天｜Vol.55 - 范来张口FM｜EN 双语学习版</title>
+  <style>:root{--teal-950:#073f42;--teal-800:#0d686c;--teal-700:#0f7c80;--teal-600:#14919b;--mint-100:#dff4ec;--mint-50:#f0faf6;--ink:#183536;--muted:#607879;--line:#d7e8e2;--paper:#fff;--amber:#a85d08;--shadow:0 12px 32px rgba(7,63,66,.08)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:24px}
+body{margin:0;color:var(--ink);background:#edf7f2;font-family:Inter,"PingFang SC","Noto Sans SC","Microsoft YaHei",system-ui,sans-serif;line-height:1.65}
+button,select{font:inherit}
+a{color:inherit}
+.hero{color:#fff;background:radial-gradient(circle at 85% 10%,rgba(129,230,196,.24),transparent 30%),linear-gradient(125deg,#073f42,#0d7377 56%,#14919b)}
+.hero-inner{width:min(1440px,100%);margin:auto;padding:44px clamp(20px,5vw,72px) 36px}
+.hero-flex{display:flex;gap:clamp(18px,3vw,40px);align-items:flex-start}
+.hero-cover{width:min(240px,42vw);height:auto;max-height:320px;object-fit:contain;object-position:center;border-radius:16px;border:1px solid rgba(255,255,255,.28);box-shadow:0 18px 44px rgba(0,0,0,.32);flex-shrink:0;background:rgba(255,255,255,.08)}
+.hero-text{min-width:0;flex:1}
+.eyebrow{margin:0 0 12px;font-size:.78rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;opacity:.8}
+h1{max-width:1020px;margin:0;font-size:clamp(1.7rem,3.6vw,3rem);line-height:1.15;letter-spacing:-.04em}
+.hero-en{margin:12px 0 22px;font-size:clamp(1rem,2vw,1.25rem);opacity:.82}
+.hero-meta{display:flex;flex-wrap:wrap;gap:9px;align-items:center}
+.chip{border:1px solid rgba(255,255,255,.28);border-radius:99px;padding:5px 11px;font-size:.82rem;background:rgba(255,255,255,.08)}
+.source-link{font-weight:750;text-decoration:none;border-bottom:1px solid rgba(255,255,255,.5)}
+.toolbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:22px}
+.toolbar label{font-size:.82rem;opacity:.82}
+.toolbar select{color:#fff;background:#0a5d61;border:1px solid rgba(255,255,255,.3);border-radius:8px;padding:7px 9px}
+.stop-btn{display:none;color:#fff;background:#8c3b2a;border:0;border-radius:8px;padding:8px 12px;cursor:pointer}
+.stop-btn.visible{display:inline-flex}
+.speech-status{min-height:1.4em;font-size:.82rem;opacity:.88}
+.lang-switch{display:inline-flex;gap:6px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.28);border-radius:99px;padding:4px}
+.lang-switch a{display:inline-block;padding:4px 13px;border-radius:99px;font-size:.8rem;font-weight:700;text-decoration:none;color:rgba(255,255,255,.75)}
+.lang-switch a.active{background:#fff;color:var(--teal-800)}
+.narration-player{margin-top:16px;padding:14px 18px;background:rgba(255,255,255,.1);border-radius:12px;border:1px solid rgba(255,255,255,.15)}
+.audio-label{color:rgba(255,255,255,.88);font-size:.82rem;font-weight:700;margin:0 0 8px}
+.page{width:min(1440px,100%);margin:auto;padding:28px clamp(16px,3vw,44px) 64px;display:grid;grid-template-columns:minmax(230px,280px) minmax(0,1fr);gap:30px;align-items:start}
+.sidebar{position:sticky;top:20px;min-width:0}
+.sidebar-box{background:rgba(255,255,255,.8);border:1px solid var(--line);border-radius:16px;padding:17px;box-shadow:var(--shadow);backdrop-filter:blur(12px)}
+.sidebar h2{margin:0 0 13px;font-size:.9rem;letter-spacing:.08em;color:var(--teal-800)}
+.map-link{display:grid;grid-template-columns:34px minmax(0,1fr);gap:9px;padding:10px 6px;text-decoration:none;border-top:1px solid var(--line)}
+.map-link:hover b{color:var(--teal-700)}
+.map-id{width:30px;height:30px;display:grid;place-items:center;border-radius:9px;color:#fff;background:var(--teal-700);font-size:.72rem;font-weight:800}
+.map-link b{display:block;font-size:.78rem;line-height:1.4}
+.map-link small{display:block;color:var(--muted);font-size:.67rem;line-height:1.4;margin-top:2px;overflow-wrap:anywhere}
+.content{min-width:0}
+.scene-card{background:var(--paper);border:1px solid var(--line);border-radius:20px;padding:clamp(20px,3vw,34px);margin-bottom:24px;box-shadow:var(--shadow);overflow:hidden}
+.scene-topline{display:flex;justify-content:space-between;gap:16px;align-items:center;margin-bottom:16px}
+.scene-id{display:inline-grid;place-items:center;min-width:42px;height:30px;padding:0 10px;color:#fff;background:var(--teal-700);border-radius:8px;font-size:.78rem;font-weight:850}
+.time{margin-left:10px;color:var(--muted);font-size:.82rem;font-variant-numeric:tabular-nums}
+.scene-card h2{margin:0 0 2px;font-size:clamp(1.35rem,2.4vw,2rem);line-height:1.25;color:var(--teal-950)}
+.scene-title-en{margin:0 0 18px;color:var(--teal-600);font-weight:700;font-size:.98rem}
+.context{margin:0 0 20px;padding:12px 15px;color:#496566;background:var(--mint-50);border-left:3px solid var(--teal-600);border-radius:0 10px 10px 0;font-size:.88rem}
+.context b{margin-right:10px;color:var(--teal-800)}
+.sentence-list{display:grid;gap:12px}
+.sentence{position:relative;display:grid;grid-template-columns:38px minmax(0,1fr);gap:12px;padding:16px;border:1px solid #e2ece8;border-radius:14px;background:#fcfefd;min-width:0}
+.sentence-no{color:var(--teal-600);font-size:.76rem;font-weight:850;font-variant-numeric:tabular-nums;padding-top:4px}
+.bilingual{min-width:0;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(14px,2vw,28px)}
+.lang-block{min-width:0}
+.lang-block p{margin:5px 0 0;overflow-wrap:anywhere}
+.en-block{padding-left:clamp(14px,2vw,28px);border-left:1px solid var(--line)}
+.en-block p{color:#0b5c60;font-weight:650}
+.lang-tag{display:inline-block;color:var(--muted);font-size:.66rem;font-weight:850;letter-spacing:.12em}
+.en-head{display:flex;justify-content:space-between;gap:10px;align-items:center;min-height:30px}
+.note{grid-column:2;margin:1px 0 0;color:#708182;font-size:.78rem}
+.note span{margin-right:7px;color:var(--amber);font-weight:750}
+.speak-btn{display:inline-flex;align-items:center;gap:7px;border:1px solid #b8d9d1;border-radius:9px;padding:7px 11px;color:var(--teal-800);background:#f5fbf8;cursor:pointer;white-space:nowrap;font-size:.78rem;font-weight:750;transition:.15s ease}
+.speak-btn:hover{color:#fff;background:var(--teal-700);border-color:var(--teal-700);transform:translateY(-1px)}
+.speak-btn.playing{color:#fff;background:var(--teal-700);border-color:var(--teal-700)}
+.speak-btn.compact{padding:4px 8px;font-size:.7rem}
+.speak-btn.icon-only{padding:3px 7px;margin-left:6px}
+.speak-btn.icon-only span:last-child{display:none}
+.pronounce-word{display:inline;margin:0;padding:0 2px;color:inherit;background:rgba(20,145,155,.08);border:0;border-bottom:1px dashed var(--teal-600);border-radius:3px;font:inherit;font-weight:inherit;line-height:inherit;cursor:pointer}
+.pronounce-word:hover,.pronounce-word:focus{color:var(--teal-950);background:#cceee4;border-bottom-style:solid;outline:3px solid rgba(20,145,155,.42);outline-offset:2px}
+.pronounce-word.playing{color:#fff;background:var(--teal-700);border-bottom-color:var(--teal-700)}
+.paraphrase{margin-top:18px;border-top:1px solid var(--line)}
+.paraphrase summary{padding:16px 0 3px;color:var(--teal-800);cursor:pointer;font-weight:800}
+.paraphrase summary span{color:var(--muted);font-size:.75rem;font-weight:500;margin-left:8px}
+.paraphrase ol{margin:12px 0 0;padding-left:22px}
+.paraphrase li{padding:7px 0 9px 5px}
+.paraphrase li p{margin:0;font-size:.9rem;font-weight:650}
+.paraphrase li small{display:block;color:var(--muted);font-size:.72rem;margin-top:2px}
+.chunks{margin-top:4px;color:var(--teal-700);font-size:.78rem}
+.study-section{margin:38px 0 0}
+.section-heading{display:flex;align-items:baseline;gap:10px;margin:0 0 15px;color:var(--teal-950);font-size:1.35rem}
+.section-heading small{color:var(--teal-600);font-size:.78rem;letter-spacing:.05em}
+.study-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.study-grid article{padding:17px;background:#fff;border:1px solid var(--line);border-radius:14px;box-shadow:0 6px 18px rgba(7,63,66,.05);min-width:0}
+.study-grid p{margin:0}
+.practice-en{margin-top:9px;color:var(--teal-700);font-weight:650;overflow-wrap:anywhere}
+.wrong{color:#a24831;text-decoration:line-through;overflow-wrap:anywhere}
+.right{color:var(--teal-700);font-weight:750;margin:5px 0;overflow-wrap:anywhere}
+.pitfalls p{color:var(--muted);font-size:.82rem}
+.shifts article{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1.5fr);gap:12px;align-items:center}
+.shifts b{color:var(--teal-600);font-size:1.2rem}
+.shifts strong{color:var(--teal-800)}
+footer{margin-top:38px;color:var(--muted);font-size:.78rem;text-align:center}
+.footer-note{margin-top:6px}
+@media (max-width:900px){
+  .page{grid-template-columns:1fr}
+  .sidebar{position:static}
+  .sidebar-box{overflow-x:auto;padding:12px}
+  .sidebar h2{padding-left:5px}
+  .map-nav{display:flex;width:max-content;gap:8px}
+  .map-link{width:240px;border:1px solid var(--line);border-radius:10px;padding:8px}
+  .bilingual{grid-template-columns:1fr}
+  .en-block{padding:12px 0 0;border-left:0;border-top:1px dashed var(--line)}
+}
+@media (max-width:620px){
+  .hero-inner{padding-top:30px}
+  .hero-flex{flex-direction:column;align-items:center}
+  .hero-cover{width:100%;max-width:360px}
+  .hero-text{text-align:center}
+  .page{padding-inline:10px;gap:18px}
+  .scene-card{border-radius:14px;padding:17px 13px}
+  .scene-topline{align-items:flex-start}
+  .scene-speak span:last-child{display:none}
+  .sentence{grid-template-columns:26px minmax(0,1fr);padding:13px 10px;gap:6px}
+  .note{grid-column:2}
+  .study-grid{grid-template-columns:1fr}
+  .shifts article{grid-template-columns:1fr;gap:5px}
+  .shifts b{transform:rotate(90deg);justify-self:start}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.speak-btn{transition:none}}</style>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="hero-flex">
+        <div class="hero-text">
+          <p class="eyebrow">Japan Culture · 日本文化</p>
+          <h1>在日本，慢慢过出了属于我们的夏天｜Vol.55 - 范来张口FM</h1>
+          <p class="hero-en">Slowly Living Out Our Own Summer in Japan</p>
+          <p class="summary-en" style="margin:0 0 14px;padding:14px 16px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.22);border-radius:12px;font-size:.95rem;line-height:1.7">Two Chinese long-term residents of Tokyo, Lao Fan and Shirley, start from "midsummer day" heat and unfold the differences between how China and Japan get through summer — watermelon freedom versus air-conditioning freedom, indoor cooling systems, summer food, cicada song, wind chimes, and fireworks festivals. They land on a shared conclusion: Japan's seemingly superfluous rituals turn summer from a piece of weather into a rhythm of life with colors, tastes, and sounds — and turn them from merely living into actually starting to live.</p>
+          <div class="hero-meta">
+            <span class="chip">2026-08-08</span>
+            <span class="chip">小宇宙FM</span>
+            <span class="chip">1小时29分</span>
+            <span class="chip">5 Scenes</span>
+            <span class="chip">Click underlined words to hear them</span>
+            <a class="source-link" href="https://www.xiaoyuzhoufm.com/episode/6a6e5037ab3a91c24a0e471b" target="_blank" rel="noopener">原播客 ↗</a>
+          </div>
+        </div>
+      </div>
+      <div class="toolbar">
+        <div class="lang-switch"><div class="lang-switch"><a href="japan-summer-life-总结.html">中文</a><a class="active" href="japan-summer-life-en.html" aria-current="page">EN</a></div></div>
+        <label for="speech-rate">朗读速度</label>
+        <select id="speech-rate">
+          <option value="0.85">慢速 0.85×</option>
+          <option value="1" selected>正常 1×</option>
+          <option value="1.15">快速 1.15×</option>
+        </select>
+        <button id="stop-speech" class="stop-btn" type="button">■ 停止朗读</button>
+        <span id="speech-status" class="speech-status" role="status" aria-live="polite"></span>
+      </div>
+      <div class="narration-player">
+      <p class="audio-label">🎧 中文语音讲解</p>
+      <button class="speak-btn" type="button" data-audio="audio/japan-summer-life.mp3" aria-label="播放语音讲解"><span aria-hidden="true">▶</span><span>播放语音讲解</span></button>
+    </div>
+    </div>
+  </header>
+  <main class="page">
+    <aside class="sidebar" aria-label="场景地图">
+      <div class="sidebar-box">
+        <h2>场景地图 · SCENE MAP</h2>
+        <nav class="map-nav">
+          <a class="map-link" href="#s1">
+          <span class="map-id">S1</span>
+          <span><b>一、高温之下：西瓜自由与空调自由</b><small> · Under the Heat: Watermelon Freedom and Air-Con Freedom</small></span>
+        </a>
+<a class="map-link" href="#s2">
+          <span class="map-id">S2</span>
+          <span><b>二、室内避暑系统：空调 · 风扇 · 遮阳</b><small> · Indoor Cooling Systems: AC, Fans, and Shade</small></span>
+        </a>
+<a class="map-link" href="#s3">
+          <span class="map-id">S3</span>
+          <span><b>三、夏天的味道：从凉面到鳗鱼</b><small> · The Taste of Summer: From Cold Noodles to Eel</small></span>
+        </a>
+<a class="map-link" href="#s4">
+          <span class="map-id">S4</span>
+          <span><b>四、风物诗：蝉鸣、风铃与清凉包装</b><small> · Seasonal Scenes: Cicadas, Wind Chimes, and Cool Packaging</small></span>
+        </a>
+<a class="map-link" href="#s5">
+          <span class="map-id">S5</span>
+          <span><b>五、花火大会与夏日祭：从游客到生活</b><small> · Fireworks and Summer Festivals: From Tourist to Resident</small></span>
+        </a>
+        </nav>
+      </div>
+    </aside>
+    <div class="content">
+      <section class="scene-card" id="s1" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S1</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/japan-summer-life/s1.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>一、高温之下：西瓜自由与空调自由</h2>
+      <p class="scene-title-en">Under the Heat: Watermelon Freedom and Air-Con Freedom</p>
+      <p class="context"><b>情境</b>酷暑日、骤热、梅雨结束后气温跳变，以及"失去西瓜自由，获得空调自由"的金句。语域：casual 生活闲聊 + 体感对比。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：日本把30度以上的天气命名为"酷暑日"。今年梅雨季特别长，7月初还只有23-24度，梅雨一过直接跳到35-36度——中间的过渡气温"被吃掉了"，人们几乎来不及适应</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/japan-summer-life/s1-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Japan officially names days above 30 degrees "midsummer days." This year the rainy season dragged on, so early July was still 23 to 24 degrees — but the moment the rain ended, it jumped to 35 to 36. The transitional temperatures in between "got eaten up," and people barely had time to adapt.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>midsummer day → 酷暑日；rainy season → 梅雨季；transitional temperatures → 过渡气温</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：岛国四季分明，真正的夏天只有7月初到8月底（比国内"晚一个月"，也短得多）；骤热比持续高温更难防——7月全国半个月就有1万多人因中暑被救护车拉走</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/japan-summer-life/s1-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key insight: on this island nation, real summer only runs from early July to late August — about a month later than in China, and much shorter. Sudden heat is harder to guard against than a long hot stretch — nationwide, more than 10,000 people were taken to hospital by ambulance for heatstroke in half a month in July.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>island nation → 岛国；sudden heat → 骤热；heatstroke → 中暑；guard against → 防范</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>典型场景：7月初晚上还得盖被子睡觉，中旬开始不吹空调就活不下去；同一屋檐下，天津的湿热像"蒸笼"，日本的干热则是另一种体感</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/japan-summer-life/s1-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">A typical scene: in early July you still sleep under a blanket; by mid-month you can't survive without air conditioning. Under the same roof, Tianjin's humid heat feels like a steamer, while Japan's dry heat is a completely different sensation.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>humid heat → 湿热；like a steamer → 像蒸笼；dry heat → 干热</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据："今年是7月初那時23、24度，然後到了中旬梅雨季只要一過，就從23、24度變成了35、36度了，就感覺中間那些氣溫被吃掉了。"</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/japan-summer-life/s1-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">"This year, early July was 23, 24 degrees; then mid-month, as soon as the rainy season ended, it went from 23, 24 to 35, 36 — it feels like the temperatures in between got eaten up."</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>as soon as → 一…就…；get eaten up → 被吃掉</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）相关概念：酷暑日 → 骤热预警 → 中暑风险管理（气象与健康的连接点）</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/japan-summer-life/s1-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Related concept: midsummer day → sudden heat warnings → heatstroke risk management — the link where weather meets health.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>heat warning → 高温预警；risk management → 风险管理；weather meets health → 气象与健康的交汇</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）金句："你雖然失去了西瓜自由，但是獲得了空調自由。"——两个中国人在日本，用"贵到离谱的西瓜"换来了"开空调不被唠叨"的自由</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/japan-summer-life/s1-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The gem: "You may have lost watermelon freedom, but you gained air-conditioning freedom." Two Chinese in Japan traded ludicrously expensive watermelons for the freedom to run the AC without being nagged.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>freedom → 自由；ludicrously expensive → 贵到离谱；nag → 唠叨</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「中间气温被吃掉了」</p><div class="chunks">in-between temperatures vanished · jump straight into</div><small>第一句形象，第二句更直接</small></li>
+<li><p>想说「用西瓜自由换空调自由」</p><div class="chunks">trade A for B · worry-free air conditioning</div><small>trade A for B 是对比金句的常用结构</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s2" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S2</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/japan-summer-life/s2.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>二、室内避暑系统：空调 · 风扇 · 遮阳</h2>
+      <p class="scene-title-en">Indoor Cooling Systems: AC, Fans, and Shade</p>
+      <p class="context"><b>情境</b>除湿模式的妙用、一直开反而省电、木造房保温差与"结界"现象。语域：casual 生活经验 + 家电使用技巧。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：日本的空调除湿模式=降低湿度+轻微降温，湿度降下来后体感清爽，甚至比设定26度的制冷"还冷一点"，且不会像制冷那样忽冷忽热</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/japan-summer-life/s2-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Japan's dehumidify mode lowers humidity while gently cooling — once the humidity drops, the body feels fresh, sometimes even "colder" than cooling mode set at 26 degrees, and without the alternating hot-cold swings.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>dehumidify mode → 除湿模式；cooling mode → 制冷模式；hot-cold swings → 忽冷忽热</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：老范坦言"来日本之后才学会用除湿"——因为在国内没有空调自由，根本不知道这个功能是干嘛的；而制冷模式恒温差（设26度有时越吹越热，吹着吹着就变成了"制热"），除湿反而更稳定</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/japan-summer-life/s2-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key insight: Lao Fan admits he only learned to use dehumidify after coming to Japan — because back home, without air-conditioning freedom, he never knew what the function was for. Cooling mode is also unstable — set at 26 degrees, it sometimes blows hotter and hotter, turning into "heating" — while dehumidify stays steadier.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>learn to use → 学会用；turn into heating → 变成制热；steady → 稳定</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>典型场景：夏天家里上下两层空调一直开着除湿；老范以前的"老式用法"——开最低温最大风，吹冷了再关、热了再开——既费电又不舒服</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/japan-summer-life/s2-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">A typical scene: both floors of their home run dehumidify all summer. Lao Fan's old habit — cranking the AC to the lowest temperature and highest fan, then turning it off when cold and on again when hot — wasted power and felt terrible.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>crank up → 开到最大；waste power → 费电</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据："一直開除濕，我會覺得它要比這個製冷26度還要冷一點"；"我也是最近才學到的，一直開著空調相對來說是省電的。"</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/japan-summer-life/s2-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">"With dehumidify running constantly, I feel it's a bit colder than cooling mode at 26 degrees." "I only recently learned that keeping the AC running all the time is actually more power-efficient."</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>power-efficient → 省电；keep running → 一直开着</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）相关概念：空调病观念 → 温度自由 → 除湿模式（观念的转变带来工具的效率跃升）</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/japan-summer-life/s2-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Related concept: the air-conditioning-illness mindset → temperature freedom → dehumidify mode — a shift in mindset that brings a leap in how efficiently you use the tool.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>mindset shift → 观念转变；leap in efficiency → 效率跃升</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：日本木造房保温隔热差，二楼白天可达32度；空调装在哪间屋，凉气就"困"在那间——即使开着门，门口也像有个"结界"，凉气只在屋内自己循环，不会流到隔壁</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/japan-summer-life/s2-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The mechanism: Japanese wooden houses insulate poorly, so the second floor can hit 32 degrees by day. Wherever the AC is installed, the cool air stays "trapped" in that room — even with the door open, it's like there's a barrier at the doorway; the cool air circulates inside but never flows to the next room.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>wooden house → 木造房；insulate → 保温；trapped → 被困住；barrier → 结界/屏障</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「一直开着反而省电」</p><div class="chunks">keep it on · more energy-efficient · on and off</div><small>第二句更口语，blasting 很形象</small></li>
+<li><p>想说「凉气只在屋里自己循环」</p><div class="chunks">cycles inside · stuck there</div><small>第一句中性描述，第二句更口语</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s3" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S3</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/japan-summer-life/s3.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>三、夏天的味道：从凉面到鳗鱼</h2>
+      <p class="scene-title-en">The Taste of Summer: From Cold Noodles to Eel</p>
+      <p class="context"><b>情境</b>中日凉面的调味差异、土用丑日吃鳗鱼的习俗三层逻辑。语域：casual 美食闲聊 + 民俗讲解。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：主食逻辑相通（都是凉面），但调味完全不同——日式酸甜口让习惯麻酱的北方人吃不惯；日本的"清爽"更多靠味道寡淡+口感冷冽来达成，冷荞麦是最典型的代表</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/japan-summer-life/s3-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The staple logic is the same — both are cold noodles — but the seasoning is completely different. Japan's sweet-and-sour taste is hard for northerners used to sesame sauce; Japanese "refreshing" comes more from plain flavor plus icy texture, and cold soba is the most typical example.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>seasoning → 调味；sweet-and-sour → 酸甜口；sesame sauce → 麻酱；cold soba → 冷荞麦</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）相关概念：凉面=东亚共同解暑密码，风味差异来自"盐糖酸碱"的调味哲学不同</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/japan-summer-life/s3-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Related concept: cold noodles are East Asia's shared secret for beating the heat, and the flavor differences come from different seasoning philosophies of salt, sugar, acid, and alkali.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>beat the heat → 解暑；seasoning philosophy → 调味哲学</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：立春/立夏/立秋/立冬之前各有半个月叫"土用"（季节交替的过渡期），每12天循环一个"丑日"，两者相遇就是"土用丑日"</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/japan-summer-life/s3-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The mechanism: before each season's start — beginning of spring, summer, autumn, winter — there's a two-week window called "doyo," a transition period; every 12 days cycles an "ox day," and when the two meet, it's the "doyo ushi day."</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>seasonal transition → 换季过渡；doyo → 土用（日本传统节气）；ox day → 丑日</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：习俗是三层逻辑叠出来的：①换季没胃口，吃点滋补的；②"丑"的发音同"う"，吃"う"开头的食物（鳗鱼うなぎ、乌冬うどん、梅子うめ）被认为吉利又滋补；③商业宣传让鳗鱼从所有"う"字食物里胜出，绑定成夏日国民习惯</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/japan-summer-life/s3-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key insight: the custom stacks three layers of logic. One, during seasonal change you lose your appetite, so eat something nourishing. Two, "ushi" sounds like "u," and eating foods starting with "u" — unagi eel, udon, ume plum — is considered lucky and nourishing. Three, commercial marketing made eel win among all the "u" foods and bind it into a national summer habit.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>stack three layers → 三层逻辑叠出；nourishing → 滋补的；lose one's appetite → 没胃口；marketing → 商业宣传</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>典型场景：今年8月7日立秋，7月26日左右就是土用丑日，鳗鱼店门前大排长龙；老范调侃这和国内"吃肝明目、以形补形"的逻辑一样充满"民间智慧"</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/japan-summer-life/s3-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">A typical scene: this year's beginning of autumn is August 7, so around July 26 is the doyo ushi day, and long lines stretch out the eel shops' doors. Lao Fan jokes it's the same logic as China's "eat liver for your eyes" — folk wisdom everywhere.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>long lines / queue → 大排长龙；folk wisdom → 民间智慧；eat liver for your eyes → 吃肝明目</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据："醜日它這個發音是う，所以日本人會認為這一天吃う開頭的食物，會比較的吉利，同時比較的滋補。"</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/japan-summer-life/s3-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">"The ox day is pronounced 'u,' so the Japanese believe eating food that starts with 'u' on that day is lucky and nourishing."</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>start with → 以…开头；lucky and nourishing → 吉利又滋补</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「习俗是三层逻辑叠出来的」</p><div class="chunks">a stack of logics · layers appetite and marketing</div><small>第一句概括，第二句把三层点出来</small></li>
+<li><p>想说「和吃肝明目一样是民间智慧」</p><div class="chunks">folk wisdom · old wives' tale energy</div><small>old wives' tale 是英文里对应的民间俗信表达</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s4" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S4</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/japan-summer-life/s4.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>四、风物诗：蝉鸣、风铃与清凉包装</h2>
+      <p class="scene-title-en">Seasonal Scenes: Cicadas, Wind Chimes, and Cool Packaging</p>
+      <p class="context"><b>情境</b>风铃的"假清凉"心理、蝉鸣的"对比哲学"、全感官降温。语域：casual 生活美学 + 感官观察。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：风铃不会真的降温，但清脆的声响会让人从心理上感到一丝凉意——"听到铃的响，会给你带来一种假装清凉的体感"</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/japan-summer-life/s4-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Wind chimes don't actually cool anything down, but the crisp sound makes you feel a touch cooler psychologically — "hearing the chime gives you a pretend-cool sensation."</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>wind chime → 风铃；crisp sound → 清脆的声响；a touch cooler → 一丝凉意</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：风铃常挂在神社、水池边和饰品店门口；它把"夏天吹过的风"变成一个清晰的声音意象。对老范来说，风铃一响，就是"夏天来了"的信号</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/japan-summer-life/s4-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key insight: wind chimes often hang at shrines, by ponds, and at accessory shop doors. They turn "the wind blowing through summer" into a clear sound image. For Lao Fan, the moment a chime rings, it's the signal that summer is here.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>shrine → 神社；sound image → 声音意象；the signal that … → …的信号</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>典型场景：逛饰品店看到风铃挂出来=夏天到了；团地朋友家阳台挂上风铃+楼下祭典的灯光音乐，就像日剧里走出来的场景</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/japan-summer-life/s4-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">A typical scene: walking into an accessory shop and seeing wind chimes out means summer has arrived; a friend's balcony in the public-housing complex with a chime hanging, and festival lights and music downstairs, looks like a scene straight out of a Japanese drama.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>public-housing complex / danchi → 团地（公租房小区）；festival → 祭典；straight out of a drama → 像从日剧里走出来</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据："它不會真的讓你感覺到涼爽，但是你聽到那個清脆的聲音，就會讓你精神上感覺到了一絲的涼意。"</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/japan-summer-life/s4-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">"It won't really make you feel cool, but when you hear that crisp sound, you feel a trace of coolness in your spirit."</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>a trace of → 一丝；in your spirit → 精神上</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）相关概念：听觉降温 → 视觉降温 → 心理降温（三位一体的"全感官降温"）</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/japan-summer-life/s4-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Related concept: hearing-based cooling → visual cooling → psychological cooling — a trinity of all-senses cooling.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>trinity → 三位一体；all-senses cooling → 全感官降温</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：蝉鸣是"室外温度高"的信号——听到蝉叫得越欢，越凸显屋内空调下的凉快。老范总结得十分"哲学"："对方越惨，你觉得自己越幸福；外边越热，你觉得自己越凉。"</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/japan-summer-life/s4-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The mechanism: cicada song is a signal that it's hot outside — the more they sing, the more you appreciate the coolness of your air-conditioned room. Lao Fan sums it up almost philosophically: "The worse off they are, the happier you feel; the hotter it is outside, the cooler you feel."</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>cicada → 蝉；sum up philosophically → 总结得很有哲理；appreciate → 体会/感激</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「假装的清凉」</p><div class="chunks">fake coolness · psychological chill</div><small>第一句口语直白，第二句带点总结感</small></li>
+<li><p>想说「外面越热，屋里越凉」</p><div class="chunks">hotter outside · cooler inside · advertisement</div><small>第二句有画面感，适合俏皮总结</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s5" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S5</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/japan-summer-life/s5.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>五、花火大会与夏日祭：从游客到生活</h2>
+      <p class="scene-title-en">Fireworks and Summer Festivals: From Tourist to Resident</p>
+      <p class="context"><b>情境</b>免费场人挤人 vs 买票场/郊外场体验质变，社区祭典的参与感。语域：casual 亲历踩坑 + 攻略。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：花火体验的差距不在规模，而在"打开方式"：免费场=人挤人+视野被挡；买票场=视野开阔、体验质变；郊外田野场=像包场一样自由</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/japan-summer-life/s5-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The gap in fireworks experience isn't about scale — it's about how you "open" it: free venues mean crowds and blocked views; ticketed venues give you open views and a transformed experience; and rural field venues feel like your own private show.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>free venue → 免费场；blocked view → 视野被挡；private show → 包场</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：老范第一次自己去看花火没买票，体验极差"我为什么要来"；去了隅田川（号称100万人）更是"来日本10年最糟糕的一次花火大会"。相反，茨城、富士山、长冈（日本规模第一，能放两小时）这类在田间地头的场次，视野开阔、交通不便反而挡住了人流</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/japan-summer-life/s5-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key insight: the first time Lao Fan watched fireworks on his own, he didn't buy a ticket and it was terrible — "why did I even come?"; the Sumida River show, supposedly a million people, was his worst fireworks night in ten years in Japan. Meanwhile, field shows in Ibaraki, at the foot of Mount Fuji, and in Nagaoka — the nation's largest, running two hours — have open views, and inconvenient transport actually keeps the crowds away.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>the nation's largest → 全国规模第一；open view → 视野开阔；keep the crowds away → 挡住人流</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>典型场景：搬着椅子坐在田间地头免费看，前面全是空地没人挡；长冈花火要开2小时（一般场1.5小时，短的半小时），节目上线的当天他们就身在长冈附近</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/japan-summer-life/s5-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">A typical scene: sitting on a chair in the middle of a field, watching for free with nothing blocking your view; Nagaoka runs two hours — most shows run 1.5 hours, short ones half an hour — and they happened to be nearby when it went on air.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>nothing blocking your view → 没人挡视线；happen to be nearby → 恰好在附近</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）踩坑实录："人太多樓太多啥也看不見，免費的地方前面肯定有很多遮擋"；"最後中暑了，在肉體的體驗上是非常遭罪的。"</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/japan-summer-life/s5-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The pitfall diary: "Too many people, too many buildings, you can't see anything — in free spots there's always something blocking the view"; "I ended up with heatstroke, it was physically miserable."</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>pitfall diary → 踩坑实录；heatstroke → 中暑；physically miserable → 身体上遭罪</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）策略：一年只挑1-2个精品场，买票或选郊外，把花火当成"给夏天一个交代"，而不是打卡数量</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/japan-summer-life/s5-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The strategy: pick only one or two premium shows a year, buy tickets or choose the countryside, and treat fireworks as "a proper send-off for summer" rather than a checkpoint-counting game.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>premium show → 精品场；a proper send-off for summer → 给夏天一个交代；checkpoint-counting → 打卡数量</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：社区祭典和公共祭典体验完全不同——社区祭典（在"团地"公租房小区里办的）街坊邻里互相认识，居民就是组织者、委员会成员，参与者有真正的"参与感"；公共祭典里你只是个外来观众</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/japan-summer-life/s5-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The mechanism: community festivals and public festivals feel completely different. Community festivals — held in the public-housing complex — have neighbors who know each other, residents who are the organizers and committee members, and real participation. At a public festival, you're just an outside spectator.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>community festival → 社区祭典；organizer → 组织者；spectator → 观众；participation → 参与感</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「免费场人多什么都看不见」</p><div class="chunks">packed · can't see a thing · blocked</div><small>第一句更口语抱怨，第二句中性描述</small></li>
+<li><p>想说「把花火当给夏天的交代」</p><div class="chunks">a send-off for summer · one great show beats</div><small>第二句是攻略式金句</small></li>
+        </ol>
+      </details>
+    </section>
+      <section class="study-section" id="practice">
+      <h2 class="section-heading">今日可练 <small>PRACTICE TODAY</small></h2>
+      <div class="study-grid">
+        <article>
+          <p>用「traded A for B」说：用西瓜自由换空调自由。</p>
+          <div class="practice-en">
+            We traded watermelon freedom for air-conditioning freedom.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/japan-summer-life/practice-0.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「dehumidify mode」说：除湿模式比制冷更稳定，一直开着还省电。</p>
+          <div class="practice-en">
+            Dehumidify mode is steadier than cooling mode — and keeping it on saves power.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/japan-summer-life/practice-1.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「folk wisdom」说：这和吃肝明目一样是民间智慧。</p>
+          <div class="practice-en">
+            It's the same folk wisdom as "eat liver for your eyes."
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/japan-summer-life/practice-2.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「give summer a send-off」说：一年挑一两个精品花火场，给夏天一个交代。</p>
+          <div class="practice-en">
+            Pick one or two premium fireworks shows a year — give summer a proper send-off.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/japan-summer-life/practice-3.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article>
+      </div>
+    </section>
+      <section class="study-section pitfalls" id="pitfalls">
+      <h2 class="section-heading">避坑 <small>PITFALLS</small></h2>
+      <div class="study-grid">
+        <article>
+          <div class="wrong">✕ Today is very hot, I want to blow air-conditioner.</div>
+          <div class="right">✓ It's scorching today — I need to run the air conditioning.</div>
+          <p>blow air-conditioner 是中式直译；英文用 run / turn on the AC，或用 blast the AC 表示开到最大。</p>
+        </article><article>
+          <div class="wrong">✕ The cool wind can't go to other rooms.</div>
+          <div class="right">✓ The cool air stays trapped in that room — it never reaches the next one.</div>
+          <p>cool wind 是中式搭配，空调凉气用 cool air；go 换成 stays trapped / never reaches 更准确。</p>
+        </article><article>
+          <div class="wrong">✕ Eel shop has a very long dragon line.</div>
+          <div class="right">✓ There's a huge queue stretching out the eel shop's door.</div>
+          <p>dragon line 是直译"长龙"；英文排队用 queue / line，stretch out the door 描述队伍长度。</p>
+        </article><article>
+          <div class="wrong">✕ The free fireworks place people too many.</div>
+          <div class="right">✓ The free venue was packed — I couldn't see a thing.</div>
+          <p>中式语序 people too many 不成立；用 packed / crowded 表示人山人海。</p>
+        </article>
+      </div>
+    </section>
+      <section class="study-section shifts" id="mindset">
+      <h2 class="section-heading">认知转变 <small>MINDSET SHIFTS</small></h2>
+      <div class="study-grid">
+        <article>
+          <span>夏天就是热，熬过去就行</span>
+          <b aria-hidden="true">→</b>
+          <strong>酷暑日、骤热、风铃蝉鸣花火——夏天是一种有声音有颜色的生活节奏</strong>
+        </article><article>
+          <span>空调开着费电，热了再开、凉了就关</span>
+          <b aria-hidden="true">→</b>
+          <strong>学会除湿模式，一直开着反而更稳更省电</strong>
+        </article><article>
+          <span>花火要去最大最热闹的场次</span>
+          <b aria-hidden="true">→</b>
+          <strong>人少视野好的精品场（买票或郊外）体验完胜，把花火当给夏天的交代</strong>
+        </article>
+      </div>
+    </section>
+      <footer>
+        双语学习版 · 场景/句子朗读使用 edge-tts（en-US） · 单词发音使用浏览器 Web Speech API
+        <div class="footer-note">中文版：<a href="japan-summer-life-总结.html">japan-summer-life-总结.html</a> · SVG 版：<a href="viewer.html?f=japan-summer-life-总结.svg" target="_blank">japan-summer-life-总结.svg</a></div>
+      </footer>
+    </div>
+  </main>
+  <script>(() => {
+  let activeAudio = null;
+  let activeBtn = null;
+  const status = document.getElementById('speech-status');
+  const stopBtn = document.getElementById('stop-speech');
+  const rateSel = document.getElementById('speech-rate');
+
+  const reset = () => {
+    if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+    activeBtn?.classList.remove('playing');
+    activeBtn = null;
+    stopBtn.classList.remove('visible');
+    status.textContent = '';
+  };
+
+  const playAudio = (url, btn) => {
+    reset();
+    const audio = new Audio(url);
+    audio.playbackRate = Number(rateSel.value);
+    activeAudio = audio;
+    activeBtn = btn;
+    btn.classList.add('playing');
+    stopBtn.classList.add('visible');
+    status.textContent = btn.classList.contains('scene-speak')
+      ? 'Reading the whole scene…'
+      : 'Reading…';
+
+    audio.onended = () => { if (activeAudio === audio) reset(); };
+    audio.onerror = () => { status.textContent = 'Audio failed to load.'; if (activeAudio === audio) reset(); };
+    audio.play().catch(() => { status.textContent = 'Playback failed.'; if (activeAudio === audio) reset(); });
+  };
+
+  document.addEventListener('click', e => {
+    const btn = e.target.closest('[data-audio]');
+    if (!btn) return;
+    e.preventDefault();
+    if (btn === activeBtn && activeAudio) { reset(); return; }
+    playAudio(btn.dataset.audio, btn);
+  });
+
+  stopBtn.addEventListener('click', reset);
+
+  const synth = window.speechSynthesis;
+  const getEnglishVoice = () => {
+    const voices = synth.getVoices();
+    return voices.find(v => /^en-(US|GB)/i.test(v.lang))
+        || voices.find(v => /^en/i.test(v.lang)) || null;
+  };
+
+  const difficultWords = new Set([
+    'assortment', 'SKU', 'premium', 'margin', 'middleman', 'OEM', 'rebranding',
+    'hoarding', 'PTSD', 'curation', 'repurchase', 'touchpoint', 'backlash',
+    'reshuffle', 'funnel', 'anchor', 'contract', 'psychology', 'private', 'label',
+    'editorial', 'familiar', 'competitors', 'authorization', 'flexibility'
+  ]);
+
+  const shouldPronounce = word => {
+    const n = word.toLowerCase().replace(/^[^a-z]+|[^a-z]+$/g, '');
+    return n.replace(/[^a-z]/g, '').length >= 8 || difficultWords.has(n);
+  };
+
+  const markPronounceableWords = root => {
+    const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+    const nodes = [];
+    while (walker.nextNode()) nodes.push(walker.currentNode);
+    nodes.forEach(node => {
+      if (node.parentElement?.closest('button, script, style')) return;
+      const text = node.nodeValue;
+      let m, last = 0, changed = false;
+      const frag = document.createDocumentFragment();
+      const re = /[A-Za-z]+(?:[-'’][A-Za-z]+)*/g;
+      while ((m = re.exec(text))) {
+        if (!shouldPronounce(m[0])) continue;
+        changed = true;
+        frag.append(text.slice(last, m.index));
+        const wb = document.createElement('button');
+        wb.type = 'button'; wb.className = 'pronounce-word';
+        wb.dataset.speak = m[0];
+        wb.setAttribute('aria-label', '\u8bfb\u5355\u8bcd ' + m[0]);
+        wb.title = '\u70b9\u51fb\u542c\u53d1\u97f3';
+        wb.textContent = m[0];
+        frag.append(wb);
+        last = m.index + m[0].length;
+      }
+      if (!changed) return;
+      frag.append(text.slice(last));
+      node.replaceWith(frag);
+    });
+  };
+
+  document.querySelectorAll(
+    '.english, .scene-title-en, .paraphrase li p, .chunks, .practice-en, .wrong, .right, .summary-en'
+  ).forEach(markPronounceableWords);
+
+  document.addEventListener('click', e => {
+    const wb = e.target.closest('.pronounce-word');
+    if (!wb) return;
+    e.preventDefault();
+    if (!synth) return;
+    synth.cancel();
+    if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+    activeBtn?.classList.remove('playing');
+    activeBtn = wb;
+    wb.classList.add('playing');
+    const u = new SpeechSynthesisUtterance(wb.dataset.speak);
+    u.lang = 'en-US';
+    u.rate = 0.88;
+    const v = getEnglishVoice();
+    if (v) u.voice = v;
+    u.onend = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+    u.onerror = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+    synth.speak(u);
+  });
+})();</script>
+</body>
+</html>

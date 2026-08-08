@@ -1,0 +1,345 @@
+{
+  "slug": "thinking_fast_slow_brain",
+  "date": "2026-06-23",
+  "platform": "小宇宙FM",
+  "title": "Vol.331 思考，快与慢：我的大脑为什么总是欺骗我",
+  "title_en": "Vol.331 Thinking, Fast and Slow: Why Does My Brain Keep Fooling Me?",
+  "eyebrow": "Psychology & Behavioral Economics · 心理学与行为经济学",
+  "duration": "1小时56分",
+  "source_url": "https://www.xiaoyuzhoufm.com/episode/69e576c91d989496e70382ca",
+  "summary_cn": "文化有限三位主播重读丹尼尔·卡尼曼诺奖名著：系统一（快直觉）占日常决策95%，系统二（慢理性）天生懒惰只做橡皮图章；从锚定效应、损失厌恶到峰终定律，揭示大脑如何系统性可预测地犯错，以及如何用觉察与提问清单对抗非理性",
+  "summary_en": "Three hosts from the Wenhua Youxian podcast revisit Daniel Kahneman's Nobel-winning classic. System One, the fast intuition, handles 95% of daily decisions; System Two, the slow reasoner, is inherently lazy and mostly just rubber-stamps. From anchoring and loss aversion to the peak-end rule, they show how the brain fails in systematic, predictable ways — and how awareness plus a checklist of questions can push back against irrationality.",
+  "scenes": [
+    {
+      "id": "s1",
+      "title_cn": "第一部分：双系统理论基础",
+      "title_en": "Part One: The Two-System Framework",
+      "context": "Introduces System One and System Two and how little control we actually have. 语域：casual 播客讨论。",
+      "speak": "System One is the unconscious fast thinking that runs on its own, great at intuitive association and emotional reaction, handling 95 to 96 percent of daily decisions. System Two is the effortful, energy-burning slow logic that handles complex calculations, but it's lazy by nature and mostly just rubber-stamps System One's conclusions. So the deliberation you think you're doing has, 95 percent of the time, already been done by System One — System Two only confirms it afterwards. Listening to a podcast runs on System One; the moment someone asks you what 17 times 24 is, System Two wakes up. Dayi joked that System Two's laziness is like a mountain of a father: it doesn't move. Only when you're 'called to see the principal' does it step in to correct you; the rest of the time System One just does whatever it wants.",
+      "sentences": [
+        {
+          "cn": "核心机制：系统一是自主运行的无意识快思考，擅长直觉联想和情感反应，占日常决策95%-96%；系统二是需刻意调动、耗能的逻辑慢思考，负责复杂计算，但天生懒惰，多数时候只做「橡皮图章」认可系统一的结论",
+          "en": "System One is the unconscious fast thinking that runs on its own, great at intuitive association and emotional reaction, handling 95 to 96 percent of daily decisions. System Two is the effortful, energy-burning slow logic responsible for complex calculations, but it's lazy by nature and mostly just rubber-stamps System One's conclusions.",
+          "note": "<span>表达提示</span>System One / System Two → 系统一/系统二；rubber-stamp → 橡皮图章（只盖章不思考）；run on its own → 自主运行"
+        },
+        {
+          "cn": "关键理解：你以为的深思熟虑，95%已由系统一完成，系统二只是事后确认。自由意志可能比我们想象的更有限",
+          "en": "The deliberation you think you're doing has, 95 percent of the time, already been done by System One — System Two only confirms it afterwards. Free will may be far more limited than we'd like to believe.",
+          "note": "<span>表达提示</span>deliberation → 深思熟虑；confirm afterwards → 事后确认；free will → 自由意志"
+        },
+        {
+          "cn": "典型场景：听播客是系统一；突然被问17×24等于多少，系统二才被唤醒",
+          "en": "A typical case: listening to a podcast runs on System One; the moment someone asks you what 17 times 24 equals, System Two gets awakened.",
+          "note": "<span>表达提示</span>run on System One → 由系统一主导；awaken → 被唤醒"
+        },
+        {
+          "cn": "（引用）原文依据：「系统二只有在确确实实必须启动和被唤醒的时候，才会出来说你这个不对」",
+          "en": "The original quote: 'System Two only steps in when it absolutely has to be engaged and awakened — and then it says, wait, this isn't right.'",
+          "note": "<span>表达提示</span>step in → 出面/介入；absolutely has to be engaged → 确确实实必须启动"
+        },
+        {
+          "cn": "（引用）相关概念：与《贪婪的多巴胺》连读会产生巨大自我厌弃感，建议分开读",
+          "en": "Related reading note: reading this alongside The Molecule of More can trigger a massive wave of self-loathing, so the hosts suggest reading them separately.",
+          "note": "<span>表达提示</span>self-loathing → 自我厌弃；read them separately → 分开读"
+        },
+        {
+          "cn": "大壹用网络梗类比：系统二懒惰如父爱如山——因为它不动。只有「请家长」的关头才出来纠正，平时系统一自由发挥",
+          "en": "Dayi compared System Two's laziness to a popular internet meme: a father's love is as unmoving as a mountain — because he doesn't move. Only in a 'called-to-see-the-principal' crisis does he show up to correct you; the rest of the time System One does whatever it wants.",
+          "note": "<span>表达提示</span>as unmoving as a mountain → 父爱如山（梗）；crisis → 紧要关头"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「系统二平时不干活，关键时刻才出手」",
+          "phrases": [
+            "System Two only shows up when it absolutely has to.",
+            "It stays dormant until there's real trouble."
+          ],
+          "chunks": "show up when it has to · stay dormant until",
+          "usage": "show up 更口语；stay dormant 更书面"
+        },
+        {
+          "intent": "想说「你以为的深思熟虑其实没那么多」",
+          "phrases": [
+            "What feels like careful thought is mostly autopilot.",
+            "You're not thinking as deeply as you think you are."
+          ],
+          "chunks": "feel like careful thought · on autopilot",
+          "usage": "autopilot 形容下意识决策很形象"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title_cn": "第二、三部分：启发法偏见与过度自信",
+      "title_en": "Parts Two & Three: Heuristics, Bias, and Overconfidence",
+      "context": "Why small samples create fake patterns, and how anchoring steers our judgments. 语域：casual 案例讲解。",
+      "speak": "Small samples easily produce extreme results — it's just random fluctuation. But System One forces a causal story onto it and refuses to accept that there's no reason, it's simply random. So when you see a statistical conclusion from a tiny sample, first ask whether the sample size is big enough before buying the causal narrative. Watch out: a lot of medical anxiety and regional prejudice comes from exactly this. Anchoring is the same disease in another form: the first number you see fixes the range of your later judgment. In the Gandhi age experiment, people who were first asked whether Gandhi died before or after age 140 anchored their later estimates near 140. Marketing tricks like 'limited to 12 cans' and a negotiator opening at 10 and settling at 8 are all steering the range of your decision.",
+      "sentences": [
+        {
+          "cn": "原因：小样本极易出现极端结果（随机波动），但系统一强行做因果解释，拒绝接受「没有原因，就是随机」",
+          "en": "The cause: small samples easily produce extreme results — it's just random fluctuation. But System One forces a causal story onto it and refuses to accept that there's no reason; it's simply random.",
+          "note": "<span>表达提示</span>random fluctuation → 随机波动；force a causal story → 强行因果解释；it's simply random → 没有原因就是随机"
+        },
+        {
+          "cn": "解法：遇到小样本统计结论，先问样本量是否足够，再决定是否采信因果叙事",
+          "en": "The fix: when you see a statistical conclusion from a tiny sample, first ask whether the sample size is big enough, then decide whether to buy the causal narrative.",
+          "note": "<span>表达提示</span>sample size → 样本量；buy the narrative → 采信这个叙事"
+        },
+        {
+          "cn": "严重程度：小心（医疗焦虑、地域歧视常源于此）",
+          "en": "How serious: watch out — a lot of medical anxiety and regional prejudice stems from exactly this pattern.",
+          "note": "<span>表达提示</span>medical anxiety → 医疗焦虑；regional prejudice → 地域歧视；stem from → 源于"
+        },
+        {
+          "cn": "（引用）嘉宾说法：「医生给你解释不出来为什么就得这个病，从科学角度就是随机，但系统一不接受这个解释」",
+          "en": "The guest's take: 'The doctor can't explain why you got this disease. From a scientific standpoint it's simply random — but System One won't accept that explanation.'",
+          "note": "<span>表达提示</span>from a scientific standpoint → 从科学角度；won't accept the explanation → 不接受这个解释"
+        },
+        {
+          "cn": "核心机制：先出现的数字会锚定后续判断。甘地去世年龄实验：先问「是否大于140岁」，再问具体年龄，答案会锚定在140附近",
+          "en": "The mechanism: the first number that appears anchors your later judgment. In the Gandhi age experiment, people first asked whether he died before or after 140 ended up anchoring their exact-age answers near 140.",
+          "note": "<span>表达提示</span>anchor → 锚定；anchoring effect → 锚定效应"
+        },
+        {
+          "cn": "关键理解：营销「限量12罐」、谈判开价10块砍到8块，都在利用锚定操控你的决策区间",
+          "en": "The insight: marketing gimmicks like 'limited to 12 cans' and a negotiator opening at 10 and settling at 8 are all manipulating the range of your decision via anchoring.",
+          "note": "<span>表达提示</span>limited to 12 cans → 限量12罐；open at 10 and settle at 8 → 开价10砍到8；manipulate the decision range → 操控决策区间"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「小样本不能说明问题」",
+          "phrases": [
+            "A tiny sample proves nothing.",
+            "You can't read meaning into a handful of data points."
+          ],
+          "chunks": "a tiny sample proves nothing · read meaning into",
+          "usage": "read meaning into 指强行解读，很地道"
+        },
+        {
+          "intent": "想说「第一个数字会框住你的判断」",
+          "phrases": [
+            "That first number quietly sets the frame for everything after.",
+            "The opening number anchors everything that follows."
+          ],
+          "chunks": "set the frame · anchor everything",
+          "usage": "anchor 是本集核心动词，商务谈判/营销都适用"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title_cn": "第四部分：前景理论与损失厌恶",
+      "title_en": "Part Four: Prospect Theory and Loss Aversion",
+      "context": "How we judge gains and losses relative to a reference point, and why losses sting more. 语域：casual 行为经济学讲解。",
+      "speak": "We don't evaluate gains and losses by their absolute amount, but by change relative to a reference point. Give the same 50,000-yuan year-end bonus to two people: the one who expected 80,000 suffers, the one who expected 10,000 is overjoyed. The brain simply can't handle absolute values; it has to place them in a comparative frame, and it's far more sensitive to change. And the pain of losing is about 1.5 to 2.5 times the joy of gaining the same amount. In the coin-flip experiment, most people only join if winning pays about 200 dollars against the 100-dollar loss on tails. That's why people sell their winning stocks and hold the losers — selling the loser means admitting the loss. And a 30-day free trial creates the endowment effect, which lowers return rates.",
+      "sentences": [
+        {
+          "cn": "核心机制：人对收益/损失的评价不是看绝对金额，而是看相对于参考点的变化。同样5万年终奖，预期8万的人痛苦，预期1万的人狂喜",
+          "en": "The mechanism: we don't evaluate gains and losses by absolute amount, but by change relative to a reference point. Give the same 50,000-yuan year-end bonus to two people — the one who expected 80,000 suffers, the one who expected 10,000 is overjoyed.",
+          "note": "<span>表达提示</span>reference point → 参考点；year-end bonus → 年终奖；relative to → 相对于"
+        },
+        {
+          "cn": "关键理解：大脑难以接受绝对值，必须放在比较体系中才有意义",
+          "en": "The insight: the brain struggles with absolute values — numbers only make sense when placed inside a comparison system.",
+          "note": "<span>表达提示</span>absolute value → 绝对值；comparison system → 比较体系"
+        },
+        {
+          "cn": "（引用）原文依据：「人的神经系统很难接受绝对值，必须放在某个体系里面，对变化值更敏感」",
+          "en": "The original quote: 'The human nervous system has a hard time accepting absolute values — it has to be placed in some framework, and it's far more sensitive to changes in value.'",
+          "note": "<span>表达提示</span>nervous system → 神经系统；sensitive to change → 对变化敏感"
+        },
+        {
+          "cn": "核心机制：同等数额的损失带来的痛苦，约为收益快乐的1.5-2.5倍。抛硬币实验：正面输100美元，反面需赢约200美元才愿参加",
+          "en": "The mechanism: the pain of losing a given amount is about 1.5 to 2.5 times the pleasure of gaining the same. In the coin-flip experiment, most people only join if the upside is around 200 dollars against a 100-dollar loss on tails.",
+          "note": "<span>表达提示</span>loss aversion → 损失厌恶；coin-flip experiment → 抛硬币实验"
+        },
+        {
+          "cn": "典型场景：炒股时卖掉盈利股（A股）而非亏损股（B股），因为卖出亏损股等于「确认损失」；30天试用期让人产生禀赋效应，降低退货率",
+          "en": "A typical case: people sell their winning stock while holding the loser, because selling the loser means 'confirming the loss.' And a 30-day free trial creates the endowment effect, which lowers return rates.",
+          "note": "<span>表达提示</span>confirm a loss → 确认损失；endowment effect → 禀赋效应；return rate → 退货率"
+        },
+        {
+          "cn": "（引用）怎么落地：重大消费前问「如果从没拥有过这个东西，我愿意花多少钱买？」",
+          "en": "How to apply it: before any major purchase, ask yourself — 'If I'd never owned this thing, how much would I be willing to pay for it?'",
+          "note": "<span>表达提示</span>major purchase → 重大消费；be willing to pay → 愿意花多少钱买"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「人只对相对变化敏感」",
+          "phrases": [
+            "We're wired for change, not absolute numbers.",
+            "It's the delta that moves us, not the total."
+          ],
+          "chunks": "be wired for · it's the delta that moves us",
+          "usage": "delta 在口语里指变化量，年轻化表达"
+        },
+        {
+          "intent": "想说「损失比收益更痛」",
+          "phrases": [
+            "Losses hurt about twice as much as gains feel good.",
+            "The sting of losing outweighs the joy of winning."
+          ],
+          "chunks": "losses hurt · sting of losing · outweigh",
+          "usage": "outweigh 是书面点评常用；第一句是数据化口语表达"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "title_cn": "第五部分：两个自我与幸福",
+      "title_en": "Part Five: Two Selves and Happiness",
+      "context": "The experiencing self versus the remembering self, and how the peak-end rule shapes memory. 语域：casual 哲学讨论。",
+      "speak": "The experiencing self lives in every moment — the aching back, the dry mouth — but it has no say in decisions and forgets easily. The remembering self evaluates the past, makes decisions, and follows the peak-end rule and duration neglect. Take the sunflower-seed effect: no matter how happy you were, one bad seed at the end ruins the whole memory of the snack. Are we living in the present or in memory? Could it be that our obsession with remembering happiness makes us neglect the present itself? Checking in at scenic spots for social media while enduring a miserable trip is a classic case of the remembering self hijacking the experiencing self. And a society can have high GDP and high social status, yet people lie awake anxious every night — the remembering self is satisfied while the experiencing self suffers.",
+      "sentences": [
+        {
+          "cn": "核心机制：体验自我关注当下每一分钟的感受（腰酸、嘴干），无决策权且易遗忘；记忆自我负责评价过去、做决策，遵循峰终定律和时长忽视",
+          "en": "The mechanism: the experiencing self lives in every single moment — the aching back, the dry mouth — but it has no say in decisions and forgets easily. The remembering self evaluates the past, makes the decisions, and follows the peak-end rule and duration neglect.",
+          "note": "<span>表达提示</span>experiencing self → 体验自我；remembering self → 记忆自我；peak-end rule → 峰终定律；duration neglect → 时长忽视"
+        },
+        {
+          "cn": "关键理解：嗑瓜子效应——不管之前多开心，最后一颗坏的就会毁掉整次体验的记忆评价",
+          "en": "The insight: the sunflower-seed effect — no matter how happy you were along the way, one bad seed at the end ruins your entire memory of the experience.",
+          "note": "<span>表达提示</span>sunflower-seed effect → 嗑瓜子效应；ruin the memory → 毁掉记忆评价"
+        },
+        {
+          "cn": "（引用）「我们到底是活当下还是活记忆？会不会因为过于关注对幸福的记忆而忽视了当下？」",
+          "en": "The quote: 'Are we living in the present or living in memory? Could it be that our over-attention to remembering happiness makes us neglect the present itself?'",
+          "note": "<span>表达提示</span>live in the present → 活在当下；neglect the present → 忽视当下"
+        },
+        {
+          "cn": "（引用）相关概念：为朋友圈打卡而忍受旅途疲惫，是记忆自我绑架体验自我的典型",
+          "en": "Related idea: enduring a miserable trip just to check in at scenic spots for social media is a classic case of the remembering self hijacking the experiencing self.",
+          "note": "<span>表达提示</span>check in at → 打卡；hijack → 绑架"
+        },
+        {
+          "cn": "为什么重要：GDP高、社会地位好（记忆自我满足），但每天焦虑失眠（体验自我痛苦），社会未必真正幸福",
+          "en": "Why it matters: a society can have high GDP and strong social status — satisfying the remembering self — while people lie awake anxious every night, the experiencing self suffering. That society may not be truly happy.",
+          "note": "<span>表达提示</span>social status → 社会地位；lie awake anxious → 焦虑失眠"
+        },
+        {
+          "cn": "适用边界：长期规划仍需记忆自我参与，但不能以牺牲所有当下体验为代价",
+          "en": "Boundary conditions: long-term planning still needs the remembering self in charge — just not at the cost of every present moment.",
+          "note": "<span>表达提示</span>long-term planning → 长期规划；at the cost of → 以…为代价"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「最后的体验决定整段记忆」",
+          "phrases": [
+            "The ending colors the whole memory.",
+            "How it ends is how you'll remember it."
+          ],
+          "chunks": "color the memory · how it ends is how you remember",
+          "usage": "color 作动词指「给…定调」，很地道"
+        },
+        {
+          "intent": "想说「记忆自我绑架了体验自我」",
+          "phrases": [
+            "The remembering self hijacks the experiencing self.",
+            "You're sacrificing the moment for a memory you'll post."
+          ],
+          "chunks": "hijack · sacrifice the moment for",
+          "usage": "hijack 生动但有攻击性，适合吐槽；sacrifice the moment 更中性"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "title_cn": "生活应用与 AI 联想",
+      "title_en": "Everyday Applications and an AI Tangent",
+      "context": "Xing Guang connects the two-system model to large language models and how to prompt them. 语域：casual 联想吐槽。",
+      "speak": "Xing Guang observed that a large model 'taking a car to a car wash' fails over 80 percent of the time, because it gets anchored by the distance of 50 meters and ignores the objective function — washing the car. A model's long-winded reasoning looks like System Two, but underneath it's still the same heuristic fast thinking. So when you prompt an AI, state your preconditions and objective function explicitly, and watch out for its 'hallucinations' — perfectly logical reasoning built on missing premises.",
+      "sentences": [
+        {
+          "cn": "星光联想：大模型「洗车不带车」翻车率超80%，因为被「50米」距离锚定，忽视「洗车」目标函数——AI的长篇大论像系统二，底层仍是启发式快思考",
+          "en": "Xing Guang's tangent: a large model 'taking a car to the car wash' fails over 80 percent of the time, because it gets anchored by the 50-meter distance and ignores the objective function — washing the car. A model's long-winded reasoning looks like System Two, but underneath it's still heuristic fast thinking.",
+          "note": "<span>表达提示</span>objective function → 目标函数；get anchored by → 被锚定；long-winded reasoning → 长篇大论式推理"
+        },
+        {
+          "cn": "（引用）怎么落地：向AI提问时明确前置条件和目标函数，警惕其逻辑严密但前提遗漏的「幻觉」",
+          "en": "How to apply it: when you prompt an AI, state your preconditions and objective function explicitly, and watch out for its 'hallucinations' — perfectly logical reasoning built on missing premises.",
+          "note": "<span>表达提示</span>preconditions → 前置条件；hallucination → 幻觉；missing premise → 遗漏的前提"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「AI也会被锚定带偏」",
+          "phrases": [
+            "The model got anchored by the distance and forgot the goal.",
+            "It latched onto one number and lost sight of the mission."
+          ],
+          "chunks": "get anchored by · latch onto · lose sight of the mission",
+          "usage": "latch onto 指死咬一个点，非常口语"
+        },
+        {
+          "intent": "想说「幻觉是逻辑严密但前提错了」",
+          "phrases": [
+            "It's sound logic built on a wrong premise.",
+            "The reasoning is airtight — the premise is just missing."
+          ],
+          "chunks": "sound logic · wrong premise · airtight reasoning",
+          "usage": "airtight 形容「无懈可击」很传神"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "cn": "用「rubber-stamp」说：系统二只是给系统一的结论盖章。",
+      "en": "System Two mostly just rubber-stamps whatever System One already decided."
+    },
+    {
+      "cn": "用「anchor」说：第一个报价会锚定整个谈判区间。",
+      "en": "The opening offer anchors the whole negotiation range."
+    },
+    {
+      "cn": "用「loss aversion」说：亏100块的痛比赚100块的爽更强烈。",
+      "en": "Loss aversion means losing 100 yuan stings more than winning 100 yuan feels good."
+    },
+    {
+      "cn": "用「peak-end rule」说：旅行好不好玩，取决于最高点和结尾。",
+      "en": "By the peak-end rule, you judge the whole trip by its best moment and its ending."
+    }
+  ],
+  "pitfalls": [
+    {
+      "wrong": "The doctor can't explain why I got this disease.",
+      "right": "From a scientific standpoint it's simply random — but System One won't accept that explanation.",
+      "why": "加上 it's simply random 和 System One won't accept 才保留原文的反差结构；只翻前半句就丢了核心。"
+    },
+    {
+      "wrong": "Loss's pain is bigger than gain's happiness.",
+      "right": "The pain of a loss is about twice the joy of an equal gain.",
+      "why": "中式英语直译；用 the pain of… / the joy of… 对称结构 + 约数 twice 才地道。"
+    },
+    {
+      "wrong": "My decision was changed by the first number.",
+      "right": "My judgment got anchored by the first number I saw.",
+      "why": "锚定效应固定搭配是 get anchored by；说 changed by 丢失了专业术语色彩。"
+    },
+    {
+      "wrong": "The AI is very smart but makes mistakes.",
+      "right": "The model produces airtight logic built on a missing premise — that's the hallucination.",
+      "why": "smart but makes mistakes 太泛；点出 airtight logic + missing premise 才说清「幻觉」的本质。"
+    }
+  ],
+  "shifts": [
+    {
+      "before": "以为自己在理性决策，深思熟虑",
+      "after": "95% 的决策系统一已完成，系统二只是事后盖章——自由意志比想象中有限"
+    },
+    {
+      "before": "以为「贵」是绝对概念，价格有固定意义",
+      "after": "人只对相对参考点的变化敏感——5万年终奖，预期8万痛苦，预期1万狂喜"
+    },
+    {
+      "before": "以为快乐等于体验的总和",
+      "after": "记忆自我按「峰终定律」评价一切——结局好，整段就好；为打卡牺牲当下，是本末倒置"
+    }
+  ],
+  "voice": "en-US-JennyNeural",
+  "audio_dir": "audio/en/thinking_fast_slow_brain"
+}

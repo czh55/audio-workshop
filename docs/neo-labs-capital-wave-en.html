@@ -1,0 +1,1034 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="亲历中美neo labs资本狂潮：AI for AI、机制可解释性和Max Tegmark — Bilingual Learning Edition" />
+  <title>亲历中美neo labs资本狂潮：AI for AI、机制可解释性和Max Tegmark｜EN 双语学习版</title>
+  <style>:root{--teal-950:#073f42;--teal-800:#0d686c;--teal-700:#0f7c80;--teal-600:#14919b;--mint-100:#dff4ec;--mint-50:#f0faf6;--ink:#183536;--muted:#607879;--line:#d7e8e2;--paper:#fff;--amber:#a85d08;--shadow:0 12px 32px rgba(7,63,66,.08)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:24px}
+body{margin:0;color:var(--ink);background:#edf7f2;font-family:Inter,"PingFang SC","Noto Sans SC","Microsoft YaHei",system-ui,sans-serif;line-height:1.65}
+button,select{font:inherit}
+a{color:inherit}
+.hero{color:#fff;background:radial-gradient(circle at 85% 10%,rgba(129,230,196,.24),transparent 30%),linear-gradient(125deg,#073f42,#0d7377 56%,#14919b)}
+.hero-inner{width:min(1440px,100%);margin:auto;padding:44px clamp(20px,5vw,72px) 36px}
+.hero-flex{display:flex;gap:clamp(18px,3vw,40px);align-items:flex-start}
+.hero-cover{width:min(240px,42vw);height:auto;max-height:320px;object-fit:contain;object-position:center;border-radius:16px;border:1px solid rgba(255,255,255,.28);box-shadow:0 18px 44px rgba(0,0,0,.32);flex-shrink:0;background:rgba(255,255,255,.08)}
+.hero-text{min-width:0;flex:1}
+.eyebrow{margin:0 0 12px;font-size:.78rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;opacity:.8}
+h1{max-width:1020px;margin:0;font-size:clamp(1.7rem,3.6vw,3rem);line-height:1.15;letter-spacing:-.04em}
+.hero-en{margin:12px 0 22px;font-size:clamp(1rem,2vw,1.25rem);opacity:.82}
+.hero-meta{display:flex;flex-wrap:wrap;gap:9px;align-items:center}
+.chip{border:1px solid rgba(255,255,255,.28);border-radius:99px;padding:5px 11px;font-size:.82rem;background:rgba(255,255,255,.08)}
+.source-link{font-weight:750;text-decoration:none;border-bottom:1px solid rgba(255,255,255,.5)}
+.toolbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:22px}
+.toolbar label{font-size:.82rem;opacity:.82}
+.toolbar select{color:#fff;background:#0a5d61;border:1px solid rgba(255,255,255,.3);border-radius:8px;padding:7px 9px}
+.stop-btn{display:none;color:#fff;background:#8c3b2a;border:0;border-radius:8px;padding:8px 12px;cursor:pointer}
+.stop-btn.visible{display:inline-flex}
+.speech-status{min-height:1.4em;font-size:.82rem;opacity:.88}
+.lang-switch{display:inline-flex;gap:6px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.28);border-radius:99px;padding:4px}
+.lang-switch a{display:inline-block;padding:4px 13px;border-radius:99px;font-size:.8rem;font-weight:700;text-decoration:none;color:rgba(255,255,255,.75)}
+.lang-switch a.active{background:#fff;color:var(--teal-800)}
+.narration-player{margin-top:16px;padding:14px 18px;background:rgba(255,255,255,.1);border-radius:12px;border:1px solid rgba(255,255,255,.15)}
+.audio-label{color:rgba(255,255,255,.88);font-size:.82rem;font-weight:700;margin:0 0 8px}
+.page{width:min(1440px,100%);margin:auto;padding:28px clamp(16px,3vw,44px) 64px;display:grid;grid-template-columns:minmax(230px,280px) minmax(0,1fr);gap:30px;align-items:start}
+.sidebar{position:sticky;top:20px;min-width:0}
+.sidebar-box{background:rgba(255,255,255,.8);border:1px solid var(--line);border-radius:16px;padding:17px;box-shadow:var(--shadow);backdrop-filter:blur(12px)}
+.sidebar h2{margin:0 0 13px;font-size:.9rem;letter-spacing:.08em;color:var(--teal-800)}
+.map-link{display:grid;grid-template-columns:34px minmax(0,1fr);gap:9px;padding:10px 6px;text-decoration:none;border-top:1px solid var(--line)}
+.map-link:hover b{color:var(--teal-700)}
+.map-id{width:30px;height:30px;display:grid;place-items:center;border-radius:9px;color:#fff;background:var(--teal-700);font-size:.72rem;font-weight:800}
+.map-link b{display:block;font-size:.78rem;line-height:1.4}
+.map-link small{display:block;color:var(--muted);font-size:.67rem;line-height:1.4;margin-top:2px;overflow-wrap:anywhere}
+.content{min-width:0}
+.scene-card{background:var(--paper);border:1px solid var(--line);border-radius:20px;padding:clamp(20px,3vw,34px);margin-bottom:24px;box-shadow:var(--shadow);overflow:hidden}
+.scene-topline{display:flex;justify-content:space-between;gap:16px;align-items:center;margin-bottom:16px}
+.scene-id{display:inline-grid;place-items:center;min-width:42px;height:30px;padding:0 10px;color:#fff;background:var(--teal-700);border-radius:8px;font-size:.78rem;font-weight:850}
+.time{margin-left:10px;color:var(--muted);font-size:.82rem;font-variant-numeric:tabular-nums}
+.scene-card h2{margin:0 0 2px;font-size:clamp(1.35rem,2.4vw,2rem);line-height:1.25;color:var(--teal-950)}
+.scene-title-en{margin:0 0 18px;color:var(--teal-600);font-weight:700;font-size:.98rem}
+.context{margin:0 0 20px;padding:12px 15px;color:#496566;background:var(--mint-50);border-left:3px solid var(--teal-600);border-radius:0 10px 10px 0;font-size:.88rem}
+.context b{margin-right:10px;color:var(--teal-800)}
+.sentence-list{display:grid;gap:12px}
+.sentence{position:relative;display:grid;grid-template-columns:38px minmax(0,1fr);gap:12px;padding:16px;border:1px solid #e2ece8;border-radius:14px;background:#fcfefd;min-width:0}
+.sentence-no{color:var(--teal-600);font-size:.76rem;font-weight:850;font-variant-numeric:tabular-nums;padding-top:4px}
+.bilingual{min-width:0;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(14px,2vw,28px)}
+.lang-block{min-width:0}
+.lang-block p{margin:5px 0 0;overflow-wrap:anywhere}
+.en-block{padding-left:clamp(14px,2vw,28px);border-left:1px solid var(--line)}
+.en-block p{color:#0b5c60;font-weight:650}
+.lang-tag{display:inline-block;color:var(--muted);font-size:.66rem;font-weight:850;letter-spacing:.12em}
+.en-head{display:flex;justify-content:space-between;gap:10px;align-items:center;min-height:30px}
+.note{grid-column:2;margin:1px 0 0;color:#708182;font-size:.78rem}
+.note span{margin-right:7px;color:var(--amber);font-weight:750}
+.speak-btn{display:inline-flex;align-items:center;gap:7px;border:1px solid #b8d9d1;border-radius:9px;padding:7px 11px;color:var(--teal-800);background:#f5fbf8;cursor:pointer;white-space:nowrap;font-size:.78rem;font-weight:750;transition:.15s ease}
+.speak-btn:hover{color:#fff;background:var(--teal-700);border-color:var(--teal-700);transform:translateY(-1px)}
+.speak-btn.playing{color:#fff;background:var(--teal-700);border-color:var(--teal-700)}
+.speak-btn.compact{padding:4px 8px;font-size:.7rem}
+.speak-btn.icon-only{padding:3px 7px;margin-left:6px}
+.speak-btn.icon-only span:last-child{display:none}
+.pronounce-word{display:inline;margin:0;padding:0 2px;color:inherit;background:rgba(20,145,155,.08);border:0;border-bottom:1px dashed var(--teal-600);border-radius:3px;font:inherit;font-weight:inherit;line-height:inherit;cursor:pointer}
+.pronounce-word:hover,.pronounce-word:focus{color:var(--teal-950);background:#cceee4;border-bottom-style:solid;outline:3px solid rgba(20,145,155,.42);outline-offset:2px}
+.pronounce-word.playing{color:#fff;background:var(--teal-700);border-bottom-color:var(--teal-700)}
+.paraphrase{margin-top:18px;border-top:1px solid var(--line)}
+.paraphrase summary{padding:16px 0 3px;color:var(--teal-800);cursor:pointer;font-weight:800}
+.paraphrase summary span{color:var(--muted);font-size:.75rem;font-weight:500;margin-left:8px}
+.paraphrase ol{margin:12px 0 0;padding-left:22px}
+.paraphrase li{padding:7px 0 9px 5px}
+.paraphrase li p{margin:0;font-size:.9rem;font-weight:650}
+.paraphrase li small{display:block;color:var(--muted);font-size:.72rem;margin-top:2px}
+.chunks{margin-top:4px;color:var(--teal-700);font-size:.78rem}
+.study-section{margin:38px 0 0}
+.section-heading{display:flex;align-items:baseline;gap:10px;margin:0 0 15px;color:var(--teal-950);font-size:1.35rem}
+.section-heading small{color:var(--teal-600);font-size:.78rem;letter-spacing:.05em}
+.study-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.study-grid article{padding:17px;background:#fff;border:1px solid var(--line);border-radius:14px;box-shadow:0 6px 18px rgba(7,63,66,.05);min-width:0}
+.study-grid p{margin:0}
+.practice-en{margin-top:9px;color:var(--teal-700);font-weight:650;overflow-wrap:anywhere}
+.wrong{color:#a24831;text-decoration:line-through;overflow-wrap:anywhere}
+.right{color:var(--teal-700);font-weight:750;margin:5px 0;overflow-wrap:anywhere}
+.pitfalls p{color:var(--muted);font-size:.82rem}
+.shifts article{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1.5fr);gap:12px;align-items:center}
+.shifts b{color:var(--teal-600);font-size:1.2rem}
+.shifts strong{color:var(--teal-800)}
+footer{margin-top:38px;color:var(--muted);font-size:.78rem;text-align:center}
+.footer-note{margin-top:6px}
+@media (max-width:900px){
+  .page{grid-template-columns:1fr}
+  .sidebar{position:static}
+  .sidebar-box{overflow-x:auto;padding:12px}
+  .sidebar h2{padding-left:5px}
+  .map-nav{display:flex;width:max-content;gap:8px}
+  .map-link{width:240px;border:1px solid var(--line);border-radius:10px;padding:8px}
+  .bilingual{grid-template-columns:1fr}
+  .en-block{padding:12px 0 0;border-left:0;border-top:1px dashed var(--line)}
+}
+@media (max-width:620px){
+  .hero-inner{padding-top:30px}
+  .hero-flex{flex-direction:column;align-items:center}
+  .hero-cover{width:100%;max-width:360px}
+  .hero-text{text-align:center}
+  .page{padding-inline:10px;gap:18px}
+  .scene-card{border-radius:14px;padding:17px 13px}
+  .scene-topline{align-items:flex-start}
+  .scene-speak span:last-child{display:none}
+  .sentence{grid-template-columns:26px minmax(0,1fr);padding:13px 10px;gap:6px}
+  .note{grid-column:2}
+  .study-grid{grid-template-columns:1fr}
+  .shifts article{grid-template-columns:1fr;gap:5px}
+  .shifts b{transform:rotate(90deg);justify-self:start}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.speak-btn{transition:none}}</style>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="hero-flex">
+        <div class="hero-text">
+          <p class="eyebrow">AI &amp; Tech · AI/科技</p>
+          <h1>亲历中美neo labs资本狂潮：AI for AI、机制可解释性和Max Tegmark</h1>
+          <p class="hero-en">Inside the China-US Neo-Lab Capital Wave: AI for AI, Mechanistic Interpretability, and Max Tegmark</p>
+          <p class="summary-en" style="margin:0 0 14px;padding:14px 16px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.22);border-radius:12px;font-size:.95rem;line-height:1.7">Ziming Liu, a Tsinghua AI assistant professor and first author of the KAN network, takes us from MIT to Stanford and back to founding a startup in China, unpacking the logic behind the neo-lab capital wave sweeping both countries. Why are young researchers in 2026 abandoning the 'cog in the machine' path at big companies to flood into world models and Auto Research — AI for AI? He also walks through his atypical route: from Physics of AI, to Automated Physics of AI, and finally to the Meta Model.</p>
+          <div class="hero-meta">
+            <span class="chip">2026-08-01</span>
+            <span class="chip">小宇宙FM</span>
+            <span class="chip">1小时50分</span>
+            <span class="chip">7 Scenes</span>
+            <span class="chip">Click underlined words to hear them</span>
+            <a class="source-link" href="https://www.xiaoyuzhoufm.com/episode/6a69b07eb581962ce2bd4d97" target="_blank" rel="noopener">原播客 ↗</a>
+          </div>
+        </div>
+      </div>
+      <div class="toolbar">
+        <div class="lang-switch"><div class="lang-switch"><a href="neo-labs-capital-wave-总结.html">中文</a><a class="active" href="neo-labs-capital-wave-en.html" aria-current="page">EN</a></div></div>
+        <label for="speech-rate">朗读速度</label>
+        <select id="speech-rate">
+          <option value="0.85">慢速 0.85×</option>
+          <option value="1" selected>正常 1×</option>
+          <option value="1.15">快速 1.15×</option>
+        </select>
+        <button id="stop-speech" class="stop-btn" type="button">■ 停止朗读</button>
+        <span id="speech-status" class="speech-status" role="status" aria-live="polite"></span>
+      </div>
+      <div class="narration-player">
+      <p class="audio-label">🎧 中文语音讲解</p>
+      <button class="speak-btn" type="button" data-audio="audio/neo-labs-capital-wave.mp3" aria-label="播放语音讲解"><span aria-hidden="true">▶</span><span>播放语音讲解</span></button>
+    </div>
+    </div>
+  </header>
+  <main class="page">
+    <aside class="sidebar" aria-label="场景地图">
+      <div class="sidebar-box">
+        <h2>场景地图 · SCENE MAP</h2>
+        <nav class="map-nav">
+          <a class="map-link" href="#s1">
+          <span class="map-id">S1</span>
+          <span><b>1. Neo Labs 为什么在2026年井喷？</b><small> · Why Did Neo Labs Explode in 2026?</small></span>
+        </a>
+<a class="map-link" href="#s2">
+          <span class="map-id">S2</span>
+          <span><b>2. Physics of AI：用物理学方法论理解AI</b><small> · Physics of AI: Understanding AI Through the Methods of Physics</small></span>
+        </a>
+<a class="map-link" href="#s3">
+          <span class="map-id">S3</span>
+          <span><b>3. 刘子鸣的路线：从KAN到Meta Model</b><small> · Ziming Liu's Route: From KAN to the Meta Model</small></span>
+        </a>
+<a class="map-link" href="#s4">
+          <span class="map-id">S4</span>
+          <span><b>4. 技术路线对比</b><small> · Comparing Technical Routes</small></span>
+        </a>
+<a class="map-link" href="#s5">
+          <span class="map-id">S5</span>
+          <span><b>5. AI认知的三个时代：从地谷到牛顿</b><small> · Three Ages of Understanding AI: From the Data Valley to Newton</small></span>
+        </a>
+<a class="map-link" href="#s6">
+          <span class="map-id">S6</span>
+          <span><b>6. 结构化Research：O-P-H-I-S方法论</b><small> · Structured Research: The O-P-H-I-S Method</small></span>
+        </a>
+<a class="map-link" href="#s7">
+          <span class="map-id">S7</span>
+          <span><b>7. 创业体感：融资与产品</b><small> · The Startup Reality: Fundraising and Product</small></span>
+        </a>
+        </nav>
+      </div>
+    </aside>
+    <div class="content">
+      <section class="scene-card" id="s1" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S1</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/neo-labs-capital-wave/s1.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>1. Neo Labs 为什么在2026年井喷？</h2>
+      <p class="scene-title-en">Why Did Neo Labs Explode in 2026?</p>
+      <p class="context"><b>情境</b>比较学界、大厂、单干三条路径，分析Auto Research与世界模型为何需要独立实验室。语域：formal 访谈 + 行业分析。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>学界：大多也会在业界跨一脚，但资源有限</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/neo-labs-capital-wave/s1-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Academia: most also keep one foot in industry, but resources are limited.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>keep one foot in → 跨一脚；resources → 资源</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>大厂/模型厂：当"大头兵"，参与的是别人的叙事</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/neo-labs-capital-wave/s1-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Big tech and model labs: as a cog in the machine, you're playing a part in someone else's story.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>cog in the machine → 大头兵/螺丝钉；narrative → 叙事</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>自己出来单干：建立自己的范式</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/neo-labs-capital-wave/s1-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Going solo: build your own paradigm.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>go solo → 自己单干；paradigm → 范式</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键驱动：顶尖人才不想做"大头兵"，觉得下一个transformer级别的范式可以是"我的路线"</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/neo-labs-capital-wave/s1-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key driver: top talent refuses to be a cog in the machine — they believe the next Transformer-level paradigm can be 'my route.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>top talent → 顶尖人才；Transformer-level paradigm → transformer级别的范式</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>Auto Research：coding已经非常成功了，下一步自然是automate research。但research不像coding那样高度结构化——research的语言还没被创造出来</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/neo-labs-capital-wave/s1-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Auto Research: coding has already been automated with great success, so the natural next step is automating research. But research isn't as highly structured as coding — the language of research hasn't even been invented yet.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>automate research → 自动化科研；highly structured → 高度结构化；the language of research → 研究的语言</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>世界模型：需要设计很新颖的架构，不是"堆资源堆工程"就能解决的，需要大量前期research</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/neo-labs-capital-wave/s1-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">World models: they require designing genuinely novel architectures — you can't just throw more compute and engineering at them. They need a lot of upfront research.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>world model → 世界模型；novel architecture → 新颖架构；throw more compute at → 堆资源堆算力；upfront → 前期的</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「在大厂当螺丝钉，参与的是别人的叙事」</p><div class="chunks">cog in the machine · someone else's story · not yours</div><small>cog in the machine 很形象；第二句更正式</small></li>
+<li><p>想说「下一个范式可以是我的路线」</p><div class="chunks">paradigm-level breakthrough · define the next paradigm</div><small>define the next paradigm 表达雄心，适合访谈语境</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s2" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S2</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/neo-labs-capital-wave/s2.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>2. Physics of AI：用物理学方法论理解AI</h2>
+      <p class="scene-title-en">Physics of AI: Understanding AI Through the Methods of Physics</p>
+      <p class="context"><b>情境</b>从空间、时间、平行宇宙三个维度讲 Physics of AI 方法论，并对比 Anthropic 的可解释性工作。语域：formal 学术访谈。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>空间上看得更细：不只看端到端行为，也看内部神经元、内部表征</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/neo-labs-capital-wave/s2-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">In space, look closer: don't just watch end-to-end behavior — look inside at the neurons and internal representations.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>end-to-end behavior → 端到端行为；internal representation → 内部表征</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>时间上演化：不只看最后的checkpoint，也看模型如何演化过来——"Nothing in biology makes sense except in light of evolution"</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/neo-labs-capital-wave/s2-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">In time, study evolution: don't just look at the final checkpoint — trace how the model evolved. As Dobzhansky said, nothing in biology makes sense except in light of evolution.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>checkpoint → 检查点；in light of evolution → 从进化角度看；trace how something evolved → 追溯演化过程</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>平行宇宙（控制实验）：不同超参数训练不同模型，绘制"相图"——每个trick只在特定的"相"里work</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/neo-labs-capital-wave/s2-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Parallel universes, or controlled experiments: train different models with different hyperparameters and draw a 'phase diagram' — every trick only works in a specific 'phase.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>controlled experiment → 控制实验；hyperparameter → 超参数；phase diagram → 相图</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）核心洞察：AI里有很多"相"（如水有固态液态气态）。大家混乱是因为所有人都在说"我的trick work"，但没人回答"在什么条件下work"。Physics of AI的任务就是理清适用条件</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/neo-labs-capital-wave/s2-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The core insight: AI has many 'phases,' just as water has solid, liquid, and gas. Everyone is confused because people keep saying 'my trick works' — but nobody answers under what conditions it works. The job of Physics of AI is to clarify those conditions.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>phase → 相；solid/liquid/gas → 固态/液态/气态；applicability conditions → 适用条件</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>Anthropic的方法：把混合表征升到高维稀疏空间，提取原子概念（如"说脏话的neuron"）</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/neo-labs-capital-wave/s2-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Anthropic's approach: project the entangled representations into a high-dimensional sparse space to extract atomic concepts — like the neuron that fires on profanity.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>sparse space → 稀疏空间；atomic concept → 原子概念；entangled representation → 纠缠/混合表征</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>刘子鸣团队2022-2024年也大量做过类似工作，后来意识到这些发现类似于"AI的生物学"——没有自动化手段支持，需要几百年的古法科研</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/neo-labs-capital-wave/s2-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Ziming Liu's team did similar work extensively from 2022 to 2024, then realized these findings were like 'the biology of AI' — without automated tooling, it would take centuries of old-school science.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>old-school science → 古法科研；automated tooling → 自动化手段；the biology of AI → AI的生物学</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「我的trick有效，但在什么条件下？」</p><div class="chunks">under what conditions · within a specific phase</div><small>under what conditions 是最关键的追问，访谈里常用</small></li>
+<li><p>想说「理清适用条件」</p><div class="chunks">nail down · map out · where it breaks</div><small>nail down 很口语；map out 更正式</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s3" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S3</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/neo-labs-capital-wave/s3.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>3. 刘子鸣的路线：从KAN到Meta Model</h2>
+      <p class="scene-title-en">Ziming Liu's Route: From KAN to the Meta Model</p>
+      <p class="context"><b>情境</b>讲KAN网络诞生故事、物理学家思维，以及预测训练曲线的"自我人体实验"。语域：formal 学术自述 + 亲历故事。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>诞生故事：2024年，基于Kolmogorov-Arnold定理设计了KAN网络。Max一开始不同意，因为1989年Tomaso Poggio就写了论文说这个定理无法变成有效算法</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/neo-labs-capital-wave/s3-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The origin story: in 2024, he designed the KAN network based on the Kolmogorov-Arnold theorem. Max initially disagreed, because back in 1989 Tomaso Poggio had already published a paper arguing the theorem couldn't become an effective algorithm.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>KAN network → KAN网络（Kolmogorov-Arnold Network）；theorem → 定理；initially disagreed → 一开始不同意</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>物理学家思维：不关心worst case，关心一般情况——"我们生活的宇宙不是最坏的宇宙，我们有漂亮的物理结构"</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/neo-labs-capital-wave/s3-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The physicist's mindset: don't care about the worst case, care about the typical case — 'the universe we live in is not the worst universe; we have beautiful physical structure.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>worst case → 最坏情况；typical case → 一般情况；physical structure → 物理结构</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心执念：模型设计本身应该是一门科学，不应该靠拍脑袋。transformer、GAN、ResNet都是"拍脑袋拍出来的"，这非常不scalable</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/neo-labs-capital-wave/s3-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The core conviction: model design itself should be a science, not a shot in the dark. Transformer, GAN, and ResNet were all made up on a whim, and that doesn't scale.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>a shot in the dark → 拍脑袋/瞎猜；on a whim → 凭一时兴起；doesn't scale → 不可扩展</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）"All models are wrong but some are useful. 物理关心的东西都有漂亮的内部结构，这些不是最坏情况。"</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/neo-labs-capital-wave/s3-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Quote: "All models are wrong but some are useful." The things physics cares about all have beautiful internal structure — these are not worst cases.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>internal structure → 内部结构；all models are wrong → 所有模型都有错</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>2026年初，刘子鸣做了一个"自我人体实验"：每天随机抽一个模型+数据集，在自己做实验之前先预测训练曲线会长什么样</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/neo-labs-capital-wave/s3-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">In early 2026, Ziming did a 'self-experiment': every day he picked a random model and dataset, and before running the experiment, he predicted what the training curve would look like.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>self-experiment → 自我实验；training curve → 训练曲线；predict → 预测</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>结果：一开始完全不准。训练到四五十天后，开始变准了——甚至从language的实验迁移预测到vision的实验也能猜对</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/neo-labs-capital-wave/s3-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The results: at first he was completely off. After forty or fifty days of training, his predictions got accurate — he could even transfer intuition from language experiments and guess vision results correctly.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>completely off → 完全不准；transfer intuition → 迁移直觉；guess correctly → 猜对</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「模型设计不该拍脑袋」</p><div class="chunks">a shot in the dark · on a whim · architecture design</div><small>a shot in the dark 很形象；on a whim 强调随意</small></li>
+<li><p>想说「一开始完全不准，后来变准」</p><div class="chunks">way off · get accurate · start landing</div><small>way off 口语强调偏差大；start landing 形容猜测命中</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s4" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S4</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/neo-labs-capital-wave/s4.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>4. 技术路线对比</h2>
+      <p class="scene-title-en">Comparing Technical Routes</p>
+      <p class="context"><b>情境</b>刘子鸣对田渊栋路线的关键质疑——只记住失败经历不够，必须理解失败原因。语域：formal 学术观点交锋。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）刘子鸣对田渊栋路线的关键质疑：如果你的系统只记住了"昨天调学习率失败了"，但不理解为什么失败，那么今天失败可能是因为另一个完全不同的原因——"知道what不够，还需要知道why"</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/neo-labs-capital-wave/s4-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Ziming's key critique of Yuandong Tian's route: if your system only remembers that 'tuning the learning rate failed yesterday' but doesn't understand why it failed, then today's failure could have a completely different cause — 'knowing the what isn't enough; you need the why.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>learning rate → 学习率；know the what vs the why → 知其然不知其所以然；critique → 质疑</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「只知道失败过，不懂为什么失败」</p><div class="chunks">remember the failure · know what vs why</div><small>know what vs why 是本期核心概念，点评直接用</small></li>
+<li><p>想说「今天失败可能是另一个原因」</p><div class="chunks">stem from · entirely different cause · doesn't explain</div><small>stem from 偏书面；第二句更口语化</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s5" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S5</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/neo-labs-capital-wave/s5.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>5. AI认知的三个时代：从地谷到牛顿</h2>
+      <p class="scene-title-en">Three Ages of Understanding AI: From the Data Valley to Newton</p>
+      <p class="context"><b>情境</b>判断当前AI认知处于第0.5到1.5阶段之间，经验规律与数据多样性各有不足。语域：formal 学术判断。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）核心判断：我们可能处于第0.5-1.5阶段之间。取决于你怎么衡量——经验规律还太少（1.5），但数据多样性也还不够（0.5）</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/neo-labs-capital-wave/s5-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The core judgment: we're probably somewhere between stage 0.5 and 1.5, depending on how you measure it — empirical laws are still too few, which argues for 1.5, but data diversity is also insufficient, which argues for 0.5.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>empirical law → 经验规律；data diversity → 数据多样性；stage → 阶段</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「取决于你怎么衡量」</p><div class="chunks">depends on how you measure · yardstick</div><small>yardstick 很形象，比 measure 更生动</small></li>
+<li><p>想说「经验规律还太少」</p><div class="chunks">empirical laws · accumulate reliable rules</div><small>empirical laws 是术语；accumulate rules 更白话</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s6" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S6</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/neo-labs-capital-wave/s6.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>6. 结构化Research：O-P-H-I-S方法论</h2>
+      <p class="scene-title-en">Structured Research: The O-P-H-I-S Method</p>
+      <p class="context"><b>情境</b>介绍观察-问题-假设-干预-加速五步科研思维链，并指出99%的论文没有清晰思维链。语域：formal 方法论讲解。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>O - Observation：观察到了什么现象</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/neo-labs-capital-wave/s6-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">O — Observation: what phenomenon did you observe?</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>observation → 观察；phenomenon → 现象</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>P - Problem：这个现象预示系统中有什么问题</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/neo-labs-capital-wave/s6-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">P — Problem: what problem in the system does this phenomenon hint at?</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>hint at → 预示</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>H - Hypothesis：关于这个问题有什么假设</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/neo-labs-capital-wave/s6-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">H — Hypothesis: what hypothesis do you have about the problem?</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>hypothesis → 假设</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>I - Intervention：假设告诉我们应该做什么操作</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/neo-labs-capital-wave/s6-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">I — Intervention: what intervention does the hypothesis suggest?</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>intervention → 干预/操作；suggest → 提示</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>S - Speed up：操作是否真的带来了训练提升</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/neo-labs-capital-wave/s6-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">S — Speed up: did the intervention actually speed up training?</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>speed up training → 加速训练</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）核心逻辑：首先要创造一门"研究的语言"——把科研思维链结构化。有了结构化数据后，就可以像训练语言模型一样训练research语言模型。但当前99%的论文不包含清晰的思维链</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/neo-labs-capital-wave/s6-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The core logic: first, create a 'language of research' — structure the scientific reasoning chain. Once you have structured data, you can train a research language model the same way you train a language model. But right now, 99% of papers don't contain a clear reasoning chain.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>reasoning chain → 思维链；research language model → 科研语言模型；structure → 结构化</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「把科研思维链结构化」</p><div class="chunks">reasoning chain · make explicit · turn thought into data</div><small>make explicit 偏学术；turn thought into data 更形象</small></li>
+<li><p>想说「99%的论文没有清晰的思维链」</p><div class="chunks">include a reasoning chain · hidden thinking</div><small>the thinking is hidden 更口语</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s7" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S7</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/neo-labs-capital-wave/s7.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>7. 创业体感：融资与产品</h2>
+      <p class="scene-title-en">The Startup Reality: Fundraising and Product</p>
+      <p class="context"><b>情境</b>讲融资轮次节奏、投资人标签，以及「Vibe Training」的终极产品愿景。语域：casual 创业叙事 + 愿景展望。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>融资状态：种子轮→加轮→加加轮→加加加轮，可以无限加下去。上一轮投资人没进来就开下一轮</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/neo-labs-capital-wave/s7-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Funding status: seed round, then bridge round, then another bridge round, and another — it can go on forever. They open the next round even before the previous investors have signed.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>seed round → 种子轮；bridge round → 加轮/过渡轮；sign → 签字进入</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>归类标签：投资人常把他们归入AI for Science，但实际路线是AI for AI / Auto Research</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/neo-labs-capital-wave/s7-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The label: investors often file them under AI for Science, but their actual route is AI for AI and Auto Research.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>file under → 归入；AI for Science → AI for Science；AI for AI → 用AI做AI</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）"大家都在相互打探消息，投项目的动作都非常快。"</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/neo-labs-capital-wave/s7-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Quote: "Everyone is fishing for intel from each other, and the pace of writing checks is extremely fast."</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>fish for intel → 打探消息；write checks → 投钱/出手；the pace is fast → 动作快</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>6-12个月：R&D + 产品雏形，探索最佳方向</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/neo-labs-capital-wave/s7-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The first 6 to 12 months: R&D plus a product prototype, exploring the best direction.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>R&D → 研发；product prototype → 产品雏形；explore directions → 探索方向</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>1年后：开始产品化与商业化</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/neo-labs-capital-wave/s7-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">After year one: move into productization and commercialization.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>productization → 产品化；commercialization → 商业化</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>终极愿景："Vibe Training"——用户只需要说需求，系统端到端设计→训练→部署模型。不一定是LM，是各类垂直领域模型</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/neo-labs-capital-wave/s7-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The ultimate vision: 'Vibe Training' — the user just states their needs, and the system end-to-end designs, trains, and deploys the model. Not necessarily a language model — vertical models of all kinds.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>vibe training → 按需求生成模型；end-to-end → 端到端；vertical model → 垂直领域模型</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「融资一轮接一轮停不下来」</p><div class="chunks">keep stacking · bridge round · with no end in sight</div><small>keep stacking 口语；bridge round 是融资术语</small></li>
+<li><p>想说「用户说需求，系统自动出模型」</p><div class="chunks">state the need · end-to-end pipeline · runs by itself</div><small>end-to-end 是术语；runs by itself 很口语</small></li>
+        </ol>
+      </details>
+    </section>
+      <section class="study-section" id="practice">
+      <h2 class="section-heading">今日可练 <small>PRACTICE TODAY</small></h2>
+      <div class="study-grid">
+        <article>
+          <p>用「cog in the machine」说：顶尖人才不想在大厂当螺丝钉。</p>
+          <div class="practice-en">
+            Top talent doesn't want to be a cog in the machine at a big lab.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/neo-labs-capital-wave/practice-0.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「under what conditions」说：我的trick有效，但在什么条件下？</p>
+          <div class="practice-en">
+            My trick works — but under what conditions?
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/neo-labs-capital-wave/practice-1.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「a shot in the dark」说：模型设计不该靠拍脑袋。</p>
+          <div class="practice-en">
+            Model design shouldn't be a shot in the dark.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/neo-labs-capital-wave/practice-2.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「know the why」说：只知道失败过不够，还得知道为什么。</p>
+          <div class="practice-en">
+            Knowing that it failed isn't enough — you need to know the why.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/neo-labs-capital-wave/practice-3.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article>
+      </div>
+    </section>
+      <section class="study-section pitfalls" id="pitfalls">
+      <h2 class="section-heading">避坑 <small>PITFALLS</small></h2>
+      <div class="study-grid">
+        <article>
+          <div class="wrong">✕ Research is not as structured as coding, the language of research has not been made yet.</div>
+          <div class="right">✓ Research isn't as structured as coding — the language of research hasn't been invented yet.</div>
+          <p>两句之间用破折号或分号连接更自然；「创造一门语言」用 invent / create，不用 make。</p>
+        </article><article>
+          <div class="wrong">✕ Transformer, GAN and ResNet are all beaten out by head.</div>
+          <div class="right">✓ Transformer, GAN, and ResNet were all made up on a whim.</div>
+          <p>「拍脑袋」是 make up on a whim / a shot in the dark，直译 beaten out by head 没人能懂。</p>
+        </article><article>
+          <div class="wrong">✕ The system only remembers the failure of adjusting learning rate yesterday.</div>
+          <div class="right">✓ The system only remembers that tuning the learning rate failed yesterday.</div>
+          <p>remember + that 从句更地道；「调学习率」是 tune / adjust the learning rate。</p>
+        </article><article>
+          <div class="wrong">✕ Everyone is asking each other for news, the action is very fast.</div>
+          <div class="right">✓ Everyone is fishing for intel, and the pace of writing checks is extremely fast.</div>
+          <p>「打探消息」是 fishing for intel；「动作快」结合投资语境用 pace of writing checks，而非直译 action is fast。</p>
+        </article>
+      </div>
+    </section>
+      <section class="study-section shifts" id="mindset">
+      <h2 class="section-heading">认知转变 <small>MINDSET SHIFTS</small></h2>
+      <div class="study-grid">
+        <article>
+          <span>以为 AI 科研只能在大厂里当「大头兵」</span>
+          <b aria-hidden="true">→</b>
+          <strong>顶级人才宁可自己开 lab，去建立自己的范式</strong>
+        </article><article>
+          <span>以为 trick 有效就等于科学结论</span>
+          <b aria-hidden="true">→</b>
+          <strong>必须回答「在什么条件下 work」，这就是 Physics of AI 的使命</strong>
+        </article><article>
+          <span>以为模型设计靠天才直觉就行</span>
+          <b aria-hidden="true">→</b>
+          <strong>模型设计本身应该成为一门可结构化的科学</strong>
+        </article>
+      </div>
+    </section>
+      <footer>
+        双语学习版 · 场景/句子朗读使用 edge-tts（en-US） · 单词发音使用浏览器 Web Speech API
+        <div class="footer-note">中文版：<a href="neo-labs-capital-wave-总结.html">neo-labs-capital-wave-总结.html</a> · SVG 版：<a href="viewer.html?f=neo-labs-capital-wave-总结.svg" target="_blank">neo-labs-capital-wave-总结.svg</a></div>
+      </footer>
+    </div>
+  </main>
+  <script>(() => {
+  let activeAudio = null;
+  let activeBtn = null;
+  const status = document.getElementById('speech-status');
+  const stopBtn = document.getElementById('stop-speech');
+  const rateSel = document.getElementById('speech-rate');
+
+  const reset = () => {
+    if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+    activeBtn?.classList.remove('playing');
+    activeBtn = null;
+    stopBtn.classList.remove('visible');
+    status.textContent = '';
+  };
+
+  const playAudio = (url, btn) => {
+    reset();
+    const audio = new Audio(url);
+    audio.playbackRate = Number(rateSel.value);
+    activeAudio = audio;
+    activeBtn = btn;
+    btn.classList.add('playing');
+    stopBtn.classList.add('visible');
+    status.textContent = btn.classList.contains('scene-speak')
+      ? 'Reading the whole scene…'
+      : 'Reading…';
+
+    audio.onended = () => { if (activeAudio === audio) reset(); };
+    audio.onerror = () => { status.textContent = 'Audio failed to load.'; if (activeAudio === audio) reset(); };
+    audio.play().catch(() => { status.textContent = 'Playback failed.'; if (activeAudio === audio) reset(); });
+  };
+
+  document.addEventListener('click', e => {
+    const btn = e.target.closest('[data-audio]');
+    if (!btn) return;
+    e.preventDefault();
+    if (btn === activeBtn && activeAudio) { reset(); return; }
+    playAudio(btn.dataset.audio, btn);
+  });
+
+  stopBtn.addEventListener('click', reset);
+
+  const synth = window.speechSynthesis;
+  const getEnglishVoice = () => {
+    const voices = synth.getVoices();
+    return voices.find(v => /^en-(US|GB)/i.test(v.lang))
+        || voices.find(v => /^en/i.test(v.lang)) || null;
+  };
+
+  const difficultWords = new Set([
+    'assortment', 'SKU', 'premium', 'margin', 'middleman', 'OEM', 'rebranding',
+    'hoarding', 'PTSD', 'curation', 'repurchase', 'touchpoint', 'backlash',
+    'reshuffle', 'funnel', 'anchor', 'contract', 'psychology', 'private', 'label',
+    'editorial', 'familiar', 'competitors', 'authorization', 'flexibility'
+  ]);
+
+  const shouldPronounce = word => {
+    const n = word.toLowerCase().replace(/^[^a-z]+|[^a-z]+$/g, '');
+    return n.replace(/[^a-z]/g, '').length >= 8 || difficultWords.has(n);
+  };
+
+  const markPronounceableWords = root => {
+    const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+    const nodes = [];
+    while (walker.nextNode()) nodes.push(walker.currentNode);
+    nodes.forEach(node => {
+      if (node.parentElement?.closest('button, script, style')) return;
+      const text = node.nodeValue;
+      let m, last = 0, changed = false;
+      const frag = document.createDocumentFragment();
+      const re = /[A-Za-z]+(?:[-'’][A-Za-z]+)*/g;
+      while ((m = re.exec(text))) {
+        if (!shouldPronounce(m[0])) continue;
+        changed = true;
+        frag.append(text.slice(last, m.index));
+        const wb = document.createElement('button');
+        wb.type = 'button'; wb.className = 'pronounce-word';
+        wb.dataset.speak = m[0];
+        wb.setAttribute('aria-label', '\u8bfb\u5355\u8bcd ' + m[0]);
+        wb.title = '\u70b9\u51fb\u542c\u53d1\u97f3';
+        wb.textContent = m[0];
+        frag.append(wb);
+        last = m.index + m[0].length;
+      }
+      if (!changed) return;
+      frag.append(text.slice(last));
+      node.replaceWith(frag);
+    });
+  };
+
+  document.querySelectorAll(
+    '.english, .scene-title-en, .paraphrase li p, .chunks, .practice-en, .wrong, .right, .summary-en'
+  ).forEach(markPronounceableWords);
+
+  document.addEventListener('click', e => {
+    const wb = e.target.closest('.pronounce-word');
+    if (!wb) return;
+    e.preventDefault();
+    if (!synth) return;
+    synth.cancel();
+    if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+    activeBtn?.classList.remove('playing');
+    activeBtn = wb;
+    wb.classList.add('playing');
+    const u = new SpeechSynthesisUtterance(wb.dataset.speak);
+    u.lang = 'en-US';
+    u.rate = 0.88;
+    const v = getEnglishVoice();
+    if (v) u.voice = v;
+    u.onend = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+    u.onerror = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+    synth.speak(u);
+  });
+})();</script>
+</body>
+</html>

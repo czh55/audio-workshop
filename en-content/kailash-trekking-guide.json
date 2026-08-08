@@ -1,0 +1,369 @@
+{
+  "slug": "kailash-trekking-guide",
+  "date": "2026-08-01",
+  "platform": "小宇宙FM",
+  "title": "冈仁波齐徒步全攻略：5600米海拔、52公里山路",
+  "title_en": "The Complete Mount Kailash Trekking Guide: 5,600 Meters and 52 Kilometers",
+  "eyebrow": "Outdoor & Travel · 户外/旅行",
+  "duration": "1小时25分",
+  "source_url": "https://www.xiaoyuzhoufm.com/episode/6a65ab6ea3fec224d5a3742d",
+  "summary_cn": "嘉宾松鹤分享冈仁波齐转山全攻略。核心内容：错峰旅行策略、冬游西藏卡、便携制氧机（闲鱼日租20元）、氧气袋/碳纤维氧气瓶对比、52公里环线路线拆解（塔钦→曲古寺→止热寺→天葬台→卓玛拉垭口5600米→不动地丁）、救援车机制（150-200元/人）、219公路暴风雪经历、低反（醉氧）体验。核心主题：高原徒步不是浪漫化的旅程，需要充分准备，知道什么时候该认怂坐车",
+  "summary_en": "Guest Songhe shares a complete guide to the Mount Kailash kora. Core content: an off-peak travel strategy, the winter Tibet free-entry card, portable oxygen concentrators rented on a second-hand app for 20 yuan a day, comparisons of oxygen bags versus carbon-fiber cylinders, a breakdown of the 52-kilometer loop from Darchen through Chugu Monastery, Zhire Monastery, the sky burial site, the Drolma La pass at 5,600 meters, and Budong Dianding, the rescue-vehicle system at 150 to 200 yuan per person, a snowstorm on Highway 219, and the 'altitude euphoria' on return. The core theme: high-altitude trekking isn't a romanticized journey — it needs preparation, and knowing when to swallow your pride and take the truck.",
+  "scenes": [
+    {
+      "id": "s1",
+      "title_cn": "1. 错峰旅行：同样的钱，天上地下的体验",
+      "title_en": "Off-Peak Travel: Same Money, Worlds Apart",
+      "context": "用黄金周前后的低谷期、冬游免票政策讲错峰策略。语域：casual 攻略分享。",
+      "speak": "The small valleys before and after golden week: October 8th to 15th, a cooldown window; the make-up-work weekends, when everyone is busy prepping for trips; and the week before May Day. The crowds in these windows are unbelievably thin. Then there's the winter Tibet free-entry policy: from November to the following March, all A-level scenic spots owned by the region waive admission. It's cold, but tourists are scarce, it's cheap, and there's a unique Tibet flavor to it. As Songhe found, the exact holiday dates are packed, but the shoulders around them are emptier than ever. The core logic: shift your trip by just a day or two around golden week, and the experience is worlds apart.",
+      "sentences": [
+        {
+          "cn": "黄金周前后的小低谷：10月8号到15号（技能冷却期）、调休的周末（都在上班准备旅行）、五一前一周。这些时间段的人少到令人难以置信",
+          "en": "The small valleys before and after golden week: October 8th to 15th, a cooldown window; the make-up-work weekends, when everyone is busy prepping for trips; and the week before May Day. The crowds in these windows are unbelievably thin.",
+          "note": "<span>表达提示</span>off-peak → 错峰；cooldown window → 客流低谷期；make-up workday → 调休工作日"
+        },
+        {
+          "cn": "冬游西藏免票政策：每年11月到次年3月，所有自治区属A级景区免门票。这个时间段虽然冷，但游客极少、便宜、有一种独特的\"西藏味道\"",
+          "en": "The winter Tibet free-entry policy: from November to the following March, all A-level scenic spots owned by the region waive admission. It's cold, but tourists are scarce, it's cheap, and there's a unique 'Tibet flavor' to it.",
+          "note": "<span>表达提示</span>waive admission → 免门票；scenic spot → 景区；free entry → 免票"
+        },
+        {
+          "cn": "实例分享：松鹤4月下旬走云南（腾冲、丽江、大理），五一前到西藏，\"一路上人少得不可思议\"。他判断现在的趋势是：黄金周和小长假正日子爆满，但前后的弹剂越来越明显",
+          "en": "An example: Songhe did Yunnan — Tengchong, Lijiang, Dali — in late April and reached Tibet just before May Day, with 'unbelievably few people the whole way.' His read on the trend: the exact holiday dates are packed, but the shoulders around them are emptier than ever.",
+          "note": "<span>表达提示</span>shoulder season → 前后边缘期；packed → 爆满；his read on the trend → 他对趋势的判断"
+        },
+        {
+          "cn": "（引用）核心逻辑：如果你有法定年假，把假期用在黄金周前后的\"低谷期\"——前后挪一两天，体验天差地别",
+          "en": "The core logic: if you have statutory annual leave, spend it in the valleys around golden week — shift your trip by just a day or two, and the experience is worlds apart.",
+          "note": "<span>表达提示</span>statutory annual leave → 法定年假；worlds apart → 天差地别；shift by a day or two → 前后挪一两天"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「人少到不可思议」",
+          "phrases": [
+            "The crowds were unbelievably thin.",
+            "You could go hours without seeing another tourist."
+          ],
+          "chunks": "unbelievably thin · go hours without seeing",
+          "usage": "thin crowds 很地道；第二句更有画面感"
+        },
+        {
+          "intent": "想说「前后挪一两天，体验天差地别」",
+          "phrases": [
+            "Shift your trip by a day and the experience is worlds apart.",
+            "A couple of days either way makes all the difference."
+          ],
+          "chunks": "worlds apart · makes all the difference",
+          "usage": "makes all the difference 常用口语"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title_cn": "2. 高原氧气方案：怎么花最少的钱保命",
+      "title_en": "Oxygen Options: How to Stay Alive for the Least Money",
+      "context": "对比便携制氧机与氧气瓶的性价比，给出全程佩戴的使用策略。语域：casual 实用攻略。",
+      "speak": "Rent a portable oxygen concentrator on the second-hand app: about 20 yuan a day, providing continuous oxygen without interruption. It beats oxygen cylinders — a few dozen yuan for a canister that lasts minutes — and you can breathe while walking. The usage strategy: keep it on the whole way, because once you take it off mid-trek, getting back to your blood-oxygen level can take a while. Songhe's advice is simple: wear it from start to finish, even while sleeping.",
+      "sentences": [
+        {
+          "cn": "闲鱼租便携制氧机：一天20元左右，可以连续制氧不中断。比氧气瓶（一罐几十块几分钟用完）划算太多，而且可以边走路边吸",
+          "en": "Rent a portable oxygen concentrator on the second-hand app: about 20 yuan a day, providing continuous oxygen without interruption. It beats oxygen cylinders — a few dozen yuan for a canister that lasts minutes — and you can breathe while walking.",
+          "note": "<span>表达提示</span>oxygen concentrator → 制氧机；oxygen cylinder → 氧气瓶；continuous → 不间断"
+        },
+        {
+          "cn": "使用策略：保持全程佩戴——一旦中途拿下来，再戴上可能需要一段时间才能回到血氧水平。松鹤的建议是\"从出发到结束一直戴着，睡觉也戴着\"",
+          "en": "The usage strategy: keep it on the whole way — once you take it off mid-trek, getting back to your blood-oxygen level can take a while. Songhe's advice: 'Wear it from start to finish, even while sleeping.'",
+          "note": "<span>表达提示</span>blood-oxygen level → 血氧水平；keep it on → 一直戴着；mid-trek → 中途"
+        },
+        {
+          "cn": "（引用）松鹤推荐：闲鱼上找\"便携制氧机 日租\"，一天20元，买一个属于自己的不如租一个 —— 回家后根本用不着",
+          "en": "Songhe's tip: search the second-hand app for 'portable oxygen concentrator daily rental' at 20 yuan a day. Renting beats buying your own — you'll never use it once you're home.",
+          "note": "<span>表达提示</span>daily rental → 日租；beats buying → 比买划算；never use it at home → 回家后根本用不着"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「比氧气瓶划算太多」",
+          "phrases": [
+            "It's way better value than oxygen cylinders.",
+            "One canister lasts minutes; a rented machine runs all day."
+          ],
+          "chunks": "better value · lasts minutes · runs all day",
+          "usage": "better value 谈性价比；对比句更有说服力"
+        },
+        {
+          "intent": "想说「全程戴着别摘」",
+          "phrases": [
+            "Keep it on from start to finish.",
+            "Don't take it off until you're back at base."
+          ],
+          "chunks": "keep it on · from start to finish · take it off",
+          "usage": "keep it on 口语指令式表达"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title_cn": "3. 52公里环线路线详解",
+      "title_en": "The 52-Kilometer Loop, Stage by Stage",
+      "context": "逐段拆解从塔钦到卓玛拉垭口的转山路线与海拔数据。语域：casual 攻略路线讲解。",
+      "speak": "Darchen is the starting point of the kora, at about 4,600 meters, with guesthouses and supplies. Chugu Monastery is the first prayer-flag gathering point, where you can see the west face of Mount Kailash. Zhire Monastery is the first night's stop at about 5,000 meters — basic but wind-protected. Day one has little overall climbing, but you stay between 4,600 and 5,000 meters the whole time, and some people go down on the very first day. Then come the sky burial site and, finally, Drolma La pass at 5,600 meters — the highest point of the whole route, where Songhe hit a blizzard, and where everyone carrying a concentrator felt its enormous help.",
+      "sentences": [
+        {
+          "cn": "塔钦：转山起点，海拔约4600米，有客栈和补给",
+          "en": "Darchen: the starting point of the kora, at about 4,600 meters, with guesthouses and supplies.",
+          "note": "<span>表达提示</span>kora → 转山；starting point → 起点；guesthouse → 客栈"
+        },
+        {
+          "cn": "曲古寺：第一个经幡聚集点，沿途可以看到冈仁波齐峰的西面",
+          "en": "Chugu Monastery: the first prayer-flag gathering point, where you can see the west face of Mount Kailash along the way.",
+          "note": "<span>表达提示</span>prayer flag → 经幡；monastery → 寺庙；west face → 西面"
+        },
+        {
+          "cn": "止热寺：第一天的住宿点，海拔约5000米。条件简陋但能避风，有简单的床和被子。建议自备睡袋内胆或羽绒睡袋",
+          "en": "Zhire Monastery: the first night's stop, at about 5,000 meters. Conditions are basic but wind-protected, with simple beds and blankets. It's recommended to bring your own sleeping bag liner or a down sleeping bag.",
+          "note": "<span>表达提示</span>sleeping bag liner → 睡袋内胆；down sleeping bag → 羽绒睡袋；wind-protected → 能避风"
+        },
+        {
+          "cn": "（引用）第一天整体爬升不大，但始终在4600-5000米之间，每个人对海拔的反应不同——有人第一天就倒下了",
+          "en": "Day one has little overall climbing, but you stay between 4,600 and 5,000 meters the whole time, and everyone reacts to altitude differently — some people go down on the first day.",
+          "note": "<span>表达提示</span>react to altitude → 对海拔的反应；go down → 倒下"
+        },
+        {
+          "cn": "天葬台：沿途标志性地点，很多朝圣者在此停留",
+          "en": "The sky burial site: a landmark along the way where many pilgrims pause.",
+          "note": "<span>表达提示</span>sky burial → 天葬；landmark → 标志性地点；pilgrim → 朝圣者"
+        },
+        {
+          "cn": "卓玛拉垭口（5600米）：全线最高点！松鹤过垭口时遇到暴风雪，能见度极差。带制氧机的人都感受到了巨大的帮助",
+          "en": "Drolma La pass, at 5,600 meters: the highest point of the whole route! Songhe hit a blizzard crossing it, with terrible visibility. Everyone carrying an oxygen concentrator felt its enormous help.",
+          "note": "<span>表达提示</span>pass → 垭口；blizzard → 暴风雪；visibility → 能见度"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「有人第一天就倒下了」",
+          "phrases": [
+            "Some people go down on the very first day.",
+            "Altitude knocks out certain hikers immediately."
+          ],
+          "chunks": "go down · knock out · immediately",
+          "usage": "go down 口语委婉说法；knock out 更直接"
+        },
+        {
+          "intent": "想说「带制氧机的人受益巨大」",
+          "phrases": [
+            "Those with a concentrator felt enormous relief.",
+            "The oxygen machine was a lifesaver at the pass."
+          ],
+          "chunks": "enormous relief · a lifesaver at the pass",
+          "usage": "a lifesaver 口语；enormous relief 更书面"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "title_cn": "4. 真实的高反与极限体验",
+      "title_en": "Real Altitude Sickness and Extreme Experiences",
+      "context": "讲垭口暴风雪、219公路雪区、以及回到平原后的醉氧体验。语域：casual 惊险叙事 + 生存法则。",
+      "speak": "Songhe met a blizzard while crossing Drolma La — wind-driven snow made it impossible to open his eyes and the temperature plunged. He stayed steady on the portable oxygen concentrator the whole way, but one companion without oxygen gear suffered severe altitude sickness and had to be supported by others. The lesson: at 5,600 meters with extreme weather, going without oxygen is gambling with your life. Later, driving Highway 219 toward Xinjiang, he ran into another sudden blizzard — visibility below five meters, snow deep enough to bury the car. He chose to push through, because stopping was more dangerous. And back on the plains, he experienced altitude euphoria: all he wanted was to sleep.",
+      "sentences": [
+        {
+          "cn": "松鹤在翻卓玛拉垭口时遭遇暴风雪，风把雪吹得根本睁不开眼，气温骤降。全程靠着便携制氧机保持呼吸平稳。同行的朋友中有人因为没带制氧设备，在垭口附近出现了严重的高反症状，不得不靠别人扶持",
+          "en": "Songhe met a blizzard while crossing Drolma La — wind-driven snow made it impossible to open his eyes and the temperature plunged. He stayed steady on the portable oxygen concentrator the whole way. One companion without oxygen gear suffered severe altitude sickness near the pass and had to be supported by others.",
+          "note": "<span>表达提示</span>wind-driven snow → 风吹雪；temperature plunged → 气温骤降；altitude sickness → 高反"
+        },
+        {
+          "cn": "（引用）关键教训：在5600米海拔遇到极端天气，没有氧气支持等于在拿命赌。便携制氧机的2000块\"保险\"值得花",
+          "en": "The key lesson: at 5,600 meters with extreme weather, going without oxygen support is gambling with your life. The 2,000-yuan 'insurance' of a portable concentrator is worth every cent.",
+          "note": "<span>表达提示</span>gamble with one's life → 拿命赌；insurance → 保险；worth every cent → 值得花"
+        },
+        {
+          "cn": "转山结束后，松鹤沿219公路从西藏往新疆方向开，遭遇了一场突如其来的暴风雪。雪在几分钟之内就把路面全部覆盖，能见度不到五米，积雪深到随时可能把车埋住",
+          "en": "After the kora, Songhe drove along Highway 219 from Tibet toward Xinjiang and ran into a sudden blizzard. In minutes the road was covered, visibility dropped below five meters, and the snow was deep enough to bury the car at any moment.",
+          "note": "<span>表达提示</span>sudden blizzard → 突如其来的暴风雪；bury the car → 把车埋住；visibility dropped → 能见度下降"
+        },
+        {
+          "cn": "决定：松鹤选择硬着头皮往前开——\"那个地方前不着村后不着店，停下来更危险，因为没人会来救你\"。开了三个多小时才穿过雪区",
+          "en": "The decision: Songhe chose to push through — 'that place is in the middle of nowhere; stopping is more dangerous because no one will come to rescue you.' It took over three hours to get through the snow zone.",
+          "note": "<span>表达提示</span>push through → 硬着头皮往前开；in the middle of nowhere → 前不着村后不着店；snow zone → 雪区"
+        },
+        {
+          "cn": "（引用）高原生存铁律：在无人区遇到极端天气，移动比停留更安全。但如果判断自己无法前行——待在车里、等雪停、有卫星电话求救",
+          "en": "The iron rule of high-altitude survival: in uninhabited areas with extreme weather, keep moving rather than stop. But if you judge you can't go on — stay in the car, wait for the snow to stop, and call for help with a satellite phone.",
+          "note": "<span>表达提示</span>iron rule → 铁律；uninhabited area → 无人区；satellite phone → 卫星电话"
+        },
+        {
+          "cn": "从西藏回到平原地区后，松鹤经历了一种\"醉氧\"状态——开车的时候只想睡觉，怎么睡都睡不够，身体像被抽空了一样",
+          "en": "Back on the plains after Tibet, Songhe experienced a kind of 'altitude euphoria' — all he wanted was to sleep while driving, no amount of sleep felt like enough, and his body felt drained.",
+          "note": "<span>表达提示</span>altitude euphoria → 醉氧；feel drained → 身体被抽空；no amount of sleep feels enough → 怎么睡都睡不够"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「拿命在赌」",
+          "phrases": [
+            "Going without oxygen is gambling with your life.",
+            "Without support gear, you're betting your life at that altitude."
+          ],
+          "chunks": "gamble with one's life · betting your life",
+          "usage": "gamble with one's life 是地道强调表达"
+        },
+        {
+          "intent": "想说「移动比停留更安全」",
+          "phrases": [
+            "Keep moving rather than stop.",
+            "Staying put can be deadlier than pressing on."
+          ],
+          "chunks": "keep moving · stay put · press on",
+          "usage": "stay put 表示留在原地；press on 继续前进"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "title_cn": "5. 认怂哲学：什么时候该坐车",
+      "title_en": "The Philosophy of Knowing When to Quit: When to Take the Truck",
+      "context": "讲救援车机制、该坐车的五种情况，以及「完赛最不重要」的核心经验。语域：casual 攻略 + 人生感悟。",
+      "speak": "The cost: taking a rescue vehicle from Budong Dianding back to Darchen runs about 150 to 200 yuan per person. It's not an ambulance — it's a local's pickup truck or van. You should take the truck when the sky is darkening, weather turns suddenly, your feet are blistered, altitude sickness keeps worsening, or your oxygen gear runs out of battery. Songhe took the truck at Budong Dianding, even though a companion walked the whole way. As he put it, this isn't a race, and nobody is handing out medals. The core lesson: safety first, experience second, finishing last. Admitting defeat is maturity, not weakness.",
+      "sentences": [
+        {
+          "cn": "费用：从不动地丁坐救援车回塔钦，约150-200元/人。不是救护车，是当地人的皮卡车或面包车",
+          "en": "The cost: taking a rescue vehicle from Budong Dianding back to Darchen runs about 150 to 200 yuan per person. It's not an ambulance — it's a local's pickup truck or van.",
+          "note": "<span>表达提示</span>rescue vehicle → 救援车；pickup truck → 皮卡车；van → 面包车"
+        },
+        {
+          "cn": "应该坐车的情况：天色已暗、天气突变（暴风雪/大雨）、脚起泡走不动、高反症状持续加重、制氧设备电量耗尽",
+          "en": "When you should take the truck: the sky is darkening, weather turns suddenly — blizzard or downpour — your feet are blistered and can't carry you, altitude sickness keeps worsening, or your oxygen gear runs out of battery.",
+          "note": "<span>表达提示</span>blister → 起泡；downpour → 大雨；run out of battery → 电量耗尽"
+        },
+        {
+          "cn": "松鹤的选择：到了不动地丁，他选择坐车。尽管有同伴继续走完了全程。\"这不是比赛，没有人给你发奖牌。\"",
+          "en": "Songhe's choice: at Budong Dianding, he took the truck — even though a companion walked the whole way. 'This isn't a race; nobody is handing out medals.'",
+          "note": "<span>表达提示</span>hand out medals → 发奖牌；race → 比赛"
+        },
+        {
+          "cn": "（引用）\"旅行的意义从来不在于一定走完全程。能够看清自己的身体，接受临时改变，最后快快乐乐地出发、平平安安地回来，可能才是真正重要的事。\"",
+          "en": "Quote: \"The meaning of travel was never about completing the whole route. Reading your own body, accepting last-minute changes, and finally setting out happy and coming home safe — that's what really matters.\"",
+          "note": "<span>表达提示</span>read one's body → 看清身体；last-minute change → 临时改变；come home safe → 平安回来"
+        },
+        {
+          "cn": "（引用）核心经验：高原徒步的准则是\"安全第一、体验第二、完赛最不重要\"。认怂是成熟的表现，不是软弱",
+          "en": "The core lesson: the rule for high-altitude trekking is 'safety first, experience second, finishing last.' Admitting defeat is maturity, not weakness.",
+          "note": "<span>表达提示</span>admitting defeat → 认怂；finishing last → 完赛最不重要；maturity not weakness → 成熟而非软弱"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「认怂是成熟的表现」",
+          "phrases": [
+            "Knowing when to quit is maturity, not weakness.",
+            "Turning back is a sign of wisdom, not failure."
+          ],
+          "chunks": "know when to quit · turn back · a sign of wisdom",
+          "usage": "know when to quit 是常用习语"
+        },
+        {
+          "intent": "想说「没人给你发奖牌」",
+          "phrases": [
+            "Nobody is handing out medals.",
+            "No one will judge you for hopping in the truck."
+          ],
+          "chunks": "hand out medals · judge you for · hop in the truck",
+          "usage": "hop in the truck 很口语化"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "title_cn": "6. 装备与准备清单",
+      "title_en": "Gear and Preparation Checklist",
+      "context": "最重要的三条装备：制氧机、保温壶、羽绒睡袋。语域：casual 清单式收尾。",
+      "speak": "The three essentials: an oxygen concentrator, whether you think you need it or not; a thermos, because a sip of hot water at 5,600 meters is a life-saving-level experience; and a down sleeping bag, since the lodging is extremely basic.",
+      "sentences": [
+        {
+          "cn": "（引用）最重要的三条：制氧机（不管你觉得需不需要）、保温壶（5600米喝一口热水是救命级别的体验）、羽绒睡袋（住宿条件极简陋）",
+          "en": "The three essentials: an oxygen concentrator, whether you think you need it or not; a thermos, because a sip of hot water at 5,600 meters is a life-saving-level experience; and a down sleeping bag, since the lodging is extremely basic.",
+          "note": "<span>表达提示</span>thermos → 保温壶；life-saving-level → 救命级别；extremely basic → 极简陋"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「不管你觉得需不需要」",
+          "phrases": [
+            "Whether or not you think you need it.",
+            "Even if you're sure you won't use it."
+          ],
+          "chunks": "whether or not · sure you won't use it",
+          "usage": "whether or not 简洁标准"
+        },
+        {
+          "intent": "想说「一口热水是救命级别的体验」",
+          "phrases": [
+            "A sip of hot water there feels lifesaving.",
+            "Hot water at altitude is a luxury beyond measure."
+          ],
+          "chunks": "feel lifesaving · a luxury beyond measure",
+          "usage": "a luxury beyond measure 更有感染力"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "cn": "用「off-peak」说：错峰旅行人少体验好。",
+      "en": "Off-peak travel means thin crowds and a much better experience."
+    },
+    {
+      "cn": "用「gamble with one's life」说：没氧气等于拿命赌。",
+      "en": "Hiking at 5,600 meters without oxygen is gambling with your life."
+    },
+    {
+      "cn": "用「know when to quit」说：知道什么时候该认怂。",
+      "en": "Knowing when to quit is maturity, not weakness."
+    },
+    {
+      "cn": "用「altitude sickness」说：高反加重就必须下撤。",
+      "en": "If altitude sickness keeps worsening, you have to descend."
+    }
+  ],
+  "pitfalls": [
+    {
+      "wrong": "The rescue car is 150 yuan for every person, very cheap.",
+      "right": "Taking the rescue truck back costs about 150 to 200 yuan per person.",
+      "why": "「每人」是 per person；150-200 元在高海拔并不算便宜，别随意加 very cheap 评语。"
+    },
+    {
+      "wrong": "My foot got bubbles, I can't walk anymore.",
+      "right": "My feet are blistered and can't carry me anymore.",
+      "why": "「脚起泡」是 feet are blistered；bubbles 是「气泡/泡沫」，用词错误。"
+    },
+    {
+      "wrong": "I want to sleep no matter how, the body is like being pumped empty.",
+      "right": "No amount of sleep feels like enough, and my body felt drained.",
+      "why": "「身体被抽空」是 feel drained / feel depleted，不是 pumped empty 直译。"
+    },
+    {
+      "wrong": "The oxygen machine rent is 20 yuan every day.",
+      "right": "The daily rental for the oxygen concentrator is about 20 yuan.",
+      "why": "「日租」是 daily rental；rent 作名词用 rental 更自然，表达也更完整。"
+    }
+  ],
+  "shifts": [
+    {
+      "before": "以为黄金周是唯一能去西藏的时间",
+      "after": "黄金周前后才是人少体验好的「低谷期」"
+    },
+    {
+      "before": "以为氧气瓶是唯一选择",
+      "after": "便携制氧机日租20元，全程佩戴才是正确用法"
+    },
+    {
+      "before": "以为走完全程才算胜利",
+      "after": "安全第一、体验第二、完赛最不重要，认怂是成熟"
+    }
+  ],
+  "voice": "en-US-JennyNeural",
+  "audio_dir": "audio/en/kailash-trekking-guide"
+}

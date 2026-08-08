@@ -1,0 +1,424 @@
+{
+  "slug": "huanxingdi_rome_resist",
+  "date": "2026-07-23",
+  "platform": "小宇宙FM",
+  "title": "我们的创作就是共同的反抗｜去罗马",
+  "title_en": "Our Creation Is Our Shared Resistance | Going to Rome",
+  "eyebrow": "Photography & Art · 摄影与艺术",
+  "duration": "1小时36分",
+  "source_url": "https://www.xiaoyuzhoufm.com/episode/6a5c7053a3fec224d59fd201",
+  "summary_cn": "环行地专访摄影师「去罗马」：从发霉胶卷到「脏」的黑白影像，从县城停滞感到镜头转向自我，再到与模特马子的权力边界——摄影不是追求完美，而是在标准化时代里，用不完美的真实完成一场共同的反抗",
+  "summary_en": "Huanxingdi interviews photographer Qu Luoma. From moldy film rolls to 'dirty' black-and-white images, from the paralysis of county-town life to turning the lens on himself, and on to the power boundaries with his model and partner Mazi — his photography isn't about chasing perfection. In an age of standardization, where phones define the 'correct' skin tone and AI generates flawless images, he uses imperfect truth as a shared act of resistance, showing that the real 'Rome' may already be right here.",
+  "scenes": [
+    {
+      "id": "s1",
+      "title_cn": "一、摄影改变命运：先看见自己，再被他人看见",
+      "title_en": "Photography Changes a Life: See Yourself First, Then Be Seen",
+      "context": "加入环行地后从「没被看到」到被陪伴，镜头先看见自己。语域：casual 对谈 + 个人成长。",
+      "speak": "Let's start with how photography changed his life. Qu Luoma joined Huanxingdi in May 2024, after years of feeling unseen. The community pushed him to keep sharing, and photography became a channel to be seen and accompanied. The key insight: photography didn't change him by teaching technique first — he first learned to see himself through the lens, to release feelings, anchor memory, and find identity, and only then hoped others would feel the same. A typical scene: the creators who keep posting in a niche community, in contrast to the majority who join and are then forgotten. As he says, before that, he felt like he wasn't really seen, and photography's change for us is more about becoming whole with ourselves first. It matches the host's point that posting on social media is also mutual companionship — expression and being seen are basic human needs. And photography and music are both expression at heart. Their friend Yingning shot books for twelve years, then switched to being a band guitarist — the form can change, but the purpose stays.",
+      "sentences": [
+        {
+          "cn": "核心机制：去罗马2024年5月加入环行地，此前有「没被看到」的感受；社区让他持续分享，摄影成为被看见与被陪伴的通道",
+          "en": "Qu Luoma joined Huanxingdi in May 2024, after years of feeling unseen. The community pushed him to keep sharing, and photography became a channel to be seen and accompanied.",
+          "note": "<span>表达提示</span>unseen → 没被看到；community → 社区；keep sharing → 持续分享；channel → 通道"
+        },
+        {
+          "cn": "关键理解：摄影的改变不是先获得技术，而是先通过镜头看见自己——遣怀、记忆归属、自我认同，然后才希望他人感受到同样的东西",
+          "en": "The key insight: photography didn't change him by teaching technique first — he first learned to see himself through the lens, to release feelings, anchor memory, and find identity, and only then hoped others would feel the same.",
+          "note": "<span>表达提示</span>anchor memory → 记忆归属；release feelings → 遣怀；find identity → 自我认同"
+        },
+        {
+          "cn": "典型场景：小众社区中持续更新的创作者，与「加入后遗忘」的大多数形成对比",
+          "en": "A typical scene: the creators who keep posting in a niche community, in contrast to the majority who join and are then forgotten.",
+          "note": "<span>表达提示</span>niche community → 小众社区；keep posting → 持续更新；in contrast to → 与…形成对比"
+        },
+        {
+          "cn": "（引用）原文依据：「在那之前我会觉得自己比较没有被看到……摄影对我们的改变可能更多的是先让自己变得合一」",
+          "en": "Direct quote: 'Before that, I felt like I wasn't really seen... photography's change for us is more about becoming whole with ourselves first.'",
+          "note": "<span>表达提示</span>become whole → 变得合一；feel unseen → 觉得自己没被看到"
+        },
+        {
+          "cn": "（引用）相关概念：与主持人「发朋友圈也是相互陪伴」的动机相通，表达与被看见是基本人性需求",
+          "en": "Related concept: it matches the host's point that posting on social media is also mutual companionship — expression and being seen are basic human needs.",
+          "note": "<span>表达提示</span>mutual companionship → 相互陪伴；basic human need → 基本人性需求"
+        },
+        {
+          "cn": "摄影与音乐本质都是表达；朋友英宁拍十二年书后转做乐队吉他手，说明形式可切换，目的不变",
+          "en": "Photography and music are both expression at heart. Their friend Yingning shot books for twelve years, then switched to being a band guitarist — the form can change, but the purpose stays.",
+          "note": "<span>表达提示</span>at heart → 本质上；switch → 转换；the form can change → 形式可切换"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「先看见自己，再被看见」",
+          "phrases": [
+            "You have to see yourself before others can.",
+            "The lens turned inward before it could reach outward."
+          ],
+          "chunks": "see yourself first · the lens turned inward",
+          "usage": "第一句直接，第二句意象化"
+        },
+        {
+          "intent": "想说「表达是被看见的基本需求」",
+          "phrases": [
+            "Expression and being seen are basic human needs.",
+            "We all want our existence acknowledged by someone."
+          ],
+          "chunks": "basic human needs · existence acknowledged",
+          "usage": "第二句更偏哲理"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title_cn": "二、风格偶然论：没钱、发霉与「没得选」",
+      "title_en": "Style by Accident: No Money, Mold, and No Options",
+      "context": "风格往往是条件限制的产物，不是理性规划。语域：casual 对谈 + 艺术观点。",
+      "speak": "Next, style by accident. The core mechanism: his early black-and-white work came from practice rolls nobody wanted and a moldy lens. The mold spots turned out to look good by accident, and they set the direction of his later aesthetic. The key insight: Fukase's blurry crows, Moriyama's snapshots, and Eggleston's color revolution were all results of constraints, not rational planning. A typical scene: hobbyists agonize over which style to learn, but the classic styles were often accidental hits. As the episode notes, many people's styles actually come from being broke, even from not knowing how to color-grade — and that ironically made their style. The cause is that social marketing teaches you to adopt some style, film simulation, a certain grade, and plunges ordinary hobbyists into choice anxiety. The fix: accept that style happens naturally — don't force yourself to match the masters. Your limitations might just be your signature.",
+      "sentences": [
+        {
+          "cn": "核心机制：早期黑白源于别人不要的练手卷、相机镜头发霉；霉斑意外好看，奠定了后来的审美方向",
+          "en": "The core mechanism: his early black-and-white work came from practice rolls nobody wanted and a moldy lens. The mold spots turned out to look good by accident, and they set the direction of his later aesthetic.",
+          "note": "<span>表达提示</span>practice roll → 练手卷；moldy lens → 发霉的镜头；aesthetic → 审美方向"
+        },
+        {
+          "cn": "关键理解：深濑昌久拍虚的乌鸦、森山大道的快照、威廉·艾格斯顿的彩色革命，都是条件限制下的结果，不是理性规划",
+          "en": "The key insight: Fukase's blurry crows, Moriyama's snapshots, and Eggleston's color revolution were all results of constraints, not rational planning.",
+          "note": "<span>表达提示</span>blurry → 虚的；snapshot → 快照；color revolution → 彩色革命；constraint → 条件限制"
+        },
+        {
+          "cn": "典型场景：爱好者纠结「我该学什么风格」，但经典风格往往是歪打正着",
+          "en": "A typical scene: hobbyists agonize over which style to learn, but the classic styles were often accidental hits.",
+          "note": "<span>表达提示</span>agonize over → 纠结；accidental hit → 歪打正着"
+        },
+        {
+          "cn": "（引用）原文依据：「很多人的风格其实是来自什么——没钱……甚至不会调色……反而成就了他的某种风格」",
+          "en": "Direct quote: 'Many people's styles actually come from... being broke... even not knowing how to color-grade... and that ironically made their style.'",
+          "note": "<span>表达提示</span>being broke → 没钱；color-grade → 调色；ironically → 反而"
+        },
+        {
+          "cn": "原因：社会营销教你该学某种风格（胶片缝、某种调色），让普通爱好者陷入选择焦虑",
+          "en": "The cause: social marketing teaches you that you should adopt some style — film simulation, a certain grade — and plunges ordinary hobbyists into choice anxiety.",
+          "note": "<span>表达提示</span>film simulation → 胶片模拟；choice anxiety → 选择焦虑；plunge into → 陷入"
+        },
+        {
+          "cn": "解法：接受风格是自然发生的，不必强行对标大师；你的限制可能就是你的签名",
+          "en": "The fix: accept that style happens naturally — don't force yourself to match the masters. Your limitations might just be your signature.",
+          "note": "<span>表达提示</span>match the masters → 对标大师；your signature → 你的签名"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「风格是歪打正着」",
+          "phrases": [
+            "The style was an accident that turned into an identity.",
+            "Constraints became the signature."
+          ],
+          "chunks": "an accident turned identity · constraints became the signature",
+          "usage": "第二句更凝练"
+        },
+        {
+          "intent": "想说「限制可能是签名」",
+          "phrases": [
+            "What limits you might define you.",
+            "Your flaw is your fingerprint."
+          ],
+          "chunks": "limit defines you · flaw is your fingerprint",
+          "usage": "第二句更诗意"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title_cn": "三、「脏」的美学：在完美时代拥抱瑕疵",
+      "title_en": "The Aesthetic of 'Dirty': Embracing Imperfection in an Age of Polish",
+      "context": "不完美时代的「脏」美学——工业标准定义「正确」，AI 产出完美。语域：casual 对谈 + 美学讨论。",
+      "speak": "Then comes the aesthetic of dirty. Qu Luoma admits he's imperfect and flawed, so he's naturally drawn to roughness, grain, and blur — just like a rotten apple still has fruit flies willing to land on it. As the phone cameras get more powerful, they're really defining industrial standards for the correct skin tone and the correct blue sky. AI takes it further, producing flawless content that lets people escape reality. The key insight: dirty isn't a put-down — the grain, the blur, the unsatisfying grade are exactly a map of reality. Forcing the dirt away makes the picture less true. But there's a boundary: rebelling against consumerism for its own sake is still a trap. You don't have to rationally justify an emotional choice, but watch out for performative rebellion. As he says, the dirty is always there — and the dirty things are the real things.",
+      "sentences": [
+        {
+          "cn": "去罗马自认不完美、有缺陷，因此自然被粗糙、颗粒感、模糊影像吸引——就像烂掉的苹果仍有果蝇愿意停留",
+          "en": "Qu Luoma admits he's imperfect and flawed, so he's naturally drawn to roughness, grain, and blur — just like a rotten apple still has fruit flies willing to land on it.",
+          "note": "<span>表达提示</span>grain → 颗粒感；flawed → 有缺陷；fruit fly → 果蝇"
+        },
+        {
+          "cn": "（引用）「就像一个苹果它如果烂掉的话，那它也还是会有果蝇会想要去吃它。」",
+          "en": "Direct quote: 'It's like an apple — if it's rotten, there are still fruit flies that want to eat it.'",
+          "note": "<span>表达提示</span>rotten → 烂掉；fruit fly → 果蝇"
+        },
+        {
+          "cn": "核心机制：手机拍照越来越强，实质是定义「正确肤色」「正确蓝天」的工业标准；AI进一步产出完美无瑕内容，让人逃离真实",
+          "en": "The core mechanism: as phone cameras get more powerful, they're really defining industrial standards for the 'correct skin tone' and 'correct blue sky.' AI takes it further, producing flawless content that lets people escape reality.",
+          "note": "<span>表达提示</span>industrial standard → 工业标准；correct skin tone → 正确肤色；flawless → 完美无瑕"
+        },
+        {
+          "cn": "关键理解：「脏」不是贬义——丝胶、虚胶、不满意的调色，恰是真实现状的映射；强行磨掉脏，反而失真",
+          "en": "The key insight: 'dirty' isn't a put-down — the grain, the blur, the unsatisfying grade are exactly a map of reality. Forcing the dirt away makes the picture less true.",
+          "note": "<span>表达提示</span>put-down → 贬义；a map of reality → 真实现状的映射；less true → 失真"
+        },
+        {
+          "cn": "适用边界：为反而反消费主义仍是陷阱；感性选择不必理性辩护，但需警惕表演性叛逆",
+          "en": "The boundary: rebelling against consumerism for its own sake is still a trap. You don't have to rationally justify an emotional choice, but watch out for performative rebellion.",
+          "note": "<span>表达提示</span>for its own sake → 为反而反；performative rebellion → 表演性叛逆；justify → 辩护"
+        },
+        {
+          "cn": "（引用）原文依据：「脏就是一直在存在的……这些脏的东西它才是真实的东西」",
+          "en": "Direct quote: 'The dirty is always there... the dirty things are the real things.'",
+          "note": "<span>表达提示</span>the dirty is always there → 脏一直存在；the real things → 真实的东西"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「完美是工业标准，脏才是真实」",
+          "phrases": [
+            "Perfection is manufactured; the grit is real.",
+            "The flaws are what make it true."
+          ],
+          "chunks": "manufactured perfection · grit is real",
+          "usage": "第二句简洁"
+        },
+        {
+          "intent": "想说「为反而反也是陷阱」",
+          "phrases": [
+            "Rebelling just to rebel is still a trap.",
+            "Anti-consumerism can become its own pose."
+          ],
+          "chunks": "rebel just to rebel · its own pose",
+          "usage": "第二句点出表演性"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "title_cn": "四、县城停滞与镜头转向自我",
+      "title_en": "County-Town Stagnation and Turning the Lens Inward",
+      "context": "县城停滞状态与 2024 年镜头转向自我，以及创作者的暂停恐慌。语域：casual 对谈 + 自我反思。",
+      "speak": "Now the county town and the inward turn. The core mechanism: Qu Luoma never set out to shoot county-town literature, but his hometown is a county town, so the subject fit by chance. The core is a state of stagnation — frozen in the eighties and nineties, that powerless feeling of being out of sync with now. The key insight: when the times make it hard to long for the future, you look backward — retro, Y2K. In 2024, bodily changes, insomnia, suffocation, and a sense of nothingness pushed his lens from the outer world to himself. A typical scene: ruins, construction sites, empty places — where there are no identities or rules, the place itself is an expression. As he says, last year he started turning the lens from others to himself, and it's like he doesn't really know what he's doing right now. The cause: creators often panic during a pause, feeling they've lost expression or that they're losing out. The fix: expression can happen anytime — a phone call, writing, life itself. Pain matters too; you don't have to force creativity out of yourself.",
+      "sentences": [
+        {
+          "cn": "核心机制：去罗马未刻意拍县城文学，但老家是县城、题材碰巧契合；核心是「停滞状态」——停在80/90年代，与当下脱节的无力感",
+          "en": "The core mechanism: Qu Luoma never set out to shoot 'county-town literature,' but his hometown is a county town, so the subject fit by chance. The core is a state of stagnation — frozen in the eighties and nineties, that powerless feeling of being out of sync with now.",
+          "note": "<span>表达提示</span>county town → 县城；stagnation → 停滞状态；out of sync with → 与…脱节"
+        },
+        {
+          "cn": "关键理解：时代难以向往未来，只能往回看（复古、千禧年）；2024年身体变化（失眠、闷、虚无）促使镜头从外部世界转向自我",
+          "en": "The key insight: when the times make it hard to long for the future, you look backward — retro, Y2K. In 2024, bodily changes, insomnia, suffocation, and a sense of nothingness pushed his lens from the outer world to himself.",
+          "note": "<span>表达提示</span>long for the future → 向往未来；insomnia → 失眠；nothingness → 虚无；turn inward → 转向自我"
+        },
+        {
+          "cn": "典型场景：废墟、工地、无人处——没有身份与规则的地方，本身就是一种表达",
+          "en": "A typical scene: ruins, construction sites, empty places — where there are no identities or rules, the place itself is an expression.",
+          "note": "<span>表达提示</span>ruins → 废墟；construction site → 工地；empty place → 无人处"
+        },
+        {
+          "cn": "（引用）原文依据：「去年开始把镜头从别人转向了自己……好像有点不知道我现在在干嘛」",
+          "en": "Direct quote: 'Last year I started turning the lens from others to myself... it's like I don't really know what I'm doing right now.'",
+          "note": "<span>表达提示</span>turn the lens from others to myself → 把镜头从别人转向自己"
+        },
+        {
+          "cn": "原因：创作者常因暂停而恐慌，觉得「失去了表达」或「亏了」",
+          "en": "The cause: creators often panic during a pause, feeling they've 'lost expression' or that they're 'losing out.'",
+          "note": "<span>表达提示</span>panic → 恐慌；lose out → 亏了；pause → 暂停"
+        },
+        {
+          "cn": "解法：表达可随时进行（连线、写作、生活本身）；痛苦也重要，不必强行榨取创作",
+          "en": "The fix: expression can happen anytime — a phone call, writing, life itself. Pain matters too; you don't have to force creativity out of yourself.",
+          "note": "<span>表达提示</span>force creativity out → 强行榨取创作；life itself → 生活本身"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「时代让人只能往回看」",
+          "phrases": [
+            "When the future looks hopeless, nostalgia fills the gap.",
+            "You retreat to the past because the present is stuck."
+          ],
+          "chunks": "nostalgia fills the gap · retreat to the past",
+          "usage": "第二句更直白"
+        },
+        {
+          "intent": "想说「暂停不丢人，不必强行创作」",
+          "phrases": [
+            "It's fine to pause — creativity isn't a quota.",
+            "You don't owe the world constant output."
+          ],
+          "chunks": "creativity isn't a quota · constant output",
+          "usage": "第二句很有安慰感"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "title_cn": "五、摄影权力：马子、同意与亲密边界",
+      "title_en": "Photographic Power: Mazi, Consent, and Intimate Boundaries",
+      "context": "摄影师与模特之间的权力不对等，以及亲密关系中的隐蔽暴力。语域：casual 对谈 + 权力反思。",
+      "speak": "This is the sharpest part of the conversation — photographic power. The core mechanism: holding the camera means holding the power to narrate. The subject exposes themselves; the power is unequal. In intimate relationships this violence is most hidden — think of Araki, Fukase photographing Yoko, and similar cases. The key insight: the danger isn't having power — it's forgetting that you have it. As he says, it's not the power itself that's the problem; it's when the photographer forgets he has it that it gets truly frightening. He shared his own case: after two years of commercial wedding shoots, he reflexively used sales-pitch directions to pose Mazi. Mazi felt like not a girlfriend but a client, and the shoot ended in an argument. Qu Luoma later admitted this was a kind of violence he hadn't recognized early on. Mazi's words: it felt really off — she felt like she wasn't his girlfriend anymore, more like a client with a wedding photographer. And yet for Qu Luoma, Mazi is the Muse of Greek myth — a source of inspiration, accompanying shared growth, not an objectifying gaze. The two create for each other, and Mazi herself is a powerful voice.",
+      "sentences": [
+        {
+          "cn": "核心机制：摄影师持机即拥有叙述权；被拍者暴露自己，权力不对等。亲密关系中这种暴力最隐蔽——荒木经惟、深濑昌久拍洋子、彩花信代等案例皆如此",
+          "en": "The core mechanism: holding the camera means holding the power to narrate. The subject exposes themselves; the power is unequal. In intimate relationships this violence is most hidden — think of Araki, Fukase photographing Yoko, and similar cases.",
+          "note": "<span>表达提示</span>the power to narrate → 叙述权；power imbalance → 权力不对等；intimate relationship → 亲密关系"
+        },
+        {
+          "cn": "关键理解：危险不在于拥有权力，而在于忘记自己拥有权力",
+          "en": "The key insight: the danger isn't having power — it's forgetting that you have it.",
+          "note": "<span>表达提示</span>the danger isn't having power → 危险不在于拥有权力；forget you have it → 忘记自己拥有权力"
+        },
+        {
+          "cn": "（引用）原文依据：「不是权利本身的问题，而是摄影师忘记了自己拥有这样的权利的时候，才最可怕」",
+          "en": "Direct quote: 'It's not the power itself that's the problem — it's when the photographer forgets he has it that it gets truly frightening.'",
+          "note": "<span>表达提示</span>the power itself → 权力本身；truly frightening → 最可怕"
+        },
+        {
+          "cn": "拍两年商业婚礼后，条件反射用商业话术指导马子摆姿，马子觉得「不是女朋友而是客人」，拍摄终止并争吵。去罗马事后承认这是「暴力」，早期不自知",
+          "en": "After two years of commercial wedding shoots, he reflexively used sales-pitch directions to pose Mazi. Mazi felt like 'not a girlfriend but a client,' and the shoot ended in an argument. Qu Luoma later admitted this was a kind of violence he hadn't recognized early on.",
+          "note": "<span>表达提示</span>sales-pitch direction → 商业话术指导；reflexively → 条件反射；admit → 承认"
+        },
+        {
+          "cn": "（引用）「我就觉得很舒服……我觉得我不是他的女朋友了，好像是一个客人跟一个婚礼摄影师的感觉。」",
+          "en": "Direct quote: 'It felt really off... I felt like I wasn't his girlfriend anymore, more like a client with a wedding photographer.'",
+          "note": "<span>表达提示</span>felt really off → 很不舒服；a client with a photographer → 客人与摄影师"
+        },
+        {
+          "cn": "马子对去罗马是希腊神话中的 Muse——灵感女神，给予启发与陪伴的共同成长，而非物化凝视。两人相互创作，马子本身也有极强表达力",
+          "en": "For Qu Luoma, Mazi is the Muse of Greek myth — a source of inspiration, accompanying shared growth, not an objectifying gaze. The two create for each other, and Mazi herself is a powerful voice.",
+          "note": "<span>表达提示</span>Muse → 缪斯（灵感女神）；objectifying gaze → 物化凝视；shared growth → 共同成长"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「危险的是忘记自己拥有权力」",
+          "phrases": [
+            "The danger is forgetting the power you hold.",
+            "Power becomes violence the moment you stop noticing it."
+          ],
+          "chunks": "forget the power you hold · power becomes violence",
+          "usage": "第二句更警句化"
+        },
+        {
+          "intent": "想说「拍摄让女朋友觉得像客户」",
+          "phrases": [
+            "She felt like a client, not a partner.",
+            "The commercial reflex turned intimacy into a transaction."
+          ],
+          "chunks": "client not a partner · a transaction",
+          "usage": "第二句点出根源"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "title_cn": "六、去罗马：目的地还是已在路上？",
+      "title_en": "Going to Rome: A Destination, or Already On the Road?",
+      "context": "「条条大路通罗马」的隐喻——罗马是终点还是当下，以及作品与反思的收尾。语域：casual 对谈 + 哲理收尾。",
+      "speak": "And finally, the question behind the name: going to Rome. Why it matters: all roads lead to Rome is quoted constantly, but few ask what Rome actually is. The genuine love and truth photography pursues may not be a distant destination but the present moment of mutual companionship. The boundary: Qu Luoma wants to be remembered by his photographs, a kind of digital immortality, not by his persona's charm — the expression lives on in the images. As he says, he may have already reached Rome, but he just can't see it — and that's what being in Rome is. How to make it real: moving from Zhangzhou to Ningbo was just leaving, not necessarily heading somewhere. Life may be a permanent road, and arrival may disappoint. On that note, the host adds: Fukase's talent is beyond doubt, but Yoko's feelings were ignored. When you appreciate such work, bring doubt and critical thinking — don't just cheer everything. And the guest agrees: we need to reflect on power and admit we're not entirely innocent — but awareness itself is the first step.",
+      "sentences": [
+        {
+          "cn": "为什么重要：「条条大路通罗马」常被引用却少人追问罗马是什么；摄影追求的真爱与真，或许不在远方终点，而在相互陪伴的当下",
+          "en": "Why it matters: 'All roads lead to Rome' is quoted constantly, but few ask what Rome actually is. The genuine love and truth photography pursues may not be a distant destination but the present moment of mutual companionship.",
+          "note": "<span>表达提示</span>all roads lead to Rome → 条条大路通罗马；mutual companionship → 相互陪伴；distant destination → 远方终点"
+        },
+        {
+          "cn": "适用边界：去罗马希望被记住的是照片（电子永生），而非人设魅力——表达凝结在影像中",
+          "en": "The boundary: Qu Luoma wants to be remembered by his photographs, a kind of digital immortality, not by his persona's charm — the expression lives on in the images.",
+          "note": "<span>表达提示</span>digital immortality → 电子永生；persona → 人设；live on in → 凝结在…中"
+        },
+        {
+          "cn": "（引用）「我可能已经到了罗马了，但是我可能就是看不到，这就是在罗马。」",
+          "en": "Direct quote: 'I may have already reached Rome, but I just can't see it — and that's what being in Rome is.'",
+          "note": "<span>表达提示</span>reached Rome → 到了罗马；can't see it → 看不到"
+        },
+        {
+          "cn": "（引用）怎么落地：从漳州搬到宁波只是「离开」，未必有明确目的地；人生可能一直在路上，到达也可能失望",
+          "en": "How to make it real: moving from Zhangzhou to Ningbo was just 'leaving' — not necessarily heading somewhere. Life may be a permanent road, and arrival may disappoint.",
+          "note": "<span>表达提示</span>just leaving → 只是离开；a permanent road → 一直在路上；arrival may disappoint → 到达也可能失望"
+        },
+        {
+          "cn": "主持人：深濑昌久才华毋庸置疑，但洋子的感受被忽视；欣赏作品时需带怀疑与思辨，不能一股脑说好",
+          "en": "The host: Fukase's talent is beyond doubt, but Yoko's feelings were ignored. When you appreciate such work, bring doubt and critical thinking — don't just cheer everything.",
+          "note": "<span>表达提示</span>critical thinking → 思辨；beyond doubt → 毋庸置疑；cheer everything → 一股脑说好"
+        },
+        {
+          "cn": "嘉宾：认同需要反思权力，承认自己并非完全清白，但意识本身是第一步",
+          "en": "The guest agrees: we need to reflect on power and admit we're not entirely innocent — but awareness itself is the first step.",
+          "note": "<span>表达提示</span>reflect on power → 反思权力；entirely innocent → 完全清白；awareness is the first step → 意识是第一步"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「可能已经在罗马却看不见」",
+          "phrases": [
+            "Maybe Rome was here all along and I couldn't see it.",
+            "The destination might already be the moment you're in."
+          ],
+          "chunks": "here all along · the moment you're in",
+          "usage": "第二句更哲理"
+        },
+        {
+          "intent": "想说「欣赏作品也要带思辨」",
+          "phrases": [
+            "Admire the work, question the maker.",
+            "Great art can still come from ugly power."
+          ],
+          "chunks": "admire the work, question the maker · ugly power",
+          "usage": "第一句是很好的态度总结"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "cn": "用「feel unseen」说：加入社区之前他觉得自己没被看到。",
+      "en": "Before joining the community, he felt unseen."
+    },
+    {
+      "cn": "用「accidental hit」说：他的风格是歪打正着。",
+      "en": "His style was an accidental hit born from constraints."
+    },
+    {
+      "cn": "用「forget you have it」说：危险在于忘记自己拥有权力。",
+      "en": "The danger is forgetting the power you hold."
+    },
+    {
+      "cn": "用「all roads lead to Rome」说：条条大路通罗马，但很少有人追问罗马是什么。",
+      "en": "All roads lead to Rome, yet few people ask what Rome actually is."
+    }
+  ],
+  "pitfalls": [
+    {
+      "wrong": "My photography makes me be seen by others.",
+      "right": "Photography became a way for me to be seen and accompanied.",
+      "why": "make me be seen 语法生硬；became a way to be seen 更自然，且补上 accompanied 这个陪伴维度。"
+    },
+    {
+      "wrong": "His style came from no money and moldy lens.",
+      "right": "His style grew out of being broke and shooting with a moldy lens.",
+      "why": "came from 搭配太裸；grow out of 表达「从…长出来」更地道。"
+    },
+    {
+      "wrong": "The dirty things are the truth of life.",
+      "right": "The dirty things are what's real — forcing the flaws away makes it less true.",
+      "why": "truth of life 太空泛；补上「磨掉脏反而失真」才完整表达原意。"
+    },
+    {
+      "wrong": "The photographer had power, so he was bad.",
+      "right": "Holding the camera isn't the problem — forgetting your power is.",
+      "why": "原文不是「有权力=坏」，而是「忘记自己有权力」才危险；直接否定会丢失观点。"
+    }
+  ],
+  "shifts": [
+    {
+      "before": "以为摄影要先学技术、追风格",
+      "after": "先通过镜头看见自己，风格是限制的副产品"
+    },
+    {
+      "before": "以为完美才是好照片",
+      "after": "「脏」才是真实——工业标准定义的完美反而失真"
+    },
+    {
+      "before": "以为持相机就是掌控者",
+      "after": "镜头是权力：忘记自己拥有权力，才是最危险的事"
+    }
+  ],
+  "voice": "en-US-JennyNeural",
+  "audio_dir": "audio/en/huanxingdi_rome_resist"
+}

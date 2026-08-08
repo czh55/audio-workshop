@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="96 | 山神会保佑每一个把垃圾带走的人 — Bilingual Learning Edition" />
+  <title>96 | 山神会保佑每一个把垃圾带走的人｜EN 双语学习版</title>
+  <style>:root{--teal-950:#073f42;--teal-800:#0d686c;--teal-700:#0f7c80;--teal-600:#14919b;--mint-100:#dff4ec;--mint-50:#f0faf6;--ink:#183536;--muted:#607879;--line:#d7e8e2;--paper:#fff;--amber:#a85d08;--shadow:0 12px 32px rgba(7,63,66,.08)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:24px}
+body{margin:0;color:var(--ink);background:#edf7f2;font-family:Inter,"PingFang SC","Noto Sans SC","Microsoft YaHei",system-ui,sans-serif;line-height:1.65}
+button,select{font:inherit}
+a{color:inherit}
+.hero{color:#fff;background:radial-gradient(circle at 85% 10%,rgba(129,230,196,.24),transparent 30%),linear-gradient(125deg,#073f42,#0d7377 56%,#14919b)}
+.hero-inner{width:min(1440px,100%);margin:auto;padding:44px clamp(20px,5vw,72px) 36px}
+.hero-flex{display:flex;gap:clamp(18px,3vw,40px);align-items:flex-start}
+.hero-cover{width:min(240px,42vw);height:auto;max-height:320px;object-fit:contain;object-position:center;border-radius:16px;border:1px solid rgba(255,255,255,.28);box-shadow:0 18px 44px rgba(0,0,0,.32);flex-shrink:0;background:rgba(255,255,255,.08)}
+.hero-text{min-width:0;flex:1}
+.eyebrow{margin:0 0 12px;font-size:.78rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;opacity:.8}
+h1{max-width:1020px;margin:0;font-size:clamp(1.7rem,3.6vw,3rem);line-height:1.15;letter-spacing:-.04em}
+.hero-en{margin:12px 0 22px;font-size:clamp(1rem,2vw,1.25rem);opacity:.82}
+.hero-meta{display:flex;flex-wrap:wrap;gap:9px;align-items:center}
+.chip{border:1px solid rgba(255,255,255,.28);border-radius:99px;padding:5px 11px;font-size:.82rem;background:rgba(255,255,255,.08)}
+.source-link{font-weight:750;text-decoration:none;border-bottom:1px solid rgba(255,255,255,.5)}
+.toolbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:22px}
+.toolbar label{font-size:.82rem;opacity:.82}
+.toolbar select{color:#fff;background:#0a5d61;border:1px solid rgba(255,255,255,.3);border-radius:8px;padding:7px 9px}
+.stop-btn{display:none;color:#fff;background:#8c3b2a;border:0;border-radius:8px;padding:8px 12px;cursor:pointer}
+.stop-btn.visible{display:inline-flex}
+.speech-status{min-height:1.4em;font-size:.82rem;opacity:.88}
+.lang-switch{display:inline-flex;gap:6px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.28);border-radius:99px;padding:4px}
+.lang-switch a{display:inline-block;padding:4px 13px;border-radius:99px;font-size:.8rem;font-weight:700;text-decoration:none;color:rgba(255,255,255,.75)}
+.lang-switch a.active{background:#fff;color:var(--teal-800)}
+.narration-player{margin-top:16px;padding:14px 18px;background:rgba(255,255,255,.1);border-radius:12px;border:1px solid rgba(255,255,255,.15)}
+.audio-label{color:rgba(255,255,255,.88);font-size:.82rem;font-weight:700;margin:0 0 8px}
+.page{width:min(1440px,100%);margin:auto;padding:28px clamp(16px,3vw,44px) 64px;display:grid;grid-template-columns:minmax(230px,280px) minmax(0,1fr);gap:30px;align-items:start}
+.sidebar{position:sticky;top:20px;min-width:0}
+.sidebar-box{background:rgba(255,255,255,.8);border:1px solid var(--line);border-radius:16px;padding:17px;box-shadow:var(--shadow);backdrop-filter:blur(12px)}
+.sidebar h2{margin:0 0 13px;font-size:.9rem;letter-spacing:.08em;color:var(--teal-800)}
+.map-link{display:grid;grid-template-columns:34px minmax(0,1fr);gap:9px;padding:10px 6px;text-decoration:none;border-top:1px solid var(--line)}
+.map-link:hover b{color:var(--teal-700)}
+.map-id{width:30px;height:30px;display:grid;place-items:center;border-radius:9px;color:#fff;background:var(--teal-700);font-size:.72rem;font-weight:800}
+.map-link b{display:block;font-size:.78rem;line-height:1.4}
+.map-link small{display:block;color:var(--muted);font-size:.67rem;line-height:1.4;margin-top:2px;overflow-wrap:anywhere}
+.content{min-width:0}
+.scene-card{background:var(--paper);border:1px solid var(--line);border-radius:20px;padding:clamp(20px,3vw,34px);margin-bottom:24px;box-shadow:var(--shadow);overflow:hidden}
+.scene-topline{display:flex;justify-content:space-between;gap:16px;align-items:center;margin-bottom:16px}
+.scene-id{display:inline-grid;place-items:center;min-width:42px;height:30px;padding:0 10px;color:#fff;background:var(--teal-700);border-radius:8px;font-size:.78rem;font-weight:850}
+.time{margin-left:10px;color:var(--muted);font-size:.82rem;font-variant-numeric:tabular-nums}
+.scene-card h2{margin:0 0 2px;font-size:clamp(1.35rem,2.4vw,2rem);line-height:1.25;color:var(--teal-950)}
+.scene-title-en{margin:0 0 18px;color:var(--teal-600);font-weight:700;font-size:.98rem}
+.context{margin:0 0 20px;padding:12px 15px;color:#496566;background:var(--mint-50);border-left:3px solid var(--teal-600);border-radius:0 10px 10px 0;font-size:.88rem}
+.context b{margin-right:10px;color:var(--teal-800)}
+.sentence-list{display:grid;gap:12px}
+.sentence{position:relative;display:grid;grid-template-columns:38px minmax(0,1fr);gap:12px;padding:16px;border:1px solid #e2ece8;border-radius:14px;background:#fcfefd;min-width:0}
+.sentence-no{color:var(--teal-600);font-size:.76rem;font-weight:850;font-variant-numeric:tabular-nums;padding-top:4px}
+.bilingual{min-width:0;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(14px,2vw,28px)}
+.lang-block{min-width:0}
+.lang-block p{margin:5px 0 0;overflow-wrap:anywhere}
+.en-block{padding-left:clamp(14px,2vw,28px);border-left:1px solid var(--line)}
+.en-block p{color:#0b5c60;font-weight:650}
+.lang-tag{display:inline-block;color:var(--muted);font-size:.66rem;font-weight:850;letter-spacing:.12em}
+.en-head{display:flex;justify-content:space-between;gap:10px;align-items:center;min-height:30px}
+.note{grid-column:2;margin:1px 0 0;color:#708182;font-size:.78rem}
+.note span{margin-right:7px;color:var(--amber);font-weight:750}
+.speak-btn{display:inline-flex;align-items:center;gap:7px;border:1px solid #b8d9d1;border-radius:9px;padding:7px 11px;color:var(--teal-800);background:#f5fbf8;cursor:pointer;white-space:nowrap;font-size:.78rem;font-weight:750;transition:.15s ease}
+.speak-btn:hover{color:#fff;background:var(--teal-700);border-color:var(--teal-700);transform:translateY(-1px)}
+.speak-btn.playing{color:#fff;background:var(--teal-700);border-color:var(--teal-700)}
+.speak-btn.compact{padding:4px 8px;font-size:.7rem}
+.speak-btn.icon-only{padding:3px 7px;margin-left:6px}
+.speak-btn.icon-only span:last-child{display:none}
+.pronounce-word{display:inline;margin:0;padding:0 2px;color:inherit;background:rgba(20,145,155,.08);border:0;border-bottom:1px dashed var(--teal-600);border-radius:3px;font:inherit;font-weight:inherit;line-height:inherit;cursor:pointer}
+.pronounce-word:hover,.pronounce-word:focus{color:var(--teal-950);background:#cceee4;border-bottom-style:solid;outline:3px solid rgba(20,145,155,.42);outline-offset:2px}
+.pronounce-word.playing{color:#fff;background:var(--teal-700);border-bottom-color:var(--teal-700)}
+.paraphrase{margin-top:18px;border-top:1px solid var(--line)}
+.paraphrase summary{padding:16px 0 3px;color:var(--teal-800);cursor:pointer;font-weight:800}
+.paraphrase summary span{color:var(--muted);font-size:.75rem;font-weight:500;margin-left:8px}
+.paraphrase ol{margin:12px 0 0;padding-left:22px}
+.paraphrase li{padding:7px 0 9px 5px}
+.paraphrase li p{margin:0;font-size:.9rem;font-weight:650}
+.paraphrase li small{display:block;color:var(--muted);font-size:.72rem;margin-top:2px}
+.chunks{margin-top:4px;color:var(--teal-700);font-size:.78rem}
+.study-section{margin:38px 0 0}
+.section-heading{display:flex;align-items:baseline;gap:10px;margin:0 0 15px;color:var(--teal-950);font-size:1.35rem}
+.section-heading small{color:var(--teal-600);font-size:.78rem;letter-spacing:.05em}
+.study-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.study-grid article{padding:17px;background:#fff;border:1px solid var(--line);border-radius:14px;box-shadow:0 6px 18px rgba(7,63,66,.05);min-width:0}
+.study-grid p{margin:0}
+.practice-en{margin-top:9px;color:var(--teal-700);font-weight:650;overflow-wrap:anywhere}
+.wrong{color:#a24831;text-decoration:line-through;overflow-wrap:anywhere}
+.right{color:var(--teal-700);font-weight:750;margin:5px 0;overflow-wrap:anywhere}
+.pitfalls p{color:var(--muted);font-size:.82rem}
+.shifts article{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1.5fr);gap:12px;align-items:center}
+.shifts b{color:var(--teal-600);font-size:1.2rem}
+.shifts strong{color:var(--teal-800)}
+footer{margin-top:38px;color:var(--muted);font-size:.78rem;text-align:center}
+.footer-note{margin-top:6px}
+@media (max-width:900px){
+  .page{grid-template-columns:1fr}
+  .sidebar{position:static}
+  .sidebar-box{overflow-x:auto;padding:12px}
+  .sidebar h2{padding-left:5px}
+  .map-nav{display:flex;width:max-content;gap:8px}
+  .map-link{width:240px;border:1px solid var(--line);border-radius:10px;padding:8px}
+  .bilingual{grid-template-columns:1fr}
+  .en-block{padding:12px 0 0;border-left:0;border-top:1px dashed var(--line)}
+}
+@media (max-width:620px){
+  .hero-inner{padding-top:30px}
+  .hero-flex{flex-direction:column;align-items:center}
+  .hero-cover{width:100%;max-width:360px}
+  .hero-text{text-align:center}
+  .page{padding-inline:10px;gap:18px}
+  .scene-card{border-radius:14px;padding:17px 13px}
+  .scene-topline{align-items:flex-start}
+  .scene-speak span:last-child{display:none}
+  .sentence{grid-template-columns:26px minmax(0,1fr);padding:13px 10px;gap:6px}
+  .note{grid-column:2}
+  .study-grid{grid-template-columns:1fr}
+  .shifts article{grid-template-columns:1fr;gap:5px}
+  .shifts b{transform:rotate(90deg);justify-self:start}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.speak-btn{transition:none}}</style>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="hero-flex">
+        <div class="hero-text">
+          <p class="eyebrow">Outdoors &amp; Environmental · 户外与环保</p>
+          <h1>96 | 山神会保佑每一个把垃圾带走的人</h1>
+          <p class="hero-en">Ep. 96 | The Mountain God Blesses Everyone Who Carries Their Trash Out</p>
+          <p class="summary-en" style="margin:0 0 14px;padding:14px 16px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.22);border-radius:12px;font-size:.95rem;line-height:1.7">Mujiang, a programmer, founded the volunteer group "Shou Hu Zi Ran" (Hands Protecting Nature). Over five years and more than a hundred mountain-cleanup events, volunteers hauled out about 12 tons of trash. This episode breaks down why people litter outdoors — from the broken-window effect and self-heating hotpot hotspots to the hidden traps of "cleanup fees" — and ends with the seven Leave No Trace principles and the small, practical waste-reduction steps anyone can take on their next hike.</p>
+          <div class="hero-meta">
+            <span class="chip">2026-06-23</span>
+            <span class="chip">小宇宙FM</span>
+            <span class="chip">55分钟</span>
+            <span class="chip">5 Scenes</span>
+            <span class="chip">Click underlined words to hear them</span>
+            <a class="source-link" href="https://www.xiaoyuzhoufm.com/episode/6a30da0d4233e62bc54aa723" target="_blank" rel="noopener">原播客 ↗</a>
+          </div>
+        </div>
+      </div>
+      <div class="toolbar">
+        <div class="lang-switch"><div class="lang-switch"><a href="shanshen_jingshan_qingshan-总结.html">中文</a><a class="active" href="shanshen_jingshan_qingshan-en.html" aria-current="page">EN</a></div></div>
+        <label for="speech-rate">朗读速度</label>
+        <select id="speech-rate">
+          <option value="0.85">慢速 0.85×</option>
+          <option value="1" selected>正常 1×</option>
+          <option value="1.15">快速 1.15×</option>
+        </select>
+        <button id="stop-speech" class="stop-btn" type="button">■ 停止朗读</button>
+        <span id="speech-status" class="speech-status" role="status" aria-live="polite"></span>
+      </div>
+      <div class="narration-player">
+      <p class="audio-label">🎧 中文语音讲解</p>
+      <button class="speak-btn" type="button" data-audio="audio/shanshen_jingshan_qingshan.mp3" aria-label="播放语音讲解"><span aria-hidden="true">▶</span><span>播放语音讲解</span></button>
+    </div>
+    </div>
+  </header>
+  <main class="page">
+    <aside class="sidebar" aria-label="场景地图">
+      <div class="sidebar-box">
+        <h2>场景地图 · SCENE MAP</h2>
+        <nav class="map-nav">
+          <a class="map-link" href="#s1">
+          <span class="map-id">S1</span>
+          <span><b>手护自然：从顺手捡垃圾到百人公益组织</b><small> · Shou Hu Zi Ran: From Picking Up Trash to a Hundred-Person Volunteer Group</small></span>
+        </a>
+<a class="map-link" href="#s2">
+          <span class="map-id">S2</span>
+          <span><b>垃圾从哪来：谁扔、扔什么、扔在哪</b><small> · Where the Trash Comes From: Who Litters, What, and Where</small></span>
+        </a>
+<a class="map-link" href="#s3">
+          <span class="map-id">S3</span>
+          <span><b>野外垃圾的隐藏代价</b><small> · The Hidden Costs of Wilderness Trash</small></span>
+        </a>
+<a class="map-link" href="#s4">
+          <span class="map-id">S4</span>
+          <span><b>LNT 无痕户外与行前准备</b><small> · Leave No Trace &amp; Pre-Trip Preparation</small></span>
+        </a>
+<a class="map-link" href="#s5">
+          <span class="map-id">S5</span>
+          <span><b>组织运营的现实困境</b><small> · The Real Struggle of Running the Organization</small></span>
+        </a>
+        </nav>
+      </div>
+    </aside>
+    <div class="content">
+      <section class="scene-card" id="s1" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S1</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/shanshen_jingshan_qingshan/s1.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>手护自然：从顺手捡垃圾到百人公益组织</h2>
+      <p class="scene-title-en">Shou Hu Zi Ran: From Picking Up Trash to a Hundred-Person Volunteer Group</p>
+      <p class="context"><b>情境</b>介绍「手护自然」公益组织的起源、运作方式与规模数据。语域：casual 播客采访 + 组织介绍。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：2020年10月由云南籍程序员牧匠发起，周末组织志愿者进山全程捡垃圾，把沿线垃圾汇总带下山，投放至村里垃圾回收站，由城市系统统一处理</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/shanshen_jingshan_qingshan/s1-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Founded in October 2020 by Mujiang, a programmer from Yunnan, the group organizes weekend volunteer trips into the mountains to pick up trash along the whole route, gather it at the end, carry it down, and drop it at the village recycling station for the city's waste system to handle.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>volunteer trip → 志愿活动；recycling station → 回收站；waste system → 垃圾处理系统</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：个人捡垃圾门槛极低（一双手套+一个袋子），但组织化运营需考虑商标注册、公司主体、经费可持续——公益行为与组织生存是两套难题</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/shanshen_jingshan_qingshan/s1-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key insight: individual cleanup has an extremely low barrier — a pair of gloves and a bag — but running it as an organization brings trademark registration, a legal entity, and sustainable funding. Charity and organizational survival are two different challenges.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>low barrier → 门槛低；legal entity → 公司主体；sustainable funding → 经费可持续；two different challenges → 两套难题</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>典型数据：100+期活动、约12吨垃圾（≈一人几十年生活垃圾量）、30+领队、7000+社群志愿者，活动限50人/期</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/shanshen_jingshan_qingshan/s1-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The numbers: 100-plus events, about 12 tons of trash — roughly one person's decades of household waste — over 30 team leads, 7,000-plus community volunteers, with each event capped at 50 people.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>team lead → 领队；community volunteer → 社群志愿者；capped at → 上限为</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据：「我们到现在一共有一百多期活动，然后捡到垃圾12吨左右吧……领队有30多个，志愿者大概有7000多人。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/shanshen_jingshan_qingshan/s1-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">"We've run over a hundred events so far and picked up about 12 tons of trash… more than thirty team leads, around seven thousand volunteers."</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>run events → 办活动；pick up trash → 捡垃圾</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）相关概念：与「Leave No Trace（LNT）无痕户外」互补——手护自然做「事后清理」，LNT强调「事前预防、最小冲击」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/shanshen_jingshan_qingshan/s1-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">It complements Leave No Trace: Shou Hu Zi Ran handles post-hoc cleanup, while LNT stresses prevention and minimal impact beforehand.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>Leave No Trace (LNT) → 无痕户外；post-hoc cleanup → 事后清理；minimal impact → 最小冲击</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>牧匠白天写代码（「码农」），业余挤出时间做净山。2018年河北小五台首次顺手带两袋垃圾下山，2019年川西贡嘎看到高海拔路线上的自热饭、一次性雨衣等「认知外垃圾」，意识到问题系统性，2020年组织化运作</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/shanshen_jingshan_qingshan/s1-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Mujiang writes code by day and squeezes time for cleanups in his spare hours. In 2018, on Hebei's Xiaowutai, he first carried two bags of trash down on a whim; in 2019, on Gongga in western Sichuan, he saw self-heating meals and disposable raincoats on high-altitude trails — "out-of-awareness trash" — and realized the problem was systemic. In 2020 he went organized.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>squeeze time for → 挤出时间做；on a whim → 顺手/一时兴起；out-of-awareness trash → 认知外垃圾；disposable raincoat → 一次性雨衣</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>3 组表达</span></summary>
+        <ol>
+          <li><p>想说「捡垃圾门槛很低」</p><div class="chunks">all you need · barrier to entry</div><small>第一句具体口语，第二句是商业化的抽象说法</small></li>
+<li><p>想说「公益和组织运营是两码事」</p><div class="chunks">two separate games · the sustainability is the hard part</div><small>two separate games 口语；第二句强调难点转移</small></li>
+<li><p>想说「把垃圾带下山交给城市处理」</p><div class="chunks">carry it out · pack it out</div><small>pack it out 是 LNT 的标准口号，户外圈都懂</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s2" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S2</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/shanshen_jingshan_qingshan/s2.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>垃圾从哪来：谁扔、扔什么、扔在哪</h2>
+      <p class="scene-title-en">Where the Trash Comes From: Who Litters, What, and Where</p>
+      <p class="context"><b>情境</b>拆解户外垃圾的主要来源：自热锅、食物包装，以及破窗效应。语域：casual 播客对谈 + 户外知识。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>原因：体积大、汤汁油多、难携带下山；留在野外污染极大。普通玩家因缺乏轻量化炊具认知，以为户外只能带自热锅</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/shanshen_jingshan_qingshan/s2-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The cause: hotpots are bulky, full of soup and oil, and hard to carry back down; left behind, they pollute heavily. Casual hikers, unaware of lightweight cooking gear, assume self-heating hotpots are the only option outdoors.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>self-heating hotpot → 自热锅；lightweight cooking gear → 轻量化炊具；the only option → 唯一选择</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>解法：单日徒步路餐越简单越好——三明治、饭团、面包、火腿肠；提前在家去包装，装入可重复保鲜盒</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/shanshen_jingshan_qingshan/s2-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The fix: for day hikes, keep trail food as simple as possible — sandwiches, rice balls, bread, and sausages. De-package it at home and store it in reusable containers.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>trail food → 路餐；de-package → 去包装；reusable container → 可重复保鲜盒</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>严重程度：致命（占清理量前三：水瓶 > 食品袋 > 自热锅盒）</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/shanshen_jingshan_qingshan/s2-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Severity: critical — it ranks in the top three of cleanup volume: water bottles, then food bags, then hotpot boxes.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>rank in the top three → 占清理量前三；cleanup volume → 清理量</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）嘉宾说法：「出去徒步不要带自热锅……体积又大，产生的那些汤汁和油又多，首先你自己很难带下来。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/shanshen_jingshan_qingshan/s2-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">"Don't bring self-heating hotpots hiking… they're bulky, and they produce lots of soup and oil, so first of all you'll struggle to carry them back down."</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>bulky → 体积大；struggle to carry → 很难带</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：任何人为垃圾（哪怕「可降解」）都会向后来者发送「这里可以扔」的信号，从一点扩散成面，视觉污染叠加行为模仿</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/shanshen_jingshan_qingshan/s2-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The mechanism: any piece of human trash, even "biodegradable" stuff, sends later visitors the signal that "it's okay to drop things here," so one spot spreads into a whole area — visual pollution layered on copied behavior.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>biodegradable → 可降解；send a signal → 发出信号；visual pollution → 视觉污染；copied behavior → 行为模仿</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：在家嗑瓜子不会吐地上，户外也不该吐；先讨论文明与否，再讨论能否降解</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/shanshen_jingshan_qingshan/s2-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key point: at home you wouldn't spit sunflower-seed shells on the floor, so you shouldn't outdoors either. Discuss whether something is civilized first, and whether it degrades second.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>sunflower-seed shells → 瓜子皮；civilized → 文明的；degrade → 降解</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>3 组表达</span></summary>
+        <ol>
+          <li><p>想说「自热锅很难带下山」</p><div class="chunks">a nightmare to haul · carry out</div><small>a nightmare to 是口语强调；第二句带点自嘲语气</small></li>
+<li><p>想说「一处垃圾会引来更多垃圾」</p><div class="chunks">invites the next · litter begets litter · broken-window effect</div><small>broken-window effect 是学术术语；litter begets litter 是口语金句</small></li>
+<li><p>想说「在家不做的事户外也别做」</p><div class="chunks">the same manners apply · in the wild</div><small>第一句直白有力，第二句是俏皮说法</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s3" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S3</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/shanshen_jingshan_qingshan/s3.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>野外垃圾的隐藏代价</h2>
+      <p class="scene-title-en">The Hidden Costs of Wilderness Trash</p>
+      <p class="context"><b>情境</b>讨论「垃圾清理费」陷阱与垃圾对野生动物的影响。语域：casual 播客对谈 + 警示分析。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>原因：户外火爆后，路线周边村民以「净山费/垃圾处理费」收费，但缺乏处理能力与知识，常见焚烧、掩埋、藏灌木</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/shanshen_jingshan_qingshan/s3-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The cause: after the outdoor boom, villagers near popular trails started charging "cleanup fees." But they lack the capacity and knowledge to deal with the waste, so the common results are burning, burying, or hiding it in bushes.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>cleanup fee → 净山费/垃圾处理费；capacity → 处理能力；bury/hide → 掩埋/藏</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>解法：自己产生的垃圾自己带走，带回城市完善处理系统——成本最低、最可靠</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/shanshen_jingshan_qingshan/s3-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The fix: carry out the trash you generate and bring it back to the city's proper processing system — the cheapest and most reliable option.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>carry out → 带下山；processing system → 处理系统；reliable option → 可靠选择</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>严重程度：致命（制造「已付费可乱扔」的错误预期）</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/shanshen_jingshan_qingshan/s3-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Severity: critical — it creates the wrong expectation that "I paid, so I can litter."</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>create a false expectation → 制造错误预期；litter → 乱扔垃圾</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）嘉宾说法：「意外发现垃圾都被埋起来了，只是不让你看见了……你就认为这个问题解决了。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/shanshen_jingshan_qingshan/s3-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">"I was shocked to find the trash had all been buried — they just made it invisible… and you think the problem is solved."</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>make it invisible → 让你看不见；the problem is solved → 问题解决了</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>香港麦理浩径野猪闻食物垃圾靠近营地；河北露营区牛羊被食物吸引，曾出现牛群冲撞帐篷险情。倾倒含油辣汤破坏植被，改变动物觅食习惯（如北灵山黑鸟周日准时等拔营垃圾）</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/shanshen_jingshan_qingshan/s3-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">On Hong Kong's MacLehose Trail, wild boars smelling food trash approach campsites. At Hebei campsites, cattle drawn by food once caused a scare when a herd rushed at a tent. Dumping oily, spicy soup kills vegetation and changes animals' foraging habits — like the black birds on Beilingshan that show up every Sunday right on time for the abandoned camp waste.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>wild boar → 野猪；campsite → 营地；foraging habit → 觅食习惯；show up right on time → 准时出现</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>适用边界：内地低海拔线路野生动物较少，但改变动物行为的风险在露营密集区同样存在</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/shanshen_jingshan_qingshan/s3-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The boundary: inland low-elevation trails have fewer wild animals, but the risk of changing animal behavior exists just the same in dense camping zones.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>low-elevation trail → 低海拔线路；dense camping zone → 露营密集区；just the same → 同样存在</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>3 组表达</span></summary>
+        <ol>
+          <li><p>想说「收费不等于处理干净」</p><div class="chunks">doesn't mean · buried out of sight · disposed of</div><small>out of sight 强调「眼不见」；disposed of 是正式说法</small></li>
+<li><p>想说「垃圾改变了动物的习惯」</p><div class="chunks">retrain · reprogramming animal behavior</div><small>retrain 有「训练」的俏皮感；reprogramming 是科技隐喻</small></li>
+<li><p>想说「别把责任甩给别人」</p><div class="chunks">take ownership · pack out</div><small>take ownership 是职场常用短语，放在这里很有力</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s4" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S4</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/shanshen_jingshan_qingshan/s4.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>LNT 无痕户外与行前准备</h2>
+      <p class="scene-title-en">Leave No Trace & Pre-Trip Preparation</p>
+      <p class="context"><b>情境</b>介绍 LNT 无痕户外的核心理念、培训体系，以及行前的水食准备建议。语域：casual 播客讲解 + 实用指南。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：美国发起的户外生活方式，倡导在自然中活动时将冲击最小化——不仅是垃圾，还包括地表损害、动植物干扰、对其他游客的影响（如外放音乐）</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/shanshen_jingshan_qingshan/s4-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Started in the US, Leave No Trace is an outdoor lifestyle that calls for minimizing impact while in nature — not just trash, but damage to the ground, disturbance to plants and animals, and the effect on other visitors, like blasting music out loud.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>minimize impact → 将冲击最小化；surface damage → 地表损害；blasting music → 外放音乐</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：无法做到绝对无痕，但通过充分行前准备可避免大部分本可避免的冲击。普通人最难的一条：花时间做好充分准备</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/shanshen_jingshan_qingshan/s4-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key insight: absolute zero trace isn't achievable, but thorough pre-trip preparation avoids most avoidable impacts. The hardest principle for ordinary people: taking the time to prepare well.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>zero trace → 绝对无痕；pre-trip preparation → 行前准备；avoidable impact → 本可避免的冲击</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>培训路径：休闲了解10–30分钟；专业版两天一夜野外实践（选营地、处理垃圾、食物悬挂、不同地质行走）</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/shanshen_jingshan_qingshan/s4-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The training path: a casual intro takes 10-30 minutes; the professional version is a two-day, one-night field practice covering campsite selection, waste handling, food hanging, and walking on different terrain.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>field practice → 野外实践；campsite selection → 选营地；food hanging → 食物悬挂；terrain → 地质/地形</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）相关概念：手护自然也在推广LNT讲师培训；处理垃圾只是LNT的一部分，扎营选址、用火（防火季禁火/焚火台）同样重要</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/shanshen_jingshan_qingshan/s4-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Shou Hu Zi Ran is also promoting LNT instructor training. Waste handling is only part of LNT — campsite choice and fire use, like no fires in fire season or using a fire pan, matter just as much.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>instructor training → 讲师培训；fire season → 防火季；fire pan → 焚火台；matter just as much → 同样重要</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>水：用水袋/水囊，空袋不会扔；瓶装水提前在家撕标签</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/shanshen_jingshan_qingshan/s4-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">On water: use a hydration bladder or soft flask — an empty bag doesn't get thrown away — and if you bring bottled water, tear off the labels at home first.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>hydration bladder → 水袋；soft flask → 水囊；tear off the label → 撕标签</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>食：三明治/饭团装保鲜盒，去包装在家完成；少带需处理果皮（西瓜麻烦，黄瓜/西红柿/苹果较好）</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/shanshen_jingshan_qingshan/s4-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">On food: sandwiches and rice balls go in containers, de-packaged at home; avoid foods with troublesome peels — watermelon is a hassle, so pick cucumber, tomato, or apple instead.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>troublesome peels → 麻烦的果皮；a hassle → 麻烦事；instead → 换一种</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>3 组表达</span></summary>
+        <ol>
+          <li><p>想说「做不到零冲击，但可以减少」</p><div class="chunks">leave a smaller trace · lighter is the goal</div><small>第一句是对仗金句，第二句更口语</small></li>
+<li><p>想说「关键在提前准备」</p><div class="chunks">battle won before · a little prep</div><small>第一句生动，适合点评；第二句平实直接</small></li>
+<li><p>想说「少带需要处理的食物」</p><div class="chunks">skip the foods · wrapper-free and peel-free</div><small>wrapper-free / peel-free 是环保语境常用造词</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s5" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S5</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/shanshen_jingshan_qingshan/s5.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>组织运营的现实困境</h2>
+      <p class="scene-title-en">The Real Struggle of Running the Organization</p>
+      <p class="context"><b>情境</b>讨论长期做净山志愿者的疲惫感与「捡不完」的无力感，以及牧匠的回应。语域：casual 播客对谈 + 心声分享。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>原因：扛十几公斤垃圾下山像干体力活；下次来路线又满垃圾，怀疑「光靠志愿者呼吁有没有意义」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/shanshen_jingshan_qingshan/s5-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The cause: hauling ten-plus kilos of trash down the mountain feels like manual labor, and the next time you come, the trail is full of trash again — you start to doubt whether volunteer appeals make any difference.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>haul down → 扛下山；manual labor → 体力活；make a difference → 有意义/有作用</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>解法：牧匠：情绪过后看到垃圾仍「看不过去」；需要法规完善+公众意识+志愿清理多线并行，不期待一次解决</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/shanshen_jingshan_qingshan/s5-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Mujiang's answer: after the emotion fades, he still "can't stand it" when he sees trash. The fix has to run on multiple tracks — better regulations, public awareness, and volunteer cleanup — without expecting any single effort to solve it at once.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>can't stand it → 看不过去；run on multiple tracks → 多线并行；regulation → 法规；public awareness → 公众意识</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>严重程度：小心（影响长期参与，但不否定行动价值）</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/shanshen_jingshan_qingshan/s5-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Severity: moderate — it affects long-term participation, but it doesn't negate the value of the action.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>long-term participation → 长期参与；negate the value → 否定价值</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）网络反馈：「刚开始很有成就感，后来怎么捡都捡不完，甚至感到空虚和绝望。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/shanshen_jingshan_qingshan/s5-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">"At first it felt rewarding, but later no matter how much I picked up there was always more — it even felt empty and hopeless."</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>feel rewarding → 有成就感；empty and hopeless → 空虚和绝望</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>3 组表达</span></summary>
+        <ol>
+          <li><p>想说「做久了会怀疑意义」</p><div class="chunks">wonder if it's worth it · chip away at</div><small>chip away at 表示一点点消磨，很适合描述这种无力感</small></li>
+<li><p>想说「不能指望一次性解决」</p><div class="chunks">one big push · a marathon · multiple fronts</div><small>marathon vs. sprint 是经典比喻，讨论长期问题时很常用</small></li>
+<li><p>想说「尽管难，但还是值得做」</p><div class="chunks">hard as it is · worth doing · cancel out</div><small>cancel out 表示「抵消」，正式口语皆可</small></li>
+        </ol>
+      </details>
+    </section>
+      <section class="study-section" id="practice">
+      <h2 class="section-heading">今日可练 <small>PRACTICE TODAY</small></h2>
+      <div class="study-grid">
+        <article>
+          <p>用「pack it out」说：把带进来的垃圾带出去。</p>
+          <div class="practice-en">
+            Whatever you carry in, pack it out — that's the golden rule.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/shanshen_jingshan_qingshan/practice-0.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「broken-window effect」说：一处垃圾会引来更多。</p>
+          <div class="practice-en">
+            One piece of trash invites the next — that's the broken-window effect.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/shanshen_jingshan_qingshan/practice-1.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「can't stand it」说：他看到垃圾就看不下去。</p>
+          <div class="practice-en">
+            He still can't stand it when he sees trash on the trail.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/shanshen_jingshan_qingshan/practice-2.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「chip away at」说：捡不完的垃圾消磨积极性。</p>
+          <div class="practice-en">
+            The never-ending trash chips away at volunteers' motivation.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/shanshen_jingshan_qingshan/practice-3.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article>
+      </div>
+    </section>
+      <section class="study-section pitfalls" id="pitfalls">
+      <h2 class="section-heading">避坑 <small>PITFALLS</small></h2>
+      <div class="study-grid">
+        <article>
+          <div class="wrong">✕ The mountain god will bless every person who takes the garbage away.</div>
+          <div class="right">✓ The mountain god blesses everyone who carries their trash out.</div>
+          <p>直译 takes the garbage away 生硬；carries their trash out 对应户外圈 pack out 的惯例表达更自然。</p>
+        </article><article>
+          <div class="wrong">✕ The hotpot is very big and hard to bring down.</div>
+          <div class="right">✓ The hotpot is bulky, greasy, and a nightmare to haul back down.</div>
+          <p>big 太泛；bulky 特指体积大占空间，haul 对应「负重搬运」的语境。</p>
+        </article><article>
+          <div class="wrong">✕ People pay money to let villagers clean the garbage.</div>
+          <div class="right">✓ Villagers charge "cleanup fees" but lack the capacity to actually process the waste.</div>
+          <p>直译丢掉了「收了钱却没处理能力」的关键转折；补出因果才能说清陷阱所在。</p>
+        </article><article>
+          <div class="wrong">✕ We can't clean all garbage, but we can do less.</div>
+          <div class="right">✓ You can't leave zero trace, but you can leave a smaller one.</div>
+          <p>「做少一点」直译成 do less 含义模糊；用 leave a smaller trace 才对应 LNT 的「减少冲击」语义。</p>
+        </article>
+      </div>
+    </section>
+      <section class="study-section shifts" id="mindset">
+      <h2 class="section-heading">认知转变 <small>MINDSET SHIFTS</small></h2>
+      <div class="study-grid">
+        <article>
+          <span>以为可降解垃圾扔山里没关系</span>
+          <b aria-hidden="true">→</b>
+          <strong>任何垃圾都会发出「这里可以扔」的信号，先谈文明再谈降解</strong>
+        </article><article>
+          <span>以为付了「净山费」就等于处理好了</span>
+          <b aria-hidden="true">→</b>
+          <strong>很多清理费只是把垃圾埋起来/烧掉——自己带下山才是可靠方案</strong>
+        </article><article>
+          <span>以为环保 = 事后捡垃圾</span>
+          <b aria-hidden="true">→</b>
+          <strong>LNT 的核心是事前预防与充分准备，行前把包装、路餐、用水准备好</strong>
+        </article>
+      </div>
+    </section>
+      <footer>
+        双语学习版 · 场景/句子朗读使用 edge-tts（en-US） · 单词发音使用浏览器 Web Speech API
+        <div class="footer-note">中文版：<a href="shanshen_jingshan_qingshan-总结.html">shanshen_jingshan_qingshan-总结.html</a> · SVG 版：<a href="viewer.html?f=shanshen_jingshan_qingshan-总结.svg" target="_blank">shanshen_jingshan_qingshan-总结.svg</a></div>
+      </footer>
+    </div>
+  </main>
+  <script>(() => {
+  let activeAudio = null;
+  let activeBtn = null;
+  const status = document.getElementById('speech-status');
+  const stopBtn = document.getElementById('stop-speech');
+  const rateSel = document.getElementById('speech-rate');
+
+  const reset = () => {
+    if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+    activeBtn?.classList.remove('playing');
+    activeBtn = null;
+    stopBtn.classList.remove('visible');
+    status.textContent = '';
+  };
+
+  const playAudio = (url, btn) => {
+    reset();
+    const audio = new Audio(url);
+    audio.playbackRate = Number(rateSel.value);
+    activeAudio = audio;
+    activeBtn = btn;
+    btn.classList.add('playing');
+    stopBtn.classList.add('visible');
+    status.textContent = btn.classList.contains('scene-speak')
+      ? 'Reading the whole scene…'
+      : 'Reading…';
+
+    audio.onended = () => { if (activeAudio === audio) reset(); };
+    audio.onerror = () => { status.textContent = 'Audio failed to load.'; if (activeAudio === audio) reset(); };
+    audio.play().catch(() => { status.textContent = 'Playback failed.'; if (activeAudio === audio) reset(); });
+  };
+
+  document.addEventListener('click', e => {
+    const btn = e.target.closest('[data-audio]');
+    if (!btn) return;
+    e.preventDefault();
+    if (btn === activeBtn && activeAudio) { reset(); return; }
+    playAudio(btn.dataset.audio, btn);
+  });
+
+  stopBtn.addEventListener('click', reset);
+
+  const synth = window.speechSynthesis;
+  const getEnglishVoice = () => {
+    const voices = synth.getVoices();
+    return voices.find(v => /^en-(US|GB)/i.test(v.lang))
+        || voices.find(v => /^en/i.test(v.lang)) || null;
+  };
+
+  const difficultWords = new Set([
+    'assortment', 'SKU', 'premium', 'margin', 'middleman', 'OEM', 'rebranding',
+    'hoarding', 'PTSD', 'curation', 'repurchase', 'touchpoint', 'backlash',
+    'reshuffle', 'funnel', 'anchor', 'contract', 'psychology', 'private', 'label',
+    'editorial', 'familiar', 'competitors', 'authorization', 'flexibility'
+  ]);
+
+  const shouldPronounce = word => {
+    const n = word.toLowerCase().replace(/^[^a-z]+|[^a-z]+$/g, '');
+    return n.replace(/[^a-z]/g, '').length >= 8 || difficultWords.has(n);
+  };
+
+  const markPronounceableWords = root => {
+    const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+    const nodes = [];
+    while (walker.nextNode()) nodes.push(walker.currentNode);
+    nodes.forEach(node => {
+      if (node.parentElement?.closest('button, script, style')) return;
+      const text = node.nodeValue;
+      let m, last = 0, changed = false;
+      const frag = document.createDocumentFragment();
+      const re = /[A-Za-z]+(?:[-'’][A-Za-z]+)*/g;
+      while ((m = re.exec(text))) {
+        if (!shouldPronounce(m[0])) continue;
+        changed = true;
+        frag.append(text.slice(last, m.index));
+        const wb = document.createElement('button');
+        wb.type = 'button'; wb.className = 'pronounce-word';
+        wb.dataset.speak = m[0];
+        wb.setAttribute('aria-label', '\u8bfb\u5355\u8bcd ' + m[0]);
+        wb.title = '\u70b9\u51fb\u542c\u53d1\u97f3';
+        wb.textContent = m[0];
+        frag.append(wb);
+        last = m.index + m[0].length;
+      }
+      if (!changed) return;
+      frag.append(text.slice(last));
+      node.replaceWith(frag);
+    });
+  };
+
+  document.querySelectorAll(
+    '.english, .scene-title-en, .paraphrase li p, .chunks, .practice-en, .wrong, .right, .summary-en'
+  ).forEach(markPronounceableWords);
+
+  document.addEventListener('click', e => {
+    const wb = e.target.closest('.pronounce-word');
+    if (!wb) return;
+    e.preventDefault();
+    if (!synth) return;
+    synth.cancel();
+    if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+    activeBtn?.classList.remove('playing');
+    activeBtn = wb;
+    wb.classList.add('playing');
+    const u = new SpeechSynthesisUtterance(wb.dataset.speak);
+    u.lang = 'en-US';
+    u.rate = 0.88;
+    const v = getEnglishVoice();
+    if (v) u.voice = v;
+    u.onend = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+    u.onerror = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+    synth.speak(u);
+  });
+})();</script>
+</body>
+</html>

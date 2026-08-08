@@ -1,0 +1,924 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Ep199 未来生活指南｜我夺快乐 — Bilingual Learning Edition" />
+  <title>Ep199 未来生活指南｜我夺快乐｜EN 双语学习版</title>
+  <style>:root{--teal-950:#073f42;--teal-800:#0d686c;--teal-700:#0f7c80;--teal-600:#14919b;--mint-100:#dff4ec;--mint-50:#f0faf6;--ink:#183536;--muted:#607879;--line:#d7e8e2;--paper:#fff;--amber:#a85d08;--shadow:0 12px 32px rgba(7,63,66,.08)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:24px}
+body{margin:0;color:var(--ink);background:#edf7f2;font-family:Inter,"PingFang SC","Noto Sans SC","Microsoft YaHei",system-ui,sans-serif;line-height:1.65}
+button,select{font:inherit}
+a{color:inherit}
+.hero{color:#fff;background:radial-gradient(circle at 85% 10%,rgba(129,230,196,.24),transparent 30%),linear-gradient(125deg,#073f42,#0d7377 56%,#14919b)}
+.hero-inner{width:min(1440px,100%);margin:auto;padding:44px clamp(20px,5vw,72px) 36px}
+.hero-flex{display:flex;gap:clamp(18px,3vw,40px);align-items:flex-start}
+.hero-cover{width:min(240px,42vw);height:auto;max-height:320px;object-fit:contain;object-position:center;border-radius:16px;border:1px solid rgba(255,255,255,.28);box-shadow:0 18px 44px rgba(0,0,0,.32);flex-shrink:0;background:rgba(255,255,255,.08)}
+.hero-text{min-width:0;flex:1}
+.eyebrow{margin:0 0 12px;font-size:.78rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;opacity:.8}
+h1{max-width:1020px;margin:0;font-size:clamp(1.7rem,3.6vw,3rem);line-height:1.15;letter-spacing:-.04em}
+.hero-en{margin:12px 0 22px;font-size:clamp(1rem,2vw,1.25rem);opacity:.82}
+.hero-meta{display:flex;flex-wrap:wrap;gap:9px;align-items:center}
+.chip{border:1px solid rgba(255,255,255,.28);border-radius:99px;padding:5px 11px;font-size:.82rem;background:rgba(255,255,255,.08)}
+.source-link{font-weight:750;text-decoration:none;border-bottom:1px solid rgba(255,255,255,.5)}
+.toolbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:22px}
+.toolbar label{font-size:.82rem;opacity:.82}
+.toolbar select{color:#fff;background:#0a5d61;border:1px solid rgba(255,255,255,.3);border-radius:8px;padding:7px 9px}
+.stop-btn{display:none;color:#fff;background:#8c3b2a;border:0;border-radius:8px;padding:8px 12px;cursor:pointer}
+.stop-btn.visible{display:inline-flex}
+.speech-status{min-height:1.4em;font-size:.82rem;opacity:.88}
+.lang-switch{display:inline-flex;gap:6px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.28);border-radius:99px;padding:4px}
+.lang-switch a{display:inline-block;padding:4px 13px;border-radius:99px;font-size:.8rem;font-weight:700;text-decoration:none;color:rgba(255,255,255,.75)}
+.lang-switch a.active{background:#fff;color:var(--teal-800)}
+.narration-player{margin-top:16px;padding:14px 18px;background:rgba(255,255,255,.1);border-radius:12px;border:1px solid rgba(255,255,255,.15)}
+.audio-label{color:rgba(255,255,255,.88);font-size:.82rem;font-weight:700;margin:0 0 8px}
+.page{width:min(1440px,100%);margin:auto;padding:28px clamp(16px,3vw,44px) 64px;display:grid;grid-template-columns:minmax(230px,280px) minmax(0,1fr);gap:30px;align-items:start}
+.sidebar{position:sticky;top:20px;min-width:0}
+.sidebar-box{background:rgba(255,255,255,.8);border:1px solid var(--line);border-radius:16px;padding:17px;box-shadow:var(--shadow);backdrop-filter:blur(12px)}
+.sidebar h2{margin:0 0 13px;font-size:.9rem;letter-spacing:.08em;color:var(--teal-800)}
+.map-link{display:grid;grid-template-columns:34px minmax(0,1fr);gap:9px;padding:10px 6px;text-decoration:none;border-top:1px solid var(--line)}
+.map-link:hover b{color:var(--teal-700)}
+.map-id{width:30px;height:30px;display:grid;place-items:center;border-radius:9px;color:#fff;background:var(--teal-700);font-size:.72rem;font-weight:800}
+.map-link b{display:block;font-size:.78rem;line-height:1.4}
+.map-link small{display:block;color:var(--muted);font-size:.67rem;line-height:1.4;margin-top:2px;overflow-wrap:anywhere}
+.content{min-width:0}
+.scene-card{background:var(--paper);border:1px solid var(--line);border-radius:20px;padding:clamp(20px,3vw,34px);margin-bottom:24px;box-shadow:var(--shadow);overflow:hidden}
+.scene-topline{display:flex;justify-content:space-between;gap:16px;align-items:center;margin-bottom:16px}
+.scene-id{display:inline-grid;place-items:center;min-width:42px;height:30px;padding:0 10px;color:#fff;background:var(--teal-700);border-radius:8px;font-size:.78rem;font-weight:850}
+.time{margin-left:10px;color:var(--muted);font-size:.82rem;font-variant-numeric:tabular-nums}
+.scene-card h2{margin:0 0 2px;font-size:clamp(1.35rem,2.4vw,2rem);line-height:1.25;color:var(--teal-950)}
+.scene-title-en{margin:0 0 18px;color:var(--teal-600);font-weight:700;font-size:.98rem}
+.context{margin:0 0 20px;padding:12px 15px;color:#496566;background:var(--mint-50);border-left:3px solid var(--teal-600);border-radius:0 10px 10px 0;font-size:.88rem}
+.context b{margin-right:10px;color:var(--teal-800)}
+.sentence-list{display:grid;gap:12px}
+.sentence{position:relative;display:grid;grid-template-columns:38px minmax(0,1fr);gap:12px;padding:16px;border:1px solid #e2ece8;border-radius:14px;background:#fcfefd;min-width:0}
+.sentence-no{color:var(--teal-600);font-size:.76rem;font-weight:850;font-variant-numeric:tabular-nums;padding-top:4px}
+.bilingual{min-width:0;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(14px,2vw,28px)}
+.lang-block{min-width:0}
+.lang-block p{margin:5px 0 0;overflow-wrap:anywhere}
+.en-block{padding-left:clamp(14px,2vw,28px);border-left:1px solid var(--line)}
+.en-block p{color:#0b5c60;font-weight:650}
+.lang-tag{display:inline-block;color:var(--muted);font-size:.66rem;font-weight:850;letter-spacing:.12em}
+.en-head{display:flex;justify-content:space-between;gap:10px;align-items:center;min-height:30px}
+.note{grid-column:2;margin:1px 0 0;color:#708182;font-size:.78rem}
+.note span{margin-right:7px;color:var(--amber);font-weight:750}
+.speak-btn{display:inline-flex;align-items:center;gap:7px;border:1px solid #b8d9d1;border-radius:9px;padding:7px 11px;color:var(--teal-800);background:#f5fbf8;cursor:pointer;white-space:nowrap;font-size:.78rem;font-weight:750;transition:.15s ease}
+.speak-btn:hover{color:#fff;background:var(--teal-700);border-color:var(--teal-700);transform:translateY(-1px)}
+.speak-btn.playing{color:#fff;background:var(--teal-700);border-color:var(--teal-700)}
+.speak-btn.compact{padding:4px 8px;font-size:.7rem}
+.speak-btn.icon-only{padding:3px 7px;margin-left:6px}
+.speak-btn.icon-only span:last-child{display:none}
+.pronounce-word{display:inline;margin:0;padding:0 2px;color:inherit;background:rgba(20,145,155,.08);border:0;border-bottom:1px dashed var(--teal-600);border-radius:3px;font:inherit;font-weight:inherit;line-height:inherit;cursor:pointer}
+.pronounce-word:hover,.pronounce-word:focus{color:var(--teal-950);background:#cceee4;border-bottom-style:solid;outline:3px solid rgba(20,145,155,.42);outline-offset:2px}
+.pronounce-word.playing{color:#fff;background:var(--teal-700);border-bottom-color:var(--teal-700)}
+.paraphrase{margin-top:18px;border-top:1px solid var(--line)}
+.paraphrase summary{padding:16px 0 3px;color:var(--teal-800);cursor:pointer;font-weight:800}
+.paraphrase summary span{color:var(--muted);font-size:.75rem;font-weight:500;margin-left:8px}
+.paraphrase ol{margin:12px 0 0;padding-left:22px}
+.paraphrase li{padding:7px 0 9px 5px}
+.paraphrase li p{margin:0;font-size:.9rem;font-weight:650}
+.paraphrase li small{display:block;color:var(--muted);font-size:.72rem;margin-top:2px}
+.chunks{margin-top:4px;color:var(--teal-700);font-size:.78rem}
+.study-section{margin:38px 0 0}
+.section-heading{display:flex;align-items:baseline;gap:10px;margin:0 0 15px;color:var(--teal-950);font-size:1.35rem}
+.section-heading small{color:var(--teal-600);font-size:.78rem;letter-spacing:.05em}
+.study-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.study-grid article{padding:17px;background:#fff;border:1px solid var(--line);border-radius:14px;box-shadow:0 6px 18px rgba(7,63,66,.05);min-width:0}
+.study-grid p{margin:0}
+.practice-en{margin-top:9px;color:var(--teal-700);font-weight:650;overflow-wrap:anywhere}
+.wrong{color:#a24831;text-decoration:line-through;overflow-wrap:anywhere}
+.right{color:var(--teal-700);font-weight:750;margin:5px 0;overflow-wrap:anywhere}
+.pitfalls p{color:var(--muted);font-size:.82rem}
+.shifts article{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1.5fr);gap:12px;align-items:center}
+.shifts b{color:var(--teal-600);font-size:1.2rem}
+.shifts strong{color:var(--teal-800)}
+footer{margin-top:38px;color:var(--muted);font-size:.78rem;text-align:center}
+.footer-note{margin-top:6px}
+@media (max-width:900px){
+  .page{grid-template-columns:1fr}
+  .sidebar{position:static}
+  .sidebar-box{overflow-x:auto;padding:12px}
+  .sidebar h2{padding-left:5px}
+  .map-nav{display:flex;width:max-content;gap:8px}
+  .map-link{width:240px;border:1px solid var(--line);border-radius:10px;padding:8px}
+  .bilingual{grid-template-columns:1fr}
+  .en-block{padding:12px 0 0;border-left:0;border-top:1px dashed var(--line)}
+}
+@media (max-width:620px){
+  .hero-inner{padding-top:30px}
+  .hero-flex{flex-direction:column;align-items:center}
+  .hero-cover{width:100%;max-width:360px}
+  .hero-text{text-align:center}
+  .page{padding-inline:10px;gap:18px}
+  .scene-card{border-radius:14px;padding:17px 13px}
+  .scene-topline{align-items:flex-start}
+  .scene-speak span:last-child{display:none}
+  .sentence{grid-template-columns:26px minmax(0,1fr);padding:13px 10px;gap:6px}
+  .note{grid-column:2}
+  .study-grid{grid-template-columns:1fr}
+  .shifts article{grid-template-columns:1fr;gap:5px}
+  .shifts b{transform:rotate(90deg);justify-self:start}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.speak-btn{transition:none}}</style>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="hero-flex">
+        <div class="hero-text">
+          <p class="eyebrow">Future &amp; Lifestyle · 未来与生活</p>
+          <h1>Ep199 未来生活指南｜我夺快乐</h1>
+          <p class="hero-en">Ep199 A Guide to Future Life | I Seize My Joy</p>
+          <p class="summary-en" style="margin:0 0 14px;padding:14px 16px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.22);border-radius:12px;font-size:.95rem;line-height:1.7">Mao Dong records the second half of 'A Guide to Future Life' live in Beijing with Ning Jiayu, Hao Meng, Hu Xinshu, and Dong Dongqiang: from predicting the future through retro trends and the battle between algorithms and AI entertainment, to faith in e-bikes, artificial wombs, and magical-realist retirement, and from the audience's 'perfect day' to a slow-travel gap year — all while laughing through the question of how to prepare early for the ideal old age.</p>
+          <div class="hero-meta">
+            <span class="chip">2026-06-26</span>
+            <span class="chip">小宇宙FM</span>
+            <span class="chip">1小时40分</span>
+            <span class="chip">5 Scenes</span>
+            <span class="chip">Click underlined words to hear them</span>
+            <a class="source-link" href="https://www.xiaoyuzhoufm.com/episode/6a328b7643a22a69558568de" target="_blank" rel="noopener">原播客 ↗</a>
+          </div>
+        </div>
+      </div>
+      <div class="toolbar">
+        <div class="lang-switch"><div class="lang-switch"><a href="ep199_future_life_guide-总结.html">中文</a><a class="active" href="ep199_future_life_guide-en.html" aria-current="page">EN</a></div></div>
+        <label for="speech-rate">朗读速度</label>
+        <select id="speech-rate">
+          <option value="0.85">慢速 0.85×</option>
+          <option value="1" selected>正常 1×</option>
+          <option value="1.15">快速 1.15×</option>
+        </select>
+        <button id="stop-speech" class="stop-btn" type="button">■ 停止朗读</button>
+        <span id="speech-status" class="speech-status" role="status" aria-live="polite"></span>
+      </div>
+      <div class="narration-player">
+      <p class="audio-label">🎧 中文语音讲解</p>
+      <button class="speak-btn" type="button" data-audio="audio/ep199_future_life_guide.mp3" aria-label="播放语音讲解"><span aria-hidden="true">▶</span><span>播放语音讲解</span></button>
+    </div>
+    </div>
+  </header>
+  <main class="page">
+    <aside class="sidebar" aria-label="场景地图">
+      <div class="sidebar-box">
+        <h2>场景地图 · SCENE MAP</h2>
+        <nav class="map-nav">
+          <a class="map-link" href="#s1">
+          <span class="map-id">S1</span>
+          <span><b>一、用复古潮流观测未来</b><small> · Reading the Future Through Retro Trends</small></span>
+        </a>
+<a class="map-link" href="#s2">
+          <span class="map-id">S2</span>
+          <span><b>二、国民级作品的消亡与代际断裂</b><small> · The Death of National Hits and the Generation Gap</small></span>
+        </a>
+<a class="map-link" href="#s3">
+          <span class="map-id">S3</span>
+          <span><b>三、身体、交通与科技边界</b><small> · Bodies, Transport, and the Edge of Technology</small></span>
+        </a>
+<a class="map-link" href="#s4">
+          <span class="map-id">S4</span>
+          <span><b>四、退休想象：从魔幻主义到完美一天</b><small> · Retirement Visions: From Magical Realism to the Perfect Day</small></span>
+        </a>
+<a class="map-link" href="#s5">
+          <span class="map-id">S5</span>
+          <span><b>五、老年榜样与财务准备</b><small> · Role Models for Old Age and Financial Prep</small></span>
+        </a>
+        </nav>
+      </div>
+    </aside>
+    <div class="content">
+      <section class="scene-card" id="s1" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S1</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/ep199_future_life_guide/s1.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>一、用复古潮流观测未来</h2>
+      <p class="scene-title-en">Reading the Future Through Retro Trends</p>
+      <p class="context"><b>情境</b>观察「死灰复燃」的事物来预判未来趋势：R&B、CCD 相机、播客、相声的完整循环。语域：casual 播客闲聊 + 趋势观察。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：观察「死灰复燃」的事物，可能预示三五十年后的趋势。R&B从陶喆时代火→2010年代被嘲讽→近年又回潮；CCD卡片机、播客、相声（郭德纲前被认为已死）都走过完整循环</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/ep199_future_life_guide/s1-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The mechanism: things that rise from the dead may signal the trends of the next 30 to 50 years. R&B was huge in David Tao's era, got mocked in the 2010s, and has come back in recent years; CCD point-and-shoot cameras, podcasts, and xiangsheng — which was considered dead before Guo Degang — have all run the full cycle.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>rise from the dead → 死灰复燃；point-and-shoot camera → 卡片机；run the full cycle → 走完完整循环</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：循环不是简单重复，而是带着新语境回归。播客2006年就有中文评选，但2020年前后因小宇宙等平台才真正大众化</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/ep199_future_life_guide/s1-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key insight: cycles don't repeat mechanically — things return with a new context. Chinese podcast awards existed as early as 2006, but podcasts only really went mainstream around 2020 thanks to platforms like Xiaoyuzhou.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>not repeat mechanically → 不是简单重复；go mainstream → 大众化；a new context → 新语境</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>典型场景：判断一个领域是否即将复兴——看它是否经历过「被看不起→几乎消失→重新被追捧」的完整弧线</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/ep199_future_life_guide/s1-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">How to use it: to judge whether a field is about to revive, check whether it has run the full arc from being looked down on, to nearly vanishing, to being adored again.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>the full arc → 完整弧线；be looked down on → 被看不起；be adored again → 重新被追捧</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据：「如果能观测一些复古的潮流，是不是也给顺便观测未来」「我现在有三辆小牛电动车，万一三十年之后突然又火了」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/ep199_future_life_guide/s1-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">'If we can observe some retro trends, aren't we incidentally observing the future too?' And: 'I own three Niu e-bikes right now — what if they suddenly become cool again in thirty years?'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>incidentally observe → 顺便观测；become cool again → 突然又火了；Niu e-bike → 小牛电动车</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）相关概念：与时尚界的「二十年一轮回」类似，但数字媒介加速了周期</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/ep199_future_life_guide/s1-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Related idea: it's like fashion's 'twenty-year cycle,' but digital media has speeded up the loop.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>twenty-year cycle → 二十年一轮回；speed up the loop → 加速周期</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>好梦观察到：有人开始听广播（中国之声等）来打破算法投喂——因为广播是编辑选出来的、非个性化的，给你什么你听什么，反而能获得信息多样性</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/ep199_future_life_guide/s1-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Hao Meng observes that some people are returning to radio, like China National Radio, to break the algorithm feed — because radio is editorially curated and not personalized; you take whatever's on, and that actually gives you information diversity.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>algorithm feed → 算法投喂；editorially curated → 编辑精选；information diversity → 信息多样性</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「过去流行的会带着新语境回来」</p><div class="chunks">come back in a new context · exact replays</div><small>第二句有韵味，适合点评</small></li>
+<li><p>想说「判断复兴看完整弧线」</p><div class="chunks">the full arc · hit rock bottom · being rediscovered</div><small>hit rock bottom 口语很形象</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s2" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S2</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/ep199_future_life_guide/s2.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>二、国民级作品的消亡与代际断裂</h2>
+      <p class="scene-title-en">The Death of National Hits and the Generation Gap</p>
+      <p class="context"><b>情境</b>算法让共同文化记忆越来越难形成；00后不是缺歌听而是缺共享符号。语域：casual 播客点评 + 文化观察。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：当年《心太软》《花心》等全民都会唱，现在已多年没有国民级歌曲。算法推荐让每个人活在独立信息茧房，共同文化记忆越来越难形成</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/ep199_future_life_guide/s2-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The mechanism: back then, songs like 'Too Softhearted' and 'Flower Heart' were sung by the whole nation; now it's been years since we had a national hit. Algorithmic feeds lock everyone into their own information cocoon, making shared cultural memory harder and harder to form.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>national hit → 国民级歌曲；information cocoon → 信息茧房；shared cultural memory → 共同文化记忆</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：00后不是「不缺歌听」，而是「缺好歌」——娱乐形式极丰富，但共享的文化符号在减少</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/ep199_future_life_guide/s2-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key insight: post-2000 kids aren't short of songs to listen to — they're short of songs everyone shares. Entertainment is richer than ever, but the shared cultural symbols are shrinking.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>be short of → 缺；shared cultural symbols → 共享的文化符号；entertainment is richer → 娱乐形式更丰富</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据：阿那亚录节目时，毛冬以为《心太软》人人都听过，00后观众却说「我真不知道」，让他很震撼</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/ep199_future_life_guide/s2-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The evidence: recording at Aranya, Mao Dong assumed everyone had heard 'Too Softhearted,' but a post-2000 audience member said 'I really don't know it' — which shook him.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>assume everyone has heard → 以为人人都听过；which shook him → 让他很震撼</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>原因：流媒体时代歌曲以亿计，年轻人没有「电视轮播」式的强制曝光</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/ep199_future_life_guide/s2-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Why: in the streaming era there are songs by the hundreds of millions, and young people no longer get the forced exposure of TV rotation.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>by the hundreds of millions → 以亿计；forced exposure → 强制曝光；TV rotation → 电视轮播</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>解法：跨代交流时主动确认共同语境，而非预设「这你都不知道？」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/ep199_future_life_guide/s2-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The fix: when talking across generations, actively check for shared context instead of assuming 'you don't even know this?'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>shared context → 共同语境；check for → 主动确认；across generations → 跨代际</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>严重程度：可忽略（日常社交），小心（内容创作/教育场景）</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/ep199_future_life_guide/s2-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Severity: negligible in casual social settings, but worth watching in content creation and education.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>severity → 严重程度；worth watching → 要留意；casual social settings → 日常社交</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「不是没歌听，是没共同的歌」</p><div class="chunks">plenty of music · no songs everyone shares · the shortage isn't</div><small>第二句把主语置换，点题更清晰</small></li>
+<li><p>想说「别预设对方知道」</p><div class="chunks">assume a reference travels · drop the callback</div><small>callback 指「别人不接的梗」，很口语</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s3" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S3</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/ep199_future_life_guide/s3.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>三、身体、交通与科技边界</h2>
+      <p class="scene-title-en">Bodies, Transport, and the Edge of Technology</p>
+      <p class="context"><b>情境</b>孕期激素反应的亲历分享、体外孕育的愿景，以及「五十年后还会骑电动车」的争论。语域：casual 播客聊天 + 观念碰撞。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>刚经历完孕期的胡昕树分享：不同人对孕激素的反应差异极大，伤害远不止呕吐和鼻子变大。她希望未来体外孕育技术成熟，所有人（包括男性）都不必亲身经历，也能迎来新生命</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/ep199_future_life_guide/s3-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Hu Xinshu, fresh off her own pregnancy, shares that reactions to pregnancy hormones vary wildly, and the toll goes far beyond morning sickness and a bigger nose. She hopes that one day ectogenesis matures enough that everyone, men included, can welcome new life without having to go through it physically.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>pregnancy hormones → 孕激素；morning sickness → 孕吐；ectogenesis → 体外孕育；men included → 包括男性</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>适用边界：技术尚未成熟，目前连富豪也无法体外孕育；讨论的是五十年尺度愿景，非当下选项</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/ep199_future_life_guide/s3-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Boundary: the tech isn't ready — even billionaires can't do ectogenesis today; this is a 50-year-scale vision, not a current option.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>50-year-scale vision → 五十年尺度的愿景；not a current option → 非当下选项</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）「如果这事完全用外制的事情来解决的话，会感觉更好，因为所有人都不经历这个事情，让人可以迎来生命的诞生」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/ep199_future_life_guide/s3-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">'If this could be handled entirely outside the body, it would feel better — because no one has to go through it, and people can simply welcome new life.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>outside the body → 体外/外制；welcome new life → 迎来生命的诞生</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：毛冬坚信五十年后人类仍会骑电动车——阳光下骑车的那种快乐，不应被AI和飞行汽车取代。好梦、宁嘉宇站「电吹」阵营；东东枪等站「飞吹」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/ep199_future_life_guide/s3-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The debate: Mao Dong firmly believes people will still ride e-bikes in fifty years — the joy of riding in the sunlight shouldn't be replaced by AI or flying cars. Hao Meng and Ning Jiayu stand with the 'e-bike believers'; Dong Dongqiang and others back the 'flying-car crowd.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>e-bike believers → 电吹（电动车主党）；flying-car crowd → 飞吹；stand with → 站队</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据：「人类不应该因为科技的发展、AI的进步，而失去电动车这种宝贵的体验」「路上的风景是不一样的」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/ep199_future_life_guide/s3-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">'Humanity shouldn't lose the precious experience of e-bikes just because of technological and AI progress.' And: 'the scenery on the road is different.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>precious experience → 宝贵的体验；the scenery on the road → 路上的风景</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「有些体验不该被技术进步取代」</p><div class="chunks">optimized away · worth keeping</div><small>optimize away 是科技评论常用说法</small></li>
+<li><p>想说「这是五十年后的事，不是现在」</p><div class="chunks">a 50-year vision · not actionable now</div><small>not actionable now 是实用判断句式</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s4" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S4</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/ep199_future_life_guide/s4.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>四、退休想象：从魔幻主义到完美一天</h2>
+      <p class="scene-title-en">Retirement Visions: From Magical Realism to the Perfect Day</p>
+      <p class="context"><b>情境</b>宁嘉宇的魔幻主义退休剧本、主播们对退休的真实态度，以及「你想要的自由是哪一种」。语域：casual 幽默闲聊 + 价值观碰撞。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>住山野大House（有枪但完美一天用不上），父母住隔壁Lodge，管家是破产来投靠的宁嘉宇。早晨与伴侣晨练+性生活，上午在牧场边散步边开会录播客，中午去附近纽约/墨尔本吃米其林，下午打高尔夫……</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/ep199_future_life_guide/s4-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">A big house in the mountains, a gun that never comes out on a perfect day, parents in the lodge next door, and a housekeeper who's the bankrupt Ning Jiayu. Morning workout and intimacy with your partner, a morning walk along the ranch while taking calls and recording podcasts, a Michelin lunch in nearby New York or Melbourne, and golf in the afternoon…</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>lodge → 度假小屋；Michelin lunch → 米其林午餐；a perfect day → 完美一天</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）「这一天呢，我至少会有两次性生活……退休以后，那就更完美了」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/ep199_future_life_guide/s4-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">'On this day, I'd have at least two rounds of intimacy… after retirement, it'll be even more perfect.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>rounds of intimacy → 两次性生活（保留原话直白幽默的语感）；even more perfect → 那就更完美了</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>不想平淡离去，憧憬像白胡子那样「战死沙场」、改变时代格局的退休。同时投资大风天喜剧，让梦迪魂穿赵本山的商业帝国</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/ep199_future_life_guide/s4-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">He doesn't want to leave quietly — he dreams of a retirement like that of the white-bearded strategist, 'dying on the battlefield' and changing the shape of an era. He also invests in the comedy club Windy Day, plotting to channel Meng Di into the business empire of the comedian Zhao Benshan.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>die on the battlefield → 战死沙场；change the shape of an era → 改变时代格局；channel A into B → 让A魂穿B</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）「我死的时候，我改变了咱们这个全球的可能、世界的格局」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/ep199_future_life_guide/s4-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">'When I die, I'll have changed what's possible for the whole planet — the shape of the world.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>change what's possible → 改变可能性；the shape of the world → 世界格局</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>原因：多位主播明确表示「我想工作」「退休了我还想录播客」——价值感来自创作与连接，而非纯粹躺平</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/ep199_future_life_guide/s4-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Why: several hosts clearly say 'I want to work' and 'I'd still want to record podcasts after retiring' — their sense of value comes from creating and connecting, not from pure lying flat.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>lying flat → 躺平；sense of value → 价值感；creating and connecting → 创作与连接</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>解法：提前想清楚：你要的是时间自由、地点自由，还是「什么都不做」？三者答案不同</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/ep199_future_life_guide/s4-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The fix: decide early what you actually want — freedom of time, freedom of place, or 'doing nothing at all.' The three lead to very different answers.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>freedom of time/place → 时间自由/地点自由；doing nothing at all → 什么都不做；lead to different answers → 三者答案不同</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「想象中的退休充满荒诞细节」</p><div class="chunks">a magical-realist novel · pure absurdity</div><small>magical-realist 对应「魔幻主义」，正式点评可用</small></li>
+<li><p>想说「价值感来自创造，不来自躺平」</p><div class="chunks">comes from creating · more making, not more naps</div><small>第二句押韵俏皮，适合聊天</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s5" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S5</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/ep199_future_life_guide/s5.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>五、老年榜样与财务准备</h2>
+      <p class="scene-title-en">Role Models for Old Age and Financial Prep</p>
+      <p class="context"><b>情境</b>谁是值得学习的老年榜样，以及个人养老金「既能收益又能省税」的落地操作。语域：casual 价值观讨论 + 推广信息。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>刘晓庆直播写字、赤诚一生；成龙、刘德华六十多岁仍在演戏；张学友六十多台上扭得「骚」。枪总（好梦）推崇杨振宁——读《曙光集》后为翁帆与振宁的 soulmate 爱情动容，而非仅关注年龄差梗</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/ep199_future_life_guide/s5-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Liu Xiaoqing live-streams her calligraphy and lives with total sincerity; Jackie Chan and Andy Lau are still acting in their sixties; Jacky Cheung still moves 'seductively' on stage past sixty. Hao Meng, nicknamed Qiangzong, admires the physicist Yang Zhenning — after reading his book 'Collected Works at Dawn,' he was moved by the soulmate love between Yang and his wife Weng Fan, rather than just the age-gap jokes.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>live-stream calligraphy → 直播写字；soulmate love → 灵魂伴侣式爱情；age-gap jokes → 年龄差梗</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）男性榜样难找：成龙、刘德华算；女性榜样相对好找（刘晓庆）</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/ep199_future_life_guide/s5-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">'Male role models are hard to find — Jackie Chan and Andy Lau count; female role models are easier, like Liu Xiaoqing.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>role model → 榜样；count → 算一个</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>为什么重要：节目与华夏基金联合出品，毛冬多次提醒：个人养老金不仅能获得收益，还能顺带省个税</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/ep199_future_life_guide/s5-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Why it matters: the show is co-produced with China AMC, and Mao Dong repeatedly reminds us that the personal pension can not only earn returns but also cut your income tax along the way.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>personal pension → 个人养老金；cut your income tax → 省个税；earn returns → 获得收益</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>适用边界：具体产品收益与税率因个人情况而异，需自行评估；节目信息为推广性质，非投资建议</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/ep199_future_life_guide/s5-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Boundary: returns and tax rates vary by individual situation, so evaluate for yourself; this segment is promotional, not investment advice.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>promotional → 推广性质；investment advice → 投资建议；vary by individual → 因人而异</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）怎么落地：招商银行APP搜索「尽兴养老」，按需选择个人养老金产品；同时为北京/杭州站投稿但未到现场的朋友，在小红书分享节目看法并带 #华夏基金 #未来生活指南 #基本无害 标签，可抽周边帽子</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/ep199_future_life_guide/s5-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">In practice: search 'Jinxing Yanglao' in the China Merchants Bank app and pick a personal pension product that fits; and for those who submitted stories for the Beijing or Hangzhou shows but didn't attend, share your thoughts on Xiaohongshu with the hashtags China AMC, Future Life Guide, and Basically Harmless to enter a draw for merchandise caps.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>hashtag → 话题标签；merchandise cap → 周边帽子；enter a draw → 参与抽奖</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「六十多岁还在台上就是榜样」</p><div class="chunks">that's the role model · never stopped</div><small>第二句适合做人生金句</small></li>
+<li><p>想说「养老金能省税」</p><div class="chunks">save you tax · both earns and cuts</div><small>第一句简短，适合口头传达</small></li>
+        </ol>
+      </details>
+    </section>
+      <section class="study-section" id="practice">
+      <h2 class="section-heading">今日可练 <small>PRACTICE TODAY</small></h2>
+      <div class="study-grid">
+        <article>
+          <p>用「rise from the dead」说：播客是死灰复燃的事物。</p>
+          <div class="practice-en">
+            Podcasts are something that rose from the dead — and then went mainstream.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/ep199_future_life_guide/practice-0.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「information cocoon」说：算法推荐让人活在信息茧房里。</p>
+          <div class="practice-en">
+            Algorithmic feeds lock everyone into their own information cocoon.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/ep199_future_life_guide/practice-1.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「shared cultural symbols」说：00后缺的是共享的文化符号。</p>
+          <div class="practice-en">
+            What post-2000 kids lack isn't songs — it's shared cultural symbols.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/ep199_future_life_guide/practice-2.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「lying flat」说：退休不一定是躺平。</p>
+          <div class="practice-en">
+            Retirement doesn't have to mean lying flat — value comes from creating and connecting.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/ep199_future_life_guide/practice-3.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article>
+      </div>
+    </section>
+      <section class="study-section pitfalls" id="pitfalls">
+      <h2 class="section-heading">避坑 <small>PITFALLS</small></h2>
+      <div class="study-grid">
+        <article>
+          <div class="wrong">✕ The song was sung by all Chinese people.</div>
+          <div class="right">✓ Back then, songs like 'Too Softhearted' were national hits everyone could sing.</div>
+          <p>「全民都会唱」用 national hit / everyone could sing；all Chinese people 太生硬且不准确。</p>
+        </article><article>
+          <div class="wrong">✕ Young people don't listen to songs anymore.</div>
+          <div class="right">✓ Young people aren't short of songs — they're short of songs everyone shares.</div>
+          <p>「缺好歌」不是不听歌；用 be short of + songs everyone shares 点出代际断裂的本质。</p>
+        </article><article>
+          <div class="wrong">✕ I believe people will still ride electric cars in 50 years.</div>
+          <div class="right">✓ Mao Dong insists people will still ride e-bikes in fifty years — the joy of riding in the sun shouldn't be replaced.</div>
+          <p>中文「电动车」指两轮电瓶车，electric car 是汽车；用 e-bike 才准确对应原文。</p>
+        </article><article>
+          <div class="wrong">✕ Retirement means doing nothing.</div>
+          <div class="right">✓ Retirement doesn't mean doing nothing — most hosts want to keep creating and connecting.</div>
+          <p>「退休=躺平」正是本期要打破的观念；用 doesn't mean doing nothing 纠正。</p>
+        </article>
+      </div>
+    </section>
+      <section class="study-section shifts" id="mindset">
+      <h2 class="section-heading">认知转变 <small>MINDSET SHIFTS</small></h2>
+      <div class="study-grid">
+        <article>
+          <span>以为死而复生的都是过气东西</span>
+          <b aria-hidden="true">→</b>
+          <strong>复古潮流是未来三五十年趋势的预报器，且每次回归都带着新语境</strong>
+        </article><article>
+          <span>以为年轻人不听歌了</span>
+          <b aria-hidden="true">→</b>
+          <strong>娱乐并不缺，缺的是全民共享的文化符号——代际沟通要主动确认共同语境</strong>
+        </article><article>
+          <span>以为退休就是什么都不做</span>
+          <b aria-hidden="true">→</b>
+          <strong>有价值的退休是持续创作与连接；先想清楚你要的是时间自由、地点自由还是躺平</strong>
+        </article>
+      </div>
+    </section>
+      <footer>
+        双语学习版 · 场景/句子朗读使用 edge-tts（en-US） · 单词发音使用浏览器 Web Speech API
+        <div class="footer-note">中文版：<a href="ep199_future_life_guide-总结.html">ep199_future_life_guide-总结.html</a> · SVG 版：<a href="viewer.html?f=ep199_future_life_guide-总结.svg" target="_blank">ep199_future_life_guide-总结.svg</a></div>
+      </footer>
+    </div>
+  </main>
+  <script>(() => {
+  let activeAudio = null;
+  let activeBtn = null;
+  const status = document.getElementById('speech-status');
+  const stopBtn = document.getElementById('stop-speech');
+  const rateSel = document.getElementById('speech-rate');
+
+  const reset = () => {
+    if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+    activeBtn?.classList.remove('playing');
+    activeBtn = null;
+    stopBtn.classList.remove('visible');
+    status.textContent = '';
+  };
+
+  const playAudio = (url, btn) => {
+    reset();
+    const audio = new Audio(url);
+    audio.playbackRate = Number(rateSel.value);
+    activeAudio = audio;
+    activeBtn = btn;
+    btn.classList.add('playing');
+    stopBtn.classList.add('visible');
+    status.textContent = btn.classList.contains('scene-speak')
+      ? 'Reading the whole scene…'
+      : 'Reading…';
+
+    audio.onended = () => { if (activeAudio === audio) reset(); };
+    audio.onerror = () => { status.textContent = 'Audio failed to load.'; if (activeAudio === audio) reset(); };
+    audio.play().catch(() => { status.textContent = 'Playback failed.'; if (activeAudio === audio) reset(); });
+  };
+
+  document.addEventListener('click', e => {
+    const btn = e.target.closest('[data-audio]');
+    if (!btn) return;
+    e.preventDefault();
+    if (btn === activeBtn && activeAudio) { reset(); return; }
+    playAudio(btn.dataset.audio, btn);
+  });
+
+  stopBtn.addEventListener('click', reset);
+
+  const synth = window.speechSynthesis;
+  const getEnglishVoice = () => {
+    const voices = synth.getVoices();
+    return voices.find(v => /^en-(US|GB)/i.test(v.lang))
+        || voices.find(v => /^en/i.test(v.lang)) || null;
+  };
+
+  const difficultWords = new Set([
+    'assortment', 'SKU', 'premium', 'margin', 'middleman', 'OEM', 'rebranding',
+    'hoarding', 'PTSD', 'curation', 'repurchase', 'touchpoint', 'backlash',
+    'reshuffle', 'funnel', 'anchor', 'contract', 'psychology', 'private', 'label',
+    'editorial', 'familiar', 'competitors', 'authorization', 'flexibility'
+  ]);
+
+  const shouldPronounce = word => {
+    const n = word.toLowerCase().replace(/^[^a-z]+|[^a-z]+$/g, '');
+    return n.replace(/[^a-z]/g, '').length >= 8 || difficultWords.has(n);
+  };
+
+  const markPronounceableWords = root => {
+    const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+    const nodes = [];
+    while (walker.nextNode()) nodes.push(walker.currentNode);
+    nodes.forEach(node => {
+      if (node.parentElement?.closest('button, script, style')) return;
+      const text = node.nodeValue;
+      let m, last = 0, changed = false;
+      const frag = document.createDocumentFragment();
+      const re = /[A-Za-z]+(?:[-'’][A-Za-z]+)*/g;
+      while ((m = re.exec(text))) {
+        if (!shouldPronounce(m[0])) continue;
+        changed = true;
+        frag.append(text.slice(last, m.index));
+        const wb = document.createElement('button');
+        wb.type = 'button'; wb.className = 'pronounce-word';
+        wb.dataset.speak = m[0];
+        wb.setAttribute('aria-label', '\u8bfb\u5355\u8bcd ' + m[0]);
+        wb.title = '\u70b9\u51fb\u542c\u53d1\u97f3';
+        wb.textContent = m[0];
+        frag.append(wb);
+        last = m.index + m[0].length;
+      }
+      if (!changed) return;
+      frag.append(text.slice(last));
+      node.replaceWith(frag);
+    });
+  };
+
+  document.querySelectorAll(
+    '.english, .scene-title-en, .paraphrase li p, .chunks, .practice-en, .wrong, .right, .summary-en'
+  ).forEach(markPronounceableWords);
+
+  document.addEventListener('click', e => {
+    const wb = e.target.closest('.pronounce-word');
+    if (!wb) return;
+    e.preventDefault();
+    if (!synth) return;
+    synth.cancel();
+    if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+    activeBtn?.classList.remove('playing');
+    activeBtn = wb;
+    wb.classList.add('playing');
+    const u = new SpeechSynthesisUtterance(wb.dataset.speak);
+    u.lang = 'en-US';
+    u.rate = 0.88;
+    const v = getEnglishVoice();
+    if (v) u.voice = v;
+    u.onend = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+    u.onerror = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+    synth.speak(u);
+  });
+})();</script>
+</body>
+</html>

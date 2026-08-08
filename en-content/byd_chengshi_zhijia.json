@@ -1,0 +1,345 @@
+{
+  "slug": "byd_chengshi_zhijia",
+  "date": "2026-06-23",
+  "platform": "小宇宙FM",
+  "title": "比亚迪城市智驾邪吼，其他车企为什么不跟？",
+  "title_en": "BYD's City Pilot Safety Net: Why Won't Other Carmakers Follow?",
+  "eyebrow": "EV & Smart Driving · 新能源与智驾",
+  "duration": "1小时01分",
+  "source_url": "https://www.xiaoyuzhoufm.com/episode/6a215963b30e1571aea0a58b",
+  "summary_cn": "三刀深度拆解比亚迪5·28「赶维」发布会上的CNOA城市领航一年安全兜底政策：无上限赔付、双保险制度、后台数据定责机制，以及为何特斯拉/华为/小鹏至今未跟进——智驾竞争已从功能比拼转向体系化生态战",
+  "summary_en": "Three-Dao breaks down BYD's May 28 'Ganwei' launch: a one-year safety net for its CNOA urban pilot assist — unlimited payouts, a dual-insurance system, and backend-data fault attribution — and why Tesla, Huawei, and XPeng still haven't followed. The smart-driving race has shifted from feature showdowns to a systemic ecosystem war.",
+  "scenes": [
+    {
+      "id": "s1",
+      "title_cn": "一、CNOA城市领航兜底：规则与边界",
+      "title_en": "CNOA Urban Pilot Safety Net: Rules and Boundaries",
+      "context": "拆解发布会公布的智驾兜底条款——保什么、保多久、什么情况下触发。语域：casual 商业/汽车评测解说。",
+      "speak": "The core mechanic: if you're using CNOA urban pilot in compliance and the smart-driving system fails and causes an at-fault accident, BYD pays the full amount — no payout cap, no commercial insurance claim, and no premium increase the following year. Key point: the benefit is free and valid for twelve months. New cars registered between May 28, 2026 and May 28, 2027 with God's Eye A or B are covered from delivery; older cars get one year from the OTA five-point-zero upgrade date, and God's Eye C isn't covered. Typical scenario: you're making a U-turn, the car ahead brakes suddenly, the system fails to detect it and keeps going, causing a scrape — if backend data confirms the system misread or mishandled it, the safety net kicks in. As the host quoted: 'For at-fault accidents caused by a smart-driving system failure, BYD pays it all — full compensation, with no cap on the payout.' Note this runs in parallel with commercial auto insurance rather than replacing it. Three takeaways: it's free, the payout has no cap, and it never touches your insurance claim record, so next year's premium is unaffected.",
+      "sentences": [
+        {
+          "cn": "核心机制：合规开启CNOA城市领航后，若因智驾系统故障造成本方有责事故，由比亚迪全额赔付，无赔付上限，不走车主商业险，次年保费不涨",
+          "en": "The core mechanic: if you're using CNOA urban pilot in compliance and the smart-driving system fails and causes an at-fault accident, BYD pays the full amount — no payout cap, no commercial insurance claim, and no premium increase the following year.",
+          "note": "<span>表达提示</span>CNOA → City Navigation On Autopilot（城市领航辅助）；at-fault accident → 本方有责事故；payout cap → 赔付上限；premium → 保费"
+        },
+        {
+          "cn": "关键理解：厂家免费赠送权益，有效期12个月。2026.5.28至2027.5.28上牌且配天神之眼A/B的新车从提车日起保；老车需OTA升级至5.0后从升级日起保一年。天神之眼C不在范围内",
+          "en": "Key point: the benefit is free and valid for 12 months. New cars registered between May 28, 2026 and May 28, 2027 with God's Eye A or B are covered from delivery; older cars get one year from the OTA 5.0 upgrade date. The God's Eye C isn't covered.",
+          "note": "<span>表达提示</span>God's Eye → 天神之眼（比亚迪智驾系统）；OTA → 空中升级；registered → 上牌；covered → 受保"
+        },
+        {
+          "cn": "典型场景：路口掉头时前车急停、系统未识别继续行驶导致刮擦——若后台数据确认系统识别/判断/执行有误，即符合兜底",
+          "en": "Typical scenario: you're making a U-turn, the car ahead brakes suddenly, the system fails to detect it and keeps going, causing a scrape — if backend data confirms the system misread, misjudged, or mishandled it, the safety net kicks in.",
+          "note": "<span>表达提示</span>U-turn → 掉头；scrape → 刮擦；backend data → 后台数据；kick in → 生效"
+        },
+        {
+          "cn": "（引用）原文依据：「因智驾系统故障造成本方有责事故……全部都是由比亚迪出钱，全额赔付，没有赔付的上限。」",
+          "en": "Direct quote: 'For at-fault accidents caused by a smart-driving system failure... BYD pays it all — full compensation, with no cap on the payout.'",
+          "note": "<span>表达提示</span>full compensation → 全额赔付；no cap → 无上限；direct quote → 原文引用"
+        },
+        {
+          "cn": "（引用）相关概念：与智能泊车终身兜底是两套政策；与商业车险是并行关系而非替代关系",
+          "en": "Related point: this is a separate policy from the lifetime smart-parking guarantee; it runs in parallel with commercial auto insurance rather than replacing it.",
+          "note": "<span>表达提示</span>lifetime guarantee → 终身兜底；in parallel with → 与…并行；rather than → 而非"
+        },
+        {
+          "cn": "① 免费厂家权益；② 赔付无上限（商业险按保额封顶）；③ 兜底赔付不走保险出险记录，次年保费不受影响",
+          "en": "Three takeaways: it's a free manufacturer benefit; the payout has no cap while commercial insurance is capped by coverage; and the guarantee payment doesn't hit your insurance claim record, so next year's premium is unaffected.",
+          "note": "<span>表达提示</span>takeaway → 要点；coverage → 保额；claim record → 出险记录"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「车企敢承诺无限赔付是真心实意的」",
+          "phrases": [
+            "They're putting their money where their mouth is.",
+            "It's a promise backed by real cash, not just marketing."
+          ],
+          "chunks": "put money where mouth is · backed by real cash",
+          "usage": "第一句是地道习语，第二句偏正式分析"
+        },
+        {
+          "intent": "想说「这个兜底不经过保险理赔」",
+          "phrases": [
+            "The claim never touches your insurance record.",
+            "It's settled directly by BYD, outside the insurance system."
+          ],
+          "chunks": "never touches your insurance record · outside the insurance system",
+          "usage": "日常口语用第一句，正式说明用第二句"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title_cn": "二、双保险制度与后台定责机制",
+      "title_en": "Dual Insurance and Backend Fault Attribution",
+      "context": "讨论事故后车主如何同时走商业险与比亚迪兜底、后台数据如何逐帧定责，以及「车企既是运动员又是裁判员」的争议。语域：casual 商业分析 + 消费者视角。",
+      "speak": "After an accident, the owner can either file a commercial insurance claim or apply for BYD's safety net. The basic insurance principle is that you can't profit twice from the same loss. If BYD confirms coverage, BYD pays it directly — no insurance claim, no record, no premium increase; if it's judged not to be a system fault, the case goes back to the normal auto-insurance process. The typical flow: report the accident to insurance first to lock down scene evidence, then apply in the app; BYD pulls the before-and-after driving data and rules on it frame by frame. The hosts quoted: 'To the owner, the smart-driving system is basically a blind box... but to BYD's backend technicians, it's a transparent box.' Consumers worry the automaker is 'both player and referee,' but Three-Dao argues tampering brings far more harm than good — EDR logs, dashcams, and intersection cameras cross-validate the evidence, and in serious accidents tampering means legal liability for falsifying evidence.",
+      "sentences": [
+        {
+          "cn": "核心机制：出事故后车主既可报商业车险，也可向比亚迪申请兜底。保险行业基本原则是同一损失不可重复获利",
+          "en": "Core mechanic: after an accident the owner can either file a commercial insurance claim or apply for BYD's safety net. The basic insurance principle is that you can't profit twice from the same loss.",
+          "note": "<span>表达提示</span>file a claim → 报案理赔；profit twice from the same loss → 同一损失重复获利；double-dip → 双重获利"
+        },
+        {
+          "cn": "关键理解：若比亚迪确认兜底，实际赔付由比亚迪承担，不走保险理赔，出险记录不留，保费不涨。若判定非系统责任，则回到正常车险流程",
+          "en": "Key point: if BYD confirms coverage, BYD pays it directly — no insurance claim, no record, no premium increase. If it's judged not to be a system fault, the case goes back to the normal auto-insurance process.",
+          "note": "<span>表达提示</span>pay it directly → 直接承担赔付；no claim record → 无出险记录；back to the normal process → 回到常规流程"
+        },
+        {
+          "cn": "典型场景：小事故先报保险固定现场证据，同时APP申请兜底；比亚迪后台调取事故前后数据逐帧分析后判定",
+          "en": "Typical flow: for a minor accident, report it to insurance first to lock down scene evidence, then apply for the safety net in the app; BYD pulls the before-and-after driving data and rules on it frame by frame.",
+          "note": "<span>表达提示</span>lock down evidence → 固定证据；frame by frame → 逐帧；rule on → 作出判定"
+        },
+        {
+          "cn": "（引用）原文依据：「对车主来讲，智驾系统其实就是一个盲盒……对比亚迪后台的技术人员来讲，是个透明的盒子。」",
+          "en": "Direct quote: 'To the owner, the smart-driving system is basically a blind box... but to BYD's backend technicians, it's a transparent box.'",
+          "note": "<span>表达提示</span>blind box → 盲盒；transparent box → 透明的盒子；backend technician → 后台技术人员"
+        },
+        {
+          "cn": "消费者担心「车企既是运动员又是裁判员」。三刀分析：篡改数据弊远大于利——EDR日志、行车记录仪、路口监控等多源证据可交叉验证；重大事故篡改涉及伪造证据等法律责任",
+          "en": "Consumers worry the automaker is 'both player and referee.' Three-Dao's take: tampering with data brings far more harm than good — EDR logs, dashcams, and intersection cameras cross-validate the evidence; in serious accidents, tampering means legal liability for falsifying evidence.",
+          "note": "<span>表达提示</span>player and referee → 运动员兼裁判员；EDR → 事件数据记录器；cross-validate → 交叉验证；falsifying evidence → 伪造证据"
+        },
+        {
+          "cn": "（引用）「你都已经是要兜底了……有个大神过来稍微给你实锤一下，那小事就真的变成大事了。」",
+          "en": "Direct quote: 'You're already relying on the safety net... if some expert comes along and confirms it, a small thing really does become a big deal.'",
+          "note": "<span>表达提示</span>confirm/expose → 实锤；become a big deal → 变成大事；expert → 大神"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「车企自己定责，自己当裁判」",
+          "phrases": [
+            "The carmaker is acting as both player and referee.",
+            "They're marking their own homework on fault attribution."
+          ],
+          "chunks": "player and referee · mark your own homework",
+          "usage": "第一句直白，第二句更口语俏皮"
+        },
+        {
+          "intent": "想说「多方证据互相印证，篡改很难」",
+          "phrases": [
+            "Multiple sources of evidence cross-check each other.",
+            "With dashcams and EDR logs, tampering would be caught immediately."
+          ],
+          "chunks": "cross-check · would be caught immediately",
+          "usage": "第一句偏正式，第二句更具体有说服力"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title_cn": "三、L2宣传与法律责任的根本矛盾",
+      "title_en": "The Fundamental Gap Between L2 Marketing and Legal Responsibility",
+      "context": "讨论发布会话术如何让消费者脑补自动驾驶，而法律上驾驶员仍是第一责任人，以及比亚迪的解法。语域：casual 汽车行业观察。",
+      "speak": "The root cause: launch events talk about 'auto lane changes, driving like a veteran,' so consumers picture full self-driving — but in an accident, everything snaps back to the L2 framework, where the driver is the primary responsible party. The fix: BYD never claimed L3. The safety net only applies under compliant use with the driver still supervising — and if a system fault is confirmed, the manufacturer takes responsibility. The boundary: until L3 regulations land, all 'advanced driver assistance' and 'L2.999' marketing is still L2 at heart, and the driver's duty to monitor the road at all times can't be waived. The highway cases prove the point: L2 driver assistance is not self-driving — when a driver relies on the system too long and fails to take over in time, the automaker isn't primarily liable.",
+      "sentences": [
+        {
+          "cn": "原因：车企发布会讲「自动变道、像老司机」，消费者脑补自动驾驶；出事故时回归L2框架——驾驶员是第一责任人",
+          "en": "The root cause: launch events talk about 'auto lane changes, driving like a veteran,' so consumers picture full self-driving — but in an accident, everything snaps back to the L2 framework, where the driver is the primary responsible party.",
+          "note": "<span>表达提示</span>drive like a veteran → 像老司机；full self-driving → 自动驾驶；snap back to → 回到；primary responsible party → 第一责任人"
+        },
+        {
+          "cn": "解法：比亚迪未宣称L3，兜底是在「合规使用+驾驶员仍须监管」前提下，若确认系系统问题则厂家担责",
+          "en": "The fix: BYD never claimed L3. The safety net only applies under compliant use with the driver still supervising — and if a system fault is confirmed, the manufacturer takes responsibility.",
+          "note": "<span>表达提示</span>claim L3 → 宣称L3级；supervising → 保持监管；take responsibility → 担责"
+        },
+        {
+          "cn": "适用边界：L3法规落地前，所有「高阶智驾」「L2.999」本质仍是L2，驾驶员全程监控义务不可免除",
+          "en": "Boundary: until L3 regulations land, all 'advanced driver assistance' and 'L2.999' marketing is still L2 at heart — the driver's duty to monitor the road at all times can't be waived.",
+          "note": "<span>表达提示</span>L2.999 → 擦边球宣传话术；at heart → 本质上；monitoring duty → 监控义务；waived → 被免除"
+        },
+        {
+          "cn": "（引用）高速事故案例：L2辅助驾驶≠自动驾驶，驾驶员长时间依赖智驾、未及时接管，车企不承担主责",
+          "en": "Highway case: L2 driver assistance is not self-driving — when a driver relies on the system too long and fails to take over in time, the automaker isn't primarily liable.",
+          "note": "<span>表达提示</span>take over → 接管；primarily liable → 承担主要责任；rely on → 依赖"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「宣传和法律责任对不上」",
+          "phrases": [
+            "The marketing says one thing; the law says another.",
+            "What they advertise and what they're legally on the hook for are two different things."
+          ],
+          "chunks": "marketing vs the law · on the hook for",
+          "usage": "第一句简洁有力，第二句更正式"
+        },
+        {
+          "intent": "想说「法规落地前都按L2算」",
+          "phrases": [
+            "Until the rules change, it's all still L2 legally.",
+            "No matter how advanced the ads sound, the driver is still in charge."
+          ],
+          "chunks": "all still L2 legally · driver still in charge",
+          "usage": "第一句偏法律表述，第二句偏常识提醒"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "title_cn": "四、为何其他车企不跟进",
+      "title_en": "Why Rivals Aren't Following Suit",
+      "context": "分析兜底政策难以复制的门槛——技术短板、流程漏洞、现金流压力，以及特斯拉与中小新势力的不同处境。语域：casual 商业分析。",
+      "speak": "Why it matters: a safety net isn't a poster — it's real money going out. Weak tech, flawed processes, and unclear liability can turn payout costs into a bottomless pit. The boundary: smaller EV startups can hardly support unlimited payouts, and Tesla's global system can't be customized just for China. As Three-Dao quoted: 'Not every automaker can go down the self-pay path... every link has to be in place; miss one and a strategy turns into gambling.' What it takes: enough vehicle data, full system control, and the cash flow to absorb swings in payouts.",
+      "sentences": [
+        {
+          "cn": "为什么重要：兜底不是发海报，是真掏钱；技术短板、流程漏洞、责任不清都可能导致赔付成本无底洞",
+          "en": "Why it matters: a safety net isn't a poster — it's real money going out. Weak tech, flawed processes, and unclear liability can turn payout costs into a bottomless pit.",
+          "note": "<span>表达提示</span>not a poster → 不只是宣传；bottomless pit → 无底洞；flawed process → 流程漏洞"
+        },
+        {
+          "cn": "适用边界：中小新势力未必支撑无上限兜底；特斯拉全球体系无法单独为中国定制",
+          "en": "Boundary: smaller EV startups can hardly support unlimited payouts, and Tesla's global system can't be customized just for China.",
+          "note": "<span>表达提示</span>EV startup → 新势力造车；customize for China → 为中国定制；support → 支撑"
+        },
+        {
+          "cn": "（引用）「不是所有的车企都适合走品牌自赔这条路……一环都不能少，少一项就是从战略变成赌博。」",
+          "en": "Direct quote: 'Not every automaker can go down the self-pay path... every link has to be in place; miss one and a strategy turns into gambling.'",
+          "note": "<span>表达提示</span>self-pay → 品牌自赔；every link in place → 一环都不能少；turn into gambling → 变成赌博"
+        },
+        {
+          "cn": "（引用）怎么落地：需足够车辆数据+系统控制能力+承受赔付波动的现金流",
+          "en": "What it takes: enough vehicle data, full system control, and the cash flow to absorb swings in payouts.",
+          "note": "<span>表达提示</span>what it takes → 需要具备的条件；cash flow → 现金流；absorb swings → 承受波动"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「兜底是真金白银的承诺」",
+          "phrases": [
+            "The guarantee means real money on the table.",
+            "It's an open-ended payout promise, not cheap talk."
+          ],
+          "chunks": "real money on the table · open-ended payout promise",
+          "usage": "第一句口语，第二句偏金融分析"
+        },
+        {
+          "intent": "想说「不是所有公司都玩得起」",
+          "phrases": [
+            "Not every carmaker can afford this game.",
+            "The cost structure decides who can follow."
+          ],
+          "chunks": "can afford this game · cost structure decides",
+          "usage": "第一句通俗，第二句偏商业洞察"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "title_cn": "五、比亚迪敢兜底的底层逻辑",
+      "title_en": "The Logic Under BYD's Bold Guarantee",
+      "context": "拆解比亚迪敢承诺的底气——自研芯片、垂直整合、海量车队数据与训练飞轮，以及一个不到24小时理赔的真实案例。语域：casual 技术+商业深度分析。",
+      "speak": "The Xuanji A3, a four-nanometer automotive-grade chip, is in mass production — the chip, the algorithm, and whole-vehicle control all live inside its own system. In supplier-integrated models, blame gets passed around; at BYD, engineers work in the same building, so the chain of responsibility is short and iteration is fast. An automotive-grade chip must stay stable for over a decade — it can't just 'cool down for two minutes and go' under extreme temperatures. With a mass-market strategy, a huge fleet carries God's Eye, and China's complex roads provide endless training ground. Once the safety net makes people willing to use it, data volume quadruples and the cost of guarantees stays manageable — after the smart-parking guarantee, usage quadrupled: 'it's not that people didn't know the feature was good; it's that they were afraid of taking the blame.' The proof: a U-turn scrape on May 29 was fully processed by the afternoon of May 30 — within 24 hours. For now these are small, no-injury cases; multi-car pileups and injuries remain to be seen.",
+      "sentences": [
+        {
+          "cn": "玄机A3四纳米车规芯片量产，芯片、算法、整车控制掌握在自己体系内。供应商整合模式出事易踢皮球，比亚迪工程师同楼协作，责任链短、迭代快",
+          "en": "The Xuanji A3, a four-nanometer automotive-grade chip, is in mass production — the chip, the algorithm, and whole-vehicle control all live inside its own system. In supplier-integrated models, blame gets passed around; at BYD, engineers work in the same building, so the chain of responsibility is short and iteration is fast.",
+          "note": "<span>表达提示</span>automotive-grade chip → 车规芯片；pass the buck → 踢皮球；chain of responsibility → 责任链；iteration → 迭代"
+        },
+        {
+          "cn": "（引用）车规芯片须保证十年以上稳定，极端温区下不能「散热两分钟再走」",
+          "en": "Direct quote: an automotive-grade chip must stay stable for over a decade — it can't just 'cool down for two minutes and go' under extreme temperatures.",
+          "note": "<span>表达提示</span>extreme temperature → 极端温度；stay stable → 保持稳定；reliability → 可靠性"
+        },
+        {
+          "cn": "全民智驾策略下搭载天神之眼的车辆规模巨大，复杂中国道路场景提供持续训练土壤。兜底后用户敢用，数据量翻4倍，算法进化，兜底成本可控",
+          "en": "With a mass-market strategy, a huge fleet carries God's Eye, and China's complex roads provide endless training ground. Once the safety net makes people willing to use it, data volume quadruples, the algorithm improves, and the cost of guarantees stays manageable.",
+          "note": "<span>表达提示</span>training ground → 训练土壤；quadruple → 翻四倍；data flywheel → 数据飞轮；manageable → 可控"
+        },
+        {
+          "cn": "（引用）智能泊车兜底后使用率翻4倍——「不是不知道功能好，是怕出事锅要自己背。」",
+          "en": "Direct quote: after the smart-parking guarantee, usage quadrupled — 'it's not that people didn't know the feature was good; it's that they were afraid of taking the blame if something went wrong.'",
+          "note": "<span>表达提示</span>take the blame → 背锅；usage rate → 使用率；quadruple → 翻四倍"
+        },
+        {
+          "cn": "5·29晚路口掉头，前车特斯拉急停、智驾未识别继续行驶导致刮擦。车主已升级天神之眼B 5.0并领取兜底权益。5·30下午比亚迪完成技术勘查并启动赔付，不到24小时",
+          "en": "On the night of May 29, during a U-turn, a Tesla ahead braked suddenly, the system failed to detect it and kept going, causing a scrape. The owner had upgraded to God's Eye B 5.0 and claimed the benefit. By the afternoon of May 30, BYD finished its technical inspection and started the payout — within 24 hours.",
+          "note": "<span>表达提示</span>technical inspection → 技术勘查；start the payout → 启动赔付；within 24 hours → 不到24小时"
+        },
+        {
+          "cn": "适用边界：当前为小金额无人伤案例，多车追尾、人伤等复杂场景待观察",
+          "en": "Boundary: so far these are small, no-injury cases — complex scenarios like multi-car pileups and injuries remain to be seen.",
+          "note": "<span>表达提示</span>multi-car pileup → 多车追尾；no-injury → 无人伤；remain to be seen → 有待观察"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「自研掌握全链条」",
+          "phrases": [
+            "They control the whole stack in-house.",
+            "From chip to algorithm to car, it's all under one roof."
+          ],
+          "chunks": "whole stack in-house · under one roof",
+          "usage": "第一句技术化，第二句画面感强"
+        },
+        {
+          "intent": "想说「敢用的人越多，数据越好，越敢兜底」",
+          "phrases": [
+            "More usage means more data, which funds bolder guarantees.",
+            "The data flywheel turns confidence into a self-reinforcing loop."
+          ],
+          "chunks": "data flywheel · self-reinforcing loop",
+          "usage": "第一句直白，第二句偏商业术语"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "cn": "用「kick in」说：条件满足时兜底才会生效。",
+      "en": "The safety net only kicks in when the conditions are met."
+    },
+    {
+      "cn": "用「pass the buck」说：供应商模式出事容易互相推诿。",
+      "en": "With the supplier model, everyone passes the buck when things go wrong."
+    },
+    {
+      "cn": "用「take over」说：驾驶员必须在关键时刻接管车辆。",
+      "en": "The driver has to take over at the critical moment."
+    },
+    {
+      "cn": "用「player and referee」说：车企既当运动员又当裁判。",
+      "en": "The carmaker is playing both player and referee on fault attribution."
+    }
+  ],
+  "pitfalls": [
+    {
+      "wrong": "BYD pays all the money with no upper limit.",
+      "right": "BYD pays the full amount with no cap on the payout.",
+      "why": "upper limit 更偏技术参数上限；赔付语境用 cap / payout cap 更地道。"
+    },
+    {
+      "wrong": "The driver is the first responsible person.",
+      "right": "The driver is the primary responsible party.",
+      "why": "first responsible person 是逐字直译；法律语境用 primary responsible party / primarily liable。"
+    },
+    {
+      "wrong": "The car company is the athlete and the referee.",
+      "right": "The automaker is acting as both player and referee.",
+      "why": "比喻中的「运动员」用 player 而非 athlete；both…and… 结构更自然。"
+    },
+    {
+      "wrong": "The system didn't know the front car stopped.",
+      "right": "The system failed to detect the vehicle ahead braking suddenly.",
+      "why": "didn't know 太口语且拟人化；描述系统识别失误用 fail to detect 更准确。"
+    }
+  ],
+  "shifts": [
+    {
+      "before": "以为智能驾驶比拼的是功能参数和发布会话术",
+      "after": "敢不敢承诺「无上限兜底」才是智驾竞争真正的分水岭"
+    },
+    {
+      "before": "以为车企自己定责一定偏袒自己，证据不可信",
+      "after": "EDR、行车记录仪、路口监控多源交叉验证，后台定责可以被监督"
+    },
+    {
+      "before": "以为「高阶智驾」「L2.999」就等于接近自动驾驶",
+      "after": "L3法规落地前都是L2，驾驶员全程监控义务不可免除"
+    }
+  ],
+  "voice": "en-US-JennyNeural",
+  "audio_dir": "audio/en/byd_chengshi_zhijia"
+}

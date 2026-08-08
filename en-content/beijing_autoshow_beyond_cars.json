@@ -1,0 +1,542 @@
+{
+  "slug": "beijing_autoshow_beyond_cars",
+  "date": "2026-06-23",
+  "platform": "小宇宙FM",
+  "title": "这属北京车展，最值得看的不只是车",
+  "title_en": "At the Beijing Auto Show, the Most Interesting Things Aren't the Cars",
+  "eyebrow": "Autos & Industry · 汽车与产业",
+  "duration": "74分钟",
+  "source_url": "https://www.xiaoyuzhoufm.com/episode/69ed0f5a1e94ae692125ffc1",
+  "summary_cn": "三刀逛完2026北京车展后的深度复盘：38万㎡全球规模最大、供应商从幕后走到台前；消费者选车逻辑从认品牌转向认供应链；智驾「顶天立地」双线推进，座舱生态将像手机一样分阵营，BBA用中国方案反击但品牌溢价难撑",
+  "summary_en": "After walking the 2026 Beijing Auto Show, Sandao shares a deep recap: at 380,000 square meters it's the world's largest, and suppliers have stepped from behind the curtain onto center stage. Consumers now pick cars by supply chain rather than badge; smart driving pushes in two directions at once; the cockpit ecosystem will split into camps like phones; and BBA fight back with Chinese solutions, but their brand premium is hard to sustain.",
+  "scenes": [
+    {
+      "id": "s1",
+      "title_cn": "一、车展规模与逛展策略",
+      "title_en": "Show Scale and How to Tour It",
+      "context": "The show doubled in size, and Sandao explains the new layout and touring strategy. 语域：casual 逛展分享。",
+      "speak": "The exhibition area doubled from 220,000 to 380,000 square meters, old and new halls merged into one, and parts suppliers and finished cars share the same halls for the first time: 17 halls, 1,451 cars, 181 world premieres, and 71 concept cars. In previous years you had to take a shuttle between the new-car halls and the supplier halls; this year you can see CATL's booth in the car halls and complete cars in the parts halls — like visiting Apple and Huawei, then walking over to the chip and screen booths at a phone show. A real car fan should spend at least two days. At closing time, 16:30 to 17:30, the taxi queue can have 200 people — leave early, or ride the subway a couple of stops before hailing a cab.",
+      "sentences": [
+        {
+          "cn": "核心机制：展出面积从22万㎡翻倍至38万㎡，新老展馆合二为一，零部件与整车首次同馆展示。17个馆、1451台展车、181台全球首发、71台概念车",
+          "en": "The exhibition area doubled from 220,000 to 380,000 square meters, old and new halls merged into one, and parts suppliers and finished cars share the same halls for the first time: 17 halls, 1,451 cars, 181 world premieres, and 71 concept cars.",
+          "note": "<span>表达提示</span>exhibition area → 展出面积；world premiere → 全球首发；concept car → 概念车"
+        },
+        {
+          "cn": "关键理解：往年逛新车和逛供应商要摆渡车换馆，今年在新车馆就能看到宁德时代等供应商展台，在零部件馆也能看到整车——类似手机展会上逛完苹果华为再去逛芯片和屏幕展台",
+          "en": "The insight: in previous years you had to take a shuttle between the new-car halls and the supplier halls; this year you can see CATL's booth in the car halls and complete cars in the parts halls — like visiting Apple and Huawei, then walking over to the chip and screen booths at a phone show.",
+          "note": "<span>表达提示</span>supplier booth → 供应商展台；shuttle → 摆渡车"
+        },
+        {
+          "cn": "典型场景：车迷至少花两天；闭馆时段（16:30-17:30）打车200人排队，建议提早走或坐地铁两三站再打车",
+          "en": "A typical scene: a real car fan should spend at least two days. At closing time, 16:30 to 17:30, the taxi queue can have 200 people — leave early, or ride the subway a couple of stops before hailing a cab.",
+          "note": "<span>表达提示</span>taxi queue → 打车排队；hail a cab → 打车"
+        },
+        {
+          "cn": "（引用）原文依据：「今年是跟2024年的北京车展比的话，翻了将近一倍的展出面积」「汽车的零部件的供应商从幕后现在走到台前」",
+          "en": "The original quotes: 'Compared with the 2024 Beijing Auto Show, the exhibition area has nearly doubled,' and 'auto parts suppliers have stepped out from behind the curtain to center stage.'",
+          "note": "<span>表达提示</span>nearly doubled → 翻了近一倍；behind the curtain → 幕后"
+        },
+        {
+          "cn": "（引用）相关概念：媒体日（报道+发布会，上午看不到车）、专业观众日（概念车未撤、行业对接）、普通观众日（只卖现款车型）",
+          "en": "Related terms: media day for reports and launches where you can't see cars in the morning, pro-audience day with concept cars still up and industry matchmaking, and public days that only sell current production models.",
+          "note": "<span>表达提示</span>media day → 媒体日；industry matchmaking → 行业对接；production models → 现款车型"
+        },
+        {
+          "cn": "三刀今年中午才到展馆，只逛重点车型——同质化内容无限量供应时没有流量，质量反而变差。不如沉淀亲身感受，放到播客和视频里做深度内容",
+          "en": "Sandao didn't reach the halls until noon this year and only toured key models — when homogeneous content is supplied without limit, traffic dies and quality drops. Better to sit with your first-hand impressions and turn them into deep content for the podcast and videos.",
+          "note": "<span>表达提示</span>homogeneous content → 同质化内容；first-hand impressions → 亲身感受"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「供应商从幕后走到台前」",
+          "phrases": [
+            "The suppliers stepped out from behind the curtain.",
+            "Parts makers are now center stage, not backstage."
+          ],
+          "chunks": "step out from behind the curtain · center stage",
+          "usage": "center stage 比喻「成为焦点」，点评常用"
+        },
+        {
+          "intent": "想说「闭馆时打车要排200人」",
+          "phrases": [
+            "At closing, you're 200 people deep in the taxi queue.",
+            "Escape early — the cab line at closing is brutal."
+          ],
+          "chunks": "deep in the queue · escape early",
+          "usage": "escape early 是逛展攻略口吻"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title_cn": "二、选车逻辑：从认品牌到认供应链",
+      "title_en": "Choosing Logic: From Badge to Supply Chain",
+      "context": "Why savvy EV buyers now ask which chip, which driving solution, and which battery before which brand. 语域：casual 行业观察。",
+      "speak": "In the past you chose a car by first trusting a BBA badge; now, buying a new-energy car, the first questions are which cockpit chip, an 8295, which driving solution, Momenta R6 or R7, and which battery, CATL or Sunwoda. The supply chain's brand weight now outweighs the car brand's. Leapmotor's sales ride on a systemic dividend: buyers don't care if it's a Leapmotor — they care whose chip, whose driving compute, whose battery cells are inside. Once you've owned one new-energy car, brand preference shrinks fast. It's like buying a laptop: first pick Intel or AMD, then ignore the other camp entirely. Car buying now works the same way — lock the battery, chip, and driving supplier, then pick the model.",
+      "sentences": [
+        {
+          "cn": "核心机制：以前选车先认BBA盒子品牌；现在买新能源上车第一句话问车机芯片（8295？）、智驾方案（Momenta R6/R7？）、电池（宁德时代还是欣旺达？）。供应链品牌权重超过整车品牌",
+          "en": "In the past you chose a car by first trusting a BBA badge; now, buying a new-energy car, the first questions are which cockpit chip, an 8295, which driving solution, Momenta R6 or R7, and which battery, CATL or Sunwoda. The supply chain's brand weight now outweighs the car brand's.",
+          "note": "<span>表达提示</span>cockpit chip → 车机芯片；driving solution → 智驾方案；outweigh → 超过"
+        },
+        {
+          "cn": "关键理解：零跑销量好吃的是体系化红利——消费者不在意是不是零跑，在意芯片、智驾算力、电芯是谁家的。买过一辆新能源的人对品牌偏爱越来越小",
+          "en": "The insight: Leapmotor's strong sales ride on a systemic dividend — buyers don't care if it's a Leapmotor; they care whose chip, whose driving compute, and whose battery cells are inside. Once you've owned a new-energy car, brand preference shrinks fast.",
+          "note": "<span>表达提示</span>systemic dividend → 体系化红利；brand preference → 品牌偏爱"
+        },
+        {
+          "cn": "典型场景：买笔记本先选Intel还是AMD，选定后另一阵营型号直接不看——买车同理，先定电池/芯片/智驾供应商再选车型",
+          "en": "A typical case: when buying a laptop you first pick Intel or AMD, and once chosen, you don't even look at models from the other camp. Car buying now works the same way — lock the battery, chip, and driving supplier, then pick the model.",
+          "note": "<span>表达提示</span>the other camp → 另一阵营；lock the supplier → 先定供应商"
+        },
+        {
+          "cn": "（引用）原文依据：「真正的话语权它的迭代已经跟以前完全不一样……把它的供应链或者说是它的这种供应商的品牌放到了第一位」",
+          "en": "The original quote: 'The real say has shifted completely... they put the supply chain, or rather the supplier brands, first.'",
+          "note": "<span>表达提示</span>the real say → 真正的话语权；put … first → 把…放在第一位"
+        },
+        {
+          "cn": "原因：年轻新能源买家在网上已做足功课，到店问激光雷达几颗、为何放车顶、电池哪家、充电方案、算力多少——任一答不上来专业度评分极低",
+          "en": "The cause: young new-energy buyers have already done their homework online. At the store they ask how many lidars, why it's on the roof, whose battery, what the charging plan is, and how much compute — miss any answer and your professionalism rating drops to near zero.",
+          "note": "<span>表达提示</span>do one's homework → 做足功课；compute → 算力；professionalism rating → 专业度评分"
+        },
+        {
+          "cn": "解法：4S店已变体验中心（华为叫用户中心），销售需掌握三电+智驾+座舱全套参数，不能只会长宽高轴距",
+          "en": "The fix: 4S stores have turned into experience centers — Huawei calls theirs user centers — and salespeople must master the full specs of the three-electric system, smart driving, and cockpit, not just length, width, height, and wheelbase.",
+          "note": "<span>表达提示</span>experience center → 体验中心；three-electric system → 三电系统；wheelbase → 轴距"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「第一句话就问车机芯片」",
+          "phrases": [
+            "The first question is now which chip is inside.",
+            "Buyers open with 'what's the compute under the hood?'"
+          ],
+          "chunks": "first question is · under the hood",
+          "usage": "under the hood 双关（机舱/内在），很地道"
+        },
+        {
+          "intent": "想说「先定阵营，再选车型」",
+          "phrases": [
+            "Lock the camp first, then pick the model.",
+            "Choose the ecosystem, then browse within it."
+          ],
+          "chunks": "lock the camp · pick the model",
+          "usage": "lock 强调「先定死」，口语决策场景常用"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title_cn": "三、生态阵营：汽车像手机一样分化",
+      "title_en": "Ecosystem Camps: Cars Splitting Like Phones",
+      "context": "Cars are becoming ecosystems, splitting into closed and open camps like Android and Apple. 语域：casual 类比分析。",
+      "speak": "The car is evolving from a means of transport into a mobile terminal and then into an embodied intelligence robot. From now on you won't ask which brand will survive — instead, like Android versus Apple, cars will split into camps, where the cockpit, smart driving, and smart home unify into one ecosystem. The closed camp: Huawei, which doesn't build cars itself but serves automakers, locking partners into its closed system, and BYD, which self-develops driving, infotainment, manufacturing, and chips. The open camp: most automakers working with Momenta, CATL, and others. There's a boundary: users with special needs like foldable screens can cross ecosystems — Sandao uses a vivo foldable purely because he needs the two-app drag-and-drop to post on Weibo. Before buying a car, check whether your home appliances and phone are already inside an ecosystem, Huawei or Xiaomi; otherwise pick hardware and OS by experience.",
+      "sentences": [
+        {
+          "cn": "核心机制：汽车从交通工具→移动终端→具身智能机器人。今后不问哪个品牌死活，而是像手机分安卓和苹果阵营——座舱+智驾+智能家居统一成生态",
+          "en": "The mechanism: the car is evolving from a means of transport into a mobile terminal and then into an embodied intelligence robot. From now on you won't ask which brand will survive — instead, like Android versus Apple, cars split into camps where the cockpit, smart driving, and smart home unify into one ecosystem.",
+          "note": "<span>表达提示</span>mobile terminal → 移动终端；embodied intelligence → 具身智能；unify into an ecosystem → 统一成生态"
+        },
+        {
+          "cn": "封闭阵营：华为（不造车但服务车企，合作即进入封闭体系）、比亚迪（自驾+车机+制造+芯片全自研）",
+          "en": "The closed camp: Huawei, which doesn't build cars itself but serves automakers, locking every partner into its closed system, and BYD, which self-develops its driving, infotainment, manufacturing, and chips.",
+          "note": "<span>表达提示</span>closed camp → 封闭阵营；self-develop → 全自研"
+        },
+        {
+          "cn": "开放阵营：与Momenta、宁德时代等合作的多数车企",
+          "en": "The open camp: most automakers, working with partners like Momenta and CATL.",
+          "note": "<span>表达提示</span>open camp → 开放阵营"
+        },
+        {
+          "cn": "适用边界：折叠屏等特殊需求用户可跨生态——三刀用vivo折叠屏只因双APP拖拽发微博的刚需，与品牌无关",
+          "en": "Boundary conditions: users with special needs, like foldable screens, can cross ecosystems — Sandao uses a vivo foldable purely because he needs the two-app drag-and-drop to post on Weibo, nothing to do with brand loyalty.",
+          "note": "<span>表达提示</span>foldable screen → 折叠屏；drag-and-drop → 拖拽"
+        },
+        {
+          "cn": "（引用）落地建议：买车前确认你家电器/手机是否已在某生态内（华为/小米），否则按体验选硬件+系统，价格差几百无所谓",
+          "en": "How to apply it: before buying a car, check whether your home appliances and phone are already inside an ecosystem, Huawei or Xiaomi. If not, choose hardware and system by experience — a few hundred yuan of price difference doesn't matter.",
+          "note": "<span>表达提示</span>home appliances → 家用电器；price difference → 价格差"
+        },
+        {
+          "cn": "（引用）相关概念：今后座舱定义谁跟谁同盟，车机生态会死掉一大片，最终只剩2-3家",
+          "en": "Related idea: from now on the cockpit defines who allies with whom — most car-infotainment ecosystems will die, and only two or three will survive in the end.",
+          "note": "<span>表达提示</span>ally with → 结盟；car-infotainment ecosystem → 车机生态"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「汽车像手机一样分阵营」",
+          "phrases": [
+            "Cars are splitting into camps, just like phones.",
+            "Pick your car the way you pick Android or Apple."
+          ],
+          "chunks": "split into camps · like Android vs Apple",
+          "usage": "camp 指「阵营」，生态竞争语境高频"
+        },
+        {
+          "intent": "想说「开放阵营 vs 封闭阵营」",
+          "phrases": [
+            "There's the closed walled garden and the open camp.",
+            "Closed ecosystems lock you in; open ones let you mix and match."
+          ],
+          "chunks": "walled garden · mix and match",
+          "usage": "walled garden 是生态术语，指封闭体系"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "title_cn": "四、智驾「顶天立地」",
+      "title_en": "Smart Driving: Pushing the Ceiling and the Floor",
+      "context": "Leapmotor pins high-level driving assist to the floor at under 100,000 yuan, while Huawei claims L3 liability. 语域：casual 技术点评。",
+      "speak": "For under 100,000 yuan you get parking-lot-to-parking-lot navigation assist plus lidar, and orders crossed 10,000 in two days. Leapmotor's strategy: stack the hardware first, iterate the software slowly, and keep overall costs at a solid-enough 60-to-70-percent level. Smart driving will become standard equipment just like air conditioning and stereo — back in the day you could live without ESP, today impossible. BYD fired the first shot popularizing the God's Eye system; Leapmotor fired the second and pinned it to the floor. Note that early Leapmotor features weren't all open yet — hardware pre-installed isn't a complete experience, and 100,000-yuan buyers want certainty, not extremes. Meanwhile, at the show Huawei directly announced commercial L3 autonomous driving, not driver assistance: when the system is active, Huawei and its automaker partners share accident liability. L3 means hands and feet legally off — but only on specific roads, not everywhere.",
+      "sentences": [
+        {
+          "cn": "核心机制：不到10万配车位到车位领航辅助+激光雷达，两天大定破万。零跑策略：硬件先堆上去、软件慢慢迭代，整体成本压到六七十分够用",
+          "en": "The mechanism: for under 100,000 yuan you get parking-lot-to-parking-lot navigation assist plus lidar, and orders crossed 10,000 in two days. Leapmotor's strategy: stack the hardware first, iterate the software slowly, and keep overall costs at a solid-enough 60-to-70-percent level.",
+          "note": "<span>表达提示</span>parking-lot-to-parking-lot → 车位到车位；navigation assist → 领航辅助；iterate the software → 迭代软件"
+        },
+        {
+          "cn": "关键理解：智驾将像空调音响一样成为标配——当年没ESP能忍，现在不可能。比亚迪打第一枪普及天神之眼，零跑打第二枪摁到地面",
+          "en": "The insight: smart driving will become standard equipment just like air conditioning and the stereo — back in the day you could live without ESP, today that's impossible. BYD fired the first shot popularizing the God's Eye system, and Leapmotor fired the second, pinning it to the floor.",
+          "note": "<span>表达提示</span>standard equipment → 标配；ESP → 车身稳定系统；fire the first shot → 打第一枪"
+        },
+        {
+          "cn": "适用边界：零跑早期很多智驾功能未开放，硬件预埋≠完整体验；十万级用户要的是确定性而非极致",
+          "en": "Boundary conditions: many of Leapmotor's early smart-driving features weren't open yet — hardware pre-installed isn't a complete experience, and 100,000-yuan buyers want certainty, not extremes.",
+          "note": "<span>表达提示</span>hardware pre-installed → 硬件预埋；certainty not extremes → 确定性而非极致"
+        },
+        {
+          "cn": "（引用）原文依据：「支架这个东西今后就跟车上的空调音响一样，他就应该是个标配的东西」",
+          "en": "The original quote: 'Driving assist, from now on, should be standard equipment just like the air conditioning and the stereo in a car.'",
+          "note": "<span>表达提示</span>standard equipment → 标配"
+        },
+        {
+          "cn": "车展直接宣布L3级自动驾驶商用（非辅助驾驶），系统激活状态下事故由华为与合作车企共同担责。L3=合法脱手脱脚，但需在特定路段触发，非随时可用",
+          "en": "At the show Huawei directly announced commercial L3 autonomous driving, not driver assistance — when the system is active, Huawei and its automaker partners share accident liability. L3 means hands and feet legally off, but it triggers only on specific roads, not anywhere, anytime.",
+          "note": "<span>表达提示</span>autonomous driving → 自动驾驶；share liability → 共同担责；hands and feet off → 脱手脱脚"
+        },
+        {
+          "cn": "（引用）「一边我们讲是立地，就是零跑A10它是把高阶支架直接摁在地上了……另一边我们讲就顶天，像华为说我L3，我直接把责任跟风险我个人来扛。」",
+          "en": "The quote: 'On one side it's the floor — the Leapmotor A10 pinned high-level driving assist straight to the ground... on the other side it's the ceiling — Huawei saying L3, taking the responsibility and the risk on myself.'",
+          "note": "<span>表达提示</span>the floor and the ceiling → 立地与顶天；take the risk on myself → 责任我来扛"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「把高阶智驾价格打下来」",
+          "phrases": [
+            "They pinned high-level driving assist to the floor.",
+            "Leapmotor made premium autonomy a 100,000-yuan feature."
+          ],
+          "chunks": "pin to the floor · make it affordable",
+          "usage": "pin to the floor 是「压低价格」的生动口语"
+        },
+        {
+          "intent": "想说「硬件预埋≠完整体验」",
+          "phrases": [
+            "Hardware pre-installed isn't a finished experience.",
+            "The sensors are there; the software still needs to catch up."
+          ],
+          "chunks": "pre-installed hardware · the software catches up",
+          "usage": "catch up 指软件后续跟上"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "title_cn": "五、智能座舱与9系宇宙",
+      "title_en": "Smart Cockpits and the 9-Series Universe",
+      "context": "Cockpits are being redesigned for a hands-off driving future, and brands rush to flagship 9-series models. 语域：casual 前瞻吐槽。",
+      "speak": "Once L3 spreads, your hands won't hold the wheel and your feet won't touch the pedals — so the seat doesn't have to face forward anymore. You could sit sideways, backward, even work out in the car. Interior designers are told to drop the old logic; many outlandish designs are preparing for the post-autonomous era. AI models turn the human-car relationship from driver-plus-tool into owner-plus-butler. Sandao jokes though: people dreaming of running on a treadmill or clocking in for sleep in a self-driving car — 'that's a thought we shouldn't have.' Brands are also rushing to build 9-series and 8-series flagships, not because the market truly needs that many giant cars, but because the latest tech — three or six lidars, Thor chips, 900-volt 5C charging — needs flagship bodies to land on. Without a premium model, there's nowhere to put the tech.",
+      "sentences": [
+        {
+          "cn": "核心机制：L3普及后手不用扶方向盘、脚不用搭踏板——座椅不必朝前，可横坐倒坐甚至车内健身。内饰设计师被告知不要用老逻辑，现在很多天马行空设计是为自动驾驶后做准备",
+          "en": "The mechanism: once L3 spreads, your hands won't hold the wheel and your feet won't touch the pedals — so the seat doesn't have to face forward anymore. You could sit sideways, backward, even work out in the car. Interior designers are told to drop the old logic; many outlandish designs are preparing for the post-autonomous era.",
+          "note": "<span>表达提示</span>face forward → 朝前坐；outlandish designs → 天马行空的设计；post-autonomous era → 自动驾驶之后"
+        },
+        {
+          "cn": "关键理解：AI大模型把人与车关系从司机+工具变为主人+管家/助理。但三刀也调侃：有人想在自动驾驶车里跑步、睡觉打卡上班——「这个事情不能想」",
+          "en": "The insight: AI models turn the human-car relationship from driver-plus-tool into owner-plus-butler or assistant. Sandao jokes though: people dreaming of running or sleeping-commuting in a self-driving car — 'that's a thought we shouldn't have.'",
+          "note": "<span>表达提示</span>owner-plus-butler → 主人+管家；sleep-commute → 睡觉打卡上班"
+        },
+        {
+          "cn": "（引用）相关概念：智能座舱今后像手机安卓/苹果系统，重新定义座舱=重新定义车企生死",
+          "en": "Related idea: the smart cockpit will split into camps like Android and Apple on phones — redefining the cockpit means redefining which automakers live or die.",
+          "note": "<span>表达提示</span>redefine the cockpit → 重新定义座舱；live or die → 生死"
+        },
+        {
+          "cn": "核心机制：各品牌集体冲高造9系8系，不是因为市场真需要那么多大车，而是最新智驾（三颗六颗激光雷达）、Thor芯片、900V 5C等技术需要旗舰载体落地——没有高端车型连落地的地方都没有",
+          "en": "The mechanism: brands are rushing to build 9-series and 8-series flagships, not because the market truly needs that many giant cars, but because the latest tech — three or six lidars, Thor chips, 900-volt 5C charging — needs flagship bodies to land on. Without a premium model, there's nowhere to put the tech.",
+          "note": "<span>表达提示</span>flagship model → 旗舰车型；land on → 落地载体；premium model → 高端车型"
+        },
+        {
+          "cn": "关键数据：30万以上SUV市场自主品牌份额已超50%，以前30万预算直奔BBA，现在绿牌用脚投票选国产新能源",
+          "en": "A key number: domestic brands now hold more than 50 percent of the SUV market above 300,000 yuan. Previously a 300,000 budget went straight to BBA; now green plates vote with their feet for domestic new energy.",
+          "note": "<span>表达提示</span>market share → 市场份额；vote with one's feet → 用脚投票"
+        },
+        {
+          "cn": "适用边界：家用其实不需要5米2六座，但品牌必须有旗舰秀肌肉——理想L9、问界M9、蔚来ES9等占展台C位",
+          "en": "Boundary conditions: a family doesn't really need a 5.2-meter six-seater — but a brand must have a flagship to flex its muscles, which is why the Li L9, Wenjie M9, and Nio ES9 own the C-position of the booths.",
+          "note": "<span>表达提示</span>flex one's muscles → 秀肌肉；C-position → C位"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「旗舰车是技术的落地载体」",
+          "phrases": [
+            "Flagships are where the newest tech lands.",
+            "Without a top model, there's nowhere to put the tech."
+          ],
+          "chunks": "where tech lands · nowhere to put the tech",
+          "usage": "where tech lands 是简洁的产业评论表达"
+        },
+        {
+          "intent": "想说「这事不能想」",
+          "phrases": [
+            "That's a thought we shouldn't have.",
+            "Best not to go there."
+          ],
+          "chunks": "best not to go there",
+          "usage": "best not to go there 是口语里「别提了」的说法"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "title_cn": "六、BBA中国式反击与保时捷脑洞",
+      "title_en": "BBA's Chinese-Style Counterattack and Porsche's Wild Idea",
+      "context": "BMW, Mercedes, and Audi put Chinese teams and tech into their cars, and Sandao pitches a bold Porsche plan. 语域：casual 行业吐槽。",
+      "speak": "BMW's Neue Klasse iX3 and i3: the operating system is built by a Chinese team, smart driving partners with Momenta, and the AI models are co-customized with Alibaba — a BMW badge with a Chinese-made soul. Mercedes' GLC EV and Audi's A6 and A4 use Huawei's Qiankun driving system, and their batteries are 100 percent domestic, from CATL and others. The strategy is clear: let Chinese teams and existing Chinese tech ride in the car — foreign teams simply can't build a usable system. Sandao suggests Porsche copy the BBA playbook: launch an independent green sub-brand with a light-green macaron badge, 1-to-1 replica models, Huawei cockpit and driving, CATL batteries, priced 100,000 yuan above rivals for the badge — even maintenance cut to six or seven hundred. If it fails, announce an exit; the gas car business stays untouched. The key contradiction: if BBA use the same Chinese driving solutions, what's left to distinguish them from HarmonyOS Smart and local brands?",
+      "sentences": [
+        {
+          "cn": "宝马新世代iX3/i3：操作系统中国团队开发，智驾与Momenta合作，AI大模型与阿里联合定制——挂宝马标，灵魂中国制造。「我心依然是中国心」适合宝马奔驰合唱",
+          "en": "BMW's Neue Klasse iX3 and i3: the operating system is built by a Chinese team, smart driving partners with Momenta, and the AI models are co-customized with Alibaba — a BMW badge with a Chinese-made soul. The song 'My Heart Is Still Chinese' fits a BMW-Mercedes duet.",
+          "note": "<span>表达提示</span>Neue Klasse → 新世代；co-customized with → 与…联合定制；a Chinese soul → 中国灵魂"
+        },
+        {
+          "cn": "奔驰GLC纯电、奥迪A6/A4与华为乾崑智驾合作，电池100%国内（宁德时代等）。策略清晰：智能化让中国团队/现有技术上车，国外团队做不出可用系统",
+          "en": "Mercedes' GLC EV and Audi's A6 and A4 use Huawei's Qiankun driving system, with batteries 100 percent domestic, from CATL and others. The strategy is clear: let Chinese teams and existing Chinese tech ride in the car — foreign teams simply can't build a usable system.",
+          "note": "<span>表达提示</span>Qiankun driving system → 华为乾崑智驾；a usable system → 可用的系统"
+        },
+        {
+          "cn": "（引用）「你不如直接就让中国的团队进来，或者说直接就让中国现有的技术直接放到车上，行了吗，搞那么复杂干什么呢。」",
+          "en": "The quote: 'Why not just bring in a Chinese team, or simply put the existing Chinese tech straight into the car — why make it so complicated?'",
+          "note": "<span>表达提示</span>make it complicated → 搞那么复杂"
+        },
+        {
+          "cn": "三刀建议保时捷学BBA：独立绿色子品牌（浅绿马卡龙色徽标），1:1复刻车型+华为座舱智驾+宁德时代电池，比同级贵10万买标——保养也降到六七百。失败就发公告退出，不影响燃油车",
+          "en": "Sandao suggests Porsche copy the BBA playbook: launch an independent green sub-brand with a light-green macaron badge, 1-to-1 replica models, Huawei cockpit and driving, CATL batteries, priced 100,000 yuan above rivals for the badge — even maintenance cut to six or seven hundred. If it fails, announce an exit; the gas car business stays untouched.",
+          "note": "<span>表达提示</span>sub-brand → 子品牌；1-to-1 replica → 1:1复刻；announce an exit → 发公告退出"
+        },
+        {
+          "cn": "关键矛盾：若BBA也用中国智驾方案，与鸿蒙智行/自主品牌有何区别？品牌溢价能撑多久？保时捷想贵一倍，但今年BBA燃油车指导价已降10万+",
+          "en": "The key contradiction: if BBA also use Chinese driving solutions, what distinguishes them from HarmonyOS Smart and the domestic brands? How long can the brand premium hold? Porsche wants to charge double, but this year BBA gas-car guide prices already dropped more than 100,000 yuan.",
+          "note": "<span>表达提示</span>brand premium → 品牌溢价；guide price → 指导价"
+        },
+        {
+          "cn": "（引用）「如果都没有任何区别，他的品牌溢价他能撑多久呢？」",
+          "en": "The quote: 'If there's no difference at all, how long can their brand premium hold?'",
+          "note": "<span>表达提示</span>hold → 撑住"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「挂宝马标，灵魂中国制造」",
+          "phrases": [
+            "A BMW badge with a Chinese soul.",
+            "German badge, Chinese brains."
+          ],
+          "chunks": "a Chinese soul · Chinese brains",
+          "usage": "badge + soul 的对照是精炼点评句式"
+        },
+        {
+          "intent": "想说「品牌溢价能撑多久」",
+          "phrases": [
+            "How long can the brand premium hold?",
+            "If nothing differs, the premium is doomed."
+          ],
+          "chunks": "brand premium · the premium is doomed",
+          "usage": "brand premium 指品牌溢价"
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "title_cn": "七、里子技术：底盘、闪充与垂直整合",
+      "title_en": "Under-the-Hood Tech: Chassis, Flash Charging, and Vertical Integration",
+      "context": "Steer-by-wire replacing mechanical links, freezing-chamber flash charging, and BYD's self-sufficiency. 语域：casual 技术前瞻。",
+      "speak": "Mechanical hard-link rods are being fully replaced by electrical signals, like a gaming-simulator steering wheel that has no physical connection to the screen. Once L3 and L4 go mainstream, you don't need the mechanical steering column — fully by-wire is inevitable. When a supply chain matures, costs drop and it spreads overnight, exactly how air suspension trickled down from the top. Arguing whether by-wire is good or bad is pointless now. At the show, a freezer chamber at minus 30 degrees showed water flash-freezing, and charging speed was nearly identical to room temperature. Sandao predicts BYD may build big charging networks in the northeast, curing winter range anxiety — 'you get out of the car in your fur coat, plug in, top up the battery, and light a cigarette while you wait.' BYD self-develops everything from cells and motors to controllers to IGBT chips — when chips run short everywhere, it doesn't run short, and it can even supply others.",
+      "sentences": [
+        {
+          "cn": "核心机制：机械硬连接杆正在被电信号全面替代，像游戏模拟器方向盘与画面无物理连接。L3/L4普及后不需要机械转向杆，全線控是必然趋势",
+          "en": "The mechanism: mechanical hard-link rods are being fully replaced by electrical signals, like a gaming-simulator steering wheel that has no physical connection to the screen. Once L3 and L4 go mainstream, you don't need the mechanical steering column — fully by-wire is inevitable.",
+          "note": "<span>表达提示</span>hard-link rod → 硬连接杆；steer-by-wire → 线控转向；mechanical steering column → 机械转向杆"
+        },
+        {
+          "cn": "关键理解：供应链成熟→成本降低→瞬间普及，跟空气悬架从上往下渗透一样。争论线控底盘好不好已无意义",
+          "en": "The insight: a mature supply chain drives costs down and adoption spreads overnight — exactly how air suspension trickled down from the top. Arguing whether by-wire chassis is good or bad is pointless now.",
+          "note": "<span>表达提示</span>trickle down → 向下渗透；by-wire chassis → 线控底盘"
+        },
+        {
+          "cn": "（引用）落地建议：买车关注是否配备线控底盘、后轮转向——一旦供应链铺开，同级别会快速跟进",
+          "en": "How to apply it: when buying a car, check for a by-wire chassis and rear-wheel steering — once the supply chain rolls out, rivals in the same class will follow quickly.",
+          "note": "<span>表达提示</span>rear-wheel steering → 后轮转向；roll out → 铺开"
+        },
+        {
+          "cn": "展台冷冻舱零下30度泼水成冰，充电速度与常温几乎无差别。三刀预判比亚迪可能在东北大规模建站，解决东北老铁冬季续航焦虑——「穿个貂下车直接把电给补上了，旁边叼根烟。」",
+          "en": "At the booth, a freezer chamber at minus 30 degrees showed water flash-freezing, and charging speed was nearly identical to room temperature. Sandao predicts BYD may build large charging networks in the northeast, curing winter range anxiety — 'you get out of the car in your fur coat, plug in, top up the battery, and light a cigarette while you wait.'",
+          "note": "<span>表达提示</span>flash-freeze → 泼水成冰；range anxiety → 续航焦虑；top up the battery → 补电"
+        },
+        {
+          "cn": "（引用）相关概念：电车能否在东北普及，就看续航多长+补能多快，就这么简单",
+          "en": "Related idea: whether EVs take off in the northeast comes down to two things — how long the range is and how fast you can charge. That simple.",
+          "note": "<span>表达提示</span>take off → 普及；charge speed → 补能速度"
+        },
+        {
+          "cn": "比亚迪电池电机电控到IGBT芯片全自研，缺芯时不缺芯还能外供。北京车展展示系统化能力，全球建工厂、技术产品化输出（不是教会徒弟饿死师傅）",
+          "en": "BYD self-develops everything from battery cells, motors, and controllers to IGBT chips — when chips run short everywhere else, it doesn't run short, and it can even supply others. The Beijing show displays its system-level capability: factories around the world and tech-as-product export, not teaching an apprentice who'll steal your business.",
+          "note": "<span>表达提示</span>IGBT chip → 功率芯片；system-level capability → 系统化能力；tech-as-product export → 技术产品化输出"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「线控替代机械是必然」",
+          "phrases": [
+            "Steer-by-wire is inevitable once L3 is mainstream.",
+            "The mechanical steering rod is on its way out."
+          ],
+          "chunks": "steer-by-wire · on its way out",
+          "usage": "on its way out 指「即将淘汰」"
+        },
+        {
+          "intent": "想说「缺芯不缺芯」",
+          "phrases": [
+            "When everyone else runs short, BYD doesn't.",
+            "Self-developed chips mean the shortage never touches them."
+          ],
+          "chunks": "run short · never touches them",
+          "usage": "run short 是「缺货」的口语"
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "title_cn": "八、行业竞争新规则",
+      "title_en": "New Rules of Industry Competition",
+      "context": "Automaker groups fight like armies, supply chains brand themselves, and consumers redefine the game. 语域：casual 行业总结。",
+      "speak": "Automaker groups now fight like army corps: BYD nearly owns a whole hall, Geely spreads across one stretch, and Chery, Jetour, Xingtu, and Exeed share another. These are muscle-flexing stages — with real tech, you don't just show cars, like the minus-30-degree flash-charging demo. Supply-chain branding is a standout advantage, 'I use Huawei ADS and CATL Kirin batteries,' but it's also the automaker's anxiety: who actually holds control? The deepest vertical integrators are only BYD and Tesla. From now on it's competition between ecosystems — once the niche is claimed, there's no room left to fight for it. And the people changing the rules are you and me: consumers, with money in hand, decide what gets bought, while every automaker and supplier racks their brains to reach your pocket. Previously it was about who sold more and cheaper; now it's about who defines the product more accurately and whose intelligence system is more complete.",
+      "sentences": [
+        {
+          "cn": "核心机制：车企集团军区作战——比亚迪几乎包馆、吉利连成一片、奇瑞捷途星途埃安一馆。秀肌肉舞台，有技术不只展示车（零下30度闪充演示）",
+          "en": "The mechanism: automaker groups now fight like army corps — BYD nearly owns a whole hall, Geely spreads across one stretch, and Chery, Jetour, Xingtu, and Exeed share another. These are muscle-flexing stages; with real tech you don't just show cars, like the minus-30-degree flash-charging demo.",
+          "note": "<span>表达提示</span>fight like army corps → 军区作战；muscle-flexing → 秀肌肉"
+        },
+        {
+          "cn": "关键理解：供应链品牌化是突出优势（我搭华为ADS、宁德时代麒麟电池），但也是车企焦虑——控制权在谁手里？垂直整合最深的只有比亚迪和特斯拉",
+          "en": "The insight: supply-chain branding is a standout advantage — 'I use Huawei ADS and CATL Kirin batteries' — but it's also the automaker's anxiety: who actually holds control? The deepest vertical integrators are only BYD and Tesla.",
+          "note": "<span>表达提示</span>standout advantage → 突出优势；vertical integration → 垂直整合；hold control → 控制权在谁手里"
+        },
+        {
+          "cn": "（引用）原文依据：「今后其实就是生态体系的竞争，生态位已经确定好之后，你再想争已经没有你的位置了。」",
+          "en": "The original quote: 'From now on it's competition between ecosystems — once the ecological niche is determined, there's no room left for you to fight for it.'",
+          "note": "<span>表达提示</span>ecological niche → 生态位；no room left → 没有你的位置"
+        },
+        {
+          "cn": "为什么重要：改变游戏规则的人是你和我——手里捧着钱，消费者买什么、想要什么，每个主机厂和供应商都在削尖脑袋想掏你口袋",
+          "en": "Why it matters: the people changing the game are you and me — consumers with money in hand decide what gets bought and what's wanted, while every automaker and supplier racks their brains to reach your pocket.",
+          "note": "<span>表达提示</span>change the game → 改变游戏规则；rack one's brains → 削尖脑袋"
+        },
+        {
+          "cn": "适用边界：全球AI竞争中美最强，欧洲效率低也在卷；个人应拥抱而非对抗AI，提升效率",
+          "en": "Boundary conditions: in the global AI race the US and China lead; Europe is less efficient but still grinding. For individuals, embrace AI rather than fight it — use it to raise your efficiency.",
+          "note": "<span>表达提示</span>grind → 内卷/苦干；embrace rather than fight → 拥抱而非对抗"
+        },
+        {
+          "cn": "（引用）「以前是讲谁卖得多、谁卖得更便宜……现在比的就是谁定义这个产品定义得更准确，谁的智能化的体系更加的完善。」",
+          "en": "The quote: 'It used to be about who sold more and who sold cheaper... now it's about who defines the product more accurately and whose intelligence system is more complete.'",
+          "note": "<span>表达提示</span>define the product → 定义产品；intelligence system → 智能化体系"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「生态位一旦确定，就没你的位置了」",
+          "phrases": [
+            "Once the niche is taken, there's no room left.",
+            "Claim your ecosystem position early, or watch it go."
+          ],
+          "chunks": "the niche is taken · claim the position",
+          "usage": "niche / ecosystem position 是产业评论常用词"
+        },
+        {
+          "intent": "想说「消费者用钱投票」",
+          "phrases": [
+            "Consumers vote with their wallets.",
+            "Every maker is fighting to get their hand in your pocket."
+          ],
+          "chunks": "vote with one's wallet · reach your pocket",
+          "usage": "vote with your wallet 是标准的消费者权力表达"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "cn": "用「step out from behind the curtain」说：供应商从幕后走到台前。",
+      "en": "At this show, suppliers stepped out from behind the curtain and took center stage."
+    },
+    {
+      "cn": "用「vote with your wallet」说：消费者用钱包投票。",
+      "en": "Buyers vote with their wallets, and every automaker is fighting to reach their pocket."
+    },
+    {
+      "cn": "用「by-wire」说：机械转向杆将被线控全面替代。",
+      "en": "Once L3 goes mainstream, the mechanical steering rod gets replaced by steer-by-wire."
+    },
+    {
+      "cn": "用「brand premium」说：BBA 的品牌溢价撑不了多久。",
+      "en": "If the tech is identical, the BBA brand premium won't hold for long."
+    }
+  ],
+  "pitfalls": [
+    {
+      "wrong": "The car is very big and good.",
+      "right": "Flagships exist to carry the latest tech — three lidars, Thor chips, 900V — not because the market needs that many big cars.",
+      "why": "把冲9系理解为「车大车好」就错了；要翻出「旗舰是技术落地的载体」这一产业逻辑。"
+    },
+    {
+      "wrong": "German cars are not as good as Chinese cars now.",
+      "right": "BBA put Chinese teams and Chinese tech into their cars — German badge, Chinese soul.",
+      "why": "不是简单的好坏比较，而是「中国团队/技术上车」的策略本质。"
+    },
+    {
+      "wrong": "L3 means I can sleep in the car.",
+      "right": "L3 allows hands and feet off legally — but only on specific roads, and Huawei shares liability when the system is active.",
+      "why": "L3 是「特定路段合法脱手」，不是随时睡觉；责任归属也是关键信息。"
+    },
+    {
+      "wrong": "Buying a car is only about the brand.",
+      "right": "Buyers now ask which chip, which driving solution, and which battery — the supply chain outweighs the badge.",
+      "why": "品牌权重已被供应链权重超过，是本集核心洞察，不可省略。"
+    }
+  ],
+  "shifts": [
+    {
+      "before": "以为选车先认品牌（BBA盒子）",
+      "after": "现在先问芯片、智驾方案、电池是谁家的——供应链品牌权重超过整车品牌"
+    },
+    {
+      "before": "以为汽车是交通工具，只比驾驶和配置",
+      "after": "汽车正变成生态终端——座舱+智驾+智能家居统一阵营，像手机分安卓和苹果"
+    },
+    {
+      "before": "以为智驾是高端选配，可有可无",
+      "after": "智驾将像空调音响一样成为标配——零跑把价格打到底，华为把责任顶到天"
+    }
+  ],
+  "voice": "en-US-JennyNeural",
+  "audio_dir": "audio/en/beijing_autoshow_beyond_cars"
+}

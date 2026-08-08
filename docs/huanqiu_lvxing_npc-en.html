@@ -1,0 +1,1098 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="环球旅行两年，我绝不是这个世界的NPC | VOL.233 — Bilingual Learning Edition" />
+  <title>环球旅行两年，我绝不是这个世界的NPC | VOL.233｜EN 双语学习版</title>
+  <style>:root{--teal-950:#073f42;--teal-800:#0d686c;--teal-700:#0f7c80;--teal-600:#14919b;--mint-100:#dff4ec;--mint-50:#f0faf6;--ink:#183536;--muted:#607879;--line:#d7e8e2;--paper:#fff;--amber:#a85d08;--shadow:0 12px 32px rgba(7,63,66,.08)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:24px}
+body{margin:0;color:var(--ink);background:#edf7f2;font-family:Inter,"PingFang SC","Noto Sans SC","Microsoft YaHei",system-ui,sans-serif;line-height:1.65}
+button,select{font:inherit}
+a{color:inherit}
+.hero{color:#fff;background:radial-gradient(circle at 85% 10%,rgba(129,230,196,.24),transparent 30%),linear-gradient(125deg,#073f42,#0d7377 56%,#14919b)}
+.hero-inner{width:min(1440px,100%);margin:auto;padding:44px clamp(20px,5vw,72px) 36px}
+.hero-flex{display:flex;gap:clamp(18px,3vw,40px);align-items:flex-start}
+.hero-cover{width:min(240px,42vw);height:auto;max-height:320px;object-fit:contain;object-position:center;border-radius:16px;border:1px solid rgba(255,255,255,.28);box-shadow:0 18px 44px rgba(0,0,0,.32);flex-shrink:0;background:rgba(255,255,255,.08)}
+.hero-text{min-width:0;flex:1}
+.eyebrow{margin:0 0 12px;font-size:.78rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;opacity:.8}
+h1{max-width:1020px;margin:0;font-size:clamp(1.7rem,3.6vw,3rem);line-height:1.15;letter-spacing:-.04em}
+.hero-en{margin:12px 0 22px;font-size:clamp(1rem,2vw,1.25rem);opacity:.82}
+.hero-meta{display:flex;flex-wrap:wrap;gap:9px;align-items:center}
+.chip{border:1px solid rgba(255,255,255,.28);border-radius:99px;padding:5px 11px;font-size:.82rem;background:rgba(255,255,255,.08)}
+.source-link{font-weight:750;text-decoration:none;border-bottom:1px solid rgba(255,255,255,.5)}
+.toolbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:22px}
+.toolbar label{font-size:.82rem;opacity:.82}
+.toolbar select{color:#fff;background:#0a5d61;border:1px solid rgba(255,255,255,.3);border-radius:8px;padding:7px 9px}
+.stop-btn{display:none;color:#fff;background:#8c3b2a;border:0;border-radius:8px;padding:8px 12px;cursor:pointer}
+.stop-btn.visible{display:inline-flex}
+.speech-status{min-height:1.4em;font-size:.82rem;opacity:.88}
+.lang-switch{display:inline-flex;gap:6px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.28);border-radius:99px;padding:4px}
+.lang-switch a{display:inline-block;padding:4px 13px;border-radius:99px;font-size:.8rem;font-weight:700;text-decoration:none;color:rgba(255,255,255,.75)}
+.lang-switch a.active{background:#fff;color:var(--teal-800)}
+.narration-player{margin-top:16px;padding:14px 18px;background:rgba(255,255,255,.1);border-radius:12px;border:1px solid rgba(255,255,255,.15)}
+.audio-label{color:rgba(255,255,255,.88);font-size:.82rem;font-weight:700;margin:0 0 8px}
+.page{width:min(1440px,100%);margin:auto;padding:28px clamp(16px,3vw,44px) 64px;display:grid;grid-template-columns:minmax(230px,280px) minmax(0,1fr);gap:30px;align-items:start}
+.sidebar{position:sticky;top:20px;min-width:0}
+.sidebar-box{background:rgba(255,255,255,.8);border:1px solid var(--line);border-radius:16px;padding:17px;box-shadow:var(--shadow);backdrop-filter:blur(12px)}
+.sidebar h2{margin:0 0 13px;font-size:.9rem;letter-spacing:.08em;color:var(--teal-800)}
+.map-link{display:grid;grid-template-columns:34px minmax(0,1fr);gap:9px;padding:10px 6px;text-decoration:none;border-top:1px solid var(--line)}
+.map-link:hover b{color:var(--teal-700)}
+.map-id{width:30px;height:30px;display:grid;place-items:center;border-radius:9px;color:#fff;background:var(--teal-700);font-size:.72rem;font-weight:800}
+.map-link b{display:block;font-size:.78rem;line-height:1.4}
+.map-link small{display:block;color:var(--muted);font-size:.67rem;line-height:1.4;margin-top:2px;overflow-wrap:anywhere}
+.content{min-width:0}
+.scene-card{background:var(--paper);border:1px solid var(--line);border-radius:20px;padding:clamp(20px,3vw,34px);margin-bottom:24px;box-shadow:var(--shadow);overflow:hidden}
+.scene-topline{display:flex;justify-content:space-between;gap:16px;align-items:center;margin-bottom:16px}
+.scene-id{display:inline-grid;place-items:center;min-width:42px;height:30px;padding:0 10px;color:#fff;background:var(--teal-700);border-radius:8px;font-size:.78rem;font-weight:850}
+.time{margin-left:10px;color:var(--muted);font-size:.82rem;font-variant-numeric:tabular-nums}
+.scene-card h2{margin:0 0 2px;font-size:clamp(1.35rem,2.4vw,2rem);line-height:1.25;color:var(--teal-950)}
+.scene-title-en{margin:0 0 18px;color:var(--teal-600);font-weight:700;font-size:.98rem}
+.context{margin:0 0 20px;padding:12px 15px;color:#496566;background:var(--mint-50);border-left:3px solid var(--teal-600);border-radius:0 10px 10px 0;font-size:.88rem}
+.context b{margin-right:10px;color:var(--teal-800)}
+.sentence-list{display:grid;gap:12px}
+.sentence{position:relative;display:grid;grid-template-columns:38px minmax(0,1fr);gap:12px;padding:16px;border:1px solid #e2ece8;border-radius:14px;background:#fcfefd;min-width:0}
+.sentence-no{color:var(--teal-600);font-size:.76rem;font-weight:850;font-variant-numeric:tabular-nums;padding-top:4px}
+.bilingual{min-width:0;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(14px,2vw,28px)}
+.lang-block{min-width:0}
+.lang-block p{margin:5px 0 0;overflow-wrap:anywhere}
+.en-block{padding-left:clamp(14px,2vw,28px);border-left:1px solid var(--line)}
+.en-block p{color:#0b5c60;font-weight:650}
+.lang-tag{display:inline-block;color:var(--muted);font-size:.66rem;font-weight:850;letter-spacing:.12em}
+.en-head{display:flex;justify-content:space-between;gap:10px;align-items:center;min-height:30px}
+.note{grid-column:2;margin:1px 0 0;color:#708182;font-size:.78rem}
+.note span{margin-right:7px;color:var(--amber);font-weight:750}
+.speak-btn{display:inline-flex;align-items:center;gap:7px;border:1px solid #b8d9d1;border-radius:9px;padding:7px 11px;color:var(--teal-800);background:#f5fbf8;cursor:pointer;white-space:nowrap;font-size:.78rem;font-weight:750;transition:.15s ease}
+.speak-btn:hover{color:#fff;background:var(--teal-700);border-color:var(--teal-700);transform:translateY(-1px)}
+.speak-btn.playing{color:#fff;background:var(--teal-700);border-color:var(--teal-700)}
+.speak-btn.compact{padding:4px 8px;font-size:.7rem}
+.speak-btn.icon-only{padding:3px 7px;margin-left:6px}
+.speak-btn.icon-only span:last-child{display:none}
+.pronounce-word{display:inline;margin:0;padding:0 2px;color:inherit;background:rgba(20,145,155,.08);border:0;border-bottom:1px dashed var(--teal-600);border-radius:3px;font:inherit;font-weight:inherit;line-height:inherit;cursor:pointer}
+.pronounce-word:hover,.pronounce-word:focus{color:var(--teal-950);background:#cceee4;border-bottom-style:solid;outline:3px solid rgba(20,145,155,.42);outline-offset:2px}
+.pronounce-word.playing{color:#fff;background:var(--teal-700);border-bottom-color:var(--teal-700)}
+.paraphrase{margin-top:18px;border-top:1px solid var(--line)}
+.paraphrase summary{padding:16px 0 3px;color:var(--teal-800);cursor:pointer;font-weight:800}
+.paraphrase summary span{color:var(--muted);font-size:.75rem;font-weight:500;margin-left:8px}
+.paraphrase ol{margin:12px 0 0;padding-left:22px}
+.paraphrase li{padding:7px 0 9px 5px}
+.paraphrase li p{margin:0;font-size:.9rem;font-weight:650}
+.paraphrase li small{display:block;color:var(--muted);font-size:.72rem;margin-top:2px}
+.chunks{margin-top:4px;color:var(--teal-700);font-size:.78rem}
+.study-section{margin:38px 0 0}
+.section-heading{display:flex;align-items:baseline;gap:10px;margin:0 0 15px;color:var(--teal-950);font-size:1.35rem}
+.section-heading small{color:var(--teal-600);font-size:.78rem;letter-spacing:.05em}
+.study-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.study-grid article{padding:17px;background:#fff;border:1px solid var(--line);border-radius:14px;box-shadow:0 6px 18px rgba(7,63,66,.05);min-width:0}
+.study-grid p{margin:0}
+.practice-en{margin-top:9px;color:var(--teal-700);font-weight:650;overflow-wrap:anywhere}
+.wrong{color:#a24831;text-decoration:line-through;overflow-wrap:anywhere}
+.right{color:var(--teal-700);font-weight:750;margin:5px 0;overflow-wrap:anywhere}
+.pitfalls p{color:var(--muted);font-size:.82rem}
+.shifts article{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1.5fr);gap:12px;align-items:center}
+.shifts b{color:var(--teal-600);font-size:1.2rem}
+.shifts strong{color:var(--teal-800)}
+footer{margin-top:38px;color:var(--muted);font-size:.78rem;text-align:center}
+.footer-note{margin-top:6px}
+@media (max-width:900px){
+  .page{grid-template-columns:1fr}
+  .sidebar{position:static}
+  .sidebar-box{overflow-x:auto;padding:12px}
+  .sidebar h2{padding-left:5px}
+  .map-nav{display:flex;width:max-content;gap:8px}
+  .map-link{width:240px;border:1px solid var(--line);border-radius:10px;padding:8px}
+  .bilingual{grid-template-columns:1fr}
+  .en-block{padding:12px 0 0;border-left:0;border-top:1px dashed var(--line)}
+}
+@media (max-width:620px){
+  .hero-inner{padding-top:30px}
+  .hero-flex{flex-direction:column;align-items:center}
+  .hero-cover{width:100%;max-width:360px}
+  .hero-text{text-align:center}
+  .page{padding-inline:10px;gap:18px}
+  .scene-card{border-radius:14px;padding:17px 13px}
+  .scene-topline{align-items:flex-start}
+  .scene-speak span:last-child{display:none}
+  .sentence{grid-template-columns:26px minmax(0,1fr);padding:13px 10px;gap:6px}
+  .note{grid-column:2}
+  .study-grid{grid-template-columns:1fr}
+  .shifts article{grid-template-columns:1fr;gap:5px}
+  .shifts b{transform:rotate(90deg);justify-self:start}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.speak-btn{transition:none}}</style>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="hero-flex">
+        <div class="hero-text">
+          <p class="eyebrow">Travel &amp; Life · 旅行与生活</p>
+          <h1>环球旅行两年，我绝不是这个世界的NPC | VOL.233</h1>
+          <p class="hero-en">Two Years Around the World — and I'm Definitely Not an NPC | VOL.233</p>
+          <p class="summary-en" style="margin:0 0 14px;padding:14px 16px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.22);border-radius:12px;font-size:.95rem;line-height:1.7">Daxi quit her job and traveled to 28 countries over two years, starting from the lowest threshold — places with no visa needed. She evolved from a check-in tourist into a 'walking anthropologist': no guidebooks, no review apps, no social accounts. In cemeteries, on the Nile, at a funeral in Peru, and in front of New York's night skyline, she confirmed that she is not an NPC of this world, but a living person who can actively choose her own track.</p>
+          <div class="hero-meta">
+            <span class="chip">2026-06-23</span>
+            <span class="chip">小宇宙FM</span>
+            <span class="chip">1小时41分</span>
+            <span class="chip">7 Scenes</span>
+            <span class="chip">Click underlined words to hear them</span>
+            <a class="source-link" href="https://www.xiaoyuzhoufm.com/episode/6a2564a77444b5722234d642" target="_blank" rel="noopener">原播客 ↗</a>
+          </div>
+        </div>
+      </div>
+      <div class="toolbar">
+        <div class="lang-switch"><div class="lang-switch"><a href="huanqiu_lvxing_npc-总结.html">中文</a><a class="active" href="huanqiu_lvxing_npc-en.html" aria-current="page">EN</a></div></div>
+        <label for="speech-rate">朗读速度</label>
+        <select id="speech-rate">
+          <option value="0.85">慢速 0.85×</option>
+          <option value="1" selected>正常 1×</option>
+          <option value="1.15">快速 1.15×</option>
+        </select>
+        <button id="stop-speech" class="stop-btn" type="button">■ 停止朗读</button>
+        <span id="speech-status" class="speech-status" role="status" aria-live="polite"></span>
+      </div>
+      <div class="narration-player">
+      <p class="audio-label">🎧 中文语音讲解</p>
+      <button class="speak-btn" type="button" data-audio="audio/huanqiu_lvxing_npc.mp3" aria-label="播放语音讲解"><span aria-hidden="true">▶</span><span>播放语音讲解</span></button>
+    </div>
+    </div>
+  </header>
+  <main class="page">
+    <aside class="sidebar" aria-label="场景地图">
+      <div class="sidebar-box">
+        <h2>场景地图 · SCENE MAP</h2>
+        <nav class="map-nav">
+          <a class="map-link" href="#s1">
+          <span class="map-id">S1</span>
+          <span><b>一、出发：最低门槛启动法</b><small> · Part 1: Departure — the Lowest-Threshold Starting Method</small></span>
+        </a>
+<a class="map-link" href="#s2">
+          <span class="map-id">S2</span>
+          <span><b>二、旅行方法论：行走的人类学家</b><small> · Part 2: A Travel Method — the Walking Anthropologist</small></span>
+        </a>
+<a class="map-link" href="#s3">
+          <span class="map-id">S3</span>
+          <span><b>三、高光时刻：随机邂逅的力量</b><small> · Part 3: Highlight Moments — the Power of Random Encounters</small></span>
+        </a>
+<a class="map-link" href="#s4">
+          <span class="map-id">S4</span>
+          <span><b>四、背包客文化与「活人」身份</b><small> · Part 4: Backpacker Culture and the Identity of Being a 'Living Person'</small></span>
+        </a>
+<a class="map-link" href="#s5">
+          <span class="map-id">S5</span>
+          <span><b>五、旅途中的人物与自我反观</b><small> · Part 5: People on the Road and Looking Back at Yourself</small></span>
+        </a>
+<a class="map-link" href="#s6">
+          <span class="map-id">S6</span>
+          <span><b>六、父母、社会时钟与轨道选择</b><small> · Part 6: Parents, the Social Clock, and Choosing Your Track</small></span>
+        </a>
+<a class="map-link" href="#s7">
+          <span class="map-id">S7</span>
+          <span><b>七、两年后：从体验到创造</b><small> · Part 7: Two Years Later — From Experiencing to Creating</small></span>
+        </a>
+        </nav>
+      </div>
+    </aside>
+    <div class="content">
+      <section class="scene-card" id="s1" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S1</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/huanqiu_lvxing_npc/s1.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>一、出发：最低门槛启动法</h2>
+      <p class="scene-title-en">Part 1: Departure — the Lowest-Threshold Starting Method</p>
+      <p class="context"><b>情境</b>讲从免签国家开始、不贴标签先行动的出发哲学。语域：casual 旅行经验分享。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：像跑步一样选最容易启动的事——搜社交网站找免签国家路线（东欧、泰国等），不被签证、装备、攻略吓住</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/huanqiu_lvxing_npc/s1-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The core mechanism: like running, pick the easiest thing to start — search social sites for visa-free routes (Eastern Europe, Thailand), and don't be scared off by visas, gear, or guidebooks.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>visa-free → 免签；be scared off by → 被…吓住；gear → 装备；guidebook → 攻略</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：第一趟并非「环球旅行」，只是离职后想出国看看；第一次走了七八国两三个月后，才确认自己适合背包客生活</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/huanqiu_lvxing_npc/s1-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key insight: the first trip wasn't 'a round-the-world tour' at all — she just wanted to see other countries after quitting; only after visiting seven or eight countries over two or three months did she confirm that backpacker life suited her.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>round-the-world tour → 环球旅行；quit → 离职；backpacker → 背包客；suited her → 适合她</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>典型场景：有旅行念头但总觉得准备不足、计划太大而难以启动时</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/huanqiu_lvxing_npc/s1-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">A typical scene: you have the travel itch but always feel underprepared, and the plan feels too big to start.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>travel itch → 旅行念头；underprepared → 准备不足；too big to start → 难以启动</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据：「我一开始没打着环球旅行这个标签出去，只是想出去玩一下……慢慢的才成为了完成了环球旅行的人。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/huanqiu_lvxing_npc/s1-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">In the author's own words: 'I didn't set out with the round-the-world label — I just wanted to go out and play… and slowly I became the person who completed a world trip.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>set out with a label → 打着标签出发；go out and play → 出去玩一下；complete a world trip → 完成环球旅行</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）相关概念：与「攒够钱再出发」「做完美攻略再出门」形成对比——行动先于标签</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/huanqiu_lvxing_npc/s1-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">A related idea: this contrasts with 'save enough money first' and 'make a perfect guidebook first' — action comes before labels.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>action before labels → 行动先于标签；contrast with → 与…对比</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>很多人把「环球旅行」想成复杂大事而迟迟不动；大喜因为「暂时没工作了，出去玩一下」，从不要签证的地方开始，反而走通了</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/huanqiu_lvxing_npc/s1-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Many people imagine a round-the-world trip as something complicated and grand, so they keep delaying; Daxi, because she was 'temporarily without a job and just wanted to go out,' started from places with no visa requirements and actually made it through.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>delay → 迟迟不动；temporarily without a job → 暂时没工作；make it through → 走通了</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「行动先于标签」</p><div class="chunks">act first, label later · the label came after</div><small>第一句直接给方法论；第二句回顾式表达</small></li>
+<li><p>想说「从最低门槛开始」</p><div class="chunks">lowest threshold · easiest first step</div><small>第一句是节目核心概念，正式表达</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s2" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S2</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/huanqiu_lvxing_npc/s2.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>二、旅行方法论：行走的人类学家</h2>
+      <p class="scene-title-en">Part 2: A Travel Method — the Walking Anthropologist</p>
+      <p class="context"><b>情境</b>分享不看攻略、街头观察选餐厅的旅行方法论。语域：casual 经验分享。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：到当地不看攻略，在旅游区与居民区大街小巷随意走，看到好奇的就去看看，让目的地给惊喜</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/huanqiu_lvxing_npc/s2-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The core mechanism: once on the ground, she reads no guidebooks and wanders the streets of tourist zones and residential areas, checking out whatever looks interesting and letting the destination surprise her.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>on the ground → 到当地；residential area → 居民区；wander the streets → 随意走；let it surprise you → 让目的地给惊喜</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：从最初跟搭子打卡热门景点，进化到「自然发生」式旅行；事后才总结为「行走的人类学观察」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/huanqiu_lvxing_npc/s2-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key insight: she evolved from ticking off popular spots with travel companions to 'naturally occurring' travel; only later did she sum it up as 'walking anthropological observation.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>tick off spots → 打卡景点；naturally occurring → 自然发生；anthropological observation → 人类学观察</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>适用边界：适合时间充裕、心态松弛的慢旅行；短期出差式五天游仍可能需要攻略保障</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/huanqiu_lvxing_npc/s2-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The boundary: it fits slow travel with plenty of time and a relaxed mindset; a five-day business-style trip may still need a guidebook for safety.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>slow travel → 慢旅行；relaxed mindset → 心态松弛；business-style trip → 出差式行程</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据：「我会喜欢到当地之后就是不看任何攻略……走到哪儿算哪儿，看到什么觉得好奇然后就去看看。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/huanqiu_lvxing_npc/s2-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">In the author's own words: 'When I arrive, I like to read no guidebooks… walk wherever the road takes me, and if I see something curious, go check it out.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>wherever the road takes me → 走到哪儿算哪儿；curious → 好奇的；check it out → 去看看</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：不走点评软件，观察街边餐厅——非游客区、有当地老人/带娃家庭/下班上班族在吃，则便宜地道</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/huanqiu_lvxing_npc/s2-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The core mechanism: she skips review apps and observes street restaurants — if a place outside the tourist zone has local elderly people, families with kids, or off-duty workers eating there, it's cheap and authentic.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>review apps → 点评软件；off-duty workers → 下班的上班族；tourist zone → 游客区；cheap and authentic → 便宜地道</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：穷游背包客预算有限，失败了一餐明天再找；不拍照不发朋友圈，只为体验本身</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/huanqiu_lvxing_npc/s2-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key insight: a budget backpacker has limited funds — if a meal fails, find another tomorrow; no photos, no posts, just the experience itself.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>budget backpacker → 穷游背包客；limited funds → 预算有限；no photos, no posts → 不拍照不发朋友圈</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「走到哪儿算哪儿」</p><div class="chunks">wherever the road takes me · the street decides</div><small>第一句还原原文；第二句更口语洒脱</small></li>
+<li><p>想说「看当地人吃什么就吃对一半」</p><div class="chunks">locals eat there · follow the local crowd</div><small>第二句更行动导向，适合给建议</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s3" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S3</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/huanqiu_lvxing_npc/s3.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>三、高光时刻：随机邂逅的力量</h2>
+      <p class="scene-title-en">Part 3: Highlight Moments — the Power of Random Encounters</p>
+      <p class="context"><b>情境</b>分享海景墓地、尼罗河木船、曼哈顿夜景三个高光时刻。语域：casual 旅行故事叙述。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>Pontarenas海景墓地，白发老人穿红棉袄捧红玫瑰来祭拜2022年9月11日去世的Rachel——恰好是拜访三周年。墓碑前散落不同枯萎程度的红玫瑰，暗示他常来</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/huanqiu_lvxing_npc/s3-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">At the Pontarenas seaside cemetery, a white-haired old man in a red padded jacket brought red roses to visit Rachel, who passed away on September 11, 2022 — exactly the third anniversary of the visit. The scattered red roses at different stages of wilting hinted that he came often.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>seaside cemetery → 海景墓地；padded jacket → 棉袄；anniversary → 周年；wilting → 枯萎；hinted that → 暗示</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）「是一个非常非常动人的一个爱情故事……这个是我在来之前没有预料到的。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/huanqiu_lvxing_npc/s3-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">A quote: 'It's an extremely, extremely moving love story… something I didn't expect before coming here.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>moving → 动人的；didn't expect → 没有预料到；love story → 爱情故事</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>在讲什么：木船上一群来自美、法、马、埃、中的背包客，手机放歌即起舞，女生坐船舷看夕阳下牵驴的埃及人——油画般的跨文化共振</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/huanqiu_lvxing_npc/s3-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">What happened: on a wooden boat, backpackers from the US, France, Malaysia, Egypt, and China broke into dance the moment a phone played music, while a girl sat on the rail watching an Egyptian leading a donkey through the sunset — an oil-painting-like cross-cultural resonance.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>break into dance → 即兴起舞；cross-cultural resonance → 跨文化共振；oil-painting-like → 油画般的；the rail → 船舷</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：快乐不来自豪华船或名乐队，而是音乐与舞蹈突破语言的最底层愉悦</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/huanqiu_lvxing_npc/s3-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key insight: the joy didn't come from a luxury boat or a famous band, but from music and dance breaking through language to the most basic pleasure.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>break through language → 突破语言；the most basic pleasure → 最底层的愉悦</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据：「一群来自世界不同国家的人聚在同一个地方享受当下……就是一个手机放出来的歌，但那一刻就是激发了大家。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/huanqiu_lvxing_npc/s3-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">In the author's own words: 'People from different countries gathered in one place enjoying the present… it was just a song from a phone, but in that moment it ignited everyone.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>enjoy the present → 享受当下；ignite everyone → 激发大家；just a song → 只是一个手机放出来的歌</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>看了二十多年美剧后，普通背包客签证入境、隔着脏玻璃看曼哈顿夜景——不是华尔街之狼，而是「我不懂我就来玩玩」的震撼</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/huanqiu_lvxing_npc/s3-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">After watching American TV shows for over 20 years, she entered on an ordinary backpacker visa and saw the Manhattan skyline through a dirty glass window — not 'Wolf of Wall Street,' but the shock of 'I don't understand it, I'm just here to play.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>backpacker visa → 背包客签证；skyline → 天际线；I'm here to play → 我来玩玩；shock → 震撼</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「手机放歌就点燃了所有人」</p><div class="chunks">light up the boat · the music did the work</div><small>第一句还原现场；第二句点出「无需舞台」的领悟</small></li>
+<li><p>想说「快乐来自最底层的共鸣」</p><div class="chunks">basic shared pleasure · no translation needed</div><small>第二句更简洁，适合总结</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s4" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S4</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/huanqiu_lvxing_npc/s4.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>四、背包客文化与「活人」身份</h2>
+      <p class="scene-title-en">Part 4: Backpacker Culture and the Identity of Being a 'Living Person'</p>
+      <p class="context"><b>情境</b>聊旅舍的衣服交换文化、捡垃圾室友、以及被评价「不是NPC」的瞬间。语域：casual 旅行故事。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>旅客留下不要的衣服供后来者免费拿或交换；大喜用夏天T恤换冬天毛衣。二手市集捡家具、与室友捡垃圾——德国室友笑称刷新了亚洲女生认知</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/huanqiu_lvxing_npc/s4-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Travelers leave clothes they no longer need for later visitors to take or swap freely; Daxi traded a summer T-shirt for a winter sweater. At secondhand markets she picked up furniture and went dumpster-diving with her roommate — her German roommate joked that it refreshed his image of Asian girls.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>swap freely → 免费交换；secondhand market → 二手市集；dumpster-diving → 捡垃圾；refresh one's image → 刷新认知</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据：「我觉得你一定不是一个NPC……对，我就不是一个NPC，我还挺特别的。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/huanqiu_lvxing_npc/s4-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">A quote: 'I'm pretty sure you're definitely not an NPC… that's right, I'm not an NPC, and I'm actually pretty special.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>definitely not → 一定不是；pretty special → 还挺特别的；NPC → 游戏里的非玩家角色</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>泰国独行，阿塞拜疆出境被边检警告「小心」后沮丧，下机发现同旅舍中国背包客瞬间安全感回归；法国兄妹、阿根廷小伙、芬兰人等成为难忘旅伴</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/huanqiu_lvxing_npc/s4-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Solo in Thailand, and dejected after a border guard's 'be careful' warning when leaving Azerbaijan, she felt her sense of safety return the moment she landed and found the Chinese backpacker at the same hostel; French siblings, an Argentine guy, and a Finnish woman became unforgettable companions.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>dejected → 沮丧；border guard → 边检；sense of safety → 安全感；unforgettable companions → 难忘旅伴</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：异国他乡更容易「捡」到志同道合的人，但核心是先敢于一个人出发</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/huanqiu_lvxing_npc/s4-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key insight: abroad, it's easier to 'pick up' like-minded people — but the prerequisite is daring to set off alone first.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>like-minded people → 志同道合的人；pick up → 捡到；set off alone → 一个人出发；prerequisite → 前提</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「我不是NPC，我是活人」</p><div class="chunks">not an NPC · scripting myself</div><small>第一句直接点题；第二句展开「自主选择」的含义</small></li>
+<li><p>想说「先敢一个人出发」</p><div class="chunks">daring to go alone · start solo first</div><small>两句都说「独行在先」，第一句更自然</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s5" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S5</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/huanqiu_lvxing_npc/s5.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>五、旅途中的人物与自我反观</h2>
+      <p class="scene-title-en">Part 5: People on the Road and Looking Back at Yourself</p>
+      <p class="context"><b>情境</b>聊被外国人问起本国文化时的一无所知，以及旅行后的知识补课。语域：casual 反思。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>原因：出发时觉得「外面都是好的」，被外国人问起中医、道教、历史时发现自己一无所知</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/huanqiu_lvxing_npc/s5-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The reason: she set out feeling 'everything outside is good,' then discovered she knew nothing when foreigners asked about traditional Chinese medicine, Taoism, or history.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>everything outside is good → 外面都是好的；traditional Chinese medicine → 中医；Taoism → 道教</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>解法：旅行后主动回补本国文化知识；用中文名字介绍自己</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/huanqiu_lvxing_npc/s5-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The solution: after traveling, she actively made up for her own culture's knowledge; she introduces herself with her Chinese name.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>make up for → 补回；Chinese name → 中文名字；introduce oneself → 自我介绍</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）嘉宾说法：「我们好像是要去汲取的，但在他们眼中我们是东方神秘国度的延伸……我们发现我们提供不了什么东西，会很遗憾、心虚。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/huanqiu_lvxing_npc/s5-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">As a guest puts it: 'We thought we were there to absorb, but in their eyes we were an extension of the mysterious East… we found we could offer nothing, and that felt regrettable and hollow.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>absorb → 汲取；extension of the mysterious East → 东方神秘国度的延伸；hollow → 心虚</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「我们提供不了什么，很心虚」</p><div class="chunks">nothing to give back · a blank</div><small>第一句情绪准确；第二句更形象</small></li>
+<li><p>想说「旅行后补本国文化课」</p><div class="chunks">study your own culture · the more you see, the more you study</div><small>第二句像格言，适合收尾</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s6" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S6</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/huanqiu_lvxing_npc/s6.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>六、父母、社会时钟与轨道选择</h2>
+      <p class="scene-title-en">Part 6: Parents, the Social Clock, and Choosing Your Track</p>
+      <p class="context"><b>情境</b>讨论父母是否干涉取决于孩子过得如何，以及用可验证的行动说服父母。语域：casual 家庭关系讨论。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>肥杰归纳：父母是否干涉，取决于他们是否感受到你比他们有能力和过得好。大喜带父亲游上海、住好酒店，父亲从「太贵了」到认可女儿能力；甚至以村为轴心骑电动车周边游</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/huanqiu_lvxing_npc/s6-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Feijie's summary: whether parents interfere depends on whether they feel you are more capable and living better than they are. Daxi took her father around Shanghai and stayed in good hotels; he went from 'too expensive' to acknowledging his daughter's ability — she even rode an electric scooter around their home village with him.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>interfere → 干涉；acknowledge one's ability → 认可能力；electric scooter → 电动车；home village → 村里</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）「父母究竟以什么样的证据来证明我的孩子真的过上了幸福的生活？前提就是他到底是不是切实的幸福。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/huanqiu_lvxing_npc/s6-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">A quote: 'What evidence do parents use to prove that their child is truly living a happy life? The premise is whether it is genuine happiness.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>evidence → 证据；genuine happiness → 切实的幸福；the premise → 前提</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：父母被社会时钟捆绑更深，投射结婚、买房、升职期待；大喜父母经济有限，只盼「有持续收入、自己自足」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/huanqiu_lvxing_npc/s6-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The core mechanism: parents are more tightly bound to the social clock and project expectations of marriage, buying a house, and promotion; Daxi's parents, with limited means, only hoped she'd 'have a steady income and be self-sufficient.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>social clock → 社会时钟；project expectations → 投射期待；steady income → 持续收入；self-sufficient → 自己自足</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：用地球仪给父亲「洗脑」——活几十年，结婚生子是给谁完成任务？旅行后父亲语言上接受：结婚生子是一种生活方式，环球旅行也是</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/huanqiu_lvxing_npc/s6-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key insight: she used a globe to 'brainwash' her father — you live a few decades; is marriage and parenthood completing a task for someone? After the trips, her father verbally accepted: marriage and kids are one lifestyle, world travel is another.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>brainwash → 洗脑；verbally accept → 语言上接受；lifestyle → 生活方式；complete a task → 完成任务</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）怎么落地：用可验证的行动（收入、带父母体验）替代争吵，比讲道理更有效</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/huanqiu_lvxing_npc/s6-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">How to apply it: replace arguments with verifiable actions — income, treating your parents to experiences — which works far better than lecturing.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>verifiable actions → 可验证的行动；treat sb to → 请某人体验；lecture → 讲道理；replace A with B → 用B替代A</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>为什么重要：以前觉得只有离开村子去中心才活得了；现在主动选择回来，家乡的人与景都值得人类学式好奇</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/huanqiu_lvxing_npc/s6-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Why it matters: she used to think she could only live by leaving the village for the center; now she actively chooses to come back, and the people and scenery of home deserve the same anthropological curiosity.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>choose to come back → 主动选择回来；anthropological curiosity → 人类学式好奇；scenery of home → 家乡的景</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「父母是否干涉取决于你过得好不好」</p><div class="chunks">back off once you thrive · worry shrinks</div><small>第一句凝练；第二句更口语化解释机制</small></li>
+<li><p>想说「用行动替代争吵」</p><div class="chunks">actions not arguments · a treat says more</div><small>第二句带幽默，适合口语场景</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s7" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S7</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/huanqiu_lvxing_npc/s7.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>七、两年后：从体验到创造</h2>
+      <p class="scene-title-en">Part 7: Two Years Later — From Experiencing to Creating</p>
+      <p class="context"><b>情境</b>收尾：从旅行体验转向持续投入创造，日常也变得珍贵。语域：casual 播客收尾感悟。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>最初答案一定是继续旅行；现在想在某领域持续投入、创造、产出——可能是回原行业、Vintage生意或新兴趣。发现自己最开心的是「完成一个有自己想法的东西」，哪怕只是一段文字</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/huanqiu_lvxing_npc/s7-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The initial answer was always to keep traveling; now she wants to invest, create, and produce in a field — maybe returning to her old industry, the vintage business, or a new interest. She discovered she's happiest when 'finishing something that carries her own idea,' even if it's just a piece of writing.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>invest in a field → 在某领域持续投入；vintage business → 古着生意；carries her own idea → 有自己想法；produce → 产出</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据：「我真的是一个特别容易放弃的人……但我觉得我需要去练习这个东西，它是我的挑战，我就想要完成它。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/huanqiu_lvxing_npc/s7-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">In the author's own words: 'I'm actually someone who gives up very easily… but I think I need to practice this — it's my challenge, and I want to finish it.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>give up easily → 容易放弃；practice this → 练习这个东西；my challenge → 我的挑战</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）与NPC心态对比：NPC按脚本走；活人经历足够多后，主动选择深耕或回归</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/huanqiu_lvxing_npc/s7-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The contrast with the NPC mindset: NPCs follow the script; living people, after enough experience, actively choose to go deep or to return.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>follow the script → 按脚本走；go deep → 深耕；choose deliberately → 主动选择</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>旅行前觉得日常无聊；回来后日常变珍贵。费杰总结：体验多了才能把选项变成自己的，认真做选择——哪怕十年后选择回村子陪父亲也好</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/huanqiu_lvxing_npc/s7-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Before traveling she found daily life boring; after returning, the ordinary became precious. Feijie's summary: only through experience can you turn options into your own and choose deliberately — even if ten years later you choose to return to the village to keep your father company.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>turn options into your own → 把选项变成自己的；keep sb company → 陪伴某人；the ordinary became precious → 日常变珍贵</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）「同一杯水，今天的我喝了，和环球旅行后回来的我喝了，味道是不一样的。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/huanqiu_lvxing_npc/s7-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">A quote: 'The same glass of water — drunk by me today, and drunk by me after I came back from the world trip — tastes different.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>the same glass of water → 同一杯水；tastes different → 味道不一样；come back from → 从…回来</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「从体验到创造」</p><div class="chunks">experiencing to creating · making things</div><small>第一句是本期标题级金句，收尾必用</small></li>
+<li><p>想说「同一杯水味道不同了」</p><div class="chunks">tastes different · the drinker changed</div><small>第二句点破「人变了」的机制，适合讨论</small></li>
+        </ol>
+      </details>
+    </section>
+      <section class="study-section" id="practice">
+      <h2 class="section-heading">今日可练 <small>PRACTICE TODAY</small></h2>
+      <div class="study-grid">
+        <article>
+          <p>用「lowest threshold」说：从最低门槛开始。</p>
+          <div class="practice-en">
+            Start at the lowest threshold — visa-free countries, no fancy gear.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/huanqiu_lvxing_npc/practice-0.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「action before labels」说：行动先于标签。</p>
+          <div class="practice-en">
+            It's action before labels — she was traveling long before she called it a world tour.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/huanqiu_lvxing_npc/practice-1.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「not an NPC」说：我不是NPC。</p>
+          <div class="practice-en">
+            I'm not an NPC — I choose my own track.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/huanqiu_lvxing_npc/practice-2.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「actions not arguments」说：用行动替代争吵。</p>
+          <div class="practice-en">
+            Convince your parents with actions, not arguments.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/huanqiu_lvxing_npc/practice-3.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article>
+      </div>
+    </section>
+      <section class="study-section pitfalls" id="pitfalls">
+      <h2 class="section-heading">避坑 <small>PITFALLS</small></h2>
+      <div class="study-grid">
+        <article>
+          <div class="wrong">✕ She traveled all over the world and became very good.</div>
+          <div class="right">✓ She evolved from a check-in tourist into a walking anthropologist.</div>
+          <p>very good 太空泛；用 evolved from A into B 展现成长路径，加上具体身份才有信息量。</p>
+        </article><article>
+          <div class="wrong">✕ I want to travel to the whole world.</div>
+          <div class="right">✓ I want to do a round-the-world trip — starting with visa-free places.</div>
+          <p>travel to the whole world 是中式表达；round-the-world trip 是地道说法。</p>
+        </article><article>
+          <div class="wrong">✕ She doesn't look at strategy apps when eating.</div>
+          <div class="right">✓ She skips review apps and reads street restaurants instead.</div>
+          <p>strategy app 是「攻略App」直译；餐饮点评用 review apps；观察用 read the street。</p>
+        </article><article>
+          <div class="wrong">✕ After traveling, the daily life becomes very valuable.</div>
+          <div class="right">✓ After returning, the ordinary became precious.</div>
+          <p>very valuable 平铺；the ordinary became precious 用「平凡变得珍贵」的对比更有余味。</p>
+        </article>
+      </div>
+    </section>
+      <section class="study-section shifts" id="mindset">
+      <h2 class="section-heading">认知转变 <small>MINDSET SHIFTS</small></h2>
+      <div class="study-grid">
+        <article>
+          <span>以为环球旅行需要攒够钱、做完美攻略才能出发</span>
+          <b aria-hidden="true">→</b>
+          <strong>从免签低门槛开始，行动先于标签，走通了再贴标签</strong>
+        </article><article>
+          <span>以为旅行就是打卡景点、拍好看照片发朋友圈</span>
+          <b aria-hidden="true">→</b>
+          <strong>不刷点评不拍照，走街串巷让目的地给惊喜，做行走的人类学家</strong>
+        </article><article>
+          <span>以为只有离开村子去中心才活得下去</span>
+          <b aria-hidden="true">→</b>
+          <strong>体验足够多之后主动选择回来，家乡的人与景同样值得好奇</strong>
+        </article>
+      </div>
+    </section>
+      <footer>
+        双语学习版 · 场景/句子朗读使用 edge-tts（en-US） · 单词发音使用浏览器 Web Speech API
+        <div class="footer-note">中文版：<a href="huanqiu_lvxing_npc-总结.html">huanqiu_lvxing_npc-总结.html</a> · SVG 版：<a href="viewer.html?f=huanqiu_lvxing_npc-总结.svg" target="_blank">huanqiu_lvxing_npc-总结.svg</a></div>
+      </footer>
+    </div>
+  </main>
+  <script>(() => {
+  let activeAudio = null;
+  let activeBtn = null;
+  const status = document.getElementById('speech-status');
+  const stopBtn = document.getElementById('stop-speech');
+  const rateSel = document.getElementById('speech-rate');
+
+  const reset = () => {
+    if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+    activeBtn?.classList.remove('playing');
+    activeBtn = null;
+    stopBtn.classList.remove('visible');
+    status.textContent = '';
+  };
+
+  const playAudio = (url, btn) => {
+    reset();
+    const audio = new Audio(url);
+    audio.playbackRate = Number(rateSel.value);
+    activeAudio = audio;
+    activeBtn = btn;
+    btn.classList.add('playing');
+    stopBtn.classList.add('visible');
+    status.textContent = btn.classList.contains('scene-speak')
+      ? 'Reading the whole scene…'
+      : 'Reading…';
+
+    audio.onended = () => { if (activeAudio === audio) reset(); };
+    audio.onerror = () => { status.textContent = 'Audio failed to load.'; if (activeAudio === audio) reset(); };
+    audio.play().catch(() => { status.textContent = 'Playback failed.'; if (activeAudio === audio) reset(); });
+  };
+
+  document.addEventListener('click', e => {
+    const btn = e.target.closest('[data-audio]');
+    if (!btn) return;
+    e.preventDefault();
+    if (btn === activeBtn && activeAudio) { reset(); return; }
+    playAudio(btn.dataset.audio, btn);
+  });
+
+  stopBtn.addEventListener('click', reset);
+
+  const synth = window.speechSynthesis;
+  const getEnglishVoice = () => {
+    const voices = synth.getVoices();
+    return voices.find(v => /^en-(US|GB)/i.test(v.lang))
+        || voices.find(v => /^en/i.test(v.lang)) || null;
+  };
+
+  const difficultWords = new Set([
+    'assortment', 'SKU', 'premium', 'margin', 'middleman', 'OEM', 'rebranding',
+    'hoarding', 'PTSD', 'curation', 'repurchase', 'touchpoint', 'backlash',
+    'reshuffle', 'funnel', 'anchor', 'contract', 'psychology', 'private', 'label',
+    'editorial', 'familiar', 'competitors', 'authorization', 'flexibility'
+  ]);
+
+  const shouldPronounce = word => {
+    const n = word.toLowerCase().replace(/^[^a-z]+|[^a-z]+$/g, '');
+    return n.replace(/[^a-z]/g, '').length >= 8 || difficultWords.has(n);
+  };
+
+  const markPronounceableWords = root => {
+    const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+    const nodes = [];
+    while (walker.nextNode()) nodes.push(walker.currentNode);
+    nodes.forEach(node => {
+      if (node.parentElement?.closest('button, script, style')) return;
+      const text = node.nodeValue;
+      let m, last = 0, changed = false;
+      const frag = document.createDocumentFragment();
+      const re = /[A-Za-z]+(?:[-'’][A-Za-z]+)*/g;
+      while ((m = re.exec(text))) {
+        if (!shouldPronounce(m[0])) continue;
+        changed = true;
+        frag.append(text.slice(last, m.index));
+        const wb = document.createElement('button');
+        wb.type = 'button'; wb.className = 'pronounce-word';
+        wb.dataset.speak = m[0];
+        wb.setAttribute('aria-label', '\u8bfb\u5355\u8bcd ' + m[0]);
+        wb.title = '\u70b9\u51fb\u542c\u53d1\u97f3';
+        wb.textContent = m[0];
+        frag.append(wb);
+        last = m.index + m[0].length;
+      }
+      if (!changed) return;
+      frag.append(text.slice(last));
+      node.replaceWith(frag);
+    });
+  };
+
+  document.querySelectorAll(
+    '.english, .scene-title-en, .paraphrase li p, .chunks, .practice-en, .wrong, .right, .summary-en'
+  ).forEach(markPronounceableWords);
+
+  document.addEventListener('click', e => {
+    const wb = e.target.closest('.pronounce-word');
+    if (!wb) return;
+    e.preventDefault();
+    if (!synth) return;
+    synth.cancel();
+    if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+    activeBtn?.classList.remove('playing');
+    activeBtn = wb;
+    wb.classList.add('playing');
+    const u = new SpeechSynthesisUtterance(wb.dataset.speak);
+    u.lang = 'en-US';
+    u.rate = 0.88;
+    const v = getEnglishVoice();
+    if (v) u.voice = v;
+    u.onend = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+    u.onerror = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+    synth.speak(u);
+  });
+})();</script>
+</body>
+</html>

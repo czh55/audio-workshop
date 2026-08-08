@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="日本人的便利店，就像童年的小卖部｜Vol.10 - 范来张口FM — Bilingual Learning Edition" />
+  <title>日本人的便利店，就像童年的小卖部｜Vol.10 - 范来张口FM｜EN 双语学习版</title>
+  <style>:root{--teal-950:#073f42;--teal-800:#0d686c;--teal-700:#0f7c80;--teal-600:#14919b;--mint-100:#dff4ec;--mint-50:#f0faf6;--ink:#183536;--muted:#607879;--line:#d7e8e2;--paper:#fff;--amber:#a85d08;--shadow:0 12px 32px rgba(7,63,66,.08)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:24px}
+body{margin:0;color:var(--ink);background:#edf7f2;font-family:Inter,"PingFang SC","Noto Sans SC","Microsoft YaHei",system-ui,sans-serif;line-height:1.65}
+button,select{font:inherit}
+a{color:inherit}
+.hero{color:#fff;background:radial-gradient(circle at 85% 10%,rgba(129,230,196,.24),transparent 30%),linear-gradient(125deg,#073f42,#0d7377 56%,#14919b)}
+.hero-inner{width:min(1440px,100%);margin:auto;padding:44px clamp(20px,5vw,72px) 36px}
+.hero-flex{display:flex;gap:clamp(18px,3vw,40px);align-items:flex-start}
+.hero-cover{width:min(240px,42vw);height:auto;max-height:320px;object-fit:contain;object-position:center;border-radius:16px;border:1px solid rgba(255,255,255,.28);box-shadow:0 18px 44px rgba(0,0,0,.32);flex-shrink:0;background:rgba(255,255,255,.08)}
+.hero-text{min-width:0;flex:1}
+.eyebrow{margin:0 0 12px;font-size:.78rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;opacity:.8}
+h1{max-width:1020px;margin:0;font-size:clamp(1.7rem,3.6vw,3rem);line-height:1.15;letter-spacing:-.04em}
+.hero-en{margin:12px 0 22px;font-size:clamp(1rem,2vw,1.25rem);opacity:.82}
+.hero-meta{display:flex;flex-wrap:wrap;gap:9px;align-items:center}
+.chip{border:1px solid rgba(255,255,255,.28);border-radius:99px;padding:5px 11px;font-size:.82rem;background:rgba(255,255,255,.08)}
+.source-link{font-weight:750;text-decoration:none;border-bottom:1px solid rgba(255,255,255,.5)}
+.toolbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:22px}
+.toolbar label{font-size:.82rem;opacity:.82}
+.toolbar select{color:#fff;background:#0a5d61;border:1px solid rgba(255,255,255,.3);border-radius:8px;padding:7px 9px}
+.stop-btn{display:none;color:#fff;background:#8c3b2a;border:0;border-radius:8px;padding:8px 12px;cursor:pointer}
+.stop-btn.visible{display:inline-flex}
+.speech-status{min-height:1.4em;font-size:.82rem;opacity:.88}
+.lang-switch{display:inline-flex;gap:6px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.28);border-radius:99px;padding:4px}
+.lang-switch a{display:inline-block;padding:4px 13px;border-radius:99px;font-size:.8rem;font-weight:700;text-decoration:none;color:rgba(255,255,255,.75)}
+.lang-switch a.active{background:#fff;color:var(--teal-800)}
+.narration-player{margin-top:16px;padding:14px 18px;background:rgba(255,255,255,.1);border-radius:12px;border:1px solid rgba(255,255,255,.15)}
+.audio-label{color:rgba(255,255,255,.88);font-size:.82rem;font-weight:700;margin:0 0 8px}
+.page{width:min(1440px,100%);margin:auto;padding:28px clamp(16px,3vw,44px) 64px;display:grid;grid-template-columns:minmax(230px,280px) minmax(0,1fr);gap:30px;align-items:start}
+.sidebar{position:sticky;top:20px;min-width:0}
+.sidebar-box{background:rgba(255,255,255,.8);border:1px solid var(--line);border-radius:16px;padding:17px;box-shadow:var(--shadow);backdrop-filter:blur(12px)}
+.sidebar h2{margin:0 0 13px;font-size:.9rem;letter-spacing:.08em;color:var(--teal-800)}
+.map-link{display:grid;grid-template-columns:34px minmax(0,1fr);gap:9px;padding:10px 6px;text-decoration:none;border-top:1px solid var(--line)}
+.map-link:hover b{color:var(--teal-700)}
+.map-id{width:30px;height:30px;display:grid;place-items:center;border-radius:9px;color:#fff;background:var(--teal-700);font-size:.72rem;font-weight:800}
+.map-link b{display:block;font-size:.78rem;line-height:1.4}
+.map-link small{display:block;color:var(--muted);font-size:.67rem;line-height:1.4;margin-top:2px;overflow-wrap:anywhere}
+.content{min-width:0}
+.scene-card{background:var(--paper);border:1px solid var(--line);border-radius:20px;padding:clamp(20px,3vw,34px);margin-bottom:24px;box-shadow:var(--shadow);overflow:hidden}
+.scene-topline{display:flex;justify-content:space-between;gap:16px;align-items:center;margin-bottom:16px}
+.scene-id{display:inline-grid;place-items:center;min-width:42px;height:30px;padding:0 10px;color:#fff;background:var(--teal-700);border-radius:8px;font-size:.78rem;font-weight:850}
+.time{margin-left:10px;color:var(--muted);font-size:.82rem;font-variant-numeric:tabular-nums}
+.scene-card h2{margin:0 0 2px;font-size:clamp(1.35rem,2.4vw,2rem);line-height:1.25;color:var(--teal-950)}
+.scene-title-en{margin:0 0 18px;color:var(--teal-600);font-weight:700;font-size:.98rem}
+.context{margin:0 0 20px;padding:12px 15px;color:#496566;background:var(--mint-50);border-left:3px solid var(--teal-600);border-radius:0 10px 10px 0;font-size:.88rem}
+.context b{margin-right:10px;color:var(--teal-800)}
+.sentence-list{display:grid;gap:12px}
+.sentence{position:relative;display:grid;grid-template-columns:38px minmax(0,1fr);gap:12px;padding:16px;border:1px solid #e2ece8;border-radius:14px;background:#fcfefd;min-width:0}
+.sentence-no{color:var(--teal-600);font-size:.76rem;font-weight:850;font-variant-numeric:tabular-nums;padding-top:4px}
+.bilingual{min-width:0;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(14px,2vw,28px)}
+.lang-block{min-width:0}
+.lang-block p{margin:5px 0 0;overflow-wrap:anywhere}
+.en-block{padding-left:clamp(14px,2vw,28px);border-left:1px solid var(--line)}
+.en-block p{color:#0b5c60;font-weight:650}
+.lang-tag{display:inline-block;color:var(--muted);font-size:.66rem;font-weight:850;letter-spacing:.12em}
+.en-head{display:flex;justify-content:space-between;gap:10px;align-items:center;min-height:30px}
+.note{grid-column:2;margin:1px 0 0;color:#708182;font-size:.78rem}
+.note span{margin-right:7px;color:var(--amber);font-weight:750}
+.speak-btn{display:inline-flex;align-items:center;gap:7px;border:1px solid #b8d9d1;border-radius:9px;padding:7px 11px;color:var(--teal-800);background:#f5fbf8;cursor:pointer;white-space:nowrap;font-size:.78rem;font-weight:750;transition:.15s ease}
+.speak-btn:hover{color:#fff;background:var(--teal-700);border-color:var(--teal-700);transform:translateY(-1px)}
+.speak-btn.playing{color:#fff;background:var(--teal-700);border-color:var(--teal-700)}
+.speak-btn.compact{padding:4px 8px;font-size:.7rem}
+.speak-btn.icon-only{padding:3px 7px;margin-left:6px}
+.speak-btn.icon-only span:last-child{display:none}
+.pronounce-word{display:inline;margin:0;padding:0 2px;color:inherit;background:rgba(20,145,155,.08);border:0;border-bottom:1px dashed var(--teal-600);border-radius:3px;font:inherit;font-weight:inherit;line-height:inherit;cursor:pointer}
+.pronounce-word:hover,.pronounce-word:focus{color:var(--teal-950);background:#cceee4;border-bottom-style:solid;outline:3px solid rgba(20,145,155,.42);outline-offset:2px}
+.pronounce-word.playing{color:#fff;background:var(--teal-700);border-bottom-color:var(--teal-700)}
+.paraphrase{margin-top:18px;border-top:1px solid var(--line)}
+.paraphrase summary{padding:16px 0 3px;color:var(--teal-800);cursor:pointer;font-weight:800}
+.paraphrase summary span{color:var(--muted);font-size:.75rem;font-weight:500;margin-left:8px}
+.paraphrase ol{margin:12px 0 0;padding-left:22px}
+.paraphrase li{padding:7px 0 9px 5px}
+.paraphrase li p{margin:0;font-size:.9rem;font-weight:650}
+.paraphrase li small{display:block;color:var(--muted);font-size:.72rem;margin-top:2px}
+.chunks{margin-top:4px;color:var(--teal-700);font-size:.78rem}
+.study-section{margin:38px 0 0}
+.section-heading{display:flex;align-items:baseline;gap:10px;margin:0 0 15px;color:var(--teal-950);font-size:1.35rem}
+.section-heading small{color:var(--teal-600);font-size:.78rem;letter-spacing:.05em}
+.study-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.study-grid article{padding:17px;background:#fff;border:1px solid var(--line);border-radius:14px;box-shadow:0 6px 18px rgba(7,63,66,.05);min-width:0}
+.study-grid p{margin:0}
+.practice-en{margin-top:9px;color:var(--teal-700);font-weight:650;overflow-wrap:anywhere}
+.wrong{color:#a24831;text-decoration:line-through;overflow-wrap:anywhere}
+.right{color:var(--teal-700);font-weight:750;margin:5px 0;overflow-wrap:anywhere}
+.pitfalls p{color:var(--muted);font-size:.82rem}
+.shifts article{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1.5fr);gap:12px;align-items:center}
+.shifts b{color:var(--teal-600);font-size:1.2rem}
+.shifts strong{color:var(--teal-800)}
+footer{margin-top:38px;color:var(--muted);font-size:.78rem;text-align:center}
+.footer-note{margin-top:6px}
+@media (max-width:900px){
+  .page{grid-template-columns:1fr}
+  .sidebar{position:static}
+  .sidebar-box{overflow-x:auto;padding:12px}
+  .sidebar h2{padding-left:5px}
+  .map-nav{display:flex;width:max-content;gap:8px}
+  .map-link{width:240px;border:1px solid var(--line);border-radius:10px;padding:8px}
+  .bilingual{grid-template-columns:1fr}
+  .en-block{padding:12px 0 0;border-left:0;border-top:1px dashed var(--line)}
+}
+@media (max-width:620px){
+  .hero-inner{padding-top:30px}
+  .hero-flex{flex-direction:column;align-items:center}
+  .hero-cover{width:100%;max-width:360px}
+  .hero-text{text-align:center}
+  .page{padding-inline:10px;gap:18px}
+  .scene-card{border-radius:14px;padding:17px 13px}
+  .scene-topline{align-items:flex-start}
+  .scene-speak span:last-child{display:none}
+  .sentence{grid-template-columns:26px minmax(0,1fr);padding:13px 10px;gap:6px}
+  .note{grid-column:2}
+  .study-grid{grid-template-columns:1fr}
+  .shifts article{grid-template-columns:1fr;gap:5px}
+  .shifts b{transform:rotate(90deg);justify-self:start}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.speak-btn{transition:none}}</style>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="hero-flex">
+        <div class="hero-text">
+          <p class="eyebrow">Japan Culture · 日本文化</p>
+          <h1>日本人的便利店，就像童年的小卖部｜Vol.10 - 范来张口FM</h1>
+          <p class="hero-en">Japan's Convenience Store Is Like the Candy Shop of Our Childhood｜Vol.10 - Fanlai Zhangkou FM</p>
+          <p class="summary-en" style="margin:0 0 14px;padding:14px 16px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.22);border-radius:12px;font-size:.95rem;line-height:1.7">The Japanese convenience store isn't just a place that sells food and drinks — it's a 24-hour government counter, a cardless ATM, a parcel station, and a gateway to digital life. Print a residence certificate, pay a fine, pick up a package: it does it all. The convenience store has turned 'convenience' into a rule-bound social system, while the same brand back in China is essentially just an upgraded corner shop held together by personal relationships.</p>
+          <div class="hero-meta">
+            <span class="chip">2026-08-08</span>
+            <span class="chip">小宇宙FM</span>
+            <span class="chip">40分</span>
+            <span class="chip">4 Scenes</span>
+            <span class="chip">Click underlined words to hear them</span>
+            <a class="source-link" href="https://www.xiaoyuzhoufm.com/episode/68ca55762c82c9dccacf9689" target="_blank" rel="noopener">原播客 ↗</a>
+          </div>
+        </div>
+      </div>
+      <div class="toolbar">
+        <div class="lang-switch"><div class="lang-switch"><a href="japan-convenience-store-总结.html">中文</a><a class="active" href="japan-convenience-store-en.html" aria-current="page">EN</a></div></div>
+        <label for="speech-rate">朗读速度</label>
+        <select id="speech-rate">
+          <option value="0.85">慢速 0.85×</option>
+          <option value="1" selected>正常 1×</option>
+          <option value="1.15">快速 1.15×</option>
+        </select>
+        <button id="stop-speech" class="stop-btn" type="button">■ 停止朗读</button>
+        <span id="speech-status" class="speech-status" role="status" aria-live="polite"></span>
+      </div>
+      <div class="narration-player">
+      <p class="audio-label">🎧 中文语音讲解</p>
+      <button class="speak-btn" type="button" data-audio="audio/japan-convenience-store.mp3" aria-label="播放语音讲解"><span aria-hidden="true">▶</span><span>播放语音讲解</span></button>
+    </div>
+    </div>
+  </header>
+  <main class="page">
+    <aside class="sidebar" aria-label="场景地图">
+      <div class="sidebar-box">
+        <h2>场景地图 · SCENE MAP</h2>
+        <nav class="map-nav">
+          <a class="map-link" href="#s1">
+          <span class="map-id">S1</span>
+          <span><b>一、功能进化史：便利店如何变成「24小时政府窗口」</b><small> · How the Store Evolved Into a 24-Hour Government Window</small></span>
+        </a>
+<a class="map-link" href="#s2">
+          <span class="map-id">S2</span>
+          <span><b>二、三大品牌暗战：711凭什么逆袭成第一</b><small> · The Three-Brand War: Why 7-Eleven Won</small></span>
+        </a>
+<a class="map-link" href="#s3">
+          <span class="map-id">S3</span>
+          <span><b>三、便利店不便利：这些坑要避开</b><small> · When the Store Isn't Convenient: Pitfalls to Avoid</small></span>
+        </a>
+<a class="map-link" href="#s4">
+          <span class="map-id">S4</span>
+          <span><b>四、本质差异：人情社会 vs 规矩社会</b><small> · The Core Difference: A Society of Connections vs a Society of Rules</small></span>
+        </a>
+        </nav>
+      </div>
+    </aside>
+    <div class="content">
+      <section class="scene-card" id="s1" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S1</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/japan-convenience-store/s1.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>一、功能进化史：便利店如何变成「24小时政府窗口」</h2>
+      <p class="scene-title-en">How the Store Evolved Into a 24-Hour Government Window</p>
+      <p class="context"><b>情境</b>从自助打印机的三阶段进化讲到マイナンバー卡，说明便利店是普通人接触数字化系统的最日常接口。语域：casual 播客点评 + 生活观察。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：日本便利店自助打印机的进化分三阶段：①最早必须带 U 盘/数据线插上机器传文件；②各品牌推出 APP 后，需手动连接配对再传文件，连接不稳定（全家尤甚，常搜不到信号）；③现在手机选好文件自动生成二维码，到店让机器一扫即自动连接、传文件、打印</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/japan-convenience-store/s1-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The self-service printer at Japanese convenience stores evolved in three stages. First, you had to bring a USB drive or cable and plug it in to transfer files. Then each brand launched its own app, and you had to manually pair your phone with the machine — the connection was unstable, especially at FamilyMart, which often couldn't find a signal. Now you pick your file on your phone, it generates a QR code, and the store machine scans it to automatically connect, transfer, and print.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>self-service printer → 自助打印机；QR code → 二维码；pair → 配对（设备连接）；transfer files → 传输文件</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：这台机器是「社会数字化」的缩影——每轮新技术（APP、マイナンバー卡）上线，打印机就跟着升级，它成了普通人与数字化系统之间最日常的接口</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/japan-convenience-store/s1-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key insight: this machine is a microcosm of a digitalizing society. Every time a new technology rolls out — the apps, the My Number card — the printer upgrades right along with it, becoming the most everyday interface between ordinary people and the digital system.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>microcosm → 缩影；roll out → 上线/推出；My Number card → マイナンバー个人编号卡；interface → 接口</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>典型场景：留学生申请学校、出愿、考试常要交住民票，以前必须工作日请假跑区役所，现在刷マイナンバー卡就能在便利店自助打出</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/japan-convenience-store/s1-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Typical scene: international students applying to schools or taking exams often need a certificate of residence. Before, they had to take a day off during the week to go to the ward office; now they can swipe their My Number card and print it out themselves at a convenience store.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>certificate of residence → 住民票；ward office → 区役所；take a day off → 请假</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据：「以前我要开住民票的时候，必须在周一到周五去区役所才可以开得出来……现在就变成了周六日或者是节假日，只要我想去，我就可以去便利店开出这个住民票。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/japan-convenience-store/s1-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Quote from the show: "Before, to get my certificate of residence, I had to go to the ward office Monday through Friday. Now, on weekends or holidays, whenever I want, I can just go to a convenience store and print it out."</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>direct quote → 原文引用；weekends or holidays → 周六日或节假日；print it out → 打出来</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）相关概念：与「マイナンバー卡」「区役所」「社会数字化」直接相关</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/japan-convenience-store/s1-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Related concepts: this ties directly to the My Number card, the ward office, and the digitalization of society.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>tie directly to → 与…直接相关；digitalization of society → 社会数字化</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：日本数字身份证（マイナンバーカード）把税务、年金、保险等个人数据整合到一张卡；政府曾以 2 万日元积分推广，普及率仍不高；今年12月起保险证停发，看病只能靠它，留学生基本「不得不办」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/japan-convenience-store/s1-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Japan's digital ID, the My Number card, consolidates tax, pension, and insurance data onto a single card. The government once offered 20,000 yen in points to promote it, yet adoption stayed low. Now, from December, paper insurance certificates are being phased out — to see a doctor you have to use the card — so international students basically have no choice but to get one.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>consolidate onto a single card → 整合到一张卡；phase out → 逐步停发；have no choice but to → 不得不</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「扫码后机器自动连上手机传文件」</p><div class="chunks">scan the code · send itself over · pull up a file</div><small>scan the code 最日常；send itself over 有画面感，适合聊天</small></li>
+<li><p>想说「现在不得不办这张卡」</p><div class="chunks">no choice but to · no longer optional</div><small>no choice but to 口语；no longer optional 更书面，适合点评</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s2" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S2</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/japan-convenience-store/s2.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>二、三大品牌暗战：711凭什么逆袭成第一</h2>
+      <p class="scene-title-en">The Three-Brand War: Why 7-Eleven Won</p>
+      <p class="context"><b>情境</b>从 711 自有工厂、限定甜品、炸鸡盲测三个角度解释 711 如何反超全家与罗森。语域：casual 探店测评 + 供应链分析。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：711 是全日本唯一有自己食品工厂的便利店品牌，自产自控品质与上新速度；全家、罗森则是与第三方合作（贴牌），出品稳定性取决于代工厂</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/japan-convenience-store/s2-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Seven-Eleven is the only convenience store chain in Japan with its own food factory, so it fully controls quality and how fast new items hit the shelves. FamilyMart and Lawson, by contrast, work with third-party partners — in other words, they white-label other companies' products, so their consistency depends on their contract manufacturers.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>own food factory → 自有食品工厂；white-label → 贴牌；contract manufacturer → 代工厂</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：「自有工厂」带来两个结果——甜品口味公认第一 + 更新速度最快（限定品、当季水果冰棍不断），这是供应链能力直接转化为产品竞争力的样本</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/japan-convenience-store/s2-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key insight: the in-house factory produces two results — desserts widely rated the best in the industry, and the fastest release cadence, with limited editions and seasonal fruit ice pops never stopping. It's a textbook example of supply-chain capability converting directly into product competitiveness.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>in-house factory → 自有工厂；release cadence → 上新节奏；limited edition → 限定品；textbook example → 典型样本</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>典型场景：限定甜品曲奇夹心雪媚娘、薄荷巧克力泡芙、当季梨/桃/草莓冰棍，真材实料而非香精味；还有冷冻水果现打奶昔（从冰柜拿水果冰杯自己打），别家没有</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/japan-convenience-store/s2-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Typical scene: limited desserts like cookie-filled mochi, mint chocolate choux, and seasonal pear, peach, and strawberry ice pops — made with real ingredients, not artificial flavoring. There's also a frozen-fruit smoothie station, where you grab a cup of frozen fruit from the freezer and blend it yourself — no other chain has that.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>cookie-filled mochi → 曲奇夹心雪媚娘；choux → 泡芙；ice pop → 冰棍；artificial flavoring → 香精味</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据：「711 是唯一一个有自己工厂的，出品是很稳定的……其他两个虽然说都是自营的东西，但他们是和第三方合作的，说白了就是贴牌的。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/japan-convenience-store/s2-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Quote from the show: "Seven-Eleven is the only one with its own factory, so the quality is very consistent. The other two claim everything is their own brand, but they work with third parties — to put it bluntly, it's just white-labeling."</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>to put it bluntly → 说白了；consistent quality → 出品稳定</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）相关概念：与「全家的贴牌」「711 炸鸡」「供应链管理」相关</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/japan-convenience-store/s2-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Related concepts: this connects to FamilyMart's white-labeling, Seven-Eleven's fried chicken, and supply-chain management.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>fried chicken → 炸鸡；supply-chain management → 供应链管理；connect to → 与…相关</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：711 的炸鸡（ななチキ）才推出七八年，是典型后来者；主持人一行买三家炸鸡横向盲测，结论是 711 最好吃，且价格在三家中仍具竞争力</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/japan-convenience-store/s2-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Seven-Eleven's fried chicken, Nana Chiki, has only been around for seven or eight years — a classic latecomer. The hosts bought fried chicken from all three chains and did a blind taste test; the verdict was that Seven-Eleven's was the best, and its price stayed competitive against the other two.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>latecomer → 后来者；blind taste test → 盲测；verdict → 结论</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「说白了就是贴牌」</p><div class="chunks">to put it bluntly · white-label · repackage under one's own name</div><small>to put it bluntly 用于口语转折；repackage 更正式，适合分析</small></li>
+<li><p>想说「甜品味道公认第一」</p><div class="chunks">widely considered · in the game · the top pick</div><small>in the game 很口语；top pick 适合总结推荐</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s3" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S3</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/japan-convenience-store/s3.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>三、便利店不便利：这些坑要避开</h2>
+      <p class="scene-title-en">When the Store Isn't Convenient: Pitfalls to Avoid</p>
+      <p class="context"><b>情境</b>用「不便店」的吐槽讲东京便利店没有厕所的真相，再分析为何卖得贵、结账慢及对应解法。语域：casual 生活吐槽 + 实用攻略。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>原因：① 东京地价太贵，单店面积小，厕所常被拿来当仓库；② 管理麻烦——厕所要打扫，日本人要求高，脏厕所会拉低店铺形象；③ 防止滥用——人流量太大，人人当公共厕所用，店员根本管不过来</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/japan-convenience-store/s3-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Why so many stores skip the restroom: first, Tokyo land is so expensive that stores are small and the toilet area often gets converted into storage. Second, maintenance is a hassle — someone has to clean it, Japanese standards are high, and a dirty restroom drags down the store's image. Third, they want to prevent misuse: foot traffic is so heavy that everyone treats the store as a public toilet, and staff simply can't manage it.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>converted into storage → 拿来当仓库；drag down the image → 拉低形象；foot traffic → 客流量</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>解法：着急时优先找麦当劳或商场；车站外的大店更可能有厕所；别把「便利店有厕所」当作默认设定</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/japan-convenience-store/s3-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The workaround: when you're in a hurry, head for a McDonald's or a shopping mall first. Bigger stores outside the station are more likely to have a restroom. And don't treat a convenience-store toilet as the default.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>workaround → 解法/绕路方案；in a hurry → 着急；as the default → 当作默认</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）「没有厕所的便利店，你就别叫便利店了。」——网友对「不便店」的吐槽</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/japan-convenience-store/s3-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Quote: "If a convenience store has no restroom, it shouldn't be called a convenience store." — a netizen's jab at the so-called 'inconvenience stores'.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>netizen → 网友；jab at → 吐槽；inconvenience store → 不便店（谐音梗）</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）东京都内很多便利店没有厕所，或厕所贴着「仅限店员使用」，连跑三家都找不到厕所很正常；网友给这类店起了个名字叫「不便店」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/japan-convenience-store/s3-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Many stores in central Tokyo have no restroom, or post a sign saying 'staff only.' Running to three stores and still finding no toilet is totally normal — netizens gave these places the nickname 'inconvenience stores.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>staff only → 仅限店员使用；nickname → 绰号；run to three stores → 连跑三家</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>原因：① 运营成本高导致售价贵——超市 99 日元的水，便利店通常卖 150 日元以上；② 限定款宣传铺天盖地，中国人聚居区秒空（贡茶芒果乌龙茶推出时都内全断货）；③ 店员一人身兼数职，复杂业务 + 人多时结账极慢</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/japan-convenience-store/s3-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Why prices run high: operations are expensive, so a bottle of water that costs 99 yen at the supermarket usually sells for over 150 yen at a convenience store. Limited-edition promotions are everywhere, and in Chinese neighborhoods they sell out in seconds — when Gong Cha's mango oolong tea launched, it sold out across Tokyo. Also, each staff member juggles multiple duties, so when a customer handles a complicated transaction during busy hours, checkout crawls.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>sell out in seconds → 秒空；juggles multiple duties → 身兼数职；checkout crawls → 结账极慢</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>解法：日常囤货去超市，便利店只买应急品；限定款去本地人社区店买；避开早晚高峰；看到只有一个收银台在办复杂业务时，换一家店或换时段</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/japan-convenience-store/s3-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The workaround: stock up at the supermarket for daily needs, and use convenience stores only for emergency items. For limited editions, go to neighborhood stores where locals shop. Avoid rush hours, and if you see the only register stuck on a complicated transaction, just pick another store or come back later.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>stock up → 囤货；emergency items → 应急品；rush hours → 高峰时段</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「厕所被拿来当仓库」</p><div class="chunks">turn into storage · convert into a stockroom</div><small>两者可互换；convert 偏书面，turn into 更口语</small></li>
+<li><p>想说「一个人结账慢得让人抓狂」</p><div class="chunks">checkout crawls · the line barely moves · tied up</div><small>crawl 形容龟速很形象；tied up 指被占住，很口语</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s4" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S4</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/japan-convenience-store/s4.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>四、本质差异：人情社会 vs 规矩社会</h2>
+      <p class="scene-title-en">The Core Difference: A Society of Connections vs a Society of Rules</p>
+      <p class="context"><b>情境</b>对比中日同品牌便利店的本质差异：国内是「锦上添花」的升级小卖部，日本是「兜底」的规矩社会系统。语域：casual 播客点评 + 文化观察。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：国内便利店是「锦上添花」——临时买水、烟、零食才进，日常靠楼下小卖部和网购，一年不进店都行；日本便利店是「兜底」——不想做饭、不想去餐厅时，它随时给你一个不会出错的选择</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/japan-convenience-store/s4-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The core contrast: in China, the convenience store is a nice-to-have — you pop in only for a last-minute drink, cigarettes, or snacks, relying on the corner shop downstairs and online shopping day to day, and you could go a whole year without entering one. In Japan, the convenience store is a safety net: when you don't feel like cooking or going to a restaurant, it always gives you a choice that won't let you down.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>nice-to-have → 锦上添花；safety net → 兜底；corner shop → 小卖部；won't let you down → 不会出错</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：功能的「可替代性」决定了定位——国内便利店可被小卖部 + 网购替代；日本便利店因功能密度高（打印/缴费/ATM/快递/政务）而不可替代</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/japan-convenience-store/s4-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key insight: substitutability determines positioning. Chinese convenience stores can be replaced by corner shops plus online shopping; Japanese ones are irreplaceable because of their sheer density of functions — printing, bill payment, ATM, parcel pickup, and government services all under one roof.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>substitutability → 可替代性；density of functions → 功能密度；parcel pickup → 取快递</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>典型场景：日本上班族每天上下班顺手进店买水、上厕所、交费、买冰淇淋；国内打工人日常买菜买粮去超市和菜场</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/japan-convenience-store/s4-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Typical scene: Japanese office workers drop in every day on the way to and from work for water, a restroom stop, a bill payment, and an ice cream. Back home, workers buy their groceries and staples at supermarkets and wet markets.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>drop in → 顺路进店；on the way to and from work → 上下班路上；wet market → 菜场</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据：「便利店不是吃饭的首选，而是兜底。就算你哪天不想做饭、不想去餐厅，便利店也随时能给你一个不会出错的选择。它不是最好吃的，但你去那一定没错。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/japan-convenience-store/s4-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Quote from the show: "A convenience store isn't your first choice for a meal — it's the safety net. Even if you don't feel like cooking or eating out, it always gives you a choice that won't go wrong. It isn't the best food, but it's never a bad call."</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>first choice → 首选；never a bad call → 去那一定没错</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）相关概念：与「安全感」「密度」「社会缩影」相关</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/japan-convenience-store/s4-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Related concepts: it ties to a sense of security, density, and the store as a microcosm of society.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>a sense of security → 安全感；microcosm of society → 社会缩影</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）「国内的便利店就可以统称为小卖部，它只是卖东西的……日本的便利店才真的称得上做便利店。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/japan-convenience-store/s4-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Quote: "Back home, convenience stores are basically just corner shops — they only sell things. Japanese convenience stores are the ones that truly deserve the name."</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>deserve the name → 称得上；basically just → 基本上就是</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「一边是锦上添花，一边是兜底」</p><div class="chunks">nice-to-have · safety net · a convenience vs a lifesaver</div><small>nice-to-have / safety net 对仗工整，适合总结；lifesaver 偏夸张口语</small></li>
+<li><p>想说「随时给我一个不会出错的选择」</p><div class="chunks">can't go wrong · a safe pick · no matter what</div><small>can't go wrong 最常用；a safe pick 更口语化</small></li>
+        </ol>
+      </details>
+    </section>
+      <section class="study-section" id="practice">
+      <h2 class="section-heading">今日可练 <small>PRACTICE TODAY</small></h2>
+      <div class="study-grid">
+        <article>
+          <p>用「safety net」说：日本便利店是生活的兜底。</p>
+          <div class="practice-en">
+            In Japan, the convenience store is the safety net of everyday life.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/japan-convenience-store/practice-0.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「phase out」说：纸质保险证正在被停用。</p>
+          <div class="practice-en">
+            Paper insurance certificates are being phased out, so everyone has to switch to the digital card.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/japan-convenience-store/practice-1.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「blind taste test」说：他们盲测了三家的炸鸡。</p>
+          <div class="practice-en">
+            They did a blind taste test of fried chicken from all three chains, and Seven-Eleven won.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/japan-convenience-store/practice-2.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「won't let you down」说：便利店的选择不会让你失望。</p>
+          <div class="practice-en">
+            Whatever you pick at a Japanese convenience store, it won't let you down.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/japan-convenience-store/practice-3.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article>
+      </div>
+    </section>
+      <section class="study-section pitfalls" id="pitfalls">
+      <h2 class="section-heading">避坑 <small>PITFALLS</small></h2>
+      <div class="study-grid">
+        <article>
+          <div class="wrong">✕ The convenience store toilet is used as a warehouse.</div>
+          <div class="right">✓ The toilet area gets converted into storage space.</div>
+          <p>warehouse 指大型仓库；门店内「挪用成储物间」用 storage space / stockroom 更贴切。</p>
+        </article><article>
+          <div class="wrong">✕ The Chinese convenience store is 'adds flowers to brocade'.</div>
+          <div class="right">✓ Back home it's a nice-to-have; in Japan it's a safety net.</div>
+          <p>成语逐字直译成英文没人听懂；nice-to-have / safety net 是英文里对应的地道说法。</p>
+        </article><article>
+          <div class="wrong">✕ I must ask leave on weekdays to go to the ward office.</div>
+          <div class="right">✓ I have to take a day off during the week to go to the ward office.</div>
+          <p>「请假」地道说法是 take a day off / take leave；ask leave 是中式直译，虽然能懂但不自然。</p>
+        </article><article>
+          <div class="wrong">✕ The store manager is one person doing many positions.</div>
+          <div class="right">✓ Each staff member juggles multiple duties.</div>
+          <p>doing many positions 是直译；地道表达是 juggle multiple duties / wear many hats。</p>
+        </article>
+      </div>
+    </section>
+      <section class="study-section shifts" id="mindset">
+      <h2 class="section-heading">认知转变 <small>MINDSET SHIFTS</small></h2>
+      <div class="study-grid">
+        <article>
+          <span>以为便利店只是「卖东西的地方」</span>
+          <b aria-hidden="true">→</b>
+          <strong>日本便利店是政务/金融/物流的 24 小时接口，功能密度决定它不可替代</strong>
+        </article><article>
+          <span>以为「自有工厂 vs 贴牌」差别不大</span>
+          <b aria-hidden="true">→</b>
+          <strong>自建工厂与第三方贴牌，决定品质稳定和上新速度的差距</strong>
+        </article><article>
+          <span>以为连锁品牌哪国都一样</span>
+          <b aria-hidden="true">→</b>
+          <strong>中日同品牌便利店本质不同——一边是「补充」，一边是「兜底」</strong>
+        </article>
+      </div>
+    </section>
+      <footer>
+        双语学习版 · 场景/句子朗读使用 edge-tts（en-US） · 单词发音使用浏览器 Web Speech API
+        <div class="footer-note">中文版：<a href="japan-convenience-store-总结.html">japan-convenience-store-总结.html</a> · SVG 版：<a href="viewer.html?f=japan-convenience-store-总结.svg" target="_blank">japan-convenience-store-总结.svg</a></div>
+      </footer>
+    </div>
+  </main>
+  <script>(() => {
+  let activeAudio = null;
+  let activeBtn = null;
+  const status = document.getElementById('speech-status');
+  const stopBtn = document.getElementById('stop-speech');
+  const rateSel = document.getElementById('speech-rate');
+
+  const reset = () => {
+    if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+    activeBtn?.classList.remove('playing');
+    activeBtn = null;
+    stopBtn.classList.remove('visible');
+    status.textContent = '';
+  };
+
+  const playAudio = (url, btn) => {
+    reset();
+    const audio = new Audio(url);
+    audio.playbackRate = Number(rateSel.value);
+    activeAudio = audio;
+    activeBtn = btn;
+    btn.classList.add('playing');
+    stopBtn.classList.add('visible');
+    status.textContent = btn.classList.contains('scene-speak')
+      ? 'Reading the whole scene…'
+      : 'Reading…';
+
+    audio.onended = () => { if (activeAudio === audio) reset(); };
+    audio.onerror = () => { status.textContent = 'Audio failed to load.'; if (activeAudio === audio) reset(); };
+    audio.play().catch(() => { status.textContent = 'Playback failed.'; if (activeAudio === audio) reset(); });
+  };
+
+  document.addEventListener('click', e => {
+    const btn = e.target.closest('[data-audio]');
+    if (!btn) return;
+    e.preventDefault();
+    if (btn === activeBtn && activeAudio) { reset(); return; }
+    playAudio(btn.dataset.audio, btn);
+  });
+
+  stopBtn.addEventListener('click', reset);
+
+  const synth = window.speechSynthesis;
+  const getEnglishVoice = () => {
+    const voices = synth.getVoices();
+    return voices.find(v => /^en-(US|GB)/i.test(v.lang))
+        || voices.find(v => /^en/i.test(v.lang)) || null;
+  };
+
+  const difficultWords = new Set([
+    'assortment', 'SKU', 'premium', 'margin', 'middleman', 'OEM', 'rebranding',
+    'hoarding', 'PTSD', 'curation', 'repurchase', 'touchpoint', 'backlash',
+    'reshuffle', 'funnel', 'anchor', 'contract', 'psychology', 'private', 'label',
+    'editorial', 'familiar', 'competitors', 'authorization', 'flexibility'
+  ]);
+
+  const shouldPronounce = word => {
+    const n = word.toLowerCase().replace(/^[^a-z]+|[^a-z]+$/g, '');
+    return n.replace(/[^a-z]/g, '').length >= 8 || difficultWords.has(n);
+  };
+
+  const markPronounceableWords = root => {
+    const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+    const nodes = [];
+    while (walker.nextNode()) nodes.push(walker.currentNode);
+    nodes.forEach(node => {
+      if (node.parentElement?.closest('button, script, style')) return;
+      const text = node.nodeValue;
+      let m, last = 0, changed = false;
+      const frag = document.createDocumentFragment();
+      const re = /[A-Za-z]+(?:[-'’][A-Za-z]+)*/g;
+      while ((m = re.exec(text))) {
+        if (!shouldPronounce(m[0])) continue;
+        changed = true;
+        frag.append(text.slice(last, m.index));
+        const wb = document.createElement('button');
+        wb.type = 'button'; wb.className = 'pronounce-word';
+        wb.dataset.speak = m[0];
+        wb.setAttribute('aria-label', '\u8bfb\u5355\u8bcd ' + m[0]);
+        wb.title = '\u70b9\u51fb\u542c\u53d1\u97f3';
+        wb.textContent = m[0];
+        frag.append(wb);
+        last = m.index + m[0].length;
+      }
+      if (!changed) return;
+      frag.append(text.slice(last));
+      node.replaceWith(frag);
+    });
+  };
+
+  document.querySelectorAll(
+    '.english, .scene-title-en, .paraphrase li p, .chunks, .practice-en, .wrong, .right, .summary-en'
+  ).forEach(markPronounceableWords);
+
+  document.addEventListener('click', e => {
+    const wb = e.target.closest('.pronounce-word');
+    if (!wb) return;
+    e.preventDefault();
+    if (!synth) return;
+    synth.cancel();
+    if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+    activeBtn?.classList.remove('playing');
+    activeBtn = wb;
+    wb.classList.add('playing');
+    const u = new SpeechSynthesisUtterance(wb.dataset.speak);
+    u.lang = 'en-US';
+    u.rate = 0.88;
+    const v = getEnglishVoice();
+    if (v) u.voice = v;
+    u.onend = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+    u.onerror = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+    synth.speak(u);
+  });
+})();</script>
+</body>
+</html>

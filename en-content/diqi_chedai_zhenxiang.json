@@ -1,0 +1,400 @@
+{
+  "slug": "diqi_chedai_zhenxiang",
+  "date": "2026-06-23",
+  "platform": "小宇宙FM",
+  "title": "7年低息车贷背后的真相：它真的是\"买车福利\"吗？",
+  "title_en": "The Truth Behind 7-Year Low-Interest Car Loans: Is It Really a \"Buying Bonus\"?",
+  "eyebrow": "Finance & Consumer · 金融与消费",
+  "duration": "49分钟",
+  "source_url": "https://www.xiaoyuzhoufm.com/episode/697a6e79073030367a3e1b8b",
+  "summary_cn": "三刀拆解2026年车企七年低息贷款热潮：特斯拉用银行车贷变相贴息2-3万，小米/理想/小鹏却多走融资租赁套路。低首付低月供是把资产决策偷换成消费决策，强制全险、GPS、车不属于你、逾期拖车，七年贷款与3-5年换车周期严重错配",
+  "summary_en": "Sando dissects the 2026 wave of seven-year low-interest car loans: Tesla quietly subsidizes 2-30,000 yuan through bank auto loans, while Xiaomi, Li Auto, and Xpeng mostly push financing-lease deals instead. Low down payments and low monthly installments turn an asset decision into a consumption one — with forced comprehensive insurance, GPS trackers, a car that isn't technically yours, and repossession on missed payments. Seven-year financing and the 3-to-5-year car-replacement cycle are a serious mismatch.",
+  "scenes": [
+    {
+      "id": "s1",
+      "title_cn": "Part 1 · 七年低息方案从何而来",
+      "title_en": "Part 1 · Where the 7-Year Low-Interest Plans Come From",
+      "context": "2026 年初车企掀起七年低息车贷大战，从特斯拉到小米、理想、小鹏。语域：casual 播客拆解 + 消费者警示。",
+      "speak": "The mechanism: on January 6, Tesla kicked off seven-year low-interest plans on the Model 3 and Model Y, with down payments of 79,900 and 59,900 yuan and monthly installments of 1,918 and 2,263 yuan. Ten days later, Lei Jun followed with the YU7 — 49,900 down, 2,593 a month — and Li Auto went lower still to a 32,500 down payment, while the Xpeng Mona M03 dropped to just 17,900 down and 1,355 a month. The key insight: this isn't simple price-cutting — it's trading years of future manufacturer profit and interest subsidies for sales volume, a game of time and leverage. The typical scene: people who couldn't afford a 200-to-300-thousand-yuan car before now feel \"no pressure\" with a 30-to-40-thousand down payment and 2,000-plus monthly payments. As the episode says, \"Previously you couldn't afford the 200-to-300-thousand car at all; now a few thousand down and two thousand-plus a month and you can drive it away.\" Compared with a five-year zero-interest deal, seven years adds 24 more monthly payments — the barrier is lower, but you're locked in longer. Take the Model Y RWD long-range: without subsidies, the annual rate is 4.69 percent and seven years of interest runs about 40,000 yuan; with the subsidy it's 1.36 percent and only about 10,000 — meaning the manufacturer effectively subsidized around 30,000. The Xiaomi YU7 base model saves over 20,000 in interest over seven years. But Sando is blunt: \"If you think it's a great deal and you're about to get on board, let me tell you — you've already taken the bait.\"",
+      "sentences": [
+        {
+          "cn": "核心机制：特斯拉1月6日率先推出Model 3/Y七年低息（首付7.99万/5.99万，月供1918/2263元），10天后雷军跟进YU7（首付4.99万，月供2593元），理想再卷到首付3.25万，小鹏Mona M03首付仅1.79万、月供1355元",
+          "en": "The mechanism: on January 6, Tesla kicked off seven-year low-interest plans on the Model 3 and Model Y — 79,900 and 59,900 yuan down, with monthly installments of 1,918 and 2,263 yuan. Ten days later Lei Jun followed with the YU7 at 49,900 down and 2,593 a month; Li Auto pushed down to 32,500; and the Xpeng Mona M03 dropped to just 17,900 down and 1,355 a month.",
+          "note": "<span>表达提示</span>low-interest plan → 低息方案；down payment → 首付；monthly installment → 月供；kick off → 率先推出"
+        },
+        {
+          "cn": "关键理解：这不是单纯降价，而是用未来几年的厂家利润和利息补贴换销量，本质是时间和杠杆的游戏",
+          "en": "The key insight: this isn't plain price-cutting — it's trading years of future manufacturer profit and interest subsidies for sales volume. At its core, it's a game of time and leverage.",
+          "note": "<span>表达提示</span>price-cutting → 降价；interest subsidy → 利息补贴；sales volume → 销量；leverage → 杠杆"
+        },
+        {
+          "cn": "典型场景：原本二三十万新车买不起的人，现在首付三四万、月供两千多就觉得「没压力」",
+          "en": "The typical scene: people who couldn't afford a 200-300-thousand-yuan new car now feel \"no pressure\" with a 30-40-thousand down payment and 2,000-plus monthly payments.",
+          "note": "<span>表达提示</span>afford → 买得起；feel no pressure → 觉得没压力"
+        },
+        {
+          "cn": "（引用）原文依据：「原先二三十万的新的原车自己根本就买不起，现在首付只要几万块钱，月供就两千多块钱就可以把车开走了。」",
+          "en": "\"Previously you couldn't afford the 200-to-300-thousand car at all; now a few thousand down and 2,000-plus a month and you can drive it away.\"",
+          "note": "<span>表达提示</span>drive it away → 把车开走；a few thousand down → 几万块首付"
+        },
+        {
+          "cn": "（引用）相关概念：与五年免息相比，七年多出24期月供；门槛更低但绑定时间更长",
+          "en": "Compared with a five-year zero-interest plan, seven years adds 24 more monthly payments — the barrier is lower, but you're locked in longer.",
+          "note": "<span>表达提示</span>zero-interest → 免息；locked in → 绑定；barrier → 门槛"
+        },
+        {
+          "cn": "Model Y后驱标续：不贴息年化4.69%、七年利息约4万；贴息后年化1.36%、利息仅1万多，相当于厂家贴了约3万。小米YU7标准版七年省2万多利息。但三刀直言：「如果你觉得很划算你就准备上车了，那我就告诉你你就上套了。」",
+          "en": "For the Model Y RWD long-range: without subsidies, the annual rate is 4.69% and seven years of interest runs about 40,000 yuan; with the subsidy it's 1.36% and only about 10,000 — so the manufacturer effectively subsidized around 30,000. The Xiaomi YU7 base model saves over 20,000 in interest across seven years. But Sando is blunt: \"If you think it's a great deal and you're about to get on board, then let me tell you — you've taken the bait.\"",
+          "note": "<span>表达提示</span>annual rate → 年化；subsidize → 贴息；great deal → 很划算；take the bait → 上套/上钩"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「低息是用未来利润换销量」",
+          "phrases": [
+            "They're buying today's sales with tomorrow's profit.",
+            "Low rates now, thinner margins for years."
+          ],
+          "chunks": "buy today's sales · tomorrow's profit · thinner margins",
+          "usage": "第一句是总结式说法；第二句更口语直白"
+        },
+        {
+          "intent": "想说「你以为捡便宜其实掉进套里」",
+          "phrases": [
+            "What feels like a bargain is the bait.",
+            "The 'deal' is exactly how they hook you."
+          ],
+          "chunks": "the bait · hook you",
+          "usage": "bait 和 hook 都是钓鱼比喻，符合原文「上套」"
+        },
+        {
+          "intent": "想说「门槛更低但绑得更久」",
+          "phrases": [
+            "Lower barrier in, longer leash out.",
+            "Easier to get in, harder to get out."
+          ],
+          "chunks": "lower barrier · longer leash · easier to get in",
+          "usage": "leash（牵绳）比喻「被绑定」，形象有力"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title_cn": "Part 2 · 两种模式：传统车贷 vs 融资租赁",
+      "title_en": "Part 2 · Two Models: Traditional Auto Loan vs. Financing Lease",
+      "context": "特斯拉走银行直贷，国产车企多走融资租赁；教听众识别两种合同的差异。语域：casual 播客拆解 + 避坑指南。",
+      "speak": "The reason: Tesla's seven-year low-interest plan runs through direct bank loans — annual rates of 0.98 to 2.99 percent — but they demand relatively high personal credit. Xiaomi, Li Auto, Xpeng, Geely Galaxy, Voyah, and Dongfeng Yipai mostly go through Ping An Leasing, Shibei, Easy Finance, or the carmakers' own financing-lease companies. The fix: before signing, check whether the contract title contains \"financing lease\" or \"sale-and-leaseback\"; ask who the car is registered to and who holds the green vehicle certificate; and read every page of the contract, front and back, word by word. Severity: critical — once you sign a financing-lease contract, you can't switch back to a bank loan. As Sando puts it, \"If you can offer consumers real bank loans like Tesla does… instead you all follow the financing-lease route.\" Method one: does the contract title contain \"financing lease\" or \"sale-and-leaseback\"? Method two: ask who the car is registered under and demand it be written into the contract — salespeople's verbal promises aren't reliable.",
+      "sentences": [
+        {
+          "cn": "原因：特斯拉七年低息走银行直接贷款（年化0.98%-2.99%），但对个人征信要求较高。小米、理想、小鹏、吉利银河、蓝图、东风奕派等基本都走平安租赁、狮桥、易鑫金融或车企自家融资租赁公司",
+          "en": "The reason: Tesla's seven-year low-interest plan runs through direct bank loans — annual rates of 0.98%-2.99% — but requires solid personal credit. Xiaomi, Li Auto, Xpeng, Geely Galaxy, Voyah, and Dongfeng Yipai mostly go through Ping An Leasing, Shibei, Easy Finance, or the carmakers' own financing-lease companies.",
+          "note": "<span>表达提示</span>direct bank loan → 银行直贷；personal credit → 个人征信；financing lease → 融资租赁；leasing company → 租赁公司"
+        },
+        {
+          "cn": "解法：签合同前看标题是否含「融资租赁」「售后回租」；问清上牌名字和绿本保管方；合同每一页正反面逐字阅读",
+          "en": "The fix: before signing, check whether the contract title contains \"financing lease\" or \"sale-and-leaseback\"; ask who the car is registered to and who holds the green certificate; and read every page of the contract, front and back, word by word.",
+          "note": "<span>表达提示</span>sale-and-leaseback → 售后回租；green certificate → 绿本；word by word → 逐字阅读"
+        },
+        {
+          "cn": "严重程度：致命（签完融资租赁合同后无法改回银行贷款）",
+          "en": "Severity: critical — once you sign a financing-lease contract, you can't switch back to a bank loan.",
+          "note": "<span>表达提示</span>critical → 致命/极其严重；switch back → 改回"
+        },
+        {
+          "cn": "（引用）三刀说法：「你有本事跟特斯拉一样也给消费者提供银行正常贷款……结果一个个跟的都是融资租赁。」",
+          "en": "\"If you could offer consumers real bank loans like Tesla does… but instead you all follow the financing-lease route.\"",
+          "note": "<span>表达提示</span>offer real bank loans → 提供银行正常贷款；follow the route → 跟着走这条路"
+        },
+        {
+          "cn": "方法一：合同标题是否含「融资租赁」或「售后回租」字样",
+          "en": "Method one: does the contract title contain the words \"financing lease\" or \"sale-and-leaseback\"?",
+          "note": "<span>表达提示</span>contract title → 合同标题；contain the words → 含有…字样"
+        },
+        {
+          "cn": "方法二：问清上牌名字，要求写进合同（销售口头承诺不可靠）",
+          "en": "Method two: ask who the car is registered under and demand it be written into the contract — a salesperson's verbal promise isn't reliable.",
+          "note": "<span>表达提示</span>registered under → 上牌在…名下；verbal promise → 口头承诺；write into the contract → 写进合同"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「融资租赁和银行贷款根本不是一回事」",
+          "phrases": [
+            "A financing lease and a bank loan are two completely different animals.",
+            "They call it a loan, but legally the car isn't yours."
+          ],
+          "chunks": "two different animals · legally isn't yours",
+          "usage": "different animals 是口语比喻；第二句点出法律实质"
+        },
+        {
+          "intent": "想说「销售说的不算，合同才算」",
+          "phrases": [
+            "Get it in writing — verbal promises don't hold up.",
+            "If it's not in the contract, it doesn't exist."
+          ],
+          "chunks": "get it in writing · if it's not in the contract",
+          "usage": "第一句是通用建议；第二句是强调版金句"
+        },
+        {
+          "intent": "想说「签了就改不了」",
+          "phrases": [
+            "Once signed, there's no going back.",
+            "That signature locks you into the lease route."
+          ],
+          "chunks": "no going back · locks you in",
+          "usage": "no going back 口语；locks you in 更正式"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title_cn": "Part 3 · 融资租赁的隐性成本清单",
+      "title_en": "Part 3 · The Hidden-Cost Checklist of Financing Leases",
+      "context": "融资租赁的强制全险、GPS、登记证书费用等隐性成本清单。语域：casual 播客拆解 + 算账教学。",
+      "speak": "The reason for the hidden costs: financing-lease companies want to reduce risk, so the contract requires buying full insurance in-store for all seven years. Take the Xiaomi YU7 base model: first-year comprehensive insurance is 8,818 yuan versus about 6,700 yuan for a normal purchase — nearly 2,000 more per year, adding over 10,000 across seven years. The fix: when you sign, add up the insurance premium — if the seven-year full-insurance markup exceeds 10,000, the 20-to-30-thousand subsidy in your pocket may really be just 10,000-plus. Severity: moderate — the amount is predictable, but most people don't factor it in at signing. As Sando says, \"In-store full insurance is mandatory, and it's written clearly in the contract… you pay that extra money every single year.\" More costs: financing leases assume your credit is weak, so they install a GPS device — 500 to 2,000 yuan — to track the car; changing the car's paint color requires borrowing the registration certificate at 120 yuan per trip, plus 50 for rush service; and after you pay off the loan, removing the GPS costs more money. The fix: add all these costs to your total-cost table and offset them against the subsidy before deciding whether the deal is worth it.",
+      "sentences": [
+        {
+          "cn": "原因：融资租赁公司为降低风险，合同要求七年全程店内购买全险。以小米YU7标准版为例，第一年全险8818元 vs 正常购买约6700元，每年差近2000元，七年累计多交1万多",
+          "en": "The reason: financing-lease companies want to lower risk, so the contract requires buying full in-store insurance for all seven years. Take the Xiaomi YU7 base model: first-year comprehensive insurance is 8,818 yuan versus about 6,700 for a normal purchase — nearly 2,000 more per year, over 10,000 extra across seven years.",
+          "note": "<span>表达提示</span>comprehensive insurance / full insurance → 全险；in-store → 店内；versus → 对比；markup → 溢价"
+        },
+        {
+          "cn": "解法：签合同时核算全险溢价是否抵消厂家贴息；若七年全险多花1万+，2-3万贴息实际到手可能只剩1万多",
+          "en": "The fix: at signing, calculate whether the full-insurance markup cancels out the manufacturer subsidy — if the seven-year premium adds over 10,000, the 20-to-30-thousand subsidy may really leave you only 10,000-plus.",
+          "note": "<span>表达提示</span>cancel out → 抵消；premium → 保费；in effect → 实际到手"
+        },
+        {
+          "cn": "严重程度：小心（金额可预期，但很多人签约时未计入）",
+          "en": "Severity: moderate — the amount is predictable, but many people don't factor it in when signing.",
+          "note": "<span>表达提示</span>predictable → 可预期的；factor in → 计入；moderate → 中等"
+        },
+        {
+          "cn": "（引用）三刀说法：「必须店内全险购买，合同里面写得清清楚楚……你每一年都要多交这个钱。」",
+          "en": "\"In-store full insurance is mandatory, and it's written clearly in the contract… you pay that extra money every single year.\"",
+          "note": "<span>表达提示</span>mandatory → 强制；written clearly → 写得清清楚楚；every single year → 每一年"
+        },
+        {
+          "cn": "原因：融资租赁默认你信用不足，装GPS（500-2000元）防追车；改色备案需借登记证书120元/次，加急另收50元；还清后拆GPS还要再付钱",
+          "en": "The reason: financing leases assume your credit is weak, so they install a GPS device — 500 to 2,000 yuan — to track the car. Repainting requires borrowing the registration certificate at 120 yuan per trip, plus 50 for rush service; and after you pay off the loan, removing the GPS costs even more.",
+          "note": "<span>表达提示</span>GPS tracker → GPS 定位；registration certificate → 登记证书；pay off the loan → 还清贷款"
+        },
+        {
+          "cn": "解法：把这些费用加进总成本表，与贴息金额对冲后再决定是否划算",
+          "en": "The fix: add these costs to your total-cost table and offset them against the subsidy before deciding whether it's worth it.",
+          "note": "<span>表达提示</span>total-cost table → 总成本表；offset against → 与…对冲；worth it → 划算"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「强制全险吃掉了贴息」",
+          "phrases": [
+            "The forced insurance quietly eats the subsidy.",
+            "By the time you count the premiums, the 'saving' is gone."
+          ],
+          "chunks": "eat the subsidy · the saving is gone",
+          "usage": "eat 表示「侵蚀/吞掉」，口语传神"
+        },
+        {
+          "intent": "想说「合同里藏着很多费用」",
+          "phrases": [
+            "The fine print is full of add-on fees.",
+            "Every hidden line item adds up fast."
+          ],
+          "chunks": "fine print · add-on fees · line item",
+          "usage": "fine print 是「合同小字」的常用说法"
+        },
+        {
+          "intent": "想说「算总账才能判断划不划算」",
+          "phrases": [
+            "You have to run the full numbers, not just the monthly payment.",
+            "Add every fee before you call it a deal."
+          ],
+          "chunks": "run the full numbers · call it a deal",
+          "usage": "run the numbers 是「算账」口语；deal 指「划算的交易」"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "title_cn": "Part 4 · 为什么是现在？金融战的深层逻辑",
+      "title_en": "Part 4 · Why Now? The Deeper Logic of the Financial War",
+      "context": "特斯拉发起金融战的时机选择，以及低首付如何把资产决策偷换成消费决策。语域：casual 播客点评 + 商业逻辑。",
+      "speak": "In January 2026 the car market was \"quite miserable\": subsidies were phasing out and the price war was exhausted. Tesla launched a financial war with seven-year bank low-interest loans — trading future profit for volume, harvesting the market while domestic carmakers are exhausted. The domestic follow-ups use cheaper financing-lease structures with harsher risk control, but they shift the risk onto consumers. As Sando says, \"Tesla must have calculated the timing of this financial war internally… watching you domestic brands slash each other, tired now, right? Fine, let me stir up another wave.\" The core mechanism: buying a 300,000-yuan car used to be a major asset decision — requiring over a hundred thousand in savings and real resolve. Now it's become a 40-to-50-thousand down payment plus a 2,000-plus monthly bill, benchmarked against the psychology of \"subscribing to a video streaming service.\" The key insight: when your wallet's thickness can't keep up with your ambition's height, that's overspending ahead of your means. New-energy cars iterate fast — batteries, assisted driving — so most people want a new car in 3 to 5 years, yet the loan binds them for seven, and by year four or five the outstanding loan balance can exceed the car's resale value — negative equity.",
+      "sentences": [
+        {
+          "cn": "2026年1月车市「相当惨劣」，补贴退坡、价格战乏力，特斯拉用七年银行低息打金融战——用未来利润换量，在国产车企精疲力尽时收割市场。国产跟进的融资租赁方案成本更低、风控更狠，但把风险转嫁给了消费者",
+          "en": "In January 2026 the car market was \"quite miserable\": subsidies were phasing out and the price war had lost steam. Tesla launched a financial war with seven-year bank low-interest loans — trading future profit for volume, harvesting the market while domestic carmakers are exhausted. The domestic follow-ups use cheaper financing-lease structures with harsher risk control, but they shift the risk onto consumers.",
+          "note": "<span>表达提示</span>price war → 价格战；lose steam → 乏力；phase out → 退坡；harvest the market → 收割市场；shift risk onto → 把风险转嫁给"
+        },
+        {
+          "cn": "（引用）「特斯拉他发起金融战的时间点应该是内部精确算过的……看你们这些国产汽车品牌互相厮杀，现在都打累了吧，好我来刺激一波。」",
+          "en": "\"Tesla must have calculated the timing of this financial war internally… watching you domestic brands slash each other — tired now, right? Fine, let me stir up another wave.\"",
+          "note": "<span>表达提示</span>calculated timing → 精确算过时机；slash each other → 互相厮杀；stir up a wave → 刺激一波"
+        },
+        {
+          "cn": "核心机制：买30万车本是重大资产决策，需要十几万存款+下决心；现在变成四五万首付+两千多月供，对标的是「开个视频会员」的消费心理",
+          "en": "The core mechanism: buying a 300,000-yuan car used to be a major asset decision — requiring over 100,000 in savings and real resolve. Now it's a 40-to-50-thousand down payment plus a 2,000-plus monthly bill, benchmarked against the psychology of \"opening a video-streaming subscription.\"",
+          "note": "<span>表达提示</span>asset decision → 资产决策；savings → 存款；resolve → 下决心；benchmark against → 对标"
+        },
+        {
+          "cn": "关键理解：钱包厚度跟不上想法高度，就是超前消费。新能源车迭代快（电池、智驾），多数人3-5年就想换车，但贷款绑七年，第4-5年可能出现贷款余额超过车辆残值的负资产",
+          "en": "The key insight: when your wallet's thickness can't keep up with your ambition's height, that's living beyond your means. EVs iterate fast — batteries, assisted driving — so most people want a new car in 3-5 years, yet the loan binds them for seven; by years four to five, the outstanding balance can exceed the car's residual value — negative equity.",
+          "note": "<span>表达提示</span>live beyond your means → 超前消费；assisted driving → 智驾；residual value → 车辆残值；negative equity → 负资产"
+        },
+        {
+          "cn": "（引用）原文依据：「这叫做钱包的厚度跟不上想法的高度，这就是超前消费，这就是把资产决策偷换成消费决策的典型案例。」",
+          "en": "\"This is what they mean by your wallet's thickness not keeping up with your ambition's height — it's spending ahead of your means, the classic case of swapping an asset decision for a consumption decision.\"",
+          "note": "<span>表达提示</span>swap A for B → 把 A 偷换成 B；consumption decision → 消费决策；spend ahead of your means → 超前消费"
+        },
+        {
+          "cn": "（引用）相关概念：与手机换机周期类比，电车技术迭代让「开满七年」越来越不现实",
+          "en": "The analogy with the phone-replacement cycle: EV tech iterates so fast that \"keeping the car a full seven years\" is increasingly unrealistic.",
+          "note": "<span>表达提示</span>replacement cycle → 换机周期；iterate → 迭代；increasingly unrealistic → 越来越不现实"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「车企用金融手段抢市场」",
+          "phrases": [
+            "They're winning volume through finance, not engineering.",
+            "It's a sales war fought with loan terms."
+          ],
+          "chunks": "win volume through finance · fought with loan terms",
+          "usage": "第一句对比鲜明；第二句是点评式总结"
+        },
+        {
+          "intent": "想说「超前消费的本质」",
+          "phrases": [
+            "You're borrowing from your future self.",
+            "Spending today what your wallet won't earn until years later."
+          ],
+          "chunks": "borrowing from your future self · spend today",
+          "usage": "borrowing from your future self 通俗形象"
+        },
+        {
+          "intent": "想说「车贬值快过还贷」",
+          "phrases": [
+            "The car depreciates faster than the loan shrinks.",
+            "Four years in, you owe more than the car is worth."
+          ],
+          "chunks": "depreciate faster · owe more than it's worth",
+          "usage": "第二句是负资产的白话解释"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "title_cn": "Part 5 · 贷款期限与换车周期匹配",
+      "title_en": "Part 5 · Matching Loan Term with Your Replacement Cycle",
+      "context": "收尾：为什么等一等可能是更好的选择，以及如何用折旧计算器算总账。语域：casual 播客点评 + 决策建议。",
+      "speak": "Why it matters: low down payment and low monthly installments are bought with time — the total cost isn't actually much lower. A 200-to-300-thousand-yuan car is still a 200-to-300-thousand-yuan car, and interest still exists. The boundary for 2026: Sando judges that \"it's 100% the waiters' victory\" — after media pressure, some brands may switch to bank auto loans, but if you've already signed a financing-lease contract, there's no going back. As the famous line from Howard Marks' The Most Important Thing goes, \"Risk doesn't lie in investing when the market falls; it lies in not understanding what you own and why you own it.\" How to apply it: use an online depreciation calculator to work out the full seven-year cost of ownership — down payment plus 84 monthly installments plus insurance markup plus GPS plus depreciation — and compare it against \"wait a year for a bank-loan plan\" before you decide.",
+      "sentences": [
+        {
+          "cn": "为什么重要：低首付低月供是用时间换来的，总成本并没有少多少。二十多万的车仍然是二十多万，利息该有还是有",
+          "en": "Why it matters: low down payment and low monthly installments are bought with time — the total cost isn't actually much lower. A 200-plus-thousand-yuan car is still a 200-plus-thousand-yuan car, and interest is still interest.",
+          "note": "<span>表达提示</span>bought with time → 用时间换来的；total cost → 总成本"
+        },
+        {
+          "cn": "适用边界：2026年三刀判断「100%是等等党的胜利」，媒体施压后部分品牌可能调整为银行车贷，已签融资租赁合同则无法反悔",
+          "en": "The boundary: for 2026, Sando judges \"it's 100% the waiters' victory.\" After media pressure, some brands may switch to bank auto loans — but if you've already signed a financing-lease contract, there's no going back.",
+          "note": "<span>表达提示</span>waiters' victory → 等等党的胜利；media pressure → 媒体施压；no going back → 无法反悔"
+        },
+        {
+          "cn": "（引用）「风险不在于市场下跌时投资，而在于你不理解自己持有什么、为何持有。」——霍华德·马克斯《投资最重要的事》",
+          "en": "\"Risk lies not in investing when the market falls, but in not understanding what you own and why you own it.\" — Howard Marks, The Most Important Thing.",
+          "note": "<span>表达提示</span>risk lies in → 风险在于；understand what you own → 理解你持有什么"
+        },
+        {
+          "cn": "（引用）怎么落地：用网上折旧计算器算七年总用车成本（首付+84期月供+全险溢价+GPS+折旧），与「等一年看银行车贷方案」对比后再决策",
+          "en": "How to apply it: use an online depreciation calculator to work out the full seven-year cost of ownership — down payment plus 84 monthly payments plus the full-insurance markup plus GPS plus depreciation — and compare it against \"wait a year for a bank-loan plan\" before deciding.",
+          "note": "<span>表达提示</span>depreciation calculator → 折旧计算器；cost of ownership → 用车总成本；monthly payments → 月供期数"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「总价没变，只是摊薄了」",
+          "phrases": [
+            "Spreading the cost doesn't shrink it.",
+            "Smaller payments now, the same total later."
+          ],
+          "chunks": "spread the cost · the same total",
+          "usage": "spread 表示「摊薄」，说财务问题很常用"
+        },
+        {
+          "intent": "想说「等等党可能赢」",
+          "phrases": [
+            "The patient buyers might get the better deal.",
+            "Holding off could pay off big."
+          ],
+          "chunks": "patient buyers · hold off · pay off",
+          "usage": "hold off 是「先等等」的口语；pay off 表示「值得/有回报」"
+        },
+        {
+          "intent": "想说「不理解的东西别买」",
+          "phrases": [
+            "Never sign what you don't understand.",
+            "If you can't explain the deal, don't take it."
+          ],
+          "chunks": "never sign what you don't understand · can't explain the deal",
+          "usage": "两句都适合做决策原则，第二句更像金句"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "cn": "用「take the bait」说：觉得划算就上车，其实上套了。",
+      "en": "The moment you think it's a great deal, you've taken the bait."
+    },
+    {
+      "cn": "用「sale-and-leaseback」说：合同标题要警惕售后回租。",
+      "en": "Watch for the words \"sale-and-leaseback\" in the contract title."
+    },
+    {
+      "cn": "用「negative equity」说：第4-5年贷款可能超过残值。",
+      "en": "By year four, the loan balance may exceed the car's value — negative equity."
+    },
+    {
+      "cn": "用「hold off」说：等等党可能等到更好的方案。",
+      "en": "Holding off for a year might land you a better bank-loan plan."
+    }
+  ],
+  "pitfalls": [
+    {
+      "wrong": "The car loan is very cheap, I can buy a car now.",
+      "right": "Low monthly payments don't mean the car is cheap — run the full seven-year cost.",
+      "why": "「便宜」要分清是车价、利率还是月供；用 low monthly payments + total cost 区分，避免被月供数字误导。"
+    },
+    {
+      "wrong": "The car is under my name after I buy it.",
+      "right": "With a financing lease, the car isn't registered to you until the contract ends.",
+      "why": "融资租赁期间车辆登记在租赁公司名下，用 isn't registered to you 说明法律归属，而非想当然的 under my name。"
+    },
+    {
+      "wrong": "I must buy insurance in the store for 7 years.",
+      "right": "The contract mandates in-store comprehensive insurance for all seven years.",
+      "why": "「必须店内买」是合同强制条款，用 mandate/require 表达约束力；in-store 表地点。"
+    },
+    {
+      "wrong": "The car price will become lower than my loan.",
+      "right": "By year four or five, the outstanding balance can exceed the car's resale value.",
+      "why": "「贷款比车还贵」要用专业概念：outstanding balance（未还余额）与 resale value（残值），即 negative equity。"
+    }
+  ],
+  "shifts": [
+    {
+      "before": "以为低首付低月供=厂家让利、买车便宜了",
+      "after": "低门槛只是把资产决策偷换成消费决策，总成本并没有变少"
+    },
+    {
+      "before": "以为「银行车贷」和「融资租赁」差不多",
+      "after": "融资租赁车辆不属于你，还有强制全险、GPS、逾期拖车等隐性成本"
+    },
+    {
+      "before": "以为贷款年限越长越轻松",
+      "after": "7年贷款与3-5年换车周期错配，第4-5年可能陷入负资产"
+    }
+  ],
+  "voice": "en-US-JennyNeural",
+  "audio_dir": "audio/en/diqi_chedai_zhenxiang"
+}

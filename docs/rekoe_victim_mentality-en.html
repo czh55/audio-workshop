@@ -1,0 +1,956 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="17. 为什么每个人都觉得自己是受害者？ — Bilingual Learning Edition" />
+  <title>17. 为什么每个人都觉得自己是受害者？｜EN 双语学习版</title>
+  <style>:root{--teal-950:#073f42;--teal-800:#0d686c;--teal-700:#0f7c80;--teal-600:#14919b;--mint-100:#dff4ec;--mint-50:#f0faf6;--ink:#183536;--muted:#607879;--line:#d7e8e2;--paper:#fff;--amber:#a85d08;--shadow:0 12px 32px rgba(7,63,66,.08)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:24px}
+body{margin:0;color:var(--ink);background:#edf7f2;font-family:Inter,"PingFang SC","Noto Sans SC","Microsoft YaHei",system-ui,sans-serif;line-height:1.65}
+button,select{font:inherit}
+a{color:inherit}
+.hero{color:#fff;background:radial-gradient(circle at 85% 10%,rgba(129,230,196,.24),transparent 30%),linear-gradient(125deg,#073f42,#0d7377 56%,#14919b)}
+.hero-inner{width:min(1440px,100%);margin:auto;padding:44px clamp(20px,5vw,72px) 36px}
+.hero-flex{display:flex;gap:clamp(18px,3vw,40px);align-items:flex-start}
+.hero-cover{width:min(240px,42vw);height:auto;max-height:320px;object-fit:contain;object-position:center;border-radius:16px;border:1px solid rgba(255,255,255,.28);box-shadow:0 18px 44px rgba(0,0,0,.32);flex-shrink:0;background:rgba(255,255,255,.08)}
+.hero-text{min-width:0;flex:1}
+.eyebrow{margin:0 0 12px;font-size:.78rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;opacity:.8}
+h1{max-width:1020px;margin:0;font-size:clamp(1.7rem,3.6vw,3rem);line-height:1.15;letter-spacing:-.04em}
+.hero-en{margin:12px 0 22px;font-size:clamp(1rem,2vw,1.25rem);opacity:.82}
+.hero-meta{display:flex;flex-wrap:wrap;gap:9px;align-items:center}
+.chip{border:1px solid rgba(255,255,255,.28);border-radius:99px;padding:5px 11px;font-size:.82rem;background:rgba(255,255,255,.08)}
+.source-link{font-weight:750;text-decoration:none;border-bottom:1px solid rgba(255,255,255,.5)}
+.toolbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:22px}
+.toolbar label{font-size:.82rem;opacity:.82}
+.toolbar select{color:#fff;background:#0a5d61;border:1px solid rgba(255,255,255,.3);border-radius:8px;padding:7px 9px}
+.stop-btn{display:none;color:#fff;background:#8c3b2a;border:0;border-radius:8px;padding:8px 12px;cursor:pointer}
+.stop-btn.visible{display:inline-flex}
+.speech-status{min-height:1.4em;font-size:.82rem;opacity:.88}
+.lang-switch{display:inline-flex;gap:6px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.28);border-radius:99px;padding:4px}
+.lang-switch a{display:inline-block;padding:4px 13px;border-radius:99px;font-size:.8rem;font-weight:700;text-decoration:none;color:rgba(255,255,255,.75)}
+.lang-switch a.active{background:#fff;color:var(--teal-800)}
+.narration-player{margin-top:16px;padding:14px 18px;background:rgba(255,255,255,.1);border-radius:12px;border:1px solid rgba(255,255,255,.15)}
+.audio-label{color:rgba(255,255,255,.88);font-size:.82rem;font-weight:700;margin:0 0 8px}
+.page{width:min(1440px,100%);margin:auto;padding:28px clamp(16px,3vw,44px) 64px;display:grid;grid-template-columns:minmax(230px,280px) minmax(0,1fr);gap:30px;align-items:start}
+.sidebar{position:sticky;top:20px;min-width:0}
+.sidebar-box{background:rgba(255,255,255,.8);border:1px solid var(--line);border-radius:16px;padding:17px;box-shadow:var(--shadow);backdrop-filter:blur(12px)}
+.sidebar h2{margin:0 0 13px;font-size:.9rem;letter-spacing:.08em;color:var(--teal-800)}
+.map-link{display:grid;grid-template-columns:34px minmax(0,1fr);gap:9px;padding:10px 6px;text-decoration:none;border-top:1px solid var(--line)}
+.map-link:hover b{color:var(--teal-700)}
+.map-id{width:30px;height:30px;display:grid;place-items:center;border-radius:9px;color:#fff;background:var(--teal-700);font-size:.72rem;font-weight:800}
+.map-link b{display:block;font-size:.78rem;line-height:1.4}
+.map-link small{display:block;color:var(--muted);font-size:.67rem;line-height:1.4;margin-top:2px;overflow-wrap:anywhere}
+.content{min-width:0}
+.scene-card{background:var(--paper);border:1px solid var(--line);border-radius:20px;padding:clamp(20px,3vw,34px);margin-bottom:24px;box-shadow:var(--shadow);overflow:hidden}
+.scene-topline{display:flex;justify-content:space-between;gap:16px;align-items:center;margin-bottom:16px}
+.scene-id{display:inline-grid;place-items:center;min-width:42px;height:30px;padding:0 10px;color:#fff;background:var(--teal-700);border-radius:8px;font-size:.78rem;font-weight:850}
+.time{margin-left:10px;color:var(--muted);font-size:.82rem;font-variant-numeric:tabular-nums}
+.scene-card h2{margin:0 0 2px;font-size:clamp(1.35rem,2.4vw,2rem);line-height:1.25;color:var(--teal-950)}
+.scene-title-en{margin:0 0 18px;color:var(--teal-600);font-weight:700;font-size:.98rem}
+.context{margin:0 0 20px;padding:12px 15px;color:#496566;background:var(--mint-50);border-left:3px solid var(--teal-600);border-radius:0 10px 10px 0;font-size:.88rem}
+.context b{margin-right:10px;color:var(--teal-800)}
+.sentence-list{display:grid;gap:12px}
+.sentence{position:relative;display:grid;grid-template-columns:38px minmax(0,1fr);gap:12px;padding:16px;border:1px solid #e2ece8;border-radius:14px;background:#fcfefd;min-width:0}
+.sentence-no{color:var(--teal-600);font-size:.76rem;font-weight:850;font-variant-numeric:tabular-nums;padding-top:4px}
+.bilingual{min-width:0;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(14px,2vw,28px)}
+.lang-block{min-width:0}
+.lang-block p{margin:5px 0 0;overflow-wrap:anywhere}
+.en-block{padding-left:clamp(14px,2vw,28px);border-left:1px solid var(--line)}
+.en-block p{color:#0b5c60;font-weight:650}
+.lang-tag{display:inline-block;color:var(--muted);font-size:.66rem;font-weight:850;letter-spacing:.12em}
+.en-head{display:flex;justify-content:space-between;gap:10px;align-items:center;min-height:30px}
+.note{grid-column:2;margin:1px 0 0;color:#708182;font-size:.78rem}
+.note span{margin-right:7px;color:var(--amber);font-weight:750}
+.speak-btn{display:inline-flex;align-items:center;gap:7px;border:1px solid #b8d9d1;border-radius:9px;padding:7px 11px;color:var(--teal-800);background:#f5fbf8;cursor:pointer;white-space:nowrap;font-size:.78rem;font-weight:750;transition:.15s ease}
+.speak-btn:hover{color:#fff;background:var(--teal-700);border-color:var(--teal-700);transform:translateY(-1px)}
+.speak-btn.playing{color:#fff;background:var(--teal-700);border-color:var(--teal-700)}
+.speak-btn.compact{padding:4px 8px;font-size:.7rem}
+.speak-btn.icon-only{padding:3px 7px;margin-left:6px}
+.speak-btn.icon-only span:last-child{display:none}
+.pronounce-word{display:inline;margin:0;padding:0 2px;color:inherit;background:rgba(20,145,155,.08);border:0;border-bottom:1px dashed var(--teal-600);border-radius:3px;font:inherit;font-weight:inherit;line-height:inherit;cursor:pointer}
+.pronounce-word:hover,.pronounce-word:focus{color:var(--teal-950);background:#cceee4;border-bottom-style:solid;outline:3px solid rgba(20,145,155,.42);outline-offset:2px}
+.pronounce-word.playing{color:#fff;background:var(--teal-700);border-bottom-color:var(--teal-700)}
+.paraphrase{margin-top:18px;border-top:1px solid var(--line)}
+.paraphrase summary{padding:16px 0 3px;color:var(--teal-800);cursor:pointer;font-weight:800}
+.paraphrase summary span{color:var(--muted);font-size:.75rem;font-weight:500;margin-left:8px}
+.paraphrase ol{margin:12px 0 0;padding-left:22px}
+.paraphrase li{padding:7px 0 9px 5px}
+.paraphrase li p{margin:0;font-size:.9rem;font-weight:650}
+.paraphrase li small{display:block;color:var(--muted);font-size:.72rem;margin-top:2px}
+.chunks{margin-top:4px;color:var(--teal-700);font-size:.78rem}
+.study-section{margin:38px 0 0}
+.section-heading{display:flex;align-items:baseline;gap:10px;margin:0 0 15px;color:var(--teal-950);font-size:1.35rem}
+.section-heading small{color:var(--teal-600);font-size:.78rem;letter-spacing:.05em}
+.study-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.study-grid article{padding:17px;background:#fff;border:1px solid var(--line);border-radius:14px;box-shadow:0 6px 18px rgba(7,63,66,.05);min-width:0}
+.study-grid p{margin:0}
+.practice-en{margin-top:9px;color:var(--teal-700);font-weight:650;overflow-wrap:anywhere}
+.wrong{color:#a24831;text-decoration:line-through;overflow-wrap:anywhere}
+.right{color:var(--teal-700);font-weight:750;margin:5px 0;overflow-wrap:anywhere}
+.pitfalls p{color:var(--muted);font-size:.82rem}
+.shifts article{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1.5fr);gap:12px;align-items:center}
+.shifts b{color:var(--teal-600);font-size:1.2rem}
+.shifts strong{color:var(--teal-800)}
+footer{margin-top:38px;color:var(--muted);font-size:.78rem;text-align:center}
+.footer-note{margin-top:6px}
+@media (max-width:900px){
+  .page{grid-template-columns:1fr}
+  .sidebar{position:static}
+  .sidebar-box{overflow-x:auto;padding:12px}
+  .sidebar h2{padding-left:5px}
+  .map-nav{display:flex;width:max-content;gap:8px}
+  .map-link{width:240px;border:1px solid var(--line);border-radius:10px;padding:8px}
+  .bilingual{grid-template-columns:1fr}
+  .en-block{padding:12px 0 0;border-left:0;border-top:1px dashed var(--line)}
+}
+@media (max-width:620px){
+  .hero-inner{padding-top:30px}
+  .hero-flex{flex-direction:column;align-items:center}
+  .hero-cover{width:100%;max-width:360px}
+  .hero-text{text-align:center}
+  .page{padding-inline:10px;gap:18px}
+  .scene-card{border-radius:14px;padding:17px 13px}
+  .scene-topline{align-items:flex-start}
+  .scene-speak span:last-child{display:none}
+  .sentence{grid-template-columns:26px minmax(0,1fr);padding:13px 10px;gap:6px}
+  .note{grid-column:2}
+  .study-grid{grid-template-columns:1fr}
+  .shifts article{grid-template-columns:1fr;gap:5px}
+  .shifts b{transform:rotate(90deg);justify-self:start}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.speak-btn{transition:none}}</style>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="hero-flex">
+        <div class="hero-text">
+          <p class="eyebrow">Psychology &amp; Society · 心理与社会</p>
+          <h1>17. 为什么每个人都觉得自己是受害者？</h1>
+          <p class="hero-en">17. Why Does Everyone Feel Like a Victim?</p>
+          <p class="summary-en" style="margin:0 0 14px;padding:14px 16px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.22);border-radius:12px;font-size:.95rem;line-height:1.7">Starting from internet flame wars, Shiyu analyzes how victimhood culture evolved out of honor culture and dignity culture. She reveals the era mood of 'self-mo,' the virtue of the beautiful-suffering victim, and the psychology of competitive suffering. In the end she explores how to find a path between acknowledging trauma and staying alert to victim narratives — a path toward both empathy and personal growth.</p>
+          <div class="hero-meta">
+            <span class="chip">2026-06-23</span>
+            <span class="chip">小宇宙FM</span>
+            <span class="chip">42分16秒</span>
+            <span class="chip">5 Scenes</span>
+            <span class="chip">Click underlined words to hear them</span>
+            <a class="source-link" href="https://www.xiaoyuzhoufm.com/episode/69c176b0521e5c0a80abbf7e" target="_blank" rel="noopener">原播客 ↗</a>
+          </div>
+        </div>
+      </div>
+      <div class="toolbar">
+        <div class="lang-switch"><div class="lang-switch"><a href="rekoe_victim_mentality-总结.html">中文</a><a class="active" href="rekoe_victim_mentality-en.html" aria-current="page">EN</a></div></div>
+        <label for="speech-rate">朗读速度</label>
+        <select id="speech-rate">
+          <option value="0.85">慢速 0.85×</option>
+          <option value="1" selected>正常 1×</option>
+          <option value="1.15">快速 1.15×</option>
+        </select>
+        <button id="stop-speech" class="stop-btn" type="button">■ 停止朗读</button>
+        <span id="speech-status" class="speech-status" role="status" aria-live="polite"></span>
+      </div>
+      <div class="narration-player">
+      <p class="audio-label">🎧 中文语音讲解</p>
+      <button class="speak-btn" type="button" data-audio="audio/rekoe_victim_mentality.mp3" aria-label="播放语音讲解"><span aria-hidden="true">▶</span><span>播放语音讲解</span></button>
+    </div>
+    </div>
+  </header>
+  <main class="page">
+    <aside class="sidebar" aria-label="场景地图">
+      <div class="sidebar-box">
+        <h2>场景地图 · SCENE MAP</h2>
+        <nav class="map-nav">
+          <a class="map-link" href="#s1">
+          <span class="map-id">S1</span>
+          <span><b>一、受害者文化从何而来</b><small> · Part 1: Where Does Victimhood Culture Come From?</small></span>
+        </a>
+<a class="map-link" href="#s2">
+          <span class="map-id">S2</span>
+          <span><b>二、互联网上的创伤共识</b><small> · Part 2: Shared Trauma as Online Consensus</small></span>
+        </a>
+<a class="map-link" href="#s3">
+          <span class="map-id">S3</span>
+          <span><b>三、美德受害者与竞争性比惨</b><small> · Part 3: The Virtuous Victim and Competitive Suffering</small></span>
+        </a>
+<a class="map-link" href="#s4">
+          <span class="map-id">S4</span>
+          <span><b>四、社会结构与解释框架的撕裂</b><small> · Part 4: The Rift Between Social Structure and Frameworks of Explanation</small></span>
+        </a>
+<a class="map-link" href="#s5">
+          <span class="map-id">S5</span>
+          <span><b>五、防御、主体性与出路</b><small> · Part 5: Defensiveness, Agency, and the Way Out</small></span>
+        </a>
+        </nav>
+      </div>
+    </aside>
+    <div class="content">
+      <section class="scene-card" id="s1" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S1</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/rekoe_victim_mentality/s1.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>一、受害者文化从何而来</h2>
+      <p class="scene-title-en">Part 1: Where Does Victimhood Culture Come From?</p>
+      <p class="context"><b>情境</b>从荣誉文化、尊严文化到受害者文化的转型讲起，并引入「自嬷」概念。语域：formal 社会心理学讲解。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：Bradley Campbell 等社会学家提出，社会应对冲突的道德逻辑经历了三次转型，我们正身处第三种越来越流行的阶段</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/rekoe_victim_mentality/s1-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The core mechanism: sociologists like Bradley Campbell propose that the moral logic a society uses to handle conflict has undergone three transformations, and we are in the third, increasingly popular phase.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>moral logic → 道德逻辑；transformations → 转型；increasingly popular → 越来越流行</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：道德意涵的重要性已超过荣誉与尊严本身，「受害者」成为最具道德资本的身份标签</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/rekoe_victim_mentality/s1-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key insight: moral meaning has become more important than honor and dignity themselves — 'victim' has become the identity label with the most moral capital.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>moral meaning → 道德意涵；moral capital → 道德资本；identity label → 身份标签</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>典型场景：网上吵架不再论证谁更正确，而是论证谁受到更多伤害、谁更惨</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/rekoe_victim_mentality/s1-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">A typical scene: online arguments no longer debate who is more right, but argue over who was harmed more and who is worse off.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>argue over → 论证；harmed more → 受更多伤害；worse off → 更惨</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据：受害者文化既保留了荣誉文化对被羞辱的敏感，又继承了尊严文化对第三方公正审判的依赖</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/rekoe_victim_mentality/s1-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">In the author's own words: victimhood culture keeps honor culture's sensitivity to humiliation while inheriting dignity culture's reliance on third-party impartial judgment.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>sensitivity to humiliation → 对被羞辱的敏感；impartial judgment → 公正审判；inherit → 继承</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>「嬷」来自同人圈，指将角色脆弱化、可怜化以获得怜爱。演变为「自嬷」后，指向社会互动中「没有被公平对待」的委屈感，需要被体谅、心疼、看见</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/rekoe_victim_mentality/s1-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">'Mo' comes from fan communities, meaning to make a character fragile and pitiable to win affection. When it evolves into 'self-mo,' it points to the grievance of 'not being treated fairly' in social interaction — a feeling that needs to be understood, cherished, and seen.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>fan communities → 同人圈；make fragile and pitiable → 脆弱化可怜化；self-mo → 自嬷；grievance → 委屈感</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）"如果我被人揍了一顿，我其实会希望大家能够看见我身上鼻青脸肿的伤痕，然后来心疼我、温柔地体谅我。"</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/rekoe_victim_mentality/s1-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">A quote: 'If I got beaten up, I would actually hope people could see the bruises on my face and body, and then cherish me and treat me gently.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>bruises → 伤痕；cherish me → 心疼我；treat me gently → 温柔地体谅我</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「受害者成为最有道德资本的身份」</p><div class="chunks">moral capital · the most prestigious label</div><small>第一句是学术表述；第二句更口语贴网感</small></li>
+<li><p>想说「想被看见伤痕然后被心疼」</p><div class="chunks">see the bruises · hope for tenderness</div><small>第一句更自然口语，第二句更凝练</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s2" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S2</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/rekoe_victim_mentality/s2.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>二、互联网上的创伤共识</h2>
+      <p class="scene-title-en">Part 2: Shared Trauma as Online Consensus</p>
+      <p class="context"><b>情境</b>讲互联网上彼此空白，创伤成为唯一共识基础与最低成本的身份表达。语域：formal 社会观察。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>在讲什么：现实中你了解对方的历史与生命经验，沟通有共识基础；互联网上对话双方彼此空白，唯一可端出的共识往往是共同的创伤</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/rekoe_victim_mentality/s2-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">What it means: in real life you know the other person's history and life experience, so communication has a foundation of consensus; online, the two sides are blank to each other, and the only consensus they can offer is often shared trauma.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>foundation of consensus → 共识基础；blank to each other → 彼此空白；shared trauma → 共同的创伤</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：创伤成为相互理解的语料库，也是最低成本的互相确认——「你也受过这种伤，我们看见了彼此」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/rekoe_victim_mentality/s2-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key insight: trauma becomes the corpus for mutual understanding and the lowest-cost form of mutual confirmation — 'you've been hurt this way too, so we see each other.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>corpus → 语料库；mutual confirmation → 互相确认；see each other → 看见彼此</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>怎么用：意识到线上争论中，对方可能在用创伤叙事解释自己，而非纯粹逻辑攻防</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/rekoe_victim_mentality/s2-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">How to use it: in an online argument, be aware that the other side may be explaining themselves through a trauma narrative rather than pure logical attack.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>trauma narrative → 创伤叙事；logical attack → 逻辑攻防；explain oneself → 解释自己</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据：当我们渴望正面沟通时，对话建立在「我们都被原生家庭这样对待过」这类创伤共识之上</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/rekoe_victim_mentality/s2-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">In the author's own words: when we long for genuine communication, the dialogue is built on a trauma consensus such as 'we were all treated this way by our original families.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>genuine communication → 正面沟通；original families → 原生家庭；trauma consensus → 创伤共识</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>原因：受害者身份能最低成本、最快速地表达「我是谁」和「我渴望什么」，也方便同类人聚拢互相安慰</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/rekoe_victim_mentality/s2-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The reason: the victim identity is the fastest and lowest-cost way to express 'who I am' and 'what I long for,' and it lets like-minded people cluster together to comfort each other.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>long for → 渴望；cluster together → 聚拢；comfort each other → 互相安慰</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>解法：区分「寻求理解」与「争夺道德高位」——前者可能带来成长，后者常陷入比惨循环</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/rekoe_victim_mentality/s2-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The solution: distinguish 'seeking understanding' from 'competing for the moral high ground' — the former can bring growth, while the latter often sinks into a cycle of competitive suffering.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>moral high ground → 道德高位；competitive suffering → 比惨；seek understanding → 寻求理解</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「创伤是最低成本的共识」</p><div class="chunks">cheapest consensus · the only bridge</div><small>第二句更有画面感，适合复述观点</small></li>
+<li><p>想说「寻求理解 vs 争夺道德高位」</p><div class="chunks">seeking vs grabbing · explain or weaponize</div><small>第二句的对比提问很有力，适合讨论</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s3" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S3</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/rekoe_victim_mentality/s3.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>三、美德受害者与竞争性比惨</h2>
+      <p class="scene-title-en">Part 3: The Virtuous Victim and Competitive Suffering</p>
+      <p class="context"><b>情境</b>拆解「美强惨」的吸引力、被指控时先比惨的反应，以及道德零和博弈。语域：formal 心理机制分析。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>美德性（Virtuous Victimhood）：不仅要惨，还要是「好人」——美强惨之所以上头，因为美和强证明你值得帮助。支持美强惨，本质是填补自己「也想被公正对待」的代偿心理</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/rekoe_victim_mentality/s3-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Virtuous victimhood: you need not only to suffer but to be a 'good person' — the beautiful, strong, and tragic is so addictive because beauty and strength prove you deserve help. Supporting the beautiful-suffering is essentially compensating for your own desire to be treated fairly.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>virtuous victimhood → 美德受害者；beautiful, strong, and tragic → 美强惨；addictive → 上头；compensate for → 填补…的代偿心理</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>竞争性：被指控伤害他人时，第一反应往往不是道歉，而是宣称「我才是受害者」「我比你更惨」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/rekoe_victim_mentality/s3-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The competitive side: when accused of harming others, the first reaction is often not an apology but declaring 'I'm the real victim' or 'I've suffered more than you.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>first reaction → 第一反应；the real victim → 我才是受害者；I've suffered more → 我比你更惨</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）相关概念：道德二元论（失动者 vs 承受者）、道德零和博弈、集体内疚的消解</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/rekoe_victim_mentality/s3-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Related concepts: moral dualism (the doer versus the sufferer), moral zero-sum games, and the dissolving of collective guilt.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>moral dualism → 道德二元论；zero-sum game → 零和博弈；collective guilt → 集体内疚；doer vs sufferer → 施动者 vs 承受者</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>竞争受害者身份能减少「我伤害了他人」的内疚，重新夺回道德制高点，抵消他人的道德索赔——「因为我也是受害者，所以我不欠你们的」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/rekoe_victim_mentality/s3-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Competing for the victim identity reduces the guilt of 'I harmed someone,' reclaims the moral high ground, and cancels the other's moral claim — 'because I'm also a victim, I owe you nothing.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>reclaim the high ground → 夺回制高点；cancel a claim → 抵消索赔；owe you nothing → 不欠你们</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>适用边界：对结构性弱势群体的真实伤害承认不在此列；反思针对的是优势群体在舆论中的「反向受害」表演，以及关系中的相互比惨</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/rekoe_victim_mentality/s3-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The boundary: this doesn't cover the real harm suffered by structurally disadvantaged groups; the reflection targets privileged groups' 'reverse victim' performances in public opinion and mutual suffering-comparing within relationships.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>structurally disadvantaged → 结构性弱势；reverse victim → 反向受害；public opinion → 舆论；suffering-comparing → 相互比惨</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）"在道德上是清白的、我是一个好人、我不欠任何人任何东西——这种心理状态比几乎所有其他安全属性都更重要。"</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/rekoe_victim_mentality/s3-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">A quote: 'Being morally clean, being a good person, owing no one anything — this psychological state matters more than almost any other safety attribute.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>morally clean → 道德上清白；safety attribute → 安全属性；matter more than → 比…更重要</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「美强惨为什么上头」</p><div class="chunks">worthy of help · the prettier the sufferer</div><small>第一句理性解释；第二句带一点讽刺，适合评论</small></li>
+<li><p>想说「被指控时先比惨」</p><div class="chunks">out-suffer the accuser · the first move</div><small>第二句 out-suffer 很犀利，适合点评现象</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s4" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S4</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/rekoe_victim_mentality/s4.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>四、社会结构与解释框架的撕裂</h2>
+      <p class="scene-title-en">Part 4: The Rift Between Social Structure and Frameworks of Explanation</p>
+      <p class="context"><b>情境</b>两种显学对苦难的相反解释、受害者叙事的时代激励结构，以及《房思琪》的例证。语域：formal 社会批判。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：当代两大显学给出互不兼容的苦难解释——前者把一切痛苦归因外部结构（我是结构受害者），后者把一切苦难个人化（凡事发生皆有利于我，你要自己负责）</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/rekoe_victim_mentality/s4-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The core mechanism: two reigning schools of thought give incompatible explanations of suffering — one attributes all pain to external structures ('I'm a structural victim'), the other personalizes all suffering ('everything happens for my benefit; you must take responsibility').</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>reigning schools of thought → 两大显学；external structures → 外部结构；structural victim → 结构受害者；personalize suffering → 把苦难个人化</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：两者同样高涨，反映的是：无论哪种框架，我们都迫切需要苦难被看见、被清晰解释，否则无法继续生活</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/rekoe_victim_mentality/s4-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key insight: both are rising equally, which reflects that whatever the framework, we urgently need our suffering to be seen and clearly explained — otherwise we cannot continue living.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>urgently need → 迫切需要；be seen → 被看见；clearly explained → 被清晰解释</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据：受害者叙事流行不只是个体心理现象，而是社会赋予受害者身份最高道德权威的时代激励结构所致</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/rekoe_victim_mentality/s4-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">In the author's own words: the popularity of victim narratives isn't just an individual psychological phenomenon, but the result of an era's incentive structure that grants the victim identity the highest moral authority.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>incentive structure → 激励结构；moral authority → 道德权威；era → 时代</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>《房思琪的初恋乐园》等书写结构性受害，不是要女性停留在弱者位置，而是文明社会必须优先保护仍处弱势者的敏感与伤害可见性</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/rekoe_victim_mentality/s4-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Works like 'Fang Siqi's First Love Paradise' write about structural victimization not to keep women in the weak position, but because a civilized society must first protect the sensitivity and visibility of harm for those who are still vulnerable.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>structural victimization → 结构性受害；vulnerable → 弱势者；visibility of harm → 伤害可见性</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>判断标准：不是「有没有立刻改变现实」，而是「看清痛苦后能否赋予你继续往前走的力量」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/rekoe_victim_mentality/s4-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The judgment standard: not 'does it immediately change reality,' but 'after seeing the pain clearly, can it give you the strength to keep moving forward.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>judgment standard → 判断标准；give you strength → 赋予你力量；keep moving forward → 继续往前走</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）怎么落地：对结构性弱者提供看见与帮助；对自己则问——这番表达是防御的开始，还是理解的完成？</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/rekoe_victim_mentality/s4-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">How to apply it: offer seeing and help to the structurally weak; for yourself, ask — is this expression the beginning of defensiveness, or the completion of understanding?</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>the beginning of defensiveness → 防御的开始；the completion of understanding → 理解的完成</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「两种框架都渴望苦难被看见」</p><div class="chunks">want the pain seen · a demand to be witnessed</div><small>第二句用 witnessed 点出「被见证」的本质，很贴切</small></li>
+<li><p>想说「判断标准是有没有给你往前走的力量」</p><div class="chunks">strength to go on · power you forward or pin you down</div><small>第二句的对仗提问更适合口语讨论</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s5" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S5</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/rekoe_victim_mentality/s5.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>五、防御、主体性与出路</h2>
+      <p class="scene-title-en">Part 5: Defensiveness, Agency, and the Way Out</p>
+      <p class="context"><b>情境</b>过度敏感与「我更受害」回应的本质，荣格个体化，以及表达完成 vs 欲望满足。语域：formal 心理学收尾。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>在讲什么：对他人表达过度敏感、习惯性「我更受害」回应，本质是个体性/主体性尚未确立的不完整状态，在不安全环境中的应激反应</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/rekoe_victim_mentality/s5-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">What it means: being overly sensitive to others' words and habitually answering with 'I'm the bigger victim' is essentially the incomplete state of an individual whose subjectivity hasn't been established — a stress response in an unsafe environment.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>overly sensitive → 过度敏感；subjectivity → 主体性；stress response → 应激反应；incomplete state → 不完整状态</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：慕强与比惨并不矛盾——都是通过身份（强者或美德受害者）索取被看见与承认，而非真正的强弱</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/rekoe_victim_mentality/s5-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key insight: worshiping strength and competing in suffering aren't contradictory — both use identity (the strong or the virtuous victim) to demand being seen and recognized, rather than being about true strength or weakness.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>worship strength → 慕强；demand recognition → 索取被看见与承认；contradictory → 矛盾的</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>怎么用：觉察自己是在「控制」关系（防御）还是在「理解」自己（成长）</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/rekoe_victim_mentality/s5-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">How to check yourself: are you 'controlling' the relationship (defensiveness) or 'understanding' yourself (growth)?</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>control the relationship → 控制关系；defensiveness → 防御；understand yourself → 理解自己</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）相关概念：荣格个体化、主体性、控制 vs 理解、表达完成 vs 欲望满足</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/rekoe_victim_mentality/s5-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Related concepts: Jungian individuation, agency, control versus understanding, and expression-as-completion versus desire-gratification.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>individuation → 个体化；agency → 主体性；desire-gratification → 欲望满足；expression-as-completion → 表达完成</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>为什么重要：若讲述创伤只为向外索取赔偿来填补巨大不安全感，这是变形的防御，得不到真正想要的承认</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/rekoe_victim_mentality/s5-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Why it matters: if telling your trauma exists only to extract compensation from outside and fill a huge insecurity, it's a deformed defense — and it will never win the real recognition you want.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>extract compensation → 索取赔偿；deformed defense → 变形的防御；insecure → 不安全感；win recognition → 得到承认</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>适用边界：对仍处结构性伤害中的人，先被看见是前提；此心法适用于已有一定安全感、能进行自我反思的语境</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/rekoe_victim_mentality/s5-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The boundary: for people still in structural harm, being seen comes first; this mindset applies to contexts where you already have some sense of security and can reflect on yourself.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>being seen first → 先被看见；sense of security → 安全感；reflect on oneself → 自我反思</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「慕强和比惨都是要被看见」</p><div class="chunks">bids to be seen · the same hunger</div><small>第二句更凝练有力，适合做总结</small></li>
+<li><p>想说「你在控制关系还是在理解自己」</p><div class="chunks">managing vs understanding · defensiveness controls, growth understands</div><small>第二句对仗工整，适合提醒自己</small></li>
+        </ol>
+      </details>
+    </section>
+      <section class="study-section" id="practice">
+      <h2 class="section-heading">今日可练 <small>PRACTICE TODAY</small></h2>
+      <div class="study-grid">
+        <article>
+          <p>用「moral capital」说：受害者是最有道德资本的身份。</p>
+          <div class="practice-en">
+            In online fights, the victim identity carries the most moral capital.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/rekoe_victim_mentality/practice-0.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「moral high ground」说：争夺道德高位。</p>
+          <div class="practice-en">
+            When accused, people often grab the moral high ground by claiming 'I'm the real victim.'
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/rekoe_victim_mentality/practice-1.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「seek understanding」说：寻求理解而不是比惨。</p>
+          <div class="practice-en">
+            Distinguish seeking understanding from competing over who suffered more.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/rekoe_victim_mentality/practice-2.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「being seen」说：先被看见是前提。</p>
+          <div class="practice-en">
+            For the structurally weak, being seen is the first step before anything else.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/rekoe_victim_mentality/practice-3.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article>
+      </div>
+    </section>
+      <section class="study-section pitfalls" id="pitfalls">
+      <h2 class="section-heading">避坑 <small>PITFALLS</small></h2>
+      <div class="study-grid">
+        <article>
+          <div class="wrong">✕ Everyone wants to be the victim on the internet.</div>
+          <div class="right">✓ In online disputes, people compete to claim the victim identity because it carries moral capital.</div>
+          <p>wants to be 太主观随意；用 compete to claim + moral capital 才符合社会机制分析。</p>
+        </article><article>
+          <div class="wrong">✕ He is very good at playing pitiful.</div>
+          <div class="right">✓ He performs vulnerability to win sympathy and the moral high ground.</div>
+          <p>playing pitiful 是中式直译；perform vulnerability / play the victim 才是地道表达。</p>
+        </article><article>
+          <div class="wrong">✕ The beautiful, strong and miserable character makes people feel uncomfortable.</div>
+          <div class="right">✓ The beautiful, strong, and tragic is addictive because beauty and strength prove they deserve help.</div>
+          <p>uncomfortable 意思相反；addictive 才是「上头」，且要给出原因才完整。</p>
+        </article><article>
+          <div class="wrong">✕ Telling trauma can help you get compensation.</div>
+          <div class="right">✓ Narrating trauma only to extract compensation is a deformed defense that won't win real recognition.</div>
+          <p>把讲述创伤等同于索赔太片面；要指出这是变形的防御，带批判视角才准确。</p>
+        </article>
+      </div>
+    </section>
+      <section class="study-section shifts" id="mindset">
+      <h2 class="section-heading">认知转变 <small>MINDSET SHIFTS</small></h2>
+      <div class="study-grid">
+        <article>
+          <span>以为网上吵架争的是谁更有理</span>
+          <b aria-hidden="true">→</b>
+          <strong>争的其实是谁更惨、谁受的伤害更多——受害者成为道德制高点</strong>
+        </article><article>
+          <span>以为比惨是矫情，只是个人心理问题</span>
+          <b aria-hidden="true">→</b>
+          <strong>这是社会赋予受害者身份最高道德权威的激励结构在起作用</strong>
+        </article><article>
+          <span>以为讲述创伤就该获得同情和补偿</span>
+          <b aria-hidden="true">→</b>
+          <strong>关键看表达是防御的开始还是理解的完成，前者永远得不到真承认</strong>
+        </article>
+      </div>
+    </section>
+      <footer>
+        双语学习版 · 场景/句子朗读使用 edge-tts（en-US） · 单词发音使用浏览器 Web Speech API
+        <div class="footer-note">中文版：<a href="rekoe_victim_mentality-总结.html">rekoe_victim_mentality-总结.html</a> · SVG 版：<a href="viewer.html?f=rekoe_victim_mentality-总结.svg" target="_blank">rekoe_victim_mentality-总结.svg</a></div>
+      </footer>
+    </div>
+  </main>
+  <script>(() => {
+  let activeAudio = null;
+  let activeBtn = null;
+  const status = document.getElementById('speech-status');
+  const stopBtn = document.getElementById('stop-speech');
+  const rateSel = document.getElementById('speech-rate');
+
+  const reset = () => {
+    if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+    activeBtn?.classList.remove('playing');
+    activeBtn = null;
+    stopBtn.classList.remove('visible');
+    status.textContent = '';
+  };
+
+  const playAudio = (url, btn) => {
+    reset();
+    const audio = new Audio(url);
+    audio.playbackRate = Number(rateSel.value);
+    activeAudio = audio;
+    activeBtn = btn;
+    btn.classList.add('playing');
+    stopBtn.classList.add('visible');
+    status.textContent = btn.classList.contains('scene-speak')
+      ? 'Reading the whole scene…'
+      : 'Reading…';
+
+    audio.onended = () => { if (activeAudio === audio) reset(); };
+    audio.onerror = () => { status.textContent = 'Audio failed to load.'; if (activeAudio === audio) reset(); };
+    audio.play().catch(() => { status.textContent = 'Playback failed.'; if (activeAudio === audio) reset(); });
+  };
+
+  document.addEventListener('click', e => {
+    const btn = e.target.closest('[data-audio]');
+    if (!btn) return;
+    e.preventDefault();
+    if (btn === activeBtn && activeAudio) { reset(); return; }
+    playAudio(btn.dataset.audio, btn);
+  });
+
+  stopBtn.addEventListener('click', reset);
+
+  const synth = window.speechSynthesis;
+  const getEnglishVoice = () => {
+    const voices = synth.getVoices();
+    return voices.find(v => /^en-(US|GB)/i.test(v.lang))
+        || voices.find(v => /^en/i.test(v.lang)) || null;
+  };
+
+  const difficultWords = new Set([
+    'assortment', 'SKU', 'premium', 'margin', 'middleman', 'OEM', 'rebranding',
+    'hoarding', 'PTSD', 'curation', 'repurchase', 'touchpoint', 'backlash',
+    'reshuffle', 'funnel', 'anchor', 'contract', 'psychology', 'private', 'label',
+    'editorial', 'familiar', 'competitors', 'authorization', 'flexibility'
+  ]);
+
+  const shouldPronounce = word => {
+    const n = word.toLowerCase().replace(/^[^a-z]+|[^a-z]+$/g, '');
+    return n.replace(/[^a-z]/g, '').length >= 8 || difficultWords.has(n);
+  };
+
+  const markPronounceableWords = root => {
+    const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+    const nodes = [];
+    while (walker.nextNode()) nodes.push(walker.currentNode);
+    nodes.forEach(node => {
+      if (node.parentElement?.closest('button, script, style')) return;
+      const text = node.nodeValue;
+      let m, last = 0, changed = false;
+      const frag = document.createDocumentFragment();
+      const re = /[A-Za-z]+(?:[-'’][A-Za-z]+)*/g;
+      while ((m = re.exec(text))) {
+        if (!shouldPronounce(m[0])) continue;
+        changed = true;
+        frag.append(text.slice(last, m.index));
+        const wb = document.createElement('button');
+        wb.type = 'button'; wb.className = 'pronounce-word';
+        wb.dataset.speak = m[0];
+        wb.setAttribute('aria-label', '\u8bfb\u5355\u8bcd ' + m[0]);
+        wb.title = '\u70b9\u51fb\u542c\u53d1\u97f3';
+        wb.textContent = m[0];
+        frag.append(wb);
+        last = m.index + m[0].length;
+      }
+      if (!changed) return;
+      frag.append(text.slice(last));
+      node.replaceWith(frag);
+    });
+  };
+
+  document.querySelectorAll(
+    '.english, .scene-title-en, .paraphrase li p, .chunks, .practice-en, .wrong, .right, .summary-en'
+  ).forEach(markPronounceableWords);
+
+  document.addEventListener('click', e => {
+    const wb = e.target.closest('.pronounce-word');
+    if (!wb) return;
+    e.preventDefault();
+    if (!synth) return;
+    synth.cancel();
+    if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+    activeBtn?.classList.remove('playing');
+    activeBtn = wb;
+    wb.classList.add('playing');
+    const u = new SpeechSynthesisUtterance(wb.dataset.speak);
+    u.lang = 'en-US';
+    u.rate = 0.88;
+    const v = getEnglishVoice();
+    if (v) u.voice = v;
+    u.onend = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+    u.onerror = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+    synth.speak(u);
+  });
+})();</script>
+</body>
+</html>

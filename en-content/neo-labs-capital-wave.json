@@ -1,0 +1,433 @@
+{
+  "slug": "neo-labs-capital-wave",
+  "date": "2026-08-01",
+  "platform": "小宇宙FM",
+  "title": "亲历中美neo labs资本狂潮：AI for AI、机制可解释性和Max Tegmark",
+  "title_en": "Inside the China-US Neo-Lab Capital Wave: AI for AI, Mechanistic Interpretability, and Max Tegmark",
+  "eyebrow": "AI & Tech · AI/科技",
+  "duration": "1小时50分",
+  "source_url": "https://www.xiaoyuzhoufm.com/episode/6a69b07eb581962ce2bd4d97",
+  "summary_cn": "清华AI助理教授刘子鸣（KAN网络一作）从MIT到Stanford再到回国创业，亲述中美neo labs资本狂潮的内在逻辑：为什么2026年中美两边的年轻研究者纷纷放弃大厂\"大头兵\"路径，涌入世界模型和Auto Research（AI for AI）赛道？以及他探索的一条非典型「Physics of AI → Automated Physics of AI → Meta Model」路线",
+  "summary_en": "Ziming Liu, a Tsinghua AI assistant professor and first author of the KAN network, takes us from MIT to Stanford and back to founding a startup in China, unpacking the logic behind the neo-lab capital wave sweeping both countries. Why are young researchers in 2026 abandoning the 'cog in the machine' path at big companies to flood into world models and Auto Research — AI for AI? He also walks through his atypical route: from Physics of AI, to Automated Physics of AI, and finally to the Meta Model.",
+  "scenes": [
+    {
+      "id": "s1",
+      "title_cn": "1. Neo Labs 为什么在2026年井喷？",
+      "title_en": "Why Did Neo Labs Explode in 2026?",
+      "context": "比较学界、大厂、单干三条路径，分析Auto Research与世界模型为何需要独立实验室。语域：formal 访谈 + 行业分析。",
+      "speak": "There are three paths for top researchers. Academia: most also keep one foot in industry, but resources are limited. Big tech and model labs: as a cog in the machine, you're playing a part in someone else's story. Going solo: build your own paradigm. The key driver: top talent refuses to be a cog in the machine — they believe the next Transformer-level paradigm can be their own route. Auto Research is the natural next step, since coding has already been automated with great success. But research isn't as highly structured as coding — the language of research hasn't even been invented yet. And world models require designing genuinely novel architectures — you can't just throw more compute and engineering at them.",
+      "sentences": [
+        {
+          "cn": "学界：大多也会在业界跨一脚，但资源有限",
+          "en": "Academia: most also keep one foot in industry, but resources are limited.",
+          "note": "<span>表达提示</span>keep one foot in → 跨一脚；resources → 资源"
+        },
+        {
+          "cn": "大厂/模型厂：当\"大头兵\"，参与的是别人的叙事",
+          "en": "Big tech and model labs: as a cog in the machine, you're playing a part in someone else's story.",
+          "note": "<span>表达提示</span>cog in the machine → 大头兵/螺丝钉；narrative → 叙事"
+        },
+        {
+          "cn": "自己出来单干：建立自己的范式",
+          "en": "Going solo: build your own paradigm.",
+          "note": "<span>表达提示</span>go solo → 自己单干；paradigm → 范式"
+        },
+        {
+          "cn": "关键驱动：顶尖人才不想做\"大头兵\"，觉得下一个transformer级别的范式可以是\"我的路线\"",
+          "en": "The key driver: top talent refuses to be a cog in the machine — they believe the next Transformer-level paradigm can be 'my route.'",
+          "note": "<span>表达提示</span>top talent → 顶尖人才；Transformer-level paradigm → transformer级别的范式"
+        },
+        {
+          "cn": "Auto Research：coding已经非常成功了，下一步自然是automate research。但research不像coding那样高度结构化——research的语言还没被创造出来",
+          "en": "Auto Research: coding has already been automated with great success, so the natural next step is automating research. But research isn't as highly structured as coding — the language of research hasn't even been invented yet.",
+          "note": "<span>表达提示</span>automate research → 自动化科研；highly structured → 高度结构化；the language of research → 研究的语言"
+        },
+        {
+          "cn": "世界模型：需要设计很新颖的架构，不是\"堆资源堆工程\"就能解决的，需要大量前期research",
+          "en": "World models: they require designing genuinely novel architectures — you can't just throw more compute and engineering at them. They need a lot of upfront research.",
+          "note": "<span>表达提示</span>world model → 世界模型；novel architecture → 新颖架构；throw more compute at → 堆资源堆算力；upfront → 前期的"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「在大厂当螺丝钉，参与的是别人的叙事」",
+          "phrases": [
+            "At a big lab, you're a cog in someone else's story.",
+            "You contribute your labor, but the narrative isn't yours."
+          ],
+          "chunks": "cog in the machine · someone else's story · not yours",
+          "usage": "cog in the machine 很形象；第二句更正式"
+        },
+        {
+          "intent": "想说「下一个范式可以是我的路线」",
+          "phrases": [
+            "The next paradigm-level breakthrough could come from my route.",
+            "I want to define the next paradigm, not just work in it."
+          ],
+          "chunks": "paradigm-level breakthrough · define the next paradigm",
+          "usage": "define the next paradigm 表达雄心，适合访谈语境"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title_cn": "2. Physics of AI：用物理学方法论理解AI",
+      "title_en": "Physics of AI: Understanding AI Through the Methods of Physics",
+      "context": "从空间、时间、平行宇宙三个维度讲 Physics of AI 方法论，并对比 Anthropic 的可解释性工作。语域：formal 学术访谈。",
+      "speak": "In space, look closer: don't just watch end-to-end behavior — look inside at the neurons and internal representations. In time, study evolution: don't just look at the final checkpoint — trace how the model evolved. As Dobzhansky said, nothing in biology makes sense except in light of evolution. In parallel universes, or controlled experiments: train different models with different hyperparameters and draw a phase diagram — every trick only works in a specific phase. The core insight: AI has many phases, just as water has solid, liquid, and gas. Everyone claims their trick works, but nobody answers under what conditions it works. That's the job of Physics of AI — to clarify those conditions.",
+      "sentences": [
+        {
+          "cn": "空间上看得更细：不只看端到端行为，也看内部神经元、内部表征",
+          "en": "In space, look closer: don't just watch end-to-end behavior — look inside at the neurons and internal representations.",
+          "note": "<span>表达提示</span>end-to-end behavior → 端到端行为；internal representation → 内部表征"
+        },
+        {
+          "cn": "时间上演化：不只看最后的checkpoint，也看模型如何演化过来——\"Nothing in biology makes sense except in light of evolution\"",
+          "en": "In time, study evolution: don't just look at the final checkpoint — trace how the model evolved. As Dobzhansky said, nothing in biology makes sense except in light of evolution.",
+          "note": "<span>表达提示</span>checkpoint → 检查点；in light of evolution → 从进化角度看；trace how something evolved → 追溯演化过程"
+        },
+        {
+          "cn": "平行宇宙（控制实验）：不同超参数训练不同模型，绘制\"相图\"——每个trick只在特定的\"相\"里work",
+          "en": "Parallel universes, or controlled experiments: train different models with different hyperparameters and draw a 'phase diagram' — every trick only works in a specific 'phase.'",
+          "note": "<span>表达提示</span>controlled experiment → 控制实验；hyperparameter → 超参数；phase diagram → 相图"
+        },
+        {
+          "cn": "（引用）核心洞察：AI里有很多\"相\"（如水有固态液态气态）。大家混乱是因为所有人都在说\"我的trick work\"，但没人回答\"在什么条件下work\"。Physics of AI的任务就是理清适用条件",
+          "en": "The core insight: AI has many 'phases,' just as water has solid, liquid, and gas. Everyone is confused because people keep saying 'my trick works' — but nobody answers under what conditions it works. The job of Physics of AI is to clarify those conditions.",
+          "note": "<span>表达提示</span>phase → 相；solid/liquid/gas → 固态/液态/气态；applicability conditions → 适用条件"
+        },
+        {
+          "cn": "Anthropic的方法：把混合表征升到高维稀疏空间，提取原子概念（如\"说脏话的neuron\"）",
+          "en": "Anthropic's approach: project the entangled representations into a high-dimensional sparse space to extract atomic concepts — like the neuron that fires on profanity.",
+          "note": "<span>表达提示</span>sparse space → 稀疏空间；atomic concept → 原子概念；entangled representation → 纠缠/混合表征"
+        },
+        {
+          "cn": "刘子鸣团队2022-2024年也大量做过类似工作，后来意识到这些发现类似于\"AI的生物学\"——没有自动化手段支持，需要几百年的古法科研",
+          "en": "Ziming Liu's team did similar work extensively from 2022 to 2024, then realized these findings were like 'the biology of AI' — without automated tooling, it would take centuries of old-school science.",
+          "note": "<span>表达提示</span>old-school science → 古法科研；automated tooling → 自动化手段；the biology of AI → AI的生物学"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「我的trick有效，但在什么条件下？」",
+          "phrases": [
+            "Everyone claims their trick works — the question is under what conditions.",
+            "The trick works, but only within a specific phase."
+          ],
+          "chunks": "under what conditions · within a specific phase",
+          "usage": "under what conditions 是最关键的追问，访谈里常用"
+        },
+        {
+          "intent": "想说「理清适用条件」",
+          "phrases": [
+            "The job is to nail down the conditions where each trick holds.",
+            "You have to map out when a method works and when it breaks."
+          ],
+          "chunks": "nail down · map out · where it breaks",
+          "usage": "nail down 很口语；map out 更正式"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title_cn": "3. 刘子鸣的路线：从KAN到Meta Model",
+      "title_en": "Ziming Liu's Route: From KAN to the Meta Model",
+      "context": "讲KAN网络诞生故事、物理学家思维，以及预测训练曲线的\"自我人体实验\"。语域：formal 学术自述 + 亲历故事。",
+      "speak": "The origin story: in 2024, he designed the KAN network based on the Kolmogorov-Arnold theorem. Max initially disagreed, because back in 1989 Tomaso Poggio had already published a paper arguing the theorem couldn't become an effective algorithm. The physicist's mindset: don't care about the worst case, care about the typical case — the universe we live in is not the worst universe. The core conviction: model design itself should be a science, not a shot in the dark. Transformer, GAN, and ResNet were all made up on a whim, and that doesn't scale. In early 2026, Ziming ran a self-experiment: every day he picked a random model and dataset, and before running the experiment, he predicted the training curve. At first he was completely off — but after forty or fifty days, his predictions got accurate.",
+      "sentences": [
+        {
+          "cn": "诞生故事：2024年，基于Kolmogorov-Arnold定理设计了KAN网络。Max一开始不同意，因为1989年Tomaso Poggio就写了论文说这个定理无法变成有效算法",
+          "en": "The origin story: in 2024, he designed the KAN network based on the Kolmogorov-Arnold theorem. Max initially disagreed, because back in 1989 Tomaso Poggio had already published a paper arguing the theorem couldn't become an effective algorithm.",
+          "note": "<span>表达提示</span>KAN network → KAN网络（Kolmogorov-Arnold Network）；theorem → 定理；initially disagreed → 一开始不同意"
+        },
+        {
+          "cn": "物理学家思维：不关心worst case，关心一般情况——\"我们生活的宇宙不是最坏的宇宙，我们有漂亮的物理结构\"",
+          "en": "The physicist's mindset: don't care about the worst case, care about the typical case — 'the universe we live in is not the worst universe; we have beautiful physical structure.'",
+          "note": "<span>表达提示</span>worst case → 最坏情况；typical case → 一般情况；physical structure → 物理结构"
+        },
+        {
+          "cn": "核心执念：模型设计本身应该是一门科学，不应该靠拍脑袋。transformer、GAN、ResNet都是\"拍脑袋拍出来的\"，这非常不scalable",
+          "en": "The core conviction: model design itself should be a science, not a shot in the dark. Transformer, GAN, and ResNet were all made up on a whim, and that doesn't scale.",
+          "note": "<span>表达提示</span>a shot in the dark → 拍脑袋/瞎猜；on a whim → 凭一时兴起；doesn't scale → 不可扩展"
+        },
+        {
+          "cn": "（引用）\"All models are wrong but some are useful. 物理关心的东西都有漂亮的内部结构，这些不是最坏情况。\"",
+          "en": "Quote: \"All models are wrong but some are useful.\" The things physics cares about all have beautiful internal structure — these are not worst cases.",
+          "note": "<span>表达提示</span>internal structure → 内部结构；all models are wrong → 所有模型都有错"
+        },
+        {
+          "cn": "2026年初，刘子鸣做了一个\"自我人体实验\"：每天随机抽一个模型+数据集，在自己做实验之前先预测训练曲线会长什么样",
+          "en": "In early 2026, Ziming did a 'self-experiment': every day he picked a random model and dataset, and before running the experiment, he predicted what the training curve would look like.",
+          "note": "<span>表达提示</span>self-experiment → 自我实验；training curve → 训练曲线；predict → 预测"
+        },
+        {
+          "cn": "结果：一开始完全不准。训练到四五十天后，开始变准了——甚至从language的实验迁移预测到vision的实验也能猜对",
+          "en": "The results: at first he was completely off. After forty or fifty days of training, his predictions got accurate — he could even transfer intuition from language experiments and guess vision results correctly.",
+          "note": "<span>表达提示</span>completely off → 完全不准；transfer intuition → 迁移直觉；guess correctly → 猜对"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「模型设计不该拍脑袋」",
+          "phrases": [
+            "Model design shouldn't be a shot in the dark.",
+            "Architectures shouldn't be invented on a whim."
+          ],
+          "chunks": "a shot in the dark · on a whim · architecture design",
+          "usage": "a shot in the dark 很形象；on a whim 强调随意"
+        },
+        {
+          "intent": "想说「一开始完全不准，后来变准」",
+          "phrases": [
+            "His predictions were way off at first, then got accurate.",
+            "It took weeks before the guesses started landing."
+          ],
+          "chunks": "way off · get accurate · start landing",
+          "usage": "way off 口语强调偏差大；start landing 形容猜测命中"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "title_cn": "4. 技术路线对比",
+      "title_en": "Comparing Technical Routes",
+      "context": "刘子鸣对田渊栋路线的关键质疑——只记住失败经历不够，必须理解失败原因。语域：formal 学术观点交锋。",
+      "speak": "Ziming's key critique of Yuandong Tian's route: if your system only remembers that tuning the learning rate failed yesterday but doesn't understand why it failed, then today's failure could have a completely different cause. Knowing the what isn't enough — you need the why.",
+      "sentences": [
+        {
+          "cn": "（引用）刘子鸣对田渊栋路线的关键质疑：如果你的系统只记住了\"昨天调学习率失败了\"，但不理解为什么失败，那么今天失败可能是因为另一个完全不同的原因——\"知道what不够，还需要知道why\"",
+          "en": "Ziming's key critique of Yuandong Tian's route: if your system only remembers that 'tuning the learning rate failed yesterday' but doesn't understand why it failed, then today's failure could have a completely different cause — 'knowing the what isn't enough; you need the why.'",
+          "note": "<span>表达提示</span>learning rate → 学习率；know the what vs the why → 知其然不知其所以然；critique → 质疑"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「只知道失败过，不懂为什么失败」",
+          "phrases": [
+            "The system remembers the failure but not the cause.",
+            "It knows what happened, not why it happened."
+          ],
+          "chunks": "remember the failure · know what vs why",
+          "usage": "know what vs why 是本期核心概念，点评直接用"
+        },
+        {
+          "intent": "想说「今天失败可能是另一个原因」",
+          "phrases": [
+            "Today's failure could stem from an entirely different cause.",
+            "What failed yesterday doesn't explain what fails today."
+          ],
+          "chunks": "stem from · entirely different cause · doesn't explain",
+          "usage": "stem from 偏书面；第二句更口语化"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "title_cn": "5. AI认知的三个时代：从地谷到牛顿",
+      "title_en": "Three Ages of Understanding AI: From the Data Valley to Newton",
+      "context": "判断当前AI认知处于第0.5到1.5阶段之间，经验规律与数据多样性各有不足。语域：formal 学术判断。",
+      "speak": "The core judgment: we're probably somewhere between stage 0.5 and 1.5, depending on how you measure it. Empirical laws are still too few, which argues for 1.5 — but data diversity is also insufficient, which argues for 0.5.",
+      "sentences": [
+        {
+          "cn": "（引用）核心判断：我们可能处于第0.5-1.5阶段之间。取决于你怎么衡量——经验规律还太少（1.5），但数据多样性也还不够（0.5）",
+          "en": "The core judgment: we're probably somewhere between stage 0.5 and 1.5, depending on how you measure it — empirical laws are still too few, which argues for 1.5, but data diversity is also insufficient, which argues for 0.5.",
+          "note": "<span>表达提示</span>empirical law → 经验规律；data diversity → 数据多样性；stage → 阶段"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「取决于你怎么衡量」",
+          "phrases": [
+            "It depends on how you measure it.",
+            "Where we stand really depends on the yardstick you pick."
+          ],
+          "chunks": "depends on how you measure · yardstick",
+          "usage": "yardstick 很形象，比 measure 更生动"
+        },
+        {
+          "intent": "想说「经验规律还太少」",
+          "phrases": [
+            "We still have too few empirical laws.",
+            "The field hasn't accumulated enough reliable rules yet."
+          ],
+          "chunks": "empirical laws · accumulate reliable rules",
+          "usage": "empirical laws 是术语；accumulate rules 更白话"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "title_cn": "6. 结构化Research：O-P-H-I-S方法论",
+      "title_en": "Structured Research: The O-P-H-I-S Method",
+      "context": "介绍观察-问题-假设-干预-加速五步科研思维链，并指出99%的论文没有清晰思维链。语域：formal 方法论讲解。",
+      "speak": "The O-P-H-I-S method structures the research reasoning chain. O stands for observation: what phenomenon did you observe? P stands for problem: what problem in the system does it hint at? H stands for hypothesis: what do you believe about the problem? I stands for intervention: what operation does the hypothesis suggest? And S stands for speed up: did the intervention actually speed up training? The core logic: first, create a language of research — structure the scientific reasoning chain. Once you have structured data, you can train a research language model the same way you train a language model. But right now, 99% of papers don't contain a clear reasoning chain.",
+      "sentences": [
+        {
+          "cn": "O - Observation：观察到了什么现象",
+          "en": "O — Observation: what phenomenon did you observe?",
+          "note": "<span>表达提示</span>observation → 观察；phenomenon → 现象"
+        },
+        {
+          "cn": "P - Problem：这个现象预示系统中有什么问题",
+          "en": "P — Problem: what problem in the system does this phenomenon hint at?",
+          "note": "<span>表达提示</span>hint at → 预示"
+        },
+        {
+          "cn": "H - Hypothesis：关于这个问题有什么假设",
+          "en": "H — Hypothesis: what hypothesis do you have about the problem?",
+          "note": "<span>表达提示</span>hypothesis → 假设"
+        },
+        {
+          "cn": "I - Intervention：假设告诉我们应该做什么操作",
+          "en": "I — Intervention: what intervention does the hypothesis suggest?",
+          "note": "<span>表达提示</span>intervention → 干预/操作；suggest → 提示"
+        },
+        {
+          "cn": "S - Speed up：操作是否真的带来了训练提升",
+          "en": "S — Speed up: did the intervention actually speed up training?",
+          "note": "<span>表达提示</span>speed up training → 加速训练"
+        },
+        {
+          "cn": "（引用）核心逻辑：首先要创造一门\"研究的语言\"——把科研思维链结构化。有了结构化数据后，就可以像训练语言模型一样训练research语言模型。但当前99%的论文不包含清晰的思维链",
+          "en": "The core logic: first, create a 'language of research' — structure the scientific reasoning chain. Once you have structured data, you can train a research language model the same way you train a language model. But right now, 99% of papers don't contain a clear reasoning chain.",
+          "note": "<span>表达提示</span>reasoning chain → 思维链；research language model → 科研语言模型；structure → 结构化"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「把科研思维链结构化」",
+          "phrases": [
+            "You have to make the research reasoning chain explicit and structured.",
+            "Turn the invisible thought process of science into data."
+          ],
+          "chunks": "reasoning chain · make explicit · turn thought into data",
+          "usage": "make explicit 偏学术；turn thought into data 更形象"
+        },
+        {
+          "intent": "想说「99%的论文没有清晰的思维链」",
+          "phrases": [
+            "Almost no papers today include a clear reasoning chain.",
+            "The thinking behind 99% of papers is still hidden."
+          ],
+          "chunks": "include a reasoning chain · hidden thinking",
+          "usage": "the thinking is hidden 更口语"
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "title_cn": "7. 创业体感：融资与产品",
+      "title_en": "The Startup Reality: Fundraising and Product",
+      "context": "讲融资轮次节奏、投资人标签，以及「Vibe Training」的终极产品愿景。语域：casual 创业叙事 + 愿景展望。",
+      "speak": "Funding status: seed round, then a bridge round, then another bridge round — it can go on forever. They open the next round even before the previous investors have signed. Investors often file them under AI for Science, but their actual route is AI for AI and Auto Research. As one insider put it, everyone is fishing for intel from each other, and the pace of writing checks is extremely fast. The plan: six to twelve months of R&D plus a product prototype to explore the best direction, then productization and commercialization after year one. The ultimate vision is 'Vibe Training': the user just states their needs, and the system end-to-end designs, trains, and deploys the model — not necessarily a language model, but vertical models of all kinds.",
+      "sentences": [
+        {
+          "cn": "融资状态：种子轮→加轮→加加轮→加加加轮，可以无限加下去。上一轮投资人没进来就开下一轮",
+          "en": "Funding status: seed round, then bridge round, then another bridge round, and another — it can go on forever. They open the next round even before the previous investors have signed.",
+          "note": "<span>表达提示</span>seed round → 种子轮；bridge round → 加轮/过渡轮；sign → 签字进入"
+        },
+        {
+          "cn": "归类标签：投资人常把他们归入AI for Science，但实际路线是AI for AI / Auto Research",
+          "en": "The label: investors often file them under AI for Science, but their actual route is AI for AI and Auto Research.",
+          "note": "<span>表达提示</span>file under → 归入；AI for Science → AI for Science；AI for AI → 用AI做AI"
+        },
+        {
+          "cn": "（引用）\"大家都在相互打探消息，投项目的动作都非常快。\"",
+          "en": "Quote: \"Everyone is fishing for intel from each other, and the pace of writing checks is extremely fast.\"",
+          "note": "<span>表达提示</span>fish for intel → 打探消息；write checks → 投钱/出手；the pace is fast → 动作快"
+        },
+        {
+          "cn": "6-12个月：R&D + 产品雏形，探索最佳方向",
+          "en": "The first 6 to 12 months: R&D plus a product prototype, exploring the best direction.",
+          "note": "<span>表达提示</span>R&D → 研发；product prototype → 产品雏形；explore directions → 探索方向"
+        },
+        {
+          "cn": "1年后：开始产品化与商业化",
+          "en": "After year one: move into productization and commercialization.",
+          "note": "<span>表达提示</span>productization → 产品化；commercialization → 商业化"
+        },
+        {
+          "cn": "终极愿景：\"Vibe Training\"——用户只需要说需求，系统端到端设计→训练→部署模型。不一定是LM，是各类垂直领域模型",
+          "en": "The ultimate vision: 'Vibe Training' — the user just states their needs, and the system end-to-end designs, trains, and deploys the model. Not necessarily a language model — vertical models of all kinds.",
+          "note": "<span>表达提示</span>vibe training → 按需求生成模型；end-to-end → 端到端；vertical model → 垂直领域模型"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「融资一轮接一轮停不下来」",
+          "phrases": [
+            "The rounds just keep stacking — it can go on indefinitely.",
+            "Bridge round after bridge round, with no end in sight."
+          ],
+          "chunks": "keep stacking · bridge round · with no end in sight",
+          "usage": "keep stacking 口语；bridge round 是融资术语"
+        },
+        {
+          "intent": "想说「用户说需求，系统自动出模型」",
+          "phrases": [
+            "You state the need, and the system builds the model.",
+            "The whole pipeline — design, train, deploy — runs by itself."
+          ],
+          "chunks": "state the need · end-to-end pipeline · runs by itself",
+          "usage": "end-to-end 是术语；runs by itself 很口语"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "cn": "用「cog in the machine」说：顶尖人才不想在大厂当螺丝钉。",
+      "en": "Top talent doesn't want to be a cog in the machine at a big lab."
+    },
+    {
+      "cn": "用「under what conditions」说：我的trick有效，但在什么条件下？",
+      "en": "My trick works — but under what conditions?"
+    },
+    {
+      "cn": "用「a shot in the dark」说：模型设计不该靠拍脑袋。",
+      "en": "Model design shouldn't be a shot in the dark."
+    },
+    {
+      "cn": "用「know the why」说：只知道失败过不够，还得知道为什么。",
+      "en": "Knowing that it failed isn't enough — you need to know the why."
+    }
+  ],
+  "pitfalls": [
+    {
+      "wrong": "Research is not as structured as coding, the language of research has not been made yet.",
+      "right": "Research isn't as structured as coding — the language of research hasn't been invented yet.",
+      "why": "两句之间用破折号或分号连接更自然；「创造一门语言」用 invent / create，不用 make。"
+    },
+    {
+      "wrong": "Transformer, GAN and ResNet are all beaten out by head.",
+      "right": "Transformer, GAN, and ResNet were all made up on a whim.",
+      "why": "「拍脑袋」是 make up on a whim / a shot in the dark，直译 beaten out by head 没人能懂。"
+    },
+    {
+      "wrong": "The system only remembers the failure of adjusting learning rate yesterday.",
+      "right": "The system only remembers that tuning the learning rate failed yesterday.",
+      "why": "remember + that 从句更地道；「调学习率」是 tune / adjust the learning rate。"
+    },
+    {
+      "wrong": "Everyone is asking each other for news, the action is very fast.",
+      "right": "Everyone is fishing for intel, and the pace of writing checks is extremely fast.",
+      "why": "「打探消息」是 fishing for intel；「动作快」结合投资语境用 pace of writing checks，而非直译 action is fast。"
+    }
+  ],
+  "shifts": [
+    {
+      "before": "以为 AI 科研只能在大厂里当「大头兵」",
+      "after": "顶级人才宁可自己开 lab，去建立自己的范式"
+    },
+    {
+      "before": "以为 trick 有效就等于科学结论",
+      "after": "必须回答「在什么条件下 work」，这就是 Physics of AI 的使命"
+    },
+    {
+      "before": "以为模型设计靠天才直觉就行",
+      "after": "模型设计本身应该成为一门可结构化的科学"
+    }
+  ],
+  "voice": "en-US-JennyNeural",
+  "audio_dir": "audio/en/neo-labs-capital-wave"
+}

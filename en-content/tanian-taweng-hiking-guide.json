@@ -1,0 +1,369 @@
+{
+  "slug": "tanian-taweng-hiking-guide",
+  "date": "2026-08-01",
+  "platform": "小宇宙FM",
+  "title": "徒步他念他翁：从封山乌龙到商团避坑指南",
+  "title_en": "Trekking Tanian Taweng: From a Mountain-Closure Mix-Up to a Tour Operator Survival Guide",
+  "eyebrow": "Outdoor & Travel · 户外/旅行",
+  "duration": "55分",
+  "source_url": "https://www.xiaoyuzhoufm.com/episode/6a68b4aeb581962ce2bcebd1",
+  "summary_cn": "两位主播Sophie和三三分享西藏他念他翁看海线徒步经历。出发前突遇封山乌龙，进山后活佛求雨精准命中，五天大雨从头下到尾。详细讲了进出交通安排、天气/温度/海拔信息、当地商团的利与弊、村民间利益纠葛、徒步距离和爬升、装备清单等实用攻略。核心主题：户外徒步的实用避坑指南，尤其本地商团选择和边界感问题，这条路线\"只适合重装\"",
+  "summary_en": "Hosts Sophie and Sansan share their trekking experience on the lake-viewing route of Tanian Taweng in Tibet. They hit a false mountain-closure alarm before setting out, then got a living Buddha's rain-blessing dead on target — five days of heavy rain out of six. They cover transport in and out, weather and altitude data, the pros and cons of local tour operators, disputes among villagers, trekking distances and climbs, and a full gear list. The core theme: a practical guide to avoiding pitfalls in outdoor trekking, especially choosing a local operator and respecting boundaries. This route is 'heavy-pack only.'",
+  "scenes": [
+    {
+      "id": "s1",
+      "title_cn": "1. 交通：比ACT和TMB更碎片的噩梦",
+      "title_en": "Transport: A Nightmare More Fragmented Than the ACT or TMB",
+      "context": "拆解北京到拉岗村的五段碎片化交通，对比ACT整段交通的累法。语域：casual 攻略复盘 + 吐槽。",
+      "speak": "Beijing to Shangri-La: no direct flight, you have to transfer, because passenger volume is low and the southwest is China Eastern's home turf. The whole first day is gone just like that. Shangri-La to Quzika: they said five hours at best, but the drive actually took nine. Quzika to Lagang village: the road was wrecked, so they had to switch vehicles — and luggage fell off the roof without the driver noticing until a second bag dropped. Compare that to the Annapurna Circuit, which is two solid legs. Tanian Taweng is cut into fragments, and each short leg adds up to exhausting.",
+      "sentences": [
+        {
+          "cn": "北京→香格里拉：无直飞，必须转机（原因：客流不足 + 西南是东航大本营）。第一天就这么没了",
+          "en": "Beijing to Shangri-La: no direct flight, you have to transfer — because passenger volume is low and the southwest is China Eastern's home turf. The whole first day is gone just like that.",
+          "note": "<span>表达提示</span>direct flight → 直飞；transfer → 转机；home turf → 大本营"
+        },
+        {
+          "cn": "香格里拉→曲子卡：报\"最快五小时\"，实际开了九小时。曲子卡是温泉乡，可以住温泉酒店",
+          "en": "Shangri-La to Quzika: they said 'five hours at best,' but the drive actually took nine. Quzika is a hot-spring town where you can stay in a hot-spring hotel.",
+          "note": "<span>表达提示</span>at best → 最快/最多；hot-spring town → 温泉乡"
+        },
+        {
+          "cn": "曲子卡→拉岗村：一小时车程，但路被挖烂（怀疑是村里故意为之），必须换车。行李从车顶掉下山坡，司机没发觉，第二个掉下去才发现",
+          "en": "Quzika to Lagang village: an hour by car, but the road was wrecked — possibly on purpose by the villagers — so they had to switch vehicles. Luggage fell off the roof and rolled down the slope; the driver didn't notice until a second bag dropped.",
+          "note": "<span>表达提示</span>switch vehicles → 换车；wreck the road → 挖烂道路；roll down the slope → 掉下山坡"
+        },
+        {
+          "cn": "（引用）交通对比：ACT是两段\"整段\"交通（飞+12小时吉普），他念他翁是被切成碎片——转机、转车、换车，每段都不长但累计极累",
+          "en": "Transport comparison: the Annapurna Circuit is two solid legs — a flight plus a twelve-hour jeep ride. Tanian Taweng is cut into fragments: transfer flights, van rides, vehicle switches. Each leg is short, but they add up to exhausting.",
+          "note": "<span>表达提示</span>solid leg → 整段；cut into fragments → 切成碎片；add up to → 累计成"
+        },
+        {
+          "cn": "地崩营地→沙多村：一小时沙石山路 1200元/车（5人平摊）",
+          "en": "Dibeng camp to Shaduo village: one hour of gravel mountain road at 1,200 yuan per vehicle, split five ways.",
+          "note": "<span>表达提示</span>gravel road → 沙石路；per vehicle → 每车；split five ways → 5人平摊"
+        },
+        {
+          "cn": "左贡→昌都机场：2.5-3小时（全国最远机场之一）500元",
+          "en": "Zuogong to Qamdo airport: two and a half to three hours — one of the most remote airports in the country — for 500 yuan.",
+          "note": "<span>表达提示</span>remote airport → 偏远机场；Qamdo → 昌都"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「第一天就这么没了」",
+          "phrases": [
+            "The whole first day was gone just like that.",
+            "The entire first day was burned on travel."
+          ],
+          "chunks": "gone just like that · burned on travel",
+          "usage": "gone just like that 带吐槽语气，很口语"
+        },
+        {
+          "intent": "想说「每段不长但累死人」",
+          "phrases": [
+            "Each leg is short, but together they're brutal.",
+            "Short transfers stack up into an exhausting day."
+          ],
+          "chunks": "each leg is short · stack up · brutal",
+          "usage": "stack up 很形象；brutal 口语表达累爆"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title_cn": "2. 天气：活佛 vs 道家，6天5雨",
+      "title_en": "Weather: A Living Buddha vs Daoism, Rain on 5 of 6 Days",
+      "context": "讲活佛求雨精准命中的戏剧化天气，以及温度数据和雨中打发时间。语域：casual 经历吐槽 + 数据记录。",
+      "speak": "The living Buddha's rain: on the day they entered the mountains, they were told a living Buddha had prayed for rain for the crops — and it landed precisely on the trekkers' heads. Five days of rain out of six, getting heavier, and on the last day it never stopped. A friend at camp gave them a Daoist 'contain-the-universe' mantra; after chanting it, they actually caught a glimpse of the snowy peak — you invite a bit of Daoist power while on someone else's turf. As for temperatures: about 5 degrees at night in the wooden huts, near zero at the Twin Lakes camp, and into the teens when the sun came out.",
+      "sentences": [
+        {
+          "cn": "活佛求雨：进山当天被告知活佛为庄稼求了雨，精准下到徒步者头上。6天徒步下了5天雨，越下越大，最后一天彻底不停",
+          "en": "The living Buddha's rain: on the day they entered the mountains, they were told a living Buddha had prayed for rain for the crops — and it landed precisely on the trekkers' heads. Five days of rain out of six, getting heavier, and on the last day it never stopped.",
+          "note": "<span>表达提示</span>living Buddha → 活佛；pray for rain → 求雨；land on one's head → 下到头上"
+        },
+        {
+          "cn": "用道家对抗活佛：营地里一个朋友给了道家收宇宙咒语，念完之后居然看到了一点雪山。\"在人家地盘请一点道家的力量。\"",
+          "en": "Fighting the living Buddha with Daoism: a friend at camp gave them a Daoist 'contain-the-universe' mantra; after chanting it, they actually caught a glimpse of the snowy peak. 'You invite a bit of Daoist power while on someone else's turf.'",
+          "note": "<span>表达提示</span>Daoism → 道家；mantra → 咒语；on someone else's turf → 在别人地盘"
+        },
+        {
+          "cn": "温度数据：木屋晚上约5°C，双湖营地（4700米）接近0°C，白天约10°C出头，出太阳能到十几度",
+          "en": "Temperature data: about 5°C at night in the wooden huts, close to 0°C at the Twin Lakes camp at 4,700 meters, a little above 10°C during the day, and into the teens when the sun came out.",
+          "note": "<span>表达提示</span>wooden hut → 木屋；Twin Lakes camp → 双湖营地；the teens → 十几度"
+        },
+        {
+          "cn": "下雨如何打发时间：帐篷里看顶上水珠猜会聚成一条还是两条长线——\"这已经无聊到这种程度\"",
+          "en": "How they killed time in the rain: lying in the tent watching the water droplets on the ceiling and betting whether they'd join into one line or two — 'that's how bored we were.'",
+          "note": "<span>表达提示</span>kill time → 打发时间；water droplet → 水珠；how bored we were → 无聊到这种程度"
+        },
+        {
+          "cn": "（引用）\"我们俩不能单独出去。实锤就是天气之子，逢我们俩出去必下雨。\" (富士山C级天气 + 长滩岛台风 + 航班取消)",
+          "en": "Quote: \"The two of us can't go out alone. It's confirmed — we're weather children: every time we go out, it rains.\" Add Mount Fuji's C-grade weather, a typhoon in Boracay, and a canceled flight to the list.",
+          "note": "<span>表达提示</span>weather child → 天气之子；confirmed → 实锤；canceled flight → 航班取消"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「逢出门必下雨」",
+          "phrases": [
+            "Every time we step out, it rains.",
+            "We're cursed — the sky opens whenever we leave."
+          ],
+          "chunks": "step out · the sky opens · cursed",
+          "usage": "cursed 偏玩笑吐槽；step out 很日常"
+        },
+        {
+          "intent": "想说「无聊到看水滴猜线」",
+          "phrases": [
+            "So bored we bet on which way the drips would run.",
+            "We were bored out of our minds in that tent."
+          ],
+          "chunks": "bet on drips · bored out of one's mind",
+          "usage": "bored out of one's mind 是高频口语短语"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title_cn": "3. 路线数据与体验",
+      "title_en": "Route Data and the Experience",
+      "context": "评估6天路线的合理性，天气好坏对体验的决定性影响。语域：casual 复盘点评。",
+      "speak": "The key experience: six days is too long — the downtime stretches out. In good weather it might not matter, but in bad weather every minute is torture. The hiker 'Shitou' finished this route in four days, which feels more reasonable.",
+      "sentences": [
+        {
+          "cn": "（引用）关键体验：6天太长（无聊时间被拉长），如果天气好可能无所谓；天气不好每一分钟都是煎熬。石头走这条线用了4天，感觉更合理",
+          "en": "The key experience: six days is too long — the downtime stretches out. In good weather it might not matter, but in bad weather every minute is torture. The hiker 'Shitou' finished this route in four days, which feels more reasonable.",
+          "note": "<span>表达提示</span>downtime → 无聊时间/空档；torture → 煎熬；stretch out → 被拉长"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「天气不好每一分钟都是煎熬」",
+          "phrases": [
+            "In bad weather, every minute is torture.",
+            "When it's pouring, each hour feels like an eternity."
+          ],
+          "chunks": "every minute is torture · feel like an eternity",
+          "usage": "torture 夸张但贴切；eternity 也常用"
+        },
+        {
+          "intent": "想说「6天太长，4天更合理」",
+          "phrases": [
+            "Six days drags; four feels right.",
+            "The route is better squeezed into four days."
+          ],
+          "chunks": "drag · squeeze into",
+          "usage": "drag 形容时间难熬；squeeze into 压缩进"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "title_cn": "4. 商团避坑全景",
+      "title_en": "The Full Tour Operator Minefield",
+      "context": "详细列举村界分配向导、无信号换向导、向导资质存疑、装备不达标等问题。语域：casual 避坑清单 + 提醒。",
+      "speak": "The first two days of the route belong to Lagang village, so only Lagang guides and horsemen can work it. From day three it belongs to Shaduo village — the Lagang guides simply go home, with no handover at all; you just wait at camp for the new guide to find you. Even crazier, the neighboring camp belongs to yet another village, so it got skipped. There's no cell signal in between, and the village chief assigns guides randomly from a rotation list. They advertise certified guides, but they're actually local herders with survival wisdom, not professional training. And the gear: tent pegs replaced by disposable chopsticks, cotton sleeping bags, a leaking kitchen tent, fertilizer bags instead of dry bags. Whatever the operator says, bring your own tent, sleeping bag, and pad.",
+      "sentences": [
+        {
+          "cn": "前两天的路线属于拉岗村 → 只能拉岗村的向导和马夫到。第三天开始属于沙多村 → 拉岗向导直接回家，沙多向导来接。中间没有任何交接，在营地等新向导来找你。更离谱的是：隔壁的营地（乌格曲龙）又属于另一个村，沙多向导不愿经过，于是跳过",
+          "en": "The first two days of the route belong to Lagang village, so only Lagang guides and horsemen can work it. From day three it belongs to Shaduo village — the Lagang guides simply go home and Shaduo guides take over, with no handover at all; you just wait at camp for the new guide to find you. Even crazier: the neighboring camp, Wuququlong, belongs to yet another village, and the Shaduo guides refused to pass through it, so it got skipped.",
+          "note": "<span>表达提示</span>handover → 交接；horseman → 马夫；take over → 接手"
+        },
+        {
+          "cn": "（引用）关键风险：中间没有手机信号，你联系不到任何人。换向导时，你无法选择用哪个向导——村长会从轮值表上随机分配。分到一个汉语完全不会的向导是真实发生过的事",
+          "en": "The key risk: there's no cell signal in between, so you can't reach anyone. When guides switch, you don't get to choose — the village chief assigns them randomly from a rotation list. Getting a guide who speaks zero Mandarin has actually happened.",
+          "note": "<span>表达提示</span>cell signal → 手机信号；rotation list → 轮值表；assign randomly → 随机分配"
+        },
+        {
+          "cn": "向导证：宣传\"有证向导\"，实际全是当地牧民。他们有高原生存智慧（判断天气、用气罐点火），但缺乏专业培训：不掌握队伍节奏、不告诉什么时候休息、随便带着走小道破坏高山植被",
+          "en": "Guide licenses: they advertise 'certified guides,' but they're actually local herders. They have high-altitude survival wisdom — reading the weather, lighting stoves with gas canisters — but lack professional training: they don't manage the group's pace, don't tell you when to rest, and randomly cut off-trail paths that damage alpine vegetation.",
+          "note": "<span>表达提示</span>certified guide → 有证向导；herder → 牧民；high-altitude survival → 高原生存；alpine vegetation → 高山植被"
+        },
+        {
+          "cn": "路书：地名前后顺序是错的，爬升和距离全不准确，怀疑是抄来的",
+          "en": "The route sheet: the place names are in the wrong order, and the climbs and distances are all inaccurate — likely copied from somewhere.",
+          "note": "<span>表达提示</span>route sheet → 路书；in the wrong order → 顺序颠倒；inaccurate → 不准确"
+        },
+        {
+          "cn": "装备：帐篷没地丁（用一次性筷子替代）、睡袋是棉的不达标（双湖营地冻死了）、做饭帐篷极小且漏雨（下雨天蹲在地上吃）、没有集体防水袋（只给化肥袋）",
+          "en": "The gear: the tent had no pegs — they used disposable chopsticks instead. The sleeping bags were cotton and didn't meet the standard — they froze at Twin Lakes camp. The kitchen tent was tiny and leaked, so they squatted on the ground eating in the rain. No shared dry bags — they were given fertilizer bags instead.",
+          "note": "<span>表达提示</span>tent peg → 地丁；disposable chopsticks → 一次性筷子；dry bag → 防水袋；fertilizer bag → 化肥袋"
+        },
+        {
+          "cn": "（引用）重要提醒：无论商团怎么说，自己带帐篷、睡袋、睡垫。幸运的是Sophie和三三因为\"穷讲究\"自己带了装备，否则后果不堪设想",
+          "en": "Key reminder: no matter what the operator says, bring your own tent, sleeping bag, and pad. Luckily Sophie and Sansan brought their own gear out of sheer fussiness — otherwise the consequences don't bear thinking about.",
+          "note": "<span>表达提示</span>sleeping pad → 睡垫；fussiness → 讲究；don't bear thinking about → 不堪设想"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「向导交接没有任何交代」",
+          "phrases": [
+            "The handover happened with zero communication.",
+            "New guides just showed up with no briefing at all."
+          ],
+          "chunks": "zero communication · show up · briefing",
+          "usage": "briefing 偏职场；show up with no briefing 更口语"
+        },
+        {
+          "intent": "想说「后果不堪设想」",
+          "phrases": [
+            "The consequences don't bear thinking about.",
+            "It could have ended really badly."
+          ],
+          "chunks": "don't bear thinking about · could have ended badly",
+          "usage": "don't bear thinking about 是地道惯用语"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "title_cn": "5. 两个向导的人物画像",
+      "title_en": "Portraits of the Two Guides",
+      "context": "用魔幻细节勾勒两位向导：牦牛大户唐卡画师，与沙多村独生子的驱风口哨。语域：casual 讲故事 + 文化观察。",
+      "speak": "The first guide's profile: 200 yaks, roughly two million yuan in assets, six daughters, a thangka painter carrying a family intangible-heritage craft, with thick glasses from years of painting. He once raised a golden snub-nosed monkey abandoned by its mother for two years, then had to release it into the wild after being reported. His spending style: over 1.7 million yuan in jewelry for his wife, yet he lost 280,000 in one night of card games and worked a year to earn it back. He can pick out his own yaks from across the mountain — our yaks have shorter tails. The second guide is from Shaduo village, an only son, and can whistle the wind-away call like birds after rain.",
+      "sentences": [
+        {
+          "cn": "标签：200头牦牛（约200万资产）、6个女儿、唐卡画师（家传非遗）、戴高度近视眼镜（因画唐卡）",
+          "en": "His profile: 200 yaks — roughly two million yuan in assets — six daughters, a thangka painter carrying a family intangible-heritage craft, and thick glasses from years of painting thangkas.",
+          "note": "<span>表达提示</span>yak → 牦牛；thangka → 唐卡；intangible heritage → 非遗"
+        },
+        {
+          "cn": "魔幻故事：当过向导时捡到被母猴抛弃的金丝猴，养了两年（猴子和家人非常亲密，能拿纸巾），被举报后被迫放归山林，再也没有见过",
+          "en": "A surreal story: as a guide he once found a golden snub-nosed monkey abandoned by its mother, raised it for two years — the monkey was so close to the family it could fetch tissues — then, after being reported, he had to release it into the wild and never saw it again.",
+          "note": "<span>表达提示</span>golden snub-nosed monkey → 金丝猴；abandoned → 被抛弃；release into the wild → 放归山林"
+        },
+        {
+          "cn": "消费观：给老婆买170多万首饰（蜜蜡、天珠、皮草），一晚上打牌输28万后出门打工一年挣回30万。牦牛国庆节会自己回家，\"跑去别人牧场吃草没关系\"",
+          "en": "His spending style: over 1.7 million yuan in jewelry for his wife — amber, dzi beads, fur — and after losing 280,000 in one night of card games, he went out to work for a year and earned 300,000 back. His yaks come home on their own for National Day, and it's no problem if they graze in someone else's pasture.",
+          "note": "<span>表达提示</span>amber → 蜜蜡；dzi bead → 天珠；card game → 打牌；pasture → 牧场"
+        },
+        {
+          "cn": "有趣细节：隔山能认出自己家的牦牛（\"我们家牦牛尾巴比较短\"），长得像彭磊，被称为\"藏地文青\"",
+          "en": "Fun detail: he can pick out his own yaks from across the mountain — 'our yaks have shorter tails.' He looks like the musician Peng Lei and gets called the 'Tibetan artsy type.'",
+          "note": "<span>表达提示</span>pick out → 认出；artsy type → 文青；from across the mountain → 隔山"
+        },
+        {
+          "cn": "（引用）藏族花钱方式：大件一掷千金（天珠几十万、赛马上百万），小处极度节俭（烂裤子一直穿、不买好冲锋衣）",
+          "en": "The Tibetan way of spending: splurging on big-ticket items — dzi beads worth hundreds of thousands, racehorses over a million — yet extremely frugal on small things, wearing worn-out pants and skipping a good jacket.",
+          "note": "<span>表达提示</span>splurge → 一掷千金；big-ticket item → 大件；frugal → 节俭；worn-out → 穿烂的"
+        },
+        {
+          "cn": "背景：沙多村村民，家里独生子（藏族很少只生一个）。会吹驱风口哨（类似雨后鸟叫声）",
+          "en": "Background: he's from Shaduo village and an only son — rare among Tibetan families, who rarely have just one child. He can whistle the wind-away call, a sound like birds after rain.",
+          "note": "<span>表达提示</span>only son → 独生子；wind-away whistle → 驱风口哨"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「大件一掷千金，小处极度节俭」",
+          "phrases": [
+            "He splurges on big items yet pinches pennies on the small.",
+            "Lavish on the big, frugal to a fault on the small."
+          ],
+          "chunks": "splurge · pinch pennies · lavish vs frugal",
+          "usage": "pinch pennies 很口语；lavish/frugal 对仗书面"
+        },
+        {
+          "intent": "想说「隔山认出自家的牦牛」",
+          "phrases": [
+            "He can spot his own yaks from a mountain away.",
+            "He knows each yak by its tail length."
+          ],
+          "chunks": "spot from a mountain away · know by",
+          "usage": "spot from a mountain away 有画面感"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "title_cn": "6. 最终结论：选择指南",
+      "title_en": "Final Verdict: A Choosing Guide",
+      "context": "汇总五大风险，给出「这不是说走就走路线」的结论。语域：formal 总结点评。",
+      "speak": "The core risk summary: high transport costs, weather that's a roll of the dice, unprofessional tour operators, village-boundary disputes that split the group, and no signal to call for help. This is not a 'just go' route.",
+      "sentences": [
+        {
+          "cn": "（引用）核心风险总结：交通成本高 + 天气看运气 + 商团不专业 + 村界纠纷导致队伍被拆 + 无信号无法求救。这不是一条\"去就完了\"的路线",
+          "en": "The core risk summary: high transport costs, weather that's a roll of the dice, unprofessional tour operators, village-boundary disputes that split the group, and no signal to call for help. This is not a 'just go' route.",
+          "note": "<span>表达提示</span>a roll of the dice → 看运气；village-boundary dispute → 村界纠纷；just go → 说走就走/去就完了"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「去就完了的路线」",
+          "phrases": [
+            "This is not a 'just go' trail.",
+            "You can't treat it as an easy, casual trek."
+          ],
+          "chunks": "not a just-go trail · casual trek",
+          "usage": "just-go 是口语化的引号用法"
+        },
+        {
+          "intent": "想说「天气是掷骰子」",
+          "phrases": [
+            "The weather is a roll of the dice.",
+            "You're gambling on the sky the whole way."
+          ],
+          "chunks": "a roll of the dice · gamble on the sky",
+          "usage": "a roll of the dice 地道惯用语"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "cn": "用「switch vehicles」说：路太烂必须换车。",
+      "en": "The road was wrecked, so they had to switch vehicles."
+    },
+    {
+      "cn": "用「a roll of the dice」说：高原天气全看运气。",
+      "en": "At altitude, the weather is a roll of the dice."
+    },
+    {
+      "cn": "用「zero signal」说：山里完全没信号，求救无门。",
+      "en": "With zero cell signal in the mountains, there's no way to call for help."
+    },
+    {
+      "cn": "用「bring your own」说：装备一定要自己带。",
+      "en": "No matter what the operator promises, bring your own tent and sleeping bag."
+    }
+  ],
+  "pitfalls": [
+    {
+      "wrong": "The village chief divides the guide from the list randomly.",
+      "right": "The village chief assigns the guide randomly from a rotation list.",
+      "why": "「从列表里分配」是 assign from a list；divide 更偏向「切分」，语义不合适。"
+    },
+    {
+      "wrong": "The guide doesn't tell us when to take a rest and when to go.",
+      "right": "The guides don't manage the pace or tell you when to rest.",
+      "why": "向导的核心问题是不会控制节奏 manage the pace，而不是机械地告诉你出发时间。"
+    },
+    {
+      "wrong": "The tent has no ground nail, we used one-time chopsticks.",
+      "right": "The tent had no pegs — they used disposable chopsticks instead.",
+      "why": "「地丁」是 tent pegs/stakes；「一次性筷子」是 disposable chopsticks，不是 one-time。"
+    },
+    {
+      "wrong": "Lucky we brought our own equipment, otherwise the consequence is unimaginable.",
+      "right": "Luckily they brought their own gear — otherwise the consequences don't bear thinking about.",
+      "why": "don't bear thinking about 是「不堪设想」的地道惯用语；unimaginable 更偏向形容事物本身。"
+    }
+  ],
+  "shifts": [
+    {
+      "before": "以为徒步天数越多越值回票价",
+      "after": "天气不好时 6 天是煎熬，4 天可能更合理"
+    },
+    {
+      "before": "以为「有证向导」= 专业培训过",
+      "after": "有高原生存智慧不等于有带队专业能力"
+    },
+    {
+      "before": "以为商团会备齐装备",
+      "after": "帐篷睡袋睡垫必须自己带，别把命交给别人"
+    }
+  ],
+  "voice": "en-US-JennyNeural",
+  "audio_dir": "audio/en/tanian-taweng-hiking-guide"
+}

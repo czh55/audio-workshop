@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="明明是MPV，却偏要叫SUV，长城到底在想什么？ — Bilingual Learning Edition" />
+  <title>明明是MPV，却偏要叫SUV，长城到底在想什么？｜EN 双语学习版</title>
+  <style>:root{--teal-950:#073f42;--teal-800:#0d686c;--teal-700:#0f7c80;--teal-600:#14919b;--mint-100:#dff4ec;--mint-50:#f0faf6;--ink:#183536;--muted:#607879;--line:#d7e8e2;--paper:#fff;--amber:#a85d08;--shadow:0 12px 32px rgba(7,63,66,.08)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:24px}
+body{margin:0;color:var(--ink);background:#edf7f2;font-family:Inter,"PingFang SC","Noto Sans SC","Microsoft YaHei",system-ui,sans-serif;line-height:1.65}
+button,select{font:inherit}
+a{color:inherit}
+.hero{color:#fff;background:radial-gradient(circle at 85% 10%,rgba(129,230,196,.24),transparent 30%),linear-gradient(125deg,#073f42,#0d7377 56%,#14919b)}
+.hero-inner{width:min(1440px,100%);margin:auto;padding:44px clamp(20px,5vw,72px) 36px}
+.hero-flex{display:flex;gap:clamp(18px,3vw,40px);align-items:flex-start}
+.hero-cover{width:min(240px,42vw);height:auto;max-height:320px;object-fit:contain;object-position:center;border-radius:16px;border:1px solid rgba(255,255,255,.28);box-shadow:0 18px 44px rgba(0,0,0,.32);flex-shrink:0;background:rgba(255,255,255,.08)}
+.hero-text{min-width:0;flex:1}
+.eyebrow{margin:0 0 12px;font-size:.78rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;opacity:.8}
+h1{max-width:1020px;margin:0;font-size:clamp(1.7rem,3.6vw,3rem);line-height:1.15;letter-spacing:-.04em}
+.hero-en{margin:12px 0 22px;font-size:clamp(1rem,2vw,1.25rem);opacity:.82}
+.hero-meta{display:flex;flex-wrap:wrap;gap:9px;align-items:center}
+.chip{border:1px solid rgba(255,255,255,.28);border-radius:99px;padding:5px 11px;font-size:.82rem;background:rgba(255,255,255,.08)}
+.source-link{font-weight:750;text-decoration:none;border-bottom:1px solid rgba(255,255,255,.5)}
+.toolbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:22px}
+.toolbar label{font-size:.82rem;opacity:.82}
+.toolbar select{color:#fff;background:#0a5d61;border:1px solid rgba(255,255,255,.3);border-radius:8px;padding:7px 9px}
+.stop-btn{display:none;color:#fff;background:#8c3b2a;border:0;border-radius:8px;padding:8px 12px;cursor:pointer}
+.stop-btn.visible{display:inline-flex}
+.speech-status{min-height:1.4em;font-size:.82rem;opacity:.88}
+.lang-switch{display:inline-flex;gap:6px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.28);border-radius:99px;padding:4px}
+.lang-switch a{display:inline-block;padding:4px 13px;border-radius:99px;font-size:.8rem;font-weight:700;text-decoration:none;color:rgba(255,255,255,.75)}
+.lang-switch a.active{background:#fff;color:var(--teal-800)}
+.narration-player{margin-top:16px;padding:14px 18px;background:rgba(255,255,255,.1);border-radius:12px;border:1px solid rgba(255,255,255,.15)}
+.audio-label{color:rgba(255,255,255,.88);font-size:.82rem;font-weight:700;margin:0 0 8px}
+.page{width:min(1440px,100%);margin:auto;padding:28px clamp(16px,3vw,44px) 64px;display:grid;grid-template-columns:minmax(230px,280px) minmax(0,1fr);gap:30px;align-items:start}
+.sidebar{position:sticky;top:20px;min-width:0}
+.sidebar-box{background:rgba(255,255,255,.8);border:1px solid var(--line);border-radius:16px;padding:17px;box-shadow:var(--shadow);backdrop-filter:blur(12px)}
+.sidebar h2{margin:0 0 13px;font-size:.9rem;letter-spacing:.08em;color:var(--teal-800)}
+.map-link{display:grid;grid-template-columns:34px minmax(0,1fr);gap:9px;padding:10px 6px;text-decoration:none;border-top:1px solid var(--line)}
+.map-link:hover b{color:var(--teal-700)}
+.map-id{width:30px;height:30px;display:grid;place-items:center;border-radius:9px;color:#fff;background:var(--teal-700);font-size:.72rem;font-weight:800}
+.map-link b{display:block;font-size:.78rem;line-height:1.4}
+.map-link small{display:block;color:var(--muted);font-size:.67rem;line-height:1.4;margin-top:2px;overflow-wrap:anywhere}
+.content{min-width:0}
+.scene-card{background:var(--paper);border:1px solid var(--line);border-radius:20px;padding:clamp(20px,3vw,34px);margin-bottom:24px;box-shadow:var(--shadow);overflow:hidden}
+.scene-topline{display:flex;justify-content:space-between;gap:16px;align-items:center;margin-bottom:16px}
+.scene-id{display:inline-grid;place-items:center;min-width:42px;height:30px;padding:0 10px;color:#fff;background:var(--teal-700);border-radius:8px;font-size:.78rem;font-weight:850}
+.time{margin-left:10px;color:var(--muted);font-size:.82rem;font-variant-numeric:tabular-nums}
+.scene-card h2{margin:0 0 2px;font-size:clamp(1.35rem,2.4vw,2rem);line-height:1.25;color:var(--teal-950)}
+.scene-title-en{margin:0 0 18px;color:var(--teal-600);font-weight:700;font-size:.98rem}
+.context{margin:0 0 20px;padding:12px 15px;color:#496566;background:var(--mint-50);border-left:3px solid var(--teal-600);border-radius:0 10px 10px 0;font-size:.88rem}
+.context b{margin-right:10px;color:var(--teal-800)}
+.sentence-list{display:grid;gap:12px}
+.sentence{position:relative;display:grid;grid-template-columns:38px minmax(0,1fr);gap:12px;padding:16px;border:1px solid #e2ece8;border-radius:14px;background:#fcfefd;min-width:0}
+.sentence-no{color:var(--teal-600);font-size:.76rem;font-weight:850;font-variant-numeric:tabular-nums;padding-top:4px}
+.bilingual{min-width:0;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(14px,2vw,28px)}
+.lang-block{min-width:0}
+.lang-block p{margin:5px 0 0;overflow-wrap:anywhere}
+.en-block{padding-left:clamp(14px,2vw,28px);border-left:1px solid var(--line)}
+.en-block p{color:#0b5c60;font-weight:650}
+.lang-tag{display:inline-block;color:var(--muted);font-size:.66rem;font-weight:850;letter-spacing:.12em}
+.en-head{display:flex;justify-content:space-between;gap:10px;align-items:center;min-height:30px}
+.note{grid-column:2;margin:1px 0 0;color:#708182;font-size:.78rem}
+.note span{margin-right:7px;color:var(--amber);font-weight:750}
+.speak-btn{display:inline-flex;align-items:center;gap:7px;border:1px solid #b8d9d1;border-radius:9px;padding:7px 11px;color:var(--teal-800);background:#f5fbf8;cursor:pointer;white-space:nowrap;font-size:.78rem;font-weight:750;transition:.15s ease}
+.speak-btn:hover{color:#fff;background:var(--teal-700);border-color:var(--teal-700);transform:translateY(-1px)}
+.speak-btn.playing{color:#fff;background:var(--teal-700);border-color:var(--teal-700)}
+.speak-btn.compact{padding:4px 8px;font-size:.7rem}
+.speak-btn.icon-only{padding:3px 7px;margin-left:6px}
+.speak-btn.icon-only span:last-child{display:none}
+.pronounce-word{display:inline;margin:0;padding:0 2px;color:inherit;background:rgba(20,145,155,.08);border:0;border-bottom:1px dashed var(--teal-600);border-radius:3px;font:inherit;font-weight:inherit;line-height:inherit;cursor:pointer}
+.pronounce-word:hover,.pronounce-word:focus{color:var(--teal-950);background:#cceee4;border-bottom-style:solid;outline:3px solid rgba(20,145,155,.42);outline-offset:2px}
+.pronounce-word.playing{color:#fff;background:var(--teal-700);border-bottom-color:var(--teal-700)}
+.paraphrase{margin-top:18px;border-top:1px solid var(--line)}
+.paraphrase summary{padding:16px 0 3px;color:var(--teal-800);cursor:pointer;font-weight:800}
+.paraphrase summary span{color:var(--muted);font-size:.75rem;font-weight:500;margin-left:8px}
+.paraphrase ol{margin:12px 0 0;padding-left:22px}
+.paraphrase li{padding:7px 0 9px 5px}
+.paraphrase li p{margin:0;font-size:.9rem;font-weight:650}
+.paraphrase li small{display:block;color:var(--muted);font-size:.72rem;margin-top:2px}
+.chunks{margin-top:4px;color:var(--teal-700);font-size:.78rem}
+.study-section{margin:38px 0 0}
+.section-heading{display:flex;align-items:baseline;gap:10px;margin:0 0 15px;color:var(--teal-950);font-size:1.35rem}
+.section-heading small{color:var(--teal-600);font-size:.78rem;letter-spacing:.05em}
+.study-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.study-grid article{padding:17px;background:#fff;border:1px solid var(--line);border-radius:14px;box-shadow:0 6px 18px rgba(7,63,66,.05);min-width:0}
+.study-grid p{margin:0}
+.practice-en{margin-top:9px;color:var(--teal-700);font-weight:650;overflow-wrap:anywhere}
+.wrong{color:#a24831;text-decoration:line-through;overflow-wrap:anywhere}
+.right{color:var(--teal-700);font-weight:750;margin:5px 0;overflow-wrap:anywhere}
+.pitfalls p{color:var(--muted);font-size:.82rem}
+.shifts article{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1.5fr);gap:12px;align-items:center}
+.shifts b{color:var(--teal-600);font-size:1.2rem}
+.shifts strong{color:var(--teal-800)}
+footer{margin-top:38px;color:var(--muted);font-size:.78rem;text-align:center}
+.footer-note{margin-top:6px}
+@media (max-width:900px){
+  .page{grid-template-columns:1fr}
+  .sidebar{position:static}
+  .sidebar-box{overflow-x:auto;padding:12px}
+  .sidebar h2{padding-left:5px}
+  .map-nav{display:flex;width:max-content;gap:8px}
+  .map-link{width:240px;border:1px solid var(--line);border-radius:10px;padding:8px}
+  .bilingual{grid-template-columns:1fr}
+  .en-block{padding:12px 0 0;border-left:0;border-top:1px dashed var(--line)}
+}
+@media (max-width:620px){
+  .hero-inner{padding-top:30px}
+  .hero-flex{flex-direction:column;align-items:center}
+  .hero-cover{width:100%;max-width:360px}
+  .hero-text{text-align:center}
+  .page{padding-inline:10px;gap:18px}
+  .scene-card{border-radius:14px;padding:17px 13px}
+  .scene-topline{align-items:flex-start}
+  .scene-speak span:last-child{display:none}
+  .sentence{grid-template-columns:26px minmax(0,1fr);padding:13px 10px;gap:6px}
+  .note{grid-column:2}
+  .study-grid{grid-template-columns:1fr}
+  .shifts article{grid-template-columns:1fr;gap:5px}
+  .shifts b{transform:rotate(90deg);justify-self:start}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.speak-btn{transition:none}}</style>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="hero-flex">
+        <div class="hero-text">
+          <p class="eyebrow">Auto Industry &amp; Marketing · 汽车与营销</p>
+          <h1>明明是MPV，却偏要叫SUV，长城到底在想什么？</h1>
+          <p class="hero-en">It's an MPV, but They Call It an SUV — What Is Great Wall Thinking?</p>
+          <p class="summary-en" style="margin:0 0 14px;padding:14px 16px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.22);border-radius:12px;font-size:.95rem;line-height:1.7">Sandao takes apart the Wey Gaoshan 7 'SUV Edition' in depth: the ride height up 3 centimeters, new off-road styling kits, an added four-wheel-drive mode, and a guide price of 285,800 yuan that stays put. The real story isn't the specs — it's Great Wall using an 'SUV narrative' to give an MPV a fresh mental entry point, borrowing the off-road DNA of Haval and Tank to dip into the SUV traffic pool with the 7 series. Get it right, and it's pure upside; if it doesn't sell, they can quietly kill the variant without hurting the main line.</p>
+          <div class="hero-meta">
+            <span class="chip">2026-06-26</span>
+            <span class="chip">小宇宙FM</span>
+            <span class="chip">1小时06分</span>
+            <span class="chip">4 Scenes</span>
+            <span class="chip">Click underlined words to hear them</span>
+            <a class="source-link" href="https://www.xiaoyuzhoufm.com/episode/6a3b90412e335a35a8089db4" target="_blank" rel="noopener">原播客 ↗</a>
+          </div>
+        </div>
+      </div>
+      <div class="toolbar">
+        <div class="lang-switch"><div class="lang-switch"><a href="greatwall_mpv_suv_naming-总结.html">中文</a><a class="active" href="greatwall_mpv_suv_naming-en.html" aria-current="page">EN</a></div></div>
+        <label for="speech-rate">朗读速度</label>
+        <select id="speech-rate">
+          <option value="0.85">慢速 0.85×</option>
+          <option value="1" selected>正常 1×</option>
+          <option value="1.15">快速 1.15×</option>
+        </select>
+        <button id="stop-speech" class="stop-btn" type="button">■ 停止朗读</button>
+        <span id="speech-status" class="speech-status" role="status" aria-live="polite"></span>
+      </div>
+      <div class="narration-player">
+      <p class="audio-label">🎧 中文语音讲解</p>
+      <button class="speak-btn" type="button" data-audio="audio/greatwall_mpv_suv_naming.mp3" aria-label="播放语音讲解"><span aria-hidden="true">▶</span><span>播放语音讲解</span></button>
+    </div>
+    </div>
+  </header>
+  <main class="page">
+    <aside class="sidebar" aria-label="场景地图">
+      <div class="sidebar-box">
+        <h2>场景地图 · SCENE MAP</h2>
+        <nav class="map-nav">
+          <a class="map-link" href="#s1">
+          <span class="map-id">S1</span>
+          <span><b>Part 1 · 产品拆解：高山7 SUV版改了什么</b><small> · Part 1 · Product Breakdown: What Changed in the Gaoshan 7 SUV Edition</small></span>
+        </a>
+<a class="map-link" href="#s2">
+          <span class="map-id">S2</span>
+          <span><b>Part 2 · 品牌阳谋：为什么叫SUV</b><small> · Part 2 · The Open Game: Why Call It an SUV?</small></span>
+        </a>
+<a class="map-link" href="#s3">
+          <span class="map-id">S3</span>
+          <span><b>Part 3 · 竞品镜像：腾势 vs 魏牌</b><small> · Part 3 · Mirror Images: Denza vs. Wey</small></span>
+        </a>
+<a class="map-link" href="#s4">
+          <span class="map-id">S4</span>
+          <span><b>Part 4 · 购车决策：谁该买、怎么选</b><small> · Part 4 · Buying Decisions: Who Should Buy, and How to Choose</small></span>
+        </a>
+        </nav>
+      </div>
+    </aside>
+    <div class="content">
+      <section class="scene-card" id="s1" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S1</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/greatwall_mpv_suv_naming/s1.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>Part 1 · 产品拆解：高山7 SUV版改了什么</h2>
+      <p class="scene-title-en">Part 1 · Product Breakdown: What Changed in the Gaoshan 7 SUV Edition</p>
+      <p class="context"><b>情境</b>高山7 SUV版的产品改动：底盘抬高、越野套件、四驱模式，以及试驾体感。语域：casual 汽车测评 + 播客闲聊。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：在标准高山7基础上增加「SUV版」配置，指导价仍为28.58万（现价27.88万），并非加长版——轴距3085mm不变，车长因套件变为5050mm</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/greatwall_mpv_suv_naming/s1-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The mechanism: it adds an 'SUV Edition' configuration on top of the standard Gaoshan 7, with the guide price still at 285,800 yuan, currently 278,800. It's not a stretched version — the wheelbase stays at 3,085 millimeters, and the length changes to 5,050 due to the body kits.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>guide price → 指导价；wheelbase → 轴距；stretched version → 加长版；body kit → 外观套件</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：①底盘抬高30mm（155→185mm），工程上需底盘加强+全车重新调教，不是简单垫高；②侧裙/前保等越野套件让视觉更硬朗；③驾驶模式新增专属「四驱模式」，针对烂路/石子路/湿滑路面做策略优化</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/greatwall_mpv_suv_naming/s1-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key insight: first, the ride height rises 30 millimeters, from 155 to 185, which takes chassis reinforcement and a full re-tuning, not just a simple spacer; second, side skirts and a new front bumper make it look tougher; third, a dedicated 'four-wheel-drive mode' is added to the drive modes, optimized for rough roads, gravel, and slippery surfaces.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>ride height → 底盘离地高度；chassis reinforcement → 底盘加强；re-tuning → 重新调教；rough roads → 烂路</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>典型场景：民宿老板城乡往返、露营爱好者周末走乡村小道、工地老板常跑山路——需要比传统MPV更强通过性，但不需要真越野</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/greatwall_mpv_suv_naming/s1-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Who it's for: bed-and-breakfast owners commuting between town and countryside, campers hitting rural lanes on weekends, construction bosses running mountain roads — people who need more capability than a traditional MPV but don't need real off-roading.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>capability → 通过性；bed-and-breakfast owner → 民宿老板；rural lanes → 乡村小道</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据：「它不仅仅是离地间隙这一点……它想要具备一定的SUV的属性，也可能是个营销的概念。太高三公分就一定能解决吗？也不一定。他只是说解决你敢不敢走的问题，而不是你能不能豁车。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/greatwall_mpv_suv_naming/s1-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">'It's not just about ground clearance… it wants to carry some SUV character, and yes, it's also a marketing concept. Does three extra centimeters really solve everything? Not necessarily. It's about whether you dare to drive, not whether the car can go anywhere.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>ground clearance → 离地间隙；marketing concept → 营销概念；dare to drive → 敢不敢走；go anywhere → 豁车</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）相关概念：普通版高山7/8/9全系本就Hi-4四驱，SUV版强调的是场景化四驱策略，而非从两驱变四驱</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/greatwall_mpv_suv_naming/s1-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Related idea: the regular Gaoshan 7, 8, and 9 all come with Hi-4 four-wheel drive anyway; the SUV Edition emphasizes scenario-based four-wheel-drive tuning, not a switch from two-wheel drive to four.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>Hi-4 four-wheel drive → Hi-4 四驱；scenario-based → 场景化；two-wheel drive → 两驱</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>三刀试驾感受：外观抬高3cm并不明显，但一坐进车内「高座子、高重心」体感非常强烈——会本能想把车速放慢，不像开快车。底盘做了加强和专属复原簧，减少起伏和侧倾，避免「踩高跷」感，但高重心坐姿是否接受，必须亲自试驾</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/greatwall_mpv_suv_naming/s1-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Sandao's test-drive take: three centimeters barely shows on the outside, but once you sit in the driver's seat, the high-seat, high-center-of-gravity feel is unmistakable — you instinctively want to slow down rather than push it. The chassis got reinforcement and dedicated rebound springs to cut body roll and porpoising and avoid a 'walking on stilts' feel, but whether you can live with the high seating position is something you have to test yourself.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>center of gravity → 重心；body roll → 侧倾；rebound spring → 复原簧；walking on stilts → 踩高跷</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「这不是加长，是换皮」</p><div class="chunks">the same wheelbase · body kits · the story around it is new</div><small>第二句点题「改的是叙事」，适合点评</small></li>
+<li><p>想说「抬高三厘米解决的是敢不敢走」</p><div class="chunks">change your confidence · do I dare · can the car</div><small>第二句把原文观点压缩成对偶，很有力</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s2" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S2</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/greatwall_mpv_suv_naming/s2.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>Part 2 · 品牌阳谋：为什么叫SUV</h2>
+      <p class="scene-title-en">Part 2 · The Open Game: Why Call It an SUV?</p>
+      <p class="context"><b>情境</b>长城用「SUV」命名给 MPV 植入品牌心智，抢占大SUV流量池，低风险试错。语域：formal 商业策略分析 + 播客点评。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：长城最强标签是SUV（哈弗H6、坦克300/500、蓝山），但高山是MPV。魏牌作为追赶者没有历史包袱，选择开一条新路：把MPV做得偏户外、全场景，并用「SUV」命名植入品牌心智——「你买的不是传统商务MPV，而是有长城SUV基因的MPV」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/greatwall_mpv_suv_naming/s2-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The mechanism: Great Wall's strongest label is SUV — the Haval H6, Tank 300 and 500, the Lanshan — but the Gaoshan is an MPV. Wey, as the underdog chasing the pack, has no legacy baggage, so it opens a new path: make the MPV more outdoorsy and all-scenario, and plant the 'SUV' name into buyers' minds — 'you're not buying a traditional business MPV; you're buying an MPV with Great Wall SUV DNA.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>underdog → 追赶者；legacy baggage → 历史包袱；plant a name into minds → 植入心智；brand DNA → 品牌基因</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：传统MPV（GL8/赛那）产品逻辑是低门槛、低趴、商务稳重，抬高底盘要重做工程且可能两头不讨好，所以老玩家不会干。魏牌后发无包袱，赌一把差异化</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/greatwall_mpv_suv_naming/s2-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key insight: traditional MPVs like the GL8 and Sienna are built on low floors, low profiles, and business composure; raising the chassis means redoing the engineering and possibly pleasing no one, so the incumbents won't bother. Wey, arriving late with no baggage, is betting on differentiation.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>low profile → 低趴；incumbent → 老玩家；bet on differentiation → 赌一把差异化；please no one → 两头不讨好</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>典型场景：抢理想L8/L9、问界M7/M8/M9等大SUV用户——MPV三排空间优于同价位SUV，25-35万区间用户群有重叠</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/greatwall_mpv_suv_naming/s2-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Who it targets: buyers of big SUVs like the Li L8 and L9 or the AITO M7, M8, and M9 — an MPV's third row beats a similarly priced SUV, and the 250,000-to-350,000 bracket overlaps heavily.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>third row → 第三排；similarly priced → 同价位；overlap → 重叠</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据：「SUV市场是MPV市场的多少倍啊……MPV市场的蛋糕最多也就是个小甜点，SUV是那个九层塔的大蛋糕。稍微滑波一点销量过来，估计都能翻倍增长。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/greatwall_mpv_suv_naming/s2-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">'The SUV market is how many times bigger than the MPV market? … The MPV market is at most a little dessert, while SUVs are the great layer-cake of the market. Steal just a trickle of that volume, and you could probably double your sales.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>a little dessert → 小甜点；layer cake → 九层塔大蛋糕；a trickle of volume → 稍微滑一点销量</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>如果高山7 SUV卖得好，8/9也会跟；如果竞品后来也出「赛那SUV」「GL8 SUV」，用户会记得第一个叫的是高山。做对了是增量，做错了停掉这个page即可，常规版本不受影响——典型的低风险试错</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/greatwall_mpv_suv_naming/s2-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">If the Gaoshan 7 SUV sells well, the 8 and 9 will follow; and if rivals later release a 'Sienna SUV' or 'GL8 SUV,' buyers will remember that Gaoshan was the first to use the name. Get it right and it's pure upside; get it wrong and they simply kill this page, leaving the regular versions untouched — a textbook low-risk experiment.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>pure upside → 纯增量；kill this page → 停掉这个变体；textbook low-risk experiment → 典型的低风险试错</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）「如果你后面觉得高山7 SUV卖的还不错，那咱们也抬高底盘也叫SUV……你告诉我这个圈子里面谁是第一个叫的？那就是高山啊。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/greatwall_mpv_suv_naming/s2-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">'If later you see the Gaoshan 7 SUV selling well, then we raise the chassis and call ours an SUV too… tell me, who was the first to use the name in this segment? It was Gaoshan.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>the first to use the name → 第一个叫这个名字的；segment → 细分市场</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「先入为主比名实相符更重要」</p><div class="chunks">first with the name · claim the label · own it in buyers' minds</div><small>第一句是核心观点，适合总结</small></li>
+<li><p>想说「试错成本很低」</p><div class="chunks">the downside is tiny · kill the variant · upside big, downside contained</div><small>第二句把风险收益结构说得很清楚</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s3" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S3</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/greatwall_mpv_suv_naming/s3.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>Part 3 · 竞品镜像：腾势 vs 魏牌</h2>
+      <p class="scene-title-en">Part 3 · Mirror Images: Denza vs. Wey</p>
+      <p class="context"><b>情境</b>腾势被「MPV=奶爸车」心智绑定，魏牌没有绑定反而灵活；智界V9的双主博弈。语域：formal 品牌战略分析 + 播客点评。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>腾势D9一战成名，「腾势=MPV=奶爸车」心智极强。好处是品牌溢价和标签清晰；坏处是推Z9 GT、N9等运动/豪华产品时用户觉得「怪怪的」——品牌基因带来惯性。赵长江从腾势转智界做V9，华为+奇瑞双主博弈，发布会「在场性缺席」，订单多顶配，认的是华为灵魂还是智界品牌仍待验证</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/greatwall_mpv_suv_naming/s3-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The Denza D9 was a breakout hit, and 'Denza equals MPV equals dad car' is a rock-solid association. The upside is brand premium and a clear label; the downside is that when Denza pushes sporty, luxurious models like the Z9 GT and N9, buyers find it 'weird' — brand DNA creates inertia. Zhao Changjiang moved from Denza to Zhijie to build the V9, with Huawei and Chery as dual masters; the launch was marked by an 'absent presence,' orders skewing to the top trim, and whether buyers trust the Huawei soul or the Zhijie brand remains to be seen.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>breakout hit → 一战成名；dad car → 奶爸车；brand premium → 品牌溢价；inertia → 惯性</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据：「腾势遇到的问题点，它跟长城它是恰恰相反的。腾势已经是跟新能源MPV强绑定了，但是魏牌没有强绑定。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/greatwall_mpv_suv_naming/s3-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">'The problem Denza faces is exactly the opposite of Great Wall's. Denza is already strongly bound to new-energy MPVs, but Wey is not.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>exactly the opposite → 恰恰相反；strongly bound to → 强绑定；new-energy MPV → 新能源 MPV</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「标签太清晰反而成了枷锁」</p><div class="chunks">a straitjacket · known for one thing · hard to sell another</div><small>straitjacket（紧身衣/束缚）比喻很形象</small></li>
+<li><p>想说「到底认华为还是认智界」</p><div class="chunks">loyal to the soul or the brand · the verdict is still out</div><small>the verdict is still out 表示「结果待验证」</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s4" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S4</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/greatwall_mpv_suv_naming/s4.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>Part 4 · 购车决策：谁该买、怎么选</h2>
+      <p class="scene-title-en">Part 4 · Buying Decisions: Who Should Buy, and How to Choose</p>
+      <p class="context"><b>情境</b>大MPV是「人生最后一辆车」的奢侈消费；机械车位限长决定能不能买。语域：formal 购车建议 + 播客忠告。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>原因：中大型MPV（25-35万）是偏奢侈消费——只有「本来就需要MPV」的人才会最终落到这个品类。一旦买了新能源MPV，配置全、空间全、动力不差，很可能成为人生最后一辆车</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/greatwall_mpv_suv_naming/s4-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Why: a mid-to-large MPV in the 250,000-to-350,000 range is a luxury purchase — only people who genuinely need an MPV end up in this category. Once you buy a new-energy MPV with full features, full space, and decent power, it may well become the last car you ever own.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>luxury purchase → 奢侈消费；end up in this category → 落到这个品类；the last car you own → 人生最后一辆车</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>解法：非刚需不换车；确认家庭真有六座/大空间需求再入场</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/greatwall_mpv_suv_naming/s4-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The fix: don't switch cars unless it's a real need; only enter the segment once you've confirmed the family truly needs six seats and the space.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>don't switch cars → 不换车；six seats → 六座；a real need → 刚需</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>严重程度：致命（冲动入手后很难再有换车动力）</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/greatwall_mpv_suv_naming/s4-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Severity: fatal — after an impulsive buy, you'll have little motivation to change cars again.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>severity → 严重程度；impulsive buy → 冲动入手；little motivation to switch → 难有换车动力</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）三刀忠告：「MPV千万不要轻易去买，就是你买了MPV，很有可能就是你人生换车的终点了。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/greatwall_mpv_suv_naming/s4-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Sandao's warning: 'Never buy an MPV lightly — once you own one, it may well be the end of your car-changing life.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>never buy lightly → 千万不要轻易买；the end of car-changing → 换车的终点</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>很多小区机械车位限长5.2米。高山7约5.05m能停，高山8近5.3m、高山9超5.4m停不了——这直接决定买不买MPV。三刀邻居买了超5.2m的MPV，只能停对面商场包年，取车极麻烦</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/greatwall_mpv_suv_naming/s4-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Many communities cap mechanical parking spots at 5.2 meters. The Gaoshan 7, at about 5.05, fits; the Gaoshan 8 at nearly 5.3 and the 9 at over 5.4 don't — and that alone decides whether you can own an MPV. A neighbor of Sandao's bought one over 5.2 meters and had to rent a yearly spot at a mall across the street, making every pickup a hassle.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>mechanical parking spot → 机械车位；cap at → 限长；rent a yearly spot → 包年车位</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）怎么落地：买车前拿卷尺量自家车位限长，再对照高山7（5.05m）/8（~5.3m）/9（5.4m+）选尺寸</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/greatwall_mpv_suv_naming/s4-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">In practice: before buying, take a tape measure to your parking spot's limit, then check it against the Gaoshan 7 at 5.05 meters, the 8 at roughly 5.3, and the 9 at 5.4-plus to pick your size.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>tape measure → 卷尺；parking spot limit → 车位限长；pick your size → 选尺寸</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「买 MPV 要谨慎，一买就是终点」</p><div class="chunks">the last car you ever buy · once you go, you rarely go back</div><small>第二句仿谚语 once you go black，口语俏皮</small></li>
+<li><p>想说「停车位决定能不能买」</p><div class="chunks">decides the purchase · measure the spot first</div><small>第二句「先量车位再看配置」点出决策顺序</small></li>
+        </ol>
+      </details>
+    </section>
+      <section class="study-section" id="practice">
+      <h2 class="section-heading">今日可练 <small>PRACTICE TODAY</small></h2>
+      <div class="study-grid">
+        <article>
+          <p>用「plant the name into minds」说：长城用「SUV」给 MPV 植入心智。</p>
+          <div class="practice-en">
+            Great Wall plants the 'SUV' name into buyers' minds to reposition an MPV.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/greatwall_mpv_suv_naming/practice-0.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「legacy baggage」说：追赶者没有历史包袱。</p>
+          <div class="practice-en">
+            As the underdog, Wey has no legacy baggage — that's why it dares to bet on differentiation.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/greatwall_mpv_suv_naming/practice-1.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「the last car you own」说：新能源 MPV 很可能是人生最后一辆车。</p>
+          <div class="practice-en">
+            Buy a new-energy MPV and it may well be the last car you ever own.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/greatwall_mpv_suv_naming/practice-2.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「cap at」说：机械车位限长 5.2 米。</p>
+          <div class="practice-en">
+            Mechanical parking spots here cap at 5.2 meters — measure before you buy.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/greatwall_mpv_suv_naming/practice-3.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article>
+      </div>
+    </section>
+      <section class="study-section pitfalls" id="pitfalls">
+      <h2 class="section-heading">避坑 <small>PITFALLS</small></h2>
+      <div class="study-grid">
+        <article>
+          <div class="wrong">✕ The car body is raised up 3 centimeters.</div>
+          <div class="right">✓ The ride height goes up 30 millimeters — from 155 to 185.</div>
+          <p>「底盘抬高」用 ride height / ground clearance，不是 body raised up；用数字更专业。</p>
+        </article><article>
+          <div class="wrong">✕ Wey wants to cheat customers by calling an MPV an SUV.</div>
+          <div class="right">✓ It's an 'SUV narrative' — giving an MPV a new mental entry point, not deceiving anyone.</div>
+          <p>叫 SUV 不是欺骗而是营销心智；用 narrative / mental entry point 表达策略意图。</p>
+        </article><article>
+          <div class="wrong">✕ The GL8 and Sienna are low and cheap cars.</div>
+          <div class="right">✓ Traditional MPVs are built on low floors and business composure — raising the chassis means redoing the engineering.</div>
+          <p>「低趴」是设计语言不是廉价；low floor / business composure 才准确。</p>
+        </article><article>
+          <div class="wrong">✕ MPV is very good, everyone should buy it.</div>
+          <div class="right">✓ An MPV may well be the last car you own — only buy it if the family truly needs six seats.</div>
+          <p>盲目推荐违背三刀忠告；用 the last car you own + a real need 表达谨慎。</p>
+        </article>
+      </div>
+    </section>
+      <section class="study-section shifts" id="mindset">
+      <h2 class="section-heading">认知转变 <small>MINDSET SHIFTS</small></h2>
+      <div class="study-grid">
+        <article>
+          <span>以为车型命名必须如实反映车身形式</span>
+          <b aria-hidden="true">→</b>
+          <strong>命名是抢占用户心智的战略动作，先入为主胜过名实相符</strong>
+        </article><article>
+          <span>以为抬高底盘就是简单加高</span>
+          <b aria-hidden="true">→</b>
+          <strong>底盘抬高 3 厘米背后是重新调教与专属四驱策略，工程与营销并存</strong>
+        </article><article>
+          <span>以为买大车只看配置与空间</span>
+          <b aria-hidden="true">→</b>
+          <strong>机械车位限长这类隐性条件，才是决定能否拥有 MPV 的关键</strong>
+        </article>
+      </div>
+    </section>
+      <footer>
+        双语学习版 · 场景/句子朗读使用 edge-tts（en-US） · 单词发音使用浏览器 Web Speech API
+        <div class="footer-note">中文版：<a href="greatwall_mpv_suv_naming-总结.html">greatwall_mpv_suv_naming-总结.html</a> · SVG 版：<a href="viewer.html?f=greatwall_mpv_suv_naming-总结.svg" target="_blank">greatwall_mpv_suv_naming-总结.svg</a></div>
+      </footer>
+    </div>
+  </main>
+  <script>(() => {
+  let activeAudio = null;
+  let activeBtn = null;
+  const status = document.getElementById('speech-status');
+  const stopBtn = document.getElementById('stop-speech');
+  const rateSel = document.getElementById('speech-rate');
+
+  const reset = () => {
+    if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+    activeBtn?.classList.remove('playing');
+    activeBtn = null;
+    stopBtn.classList.remove('visible');
+    status.textContent = '';
+  };
+
+  const playAudio = (url, btn) => {
+    reset();
+    const audio = new Audio(url);
+    audio.playbackRate = Number(rateSel.value);
+    activeAudio = audio;
+    activeBtn = btn;
+    btn.classList.add('playing');
+    stopBtn.classList.add('visible');
+    status.textContent = btn.classList.contains('scene-speak')
+      ? 'Reading the whole scene…'
+      : 'Reading…';
+
+    audio.onended = () => { if (activeAudio === audio) reset(); };
+    audio.onerror = () => { status.textContent = 'Audio failed to load.'; if (activeAudio === audio) reset(); };
+    audio.play().catch(() => { status.textContent = 'Playback failed.'; if (activeAudio === audio) reset(); });
+  };
+
+  document.addEventListener('click', e => {
+    const btn = e.target.closest('[data-audio]');
+    if (!btn) return;
+    e.preventDefault();
+    if (btn === activeBtn && activeAudio) { reset(); return; }
+    playAudio(btn.dataset.audio, btn);
+  });
+
+  stopBtn.addEventListener('click', reset);
+
+  const synth = window.speechSynthesis;
+  const getEnglishVoice = () => {
+    const voices = synth.getVoices();
+    return voices.find(v => /^en-(US|GB)/i.test(v.lang))
+        || voices.find(v => /^en/i.test(v.lang)) || null;
+  };
+
+  const difficultWords = new Set([
+    'assortment', 'SKU', 'premium', 'margin', 'middleman', 'OEM', 'rebranding',
+    'hoarding', 'PTSD', 'curation', 'repurchase', 'touchpoint', 'backlash',
+    'reshuffle', 'funnel', 'anchor', 'contract', 'psychology', 'private', 'label',
+    'editorial', 'familiar', 'competitors', 'authorization', 'flexibility'
+  ]);
+
+  const shouldPronounce = word => {
+    const n = word.toLowerCase().replace(/^[^a-z]+|[^a-z]+$/g, '');
+    return n.replace(/[^a-z]/g, '').length >= 8 || difficultWords.has(n);
+  };
+
+  const markPronounceableWords = root => {
+    const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+    const nodes = [];
+    while (walker.nextNode()) nodes.push(walker.currentNode);
+    nodes.forEach(node => {
+      if (node.parentElement?.closest('button, script, style')) return;
+      const text = node.nodeValue;
+      let m, last = 0, changed = false;
+      const frag = document.createDocumentFragment();
+      const re = /[A-Za-z]+(?:[-'’][A-Za-z]+)*/g;
+      while ((m = re.exec(text))) {
+        if (!shouldPronounce(m[0])) continue;
+        changed = true;
+        frag.append(text.slice(last, m.index));
+        const wb = document.createElement('button');
+        wb.type = 'button'; wb.className = 'pronounce-word';
+        wb.dataset.speak = m[0];
+        wb.setAttribute('aria-label', '\u8bfb\u5355\u8bcd ' + m[0]);
+        wb.title = '\u70b9\u51fb\u542c\u53d1\u97f3';
+        wb.textContent = m[0];
+        frag.append(wb);
+        last = m.index + m[0].length;
+      }
+      if (!changed) return;
+      frag.append(text.slice(last));
+      node.replaceWith(frag);
+    });
+  };
+
+  document.querySelectorAll(
+    '.english, .scene-title-en, .paraphrase li p, .chunks, .practice-en, .wrong, .right, .summary-en'
+  ).forEach(markPronounceableWords);
+
+  document.addEventListener('click', e => {
+    const wb = e.target.closest('.pronounce-word');
+    if (!wb) return;
+    e.preventDefault();
+    if (!synth) return;
+    synth.cancel();
+    if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+    activeBtn?.classList.remove('playing');
+    activeBtn = wb;
+    wb.classList.add('playing');
+    const u = new SpeechSynthesisUtterance(wb.dataset.speak);
+    u.lang = 'en-US';
+    u.rate = 0.88;
+    const v = getEnglishVoice();
+    if (v) u.voice = v;
+    u.onend = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+    u.onerror = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+    synth.speak(u);
+  });
+})();</script>
+</body>
+</html>

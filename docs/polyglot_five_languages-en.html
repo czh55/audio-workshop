@@ -1,0 +1,961 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="002. 讲五门语言的人生是什么体验？ — Bilingual Learning Edition" />
+  <title>002. 讲五门语言的人生是什么体验？｜EN 双语学习版</title>
+  <style>:root{--teal-950:#073f42;--teal-800:#0d686c;--teal-700:#0f7c80;--teal-600:#14919b;--mint-100:#dff4ec;--mint-50:#f0faf6;--ink:#183536;--muted:#607879;--line:#d7e8e2;--paper:#fff;--amber:#a85d08;--shadow:0 12px 32px rgba(7,63,66,.08)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:24px}
+body{margin:0;color:var(--ink);background:#edf7f2;font-family:Inter,"PingFang SC","Noto Sans SC","Microsoft YaHei",system-ui,sans-serif;line-height:1.65}
+button,select{font:inherit}
+a{color:inherit}
+.hero{color:#fff;background:radial-gradient(circle at 85% 10%,rgba(129,230,196,.24),transparent 30%),linear-gradient(125deg,#073f42,#0d7377 56%,#14919b)}
+.hero-inner{width:min(1440px,100%);margin:auto;padding:44px clamp(20px,5vw,72px) 36px}
+.hero-flex{display:flex;gap:clamp(18px,3vw,40px);align-items:flex-start}
+.hero-cover{width:min(240px,42vw);height:auto;max-height:320px;object-fit:contain;object-position:center;border-radius:16px;border:1px solid rgba(255,255,255,.28);box-shadow:0 18px 44px rgba(0,0,0,.32);flex-shrink:0;background:rgba(255,255,255,.08)}
+.hero-text{min-width:0;flex:1}
+.eyebrow{margin:0 0 12px;font-size:.78rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;opacity:.8}
+h1{max-width:1020px;margin:0;font-size:clamp(1.7rem,3.6vw,3rem);line-height:1.15;letter-spacing:-.04em}
+.hero-en{margin:12px 0 22px;font-size:clamp(1rem,2vw,1.25rem);opacity:.82}
+.hero-meta{display:flex;flex-wrap:wrap;gap:9px;align-items:center}
+.chip{border:1px solid rgba(255,255,255,.28);border-radius:99px;padding:5px 11px;font-size:.82rem;background:rgba(255,255,255,.08)}
+.source-link{font-weight:750;text-decoration:none;border-bottom:1px solid rgba(255,255,255,.5)}
+.toolbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:22px}
+.toolbar label{font-size:.82rem;opacity:.82}
+.toolbar select{color:#fff;background:#0a5d61;border:1px solid rgba(255,255,255,.3);border-radius:8px;padding:7px 9px}
+.stop-btn{display:none;color:#fff;background:#8c3b2a;border:0;border-radius:8px;padding:8px 12px;cursor:pointer}
+.stop-btn.visible{display:inline-flex}
+.speech-status{min-height:1.4em;font-size:.82rem;opacity:.88}
+.lang-switch{display:inline-flex;gap:6px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.28);border-radius:99px;padding:4px}
+.lang-switch a{display:inline-block;padding:4px 13px;border-radius:99px;font-size:.8rem;font-weight:700;text-decoration:none;color:rgba(255,255,255,.75)}
+.lang-switch a.active{background:#fff;color:var(--teal-800)}
+.narration-player{margin-top:16px;padding:14px 18px;background:rgba(255,255,255,.1);border-radius:12px;border:1px solid rgba(255,255,255,.15)}
+.audio-label{color:rgba(255,255,255,.88);font-size:.82rem;font-weight:700;margin:0 0 8px}
+.page{width:min(1440px,100%);margin:auto;padding:28px clamp(16px,3vw,44px) 64px;display:grid;grid-template-columns:minmax(230px,280px) minmax(0,1fr);gap:30px;align-items:start}
+.sidebar{position:sticky;top:20px;min-width:0}
+.sidebar-box{background:rgba(255,255,255,.8);border:1px solid var(--line);border-radius:16px;padding:17px;box-shadow:var(--shadow);backdrop-filter:blur(12px)}
+.sidebar h2{margin:0 0 13px;font-size:.9rem;letter-spacing:.08em;color:var(--teal-800)}
+.map-link{display:grid;grid-template-columns:34px minmax(0,1fr);gap:9px;padding:10px 6px;text-decoration:none;border-top:1px solid var(--line)}
+.map-link:hover b{color:var(--teal-700)}
+.map-id{width:30px;height:30px;display:grid;place-items:center;border-radius:9px;color:#fff;background:var(--teal-700);font-size:.72rem;font-weight:800}
+.map-link b{display:block;font-size:.78rem;line-height:1.4}
+.map-link small{display:block;color:var(--muted);font-size:.67rem;line-height:1.4;margin-top:2px;overflow-wrap:anywhere}
+.content{min-width:0}
+.scene-card{background:var(--paper);border:1px solid var(--line);border-radius:20px;padding:clamp(20px,3vw,34px);margin-bottom:24px;box-shadow:var(--shadow);overflow:hidden}
+.scene-topline{display:flex;justify-content:space-between;gap:16px;align-items:center;margin-bottom:16px}
+.scene-id{display:inline-grid;place-items:center;min-width:42px;height:30px;padding:0 10px;color:#fff;background:var(--teal-700);border-radius:8px;font-size:.78rem;font-weight:850}
+.time{margin-left:10px;color:var(--muted);font-size:.82rem;font-variant-numeric:tabular-nums}
+.scene-card h2{margin:0 0 2px;font-size:clamp(1.35rem,2.4vw,2rem);line-height:1.25;color:var(--teal-950)}
+.scene-title-en{margin:0 0 18px;color:var(--teal-600);font-weight:700;font-size:.98rem}
+.context{margin:0 0 20px;padding:12px 15px;color:#496566;background:var(--mint-50);border-left:3px solid var(--teal-600);border-radius:0 10px 10px 0;font-size:.88rem}
+.context b{margin-right:10px;color:var(--teal-800)}
+.sentence-list{display:grid;gap:12px}
+.sentence{position:relative;display:grid;grid-template-columns:38px minmax(0,1fr);gap:12px;padding:16px;border:1px solid #e2ece8;border-radius:14px;background:#fcfefd;min-width:0}
+.sentence-no{color:var(--teal-600);font-size:.76rem;font-weight:850;font-variant-numeric:tabular-nums;padding-top:4px}
+.bilingual{min-width:0;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(14px,2vw,28px)}
+.lang-block{min-width:0}
+.lang-block p{margin:5px 0 0;overflow-wrap:anywhere}
+.en-block{padding-left:clamp(14px,2vw,28px);border-left:1px solid var(--line)}
+.en-block p{color:#0b5c60;font-weight:650}
+.lang-tag{display:inline-block;color:var(--muted);font-size:.66rem;font-weight:850;letter-spacing:.12em}
+.en-head{display:flex;justify-content:space-between;gap:10px;align-items:center;min-height:30px}
+.note{grid-column:2;margin:1px 0 0;color:#708182;font-size:.78rem}
+.note span{margin-right:7px;color:var(--amber);font-weight:750}
+.speak-btn{display:inline-flex;align-items:center;gap:7px;border:1px solid #b8d9d1;border-radius:9px;padding:7px 11px;color:var(--teal-800);background:#f5fbf8;cursor:pointer;white-space:nowrap;font-size:.78rem;font-weight:750;transition:.15s ease}
+.speak-btn:hover{color:#fff;background:var(--teal-700);border-color:var(--teal-700);transform:translateY(-1px)}
+.speak-btn.playing{color:#fff;background:var(--teal-700);border-color:var(--teal-700)}
+.speak-btn.compact{padding:4px 8px;font-size:.7rem}
+.speak-btn.icon-only{padding:3px 7px;margin-left:6px}
+.speak-btn.icon-only span:last-child{display:none}
+.pronounce-word{display:inline;margin:0;padding:0 2px;color:inherit;background:rgba(20,145,155,.08);border:0;border-bottom:1px dashed var(--teal-600);border-radius:3px;font:inherit;font-weight:inherit;line-height:inherit;cursor:pointer}
+.pronounce-word:hover,.pronounce-word:focus{color:var(--teal-950);background:#cceee4;border-bottom-style:solid;outline:3px solid rgba(20,145,155,.42);outline-offset:2px}
+.pronounce-word.playing{color:#fff;background:var(--teal-700);border-bottom-color:var(--teal-700)}
+.paraphrase{margin-top:18px;border-top:1px solid var(--line)}
+.paraphrase summary{padding:16px 0 3px;color:var(--teal-800);cursor:pointer;font-weight:800}
+.paraphrase summary span{color:var(--muted);font-size:.75rem;font-weight:500;margin-left:8px}
+.paraphrase ol{margin:12px 0 0;padding-left:22px}
+.paraphrase li{padding:7px 0 9px 5px}
+.paraphrase li p{margin:0;font-size:.9rem;font-weight:650}
+.paraphrase li small{display:block;color:var(--muted);font-size:.72rem;margin-top:2px}
+.chunks{margin-top:4px;color:var(--teal-700);font-size:.78rem}
+.study-section{margin:38px 0 0}
+.section-heading{display:flex;align-items:baseline;gap:10px;margin:0 0 15px;color:var(--teal-950);font-size:1.35rem}
+.section-heading small{color:var(--teal-600);font-size:.78rem;letter-spacing:.05em}
+.study-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.study-grid article{padding:17px;background:#fff;border:1px solid var(--line);border-radius:14px;box-shadow:0 6px 18px rgba(7,63,66,.05);min-width:0}
+.study-grid p{margin:0}
+.practice-en{margin-top:9px;color:var(--teal-700);font-weight:650;overflow-wrap:anywhere}
+.wrong{color:#a24831;text-decoration:line-through;overflow-wrap:anywhere}
+.right{color:var(--teal-700);font-weight:750;margin:5px 0;overflow-wrap:anywhere}
+.pitfalls p{color:var(--muted);font-size:.82rem}
+.shifts article{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1.5fr);gap:12px;align-items:center}
+.shifts b{color:var(--teal-600);font-size:1.2rem}
+.shifts strong{color:var(--teal-800)}
+footer{margin-top:38px;color:var(--muted);font-size:.78rem;text-align:center}
+.footer-note{margin-top:6px}
+@media (max-width:900px){
+  .page{grid-template-columns:1fr}
+  .sidebar{position:static}
+  .sidebar-box{overflow-x:auto;padding:12px}
+  .sidebar h2{padding-left:5px}
+  .map-nav{display:flex;width:max-content;gap:8px}
+  .map-link{width:240px;border:1px solid var(--line);border-radius:10px;padding:8px}
+  .bilingual{grid-template-columns:1fr}
+  .en-block{padding:12px 0 0;border-left:0;border-top:1px dashed var(--line)}
+}
+@media (max-width:620px){
+  .hero-inner{padding-top:30px}
+  .hero-flex{flex-direction:column;align-items:center}
+  .hero-cover{width:100%;max-width:360px}
+  .hero-text{text-align:center}
+  .page{padding-inline:10px;gap:18px}
+  .scene-card{border-radius:14px;padding:17px 13px}
+  .scene-topline{align-items:flex-start}
+  .scene-speak span:last-child{display:none}
+  .sentence{grid-template-columns:26px minmax(0,1fr);padding:13px 10px;gap:6px}
+  .note{grid-column:2}
+  .study-grid{grid-template-columns:1fr}
+  .shifts article{grid-template-columns:1fr;gap:5px}
+  .shifts b{transform:rotate(90deg);justify-self:start}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.speak-btn{transition:none}}</style>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="hero-flex">
+        <div class="hero-text">
+          <p class="eyebrow">Language Learning · 语言学习</p>
+          <h1>002. 讲五门语言的人生是什么体验？</h1>
+          <p class="hero-en">002. What's Life Like Speaking Five Languages?</p>
+          <p class="summary-en" style="margin:0 0 14px;padding:14px 16px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.22);border-radius:12px;font-size:.95rem;line-height:1.7">Two polyglots, Ruixue Cloe and Yvonne Du, talk about what a five-language life feels like: self-teaching English through celebrity fandom, Italian sparked by Lady Gaga, and French revived by love. Their core takeaways: any language is learnable, an accent is a badge of the road you've traveled, and every new language is a wider world you get to walk around in.</p>
+          <div class="hero-meta">
+            <span class="chip">2026-06-23</span>
+            <span class="chip">小宇宙FM</span>
+            <span class="chip">61分钟</span>
+            <span class="chip">5 Scenes</span>
+            <span class="chip">Click underlined words to hear them</span>
+            <a class="source-link" href="https://www.xiaoyuzhoufm.com/episode/6931b3d53fec3166cf508299" target="_blank" rel="noopener">原播客 ↗</a>
+          </div>
+        </div>
+      </div>
+      <div class="toolbar">
+        <div class="lang-switch"><div class="lang-switch"><a href="polyglot_five_languages-总结.html">中文</a><a class="active" href="polyglot_five_languages-en.html" aria-current="page">EN</a></div></div>
+        <label for="speech-rate">朗读速度</label>
+        <select id="speech-rate">
+          <option value="0.85">慢速 0.85×</option>
+          <option value="1" selected>正常 1×</option>
+          <option value="1.15">快速 1.15×</option>
+        </select>
+        <button id="stop-speech" class="stop-btn" type="button">■ 停止朗读</button>
+        <span id="speech-status" class="speech-status" role="status" aria-live="polite"></span>
+      </div>
+      <div class="narration-player">
+      <p class="audio-label">🎧 中文语音讲解</p>
+      <button class="speak-btn" type="button" data-audio="audio/polyglot_five_languages.mp3" aria-label="播放语音讲解"><span aria-hidden="true">▶</span><span>播放语音讲解</span></button>
+    </div>
+    </div>
+  </header>
+  <main class="page">
+    <aside class="sidebar" aria-label="场景地图">
+      <div class="sidebar-box">
+        <h2>场景地图 · SCENE MAP</h2>
+        <nav class="map-nav">
+          <a class="map-link" href="#s1">
+          <span class="map-id">S1</span>
+          <span><b>一、语言学习的底层逻辑</b><small> · 1. The Fundamentals of Language Learning</small></span>
+        </a>
+<a class="map-link" href="#s2">
+          <span class="map-id">S2</span>
+          <span><b>二、两种截然不同的自学路径</b><small> · 2. Two Very Different Self-Learning Paths</small></span>
+        </a>
+<a class="map-link" href="#s3">
+          <span class="map-id">S3</span>
+          <span><b>三、记忆方式与语言天赋</b><small> · 3. Memory Types &amp; Language Talent</small></span>
+        </a>
+<a class="map-link" href="#s4">
+          <span class="map-id">S4</span>
+          <span><b>四、多语言人格与文化切换</b><small> · 4. Multilingual Personalities &amp; Cultural Switching</small></span>
+        </a>
+<a class="map-link" href="#s5">
+          <span class="map-id">S5</span>
+          <span><b>五、争议讨论：学语言的动机与边界</b><small> · 5. Debate: Motivation &amp; Boundaries in Language Learning</small></span>
+        </a>
+        </nav>
+      </div>
+    </aside>
+    <div class="content">
+      <section class="scene-card" id="s1" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S1</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/polyglot_five_languages/s1.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>一、语言学习的底层逻辑</h2>
+      <p class="scene-title-en">1. The Fundamentals of Language Learning</p>
+      <p class="context"><b>情境</b>语言为什么一定学得会，天赋体现在哪里，以及口音的意义。语域：casual 播客畅聊 + 观点分享。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：语言与数学/物理不同——世界上再难的语言都有一群母语者在日常使用。人天生自带学语言系统，因为人是社交动物，沟通能力是几乎所有行业的必备技能</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/polyglot_five_languages/s1-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The fundamentals: language differs from math or physics — no matter how hard a language is, a community of native speakers uses it every day. Humans are born with a language-learning system because we're social animals, and communication is an essential skill in almost every industry.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>native speaker → 母语者；social animal → 社交动物；essential skill → 必备技能</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：语言天赋体现在耳朵和舌头的灵敏度——能准确捕捉并 replicate 发音。温州语文老师严格纠正前后鼻音，能精准模仿的孩子往往语言天赋更高</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/polyglot_five_languages/s1-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key insight: language talent lives in the sensitivity of your ears and tongue — accurately catching and replicating pronunciation. A strict Wenzhou teacher drilled the front-versus-back nasal sounds, and kids who could imitate precisely tended to have higher language aptitude.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>replicate pronunciation → 复刻发音；nasal sound → 鼻音；language aptitude → 语言天赋；imitate → 模仿</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>典型场景：去新国家旅行或定居前，先学当地基础用语（路牌、谢谢、走吧），否则如坐针毡、缺乏安全感</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/polyglot_five_languages/s1-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The typical scene: before traveling to or settling in a new country, learn the basic local phrases — street signs, thank you, let's go — otherwise you'll sit on pins and needles, lacking any sense of security.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>sit on pins and needles → 如坐针毡；sense of security → 安全感；basic phrases → 基础用语</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据：「再难的语言，阿拉伯语、拉丁语、波兰语，世界上都有一群人在使用它，只要你找到适合自己的学习方式和给自己足够的时间，你都能够掌握一门语言。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/polyglot_five_languages/s1-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">"No matter how hard a language is — Arabic, Latin, Polish — there are people using it in the world. As long as you find a learning style that fits you and give yourself enough time, you can master it."</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>master a language → 掌握一门语言；learning style → 学习方式；fits you → 适合你</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）相关概念：与「硬背语法」的区别在于，语言学习本质是重复+赋予意义，类似音乐学习</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/polyglot_five_languages/s1-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The difference from rote grammar drilling: language learning is essentially repetition plus making meaning, much like learning music.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>rote drilling → 硬背；repetition → 重复；make meaning → 赋予意义</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>如果有人质疑你的口音，你可以说：「如果我有口音，说明我现在讲的是我的第二文明，说明我不只会说一种语言。」口音记录了你走过的路、教过你的老师、生活过的城市</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/polyglot_five_languages/s1-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">If someone questions your accent, you can say: "If I have an accent, it means I'm speaking my second language — it means I speak more than one." An accent records the roads you've walked, the teachers who taught you, and the cities you've lived in.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>question one's accent → 质疑口音；second language → 第二语言；records the roads → 记录走过的路</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>3 组表达</span></summary>
+        <ol>
+          <li><p>想说「再难的语言也有人天天说」</p><div class="chunks">however hard · unlearnable language · unhurried learners</div><small>第二句是俏皮金句，适合鼓励他人</small></li>
+<li><p>想说「学语言和学音乐很像」</p><div class="chunks">like learning an instrument · ears, repetition, and feel</div><small>第一句是类比；第二句点出三要素</small></li>
+<li><p>想说「口音是荣誉不是缺陷」</p><div class="chunks">a medal · a mark of shame · a map of the journey</div><small>medal 与 map 的比喻都很有画面感</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s2" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S2</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/polyglot_five_languages/s2.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>二、两种截然不同的自学路径</h2>
+      <p class="scene-title-en">2. Two Very Different Self-Learning Paths</p>
+      <p class="context"><b>情境</b>瑞雪通过追星学英语，Yvonne 从 12 岁系统学德语、大学专业意大利语。语域：casual 播客畅聊 + 经历分享。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：高中英语144分但自觉很差，真正突破来自追星东方神起——为唱歌词自学英语和韩语拼读。竞选英语课代表时一句「English is in my soul, in my heart」被老师认可，从此自我认同转变</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/polyglot_five_languages/s2-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The mechanism: she scored 144 in high-school English yet felt terrible at it — the real breakthrough came from fandom. Chasing TVXQ, she self-taught English and Korean romanization to sing along to lyrics. When she ran for English class representative, the line "English is in my soul, in my heart" won the teacher over, and her self-identity shifted from that day.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>fandom → 追星；run for → 竞选；self-identity → 自我认同；romanization → 拼读/罗马音</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：看英文电影抄台词、背歌词；进阶后不看任何字幕纯听，逼大脑在听不懂的状态下解读剧情和手势，反复十遍后查词</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/polyglot_five_languages/s2-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key insight: copy lines from English movies and memorize lyrics. At an advanced stage, she listened with no subtitles at all, forcing her brain to decode plot and gestures while not fully understanding, then checked words only after replaying ten times.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>copy lines → 抄台词；decode plot → 解读剧情；replay ten times → 反复十遍</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据：「你越听不懂的状态，然后越沉浸是去看剧情，大脑会非常努力地帮你去解读，慢慢的就会懂了。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/polyglot_five_languages/s2-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">"The less you understand, the more you get immersed in reading the story — your brain works really hard to decode it, and slowly you just start to understand."</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>get immersed in → 沉浸于；decode → 解读；slowly you just get it → 慢慢就懂了</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）怎么落地：选一部你真正热爱的剧/歌，先双语字幕→纯听，把听不懂但反复出现的词抄下来查</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/polyglot_five_languages/s2-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">How to apply it: pick a show or song you genuinely love, start with dual subtitles, then listen with none, and jot down the words that keep showing up even though you don't understand them — then look them up.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>dual subtitles → 双语字幕；jot down → 抄下来；keep showing up → 反复出现</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：12岁在维也纳开始系统学德语，同时看MTV学美式英语；刻意避免德语口音的英语，大量看美剧。意大利语大学专业+米兰跨文化硕士，曾做中意同传</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/polyglot_five_languages/s2-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The mechanism: at twelve, in Vienna, she began systematic German study while learning American English from MTV; she deliberately avoided German-accented English and binge-watched American shows. Italian was her university major plus a Milan cross-cultural master's, and she has worked as a Chinese-Italian interpreter.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>systematic study → 系统学习；binge-watch → 大量追看；cross-cultural → 跨文化；interpreter → 同传</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：学意大利语三大原因：小语种差异化、Lady Gaga不会说意大利语的刺激、以及对意大利文化的向往。选专业时被长辈质疑「意大利经济太差」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/polyglot_five_languages/s2-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key insight: her three reasons for Italian were the differentiation of a less-common language, the spark of Lady Gaga not speaking Italian, and a longing for Italian culture. When she chose the major, elders questioned her: "Italy's economy is too weak."</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>differentiation → 差异化；longing for → 向往；question one's choice → 质疑选择</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>3 组表达</span></summary>
+        <ol>
+          <li><p>想说「热爱是最好的老师」</p><div class="chunks">the ultimate teacher · the words follow</div><small>第一句总结式；第二句口语有画面感</small></li>
+<li><p>想说「听不懂也要硬听」</p><div class="chunks">fill the gaps · fight through the blur</div><small>fill the gaps 是认知学的说法；fight through the blur 很口语</small></li>
+<li><p>想说「小语种是差异化选择」</p><div class="chunks">sets you apart · the less-crowded path</div><small>set apart 表「差异化」；less-crowded 表「竞争少」</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s3" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S3</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/polyglot_five_languages/s3.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>三、记忆方式与语言天赋</h2>
+      <p class="scene-title-en">3. Memory Types & Language Talent</p>
+      <p class="context"><b>情境</b>图像型/声音型/文字型记忆，语言天赋的共性，以及发音器官的刻意调整。语域：casual 播客畅聊 + 方法科普。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：人大致分为图像型、声音型、文字型记忆。Yvonne把一页纸像照相一样印在脑中；瑞雪通过反复听声音记忆。学语言记不住，很可能没用对通道</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/polyglot_five_languages/s3-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The mechanism: people generally fall into visual, auditory, or textual memory types. Yvonne photographs a page into her mind like a camera; Ruixue remembers by listening to sounds repeatedly. If you can't remember a language, you're probably using the wrong channel.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>visual/auditory/textual memory → 图像型/声音型/文字型记忆；channel → 通道；memory type → 记忆类型</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：语言天赋者的共性：喜欢说话/朗读、喜欢听自己声音、随地大小唱、发音好的人往往音乐性也高（大脑管控声音的区域相同）</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/polyglot_five_languages/s3-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key insight: language-talented people share traits — they love talking and reading aloud, enjoy hearing their own voice, and sing anywhere. Good pronunciation often pairs with strong musicality, because the same brain region manages sound.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>musicality → 音乐性；brain region → 大脑区域；read aloud → 朗读</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>适用边界：发音不标准不代表没有天赋——天赋可能在数学、绘画等其他领域；语言是「张嘴就能听见」的外显天赋，相对公平</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/polyglot_five_languages/s3-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The boundary: imperfect pronunciation doesn't mean no talent — your gift may live in math, drawing, or other fields. Language is a visible gift you can hear the moment you open your mouth, which makes it relatively fair.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>imperfect pronunciation → 发音不标准；visible gift → 外显天赋；relatively fair → 相对公平</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据：「你跟我说一百遍我可能都记不得，但是你这样给我看一遍我绝对记得。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/polyglot_five_languages/s3-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">"Tell me something a hundred times and I may still forget it, but show me once and I'll remember it for sure."</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>for sure → 绝对；tell/show → 说/展示（视听通道对比）</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>原因：很多外语音素在母语中不存在（如中文的x、德语的小舌音），用母语口腔肌肉偷懒发音会导致Chinglish或德式英语</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/polyglot_five_languages/s3-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The cause: many foreign phonemes don't exist in your mother tongue — like Mandarin's x or German's uvular r. If your mouth muscles lazily fall back on native habits, you get Chinglish or German-flavored English.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>phoneme → 音素；uvular r → 小舌音；fall back on → 偷懒沿用；Chinglish → 中式英语</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>解法：刻意调整嘴巴、舌头、牙齿和气流方式；但也不必过度焦虑——「Just speak whatever you want, we don't judge」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/polyglot_five_languages/s3-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The fix: deliberately adjust your lips, tongue, teeth, and airflow. But don't over-worry — "Just speak whatever you want, we don't judge."</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>deliberately adjust → 刻意调整；airflow → 气流；don't judge → 不评判</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>3 组表达</span></summary>
+        <ol>
+          <li><p>想说「记不住可能是通道不对」</p><div class="chunks">won't stick · sense channel · input matches your type</div><small>won't stick 是「记不住」的口语；第二句偏科普</small></li>
+<li><p>想说「发音不准不代表没天赋」</p><div class="chunks">a rough accent · missing talent · bad learner</div><small>第二句用符号式表达，口语点评很犀利</small></li>
+<li><p>想说「大胆开口别怕评判」</p><div class="chunks">nobody's keeping score · the fear of judgment</div><small>keeping score 比喻「评判打分」，很形象</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s4" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S4</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/polyglot_five_languages/s4.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>四、多语言人格与文化切换</h2>
+      <p class="scene-title-en">4. Multilingual Personalities & Cultural Switching</p>
+      <p class="context"><b>情境</b>说不同语言时的人格切换，意大利语到法语的学习迁移，以及法语因爱情复活。语域：casual 播客畅聊 + 文化观察。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>说中文时知性达理；重庆话时坐在街边翘二郎腿、骂人都更搞笑100倍；英语时声音更高、更外向；意大利语时像性感豪放的女孩。每种语言的发声位置不同，说话姿态随之改变</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/polyglot_five_languages/s4-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">She turns sensible in Mandarin; in Chongqing dialect she sits by the street with legs crossed and even swearing is a hundred times funnier; in English her voice rises and she becomes more outgoing; in Italian she's a sexy, bold girl. Each language resonates in a different place, so her posture shifts with the words.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>resonance point → 发声位置；outgoing → 外向；shift with the words → 随语言改变</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）「如果你不能讲这门语言，你永远都触及不到这一部分的我。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/polyglot_five_languages/s4-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">"If you can't speak this language, you'll never reach this part of me."</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>reach this part of me → 触及到这一部分的我</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：学会意大利语后再学法语，语法大致类似，词语相近只需换读音。意大利语「怎么写就怎么念」像直爽大姐；法语加小尾巴小帽子，形式美感优先</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/polyglot_five_languages/s4-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The mechanism: after Italian, French comes much easier — grammar is roughly similar and the words are close, you just change the pronunciation. Italian is "spell it as you say it," like a straightforward older sister; French adds little tails and hats, prizing formal beauty.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>spell it as you say it → 怎么写就怎么念；formal beauty → 形式美感；straightforward → 直爽</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：pasta/hostel等词追溯自拉丁语同一词源，各语言不断给自己加个性。Yvonne的法语带意大利口音，因为老师是意大利人——口音是来时路的地图</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/polyglot_five_languages/s4-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key insight: words like pasta and hostel trace back to the same Latin roots, and each language keeps adding its own personality. Yvonne's French carries an Italian accent because her teacher was Italian — accents are the map of where you've been.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>trace back to → 追溯自；common root → 同一词源；carry an accent → 带…口音</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）相关概念：与《降临》(Arrival)中语言学家习得外星人思维方式的科幻隐喻呼应</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/polyglot_five_languages/s4-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">It echoes the sci-fi premise of Arrival, where a linguist acquires an alien way of thinking.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>echo → 呼应；sci-fi premise → 科幻设定；acquire a way of thinking → 习得思维方式</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>认识法国男孩后，三四年前学的法语词汇突然全部回到脑中。他教的随机词汇（柳树=saule）因场景记忆而深刻烙印。法国谚语「in parler una lingua, con una lingua」——用舌头学语言是最好的方式</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/polyglot_five_languages/s4-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">After meeting a French boy, the French vocabulary she'd studied three or four years earlier suddenly flooded back. The random words he taught her — like saule for willow — burned into memory thanks to situational recall. As the saying goes, "in parlar una lingua, con una lingua" — learning a language with your tongue is the best way.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>flood back → 全部回到脑中；burn into memory → 深刻烙印；situational recall → 场景记忆</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>3 组表达</span></summary>
+        <ol>
+          <li><p>想说「每种语言里住着不同的自己」</p><div class="chunks">unlock a different version · a different person in</div><small>unlock 比喻「解锁人格」，很贴切</small></li>
+<li><p>想说「会了一门学下一门更快」</p><div class="chunks">pay off · learning transfer</div><small>learning transfer 是教育学名词；pay off 口语</small></li>
+<li><p>想说「学过的语言不会白学」</p><div class="chunks">never wasted · comes back the moment you need it</div><small>第二句呼应「法语因爱情复活」的故事</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s5" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S5</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/polyglot_five_languages/s5.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>五、争议讨论：学语言的动机与边界</h2>
+      <p class="scene-title-en">5. Debate: Motivation & Boundaries in Language Learning</p>
+      <p class="context"><b>情境</b>羞耻感是最大障碍，翻译软件无法替代交流，以及「不必每门都流利」。语域：casual 播客讨论 + 观点碰撞。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>原因：很多人不敢开口是因为怕被嘲笑；瑞雪小时候因重庆郊区口音被主城区孩子嘲笑，痛定思痛几个月学会主城口音</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/polyglot_five_languages/s5-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The cause: many people won't speak because they fear being laughed at. As a child, Ruixue was mocked for her suburban Chongqing accent by kids from the main urban area; determined, she learned the city accent within a few months.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>fear being laughed at → 怕被嘲笑；mock → 嘲笑；suburban accent → 郊区口音</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>解法：不要急于求成，过程即旅途；勇敢表达的人永远值得尊重</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/polyglot_five_languages/s5-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The fix: don't rush results — the process is the journey, and anyone brave enough to speak up deserves respect.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>rush results → 急于求成；the process is the journey → 过程即旅途；speak up → 勇敢表达</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>严重程度：致命（羞耻感是大多数人学外语的最大障碍）</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/polyglot_five_languages/s5-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Severity: critical — shame is the biggest barrier for most language learners.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>shame → 羞耻感；the biggest barrier → 最大障碍</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）嘉宾共识：「就算出糗、天天说错、的确被人笑过，还是继续说才能到今天这样的地步。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/polyglot_five_languages/s5-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">"Even if we made a fool of ourselves, said things wrong every day, and were actually laughed at, we kept speaking — that's how we got to where we are today."</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>make a fool of oneself → 出糗；kept speaking → 继续说；that's how we got here → 才能到今天</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>为什么重要：翻译软件无法替代人与人的直接交流；每种语言有不可翻译的专属词（如side hustle、satisfy），学语言等于安装大脑的新操作系统</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/polyglot_five_languages/s5-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Why it matters: translation apps can't replace direct human communication. Every language has untranslatable words — like side hustle or satisfy — so learning a language is like installing a new operating system in your brain.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>untranslatable word → 不可翻译的词；operating system → 操作系统；direct communication → 直接交流</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>适用边界：不必每门都学到流利——了解文化思维和基本沟通已足够带来安全感和global mindset</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/polyglot_five_languages/s5-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The boundary: you don't need fluency in every language — grasping the culture's way of thinking and basic communication is enough to bring a sense of security and a global mindset.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>fluency → 流利；way of thinking → 思维方式；global mindset → 全球视野</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>3 组表达</span></summary>
+        <ol>
+          <li><p>想说「怕被笑是不开口的主因」</p><div class="chunks">silence learners · the real wall · look foolish</div><small>silence 动词化很生动；the real wall 强调「真正的障碍」</small></li>
+<li><p>想说「翻译软件替代不了对话」</p><div class="chunks">translate words, never a conversation · only lands between two people</div><small>第二句有诗意，适合观点金句</small></li>
+<li><p>想说「不必每门都流利」</p><div class="chunks">don't have to be fluent · a little goes a long way</div><small>a little goes a long way 是常用习语</small></li>
+        </ol>
+      </details>
+    </section>
+      <section class="study-section" id="practice">
+      <h2 class="section-heading">今日可练 <small>PRACTICE TODAY</small></h2>
+      <div class="study-grid">
+        <article>
+          <p>用「sit on pins and needles」说：听不懂时如坐针毡。</p>
+          <div class="practice-en">
+            Not understanding the local language leaves me sitting on pins and needles.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/polyglot_five_languages/practice-0.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「master」说：任何语言都能掌握。</p>
+          <div class="practice-en">
+            With the right method and enough time, you can master any language.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/polyglot_five_languages/practice-1.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「flood back」说：法语词汇突然回到脑中。</p>
+          <div class="practice-en">
+            The French vocabulary I studied years ago suddenly flooded back.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/polyglot_five_languages/practice-2.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「the process is the journey」说：学语言重在过程。</p>
+          <div class="practice-en">
+            Don't rush results — the process is the journey.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/polyglot_five_languages/practice-3.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article>
+      </div>
+    </section>
+      <section class="study-section pitfalls" id="pitfalls">
+      <h2 class="section-heading">避坑 <small>PITFALLS</small></h2>
+      <div class="study-grid">
+        <article>
+          <div class="wrong">✕ My English level is very poor, so I am afraid to speak.</div>
+          <div class="right">✓ I hold myself back because I'm afraid of being laughed at.</div>
+          <p>「水平差」不是不开口的真正原因；原因状语用 afraid of being laughed at，比 poor level 更切中要害。</p>
+        </article><article>
+          <div class="wrong">✕ I can learn a language by hard memorizing grammar.</div>
+          <div class="right">✓ Language learning is repetition plus meaning, not rote grammar drilling.</div>
+          <p>「硬背」对应 rote memorization / rote drilling；强调与 meaning 结合，与本期观点一致。</p>
+        </article><article>
+          <div class="wrong">✕ If I have accent, it means I am not good at English.</div>
+          <div class="right">✓ An accent just means I'm speaking my second language — it's a badge, not a flaw.</div>
+          <p>把口音当「缺陷」是误区；用 badge of the road traveled / second language 重塑认知。</p>
+        </article><article>
+          <div class="wrong">✕ Translation software can replace talking with foreigners.</div>
+          <div class="right">✓ Translation apps can translate words, but never a real conversation.</div>
+          <p>replace 太绝对；用 never a real conversation 表达「翻译不了人际交流」，语义更准确。</p>
+        </article>
+      </div>
+    </section>
+      <section class="study-section shifts" id="mindset">
+      <h2 class="section-heading">认知转变 <small>MINDSET SHIFTS</small></h2>
+      <div class="study-grid">
+        <article>
+          <span>以为有口音 = 学得不好</span>
+          <b aria-hidden="true">→</b>
+          <strong>口音是「来时路的勋章」，记录走过的路、教过你的老师与生活过的城市</strong>
+        </article><article>
+          <span>以为记不住是笨，只能硬背</span>
+          <b aria-hidden="true">→</b>
+          <strong>记忆分图像/声音/文字通道，用对通道比死记硬背有效得多</strong>
+        </article><article>
+          <span>以为学语言就是为了流利</span>
+          <b aria-hidden="true">→</b>
+          <strong>了解文化思维与基本沟通已足够，不必每门都学到流利</strong>
+        </article>
+      </div>
+    </section>
+      <footer>
+        双语学习版 · 场景/句子朗读使用 edge-tts（en-US） · 单词发音使用浏览器 Web Speech API
+        <div class="footer-note">中文版：<a href="polyglot_five_languages-总结.html">polyglot_five_languages-总结.html</a> · SVG 版：<a href="viewer.html?f=polyglot_five_languages-总结.svg" target="_blank">polyglot_five_languages-总结.svg</a></div>
+      </footer>
+    </div>
+  </main>
+  <script>(() => {
+  let activeAudio = null;
+  let activeBtn = null;
+  const status = document.getElementById('speech-status');
+  const stopBtn = document.getElementById('stop-speech');
+  const rateSel = document.getElementById('speech-rate');
+
+  const reset = () => {
+    if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+    activeBtn?.classList.remove('playing');
+    activeBtn = null;
+    stopBtn.classList.remove('visible');
+    status.textContent = '';
+  };
+
+  const playAudio = (url, btn) => {
+    reset();
+    const audio = new Audio(url);
+    audio.playbackRate = Number(rateSel.value);
+    activeAudio = audio;
+    activeBtn = btn;
+    btn.classList.add('playing');
+    stopBtn.classList.add('visible');
+    status.textContent = btn.classList.contains('scene-speak')
+      ? 'Reading the whole scene…'
+      : 'Reading…';
+
+    audio.onended = () => { if (activeAudio === audio) reset(); };
+    audio.onerror = () => { status.textContent = 'Audio failed to load.'; if (activeAudio === audio) reset(); };
+    audio.play().catch(() => { status.textContent = 'Playback failed.'; if (activeAudio === audio) reset(); });
+  };
+
+  document.addEventListener('click', e => {
+    const btn = e.target.closest('[data-audio]');
+    if (!btn) return;
+    e.preventDefault();
+    if (btn === activeBtn && activeAudio) { reset(); return; }
+    playAudio(btn.dataset.audio, btn);
+  });
+
+  stopBtn.addEventListener('click', reset);
+
+  const synth = window.speechSynthesis;
+  const getEnglishVoice = () => {
+    const voices = synth.getVoices();
+    return voices.find(v => /^en-(US|GB)/i.test(v.lang))
+        || voices.find(v => /^en/i.test(v.lang)) || null;
+  };
+
+  const difficultWords = new Set([
+    'assortment', 'SKU', 'premium', 'margin', 'middleman', 'OEM', 'rebranding',
+    'hoarding', 'PTSD', 'curation', 'repurchase', 'touchpoint', 'backlash',
+    'reshuffle', 'funnel', 'anchor', 'contract', 'psychology', 'private', 'label',
+    'editorial', 'familiar', 'competitors', 'authorization', 'flexibility'
+  ]);
+
+  const shouldPronounce = word => {
+    const n = word.toLowerCase().replace(/^[^a-z]+|[^a-z]+$/g, '');
+    return n.replace(/[^a-z]/g, '').length >= 8 || difficultWords.has(n);
+  };
+
+  const markPronounceableWords = root => {
+    const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+    const nodes = [];
+    while (walker.nextNode()) nodes.push(walker.currentNode);
+    nodes.forEach(node => {
+      if (node.parentElement?.closest('button, script, style')) return;
+      const text = node.nodeValue;
+      let m, last = 0, changed = false;
+      const frag = document.createDocumentFragment();
+      const re = /[A-Za-z]+(?:[-'’][A-Za-z]+)*/g;
+      while ((m = re.exec(text))) {
+        if (!shouldPronounce(m[0])) continue;
+        changed = true;
+        frag.append(text.slice(last, m.index));
+        const wb = document.createElement('button');
+        wb.type = 'button'; wb.className = 'pronounce-word';
+        wb.dataset.speak = m[0];
+        wb.setAttribute('aria-label', '\u8bfb\u5355\u8bcd ' + m[0]);
+        wb.title = '\u70b9\u51fb\u542c\u53d1\u97f3';
+        wb.textContent = m[0];
+        frag.append(wb);
+        last = m.index + m[0].length;
+      }
+      if (!changed) return;
+      frag.append(text.slice(last));
+      node.replaceWith(frag);
+    });
+  };
+
+  document.querySelectorAll(
+    '.english, .scene-title-en, .paraphrase li p, .chunks, .practice-en, .wrong, .right, .summary-en'
+  ).forEach(markPronounceableWords);
+
+  document.addEventListener('click', e => {
+    const wb = e.target.closest('.pronounce-word');
+    if (!wb) return;
+    e.preventDefault();
+    if (!synth) return;
+    synth.cancel();
+    if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+    activeBtn?.classList.remove('playing');
+    activeBtn = wb;
+    wb.classList.add('playing');
+    const u = new SpeechSynthesisUtterance(wb.dataset.speak);
+    u.lang = 'en-US';
+    u.rate = 0.88;
+    const v = getEnglishVoice();
+    if (v) u.voice = v;
+    u.onend = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+    u.onerror = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+    synth.speak(u);
+  });
+})();</script>
+</body>
+</html>

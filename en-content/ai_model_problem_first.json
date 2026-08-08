@@ -1,0 +1,404 @@
+{
+  "slug": "ai_model_problem_first",
+  "date": "2026-07-05",
+  "platform": "小宇宙FM",
+  "title": "硅谷AI一线体感：从Model first到Problem first，我们用三年想明白了这件事",
+  "title_en": "Silicon Valley's AI Front Line: From Model-First to Problem-First — Three Years to Figure It Out",
+  "eyebrow": "AI & Startups · AI 与创业",
+  "duration": "35分钟",
+  "source_url": "https://www.xiaoyuzhoufm.com/episode/6a454bb69d2f574368411608",
+  "summary_cn": "AI Odyssey 彭彭对话硅谷一线技术人 Leo：三年间 AI 从「模型发布即地震」祛魅为背景音，创业者从 Model first 转向 Problem first；API Wrapper 被证伪，Vertical AI + Domain Knowledge 成共识，模型吞噬焦虑真实存在",
+  "summary_en": "On AI Odyssey, host Peng Peng talks with Leo, a front-line technologist in Silicon Valley: in three years, AI went from 'every model release is an earthquake' to background noise. Founders have shifted from model-first to problem-first thinking; the API-wrapper playbook has been debunked, Vertical AI plus domain knowledge has become the consensus, and the anxiety that models will eat your lunch is very real.",
+  "scenes": [
+    {
+      "id": "s1",
+      "title_cn": "一、AI 祛魅：从地震到背景音",
+      "title_en": "AI, Disenchanted: From Earthquake to Background Noise",
+      "context": "2023 年模型发布像地震，如今像天气预报；开发者只看 benchmark 然后切 API。语域：formal 行业观察 + 播客对谈。",
+      "speak": "The shift: in 2023, a model release felt like an earthquake; now it's more like a weekly weather forecast. Developers glance at the benchmark, switch APIs, and if it works, they get back to the grind. The key insight: everyone now takes it for granted that AI handles baseline work. The excitement has moved from the model itself to what convenience it brings to life and work — how it cuts costs and boosts efficiency. Mid-to-large companies give engineers a daily AI budget, and when a new model drops, you don't study each benchmark one by one — you just switch the API. As Leo puts it, when a model launches, everyone glances at the benchmark, hooks up the API, sees if it nests into the workflow, and then gets back to the grind. Unlike the model arms race, people on the front line care about real experience, not benchmark scores. And for a founder running a team, what matters more is how AI serves the existing workflow and product features — not chasing every new model.",
+      "sentences": [
+        {
+          "cn": "核心机制：2023 年模型发布像地震，如今更像每周天气预报。开发者看一眼 benchmark、切换 API，能跑就继续搬砖",
+          "en": "The shift: in 2023, a model release felt like an earthquake; now it's more like a weekly weather forecast. Developers glance at the benchmark, switch APIs, and if it works, they get back to the grind.",
+          "note": "<span>表达提示</span>an earthquake → 地震；weekly weather forecast → 每周天气预报；get back to the grind → 继续搬砖"
+        },
+        {
+          "cn": "关键理解：大家已默认 AI 能做基础工作，兴奋点从「模型本身」转向「给生活和工作带来什么便利、如何降本增效」",
+          "en": "The key insight: everyone now takes it for granted that AI handles baseline work. The excitement has moved from the model itself to what convenience it brings to life and work — how it cuts costs and boosts efficiency.",
+          "note": "<span>表达提示</span>take … for granted → 默认；baseline work → 基础工作；cut costs and boost efficiency → 降本增效"
+        },
+        {
+          "cn": "典型场景：中大型公司给工程师每日 AI budget，新模型发布无需逐个研究 matrix，直接切换 API 即可",
+          "en": "How to use it: mid-to-large companies give engineers a daily AI budget; when a new model drops, you don't study each benchmark one by one — you just switch the API.",
+          "note": "<span>表达提示</span>AI budget → AI 使用额度；switch the API → 切换 API；a model drops → 模型发布"
+        },
+        {
+          "cn": "（引用）原文依据：「模型发布，大家的动作又变成了看一眼 benchmark，然后 API 再介入一下，看看能不能嵌套到自己的 workflow 里面，就继续开始搬砖了」",
+          "en": "'When a model launches, everyone's move becomes: glance at the benchmark, hook up the API, see if it nests into your workflow — and then get back to the grind.'",
+          "note": "<span>表达提示</span>glance at the benchmark → 看一眼 benchmark；nest into → 嵌套进；the grind → 搬砖"
+        },
+        {
+          "cn": "（引用）相关概念：与「模型军备竞赛」不同，一线更关注实际体感而非 benchmark 分数",
+          "en": "Related idea: unlike the 'model arms race,' people on the front line care about real experience, not benchmark scores.",
+          "note": "<span>表达提示</span>model arms race → 模型军备竞赛；front line → 一线；real experience → 实际体感"
+        },
+        {
+          "cn": "作为管理团队的 startup 创始人，更重要的是 AI 如何服务于现有 workflow 和产品 feature，而非追逐每个新模型",
+          "en": "For a founder running a team, what matters more is how AI serves the existing workflow and product features — not chasing every new model.",
+          "note": "<span>表达提示</span>serve the workflow → 服务于工作流；product feature → 产品功能；chase every new model → 追逐每个新模型"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「新模型发布大家已经麻木了」",
+          "phrases": [
+            "A new model drop barely moves anyone anymore.",
+            "Model releases have gone from earthquakes to background noise."
+          ],
+          "chunks": "barely moves anyone · background noise",
+          "usage": "背景音说法对应本期核心比喻，正式点评可用"
+        },
+        {
+          "intent": "想说「能用就行，别追新」",
+          "phrases": [
+            "If it runs, ship it — don't chase the shiny new model.",
+            "Good enough is good enough; switch only when it matters."
+          ],
+          "chunks": "if it runs, ship it · the shiny new model · good enough",
+          "usage": "if it runs, ship it 是工程师口头禅"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title_cn": "二、应用层竞争：Engineering + 成本",
+      "title_en": "Competition at the App Layer: Engineering Plus Cost",
+      "context": "模型能力趋同后，应用层靠工程和成本拉开差距；选型逻辑：工作流类选 Claude，成本敏感选开源。语域：formal 行业分析 + 播客对谈。",
+      "speak": "The mechanism: model capabilities converge again, so at the app layer it comes down to engineering. The final result may be similar, but each team has to spend very different amounts of effort on the model APIs to get there. The key insight: founders' sense of models is far stronger than two or three years ago — they test repeatedly and pick the model that best fits the product feature. Workflow-heavy businesses pick Claude; cost-sensitive ones go open source and self-host, paying only for GPU usage. As Leo says, everyone wants the most powerful model, but the most powerful model also means the highest cost. The strongest models cost the most per API call, and for many products their performance is overkill — the ROI just doesn't pencil out. So the fix is simple: choose by the product's performance needs.",
+      "sentences": [
+        {
+          "cn": "核心机制：模型能力再次趋同 + 应用层 Engineering，最终效果可能趋同，但过程中各团队需投入不同比例的力气在模型 API 上才能达到相同结果",
+          "en": "The mechanism: model capabilities converge again, so at the app layer it comes down to engineering. The final result may be similar, but each team has to spend very different amounts of effort on the model APIs to get there.",
+          "note": "<span>表达提示</span>converge → 趋同；come down to → 归根到底；app layer → 应用层"
+        },
+        {
+          "cn": "关键理解：创业者对模型的 sense 比两三年前强得多，会反复测试选择最适合产品 feature 的模型",
+          "en": "The key insight: founders' sense of models is far stronger than two or three years ago — they test repeatedly and pick the model that best fits the product feature.",
+          "note": "<span>表达提示</span>sense of models → 对模型的判断力；fit the product feature → 适合产品功能"
+        },
+        {
+          "cn": "典型场景：工作流密集型业务选 Claude；成本敏感选开源自部署，只需付 GPU 消耗费用",
+          "en": "How to use it: workflow-heavy businesses pick Claude; cost-sensitive ones go open source and self-host, paying only for GPU usage.",
+          "note": "<span>表达提示</span>workflow-heavy → 工作流密集；cost-sensitive → 成本敏感；self-host → 自部署"
+        },
+        {
+          "cn": "（引用）原文依据：「大家都想用最牛逼的模型，但最牛逼的模型也意味着 cost 是最大的」",
+          "en": "'Everyone wants the most powerful model, but the most powerful model also means the highest cost.'",
+          "note": "<span>表达提示</span>the most powerful model → 最牛的模型；highest cost → 成本最大"
+        },
+        {
+          "cn": "原因：最强模型 API 成本最高，对很多产品而言性能过剩，ROI 不划算",
+          "en": "Why: the strongest models cost the most per API call, and for many products their performance is overkill — the ROI just doesn't pencil out.",
+          "note": "<span>表达提示</span>overkill → 性能过剩；the ROI doesn't pencil out → ROI 不划算；per API call → 每次调用"
+        },
+        {
+          "cn": "解法：按产品性能需求选型，工作流类优先 Claude，成本敏感用开源 + Fireworks 等部署商",
+          "en": "The fix: choose by the product's performance needs — workflow-heavy products lean on Claude, cost-sensitive ones use open source plus deployers like Fireworks.",
+          "note": "<span>表达提示</span>choose by performance needs → 按性能需求选型；deployer → 部署商"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「最强模型不划算」",
+          "phrases": [
+            "The most powerful model is overkill for what you need.",
+            "Why pay top dollar for a model whose ceiling you don't use?"
+          ],
+          "chunks": "overkill · pay top dollar · the ceiling you don't use",
+          "usage": "top dollar 是口语「高价」，很生动"
+        },
+        {
+          "intent": "想说「选型要按需求来」",
+          "phrases": [
+            "Match the model to the workload, not to the hype.",
+            "Pick by performance needs and budget, full stop."
+          ],
+          "chunks": "match A to B · the hype · full stop",
+          "usage": "full stop 表示「就这么简单，没别的」"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title_cn": "三、一线工作流与 AI 依赖",
+      "title_en": "Front-Line Workflows and AI Dependency",
+      "context": "工作流全 AI 化之后对 AI 的依赖与「摸鱼」时刻；Leo 关于投资的信息过滤观点。语域：casual 一线见闻 + 播客对谈。",
+      "speak": "All code, all copywriting and summarization, all report writing runs on AI. When Groq went down, the team naturally said, everyone's slacking off today. As Leo observes, when you find a fast shortcut that produces great results, you start to believe it's the only thing you need — and the day that shortcut gets blocked, you feel completely lost. On investing, he isn't choosing yet: when the U.S. stock market is euphoric, it exaggerates growth and hides risk, and the more information there is, the harder it is to filter out what's actually useful. It contrasts with the optimistic 'AI handles your investing' narrative — the guest worries more about information overload. Investing, he thinks, reflects your understanding of the industry plus your personality — not 'I work in AI, so I'm automatically more cautious or more aggressive.' His AI-related positions run from thirty to seventy percent, heaviest in the Magnificent Seven.",
+      "sentences": [
+        {
+          "cn": "所有代码、文案 summarize、报告撰写都用 AI。Groq 宕机时团队自然说「今天大家一起摸鱼」",
+          "en": "All code, all copywriting and summarization, all report writing runs on AI. When Groq went down, the team naturally said, 'everyone's slacking off today.'",
+          "note": "<span>表达提示</span>slacking off → 摸鱼；go down → 宕机；copywriting → 文案"
+        },
+        {
+          "cn": "（引用）「当你找到一个快速的捷径可以让你产生非常好的结果的时候，你就会认为那个就是你现在唯一需要的。当这个捷径被封住了那一天，你会觉得我根本不自在。」",
+          "en": "'When you find a fast shortcut that produces great results, you start to believe it's the only thing you need. The day that shortcut gets blocked, you feel completely lost.'",
+          "note": "<span>表达提示</span>shortcut → 捷径；get blocked → 被封住；feel completely lost → 无所适从"
+        },
+        {
+          "cn": "Leo 暂不选择。美股情绪高涨时会夸大增长、掩盖风险，信息越多反而越难筛选有效判断依据",
+          "en": "Leo isn't choosing yet. When the U.S. stock market is euphoric, it exaggerates growth and hides risk — and the more information there is, the harder it is to filter out what's actually useful for a judgment.",
+          "note": "<span>表达提示</span>euphoric → 情绪高涨；exaggerate growth → 夸大增长；filter out → 筛选出"
+        },
+        {
+          "cn": "（引用）相关概念：与「AI 帮你理财」的乐观叙事形成对比，嘉宾更担心信息过载",
+          "en": "Related idea: it contrasts with the optimistic 'AI handles your investing' narrative — the guest worries more about information overload.",
+          "note": "<span>表达提示</span>information overload → 信息过载；optimistic narrative → 乐观叙事"
+        },
+        {
+          "cn": "核心机制：投资反映行业理解 + 个人性格，而非「在 AI 行业所以更谨慎/激进」",
+          "en": "The mechanism: investing reflects your understanding of the industry plus your personality — not 'I work in AI, so I'm automatically more cautious or more aggressive.'",
+          "note": "<span>表达提示</span>reflect A plus B → 反映A加B；automatically more cautious → 自动更谨慎"
+        },
+        {
+          "cn": "典型场景：AI 相关仓位约 30%–70%，七大科技股最重；曾投 Neocloud 等被看衰标的，因自己分析判断需要",
+          "en": "How to use it: AI-related positions run from 30 to 70 percent, heaviest in the Magnificent Seven; he once bought beaten-down names like Neocloud because his own analysis called for it.",
+          "note": "<span>表达提示</span>position → 仓位；beaten-down → 被看衰；Magnificent Seven → 七大科技股"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「工具一停，人就废了」",
+          "phrases": [
+            "The day the tool goes down, everyone's stuck.",
+            "AI dependency means one outage turns into a lost day."
+          ],
+          "chunks": "goes down · stuck · dependency · a lost day",
+          "usage": "dependency 是正式词，适合点评"
+        },
+        {
+          "intent": "想说「信息越多越难判断」",
+          "phrases": [
+            "More information doesn't mean better judgment.",
+            "Information overload makes it harder to filter what matters."
+          ],
+          "chunks": "doesn't mean better judgment · filter what matters",
+          "usage": "第二句直接对应原文观点"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "title_cn": "四、七大科技股 AI 策略对比",
+      "title_en": "Comparing the AI Strategies of the Big Seven",
+      "context": "GPU 抢购推高价格、供应链的投资机会，以及 TPU 在中小公司实际使用很少。语域：formal 投资分析 + 播客对谈。",
+      "speak": "Why are GPU prices exploding? Companies at home and abroad are pouring money into grabbing GPU capacity, and the domestic price of the B300 has climbed from over six million to ten million yuan. The fix: watch investment opportunities across the GPU supply chain, but separate hype from real demand. The severity for individual investors: negligible. And there's a reality check from the guest: even though job postings list JAX as a one-level requirement, very few mid-to-large companies actually use TPUs.",
+      "sentences": [
+        {
+          "cn": "原因：国内外公司大量投入资金抢 GPU 资源，B300 国内价格从 600 多万涨到 1000 万",
+          "en": "Why: companies at home and abroad are pouring money into grabbing GPU capacity, and the domestic price of the B300 has climbed from over 6 million to 10 million yuan.",
+          "note": "<span>表达提示</span>grab GPU capacity → 抢 GPU 资源；climb from … to … → 从…涨到…"
+        },
+        {
+          "cn": "解法：关注 GPU 供应链投资机会，但需区分炒作与实际需求",
+          "en": "The fix: watch investment opportunities across the GPU supply chain, but separate hype from real demand.",
+          "note": "<span>表达提示</span>supply chain → 供应链；separate hype from real demand → 区分炒作与实际需求"
+        },
+        {
+          "cn": "严重程度：可忽略（对个人投资者）",
+          "en": "Severity: negligible for individual investors.",
+          "note": "<span>表达提示</span>negligible → 可忽略；individual investor → 个人投资者"
+        },
+        {
+          "cn": "（引用）嘉宾观察：「虽然招聘说 JAX 是 one level requirement，实际 TPU 使用的中大型公司非常少」",
+          "en": "The guest's observation: 'even though job postings list JAX as a one-level requirement, very few mid-to-large companies actually use TPUs.'",
+          "note": "<span>表达提示</span>job posting → 招聘启事；one-level requirement → 基础要求；TPU → 张量处理单元"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「炒作和真需求要分开看」",
+          "phrases": [
+            "Separate the hype from the real demand.",
+            "Not every GPU story is a real supply story."
+          ],
+          "chunks": "separate the hype · a real demand story",
+          "usage": "第一句是常用投资口头禅"
+        },
+        {
+          "intent": "想说「招聘要求不等于实际使用」",
+          "phrases": [
+            "Just because a job ad lists it doesn't mean the market uses it.",
+            "The requirement is on paper; real adoption is another story."
+          ],
+          "chunks": "on paper · real adoption · another story",
+          "usage": "on paper / another story 对举很地道"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "title_cn": "五、创业范式转变",
+      "title_en": "The Startup Paradigm Shift",
+      "context": "API Wrapper 被证伪，Vertical AI + Domain Knowledge 成为共识；产品逻辑回归本质需求。语域：formal 创业方法论 + 播客对谈。",
+      "speak": "Why did the paradigm shift? Foundation models keep getting stronger, and the simple move of wrapping an API into a small feature has been debunked. The fix: focus on a vertical direction, bring in domain knowledge, and iterate quickly on customer needs. As the guest says, a lot of people built a wrapper — taking an API model and turning it into a small feature, and that was their startup — but he's now quite convinced that playbook has been debunked. The mechanism: large-model companies struggle with most verticals, since coding is a general capability rather than a vertical. Founders need domain knowledge, and the AI product has to match the industry's workflow. The key insight: the product logic hasn't changed since the internet era — grab a hard need, keep the team strong, and keep iterating features. And you can see it in the latest Y Combinator batch, full of concrete scenes like coding agents, AI improv, and professor-facing customer service.",
+      "sentences": [
+        {
+          "cn": "原因：Foundation Model 持续变强，简单套 API 做功能分已被证伪",
+          "en": "Why: foundation models keep getting stronger, and the simple move of wrapping an API into a small feature has been debunked.",
+          "note": "<span>表达提示</span>foundation model → 基础大模型；wrap an API → 套 API；debunked → 被证伪"
+        },
+        {
+          "cn": "解法：聚焦 Vertical 方向 + Domain Knowledge + 快速迭代客户需求",
+          "en": "The fix: focus on a vertical direction, bring in domain knowledge, and iterate quickly on customer needs.",
+          "note": "<span>表达提示</span>vertical direction → 垂直方向；domain knowledge → 行业知识；iterate on → 迭代"
+        },
+        {
+          "cn": "（引用）嘉宾说法：「很多人是做个 Wrapper，就用 API 的模型简单做一个小分的功能就做成 Startup 了，但现在我非常相信已经证伪了」",
+          "en": "'A lot of people built a wrapper — taking an API model and turning it into a small feature, and that was their startup. Now I'm quite convinced that playbook has been debunked.'",
+          "note": "<span>表达提示</span>wrapper → 套壳；playbook → 打法；debunked → 证伪"
+        },
+        {
+          "cn": "核心机制：大模型公司很难做大部分 Vertical（Coding 是 General Capability 而非 Vertical）。创业者需在行业有 Domain Knowledge，AI 产品与行业 Workflow 匹配",
+          "en": "The mechanism: large-model companies struggle with most verticals, since coding is a general capability rather than a vertical. Founders need domain knowledge, and the AI product has to match the industry's workflow.",
+          "note": "<span>表达提示</span>general capability → 通用能力；match the workflow → 与工作流匹配"
+        },
+        {
+          "cn": "关键理解：产品逻辑自互联网时代未变：抓住刚需、团队够强、持续迭代 feature",
+          "en": "The key insight: the product logic hasn't changed since the internet era — grab a hard need, keep the team strong, and keep iterating features.",
+          "note": "<span>表达提示</span>hard need → 刚需；keep iterating → 持续迭代"
+        },
+        {
+          "cn": "典型场景：Y Combinator 最新批次：Coding Agent、AI Improv、教授客服等具体场景",
+          "en": "How to use it: the latest Y Combinator batch is full of concrete scenes like coding agents, AI improv, and professor-facing customer service.",
+          "note": "<span>表达提示</span>batch → 批次；coding agent → 编程代理；concrete scene → 具体场景"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「套壳创业行不通了」",
+          "phrases": [
+            "The wrapper startup is a dead playbook now.",
+            "Just wrapping an API no longer makes a company."
+          ],
+          "chunks": "a dead playbook · wrap an API · no longer makes a company",
+          "usage": "dead playbook 对应「已证伪的打法」"
+        },
+        {
+          "intent": "想说「要有行业知识才有护城河」",
+          "phrases": [
+            "Domain knowledge is the moat that wrappers can't copy.",
+            "The edge lives in the industry you know, not the model you call."
+          ],
+          "chunks": "a moat · can't copy · the edge lives in",
+          "usage": "moat（护城河）是创投圈常用比喻"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "title_cn": "六、三年认知转变",
+      "title_en": "Three Years of Shifting Mindsets",
+      "context": "从 Model first 到 Problem first：找具体的人、解决具体的问题、让他付钱。语域：formal 总结 + 播客收尾。",
+      "speak": "Why it matters: building products around fancy tech can look like a low-retention, low-frequency feature in the eyes of consumers. The boundary: in both the internet and AI eras, fundamental needs don't change; the dazzling early model updates made people lose sight of that. As Leo says, everyone has shifted from model-first to problem-first, and that's the core logic of building a product. In practice: find a specific person, solve a specific problem, and get them to pay — return to real demand rather than capital trends.",
+      "sentences": [
+        {
+          "cn": "为什么重要：追逐 fancy 科技而做产品，消费者眼里可能是低留存、低频功能",
+          "en": "Why it matters: building products around fancy tech can look like a low-retention, low-frequency feature in the eyes of consumers.",
+          "note": "<span>表达提示</span>fancy tech → 花哨科技；low retention → 低留存；low frequency → 低频"
+        },
+        {
+          "cn": "适用边界：无论互联网还是 AI 时代，本质需求不变；早期模型惊艳 update 让人忽略了这一点",
+          "en": "Boundary: in both the internet and AI eras, fundamental needs don't change; the dazzling early model updates made people lose sight of that.",
+          "note": "<span>表达提示</span>fundamental needs → 本质需求；dazzling update → 惊艳的更新；lose sight of → 忽略"
+        },
+        {
+          "cn": "（引用）「现在大家已经从 Model first 转换成一个 Problem first，我认为这才是一个产品的核心逻辑。」",
+          "en": "'Everyone has shifted from model-first to problem-first, and I think that's the core logic of building a product.'",
+          "note": "<span>表达提示</span>model-first → 以模型为先；problem-first → 以问题为先；core logic → 核心逻辑"
+        },
+        {
+          "cn": "（引用）怎么落地：找具体的人、解决具体的问题、让他付钱；回归真实需求而非资本趋势",
+          "en": "In practice: find a specific person, solve a specific problem, and get them to pay — return to real demand rather than capital trends.",
+          "note": "<span>表达提示</span>get them to pay → 让他付钱；capital trends → 资本趋势；return to → 回归"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「先找问题，再选模型」",
+          "phrases": [
+            "Start with the problem, then pick the model.",
+            "Problem first, model second — that's the whole trick."
+          ],
+          "chunks": "start with the problem · the whole trick",
+          "usage": "problem first, model second 是本期的核心句式"
+        },
+        {
+          "intent": "想说「找到愿意付钱的人才是验证」",
+          "phrases": [
+            "Someone paying you is the only real validation.",
+            "Real demand shows up in the bill, not the trend charts."
+          ],
+          "chunks": "the only real validation · shows up in the bill",
+          "usage": "第二句很犀利，适合总结观点"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "cn": "用「take it for granted」说：大家都默认 AI 能做基础工作。",
+      "en": "Everyone now takes it for granted that AI handles the baseline work."
+    },
+    {
+      "cn": "用「overkill」说：最强模型对很多产品性能过剩。",
+      "en": "The most powerful model is pure overkill for most products."
+    },
+    {
+      "cn": "用「debunked」说：套 API 做小功能已经被证伪。",
+      "en": "The API-wrapper playbook has been debunked."
+    },
+    {
+      "cn": "用「problem-first」说：创业者从模型优先转向问题优先。",
+      "en": "Founders have shifted from model-first to problem-first thinking."
+    }
+  ],
+  "pitfalls": [
+    {
+      "wrong": "The model is very strong, so our product will be very good.",
+      "right": "A powerful model is overkill if it doesn't solve a real problem.",
+      "why": "「模型强=产品好」正是 Model first 的旧思维；用 overkill + solve a real problem 点破。"
+    },
+    {
+      "wrong": "We wrapped the API and made a startup.",
+      "right": "The wrapper playbook has been debunked — go vertical and bring domain knowledge.",
+      "why": "直译「套壳创业」少了批评意味；playbook has been debunked 是业内常用说法。"
+    },
+    {
+      "wrong": "Everyone wants to use the most NB model.",
+      "right": "Everyone wants the most powerful model, but it also means the highest cost.",
+      "why": "NB 是网络词不进入英文；用 the most powerful model + highest cost 表达权衡。"
+    },
+    {
+      "wrong": "We should follow the capital trend.",
+      "right": "Find a specific person, solve a specific problem, and get them to pay.",
+      "why": "「跟资本趋势」恰是本期的反面教材；用 find / get them to pay 复述正确做法。"
+    }
+  ],
+  "shifts": [
+    {
+      "before": "以为「模型发布=行业地震」，每个新模型都要逐帧研究",
+      "after": "模型发布只是天气预报——看一眼 benchmark、切个 API 就继续干活"
+    },
+    {
+      "before": "以为套个 API 做个小功能就能创业",
+      "after": "Wrapper 已被证伪；要 Vertical + Domain Knowledge + 快速迭代客户需求"
+    },
+    {
+      "before": "以为 AI 时代产品逻辑彻底变了",
+      "after": "本质需求没变：找具体的人、解决具体的问题、让他付钱"
+    }
+  ],
+  "voice": "en-US-JennyNeural",
+  "audio_dir": "audio/en/ai_model_problem_first"
+}

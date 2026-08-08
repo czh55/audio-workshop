@@ -1,0 +1,1313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="这属北京车展，最值得看的不只是车 — Bilingual Learning Edition" />
+  <title>这属北京车展，最值得看的不只是车｜EN 双语学习版</title>
+  <style>:root{--teal-950:#073f42;--teal-800:#0d686c;--teal-700:#0f7c80;--teal-600:#14919b;--mint-100:#dff4ec;--mint-50:#f0faf6;--ink:#183536;--muted:#607879;--line:#d7e8e2;--paper:#fff;--amber:#a85d08;--shadow:0 12px 32px rgba(7,63,66,.08)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:24px}
+body{margin:0;color:var(--ink);background:#edf7f2;font-family:Inter,"PingFang SC","Noto Sans SC","Microsoft YaHei",system-ui,sans-serif;line-height:1.65}
+button,select{font:inherit}
+a{color:inherit}
+.hero{color:#fff;background:radial-gradient(circle at 85% 10%,rgba(129,230,196,.24),transparent 30%),linear-gradient(125deg,#073f42,#0d7377 56%,#14919b)}
+.hero-inner{width:min(1440px,100%);margin:auto;padding:44px clamp(20px,5vw,72px) 36px}
+.hero-flex{display:flex;gap:clamp(18px,3vw,40px);align-items:flex-start}
+.hero-cover{width:min(240px,42vw);height:auto;max-height:320px;object-fit:contain;object-position:center;border-radius:16px;border:1px solid rgba(255,255,255,.28);box-shadow:0 18px 44px rgba(0,0,0,.32);flex-shrink:0;background:rgba(255,255,255,.08)}
+.hero-text{min-width:0;flex:1}
+.eyebrow{margin:0 0 12px;font-size:.78rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;opacity:.8}
+h1{max-width:1020px;margin:0;font-size:clamp(1.7rem,3.6vw,3rem);line-height:1.15;letter-spacing:-.04em}
+.hero-en{margin:12px 0 22px;font-size:clamp(1rem,2vw,1.25rem);opacity:.82}
+.hero-meta{display:flex;flex-wrap:wrap;gap:9px;align-items:center}
+.chip{border:1px solid rgba(255,255,255,.28);border-radius:99px;padding:5px 11px;font-size:.82rem;background:rgba(255,255,255,.08)}
+.source-link{font-weight:750;text-decoration:none;border-bottom:1px solid rgba(255,255,255,.5)}
+.toolbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:22px}
+.toolbar label{font-size:.82rem;opacity:.82}
+.toolbar select{color:#fff;background:#0a5d61;border:1px solid rgba(255,255,255,.3);border-radius:8px;padding:7px 9px}
+.stop-btn{display:none;color:#fff;background:#8c3b2a;border:0;border-radius:8px;padding:8px 12px;cursor:pointer}
+.stop-btn.visible{display:inline-flex}
+.speech-status{min-height:1.4em;font-size:.82rem;opacity:.88}
+.lang-switch{display:inline-flex;gap:6px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.28);border-radius:99px;padding:4px}
+.lang-switch a{display:inline-block;padding:4px 13px;border-radius:99px;font-size:.8rem;font-weight:700;text-decoration:none;color:rgba(255,255,255,.75)}
+.lang-switch a.active{background:#fff;color:var(--teal-800)}
+.narration-player{margin-top:16px;padding:14px 18px;background:rgba(255,255,255,.1);border-radius:12px;border:1px solid rgba(255,255,255,.15)}
+.audio-label{color:rgba(255,255,255,.88);font-size:.82rem;font-weight:700;margin:0 0 8px}
+.page{width:min(1440px,100%);margin:auto;padding:28px clamp(16px,3vw,44px) 64px;display:grid;grid-template-columns:minmax(230px,280px) minmax(0,1fr);gap:30px;align-items:start}
+.sidebar{position:sticky;top:20px;min-width:0}
+.sidebar-box{background:rgba(255,255,255,.8);border:1px solid var(--line);border-radius:16px;padding:17px;box-shadow:var(--shadow);backdrop-filter:blur(12px)}
+.sidebar h2{margin:0 0 13px;font-size:.9rem;letter-spacing:.08em;color:var(--teal-800)}
+.map-link{display:grid;grid-template-columns:34px minmax(0,1fr);gap:9px;padding:10px 6px;text-decoration:none;border-top:1px solid var(--line)}
+.map-link:hover b{color:var(--teal-700)}
+.map-id{width:30px;height:30px;display:grid;place-items:center;border-radius:9px;color:#fff;background:var(--teal-700);font-size:.72rem;font-weight:800}
+.map-link b{display:block;font-size:.78rem;line-height:1.4}
+.map-link small{display:block;color:var(--muted);font-size:.67rem;line-height:1.4;margin-top:2px;overflow-wrap:anywhere}
+.content{min-width:0}
+.scene-card{background:var(--paper);border:1px solid var(--line);border-radius:20px;padding:clamp(20px,3vw,34px);margin-bottom:24px;box-shadow:var(--shadow);overflow:hidden}
+.scene-topline{display:flex;justify-content:space-between;gap:16px;align-items:center;margin-bottom:16px}
+.scene-id{display:inline-grid;place-items:center;min-width:42px;height:30px;padding:0 10px;color:#fff;background:var(--teal-700);border-radius:8px;font-size:.78rem;font-weight:850}
+.time{margin-left:10px;color:var(--muted);font-size:.82rem;font-variant-numeric:tabular-nums}
+.scene-card h2{margin:0 0 2px;font-size:clamp(1.35rem,2.4vw,2rem);line-height:1.25;color:var(--teal-950)}
+.scene-title-en{margin:0 0 18px;color:var(--teal-600);font-weight:700;font-size:.98rem}
+.context{margin:0 0 20px;padding:12px 15px;color:#496566;background:var(--mint-50);border-left:3px solid var(--teal-600);border-radius:0 10px 10px 0;font-size:.88rem}
+.context b{margin-right:10px;color:var(--teal-800)}
+.sentence-list{display:grid;gap:12px}
+.sentence{position:relative;display:grid;grid-template-columns:38px minmax(0,1fr);gap:12px;padding:16px;border:1px solid #e2ece8;border-radius:14px;background:#fcfefd;min-width:0}
+.sentence-no{color:var(--teal-600);font-size:.76rem;font-weight:850;font-variant-numeric:tabular-nums;padding-top:4px}
+.bilingual{min-width:0;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(14px,2vw,28px)}
+.lang-block{min-width:0}
+.lang-block p{margin:5px 0 0;overflow-wrap:anywhere}
+.en-block{padding-left:clamp(14px,2vw,28px);border-left:1px solid var(--line)}
+.en-block p{color:#0b5c60;font-weight:650}
+.lang-tag{display:inline-block;color:var(--muted);font-size:.66rem;font-weight:850;letter-spacing:.12em}
+.en-head{display:flex;justify-content:space-between;gap:10px;align-items:center;min-height:30px}
+.note{grid-column:2;margin:1px 0 0;color:#708182;font-size:.78rem}
+.note span{margin-right:7px;color:var(--amber);font-weight:750}
+.speak-btn{display:inline-flex;align-items:center;gap:7px;border:1px solid #b8d9d1;border-radius:9px;padding:7px 11px;color:var(--teal-800);background:#f5fbf8;cursor:pointer;white-space:nowrap;font-size:.78rem;font-weight:750;transition:.15s ease}
+.speak-btn:hover{color:#fff;background:var(--teal-700);border-color:var(--teal-700);transform:translateY(-1px)}
+.speak-btn.playing{color:#fff;background:var(--teal-700);border-color:var(--teal-700)}
+.speak-btn.compact{padding:4px 8px;font-size:.7rem}
+.speak-btn.icon-only{padding:3px 7px;margin-left:6px}
+.speak-btn.icon-only span:last-child{display:none}
+.pronounce-word{display:inline;margin:0;padding:0 2px;color:inherit;background:rgba(20,145,155,.08);border:0;border-bottom:1px dashed var(--teal-600);border-radius:3px;font:inherit;font-weight:inherit;line-height:inherit;cursor:pointer}
+.pronounce-word:hover,.pronounce-word:focus{color:var(--teal-950);background:#cceee4;border-bottom-style:solid;outline:3px solid rgba(20,145,155,.42);outline-offset:2px}
+.pronounce-word.playing{color:#fff;background:var(--teal-700);border-bottom-color:var(--teal-700)}
+.paraphrase{margin-top:18px;border-top:1px solid var(--line)}
+.paraphrase summary{padding:16px 0 3px;color:var(--teal-800);cursor:pointer;font-weight:800}
+.paraphrase summary span{color:var(--muted);font-size:.75rem;font-weight:500;margin-left:8px}
+.paraphrase ol{margin:12px 0 0;padding-left:22px}
+.paraphrase li{padding:7px 0 9px 5px}
+.paraphrase li p{margin:0;font-size:.9rem;font-weight:650}
+.paraphrase li small{display:block;color:var(--muted);font-size:.72rem;margin-top:2px}
+.chunks{margin-top:4px;color:var(--teal-700);font-size:.78rem}
+.study-section{margin:38px 0 0}
+.section-heading{display:flex;align-items:baseline;gap:10px;margin:0 0 15px;color:var(--teal-950);font-size:1.35rem}
+.section-heading small{color:var(--teal-600);font-size:.78rem;letter-spacing:.05em}
+.study-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.study-grid article{padding:17px;background:#fff;border:1px solid var(--line);border-radius:14px;box-shadow:0 6px 18px rgba(7,63,66,.05);min-width:0}
+.study-grid p{margin:0}
+.practice-en{margin-top:9px;color:var(--teal-700);font-weight:650;overflow-wrap:anywhere}
+.wrong{color:#a24831;text-decoration:line-through;overflow-wrap:anywhere}
+.right{color:var(--teal-700);font-weight:750;margin:5px 0;overflow-wrap:anywhere}
+.pitfalls p{color:var(--muted);font-size:.82rem}
+.shifts article{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1.5fr);gap:12px;align-items:center}
+.shifts b{color:var(--teal-600);font-size:1.2rem}
+.shifts strong{color:var(--teal-800)}
+footer{margin-top:38px;color:var(--muted);font-size:.78rem;text-align:center}
+.footer-note{margin-top:6px}
+@media (max-width:900px){
+  .page{grid-template-columns:1fr}
+  .sidebar{position:static}
+  .sidebar-box{overflow-x:auto;padding:12px}
+  .sidebar h2{padding-left:5px}
+  .map-nav{display:flex;width:max-content;gap:8px}
+  .map-link{width:240px;border:1px solid var(--line);border-radius:10px;padding:8px}
+  .bilingual{grid-template-columns:1fr}
+  .en-block{padding:12px 0 0;border-left:0;border-top:1px dashed var(--line)}
+}
+@media (max-width:620px){
+  .hero-inner{padding-top:30px}
+  .hero-flex{flex-direction:column;align-items:center}
+  .hero-cover{width:100%;max-width:360px}
+  .hero-text{text-align:center}
+  .page{padding-inline:10px;gap:18px}
+  .scene-card{border-radius:14px;padding:17px 13px}
+  .scene-topline{align-items:flex-start}
+  .scene-speak span:last-child{display:none}
+  .sentence{grid-template-columns:26px minmax(0,1fr);padding:13px 10px;gap:6px}
+  .note{grid-column:2}
+  .study-grid{grid-template-columns:1fr}
+  .shifts article{grid-template-columns:1fr;gap:5px}
+  .shifts b{transform:rotate(90deg);justify-self:start}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.speak-btn{transition:none}}</style>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="hero-flex">
+        <div class="hero-text">
+          <p class="eyebrow">Autos &amp; Industry · 汽车与产业</p>
+          <h1>这属北京车展，最值得看的不只是车</h1>
+          <p class="hero-en">At the Beijing Auto Show, the Most Interesting Things Aren't the Cars</p>
+          <p class="summary-en" style="margin:0 0 14px;padding:14px 16px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.22);border-radius:12px;font-size:.95rem;line-height:1.7">After walking the 2026 Beijing Auto Show, Sandao shares a deep recap: at 380,000 square meters it's the world's largest, and suppliers have stepped from behind the curtain onto center stage. Consumers now pick cars by supply chain rather than badge; smart driving pushes in two directions at once; the cockpit ecosystem will split into camps like phones; and BBA fight back with Chinese solutions, but their brand premium is hard to sustain.</p>
+          <div class="hero-meta">
+            <span class="chip">2026-06-23</span>
+            <span class="chip">小宇宙FM</span>
+            <span class="chip">74分钟</span>
+            <span class="chip">8 Scenes</span>
+            <span class="chip">Click underlined words to hear them</span>
+            <a class="source-link" href="https://www.xiaoyuzhoufm.com/episode/69ed0f5a1e94ae692125ffc1" target="_blank" rel="noopener">原播客 ↗</a>
+          </div>
+        </div>
+      </div>
+      <div class="toolbar">
+        <div class="lang-switch"><div class="lang-switch"><a href="beijing_autoshow_beyond_cars-总结.html">中文</a><a class="active" href="beijing_autoshow_beyond_cars-en.html" aria-current="page">EN</a></div></div>
+        <label for="speech-rate">朗读速度</label>
+        <select id="speech-rate">
+          <option value="0.85">慢速 0.85×</option>
+          <option value="1" selected>正常 1×</option>
+          <option value="1.15">快速 1.15×</option>
+        </select>
+        <button id="stop-speech" class="stop-btn" type="button">■ 停止朗读</button>
+        <span id="speech-status" class="speech-status" role="status" aria-live="polite"></span>
+      </div>
+      <div class="narration-player">
+      <p class="audio-label">🎧 中文语音讲解</p>
+      <button class="speak-btn" type="button" data-audio="audio/beijing_autoshow_beyond_cars.mp3" aria-label="播放语音讲解"><span aria-hidden="true">▶</span><span>播放语音讲解</span></button>
+    </div>
+    </div>
+  </header>
+  <main class="page">
+    <aside class="sidebar" aria-label="场景地图">
+      <div class="sidebar-box">
+        <h2>场景地图 · SCENE MAP</h2>
+        <nav class="map-nav">
+          <a class="map-link" href="#s1">
+          <span class="map-id">S1</span>
+          <span><b>一、车展规模与逛展策略</b><small> · Show Scale and How to Tour It</small></span>
+        </a>
+<a class="map-link" href="#s2">
+          <span class="map-id">S2</span>
+          <span><b>二、选车逻辑：从认品牌到认供应链</b><small> · Choosing Logic: From Badge to Supply Chain</small></span>
+        </a>
+<a class="map-link" href="#s3">
+          <span class="map-id">S3</span>
+          <span><b>三、生态阵营：汽车像手机一样分化</b><small> · Ecosystem Camps: Cars Splitting Like Phones</small></span>
+        </a>
+<a class="map-link" href="#s4">
+          <span class="map-id">S4</span>
+          <span><b>四、智驾「顶天立地」</b><small> · Smart Driving: Pushing the Ceiling and the Floor</small></span>
+        </a>
+<a class="map-link" href="#s5">
+          <span class="map-id">S5</span>
+          <span><b>五、智能座舱与9系宇宙</b><small> · Smart Cockpits and the 9-Series Universe</small></span>
+        </a>
+<a class="map-link" href="#s6">
+          <span class="map-id">S6</span>
+          <span><b>六、BBA中国式反击与保时捷脑洞</b><small> · BBA's Chinese-Style Counterattack and Porsche's Wild Idea</small></span>
+        </a>
+<a class="map-link" href="#s7">
+          <span class="map-id">S7</span>
+          <span><b>七、里子技术：底盘、闪充与垂直整合</b><small> · Under-the-Hood Tech: Chassis, Flash Charging, and Vertical Integration</small></span>
+        </a>
+<a class="map-link" href="#s8">
+          <span class="map-id">S8</span>
+          <span><b>八、行业竞争新规则</b><small> · New Rules of Industry Competition</small></span>
+        </a>
+        </nav>
+      </div>
+    </aside>
+    <div class="content">
+      <section class="scene-card" id="s1" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S1</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/beijing_autoshow_beyond_cars/s1.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>一、车展规模与逛展策略</h2>
+      <p class="scene-title-en">Show Scale and How to Tour It</p>
+      <p class="context"><b>情境</b>The show doubled in size, and Sandao explains the new layout and touring strategy. 语域：casual 逛展分享。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：展出面积从22万㎡翻倍至38万㎡，新老展馆合二为一，零部件与整车首次同馆展示。17个馆、1451台展车、181台全球首发、71台概念车</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/beijing_autoshow_beyond_cars/s1-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The exhibition area doubled from 220,000 to 380,000 square meters, old and new halls merged into one, and parts suppliers and finished cars share the same halls for the first time: 17 halls, 1,451 cars, 181 world premieres, and 71 concept cars.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>exhibition area → 展出面积；world premiere → 全球首发；concept car → 概念车</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：往年逛新车和逛供应商要摆渡车换馆，今年在新车馆就能看到宁德时代等供应商展台，在零部件馆也能看到整车——类似手机展会上逛完苹果华为再去逛芯片和屏幕展台</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/beijing_autoshow_beyond_cars/s1-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The insight: in previous years you had to take a shuttle between the new-car halls and the supplier halls; this year you can see CATL's booth in the car halls and complete cars in the parts halls — like visiting Apple and Huawei, then walking over to the chip and screen booths at a phone show.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>supplier booth → 供应商展台；shuttle → 摆渡车</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>典型场景：车迷至少花两天；闭馆时段（16:30-17:30）打车200人排队，建议提早走或坐地铁两三站再打车</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/beijing_autoshow_beyond_cars/s1-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">A typical scene: a real car fan should spend at least two days. At closing time, 16:30 to 17:30, the taxi queue can have 200 people — leave early, or ride the subway a couple of stops before hailing a cab.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>taxi queue → 打车排队；hail a cab → 打车</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据：「今年是跟2024年的北京车展比的话，翻了将近一倍的展出面积」「汽车的零部件的供应商从幕后现在走到台前」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/beijing_autoshow_beyond_cars/s1-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The original quotes: 'Compared with the 2024 Beijing Auto Show, the exhibition area has nearly doubled,' and 'auto parts suppliers have stepped out from behind the curtain to center stage.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>nearly doubled → 翻了近一倍；behind the curtain → 幕后</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）相关概念：媒体日（报道+发布会，上午看不到车）、专业观众日（概念车未撤、行业对接）、普通观众日（只卖现款车型）</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/beijing_autoshow_beyond_cars/s1-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Related terms: media day for reports and launches where you can't see cars in the morning, pro-audience day with concept cars still up and industry matchmaking, and public days that only sell current production models.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>media day → 媒体日；industry matchmaking → 行业对接；production models → 现款车型</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>三刀今年中午才到展馆，只逛重点车型——同质化内容无限量供应时没有流量，质量反而变差。不如沉淀亲身感受，放到播客和视频里做深度内容</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/beijing_autoshow_beyond_cars/s1-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Sandao didn't reach the halls until noon this year and only toured key models — when homogeneous content is supplied without limit, traffic dies and quality drops. Better to sit with your first-hand impressions and turn them into deep content for the podcast and videos.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>homogeneous content → 同质化内容；first-hand impressions → 亲身感受</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「供应商从幕后走到台前」</p><div class="chunks">step out from behind the curtain · center stage</div><small>center stage 比喻「成为焦点」，点评常用</small></li>
+<li><p>想说「闭馆时打车要排200人」</p><div class="chunks">deep in the queue · escape early</div><small>escape early 是逛展攻略口吻</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s2" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S2</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/beijing_autoshow_beyond_cars/s2.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>二、选车逻辑：从认品牌到认供应链</h2>
+      <p class="scene-title-en">Choosing Logic: From Badge to Supply Chain</p>
+      <p class="context"><b>情境</b>Why savvy EV buyers now ask which chip, which driving solution, and which battery before which brand. 语域：casual 行业观察。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：以前选车先认BBA盒子品牌；现在买新能源上车第一句话问车机芯片（8295？）、智驾方案（Momenta R6/R7？）、电池（宁德时代还是欣旺达？）。供应链品牌权重超过整车品牌</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/beijing_autoshow_beyond_cars/s2-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">In the past you chose a car by first trusting a BBA badge; now, buying a new-energy car, the first questions are which cockpit chip, an 8295, which driving solution, Momenta R6 or R7, and which battery, CATL or Sunwoda. The supply chain's brand weight now outweighs the car brand's.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>cockpit chip → 车机芯片；driving solution → 智驾方案；outweigh → 超过</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：零跑销量好吃的是体系化红利——消费者不在意是不是零跑，在意芯片、智驾算力、电芯是谁家的。买过一辆新能源的人对品牌偏爱越来越小</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/beijing_autoshow_beyond_cars/s2-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The insight: Leapmotor's strong sales ride on a systemic dividend — buyers don't care if it's a Leapmotor; they care whose chip, whose driving compute, and whose battery cells are inside. Once you've owned a new-energy car, brand preference shrinks fast.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>systemic dividend → 体系化红利；brand preference → 品牌偏爱</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>典型场景：买笔记本先选Intel还是AMD，选定后另一阵营型号直接不看——买车同理，先定电池/芯片/智驾供应商再选车型</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/beijing_autoshow_beyond_cars/s2-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">A typical case: when buying a laptop you first pick Intel or AMD, and once chosen, you don't even look at models from the other camp. Car buying now works the same way — lock the battery, chip, and driving supplier, then pick the model.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>the other camp → 另一阵营；lock the supplier → 先定供应商</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据：「真正的话语权它的迭代已经跟以前完全不一样……把它的供应链或者说是它的这种供应商的品牌放到了第一位」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/beijing_autoshow_beyond_cars/s2-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The original quote: 'The real say has shifted completely... they put the supply chain, or rather the supplier brands, first.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>the real say → 真正的话语权；put … first → 把…放在第一位</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>原因：年轻新能源买家在网上已做足功课，到店问激光雷达几颗、为何放车顶、电池哪家、充电方案、算力多少——任一答不上来专业度评分极低</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/beijing_autoshow_beyond_cars/s2-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The cause: young new-energy buyers have already done their homework online. At the store they ask how many lidars, why it's on the roof, whose battery, what the charging plan is, and how much compute — miss any answer and your professionalism rating drops to near zero.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>do one's homework → 做足功课；compute → 算力；professionalism rating → 专业度评分</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>解法：4S店已变体验中心（华为叫用户中心），销售需掌握三电+智驾+座舱全套参数，不能只会长宽高轴距</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/beijing_autoshow_beyond_cars/s2-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The fix: 4S stores have turned into experience centers — Huawei calls theirs user centers — and salespeople must master the full specs of the three-electric system, smart driving, and cockpit, not just length, width, height, and wheelbase.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>experience center → 体验中心；three-electric system → 三电系统；wheelbase → 轴距</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「第一句话就问车机芯片」</p><div class="chunks">first question is · under the hood</div><small>under the hood 双关（机舱/内在），很地道</small></li>
+<li><p>想说「先定阵营，再选车型」</p><div class="chunks">lock the camp · pick the model</div><small>lock 强调「先定死」，口语决策场景常用</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s3" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S3</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/beijing_autoshow_beyond_cars/s3.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>三、生态阵营：汽车像手机一样分化</h2>
+      <p class="scene-title-en">Ecosystem Camps: Cars Splitting Like Phones</p>
+      <p class="context"><b>情境</b>Cars are becoming ecosystems, splitting into closed and open camps like Android and Apple. 语域：casual 类比分析。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：汽车从交通工具→移动终端→具身智能机器人。今后不问哪个品牌死活，而是像手机分安卓和苹果阵营——座舱+智驾+智能家居统一成生态</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/beijing_autoshow_beyond_cars/s3-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The mechanism: the car is evolving from a means of transport into a mobile terminal and then into an embodied intelligence robot. From now on you won't ask which brand will survive — instead, like Android versus Apple, cars split into camps where the cockpit, smart driving, and smart home unify into one ecosystem.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>mobile terminal → 移动终端；embodied intelligence → 具身智能；unify into an ecosystem → 统一成生态</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>封闭阵营：华为（不造车但服务车企，合作即进入封闭体系）、比亚迪（自驾+车机+制造+芯片全自研）</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/beijing_autoshow_beyond_cars/s3-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The closed camp: Huawei, which doesn't build cars itself but serves automakers, locking every partner into its closed system, and BYD, which self-develops its driving, infotainment, manufacturing, and chips.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>closed camp → 封闭阵营；self-develop → 全自研</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>开放阵营：与Momenta、宁德时代等合作的多数车企</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/beijing_autoshow_beyond_cars/s3-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The open camp: most automakers, working with partners like Momenta and CATL.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>open camp → 开放阵营</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>适用边界：折叠屏等特殊需求用户可跨生态——三刀用vivo折叠屏只因双APP拖拽发微博的刚需，与品牌无关</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/beijing_autoshow_beyond_cars/s3-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Boundary conditions: users with special needs, like foldable screens, can cross ecosystems — Sandao uses a vivo foldable purely because he needs the two-app drag-and-drop to post on Weibo, nothing to do with brand loyalty.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>foldable screen → 折叠屏；drag-and-drop → 拖拽</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）落地建议：买车前确认你家电器/手机是否已在某生态内（华为/小米），否则按体验选硬件+系统，价格差几百无所谓</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/beijing_autoshow_beyond_cars/s3-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">How to apply it: before buying a car, check whether your home appliances and phone are already inside an ecosystem, Huawei or Xiaomi. If not, choose hardware and system by experience — a few hundred yuan of price difference doesn't matter.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>home appliances → 家用电器；price difference → 价格差</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）相关概念：今后座舱定义谁跟谁同盟，车机生态会死掉一大片，最终只剩2-3家</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/beijing_autoshow_beyond_cars/s3-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Related idea: from now on the cockpit defines who allies with whom — most car-infotainment ecosystems will die, and only two or three will survive in the end.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>ally with → 结盟；car-infotainment ecosystem → 车机生态</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「汽车像手机一样分阵营」</p><div class="chunks">split into camps · like Android vs Apple</div><small>camp 指「阵营」，生态竞争语境高频</small></li>
+<li><p>想说「开放阵营 vs 封闭阵营」</p><div class="chunks">walled garden · mix and match</div><small>walled garden 是生态术语，指封闭体系</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s4" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S4</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/beijing_autoshow_beyond_cars/s4.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>四、智驾「顶天立地」</h2>
+      <p class="scene-title-en">Smart Driving: Pushing the Ceiling and the Floor</p>
+      <p class="context"><b>情境</b>Leapmotor pins high-level driving assist to the floor at under 100,000 yuan, while Huawei claims L3 liability. 语域：casual 技术点评。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：不到10万配车位到车位领航辅助+激光雷达，两天大定破万。零跑策略：硬件先堆上去、软件慢慢迭代，整体成本压到六七十分够用</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/beijing_autoshow_beyond_cars/s4-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The mechanism: for under 100,000 yuan you get parking-lot-to-parking-lot navigation assist plus lidar, and orders crossed 10,000 in two days. Leapmotor's strategy: stack the hardware first, iterate the software slowly, and keep overall costs at a solid-enough 60-to-70-percent level.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>parking-lot-to-parking-lot → 车位到车位；navigation assist → 领航辅助；iterate the software → 迭代软件</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：智驾将像空调音响一样成为标配——当年没ESP能忍，现在不可能。比亚迪打第一枪普及天神之眼，零跑打第二枪摁到地面</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/beijing_autoshow_beyond_cars/s4-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The insight: smart driving will become standard equipment just like air conditioning and the stereo — back in the day you could live without ESP, today that's impossible. BYD fired the first shot popularizing the God's Eye system, and Leapmotor fired the second, pinning it to the floor.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>standard equipment → 标配；ESP → 车身稳定系统；fire the first shot → 打第一枪</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>适用边界：零跑早期很多智驾功能未开放，硬件预埋≠完整体验；十万级用户要的是确定性而非极致</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/beijing_autoshow_beyond_cars/s4-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Boundary conditions: many of Leapmotor's early smart-driving features weren't open yet — hardware pre-installed isn't a complete experience, and 100,000-yuan buyers want certainty, not extremes.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>hardware pre-installed → 硬件预埋；certainty not extremes → 确定性而非极致</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据：「支架这个东西今后就跟车上的空调音响一样，他就应该是个标配的东西」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/beijing_autoshow_beyond_cars/s4-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The original quote: 'Driving assist, from now on, should be standard equipment just like the air conditioning and the stereo in a car.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>standard equipment → 标配</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>车展直接宣布L3级自动驾驶商用（非辅助驾驶），系统激活状态下事故由华为与合作车企共同担责。L3=合法脱手脱脚，但需在特定路段触发，非随时可用</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/beijing_autoshow_beyond_cars/s4-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">At the show Huawei directly announced commercial L3 autonomous driving, not driver assistance — when the system is active, Huawei and its automaker partners share accident liability. L3 means hands and feet legally off, but it triggers only on specific roads, not anywhere, anytime.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>autonomous driving → 自动驾驶；share liability → 共同担责；hands and feet off → 脱手脱脚</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）「一边我们讲是立地，就是零跑A10它是把高阶支架直接摁在地上了……另一边我们讲就顶天，像华为说我L3，我直接把责任跟风险我个人来扛。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/beijing_autoshow_beyond_cars/s4-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The quote: 'On one side it's the floor — the Leapmotor A10 pinned high-level driving assist straight to the ground... on the other side it's the ceiling — Huawei saying L3, taking the responsibility and the risk on myself.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>the floor and the ceiling → 立地与顶天；take the risk on myself → 责任我来扛</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「把高阶智驾价格打下来」</p><div class="chunks">pin to the floor · make it affordable</div><small>pin to the floor 是「压低价格」的生动口语</small></li>
+<li><p>想说「硬件预埋≠完整体验」</p><div class="chunks">pre-installed hardware · the software catches up</div><small>catch up 指软件后续跟上</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s5" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S5</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/beijing_autoshow_beyond_cars/s5.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>五、智能座舱与9系宇宙</h2>
+      <p class="scene-title-en">Smart Cockpits and the 9-Series Universe</p>
+      <p class="context"><b>情境</b>Cockpits are being redesigned for a hands-off driving future, and brands rush to flagship 9-series models. 语域：casual 前瞻吐槽。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：L3普及后手不用扶方向盘、脚不用搭踏板——座椅不必朝前，可横坐倒坐甚至车内健身。内饰设计师被告知不要用老逻辑，现在很多天马行空设计是为自动驾驶后做准备</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/beijing_autoshow_beyond_cars/s5-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The mechanism: once L3 spreads, your hands won't hold the wheel and your feet won't touch the pedals — so the seat doesn't have to face forward anymore. You could sit sideways, backward, even work out in the car. Interior designers are told to drop the old logic; many outlandish designs are preparing for the post-autonomous era.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>face forward → 朝前坐；outlandish designs → 天马行空的设计；post-autonomous era → 自动驾驶之后</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：AI大模型把人与车关系从司机+工具变为主人+管家/助理。但三刀也调侃：有人想在自动驾驶车里跑步、睡觉打卡上班——「这个事情不能想」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/beijing_autoshow_beyond_cars/s5-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The insight: AI models turn the human-car relationship from driver-plus-tool into owner-plus-butler or assistant. Sandao jokes though: people dreaming of running or sleeping-commuting in a self-driving car — 'that's a thought we shouldn't have.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>owner-plus-butler → 主人+管家；sleep-commute → 睡觉打卡上班</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）相关概念：智能座舱今后像手机安卓/苹果系统，重新定义座舱=重新定义车企生死</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/beijing_autoshow_beyond_cars/s5-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Related idea: the smart cockpit will split into camps like Android and Apple on phones — redefining the cockpit means redefining which automakers live or die.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>redefine the cockpit → 重新定义座舱；live or die → 生死</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：各品牌集体冲高造9系8系，不是因为市场真需要那么多大车，而是最新智驾（三颗六颗激光雷达）、Thor芯片、900V 5C等技术需要旗舰载体落地——没有高端车型连落地的地方都没有</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/beijing_autoshow_beyond_cars/s5-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The mechanism: brands are rushing to build 9-series and 8-series flagships, not because the market truly needs that many giant cars, but because the latest tech — three or six lidars, Thor chips, 900-volt 5C charging — needs flagship bodies to land on. Without a premium model, there's nowhere to put the tech.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>flagship model → 旗舰车型；land on → 落地载体；premium model → 高端车型</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键数据：30万以上SUV市场自主品牌份额已超50%，以前30万预算直奔BBA，现在绿牌用脚投票选国产新能源</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/beijing_autoshow_beyond_cars/s5-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">A key number: domestic brands now hold more than 50 percent of the SUV market above 300,000 yuan. Previously a 300,000 budget went straight to BBA; now green plates vote with their feet for domestic new energy.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>market share → 市场份额；vote with one's feet → 用脚投票</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>适用边界：家用其实不需要5米2六座，但品牌必须有旗舰秀肌肉——理想L9、问界M9、蔚来ES9等占展台C位</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/beijing_autoshow_beyond_cars/s5-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Boundary conditions: a family doesn't really need a 5.2-meter six-seater — but a brand must have a flagship to flex its muscles, which is why the Li L9, Wenjie M9, and Nio ES9 own the C-position of the booths.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>flex one's muscles → 秀肌肉；C-position → C位</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「旗舰车是技术的落地载体」</p><div class="chunks">where tech lands · nowhere to put the tech</div><small>where tech lands 是简洁的产业评论表达</small></li>
+<li><p>想说「这事不能想」</p><div class="chunks">best not to go there</div><small>best not to go there 是口语里「别提了」的说法</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s6" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S6</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/beijing_autoshow_beyond_cars/s6.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>六、BBA中国式反击与保时捷脑洞</h2>
+      <p class="scene-title-en">BBA's Chinese-Style Counterattack and Porsche's Wild Idea</p>
+      <p class="context"><b>情境</b>BMW, Mercedes, and Audi put Chinese teams and tech into their cars, and Sandao pitches a bold Porsche plan. 语域：casual 行业吐槽。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>宝马新世代iX3/i3：操作系统中国团队开发，智驾与Momenta合作，AI大模型与阿里联合定制——挂宝马标，灵魂中国制造。「我心依然是中国心」适合宝马奔驰合唱</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/beijing_autoshow_beyond_cars/s6-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">BMW's Neue Klasse iX3 and i3: the operating system is built by a Chinese team, smart driving partners with Momenta, and the AI models are co-customized with Alibaba — a BMW badge with a Chinese-made soul. The song 'My Heart Is Still Chinese' fits a BMW-Mercedes duet.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>Neue Klasse → 新世代；co-customized with → 与…联合定制；a Chinese soul → 中国灵魂</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>奔驰GLC纯电、奥迪A6/A4与华为乾崑智驾合作，电池100%国内（宁德时代等）。策略清晰：智能化让中国团队/现有技术上车，国外团队做不出可用系统</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/beijing_autoshow_beyond_cars/s6-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Mercedes' GLC EV and Audi's A6 and A4 use Huawei's Qiankun driving system, with batteries 100 percent domestic, from CATL and others. The strategy is clear: let Chinese teams and existing Chinese tech ride in the car — foreign teams simply can't build a usable system.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>Qiankun driving system → 华为乾崑智驾；a usable system → 可用的系统</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）「你不如直接就让中国的团队进来，或者说直接就让中国现有的技术直接放到车上，行了吗，搞那么复杂干什么呢。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/beijing_autoshow_beyond_cars/s6-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The quote: 'Why not just bring in a Chinese team, or simply put the existing Chinese tech straight into the car — why make it so complicated?'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>make it complicated → 搞那么复杂</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>三刀建议保时捷学BBA：独立绿色子品牌（浅绿马卡龙色徽标），1:1复刻车型+华为座舱智驾+宁德时代电池，比同级贵10万买标——保养也降到六七百。失败就发公告退出，不影响燃油车</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/beijing_autoshow_beyond_cars/s6-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Sandao suggests Porsche copy the BBA playbook: launch an independent green sub-brand with a light-green macaron badge, 1-to-1 replica models, Huawei cockpit and driving, CATL batteries, priced 100,000 yuan above rivals for the badge — even maintenance cut to six or seven hundred. If it fails, announce an exit; the gas car business stays untouched.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>sub-brand → 子品牌；1-to-1 replica → 1:1复刻；announce an exit → 发公告退出</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键矛盾：若BBA也用中国智驾方案，与鸿蒙智行/自主品牌有何区别？品牌溢价能撑多久？保时捷想贵一倍，但今年BBA燃油车指导价已降10万+</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/beijing_autoshow_beyond_cars/s6-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key contradiction: if BBA also use Chinese driving solutions, what distinguishes them from HarmonyOS Smart and the domestic brands? How long can the brand premium hold? Porsche wants to charge double, but this year BBA gas-car guide prices already dropped more than 100,000 yuan.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>brand premium → 品牌溢价；guide price → 指导价</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）「如果都没有任何区别，他的品牌溢价他能撑多久呢？」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/beijing_autoshow_beyond_cars/s6-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The quote: 'If there's no difference at all, how long can their brand premium hold?'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>hold → 撑住</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「挂宝马标，灵魂中国制造」</p><div class="chunks">a Chinese soul · Chinese brains</div><small>badge + soul 的对照是精炼点评句式</small></li>
+<li><p>想说「品牌溢价能撑多久」</p><div class="chunks">brand premium · the premium is doomed</div><small>brand premium 指品牌溢价</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s7" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S7</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/beijing_autoshow_beyond_cars/s7.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>七、里子技术：底盘、闪充与垂直整合</h2>
+      <p class="scene-title-en">Under-the-Hood Tech: Chassis, Flash Charging, and Vertical Integration</p>
+      <p class="context"><b>情境</b>Steer-by-wire replacing mechanical links, freezing-chamber flash charging, and BYD's self-sufficiency. 语域：casual 技术前瞻。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：机械硬连接杆正在被电信号全面替代，像游戏模拟器方向盘与画面无物理连接。L3/L4普及后不需要机械转向杆，全線控是必然趋势</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/beijing_autoshow_beyond_cars/s7-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The mechanism: mechanical hard-link rods are being fully replaced by electrical signals, like a gaming-simulator steering wheel that has no physical connection to the screen. Once L3 and L4 go mainstream, you don't need the mechanical steering column — fully by-wire is inevitable.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>hard-link rod → 硬连接杆；steer-by-wire → 线控转向；mechanical steering column → 机械转向杆</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：供应链成熟→成本降低→瞬间普及，跟空气悬架从上往下渗透一样。争论线控底盘好不好已无意义</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/beijing_autoshow_beyond_cars/s7-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The insight: a mature supply chain drives costs down and adoption spreads overnight — exactly how air suspension trickled down from the top. Arguing whether by-wire chassis is good or bad is pointless now.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>trickle down → 向下渗透；by-wire chassis → 线控底盘</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）落地建议：买车关注是否配备线控底盘、后轮转向——一旦供应链铺开，同级别会快速跟进</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/beijing_autoshow_beyond_cars/s7-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">How to apply it: when buying a car, check for a by-wire chassis and rear-wheel steering — once the supply chain rolls out, rivals in the same class will follow quickly.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>rear-wheel steering → 后轮转向；roll out → 铺开</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>展台冷冻舱零下30度泼水成冰，充电速度与常温几乎无差别。三刀预判比亚迪可能在东北大规模建站，解决东北老铁冬季续航焦虑——「穿个貂下车直接把电给补上了，旁边叼根烟。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/beijing_autoshow_beyond_cars/s7-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">At the booth, a freezer chamber at minus 30 degrees showed water flash-freezing, and charging speed was nearly identical to room temperature. Sandao predicts BYD may build large charging networks in the northeast, curing winter range anxiety — 'you get out of the car in your fur coat, plug in, top up the battery, and light a cigarette while you wait.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>flash-freeze → 泼水成冰；range anxiety → 续航焦虑；top up the battery → 补电</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）相关概念：电车能否在东北普及，就看续航多长+补能多快，就这么简单</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/beijing_autoshow_beyond_cars/s7-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Related idea: whether EVs take off in the northeast comes down to two things — how long the range is and how fast you can charge. That simple.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>take off → 普及；charge speed → 补能速度</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>比亚迪电池电机电控到IGBT芯片全自研，缺芯时不缺芯还能外供。北京车展展示系统化能力，全球建工厂、技术产品化输出（不是教会徒弟饿死师傅）</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/beijing_autoshow_beyond_cars/s7-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">BYD self-develops everything from battery cells, motors, and controllers to IGBT chips — when chips run short everywhere else, it doesn't run short, and it can even supply others. The Beijing show displays its system-level capability: factories around the world and tech-as-product export, not teaching an apprentice who'll steal your business.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>IGBT chip → 功率芯片；system-level capability → 系统化能力；tech-as-product export → 技术产品化输出</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「线控替代机械是必然」</p><div class="chunks">steer-by-wire · on its way out</div><small>on its way out 指「即将淘汰」</small></li>
+<li><p>想说「缺芯不缺芯」</p><div class="chunks">run short · never touches them</div><small>run short 是「缺货」的口语</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s8" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S8</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/beijing_autoshow_beyond_cars/s8.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>八、行业竞争新规则</h2>
+      <p class="scene-title-en">New Rules of Industry Competition</p>
+      <p class="context"><b>情境</b>Automaker groups fight like armies, supply chains brand themselves, and consumers redefine the game. 语域：casual 行业总结。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：车企集团军区作战——比亚迪几乎包馆、吉利连成一片、奇瑞捷途星途埃安一馆。秀肌肉舞台，有技术不只展示车（零下30度闪充演示）</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/beijing_autoshow_beyond_cars/s8-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The mechanism: automaker groups now fight like army corps — BYD nearly owns a whole hall, Geely spreads across one stretch, and Chery, Jetour, Xingtu, and Exeed share another. These are muscle-flexing stages; with real tech you don't just show cars, like the minus-30-degree flash-charging demo.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>fight like army corps → 军区作战；muscle-flexing → 秀肌肉</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：供应链品牌化是突出优势（我搭华为ADS、宁德时代麒麟电池），但也是车企焦虑——控制权在谁手里？垂直整合最深的只有比亚迪和特斯拉</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/beijing_autoshow_beyond_cars/s8-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The insight: supply-chain branding is a standout advantage — 'I use Huawei ADS and CATL Kirin batteries' — but it's also the automaker's anxiety: who actually holds control? The deepest vertical integrators are only BYD and Tesla.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>standout advantage → 突出优势；vertical integration → 垂直整合；hold control → 控制权在谁手里</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据：「今后其实就是生态体系的竞争，生态位已经确定好之后，你再想争已经没有你的位置了。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/beijing_autoshow_beyond_cars/s8-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The original quote: 'From now on it's competition between ecosystems — once the ecological niche is determined, there's no room left for you to fight for it.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>ecological niche → 生态位；no room left → 没有你的位置</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>为什么重要：改变游戏规则的人是你和我——手里捧着钱，消费者买什么、想要什么，每个主机厂和供应商都在削尖脑袋想掏你口袋</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/beijing_autoshow_beyond_cars/s8-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Why it matters: the people changing the game are you and me — consumers with money in hand decide what gets bought and what's wanted, while every automaker and supplier racks their brains to reach your pocket.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>change the game → 改变游戏规则；rack one's brains → 削尖脑袋</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>适用边界：全球AI竞争中美最强，欧洲效率低也在卷；个人应拥抱而非对抗AI，提升效率</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/beijing_autoshow_beyond_cars/s8-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Boundary conditions: in the global AI race the US and China lead; Europe is less efficient but still grinding. For individuals, embrace AI rather than fight it — use it to raise your efficiency.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>grind → 内卷/苦干；embrace rather than fight → 拥抱而非对抗</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）「以前是讲谁卖得多、谁卖得更便宜……现在比的就是谁定义这个产品定义得更准确，谁的智能化的体系更加的完善。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/beijing_autoshow_beyond_cars/s8-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The quote: 'It used to be about who sold more and who sold cheaper... now it's about who defines the product more accurately and whose intelligence system is more complete.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>define the product → 定义产品；intelligence system → 智能化体系</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「生态位一旦确定，就没你的位置了」</p><div class="chunks">the niche is taken · claim the position</div><small>niche / ecosystem position 是产业评论常用词</small></li>
+<li><p>想说「消费者用钱投票」</p><div class="chunks">vote with one's wallet · reach your pocket</div><small>vote with your wallet 是标准的消费者权力表达</small></li>
+        </ol>
+      </details>
+    </section>
+      <section class="study-section" id="practice">
+      <h2 class="section-heading">今日可练 <small>PRACTICE TODAY</small></h2>
+      <div class="study-grid">
+        <article>
+          <p>用「step out from behind the curtain」说：供应商从幕后走到台前。</p>
+          <div class="practice-en">
+            At this show, suppliers stepped out from behind the curtain and took center stage.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/beijing_autoshow_beyond_cars/practice-0.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「vote with your wallet」说：消费者用钱包投票。</p>
+          <div class="practice-en">
+            Buyers vote with their wallets, and every automaker is fighting to reach their pocket.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/beijing_autoshow_beyond_cars/practice-1.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「by-wire」说：机械转向杆将被线控全面替代。</p>
+          <div class="practice-en">
+            Once L3 goes mainstream, the mechanical steering rod gets replaced by steer-by-wire.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/beijing_autoshow_beyond_cars/practice-2.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「brand premium」说：BBA 的品牌溢价撑不了多久。</p>
+          <div class="practice-en">
+            If the tech is identical, the BBA brand premium won't hold for long.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/beijing_autoshow_beyond_cars/practice-3.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article>
+      </div>
+    </section>
+      <section class="study-section pitfalls" id="pitfalls">
+      <h2 class="section-heading">避坑 <small>PITFALLS</small></h2>
+      <div class="study-grid">
+        <article>
+          <div class="wrong">✕ The car is very big and good.</div>
+          <div class="right">✓ Flagships exist to carry the latest tech — three lidars, Thor chips, 900V — not because the market needs that many big cars.</div>
+          <p>把冲9系理解为「车大车好」就错了；要翻出「旗舰是技术落地的载体」这一产业逻辑。</p>
+        </article><article>
+          <div class="wrong">✕ German cars are not as good as Chinese cars now.</div>
+          <div class="right">✓ BBA put Chinese teams and Chinese tech into their cars — German badge, Chinese soul.</div>
+          <p>不是简单的好坏比较，而是「中国团队/技术上车」的策略本质。</p>
+        </article><article>
+          <div class="wrong">✕ L3 means I can sleep in the car.</div>
+          <div class="right">✓ L3 allows hands and feet off legally — but only on specific roads, and Huawei shares liability when the system is active.</div>
+          <p>L3 是「特定路段合法脱手」，不是随时睡觉；责任归属也是关键信息。</p>
+        </article><article>
+          <div class="wrong">✕ Buying a car is only about the brand.</div>
+          <div class="right">✓ Buyers now ask which chip, which driving solution, and which battery — the supply chain outweighs the badge.</div>
+          <p>品牌权重已被供应链权重超过，是本集核心洞察，不可省略。</p>
+        </article>
+      </div>
+    </section>
+      <section class="study-section shifts" id="mindset">
+      <h2 class="section-heading">认知转变 <small>MINDSET SHIFTS</small></h2>
+      <div class="study-grid">
+        <article>
+          <span>以为选车先认品牌（BBA盒子）</span>
+          <b aria-hidden="true">→</b>
+          <strong>现在先问芯片、智驾方案、电池是谁家的——供应链品牌权重超过整车品牌</strong>
+        </article><article>
+          <span>以为汽车是交通工具，只比驾驶和配置</span>
+          <b aria-hidden="true">→</b>
+          <strong>汽车正变成生态终端——座舱+智驾+智能家居统一阵营，像手机分安卓和苹果</strong>
+        </article><article>
+          <span>以为智驾是高端选配，可有可无</span>
+          <b aria-hidden="true">→</b>
+          <strong>智驾将像空调音响一样成为标配——零跑把价格打到底，华为把责任顶到天</strong>
+        </article>
+      </div>
+    </section>
+      <footer>
+        双语学习版 · 场景/句子朗读使用 edge-tts（en-US） · 单词发音使用浏览器 Web Speech API
+        <div class="footer-note">中文版：<a href="beijing_autoshow_beyond_cars-总结.html">beijing_autoshow_beyond_cars-总结.html</a> · SVG 版：<a href="viewer.html?f=beijing_autoshow_beyond_cars-总结.svg" target="_blank">beijing_autoshow_beyond_cars-总结.svg</a></div>
+      </footer>
+    </div>
+  </main>
+  <script>(() => {
+  let activeAudio = null;
+  let activeBtn = null;
+  const status = document.getElementById('speech-status');
+  const stopBtn = document.getElementById('stop-speech');
+  const rateSel = document.getElementById('speech-rate');
+
+  const reset = () => {
+    if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+    activeBtn?.classList.remove('playing');
+    activeBtn = null;
+    stopBtn.classList.remove('visible');
+    status.textContent = '';
+  };
+
+  const playAudio = (url, btn) => {
+    reset();
+    const audio = new Audio(url);
+    audio.playbackRate = Number(rateSel.value);
+    activeAudio = audio;
+    activeBtn = btn;
+    btn.classList.add('playing');
+    stopBtn.classList.add('visible');
+    status.textContent = btn.classList.contains('scene-speak')
+      ? 'Reading the whole scene…'
+      : 'Reading…';
+
+    audio.onended = () => { if (activeAudio === audio) reset(); };
+    audio.onerror = () => { status.textContent = 'Audio failed to load.'; if (activeAudio === audio) reset(); };
+    audio.play().catch(() => { status.textContent = 'Playback failed.'; if (activeAudio === audio) reset(); });
+  };
+
+  document.addEventListener('click', e => {
+    const btn = e.target.closest('[data-audio]');
+    if (!btn) return;
+    e.preventDefault();
+    if (btn === activeBtn && activeAudio) { reset(); return; }
+    playAudio(btn.dataset.audio, btn);
+  });
+
+  stopBtn.addEventListener('click', reset);
+
+  const synth = window.speechSynthesis;
+  const getEnglishVoice = () => {
+    const voices = synth.getVoices();
+    return voices.find(v => /^en-(US|GB)/i.test(v.lang))
+        || voices.find(v => /^en/i.test(v.lang)) || null;
+  };
+
+  const difficultWords = new Set([
+    'assortment', 'SKU', 'premium', 'margin', 'middleman', 'OEM', 'rebranding',
+    'hoarding', 'PTSD', 'curation', 'repurchase', 'touchpoint', 'backlash',
+    'reshuffle', 'funnel', 'anchor', 'contract', 'psychology', 'private', 'label',
+    'editorial', 'familiar', 'competitors', 'authorization', 'flexibility'
+  ]);
+
+  const shouldPronounce = word => {
+    const n = word.toLowerCase().replace(/^[^a-z]+|[^a-z]+$/g, '');
+    return n.replace(/[^a-z]/g, '').length >= 8 || difficultWords.has(n);
+  };
+
+  const markPronounceableWords = root => {
+    const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+    const nodes = [];
+    while (walker.nextNode()) nodes.push(walker.currentNode);
+    nodes.forEach(node => {
+      if (node.parentElement?.closest('button, script, style')) return;
+      const text = node.nodeValue;
+      let m, last = 0, changed = false;
+      const frag = document.createDocumentFragment();
+      const re = /[A-Za-z]+(?:[-'’][A-Za-z]+)*/g;
+      while ((m = re.exec(text))) {
+        if (!shouldPronounce(m[0])) continue;
+        changed = true;
+        frag.append(text.slice(last, m.index));
+        const wb = document.createElement('button');
+        wb.type = 'button'; wb.className = 'pronounce-word';
+        wb.dataset.speak = m[0];
+        wb.setAttribute('aria-label', '\u8bfb\u5355\u8bcd ' + m[0]);
+        wb.title = '\u70b9\u51fb\u542c\u53d1\u97f3';
+        wb.textContent = m[0];
+        frag.append(wb);
+        last = m.index + m[0].length;
+      }
+      if (!changed) return;
+      frag.append(text.slice(last));
+      node.replaceWith(frag);
+    });
+  };
+
+  document.querySelectorAll(
+    '.english, .scene-title-en, .paraphrase li p, .chunks, .practice-en, .wrong, .right, .summary-en'
+  ).forEach(markPronounceableWords);
+
+  document.addEventListener('click', e => {
+    const wb = e.target.closest('.pronounce-word');
+    if (!wb) return;
+    e.preventDefault();
+    if (!synth) return;
+    synth.cancel();
+    if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+    activeBtn?.classList.remove('playing');
+    activeBtn = wb;
+    wb.classList.add('playing');
+    const u = new SpeechSynthesisUtterance(wb.dataset.speak);
+    u.lang = 'en-US';
+    u.rate = 0.88;
+    const v = getEnglishVoice();
+    if (v) u.voice = v;
+    u.onend = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+    u.onerror = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+    synth.speak(u);
+  });
+})();</script>
+</body>
+</html>

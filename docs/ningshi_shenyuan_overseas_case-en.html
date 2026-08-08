@@ -1,0 +1,892 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="凝视深渊：中国留学生海外连环迷奸案 — Bilingual Learning Edition" />
+  <title>凝视深渊：中国留学生海外连环迷奸案｜EN 双语学习版</title>
+  <style>:root{--teal-950:#073f42;--teal-800:#0d686c;--teal-700:#0f7c80;--teal-600:#14919b;--mint-100:#dff4ec;--mint-50:#f0faf6;--ink:#183536;--muted:#607879;--line:#d7e8e2;--paper:#fff;--amber:#a85d08;--shadow:0 12px 32px rgba(7,63,66,.08)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:24px}
+body{margin:0;color:var(--ink);background:#edf7f2;font-family:Inter,"PingFang SC","Noto Sans SC","Microsoft YaHei",system-ui,sans-serif;line-height:1.65}
+button,select{font:inherit}
+a{color:inherit}
+.hero{color:#fff;background:radial-gradient(circle at 85% 10%,rgba(129,230,196,.24),transparent 30%),linear-gradient(125deg,#073f42,#0d7377 56%,#14919b)}
+.hero-inner{width:min(1440px,100%);margin:auto;padding:44px clamp(20px,5vw,72px) 36px}
+.hero-flex{display:flex;gap:clamp(18px,3vw,40px);align-items:flex-start}
+.hero-cover{width:min(240px,42vw);height:auto;max-height:320px;object-fit:contain;object-position:center;border-radius:16px;border:1px solid rgba(255,255,255,.28);box-shadow:0 18px 44px rgba(0,0,0,.32);flex-shrink:0;background:rgba(255,255,255,.08)}
+.hero-text{min-width:0;flex:1}
+.eyebrow{margin:0 0 12px;font-size:.78rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;opacity:.8}
+h1{max-width:1020px;margin:0;font-size:clamp(1.7rem,3.6vw,3rem);line-height:1.15;letter-spacing:-.04em}
+.hero-en{margin:12px 0 22px;font-size:clamp(1rem,2vw,1.25rem);opacity:.82}
+.hero-meta{display:flex;flex-wrap:wrap;gap:9px;align-items:center}
+.chip{border:1px solid rgba(255,255,255,.28);border-radius:99px;padding:5px 11px;font-size:.82rem;background:rgba(255,255,255,.08)}
+.source-link{font-weight:750;text-decoration:none;border-bottom:1px solid rgba(255,255,255,.5)}
+.toolbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:22px}
+.toolbar label{font-size:.82rem;opacity:.82}
+.toolbar select{color:#fff;background:#0a5d61;border:1px solid rgba(255,255,255,.3);border-radius:8px;padding:7px 9px}
+.stop-btn{display:none;color:#fff;background:#8c3b2a;border:0;border-radius:8px;padding:8px 12px;cursor:pointer}
+.stop-btn.visible{display:inline-flex}
+.speech-status{min-height:1.4em;font-size:.82rem;opacity:.88}
+.lang-switch{display:inline-flex;gap:6px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.28);border-radius:99px;padding:4px}
+.lang-switch a{display:inline-block;padding:4px 13px;border-radius:99px;font-size:.8rem;font-weight:700;text-decoration:none;color:rgba(255,255,255,.75)}
+.lang-switch a.active{background:#fff;color:var(--teal-800)}
+.narration-player{margin-top:16px;padding:14px 18px;background:rgba(255,255,255,.1);border-radius:12px;border:1px solid rgba(255,255,255,.15)}
+.audio-label{color:rgba(255,255,255,.88);font-size:.82rem;font-weight:700;margin:0 0 8px}
+.page{width:min(1440px,100%);margin:auto;padding:28px clamp(16px,3vw,44px) 64px;display:grid;grid-template-columns:minmax(230px,280px) minmax(0,1fr);gap:30px;align-items:start}
+.sidebar{position:sticky;top:20px;min-width:0}
+.sidebar-box{background:rgba(255,255,255,.8);border:1px solid var(--line);border-radius:16px;padding:17px;box-shadow:var(--shadow);backdrop-filter:blur(12px)}
+.sidebar h2{margin:0 0 13px;font-size:.9rem;letter-spacing:.08em;color:var(--teal-800)}
+.map-link{display:grid;grid-template-columns:34px minmax(0,1fr);gap:9px;padding:10px 6px;text-decoration:none;border-top:1px solid var(--line)}
+.map-link:hover b{color:var(--teal-700)}
+.map-id{width:30px;height:30px;display:grid;place-items:center;border-radius:9px;color:#fff;background:var(--teal-700);font-size:.72rem;font-weight:800}
+.map-link b{display:block;font-size:.78rem;line-height:1.4}
+.map-link small{display:block;color:var(--muted);font-size:.67rem;line-height:1.4;margin-top:2px;overflow-wrap:anywhere}
+.content{min-width:0}
+.scene-card{background:var(--paper);border:1px solid var(--line);border-radius:20px;padding:clamp(20px,3vw,34px);margin-bottom:24px;box-shadow:var(--shadow);overflow:hidden}
+.scene-topline{display:flex;justify-content:space-between;gap:16px;align-items:center;margin-bottom:16px}
+.scene-id{display:inline-grid;place-items:center;min-width:42px;height:30px;padding:0 10px;color:#fff;background:var(--teal-700);border-radius:8px;font-size:.78rem;font-weight:850}
+.time{margin-left:10px;color:var(--muted);font-size:.82rem;font-variant-numeric:tabular-nums}
+.scene-card h2{margin:0 0 2px;font-size:clamp(1.35rem,2.4vw,2rem);line-height:1.25;color:var(--teal-950)}
+.scene-title-en{margin:0 0 18px;color:var(--teal-600);font-weight:700;font-size:.98rem}
+.context{margin:0 0 20px;padding:12px 15px;color:#496566;background:var(--mint-50);border-left:3px solid var(--teal-600);border-radius:0 10px 10px 0;font-size:.88rem}
+.context b{margin-right:10px;color:var(--teal-800)}
+.sentence-list{display:grid;gap:12px}
+.sentence{position:relative;display:grid;grid-template-columns:38px minmax(0,1fr);gap:12px;padding:16px;border:1px solid #e2ece8;border-radius:14px;background:#fcfefd;min-width:0}
+.sentence-no{color:var(--teal-600);font-size:.76rem;font-weight:850;font-variant-numeric:tabular-nums;padding-top:4px}
+.bilingual{min-width:0;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(14px,2vw,28px)}
+.lang-block{min-width:0}
+.lang-block p{margin:5px 0 0;overflow-wrap:anywhere}
+.en-block{padding-left:clamp(14px,2vw,28px);border-left:1px solid var(--line)}
+.en-block p{color:#0b5c60;font-weight:650}
+.lang-tag{display:inline-block;color:var(--muted);font-size:.66rem;font-weight:850;letter-spacing:.12em}
+.en-head{display:flex;justify-content:space-between;gap:10px;align-items:center;min-height:30px}
+.note{grid-column:2;margin:1px 0 0;color:#708182;font-size:.78rem}
+.note span{margin-right:7px;color:var(--amber);font-weight:750}
+.speak-btn{display:inline-flex;align-items:center;gap:7px;border:1px solid #b8d9d1;border-radius:9px;padding:7px 11px;color:var(--teal-800);background:#f5fbf8;cursor:pointer;white-space:nowrap;font-size:.78rem;font-weight:750;transition:.15s ease}
+.speak-btn:hover{color:#fff;background:var(--teal-700);border-color:var(--teal-700);transform:translateY(-1px)}
+.speak-btn.playing{color:#fff;background:var(--teal-700);border-color:var(--teal-700)}
+.speak-btn.compact{padding:4px 8px;font-size:.7rem}
+.speak-btn.icon-only{padding:3px 7px;margin-left:6px}
+.speak-btn.icon-only span:last-child{display:none}
+.pronounce-word{display:inline;margin:0;padding:0 2px;color:inherit;background:rgba(20,145,155,.08);border:0;border-bottom:1px dashed var(--teal-600);border-radius:3px;font:inherit;font-weight:inherit;line-height:inherit;cursor:pointer}
+.pronounce-word:hover,.pronounce-word:focus{color:var(--teal-950);background:#cceee4;border-bottom-style:solid;outline:3px solid rgba(20,145,155,.42);outline-offset:2px}
+.pronounce-word.playing{color:#fff;background:var(--teal-700);border-bottom-color:var(--teal-700)}
+.paraphrase{margin-top:18px;border-top:1px solid var(--line)}
+.paraphrase summary{padding:16px 0 3px;color:var(--teal-800);cursor:pointer;font-weight:800}
+.paraphrase summary span{color:var(--muted);font-size:.75rem;font-weight:500;margin-left:8px}
+.paraphrase ol{margin:12px 0 0;padding-left:22px}
+.paraphrase li{padding:7px 0 9px 5px}
+.paraphrase li p{margin:0;font-size:.9rem;font-weight:650}
+.paraphrase li small{display:block;color:var(--muted);font-size:.72rem;margin-top:2px}
+.chunks{margin-top:4px;color:var(--teal-700);font-size:.78rem}
+.study-section{margin:38px 0 0}
+.section-heading{display:flex;align-items:baseline;gap:10px;margin:0 0 15px;color:var(--teal-950);font-size:1.35rem}
+.section-heading small{color:var(--teal-600);font-size:.78rem;letter-spacing:.05em}
+.study-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.study-grid article{padding:17px;background:#fff;border:1px solid var(--line);border-radius:14px;box-shadow:0 6px 18px rgba(7,63,66,.05);min-width:0}
+.study-grid p{margin:0}
+.practice-en{margin-top:9px;color:var(--teal-700);font-weight:650;overflow-wrap:anywhere}
+.wrong{color:#a24831;text-decoration:line-through;overflow-wrap:anywhere}
+.right{color:var(--teal-700);font-weight:750;margin:5px 0;overflow-wrap:anywhere}
+.pitfalls p{color:var(--muted);font-size:.82rem}
+.shifts article{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1.5fr);gap:12px;align-items:center}
+.shifts b{color:var(--teal-600);font-size:1.2rem}
+.shifts strong{color:var(--teal-800)}
+footer{margin-top:38px;color:var(--muted);font-size:.78rem;text-align:center}
+.footer-note{margin-top:6px}
+@media (max-width:900px){
+  .page{grid-template-columns:1fr}
+  .sidebar{position:static}
+  .sidebar-box{overflow-x:auto;padding:12px}
+  .sidebar h2{padding-left:5px}
+  .map-nav{display:flex;width:max-content;gap:8px}
+  .map-link{width:240px;border:1px solid var(--line);border-radius:10px;padding:8px}
+  .bilingual{grid-template-columns:1fr}
+  .en-block{padding:12px 0 0;border-left:0;border-top:1px dashed var(--line)}
+}
+@media (max-width:620px){
+  .hero-inner{padding-top:30px}
+  .hero-flex{flex-direction:column;align-items:center}
+  .hero-cover{width:100%;max-width:360px}
+  .hero-text{text-align:center}
+  .page{padding-inline:10px;gap:18px}
+  .scene-card{border-radius:14px;padding:17px 13px}
+  .scene-topline{align-items:flex-start}
+  .scene-speak span:last-child{display:none}
+  .sentence{grid-template-columns:26px minmax(0,1fr);padding:13px 10px;gap:6px}
+  .note{grid-column:2}
+  .study-grid{grid-template-columns:1fr}
+  .shifts article{grid-template-columns:1fr;gap:5px}
+  .shifts b{transform:rotate(90deg);justify-self:start}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.speak-btn{transition:none}}</style>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="hero-flex">
+        <div class="hero-text">
+          <p class="eyebrow">Society &amp; Law · 社会与法律</p>
+          <h1>凝视深渊：中国留学生海外连环迷奸案</h1>
+          <p class="hero-en">Gazing Into the Abyss: The Serial Date-Rape Cases of Chinese Students Abroad</p>
+          <p class="summary-en" style="margin:0 0 14px;padding:14px 16px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.22);border-radius:12px;font-size:.95rem;line-height:1.7">This program follows the serial drug-and-rape cases committed by eight highly educated Chinese students and overseas Chinese, including Zou Zhenghao, Xu Chao, Zhang Dapeng, Jiang Zhongyi, and Shao Zhiting, across the UK, Germany, and the US. It exposes the standard criminal chain — a packaged persona, social meet-ups, drugging drinks at home, then assault and secret filming — and how Telegram groups with thousands of members, like the 'Old Driver Driving School,' form a cross-border criminal network. Nearly all the victims are Chinese women, and more than fifty are known, while most group members have yet to face any legal consequence.</p>
+          <div class="hero-meta">
+            <span class="chip">2026-06-23</span>
+            <span class="chip">小宇宙FM</span>
+            <span class="chip">1小时57分</span>
+            <span class="chip">5 Scenes</span>
+            <span class="chip">Click underlined words to hear them</span>
+            <a class="source-link" href="https://www.xiaoyuzhoufm.com/episode/6a1c581b7460cabdeb58dcf4" target="_blank" rel="noopener">原播客 ↗</a>
+          </div>
+        </div>
+      </div>
+      <div class="toolbar">
+        <div class="lang-switch"><div class="lang-switch"><a href="ningshi_shenyuan_overseas_case-总结.html">中文</a><a class="active" href="ningshi_shenyuan_overseas_case-en.html" aria-current="page">EN</a></div></div>
+        <label for="speech-rate">朗读速度</label>
+        <select id="speech-rate">
+          <option value="0.85">慢速 0.85×</option>
+          <option value="1" selected>正常 1×</option>
+          <option value="1.15">快速 1.15×</option>
+        </select>
+        <button id="stop-speech" class="stop-btn" type="button">■ 停止朗读</button>
+        <span id="speech-status" class="speech-status" role="status" aria-live="polite"></span>
+      </div>
+      <div class="narration-player">
+      <p class="audio-label">🎧 中文语音讲解</p>
+      <button class="speak-btn" type="button" data-audio="audio/ningshi_shenyuan_overseas_case.mp3" aria-label="播放语音讲解"><span aria-hidden="true">▶</span><span>播放语音讲解</span></button>
+    </div>
+    </div>
+  </header>
+  <main class="page">
+    <aside class="sidebar" aria-label="场景地图">
+      <div class="sidebar-box">
+        <h2>场景地图 · SCENE MAP</h2>
+        <nav class="map-nav">
+          <a class="map-link" href="#s1">
+          <span class="map-id">S1</span>
+          <span><b>一、邹正豪案：UCL博士的连环迷奸与6.5TB证据库</b><small> · Part 1: The Zou Zhenghao Case — A UCL PhD Student, Serial Assault, and a 6.5TB Evidence Vault</small></span>
+        </a>
+<a class="map-link" href="#s2">
+          <span class="map-id">S2</span>
+          <span><b>二、徐超案：邹正豪判决后3个月的「复制粘贴」</b><small> · Part 2: The Xu Chao Case — 'Copy and Paste' Three Months After Zou's Sentence</small></span>
+        </a>
+<a class="map-link" href="#s3">
+          <span class="map-id">S3</span>
+          <span><b>三、Telegram黑产网络：从张大鹏到「德国老司机驾校」</b><small> · Part 3: The Telegram Criminal Network — From Zhang Dapeng to the 'German Old Driver Driving School'</small></span>
+        </a>
+<a class="map-link" href="#s4">
+          <span class="map-id">S4</span>
+          <span><b>四、三国司法对比与翁思哲美国案</b><small> · Part 4: Justice Across Three Countries and the Weng Sizhe US Case</small></span>
+        </a>
+<a class="map-link" href="#s5">
+          <span class="map-id">S5</span>
+          <span><b>五、识别危险信号：如何警惕身边的「邹正豪」</b><small> · Part 5: Spotting the Danger Signs — How to Stay Alert to the 'Zou Zhenghao' Around You</small></span>
+        </a>
+        </nav>
+      </div>
+    </aside>
+    <div class="content">
+      <section class="scene-card" id="s1" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S1</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/ningshi_shenyuan_overseas_case/s1.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>一、邹正豪案：UCL博士的连环迷奸与6.5TB证据库</h2>
+      <p class="scene-title-en">Part 1: The Zou Zhenghao Case — A UCL PhD Student, Serial Assault, and a 6.5TB Evidence Vault</p>
+      <p class="context"><b>情境</b>梳理邹正豪案：人设包装、作案链条、报警搁置到最终定罪。语域：formal 案件纪实叙述。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：1997年生，广东工业大学2+2本科，贝尔法斯特女王大学+UCL机械工程硕博在读。对外展示劳力士、LV、健身身材，自称睡过100+女性；熟人评价却称其抠门、假货、爱炫耀性能力</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/ningshi_shenyuan_overseas_case/s1-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The core mechanism: born in 1997, with a two-plus-two bachelor's from Guangdong University of Technology and a master's-PhD in mechanical engineering between Queen's University Belfast and UCL. Outwardly he showed a Rolex, LV, and a gym body, claiming to have slept with 100+ women; acquaintances, however, called him stingy, full of fakes, and eager to brag about sexual prowess.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>outwardly → 对外展示；gym body → 健身身材；sexual prowess → 性能力；two-plus-two bachelor's → 2+2本科</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：「学霸绅士」形象是精心设计的狩猎工具——首次见面只讨论数学、保持边界感，建立信任后才在派对上劝酒下药</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/ningshi_shenyuan_overseas_case/s1-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key insight: the 'scholar-gentleman' image was a carefully designed hunting tool — at first meetings he only discussed mathematics and kept his distance, building trust before pushing alcohol and drugs at parties.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>hunting tool → 狩猎工具；keep one's distance → 保持边界感；build trust → 建立信任；push drinks → 劝酒</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>典型场景：通过社交软件/朋友介绍/轰趴局认识中国女留学生，以「学习讨论」或「小型派对」为由约到公寓</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/ningshi_shenyuan_overseas_case/s1-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">A typical scene: meeting Chinese female students through dating apps, mutual friends, or house parties, then luring them to his apartment on the pretext of 'study discussion' or 'a small party.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>dating apps → 社交软件；house party → 轰趴；on the pretext of → 以…为由；lure sb to → 约到</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据：「周正豪观察完后似乎并不满意小燕现在的状态，于是他开始不停的责备小燕，说他浪费了他的酒，一杯又一杯继续灌到小燕的嘴里」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/ningshi_shenyuan_overseas_case/s1-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">In the author's own words: 'After observing, Zhou didn't seem satisfied with Xiaoyan's state, so he began to blame her endlessly, saying she wasted his wine, and poured cup after cup into her mouth.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>blame endlessly → 不停地责备；waste the wine → 浪费酒；cup after cup → 一杯又一杯</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）相关概念：与徐超案、蒋中毅案共享同一犯罪模板，均来自Telegram群组教程</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/ningshi_shenyuan_overseas_case/s1-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">A related idea: the Xu Chao and Jiang Zhongyi cases share the same criminal template, all originating from Telegram group tutorials.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>criminal template → 犯罪模板；originate from → 来自；share → 共享</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>2023年5月首次报警，因伦敦警方缺乏翻译和心理辅导而搁置；2024年1月另一位受害者成功报案后邹正豪被捕。2025年1月审判，小燕成为协助定罪的唯二出庭女性之一</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/ningshi_shenyuan_overseas_case/s1-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">His first report came in May 2023 but was shelved because the London police lacked interpreters and psychological support; after another victim successfully reported in January 2024, Zou was arrested. He was tried in January 2025, and Xiaoyan became one of only two women who testified to help convict him.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>shelved → 搁置；interpreter → 翻译；testify → 出庭作证；convict → 定罪</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「人设是精心设计的猎捕工具」</p><div class="chunks">a hunting tool · a strategy, not a personality</div><small>第一句贴合原文；第二句更尖锐，适合点评</small></li>
+<li><p>想说「报警因翻译问题被搁置」</p><div class="chunks">shelved for lack of · sat still for months</div><small>第一句信息准确；第二句强调拖延的代价</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s2" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S2</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/ningshi_shenyuan_overseas_case/s2.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>二、徐超案：邹正豪判决后3个月的「复制粘贴」</h2>
+      <p class="scene-title-en">Part 2: The Xu Chao Case — 'Copy and Paste' Three Months After Zou's Sentence</p>
+      <p class="context"><b>情境</b>讲徐超案在邹案判决后迅速复现、判决细节与受害者处境。语域：formal 案件纪实 + 安全提示。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：33岁，2013年来英，格林威治大学硕士。发现留学生求职难、签证困境，以「帮忙内推」为诱饵接近女性，在公寓下药性侵并拍摄大量视频</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/ningshi_shenyuan_overseas_case/s2-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The core mechanism: 33 years old, came to the UK in 2013, master's from the University of Greenwich. Seeing how hard it is for international students to find jobs and visas, he used 'help with internal referrals' as bait, drugging women in his apartment and filming large numbers of videos.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>internal referral → 内推；bait → 诱饵；drug → 下药；international students → 留学生</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：2025年3月邹正豪被判无期后不到3个月，徐超以几乎相同手法继续犯罪——说明个体刑罚无法瓦解群组驱动的犯罪文化</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/ningshi_shenyuan_overseas_case/s2-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key insight: less than three months after Zou Zhenghao's life sentence in March 2025, Xu Chao continued with almost identical methods — individual punishment cannot dismantle a group-driven criminal culture.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>life sentence → 无期徒刑；almost identical → 几乎相同；dismantle → 瓦解；criminal culture → 犯罪文化</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>判决：无期徒刑，假释委员会首次审理前最低服刑13年200天；刑满后需终身向警方通报个人信息，满刑后可能被驱逐回中国</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/ningshi_shenyuan_overseas_case/s2-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The sentence: life imprisonment, with a minimum of 13 years and 200 days before the parole board's first review; after release he must notify police of his personal details for life, and he may be deported to China once the term ends.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>life imprisonment → 无期徒刑；parole board → 假释委员会；notify police → 向警方通报；deported → 被驱逐</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据：「徐超甚至还会把多个不同的性侵视频剪辑在一起，做成合集混剪的样子」——13+已知受害者，含陪同报案却同样受害的小叶</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/ningshi_shenyuan_overseas_case/s2-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">In the author's own words: 'Xu would even edit different assault videos together into a single mixed reel' — with 13+ known victims, including Xiaoye, who came along to report and was herself assaulted.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>edit together → 剪辑在一起；mixed reel → 合集混剪；came along to report → 陪同报案</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>小雪：找到工作后因创伤无法正常工作，远离所有男性；小叶：不敢睡觉，害怕视频流出和被报复；两人均不敢告诉家人，小雪为曾介绍朋友给徐超而深深自责</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/ningshi_shenyuan_overseas_case/s2-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Xiaoxue found a job but couldn't function normally due to trauma and now stays away from all men; Xiaoye is afraid to sleep, terrified the videos will leak and she'll face retaliation; neither dared tell their families, and Xiaoxue is deeply guilty for once introducing a friend to Xu.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>trauma → 创伤；face retaliation → 被报复；leak → 流出；deeply guilty → 深深自责</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）怎么落地：若朋友出现异常「断片失忆」且与某男性独处后发生，应优先怀疑药物侵害而非「喝多了」，鼓励其保留证据并联系当地性侵专线（英国可拨打999或Rape Crisis）</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/ningshi_shenyuan_overseas_case/s2-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">How to help: if a friend shows abnormal 'blackouts and memory loss' after time alone with a certain man, suspect drug-facilitated assault rather than 'just drank too much,' encourage her to preserve evidence, and contact the local sexual-assault hotline — in the UK, call 999 or Rape Crisis.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>blackouts and memory loss → 断片失忆；drug-facilitated assault → 药物侵害；preserve evidence → 保留证据；sexual-assault hotline → 性侵专线</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「判决无法瓦解群组文化」</p><div class="chunks">punish one, culture remains · the template was copied</div><small>第二句更有叙事冲击力，适合复盘</small></li>
+<li><p>想说「断片失忆要警惕药物侵害」</p><div class="chunks">don't write off · a red flag</div><small>第二句 red flag 是常用的警惕表达</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s3" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S3</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/ningshi_shenyuan_overseas_case/s3.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>三、Telegram黑产网络：从张大鹏到「德国老司机驾校」</h2>
+      <p class="scene-title-en">Part 3: The Telegram Criminal Network — From Zhang Dapeng to the 'German Old Driver Driving School'</p>
+      <p class="context"><b>情境</b>梳理Telegram中文迷奸群网络与张大鹏、蒋中毅、徐徐开员、邵志婷等涉案者。语域：formal 案件调查纪实。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>适用边界：三件套需专业麻醉监护，群友自行组合使用可致呼吸抑制死亡——受害者小花案例中三种药物叠加使用，任意一种单独使用都需医生全程监护</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/ningshi_shenyuan_overseas_case/s3-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The boundary: the three-piece set requires professional anesthesia monitoring; when group members combine them themselves, it can cause respiratory depression and death — in victim Xiaohua's case, three drugs were stacked, and any one of them alone would need a doctor's supervision throughout.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>three-piece set → 三件套；anesthesia monitoring → 麻醉监护；respiratory depression → 呼吸抑制；stack drugs → 叠加用药</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>张大鹏：哈工大背景，德国图宾根计算机硕士，Telegram 25个迷奸群、最大群2316人。2022年对Airbnb房东小花下药三件套，10+受害者，判14年+预防羁押（德国合并量刑原则，远低于英国）</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/ningshi_shenyuan_overseas_case/s3-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Zhang Dapeng: a Harbin Institute of Technology background, a computer-science master's from Tübingen, Germany, and administrator of 25 Telegram groups with the largest at 2,316 members. In 2022 he drugged his Airbnb host Xiaohua with the three-piece set; with 10+ victims, he got 14 years plus preventive detention — Germany's combined-sentence principle, far lighter than the UK.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>preventive detention → 预防羁押；combined-sentence principle → 合并量刑原则；far lighter than → 远低于</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>蒋中毅：慕尼黑工大机器人学硕士，28岁，对邻居小兰反复下药——小兰因「断片失忆」怀疑自己有精神问题，从未怀疑过蒋中毅，甚至说过「可能有一天会自杀」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/ningshi_shenyuan_overseas_case/s3-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Jiang Zhongyi: a 28-year-old robotics master's student from Munich TU, who repeatedly drugged his neighbor Xiaolan — she blamed the blackouts on her own mental health and never suspected him, even saying 'maybe one day I'll kill myself.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>blame on oneself → 归咎于自己；suspect → 怀疑；robotics → 机器人学</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>徐徐开员：跨境物流经理，核心职责是从中国走私三唑仑到德国分发，2024年12月羁押期间畏罪自杀，供应链调查被迫终止</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/ningshi_shenyuan_overseas_case/s3-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Xu Xukaiyuan: a cross-border logistics manager whose core job was smuggling triazolam from China into Germany for distribution; he died by suicide in detention in December 2024, forcing the supply-chain investigation to stop.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>smuggle → 走私；triazolam → 三唑仑；die by suicide → 畏罪自杀；in detention → 羁押期间</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>原因：1993年生，河北医科大学→北大人民医院硕士→柏林夏里特医院博士（研究方向：侵袭性癌细胞），表面是模范医学生+虔诚佛教徒</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/ningshi_shenyuan_overseas_case/s3-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The reason: born 1993, Hebei Medical University, a master's at Peking University People's Hospital, and a PhD at Charité Berlin researching invasive cancer cells — outwardly a model medical student and a devout Buddhist.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>model student → 模范学生；devout Buddhist → 虔诚佛教徒；outwardly → 表面是</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>实际：2022年9月起即为群友提供下药建议（「喂她两片药她就不会记得任何事」）；2019-2021在中国对未婚妻实施至少5次迷奸；群聊中按受害者体重计算用药剂量（「车有多重？53公斤」）</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/ningshi_shenyuan_overseas_case/s3-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The reality: since September 2022 he'd advised group members on drugging ('feed her two pills and she won't remember anything'); committed at least 5 rapes of his fiancée in China from 2019 to 2021; and in group chats he calculated doses by victim weight — 'How heavy is the car? 53 kilos.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>advise on → 提供建议；fiancée → 未婚妻；calculate dose → 计算剂量；by weight → 按体重</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「人设与真实完全相反」</p><div class="chunks">the opposite of reality · model by day, criminal by habit</div><small>第二句更凝练，适合小结案例</small></li>
+<li><p>想说「供应链调查被迫中断」</p><div class="chunks">dead-end · stall the probe</div><small>第一句信息中性；第二句更书面</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s4" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S4</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/ningshi_shenyuan_overseas_case/s4.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>四、三国司法对比与翁思哲美国案</h2>
+      <p class="scene-title-en">Part 4: Justice Across Three Countries and the Weng Sizhe US Case</p>
+      <p class="context"><b>情境</b>对比英德美三国司法差异，并给出怀疑被下药后的落地行动建议。语域：formal 司法对比 + 安全指引。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>为什么重要：药物性侵受害者常因记忆缺失+自责文化（「是不是我不该去他家」）而不报案——邹正豪案第一位报警者因翻译问题搁置近8个月，期间犯罪仍在继续</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/ningshi_shenyuan_overseas_case/s4-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Why it matters: victims of drug-facilitated assault often don't report because of memory gaps and a self-blaming culture ('should I even have gone to his house?') — the first reporter in the Zou case was shelved for nearly 8 months over translation problems, and the crimes continued meanwhile.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>self-blaming culture → 自责文化；memory gaps → 记忆缺失；shelved → 搁置；meanwhile → 期间</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>适用边界：不同国家证据规则不同——德国法院可对境外犯罪行使管辖权（邵志婷中国境内对未婚妻案件），但证人可行使亲属拒绝作证权导致关键证据缺失</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/ningshi_shenyuan_overseas_case/s4-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The boundary: evidence rules differ by country — German courts can exercise jurisdiction over crimes committed abroad (as with Shao Zhiting's case involving his fiancée in China), but witnesses can invoke the family privilege against testifying, causing key evidence to go missing.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>jurisdiction → 管辖权；crimes committed abroad → 境外犯罪；family privilege against testifying → 亲属拒绝作证权；key evidence → 关键证据</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）怎么落地：① 怀疑被下药后尽快验尿/验血（多数迷药24-72小时内可检出）；② 不洗澡、不换衣、保留饮料杯；③ 要求中文翻译或联系华人妇女组织协助；④ 即使首次报案失败，可通过社交媒体警示他人（小燕的小红书笔记成为关键吹哨）</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/ningshi_shenyuan_overseas_case/s4-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Concrete steps: (1) if you suspect you were drugged, get urine or blood tests as soon as possible — most date-rape drugs are detectable within 24-72 hours; (2) don't shower, don't change clothes, and keep the drink cup; (3) request a Chinese interpreter or contact Chinese women's organizations; (4) even if the first report fails, warn others via social media — Xiaoyan's Xiaohongshu post became the crucial whistle.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>detectable → 可检出；don't shower → 不洗澡；Chinese women's organizations → 华人妇女组织；whistle → 吹哨</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「受害者因自责而不报案」</p><div class="chunks">self-blame keeps silent · blocks reporting</div><small>第一句简洁；第二句具体指向自责问题</small></li>
+<li><p>想说「第一次报案失败也要发声」</p><div class="chunks">warn others · the platform carries the warning</div><small>第二句强调社交媒体吹哨的作用，很贴切</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s5" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S5</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/ningshi_shenyuan_overseas_case/s5.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>五、识别危险信号：如何警惕身边的「邹正豪」</h2>
+      <p class="scene-title-en">Part 5: Spotting the Danger Signs — How to Stay Alert to the 'Zou Zhenghao' Around You</p>
+      <p class="context"><b>情境</b>谈公开人设与私密行为的割裂、受害者互相确认的勇气、旁观者宽容的问题。语域：formal 反思性评论。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）嘉宾说法：「徐徐开员在朋友圈被夸特别有同理心、尊重女性——男性里面少有的真正共情女性的代表」——公开人设与私密行为可以完全相反，不可仅凭社交表现判断安全</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/ningshi_shenyuan_overseas_case/s5-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">As a guest notes: 'Xu Xukaiyuan was praised in his friend circle as exceptionally empathetic and respectful of women — one of the rare men who truly empathize with women.' A public persona and private behavior can be completely opposite; you cannot judge safety by social performance alone.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>exceptionally empathetic → 特别有同理心；public persona → 公开人设；judge by social performance → 仅凭社交表现判断</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>为什么重要：每个受害者都以为「只有我一个人」——直到互联才发现是系统性犯罪。邹正豪案23位女性在判决后继续站出来，邵志婷庭审旁听席挤满从法兰克福赶来的中国女性</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/ningshi_shenyuan_overseas_case/s5-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Why it matters: every victim thought 'I'm the only one' — until they connected and realized it was systemic crime. In the Zou case, 23 women came forward after the verdict, and at Shao Zhiting's trial the gallery was packed with Chinese women who had traveled from Frankfurt.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>come forward → 站出来；systemic crime → 系统性犯罪；packed gallery → 坐满旁听席；the verdict → 判决</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>适用边界：节目也诚实指出：「只是看消息没犯罪是否犯法——这个问题暂时无法解答」，但数千群成员确实尚未受到任何惩罚</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/ningshi_shenyuan_overseas_case/s5-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The boundary: the program honestly notes that 'whether merely reading the group without committing a crime is itself illegal — that question can't be answered yet,' but thousands of group members have indeed received no punishment.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>merely reading → 只是看消息；can't be answered yet → 暂时无法解答；receive no punishment → 未受任何惩罚</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）「我们现在过来，就是为了让她感受到，我们都在看着她。」——2026年5月邵志婷案旁听席女性对记者说的话</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/ningshi_shenyuan_overseas_case/s5-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">A quote: 'We came here so she can feel that we are all watching her.' — the women in the gallery at Shao Zhiting's trial, May 2026.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>the gallery → 旁听席；all watching → 都在看着她；come here so that → 过来就是为了让</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）怎么落地：若发现伴侣在迷奸群组中（即使「只看不说」），节目引用女性朋友回答：「那还能怎么样，总不能因为这个分手吧」——这正是问题所在：对旁观者的宽容会纵容犯罪生态扩张</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/ningshi_shenyuan_overseas_case/s5-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">How to respond: when a partner is found in such a group — even 'just reading, not posting' — the program cites a woman friend's reply: 'What else can you do? You can't break up over this, right?' And that, it argues, is exactly the problem: tolerance toward bystanders allows the criminal ecosystem to expand.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>bystander → 旁观者；criminal ecosystem → 犯罪生态；tolerance toward → 对…的宽容；break up over this → 因为这个分手</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「公开人设不可作为安全判断依据」</p><div class="chunks">prove nothing in private · nothing about safety</div><small>第一句对比强烈，适合警示</small></li>
+<li><p>想说「对旁观者的宽容会纵容犯罪」</p><div class="chunks">tolerating bystanders · feeding the criminals</div><small>第二句更直接点出因果，适合结论</small></li>
+        </ol>
+      </details>
+    </section>
+      <section class="study-section" id="practice">
+      <h2 class="section-heading">今日可练 <small>PRACTICE TODAY</small></h2>
+      <div class="study-grid">
+        <article>
+          <p>用「on the pretext of」说：以学习讨论为由约到公寓。</p>
+          <div class="practice-en">
+            He lured victims to his apartment on the pretext of study sessions.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/ningshi_shenyuan_overseas_case/practice-0.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「shelved」说：报案因翻译问题被搁置。</p>
+          <div class="practice-en">
+            Her report was shelved for months simply because the police lacked interpreters.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/ningshi_shenyuan_overseas_case/practice-1.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「red flag」说：断片失忆是危险信号。</p>
+          <div class="practice-en">
+            Unexplained blackouts after time alone with someone are a red flag.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/ningshi_shenyuan_overseas_case/practice-2.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「come forward」说：更多受害者站出来。</p>
+          <div class="practice-en">
+            After the verdict, 23 more women came forward.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/ningshi_shenyuan_overseas_case/practice-3.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article>
+      </div>
+    </section>
+      <section class="study-section pitfalls" id="pitfalls">
+      <h2 class="section-heading">避坑 <small>PITFALLS</small></h2>
+      <div class="study-grid">
+        <article>
+          <div class="wrong">✕ He uses study to cheat women to his house.</div>
+          <div class="right">✓ He lures women to his apartment on the pretext of study discussions.</div>
+          <p>cheat 是「欺骗钱财」语义；诱骗约见用 lure / deceive into，pretext 点明借口。</p>
+        </article><article>
+          <div class="wrong">✕ She drank too much and forgot everything.</div>
+          <div class="right">✓ Her blackouts might not be the wine — suspect drug-facilitated assault.</div>
+          <p>直接归因喝多了很危险；英文要保留怀疑语气 suspect + might，避免误导。</p>
+        </article><article>
+          <div class="wrong">✕ He was sentenced to jail for his whole life.</div>
+          <div class="right">✓ He received a life sentence, with a minimum of 13 years before parole review.</div>
+          <p>jail for his whole life 不准确；life sentence 搭配 minimum term before parole 才是司法表述。</p>
+        </article><article>
+          <div class="wrong">✕ Just reading the group is not a crime.</div>
+          <div class="right">✓ Merely reading the group hasn't been legally resolved — but it's not without consequence.</div>
+          <p>节目明确说这个问题暂时无法解答；不要下绝对结论，用 hasn't been resolved。</p>
+        </article>
+      </div>
+    </section>
+      <section class="study-section shifts" id="mindset">
+      <h2 class="section-heading">认知转变 <small>MINDSET SHIFTS</small></h2>
+      <div class="study-grid">
+        <article>
+          <span>以为高学历、好形象的人不可能犯罪</span>
+          <b aria-hidden="true">→</b>
+          <strong>人设是精心设计的狩猎工具，公开表现与私密行为可以完全相反</strong>
+        </article><article>
+          <span>以为「喝多了断片」只是酒量问题</span>
+          <b aria-hidden="true">→</b>
+          <strong>独处后异常断片失忆，应优先怀疑药物侵害并保留证据</strong>
+        </article><article>
+          <span>以为旁观者「只看不说」没有责任</span>
+          <b aria-hidden="true">→</b>
+          <strong>对旁观者的宽容会纵容犯罪生态扩张，沉默的围观者也在其中</strong>
+        </article>
+      </div>
+    </section>
+      <footer>
+        双语学习版 · 场景/句子朗读使用 edge-tts（en-US） · 单词发音使用浏览器 Web Speech API
+        <div class="footer-note">中文版：<a href="ningshi_shenyuan_overseas_case-总结.html">ningshi_shenyuan_overseas_case-总结.html</a> · SVG 版：<a href="viewer.html?f=ningshi_shenyuan_overseas_case-总结.svg" target="_blank">ningshi_shenyuan_overseas_case-总结.svg</a></div>
+      </footer>
+    </div>
+  </main>
+  <script>(() => {
+  let activeAudio = null;
+  let activeBtn = null;
+  const status = document.getElementById('speech-status');
+  const stopBtn = document.getElementById('stop-speech');
+  const rateSel = document.getElementById('speech-rate');
+
+  const reset = () => {
+    if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+    activeBtn?.classList.remove('playing');
+    activeBtn = null;
+    stopBtn.classList.remove('visible');
+    status.textContent = '';
+  };
+
+  const playAudio = (url, btn) => {
+    reset();
+    const audio = new Audio(url);
+    audio.playbackRate = Number(rateSel.value);
+    activeAudio = audio;
+    activeBtn = btn;
+    btn.classList.add('playing');
+    stopBtn.classList.add('visible');
+    status.textContent = btn.classList.contains('scene-speak')
+      ? 'Reading the whole scene…'
+      : 'Reading…';
+
+    audio.onended = () => { if (activeAudio === audio) reset(); };
+    audio.onerror = () => { status.textContent = 'Audio failed to load.'; if (activeAudio === audio) reset(); };
+    audio.play().catch(() => { status.textContent = 'Playback failed.'; if (activeAudio === audio) reset(); });
+  };
+
+  document.addEventListener('click', e => {
+    const btn = e.target.closest('[data-audio]');
+    if (!btn) return;
+    e.preventDefault();
+    if (btn === activeBtn && activeAudio) { reset(); return; }
+    playAudio(btn.dataset.audio, btn);
+  });
+
+  stopBtn.addEventListener('click', reset);
+
+  const synth = window.speechSynthesis;
+  const getEnglishVoice = () => {
+    const voices = synth.getVoices();
+    return voices.find(v => /^en-(US|GB)/i.test(v.lang))
+        || voices.find(v => /^en/i.test(v.lang)) || null;
+  };
+
+  const difficultWords = new Set([
+    'assortment', 'SKU', 'premium', 'margin', 'middleman', 'OEM', 'rebranding',
+    'hoarding', 'PTSD', 'curation', 'repurchase', 'touchpoint', 'backlash',
+    'reshuffle', 'funnel', 'anchor', 'contract', 'psychology', 'private', 'label',
+    'editorial', 'familiar', 'competitors', 'authorization', 'flexibility'
+  ]);
+
+  const shouldPronounce = word => {
+    const n = word.toLowerCase().replace(/^[^a-z]+|[^a-z]+$/g, '');
+    return n.replace(/[^a-z]/g, '').length >= 8 || difficultWords.has(n);
+  };
+
+  const markPronounceableWords = root => {
+    const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+    const nodes = [];
+    while (walker.nextNode()) nodes.push(walker.currentNode);
+    nodes.forEach(node => {
+      if (node.parentElement?.closest('button, script, style')) return;
+      const text = node.nodeValue;
+      let m, last = 0, changed = false;
+      const frag = document.createDocumentFragment();
+      const re = /[A-Za-z]+(?:[-'’][A-Za-z]+)*/g;
+      while ((m = re.exec(text))) {
+        if (!shouldPronounce(m[0])) continue;
+        changed = true;
+        frag.append(text.slice(last, m.index));
+        const wb = document.createElement('button');
+        wb.type = 'button'; wb.className = 'pronounce-word';
+        wb.dataset.speak = m[0];
+        wb.setAttribute('aria-label', '\u8bfb\u5355\u8bcd ' + m[0]);
+        wb.title = '\u70b9\u51fb\u542c\u53d1\u97f3';
+        wb.textContent = m[0];
+        frag.append(wb);
+        last = m.index + m[0].length;
+      }
+      if (!changed) return;
+      frag.append(text.slice(last));
+      node.replaceWith(frag);
+    });
+  };
+
+  document.querySelectorAll(
+    '.english, .scene-title-en, .paraphrase li p, .chunks, .practice-en, .wrong, .right, .summary-en'
+  ).forEach(markPronounceableWords);
+
+  document.addEventListener('click', e => {
+    const wb = e.target.closest('.pronounce-word');
+    if (!wb) return;
+    e.preventDefault();
+    if (!synth) return;
+    synth.cancel();
+    if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+    activeBtn?.classList.remove('playing');
+    activeBtn = wb;
+    wb.classList.add('playing');
+    const u = new SpeechSynthesisUtterance(wb.dataset.speak);
+    u.lang = 'en-US';
+    u.rate = 0.88;
+    const v = getEnglishVoice();
+    if (v) u.voice = v;
+    u.onend = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+    u.onerror = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+    synth.speak(u);
+  });
+})();</script>
+</body>
+</html>

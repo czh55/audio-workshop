@@ -1,0 +1,365 @@
+{
+  "slug": "3t_mountain_horror_vol99",
+  "date": "2026-07-24",
+  "platform": "小宇宙FM",
+  "title": "3T怪谈第9夜｜登山怪谈合集：山脊笑脸男，双面祟，采蘑菇，雨中引路人 Vol.99",
+  "title_en": "3T Ghost Stories Night 9: Mountain Legends — The Smiling Man, the Double-Faced Curse, Mushroom Picking, and the Guide in the Rain",
+  "eyebrow": "Mountain Horror · 登山怪谈",
+  "duration": "1小时29分",
+  "source_url": "https://www.xiaoyuzhoufm.com/episode/6a4a51cb2e335a35a80e658b",
+  "summary_cn": "小五暴雨独攀黄山的有感而发，引出日本《山岳怪谈》四则登山灵异：山脊笑脸男诱你坠崖、双面祟挤压帐篷、采松茸迷失废弃缆车、雨中善灵引路人——安谈润平以现代登山经验重构山难恐惧，民俗「诱灵」与现实失温坠崖互为镜像",
+  "summary_en": "Host Xiao Wu's solo climb up Mount Huangshan in a downpour sets the mood for four Japanese mountain ghost stories from \"Mountain Spirits\": the smiling man on the ridge who lures you off a cliff, the double-faced curse that squeezes your tent, a mushroom picker lost near an abandoned cable car, and the kind spirit guide in the rain. Storyteller Antan Junpei reworks the fear of mountain accidents through modern climbing experience — folklore's luring spirits mirror the real-world dangers of hypothermia and fatal falls.",
+  "scenes": [
+    {
+      "id": "s1",
+      "title_cn": "序章：小五暴雨独攀黄山（真实氛围）",
+      "title_en": "Prologue: Xiao Wu Solo-Climbs Mount Huangshan in a Storm",
+      "context": "暴雨浓雾中独自登山的真实心理——恐惧被感官放大，怪谈记忆自动代入。语域：casual 亲历讲述 + 氛围铺垫。",
+      "speak": "Let's start with the real atmosphere. The mechanism: northerners underestimate the rainy season. On that stormy day the trailhead was completely empty — thick fog and heavy rain the whole way, limited visibility, soaking wet, and colder with every step up. The key insight: an unfamiliar environment amplifies the unease — afraid of getting lost, afraid of meeting anyone. Your senses go hypersensitive in the white noise, and your brain automatically plays back the ghost stories you've heard. A typical scene: Tiandu Peak's vertical stairs loomed through the fog like a monster surrounding a city; the phone was soaked and useless; only after four hours did he finally see people at the cable car station. The original line: \"You're afraid of taking the wrong path, and afraid of not meeting anyone... then again, afraid of meeting someone — you don't know what you might run into.\" This sets the emotional tone for the four mountain tales that follow, and it strongly resonates with the mindset behind \"the guide in the rain.\" And the reason: slippery trails, lightning, hypothermia, getting lost, no rescue — Xiao Wu himself admits it was \"highly dangerous.\"",
+      "sentences": [
+        {
+          "cn": "核心机制：北方人对梅雨认知不足，景区暴雨天登山口空无一人，全程浓雾+暴雨，视线受阻、全身湿透、越爬越冷",
+          "en": "The mechanism: northerners underestimate the rainy season. On that stormy day the trailhead was completely empty — thick fog and heavy rain the whole way, limited visibility, soaking wet, and colder with every step up.",
+          "note": "<span>表达提示</span>rainy season → 梅雨；trailhead → 登山口；visibility → 视线"
+        },
+        {
+          "cn": "关键理解：未知环境会放大不安——既怕迷路又怕遇人，感官在白噪音中过敏，脑中自动套入看过的怪谈故事",
+          "en": "The key insight: an unfamiliar environment amplifies the unease — afraid of getting lost, afraid of meeting anyone. Your senses go hypersensitive in the white noise, and your brain automatically plays back the ghost stories you've heard.",
+          "note": "<span>表达提示</span>amplify unease → 放大不安；hypersensitive → 过敏；white noise → 白噪音"
+        },
+        {
+          "cn": "典型场景：天都峰垂直阶梯在浓雾中如怪物围城；手机全是水无法联系外界；4小时后到缆车区才见人",
+          "en": "A typical scene: Tiandu Peak's vertical stairs loomed through the fog like a monster surrounding a city; the phone was soaked and useless; only after four hours did he finally see people at the cable car station.",
+          "note": "<span>表达提示</span>loom through the fog → 在雾中隐现；soaked and useless → 全是水没法用"
+        },
+        {
+          "cn": "（引用）原文依据：「你怕走错路，又怕遇不着人……又怕遇到人，你也不知道会遇到什么东西。」",
+          "en": "\"You're afraid of taking the wrong path, and afraid of not meeting anyone... then again, afraid of meeting someone — you don't know what you might run into.\"",
+          "note": "<span>表达提示</span>take the wrong path → 走错路；run into → 遇到"
+        },
+        {
+          "cn": "（引用）相关概念：为后续《山岳怪谈》四则故事提供情绪底色，与「雨中引路人」心态高度共鸣",
+          "en": "Related concept: this sets the emotional tone for the four mountain tales that follow, and it strongly resonates with the mindset behind \"the guide in the rain.\"",
+          "note": "<span>表达提示</span>emotional tone → 情绪底色；resonate with → 与…共鸣"
+        },
+        {
+          "cn": "原因：路滑、雷击、失温、迷路、无救援；小五自己也承认「有很大危险性」",
+          "en": "The reason: slippery trails, lightning, hypothermia, getting lost, no rescue — Xiao Wu himself admits it was \"highly dangerous.\"",
+          "note": "<span>表达提示</span>slippery trail → 路滑；hypothermia → 失温；no rescue → 无救援"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「越爬越冷、越来越怕」",
+          "phrases": [
+            "It got colder and scarier with every step.",
+            "The higher I climbed, the more the fear closed in."
+          ],
+          "chunks": "with every step · the fear closed in",
+          "usage": "第一句口语描述，第二句更有画面"
+        },
+        {
+          "intent": "想说「自己吓自己」",
+          "phrases": [
+            "My brain started feeding me ghost stories.",
+            "I kept imagining every shadow was something."
+          ],
+          "chunks": "feeding me ghost stories · every shadow",
+          "usage": "第一句自嘲，第二句描述典型心理"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title_cn": "作品背景：《山岳怪谈》与安谈润平",
+      "title_en": "The Book: Mountain Spirits and Antan Junpei",
+      "context": "作者身份与创作脉络——登山家转怪谈讲述人，用现代登山经验重构民俗。语域：casual 介绍性口吻。",
+      "speak": "Now, who is behind these stories. As a mountaineer: he knew the Hida Mountains of Japan — the Northern Alps — deeply; after a cerebral hemorrhage in 1999, he shifted from conquering high peaks to documenting low-altitude village culture. As a storyteller: he runs a website called \"Wind of the Northern Alps,\" collecting oral stories from mountain huts and villagers. As a genre founder: from 2004 he serialized \"Mountain Spirits\" in ghost-story magazines, a new category grounded in modern mountaineering. The boundary: the stories come from midnight talks in mountain huts, village fieldwork, and personal experience; in 2018 he had manga artists including Junji Ito adapt them into comics. His own words: \"The horror of the mountains is not monsters eating people — more often, it's disaster brought on by humans who ignore nature's rules.\" And the mechanism: the range stretches over 100 kilometers, with volatile weather, frequent fog, and violent ridge winds — it ranks among the top mountain ranges in Japan for accidents and missing persons.",
+      "sentences": [
+        {
+          "cn": "登山家：深耕日本飞驒山脉（北阿尔卑斯），1999年脑溢血后从挑战高峰转向低海拔村落文化",
+          "en": "As a mountaineer: he knew the Hida Mountains of Japan — the Northern Alps — deeply; after a cerebral hemorrhage in 1999, he shifted from conquering high peaks to documenting low-altitude village culture.",
+          "note": "<span>表达提示</span>mountaineer → 登山家；cerebral hemorrhage → 脑溢血；village culture → 村落文化"
+        },
+        {
+          "cn": "怪谈讲述人：经营网站「北阿尔卑斯的风」，收集山间小屋与村民口述故事",
+          "en": "As a storyteller: he runs a website called \"Wind of the Northern Alps,\" collecting oral stories from mountain huts and villagers.",
+          "note": "<span>表达提示</span>oral stories → 口述故事；mountain hut → 山间小屋"
+        },
+        {
+          "cn": "山岳怪谈开创者：2004年起在怪谈杂志连载「山之灵」，以现代登山活动为基准的新品类",
+          "en": "As a genre founder: from 2004 he serialized \"Mountain Spirits\" in ghost-story magazines, a new category grounded in modern mountaineering.",
+          "note": "<span>表达提示</span>serialize → 连载；grounded in → 以…为基准"
+        },
+        {
+          "cn": "适用边界：故事来源为山间小屋夜谈、村落采集与个人经历，2018年邀请伊藤润二等漫画家改编为漫画",
+          "en": "The boundary: the stories come from midnight talks in mountain huts, village fieldwork, and personal experience; in 2018 he had manga artists including Junji Ito adapt them into comics.",
+          "note": "<span>表达提示</span>midnight talks → 夜谈；fieldwork → 实地采集；adapt into comics → 改编为漫画"
+        },
+        {
+          "cn": "（引用）「山的恐怖王不是妖怪吃人，更多是无视自然规则的人类遭来的灾祸。」",
+          "en": "\"The horror of the mountains is not monsters eating people — more often, it's disaster brought on by humans who ignore nature's rules.\"",
+          "note": "<span>表达提示</span>horror → 恐怖；ignore nature's rules → 无视自然规则"
+        },
+        {
+          "cn": "核心机制：纵贯100+公里，气候多变、浓雾频发、山脊乱流严重，日本山难失踪率数一数二",
+          "en": "The mechanism: the range stretches over 100 kilometers, with volatile weather, frequent fog, and violent ridge winds — it ranks among the top mountain ranges in Japan for accidents and missing persons.",
+          "note": "<span>表达提示</span>volatile weather → 气候多变；violent ridge winds → 山脊乱流；missing persons → 失踪"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「从登顶转向记录村落」",
+          "phrases": [
+            "He stopped chasing summits and started documenting villages.",
+            "The peaks gave way to oral histories."
+          ],
+          "chunks": "chasing summits · documenting villages · oral histories",
+          "usage": "第一句直白，第二句带文学感"
+        },
+        {
+          "intent": "想说「恐怖来自不守规则的人」",
+          "phrases": [
+            "It's not monsters — it's humans ignoring the rules.",
+            "Nature punishes the careless, not the believers."
+          ],
+          "chunks": "ignoring the rules · punishes the careless",
+          "usage": "第一句直接引用观点，第二句是概括"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title_cn": "故事一：山脊笑脸男 + 双面祟",
+      "title_en": "Tale One: The Smiling Man on the Ridge and the Double-Faced Curse",
+      "context": "石田在山脊遭遇的红衣笑脸男——幻象如何干扰判断；双面祟挤压帐篷。语域：casual 恐怖故事讲述。",
+      "speak": "Tale one, the smiling man and the double-faced curse. The story: five years ago, Ishida was ridge-hiking; after rounding a boulder, his whole group vanished, and a tall, thin man in red came toward him — mouth smiling, brows knitted, gait and speed mismatched, a \"spirit moonwalk.\" It even caught up and touched his backpack from behind. The key insight: around the same time, a 50-year-old woman died in a solo climb, slipping on the snow line just a dozen meters off the ridge trail. Ishida suspects she didn't backtrack like he did — she was pushed toward the ridge's side and fell into the valley. What to do: if you see an abnormal figure on a ridge, backtrack to a sheltered spot first — never step sideways off the trail. The original line: \"The mouth was shaped like a smile, but there was no warmth in it... the gait and speed didn't match at all, like a moonwalk in the mind.\" The lore: spirits of accident victims can't leave the mountain; they use illusions to disturb climbers' judgment and cause accidents, seeking a \"body double\" to escape. Red clothes stand for the mountain god's color and the red of blood; the stiff smile is a vengeful spirit's failure to mimic human faces; and smiley carvings on ridge stone markers are one source of the face. As the narrator puts it: \"It won't harm you directly, but it puts psychological pressure on the climber, which then leads to an accident.\"",
+      "sentences": [
+        {
+          "cn": "在讲什么：石田五年前山脊徒步，绕过巨石后全队消失，迎面走来穿红衣的高瘦男子——嘴在笑、眉紧皱、步伐与速度不匹配（心灵滑步），追至背后摸到背包",
+          "en": "The story: five years ago, Ishida was ridge-hiking; after rounding a boulder, his whole group vanished, and a tall, thin man in red came toward him — mouth smiling, brows knitted, gait and speed mismatched, a \"spirit moonwalk.\" It even caught up and touched his backpack from behind.",
+          "note": "<span>表达提示</span>ridge-hiking → 山脊徒步；brows knitted → 眉头紧皱；spirit moonwalk → 心灵滑步"
+        },
+        {
+          "cn": "关键理解：同期有50岁女性独自登山坠亡，偏离山脊步道十几米踩雪线滑落；石田推测她未像自己一样原路返回，而是被逼向山脊侧面坠谷",
+          "en": "The key insight: around the same time, a 50-year-old woman died in a solo climb, slipping on the snow line just a dozen meters off the ridge trail. Ishida suspects she didn't backtrack like he did — she was pushed toward the ridge's side and fell into the valley.",
+          "note": "<span>表达提示</span>backtrack → 原路返回；snow line → 雪线；fall into the valley → 坠谷"
+        },
+        {
+          "cn": "怎么用：山脊遇异常人影，优先原路退回有遮蔽处，切勿横向偏离步道",
+          "en": "What to do: if you see an abnormal figure on a ridge, backtrack to a sheltered spot first — never step sideways off the trail.",
+          "note": "<span>表达提示</span>abnormal figure → 异常人影；sheltered spot → 有遮蔽处"
+        },
+        {
+          "cn": "（引用）原文依据：「嘴是笑脸的形状，但没有笑意……步伐跟速度完全不匹配，像心里滑步。」",
+          "en": "\"The mouth was shaped like a smile, but there was no warmth in it... the gait and speed didn't match at all, like a moonwalk in the mind.\"",
+          "note": "<span>表达提示</span>no warmth in it → 没有笑意；moonwalk → 滑步"
+        },
+        {
+          "cn": "山里遇难者亡灵无法离开，通过幻象干扰登山者判断，引其发生事故以「抓替身」解脱。红衣=山神显现色+尸体出血色；僵硬笑脸=怨灵难以模拟人类表情；山脊石碑上刻笑脸花纹是笑脸来源之一",
+          "en": "The lore: spirits of accident victims can't leave the mountain; they use illusions to disturb climbers' judgment and cause accidents, seeking a \"body double\" to escape. Red clothes stand for the mountain god's color and the red of blood; the stiff smile is a vengeful spirit's failure to mimic human faces; and smiley carvings on ridge stone markers are one source of the face.",
+          "note": "<span>表达提示</span>body double → 替身；vengeful spirit → 怨灵；mimic → 模拟"
+        },
+        {
+          "cn": "（引用）「不会直接伤害人，但会给登山者造成精神压力，从而又使对方出现事故。」",
+          "en": "\"It won't harm you directly, but it puts psychological pressure on the climber, which then leads to an accident.\"",
+          "note": "<span>表达提示</span>psychological pressure → 精神压力；lead to an accident → 导致事故"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「被盯上、被跟踪的感觉」",
+          "phrases": [
+            "It was behind me before I knew it.",
+            "Something was following at my exact pace."
+          ],
+          "chunks": "behind me · following at my pace",
+          "usage": "第一句描述瞬间，第二句描述持续感"
+        },
+        {
+          "intent": "想说「别看，原路退回去」",
+          "phrases": [
+            "Don't engage — just backtrack.",
+            "Ignore it and walk back the way you came."
+          ],
+          "chunks": "don't engage · backtrack · the way you came",
+          "usage": "第一句命令式，第二句更口语"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "title_cn": "故事二：采蘑菇（松茸迷失）",
+      "title_en": "Tale Two: Mushroom Picking — Lost After Finding Matsutake",
+      "context": "采菌人贪念深入密林，废弃缆车上的干尸；迷失时的自救原则。语域：casual 恐怖故事讲述。",
+      "speak": "Tale two, the mushroom picker. The cause: mushrooms grow in damp, shaded spots, so you have to leave the trail; after spotting matsutake, greed drove him deeper — the bell contact broke off, and the phone had no signal. The solution: when foraging, stay within earshot of the bell; don't be greedy, and don't push into unmarked areas. Longchuan's annual warning: \"Never let a beginner find a matsutake — once they've found one, they lose interest in every other mushroom.\" The story: lost, Antan saw the abandoned cable car suddenly start running, carrying a mummified body — white hair, a mushroom basket at its waist. As he squeezed his eyes shut, Longchuan's shouts broke the spell. The key insight: following the cable car downhill could mean a point of no return on a hillside washed out by storms — the missing old man may have walked exactly that route. Once reclaimed by the forest, abandoned buildings become a border zone where \"malignant spirits\" are most easily met. What to do: when lost, return along your original route or a known trail — don't be lured by abandoned structures that look like shortcuts.",
+      "sentences": [
+        {
+          "cn": "原因：菌类长在潮湿背阴处，必须离开步道；发现松茸后贪念驱使其深入，铃当联络中断、手机无信号",
+          "en": "The cause: mushrooms grow in damp, shaded spots, so you have to leave the trail; after spotting matsutake, greed drove him deeper — the bell contact broke off, and the phone had no signal.",
+          "note": "<span>表达提示</span>damp and shaded → 潮湿背阴；matsutake → 松茸；greed drove him deeper → 贪念驱使其深入"
+        },
+        {
+          "cn": "解法：采菌必须保持铃当可闻范围；不贪心、不深入未标记区域",
+          "en": "The solution: when foraging, stay within earshot of the bell; don't be greedy, and don't push into unmarked areas.",
+          "note": "<span>表达提示</span>within earshot → 可闻范围内；foraging → 采菌；unmarked areas → 未标记区域"
+        },
+        {
+          "cn": "（引用）龙川每年提醒：「新手一定不要让他找到松茸——找到过就对其他菌类没兴趣了。」",
+          "en": "\"Never let a beginner find a matsutake — once they've found one, they lose interest in every other mushroom.\"",
+          "note": "<span>表达提示</span>lose interest in → 对…没兴趣；beginner → 新手"
+        },
+        {
+          "cn": "在讲什么：安谈迷失后见废弃缆车突然运行，座椅上挂着满头白发、腰间挂菌篓的干尸；闭眼不敢看时龙川呼喊打破魔咒",
+          "en": "The story: lost, Antan saw the abandoned cable car suddenly start running, carrying a mummified body — white hair, a mushroom basket at its waist. As he squeezed his eyes shut, Longchuan's shouts broke the spell.",
+          "note": "<span>表达提示</span>mummified body → 干尸；break the spell → 打破魔咒；squeeze one's eyes shut → 闭紧双眼"
+        },
+        {
+          "cn": "关键理解：若沿缆车向下走，暴雨冲毁的山体可能「有去无回」——失踪老大爷或许正是走了这条路。废弃建筑被山林收回后成为结界边界，最易遇见「恶幽灵」",
+          "en": "The key insight: following the cable car downhill could mean a point of no return on a hillside washed out by storms — the missing old man may have walked exactly that route. Once reclaimed by the forest, abandoned buildings become a border zone where \"malignant spirits\" are most easily met.",
+          "note": "<span>表达提示</span>point of no return → 有去无回；washed out → 被冲毁；malignant spirit → 恶幽灵"
+        },
+        {
+          "cn": "怎么用：迷路时沿原路或已知步道返回，勿被看似捷径的废弃设施吸引",
+          "en": "What to do: when lost, return along your original route or a known trail — don't be lured by abandoned structures that look like shortcuts.",
+          "note": "<span>表达提示</span>original route → 原路；shortcut → 捷径；be lured by → 被…吸引"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「贪念让人越走越深」",
+          "phrases": [
+            "One more mushroom, and another — suddenly too deep.",
+            "Greed kept pulling him off the trail."
+          ],
+          "chunks": "one more mushroom · greed kept pulling",
+          "usage": "第一句具象，第二句概括"
+        },
+        {
+          "intent": "想说「走回头路最保险」",
+          "phrases": [
+            "When in doubt, turn around.",
+            "The safest route is the one you came from."
+          ],
+          "chunks": "turn around · the one you came from",
+          "usage": "第一句短促有力，第二句更正式"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "title_cn": "故事三：雨中引路人（善幽灵）",
+      "title_en": "Tale Three: The Guide in the Rain — A Kind Spirit",
+      "context": "失温遇难者的灵魂反被传为善灵，指引迷路的登山者；结界与善幽灵概念。语域：casual 讲述 + 民俗分析。",
+      "speak": "Tale three, the guide in the rain. In late-summer fog and rain, Antan climbed a cliff with fear swelling; he met a heavy-gear man in blue sitting on a rock. The man refused to hike together, pointed the opposite way, and said \"six minutes to the hut\" — when in fact Antan had already lost his way. In the hut's drying room, the same rain boots peeked out under a clothes rack; the crouching man looked up and said, \"I made it in 30 minutes — you owe me a beer.\" On a stretcher in the living room lay the same man's body, dead from hypothermia hours earlier. The original line: \"He walked the opposite way... following that path would have meant getting lost — and without reaching the hut in time, hypothermia.\" The related concept: he matches the \"kind spirit\" — hunter and mountain-keeper souls under the mountain god's protection; many in the Hida Mountains have seen a hiker in white, leaving no footprints, who points the way. Why it matters: an open, unobstructed ridge marks the boundary between worlds, where the \"barrier\" is weakest; camping alone marks you as an intruder; and foraging off-trail means leaving protected ground. And the boundary: on developed park routes in good weather with a group, risk is manageable; on wild mountains, in storms, in winter, or solo, you need maximum caution.",
+      "sentences": [
+        {
+          "cn": "安谈夏末浓雾暴雨中攀峭壁，恐惧放大后遇蓝衣重装男子坐于石上。男子拒绝结伴、指了反方向说「六分钟到小木屋」——实际安谈已走错路",
+          "en": "In late-summer fog and rain, Antan climbed a cliff with fear swelling; he met a heavy-gear man in blue sitting on a rock. The man refused to hike together, pointed the opposite way, and said \"six minutes to the hut\" — when in fact Antan had already lost his way.",
+          "note": "<span>表达提示</span>heavy-gear → 重装；opposite direction → 反方向；lose one's way → 迷路"
+        },
+        {
+          "cn": "到小屋烘干室，衣架下露出同款雨靴，蹲着那人抬头说「我30分钟内到了，你得请我喝啤酒」——客厅担架上躺着同一人的尸体，数小时前已失温身亡",
+          "en": "In the hut's drying room, the same rain boots peeked out under a clothes rack; the crouching man looked up and said, \"I made it in 30 minutes — you owe me a beer.\" On a stretcher in the living room lay the same man's body, dead from hypothermia hours earlier.",
+          "note": "<span>表达提示</span>drying room → 烘干室；hypothermia → 失温；you owe me a beer → 你得请我喝啤酒"
+        },
+        {
+          "cn": "（引用）「他走的是反方向……如果按那个路径走就迷路了，不及时到小屋就可能失温。」",
+          "en": "\"He walked the opposite way... following that path would have meant getting lost — and without reaching the hut in time, hypothermia.\"",
+          "note": "<span>表达提示</span>opposite path → 反方向的路径；in time → 及时"
+        },
+        {
+          "cn": "（引用）相关概念：与善幽灵（当地猎户/守山人灵魂受山神庇护）对应；飞驒山脉多人目击穿白衣无脚印指路的登山者",
+          "en": "Related concept: he matches the \"kind spirit\" — hunter and mountain-keeper souls under the mountain god's protection; many in the Hida Mountains have seen a hiker in white, leaving no footprints, who points the way.",
+          "note": "<span>表达提示</span>kind spirit → 善幽灵；leave no footprints → 不留脚印；point the way → 指路"
+        },
+        {
+          "cn": "为什么重要：山脊开阔无遮挡=阴阳交界=结界最弱；单人过夜=被视为闯入者；偏离步道采菌=离开受庇护区域",
+          "en": "Why it matters: an open, unobstructed ridge marks the boundary between worlds, where the \"barrier\" is weakest; camping alone marks you as an intruder; and foraging off-trail means leaving protected ground.",
+          "note": "<span>表达提示</span>boundary between worlds → 阴阳交界；barrier → 结界；intruder → 闯入者"
+        },
+        {
+          "cn": "适用边界：景区成熟路线+好天气+团队行动时，风险可控；野山、暴雨、冬季、单人时需最高警惕",
+          "en": "The boundary: on developed park routes in good weather with a group, risk is manageable; on wild mountains, in storms, in winter, or solo, you need maximum caution.",
+          "note": "<span>表达提示</span>developed routes → 成熟路线；maximum caution → 最高警惕"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「遇到好人指了错误方向」",
+          "phrases": [
+            "He pointed the wrong way — but it saved me.",
+            "His \"wrong\" direction led me right."
+          ],
+          "chunks": "wrong way · led me right",
+          "usage": "两句都玩反差点，第一句更直白"
+        },
+        {
+          "intent": "想说「结界概念」",
+          "phrases": [
+            "Some places are boundary zones between worlds.",
+            "Off the trail, you've left the protected zone."
+          ],
+          "chunks": "boundary zones · protected zone",
+          "usage": "第一句民俗表述，第二句实用化"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "cn": "用「hypothermia」说：雨夜山里很容易失温。",
+      "en": "Out in the mountains on a rainy night, hypothermia is a real risk."
+    },
+    {
+      "cn": "用「backtrack」说：看到异常别犹豫，原路退回去。",
+      "en": "Don't hesitate when you see something off — just backtrack."
+    },
+    {
+      "cn": "用「point of no return」说：跟着废弃缆车走下去可能有去无回。",
+      "en": "Following that abandoned cable car downhill could be a point of no return."
+    },
+    {
+      "cn": "用「break the spell」说：同伴的喊声打破了魔咒。",
+      "en": "His partner's shout broke the spell."
+    }
+  ],
+  "pitfalls": [
+    {
+      "wrong": "The mountain ghosts are very afraid, I climbed alone.",
+      "right": "The stories made me uneasy, but I still climbed alone.",
+      "why": "「很恐怖」直译成 very afraid 指人而非故事；主语应是 stories/experience，用 uneasy / unsettling。"
+    },
+    {
+      "wrong": "I met a bad spirit, so I very fast ran away.",
+      "right": "I backed away slowly and didn't make eye contact.",
+      "why": "中式语序 very fast ran away 不成立；用 backed away / backed off，且故事里主张慢退、不直视。"
+    },
+    {
+      "wrong": "The mushroom smell made me think to go deeper.",
+      "right": "Finding one matsutake made me want to go deeper.",
+      "why": "think to do 是中式表达；「想深入」用 made me want to / drew me deeper。"
+    },
+    {
+      "wrong": "He lost temperature and died.",
+      "right": "He died of hypothermia.",
+      "why": "lost temperature 是「失温」的直译；英文用 hypothermia / his body temperature dropped。"
+    }
+  ],
+  "shifts": [
+    {
+      "before": "怪谈恐怖来自妖怪吃人",
+      "after": "山的恐怖更多来自无视自然规则的人自己"
+    },
+    {
+      "before": "迷路时找看起来近的路走",
+      "after": "原路返回或走已知步道，废弃捷径最危险"
+    },
+    {
+      "before": "一个人爬山很酷",
+      "after": "结界概念提醒：独行、离道、暴雨时警惕最高"
+    }
+  ],
+  "voice": "en-US-JennyNeural",
+  "audio_dir": "audio/en/3t_mountain_horror_vol99"
+}

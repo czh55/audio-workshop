@@ -1,0 +1,1011 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="摄影这个东西，是可以自学的吗？ — Bilingual Learning Edition" />
+  <title>摄影这个东西，是可以自学的吗？｜EN 双语学习版</title>
+  <style>:root{--teal-950:#073f42;--teal-800:#0d686c;--teal-700:#0f7c80;--teal-600:#14919b;--mint-100:#dff4ec;--mint-50:#f0faf6;--ink:#183536;--muted:#607879;--line:#d7e8e2;--paper:#fff;--amber:#a85d08;--shadow:0 12px 32px rgba(7,63,66,.08)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:24px}
+body{margin:0;color:var(--ink);background:#edf7f2;font-family:Inter,"PingFang SC","Noto Sans SC","Microsoft YaHei",system-ui,sans-serif;line-height:1.65}
+button,select{font:inherit}
+a{color:inherit}
+.hero{color:#fff;background:radial-gradient(circle at 85% 10%,rgba(129,230,196,.24),transparent 30%),linear-gradient(125deg,#073f42,#0d7377 56%,#14919b)}
+.hero-inner{width:min(1440px,100%);margin:auto;padding:44px clamp(20px,5vw,72px) 36px}
+.hero-flex{display:flex;gap:clamp(18px,3vw,40px);align-items:flex-start}
+.hero-cover{width:min(240px,42vw);height:auto;max-height:320px;object-fit:contain;object-position:center;border-radius:16px;border:1px solid rgba(255,255,255,.28);box-shadow:0 18px 44px rgba(0,0,0,.32);flex-shrink:0;background:rgba(255,255,255,.08)}
+.hero-text{min-width:0;flex:1}
+.eyebrow{margin:0 0 12px;font-size:.78rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;opacity:.8}
+h1{max-width:1020px;margin:0;font-size:clamp(1.7rem,3.6vw,3rem);line-height:1.15;letter-spacing:-.04em}
+.hero-en{margin:12px 0 22px;font-size:clamp(1rem,2vw,1.25rem);opacity:.82}
+.hero-meta{display:flex;flex-wrap:wrap;gap:9px;align-items:center}
+.chip{border:1px solid rgba(255,255,255,.28);border-radius:99px;padding:5px 11px;font-size:.82rem;background:rgba(255,255,255,.08)}
+.source-link{font-weight:750;text-decoration:none;border-bottom:1px solid rgba(255,255,255,.5)}
+.toolbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:22px}
+.toolbar label{font-size:.82rem;opacity:.82}
+.toolbar select{color:#fff;background:#0a5d61;border:1px solid rgba(255,255,255,.3);border-radius:8px;padding:7px 9px}
+.stop-btn{display:none;color:#fff;background:#8c3b2a;border:0;border-radius:8px;padding:8px 12px;cursor:pointer}
+.stop-btn.visible{display:inline-flex}
+.speech-status{min-height:1.4em;font-size:.82rem;opacity:.88}
+.lang-switch{display:inline-flex;gap:6px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.28);border-radius:99px;padding:4px}
+.lang-switch a{display:inline-block;padding:4px 13px;border-radius:99px;font-size:.8rem;font-weight:700;text-decoration:none;color:rgba(255,255,255,.75)}
+.lang-switch a.active{background:#fff;color:var(--teal-800)}
+.narration-player{margin-top:16px;padding:14px 18px;background:rgba(255,255,255,.1);border-radius:12px;border:1px solid rgba(255,255,255,.15)}
+.audio-label{color:rgba(255,255,255,.88);font-size:.82rem;font-weight:700;margin:0 0 8px}
+.page{width:min(1440px,100%);margin:auto;padding:28px clamp(16px,3vw,44px) 64px;display:grid;grid-template-columns:minmax(230px,280px) minmax(0,1fr);gap:30px;align-items:start}
+.sidebar{position:sticky;top:20px;min-width:0}
+.sidebar-box{background:rgba(255,255,255,.8);border:1px solid var(--line);border-radius:16px;padding:17px;box-shadow:var(--shadow);backdrop-filter:blur(12px)}
+.sidebar h2{margin:0 0 13px;font-size:.9rem;letter-spacing:.08em;color:var(--teal-800)}
+.map-link{display:grid;grid-template-columns:34px minmax(0,1fr);gap:9px;padding:10px 6px;text-decoration:none;border-top:1px solid var(--line)}
+.map-link:hover b{color:var(--teal-700)}
+.map-id{width:30px;height:30px;display:grid;place-items:center;border-radius:9px;color:#fff;background:var(--teal-700);font-size:.72rem;font-weight:800}
+.map-link b{display:block;font-size:.78rem;line-height:1.4}
+.map-link small{display:block;color:var(--muted);font-size:.67rem;line-height:1.4;margin-top:2px;overflow-wrap:anywhere}
+.content{min-width:0}
+.scene-card{background:var(--paper);border:1px solid var(--line);border-radius:20px;padding:clamp(20px,3vw,34px);margin-bottom:24px;box-shadow:var(--shadow);overflow:hidden}
+.scene-topline{display:flex;justify-content:space-between;gap:16px;align-items:center;margin-bottom:16px}
+.scene-id{display:inline-grid;place-items:center;min-width:42px;height:30px;padding:0 10px;color:#fff;background:var(--teal-700);border-radius:8px;font-size:.78rem;font-weight:850}
+.time{margin-left:10px;color:var(--muted);font-size:.82rem;font-variant-numeric:tabular-nums}
+.scene-card h2{margin:0 0 2px;font-size:clamp(1.35rem,2.4vw,2rem);line-height:1.25;color:var(--teal-950)}
+.scene-title-en{margin:0 0 18px;color:var(--teal-600);font-weight:700;font-size:.98rem}
+.context{margin:0 0 20px;padding:12px 15px;color:#496566;background:var(--mint-50);border-left:3px solid var(--teal-600);border-radius:0 10px 10px 0;font-size:.88rem}
+.context b{margin-right:10px;color:var(--teal-800)}
+.sentence-list{display:grid;gap:12px}
+.sentence{position:relative;display:grid;grid-template-columns:38px minmax(0,1fr);gap:12px;padding:16px;border:1px solid #e2ece8;border-radius:14px;background:#fcfefd;min-width:0}
+.sentence-no{color:var(--teal-600);font-size:.76rem;font-weight:850;font-variant-numeric:tabular-nums;padding-top:4px}
+.bilingual{min-width:0;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(14px,2vw,28px)}
+.lang-block{min-width:0}
+.lang-block p{margin:5px 0 0;overflow-wrap:anywhere}
+.en-block{padding-left:clamp(14px,2vw,28px);border-left:1px solid var(--line)}
+.en-block p{color:#0b5c60;font-weight:650}
+.lang-tag{display:inline-block;color:var(--muted);font-size:.66rem;font-weight:850;letter-spacing:.12em}
+.en-head{display:flex;justify-content:space-between;gap:10px;align-items:center;min-height:30px}
+.note{grid-column:2;margin:1px 0 0;color:#708182;font-size:.78rem}
+.note span{margin-right:7px;color:var(--amber);font-weight:750}
+.speak-btn{display:inline-flex;align-items:center;gap:7px;border:1px solid #b8d9d1;border-radius:9px;padding:7px 11px;color:var(--teal-800);background:#f5fbf8;cursor:pointer;white-space:nowrap;font-size:.78rem;font-weight:750;transition:.15s ease}
+.speak-btn:hover{color:#fff;background:var(--teal-700);border-color:var(--teal-700);transform:translateY(-1px)}
+.speak-btn.playing{color:#fff;background:var(--teal-700);border-color:var(--teal-700)}
+.speak-btn.compact{padding:4px 8px;font-size:.7rem}
+.speak-btn.icon-only{padding:3px 7px;margin-left:6px}
+.speak-btn.icon-only span:last-child{display:none}
+.pronounce-word{display:inline;margin:0;padding:0 2px;color:inherit;background:rgba(20,145,155,.08);border:0;border-bottom:1px dashed var(--teal-600);border-radius:3px;font:inherit;font-weight:inherit;line-height:inherit;cursor:pointer}
+.pronounce-word:hover,.pronounce-word:focus{color:var(--teal-950);background:#cceee4;border-bottom-style:solid;outline:3px solid rgba(20,145,155,.42);outline-offset:2px}
+.pronounce-word.playing{color:#fff;background:var(--teal-700);border-bottom-color:var(--teal-700)}
+.paraphrase{margin-top:18px;border-top:1px solid var(--line)}
+.paraphrase summary{padding:16px 0 3px;color:var(--teal-800);cursor:pointer;font-weight:800}
+.paraphrase summary span{color:var(--muted);font-size:.75rem;font-weight:500;margin-left:8px}
+.paraphrase ol{margin:12px 0 0;padding-left:22px}
+.paraphrase li{padding:7px 0 9px 5px}
+.paraphrase li p{margin:0;font-size:.9rem;font-weight:650}
+.paraphrase li small{display:block;color:var(--muted);font-size:.72rem;margin-top:2px}
+.chunks{margin-top:4px;color:var(--teal-700);font-size:.78rem}
+.study-section{margin:38px 0 0}
+.section-heading{display:flex;align-items:baseline;gap:10px;margin:0 0 15px;color:var(--teal-950);font-size:1.35rem}
+.section-heading small{color:var(--teal-600);font-size:.78rem;letter-spacing:.05em}
+.study-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.study-grid article{padding:17px;background:#fff;border:1px solid var(--line);border-radius:14px;box-shadow:0 6px 18px rgba(7,63,66,.05);min-width:0}
+.study-grid p{margin:0}
+.practice-en{margin-top:9px;color:var(--teal-700);font-weight:650;overflow-wrap:anywhere}
+.wrong{color:#a24831;text-decoration:line-through;overflow-wrap:anywhere}
+.right{color:var(--teal-700);font-weight:750;margin:5px 0;overflow-wrap:anywhere}
+.pitfalls p{color:var(--muted);font-size:.82rem}
+.shifts article{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1.5fr);gap:12px;align-items:center}
+.shifts b{color:var(--teal-600);font-size:1.2rem}
+.shifts strong{color:var(--teal-800)}
+footer{margin-top:38px;color:var(--muted);font-size:.78rem;text-align:center}
+.footer-note{margin-top:6px}
+@media (max-width:900px){
+  .page{grid-template-columns:1fr}
+  .sidebar{position:static}
+  .sidebar-box{overflow-x:auto;padding:12px}
+  .sidebar h2{padding-left:5px}
+  .map-nav{display:flex;width:max-content;gap:8px}
+  .map-link{width:240px;border:1px solid var(--line);border-radius:10px;padding:8px}
+  .bilingual{grid-template-columns:1fr}
+  .en-block{padding:12px 0 0;border-left:0;border-top:1px dashed var(--line)}
+}
+@media (max-width:620px){
+  .hero-inner{padding-top:30px}
+  .hero-flex{flex-direction:column;align-items:center}
+  .hero-cover{width:100%;max-width:360px}
+  .hero-text{text-align:center}
+  .page{padding-inline:10px;gap:18px}
+  .scene-card{border-radius:14px;padding:17px 13px}
+  .scene-topline{align-items:flex-start}
+  .scene-speak span:last-child{display:none}
+  .sentence{grid-template-columns:26px minmax(0,1fr);padding:13px 10px;gap:6px}
+  .note{grid-column:2}
+  .study-grid{grid-template-columns:1fr}
+  .shifts article{grid-template-columns:1fr;gap:5px}
+  .shifts b{transform:rotate(90deg);justify-self:start}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.speak-btn{transition:none}}</style>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="hero-flex">
+        <div class="hero-text">
+          <p class="eyebrow">Photography &amp; Learning · 摄影与学习</p>
+          <h1>摄影这个东西，是可以自学的吗？</h1>
+          <p class="hero-en">Can Photography Be Self-Taught?</p>
+          <p class="summary-en" style="margin:0 0 14px;padding:14px 16px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.22);border-radius:12px;font-size:.95rem;line-height:1.7">Three hosts of the Photo Reason podcast — Lao Pan, Baixiong, and Axing — start from 'does photography need to be learned?' and walk through self-learning paths for beginners and beyond. They systematically break down technical skill, aesthetic vision, building a reference library, and the pitfalls they hit along the way. Their conclusion: photography can absolutely be self-taught, and effort matters more than talent.</p>
+          <div class="hero-meta">
+            <span class="chip">2026-06-23</span>
+            <span class="chip">小宇宙FM</span>
+            <span class="chip">1小时13分</span>
+            <span class="chip">6 Scenes</span>
+            <span class="chip">Click underlined words to hear them</span>
+            <a class="source-link" href="https://www.xiaoyuzhoufm.com/episode/66bbaf3633591c27bedff423" target="_blank" rel="noopener">原播客 ↗</a>
+          </div>
+        </div>
+      </div>
+      <div class="toolbar">
+        <div class="lang-switch"><div class="lang-switch"><a href="photography_self_learn-总结.html">中文</a><a class="active" href="photography_self_learn-en.html" aria-current="page">EN</a></div></div>
+        <label for="speech-rate">朗读速度</label>
+        <select id="speech-rate">
+          <option value="0.85">慢速 0.85×</option>
+          <option value="1" selected>正常 1×</option>
+          <option value="1.15">快速 1.15×</option>
+        </select>
+        <button id="stop-speech" class="stop-btn" type="button">■ 停止朗读</button>
+        <span id="speech-status" class="speech-status" role="status" aria-live="polite"></span>
+      </div>
+      <div class="narration-player">
+      <p class="audio-label">🎧 中文语音讲解</p>
+      <button class="speak-btn" type="button" data-audio="audio/photography_self_learn.mp3" aria-label="播放语音讲解"><span aria-hidden="true">▶</span><span>播放语音讲解</span></button>
+    </div>
+    </div>
+  </header>
+  <main class="page">
+    <aside class="sidebar" aria-label="场景地图">
+      <div class="sidebar-box">
+        <h2>场景地图 · SCENE MAP</h2>
+        <nav class="map-nav">
+          <a class="map-link" href="#s1">
+          <span class="map-id">S1</span>
+          <span><b>一、摄影需要学吗？可以自学吗？</b><small> · Part 1: Does Photography Need to Be Learned? Can It Be Self-Taught?</small></span>
+        </a>
+<a class="map-link" href="#s2">
+          <span class="map-id">S2</span>
+          <span><b>二、入门阶段：怎么自学</b><small> · Part 2: The Beginner Stage — How to Self-Teach</small></span>
+        </a>
+<a class="map-link" href="#s3">
+          <span class="map-id">S3</span>
+          <span><b>三、进阶阶段：审美与观念</b><small> · Part 3: The Advanced Stage — Aesthetics and Vision</small></span>
+        </a>
+<a class="map-link" href="#s4">
+          <span class="map-id">S4</span>
+          <span><b>四、高效自学方法论</b><small> · Part 4: A Methodology for Efficient Self-Study</small></span>
+        </a>
+<a class="map-link" href="#s5">
+          <span class="map-id">S5</span>
+          <span><b>五、避坑与庆幸做对的事</b><small> · Part 5: Pitfalls to Avoid and Things They're Glad They Did Right</small></span>
+        </a>
+<a class="map-link" href="#s6">
+          <span class="map-id">S6</span>
+          <span><b>六、课程与构图进阶</b><small> · Part 6: Courses and Advanced Composition</small></span>
+        </a>
+        </nav>
+      </div>
+    </aside>
+    <div class="content">
+      <section class="scene-card" id="s1" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S1</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/photography_self_learn/s1.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>一、摄影需要学吗？可以自学吗？</h2>
+      <p class="scene-title-en">Part 1: Does Photography Need to Be Learned? Can It Be Self-Taught?</p>
+      <p class="context"><b>情境</b>讨论摄影介于技术与艺术之间、为何必须学器材、以及努力与天赋的关系。语域：casual 播客闲聊。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：摄影是介于技术与艺术之间的事。机器是客观存在，你必须学会使用器材（哪怕看说明书）；胶片时代还要学冲印。它远不止「按下快门」——包括前期准备、拍摄过程、后期处理，甚至营销自己</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/photography_self_learn/s1-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The core mechanism: photography sits between craft and art. The machine is an objective fact — you must learn to use the gear (even if that means reading the manual); in the film era you also had to learn developing. It's far more than pressing the shutter — it includes preparation, the shooting process, post-processing, and even marketing yourself.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>craft and art → 技术与艺术；objective fact → 客观存在；post-processing → 后期处理；marketing yourself → 营销自己</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：摄影是可以学会的，老潘自认并非天赋型选手，但通过学习确实取得了进步。既然能学会，为什么不学？</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/photography_self_learn/s1-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key insight: photography can be learned. Lao Pan doesn't think of himself as a talented type, but he clearly improved through learning. If it can be learned, why not learn it?</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>gifted / a talented type → 天赋型选手；improve through learning → 通过学习进步；why not → 为什么不</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>典型场景：从手机过渡到相机时，A/M/P/S 档、ISO、光圈是第一步；进阶后技术会「肌肉记忆化」，不再刻意考虑</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/photography_self_learn/s1-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">A typical scene: when moving from a phone to a camera, the A/M/P/S modes, ISO, and aperture are the first step; at a higher level the technique becomes 'muscle memory' and you no longer think about it deliberately.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>aperture → 光圈；muscle memory → 肌肉记忆；deliberately → 刻意地</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据：「就真正决定他们的成就的反而是努力……我觉得比起天赋来说好像在摄影上努力更重要。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/photography_self_learn/s1-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">In the author's own words: 'What really decides their achievements is effort… in photography, effort matters more than talent, I think.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>decide one's achievements → 决定成就；matter more than → 比…更重要</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）相关概念：天赋 ≠ 决定因素。审美、项目执行力、沟通能力、运动能力（攀岩拍山景）都可成为摄影天赋，但仍需努力学习</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/photography_self_learn/s1-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">A related idea: talent isn't the deciding factor. Aesthetic sense, project execution, communication skills, even physical ability (climbing cliffs for mountain shots) can be photographic talents — but they still require hard study.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>aesthetic sense → 审美；project execution → 项目执行力；deciding factor → 决定因素</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>白熊在买相机前花近一年看论坛、样片、操作视频，确认热情后再入手器材。阿兴没有刻意「学习模式」，但了解 A 档到 M 档、提升审美看不同风格，每一步都是学习。学习往往是潜移默化在日常积累中进行的</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/photography_self_learn/s1-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Baixiong spent nearly a year reading forums, sample photos, and operation videos before buying his gear, confirming his passion first. Axing never had a deliberate 'study mode,' but understanding A-to-M modes and training his eye on different styles — every step was learning. Learning often happens invisibly through daily accumulation.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>sample photos → 样片；confirm one's passion → 确认热情；daily accumulation → 日常积累；train one's eye → 提升审美</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「努力比天赋更重要」</p><div class="chunks">effort beats talent · counts for more</div><small>第一句简洁，适合总结观点；第二句更口语</small></li>
+<li><p>想说「既然能学，为什么不学」</p><div class="chunks">why wouldn't you · no excuse not to</div><small>第二句带一点激将，适合鼓励语境</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s2" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S2</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/photography_self_learn/s2.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>二、入门阶段：怎么自学</h2>
+      <p class="scene-title-en">Part 2: The Beginner Stage — How to Self-Teach</p>
+      <p class="context"><b>情境</b>讲入门阶段的具体自学步骤：参数、样片、落地练习、社群模仿。语域：casual 经验分享。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：搞清 ISO、光圈、快门、P/A/M/S 档适用场景；大量看样片和参数对比图；然后必须实践——长曝光配脚架拍车轨/星空，堆栈拍萤火虫，间隔拍摄拍日出</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/photography_self_learn/s2-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The core mechanism: figure out what ISO, aperture, and shutter speed do and when the P/A/M/S modes fit; look at lots of sample photos and parameter comparisons; then you must practice — long exposures with a tripod for car trails or star trails, stacking for fireflies, interval shooting for sunrises.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>shutter speed → 快门；long exposure → 长曝光；tripod → 脚架；stacking → 堆栈；interval shooting → 间隔拍摄</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：摄影是落地学科，「脑子会了手还不会」不行。拍失败 → 调参数 → 再拍，是正常学习循环。阿兴比喻：技术入门像魔兽「满级才是游戏开始」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/photography_self_learn/s2-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key insight: photography is a hands-on discipline — 'my brain gets it but my hands don't' doesn't work. Shoot a failure, adjust the parameters, shoot again: that's the normal learning loop. Axing compares getting the technique down to maxing out in World of Warcraft — 'max level is when the game really begins.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>hands-on → 落地；learning loop → 学习循环；max level → 满级；the game begins → 游戏开始</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据：「摄影就是一个要落地的过程，不是啊我电脑上看一看好我学会了，这样不行。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/photography_self_learn/s2-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">In the author's own words: 'Photography is a process that must land on the ground — it's not like I watch it on the computer and think, okay, I've learned it. That doesn't work.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>land on the ground → 落地；watch it on the computer → 在电脑上看一看；doesn't work → 不行</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）怎么落地：买 ND 镜就去拍风光长曝；买闪光灯就练闪光；在桌子前用不同参数拍几百张</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/photography_self_learn/s2-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">How to land it: buy an ND filter and go shoot long-exposure landscapes; buy a flash and practice with it; shoot hundreds of frames at a desk with different settings.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>ND filter → ND镜；long-exposure landscape → 风光长曝；practice with → 练习使用</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>典型场景：加入摄影群模仿不同风格；看图虫、500px、Lofter 比赛作品；建立「看得更高远」的目标——看大师作品而非身边网红</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/photography_self_learn/s2-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">A typical scene: join photography groups to imitate different styles; study contest work on Tuchong, 500px, and Lofter; set a goal of 'seeing higher' — watch masters rather than the internet celebrities around you.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>imitate styles → 模仿风格；contest work → 比赛作品；internet celebrities → 网红；see higher → 看得更高远</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：老潘引用「求其上者得其中」——自学时把目标定高一点，看真正好的作品。纽设课程黄金三原则：好照片应简洁、有主题、能吸引观众注意力</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/photography_self_learn/s2-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key insight: Lao Pan cites the saying 'aim high and you'll land mid' — when self-teaching, set your target higher and look at truly good work. The Niu course's three golden rules: a good photo should be simple, have a subject, and grab the viewer's attention.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>aim high → 求其上；golden rules → 黄金三原则；grab attention → 吸引注意力；subject → 主题</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「脑子里会了手还不会」</p><div class="chunks">brain gets it, hands don't · in theory vs in execution</div><small>第一句是原文金句，直接引用最地道</small></li>
+<li><p>想说「目标定高一点」</p><div class="chunks">aim high, land mid · set your sights on</div><small>第一句是谚语；第二句更具体，指导性强</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s3" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S3</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/photography_self_learn/s3.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>三、进阶阶段：审美与观念</h2>
+      <p class="scene-title-en">Part 3: The Advanced Stage — Aesthetics and Vision</p>
+      <p class="context"><b>情境</b>技术达标后如何进阶：输出倒逼输入、用项目打磨、保持观察敏感度。语域：casual 经验分享 + 方法总结。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>阿兴：技术达标后像开了天眼，路线都通了——看历史、社会现状都能给拍摄实质帮助。现阶段更多时间花在思考照片意义，实践依然重要但比例变化。碎片化学习为主：看到不懂的名词就去查</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/photography_self_learn/s3-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Axing: once your technique reaches the standard, it's like opening a third eye — all routes are open, and looking at history and social reality genuinely helps your shooting. These days he spends more time thinking about what photos mean; practice still matters, but the ratio changes. Fragmented learning is the main mode — look up any term you don't understand.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>open a third eye → 开了天眼；fragmented learning → 碎片化学习；look up → 去查；the ratio changes → 比例变化</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）「当你所有的技术都已经达到位了，那你接下去就是像开了天眼一样的，你所有的路线都可以走了。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/photography_self_learn/s3-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">A quote: 'Once all your techniques are in place, it's like opening a third eye — every route is open to you.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>techniques in place → 技术达标；every route is open → 所有路线都能走</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：老潘进阶期核心是看画册和理论书，自行总结思考后实践尝试；通过「项目」打磨技术；与大师相处、做播客准备都是学习</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/photography_self_learn/s3-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The core mechanism: in Lao Pan's advanced phase, the core is photo books and theory books — he summarizes and thinks on his own, then tries it out; projects polish his technique, and spending time with masters and preparing for the podcast all count as learning.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>photo books → 画册；theory books → 理论书；polish technique → 打磨技术；count as learning → 都是学习</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：拍摄是输出，分享图片是输出，写公众号/小红书/做栏目也是输出。不提高会遇到内容瓶颈——输出倒逼输入和学习</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/photography_self_learn/s3-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key insight: shooting is output, sharing images is output, and writing for a public account, Xiaohongshu, or a column is also output. If you don't raise your output, you hit a content bottleneck — output forces input and learning.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>output forces input → 输出倒逼输入；content bottleneck → 内容瓶颈；public account → 公众号</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）怎么落地：每期播客提前半个月查资料、拍摄、看别人怎么讨论；写总结式输出巩固知识</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/photography_self_learn/s3-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">How to land it: for each episode he researches materials half a month ahead, shoots, and studies how others discuss the topic; writing summary-style output consolidates the knowledge.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>research materials → 查资料；summary-style output → 总结式输出；consolidate → 巩固</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>典型场景：工作忙时没法天天拿相机，但用手机给想拍的场景「打样」，保持以摄影方式观察世界的敏感度。不要断电——只要还愿意拍，就愿意学</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/photography_self_learn/s3-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">A typical scene: when work gets busy, he can't carry the camera every day, but he uses his phone to 'draft' the scenes he wants to shoot, keeping his sensitivity to seeing the world photographically. Don't cut the power — as long as you still want to shoot, you still want to learn.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>draft a scene → 打样；keep sensitivity → 保持敏感度；don't cut the power → 不要断电；as long as → 只要</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「输出倒逼输入」</p><div class="chunks">output forces input · pushes you to absorb</div><small>第一句是方法论金句，点评时直接用</small></li>
+<li><p>想说「用手机打样保持观察」</p><div class="chunks">draft scenes · keep the eye alive</div><small>第二句更有画面感，适合口语描述</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s4" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S4</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/photography_self_learn/s4.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>四、高效自学方法论</h2>
+      <p class="scene-title-en">Part 4: A Methodology for Efficient Self-Study</p>
+      <p class="context"><b>情境</b>讲资料库搭建、项目驱动、复盘旧照与线上资源利用。语域：casual 方法论分享。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>Bookmark 资料库：用浏览器书签分类整理——摄影师个人网站、比赛奖项、博物馆画廊、技术/伦理讨论，建立自己的摄影资料库</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/photography_self_learn/s4-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">A bookmark library: organize browser bookmarks into categories — photographers' personal websites, contest awards, museums and galleries, and technical or ethical discussions — building your own photography resource library.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>bookmark → 书签；resource library → 资料库；personal website → 个人网站；gallery → 画廊</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>项目概念：无论从小拼图拼大图，还是先有大概念再填充，项目能驱动技巧打磨和审美提升</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/photography_self_learn/s4-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The project concept: whether you assemble small pieces into a big picture or start from a big concept and fill it in, projects can drive skill polish and aesthetic growth.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>assemble pieces → 拼图；big concept → 大概念；fill it in → 再填充；drive growth → 驱动提升</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>复盘旧照：隔半年一年回顾旧作，感受是否进步；若多年无变化需调整学习方法</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/photography_self_learn/s4-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Reviewing old photos: look back at past work after half a year or a year and feel whether you've progressed; if years pass with no change, you need to adjust your learning method.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>look back at → 回顾；past work → 旧作；adjust your method → 调整方法</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>线上资源：小县城也能学——马格南、Fraenkel Gallery 等网站，摄影师个人主页，线上展览</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/photography_self_learn/s4-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Online resources: you can learn even from a small county town — Magnum, the Fraenkel Gallery and similar sites, photographers' personal pages, and online exhibitions.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>county town → 小县城；online exhibition → 线上展览；personal page → 个人主页</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）立刻可做：今天建 3 个书签文件夹，各放 5 个高质量摄影网站；翻一年前照片写 3 条进步/不足</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/photography_self_learn/s4-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Do it right now: create three bookmark folders today, each holding five high-quality photography sites; flip through photos from a year ago and write down three improvements and three weaknesses.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>do it right now → 立刻可做；improvements and weaknesses → 进步与不足；flip through → 翻看</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「从大概念出发再填充」</p><div class="chunks">big concept first · forest before trees</div><small>第二句是英文谚语变体，更有记忆点</small></li>
+<li><p>想说「今天就能开始」</p><div class="chunks">start right now · no need to wait</div><small>第二句给出具体动作，指导性最强</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s5" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S5</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/photography_self_learn/s5.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>五、避坑与庆幸做对的事</h2>
+      <p class="scene-title-en">Part 5: Pitfalls to Avoid and Things They're Glad They Did Right</p>
+      <p class="context"><b>情境</b>讲固步自封、烂书泛滥两大坑，以及买画册理论书的正确姿势。语域：casual 避坑吐槽。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>原因：拍到别人拍不到的（如星空）就觉得自己天下无敌，停止学习。摄影没有标准答案和满分</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/photography_self_learn/s5-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The reason: shoot something others can't get — like star trails — and you suddenly feel unbeatable and stop learning. Photography has no standard answer and no perfect score.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>unbeatable → 天下无敌；standard answer → 标准答案；perfect score → 满分</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>解法：以开放心态面对，总会看到让自己羡慕的作品，才会不断往上走</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/photography_self_learn/s5-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The solution: face it with an open mind — you'll always see work that makes you envious, and that's what keeps you climbing.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>open mind → 开放心态；make you envious → 让你羡慕；keep climbing → 不断往上走</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）阿兴说法：「一旦开始固步自封了，就一把锁让自己停止学习了。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/photography_self_learn/s5-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">As Axing puts it: 'Once you start to stagnate, it's like putting a lock on yourself that stops your learning.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>stagnate → 固步自封；put a lock on oneself → 给自己上锁；stop learning → 停止学习</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>原因：「50张大片怎么拍」类书名土内容水的书泛滥，基础逻辑都不正确</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/photography_self_learn/s5-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The reason: the market is flooded with books like 'How to Shoot 50 Great Photos' — catchy titles, watery content, and not even the basic logic is correct.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>flooded with → 泛滥；catchy title → 吸睛书名；watery content → 内容水；basic logic → 基础逻辑</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>解法：买画册、文献、理论书；教程书线下翻一翻再决定。例外：国外摄影师写的《拍出绝世光线》系列内容扎实</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/photography_self_learn/s5-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The solution: buy photo books, monographs, and theory books; flip through tutorial books in a store before you decide. The exception: foreign photographers' 'Photograph Like a Pro' series is solid in content.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>monograph → 文献；flip through → 翻一翻；solid content → 内容扎实</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）老潘：「把钱投在画册和理论书上，不要买书面摄影教程，尤其听都没听过的。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/photography_self_learn/s5-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Lao Pan: 'Put your money into photo books and theory books. Don't buy written photography tutorials, especially ones you've never heard of.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>put money into → 把钱投在；written tutorial → 书面教程；never heard of → 听都没听过</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「固步自封等于给自己上锁」</p><div class="chunks">a self-imposed lock · feel you've arrived</div><small>第二句更有警醒感，适合口语劝诫</small></li>
+<li><p>想说「书钱要花在画册和理论上」</p><div class="chunks">spend on A, not B · goes further on classics</div><small>第一句直接给结论；第二句解释原因更完整</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s6" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S6</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/photography_self_learn/s6.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>六、课程与构图进阶</h2>
+      <p class="scene-title-en">Part 6: Courses and Advanced Composition</p>
+      <p class="context"><b>情境</b>构图小技巧的定位、九宫格的去留，以及技巧服务表达的关系。语域：casual 答疑。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：构图技巧是最初期提高拍照成功率的「小技巧」，帮你建立信心。基础打好后，摄影是语言，没有固定正统框架——大师们构图逻辑各不相同，靠自我表达</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/photography_self_learn/s6-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The core mechanism: composition tricks are the small skills that raise your shooting success rate in the earliest days and help build your confidence. Once the foundation is solid, photography is a language with no fixed orthodox framework — masters each have different compositional logic, relying on self-expression.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>composition → 构图；success rate → 成功率；orthodox framework → 正统框架；self-expression → 自我表达</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：听友坤的问题：觉得九宫格不是该追求的，说明他心里有方向。下一步是收集非套路构图的好照片模仿，或读《摄影构图学》建立构图认知</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/photography_self_learn/s6-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key insight: listener Kun's question — feeling the rule of thirds isn't something to pursue — shows he already has a direction in his mind. The next step is collecting good photos with non-formulaic composition to imitate, or reading a composition textbook to build his understanding.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>rule of thirds → 九宫格/三分法；non-formulaic → 非套路；imitate → 模仿；build understanding → 建立认知</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）与纽设「好照片有主题」的关系：技巧服务于表达，表达才是摄影该追求的</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/photography_self_learn/s6-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The relation to Niu's 'a good photo has a subject': technique serves expression, and expression is what photography should pursue.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>serve expression → 服务于表达；pursue → 追求；subject → 主题</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「技巧服务表达」</p><div class="chunks">serve expression · a tool vs the goal</div><small>第一句简洁像格言，最适合引用</small></li>
+<li><p>想说「大师构图各不相同」</p><div class="chunks">in their own way · no single formula</div><small>第二句强调「没有固定公式」，适合破除教条</small></li>
+        </ol>
+      </details>
+    </section>
+      <section class="study-section" id="practice">
+      <h2 class="section-heading">今日可练 <small>PRACTICE TODAY</small></h2>
+      <div class="study-grid">
+        <article>
+          <p>用「muscle memory」说：技术会变成肌肉记忆。</p>
+          <div class="practice-en">
+            After enough practice, the settings become muscle memory and you stop thinking about them.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/photography_self_learn/practice-0.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「aim high」说：目标定高一点。</p>
+          <div class="practice-en">
+            When you self-teach, aim high — study the masters, not the people next door.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/photography_self_learn/practice-1.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「output forces input」说：输出倒逼输入。</p>
+          <div class="practice-en">
+            Writing a summary every episode — output forces you to keep learning.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/photography_self_learn/practice-2.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「stagnate」说：固步自封就停止学习了。</p>
+          <div class="practice-en">
+            Once you stagnate, you've locked the door on learning.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/photography_self_learn/practice-3.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article>
+      </div>
+    </section>
+      <section class="study-section pitfalls" id="pitfalls">
+      <h2 class="section-heading">避坑 <small>PITFALLS</small></h2>
+      <div class="study-grid">
+        <article>
+          <div class="wrong">✕ Photography is very hard to learn by yourself.</div>
+          <div class="right">✓ Photography can absolutely be self-taught — effort matters more than talent.</div>
+          <p>直接给结论更符合播客立场；用 can absolutely be self-taught 表达肯定语气。</p>
+        </article><article>
+          <div class="wrong">✕ I learned photography on the computer.</div>
+          <div class="right">✓ Photography has to land on the ground — watching isn't learning.</div>
+          <p>learned on the computer 直译生硬；「落地」用 land on the ground / hands-on 才是方法论表述。</p>
+        </article><article>
+          <div class="wrong">✕ This book's content is very water.</div>
+          <div class="right">✓ The content is watery — flashy title, shallow substance.</div>
+          <p>very water 是中文直译；形容内容水分大用 watery / shallow / thin。</p>
+        </article><article>
+          <div class="wrong">✕ The rule of thirds is not worth pursuing.</div>
+          <div class="right">✓ The rule of thirds isn't something to chase once you've found your own direction.</div>
+          <p>直接否定九宫格太武断；加上条件「找到方向后」才符合原意。</p>
+        </article>
+      </div>
+    </section>
+      <section class="study-section shifts" id="mindset">
+      <h2 class="section-heading">认知转变 <small>MINDSET SHIFTS</small></h2>
+      <div class="study-grid">
+        <article>
+          <span>以为摄影是天赋决定、学不会就算了</span>
+          <b aria-hidden="true">→</b>
+          <strong>摄影完全可以自学，努力比天赋更重要</strong>
+        </article><article>
+          <span>以为看教程、看视频就算学会了</span>
+          <b aria-hidden="true">→</b>
+          <strong>摄影要落地，拍失败→调参→再拍才是学习循环</strong>
+        </article><article>
+          <span>以为买教程书就能快速出大片</span>
+          <b aria-hidden="true">→</b>
+          <strong>把钱花在画册和理论书上，教程书多半内容水</strong>
+        </article>
+      </div>
+    </section>
+      <footer>
+        双语学习版 · 场景/句子朗读使用 edge-tts（en-US） · 单词发音使用浏览器 Web Speech API
+        <div class="footer-note">中文版：<a href="photography_self_learn-总结.html">photography_self_learn-总结.html</a> · SVG 版：<a href="viewer.html?f=photography_self_learn-总结.svg" target="_blank">photography_self_learn-总结.svg</a></div>
+      </footer>
+    </div>
+  </main>
+  <script>(() => {
+  let activeAudio = null;
+  let activeBtn = null;
+  const status = document.getElementById('speech-status');
+  const stopBtn = document.getElementById('stop-speech');
+  const rateSel = document.getElementById('speech-rate');
+
+  const reset = () => {
+    if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+    activeBtn?.classList.remove('playing');
+    activeBtn = null;
+    stopBtn.classList.remove('visible');
+    status.textContent = '';
+  };
+
+  const playAudio = (url, btn) => {
+    reset();
+    const audio = new Audio(url);
+    audio.playbackRate = Number(rateSel.value);
+    activeAudio = audio;
+    activeBtn = btn;
+    btn.classList.add('playing');
+    stopBtn.classList.add('visible');
+    status.textContent = btn.classList.contains('scene-speak')
+      ? 'Reading the whole scene…'
+      : 'Reading…';
+
+    audio.onended = () => { if (activeAudio === audio) reset(); };
+    audio.onerror = () => { status.textContent = 'Audio failed to load.'; if (activeAudio === audio) reset(); };
+    audio.play().catch(() => { status.textContent = 'Playback failed.'; if (activeAudio === audio) reset(); });
+  };
+
+  document.addEventListener('click', e => {
+    const btn = e.target.closest('[data-audio]');
+    if (!btn) return;
+    e.preventDefault();
+    if (btn === activeBtn && activeAudio) { reset(); return; }
+    playAudio(btn.dataset.audio, btn);
+  });
+
+  stopBtn.addEventListener('click', reset);
+
+  const synth = window.speechSynthesis;
+  const getEnglishVoice = () => {
+    const voices = synth.getVoices();
+    return voices.find(v => /^en-(US|GB)/i.test(v.lang))
+        || voices.find(v => /^en/i.test(v.lang)) || null;
+  };
+
+  const difficultWords = new Set([
+    'assortment', 'SKU', 'premium', 'margin', 'middleman', 'OEM', 'rebranding',
+    'hoarding', 'PTSD', 'curation', 'repurchase', 'touchpoint', 'backlash',
+    'reshuffle', 'funnel', 'anchor', 'contract', 'psychology', 'private', 'label',
+    'editorial', 'familiar', 'competitors', 'authorization', 'flexibility'
+  ]);
+
+  const shouldPronounce = word => {
+    const n = word.toLowerCase().replace(/^[^a-z]+|[^a-z]+$/g, '');
+    return n.replace(/[^a-z]/g, '').length >= 8 || difficultWords.has(n);
+  };
+
+  const markPronounceableWords = root => {
+    const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+    const nodes = [];
+    while (walker.nextNode()) nodes.push(walker.currentNode);
+    nodes.forEach(node => {
+      if (node.parentElement?.closest('button, script, style')) return;
+      const text = node.nodeValue;
+      let m, last = 0, changed = false;
+      const frag = document.createDocumentFragment();
+      const re = /[A-Za-z]+(?:[-'’][A-Za-z]+)*/g;
+      while ((m = re.exec(text))) {
+        if (!shouldPronounce(m[0])) continue;
+        changed = true;
+        frag.append(text.slice(last, m.index));
+        const wb = document.createElement('button');
+        wb.type = 'button'; wb.className = 'pronounce-word';
+        wb.dataset.speak = m[0];
+        wb.setAttribute('aria-label', '\u8bfb\u5355\u8bcd ' + m[0]);
+        wb.title = '\u70b9\u51fb\u542c\u53d1\u97f3';
+        wb.textContent = m[0];
+        frag.append(wb);
+        last = m.index + m[0].length;
+      }
+      if (!changed) return;
+      frag.append(text.slice(last));
+      node.replaceWith(frag);
+    });
+  };
+
+  document.querySelectorAll(
+    '.english, .scene-title-en, .paraphrase li p, .chunks, .practice-en, .wrong, .right, .summary-en'
+  ).forEach(markPronounceableWords);
+
+  document.addEventListener('click', e => {
+    const wb = e.target.closest('.pronounce-word');
+    if (!wb) return;
+    e.preventDefault();
+    if (!synth) return;
+    synth.cancel();
+    if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+    activeBtn?.classList.remove('playing');
+    activeBtn = wb;
+    wb.classList.add('playing');
+    const u = new SpeechSynthesisUtterance(wb.dataset.speak);
+    u.lang = 'en-US';
+    u.rate = 0.88;
+    const v = getEnglishVoice();
+    if (v) u.voice = v;
+    u.onend = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+    u.onerror = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+    synth.speak(u);
+  });
+})();</script>
+</body>
+</html>

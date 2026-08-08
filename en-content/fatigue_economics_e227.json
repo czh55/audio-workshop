@@ -1,0 +1,355 @@
+{
+  "slug": "fatigue_economics_e227",
+  "date": "2026-06-23",
+  "platform": "小宇宙FM",
+  "title": "E227 疲惫经济学：为什么技术进步了，我们却更累了？",
+  "title_en": "E227 The Economics of Exhaustion: Why Are We More Tired as Technology Improves?",
+  "eyebrow": "Economics & Work · 经济学与职场",
+  "duration": "1小时05分",
+  "source_url": "https://www.xiaoyuzhoufm.com/episode/69b3b675772ac2295bfc01d0",
+  "summary_cn": "主持人雨白从欧洲旅行中的「单线程工作」冲击出发，与经济学家温逸飞探讨一个悖论：技术越进步，我们反而越忙越累。外卖、效率工具赚的是「疲惫的钱」；八小时工作制来自冷战劳工妥协而非生产力馈赠；AI 先做监工再做工具。疲惫背后有结构性原因，不必全归咎于个人不够努力",
+  "summary_en": "Host Yu Bai opens with the shock of seeing 'single-threaded' work in European restaurants and, together with economist Wen Yifei, explores a paradox: the more technology advances, the busier and more exhausted we become. Food delivery and productivity tools make money off 'tired money'; the eight-hour workday came from Cold War labor compromises, not a gift of productivity; and AI serves first as a supervisor before it becomes a tool. Exhaustion has structural causes — it isn't just personal laziness.",
+  "scenes": [
+    {
+      "id": "s1",
+      "title_cn": "一、疲惫从何而来：欧洲观察与「疲惫经济学」",
+      "title_en": "Where the Fatigue Comes From: European Observations and 'Tired Money'",
+      "context": "Yu Bai contrasts single-threaded European service work with China's always-on pace, introducing the economics of exhaustion. 语域：casual 观察 + 评论。",
+      "speak": "In a European restaurant, Yu Bai stood for ages without being served — the host only seats people, and everyone else sticks to their own job; nobody has 'eyes for work.' Paying the bill took twenty minutes from asking to finishing. Locals take it for granted: each person has a fixed role, single-threaded work, and it's easier on the worker. Back in China for a week, she was back to fast-paced habits: order delivery, get one missing side dish, and immediately think about leaving a bad review. As consumers we demand faster and better; as workers we're pinned to instant messaging, online 24/7. Technology and efficiency improved, yet the legitimacy of rest has vanished. A lot of businesses are essentially making money off people's exhaustion — isn't food delivery exactly that?",
+      "sentences": [
+        {
+          "cn": "核心机制：雨白在欧洲餐厅站很久无人招呼——领位员只做领位，其他人各管各的，不会「眼里有活」。结账从开口到完成隔了二十分钟。当地人习以为常：每人固定职责、单线程工作，对劳动者更轻松",
+          "en": "In a European restaurant, Yu Bai stood for ages without being served — the host only seats people, and everyone else sticks to their own job; nobody has 'eyes for work.' Paying the bill took twenty minutes from asking to finishing, and locals take it for granted: each person has a fixed role, single-threaded work, and it's easier on the worker.",
+          "note": "<span>表达提示</span>single-threaded work → 单线程工作；eyes for work → 眼里有活；stick to one's own job → 各管各的"
+        },
+        {
+          "cn": "关键理解：回国一周后恢复「快节奏」：点外卖少配菜立刻想差评。作为消费者我们追求更快更好，但作为劳动者我们被即时通讯绑定为 24 小时在线。技术和效率进步了，休息的正当性却消失了",
+          "en": "Back in China for a week, she slid right back into the fast pace: order delivery, get one missing side dish, and immediately think about a bad review. As consumers we demand faster and better; as workers we're pinned to instant messaging, online 24/7. Technology and efficiency improved — yet the legitimacy of rest has vanished.",
+          "note": "<span>表达提示</span>online 24/7 → 全天候在线；legitimacy of rest → 休息的正当性；pinned to → 被绑在…上"
+        },
+        {
+          "cn": "典型场景：中午没时间好好吃饭→外卖行业诞生；累到无法休息→「赚疲惫的钱」成为商业模式",
+          "en": "A typical case: no time for a proper lunch — that's how the food delivery industry was born. Too exhausted to rest — that becomes the business model of 'making money off exhaustion.'",
+          "note": "<span>表达提示</span>proper lunch → 好好吃饭；business model → 商业模式"
+        },
+        {
+          "cn": "（引用）原文依据：「很多生意本质上赚的是人们疲惫的钱……外卖赚的不就是我们疲惫的钱吗？」",
+          "en": "The original quote: 'A lot of businesses are essentially making money off people's exhaustion... isn't food delivery exactly that?'",
+          "note": "<span>表达提示</span>make money off sb → 赚…的钱；essentially → 本质上"
+        },
+        {
+          "cn": "（引用）相关概念：疲惫经济学 = 社会看到人人很累，不是先消除疲惫，而是利用疲惫创造新需求与新产业",
+          "en": "Related concept: the economics of exhaustion means society sees everyone exhausted, and instead of eliminating the exhaustion, it exploits it to create new demand and new industries.",
+          "note": "<span>表达提示</span>economics of exhaustion → 疲惫经济学；exploit → 利用/压榨"
+        },
+        {
+          "cn": "历次工业革命——蒸汽机、电力、信息革命——按道理生产力飞跃，大家预期失业、工时缩短。实际数据相反：这些时代劳动强度往往最大。中国 2015 年至今人均工作时长增加约一个月，相当于多 20 个工作日",
+          "en": "Every industrial revolution — steam, electricity, information — was supposed to bring a productivity leap, and people expected job losses and shorter hours. The data says the opposite: labor intensity was often at its peak in those very eras. In China since 2015, average annual working time has grown by about a month, roughly 20 extra working days per person.",
+          "note": "<span>表达提示</span>productivity leap → 生产力飞跃；labor intensity → 劳动强度；working time → 工作时长"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「每个人的活儿是固定的」",
+          "phrases": [
+            "Everyone has their own fixed job.",
+            "Each person sticks to their lane."
+          ],
+          "chunks": "fixed job · stick to one's lane",
+          "usage": "stick to one's lane 很口语，指各管各的"
+        },
+        {
+          "intent": "想说「外卖赚的是你疲惫的钱」",
+          "phrases": [
+            "Food delivery cashes in on your exhaustion.",
+            "These apps profit off tired people."
+          ],
+          "chunks": "cash in on · profit off tired people",
+          "usage": "cash in on 带贬义「借…牟利」，点评时常用"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title_cn": "二、八小时工作制：不是技术送的礼物",
+      "title_en": "The Eight-Hour Day: Not a Gift from Technology",
+      "context": "Why working hours shrank then rose again, and how AI acts as a supervisor first. 语域：casual 经济学分析。",
+      "speak": "From the Ford era through the 1970s, benefits grew and hours shrank; after the 1980s information revolution, intensity climbed back. The eight-hour day was not a natural perk of rising productivity — it was the result of proletarian revolutions forcing capitalism to give ground. When the Soviet Union was thriving, top income tax rates for Western capitalists ran at 80 to 90 percent — don't pay and workers might flip the table. Heavy taxes came back to workers as welfare, and hours and labor relations improved. The danger here: everyone wants AI to replace work, but nobody expected AI to watch your work — slack for five minutes and it nudges you; slack again and it reports you to the boss. So recognize that tighter monitoring is a certain trend, and build judgment and life experience in your main career that AI can't replace.",
+      "sentences": [
+        {
+          "cn": "核心机制：福特时代到 70 年代，福利增加、工时缩短。80 年代信息革命后强度回升。八小时工作制并非生产力进步的天然福利，而是无产阶级革命先驱迫使资本主义让步的结果",
+          "en": "From the Ford era through the 1970s, benefits grew and working hours shrank. After the 1980s information revolution, intensity climbed back. The eight-hour day was not a natural perk of rising productivity — it was the result of proletarian revolutions forcing capitalism to give ground.",
+          "note": "<span>表达提示</span>perk → 福利/好处；proletarian revolution → 无产阶级革命；give ground → 让步"
+        },
+        {
+          "cn": "关键理解：苏联鼎盛时，西方资本家所得税累计可达 80%–90%——不交税工人可能掀桌子。重税以福利形式回流工人，同时改善工时与劳动关系。革命前后都是八小时，革命动力就降低了",
+          "en": "When the Soviet Union was thriving, top income tax rates for Western capitalists ran at 80 to 90 percent — don't pay, and workers might flip the table. Heavy taxes flowed back to workers as welfare, while hours and labor relations improved. Once it was eight hours before and after the revolution, the incentive for revolution faded.",
+          "note": "<span>表达提示</span>income tax rate → 所得税率；flip the table → 掀桌子；incentive → 动力"
+        },
+        {
+          "cn": "典型场景：理解当下加班文化，不能指望「等 AI 更成熟就轻松了」，要看权力结构与替代性谈判筹码",
+          "en": "A typical case: understanding today's overtime culture means you can't just wait for AI to mature and make life easy — you have to look at the power structure and the substitute bargaining chips.",
+          "note": "<span>表达提示</span>overtime culture → 加班文化；power structure → 权力结构；bargaining chip → 谈判筹码"
+        },
+        {
+          "cn": "（引用）原文依据：「八小时工作制不是因为生产力进步而获得的天然福利，是因为当时有些地方在进行无产阶级革命。」",
+          "en": "The original quote: 'The eight-hour day wasn't a natural benefit won by productivity gains — it was because proletarian revolutions were happening in some places at the time.'",
+          "note": "<span>表达提示</span>natural benefit → 天然福利；win by → 通过…获得"
+        },
+        {
+          "cn": "原因：大家只想 AI 代替工作，没想到 AI 可以监视工作——偷懒五分钟就提醒，再偷懒就报告老板。中国 AI 从 B 端切入（企业愿为效率付费），面试、会议分析、绩效量化已先行",
+          "en": "The cause: everyone wants AI to replace the work, but nobody expected AI to watch the work — slack for five minutes and it nudges you; slack again and it reports you to the boss. In China, AI entered through the B2B side, where companies will pay for efficiency, so AI interviews, meeting analysis, and performance quantification arrived first.",
+          "note": "<span>表达提示</span>watch the work → 监视工作；nudge → 提醒；B2B → 企业端"
+        },
+        {
+          "cn": "解法：认清监管升级是确定性趋势，在主业积累 AI 无法替代的判断力与生命体验",
+          "en": "The fix: recognize that tighter monitoring is a certain trend, and build judgment and life experience in your main career that AI can't replace.",
+          "note": "<span>表达提示</span>tighter monitoring → 监管升级；a certain trend → 确定性趋势"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「八小时工作制是斗争来的，不是白送的」",
+          "phrases": [
+            "The eight-hour day was fought for, not gifted.",
+            "It came from labor organizing, not from productivity."
+          ],
+          "chunks": "be fought for · not gifted · labor organizing",
+          "usage": "fought for 强调争取；labor organizing 是更正式的说法"
+        },
+        {
+          "intent": "想说「AI 先当监工」",
+          "phrases": [
+            "AI landed first as a supervisor, not a tool.",
+            "Before it does your job, AI is watching you do it."
+          ],
+          "chunks": "land as a supervisor · watch you do it",
+          "usage": "land first as… 是口语说法，强调先后顺序"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title_cn": "三、老板经济学：996 是一笔账",
+      "title_en": "Boss Economics: The 996 Math",
+      "context": "Why bosses rationally choose overtime over hiring, with concrete cost numbers. 语域：casual 算账式分析。",
+      "speak": "Take a worker earning 20,000 a month, eight-hour days, two days off — about 174 working hours a month. If the work doesn't get done, you hire a second person: two people cost about 57,000 with social insurance, for 348 hours. Or let one person work 996 to cover those 348 hours: double overtime pay is about 7,300, and with social insurance the total cost is about 35,000 — saving over 20,000, plus no recruiting, no training, no desk space, no extra management layer. It's not that bosses are born evil; it's market elimination. If your competitor's employees each do the work of five people and you don't keep up, you disappear. A normal boss, thinking in pure operating efficiency, would rather pay double overtime than hire.",
+      "sentences": [
+        {
+          "cn": "核心机制：员工月薪 2 万、八小时双休，月工时约 174 小时。活做不完招第二人，两人成本约 5.7 万（含社保），工时 348 小时。让一人 996 干 348 小时，双倍加班费约 7300，加社保总成本约 3.5 万——省 2 万多，还省去招聘、培训、工位、管理层级",
+          "en": "Take a worker earning 20,000 a month, eight-hour days with two days off — about 174 working hours a month. If the work doesn't get done, you hire a second person: two people cost about 57,000 with social insurance, for 348 hours. Or let one person work 996 to cover those 348 hours — double overtime pay is about 7,300, and with social insurance the total is about 35,000: a saving of over 20,000, plus no recruiting, no training, no workstation, and no extra management layer.",
+          "note": "<span>表达提示</span>social insurance → 社保；overtime pay → 加班费；management layer → 管理层级"
+        },
+        {
+          "cn": "关键理解：不是老板天生邪恶，而是市场淘汰逻辑：对手员工一人干五人活，你不跟上就消失。德国总理访华后演讲：欧洲四天工作制、work-life balance 不行，会被产业蚕食",
+          "en": "The insight: it's not that bosses are born evil — it's market elimination. If your competitor's employees each do the work of five people and you don't keep up, you disappear. The German chancellor's speech after visiting China warned that Europe's four-day workweek and work-life balance won't survive — the industries will be eaten away.",
+          "note": "<span>表达提示</span>market elimination → 市场淘汰；work-life balance → 工作生活平衡；be eaten away → 被蚕食"
+        },
+        {
+          "cn": "（引用）原文依据：「一个正常的老板如果按经营效率来算，宁可给双倍加班费让现有团队加班，也不找新员工。」",
+          "en": "The original quote: 'A normal boss, thinking in pure operating efficiency, would rather pay double overtime to the existing team than hire new employees.'",
+          "note": "<span>表达提示</span>operating efficiency → 经营效率；the existing team → 现有团队"
+        },
+        {
+          "cn": "（引用）相关概念：温逸飞自己公司文化宽松（少加班、多假期），但前提是极强商业模式与战略——不是每个行业都能复制",
+          "en": "Related point: Wen Yifei's own company has a relaxed culture — less overtime, more holidays — but that rests on an extremely strong business model and strategy. Not every industry can copy it.",
+          "note": "<span>表达提示</span>relaxed culture → 宽松文化；rest on → 建立在…之上"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「算完账，加班比招人划算」",
+          "phrases": [
+            "Do the math and overtime beats hiring.",
+            "On the spreadsheet, 996 wins over a second hire."
+          ],
+          "chunks": "do the math · overtime beats hiring · on the spreadsheet",
+          "usage": "on the spreadsheet 强调纯数字视角"
+        },
+        {
+          "intent": "想说「不是老板坏，是市场淘汰」",
+          "phrases": [
+            "It's not villainy — it's market survival.",
+            "The market eliminates anyone who falls behind."
+          ],
+          "chunks": "market survival · falls behind · get eliminated",
+          "usage": "market survival 比直说「老板坏」更准确"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "title_cn": "四、结构性疲惫：失业、双轨制与县城逻辑",
+      "title_en": "Structural Exhaustion: Unemployment, the Two-Track System, and County-Town Logic",
+      "context": "How mass unemployment gets solved eventually, and the widening gap in capital markets. 语域：casual 宏观观察。",
+      "speak": "If you owe the bank 100,000, you can't sleep; owe a hundred million and you sleep fine. When enough people lose their jobs at once, someone has to solve it. China already has experience with industrial decline — the northeast, resource cities in the west, and regions hollowed out after the Third Front construction — kept alive by fiscal transfers through two channels: government salaries and pensions, and subcontracting infrastructure projects. Individual suffering isn't factored into policy until it aggregates into a voice that must be answered. The capital market now prices two separate logics: 'AI, robotics, space' versus 'legacy assets.' In the US, Silicon Valley and the rest feel like two different currencies; top AI graduates in China start at a million yuan while many graduates can't find work at all.",
+      "sentences": [
+        {
+          "cn": "「你欠银行十万睡不着，欠一个亿反而睡得着」——足够多人同时失业，会有人来解决。中国已有产业集聚经验：东北、西北资源城市、三线建设后凋敝地区，靠财政转移两条活水——体制内工资/养老金 + 基建项目分包",
+          "en": "'Owe the bank 100,000 and you can't sleep; owe a hundred million and you sleep fine.' When enough people are unemployed at the same time, someone will come solve it. China already has experience with industrial decline — the northeast, resource cities in the west, and regions hollowed out after the Third Front construction — kept alive by fiscal transfers through two channels: government salaries and pensions, and subcontracting infrastructure projects.",
+          "note": "<span>表达提示</span>fiscal transfer → 财政转移；government salary and pensions → 体制内工资和养老金；subcontract → 分包"
+        },
+        {
+          "cn": "适用边界：个体悲欢不会被纳入政策考量，直到汇聚成不得不回应的声音。AI 时代只是把受影响人口和地区进一步扩大",
+          "en": "Boundary conditions: individual joy and sorrow won't be factored into policy — until they aggregate into a voice that must be answered. The AI era only widens the pool of affected people and regions.",
+          "note": "<span>表达提示</span>aggregate into → 汇聚成；be factored into → 被纳入考量"
+        },
+        {
+          "cn": "（引用）「县城婆罗门……所有人都在喝这个水龙头流出来的水，只是有人离得近多喝一点。」",
+          "en": "The quote: 'The county-town Brahmins... everyone drinks from the same faucet — it's just that some people live closer and get a bigger sip.'",
+          "note": "<span>表达提示</span>Brahmins → 婆罗门（比喻特权阶层）；faucet → 水龙头"
+        },
+        {
+          "cn": "核心机制：资本市场分「AI/机器人/航天」与「老登资产」两套定价逻辑。美国硅谷与非硅谷已是两种货币感；中国顶尖 AI 应届生百万起薪 vs 大量毕业生找不到工作",
+          "en": "The mechanism: the capital market now prices two separate logics — 'AI, robotics, space' versus 'legacy assets.' In the US, Silicon Valley and everywhere else feel like two different currencies. In China, top AI graduates start at a million yuan a year while a large share of graduates can't find work at all.",
+          "note": "<span>表达提示</span>pricing logic → 定价逻辑；legacy assets → 老登资产（传统资产）；start at a million → 百万起薪"
+        },
+        {
+          "cn": "关键理解：年轻人「大政委时代」——亲情、爱情、奋斗回报、房产信仰都在瓦解。信息触手可及却不知要什么，选择自由带来 100% 后果负担",
+          "en": "The insight: young people live in a 'great politburo era' — faith in family affection, romantic love, the reward for hard work, and the housing dream is all crumbling. Information is within reach, yet they don't know what they want, and free choice brings a 100 percent burden of consequences.",
+          "note": "<span>表达提示</span>faith in → 对…的信念；crumbling → 瓦解；burden of consequences → 后果负担"
+        },
+        {
+          "cn": "（引用）原文依据：「春晚机器人、新能源蓬勃向上，一看自己家庭资产负债表都是钢筋水泥——有一种被抛弃的感觉。」",
+          "en": "The original quote: 'Spring Festival Gala robots and booming new energy — then you look at your own family balance sheet, all steel and concrete — and you feel left behind.'",
+          "note": "<span>表达提示</span>family balance sheet → 家庭资产负债表；feel left behind → 有一种被抛弃的感觉"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「欠债太多反而不慌了」",
+          "phrases": [
+            "Once the debt is huge, the worry flips.",
+            "Small debts keep you up; huge ones, you sleep."
+          ],
+          "chunks": "the worry flips · small debts keep you up",
+          "usage": "口语反转表达，适合聊宏观幽默"
+        },
+        {
+          "intent": "想说「两套定价逻辑」",
+          "phrases": [
+            "The market prices them under two entirely different rules.",
+            "They live in two different economies."
+          ],
+          "chunks": "pricing logic · two different economies",
+          "usage": "two different economies 最形象"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "title_cn": "五、政策转向与个体应对",
+      "title_en": "Policy Turning Points and What Individuals Can Do",
+      "context": "From production-first culture to consumption-first policy signals, and how to avoid anxiety. 语域：casual 建议。",
+      "speak": "For most of Chinese history, the problem was under-production and excess consumption, so hard struggle became a cultural habit. After 2023 to 2024 overcapacity appeared, policymakers began raising the share of spending on people's livelihood — consumption vouchers, child subsidies, consumption-boosting campaigns. Only with abundant productivity do you get to ask what all this production is for. Here's the reassurance: comparing sideways always breeds anxiety — once someone else has a private jet, your high-speed rail ride feels bad. Human happiness comes from superiority, not absolute abundance. If you just want a bowl of rice and to stay alive, China can do that — but if you want more, you join the shrinking-circle competition.",
+      "sentences": [
+        {
+          "cn": "核心机制：中国历史上大部分时间是生产力不足、消费过剩，艰苦奋斗是文化惯性。2023–24 出现产能过剩，决策层开始提升民生开支比重——消费券、生育补贴、提振消费",
+          "en": "The mechanism: for most of Chinese history, the problem was under-production and excess consumption, so hard struggle became a cultural habit. With the 2023-to-2024 overcapacity, policymakers began raising the share of spending on people's livelihood — consumption vouchers, child subsidies, campaigns to boost consumption.",
+          "note": "<span>表达提示</span>overcapacity → 产能过剩；people's livelihood → 民生；consumption voucher → 消费券"
+        },
+        {
+          "cn": "关键理解：只有生产力充沛才有资格问「造这么多东西为了什么」。资产价格与短期 GDP 数据出现历史性背离，大家看的是十年维度的 AI 远景",
+          "en": "The insight: only with abundant productivity do you get to ask what all this production is for. Asset prices and short-term GDP figures are showing a historic divergence, because everyone is looking at the ten-year horizon of the AI story.",
+          "note": "<span>表达提示</span>historic divergence → 历史性背离；ten-year horizon → 十年维度"
+        },
+        {
+          "cn": "（引用）落地建议：关注政策面向消费与民生的信号，但不必把宏观责任全揽到自己身上",
+          "en": "How to apply it: watch for policy signals turning toward consumption and livelihood, but don't load the whole macro responsibility onto your own shoulders.",
+          "note": "<span>表达提示</span>policy signal → 政策信号；load responsibility onto → 把责任揽到…"
+        },
+        {
+          "cn": "为什么重要：横向比较永远焦虑——别人私人飞机了你坐高铁就难受，别人活 150 岁你 80 岁就不公平。人类快乐来源于优越而非绝对富足",
+          "en": "Why it matters: comparing sideways always breeds anxiety — once someone else has a private jet, your high-speed rail ride feels bad; once someone else lives to 150, dying at 80 feels unfair. Human happiness comes from superiority, not absolute abundance.",
+          "note": "<span>表达提示</span>compare sideways → 横向比较；absolute abundance → 绝对富足；superiority → 优越"
+        },
+        {
+          "cn": "适用边界：AI 学习不必焦虑——等阶段性大版本，门槛会降低；核心竞争力是现实生命体验与领域积累，非工具熟练度",
+          "en": "Boundary conditions: don't panic about learning AI — wait for the major version updates, and the barrier will drop. Your core edge is real-life experience and domain accumulation, not tool fluency.",
+          "note": "<span>表达提示</span>barrier drops → 门槛降低；tool fluency → 工具熟练度；domain accumulation → 领域积累"
+        },
+        {
+          "cn": "（引用）「你如果只想要一口饭吃不饿死，中国做得到……但如果你要更多，就要参与缩圈竞赛。」",
+          "en": "The quote: 'If all you want is a bowl of rice and to stay alive, China can do that... but if you want more, you have to join the shrinking-circle competition.'",
+          "note": "<span>表达提示</span>a bowl of rice → 一口饭；shrinking-circle competition → 缩圈竞赛"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「和别人比永远焦虑」",
+          "phrases": [
+            "Comparing sideways is a recipe for anxiety.",
+            "There's always someone with more, so comparing never ends."
+          ],
+          "chunks": "comparing sideways · a recipe for anxiety",
+          "usage": "a recipe for anxiety 指「必然导致焦虑」"
+        },
+        {
+          "intent": "想说「核心能力不是工具熟练度」",
+          "phrases": [
+            "Your edge is real-life experience, not tool fluency.",
+            "The tools get easier — the domain depth is what lasts."
+          ],
+          "chunks": "one's edge · tool fluency · domain depth",
+          "usage": "domain depth 指领域积累，职场讨论常用"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "cn": "用「tired money」说：很多生意赚的是疲惫的钱。",
+      "en": "Food delivery is basically tired money — it only exists because people are too exhausted to eat properly."
+    },
+    {
+      "cn": "用「be fought for」说：八小时工作制是斗争换来的。",
+      "en": "The eight-hour day was fought for through labor organizing, not handed down by productivity."
+    },
+    {
+      "cn": "用「do the math」说：算完账老板当然选加班。",
+      "en": "Do the math and the boss would rather pay double overtime than hire a second person."
+    },
+    {
+      "cn": "用「stick to one's lane」说：欧洲服务员各管各的。",
+      "en": "The waiter just sticks to his lane — seating you is the host's job, not his."
+    }
+  ],
+  "pitfalls": [
+    {
+      "wrong": "The boss is very bad, he makes us work overtime.",
+      "right": "It's not that the boss is evil — the overtime math wins in market competition.",
+      "why": "把加班归因于老板人品是误解；重点是 do the math + market competition 的结构性解释。"
+    },
+    {
+      "wrong": "Technology is advanced, but we are more tired.",
+      "right": "The more technology advances, the more exhausted we become.",
+      "why": "中文「越…越…」用 the more… the more… 结构才是地道英文，直译 are more tired 不构成对比结构。"
+    },
+    {
+      "wrong": "The waiter has no work to do.",
+      "right": "The waiter just sticks to his own fixed role — no one picks up extra tasks.",
+      "why": "no work to do 是「没活干」；原意是「各管各的、不越界」，用 stick to one's role / single-threaded。"
+    },
+    {
+      "wrong": "AI will replace my job, I am afraid.",
+      "right": "AI lands first as a supervisor; the real defense is judgment AI can't replace.",
+      "why": "只谈「替代」是单线程恐惧；把「先当监工」和「判断力不可替代」讲全，逻辑才完整。"
+    }
+  ],
+  "shifts": [
+    {
+      "before": "以为技术进步应该让人更轻松",
+      "after": "现实是越进步越累——外卖赚的是疲惫的钱，休息的正当性反而消失了"
+    },
+    {
+      "before": "以为八小时工作制是生产力送的礼物",
+      "after": "它是劳工斗争逼出来的让步；放松与否取决于权力结构而非技术"
+    },
+    {
+      "before": "以为累是因为自己不够努力、不会时间管理",
+      "after": "疲惫是结构性的：996 是老板算账的理性选择，不必全归咎于个人"
+    }
+  ],
+  "voice": "en-US-JennyNeural",
+  "audio_dir": "audio/en/fatigue_economics_e227"
+}

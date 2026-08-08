@@ -1,0 +1,1075 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="250.君子动口不动手：聊聊沟通 — Bilingual Learning Edition" />
+  <title>250.君子动口不动手：聊聊沟通｜EN 双语学习版</title>
+  <style>:root{--teal-950:#073f42;--teal-800:#0d686c;--teal-700:#0f7c80;--teal-600:#14919b;--mint-100:#dff4ec;--mint-50:#f0faf6;--ink:#183536;--muted:#607879;--line:#d7e8e2;--paper:#fff;--amber:#a85d08;--shadow:0 12px 32px rgba(7,63,66,.08)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:24px}
+body{margin:0;color:var(--ink);background:#edf7f2;font-family:Inter,"PingFang SC","Noto Sans SC","Microsoft YaHei",system-ui,sans-serif;line-height:1.65}
+button,select{font:inherit}
+a{color:inherit}
+.hero{color:#fff;background:radial-gradient(circle at 85% 10%,rgba(129,230,196,.24),transparent 30%),linear-gradient(125deg,#073f42,#0d7377 56%,#14919b)}
+.hero-inner{width:min(1440px,100%);margin:auto;padding:44px clamp(20px,5vw,72px) 36px}
+.hero-flex{display:flex;gap:clamp(18px,3vw,40px);align-items:flex-start}
+.hero-cover{width:min(240px,42vw);height:auto;max-height:320px;object-fit:contain;object-position:center;border-radius:16px;border:1px solid rgba(255,255,255,.28);box-shadow:0 18px 44px rgba(0,0,0,.32);flex-shrink:0;background:rgba(255,255,255,.08)}
+.hero-text{min-width:0;flex:1}
+.eyebrow{margin:0 0 12px;font-size:.78rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;opacity:.8}
+h1{max-width:1020px;margin:0;font-size:clamp(1.7rem,3.6vw,3rem);line-height:1.15;letter-spacing:-.04em}
+.hero-en{margin:12px 0 22px;font-size:clamp(1rem,2vw,1.25rem);opacity:.82}
+.hero-meta{display:flex;flex-wrap:wrap;gap:9px;align-items:center}
+.chip{border:1px solid rgba(255,255,255,.28);border-radius:99px;padding:5px 11px;font-size:.82rem;background:rgba(255,255,255,.08)}
+.source-link{font-weight:750;text-decoration:none;border-bottom:1px solid rgba(255,255,255,.5)}
+.toolbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:22px}
+.toolbar label{font-size:.82rem;opacity:.82}
+.toolbar select{color:#fff;background:#0a5d61;border:1px solid rgba(255,255,255,.3);border-radius:8px;padding:7px 9px}
+.stop-btn{display:none;color:#fff;background:#8c3b2a;border:0;border-radius:8px;padding:8px 12px;cursor:pointer}
+.stop-btn.visible{display:inline-flex}
+.speech-status{min-height:1.4em;font-size:.82rem;opacity:.88}
+.lang-switch{display:inline-flex;gap:6px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.28);border-radius:99px;padding:4px}
+.lang-switch a{display:inline-block;padding:4px 13px;border-radius:99px;font-size:.8rem;font-weight:700;text-decoration:none;color:rgba(255,255,255,.75)}
+.lang-switch a.active{background:#fff;color:var(--teal-800)}
+.narration-player{margin-top:16px;padding:14px 18px;background:rgba(255,255,255,.1);border-radius:12px;border:1px solid rgba(255,255,255,.15)}
+.audio-label{color:rgba(255,255,255,.88);font-size:.82rem;font-weight:700;margin:0 0 8px}
+.page{width:min(1440px,100%);margin:auto;padding:28px clamp(16px,3vw,44px) 64px;display:grid;grid-template-columns:minmax(230px,280px) minmax(0,1fr);gap:30px;align-items:start}
+.sidebar{position:sticky;top:20px;min-width:0}
+.sidebar-box{background:rgba(255,255,255,.8);border:1px solid var(--line);border-radius:16px;padding:17px;box-shadow:var(--shadow);backdrop-filter:blur(12px)}
+.sidebar h2{margin:0 0 13px;font-size:.9rem;letter-spacing:.08em;color:var(--teal-800)}
+.map-link{display:grid;grid-template-columns:34px minmax(0,1fr);gap:9px;padding:10px 6px;text-decoration:none;border-top:1px solid var(--line)}
+.map-link:hover b{color:var(--teal-700)}
+.map-id{width:30px;height:30px;display:grid;place-items:center;border-radius:9px;color:#fff;background:var(--teal-700);font-size:.72rem;font-weight:800}
+.map-link b{display:block;font-size:.78rem;line-height:1.4}
+.map-link small{display:block;color:var(--muted);font-size:.67rem;line-height:1.4;margin-top:2px;overflow-wrap:anywhere}
+.content{min-width:0}
+.scene-card{background:var(--paper);border:1px solid var(--line);border-radius:20px;padding:clamp(20px,3vw,34px);margin-bottom:24px;box-shadow:var(--shadow);overflow:hidden}
+.scene-topline{display:flex;justify-content:space-between;gap:16px;align-items:center;margin-bottom:16px}
+.scene-id{display:inline-grid;place-items:center;min-width:42px;height:30px;padding:0 10px;color:#fff;background:var(--teal-700);border-radius:8px;font-size:.78rem;font-weight:850}
+.time{margin-left:10px;color:var(--muted);font-size:.82rem;font-variant-numeric:tabular-nums}
+.scene-card h2{margin:0 0 2px;font-size:clamp(1.35rem,2.4vw,2rem);line-height:1.25;color:var(--teal-950)}
+.scene-title-en{margin:0 0 18px;color:var(--teal-600);font-weight:700;font-size:.98rem}
+.context{margin:0 0 20px;padding:12px 15px;color:#496566;background:var(--mint-50);border-left:3px solid var(--teal-600);border-radius:0 10px 10px 0;font-size:.88rem}
+.context b{margin-right:10px;color:var(--teal-800)}
+.sentence-list{display:grid;gap:12px}
+.sentence{position:relative;display:grid;grid-template-columns:38px minmax(0,1fr);gap:12px;padding:16px;border:1px solid #e2ece8;border-radius:14px;background:#fcfefd;min-width:0}
+.sentence-no{color:var(--teal-600);font-size:.76rem;font-weight:850;font-variant-numeric:tabular-nums;padding-top:4px}
+.bilingual{min-width:0;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(14px,2vw,28px)}
+.lang-block{min-width:0}
+.lang-block p{margin:5px 0 0;overflow-wrap:anywhere}
+.en-block{padding-left:clamp(14px,2vw,28px);border-left:1px solid var(--line)}
+.en-block p{color:#0b5c60;font-weight:650}
+.lang-tag{display:inline-block;color:var(--muted);font-size:.66rem;font-weight:850;letter-spacing:.12em}
+.en-head{display:flex;justify-content:space-between;gap:10px;align-items:center;min-height:30px}
+.note{grid-column:2;margin:1px 0 0;color:#708182;font-size:.78rem}
+.note span{margin-right:7px;color:var(--amber);font-weight:750}
+.speak-btn{display:inline-flex;align-items:center;gap:7px;border:1px solid #b8d9d1;border-radius:9px;padding:7px 11px;color:var(--teal-800);background:#f5fbf8;cursor:pointer;white-space:nowrap;font-size:.78rem;font-weight:750;transition:.15s ease}
+.speak-btn:hover{color:#fff;background:var(--teal-700);border-color:var(--teal-700);transform:translateY(-1px)}
+.speak-btn.playing{color:#fff;background:var(--teal-700);border-color:var(--teal-700)}
+.speak-btn.compact{padding:4px 8px;font-size:.7rem}
+.speak-btn.icon-only{padding:3px 7px;margin-left:6px}
+.speak-btn.icon-only span:last-child{display:none}
+.pronounce-word{display:inline;margin:0;padding:0 2px;color:inherit;background:rgba(20,145,155,.08);border:0;border-bottom:1px dashed var(--teal-600);border-radius:3px;font:inherit;font-weight:inherit;line-height:inherit;cursor:pointer}
+.pronounce-word:hover,.pronounce-word:focus{color:var(--teal-950);background:#cceee4;border-bottom-style:solid;outline:3px solid rgba(20,145,155,.42);outline-offset:2px}
+.pronounce-word.playing{color:#fff;background:var(--teal-700);border-bottom-color:var(--teal-700)}
+.paraphrase{margin-top:18px;border-top:1px solid var(--line)}
+.paraphrase summary{padding:16px 0 3px;color:var(--teal-800);cursor:pointer;font-weight:800}
+.paraphrase summary span{color:var(--muted);font-size:.75rem;font-weight:500;margin-left:8px}
+.paraphrase ol{margin:12px 0 0;padding-left:22px}
+.paraphrase li{padding:7px 0 9px 5px}
+.paraphrase li p{margin:0;font-size:.9rem;font-weight:650}
+.paraphrase li small{display:block;color:var(--muted);font-size:.72rem;margin-top:2px}
+.chunks{margin-top:4px;color:var(--teal-700);font-size:.78rem}
+.study-section{margin:38px 0 0}
+.section-heading{display:flex;align-items:baseline;gap:10px;margin:0 0 15px;color:var(--teal-950);font-size:1.35rem}
+.section-heading small{color:var(--teal-600);font-size:.78rem;letter-spacing:.05em}
+.study-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.study-grid article{padding:17px;background:#fff;border:1px solid var(--line);border-radius:14px;box-shadow:0 6px 18px rgba(7,63,66,.05);min-width:0}
+.study-grid p{margin:0}
+.practice-en{margin-top:9px;color:var(--teal-700);font-weight:650;overflow-wrap:anywhere}
+.wrong{color:#a24831;text-decoration:line-through;overflow-wrap:anywhere}
+.right{color:var(--teal-700);font-weight:750;margin:5px 0;overflow-wrap:anywhere}
+.pitfalls p{color:var(--muted);font-size:.82rem}
+.shifts article{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1.5fr);gap:12px;align-items:center}
+.shifts b{color:var(--teal-600);font-size:1.2rem}
+.shifts strong{color:var(--teal-800)}
+footer{margin-top:38px;color:var(--muted);font-size:.78rem;text-align:center}
+.footer-note{margin-top:6px}
+@media (max-width:900px){
+  .page{grid-template-columns:1fr}
+  .sidebar{position:static}
+  .sidebar-box{overflow-x:auto;padding:12px}
+  .sidebar h2{padding-left:5px}
+  .map-nav{display:flex;width:max-content;gap:8px}
+  .map-link{width:240px;border:1px solid var(--line);border-radius:10px;padding:8px}
+  .bilingual{grid-template-columns:1fr}
+  .en-block{padding:12px 0 0;border-left:0;border-top:1px dashed var(--line)}
+}
+@media (max-width:620px){
+  .hero-inner{padding-top:30px}
+  .hero-flex{flex-direction:column;align-items:center}
+  .hero-cover{width:100%;max-width:360px}
+  .hero-text{text-align:center}
+  .page{padding-inline:10px;gap:18px}
+  .scene-card{border-radius:14px;padding:17px 13px}
+  .scene-topline{align-items:flex-start}
+  .scene-speak span:last-child{display:none}
+  .sentence{grid-template-columns:26px minmax(0,1fr);padding:13px 10px;gap:6px}
+  .note{grid-column:2}
+  .study-grid{grid-template-columns:1fr}
+  .shifts article{grid-template-columns:1fr;gap:5px}
+  .shifts b{transform:rotate(90deg);justify-self:start}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.speak-btn{transition:none}}</style>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="hero-flex">
+        <div class="hero-text">
+          <p class="eyebrow">Communication · 沟通</p>
+          <h1>250.君子动口不动手：聊聊沟通</h1>
+          <p class="hero-en">A Gentleman Uses Words, Not Fists: Let's Talk About Communication</p>
+          <p class="summary-en" style="margin:0 0 14px;padding:14px 16px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.22);border-radius:12px;font-size:.95rem;line-height:1.7">Comedian Shi Yan is joined by four fellow stand-ups — Shen Qing, Zhang Jianing, Liu Rencheng, and Ma Jun — to talk communication: from an awkward marriage proposal and the unexpected bonus of a fierce-looking face, to the "sincerity bar" in commercial-show pricing, the industry taboo on talking money, dog-walking small talk, speaking up at a massage, chasing late payments, and parents pushing marriage. Their shared conclusion: communication is not a bag of smooth-talking tricks — it is about reading the scene, managing expectations, and setting boundaries. The episode closes on a consensus: if you want to talk, talk; if you don't, don't.</p>
+          <div class="hero-meta">
+            <span class="chip">2026-07-24</span>
+            <span class="chip">小宇宙FM</span>
+            <span class="chip">2小时04分</span>
+            <span class="chip">6 Scenes</span>
+            <span class="chip">Click underlined words to hear them</span>
+            <a class="source-link" href="https://www.xiaoyuzhoufm.com/episode/6a3e39ae9d2f5743683e40fa" target="_blank" rel="noopener">原播客 ↗</a>
+          </div>
+        </div>
+      </div>
+      <div class="toolbar">
+        <div class="lang-switch"><div class="lang-switch"><a href="jundongkou_communication_ep250-总结.html">中文</a><a class="active" href="jundongkou_communication_ep250-en.html" aria-current="page">EN</a></div></div>
+        <label for="speech-rate">朗读速度</label>
+        <select id="speech-rate">
+          <option value="0.85">慢速 0.85×</option>
+          <option value="1" selected>正常 1×</option>
+          <option value="1.15">快速 1.15×</option>
+        </select>
+        <button id="stop-speech" class="stop-btn" type="button">■ 停止朗读</button>
+        <span id="speech-status" class="speech-status" role="status" aria-live="polite"></span>
+      </div>
+      <div class="narration-player">
+      <p class="audio-label">🎧 中文语音讲解</p>
+      <button class="speak-btn" type="button" data-audio="audio/jundongkou_communication_ep250.mp3" aria-label="播放语音讲解"><span aria-hidden="true">▶</span><span>播放语音讲解</span></button>
+    </div>
+    </div>
+  </header>
+  <main class="page">
+    <aside class="sidebar" aria-label="场景地图">
+      <div class="sidebar-box">
+        <h2>场景地图 · SCENE MAP</h2>
+        <nav class="map-nav">
+          <a class="map-link" href="#s1">
+          <span class="map-id">S1</span>
+          <span><b>一、面恶心善：刻板印象的沟通红利</b><small> · Fierce Face, Kind Heart: The Bonus of Stereotypes</small></span>
+        </a>
+<a class="map-link" href="#s2">
+          <span class="map-id">S2</span>
+          <span><b>二、商演报价：真诚的尺度与拒绝艺术</b><small> · Quoting a Show: The Sincerity Bar and the Art of Saying No</small></span>
+        </a>
+<a class="map-link" href="#s3">
+          <span class="map-id">S3</span>
+          <span><b>三、结构化沟通：5W1H 胜过一切话术</b><small> · Structured Communication: 5W1H Beats Any Sales Pitch</small></span>
+        </a>
+<a class="map-link" href="#s4">
+          <span class="map-id">S4</span>
+          <span><b>四、生活场景：敢说需求 vs 忍着不说</b><small> · Everyday Life: Speaking Up vs. Suffering in Silence</small></span>
+        </a>
+<a class="map-link" href="#s5">
+          <span class="map-id">S5</span>
+          <span><b>五、职场与金钱：技巧解决不了的结构性问题</b><small> · Work and Money: Structural Problems No Trick Can Fix</small></span>
+        </a>
+<a class="map-link" href="#s6">
+          <span class="map-id">S6</span>
+          <span><b>六、家庭沟通：通气可以，不必辩经</b><small> · Family Communication: Keep Them in the Loop, Skip the Debate</small></span>
+        </a>
+        </nav>
+      </div>
+    </aside>
+    <div class="content">
+      <section class="scene-card" id="s1" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S1</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/jundongkou_communication_ep250/s1.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>一、面恶心善：刻板印象的沟通红利</h2>
+      <p class="scene-title-en">Fierce Face, Kind Heart: The Bonus of Stereotypes</p>
+      <p class="context"><b>情境</b>为什么「看着不好惹」反而是红利——对方因刻板印象先退让，事后发现好沟通而惊喜。语域：casual 闲聊 + 播客点评。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：外表冷淡、嘴硬、表情不情愿，但实际行动会配合；对方因刻板印象先退让一步，事后发现「原来挺好说话」产生惊喜感</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/jundongkou_communication_ep250/s1-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The mechanism: a cold look, a sharp tongue, and a reluctant expression — but in practice, they go along with it. Because of the stereotype, the other party gives ground first; afterwards they discover "actually you're easy to deal with" and feel pleasantly surprised.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>sharp tongue → 嘴硬；give ground → 退让一步；pleasantly surprised → 惊喜感</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：沈清、张佳宁自认「看着不好沟通」，反而能天然拒绝无理要求；嘉宁吃亏在「干了活还没落好」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/jundongkou_communication_ep250/s1-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key insight: Shen Qing and Zhang Jianing admit they "look hard to talk to," which lets them naturally reject unreasonable requests. Jianing's real loss is doing the work but getting no credit for it.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>hard to talk to → 不好沟通；get no credit → 没落好；reject a request → 拒绝要求</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>典型场景：监狱里管借钱的人唯独不敢找「面恶心善」的人借；合作方报价时对方先让一步</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/jundongkou_communication_ep250/s1-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">A typical scene: in prison, even the guy who runs the lending racket won't dare ask a "fierce-face, kind-heart" type for money; when a partner quotes a price, they make the first concession.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>lending racket → 管借钱的人；make the first concession → 先让一步</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据：「看上去不是很好沟通……沟通完之后发现原来我们是好沟通的，还能给人一种惊喜感。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/jundongkou_communication_ep250/s1-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">"They look like they're hard to communicate with... after talking, they discover we're actually easy to deal with — it even gives people a sense of pleasant surprise."</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>easy to deal with → 好沟通；a sense of pleasant surprise → 一种惊喜感</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）相关概念：嘴硬耳根软（石岩）vs 面恶心善（沈清/嘉宁）是不同沟通类型</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/jundongkou_communication_ep250/s1-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Related concept: "sharp tongue, soft ears" — Shi Yan's type — versus "fierce face, kind heart" — Shen Qing and Jianing's type — are two different communication styles.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>communication style → 沟通类型；sharp tongue, soft ears → 嘴硬耳根软</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>嘉宁嘴上、表情都显示不情不愿，但事都做了；别人觉得她不高兴，干了还没落好，其实挺吃亏。理论上该有经纪人当坏人，但她的经纪人都拦不住她自己说</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/jundongkou_communication_ep250/s1-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Jianing's words and face both show reluctance, but she still gets the job done. People assume she's unhappy, she works hard and gets no credit — that's a raw deal. In theory a manager should play the bad guy, but even her manager can't stop her from blurting things out herself.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>a raw deal → 挺吃亏；play the bad guy → 当坏人；blurt out → 忍不住说出来</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「看着不好沟通，其实挺好说话」</p><div class="chunks">hard to deal with · unapproachable · a pushover</div><small>第一句中性自嘲，第二句更俏皮口语</small></li>
+<li><p>想说「干了活还没落好」</p><div class="chunks">zero credit · work one's tail off</div><small>第一句直白，第二句抱怨感更强</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s2" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S2</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/jundongkou_communication_ep250/s2.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>二、商演报价：真诚的尺度与拒绝艺术</h2>
+      <p class="scene-title-en">Quoting a Show: The Sincerity Bar and the Art of Saying No</p>
+      <p class="context"><b>情境</b>如何拒绝邀约而不伤关系——感谢信任、说明时间、留有余地；真诚 vs 找借口的区别。语域：casual 职场吐槽 + 播客点评。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：俱乐部报价从十万砍到八千，沈清不会直接说「不行」，而是感谢信任+说明时间不合适+留有余地；石岩追问「没时间不就是钱的事吗」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/jundongkou_communication_ep250/s2-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The mechanism: a club slashes its offer from 100,000 down to 8,000 yuan. Shen Qing won't flat-out say no. Instead she thanks them for their trust, explains the timing doesn't work, and leaves the door open. Shi Yan presses: "Isn't 'no time' really about the money?"</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>slash the offer → 大幅压价；leave the door open → 留有余地；press someone → 追问</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：真诚不是答应一切，而是诚实表达立场；用「排满了」当借口反而不真诚</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/jundongkou_communication_ep250/s2-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key insight: sincerity doesn't mean saying yes to everything — it means honestly stating where you stand. Using "my schedule is packed" as an excuse is actually the less sincere move.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>where you stand → 你的立场；packed schedule → 排满了</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>典型场景：新俱乐部预算有限邀约知名演员；演员档期与报价冲突</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/jundongkou_communication_ep250/s2-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">A typical scene: a new club with a limited budget invites a well-known performer, and the performer's schedule clashes with what they're willing to pay.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>limited budget → 预算有限；clash → 冲突</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据：「感谢你的信任……现在这个时间的话我可能不太合适，如果我有空余的时间我可以考虑一下。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/jundongkou_communication_ep250/s2-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">"Thank you for your trust... this particular time might not work for me, but if I have some free time I can consider it."</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>might not work for me → 我不太合适；have some free time → 有空余时间</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）相关概念：5W1H结构化邀约 vs 模糊试探</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/jundongkou_communication_ep250/s2-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Related concept: a structured 5W1H invitation — who, what, when, where, why, how — versus vague probing.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>structured invitation → 结构化邀约；vague probing → 模糊试探</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>十万与八千差距太大，不会接；换成一千与八十的比例，可能会说「你找刘仁诚吧」。喜欢对方把几月几号、关于什么、多少钱、要干什么全部写清楚，自己考量去不去</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/jundongkou_communication_ep250/s2-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The gap between 100,000 and 8,000 is just too wide, so she won't take it. But if the ratio were 1,000 to 80, she might say "go ask Liu Rencheng." She likes it when the other side spells out the date, the topic, the money, and the task in full, so she can weigh whether to go.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>spell out → 写清楚/说明白；weigh whether to → 考量要不要</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「留有余地地拒绝」</p><div class="chunks">flattered · timing doesn't work · some other time</div><small>第一句正式一些，第二句更轻松</small></li>
+<li><p>想说「把条件一次性写清楚」</p><div class="chunks">spell out · in one message · in writing</div><small>第一句具体，第二句是原则性表达</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s3" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S3</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/jundongkou_communication_ep250/s3.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>三、结构化沟通：5W1H 胜过一切话术</h2>
+      <p class="scene-title-en">Structured Communication: 5W1H Beats Any Sales Pitch</p>
+      <p class="context"><b>情境</b>把日期、主题、金额、任务一次写清是尊重对方时间的效率工具，而非话术；对比阴阳怪气的「错位沟通」。语域：casual 观点输出。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：把日期、主题、金额、具体任务一次性写清，对方只需判断意愿，省去来回试探</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/jundongkou_communication_ep250/s3-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The mechanism: put the date, the topic, the budget, and the specific task all in one message. The other party only has to decide whether they want in — no back-and-forth guessing.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>want in → 愿意参与；back-and-forth → 来回拉扯；all in one message → 一次性写清</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：这不是「沟通技巧」，是尊重对方时间的效率工具</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/jundongkou_communication_ep250/s3-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key insight: this isn't a "communication trick" — it's an efficiency tool that respects the other person's time.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>communication trick → 沟通技巧；efficiency tool → 效率工具</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>典型场景：商演邀约、合作邮件、工作指派</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/jundongkou_communication_ep250/s3-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">A typical scene: show invitations, partnership emails, and work assignments.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>show invitation → 商演邀约；work assignment → 工作指派</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据：「有个什么活，几月几号，关于什么的，多少钱，要你干什么，全部给我写出来。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/jundongkou_communication_ep250/s3-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">"There's a gig — what date, about what, how much money, what they want you to do — write it all out for me."</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>write it all out → 全部写出来；gig → 活/演出</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）相关概念：电话沟通 vs 文字沟通的个人偏好差异</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/jundongkou_communication_ep250/s3-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Related concept: the personal preference gap between phone calls and written communication.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>phone call → 电话沟通；written communication → 文字沟通</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>有些人用发问号、小阴阳表达不满，属于「不平等的沟通」或「错位的沟通」；很多人这么沟通但自己意识不到</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/jundongkou_communication_ep250/s3-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Some people show displeasure by firing off question marks or making passive-aggressive digs — that's "unequal communication" or "mismatched communication." Lots of people do it without realizing.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>passive-aggressive → 阴阳怪气；mismatched communication → 错位的沟通</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「把需求写清楚，对方只要回答行不行」</p><div class="chunks">lay out the details · say yes or no</div><small>第一句更口语，第二句强调对方决策成本极低</small></li>
+<li><p>想说「阴阳怪气表达不满」</p><div class="chunks">passive-aggressive digs · question marks</div><small>第一句直接批评，第二句给出替代做法</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s4" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S4</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/jundongkou_communication_ep250/s4.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>四、生活场景：敢说需求 vs 忍着不说</h2>
+      <p class="scene-title-en">Everyday Life: Speaking Up vs. Suffering in Silence</p>
+      <p class="context"><b>情境</b>按摩先说「不按脖子」、理发直接给照片——专业服务者期待你表达偏好；沉默不是礼貌而是自罪。语域：casual 生活经验分享。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：按摩师力度太大，阿诚以前忍着不说，现在会提前说「不按脖子」；理发直接给经纪人发的造型照片说「剪成这样就行」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/jundongkou_communication_ep250/s4-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The mechanism: when a masseuse worked too hard, Acheng used to just grit his teeth; now he says up front, "skip my neck." For haircuts, he hands over the styling photo and says, "just cut it like this."</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>grit one's teeth → 忍着不说；say up front → 提前说；skip my neck → 不按脖子</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：沉默不是礼貌，是让自己受罪；专业服务人员期待你表达偏好</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/jundongkou_communication_ep250/s4-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key insight: silence isn't politeness — it's making yourself suffer. Professionals actually expect you to state your preferences.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>make yourself suffer → 让自己受罪；state your preferences → 表达偏好</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>典型场景：按摩、理发、化妆（「淡一点就行」）</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/jundongkou_communication_ep250/s4-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">A typical scene: massage, haircuts, and makeup — "keep it light" at the makeup counter.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>keep it light → 淡一点就行</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据：「我一般不让按脖子……一般会提前说，我觉得再疼也能忍，我就不太说话。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/jundongkou_communication_ep250/s4-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">"I usually don't let them touch my neck... I say it in advance. If it's something I can grit through, I just stay quiet."</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>in advance → 提前；grit through → 忍过去</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）相关概念：阿诚「不到万不得已不太沟通」vs 沈清会提前说</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/jundongkou_communication_ep250/s4-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Related concept: Acheng only speaks up when he has no choice, while Shen Qing says it in advance — two opposite ends of the spectrum.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>no choice but to → 万不得已；opposite ends of the spectrum → 两个极端</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>原因：爱马仕狗太爱叫，对方担心狗打架直接拉走；不是主人不行，是狗的行径影响信任建立</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/jundongkou_communication_ep250/s4-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The reason: an Hermès-clad dog barked too much, so the other person worried about a dogfight and just walked away. It wasn't the owner who was the problem — the dog's behavior sabotaged the trust-building.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>sabotage trust → 影响信任建立；walk away → 直接拉走</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「按摩时说清不按哪里」</p><div class="chunks">skip my neck · sensitive spot</div><small>第一句直接口语，第二句更礼貌</small></li>
+<li><p>想说「忍着不说其实吃亏」</p><div class="chunks">makes it worse · read one's mind</div><small>第一句自我劝告，第二句点破道理</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s5" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S5</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/jundongkou_communication_ep250/s5.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>五、职场与金钱：技巧解决不了的结构性问题</h2>
+      <p class="scene-title-en">Work and Money: Structural Problems No Trick Can Fix</p>
+      <p class="context"><b>情境</b>合同签了、发票开了仍不结尾款——有些问题是行业常态，不是沟通能力问题。语域：casual 职场真相 + 播客点评。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：合同签了、发票开了，对方仍不结尾款，找各种理由；波浪线、客气话都发了也没用</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/jundongkou_communication_ep250/s5-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The mechanism: the contract's signed, the invoice is out, and the client still won't pay the final installment — always with another excuse. Sending a wavy-line emoji or polite small talk won't move the needle.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>final installment → 尾款；move the needle → 起作用/改变结果</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：这是行业常态，不是沟通能力问题；工厂加工、开超市都有「不可避免损失比例」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/jundongkou_communication_ep250/s5-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key insight: this is the industry norm, not a communication problem. Factories and supermarkets all factor in an "unavoidable loss rate."</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>industry norm → 行业常态；unavoidable loss rate → 不可避免的损失比例</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>典型场景：创业公司被大公司拖欠；装修工程款难收</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/jundongkou_communication_ep250/s5-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">A typical scene: a startup being strung along by a big company, or a renovation contractor fighting to collect the final payment.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>string someone along → 拖欠/拖着；collect payment → 收款</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据：「发票已经开好了，到这个结果，就不是沟通技巧可以解决了。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/jundongkou_communication_ep250/s5-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">"Once the invoice is out and it's come to this, no communication trick is going to fix it."</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>come to this → 到这个地步；fix → 解决</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）相关概念：朋友借钱难催（对方过得太惨不好意思提）</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/jundongkou_communication_ep250/s5-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Related concept: lending money to a friend is hard to collect — when the friend is struggling that much, you can't bear to bring it up.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>can't bear to → 不好意思；bring it up → 提起</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>原因：行业寒冬，演员收入锐减，借了钱的朋友过得太惨，吃饭都不好意思提</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/jundongkou_communication_ep250/s5-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The reason: the industry is in a deep freeze, performers' income has collapsed, and the friends who borrowed money are doing so badly that you can't even bring it up over a meal.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>deep freeze → 寒冬；income collapsed → 收入锐减</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「这不是沟通能解决的」</p><div class="chunks">smooth talking · beyond communication · structural</div><small>第一句口语，第二句带分析感</small></li>
+<li><p>想说「不好意思催朋友还钱」</p><div class="chunks">bring myself to · let it go</div><small>第一句描述心理，第二句说明做法</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s6" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S6</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/jundongkou_communication_ep250/s6.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>六、家庭沟通：通气可以，不必辩经</h2>
+      <p class="scene-title-en">Family Communication: Keep Them in the Loop, Skip the Debate</p>
+      <p class="context"><b>情境</b>职业转型告诉家人是在「通气」而非「征求同意」；不是所有事都需要解释。语域：casual 家庭话题 + 观点输出。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：很多人瞒着家人说脱口秀，上节目才知道；马俊30多岁跟家人通气，父母表达质疑后接受——「人都大了，也确实管不了」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/jundongkou_communication_ep250/s6-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The mechanism: a lot of people hide their stand-up careers from family until a TV appearance reveals it. Ma Jun, in his thirties, kept his parents in the loop; after voicing doubts, they accepted it — "he's grown up now, there's nothing they can do about it."</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>keep someone in the loop → 跟某人通气；voice doubts → 表达质疑</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：不是征求同意，是告知；父母认为「不是正经行业」除非有明显成绩</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/jundongkou_communication_ep250/s6-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key insight: it's about informing, not asking permission. Parents see it as "not a proper career" unless there are obvious results to show.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>ask permission → 征求同意；a proper career → 正经行业</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>典型场景：职业转型、副业选择、离家发展</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/jundongkou_communication_ep250/s6-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">A typical scene: career pivots, side-hustle choices, and moving away from home to develop.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>career pivot → 职业转型；side hustle → 副业</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据：「也不是征求他们同意……就是表达了一下质疑……然后就接受了，所以是一种很无力的阻挠。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/jundongkou_communication_ep250/s6-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">"It wasn't about asking their consent... they just voiced some doubts... then accepted it. It's a very powerless kind of resistance."</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>consent → 同意；powerless resistance → 无力的阻挠</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）相关概念：催婚说不通 vs 职业选择可以不说</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/jundongkou_communication_ep250/s6-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Related concept: marriage pressure is a lost cause to argue about, while career choices can simply go unmentioned.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>lost cause → 说不通的事；go unmentioned → 不被提起</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>父母买骗钱理财产品，你不告诉、他买了你也不知道；每个人处打一个不熟。除非他张嘴求你，否则强行「为你好」没必要</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/jundongkou_communication_ep250/s6-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">If your parents buy into a scammy wealth product, you don't warn them and they never tell you — everyone plays their cards close. Unless they come to you for help, forcing "I'm just looking out for you" is unnecessary.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>scammy wealth product → 骗钱理财产品；play it close to the chest → 藏着掖着</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「跟父母通气而不是征求同意」</p><div class="chunks">told vs. asked · for approval</div><small>第一句讲事实，第二句是观点</small></li>
+<li><p>想说「有些事不必解释」</p><div class="chunks">don't need explaining · owe an explanation</div><small>第一句中性，第二句更坚定</small></li>
+        </ol>
+      </details>
+    </section>
+      <section class="study-section" id="practice">
+      <h2 class="section-heading">今日可练 <small>PRACTICE TODAY</small></h2>
+      <div class="study-grid">
+        <article>
+          <p>用「give ground」说：刻板印象让对方先退让一步。</p>
+          <div class="practice-en">
+            The stereotype made the other side give ground first.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/jundongkou_communication_ep250/practice-0.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「spell out」说：把日期、主题、价格和任务一次写清。</p>
+          <div class="practice-en">
+            Spell out the date, the topic, the price, and the task all at once.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/jundongkou_communication_ep250/practice-1.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「keep in the loop」说：职业选择只需要跟家人通气。</p>
+          <div class="practice-en">
+            For career choices, just keep your family in the loop.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/jundongkou_communication_ep250/practice-2.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「beyond communication」说：发票开好之后，这就不是沟通能解决的了。</p>
+          <div class="practice-en">
+            Once the invoice is out, it's beyond communication.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/jundongkou_communication_ep250/practice-3.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article>
+      </div>
+    </section>
+      <section class="study-section pitfalls" id="pitfalls">
+      <h2 class="section-heading">避坑 <small>PITFALLS</small></h2>
+      <div class="study-grid">
+        <article>
+          <div class="wrong">✕ My time is not enough, so I don't accept this work.</div>
+          <div class="right">✓ Thanks for the offer — my schedule doesn't allow it right now, but let's keep in touch.</div>
+          <p>「时间不够」直译成 my time is not enough 不成立；英文用 my schedule doesn't allow / I'm fully booked。拒绝要感谢+说明+留余地。</p>
+        </article><article>
+          <div class="wrong">✕ She did the work, but there are no good words.</div>
+          <div class="right">✓ She does the work but gets no credit for it.</div>
+          <p>no good words 是「没落好」的逐字直译；英文固定说法是 get no credit / get no recognition。</p>
+        </article><article>
+          <div class="wrong">✕ I will say the barber cut like this photo.</div>
+          <div class="right">✓ I show the barber the photo and say, "cut it just like this."</div>
+          <p>中式语序 say the barber 不成立；表达要求用 show someone + say 引出原话。</p>
+        </article><article>
+          <div class="wrong">✕ The client always finds a reason, no way to urge.</div>
+          <div class="right">✓ The client always has another excuse, and no amount of nudging helps.</div>
+          <p>no way to urge 是中式表达；英文用 no amount of ... helps / nudging 表示「怎么催都没用」。</p>
+        </article>
+      </div>
+    </section>
+      <section class="study-section shifts" id="mindset">
+      <h2 class="section-heading">认知转变 <small>MINDSET SHIFTS</small></h2>
+      <div class="study-grid">
+        <article>
+          <span>拒绝别人要先找个说得过去的借口</span>
+          <b aria-hidden="true">→</b>
+          <strong>真诚说出立场、留有余地，比堆借口更有效</strong>
+        </article><article>
+          <span>忍着不说显得有修养</span>
+          <b aria-hidden="true">→</b>
+          <strong>专业服务者期待你说出偏好，沉默是让自己受罪</strong>
+        </article><article>
+          <span>沟通技巧能解决所有问题</span>
+          <b aria-hidden="true">→</b>
+          <strong>合同发票之外的拖延是结构性问题，技巧改变不了结果</strong>
+        </article>
+      </div>
+    </section>
+      <footer>
+        双语学习版 · 场景/句子朗读使用 edge-tts（en-US） · 单词发音使用浏览器 Web Speech API
+        <div class="footer-note">中文版：<a href="jundongkou_communication_ep250-总结.html">jundongkou_communication_ep250-总结.html</a> · SVG 版：<a href="viewer.html?f=jundongkou_communication_ep250-总结.svg" target="_blank">jundongkou_communication_ep250-总结.svg</a></div>
+      </footer>
+    </div>
+  </main>
+  <script>(() => {
+  let activeAudio = null;
+  let activeBtn = null;
+  const status = document.getElementById('speech-status');
+  const stopBtn = document.getElementById('stop-speech');
+  const rateSel = document.getElementById('speech-rate');
+
+  const reset = () => {
+    if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+    activeBtn?.classList.remove('playing');
+    activeBtn = null;
+    stopBtn.classList.remove('visible');
+    status.textContent = '';
+  };
+
+  const playAudio = (url, btn) => {
+    reset();
+    const audio = new Audio(url);
+    audio.playbackRate = Number(rateSel.value);
+    activeAudio = audio;
+    activeBtn = btn;
+    btn.classList.add('playing');
+    stopBtn.classList.add('visible');
+    status.textContent = btn.classList.contains('scene-speak')
+      ? 'Reading the whole scene…'
+      : 'Reading…';
+
+    audio.onended = () => { if (activeAudio === audio) reset(); };
+    audio.onerror = () => { status.textContent = 'Audio failed to load.'; if (activeAudio === audio) reset(); };
+    audio.play().catch(() => { status.textContent = 'Playback failed.'; if (activeAudio === audio) reset(); });
+  };
+
+  document.addEventListener('click', e => {
+    const btn = e.target.closest('[data-audio]');
+    if (!btn) return;
+    e.preventDefault();
+    if (btn === activeBtn && activeAudio) { reset(); return; }
+    playAudio(btn.dataset.audio, btn);
+  });
+
+  stopBtn.addEventListener('click', reset);
+
+  const synth = window.speechSynthesis;
+  const getEnglishVoice = () => {
+    const voices = synth.getVoices();
+    return voices.find(v => /^en-(US|GB)/i.test(v.lang))
+        || voices.find(v => /^en/i.test(v.lang)) || null;
+  };
+
+  const difficultWords = new Set([
+    'assortment', 'SKU', 'premium', 'margin', 'middleman', 'OEM', 'rebranding',
+    'hoarding', 'PTSD', 'curation', 'repurchase', 'touchpoint', 'backlash',
+    'reshuffle', 'funnel', 'anchor', 'contract', 'psychology', 'private', 'label',
+    'editorial', 'familiar', 'competitors', 'authorization', 'flexibility'
+  ]);
+
+  const shouldPronounce = word => {
+    const n = word.toLowerCase().replace(/^[^a-z]+|[^a-z]+$/g, '');
+    return n.replace(/[^a-z]/g, '').length >= 8 || difficultWords.has(n);
+  };
+
+  const markPronounceableWords = root => {
+    const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+    const nodes = [];
+    while (walker.nextNode()) nodes.push(walker.currentNode);
+    nodes.forEach(node => {
+      if (node.parentElement?.closest('button, script, style')) return;
+      const text = node.nodeValue;
+      let m, last = 0, changed = false;
+      const frag = document.createDocumentFragment();
+      const re = /[A-Za-z]+(?:[-'’][A-Za-z]+)*/g;
+      while ((m = re.exec(text))) {
+        if (!shouldPronounce(m[0])) continue;
+        changed = true;
+        frag.append(text.slice(last, m.index));
+        const wb = document.createElement('button');
+        wb.type = 'button'; wb.className = 'pronounce-word';
+        wb.dataset.speak = m[0];
+        wb.setAttribute('aria-label', '\u8bfb\u5355\u8bcd ' + m[0]);
+        wb.title = '\u70b9\u51fb\u542c\u53d1\u97f3';
+        wb.textContent = m[0];
+        frag.append(wb);
+        last = m.index + m[0].length;
+      }
+      if (!changed) return;
+      frag.append(text.slice(last));
+      node.replaceWith(frag);
+    });
+  };
+
+  document.querySelectorAll(
+    '.english, .scene-title-en, .paraphrase li p, .chunks, .practice-en, .wrong, .right, .summary-en'
+  ).forEach(markPronounceableWords);
+
+  document.addEventListener('click', e => {
+    const wb = e.target.closest('.pronounce-word');
+    if (!wb) return;
+    e.preventDefault();
+    if (!synth) return;
+    synth.cancel();
+    if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+    activeBtn?.classList.remove('playing');
+    activeBtn = wb;
+    wb.classList.add('playing');
+    const u = new SpeechSynthesisUtterance(wb.dataset.speak);
+    u.lang = 'en-US';
+    u.rate = 0.88;
+    const v = getEnglishVoice();
+    if (v) u.voice = v;
+    u.onend = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+    u.onerror = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+    synth.speak(u);
+  });
+})();</script>
+</body>
+</html>

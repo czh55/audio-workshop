@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content=""置身厂内"的我们，如何找回自洽的人生？ — Bilingual Learning Edition" />
+  <title>"置身厂内"的我们，如何找回自洽的人生？｜EN 双语学习版</title>
+  <style>:root{--teal-950:#073f42;--teal-800:#0d686c;--teal-700:#0f7c80;--teal-600:#14919b;--mint-100:#dff4ec;--mint-50:#f0faf6;--ink:#183536;--muted:#607879;--line:#d7e8e2;--paper:#fff;--amber:#a85d08;--shadow:0 12px 32px rgba(7,63,66,.08)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:24px}
+body{margin:0;color:var(--ink);background:#edf7f2;font-family:Inter,"PingFang SC","Noto Sans SC","Microsoft YaHei",system-ui,sans-serif;line-height:1.65}
+button,select{font:inherit}
+a{color:inherit}
+.hero{color:#fff;background:radial-gradient(circle at 85% 10%,rgba(129,230,196,.24),transparent 30%),linear-gradient(125deg,#073f42,#0d7377 56%,#14919b)}
+.hero-inner{width:min(1440px,100%);margin:auto;padding:44px clamp(20px,5vw,72px) 36px}
+.hero-flex{display:flex;gap:clamp(18px,3vw,40px);align-items:flex-start}
+.hero-cover{width:min(240px,42vw);height:auto;max-height:320px;object-fit:contain;object-position:center;border-radius:16px;border:1px solid rgba(255,255,255,.28);box-shadow:0 18px 44px rgba(0,0,0,.32);flex-shrink:0;background:rgba(255,255,255,.08)}
+.hero-text{min-width:0;flex:1}
+.eyebrow{margin:0 0 12px;font-size:.78rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;opacity:.8}
+h1{max-width:1020px;margin:0;font-size:clamp(1.7rem,3.6vw,3rem);line-height:1.15;letter-spacing:-.04em}
+.hero-en{margin:12px 0 22px;font-size:clamp(1rem,2vw,1.25rem);opacity:.82}
+.hero-meta{display:flex;flex-wrap:wrap;gap:9px;align-items:center}
+.chip{border:1px solid rgba(255,255,255,.28);border-radius:99px;padding:5px 11px;font-size:.82rem;background:rgba(255,255,255,.08)}
+.source-link{font-weight:750;text-decoration:none;border-bottom:1px solid rgba(255,255,255,.5)}
+.toolbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:22px}
+.toolbar label{font-size:.82rem;opacity:.82}
+.toolbar select{color:#fff;background:#0a5d61;border:1px solid rgba(255,255,255,.3);border-radius:8px;padding:7px 9px}
+.stop-btn{display:none;color:#fff;background:#8c3b2a;border:0;border-radius:8px;padding:8px 12px;cursor:pointer}
+.stop-btn.visible{display:inline-flex}
+.speech-status{min-height:1.4em;font-size:.82rem;opacity:.88}
+.lang-switch{display:inline-flex;gap:6px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.28);border-radius:99px;padding:4px}
+.lang-switch a{display:inline-block;padding:4px 13px;border-radius:99px;font-size:.8rem;font-weight:700;text-decoration:none;color:rgba(255,255,255,.75)}
+.lang-switch a.active{background:#fff;color:var(--teal-800)}
+.narration-player{margin-top:16px;padding:14px 18px;background:rgba(255,255,255,.1);border-radius:12px;border:1px solid rgba(255,255,255,.15)}
+.audio-label{color:rgba(255,255,255,.88);font-size:.82rem;font-weight:700;margin:0 0 8px}
+.page{width:min(1440px,100%);margin:auto;padding:28px clamp(16px,3vw,44px) 64px;display:grid;grid-template-columns:minmax(230px,280px) minmax(0,1fr);gap:30px;align-items:start}
+.sidebar{position:sticky;top:20px;min-width:0}
+.sidebar-box{background:rgba(255,255,255,.8);border:1px solid var(--line);border-radius:16px;padding:17px;box-shadow:var(--shadow);backdrop-filter:blur(12px)}
+.sidebar h2{margin:0 0 13px;font-size:.9rem;letter-spacing:.08em;color:var(--teal-800)}
+.map-link{display:grid;grid-template-columns:34px minmax(0,1fr);gap:9px;padding:10px 6px;text-decoration:none;border-top:1px solid var(--line)}
+.map-link:hover b{color:var(--teal-700)}
+.map-id{width:30px;height:30px;display:grid;place-items:center;border-radius:9px;color:#fff;background:var(--teal-700);font-size:.72rem;font-weight:800}
+.map-link b{display:block;font-size:.78rem;line-height:1.4}
+.map-link small{display:block;color:var(--muted);font-size:.67rem;line-height:1.4;margin-top:2px;overflow-wrap:anywhere}
+.content{min-width:0}
+.scene-card{background:var(--paper);border:1px solid var(--line);border-radius:20px;padding:clamp(20px,3vw,34px);margin-bottom:24px;box-shadow:var(--shadow);overflow:hidden}
+.scene-topline{display:flex;justify-content:space-between;gap:16px;align-items:center;margin-bottom:16px}
+.scene-id{display:inline-grid;place-items:center;min-width:42px;height:30px;padding:0 10px;color:#fff;background:var(--teal-700);border-radius:8px;font-size:.78rem;font-weight:850}
+.time{margin-left:10px;color:var(--muted);font-size:.82rem;font-variant-numeric:tabular-nums}
+.scene-card h2{margin:0 0 2px;font-size:clamp(1.35rem,2.4vw,2rem);line-height:1.25;color:var(--teal-950)}
+.scene-title-en{margin:0 0 18px;color:var(--teal-600);font-weight:700;font-size:.98rem}
+.context{margin:0 0 20px;padding:12px 15px;color:#496566;background:var(--mint-50);border-left:3px solid var(--teal-600);border-radius:0 10px 10px 0;font-size:.88rem}
+.context b{margin-right:10px;color:var(--teal-800)}
+.sentence-list{display:grid;gap:12px}
+.sentence{position:relative;display:grid;grid-template-columns:38px minmax(0,1fr);gap:12px;padding:16px;border:1px solid #e2ece8;border-radius:14px;background:#fcfefd;min-width:0}
+.sentence-no{color:var(--teal-600);font-size:.76rem;font-weight:850;font-variant-numeric:tabular-nums;padding-top:4px}
+.bilingual{min-width:0;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(14px,2vw,28px)}
+.lang-block{min-width:0}
+.lang-block p{margin:5px 0 0;overflow-wrap:anywhere}
+.en-block{padding-left:clamp(14px,2vw,28px);border-left:1px solid var(--line)}
+.en-block p{color:#0b5c60;font-weight:650}
+.lang-tag{display:inline-block;color:var(--muted);font-size:.66rem;font-weight:850;letter-spacing:.12em}
+.en-head{display:flex;justify-content:space-between;gap:10px;align-items:center;min-height:30px}
+.note{grid-column:2;margin:1px 0 0;color:#708182;font-size:.78rem}
+.note span{margin-right:7px;color:var(--amber);font-weight:750}
+.speak-btn{display:inline-flex;align-items:center;gap:7px;border:1px solid #b8d9d1;border-radius:9px;padding:7px 11px;color:var(--teal-800);background:#f5fbf8;cursor:pointer;white-space:nowrap;font-size:.78rem;font-weight:750;transition:.15s ease}
+.speak-btn:hover{color:#fff;background:var(--teal-700);border-color:var(--teal-700);transform:translateY(-1px)}
+.speak-btn.playing{color:#fff;background:var(--teal-700);border-color:var(--teal-700)}
+.speak-btn.compact{padding:4px 8px;font-size:.7rem}
+.speak-btn.icon-only{padding:3px 7px;margin-left:6px}
+.speak-btn.icon-only span:last-child{display:none}
+.pronounce-word{display:inline;margin:0;padding:0 2px;color:inherit;background:rgba(20,145,155,.08);border:0;border-bottom:1px dashed var(--teal-600);border-radius:3px;font:inherit;font-weight:inherit;line-height:inherit;cursor:pointer}
+.pronounce-word:hover,.pronounce-word:focus{color:var(--teal-950);background:#cceee4;border-bottom-style:solid;outline:3px solid rgba(20,145,155,.42);outline-offset:2px}
+.pronounce-word.playing{color:#fff;background:var(--teal-700);border-bottom-color:var(--teal-700)}
+.paraphrase{margin-top:18px;border-top:1px solid var(--line)}
+.paraphrase summary{padding:16px 0 3px;color:var(--teal-800);cursor:pointer;font-weight:800}
+.paraphrase summary span{color:var(--muted);font-size:.75rem;font-weight:500;margin-left:8px}
+.paraphrase ol{margin:12px 0 0;padding-left:22px}
+.paraphrase li{padding:7px 0 9px 5px}
+.paraphrase li p{margin:0;font-size:.9rem;font-weight:650}
+.paraphrase li small{display:block;color:var(--muted);font-size:.72rem;margin-top:2px}
+.chunks{margin-top:4px;color:var(--teal-700);font-size:.78rem}
+.study-section{margin:38px 0 0}
+.section-heading{display:flex;align-items:baseline;gap:10px;margin:0 0 15px;color:var(--teal-950);font-size:1.35rem}
+.section-heading small{color:var(--teal-600);font-size:.78rem;letter-spacing:.05em}
+.study-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.study-grid article{padding:17px;background:#fff;border:1px solid var(--line);border-radius:14px;box-shadow:0 6px 18px rgba(7,63,66,.05);min-width:0}
+.study-grid p{margin:0}
+.practice-en{margin-top:9px;color:var(--teal-700);font-weight:650;overflow-wrap:anywhere}
+.wrong{color:#a24831;text-decoration:line-through;overflow-wrap:anywhere}
+.right{color:var(--teal-700);font-weight:750;margin:5px 0;overflow-wrap:anywhere}
+.pitfalls p{color:var(--muted);font-size:.82rem}
+.shifts article{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1.5fr);gap:12px;align-items:center}
+.shifts b{color:var(--teal-600);font-size:1.2rem}
+.shifts strong{color:var(--teal-800)}
+footer{margin-top:38px;color:var(--muted);font-size:.78rem;text-align:center}
+.footer-note{margin-top:6px}
+@media (max-width:900px){
+  .page{grid-template-columns:1fr}
+  .sidebar{position:static}
+  .sidebar-box{overflow-x:auto;padding:12px}
+  .sidebar h2{padding-left:5px}
+  .map-nav{display:flex;width:max-content;gap:8px}
+  .map-link{width:240px;border:1px solid var(--line);border-radius:10px;padding:8px}
+  .bilingual{grid-template-columns:1fr}
+  .en-block{padding:12px 0 0;border-left:0;border-top:1px dashed var(--line)}
+}
+@media (max-width:620px){
+  .hero-inner{padding-top:30px}
+  .hero-flex{flex-direction:column;align-items:center}
+  .hero-cover{width:100%;max-width:360px}
+  .hero-text{text-align:center}
+  .page{padding-inline:10px;gap:18px}
+  .scene-card{border-radius:14px;padding:17px 13px}
+  .scene-topline{align-items:flex-start}
+  .scene-speak span:last-child{display:none}
+  .sentence{grid-template-columns:26px minmax(0,1fr);padding:13px 10px;gap:6px}
+  .note{grid-column:2}
+  .study-grid{grid-template-columns:1fr}
+  .shifts article{grid-template-columns:1fr;gap:5px}
+  .shifts b{transform:rotate(90deg);justify-self:start}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.speak-btn{transition:none}}</style>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="hero-flex">
+        <div class="hero-text">
+          <p class="eyebrow">Career &amp; FIRE · 职业与财务自由</p>
+          <h1>"置身厂内"的我们，如何找回自洽的人生？</h1>
+          <p class="hero-en">Finding a Coherent Life When You're Stuck Inside the Factory</p>
+          <p class="summary-en" style="margin:0 0 14px;padding:14px 16px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.22);border-radius:12px;font-size:.95rem;line-height:1.7">Mengmeng, a former product manager at Baidu, Ctrip, and Meituan, walked through 15 years of the internet's golden age and retired in 2024. She paid a 6-million-yuan tuition bill when Chinese tech stocks crashed, and evolved from Duan Yongping-style stock conviction to David Swensen's asset allocation, then iterated again to Taleb-style options hedging — building an investment system to fund a FIRE life. Retiring early wasn't escaping; it was finding coherence on both the financial and the psychological dimension.</p>
+          <div class="hero-meta">
+            <span class="chip">2026-06-23</span>
+            <span class="chip">小宇宙FM</span>
+            <span class="chip">1小时09分</span>
+            <span class="chip">3 Scenes</span>
+            <span class="chip">Click underlined words to hear them</span>
+            <a class="source-link" href="https://www.xiaoyuzhoufm.com/episode/6a2e3f6543a22a695583690a" target="_blank" rel="noopener">原播客 ↗</a>
+          </div>
+        </div>
+      </div>
+      <div class="toolbar">
+        <div class="lang-switch"><div class="lang-switch"><a href="changnei_zihe_rensheng-总结.html">中文</a><a class="active" href="changnei_zihe_rensheng-en.html" aria-current="page">EN</a></div></div>
+        <label for="speech-rate">朗读速度</label>
+        <select id="speech-rate">
+          <option value="0.85">慢速 0.85×</option>
+          <option value="1" selected>正常 1×</option>
+          <option value="1.15">快速 1.15×</option>
+        </select>
+        <button id="stop-speech" class="stop-btn" type="button">■ 停止朗读</button>
+        <span id="speech-status" class="speech-status" role="status" aria-live="polite"></span>
+      </div>
+      <div class="narration-player">
+      <p class="audio-label">🎧 中文语音讲解</p>
+      <button class="speak-btn" type="button" data-audio="audio/changnei_zihe_rensheng.mp3" aria-label="播放语音讲解"><span aria-hidden="true">▶</span><span>播放语音讲解</span></button>
+    </div>
+    </div>
+  </header>
+  <main class="page">
+    <aside class="sidebar" aria-label="场景地图">
+      <div class="sidebar-box">
+        <h2>场景地图 · SCENE MAP</h2>
+        <nav class="map-nav">
+          <a class="map-link" href="#s1">
+          <span class="map-id">S1</span>
+          <span><b>一、从"厂内"到退休：15年大厂路</b><small> · From Inside the Factory to Retirement: 15 Years on the Big-Tech Assembly Line</small></span>
+        </a>
+<a class="map-link" href="#s2">
+          <span class="map-id">S2</span>
+          <span><b>二、投资进化史：600万学费换来的体系</b><small> · Investment Evolution: The System Paid for with 6 Million Yuan</small></span>
+        </a>
+<a class="map-link" href="#s3">
+          <span class="map-id">S3</span>
+          <span><b>三、FIRE决策框架与生活实况</b><small> · The FIRE Decision Framework and What Life After Retirement Looks Like</small></span>
+        </a>
+        </nav>
+      </div>
+    </aside>
+    <div class="content">
+      <section class="scene-card" id="s1" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S1</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/changnei_zihe_rensheng/s1.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>一、从"厂内"到退休：15年大厂路</h2>
+      <p class="scene-title-en">From Inside the Factory to Retirement: 15 Years on the Big-Tech Assembly Line</p>
+      <p class="context"><b>情境</b>萌萌的职业轨迹：百度、铝平网、携程、点评/美团，以及为什么 2024 年离开。语域：casual 个人叙事 + 行业观察。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：萌萌2012年入行，经历百度（国际化/日文产品）→铝平网（携程旗下旅游社区创业，对标TripAdvisor，最终失败）→携程攻略社区→点评/美团（推荐菜、到店综合），横跨产品黄金增长期</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/changnei_zihe_rensheng/s1-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Core path: Mengmeng entered the industry in 2012 — Baidu (internationalization / Japanese products) → Lvping.com, a Ctrip-owned travel community startup benchmarked against TripAdvisor that eventually failed → Ctrip's travel-guide community → Dianping/Meituan (recommended dishes, offline-to-online). She rode the golden growth years of product management.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>internationalization → 国际化；benchmarked against → 对标；offline-to-online (O2O) → 到店综合；golden growth years → 黄金增长期</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：早期互联网是"草台班子"时代，产品经理缺口巨大，跳槽极易。但2024年时行业增长放缓，重复性工作增多，团队氛围内卷，兴趣驱动的工作模式难以为继</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/changnei_zihe_rensheng/s1-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Key insight: the early internet was the 'make-shift crew' era — product managers were scarce and job hopping was easy. By 2024 growth slowed, repetitive work multiplied, team culture turned inward, and interest-driven work was no longer sustainable.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>make-shift crew → 草台班子；job hopping → 跳槽；turned inward → 内卷；sustainable → 难以为继</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>典型场景：当你发现工作不再带来正向收益（成就感下降），而负面因素（不自由、身体不适）持续叠加时，就是重新审视职业选择的信号</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/changnei_zihe_rensheng/s1-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Typical signal: when work no longer brings positive returns (shrinking sense of achievement) while negatives (no freedom, declining health) keep stacking up, it's time to re-examine your career choice.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>positive returns → 正向收益；stack up → 持续叠加；re-examine → 重新审视</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据：「工作给我的成就感、愉悦的感觉逐年在下降，正向收益越来越少，负面的东西在逐步叠加。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/changnei_zihe_rensheng/s1-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Direct quote: 'The sense of achievement and joy work gave me declined year by year. Positive returns kept shrinking while the negatives kept stacking up.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>sense of achievement → 成就感；decline year by year → 逐年下降；positive/negative → 正向/负面</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）相关概念：与"35岁焦虑"的联系——不是年龄本身，而是增长放缓后暴露的组织内耗和个人成长瓶颈</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/changnei_zihe_rensheng/s1-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Related concept: the link to '35-year-old anxiety' — it's not age itself but the organizational friction and personal-growth ceiling exposed once growth slows.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>organizational friction → 组织内耗；growth ceiling → 成长瓶颈；exposed → 暴露</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>萌萌在美团提了四次辞职，前三次都被老板挽留。2024年底第四次，桥本甲状腺炎加重——做瑜伽+快走後凌晨三点睡不着、翻身都翻不动，身体最终替她做了决定</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/changnei_zihe_rensheng/s1-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Mengmeng resigned four times at Meituan; the first three times her manager persuaded her to stay. The fourth, in late 2024, Hashimoto's thyroiditis worsened — yoga and brisk walks, yet she still couldn't sleep past 3 a.m. and could barely turn over in bed. Her body made the final call.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>Hashimoto's thyroiditis → 桥本甲状腺炎；brisk walk → 快走；make the final call → 做了决定</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「工作不再是正向收益，负面的东西在叠加」</p><div class="chunks">positives shrink, negatives pile up · cost more than give back</div><small>第一句是原话复述，第二句更生活化</small></li>
+<li><p>想说「不是年龄问题，是增长放缓暴露了问题」</p><div class="chunks">exposed the cracks · once the elevator stops going up</div><small>第一句直接，第二句用比喻更有画面感</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s2" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S2</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/changnei_zihe_rensheng/s2.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>二、投资进化史：600万学费换来的体系</h2>
+      <p class="scene-title-en">Investment Evolution: The System Paid for with 6 Million Yuan</p>
+      <p class="context"><b>情境</b>从重仓中概股个股，到耶鲁模型式资产配置，再到期权对冲——萌萌投资体系的两次迭代。语域：casual 投资复盘。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：2015年起做美股中概股，重仓美团。逻辑是"我对这家公司认知最深，没理由投资别的个股能赚钱"</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/changnei_zihe_rensheng/s2-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Core mechanism: from 2015 she traded US-listed Chinese tech stocks, heavily weighted on Meituan. The logic: 'I know this company better than anyone, so I have no reason to expect other stocks to make me money.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>US-listed Chinese stocks (ADR) → 美股中概股；heavily weighted → 重仓；have no reason to → 没理由</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：个股投资在牛市中收益惊人，但中概股从高点暴跌后，"熬"的策略失效——美股2008后最多半年回原位，中概股从406下去至今未回</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/changnei_zihe_rensheng/s2-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Key insight: individual stocks pay off spectacularly in a bull market, but after the Chinese ADRs crashed from their peak, the 'just wait it out' play failed — after 2008 US stocks always recovered within six months, while Chinese ADRs fell from 406 and never came back.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>pay off → 收益惊人；bull market → 牛市；wait it out → 熬；crash from the peak → 从高点暴跌</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据：「我有什么理由认为我可以投资别的个股赚钱？中概股你在406下去了，熬多少年也没到406。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/changnei_zihe_rensheng/s2-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Direct quote: 'What reason do I have to believe I can make money on other stocks? Chinese ADRs fell from 406, and no matter how many years you wait, they never got back to 406.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>make money on → 靠…赚钱；never got back → 从未回到原位</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：2021年规划退休时，借鉴耶鲁模型：A股（沪深300/中证500）+美股（纳指/标普500）+港股+债券+黄金，每个指数持仓上限20%，基于PE分位动态调仓</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/changnei_zihe_rensheng/s2-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Core mechanism: planning retirement in 2021, she borrowed the Yale model: A-shares (CSI 300 / CSI 500), US stocks (Nasdaq / S&P 500), Hong Kong stocks, bonds, and gold — each index capped at 20 percent, rebalanced dynamically by PE percentile.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>Yale model → 耶鲁模型（史文森资产配置）；cap at → 上限；PE percentile → PE分位；rebalance → 动态调仓</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>典型配置：预留3-5年生活费，其余滚动投资；控制单一资产大类不超过30-40%</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/changnei_zihe_rensheng/s2-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Typical allocation: keep 3–5 years of living expenses aside and roll the rest into investments; keep any single asset class under 30–40 percent.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>living expenses → 生活费；set aside → 预留；asset class → 资产大类；roll into → 滚动投入</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>适用边界：在牛市中会miss大量收益——纳指PE分位80%以上可以躺35年，严格按纪律会导致牛市大部分收益吃不到</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/changnei_zihe_rensheng/s2-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Boundary: in a bull market you will miss a lot of gains — when the Nasdaq PE sits above the 80th percentile, strictly following the discipline means you skip most of the rally's upside.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>miss gains → 错过收益；80th percentile → 80%分位；discipline → 纪律；upside → 上行收益</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「重仓个股在暴跌面前没有退路」</p><div class="chunks">no escape when it crashes · one-way bet with no floor</div><small>第一句直白，第二句偏投资术语</small></li>
+<li><p>想说「纪律会错过牛市收益」</p><div class="chunks">discipline costs upside · giving up part of the rally</div><small>第一句中性，第二句更像自我提醒</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s3" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S3</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/changnei_zihe_rensheng/s3.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>三、FIRE决策框架与生活实况</h2>
+      <p class="scene-title-en">The FIRE Decision Framework and What Life After Retirement Looks Like</p>
+      <p class="context"><b>情境</b>财务上算清楚账、精神上找到成就感来源，FIRE 才可持续。语域：casual 个人复盘 + 方法论。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>为什么重要：财务没算清楚会天天焦虑（萌萌辞职前一天算十几遍"会不会破产"）；成就感来源不对会很快重返职场</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/changnei_zihe_rensheng/s3-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Why it matters: if the finances aren't sorted out, you'll be anxious every day — the day before she resigned she ran the 'will I go broke' calculation a dozen times. And if your source of achievement isn't right, you'll soon be back in the workforce.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>sorted out → 算清楚；go broke → 破产；source of achievement → 成就感来源；back in the workforce → 重返职场</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>适用边界：有人不算账也能FIRE（萌萌的朋友），但她是J人必须算明白；目前接触的"FIRE失败"案例仅一人，且因成就感缺失而非经济原因重返职场</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/changnei_zihe_rensheng/s3-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Boundary: some people FIRE without crunching numbers (a friend of hers did), but she's a planner who has to see the math. So far she's met only one 'FIRE failure,' and that person went back to work for loss of achievement, not money.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>crunch numbers → 算账；a planner (J person) → J人（计划型人格）；FIRE failure → 失败案例</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）"财务上得算个账——未来花钱几项、投资收益率可能什么、不同环境下承担什么风险。第二，成就感来源是什么？如果来自组织一群人干成一件事，FIRE后体验可能不太好。"</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/changnei_zihe_rensheng/s3-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Direct quote: 'Financially you have to run the numbers — what you'll spend, what return rate is possible, what risks under different environments. Second: where does your achievement come from? If it comes from organizing a group to get something done, the FIRE experience may not be great.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>run the numbers → 算账；return rate → 投资收益率；organizing a group → 组织一群人</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）怎么落地：列出家庭支出项、预估投资收益率区间、做压力测试（熊市能否挺住）；诚实评估自己的成就感来自独立创作还是团队协作</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/changnei_zihe_rensheng/s3-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">How to apply it: list household spending, estimate a return-rate range, stress-test whether you can weather a bear market; honestly assess whether your achievement runs on independent creation or team collaboration.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>stress-test → 压力测试；weather a bear market → 挺过熊市；independent creation → 独立创作</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>萌萌坦言挺失望没赶上AI裁员大礼包，但她的逻辑是：在公司的注意力必须放在公司关注的事上（如足疗），作为独立个人可以用AI研究自己真正感兴趣的领域（如心理学）</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/changnei_zihe_rensheng/s3-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Mengmeng admits she's a bit disappointed to have missed the AI-layoff severance windfall, but her logic: inside a company your attention must go to company priorities (foot spas, say), while as an independent person you can use AI to explore what truly interests you, like psychology.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>severance windfall → 裁员大礼包；company priorities → 公司关注的事；explore interests → 研究感兴趣的领域</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）争议点：是"错过大礼包"还是"获得注意力自由"？嘉宾立场明确偏向后者</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/changnei_zihe_rensheng/s3-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The debate: 'missed the windfall' or 'gained attention freedom'? The guests clearly side with the latter.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>missed the windfall → 错过好处；attention freedom → 注意力自由；side with the latter → 偏向后者</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「财务和成就感两件事都要想清楚」</p><div class="chunks">money math and achievement · finance and purpose, both collapse alone</div><small>第一句平实，第二句对仗有力度</small></li>
+<li><p>想说「错过裁员大礼包，换来了注意力自由」</p><div class="chunks">trade windfall for freedom · missed cash, gained focus</div><small>第一句直白，第二句更凝练漂亮</small></li>
+        </ol>
+      </details>
+    </section>
+      <section class="study-section" id="practice">
+      <h2 class="section-heading">今日可练 <small>PRACTICE TODAY</small></h2>
+      <div class="study-grid">
+        <article>
+          <p>用「stack up」说：负面的东西在不断叠加。</p>
+          <div class="practice-en">
+            The negatives kept stacking up while the positives shrank.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/changnei_zihe_rensheng/practice-0.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「wait it out」说：中概股暴跌后「熬」的策略失效了。</p>
+          <div class="practice-en">
+            After the ADR crash, the wait-it-out strategy stopped working.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/changnei_zihe_rensheng/practice-1.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「cap at」说：每个指数持仓上限 20%。</p>
+          <div class="practice-en">
+            Each index is capped at 20 percent of the portfolio.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/changnei_zihe_rensheng/practice-2.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「stress-test」说：要压力测试熊市是否挺得住。</p>
+          <div class="practice-en">
+            You should stress-test whether you can survive a bear market.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/changnei_zihe_rensheng/practice-3.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article>
+      </div>
+    </section>
+      <section class="study-section pitfalls" id="pitfalls">
+      <h2 class="section-heading">避坑 <small>PITFALLS</small></h2>
+      <div class="study-grid">
+        <article>
+          <div class="wrong">✕ The work's good feeling decreased year by year.</div>
+          <div class="right">✓ The sense of achievement and joy work gave me declined year by year.</div>
+          <p>good feeling 太含糊；职场语境用 sense of achievement / satisfaction 更准确。</p>
+        </article><article>
+          <div class="wrong">✕ I have no reason to invest other stocks can make money.</div>
+          <div class="right">✓ What reason do I have to believe other stocks would make me money?</div>
+          <p>直译会把句子结构搞乱；用 What reason do I have to + believe/expect 才是地道疑问式。</p>
+        </article><article>
+          <div class="wrong">✕ My achievement comes from leading a group of people to do something well.</div>
+          <div class="right">✓ My sense of achievement comes from organizing a team to pull something off.</div>
+          <p>do something well 可以但平淡；pull something off 表达「干成一件事」更地道。</p>
+        </article><article>
+          <div class="wrong">✕ She didn't catch the AI layoff big gift.</div>
+          <div class="right">✓ She missed out on the AI-layoff severance windfall.</div>
+          <p>big gift 是直译；裁员补偿用 severance package / windfall，错过用 miss out on。</p>
+        </article>
+      </div>
+    </section>
+      <section class="study-section shifts" id="mindset">
+      <h2 class="section-heading">认知转变 <small>MINDSET SHIFTS</small></h2>
+      <div class="study-grid">
+        <article>
+          <span>以为投资赚钱靠的是看准一只好股票拿住不动</span>
+          <b aria-hidden="true">→</b>
+          <strong>个股信仰在暴跌面前没有退路，资产配置+对冲才是可持续体系</strong>
+        </article><article>
+          <span>以为 FIRE 就是攒够钱辞职，财务和心态都不用准备</span>
+          <b aria-hidden="true">→</b>
+          <strong>财务账+成就感来源两个维度都想清楚，FIRE 才可持续</strong>
+        </article><article>
+          <span>以为错过裁员大礼包是损失</span>
+          <b aria-hidden="true">→</b>
+          <strong>那是用现金换来了注意力自由——能研究自己真正感兴趣的领域</strong>
+        </article>
+      </div>
+    </section>
+      <footer>
+        双语学习版 · 场景/句子朗读使用 edge-tts（en-US） · 单词发音使用浏览器 Web Speech API
+        <div class="footer-note">中文版：<a href="changnei_zihe_rensheng-总结.html">changnei_zihe_rensheng-总结.html</a> · SVG 版：<a href="viewer.html?f=changnei_zihe_rensheng-总结.svg" target="_blank">changnei_zihe_rensheng-总结.svg</a></div>
+      </footer>
+    </div>
+  </main>
+  <script>(() => {
+  let activeAudio = null;
+  let activeBtn = null;
+  const status = document.getElementById('speech-status');
+  const stopBtn = document.getElementById('stop-speech');
+  const rateSel = document.getElementById('speech-rate');
+
+  const reset = () => {
+    if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+    activeBtn?.classList.remove('playing');
+    activeBtn = null;
+    stopBtn.classList.remove('visible');
+    status.textContent = '';
+  };
+
+  const playAudio = (url, btn) => {
+    reset();
+    const audio = new Audio(url);
+    audio.playbackRate = Number(rateSel.value);
+    activeAudio = audio;
+    activeBtn = btn;
+    btn.classList.add('playing');
+    stopBtn.classList.add('visible');
+    status.textContent = btn.classList.contains('scene-speak')
+      ? 'Reading the whole scene…'
+      : 'Reading…';
+
+    audio.onended = () => { if (activeAudio === audio) reset(); };
+    audio.onerror = () => { status.textContent = 'Audio failed to load.'; if (activeAudio === audio) reset(); };
+    audio.play().catch(() => { status.textContent = 'Playback failed.'; if (activeAudio === audio) reset(); });
+  };
+
+  document.addEventListener('click', e => {
+    const btn = e.target.closest('[data-audio]');
+    if (!btn) return;
+    e.preventDefault();
+    if (btn === activeBtn && activeAudio) { reset(); return; }
+    playAudio(btn.dataset.audio, btn);
+  });
+
+  stopBtn.addEventListener('click', reset);
+
+  const synth = window.speechSynthesis;
+  const getEnglishVoice = () => {
+    const voices = synth.getVoices();
+    return voices.find(v => /^en-(US|GB)/i.test(v.lang))
+        || voices.find(v => /^en/i.test(v.lang)) || null;
+  };
+
+  const difficultWords = new Set([
+    'assortment', 'SKU', 'premium', 'margin', 'middleman', 'OEM', 'rebranding',
+    'hoarding', 'PTSD', 'curation', 'repurchase', 'touchpoint', 'backlash',
+    'reshuffle', 'funnel', 'anchor', 'contract', 'psychology', 'private', 'label',
+    'editorial', 'familiar', 'competitors', 'authorization', 'flexibility'
+  ]);
+
+  const shouldPronounce = word => {
+    const n = word.toLowerCase().replace(/^[^a-z]+|[^a-z]+$/g, '');
+    return n.replace(/[^a-z]/g, '').length >= 8 || difficultWords.has(n);
+  };
+
+  const markPronounceableWords = root => {
+    const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+    const nodes = [];
+    while (walker.nextNode()) nodes.push(walker.currentNode);
+    nodes.forEach(node => {
+      if (node.parentElement?.closest('button, script, style')) return;
+      const text = node.nodeValue;
+      let m, last = 0, changed = false;
+      const frag = document.createDocumentFragment();
+      const re = /[A-Za-z]+(?:[-'’][A-Za-z]+)*/g;
+      while ((m = re.exec(text))) {
+        if (!shouldPronounce(m[0])) continue;
+        changed = true;
+        frag.append(text.slice(last, m.index));
+        const wb = document.createElement('button');
+        wb.type = 'button'; wb.className = 'pronounce-word';
+        wb.dataset.speak = m[0];
+        wb.setAttribute('aria-label', '\u8bfb\u5355\u8bcd ' + m[0]);
+        wb.title = '\u70b9\u51fb\u542c\u53d1\u97f3';
+        wb.textContent = m[0];
+        frag.append(wb);
+        last = m.index + m[0].length;
+      }
+      if (!changed) return;
+      frag.append(text.slice(last));
+      node.replaceWith(frag);
+    });
+  };
+
+  document.querySelectorAll(
+    '.english, .scene-title-en, .paraphrase li p, .chunks, .practice-en, .wrong, .right, .summary-en'
+  ).forEach(markPronounceableWords);
+
+  document.addEventListener('click', e => {
+    const wb = e.target.closest('.pronounce-word');
+    if (!wb) return;
+    e.preventDefault();
+    if (!synth) return;
+    synth.cancel();
+    if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+    activeBtn?.classList.remove('playing');
+    activeBtn = wb;
+    wb.classList.add('playing');
+    const u = new SpeechSynthesisUtterance(wb.dataset.speak);
+    u.lang = 'en-US';
+    u.rate = 0.88;
+    const v = getEnglishVoice();
+    if (v) u.voice = v;
+    u.onend = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+    u.onerror = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+    synth.speak(u);
+  });
+})();</script>
+</body>
+</html>

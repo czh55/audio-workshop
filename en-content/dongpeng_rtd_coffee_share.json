@@ -1,0 +1,206 @@
+{
+  "slug": "dongpeng_rtd_coffee_share",
+  "date": "2026-06-26",
+  "platform": "小宇宙FM",
+  "title": "即饮咖啡份额超过星巴克，能量饮料起家的东鹏如何攻占新品类？",
+  "title_en": "How Dongpeng, an Energy-Drink Maker, Overtook Starbucks in Ready-to-Drink Coffee",
+  "eyebrow": "Business & Consumer Goods · 商业与消费品",
+  "duration": "13分钟",
+  "source_url": "https://www.xiaoyuzhoufm.com/episode/6a3151634233e62bc54af38c",
+  "summary_cn": "一句话概括：声动早咖啡解读马上赢数据——东鹏即饮咖啡线下销售额份额升至第二、略高于星巴克，但雀巢仍占近半市场。节目拆解东鹏从能量饮料起家到复制「大容量低价+下沉渠道+一元乐享」打法，并提示即饮咖啡赛道已接近停滞、现磨咖啡持续分流",
+  "summary_en": "This episode reads MaShangYing's retail data showing Dongpeng climbing to second place in offline ready-to-drink (RTD) coffee sales, barely edging past Starbucks — while Nestlé still holds nearly half the market. The hosts break down how Dongpeng, born as an energy-drink maker, copied its winning playbook: big bottles, low prices, deep lower-tier distribution, and a \"one-yuan happiness\" giveaway strategy. They also flag that the RTD coffee category is nearly stagnant, with fresh-brewed coffee steadily siphoning demand.",
+  "scenes": [
+    {
+      "id": "s1",
+      "title_cn": "上半段：四条商业科技快讯",
+      "title_en": "Part One: Four Business & Tech Bulletins",
+      "context": "小红书上市进程、DeepSeek 新一轮融资结构、火山引擎模型价格战等快讯播报。语域：casual 播客播报。",
+      "speak": "Bloomberg reports that Xiaohongshu plans to file with the Hong Kong stock exchange by the end of June. In 2024 its funding round valued the company at about 17.1 billion dollars; by September 2025 that figure had risen to over 30 billion, with shareholders expecting 2025 profit of around three billion dollars. The key insight: advertising makes up nearly eighty percent of revenue, while new businesses like e-commerce still lag Douyin and Kuaishou — the business model hasn't shaken off its ad dependency. A typical scene: in the first three days of the World Cup, more than sixty percent of Xiaohongshu livestream viewers were men, and viewing numbers on opening day grew fifty-five-fold versus before the tournament, breaking the platform's livestream peak record. As the episode notes, advertising accounts for nearly eighty percent of total revenue, and new businesses like e-commerce still trail Douyin and Kuaishou. What it's really compared against is twofold: against Douyin and Kuaishou, it's the content-commerce loop; against the IPO narrative, it's profit delivery and business diversification. In related news, Liang Wenfeng personally put up twenty billion yuan as the largest investor in a DeepSeek round, with Tencent at ten billion and CATL at five billion; JD, NetEase, and IDG each put in three billion. Except for the direct investment from the National AI Industry Investment Fund, the money flows into Liang's managing entity with no voting rights, and shares are locked for five years with no transfer.",
+      "sentences": [
+        {
+          "cn": "核心机制：彭博社称小红书拟 6 月底前递交港交所申请；2024 年融资估值约 171 亿美元，2025 年 9 月涨至 300 亿+，股东预期 2025 年利润约 30 亿美元",
+          "en": "Bloomberg reports that Xiaohongshu plans to file with the Hong Kong stock exchange by the end of June. Its 2024 funding round valued it at about $17.1 billion; by September 2025 that rose to over $30 billion, with shareholders expecting roughly $3 billion in 2025 profit.",
+          "note": "<span>表达提示</span>file with the exchange → 递交上市申请；funding round → 融资轮；valuation → 估值；shareholder expectations → 股东预期"
+        },
+        {
+          "cn": "关键理解：广告收入占营收近 8 成，电商等新业务规模仍落后于抖音、快手，商业模式尚未摆脱广告依赖",
+          "en": "The key insight: advertising makes up nearly 80% of revenue, while new businesses like e-commerce still lag Douyin and Kuaishou. The business model hasn't shaken off its ad dependency.",
+          "note": "<span>表达提示</span>make up ~% of revenue → 占营收…；lag → 落后于；ad dependency → 广告依赖；shake off → 摆脱"
+        },
+        {
+          "cn": "典型场景：世界杯开赛前三日，小红书直播男性用户超 6 成，开赛首日观看人数较赛前增长 55 倍，打破平台直播在线峰值",
+          "en": "A telling scene: in the first three days of the World Cup, over 60% of Xiaohongshu's livestream viewers were men, and viewing on opening day grew 55-fold versus before the tournament, breaking the platform's livestream peak.",
+          "note": "<span>表达提示</span>livestream viewer → 直播观看用户；55-fold → 55 倍；break the peak → 打破峰值"
+        },
+        {
+          "cn": "（引用）原文依据：广告收入占到总营收的接近 8 成，电商等等新业务规模和抖音快手相比仍然有差距",
+          "en": "\"Advertising accounts for close to 80% of total revenue, and new businesses like e-commerce still have a gap versus Douyin and Kuaishou.\"",
+          "note": "<span>表达提示</span>account for → 占到；have a gap versus → 与…仍有差距"
+        },
+        {
+          "cn": "（引用）相关概念：与抖音快手比的是内容电商闭环能力，与 IPO 叙事比的是利润兑现与业务多元化",
+          "en": "What it's measured against is twofold: versus Douyin and Kuaishou, it's the content-commerce closed loop; versus the IPO narrative, it's profit delivery and business diversification.",
+          "note": "<span>表达提示</span>content-commerce closed loop → 内容电商闭环；IPO narrative → 上市叙事；profit delivery → 利润兑现；diversification → 业务多元化"
+        },
+        {
+          "cn": "梁文峰个人出资 200 亿为最大方，腾讯 100 亿、宁德时代 50 亿，京东/网易/IDG 各 30 亿。除国家 AI 产业投资基金直投外，其余资金注入梁文峰管理实体、无投票权，股份 5 年锁定不可转让",
+          "en": "Liang Wenfeng personally invested 20 billion yuan as the largest contributor, with Tencent at 10 billion and CATL at 5 billion; JD, NetEase, and IDG each put in 3 billion. Except for the National AI Industry Investment Fund's direct stake, the rest flows into Liang's managing entity with no voting rights, and the shares are locked for five years and non-transferable.",
+          "note": "<span>表达提示</span>largest contributor → 最大出资方；managing entity → 管理实体；voting rights → 投票权；non-transferable → 不可转让；lock-up period → 锁定期"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「营收主要靠广告」",
+          "phrases": [
+            "Ads are the cash cow — nearly 80% of revenue.",
+            "It's basically an ad business that also has an app."
+          ],
+          "chunks": "cash cow · basically an ad business",
+          "usage": "cash cow 是商务口语；第二句是俏皮点评，适合播客"
+        },
+        {
+          "intent": "想说「电商还追不上抖音快手」",
+          "phrases": [
+            "Its e-commerce is still a distant second to Douyin's.",
+            "It's way behind the content-commerce leaders."
+          ],
+          "chunks": "a distant second · way behind",
+          "usage": "a distant second 是固定说法，表示差距很大的第二名"
+        },
+        {
+          "intent": "想说「钱给到但没有决策权」",
+          "phrases": [
+            "The money comes in with zero voting power.",
+            "It's funding without a seat at the table."
+          ],
+          "chunks": "zero voting power · without a seat at the table",
+          "usage": "a seat at the table 是经典商业习语，形象表达决策权"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title_cn": "下半段：东鹏即饮咖啡轻解读",
+      "title_en": "Part Two: Light Analysis of Dongpeng's Ready-to-Drink Coffee",
+      "context": "用马上赢数据拆解东鹏在即饮咖啡的份额跃升，及其从能量饮料复制过来的打法。语域：casual 播客讲解 + 数据点评。",
+      "speak": "Ready-to-drink coffee means bottled or canned coffee you can open and drink on the go. According to MaShangYing's May 2025 data, Dongpeng moved to second place in offline sales share, slightly ahead of Starbucks, while Nestlé has long held nearly half the market. The gap between Dongpeng and Starbucks is less than one percent. The key insight: the rankings can swing a lot, so don't over-read this as the \"endgame of the coffee war.\" The typical scene is convenience stores, gas stations, and mom-and-pop shops — offline retail, not a Starbucks store experience. As the episode notes, \"Dongpeng and Starbucks are less than one percent apart in RTD coffee, and the industry ranking will likely keep shifting.\" Lin Muqin took over the near-bankrupt Dongpeng in 2003 and, borrowing lessons from Red Bull's OEM experience, launched Dongpeng Tequila. In 2009, a 500-milliliter plastic bottle at five yuan went up against Red Bull's 250-milliliter can at six yuan, targeting blue-collar drivers. After Red Bull changed its slogan, Dongpeng countered with \"tired and sleepy? Drink Dongpeng Tequila,\" signed Nicholas Tse as spokesperson, and quickly became the number-two energy drink. Its first RTD coffee hit the market in 2021. In Q1 2025, energy drinks were still 75% of revenue, down from 80% a year earlier, while other beverages including RTD coffee reached 14% and grew the fastest.",
+      "sentences": [
+        {
+          "cn": "核心机制：即饮咖啡=瓶装/罐装开盖即饮。马上赢 2025 年 5 月数据：东鹏线下销售额份额升至第二、略高于星巴克；雀巢长期占近半份额。东鹏与星巴克差距不足 1%",
+          "en": "Ready-to-drink coffee means bottled or canned coffee you open and sip on the go. MaShangYing's May 2025 data: Dongpeng moved to second in offline sales share, slightly ahead of Starbucks, while Nestlé has long held nearly half the market. Dongpeng and Starbucks are less than 1% apart.",
+          "note": "<span>表达提示</span>ready-to-drink (RTD) → 即饮；on the go → 开盖即饮/随身；sales share → 销售额份额；less than 1% apart → 差距不足 1%"
+        },
+        {
+          "cn": "关键理解：排名波动空间大，不宜过度解读为「咖啡战争终局」",
+          "en": "The key insight: the rankings can swing widely, so don't over-read this as the \"endgame of the coffee war.\"",
+          "note": "<span>表达提示</span>swing widely → 波动空间大；over-read → 过度解读；endgame → 终局"
+        },
+        {
+          "cn": "典型场景：便利店、加油站、夫妻店等线下零售场景，而非星巴克门店体验消费",
+          "en": "The typical scene: convenience stores, gas stations, and mom-and-pop shops — offline retail, not the Starbucks in-store experience.",
+          "note": "<span>表达提示</span>convenience store → 便利店；mom-and-pop shop → 夫妻店；in-store experience → 门店体验"
+        },
+        {
+          "cn": "（引用）原文依据：东鹏和星巴克在即饮咖啡市场的差距还不到 1%，行业的位置仍然可能会继续的波动",
+          "en": "\"Dongpeng and Starbucks are less than 1% apart in RTD coffee, and the industry ranking will likely keep shifting.\"",
+          "note": "<span>表达提示</span>less than 1% apart → 差距不到 1%；keep shifting → 继续波动"
+        },
+        {
+          "cn": "林木勤 2003 年接手濒临破产的东鹏，借鉴红牛代工厂经验推出东鹏特饮。2009 年 500ml 塑料装 5 元对标红牛 250ml 罐装 6 元，瞄准货车司机等蓝领；红牛换广告语后，东鹏打出「累了困了喝东鹏特饮」并签谢霆锋代言，迅速成为能量饮料第二",
+          "en": "Lin Muqin took over the near-bankrupt Dongpeng in 2003 and, drawing on lessons from Red Bull's OEM factory experience, launched Dongpeng Tequila. In 2009, a 500ml plastic bottle at 5 yuan went up against Red Bull's 250ml can at 6 yuan, targeting blue-collar workers like truck drivers. After Red Bull changed its tagline, Dongpeng countered with \"Tired and sleepy? Drink Dongpeng Tequila,\" signed Nicholas Tse as spokesperson, and quickly became the number-two energy drink.",
+          "note": "<span>表达提示</span>near-bankrupt → 濒临破产；tagline → 广告语；counter with → 用…反击；spokesperson → 代言人；blue-collar → 蓝领"
+        },
+        {
+          "cn": "2021 年首款即饮咖啡上市。2025 年 Q1 能量饮料收入占比 75%（去年同期 80%），其他饮料（含即饮咖啡）占比 14% 且增速最快",
+          "en": "Its first RTD coffee launched in 2021. In Q1 2025, energy drinks were still 75% of revenue, down from 80% a year earlier, while other beverages including RTD coffee reached 14% and grew the fastest.",
+          "note": "<span>表达提示</span>launch → 上市；revenue share → 收入占比；grow the fastest → 增速最快"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「只差一点点，随时会反超」",
+          "phrases": [
+            "They're neck and neck — a hair's breadth apart.",
+            "The gap is so thin it could flip next month."
+          ],
+          "chunks": "neck and neck · a hair's breadth apart · flip",
+          "usage": "neck and neck 形容不分上下；flip 表示排名反转"
+        },
+        {
+          "intent": "想说「这个排名别太当真」",
+          "phrases": [
+            "Don't read too much into a one-month snapshot.",
+            "A single data point isn't an endgame."
+          ],
+          "chunks": "read too much into · snapshot · a single data point",
+          "usage": "read into 是「过度解读」的固定用法；snapshot 形容单点数据"
+        },
+        {
+          "intent": "想说「把能量饮料的打法复制到咖啡」",
+          "phrases": [
+            "They're replaying the energy-drink playbook on coffee.",
+            "Same formula: big bottle, low price, deep channels."
+          ],
+          "chunks": "replay the playbook · same formula",
+          "usage": "playbook 是商务语境常用词；formula 更口语"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "cn": "用「neck and neck」说：东鹏和星巴克份额几乎持平。",
+      "en": "Dongpeng and Starbucks are neck and neck in RTD coffee share."
+    },
+    {
+      "cn": "用「cash cow」说：广告是小红书的现金牛。",
+      "en": "Advertising is Xiaohongshu's cash cow, making up nearly 80% of revenue."
+    },
+    {
+      "cn": "用「read too much into」说：别把单月排名过度解读成终局。",
+      "en": "Don't read too much into a one-month ranking — it's not the endgame."
+    },
+    {
+      "cn": "用「playbook」说：东鹏在咖啡上复制能量饮料打法。",
+      "en": "Dongpeng is replaying its energy-drink playbook on coffee."
+    }
+  ],
+  "pitfalls": [
+    {
+      "wrong": "Ready-drink coffee is bottled coffee.",
+      "right": "Ready-to-drink (RTD) coffee is bottled or canned coffee you can sip on the go.",
+      "why": "ready-drink 是漏词；正确术语是 ready-to-drink（RTD），并补一句开盖即饮的解释让定义完整。"
+    },
+    {
+      "wrong": "Dongpeng's share rises to second, higher than Starbucks.",
+      "right": "Dongpeng moved to second in offline sales share, slightly edging past Starbucks.",
+      "why": "「份额升到第二」要说明是什么口径（线下销售额）；edge past / slightly ahead 比 higher than 更贴切份额语境。"
+    },
+    {
+      "wrong": "The coffee market's position may continue to move.",
+      "right": "The industry ranking will likely keep shifting.",
+      "why": "「位置波动」直译成 position moves 生硬；排名/名次用 ranking、shift、swing 更地道。"
+    },
+    {
+      "wrong": "Dongpeng aims at truck drivers and other blue collars.",
+      "right": "It targeted blue-collar workers like truck drivers.",
+      "why": "blue collar 是名词短语要加 worker；介词用 target + 宾语，instead of aim at 也可但 target 更常用。"
+    }
+  ],
+  "shifts": [
+    {
+      "before": "以为东鹏只是个能量饮料品牌",
+      "after": "东鹏把能量饮料的「大容量低价+下沉渠道」打法复制到即饮咖啡，份额已超星巴克"
+    },
+    {
+      "before": "以为份额第二 = 赛道格局已定",
+      "after": "差距不足 1%、雀巢占近半，单月排名只是波动，不是咖啡战争终局"
+    },
+    {
+      "before": "以为即饮咖啡是增长蓝海",
+      "after": "即饮赛道已接近停滞，现磨咖啡持续分流，增长要靠打法而非赛道红利"
+    }
+  ],
+  "voice": "en-US-JennyNeural",
+  "audio_dir": "audio/en/dongpeng_rtd_coffee_share"
+}

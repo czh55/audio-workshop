@@ -1,0 +1,1075 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="E224｜深度拆解Clawdbot，为何它能成为2026年第一个现象级产品？ — Bilingual Learning Edition" />
+  <title>E224｜深度拆解Clawdbot，为何它能成为2026年第一个现象级产品？｜EN 双语学习版</title>
+  <style>:root{--teal-950:#073f42;--teal-800:#0d686c;--teal-700:#0f7c80;--teal-600:#14919b;--mint-100:#dff4ec;--mint-50:#f0faf6;--ink:#183536;--muted:#607879;--line:#d7e8e2;--paper:#fff;--amber:#a85d08;--shadow:0 12px 32px rgba(7,63,66,.08)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:24px}
+body{margin:0;color:var(--ink);background:#edf7f2;font-family:Inter,"PingFang SC","Noto Sans SC","Microsoft YaHei",system-ui,sans-serif;line-height:1.65}
+button,select{font:inherit}
+a{color:inherit}
+.hero{color:#fff;background:radial-gradient(circle at 85% 10%,rgba(129,230,196,.24),transparent 30%),linear-gradient(125deg,#073f42,#0d7377 56%,#14919b)}
+.hero-inner{width:min(1440px,100%);margin:auto;padding:44px clamp(20px,5vw,72px) 36px}
+.hero-flex{display:flex;gap:clamp(18px,3vw,40px);align-items:flex-start}
+.hero-cover{width:min(240px,42vw);height:auto;max-height:320px;object-fit:contain;object-position:center;border-radius:16px;border:1px solid rgba(255,255,255,.28);box-shadow:0 18px 44px rgba(0,0,0,.32);flex-shrink:0;background:rgba(255,255,255,.08)}
+.hero-text{min-width:0;flex:1}
+.eyebrow{margin:0 0 12px;font-size:.78rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;opacity:.8}
+h1{max-width:1020px;margin:0;font-size:clamp(1.7rem,3.6vw,3rem);line-height:1.15;letter-spacing:-.04em}
+.hero-en{margin:12px 0 22px;font-size:clamp(1rem,2vw,1.25rem);opacity:.82}
+.hero-meta{display:flex;flex-wrap:wrap;gap:9px;align-items:center}
+.chip{border:1px solid rgba(255,255,255,.28);border-radius:99px;padding:5px 11px;font-size:.82rem;background:rgba(255,255,255,.08)}
+.source-link{font-weight:750;text-decoration:none;border-bottom:1px solid rgba(255,255,255,.5)}
+.toolbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:22px}
+.toolbar label{font-size:.82rem;opacity:.82}
+.toolbar select{color:#fff;background:#0a5d61;border:1px solid rgba(255,255,255,.3);border-radius:8px;padding:7px 9px}
+.stop-btn{display:none;color:#fff;background:#8c3b2a;border:0;border-radius:8px;padding:8px 12px;cursor:pointer}
+.stop-btn.visible{display:inline-flex}
+.speech-status{min-height:1.4em;font-size:.82rem;opacity:.88}
+.lang-switch{display:inline-flex;gap:6px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.28);border-radius:99px;padding:4px}
+.lang-switch a{display:inline-block;padding:4px 13px;border-radius:99px;font-size:.8rem;font-weight:700;text-decoration:none;color:rgba(255,255,255,.75)}
+.lang-switch a.active{background:#fff;color:var(--teal-800)}
+.narration-player{margin-top:16px;padding:14px 18px;background:rgba(255,255,255,.1);border-radius:12px;border:1px solid rgba(255,255,255,.15)}
+.audio-label{color:rgba(255,255,255,.88);font-size:.82rem;font-weight:700;margin:0 0 8px}
+.page{width:min(1440px,100%);margin:auto;padding:28px clamp(16px,3vw,44px) 64px;display:grid;grid-template-columns:minmax(230px,280px) minmax(0,1fr);gap:30px;align-items:start}
+.sidebar{position:sticky;top:20px;min-width:0}
+.sidebar-box{background:rgba(255,255,255,.8);border:1px solid var(--line);border-radius:16px;padding:17px;box-shadow:var(--shadow);backdrop-filter:blur(12px)}
+.sidebar h2{margin:0 0 13px;font-size:.9rem;letter-spacing:.08em;color:var(--teal-800)}
+.map-link{display:grid;grid-template-columns:34px minmax(0,1fr);gap:9px;padding:10px 6px;text-decoration:none;border-top:1px solid var(--line)}
+.map-link:hover b{color:var(--teal-700)}
+.map-id{width:30px;height:30px;display:grid;place-items:center;border-radius:9px;color:#fff;background:var(--teal-700);font-size:.72rem;font-weight:800}
+.map-link b{display:block;font-size:.78rem;line-height:1.4}
+.map-link small{display:block;color:var(--muted);font-size:.67rem;line-height:1.4;margin-top:2px;overflow-wrap:anywhere}
+.content{min-width:0}
+.scene-card{background:var(--paper);border:1px solid var(--line);border-radius:20px;padding:clamp(20px,3vw,34px);margin-bottom:24px;box-shadow:var(--shadow);overflow:hidden}
+.scene-topline{display:flex;justify-content:space-between;gap:16px;align-items:center;margin-bottom:16px}
+.scene-id{display:inline-grid;place-items:center;min-width:42px;height:30px;padding:0 10px;color:#fff;background:var(--teal-700);border-radius:8px;font-size:.78rem;font-weight:850}
+.time{margin-left:10px;color:var(--muted);font-size:.82rem;font-variant-numeric:tabular-nums}
+.scene-card h2{margin:0 0 2px;font-size:clamp(1.35rem,2.4vw,2rem);line-height:1.25;color:var(--teal-950)}
+.scene-title-en{margin:0 0 18px;color:var(--teal-600);font-weight:700;font-size:.98rem}
+.context{margin:0 0 20px;padding:12px 15px;color:#496566;background:var(--mint-50);border-left:3px solid var(--teal-600);border-radius:0 10px 10px 0;font-size:.88rem}
+.context b{margin-right:10px;color:var(--teal-800)}
+.sentence-list{display:grid;gap:12px}
+.sentence{position:relative;display:grid;grid-template-columns:38px minmax(0,1fr);gap:12px;padding:16px;border:1px solid #e2ece8;border-radius:14px;background:#fcfefd;min-width:0}
+.sentence-no{color:var(--teal-600);font-size:.76rem;font-weight:850;font-variant-numeric:tabular-nums;padding-top:4px}
+.bilingual{min-width:0;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(14px,2vw,28px)}
+.lang-block{min-width:0}
+.lang-block p{margin:5px 0 0;overflow-wrap:anywhere}
+.en-block{padding-left:clamp(14px,2vw,28px);border-left:1px solid var(--line)}
+.en-block p{color:#0b5c60;font-weight:650}
+.lang-tag{display:inline-block;color:var(--muted);font-size:.66rem;font-weight:850;letter-spacing:.12em}
+.en-head{display:flex;justify-content:space-between;gap:10px;align-items:center;min-height:30px}
+.note{grid-column:2;margin:1px 0 0;color:#708182;font-size:.78rem}
+.note span{margin-right:7px;color:var(--amber);font-weight:750}
+.speak-btn{display:inline-flex;align-items:center;gap:7px;border:1px solid #b8d9d1;border-radius:9px;padding:7px 11px;color:var(--teal-800);background:#f5fbf8;cursor:pointer;white-space:nowrap;font-size:.78rem;font-weight:750;transition:.15s ease}
+.speak-btn:hover{color:#fff;background:var(--teal-700);border-color:var(--teal-700);transform:translateY(-1px)}
+.speak-btn.playing{color:#fff;background:var(--teal-700);border-color:var(--teal-700)}
+.speak-btn.compact{padding:4px 8px;font-size:.7rem}
+.speak-btn.icon-only{padding:3px 7px;margin-left:6px}
+.speak-btn.icon-only span:last-child{display:none}
+.pronounce-word{display:inline;margin:0;padding:0 2px;color:inherit;background:rgba(20,145,155,.08);border:0;border-bottom:1px dashed var(--teal-600);border-radius:3px;font:inherit;font-weight:inherit;line-height:inherit;cursor:pointer}
+.pronounce-word:hover,.pronounce-word:focus{color:var(--teal-950);background:#cceee4;border-bottom-style:solid;outline:3px solid rgba(20,145,155,.42);outline-offset:2px}
+.pronounce-word.playing{color:#fff;background:var(--teal-700);border-bottom-color:var(--teal-700)}
+.paraphrase{margin-top:18px;border-top:1px solid var(--line)}
+.paraphrase summary{padding:16px 0 3px;color:var(--teal-800);cursor:pointer;font-weight:800}
+.paraphrase summary span{color:var(--muted);font-size:.75rem;font-weight:500;margin-left:8px}
+.paraphrase ol{margin:12px 0 0;padding-left:22px}
+.paraphrase li{padding:7px 0 9px 5px}
+.paraphrase li p{margin:0;font-size:.9rem;font-weight:650}
+.paraphrase li small{display:block;color:var(--muted);font-size:.72rem;margin-top:2px}
+.chunks{margin-top:4px;color:var(--teal-700);font-size:.78rem}
+.study-section{margin:38px 0 0}
+.section-heading{display:flex;align-items:baseline;gap:10px;margin:0 0 15px;color:var(--teal-950);font-size:1.35rem}
+.section-heading small{color:var(--teal-600);font-size:.78rem;letter-spacing:.05em}
+.study-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.study-grid article{padding:17px;background:#fff;border:1px solid var(--line);border-radius:14px;box-shadow:0 6px 18px rgba(7,63,66,.05);min-width:0}
+.study-grid p{margin:0}
+.practice-en{margin-top:9px;color:var(--teal-700);font-weight:650;overflow-wrap:anywhere}
+.wrong{color:#a24831;text-decoration:line-through;overflow-wrap:anywhere}
+.right{color:var(--teal-700);font-weight:750;margin:5px 0;overflow-wrap:anywhere}
+.pitfalls p{color:var(--muted);font-size:.82rem}
+.shifts article{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1.5fr);gap:12px;align-items:center}
+.shifts b{color:var(--teal-600);font-size:1.2rem}
+.shifts strong{color:var(--teal-800)}
+footer{margin-top:38px;color:var(--muted);font-size:.78rem;text-align:center}
+.footer-note{margin-top:6px}
+@media (max-width:900px){
+  .page{grid-template-columns:1fr}
+  .sidebar{position:static}
+  .sidebar-box{overflow-x:auto;padding:12px}
+  .sidebar h2{padding-left:5px}
+  .map-nav{display:flex;width:max-content;gap:8px}
+  .map-link{width:240px;border:1px solid var(--line);border-radius:10px;padding:8px}
+  .bilingual{grid-template-columns:1fr}
+  .en-block{padding:12px 0 0;border-left:0;border-top:1px dashed var(--line)}
+}
+@media (max-width:620px){
+  .hero-inner{padding-top:30px}
+  .hero-flex{flex-direction:column;align-items:center}
+  .hero-cover{width:100%;max-width:360px}
+  .hero-text{text-align:center}
+  .page{padding-inline:10px;gap:18px}
+  .scene-card{border-radius:14px;padding:17px 13px}
+  .scene-topline{align-items:flex-start}
+  .scene-speak span:last-child{display:none}
+  .sentence{grid-template-columns:26px minmax(0,1fr);padding:13px 10px;gap:6px}
+  .note{grid-column:2}
+  .study-grid{grid-template-columns:1fr}
+  .shifts article{grid-template-columns:1fr;gap:5px}
+  .shifts b{transform:rotate(90deg);justify-self:start}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.speak-btn{transition:none}}</style>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="hero-flex">
+        <div class="hero-text">
+          <p class="eyebrow">AI &amp; Startups · AI 与创业</p>
+          <h1>E224｜深度拆解Clawdbot，为何它能成为2026年第一个现象级产品？</h1>
+          <p class="hero-en">E224 | Clawdbot Deep Dive: Why It Became the First Phenomenal Product of 2026</p>
+          <p class="summary-en" style="margin:0 0 14px;padding:14px 16px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.22);border-radius:12px;font-size:.95rem;line-height:1.7">Silicon Valley 101 brings in three guests — a user-side insider, an algorithm-side engineer, and a hardware-side builder — to break down why Clawdbot and OpenClaw became the first phenomenal agent product of 2026. They dissect its 'aliveness': long-term memory plus proactivity, the markdown memory architecture, the heartbeat mechanism, and Mac mini isolated deployment. They also look ahead to one-person companies and the new pay-per-crawl business model.</p>
+          <div class="hero-meta">
+            <span class="chip">2026-06-23</span>
+            <span class="chip">小宇宙FM</span>
+            <span class="chip">79分40秒</span>
+            <span class="chip">6 Scenes</span>
+            <span class="chip">Click underlined words to hear them</span>
+            <a class="source-link" href="https://www.xiaoyuzhoufm.com/episode/69828c85a712301410e31643" target="_blank" rel="noopener">原播客 ↗</a>
+          </div>
+        </div>
+      </div>
+      <div class="toolbar">
+        <div class="lang-switch"><div class="lang-switch"><a href="clawdbot_2026_phenomenon-总结.html">中文</a><a class="active" href="clawdbot_2026_phenomenon-en.html" aria-current="page">EN</a></div></div>
+        <label for="speech-rate">朗读速度</label>
+        <select id="speech-rate">
+          <option value="0.85">慢速 0.85×</option>
+          <option value="1" selected>正常 1×</option>
+          <option value="1.15">快速 1.15×</option>
+        </select>
+        <button id="stop-speech" class="stop-btn" type="button">■ 停止朗读</button>
+        <span id="speech-status" class="speech-status" role="status" aria-live="polite"></span>
+      </div>
+      <div class="narration-player">
+      <p class="audio-label">🎧 中文语音讲解</p>
+      <button class="speak-btn" type="button" data-audio="audio/clawdbot_2026_phenomenon.mp3" aria-label="播放语音讲解"><span aria-hidden="true">▶</span><span>播放语音讲解</span></button>
+    </div>
+    </div>
+  </header>
+  <main class="page">
+    <aside class="sidebar" aria-label="场景地图">
+      <div class="sidebar-box">
+        <h2>场景地图 · SCENE MAP</h2>
+        <nav class="map-nav">
+          <a class="map-link" href="#s1">
+          <span class="map-id">S1</span>
+          <span><b>一、为何是Clawdbot火了？现象级产品的灵魂</b><small> · Part 1: Why Did Clawdbot Blow Up? The Soul of a Phenomenal Product</small></span>
+        </a>
+<a class="map-link" href="#s2">
+          <span class="map-id">S2</span>
+          <span><b>二、惊艳用例：Agent自主能力的边界</b><small> · Part 2: Stunning Use Cases — The Boundaries of Agent Autonomy</small></span>
+        </a>
+<a class="map-link" href="#s3">
+          <span class="map-id">S3</span>
+          <span><b>三、技术拆解：MD记忆与心跳机制</b><small> · Part 3: Technical Breakdown — MD Memory and the Heartbeat Mechanism</small></span>
+        </a>
+<a class="map-link" href="#s4">
+          <span class="map-id">S4</span>
+          <span><b>四、安全部署与成本管控</b><small> · Part 4: Secure Deployment and Cost Control</small></span>
+        </a>
+<a class="map-link" href="#s5">
+          <span class="map-id">S5</span>
+          <span><b>五、Agent硬件：未来品类定义</b><small> · Part 5: Agent Hardware — Defining a New Category</small></span>
+        </a>
+<a class="map-link" href="#s6">
+          <span class="map-id">S6</span>
+          <span><b>六、商业展望与组织重塑</b><small> · Part 6: Business Outlook and Organizational Reinvention</small></span>
+        </a>
+        </nav>
+      </div>
+    </aside>
+    <div class="content">
+      <section class="scene-card" id="s1" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S1</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/clawdbot_2026_phenomenon/s1.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>一、为何是Clawdbot火了？现象级产品的灵魂</h2>
+      <p class="scene-title-en">Part 1: Why Did Clawdbot Blow Up? The Soul of a Phenomenal Product</p>
+      <p class="context"><b>情境</b>从长期记忆与主动性拆解Clawdbot的「活人感」，以及IM界面带来的亲近感。语域：casual 科技点评。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：长期记忆能记住跨会话对话与偏好；主动性体现在每日问候、任务预研、生活提醒推送，像JARVIS一样会抖机灵吐槽</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/clawdbot_2026_phenomenon/s1-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The core mechanism: long-term memory lets it remember cross-session conversations and preferences; proactivity shows up in daily greetings, task pre-research, and life reminders pushed to you — like JARVIS, it can even crack jokes and roast.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>long-term memory → 长期记忆；cross-session → 跨会话；proactivity → 主动性；task pre-research → 任务预研；crack jokes → 抖机灵</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：AI主动性不是新概念，但Clawdbot是第一个把记忆+主动+IM三者做到位、让普通人感知到技术进步的产品</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/clawdbot_2026_phenomenon/s1-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key insight: proactive AI isn't a new concept, but Clawdbot is the first product to get memory, proactivity, and IM all right — letting ordinary people actually perceive the technological progress.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>get A, B, and C all right → 把A/B/C都做到位；perceive progress → 感知进步；ordinary people → 普通人</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>典型场景：碎碎念「牛肉再不吃了」，Agent自动加入reminder并在下午主动提醒烹饪时机</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/clawdbot_2026_phenomenon/s1-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">A typical scene: you mutter 'the beef will go bad if we don't eat it soon,' and the agent automatically adds a reminder and proactively nudges you in the afternoon about the cooking window.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>mutter → 碎碎念；reminder → 提醒；nudge → 主动提醒/推动；cooking window → 烹饪时机</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）"就那种特别主动性的下属的这种感觉……用了就回不去了。"</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/clawdbot_2026_phenomenon/s1-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">A quote: 'That kind of super-proactive subordinate feeling… once you use it, you can't go back.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>super-proactive → 特别主动的；subordinate → 下属；can't go back → 回不去了</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据：知县描述Agent根据碎碎念自动处理牛肉提醒，并强调「牛肉一定要最后两三分钟放，要不然会煮老」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/clawdbot_2026_phenomenon/s1-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">In the author's own words: the host describes the agent automatically handling the beef reminder from a mutter, emphasizing 'the beef must go in for the last two or three minutes, or it will get tough.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>go in → 放进去；get tough → 煮老；emphasize → 强调</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：用户已熟悉的消息传递方式（微信、飞书）让Agent感觉像跟同事聊天，而非在Terminal里对话</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/clawdbot_2026_phenomenon/s1-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The core mechanism: the familiar messaging patterns — WeChat, Feishu — make the agent feel like chatting with a colleague rather than typing in a terminal.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>messaging patterns → 消息传递方式；chat with a colleague → 跟同事聊天；terminal → 终端</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「用了就回不去了」</p><div class="chunks">can't go back · feels broken</div><small>第一句是节目原话金句，直接引用</small></li>
+<li><p>想说「像特别主动的下属」</p><div class="chunks">hyper-proactive assistant · anticipates everything</div><small>第二句更具体，描述「预判需求」的能力</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s2" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S2</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/clawdbot_2026_phenomenon/s2.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>二、惊艳用例：Agent自主能力的边界</h2>
+      <p class="scene-title-en">Part 2: Stunning Use Cases — The Boundaries of Agent Autonomy</p>
+      <p class="context"><b>情境</b>知县展示Agent自动写文发博客、自动开网页生图的惊艳用例。语域：casual 使用体验分享。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>在讲什么：知县让Agent测试MacOS本地模型API，测完后自动以用户口吻写文章、发布到中英文博客，配好tag和category</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/clawdbot_2026_phenomenon/s2-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">What happened: the host asked the agent to test the local model API on MacOS, and after the test, it automatically wrote an article in the user's voice and published it to his Chinese and English blogs, with tags and categories properly configured.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>in one's voice → 以某人口吻；publish → 发布；properly configured → 配好；local model API → 本地模型API</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：Agent参考整个repo规则自行摸清配置，无需中间追问，10秒完成发布并甩两个链接</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/clawdbot_2026_phenomenon/s2-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key insight: the agent studied the entire repo's rules on its own and figured out the configuration without a single follow-up question, completing the publish in about 10 seconds and throwing two links back.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>on its own → 自行；figure out → 摸清；without a follow-up question → 无需中间追问；throw links back → 甩链接</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>怎么用：给Agent明确目标（写文+发布），让它自主探索仓库规则；适合有自定义博客配置的开发者</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/clawdbot_2026_phenomenon/s2-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">How to use it: give the agent a clear goal (write and publish), let it explore the repo's rules autonomously; this suits developers with custom blog configurations.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>clear goal → 明确目标；autonomously → 自主地；custom config → 自定义配置</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据：「也就用了10秒左右的时间吧，然后甩了两个链接给我……人家配的比我配的还好啊」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/clawdbot_2026_phenomenon/s2-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">In the author's own words: 'It only took about ten seconds, then it threw two links at me… the setup it made was even better than mine.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>throw at sb → 甩给某人；setup → 配置；even better than → 比…还好</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）落地建议：先让Agent做小实验验证能力边界，再逐步放开发布权限</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/clawdbot_2026_phenomenon/s2-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">A practical suggestion: first let the agent do small experiments to verify the capability boundaries, then gradually grant publishing permissions.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>capability boundaries → 能力边界；small experiments → 小实验；grant permissions → 放权/开放权限</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：无生图API Key时，Agent自动打开Gemini网页输入提示词、生成、通过Playwright复制保存图片、推送到博客命名为cover.png，并封装成Skill</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/clawdbot_2026_phenomenon/s2-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The core mechanism: without an image-generation API key, the agent automatically opened the Gemini webpage, typed the prompt, generated the image, saved it via Playwright, pushed it to the blog named cover.png, and wrapped the whole flow into a reusable Skill.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>API key → API密钥；via Playwright → 通过Playwright；reusable → 可复用的；wrap into a Skill → 封装成技能</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「甩两个链接给你」</p><div class="chunks">throw links at · drop the links</div><small>throw at 是节目原话语气，最口语</small></li>
+<li><p>想说「先小实验再放权」</p><div class="chunks">test small first · verify boundaries</div><small>第一句更口语行动导向，适合建议</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s3" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S3</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/clawdbot_2026_phenomenon/s3.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>三、技术拆解：MD记忆与心跳机制</h2>
+      <p class="scene-title-en">Part 3: Technical Breakdown — MD Memory and the Heartbeat Mechanism</p>
+      <p class="context"><b>情境</b>华祯豪从技术侧拆解MD记忆架构、检索机制与心跳。语域：formal 技术讲解。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：记忆分两类——Personality记忆（identity、说话方式、用户称呼）存在SOUL.md等文件；事实/工作记忆按日期存daily index文件，记录工作进展与待办</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/clawdbot_2026_phenomenon/s3-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The core mechanism: memory comes in two kinds — personality memory (identity, speaking style, how it addresses you) stored in files like SOUL.md; and factual or work memory stored by date in daily index files recording progress and to-dos.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>personality memory → 人格记忆；speaking style → 说话方式；factual memory → 事实记忆；to-dos → 待办</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：技术上就是把MD文件内容load进context；Personality记忆借鉴二次元角色扮演项目，事实记忆借鉴Cloud Code的CLAUDE.md实现</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/clawdbot_2026_phenomenon/s3-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key insight: technically, it's just loading the contents of the MD files into context. The personality memory borrows from 2D character-roleplay projects, and the factual memory borrows from Cloud Code's CLAUDE.md implementation.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>load into context → 加载进上下文；borrow from → 借鉴；roleplay → 角色扮演；implementation → 实现</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>典型场景：初次聊天Agent会反复问「你希望我叫什么」「你叫什么」，拿到后持久存储</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/clawdbot_2026_phenomenon/s3-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">A typical scene: in a first chat, the agent repeatedly asks 'what should I call you?' and 'what's your name?', then persistently stores the answer.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>repeatedly ask → 反复问；persistently store → 持久存储；what should I call you → 你希望我叫什么</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据：华祯豪「技术上的话就是把这些文件的内容load到他的context里，然后就去使用了」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/clawdbot_2026_phenomenon/s3-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">In the author's own words: 'Technically, it loads the contents of these files into its context, and then just uses them.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>load into context → 加载到上下文；just uses them → 然后去使用</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）与Context压缩的区别：MD结构化存储比压缩更确保持久稳定，不会因窗口截断丢失关键信息</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/clawdbot_2026_phenomenon/s3-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Compared with context compression: MD structured storage is more persistent and stable than compression, and key information isn't lost when the window gets truncated.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>context compression → 上下文压缩；structured storage → 结构化存储；truncate → 截断</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：向量语义匹配占70%，BM25关键词搜索占30%，实现秒级记忆定位</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/clawdbot_2026_phenomenon/s3-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The core mechanism: retrieval is 70% vector semantic matching plus 30% BM25 keyword search, achieving sub-second memory lookup.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>vector semantic matching → 向量语义匹配；keyword search → 关键词搜索；sub-second → 秒级/亚秒级；retrieval → 检索</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「把文件内容加载进上下文」</p><div class="chunks">load into context · part of what it sees</div><small>第一句是技术原话；第二句更通俗解释</small></li>
+<li><p>想说「结构化存储比压缩更稳」</p><div class="chunks">structured beats compressed · writing beats summarizing</div><small>第二句用生活化对比，好懂好记</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s4" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S4</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/clawdbot_2026_phenomenon/s4.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>四、安全部署与成本管控</h2>
+      <p class="scene-title-en">Part 4: Secure Deployment and Cost Control</p>
+      <p class="context"><b>情境</b>讨论隔离部署的安全必要性、订阅套餐与API计费的取舍。语域：formal 安全与成本分析。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>原因：Agent拥有系统大量隐秘权限且可直接执行，最佳方案是隔离部署，不要在主力电脑上使用</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/clawdbot_2026_phenomenon/s4-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The reason: the agent holds many hidden system permissions and can execute directly, so the best plan is isolated deployment — don't use it on your main computer.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>hidden permissions → 隐秘权限；execute directly → 直接执行；isolated deployment → 隔离部署；main computer → 主力电脑</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>解法：Mac mini/VPS物理隔离 + 只给Agent访问愿意分享的数据；追求极致隐私需本地模型但性能不足</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/clawdbot_2026_phenomenon/s4-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The solution: physical isolation with a Mac mini or VPS, and only give the agent access to data you're willing to share; for maximum privacy you'd need local models, but their performance is insufficient.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>physical isolation → 物理隔离；willing to share → 愿意分享；maximum privacy → 极致隐私；performance is insufficient → 性能不足</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>严重程度：致命——主力机部署等于请黑客进门</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/clawdbot_2026_phenomenon/s4-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The severity: fatal — deploying on your main machine is like inviting a hacker into your home.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>severity → 严重程度；invite a hacker in → 请黑客进门；fatal → 致命的</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）嘉宾共识：「这个太可怕了不敢用」是合理反应；Moltbook还暴露了用户名密码邮件等敏感信息泄露</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/clawdbot_2026_phenomenon/s4-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Guest consensus: 'This is too scary, I don't dare use it' is a reasonable reaction; one open-source laptop project even exposed sensitive information like usernames, passwords, and emails.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>too scary to use → 太可怕了不敢用；sensitive information → 敏感信息；expose → 暴露</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：用Claude Pro/Max订阅的Setup Token登录，固定月费不怕烧Token；API Key按量计费在高消耗场景下成本失控</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/clawdbot_2026_phenomenon/s4-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The core mechanism: logging in with a Claude Pro/Max subscription's Setup Token means a fixed monthly fee without the fear of burning tokens; API-key metering runs out of control in high-consumption scenarios.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>Setup Token → 登录令牌；fixed monthly fee → 固定月费；burn tokens → 烧token；high-consumption → 高消耗</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：200刀/月套餐跑5个Agent+编程任务基本够用；Token消耗大往往是因为爬虫、截屏等高耗操作，非Bot本身机制导致</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/clawdbot_2026_phenomenon/s4-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key insight: a 200-dollar-per-month plan running five agents plus coding tasks is basically sufficient; heavy token consumption usually comes from crawlers, screenshots, and other high-cost operations, not the bot's own mechanisms.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>basically sufficient → 基本够用；high-cost operations → 高耗操作；crawlers → 爬虫</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「主力机部署等于请黑客进门」</p><div class="chunks">invite a hacker home · daily driver</div><small>第一句是节目原话的比喻，最有冲击力</small></li>
+<li><p>想说「订阅套餐不怕烧token」</p><div class="chunks">never fear burning · keeps token anxiety away</div><small>第一句直白；第二句更口语轻松</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s5" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S5</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/clawdbot_2026_phenomenon/s5.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>五、Agent硬件：未来品类定义</h2>
+      <p class="scene-title-en">Part 5: Agent Hardware — Defining a New Category</p>
+      <p class="context"><b>情境</b>叶天奇讲Agent电脑作为新品类：RAM/存储关键、砍掉屏幕等冗余。语域：formal 硬件产品分析。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：工作分Foreground（需屏幕）和Background（后台默默跑）；Agent电脑属于后者，大厂手机/电脑厂做前者</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/clawdbot_2026_phenomenon/s5-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The core mechanism: work splits into foreground tasks (needing a screen) and background tasks (running silently); agent computers belong to the latter, while big phone and computer makers build the former.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>foreground / background tasks → 前台/后台任务；run silently → 后台默默跑；the latter / the former → 后者/前者</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键参数：RAM决定能跑多少Agent（4GB只能跑2个就卡）；存储也重要，知识工作者聊天内容会转化为知识资产，用户常外挂SSD</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/clawdbot_2026_phenomenon/s5-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key parameters: RAM decides how many agents you can run (4GB can only run two before it gets slow); storage also matters, since a knowledge worker's chats become knowledge assets, and users often bolt on an external SSD.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>key parameters → 关键参数；knowledge assets → 知识资产；bolt on → 外挂；external SSD → 外接SSD</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>可砍掉：屏幕（Agent调用时作用不大）、为人类设计的冗余能力；强化IO接口和状态指示灯</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/clawdbot_2026_phenomenon/s5-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">What can be cut: the screen (not very useful when the agent calls in) and redundant capabilities designed for humans; instead, strengthen the IO interfaces and status indicator lights.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>redundant → 冗余的；IO interfaces → IO接口；status lights → 状态指示灯；calls in → 调用时</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）"你如果把我的这些工作都以不需要屏幕的形式做掉了，那我的手机存在意义是什么？"</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/clawdbot_2026_phenomenon/s5-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">A quote: 'If you did all my work in a screenless way, then what reason does my phone have to exist?'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>screenless → 不需要屏幕；reason to exist → 存在的意义</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）与Mac mini的关系：Mac mini本质还是为人类设计，Agent专用硬件可以砍掉冗余降成本</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/clawdbot_2026_phenomenon/s5-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The relationship with Mac mini: the Mac mini is still designed for humans; agent-dedicated hardware can cut the redundancy and lower costs.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>designed for humans → 为人类设计；agent-dedicated → 专门为Agent的；lower costs → 降成本</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>叶天奇坚信这是新品类，但Agent入口和算力不一定绑定。公司内部已有人只带iPad，工作转移到Agent设备自动化。边缘计算硬件端需有特有功能，而非简单中控</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/clawdbot_2026_phenomenon/s5-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Ye Tianqi firmly believes this is a new category, but the agent entry point and compute power aren't necessarily bound together. Inside the company, some people already carry only an iPad, with work shifting to automated agent devices. Edge-computing hardware needs unique functions, not just being a simple control hub.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>new category → 新品类；bound together → 绑定；control hub → 中控；unique functions → 特有功能</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「手机的存在意义被质疑」</p><div class="chunks">the point of a phone · loses its reason to exist</div><small>第一句是节目反问金句，最有力</small></li>
+<li><p>想说「RAM决定能跑几个Agent」</p><div class="chunks">set your agent headcount · a RAM question</div><small>第二句更凝练，适合参数讲解</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s6" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S6</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/clawdbot_2026_phenomenon/s6.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>六、商业展望与组织重塑</h2>
+      <p class="scene-title-en">Part 6: Business Outlook and Organizational Reinvention</p>
+      <p class="context"><b>情境</b>聊Agent沟通成本低、一人公司可行性、多Agent协作的推责问题。语域：formal 商业前瞻。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据：电商代运营朋友客户已有10%流量从Agent倒过去；创始人大量注册.md域名</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/clawdbot_2026_phenomenon/s6-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Early evidence: a friend running e-commerce operations says 10% of his clients' traffic now comes from agents; founders are mass-registering .md domain names.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>e-commerce operations → 电商代运营；traffic → 流量；mass-register → 大量注册；domain names → 域名</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：Agent沟通成本低、天生爱文档化、适合集团式推进；但你需要有know-how做「将军」，不懂领域让Agent乱搞会拍烂片</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/clawdbot_2026_phenomenon/s6-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The core mechanism: agents communicate cheaply, are born lovers of documentation, and suit group-style rollout; but you need the know-how to be the 'general' — let an agent run wild in a field you don't understand and you'll shoot a bad film.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>born lovers of documentation → 天生爱写文档；group-style rollout → 集团式推进；run wild → 乱搞；shoot a bad film → 拍烂片</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：人类团队最大成本是沟通管理（信息折损、对齐会议）；Agent之间沟通快、爱写文档，但长期记忆仍不够好</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/clawdbot_2026_phenomenon/s6-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key insight: the biggest cost in human teams is communication and management — information loss and alignment meetings; agents communicate fast and love writing docs, but their long-term memory still isn't good enough.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>information loss → 信息折损；alignment meetings → 对齐会议；long-term memory → 长期记忆</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>适用边界：零人公司不靠谱；一人公司绝对可行，但人必须懂方向有评判能力</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/clawdbot_2026_phenomenon/s6-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The boundary: a zero-employee company isn't reliable; a one-person company is absolutely viable, but the human must understand the direction and have judgment.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>zero-employee company → 零人公司；one-person company → 一人公司；viable → 可行；judgment → 评判能力</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）"你得有know-how……你是这个军团的将军，但你得到的军团比纯人肉军团强大非常多倍。"</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/clawdbot_2026_phenomenon/s6-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">A quote: 'You have to have the know-how… you are the general of this legion, but the legion you command is many times stronger than a pure flesh-and-blood one.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>know-how → 专业能力；general → 将军；legion → 军团；flesh-and-blood → 血肉之躯</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>原因：多Agent协作会出现人类式推责，需设计上级Agent做决策；生产环境需透明审核机制和系统级回滚能力</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/clawdbot_2026_phenomenon/s6-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The reason: multi-agent collaboration produces human-style blame-shifting, so you need a superior agent to make decisions; production environments need transparent review mechanisms and system-level rollback capability.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>blame-shifting → 推责；superior agent → 上级Agent；review mechanisms → 审核机制；rollback → 回滚</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「你得是懂领域的将军」</p><div class="chunks">be the general · domain knowledge</div><small>第一句是节目核心比喻，引用最佳</small></li>
+<li><p>想说「多Agent会出现推责」</p><div class="chunks">pass the buck · blame-shifting</div><small>pass the buck 是地道俚语，口语首选</small></li>
+        </ol>
+      </details>
+    </section>
+      <section class="study-section" id="practice">
+      <h2 class="section-heading">今日可练 <small>PRACTICE TODAY</small></h2>
+      <div class="study-grid">
+        <article>
+          <p>用「can't go back」说：用了就回不去了。</p>
+          <div class="practice-en">
+            Once you've had a proactive agent, you can't go back.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/clawdbot_2026_phenomenon/practice-0.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「load into context」说：把MD文件加载进上下文。</p>
+          <div class="practice-en">
+            The personality files get loaded into context on every chat.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/clawdbot_2026_phenomenon/practice-1.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「invite a hacker home」说：主力机部署等于请黑客进门。</p>
+          <div class="practice-en">
+            Deploying it on your main machine is like inviting a hacker home.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/clawdbot_2026_phenomenon/practice-2.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「be the general」说：你得懂领域才能当将军。</p>
+          <div class="practice-en">
+            You have to be the general with know-how, or the legion goes nowhere.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/clawdbot_2026_phenomenon/practice-3.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article>
+      </div>
+    </section>
+      <section class="study-section pitfalls" id="pitfalls">
+      <h2 class="section-heading">避坑 <small>PITFALLS</small></h2>
+      <div class="study-grid">
+        <article>
+          <div class="wrong">✕ The agent is very active.</div>
+          <div class="right">✓ The agent is proactive — it greets you daily and pre-researches tasks.</div>
+          <p>active 指「活跃的」，主动性是 proactive；要用具体行为说明而非干巴巴的形容词。</p>
+        </article><article>
+          <div class="wrong">✕ The agent remembers my preferences in a file.</div>
+          <div class="right">✓ Personality memory lives in files like SOUL.md and loads into context.</div>
+          <p>在文件里记住太笼统；用 lives in / loads into context 才符合技术语境。</p>
+        </article><article>
+          <div class="wrong">✕ You should use the agent on your main computer.</div>
+          <div class="right">✓ Never run it on your main machine — isolate it on a Mac mini or VPS.</div>
+          <p>正相反：这是致命安全问题。建议要用 never/isolate 表达强否定。</p>
+        </article><article>
+          <div class="wrong">✕ The company has zero employees and still works well.</div>
+          <div class="right">✓ A zero-employee company isn't reliable; a one-person company with judgment is viable.</div>
+          <p>零人公司被明确否定了；要区分 zero-employee 与 one-person，表达才准确。</p>
+        </article>
+      </div>
+    </section>
+      <section class="study-section shifts" id="mindset">
+      <h2 class="section-heading">认知转变 <small>MINDSET SHIFTS</small></h2>
+      <div class="study-grid">
+        <article>
+          <span>以为AI助手就是「你问我答」的工具</span>
+          <b aria-hidden="true">→</b>
+          <strong>记忆+主动+IM三者到位后，AI像活人下属一样提前为你做事</strong>
+        </article><article>
+          <span>以为上下文压缩是记忆的最佳方案</span>
+          <b aria-hidden="true">→</b>
+          <strong>MD文件结构化存储比压缩更持久稳定，关键信息不随窗口截断丢失</strong>
+        </article><article>
+          <span>以为多雇人才能撑起公司</span>
+          <b aria-hidden="true">→</b>
+          <strong>懂方向的一个人+Agent军团，比纯人肉团队强大得多</strong>
+        </article>
+      </div>
+    </section>
+      <footer>
+        双语学习版 · 场景/句子朗读使用 edge-tts（en-US） · 单词发音使用浏览器 Web Speech API
+        <div class="footer-note">中文版：<a href="clawdbot_2026_phenomenon-总结.html">clawdbot_2026_phenomenon-总结.html</a> · SVG 版：<a href="viewer.html?f=clawdbot_2026_phenomenon-总结.svg" target="_blank">clawdbot_2026_phenomenon-总结.svg</a></div>
+      </footer>
+    </div>
+  </main>
+  <script>(() => {
+  let activeAudio = null;
+  let activeBtn = null;
+  const status = document.getElementById('speech-status');
+  const stopBtn = document.getElementById('stop-speech');
+  const rateSel = document.getElementById('speech-rate');
+
+  const reset = () => {
+    if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+    activeBtn?.classList.remove('playing');
+    activeBtn = null;
+    stopBtn.classList.remove('visible');
+    status.textContent = '';
+  };
+
+  const playAudio = (url, btn) => {
+    reset();
+    const audio = new Audio(url);
+    audio.playbackRate = Number(rateSel.value);
+    activeAudio = audio;
+    activeBtn = btn;
+    btn.classList.add('playing');
+    stopBtn.classList.add('visible');
+    status.textContent = btn.classList.contains('scene-speak')
+      ? 'Reading the whole scene…'
+      : 'Reading…';
+
+    audio.onended = () => { if (activeAudio === audio) reset(); };
+    audio.onerror = () => { status.textContent = 'Audio failed to load.'; if (activeAudio === audio) reset(); };
+    audio.play().catch(() => { status.textContent = 'Playback failed.'; if (activeAudio === audio) reset(); });
+  };
+
+  document.addEventListener('click', e => {
+    const btn = e.target.closest('[data-audio]');
+    if (!btn) return;
+    e.preventDefault();
+    if (btn === activeBtn && activeAudio) { reset(); return; }
+    playAudio(btn.dataset.audio, btn);
+  });
+
+  stopBtn.addEventListener('click', reset);
+
+  const synth = window.speechSynthesis;
+  const getEnglishVoice = () => {
+    const voices = synth.getVoices();
+    return voices.find(v => /^en-(US|GB)/i.test(v.lang))
+        || voices.find(v => /^en/i.test(v.lang)) || null;
+  };
+
+  const difficultWords = new Set([
+    'assortment', 'SKU', 'premium', 'margin', 'middleman', 'OEM', 'rebranding',
+    'hoarding', 'PTSD', 'curation', 'repurchase', 'touchpoint', 'backlash',
+    'reshuffle', 'funnel', 'anchor', 'contract', 'psychology', 'private', 'label',
+    'editorial', 'familiar', 'competitors', 'authorization', 'flexibility'
+  ]);
+
+  const shouldPronounce = word => {
+    const n = word.toLowerCase().replace(/^[^a-z]+|[^a-z]+$/g, '');
+    return n.replace(/[^a-z]/g, '').length >= 8 || difficultWords.has(n);
+  };
+
+  const markPronounceableWords = root => {
+    const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+    const nodes = [];
+    while (walker.nextNode()) nodes.push(walker.currentNode);
+    nodes.forEach(node => {
+      if (node.parentElement?.closest('button, script, style')) return;
+      const text = node.nodeValue;
+      let m, last = 0, changed = false;
+      const frag = document.createDocumentFragment();
+      const re = /[A-Za-z]+(?:[-'’][A-Za-z]+)*/g;
+      while ((m = re.exec(text))) {
+        if (!shouldPronounce(m[0])) continue;
+        changed = true;
+        frag.append(text.slice(last, m.index));
+        const wb = document.createElement('button');
+        wb.type = 'button'; wb.className = 'pronounce-word';
+        wb.dataset.speak = m[0];
+        wb.setAttribute('aria-label', '\u8bfb\u5355\u8bcd ' + m[0]);
+        wb.title = '\u70b9\u51fb\u542c\u53d1\u97f3';
+        wb.textContent = m[0];
+        frag.append(wb);
+        last = m.index + m[0].length;
+      }
+      if (!changed) return;
+      frag.append(text.slice(last));
+      node.replaceWith(frag);
+    });
+  };
+
+  document.querySelectorAll(
+    '.english, .scene-title-en, .paraphrase li p, .chunks, .practice-en, .wrong, .right, .summary-en'
+  ).forEach(markPronounceableWords);
+
+  document.addEventListener('click', e => {
+    const wb = e.target.closest('.pronounce-word');
+    if (!wb) return;
+    e.preventDefault();
+    if (!synth) return;
+    synth.cancel();
+    if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+    activeBtn?.classList.remove('playing');
+    activeBtn = wb;
+    wb.classList.add('playing');
+    const u = new SpeechSynthesisUtterance(wb.dataset.speak);
+    u.lang = 'en-US';
+    u.rate = 0.88;
+    const v = getEnglishVoice();
+    if (v) u.voice = v;
+    u.onend = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+    u.onerror = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+    synth.speak(u);
+  });
+})();</script>
+</body>
+</html>

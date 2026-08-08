@@ -1,0 +1,306 @@
+{
+  "slug": "weixiaokang_ai_org",
+  "date": "2026-07-05",
+  "platform": "小宇宙FM",
+  "title": "少有的深度参与过字节、美团组织建设的人｜对谈 AI 创业者魏小康",
+  "title_en": "A Rare Insider on How Bytedance and Meituan Built Their Organizations | A Talk with AI Founder Wei Xiaokang",
+  "eyebrow": "AI & Organizations · AI 与组织",
+  "duration": "50分21秒",
+  "source_url": "https://www.xiaoyuzhoufm.com/episode/6a3e50142e335a35a809d5b4",
+  "summary_cn": "前字节（2017-2020）与美团（2020-2026）招聘负责人魏小康，从稀缺的双公司内部视角拆解组织与人：优秀创始人的五维画像、字节 OKR 与美团运营计划的两套逻辑、招聘应把 60-80% 精力花在扩供给与背调而非面试，以及 AI 时代 OPC 不靠谱、程序员必须会 AI coding 的硬门槛",
+  "summary_en": "Wei Xiaokang, who led recruiting at Bytedance from 2017 to 2020 and at Meituan from 2020 to 2026, breaks down organizations and people from a rare insider's view of both companies: the five dimensions that define great founders, the two different logics behind Bytedance's OKRs and Meituan's operating plans, why recruiting should spend 60 to 80 percent of its effort on sourcing and reference checks rather than interviews, and why one-person companies don't work in the AI era while knowing how to code with AI has become a hard requirement for programmers.",
+  "scenes": [
+    {
+      "id": "s1",
+      "title_cn": "一、优秀创业者与人才：五维画像",
+      "title_en": "Great Founders & Talent: A Five-Dimension Portrait",
+      "context": "魏小康概括顶尖创业者的五个共性，并解释为什么「智商够用+好时代+听得进反馈」比天才更重要。语域：formal 商业分析 + 播客对谈。",
+      "speak": "The framework: Wei Xiaokang won't grade specific celebrities, but he distills five traits that top founders share. First, fast learning and strong curiosity, always asking why. Second, a moderate level of what he calls ego-structure — confident enough to stick with a judgment, humble enough to take input. Third, strong enough motivation to endure the mental grind. Fourth, high energy. Fifth, the ability to actually build an organization rather than fight alone. The key insight: you don't need one-in-ten-thousand IQ — top one percent on the SAT is enough. What matters more is catching the industry wave; combine adequate intelligence, a good era, moderate ego, and openness to feedback, and the odds of building something extraordinary get very high. So when you evaluate a co-founder or the number-one seat, look less at credentials and more at whether they've survived setbacks and can withstand misunderstanding and poaching. As he puts it, 'we're just one wave in the tide of our time.' And under two million yuan, look for no obvious weaknesses; above two million, motivation and energy are what separate people.",
+      "sentences": [
+        {
+          "cn": "核心机制：魏小康不愿评价具体大佬，但归纳出顶尖创业者普遍具备的五点：① 学习能力强且好奇心重（愿意追问为什么）；② 「依构」适中，自信能坚持判断又听得进意见；③ 动机足够强，能扛住精神层面的苦；④ 高精力；⑤ 能把组织建好，不靠单人作战",
+          "en": "The framework: Wei Xiaokang won't grade specific celebrities, but he distills five traits that top founders share: first, fast learning and strong curiosity, always asking why; second, a moderate level of what he calls 'ego-structure' — confident enough to stick with a judgment, humble enough to take input; third, strong enough motivation to endure the mental grind; fourth, high energy; and fifth, the ability to actually build an organization rather than fight alone.",
+          "note": "<span>表达提示</span>distill → 归纳出；curiosity → 好奇心；ego-structure → 「依构」；the mental grind → 精神层面的苦"
+        },
+        {
+          "cn": "关键理解：智商不必万里挑一，SAT 前 1% 够创业；更要赶上行业浪潮，在智商够用+好时代+适度依构+听得进反馈的组合下，做成非凡事业概率很大",
+          "en": "The key insight: you don't need one-in-ten-thousand IQ — top one percent on the SAT is enough. What matters more is catching the industry wave; combine adequate intelligence, a good era, moderate ego, and openness to feedback, and the odds of building something extraordinary get very high.",
+          "note": "<span>表达提示</span>one-in-ten-thousand → 万里挑一；catch the industry wave → 赶上行业浪潮；adequate intelligence → 智商够用；odds → 概率"
+        },
+        {
+          "cn": "典型场景：判断联合创始人或 CEO 一号位时，与其看学历背景，不如看是否经历过挫折、能否在激烈竞争中扛住误解与挖角",
+          "en": "How to use it: when evaluating a co-founder or the number-one seat, look less at academic credentials and more at whether they've been through setbacks and can withstand misunderstanding and poaching in fierce competition.",
+          "note": "<span>表达提示</span>the number-one seat → 一号位；academic credentials → 学历背景；withstand → 扛住；poaching → 挖角"
+        },
+        {
+          "cn": "（引用）原文依据：「我们只是时代浪潮的一朵浪花」「依构就是又很自信又很谦虚，打不倒他且知道自己不知道什么」",
+          "en": "'We're just one wave in the tide of our time.' And on ego-structure: 'it means being confident and humble at once — you can't knock him down, and he knows what he doesn't know.'",
+          "note": "<span>表达提示</span>one wave in the tide → 时代浪潮的一朵浪花；can't knock sb down → 打不倒他；knows what he doesn't know → 知道自己不知道什么"
+        },
+        {
+          "cn": "（引用）相关概念：与招聘中「200 万以内看四五项无短板，200 万以上看动机+精力」一脉相承",
+          "en": "Related idea: it lines up with the recruiting rule that for packages under two million yuan you look for no obvious weaknesses across four or five dimensions, while above two million, motivation and energy are what separate people.",
+          "note": "<span>表达提示</span>line up with → 一脉相承；package → 薪酬包；no obvious weaknesses → 无短板"
+        },
+        {
+          "cn": "200 万以内：前述四五项无短板、有一两项长板即可。200 万以上拉开差距的主要是动机（钱已够用，为何还要扛挫折）和精力（能否持续高强度）。选择新业务的勇气，在 AI 时代与动机高度绑定",
+          "en": "Under two million yuan: no obvious weakness across those four or five dimensions, plus one or two real strengths. Above two million, what separates people is motivation — money is no longer the point, so why still endure setbacks — and energy, the ability to keep working at high intensity. In the AI era, the courage to pick a new business line is tightly bound to motivation.",
+          "note": "<span>表达提示</span>separate people → 拉开差距；keep working at high intensity → 持续高强度；be tightly bound to → 与…高度绑定"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「他是千里挑一的人才」",
+          "phrases": [
+            "He's a one-in-a-million kind of talent.",
+            "People like him are one in ten thousand."
+          ],
+          "chunks": "one in a million · one in ten thousand",
+          "usage": "one-in-a-million 更口语夸张；one in ten thousand 更准确对应中文"
+        },
+        {
+          "intent": "想说「既自信又谦虚」",
+          "phrases": [
+            "He's confident yet humble — nothing can knock him down.",
+            "Self-assured, but he knows what he doesn't know."
+          ],
+          "chunks": "confident yet humble · self-assured · knock sb down",
+          "usage": "第一句更完整，第二句更口语"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title_cn": "二、组织建设：字节 vs 美团的两套逻辑",
+      "title_en": "Building Organizations: Two Logics, Bytedance vs. Meituan",
+      "context": "拆解组织建设两大块，对比字节学 Google（OKR）与美团学亚马逊（运营计划）的底层逻辑差异。语域：formal 组织管理分析 + 播客对谈。",
+      "speak": "The framework: building an organization splits into two parts. First, people: selecting, deploying, developing, retaining, and pruning them through recruiting, culture, pay, and performance. Second, goals: how business targets break down to individuals, add up to a combined force, get evaluated, and get fed back into the next cycle. The key insight: Bytedance borrowed Google's OKRs with open alignment, while Meituan borrowed Amazon's operating plans. On the surface the operations are opposites, but the underlying culture and the founders' beliefs are similar — the differences come from the business model. A ten-person startup should align every week on what needs to get done; long-chain businesses with a hundred-plus people can borrow the operating-plan model. As he says, Bytedance runs on short cycles and high gross margin, Meituan on long cycles and low gross margin, so each team studied what organization fits its business. Culture lives or dies by a core dozen people setting the example, and eighty-nine percent of your time, he insists, should go to recruiting. 'People aren't cultivated in a classroom — they're filtered out by surviving real battles. The most important thing is to give your team a battlefield.'",
+      "sentences": [
+        {
+          "cn": "核心机制：组织建设拆两块：① 人的选、用、育、留、汰（招聘、文化、薪酬、绩效等）；② 业务目标如何拆解到个人、形成合力、识别好坏并激励迭代",
+          "en": "The framework: building an organization splits into two parts. First, people: selecting, deploying, developing, retaining, and pruning them through recruiting, culture, pay, and performance. Second, goals: how business targets break down to individuals, add up to a combined force, get evaluated, and get fed back into the next cycle.",
+          "note": "<span>表达提示</span>select/deploy/develop/retain/prune → 选、用、育、留、汰；break down → 拆解；combined force → 合力"
+        },
+        {
+          "cn": "关键理解：字节学 Google（OKR 公开对齐），美团学亚马逊（运营计划 OP）。表面操作相反，底层文化与创始人观念相似；差异来自业务模式",
+          "en": "The key insight: Bytedance borrowed Google's OKRs with open alignment, while Meituan borrowed Amazon's operating plans. On the surface the operations are opposites, but the underlying culture and the founders' beliefs are similar; the differences come from the business model.",
+          "note": "<span>表达提示</span>open alignment → 公开对齐；operating plan → 运营计划；underlying culture → 底层文化"
+        },
+        {
+          "cn": "典型场景：10 人创业公司每周对齐本周要达成什么；百人以上长链条业务可参考运营计划科学协作",
+          "en": "How to use it: a ten-person startup should align every week on what needs to get done; long-chain businesses with a hundred-plus people can borrow the operating-plan model for disciplined collaboration.",
+          "note": "<span>表达提示</span>align on → 对齐；long-chain business → 长链条业务；disciplined collaboration → 科学协作"
+        },
+        {
+          "cn": "（引用）原文依据：「字节叫短周期短链条高毛利率，美团叫长周期长业务链条低毛利率，两波团队分别研究什么样的组织适配业务。」",
+          "en": "'Bytedance runs on short cycles, short chains, high gross margin; Meituan runs on long cycles, long business chains, low gross margin — so the two teams each studied what kind of organization fits the business.'",
+          "note": "<span>表达提示</span>gross margin → 毛利率；short/long cycle → 短/长周期；what organization fits the business → 什么样的组织适配业务"
+        },
+        {
+          "cn": "文化靠核心十几人以身作则；绩效老板应能看清一线，增长快时多给少给无所谓；职级/晋升体系在 AI 快速变化下既费时间又误导员工为晋升做业绩。89% 时间应花在招聘上",
+          "en": "Culture lives or dies by a core dozen people setting the example; performance review works when the boss can actually see the front line, and when growth is fast, a little more or less on the bonus barely matters. In the fast-moving AI world, a rigid level-and-promotion ladder wastes time and nudges people to perform for the promotion instead of the business. Eighty-nine percent of your time, he says, should go to recruiting.",
+          "note": "<span>表达提示</span>set the example → 以身作则；the front line → 一线；perform for the promotion → 为晋升做业绩；rigid ladder → 僵化的职级体系"
+        },
+        {
+          "cn": "（引用）「人是培养不出来的，人是打完仗之后淘汰筛选出来的。最重要的事情其实是给大家战场。」",
+          "en": "'You can't cultivate people in a classroom — people get filtered out by surviving real battles. The most important thing is to give your team a battlefield.'",
+          "note": "<span>表达提示</span>cultivate → 培养；filter out → 淘汰筛选；give sb a battlefield → 给大家战场"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「两套玩法表面相反，本质相同」",
+          "phrases": [
+            "The playbooks look opposite but share the same DNA.",
+            "Different moves, same underlying logic."
+          ],
+          "chunks": "the same DNA · the same underlying logic · different moves",
+          "usage": "share the same DNA 是商业评论常用比喻"
+        },
+        {
+          "intent": "想说「人是打出来的，不是教出来的」",
+          "phrases": [
+            "People are forged in battle, not trained in a classroom.",
+            "The best filter for talent is surviving real fights."
+          ],
+          "chunks": "be forged in battle · the best filter · survive real fights",
+          "usage": "forged in battle 有画面感，formal 场合用"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title_cn": "三、招聘方法论：供给决定组织上限",
+      "title_en": "Recruiting Method: Supply Sets the Ceiling of the Organization",
+      "context": "招聘五步法：需求、扩供给、判断、谈预期、入职跟进；强调扩供给是招聘里最重要的事。语域：formal 方法论分享 + 播客对谈。",
+      "speak": "The framework has five steps: clarify the need — what role the business needs and when; expand the supply — who the good people in the market are and how to reach them; judge, through interviews and the rest; align on expectations, which matters more than negotiating money; and follow up after onboarding. Most teams get the emphasis backwards and spend far too much time on interviews. The key insight: hiring demand lags by three to four months, so you must bank people early, meet them early, and even hire early. Expanding the supply is the single most important thing, bar none — it directly decides what kind of organization you can build and whether you win. In practice, every month, review the chain from business problem to the people you need to the market supply map, with the founder doing the sourcing personally and HR handling outreach and reference checks. Even top-tier interviewers get it wrong ten to twenty percent of the time. So the most important step right now is checking references with the person's former manager and colleagues — you must find out where this person really comes from.",
+      "sentences": [
+        {
+          "cn": "核心机制：① 想清楚需求（业务要什么人在何时到位）；② 扩供给（市场上有哪些好人、如何触达）；③ 判断（面试等）；④ 谈预期（比谈钱更重要）；⑤ 入职跟进。多数团队把精力反了，花在面试上过多",
+          "en": "The framework has five steps: first, clarify the need — what role the business needs and when; second, expand the supply — who the good people in the market are and how to reach them; third, judge, through interviews and the rest; fourth, align on expectations, which matters more than negotiating money; and fifth, follow up after onboarding. Most teams get the emphasis backwards and spend far too much time on interviews.",
+          "note": "<span>表达提示</span>expand the supply → 扩供给；align on expectations → 谈预期；get the emphasis backwards → 把精力用反了"
+        },
+        {
+          "cn": "关键理解：用人需求有 3-4 个月滞后，必须提前储备、提前见、甚至提前招；扩供给是「最最最最重要，没有之一」，直接决定组织能建成什么样、能不能打赢",
+          "en": "The key insight: hiring demand lags by three to four months, so you must bank people early, meet them early, and even hire early. Expanding the supply is 'the single most important thing, bar none' — it directly decides what kind of organization you can build and whether you win.",
+          "note": "<span>表达提示</span>demand lags → 需求有滞后；bank people early → 提前储备；bar none → 没有之一"
+        },
+        {
+          "cn": "（引用）原文依据：「搞定供给是整个招聘工作乃至整个公司建设最最最最最重要的事情，没有之一。」",
+          "en": "'Getting the supply right is the single most important thing in all of recruiting and even in building the whole company — bar none.'",
+          "note": "<span>表达提示</span>get the supply right → 搞定供给；bar none → 没有之一（强调句式）"
+        },
+        {
+          "cn": "（引用）怎么落地：每月复盘「业务问题→需要什么人→市场供给地图」；创始人亲自做 sourcing，HR 负责联络与背调",
+          "en": "How to put it into practice: every month, review the chain from business problem to the people you need to the market supply map; the founder does the sourcing in person while HR handles outreach and reference checks.",
+          "note": "<span>表达提示</span>sourcing → 主动搜寻人才；reference check → 背调；market supply map → 市场供给地图"
+        },
+        {
+          "cn": "大佬面试也有 10-20% 错误率，创业看走眼 1/3 已是最好比例。靠谱的人容易识别，不靠谱的人精心准备能骗过面试；90 分与 10 分的人有时反而难区分。现阶段最重要的是背调前主管与共事者",
+          "en": "Even top-tier interviewers get it wrong ten to twenty percent of the time, and in hiring for startups, one miss in three is already the best ratio you can hope for. Reliable people are easy to spot, but unreliable ones can rehearse their way past an interview; sometimes a 90-point candidate and a 10-point one are hard to tell apart. Right now the most important step is checking references with the person's former manager and colleagues.",
+          "note": "<span>表达提示</span>get it wrong → 看走眼；rehearse their way past → 精心准备骗过；tell apart → 区分；former manager → 前主管"
+        },
+        {
+          "cn": "（引用）「你知道他的前主管、跟他合作过的靠谱的人，一定要搞清楚这个人到底哪来的，这是最重要的。」",
+          "en": "'You know his former manager and the reliable people he's worked with — you must find out where this person really comes from. That's the most important thing.'",
+          "note": "<span>表达提示</span>find out where sb comes from → 搞清楚这个人哪来的；former manager → 前主管"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「背调比面试更靠谱」",
+          "phrases": [
+            "Reference checks beat interviews when it comes to judgment.",
+            "A candidate can rehearse an interview, but not a reference check."
+          ],
+          "chunks": "reference check · rehearse an interview · beat",
+          "usage": "第二句是点睛说法，适合口头强调"
+        },
+        {
+          "intent": "想说「招人要有提前量」",
+          "phrases": [
+            "Hiring demand lags, so you have to build the bench early.",
+            "Bank good people before you need them."
+          ],
+          "chunks": "build the bench early · bank people · before you need them",
+          "usage": "build the bench 是体育借喻，指储备人才"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "title_cn": "四、AI 时代的组织与人才新标准",
+      "title_en": "New Standards for Organizations and Talent in the AI Era",
+      "context": "AI 时代团队如何组队、程序员为什么必须会 AI coding、以及为什么 OPC（一人公司）不靠谱。语域：formal 行业观察 + 播客对谈。",
+      "speak": "The framework: the boundaries between product, front-end, back-end, testing, and algorithms are blurring, so teams can be built around business modules — one person end to end with AI, and communication costs plummet. Non-engineering teams can see efficiency multiply five to ten times once they master AI. Collaboration gets much simpler in the AI era, yet the one-person company, or OPC, is still a dead end. The key insight: programmers must be a hundred percent able to code with AI, and people in every other function should learn it too. One or two strong people per domain leading AI beats relying purely on an individual plus tools. In an early three-to-four-person company, the founder does sourcing personally — scraping LinkedIn and Xiaohongshu, even writing crawlers — while HR handles outreach. As he puts it, a one-person company is a waste in this era, but if every direction has a strong person working alongside AI, the company should achieve something much greater. Still, the window in a big track may be only six months to a year, so what's needed is a mature-yet-boyish founder, purely built for the game.",
+      "sentences": [
+        {
+          "cn": "核心机制：产品/前端/后端/测试/算法边界模糊，可按业务模块组队，一人端到端+AI，沟通成本大降；非产研团队会 AI 后效率可翻 5-10 倍。协作在 AI 时代会简单很多，但 OPC（一人公司）仍不靠谱",
+          "en": "The framework: the boundaries between product, front-end, back-end, testing, and algorithms are blurring, so teams can be built around business modules — one person end to end with AI, and communication costs plummet. Non-engineering teams can see efficiency multiply five to ten times once they master AI. Collaboration gets much simpler in the AI era, yet the one-person company, or OPC, is still a dead end.",
+          "note": "<span>表达提示</span>end to end → 端到端；communication costs plummet → 沟通成本大降；one-person company → 一人公司；a dead end → 走不通"
+        },
+        {
+          "cn": "关键理解：程序员必须 100% 会 AI coding；其他模块最好也会。每个方向 1-2 个好手带 AI，比纯靠个人+工具更能做大事",
+          "en": "The key insight: programmers must be 100 percent able to code with AI, and people in every other function should learn it too. One or two strong people per domain leading AI beats relying purely on an individual plus tools.",
+          "note": "<span>表达提示</span>code with AI → AI coding；one or two strong people per domain → 每个方向一两个好手；leading AI → 带 AI 干活"
+        },
+        {
+          "cn": "典型场景：早期 3-4 人公司：创始人自己做 sourcing（爬 LinkedIn/小红书/写爬虫），HR 做联络；一年招 8-10 个好手已是优秀 HR",
+          "en": "How to use it: in an early three-to-four-person company, the founder does sourcing personally — scraping LinkedIn, Xiaohongshu, even writing crawlers — while HR handles outreach; bringing in eight to ten strong people in a year already makes you an excellent HR.",
+          "note": "<span>表达提示</span>scrape → 爬取；crawler → 爬虫；bring in → 招进来"
+        },
+        {
+          "cn": "（引用）原文依据：「OPC 是在这个时代的浪费」「如果每个方向有个好手带着 AI 一起干，这个公司应该能做出更伟大的成就。」",
+          "en": "'A one-person company is a waste in this era.' And: 'if every direction has a strong person working alongside AI, this company should be able to achieve something much greater.'",
+          "note": "<span>表达提示</span>a waste in this era → 这个时代的浪费；work alongside AI → 带着 AI 一起干"
+        },
+        {
+          "cn": "（引用）相关概念：与「90 后/95 后创业者更有圈子优势」呼应，因他们之前创过业、招过人、有同学网络",
+          "en": "Related idea: it echoes why post-90s and post-95s founders have a network advantage — they've already started companies, hired people, and built their classmate networks.",
+          "note": "<span>表达提示</span>network advantage → 圈子优势；classmate network → 同学网络；echo → 呼应"
+        },
+        {
+          "cn": "大赛道窗口期可能只有半年到一年；00 后刚出校门、圈子浅、每个方向凑不齐好手、融资条款与竞争经验不足。战场里年轻人可以脱颖而出做研发负责人，但一号位在激烈赛道对抗已组好队、融好钱的对手，极难。需要「成熟又有少年感」的纯粹创业者",
+          "en": "The window in a big track may be only six months to a year; post-2000 founders have just left school, their networks are shallow, they can't field strong people in every direction, and they lack financing terms and competitive experience. In the arena a young person can stand out as a head of engineering, but taking the number-one seat against rivals who already have teams assembled and money raised is extremely hard. What's needed is a 'mature yet boyish' founder, purely built for the game.",
+          "note": "<span>表达提示</span>window → 窗口期；field strong people → 凑齐好手；take the number-one seat → 做一号位；mature yet boyish → 成熟又有少年感"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「一个人单干做不成大事」",
+          "phrases": [
+            "Going solo with tools won't take you far.",
+            "One person plus AI is still no match for a real team."
+          ],
+          "chunks": "go solo · no match for · a real team",
+          "usage": "no match for 表达「远不如」，口语常用"
+        },
+        {
+          "intent": "想说「每个方向都得有几个好手」",
+          "phrases": [
+            "You need at least one strong person in every direction.",
+            "Field someone competent in each function or you'll lose."
+          ],
+          "chunks": "in every direction · field someone competent",
+          "usage": "field 作动词（派人上场）很地道，商业场合可用"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "cn": "用「distill」说：他归纳出顶尖创始人的五个共性。",
+      "en": "He distills five traits that top founders share."
+    },
+    {
+      "cn": "用「catch the industry wave」说：赶上行业浪潮比天才更重要。",
+      "en": "Catching the industry wave matters more than having a genius IQ."
+    },
+    {
+      "cn": "用「bar none」说：扩供给是招聘里最重要的事，没有之一。",
+      "en": "Expanding the supply is the single most important thing in recruiting, bar none."
+    },
+    {
+      "cn": "用「a waste in this era」说：AI 时代一人公司是浪费。",
+      "en": "In the AI era, a one-person company is a waste — one strong person per direction, working alongside AI, goes much further."
+    }
+  ],
+  "pitfalls": [
+    {
+      "wrong": "The founder must be the most smart person in the company.",
+      "right": "You don't need one-in-ten-thousand IQ — top one percent on the SAT is enough.",
+      "why": "the most smart 是典型中式比较；「万里挑一智商」用 one-in-ten-thousand IQ，且原文强调智商够用即可。"
+    },
+    {
+      "wrong": "HR should spend more time in interviews.",
+      "right": "Most teams get the emphasis backwards — 60 to 80 percent of effort should go to sourcing and reference checks.",
+      "why": "「精力花反了」用 get the emphasis backwards；in interviews 应说 on interviews，重点在精力分配而非场所。"
+    },
+    {
+      "wrong": "OPC is not reliable in the AI era.",
+      "right": "A one-person company is a dead end in this era.",
+      "why": "not reliable 太模糊；dead end 准确传达「走不通、此路不通」的判断。"
+    },
+    {
+      "wrong": "People can be trained by the company.",
+      "right": "You can't cultivate people in a classroom — they're filtered out by surviving real battles.",
+      "why": "原文观点恰恰相反：人不是教出来的，是打出来的；用 survive real battles 表达筛选机制。"
+    }
+  ],
+  "shifts": [
+    {
+      "before": "以为招聘的重点是把面试设计好",
+      "after": "精力应放在「扩供给+背调」，面试只占一小部分，供给决定组织上限"
+    },
+    {
+      "before": "以为只有天才才能做出非凡事业",
+      "after": "智商够用+好时代+听得进反馈的组合，成功概率就已经很高"
+    },
+    {
+      "before": "以为 AI 时代一个人加工具就能单干",
+      "after": "每个方向一两个好手带 AI 一起干，才可能做出更伟大的事"
+    }
+  ],
+  "voice": "en-US-JennyNeural",
+  "audio_dir": "audio/en/weixiaokang_ai_org"
+}

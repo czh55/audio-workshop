@@ -1,0 +1,314 @@
+{
+  "slug": "supermarket-choice",
+  "date": "2026-08-08",
+  "platform": "小宇宙FM",
+  "title": "我们为什么花钱让超市替自己做选择",
+  "title_en": "Why We Pay Supermarkets to Choose for Us",
+  "eyebrow": "Retail & Consumer Psychology · 零售与消费心理",
+  "duration": "约 60 分钟",
+  "source_url": "https://www.xiaoyuzhoufm.com/episode/6a5f0d4a6356eb2d9be5ed12",
+  "summary_cn": "主播从一次「去沃尔玛逛沃集鲜」的体验出发，拆解山姆、沃尔玛、盒马背后的零售博弈——消费者与渠道之间是一份「信任合同」，渠道用会员费卖「编辑推荐」、用大包装卖「心理便宜」、用自有品牌打掉品牌溢价。",
+  "summary_en": "Starting from a visit to Walmart's private-label brand Fresh Choice, the hosts break down the retail game behind Sam's Club, Walmart, and Hema — the 'trust contract' between shoppers and retailers, where membership fees sell 'editorial curation', bulk packs sell a 'feeling of savings', and private labels crush brand premiums.",
+  "scenes": [
+    {
+      "id": "s1",
+      "title_cn": "沃尔玛·沃集鲜改造：改的不是装修，是选品",
+      "title_en": "Walmart's Fresh Choice Remodel: It's the Assortment, Not the Renovation",
+      "context": "主播实地探访改造后的沃尔玛门店，发现三楼几乎 80% 陈列自有品牌沃集鲜，动线被设计成「贪吃蛇」。语域：casual 探店 + 商业观察。",
+      "speak": "Walmart didn't just renovate the store — it rebuilt the assortment. The third floor is nearly eighty percent stocked with its own brand, Fresh Choice. The aisle layout is designed like a snake: all the familiar big brands line both sides, while the middle keeps you walking past Fresh Choice the whole way. Shoppers are physically surrounded by the private label. Yet the store looks old and plain. What changed wasn't the lighting or the decor, but the product mix and the price tags. That's the real story.",
+      "sentences": [
+        {
+          "cn": "核心机制：沃尔玛把门店改造成「紧凑型」：约 1 万 SKU，三楼几乎 80% 陈列自有品牌沃集鲜；动线是「贪吃蛇」——熟悉的大品牌全排在两侧柜台，中间一路逛过去全是沃集鲜。",
+          "en": "Walmart turned its store into a 'compact' format: roughly 10,000 SKUs, with nearly 80% of the third floor stocked with its own brand Fresh Choice. The layout is a 'snake' — familiar big brands line both side aisles while Fresh Choice fills the middle the whole way down.",
+          "note": "<span>表达提示</span>SKU → stock-keeping unit（库存单位）；compact format → 紧凑型门店；private label / own brand → 自有品牌；assortment → 选品结构"
+        },
+        {
+          "cn": "关键理解：改造的不是装修、灯光，而是选品结构——用物理通道把消费者「泡」在自有品牌里，同时保留大品牌作为信任锚点。",
+          "en": "The key insight: what changed wasn't decor or lighting but the assortment itself — the physical layout soaks shoppers in the private label while keeping big brands as anchors of trust.",
+          "note": "<span>表达提示</span>key insight → 关键理解；soak sb in sth → 让某人浸泡在…中（此处指被动接触）；trust anchor → 信任锚点"
+        },
+        {
+          "cn": "沃集鲜同包装定价比盒马、山姆低 10-15%；同时兼顾小包装（一人食）与内含多个小包装的家庭装。",
+          "en": "Fresh Choice prices the same packs 10 to 15 percent lower than Hema and Sam's Club, and covers both single-serving mini packs and family bundles with smaller packs inside.",
+          "note": "<span>表达提示</span>single-serving → 一人食份量；family bundle → 家庭装；price … lower than → 定价比…低"
+        },
+        {
+          "cn": "消费者与商超建立的本质是一份「信任合同」——在这个渠道买所需品类时不需要太多犹豫；渠道则不停更换供应商以保持新鲜感。",
+          "en": "What shoppers build with these retailers is essentially a 'trust contract' — you barely hesitate when buying a category you need, while the retailer keeps rotating suppliers to stay fresh.",
+          "note": "<span>表达提示</span>trust contract → 信任合同；barely hesitate → 几乎不犹豫；rotate suppliers → 轮换供应商；stay fresh → 保持新鲜感"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「超市靠动线设计让你一路逛过自有品牌」",
+          "phrases": [
+            "The aisle layout funnels you straight through the private-label shelves.",
+            "The store layout steers you past their own-brand section no matter which way you go."
+          ],
+          "chunks": "funnel sb through · steer sb past · no matter which way",
+          "usage": "funnel 更书面偏分析，steer 日常口语都行"
+        },
+        {
+          "intent": "想说「改的不是表面，而是内在结构」",
+          "phrases": [
+            "It's not the decor that changed — it's the whole assortment.",
+            "What they overhauled was the product mix, not the lighting."
+          ],
+          "chunks": "It's not A, it's B · what they overhauled was…",
+          "usage": "It's not A, it's B 是强调对比的万能句型"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title_cn": "山姆的会员制：200 多块的「准入资格」与编辑推荐",
+      "title_en": "Sam's Membership: A 200-Yuan Entry Ticket and 'Editorial Curation'",
+      "context": "讨论山姆会员卡的本质——不是购物金而是入场资格，以及山姆选品像时尚杂志编辑推荐的心智。语域：商业分析 + 亲历体验。",
+      "speak": "The Sam's Club membership card is not stored value — it's an entry ticket. You have to feel you've earned back the fee, so Sam's turns weekend shopping into a family outing. What the membership really sells isn't products, it's curated certainty: someone already picked things for you. Their selection works like a fashion magazine's editor's picks — quality daily goods priced the same as big-brand sale prices. That's why people buy toilet paper by the case. The catch: members are extremely sensitive. When products that belong in any ordinary store start showing up, the trust starts to crack.",
+      "sentences": [
+        {
+          "cn": "会员卡不抵用购物金，只是「准入的资格」。260 元主卡/100 多元副卡要「完全赚回来」是种微妙体验；山姆把周末逛店做成家庭活动，用高频复购摊薄会费。",
+          "en": "The membership card isn't stored value — it's simply an entry ticket. Earning back a 260-yuan main card or a 100-yuan companion card is a delicate game, so Sam's turns weekend trips into family outings and spreads the fee across frequent repurchases.",
+          "note": "<span>表达提示</span>stored value → 储值；entry ticket → 入场券；delicate game → 微妙的生意；spread the cost across → 把成本摊薄到…"
+        },
+        {
+          "cn": "会员制真正卖的不是货，是「被选好的确定性」；会员对「值不值」极其敏感。",
+          "en": "What the membership really sells isn't goods — it's the certainty of having things pre-picked. Members are extremely sensitive to whether it's worth it.",
+          "note": "<span>表达提示</span>pre-picked → 预先选好的；sensitive to … → 对…敏感；worth it → 值不值"
+        },
+        {
+          "cn": "山姆的选品像时尚杂志的编辑推荐——质优价廉的日用品做到「品质更高、价格与双 11 大牌促销价一致」，所以「你买纸巾也会买一箱」。",
+          "en": "Sam's selection works like a fashion magazine's editor's picks — quality daily goods that are better in quality yet priced like big-brand Double 11 deals, which is why you end up buying toilet paper by the case.",
+          "note": "<span>表达提示</span>editor's picks → 编辑推荐；by the case → 按箱买（整箱）；deal → 促销价/划算"
+        },
+        {
+          "cn": "换供应商风波：会员发现山姆大量商品换了供应商——「我花了会员费，却买到外面都能买到的东西」——直接引发高层人员变动。",
+          "en": "The supplier-shuffle backlash: members noticed Sam's swapping in large numbers of suppliers — 'I paid for the membership, yet I'm getting things I can buy anywhere' — which directly triggered executive reshuffles.",
+          "note": "<span>表达提示</span>supplier shuffle → 换供应商；backlash → 反弹/抵制；executive reshuffle → 高管变动"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「山姆卖的是替我选好的确定感」",
+          "phrases": [
+            "Sam's sells the certainty that someone already did the choosing for you.",
+            "What you're really paying for is having the decision made for you."
+          ],
+          "chunks": "sell the certainty · have the decision made for you",
+          "usage": "第一句适合正式点评，第二句更口语"
+        },
+        {
+          "intent": "想说「会员对品控稀释零容忍」",
+          "phrases": [
+            "Members have zero tolerance for watered-down quality control.",
+            "Once the curation feels diluted, members walk away."
+          ],
+          "chunks": "zero tolerance for · watered-down · walk away",
+          "usage": "watered-down 指被稀释/掺水，形容品质下滑很地道"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title_cn": "囤货与价格：便宜是真便宜，还是心理便宜？",
+      "title_en": "Bulk Buying & Pricing: Real Savings or a Psychological Illusion?",
+      "context": "拆解大包装囤货的真实成本、囤货 PTSD 的地理分界、以及 9.9 引流款与 69.99 定价的心理博弈。语域：生活观察 + 消费心理学。",
+      "speak": "A box of twelve cakes — the first and the third are the happiest, the rest becomes a chore. When you buy a whole case of tissue, the storage space it eats up is a real cost measured in rent and property prices. In big cities, the 'savings' often get eaten by square meters. There's also a geographic divide: pandemic years created a bulk-buying trauma in first-tier cities, while Shenyang tops Sam's sales outside those cities because the northeast already has a freezing-and-storing tradition. The bottom line: buying in bulk often just creates the feeling of a bargain, not an actual one.",
+      "sentences": [
+        {
+          "cn": "一盒 12 个蛋糕，「最快乐的是第一个和第三个，到后面就变成摊派任务」；买一箱纸巾占掉的储物空间，在北上广的房价/租金里是隐形成本。",
+          "en": "With a box of 12 cakes, 'the first and the third are the happiest — the rest becomes a chore.' The storage space a tissue case occupies is a hidden cost measured in Beijing, Shanghai, and Guangzhou housing prices and rent.",
+          "note": "<span>表达提示</span>a chore → 苦差事；storage space → 储物空间；hidden cost → 隐形成本"
+        },
+        {
+          "cn": "「计算一个东西价值的时候，不光看它的价格，还要看它放在家里面消耗的租金或房价」——山姆的收纳赛道就是靠这个活起来的。",
+          "en": "'When you calculate the value of something, don't just look at its price — look at the rent or housing cost the space it takes up consumes at home.' That's the niche that keeps Sam's organizing-content creators alive.",
+          "note": "<span>表达提示</span>take up space → 占据空间；organizing content → 收纳类内容；niche → 细分赛道"
+        },
+        {
+          "cn": "囤货 PTSD：疫情几年在北上广形成囤货创伤；而山姆除北上广外销量第一的城市是沈阳——东北天然有囤货与冷冻生活习惯。",
+          "en": "Bulk-buying PTSD: the pandemic years created a hoarding trauma in first-tier cities, while Shenyang tops Sam's sales outside those cities — the northeast has a natural tradition of stocking up and freezing food.",
+          "note": "<span>表达提示</span>PTSD → 创伤后应激（此处借喻）；hoarding → 囤积；stock up → 囤货；first-tier cities → 一线城市"
+        },
+        {
+          "cn": "69.99、6.9、6.8 这种定价「让你觉得它没有那么多」；9.9 引流款把人海里的顾客吸引进来，再平衡复购与利润。",
+          "en": "Prices like 69.99, 6.9, and 6.8 'make you feel it's less than it is'; a 9.9-yuan loss leader pulls customers out of the crowd, then the store rebalances repurchase and profit.",
+          "note": "<span>表达提示</span>loss leader → 引流款（亏本揽客）；draw/lure sb in → 吸引进来；repurchase → 复购；rebalance → 重新平衡"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「看起来便宜，其实是假象」",
+          "phrases": [
+            "It feels like a bargain, but it's actually an illusion of savings.",
+            "The 'deal' is mostly psychological — you're not really saving much."
+          ],
+          "chunks": "an illusion of savings · feel like a bargain",
+          "usage": "illusion of savings 是本期核心概念，正式点评用它"
+        },
+        {
+          "intent": "想说「算账时要把储存成本算进去」",
+          "phrases": [
+            "You have to factor in the storage cost when you do the math.",
+            "Don't forget the rent your hoard is eating up."
+          ],
+          "chunks": "factor in · do the math · eat up rent",
+          "usage": "factor in 偏正式，do the math 口语常用"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "title_cn": "自有品牌：代工贴牌，还是一场品牌革命？",
+      "title_en": "Private Labels: OEM Repackaging or a Brand Revolution?",
+      "context": "对比原生品牌店、渠道自有品牌、电商自有品牌三条路径，并用卡罗特与「中间商换名字」的争议收尾。语域：商业分析 + 供应链视角。",
+      "speak": "There are three paths to private labels. First, born-native brands like Uniqlo and Muji, which control design and the whole process. Second, retailer-grown labels like Sam's Member's Mark, which start by curating big brands and gradually build their own logo. Third, e-commerce labels like NetEase Yanxuan, the online version of OEM repackaging. A pot maker called Carote went public and launched its own brand — the most expensive pot costs a hundred yuan with free yearly replacement. It exposes the brutal margin gap: snacks carry at least forty to fifty percent margin, clothing maybe eighty. Private labels exist to crush brand premiums and buy trust.",
+      "sentences": [
+        {
+          "cn": "三条路径：原生品牌店（优衣库/无印良品/宜家）——从第一天起卖的就是自己的品牌；渠道长出来的（山姆 Member's Mark/盒马/沃集鲜）；电商自有品牌（网易严选/京东京造/必要商城）。",
+          "en": "Three paths: born-native brand stores like Uniqlo, Muji, and IKEA, which sell their own brand from day one; retailer-grown labels like Sam's Member's Mark, Hema, and Fresh Choice; and e-commerce private labels like NetEase Yanxuan, JD Made, and Biyao.",
+          "note": "<span>表达提示</span>born-native brand → 原生品牌；retailer-grown label → 从渠道长出的品牌；from day one → 从第一天起"
+        },
+        {
+          "cn": "原生品牌靠「设计+全流程把控」，渠道品牌靠「供应链合作连接+零售信任」——前者让人成为「优衣库人」，后者还在争夺「打开冰箱全是它」。",
+          "en": "Born-native brands win on design and end-to-end control; retailer brands win on supply-chain relationships and retail trust. The former turns you into a 'Uniqlo person'; the latter still fights for the moment you open the fridge and it's all their logo.",
+          "note": "<span>表达提示</span>end-to-end control → 全流程把控；supply-chain relationship → 供应链合作；a 'Uniqlo person' → 优衣库人（品牌身份感）"
+        },
+        {
+          "cn": "卡罗特：做锅的代工厂上市后自营电商品牌，最贵的锅 100 元、一年免费换新——揭穿了商超常规零食毛利率至少 40-50%、服装可能 80% 的利润差。",
+          "en": "Carote: a pot-making OEM went public and launched its own e-commerce brand — the most expensive pot costs 100 yuan with free yearly replacement, exposing the stunning margin gap where everyday snacks carry at least 40–50% gross margin and clothing possibly 80%.",
+          "note": "<span>表达提示</span>OEM → 代工厂（original equipment manufacturer）；go public → 上市；margin gap → 利润差；gross margin → 毛利率"
+        },
+        {
+          "cn": "避坑：有媒体批评自有品牌是「过渡包装」，本质是代工+贴牌；「没有中间商赚差价」只是话术——中间商只是换了形式、换了名字。",
+          "en": "Pitfall: some media call private labels over-packaged, essentially OEM plus rebranding; 'no middleman markup' is just a slogan — the middleman only changed its form and its name.",
+          "note": "<span>表达提示</span>middleman → 中间商；markup → 加价/差价；slogan/talking point → 话术；rebranding → 贴牌改名"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「自有品牌本质还是代工贴牌」",
+          "phrases": [
+            "A private label is still OEM repackaging at its core.",
+            "Strip away the branding and it's the same factory making it."
+          ],
+          "chunks": "at its core · strip away the branding",
+          "usage": "at its core 适合正式分析，strip away 很形象口语"
+        },
+        {
+          "intent": "想说「中间商只是换了名字」",
+          "phrases": [
+            "The middleman just changed its name and moved on.",
+            "The intermediary didn't disappear — it just wears a different mask."
+          ],
+          "chunks": "changed its name · wear a different mask",
+          "usage": "wear a different mask 更口语更有画面感"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "title_cn": "中国市场：又大又快，自生长的规则",
+      "title_en": "The China Market: Big, Fast, and Self-Growing Rules",
+      "context": "讨论中国市场商业模式从下沉市场自生长、外资分部争取灵活权、以及开市客水土不服的案例。语域：宏观商业观察 + 案例复盘。",
+      "speak": "China's market is big and fast, and each region grows its own model. Serving Shenzhen and serving Jinan are completely different games. Business models don't just flow from first-tier cities downward — community group buying grew out of Changsha, and Pangdonglai, starting in Xuchang, even remodeled a Beijing Wumart. Foreign companies have to fight headquarters for flexibility: if a supplier audit gets stuck in three months of back-and-forth, competitors will poach the factory and push prices down twenty percent. Costco is the cautionary tale — great membership model, but a clunky mini-program that burned through the patience of an observer-type shopper.",
+      "sentences": [
+        {
+          "cn": "中国市场特别大、特别快：服务北上广深和服务山东济南、陕西西安是完全不同的市场与消费习惯；商业模式不是「从一线流向县城」的单向输出。",
+          "en": "China's market is big and fast: serving Beijing, Shanghai, Guangzhou, and Shenzhen is a completely different game from serving Jinan in Shandong or Xi'an in Shaanxi. Business models don't flow one-way from first-tier cities down to county towns.",
+          "note": "<span>表达提示</span>a different game → 完全不同的玩法/局面；one-way flow → 单向输出；county town → 县城"
+        },
+        {
+          "cn": "社区团购从长沙长起来影响全国；生鲜超市在山东、河南遍地开花；胖东来从许昌出发调改北京的物美。",
+          "en": "Community group buying grew out of Changsha and influenced the whole country; fresh-food supermarkets bloom across Shandong and Henan; Pangdonglai, starting from Xuchang, remodeled a Beijing Wumart.",
+          "note": "<span>表达提示</span>community group buying → 社区团购；grow out of → 从…生长出来；bloom/spring up → 遍地开花"
+        },
+        {
+          "cn": "外企到中国都要跟总部争取授权、争取更多灵活性——若代工厂审核与总部拉扯三个月，「竞争对手早就把代工厂挖走了，把价格又压低了 20%」。",
+          "en": "Foreign companies in China must fight headquarters for authorization and flexibility — if an audit of a supplier gets dragged out for three months by HQ, 'competitors will have poached the factory and pushed prices down another 20%.'",
+          "note": "<span>表达提示</span>fight for flexibility → 争取灵活权；drag out → 拖长；poach → 挖走（抢走）；push prices down → 压低价格"
+        },
+        {
+          "cn": "开市客水土不服：小程序体验太差、支付反复被卡、配送提示不停弹出，耗尽消费者的耐性——必须先有便捷触达，人们才会开车去逛实体店。",
+          "en": "Costco's local failure: the mini-program experience was terrible, payments kept failing, and delivery prompts kept popping up, exhausting shoppers' patience — you need a convenient touchpoint first before people will drive out to the physical store.",
+          "note": "<span>表达提示</span>water and soil don't agree（水土不服）→ struggle locally / fail to adapt；touchpoint → 触达方式；burn through patience → 耗尽耐性"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「每个地方会长出自己的商业模式」",
+          "phrases": [
+            "Every region grows its own business model.",
+            "Local markets breed their own playbooks."
+          ],
+          "chunks": "grow one's own model · breed their own playbooks",
+          "usage": "breed 比 grow 更生动，评论文章常用"
+        },
+        {
+          "intent": "想说「外资在中国水土不服」",
+          "phrases": [
+            "It struggled to adapt to the local market.",
+            "The model didn't travel well to China."
+          ],
+          "chunks": "struggle to adapt · the model didn't travel well",
+          "usage": "travel well 指模式跨文化移植是否成立，非常地道"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "cn": "用「It's not A, it's B」说：山姆卖的不是货，是确定感。",
+      "en": "Sam's isn't selling goods — it's selling the certainty of having things chosen for you."
+    },
+    {
+      "cn": "用「by the case」说：人们会整箱买纸巾。",
+      "en": "People buy tissue by the case once they trust the curation."
+    },
+    {
+      "cn": "用「factor in」说：算账时要把储存成本算进去。",
+      "en": "When you do the math on bulk buying, factor in the storage cost."
+    },
+    {
+      "cn": "用「didn't travel well」说：会员制模式在中国开市客水土不服。",
+      "en": "Costco's model didn't travel well to China's mobile-first market."
+    }
+  ],
+  "pitfalls": [
+    {
+      "wrong": "The supermarket's price is very cheap.",
+      "right": "The supermarket prices it 10-15% lower — it's genuinely good value.",
+      "why": "cheap 带「廉价低质」联想；谈性价比用 good value / lower-priced / a great deal 更准确地道。"
+    },
+    {
+      "wrong": "The store lets me soak in its own brands.",
+      "right": "The layout soaks shoppers in the private-label section.",
+      "why": "soak in 一般指「沉浸学习/吸收」；「被动的物理包围」用 be surrounded by / be funneled through 更贴切。"
+    },
+    {
+      "wrong": "Walmart changed its decoration.",
+      "right": "Walmart overhauled its assortment, not its decor.",
+      "why": "retail 语境改的是选品与动线，用 assortment / product mix / store layout 而不是 decoration。"
+    },
+    {
+      "wrong": "The membership card is a ticket to enter.",
+      "right": "The card is an entry ticket — it unlocks access, not stored value.",
+      "why": "直译「入场券」会丢信息；补一句它不抵购物金（not stored value），概念才完整。"
+    }
+  ],
+  "shifts": [
+    {
+      "before": "以为逛超市选择多是「自由」",
+      "after": "选择多是「设计好的陷阱」——动线、定价、自有品牌都在替你决定"
+    },
+    {
+      "before": "以为囤大包装=省钱",
+      "after": "便宜可能是「心理便宜」——要算上储存空间与消耗速度"
+    },
+    {
+      "before": "以为自有品牌=贴牌山寨、买它图便宜",
+      "after": "自有品牌打掉的是品牌溢价而非品质，是制造业能力溢出的必然"
+    }
+  ],
+  "audio_dir": "audio/en/supermarket-choice"
+}

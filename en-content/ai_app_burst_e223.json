@@ -1,0 +1,355 @@
+{
+  "slug": "ai_app_burst_e223",
+  "date": "2026-06-23",
+  "platform": "小宇宙FM",
+  "title": "E223｜应用爆发之年：聊聊模型技术进化与商业化",
+  "title_en": "E223 | The Year of App Explosion: Model Evolution and Commercialization",
+  "eyebrow": "AI & Tech Business · AI 与技术商业",
+  "duration": "1小时07分",
+  "source_url": "https://www.xiaoyuzhoufm.com/episode/697c8fbbf7c35127c699c168",
+  "summary_cn": "一句话概括：硅谷101邀请阿里云千问总经理许东、影石研究院齐教授、予易科技CEO吕迎杰，从万相视频生成进入生产级、推理成本半年降一个量级、端云结合Omni 4B，到影石360度自动剪辑与予易消费者意图识别，全景拆解2025年AI从模型走向应用爆发之年",
+  "summary_en": "In one sentence: Silicon Valley 101 brings together Alibaba Cloud Qwen's GM Xu Dong, Insta360 researcher Professor Qi, and Yuyi Technology CEO Lü Yingjie. From Wanxiang video generation reaching production grade and inference costs dropping an order of magnitude in six months, to the on-device-plus-cloud Omni 4B model, Insta360's 360-degree auto-editing, and Yuyi's consumer-intent recognition, the episode maps out 2025 — the year AI moved from models to an explosion of applications.",
+  "scenes": [
+    {
+      "id": "s1",
+      "title_cn": "一、模型技术进化：从娱乐特效到生产级",
+      "title_en": "Model Tech Evolution: From Entertainment Effects to Production Grade",
+      "context": "万相视频生成的能力跃迁与成本结构，AI短剧和广告从概念进入生产。语域：formal 技术播客点评。",
+      "speak": "Here's the core mechanism: videos extended from five to ten seconds up to fifteen seconds or even a minute; multi-shot transitions and lighting changes reach professional film level; and the character-identity feature, Carol, lets a five-second selfie replicate your image and voice for later creation. The key insight: the reference dimension upgraded from a reference image to a reference video, giving control beyond the lucky-draw mode — AI web dramas and bulk ad pipelines are already running. A typical scene: a five-to-ten-person team generates about 6,000 fifteen-second ad clips a day, and short dramas are shifting from live-action filming to AI-model production. As the guest said, five people can generate around 6,000 videos a day, and for character role-play, you just film a five-second selfie with your phone and your image and voice can be replicated afterward. Xu Dong described Wanxiang versions 2.5 and 2.6 entering the production domain — the longest-video-generation model in China. What they're really talking about: vendors tier outputs by S, A, and B quality levels, and a reasonable AI short-drama cost can be kept under 20,000 yuan; a 15-second AI ad costs 10 to 15 yuan while a market-acceptable human-made ad runs 25 to 50 yuan — forming a positive commercial loop.",
+      "sentences": [
+        {
+          "cn": "核心机制：视频从5-10秒延长到15秒乃至一分钟；多镜头切换与光影变化达专业影视级；角色保ID（Carol）让5秒自拍即可复刻形象与音色供后续创作",
+          "en": "The core mechanism: videos extended from 5-10 seconds to 15 seconds or even a minute; multi-shot transitions and lighting changes reach professional film level; and the character-identity feature, Carol, lets a 5-second selfie replicate your image and voice for later creation.",
+          "note": "<span>表达提示</span>character identity → 角色保ID；multi-shot transitions → 多镜头切换；replicate → 复刻"
+        },
+        {
+          "cn": "关键理解：参考维度从参考图升级为参考视频，可控性超越「抽卡」模式，AI漫剧与批量广告管线已跑通",
+          "en": "The key insight: the reference dimension upgraded from a reference image to a reference video, giving control beyond the 'lucky-draw' mode — AI web dramas and bulk ad pipelines are already running.",
+          "note": "<span>表达提示</span>reference video → 参考视频；lucky-draw mode → 抽卡模式；pipeline → 管线"
+        },
+        {
+          "cn": "典型场景：5-10人团队一天生成约6000条15秒广告切片，短剧从真人拍摄转向AI模型生产",
+          "en": "A typical scene: a 5-10 person team generates about 6,000 fifteen-second ad clips a day, and short dramas are shifting from live-action filming to AI-model production.",
+          "note": "<span>表达提示</span>ad clip → 广告切片；live-action → 真人拍摄；shift from A to B → 从A转向B"
+        },
+        {
+          "cn": "（引用）\"五个人就可以一天生成6000个左右的视频……角色扮演就是对着手机自拍五秒钟，后面形象和声音都可以被复刻出来。\"",
+          "en": "As the guest said: 'Five people can generate around 6,000 videos a day… for character role-play, you just film a five-second selfie with your phone, and your image and voice can be replicated afterward.'",
+          "note": "<span>表达提示</span>role-play → 角色扮演；selfie → 自拍；replicate your image and voice → 复刻形象与声音"
+        },
+        {
+          "cn": "（引用）原文依据：许东描述万相2.5/2.6版本进入生产化领域，国内最长视频生成模型",
+          "en": "As Xu Dong described, Wanxiang versions 2.5 and 2.6 entered the production domain — the longest-video-generation model in China.",
+          "note": "<span>表达提示</span>production domain → 生产化领域；Wanxiang → 万相（阿里视频生成模型）"
+        },
+        {
+          "cn": "在讲什么：厂商按S/A/B级品质分层，AI短剧合理成本可压至2万元以下；15秒广告AI成本10-15元，市场合格人工广告25-50元，形成正向商业循环",
+          "en": "What they're really talking about: vendors tier outputs by S/A/B quality levels, and a reasonable AI short-drama cost can be kept under 20,000 yuan; a 15-second AI ad costs 10-15 yuan while a market-acceptable human-made ad runs 25-50 yuan — forming a positive commercial loop.",
+          "note": "<span>表达提示</span>tier by quality → 按品质分层；positive commercial loop → 正向商业循环；human-made → 人工制作"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「AI视频从玩票进入生产级」",
+          "phrases": [
+            "AI video went from gimmick to production-grade.",
+            "It's no longer a toy — the output is good enough to ship."
+          ],
+          "chunks": "from gimmick to production-grade · good enough to ship",
+          "usage": "gimmick（噱头/玩票）很传神；good enough to ship 是产品圈黑话"
+        },
+        {
+          "intent": "想说「成本结构形成正循环」",
+          "phrases": [
+            "The cost curve creates a positive commercial loop.",
+            "AI pricing now undercuts human production with better margins."
+          ],
+          "chunks": "positive commercial loop · undercut",
+          "usage": "undercut（压价）在商业场景很地道"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title_cn": "二、2025应用爆发：Reasoning、指令遵循与工具生态",
+      "title_en": "2025's App Explosion: Reasoning, Instruction Following, and the Tool Ecosystem",
+      "context": "讨论2025年AI应用爆发的三大触发点：推理、指令遵循与MCP工具生态。语域：formal 技术讨论。",
+      "speak": "The host observed that 2025 is the key year AI moved from models to applications — agents exploded, and Chinese application innovation leads the way. He pressed on the trigger: was it an overall lift in foundational capability, or just a few key points? The core mechanism: first, reasoning — after OpenAI's o1 in late 2024, models began showing logical preferences; second, instruction following got stronger, so complex tasks rely less on a workflow's deterministic nodes; third, standards like MCP make tools explicit, letting models step out of the input-output window and into the production process. The key insight: models got bigger while controllability rose, automatically balancing generalization and accuracy and reducing manual cross-validation nodes. As the guest put it, today's model doesn't rely on a single probability anymore — it begins to show its own logical preferences.",
+      "sentences": [
+        {
+          "cn": "红军观察到2025是AI从模型走向应用的关键年，Agent大爆发且中国应用创新领先。追问触发点：是整体基础能力提升还是几个关键小点？",
+          "en": "The host observed that 2025 is the key year AI moved from models to applications — agents exploded, and Chinese application innovation leads the way. He pressed on the trigger: was it an overall lift in foundational capability, or just a few key points?",
+          "note": "<span>表达提示</span>foundational capability → 基础能力；trigger → 触发点；lead the way → 领先"
+        },
+        {
+          "cn": "核心机制：①Reasoning（2024年底OpenAI o1后模型展现逻辑偏好）；②指令遵循变强，复杂任务少依赖Workflow确定性节点；③MCP等标准让工具显性化，模型跳出输入输出窗口进入生产环节",
+          "en": "The core mechanism: first, reasoning — after OpenAI's o1 in late 2024, models began showing logical preferences; second, instruction following got stronger, so complex tasks rely less on a workflow's deterministic nodes; third, standards like MCP make tools explicit, letting models step out of the input-output window and into the production process.",
+          "note": "<span>表达提示</span>instruction following → 指令遵循；deterministic node → 确定性节点；MCP（Model Context Protocol）→ 模型上下文协议"
+        },
+        {
+          "cn": "关键理解：模型变大同时可控性提高，在泛化性与准确性间自动找平衡，减少人工交叉验证节点",
+          "en": "The key insight: models got bigger while controllability rose, automatically balancing generalization and accuracy and reducing manual cross-validation nodes.",
+          "note": "<span>表达提示</span>generalization → 泛化性；cross-validation → 交叉验证；controllability → 可控性"
+        },
+        {
+          "cn": "（引用）\"今天模型它不是在依赖于单一的概率，它开始表现出有一定的自己的一些逻辑偏好。\"",
+          "en": "As the guest put it: 'Today's model doesn't rely on a single probability anymore — it begins to show its own logical preferences.'",
+          "note": "<span>表达提示</span>logical preference → 逻辑偏好；rely on a single probability → 依赖单一概率"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「2025年应用爆发的触发点」",
+          "phrases": [
+            "Three triggers powered the 2025 app explosion.",
+            "Reasoning, instruction-following, and tools opened the floodgates."
+          ],
+          "chunks": "app explosion · open the floodgates",
+          "usage": "open the floodgates（打开闸门）比喻很生动"
+        },
+        {
+          "intent": "想说「模型开始有自己的逻辑偏好」",
+          "phrases": [
+            "Models now show logical preferences, not just probability.",
+            "The model reasons instead of rolling dice."
+          ],
+          "chunks": "logical preferences · instead of rolling dice",
+          "usage": "instead of rolling dice 很有画面感"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title_cn": "三、千问商业化：端云结合与开源正循环",
+      "title_en": "Qwen's Commercialization: On-Device Plus Cloud and the Open-Source Flywheel",
+      "context": "阿里千问的商业化双线：企业生产力与产品体验重塑，以及端侧模型+云平台的分工。语域：formal 商业+技术。",
+      "speak": "What they're really talking about: on one line, model times enterprise — improving internal productivity across design, coding, research, and sales; on the other, product times model — phones, cars, and consumer electronics get a fundamentally changed interaction experience, and AI Phone and AI PC become new categories. The key insight: large models cover industries far faster than the cloud-era path from mobile games to finance — penetration is everywhere, just at different depths. The practical advice: when enterprises select technology, separate the process-efficiency track from the product-reshaping track, because their budgets and KPIs differ completely. The core mechanism: automakers and phone makers deploy the on-device Omni 4B model for low latency and privacy; about 70% of general interaction, voice, and vision understanding can be handled on-device, while complex tasks go to the Bailian MaaS platform. A typical scene: smart glasses order coffee through natural language — you can photograph a menu or a colleague's drink as input, and the output completes payment through a commercial action. As the guest noted, today's on-device models perform better than the largest models from two years ago, and more than 70% of tasks can be solved well on-device.",
+      "sentences": [
+        {
+          "cn": "在讲什么：①模型×企业：提升内部生产力（设计/Coding/Research/Sales各环节）；②产品×模型：手机、车、消费电子交互体验根本改变，AI Phone/AI PC成新品类",
+          "en": "What they're really talking about: first, model times enterprise — improving internal productivity across design, coding, research, and sales; second, product times model — phones, cars, and consumer electronics get a fundamentally changed interaction experience, and AI Phone and AI PC become new categories.",
+          "note": "<span>表达提示</span>interaction experience → 交互体验；new category → 新品类；internal productivity → 内部生产力"
+        },
+        {
+          "cn": "关键理解：大模型覆盖速度远超云时代手游→金融的渐进路径，全行业渗透但渗透率不一",
+          "en": "The key insight: large models cover industries far faster than the cloud-era path from mobile games to finance — penetration is everywhere, just at different depths.",
+          "note": "<span>表达提示</span>penetration → 渗透；coverage speed → 覆盖速度；far faster than → 远超"
+        },
+        {
+          "cn": "（引用）落地建议：企业选型时区分「流程提效」与「产品重塑」两条线，预算与KPI完全不同",
+          "en": "The practical advice: when enterprises select technology, separate the process-efficiency track from the product-reshaping track — their budgets and KPIs differ completely.",
+          "note": "<span>表达提示</span>process efficiency → 流程提效；product reshaping → 产品重塑；KPI（Key Performance Indicator）→ 关键绩效指标"
+        },
+        {
+          "cn": "核心机制：车厂/手机厂商因低延时与隐私需求部署端侧Omni 4B模型；通用交互、语音视觉理解约七成可端侧完成，复杂任务走百炼MaaS平台",
+          "en": "The core mechanism: automakers and phone makers deploy the on-device Omni 4B model for low latency and privacy; about 70% of general interaction, voice, and vision understanding can be handled on-device, while complex tasks go to the Bailian MaaS platform.",
+          "note": "<span>表达提示</span>on-device → 端侧；low latency → 低延时；MaaS（Model as a Service）→ 模型即服务"
+        },
+        {
+          "cn": "典型场景：智能眼镜通过自然语言订咖啡——输入可拍菜单/同事饮品，输出直接完成支付的商业Action",
+          "en": "A typical scene: smart glasses order coffee through natural language — you can photograph a menu or a colleague's drink as input, and the output completes payment through a commercial action.",
+          "note": "<span>表达提示</span>smart glasses → 智能眼镜；commercial action → 商业行为；natural language → 自然语言"
+        },
+        {
+          "cn": "（引用）原文依据：「端侧模型比两年前我们的最大倍的模型效果都要来得好……七成以上都会端侧模型可以比较好的去解决」",
+          "en": "As the guest noted: 'Today's on-device models perform better than our largest models from two years ago… more than 70% of tasks can be solved well on-device.'",
+          "note": "<span>表达提示</span>on-device model → 端侧模型；solve well → 较好解决；more than 70% → 七成以上"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「端侧能解决大部分任务」",
+          "phrases": [
+            "Most tasks can be handled on-device.",
+            "Seventy percent of interactions never leave the phone."
+          ],
+          "chunks": "on-device · never leave the phone",
+          "usage": "never leave the phone 口语生动"
+        },
+        {
+          "intent": "想说「选型要分清两条线」",
+          "phrases": [
+            "Separate the efficiency track from the reshaping track.",
+            "Process-tools and product-reset have different budgets."
+          ],
+          "chunks": "separate the tracks · different budgets",
+          "usage": "track（线/轨道）在商业语境很常用"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "title_cn": "四、影石案例：360度全景与自动剪辑",
+      "title_en": "The Insta360 Case: 360-Degree Panorama and Auto-Editing",
+      "context": "影石的全景相机+AI自动剪辑的产品逻辑、难点与成本。语域：formal 案例分享 + casual 场景描述。",
+      "speak": "The core mechanism: the panoramic camera covers the whole scene at 360 degrees, and when editing, you pick the best angle and rhythm; Insta360 partnered with Alibaba Qwen for multimodal understanding and Wanxiang for effect generation, and cloud auto-editing is already live. The key insight: the hard part isn't stitching clips together — it's hitting the user's editing intent. Some want a documentary narrative, others want highlight moments, and still others care about the music's emotion. A typical scene: a user says, cut the moment I wiped out skiing — that requires semantic understanding, video analysis, and structured arrangement, but users often can't precisely define what they mean. As the team put it, they'd love to understand users even from their still-vague statements — and that's still quite hard at the model level today. What they're really talking about: 360-degree panorama understanding uses Insta360's self-developed model because panorama data is scarce in general large models; flat-footage arrangement calls general large-model APIs. VR drone panorama data, within compliance limits, feeds back into world-model research. As the guest noted, editing a 360-degree clip costs about a dozen yuan, and they hope the panorama feature's higher information compression will cut costs.",
+      "sentences": [
+        {
+          "cn": "核心机制：全景相机360度覆盖全现场，剪辑时挑最佳视角与节奏；合作阿里千问做多模态理解+万相做特效生成，云端自动剪辑已上线",
+          "en": "The core mechanism: the panoramic camera covers the whole scene at 360 degrees, and when editing, you pick the best angle and rhythm; Insta360 partnered with Alibaba Qwen for multimodal understanding and Wanxiang for effect generation, and cloud auto-editing is already live.",
+          "note": "<span>表达提示</span>panoramic camera → 全景相机；multimodal understanding → 多模态理解；auto-editing → 自动剪辑"
+        },
+        {
+          "cn": "关键理解：难点不在拼接片段，而在命中用户剪辑意图——有人要纪录片叙事，有人要高光瞬间，有人重配乐情绪",
+          "en": "The key insight: the hard part isn't stitching clips together — it's hitting the user's editing intent. Some want a documentary narrative, others want highlight moments, and still others care about the music's emotion.",
+          "note": "<span>表达提示</span>editing intent → 剪辑意图；highlight moments → 高光瞬间；documentary narrative → 纪录片叙事"
+        },
+        {
+          "cn": "典型场景：用户说「剪我滑雪失败瞬间」——需语义理解+视频分析+结构化编排，但用户往往无法精确定义意图",
+          "en": "A typical scene: a user says 'cut the moment I wiped out skiing' — that requires semantic understanding, video analysis, and structured arrangement, but users often can't precisely define what they mean.",
+          "note": "<span>表达提示</span>wipe out → 摔倒/翻车；semantic understanding → 语义理解；structured arrangement → 结构化编排"
+        },
+        {
+          "cn": "（引用）\"我们更多的是希望用户能够用自己还模糊的一些语句，我们就能够理解到它——这个是现在模型层面上还是比较难的事情。\"",
+          "en": "As the team put it: 'We'd love to understand users even from their still-vague statements — and that's still quite hard at the model level today.'",
+          "note": "<span>表达提示</span>vague statements → 模糊表述；at the model level → 在模型层面"
+        },
+        {
+          "cn": "在讲什么：360度全景理解用影石自研模型（通用大模型全景数据稀缺）；平面素材编排调用通用大模型API。VR无人机全景数据在合规前提下反哺世界模型研发",
+          "en": "What they're really talking about: 360-degree panorama understanding uses Insta360's self-developed model because panorama data is scarce in general large models; flat-footage arrangement calls general large-model APIs. VR drone panorama data, within compliance limits, feeds back into world-model research.",
+          "note": "<span>表达提示</span>self-developed model → 自研模型；world model → 世界模型；feed back into → 反哺"
+        },
+        {
+          "cn": "（引用）原文依据：「剪一段360度素材大概需要十几块钱的成本……希望通过全景特性做更高信息压缩降本」",
+          "en": "As the guest noted: 'Editing a 360-degree clip costs about a dozen yuan… we hope the panorama feature's higher information compression will cut costs.'",
+          "note": "<span>表达提示</span>information compression → 信息压缩；cut costs → 降本；a dozen yuan → 十几块钱"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「难点在理解用户的剪辑意图」",
+          "phrases": [
+            "The hard part is reading the user's editing intent.",
+            "Understanding vague instructions is the real bottleneck."
+          ],
+          "chunks": "reading the intent · the real bottleneck",
+          "usage": "bottleneck（瓶颈）强调难点所在"
+        },
+        {
+          "intent": "想说「360度素材信息量更大」",
+          "phrases": [
+            "360-degree footage carries more information per clip.",
+            "Panorama packs higher data density into every shot."
+          ],
+          "chunks": "more information per clip · data density",
+          "usage": "data density 技术味更浓"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "title_cn": "五、予易科技：消费者意图识别与从降本到增效",
+      "title_en": "Yuyi Tech: Consumer-Intent Recognition, from Cost-Cutting to Value-Creation",
+      "context": "予易科技为消费品牌做电商意图识别的打法，以及模型选型与落地。语域：formal 商业案例。",
+      "speak": "The core mechanism: serving brands like Quechao, P&G, and Pop Mart, Yuyi does intent recognition from e-commerce customer service and social media conversations: first, consumer profiling, like skin type in beauty; second, product, service, and logistics feedback; third, attribution — determining which department owns a return. The key insight: an enterprise's self-developed large model struggles to hit even 70% accuracy; since 2021 Yuyi has trained vertical small models on GPUs, with the base model providing intent understanding and the self-built layer doing industry fine-tuning and a data flywheel. As the guest put it, AI's future value still lies in human hands — mining the insight from AI-processed data depends heavily on human perception. What they're really talking about: Yuyi's core is consumer-intent understanding; after testing many domestic and foreign models, Qwen proved strongest in the e-commerce domain, and cross-border clients need multilingual capability. How it works: the base model does intent recognition, RAG pulls from the knowledge base, and then the enterprise workflow runs; large models also help clean non-standard knowledge like product detail-page images and complex coupon rule tables. The practical advice: redesign your reception scripts to proactively collect profile info like skin type, which significantly boosts consumer cooperation and recommendation accuracy.",
+      "sentences": [
+        {
+          "cn": "核心机制：服务确潮、宝洁、泡泡玛特等品牌，从电商客服/社媒对话中做意图识别：①消费者画像（如美妆肤质）；②产品/服务/物流反馈；③归因（退货责任部门判定）",
+          "en": "The core mechanism: serving brands like Quechao, P&G, and Pop Mart, Yuyi does intent recognition from e-commerce customer service and social media conversations: first, consumer profiling, like skin type in beauty; second, product, service, and logistics feedback; third, attribution — determining which department owns a return.",
+          "note": "<span>表达提示</span>intent recognition → 意图识别；consumer profiling → 消费者画像；attribution → 归因"
+        },
+        {
+          "cn": "关键理解：企业自研大模型打标准确率不足70%；予易21年起用GPU训练垂直小模型，基模提供意图理解，自研层做行业精调与数据飞轮",
+          "en": "The key insight: an enterprise's self-developed large model struggles to hit even 70% accuracy; since 2021 Yuyi has trained vertical small models on GPUs, with the base model providing intent understanding and the self-built layer doing industry fine-tuning and a data flywheel.",
+          "note": "<span>表达提示</span>vertical small model → 垂直小模型；fine-tuning → 精调；data flywheel → 数据飞轮"
+        },
+        {
+          "cn": "（引用）\"AI未来的价值核心还是掌握在人手里……如何挖掘AI处理过的数据之后的insight，非常看人的洞察能力。\"",
+          "en": "As the guest put it: 'AI's future value still lies in human hands… mining the insight from AI-processed data depends heavily on human perception.'",
+          "note": "<span>表达提示</span>mine insight → 挖掘洞察；human perception → 人的洞察能力；value lies in → 价值在于"
+        },
+        {
+          "cn": "在讲什么：予易核心在消费者意图理解，测试国内国外多模型后，千问在电商场域意图理解最强；跨境客户需多语言能力",
+          "en": "What they're really talking about: Yuyi's core is consumer-intent understanding; after testing many domestic and foreign models, Qwen proved strongest in the e-commerce domain, and cross-border clients need multilingual capability.",
+          "note": "<span>表达提示</span>e-commerce domain → 电商场域；cross-border clients → 跨境客户；multilingual → 多语言"
+        },
+        {
+          "cn": "怎么用：基模做意图识别→RAG调取知识库→企业工作流；大模型还帮清洗非标准化知识（详情页图、复杂优惠券规则表）",
+          "en": "How it works: the base model does intent recognition, RAG pulls from the knowledge base, and then the enterprise workflow runs; large models also help clean non-standard knowledge like product detail-page images and complex coupon rule tables.",
+          "note": "<span>表达提示</span>RAG（Retrieval-Augmented Generation）→ 检索增强生成；knowledge base → 知识库；coupon rules → 优惠券规则"
+        },
+        {
+          "cn": "（引用）落地建议：改造接待话术主动收集肤质等画像信息，可显著提升消费者配合率与推荐精度",
+          "en": "The practical advice: redesign your reception scripts to proactively collect profile info like skin type, which significantly boosts consumer cooperation and recommendation accuracy.",
+          "note": "<span>表达提示</span>reception script → 接待话术；cooperation rate → 配合率；recommendation accuracy → 推荐精度"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「AI的最终价值在人」",
+          "phrases": [
+            "AI's final value still sits with humans.",
+            "The model processes, the people interpret."
+          ],
+          "chunks": "value sits with humans · the people interpret",
+          "usage": "sits with 很口语化"
+        },
+        {
+          "intent": "想说「从降本走向增效」",
+          "phrases": [
+            "It's moving from cost-cutting to value-creation.",
+            "Beyond saving money, AI now drives growth."
+          ],
+          "chunks": "from cost-cutting to value-creation · drive growth",
+          "usage": "cost-cutting vs value-creation 是商务语境的对仗"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "cn": "用「production grade」说：视频生成已进入生产级。",
+      "en": "Video generation has reached production grade — 15-second ads are now AI-made end to end."
+    },
+    {
+      "cn": "用「on-device」说：七成任务可端侧完成。",
+      "en": "More than 70% of tasks can be handled on-device, with complex ones going to the cloud."
+    },
+    {
+      "cn": "用「hit the intent」说：难点是命中用户的剪辑意图。",
+      "en": "The hard part is hitting the user's editing intent, especially when instructions are vague."
+    },
+    {
+      "cn": "用「data flywheel」说：予易靠数据飞轮提升准确率。",
+      "en": "Yuyi's data flywheel keeps improving accuracy as every labeled conversation feeds the model."
+    }
+  ],
+  "pitfalls": [
+    {
+      "wrong": "The video can grow to one minute long.",
+      "right": "The video length extended from 10 seconds to a full minute.",
+      "why": "表达时长变化用 extended from A to B / went up to；grow to 太口语且不精准。"
+    },
+    {
+      "wrong": "The model can control more than before.",
+      "right": "The model gives far more controllability than the previous lucky-draw mode.",
+      "why": "名词化用 controllability（可控性）更专业；与抽卡模式对比才完整。"
+    },
+    {
+      "wrong": "Enterprises can make their own model but accuracy is not enough.",
+      "right": "An enterprise's self-developed model struggles to reach even 70% accuracy.",
+      "why": "struggle to reach 比 not enough 更地道；补上 70% 这个数字更有信息量。"
+    },
+    {
+      "wrong": "Users can't say their need clearly.",
+      "right": "Users often can't articulate their editing intent precisely.",
+      "why": "表达「说出/阐明意图」用 articulate / put into words，比 say 更正式准确。"
+    }
+  ],
+  "shifts": [
+    {
+      "before": "以为AI视频还是特效玩具",
+      "after": "2025年AI视频已进入生产级：一天6000条广告、短剧AI化，成本形成正循环"
+    },
+    {
+      "before": "以为只有大模型才重要",
+      "after": "端侧小模型+云平台分工，七成任务端侧解决；应用爆发靠推理、指令遵循与工具生态"
+    },
+    {
+      "before": "以为AI是取代人的技术",
+      "after": "AI处理数据、人来挖洞察——价值核心仍掌握在人手里，重点从降本走向增效"
+    }
+  ],
+  "voice": "en-US-JennyNeural",
+  "audio_dir": "audio/en/ai_app_burst_e223"
+}

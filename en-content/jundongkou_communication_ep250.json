@@ -1,0 +1,424 @@
+{
+  "slug": "jundongkou_communication_ep250",
+  "date": "2026-07-24",
+  "platform": "小宇宙FM",
+  "title": "250.君子动口不动手：聊聊沟通",
+  "title_en": "A Gentleman Uses Words, Not Fists: Let's Talk About Communication",
+  "eyebrow": "Communication · 沟通",
+  "duration": "2小时04分",
+  "source_url": "https://www.xiaoyuzhoufm.com/episode/6a3e39ae9d2f5743683e40fa",
+  "summary_cn": "石岩携沈清、张佳宁、刘仁诚、马俊四位脱口秀演员，从求婚尴尬、面恶心善红利、商演报价「真诚尺度」聊到行业不谈钱、遛狗搭讪、按摩提需求、催尾款与父母催婚：沟通不是话术万能，而是场域、预期与边界管理；结尾共识是「想沟通就沟通，想不沟通就不沟通」",
+  "summary_en": "Comedian Shi Yan is joined by four fellow stand-ups — Shen Qing, Zhang Jianing, Liu Rencheng, and Ma Jun — to talk communication: from an awkward marriage proposal and the unexpected bonus of a fierce-looking face, to the \"sincerity bar\" in commercial-show pricing, the industry taboo on talking money, dog-walking small talk, speaking up at a massage, chasing late payments, and parents pushing marriage. Their shared conclusion: communication is not a bag of smooth-talking tricks — it is about reading the scene, managing expectations, and setting boundaries. The episode closes on a consensus: if you want to talk, talk; if you don't, don't.",
+  "scenes": [
+    {
+      "id": "s1",
+      "title_cn": "一、面恶心善：刻板印象的沟通红利",
+      "title_en": "Fierce Face, Kind Heart: The Bonus of Stereotypes",
+      "context": "为什么「看着不好惹」反而是红利——对方因刻板印象先退让，事后发现好沟通而惊喜。语域：casual 闲聊 + 播客点评。",
+      "speak": "Let's start with the bonus of a fierce face. The mechanism: a cold look, a sharp tongue, and a reluctant expression — but in practice, they go along with it. Because of the stereotype, the other party gives ground first; afterwards they discover \"actually you're easy to deal with\" and feel pleasantly surprised. The key insight: Shen Qing and Zhang Jianing admit they \"look hard to talk to,\" which lets them naturally reject unreasonable requests. Jianing's real loss is doing the work but getting no credit for it. A typical scene: in prison, even the guy who runs the lending racket won't dare ask a \"fierce-face, kind-heart\" type for money; when a partner quotes a price, they make the first concession. Here's the original line: \"They look like they're hard to communicate with... after talking, they discover we're actually easy to deal with — it even gives people a sense of pleasant surprise.\" The related concept: \"sharp tongue, soft ears\" — Shi Yan's type — versus \"fierce face, kind heart\" — Shen Qing and Jianing's type — are two different communication styles. And one more layer: Jianing's words and face both show reluctance, but she still gets the job done. People assume she's unhappy, she works hard and gets no credit — that's a raw deal. In theory a manager should play the bad guy, but even her manager can't stop her from blurting things out herself.",
+      "sentences": [
+        {
+          "cn": "核心机制：外表冷淡、嘴硬、表情不情愿，但实际行动会配合；对方因刻板印象先退让一步，事后发现「原来挺好说话」产生惊喜感",
+          "en": "The mechanism: a cold look, a sharp tongue, and a reluctant expression — but in practice, they go along with it. Because of the stereotype, the other party gives ground first; afterwards they discover \"actually you're easy to deal with\" and feel pleasantly surprised.",
+          "note": "<span>表达提示</span>sharp tongue → 嘴硬；give ground → 退让一步；pleasantly surprised → 惊喜感"
+        },
+        {
+          "cn": "关键理解：沈清、张佳宁自认「看着不好沟通」，反而能天然拒绝无理要求；嘉宁吃亏在「干了活还没落好」",
+          "en": "The key insight: Shen Qing and Zhang Jianing admit they \"look hard to talk to,\" which lets them naturally reject unreasonable requests. Jianing's real loss is doing the work but getting no credit for it.",
+          "note": "<span>表达提示</span>hard to talk to → 不好沟通；get no credit → 没落好；reject a request → 拒绝要求"
+        },
+        {
+          "cn": "典型场景：监狱里管借钱的人唯独不敢找「面恶心善」的人借；合作方报价时对方先让一步",
+          "en": "A typical scene: in prison, even the guy who runs the lending racket won't dare ask a \"fierce-face, kind-heart\" type for money; when a partner quotes a price, they make the first concession.",
+          "note": "<span>表达提示</span>lending racket → 管借钱的人；make the first concession → 先让一步"
+        },
+        {
+          "cn": "（引用）原文依据：「看上去不是很好沟通……沟通完之后发现原来我们是好沟通的，还能给人一种惊喜感。」",
+          "en": "\"They look like they're hard to communicate with... after talking, they discover we're actually easy to deal with — it even gives people a sense of pleasant surprise.\"",
+          "note": "<span>表达提示</span>easy to deal with → 好沟通；a sense of pleasant surprise → 一种惊喜感"
+        },
+        {
+          "cn": "（引用）相关概念：嘴硬耳根软（石岩）vs 面恶心善（沈清/嘉宁）是不同沟通类型",
+          "en": "Related concept: \"sharp tongue, soft ears\" — Shi Yan's type — versus \"fierce face, kind heart\" — Shen Qing and Jianing's type — are two different communication styles.",
+          "note": "<span>表达提示</span>communication style → 沟通类型；sharp tongue, soft ears → 嘴硬耳根软"
+        },
+        {
+          "cn": "嘉宁嘴上、表情都显示不情不愿，但事都做了；别人觉得她不高兴，干了还没落好，其实挺吃亏。理论上该有经纪人当坏人，但她的经纪人都拦不住她自己说",
+          "en": "Jianing's words and face both show reluctance, but she still gets the job done. People assume she's unhappy, she works hard and gets no credit — that's a raw deal. In theory a manager should play the bad guy, but even her manager can't stop her from blurting things out herself.",
+          "note": "<span>表达提示</span>a raw deal → 挺吃亏；play the bad guy → 当坏人；blurt out → 忍不住说出来"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「看着不好沟通，其实挺好说话」",
+          "phrases": [
+            "People assume I'm hard to deal with, but I'm actually easygoing.",
+            "I look unapproachable, but get me talking and I'm a pushover."
+          ],
+          "chunks": "hard to deal with · unapproachable · a pushover",
+          "usage": "第一句中性自嘲，第二句更俏皮口语"
+        },
+        {
+          "intent": "想说「干了活还没落好」",
+          "phrases": [
+            "I did all the work and got zero credit.",
+            "I worked my tail off and no one even noticed."
+          ],
+          "chunks": "zero credit · work one's tail off",
+          "usage": "第一句直白，第二句抱怨感更强"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title_cn": "二、商演报价：真诚的尺度与拒绝艺术",
+      "title_en": "Quoting a Show: The Sincerity Bar and the Art of Saying No",
+      "context": "如何拒绝邀约而不伤关系——感谢信任、说明时间、留有余地；真诚 vs 找借口的区别。语域：casual 职场吐槽 + 播客点评。",
+      "speak": "Next, the art of quoting and saying no. The mechanism: a club slashes its offer from 100,000 down to 8,000 yuan. Shen Qing won't flat-out say no. Instead she thanks them for their trust, explains the timing doesn't work, and leaves the door open. Shi Yan presses: \"Isn't 'no time' really about the money?\" The key insight: sincerity doesn't mean saying yes to everything — it means honestly stating where you stand. Using \"my schedule is packed\" as an excuse is actually the less sincere move. A typical scene: a new club with a limited budget invites a well-known performer, and the performer's schedule clashes with what they're willing to pay. The original line: \"Thank you for your trust... this particular time might not work for me, but if I have some free time I can consider it.\" The related concept: a structured 5W1H invitation — who, what, when, where, why, how — versus vague probing. And the math: the gap between 100,000 and 8,000 is just too wide, so she won't take it. But if the ratio were 1,000 to 80, she might say \"go ask Liu Rencheng.\" She likes it when the other side spells out the date, the topic, the money, and the task in full, so she can weigh whether to go.",
+      "sentences": [
+        {
+          "cn": "核心机制：俱乐部报价从十万砍到八千，沈清不会直接说「不行」，而是感谢信任+说明时间不合适+留有余地；石岩追问「没时间不就是钱的事吗」",
+          "en": "The mechanism: a club slashes its offer from 100,000 down to 8,000 yuan. Shen Qing won't flat-out say no. Instead she thanks them for their trust, explains the timing doesn't work, and leaves the door open. Shi Yan presses: \"Isn't 'no time' really about the money?\"",
+          "note": "<span>表达提示</span>slash the offer → 大幅压价；leave the door open → 留有余地；press someone → 追问"
+        },
+        {
+          "cn": "关键理解：真诚不是答应一切，而是诚实表达立场；用「排满了」当借口反而不真诚",
+          "en": "The key insight: sincerity doesn't mean saying yes to everything — it means honestly stating where you stand. Using \"my schedule is packed\" as an excuse is actually the less sincere move.",
+          "note": "<span>表达提示</span>where you stand → 你的立场；packed schedule → 排满了"
+        },
+        {
+          "cn": "典型场景：新俱乐部预算有限邀约知名演员；演员档期与报价冲突",
+          "en": "A typical scene: a new club with a limited budget invites a well-known performer, and the performer's schedule clashes with what they're willing to pay.",
+          "note": "<span>表达提示</span>limited budget → 预算有限；clash → 冲突"
+        },
+        {
+          "cn": "（引用）原文依据：「感谢你的信任……现在这个时间的话我可能不太合适，如果我有空余的时间我可以考虑一下。」",
+          "en": "\"Thank you for your trust... this particular time might not work for me, but if I have some free time I can consider it.\"",
+          "note": "<span>表达提示</span>might not work for me → 我不太合适；have some free time → 有空余时间"
+        },
+        {
+          "cn": "（引用）相关概念：5W1H结构化邀约 vs 模糊试探",
+          "en": "Related concept: a structured 5W1H invitation — who, what, when, where, why, how — versus vague probing.",
+          "note": "<span>表达提示</span>structured invitation → 结构化邀约；vague probing → 模糊试探"
+        },
+        {
+          "cn": "十万与八千差距太大，不会接；换成一千与八十的比例，可能会说「你找刘仁诚吧」。喜欢对方把几月几号、关于什么、多少钱、要干什么全部写清楚，自己考量去不去",
+          "en": "The gap between 100,000 and 8,000 is just too wide, so she won't take it. But if the ratio were 1,000 to 80, she might say \"go ask Liu Rencheng.\" She likes it when the other side spells out the date, the topic, the money, and the task in full, so she can weigh whether to go.",
+          "note": "<span>表达提示</span>spell out → 写清楚/说明白；weigh whether to → 考量要不要"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「留有余地地拒绝」",
+          "phrases": [
+            "I'm flattered, but this timing doesn't work for me.",
+            "Thanks for the offer — maybe some other time."
+          ],
+          "chunks": "flattered · timing doesn't work · some other time",
+          "usage": "第一句正式一些，第二句更轻松"
+        },
+        {
+          "intent": "想说「把条件一次性写清楚」",
+          "phrases": [
+            "Spell out the date, the fee, and the gig in one message.",
+            "Put everything in writing so I can decide."
+          ],
+          "chunks": "spell out · in one message · in writing",
+          "usage": "第一句具体，第二句是原则性表达"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title_cn": "三、结构化沟通：5W1H 胜过一切话术",
+      "title_en": "Structured Communication: 5W1H Beats Any Sales Pitch",
+      "context": "把日期、主题、金额、任务一次写清是尊重对方时间的效率工具，而非话术；对比阴阳怪气的「错位沟通」。语域：casual 观点输出。",
+      "speak": "Now, why structure beats smooth talk. The mechanism: put the date, the topic, the budget, and the specific task all in one message. The other party only has to decide whether they want in — no back-and-forth guessing. The key insight: this isn't a \"communication trick\" — it's an efficiency tool that respects the other person's time. The typical scenes: show invitations, partnership emails, and work assignments. The original line: \"There's a gig — what date, about what, how much money, what they want you to do — write it all out for me.\" The related concept: the personal preference gap between phone calls and written communication. And the dark side: some people show displeasure by firing off question marks or making passive-aggressive digs — that's \"unequal communication\" or \"mismatched communication.\" Lots of people do it without realizing.",
+      "sentences": [
+        {
+          "cn": "核心机制：把日期、主题、金额、具体任务一次性写清，对方只需判断意愿，省去来回试探",
+          "en": "The mechanism: put the date, the topic, the budget, and the specific task all in one message. The other party only has to decide whether they want in — no back-and-forth guessing.",
+          "note": "<span>表达提示</span>want in → 愿意参与；back-and-forth → 来回拉扯；all in one message → 一次性写清"
+        },
+        {
+          "cn": "关键理解：这不是「沟通技巧」，是尊重对方时间的效率工具",
+          "en": "The key insight: this isn't a \"communication trick\" — it's an efficiency tool that respects the other person's time.",
+          "note": "<span>表达提示</span>communication trick → 沟通技巧；efficiency tool → 效率工具"
+        },
+        {
+          "cn": "典型场景：商演邀约、合作邮件、工作指派",
+          "en": "A typical scene: show invitations, partnership emails, and work assignments.",
+          "note": "<span>表达提示</span>show invitation → 商演邀约；work assignment → 工作指派"
+        },
+        {
+          "cn": "（引用）原文依据：「有个什么活，几月几号，关于什么的，多少钱，要你干什么，全部给我写出来。」",
+          "en": "\"There's a gig — what date, about what, how much money, what they want you to do — write it all out for me.\"",
+          "note": "<span>表达提示</span>write it all out → 全部写出来；gig → 活/演出"
+        },
+        {
+          "cn": "（引用）相关概念：电话沟通 vs 文字沟通的个人偏好差异",
+          "en": "Related concept: the personal preference gap between phone calls and written communication.",
+          "note": "<span>表达提示</span>phone call → 电话沟通；written communication → 文字沟通"
+        },
+        {
+          "cn": "有些人用发问号、小阴阳表达不满，属于「不平等的沟通」或「错位的沟通」；很多人这么沟通但自己意识不到",
+          "en": "Some people show displeasure by firing off question marks or making passive-aggressive digs — that's \"unequal communication\" or \"mismatched communication.\" Lots of people do it without realizing.",
+          "note": "<span>表达提示</span>passive-aggressive → 阴阳怪气；mismatched communication → 错位的沟通"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「把需求写清楚，对方只要回答行不行」",
+          "phrases": [
+            "Just lay out the details and let them say yes or no.",
+            "Give them everything — all they do is decide."
+          ],
+          "chunks": "lay out the details · say yes or no",
+          "usage": "第一句更口语，第二句强调对方决策成本极低"
+        },
+        {
+          "intent": "想说「阴阳怪气表达不满」",
+          "phrases": [
+            "Stop making passive-aggressive digs.",
+            "Say what's bothering you instead of sending question marks."
+          ],
+          "chunks": "passive-aggressive digs · question marks",
+          "usage": "第一句直接批评，第二句给出替代做法"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "title_cn": "四、生活场景：敢说需求 vs 忍着不说",
+      "title_en": "Everyday Life: Speaking Up vs. Suffering in Silence",
+      "context": "按摩先说「不按脖子」、理发直接给照片——专业服务者期待你表达偏好；沉默不是礼貌而是自罪。语域：casual 生活经验分享。",
+      "speak": "Let's talk everyday scenes. The mechanism: when a masseuse worked too hard, Acheng used to just grit his teeth; now he says up front, \"skip my neck.\" For haircuts, he hands over the styling photo and says, \"just cut it like this.\" The key insight: silence isn't politeness — it's making yourself suffer. Professionals actually expect you to state your preferences. Typical scenes: massage, haircuts, and makeup — \"keep it light\" at the makeup counter. The original line: \"I usually don't let them touch my neck... I say it in advance. If it's something I can grit through, I just stay quiet.\" The related concept: Acheng only speaks up when he has no choice, while Shen Qing says it in advance — two opposite ends of the spectrum. And the dog-walking story: an Hermès-clad dog barked too much, so the other person worried about a dogfight and just walked away. It wasn't the owner who was the problem — the dog's behavior sabotaged the trust-building.",
+      "sentences": [
+        {
+          "cn": "核心机制：按摩师力度太大，阿诚以前忍着不说，现在会提前说「不按脖子」；理发直接给经纪人发的造型照片说「剪成这样就行」",
+          "en": "The mechanism: when a masseuse worked too hard, Acheng used to just grit his teeth; now he says up front, \"skip my neck.\" For haircuts, he hands over the styling photo and says, \"just cut it like this.\"",
+          "note": "<span>表达提示</span>grit one's teeth → 忍着不说；say up front → 提前说；skip my neck → 不按脖子"
+        },
+        {
+          "cn": "关键理解：沉默不是礼貌，是让自己受罪；专业服务人员期待你表达偏好",
+          "en": "The key insight: silence isn't politeness — it's making yourself suffer. Professionals actually expect you to state your preferences.",
+          "note": "<span>表达提示</span>make yourself suffer → 让自己受罪；state your preferences → 表达偏好"
+        },
+        {
+          "cn": "典型场景：按摩、理发、化妆（「淡一点就行」）",
+          "en": "A typical scene: massage, haircuts, and makeup — \"keep it light\" at the makeup counter.",
+          "note": "<span>表达提示</span>keep it light → 淡一点就行"
+        },
+        {
+          "cn": "（引用）原文依据：「我一般不让按脖子……一般会提前说，我觉得再疼也能忍，我就不太说话。」",
+          "en": "\"I usually don't let them touch my neck... I say it in advance. If it's something I can grit through, I just stay quiet.\"",
+          "note": "<span>表达提示</span>in advance → 提前；grit through → 忍过去"
+        },
+        {
+          "cn": "（引用）相关概念：阿诚「不到万不得已不太沟通」vs 沈清会提前说",
+          "en": "Related concept: Acheng only speaks up when he has no choice, while Shen Qing says it in advance — two opposite ends of the spectrum.",
+          "note": "<span>表达提示</span>no choice but to → 万不得已；opposite ends of the spectrum → 两个极端"
+        },
+        {
+          "cn": "原因：爱马仕狗太爱叫，对方担心狗打架直接拉走；不是主人不行，是狗的行径影响信任建立",
+          "en": "The reason: an Hermès-clad dog barked too much, so the other person worried about a dogfight and just walked away. It wasn't the owner who was the problem — the dog's behavior sabotaged the trust-building.",
+          "note": "<span>表达提示</span>sabotage trust → 影响信任建立；walk away → 直接拉走"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「按摩时说清不按哪里」",
+          "phrases": [
+            "Can you skip my neck today?",
+            "Please avoid my neck — that's the sensitive spot."
+          ],
+          "chunks": "skip my neck · sensitive spot",
+          "usage": "第一句直接口语，第二句更礼貌"
+        },
+        {
+          "intent": "想说「忍着不说其实吃亏」",
+          "phrases": [
+            "Staying quiet just makes it worse for you.",
+            "If you don't speak up, nobody reads your mind."
+          ],
+          "chunks": "makes it worse · read one's mind",
+          "usage": "第一句自我劝告，第二句点破道理"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "title_cn": "五、职场与金钱：技巧解决不了的结构性问题",
+      "title_en": "Work and Money: Structural Problems No Trick Can Fix",
+      "context": "合同签了、发票开了仍不结尾款——有些问题是行业常态，不是沟通能力问题。语域：casual 职场真相 + 播客点评。",
+      "speak": "Then the structural problems. The mechanism: the contract's signed, the invoice is out, and the client still won't pay the final installment — always with another excuse. Sending a wavy-line emoji or polite small talk won't move the needle. The key insight: this is the industry norm, not a communication problem. Factories and supermarkets all factor in an \"unavoidable loss rate.\" A typical scene: a startup being strung along by a big company, or a renovation contractor fighting to collect the final payment. The original line: \"Once the invoice is out and it's come to this, no communication trick is going to fix it.\" The related concept: lending money to a friend is hard to collect — when the friend is struggling that much, you can't bear to bring it up. And the reason: the industry is in a deep freeze, performers' income has collapsed, and the friends who borrowed money are doing so badly that you can't even bring it up over a meal.",
+      "sentences": [
+        {
+          "cn": "核心机制：合同签了、发票开了，对方仍不结尾款，找各种理由；波浪线、客气话都发了也没用",
+          "en": "The mechanism: the contract's signed, the invoice is out, and the client still won't pay the final installment — always with another excuse. Sending a wavy-line emoji or polite small talk won't move the needle.",
+          "note": "<span>表达提示</span>final installment → 尾款；move the needle → 起作用/改变结果"
+        },
+        {
+          "cn": "关键理解：这是行业常态，不是沟通能力问题；工厂加工、开超市都有「不可避免损失比例」",
+          "en": "The key insight: this is the industry norm, not a communication problem. Factories and supermarkets all factor in an \"unavoidable loss rate.\"",
+          "note": "<span>表达提示</span>industry norm → 行业常态；unavoidable loss rate → 不可避免的损失比例"
+        },
+        {
+          "cn": "典型场景：创业公司被大公司拖欠；装修工程款难收",
+          "en": "A typical scene: a startup being strung along by a big company, or a renovation contractor fighting to collect the final payment.",
+          "note": "<span>表达提示</span>string someone along → 拖欠/拖着；collect payment → 收款"
+        },
+        {
+          "cn": "（引用）原文依据：「发票已经开好了，到这个结果，就不是沟通技巧可以解决了。」",
+          "en": "\"Once the invoice is out and it's come to this, no communication trick is going to fix it.\"",
+          "note": "<span>表达提示</span>come to this → 到这个地步；fix → 解决"
+        },
+        {
+          "cn": "（引用）相关概念：朋友借钱难催（对方过得太惨不好意思提）",
+          "en": "Related concept: lending money to a friend is hard to collect — when the friend is struggling that much, you can't bear to bring it up.",
+          "note": "<span>表达提示</span>can't bear to → 不好意思；bring it up → 提起"
+        },
+        {
+          "cn": "原因：行业寒冬，演员收入锐减，借了钱的朋友过得太惨，吃饭都不好意思提",
+          "en": "The reason: the industry is in a deep freeze, performers' income has collapsed, and the friends who borrowed money are doing so badly that you can't even bring it up over a meal.",
+          "note": "<span>表达提示</span>deep freeze → 寒冬；income collapsed → 收入锐减"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「这不是沟通能解决的」",
+          "phrases": [
+            "No amount of smooth talking will fix this.",
+            "This one's beyond communication — it's structural."
+          ],
+          "chunks": "smooth talking · beyond communication · structural",
+          "usage": "第一句口语，第二句带分析感"
+        },
+        {
+          "intent": "想说「不好意思催朋友还钱」",
+          "phrases": [
+            "I can't bring myself to ask for the money back.",
+            "They're struggling, so I just let it go."
+          ],
+          "chunks": "bring myself to · let it go",
+          "usage": "第一句描述心理，第二句说明做法"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "title_cn": "六、家庭沟通：通气可以，不必辩经",
+      "title_en": "Family Communication: Keep Them in the Loop, Skip the Debate",
+      "context": "职业转型告诉家人是在「通气」而非「征求同意」；不是所有事都需要解释。语域：casual 家庭话题 + 观点输出。",
+      "speak": "Finally, family. The mechanism: a lot of people hide their stand-up careers from family until a TV appearance reveals it. Ma Jun, in his thirties, kept his parents in the loop; after voicing doubts, they accepted it — \"he's grown up now, there's nothing they can do about it.\" The key insight: it's about informing, not asking permission. Parents see it as \"not a proper career\" unless there are obvious results to show. Typical scenes: career pivots, side-hustle choices, and moving away from home to develop. The original line: \"It wasn't about asking their consent... they just voiced some doubts... then accepted it. It's a very powerless kind of resistance.\" The related concept: marriage pressure is a lost cause to argue about, while career choices can simply go unmentioned. And the boundary: if your parents buy into a scammy wealth product, you don't warn them and they never tell you — everyone plays their cards close. Unless they come to you for help, forcing \"I'm just looking out for you\" is unnecessary.",
+      "sentences": [
+        {
+          "cn": "核心机制：很多人瞒着家人说脱口秀，上节目才知道；马俊30多岁跟家人通气，父母表达质疑后接受——「人都大了，也确实管不了」",
+          "en": "The mechanism: a lot of people hide their stand-up careers from family until a TV appearance reveals it. Ma Jun, in his thirties, kept his parents in the loop; after voicing doubts, they accepted it — \"he's grown up now, there's nothing they can do about it.\"",
+          "note": "<span>表达提示</span>keep someone in the loop → 跟某人通气；voice doubts → 表达质疑"
+        },
+        {
+          "cn": "关键理解：不是征求同意，是告知；父母认为「不是正经行业」除非有明显成绩",
+          "en": "The key insight: it's about informing, not asking permission. Parents see it as \"not a proper career\" unless there are obvious results to show.",
+          "note": "<span>表达提示</span>ask permission → 征求同意；a proper career → 正经行业"
+        },
+        {
+          "cn": "典型场景：职业转型、副业选择、离家发展",
+          "en": "A typical scene: career pivots, side-hustle choices, and moving away from home to develop.",
+          "note": "<span>表达提示</span>career pivot → 职业转型；side hustle → 副业"
+        },
+        {
+          "cn": "（引用）原文依据：「也不是征求他们同意……就是表达了一下质疑……然后就接受了，所以是一种很无力的阻挠。」",
+          "en": "\"It wasn't about asking their consent... they just voiced some doubts... then accepted it. It's a very powerless kind of resistance.\"",
+          "note": "<span>表达提示</span>consent → 同意；powerless resistance → 无力的阻挠"
+        },
+        {
+          "cn": "（引用）相关概念：催婚说不通 vs 职业选择可以不说",
+          "en": "Related concept: marriage pressure is a lost cause to argue about, while career choices can simply go unmentioned.",
+          "note": "<span>表达提示</span>lost cause → 说不通的事；go unmentioned → 不被提起"
+        },
+        {
+          "cn": "父母买骗钱理财产品，你不告诉、他买了你也不知道；每个人处打一个不熟。除非他张嘴求你，否则强行「为你好」没必要",
+          "en": "If your parents buy into a scammy wealth product, you don't warn them and they never tell you — everyone plays their cards close. Unless they come to you for help, forcing \"I'm just looking out for you\" is unnecessary.",
+          "note": "<span>表达提示</span>scammy wealth product → 骗钱理财产品；play it close to the chest → 藏着掖着"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「跟父母通气而不是征求同意」",
+          "phrases": [
+            "I told my parents — I didn't ask for permission.",
+            "Informing them beats asking for approval."
+          ],
+          "chunks": "told vs. asked · for approval",
+          "usage": "第一句讲事实，第二句是观点"
+        },
+        {
+          "intent": "想说「有些事不必解释」",
+          "phrases": [
+            "Some things don't need explaining.",
+            "You don't owe anyone an explanation."
+          ],
+          "chunks": "don't need explaining · owe an explanation",
+          "usage": "第一句中性，第二句更坚定"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "cn": "用「give ground」说：刻板印象让对方先退让一步。",
+      "en": "The stereotype made the other side give ground first."
+    },
+    {
+      "cn": "用「spell out」说：把日期、主题、价格和任务一次写清。",
+      "en": "Spell out the date, the topic, the price, and the task all at once."
+    },
+    {
+      "cn": "用「keep in the loop」说：职业选择只需要跟家人通气。",
+      "en": "For career choices, just keep your family in the loop."
+    },
+    {
+      "cn": "用「beyond communication」说：发票开好之后，这就不是沟通能解决的了。",
+      "en": "Once the invoice is out, it's beyond communication."
+    }
+  ],
+  "pitfalls": [
+    {
+      "wrong": "My time is not enough, so I don't accept this work.",
+      "right": "Thanks for the offer — my schedule doesn't allow it right now, but let's keep in touch.",
+      "why": "「时间不够」直译成 my time is not enough 不成立；英文用 my schedule doesn't allow / I'm fully booked。拒绝要感谢+说明+留余地。"
+    },
+    {
+      "wrong": "She did the work, but there are no good words.",
+      "right": "She does the work but gets no credit for it.",
+      "why": "no good words 是「没落好」的逐字直译；英文固定说法是 get no credit / get no recognition。"
+    },
+    {
+      "wrong": "I will say the barber cut like this photo.",
+      "right": "I show the barber the photo and say, \"cut it just like this.\"",
+      "why": "中式语序 say the barber 不成立；表达要求用 show someone + say 引出原话。"
+    },
+    {
+      "wrong": "The client always finds a reason, no way to urge.",
+      "right": "The client always has another excuse, and no amount of nudging helps.",
+      "why": "no way to urge 是中式表达；英文用 no amount of ... helps / nudging 表示「怎么催都没用」。"
+    }
+  ],
+  "shifts": [
+    {
+      "before": "拒绝别人要先找个说得过去的借口",
+      "after": "真诚说出立场、留有余地，比堆借口更有效"
+    },
+    {
+      "before": "忍着不说显得有修养",
+      "after": "专业服务者期待你说出偏好，沉默是让自己受罪"
+    },
+    {
+      "before": "沟通技巧能解决所有问题",
+      "after": "合同发票之外的拖延是结构性问题，技巧改变不了结果"
+    }
+  ],
+  "voice": "en-US-JennyNeural",
+  "audio_dir": "audio/en/jundongkou_communication_ep250"
+}

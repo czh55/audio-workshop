@@ -1,0 +1,247 @@
+{
+  "slug": "jlr_maserati_huawei_ev",
+  "date": "2026-06-23",
+  "platform": "小宇宙FM",
+  "title": "捷豹路虎停产燃油车，玛莎拉蒂灵魂卖给华为？",
+  "title_en": "Jaguar Land Rover Halts Gasoline Cars, and Maserati Sells Its Soul to Huawei?",
+  "eyebrow": "Automotive & Business · 汽车与商业",
+  "duration": "59分钟",
+  "source_url": "https://www.xiaoyuzhoufm.com/episode/6a11ed1b8b5c94538e9ab546",
+  "summary_cn": "三刀串联玛莎拉蒂×华为×江淮「一车两卖」、Jeep×东风猛士模式与奇瑞捷豹路虎全面停产燃油车三大事件，揭示 Stellantis 系豪华品牌在华销量雪崩后「用品牌换生存」的新合资逻辑，以及中方主导技术、外方保留设计的行业范式转移",
+  "summary_en": "The host threads together three big events: the Maserati-Huawei-JAC 'one car, two badges' deal, the Jeep-Dongfeng Mengshi model, and Chery Jaguar Land Rover's full shutdown of gasoline cars. Together they reveal a new joint-venture logic in which Stellantis's luxury brands, after their China sales collapsed, trade their brand names for survival. The industry paradigm is shifting: the Chinese side leads technology and operations, while the foreign side keeps design. When an Italian supercar's soul goes electric, the soul inside it is increasingly Chinese.",
+  "scenes": [
+    {
+      "id": "s1",
+      "title_cn": "Part 1：玛莎拉蒂的困局与华为的「续命」合作",
+      "title_en": "Part 1: Maserati's Predicament and Huawei's Lifeline Deal",
+      "context": "拆解玛莎拉蒂×华为鸿蒙智行×江淮的「一车两卖」合作，与阿维塔等模式对比。语域：formal 汽车商业分析。",
+      "speak": "Here is the new triangular deal: Stellantis, Maserati's parent, teams up with Huawei's Harmony Intelligent Mobility and JAC Motors, using the third model of the Harmony system, a deeply bonded setup. But there is a twist they call 'one car, two badges' — at home it sells under the Zunjie badge, while for export it wears the Maserati badge. JAC and Huawei already have the Zunjie brand, the most expensive of Huawei's five lines, so Maserati will likely share the same production line, with volume production possibly by 2027. The pattern already appeared with Stellantis's Jeep and Dongfeng Mengshi, where Mengshi tech went straight into a Jeep NEV off-roader. Compared with Avatr, which participates technically without leading, this is the deepest binding — full-stack empowerment plus shared channels. In gasoline, Maserati is a pure Italian supercar brand with premium; in EVs, no pure electric supercar has ever succeeded. Its 2025 China sales were barely over a thousand, down ninety percent: the product is worth about three hundred thousand yuan, the brand premium another five hundred thousand, and the smart-driving experience less than one hundred thousand.",
+      "sentences": [
+        {
+          "cn": "核心机制：Stellantis（玛莎拉蒂母公司）+ 华为鸿蒙智行 + 江淮汽车三方合作。采用鸿蒙智行第三种模式（深度绑定体系），但与以往不同之处在于「一车两卖」——国内挂尊界标销售，出口挂玛莎拉蒂标",
+          "en": "The core mechanism: a three-way deal among Stellantis (Maserati's parent), Huawei's Harmony Intelligent Mobility, and JAC Motors. It uses the third mode of Harmony Intelligent Mobility (a deeply bonded system), but unlike before, it's 'one car, two badges' — sold domestically under the Zunjie badge and exported under the Maserati badge.",
+          "note": "<span>表达提示</span>three-way deal → 三方合作；deeply bonded system → 深度绑定体系；one car, two badges → 一车两卖；export → 出口"
+        },
+        {
+          "cn": "关键理解：江淮与华为已有尊界品牌（华为五界中最贵），玛莎拉蒂大概率与尊界共线生产。最快2027年有望量产",
+          "en": "The key insight: JAC and Huawei already have the Zunjie brand (the most expensive of Huawei's five lines), and Maserati will likely share the production line with Zunjie. Volume production could come as early as 2027.",
+          "note": "<span>表达提示</span>share the production line → 共线生产；volume production → 量产；as early as 2027 → 最快2027年"
+        },
+        {
+          "cn": "典型场景：类似模式已在 Stellantis 旗下 Jeep 与东风猛士合作中复现——猛士技术直接放入 Jeep 新能源越野车",
+          "en": "A typical scene: a similar model already appeared at Stellantis's Jeep and Dongfeng Mengshi — Mengshi's technology goes directly into a Jeep NEV off-roader.",
+          "note": "<span>表达提示</span>a similar model → 类似模式；go directly into → 直接放入；NEV off-roader → 新能源越野车"
+        },
+        {
+          "cn": "（引用）原文依据：「国内它是挂着尊界的标在卖，国外是挂着玛莎拉蒂的标在卖，就是一句话就说清楚了」",
+          "en": "In the author's own words: 'At home it sells under the Zunjie badge, abroad it sells under the Maserati badge — one sentence says it all.'",
+          "note": "<span>表达提示</span>at home / abroad → 国内/国外；one sentence says it all → 一句话就说清楚了"
+        },
+        {
+          "cn": "（引用）相关概念：与阿维塔（技术参与但不主导）、零部件供应模式相比，这是全栈赋能+渠道共享的最深度绑定",
+          "en": "A related idea: compared with Avatr (which participates technically without leading) and the parts-supply model, this is the deepest binding — full-stack empowerment plus shared channels.",
+          "note": "<span>表达提示</span>participate without leading → 参与但不主导；full-stack empowerment → 全栈赋能；shared channels → 渠道共享"
+        },
+        {
+          "cn": "燃油车领域玛莎拉蒂是纯正意大利超跑品牌，有溢价；但新能源领域造纯电超跑至今没有成功案例。2025年华销量仅千余辆（暴跌90%），产品力约值30万、品牌溢价占50万、智能体验连10万都不到",
+          "en": "In gasoline cars, Maserati is a pure Italian supercar brand with premium; but in EVs, no pure-electric supercar has ever succeeded. Its 2025 China sales were barely over a thousand units (down 90%), with the product worth about 300,000 yuan, brand premium another 500,000, and the smart experience worth less than 100,000.",
+          "note": "<span>表达提示</span>brand premium → 品牌溢价；down 90% → 暴跌90%；smart experience → 智能体验；be worth → 价值"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「同一辆车国内国外挂不同标」",
+          "phrases": [
+            "The same car wears different badges at home and abroad.",
+            "One car, two badges — that's the whole deal in a sentence."
+          ],
+          "chunks": "wear different badges · one car, two badges",
+          "usage": "one car, two badges 是本期金句，点评时直接引用"
+        },
+        {
+          "intent": "想说「品牌溢价撑不起价格」",
+          "phrases": [
+            "The brand premium no longer justifies the price tag.",
+            "The badge is doing less and less of the heavy lifting."
+          ],
+          "chunks": "justify the price · do the heavy lifting",
+          "usage": "第二句更口语犀利，适合播客点评"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title_cn": "Part 2：传统豪车品牌的集体转型阵痛",
+      "title_en": "Part 2: The Painful Transition of Traditional Luxury Brands",
+      "context": "讲奇瑞捷豹路虎全面停产燃油车、发布Freelander电动品牌及销量雪崩数据。语域：formal 汽车产业分析。",
+      "speak": "On March 31, 2026, the last gasoline Range Rover Evoque rolled off the line at the Changshu base, while the brand launched a brand-new electric marque called Freelander. Chery Jaguar Land Rover becomes the first joint-venture brand to fully shut down gasoline production. Other joint ventures talk about stopping but never do it; JLR chose to either reach shore or jump ship. It has already poured three billion yuan into Changshu, and over the next five years it will launch six pure-electric, extended-range, or plug-in hybrid models, all built on Chery's technology. In contrast, JLR follows the Chery route while Maserati follows Huawei, but the model is the same: the Chinese side leads technology and operations, the foreign side leads design and appearance. The reason is brutal: its peak year, 2017, sold over 80,000 units in China (over 140,000 including imports); 2025 was the worst ever at just over 20,000. Starting in 2019, sales fell 36%, 8.5%, 3%, 8.7%, 19%, and 22% in successive years.",
+      "sentences": [
+        {
+          "cn": "核心机制：2026年3月31日，最后一台燃油路虎揽胜极光在常熟基地下线；同时发布全新电动品牌 Freelander（神行者）。奇瑞捷豹路虎成为首个全面关停燃油车的合资品牌",
+          "en": "The core mechanism: on March 31, 2026, the last gasoline Range Rover Evoque rolled off the line at the Changshu base, while the company launched a new all-electric brand, Freelander. Chery Jaguar Land Rover becomes the first joint-venture brand to fully stop gasoline production.",
+          "note": "<span>表达提示</span>roll off the line → 下线；joint-venture brand → 合资品牌；all-electric brand → 电动品牌；fully stop → 全面停产"
+        },
+        {
+          "cn": "关键理解：其他合资也在喊停产但没真做——JLR 要么上岸要么跳船。常熟基地已砸30亿，未来五年推6款纯电/增程/插混车型，底子全是奇瑞技术",
+          "en": "The key insight: other joint ventures talk about stopping but never really do it — JLR either reaches shore or jumps ship. Three billion yuan is already sunk into Changshu, and in five years it will launch six pure-electric, extended-range, or plug-in hybrid models, all built on Chery's technology.",
+          "note": "<span>表达提示</span>reach shore or jump ship → 上岸或跳船；sink money into → 砸钱进；extended-range → 增程；plug-in hybrid → 插混"
+        },
+        {
+          "cn": "（引用）原文依据：「2026年3月31号，最后一辆燃油版的路虎揽胜极光在常熟的基地下线」",
+          "en": "In the author's own words: 'On March 31, 2026, the last gasoline Range Rover Evoque rolled off the line at the Changshu base.'",
+          "note": "<span>表达提示</span>roll off the line → 下线；base → 基地；the last → 最后一辆"
+        },
+        {
+          "cn": "（引用）与玛莎拉蒂对比：JLR 走奇瑞路线，玛莎拉蒂走华为路线，模式相同——中方主导技术运营，外方主导设计外观",
+          "en": "Compared with Maserati: JLR takes the Chery route, Maserati takes the Huawei route, but the model is the same — the Chinese side leads technology and operations, the foreign side leads design and appearance.",
+          "note": "<span>表达提示</span>take the A route → 走A路线；lead technology and operations → 主导技术与运营；lead design → 主导设计"
+        },
+        {
+          "cn": "原因：2017年高光时刻年销8万+（含进口超14万），2025年史上最低仅2万多台。2019起连降：-36%、-8.5%、-3%、-8.7%、-19%、-22%",
+          "en": "The reason: its golden year of 2017 sold 80,000+ units in China (over 140,000 including imports); 2025 hit an all-time low of just over 20,000. Since 2019 the declines were -36%, -8.5%, -3%, -8.7%, -19%, and -22%.",
+          "note": "<span>表达提示</span>golden year → 高光时刻；all-time low → 史上最低；including imports → 含进口"
+        },
+        {
+          "cn": "解法：Freelander 采用零库存+全授权轻资产+密集网点模式（类似新势力），统一交付售后",
+          "en": "The solution: Freelander adopts a zero-inventory, fully authorized light-asset model with dense store networks (like the new forces), with unified delivery and after-sales service.",
+          "note": "<span>表达提示</span>zero-inventory → 零库存；light-asset model → 轻资产模式；dense store network → 密集网点；after-sales service → 售后服务"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「要么上岸，要么跳船」",
+          "phrases": [
+            "It's a sink-or-swim moment for the brand.",
+            "They either transform or die — there's no middle ground."
+          ],
+          "chunks": "sink or swim · transform or die",
+          "usage": "两句都是俚语化表达，点评场合很提气"
+        },
+        {
+          "intent": "想说「销量一路下跌」",
+          "phrases": [
+            "Sales have been sliding every year since 2019.",
+            "The numbers tell a six-year losing streak."
+          ],
+          "chunks": "slide every year · a losing streak",
+          "usage": "losing streak 用「连败」比喻很生动"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title_cn": "Part 3：合作新模式与中国汽车产业崛起",
+      "title_en": "Part 3: A New Cooperation Model and the Rise of China's Auto Industry",
+      "context": "总结新能源时代合资话语权转移，「用品牌换生存」的破局逻辑。语域：formal 产业评论。",
+      "speak": "In the new-energy era, the Chinese side's voice inside joint ventures has grown dramatically. Foreign partners at most lead the design; technology, operations, and investment are driven by domestic automakers. In the future, foreign brands selling new-energy cars in China may simply be 'rebadged.' This is a landmark moment in Chinese manufacturing going global — the inner soul of European luxury brands is being swapped for a Chinese one. So before you buy a car, check who the joint venture partners with; the infotainment, the battery and the smart-driving system are most likely the partner's solution. And stop dreaming of big brand premiums in the smart-electric era: miss the trend plus zero new-energy revenue equals falling off the pedestal, even for a hundred-year brand. Mercedes and BMW still have gasoline dividends to harvest, so they can dabble; marginal brands must go all in. As the host puts it: 'Bind the top technology and trade the brand for survival — that is the way out.'",
+      "sentences": [
+        {
+          "cn": "核心机制：新能源时代合资公司内中方话语权显著增强。外方最多主导设计外观，技术、运营、投资由国内车企主导。未来海外品牌在华新能源或仅「换标」",
+          "en": "The core mechanism: in the new-energy era, the Chinese side's voice inside joint ventures has grown significantly. The foreign side at most leads design; technology, operations, and investment are led by domestic automakers. In the future, foreign brands' new-energy cars in China may simply be 'rebadged'.",
+          "note": "<span>表达提示</span>voice → 话语权；at most → 最多；rebadge → 换标；domestic automakers → 国内车企"
+        },
+        {
+          "cn": "关键理解：这是中国制造向全球输出的标志性事件——欧洲豪华品牌内心灵魂换成中国魂",
+          "en": "The key insight: this is a landmark moment for Chinese manufacturing going global — the inner soul of European luxury brands is being swapped for a Chinese soul.",
+          "note": "<span>表达提示</span>landmark moment → 标志性事件；inner soul → 内心灵魂；swap A for B → 把A换成B"
+        },
+        {
+          "cn": "（引用）买车前必做：查该合资品牌跟谁合作，车机/三电/智驾大概率就是合作方的方案",
+          "en": "A must-do before buying: check who the joint-venture brand partners with — the infotainment, three-electric system, and smart-driving are most likely the partner's solution.",
+          "note": "<span>表达提示</span>infotainment → 车机；three-electric system → 三电；smart-driving → 智驾；most likely → 大概率"
+        },
+        {
+          "cn": "为什么重要：智能电动时代不要再幻想品牌高溢价。跟不上时代+新能源颗粒无收=跌下神坛，哪怕百年品牌也没用",
+          "en": "Why it matters: in the smart-electric era, stop dreaming of big brand premiums. Miss the trend and earn zero from new energy, and you fall off the pedestal — even a hundred-year brand can't escape it.",
+          "note": "<span>表达提示</span>dream of → 幻想；fall off the pedestal → 跌下神坛；a hundred-year brand → 百年品牌"
+        },
+        {
+          "cn": "适用边界：奔驰宝马仍有燃油车红利可吃，可浅尝合作；边缘品牌必须梭哈",
+          "en": "The boundary: Mercedes-Benz and BMW still have gasoline dividends to harvest, so they can dabble in cooperation; marginal brands must go all in.",
+          "note": "<span>表达提示</span>dividends to harvest → 红利可吃；dabble → 浅尝；go all in → 梭哈；marginal brands → 边缘品牌"
+        },
+        {
+          "cn": "（引用）「绑定顶尖的这些技术，用品牌换生存，这才是破局之道」",
+          "en": "A quote: 'Bind the top technologies and trade the brand for survival — that is the way out of the deadlock.'",
+          "note": "<span>表达提示</span>trade A for B → 用A换B；the way out → 破局之道；deadlock → 僵局"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「中国主导技术、外方保留设计」",
+          "phrases": [
+            "The Chinese side owns the tech; the foreign side keeps the design.",
+            "It's China's engine under a foreign designer's body."
+          ],
+          "chunks": "own the tech · a designer's body",
+          "usage": "第二句用汽车比喻汽车，点评时很点睛"
+        },
+        {
+          "intent": "想说「别幻想品牌溢价了」",
+          "phrases": [
+            "Stop betting on brand premium in the electric era.",
+            "The badge alone won't sell a car anymore."
+          ],
+          "chunks": "stop betting on · won't sell a car anymore",
+          "usage": "两句都是劝诫语气，口语场景用第二句"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "cn": "用「one car, two badges」说：一车两卖。",
+      "en": "It's one car, two badges — Zunjie at home, Maserati abroad."
+    },
+    {
+      "cn": "用「trade A for B」说：用品牌换生存。",
+      "en": "They trade their brand names for survival in the Chinese market."
+    },
+    {
+      "cn": "用「all-time low」说：销量史上最低。",
+      "en": "The brand hit an all-time low last year, selling just over 20,000 units."
+    },
+    {
+      "cn": "用「go all in」说：边缘品牌必须梭哈。",
+      "en": "Marginal brands have no choice but to go all in on new energy."
+    }
+  ],
+  "pitfalls": [
+    {
+      "wrong": "Maserati sells the same car with two labels.",
+      "right": "It's one car, two badges — sold under different badges at home and abroad.",
+      "why": "label 偏「标签」；汽车行业挂的标用 badge 更地道，且补上 at home and abroad 信息才完整。"
+    },
+    {
+      "wrong": "The sales fell to the lowest point in history.",
+      "right": "Sales hit an all-time low of just over 20,000 units.",
+      "why": "lowest point in history 语法没错但冗长；hit an all-time low 是固定搭配，更简洁地道。"
+    },
+    {
+      "wrong": "The Chinese side controls the technology and the foreign side controls the design.",
+      "right": "The Chinese side leads technology and operations, while the foreign side leads design and appearance.",
+      "why": "lead 比 control 更贴合「主导」的行业语境，control 太强且容易误解为管控。"
+    },
+    {
+      "wrong": "Mercedes and BMW still have oil car bonus to eat.",
+      "right": "Mercedes and BMW still have gasoline dividends to harvest.",
+      "why": "oil car / bonus to eat 是中式直译；dividends to harvest 才是商业评论的地道说法。"
+    }
+  ],
+  "shifts": [
+    {
+      "before": "以为合资车里外方掌握核心技术、中方只是代工",
+      "after": "新能源时代中方主导技术运营，外方只剩设计外观的话语权"
+    },
+    {
+      "before": "以为百年品牌永远有品牌溢价护体",
+      "after": "跟不上时代+新能源颗粒无收，百年品牌照样跌下神坛"
+    },
+    {
+      "before": "以为国外豪华品牌来华是「降维输出」",
+      "after": "现在是中方技术+外方车标，换标合作才是生存之道"
+    }
+  ],
+  "voice": "en-US-JennyNeural",
+  "audio_dir": "audio/en/jlr_maserati_huawei_ev"
+}

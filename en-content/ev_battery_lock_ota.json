@@ -1,0 +1,264 @@
+{
+  "slug": "ev_battery_lock_ota",
+  "date": "2026-06-23",
+  "platform": "小宇宙FM",
+  "title": "8家车企被约谈是假，但锁电这件事真该聊聊",
+  "title_en": "The '8 Carmakers Summoned' Story Was Fake — But Battery Locking Is Worth Discussing",
+  "eyebrow": "EV & Consumer Rights · 新能源与消费权益",
+  "duration": "47分钟",
+  "source_url": "https://www.xiaoyuzhoufm.com/episode/6a0430941b7bd5029510c81e",
+  "summary_cn": "三刀拆解「8家车企因锁电被约谈」假新闻始末，深入讲清 OTA 锁电机制、BMS 快乐表、八年质保倒逼与车主权力边界，并给出留证维权与集体投诉的实操路径",
+  "summary_en": "Three-Dao takes apart the fake news that 'eight carmakers were summoned for battery locking,' then digs into the real issue: how OTA software quietly caps battery capacity, the BMS 'happy gauge' that shows full even when it isn't, the eight-year warranty deadline pushing automakers to play safe, and where owners' rights actually end. He closes with practical ways to protect your rights — keeping evidence and filing collective complaints with the regulators instead of rushing into lawsuits.",
+  "scenes": [
+    {
+      "id": "s1",
+      "title_cn": "Part 1：锁电风波与权力边界",
+      "title_en": "Part 1: The Battery-Locking Storm and the Boundary of Power",
+      "context": "The host explains what battery locking is and why the eight-year warranty deadline makes it tempting for carmakers. 语域：casual 技术科普 + 消费维权。",
+      "speak": "Let's talk about battery locking. Carmakers can modify the battery management system's parameters through over-the-air updates or the OBD port, capping the charging limit, depth of discharge, fast-charging power, and motor output — pushing the battery into a conservative operating state. The BMS is the battery's brain. The maker sells you a 100-liter bucket; years later the gauge still shows 100 percent full, but it may only hold 90 liters. That's a happy gauge. Why now? EVs bought around 2018 are passing their eight-year warranty, and mass degradation means real claim costs and brand damage, so carmakers use software to make batteries lazier. Just remember: battery locking is different from natural degradation and from hardware neutering.",
+      "sentences": [
+        {
+          "cn": "核心机制：车企通过OTA远程升级或4S店OBD接口，修改电池管理系统（BMS）参数，限制充电上限、放电深度、快充功率和电机输出，让电池进入更保守的运行状态",
+          "en": "The mechanism: via over-the-air updates or the 4S shop's OBD port, carmakers modify the battery management system's parameters to cap the charging limit, depth of discharge, fast-charging power, and motor output — pushing the battery into a more conservative operating state.",
+          "note": "<span>表达提示</span>OTA → 空中升级（over-the-air）；OBD port → 车辆诊断接口；depth of discharge → 放电深度；conservative state → 保守状态"
+        },
+        {
+          "cn": "关键理解：BMS是电池包的「大脑」，决定能充到什么程度、放到什么程度、何时限制功率。厂家卖车时承诺100升水桶，几年后仪表仍显示100%满电，实际可能只能装90升，这就是「快乐表」",
+          "en": "The insight: the BMS is the battery pack's 'brain' — it decides how far it can charge, how far it can discharge, and when to limit power. The maker sells you a 100-liter bucket; years later the gauge still shows 100% full, but it may only hold 90 liters. That's the 'happy gauge.'",
+          "note": "<span>表达提示</span>the battery's brain → 电池大脑；happy gauge → 快乐表；100-liter bucket → 100升水桶（比喻）"
+        },
+        {
+          "cn": "典型场景：2018年前后购买的新能源车即将满8年质保，车企为避免大规模索赔和负面舆情，可能通过OTA收紧电池策略",
+          "en": "Typical case: EVs bought around 2018 are about to pass their eight-year warranty. To avoid mass claims and bad publicity, carmakers may tighten the battery strategy through OTA.",
+          "note": "<span>表达提示</span>eight-year warranty → 八年质保；mass claims → 大规模索赔；bad publicity → 负面舆情"
+        },
+        {
+          "cn": "（引用）原文依据：「厂家一开始告诉你水桶能装100升，开了几年仪表盘显示100%满电，实际装的其实不是100升，仪表就是快乐表。」",
+          "en": "As the host says: 'The maker tells you the bucket holds 100 liters. After a few years the gauge still shows 100% full — but it's not really holding 100 liters. The gauge is a happy gauge.'",
+          "note": "<span>表达提示</span>gauge → 仪表；hold 100 liters → 能装100升；happy gauge → 快乐表"
+        },
+        {
+          "cn": "（引用）相关概念：锁电 vs 自然衰减 vs 硬件阉割（如smart精灵加热功能付费解锁）",
+          "en": "Related concepts: battery locking versus natural degradation versus hardware neutering — like the smart #1 charging you to unlock a feature that's already installed.",
+          "note": "<span>表达提示</span>natural degradation → 自然衰减；hardware neutering → 硬件阉割；unlock a feature → 付费解锁功能"
+        },
+        {
+          "cn": "2026年恰逢2018年新能源车爆发满8年，八年12万公里电池质保到期。大规模电池衰减故障意味着真金白银的索赔成本和品牌负资产，倒逼车企通过软件策略让电池更保守、更「偷懒」",
+          "en": "2026 is exactly when the 2018 EV boom turns eight, and the eight-year, 120,000-kilometer battery warranty runs out. Mass degradation failures mean real claim costs and brand damage, which pushes carmakers to use software to make batteries more conservative — lazier, if you will.",
+          "note": "<span>表达提示</span>warranty expires → 质保到期；brand damage → 品牌负资产；if you will → 姑且这么说"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「锁电是软件收紧」",
+          "phrases": [
+            "Carmakers tighten the battery through software.",
+            "They quietly cap the usable capacity."
+          ],
+          "chunks": "tighten through software · cap the usable capacity",
+          "usage": "cap 作动词很地道"
+        },
+        {
+          "intent": "想说「快乐表」",
+          "phrases": [
+            "The gauge says full, but the bucket is smaller.",
+            "It's a happy gauge — it tells you what you want to hear."
+          ],
+          "chunks": "happy gauge · tells you what you want to hear",
+          "usage": "快乐表可直译 happy gauge 并稍加解释"
+        },
+        {
+          "intent": "想说「质保到期倒逼」",
+          "phrases": [
+            "The warranty expiring pushes them to play safe.",
+            "As the warranty window closes, the incentives shift."
+          ],
+          "chunks": "warranty expiring · play safe · incentives shift",
+          "usage": "incentives shift 偏书面分析"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title_cn": "Part 2：监管框架与维权路径",
+      "title_en": "Part 2: Regulation and How to Fight Back",
+      "context": "The host explains the OTA filing rules and what owners can actually do. 语域：casual 政策解读 + 维权实操。",
+      "speak": "Here's the regulatory picture. Since 2021, China's MIIT has required safety-impact assessments, testing, implementation records, and full disclosure for every OTA update, and 2025 rules tightened further — changing major technical parameters now needs a product-change permit and full filing. Last year's delayed OTA pushes were exactly a filing-approval problem. So if carmakers get 'summoned' only after mass complaints, the real question is whether the filing review is strict enough. Open, compliant updates for safety recalls are fine; silently forced updates and repackaged 'optimizations' violate consumer rights. The hard part is that OTA is a black box — you can feel shorter range but can't prove locking. The practical route is keeping evidence and filing collective complaints with 12315 and the regulators, not lawsuits.",
+      "sentences": [
+        {
+          "cn": "核心机制：2021年工信部要求车企OTA具备安全影响评估、测试验证、实施保障和信息记录，须告知升级目的、内容、时长、注意事项和结果。2025年进一步收紧，涉及主要技术参数变更须取得产品变更许可并完成备案",
+          "en": "The mechanism: in 2021, China's MIIT required carmakers to run safety-impact assessments, test and verify, ensure implementation, and keep records for every OTA — and to disclose the purpose, content, duration, cautions, and result of each update. In 2025 it tightened further: changes to major technical parameters require a product-change permit plus full filing.",
+          "note": "<span>表达提示</span>MIIT → 工信部；safety-impact assessment → 安全影响评估；product-change permit → 产品变更许可；filing → 备案"
+        },
+        {
+          "cn": "关键理解：去年多家车企OTA推送延期，正是因为备案审批打乱了时间表。既然已有备案制度，出现大量抱怨后再约谈车企，逻辑上应审视备案审核是否严谨",
+          "en": "The insight: last year several carmakers delayed their OTA pushes precisely because filing approval broke their schedules. Since a filing system already exists, if carmakers are 'summoned' only after mass complaints, the logical thing to question is whether the filing review is strict enough.",
+          "note": "<span>表达提示</span>filing approval → 备案审批；mass complaints → 大量抱怨；filing review → 备案审核"
+        },
+        {
+          "cn": "适用边界：公开合规的安全召回OTA可以；偷偷强制、模糊告知、包装成「优化」则侵犯消费者权益",
+          "en": "Boundaries: open, compliant OTA for safety recalls is fine; silently forced updates, vague disclosure, and repackaging cuts as 'optimization' infringe on consumer rights.",
+          "note": "<span>表达提示</span>safety recall → 安全召回；vague disclosure → 模糊告知；infringe on rights → 侵犯权益"
+        },
+        {
+          "cn": "（引用）原文依据：「厂家不能用软件来掩盖硬件问题，相关主管部门在审核备案过程中也要严谨，查出逃避召回责任就不能让它推送。」",
+          "en": "As the host says: 'Carmakers can't use software to hide hardware problems. Regulators must be strict in reviewing filings — if a recall is being dodged, the update must not be pushed.'",
+          "note": "<span>表达提示</span>hide hardware problems → 掩盖硬件问题；dodge a recall → 逃避召回；regulator → 主管部门"
+        },
+        {
+          "cn": "原因：OTA是黑盒，BMS参数升级前后车主永远拿不到；只能感受续航变短、加速不给力，但无法证明是锁电而非温度、高速、雨天、山路、快充习惯或自然衰减",
+          "en": "Why it's hard to prove: OTA is a black box — owners never see the BMS parameters before or after an update. You feel shorter range and sluggish acceleration, but you can't prove it's locking rather than temperature, highways, rain, mountain roads, fast-charging habits, or natural degradation.",
+          "note": "<span>表达提示</span>black box → 黑盒；sluggish acceleration → 加速不给力；prove → 证明"
+        },
+        {
+          "cn": "解法：司法渠道成本最高、效果未必最好；社交媒体讨论帖+12315/市场监管局/工信部集体投诉，相对更有效",
+          "en": "The fix: lawsuits are the most expensive route with the least certain results; social-media discussion threads plus collective complaints to 12315, the market regulator, or the MIIT tend to work better.",
+          "note": "<span>表达提示</span>collective complaint → 集体投诉；market regulator → 市场监管局；lawsuit → 司法渠道"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「OTA是黑盒」",
+          "phrases": [
+            "OTA is a black box to owners.",
+            "You never see what the update actually changed."
+          ],
+          "chunks": "a black box · never see what changed",
+          "usage": "black box 比喻内部不可见"
+        },
+        {
+          "intent": "想说「无法证明是锁电」",
+          "phrases": [
+            "You can't prove it's locking, not natural wear.",
+            "Too many variables make the cause impossible to pin down."
+          ],
+          "chunks": "can't prove · pin down the cause",
+          "usage": "pin down 指确定原因"
+        },
+        {
+          "intent": "想说「集体投诉更有效」",
+          "phrases": [
+            "Collective complaints work better than lawsuits.",
+            "Numbers give you leverage with regulators."
+          ],
+          "chunks": "collective complaints · give you leverage",
+          "usage": "leverage 指话语权/筹码"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title_cn": "Part 3：行业涟漪（供应链变动）",
+      "title_en": "Part 3: Industry Ripples — Supply-Chain Shifts",
+      "context": "The host connects the battery debate to supply-chain strategy, quoting a listener's insight. 语域：casual 供应链解读 + 听友互动。",
+      "speak": "Finally, the industry ripple. The battery industry has few suppliers, nowhere near a healthy '2-2-2-3' mix of premium, mid, and budget players, but Tesla's five battery suppliers is already an unusually large roster for an automaker. A listener makes a sharp point: a healthy supplier pool should have four makers competing for high-end quality, and Tesla adding Sunwoda signals a shift away from CATL. And notice the double standard — when a Chinese EV uses Sunwoda, people question it; when Tesla uses Sunwoda, it's read as a quality endorsement. It's just consumers looking through tinted glasses. After all, the iPhone already uses Sunwoda components.",
+      "sentences": [
+        {
+          "cn": "核心机制：电池行业供应商少，达不到「2223」组合（2高端+2中端+3低端），但特斯拉纳入五家电池供应商已是车企中非常多的配置",
+          "en": "The mechanism: the battery industry has few suppliers, nowhere near a '2-2-2-3' mix of two premium, two mid, and three budget suppliers — yet Tesla's five battery suppliers is already an unusually large roster for an automaker.",
+          "note": "<span>表达提示</span>supplier roster → 供应商名单；premium / mid / budget → 高端/中端/低端；unusually large → 异常多的"
+        },
+        {
+          "cn": "关键理解：听友五爪草莓鱼指出：健康供应商库应让高端车型用4家竞争保质量，中低端用中端+低端竞争。特斯拉按此逻辑纳入欣旺达，与宁德时代存在供应链变动",
+          "en": "The insight: listener Wuzhucaomeiyu notes that a healthy supplier pool should have four makers competing for high-end models to keep quality, with mid-tier and budget players competing for the lower end. Tesla following that logic to add Sunwoda signals a supply-chain shift away from CATL.",
+          "note": "<span>表达提示</span>supplier pool → 供应商库；signal a shift → 释放变动信号；compete for quality → 竞争保质量"
+        },
+        {
+          "cn": "（引用）原文依据：「国产电车用欣旺达大家会质疑，特斯拉用欣旺达会被解读成质量还行——无非消费者不懂电池、带有色眼镜。」",
+          "en": "As the listener puts it: 'When a Chinese EV uses Sunwoda, people question it; when Tesla uses Sunwoda, it's read as a quality endorsement — it's just consumers who don't understand batteries, looking through tinted glasses.'",
+          "note": "<span>表达提示</span>quality endorsement → 质量背书；tinted glasses → 有色眼镜；read as → 被解读成"
+        },
+        {
+          "cn": "（引用）相关概念：欣旺达被特斯拉选中 vs 被解读为「二线品牌」 vs iPhone也在用欣旺达",
+          "en": "Related point: Sunwoda was picked by Tesla, yet it's often labeled a 'second-tier brand' — even though the iPhone already uses Sunwoda components.",
+          "note": "<span>表达提示</span>second-tier brand → 二线品牌；be picked by → 被选中；use sb's components → 用某家元件"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「带有色眼镜」",
+          "phrases": [
+            "People look at it through tinted glasses.",
+            "There's a double standard at play."
+          ],
+          "chunks": "tinted glasses · double standard",
+          "usage": "double standard 是「双重标准」的标准说法"
+        },
+        {
+          "intent": "想说「被选中 vs 被看低」",
+          "phrases": [
+            "Tesla picked them, yet they're still called second-tier.",
+            "Same factory, two different reputations depending on who buys."
+          ],
+          "chunks": "be picked · be called second-tier · same factory, different reputations",
+          "usage": "对比句式适合表达反差"
+        },
+        {
+          "intent": "想说「供应链变动的信号」",
+          "phrases": [
+            "Adding Sunwoda signals a shift from CATL.",
+            "It's a quiet message to the dominant supplier."
+          ],
+          "chunks": "signal a shift · a quiet message to",
+          "usage": "signal 作动词，商业语境常用"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "cn": "用「happy gauge」说：仪表显示满电，其实是快乐表。",
+      "en": "The gauge still shows 100% full, but it's a happy gauge — the bucket is smaller than it looks."
+    },
+    {
+      "cn": "用「black box」说：OTA对车主是个黑盒。",
+      "en": "OTA is a black box to owners — you feel the range shrink but never see the parameters."
+    },
+    {
+      "cn": "用「pin down」说：你很难证明是锁电。",
+      "en": "Too many variables make it impossible to pin down the cause."
+    },
+    {
+      "cn": "用「tinted glasses」说：消费者看待二线厂商带偏见过。",
+      "en": "Consumers judge second-tier brands through tinted glasses."
+    }
+  ],
+  "pitfalls": [
+    {
+      "wrong": "The car company uses software to lock the electricity.",
+      "right": "Carmakers use software to cap the battery's usable capacity.",
+      "why": "「锁电」不能字面译成 lock the electricity；英文用 cap / limit usable capacity 表达限制可用容量。"
+    },
+    {
+      "wrong": "The car's electricity reduced after OTA.",
+      "right": "The driving range shrank after the OTA update.",
+      "why": "「续航变短」用 driving range shrank，不是 electricity reduced。"
+    },
+    {
+      "wrong": "The battery is broken, the company must repair.",
+      "right": "If the update dodges a recall obligation, it must not be pushed.",
+      "why": "锁电不是「坏了要修」；语境是软件规避召回责任，用 dodge a recall。"
+    },
+    {
+      "wrong": "The government should scold the car company.",
+      "right": "Regulators should review the filings more strictly — and owners can file collective complaints.",
+      "why": "「约谈/批评」不能直译 scold；公文语境用 summon / review / file a complaint。"
+    }
+  ],
+  "shifts": [
+    {
+      "before": "以为仪表显示100%就真的是满电",
+      "after": "BMS参数会变，「快乐表」显示的是厂家希望你看到的数字"
+    },
+    {
+      "before": "以为OTA只是修bug加功能",
+      "after": "OTA是黑盒，也是厂家调整电池策略的遥控器"
+    },
+    {
+      "before": "以为维权=打官司",
+      "after": "留证+集体投诉到12315/工信部，比诉讼更快更有效"
+    }
+  ],
+  "voice": "en-US-JennyNeural",
+  "audio_dir": "audio/en/ev_battery_lock_ota"
+}

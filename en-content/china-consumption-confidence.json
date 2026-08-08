@@ -1,0 +1,365 @@
+{
+  "slug": "china-consumption-confidence",
+  "date": "2026-08-08",
+  "platform": "小宇宙FM",
+  "title": "25 中国人为什么不敢花钱？贾康谈消费、房价与经济信心 - 武财人",
+  "title_en": "Why Are the Chinese Afraid to Spend? Jia Kang on Consumption, Housing, and Economic Confidence",
+  "eyebrow": "Economy & Consumption · 经济与消费",
+  "duration": "1小时12分",
+  "source_url": "https://www.xiaoyuzhoufm.com/episode/6a54e4a827a4eec16c400c7e",
+  "summary_cn": "一句话概括：主持人小舞与贾康老师从\"最安静的618\"和5月社零同比下降0.6%出发，拆解消费冷清背后的K型分化与预期不足——收入承压、资产缩水、预防性储蓄抬高三重因素，让大众消费越来越谨慎；而破局之道是\"快变量（财政货币双松）托底、慢变量（改革）治本\"，并澄清发钱救消费、投资饱和等常见误区，最终落到\"消费—收入—就业—有效投资\"的支撑链条",
+  "summary_en": "Host Xiaowu and economist Jia Kang start from the \"quietest 618\" and May's 0.6% year-on-year drop in retail sales, unpacking the K-shaped divergence and weak expectations behind sluggish consumption — income pressure, shrinking household assets, and rising precautionary savings make ordinary spending more cautious by the day. The way out: fast variables — loose fiscal and monetary policy — to prop things up, and slow variables — reform — to cure the root. They also debunk common myths about handing out cash and saturated investment, landing finally on the support chain of consumption → income → employment → effective investment.",
+  "scenes": [
+    {
+      "id": "s1",
+      "title_cn": "一、现象：消费到底怎么了——冷清还是冷热不均",
+      "title_en": "The Phenomenon: What's Wrong with Consumption — Quiet or Uneven?",
+      "context": "618 越来越安静、促销节成了消费心理晴雨表、K型分化。语域：formal 财经播客分析。",
+      "speak": "First, the phenomenon. Carnival-style shopping festivals like 618 and Double 11 have been getting quieter every year, and platforms no longer publish transaction figures. Consumers have moved from herd-following to careful budgeting after years of experience — festivals have become a barometer of changing consumer psychology. But a quiet festival doesn't mean no one is spending; it means purchase decisions turned rational, weighing whether it's worth it before whether it's exciting. May's retail sales fell 0.6% year-on-year, contrasting with a bright first quarter — that's the real turning-point signal. And the market is K-shaped: first-tier cities saw bigger consumption drops, yet Shanghai's housing transactions hit their best May in six years, and middle- and high-income people keep pouring into Universal Studios, while mass consumption data falls. One end down, one end up.",
+      "sentences": [
+        {
+          "cn": "核心机制：618、双11这类\"嘉年华式\"促销节日热度逐年下调，平台不再公布成交数据。消费者从\"羊群效应一窝蜂\"转向\"消费经验积累后的精打细算\"，促销节日成了消费心理变迁的晴雨表",
+          "en": "Carnival-style shopping festivals like 618 and Double 11 have been getting quieter every year, and platforms no longer release transaction figures. Consumers have shifted from herd-following to careful budgeting after years of experience — promotional festivals have become a barometer of shifting consumer psychology.",
+          "note": "<span>表达提示</span>shopping festival → 促销节日；transaction figures → 成交数据；herd-following → 羊群效应一窝蜂；barometer → 晴雨表"
+        },
+        {
+          "cn": "关键理解：促销节冷清不等于没人消费，而是购买决策变理性了——先看\"值不值\"再看\"热闹不热闹\"。5月社零同比下降0.6%与一季度亮色形成反差，才是真正需要警惕的拐点信号",
+          "en": "The key insight: a quiet festival doesn't mean no one is spending — it means purchase decisions have turned rational, weighing \"is it worth it\" before \"is it exciting.\" May's 0.6% year-on-year drop in retail sales, contrasting with the first quarter's bright spot, is the real turning-point signal to watch.",
+          "note": "<span>表达提示</span>retail sales → 社零（社会消费品零售总额）；year-on-year → 同比；turning point → 拐点"
+        },
+        {
+          "cn": "典型场景：618结束\"悄无声息\"，平台不公布成交记录，消费者安静观望",
+          "en": "A typical scene: the 618 ended \"silently,\" platforms published no transaction records, and consumers quietly watched from the sidelines.",
+          "note": "<span>表达提示</span>quietly watch → 安静观望；from the sidelines → 在旁观"
+        },
+        {
+          "cn": "（引用）原文依据：\"消费是越来越讲究更多的做点精打细算，更多的做一些理性考虑。但5月份这是一个不符合意愿的现象。\"",
+          "en": "\"Consumption is increasingly about being more careful and rational. But May was a phenomenon that goes against our wishes.\"",
+          "note": "<span>表达提示</span>be careful and rational → 精打细算、理性；go against expectations → 不符合意愿"
+        },
+        {
+          "cn": "（引用）关联：与\"预防性储蓄\"\"K型分化\"互为表里，促销节日冷热是消费结构变化的先导指标",
+          "en": "Related concept: it goes hand in hand with \"precautionary savings\" and \"K-shaped divergence\" — the temperature of shopping festivals is a leading indicator of structural change in consumption.",
+          "note": "<span>表达提示</span>precautionary savings → 预防性储蓄；K-shaped divergence → K型分化；leading indicator → 先导指标"
+        },
+        {
+          "cn": "核心机制：一线城市消费降幅大于全国平均水平，但上海住房成交却创六年最好5月；中高收入人群继续涌入环球影城（人均消费一两千元），大众消费数据却在下行——消费市场呈\"K型\"分化：一端向下、一端向上",
+          "en": "The mechanism: first-tier cities saw a bigger consumption drop than the national average, yet Shanghai's housing transactions hit their best May in six years; middle- and high-income people keep pouring into Universal Studios — spending one to two thousand yuan per person — while mass consumption data falls. The market shows a \"K-shaped\" split: one end down, one end up.",
+          "note": "<span>表达提示</span>first-tier city → 一线城市；housing transactions → 住房成交；mass consumption → 大众消费；K-shaped split → K型分化"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「促销节越来越冷清」",
+          "phrases": [
+            "The festival hype keeps dying down year after year.",
+            "Shopping festivals are getting quieter — and that says something."
+          ],
+          "chunks": "hype dying down · getting quieter",
+          "usage": "第一句 hype 偏评论，第二句更口语"
+        },
+        {
+          "intent": "想说「消费呈 K 型分化」",
+          "phrases": [
+            "Consumption is splitting into a K shape — one end up, one end down.",
+            "The market is diverging: premium spending up, mass spending down."
+          ],
+          "chunks": "split into a K shape · diverging",
+          "usage": "第一句点题，第二句解释含义"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title_cn": "二、原因：为什么不敢花钱——预期不足从何而来",
+      "title_en": "The Causes: Why People Won't Spend — Where Weak Expectations Come From",
+      "context": "房价下跌带来财富感缩水、预防性储蓄、孩子成才储备。语域：formal 财经分析 + 亲历举例。",
+      "speak": "Second, why people won't spend. Spending power is set by income, but expectations matter just as much. Falling housing prices shrink household net assets — a house worth 10 million dropping to 8 million is like losing 2 million — and even without selling, that on-paper feeling suppresses the willingness to spend. The rebound so far only covers prime locations and quality projects in first-tier cities; third, fourth, and fifth-tier cities still feel the pressure, so the threat hasn't lifted broadly. And expectations of rigid future spending on education, healthcare, and retirement keep rising — especially the child's future fund. Parents pinch their own pennies but keep the kids' reserve solid. Shrinking assets, precautionary savings, weak expectations — they compound and tame consumption.",
+      "sentences": [
+        {
+          "cn": "核心机制：消费能力由收入决定，但预期同样关键。房价下跌让家庭净资产缩水——\"房子从1000万变成800万，相当于亏了200万\"——即使没有卖房需求，这种账面感知也会压低消费意愿",
+          "en": "Spending power is set by income, but expectations matter just as much. Falling housing prices shrink household net assets — \"a house worth 10 million dropping to 8 million is like losing 2 million\" — and even without selling, that on-paper feeling suppresses the willingness to spend.",
+          "note": "<span>表达提示</span>net assets → 净资产；on-paper feeling → 账面感知；suppress → 压制"
+        },
+        {
+          "cn": "关键理解：资产缩水改变的是\"财富感\"而非现金流，但同样影响实际出手。房地产回暖目前仅集中在一线城市核心地段、好楼盘，三四五线仍承压，资产缩水的威胁并未普遍解除",
+          "en": "The key insight: shrinking assets change your \"sense of wealth,\" not your cash flow — but it still affects real spending. The housing rebound is so far limited to prime locations and quality projects in first-tier cities; third, fourth, and fifth-tier cities still feel the pressure, so the threat of shrinking assets hasn't lifted broadly.",
+          "note": "<span>表达提示</span>sense of wealth → 财富感；prime location → 核心地段；rebound → 回暖；third/fourth/fifth-tier cities → 三四五线城市"
+        },
+        {
+          "cn": "典型场景：收入维持不变，却明显感到消费预期下降，\"就是因为心理防备的预防性储蓄动机无形中提高了\"",
+          "en": "A typical scene: income stays the same, yet the willingness to spend clearly drops — \"simply because the precautionary-savings motive has invisibly risen.\"",
+          "note": "<span>表达提示</span>willingness to spend → 消费意愿；motive → 动机；invisibly → 无形中"
+        },
+        {
+          "cn": "（引用）原文依据：\"原来我那房子值1000万，你变成800万了，相当于亏了200万，就是这种心情。它影响了人的消费的动机和实际出手的消费行为。\"",
+          "en": "\"My house was worth 10 million, now it's 8 million — that's like losing 2 million. That feeling affects people's motivation to spend and their actual spending behavior.\"",
+          "note": "<span>表达提示</span>motivation to spend → 消费动机；spending behavior → 消费行为"
+        },
+        {
+          "cn": "（引用）关联：资产缩水→预防性储蓄→消费收敛，与K型分化同根同源",
+          "en": "Related concept: shrinking assets → precautionary savings → tamed consumption, the same roots as the K-shaped divergence.",
+          "note": "<span>表达提示</span>tame → 收敛；the same roots → 同根同源"
+        },
+        {
+          "cn": "核心机制：教育、医疗、养老等未来刚性支出预期上升。尤其\"孩子成才储备\"——家长宁可自己精打细算，也要把孩子未来的支出储备盯紧，\"这方面的资金储备做得更充实一些\"",
+          "en": "The mechanism: expectations of rigid future spending on education, healthcare, and retirement are rising. Especially the \"child's future fund\" — parents would rather pinch their own pennies than loosen the reserve for their kids, \"making that fund more solid.\"",
+          "note": "<span>表达提示</span>rigid spending → 刚性支出；pinch pennies → 精打细算；reserve/fund → 储备金"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「资产缩水改变的是财富感」",
+          "phrases": [
+            "What shrank wasn't your income — it was your sense of wealth.",
+            "The loss is on paper, but it still hurts your confidence to spend."
+          ],
+          "chunks": "shrink one's sense of wealth · on paper",
+          "usage": "第一句书面，第二句口语"
+        },
+        {
+          "intent": "想说「预防性储蓄提高了」",
+          "phrases": [
+            "The precautionary-savings motive has quietly gone up.",
+            "People are saving for a rainy day without realizing it."
+          ],
+          "chunks": "precautionary-savings motive · save for a rainy day",
+          "usage": "第二句更口语，rainy day 很地道"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title_cn": "三、破局：快变量托底，慢变量治本",
+      "title_en": "The Way Out: Fast Variables Prop Up, Slow Variables Cure",
+      "context": "财政货币双松托底、300多项改革任务治本、快慢变量接力。语域：formal 宏观经济分析。",
+      "speak": "Third, the way out. Fast variables: proactive fiscal policy plus moderately loose monetary policy — swapping debt to resolve local hidden debt, special bonds and treasury bonds supporting major projects, stabilizing the real-estate pillar, and activating capital markets, with stocks back above 4,000 points since late September. Fast variables can show real effect within months or be scaled up further; their role is to stop things from getting worse and push toward better — a stopgap. Real GDP hit about 5% for three straight years, impossible without policy support. Slow variables: the Third Plenum's 300-plus reform tasks, cultivating new productive forces from \"Internet Plus\" to \"AI Plus,\" strengthening from 1 to 100 and breaking through from 0 to 1, so creativity is no longer suppressed. Fast variables buy the time window for slow ones — they relay, not replace.",
+      "sentences": [
+        {
+          "cn": "核心机制：积极财政+适度宽松货币：以债化债（5年期化债，重点化解已甄别的14.3万亿地方隐性债）、专项债与特别国债支持\"两重\"建设、稳住房地产支柱、活跃资本市场（924以来股市重上4000点）",
+          "en": "Proactive fiscal policy plus moderately loose monetary policy: swapping debt to resolve local hidden debt — a five-year program focused on the identified 14.3 trillion yuan of hidden local debt — special bonds and ultra-long-term treasury bonds supporting major projects, stabilizing the real-estate pillar, and activating capital markets, with the stock market back above 4,000 points since late September.",
+          "note": "<span>表达提示</span>proactive fiscal policy → 积极财政；loose monetary policy → 宽松货币；hidden debt → 隐性债；treasury bond → 国债"
+        },
+        {
+          "cn": "关键理解：快变量\"几个月实质就能见效，或者还可以加码\"，作用是\"不让经济更差、争取向好\"，是治标；双松已是超常规强度",
+          "en": "The key insight: fast variables \"can show real effect within months, or be scaled up further\" — their role is to \"stop things from getting worse and push toward better,\" a stopgap; the double easing is already at extraordinary intensity.",
+          "note": "<span>表达提示</span>show real effect → 实质见效；scale up → 加码；stopgap → 治标；extraordinary intensity → 超常规强度"
+        },
+        {
+          "cn": "典型场景：2023年实际GDP达5.2%、2024年5%、2025年5%——连续三年站上5%左右平台，没有政策托底不可能实现",
+          "en": "A typical scene: real GDP hit 5.2% in 2023, 5% in 2024, and 5% in 2025 — three straight years on a roughly 5% plateau, impossible without policy support.",
+          "note": "<span>表达提示</span>real GDP → 实际GDP；three straight years → 连续三年；plateau → 平台期"
+        },
+        {
+          "cn": "（引用）原文依据：\"如果没有这样的政策，现在经济状况一定要更糟糕。……快变量和慢变量的接力与合力，这是要继续下功夫的。\"",
+          "en": "\"Without such policies, the economy would definitely be worse now… the relay and combined force of fast and slow variables is where the effort must continue.\"",
+          "note": "<span>表达提示</span>relay → 接力；combined force → 合力"
+        },
+        {
+          "cn": "（引用）关联：快变量为慢变量争取时间窗口，两者必须接力而非替代",
+          "en": "Related concept: fast variables buy the time window for slow variables — they must relay, not replace, each other.",
+          "note": "<span>表达提示</span>buy time → 争取时间窗口；relay → 接力；replace → 替代"
+        },
+        {
+          "cn": "核心机制：二十届三中全会部署300多项改革任务，培育新质生产力（从\"互联网+\"推进到\"AI+\"），从1到100做强、从0到1突破。改革教育与科技体制，让创造力不再被抑制",
+          "en": "The mechanism: the Third Plenum outlined more than 300 reform tasks, cultivating new productive forces — advancing from \"Internet Plus\" to \"AI Plus\" — strengthening from 1 to 100 and breaking through from 0 to 1. Reforming education and tech systems so creativity is no longer suppressed.",
+          "note": "<span>表达提示</span>Third Plenum → 三中全会；new productive forces → 新质生产力；Internet Plus / AI Plus → 互联网+/AI+；suppress creativity → 抑制创造力"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「快变量是治标」",
+          "phrases": [
+            "Fast variables are the stopgap — they keep things from getting worse.",
+            "It's first aid, not surgery."
+          ],
+          "chunks": "stopgap · first aid, not surgery",
+          "usage": "first aid, not surgery 是对比比喻，非常地道"
+        },
+        {
+          "intent": "想说「快慢变量要接力」",
+          "phrases": [
+            "Fast and slow variables have to hand off to each other.",
+            "The quick fix buys time for the real fix."
+          ],
+          "chunks": "hand off · buy time for the real fix",
+          "usage": "第二句把机制讲得很清楚"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "title_cn": "四、发钱之争：直升机撒钱、消费券与配给券",
+      "title_en": "The Cash Debate: Helicopter Money, Consumption Vouchers, and Ration Coupons",
+      "context": "发钱总量压力大、划线难、社会可接受性三个约束；消费券是以旧换新的补充。语域：formal 财经讨论 + 概念辨析。",
+      "speak": "Fourth, the cash debate. Musk argues that as long as the supply of goods and services grows faster than the money supply, you can hand out cash per person without inflation. But Jia Kang points out: China's population base is too large — 3,000 yuan per person is about 400-plus US dollars, and nationwide that's over 4 trillion yuan, exceeding the 2008 four-trillion stimulus, plus governments are already in debt with the deficit ratio raised to 4%. Money isn't the only constraint. Drawing the line is hard: household sizes differ wildly, income verification tangles with underreporting, and the management cost is huge. Then there's social acceptability: even Ma Yun would get a check — what's the point? The US actually drew an income line covering about half the population at two to three thousand dollars each, and nobody quibbled. Differentiated payments in China would sink into disputes over how to draw the line and who gets it.",
+      "sentences": [
+        {
+          "cn": "核心机制：马斯克主张只要商品和服务供给增长超过货币供给增长，就可以按人头发钱、不会通胀。但贾康指出：中国人口基数太大——人均3000元相当于400美元出头，全国就要4万多亿，超过2008年\"四万亿\"；且政府已普遍负债、赤字率抬到4%",
+          "en": "Musk argues that as long as the supply of goods and services grows faster than the money supply, you can hand out cash per person without inflation. But Jia Kang points out: China's population base is too large — 3,000 yuan per person is about 400-plus US dollars, and nationwide that's over 4 trillion yuan, exceeding the 2008 \"four trillion\" stimulus; plus governments are already in debt, with the deficit ratio raised to 4%.",
+          "note": "<span>表达提示</span>hand out cash → 发钱；population base → 人口基数；stimulus → 刺激计划；deficit ratio → 赤字率"
+        },
+        {
+          "cn": "关键理解：钱不是唯一约束，还有两个硬约束：①划线难——家庭人口规模差异大、收入核实与瞒报纠缠不清，管理成本极高；②社会可接受性——\"给马云也发一笔钱，有什么必要？\"",
+          "en": "The key insight: money isn't the only constraint — there are two hard ones. First, drawing the line is hard: household sizes differ wildly, income verification tangles with underreporting, and the management cost is huge. Second, social acceptability: \"even Ma Yun would get a check — what's the point?\"",
+          "note": "<span>表达提示</span>draw the line → 划线；income verification → 收入核实；underreporting → 瞒报；social acceptability → 社会可接受性"
+        },
+        {
+          "cn": "典型场景：美国应对金融危机时\"人人发钱\"其实是按收入线划到约一半人口、每人2000-3000美元，社会接受且无人计较划线误差；中国若差异化发放，会在\"怎么划、划给谁\"上陷入纠纷",
+          "en": "A typical scene: the US \"cash for everyone\" during the financial crisis actually drew an income line covering about half the population at 2,000 to 3,000 dollars each — socially accepted, nobody quibbled about the line. If China issued differentiated payments, it would sink into disputes over \"how to draw the line and who gets it.\"",
+          "note": "<span>表达提示</span>financial crisis → 金融危机；differentiated payments → 差异化发放；quibble about → 计较；dispute → 纠纷"
+        },
+        {
+          "cn": "（引用）原文依据：\"没有区别就没有政策。……总量上的压力，加上政策上老百姓认可，合在一起，这个决心怎么下就比较难了。\"",
+          "en": "\"No differentiation, no policy… the total pressure plus what the public finds acceptable — put together, the decision becomes very hard to make.\"",
+          "note": "<span>表达提示</span>no differentiation, no policy → 没有区别就没有政策；public acceptance → 老百姓认可"
+        },
+        {
+          "cn": "（引用）关联：与消费券、配给券同属\"需求侧刺激工具箱\"，各有边界",
+          "en": "Related concept: along with consumption vouchers and ration coupons, they're all tools in the \"demand-side stimulus toolbox,\" each with its own boundaries.",
+          "note": "<span>表达提示</span>consumption voucher → 消费券；ration coupon → 配给券；demand-side stimulus → 需求侧刺激；toolbox → 工具箱"
+        },
+        {
+          "cn": "核心机制：中国的消费券本质是\"政府+商家联合促销\"，对应的是有积极性的中低收入群体和年轻白领；以旧换新集中在电子产品、电器、汽车等耐用消费品",
+          "en": "The mechanism: China's consumption vouchers are essentially \"government-plus-merchant joint promotions,\" targeting lower- and middle-income groups and young white-collar workers who are motivated; trade-in programs focus on durable goods like electronics, appliances, and cars.",
+          "note": "<span>表达提示</span>joint promotion → 联合促销；low- and middle-income → 中低收入；trade-in program → 以旧换新；durable goods → 耐用消费品"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「发钱有总量硬约束」",
+          "phrases": [
+            "The total bill for cash handouts is simply too big.",
+            "Spread across 1.4 billion people, the money just doesn't stretch."
+          ],
+          "chunks": "total bill too big · doesn't stretch",
+          "usage": "第二句更口语，doesn't stretch 很形象"
+        },
+        {
+          "intent": "想说「划线很难划清」",
+          "phrases": [
+            "Drawing the line between who gets it and who doesn't is a minefield.",
+            "Income checks and household sizes make targeting messy."
+          ],
+          "chunks": "a minefield · targeting messy",
+          "usage": "minefield 是地道比喻，表雷区"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "title_cn": "五、治本链条：消费→收入→就业→有效投资",
+      "title_en": "The Root Cure Chain: Consumption → Income → Jobs → Effective Investment",
+      "context": "消费的根在收入、收入靠就业、就业靠有效投资；\"两重\"建设是切入点。语域：formal 宏观经济结论。",
+      "speak": "Finally, the root cure chain: consumption → spending power → income → jobs → effective investment. Consumption's root is income; income depends on stable, substantial, predictable jobs; and jobs come from effective investment. You can't only talk about consumption — you have to work upstream along the chain. When corporate investment is depressed, government investment steps in — that's the most important entry point. The \"two-major\" areas — national security-critical infrastructure plus strategic infrastructure like disaster reduction, sponge cities, underground utility tunnels, and rail networks — directly create jobs and orders, and turn excess capacity into effective capacity. Fast variable and slow variable finally join at the point of employment.",
+      "sentences": [
+        {
+          "cn": "核心机制：完整的支撑链条是：消费→消费能力→收入→就业岗位→有效投资。消费的根在收入，收入靠稳定、大宗、可预期的就业岗位，就业岗位靠有效投资提供",
+          "en": "The complete support chain: consumption → spending power → income → jobs → effective investment. Consumption's root is income; income depends on stable, substantial, predictable jobs; and jobs come from effective investment.",
+          "note": "<span>表达提示</span>support chain → 支撑链条；spending power → 消费能力；predictable jobs → 可预期的就业岗位"
+        },
+        {
+          "cn": "关键理解：\"不能光讲消费\"——顺着链条向上游做文章才有用。当企业投资低迷时，政府投资补位，是最重要的切入点",
+          "en": "The key insight: \"you can't only talk about consumption\" — you have to work upstream along the chain. When corporate investment is depressed, government investment steps in — that's the most important entry point.",
+          "note": "<span>表达提示</span>work upstream → 往上游做文章；corporate investment → 企业投资；step in → 补位；entry point → 切入点"
+        },
+        {
+          "cn": "典型场景：民营企业投资低迷、就业承压时，政府\"两重\"投资直接创造岗位与订单，带动收入和消费环境",
+          "en": "A typical scene: when private-enterprise investment is low and jobs are under pressure, government \"two-major\" investment directly creates positions and orders, driving income and the consumption environment.",
+          "note": "<span>表达提示</span>private enterprise → 民营企业；two-major projects → 两重项目；create positions → 创造岗位"
+        },
+        {
+          "cn": "（引用）原文依据：\"消费它最根本的支撑力是消费能力，消费能力是收入。收入怎么来呢？要靠就业岗位。\"",
+          "en": "\"The most fundamental support for consumption is spending power, and spending power is income. Where does income come from? It depends on jobs.\"",
+          "note": "<span>表达提示</span>fundamental support → 最根本的支撑力；spending power → 消费能力"
+        },
+        {
+          "cn": "（引用）关联：把快变量（政府投资）与慢变量（改革）在\"就业\"处接合",
+          "en": "Related concept: the fast variable (government investment) and the slow variable (reform) join at the point of \"employment.\"",
+          "note": "<span>表达提示</span>join at the point of → 在…处接合"
+        },
+        {
+          "cn": "核心机制：\"两重\"=国家重大安全类基础设施+战略性基础设施：减灾防灾、海绵城市、地下综合管廊、轨道交通网（\"六网\"）。政府投资直接产生就业与订单，还能把过剩产能转为有效产能",
+          "en": "The mechanism: the \"two major\" areas are national security-critical infrastructure plus strategic infrastructure: disaster reduction, sponge cities, underground utility tunnels, and rail networks. Government investment directly creates jobs and orders, and can turn excess capacity into effective capacity.",
+          "note": "<span>表达提示</span>sponge city → 海绵城市；utility tunnel → 地下综合管廊；excess capacity → 过剩产能；effective capacity → 有效产能"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「消费的根在收入」",
+          "phrases": [
+            "Consumption is rooted in income — everything upstream of that is where you intervene.",
+            "You can't boost spending directly; you boost income first."
+          ],
+          "chunks": "rooted in income · boost income first",
+          "usage": "第一句正式，第二句更行动导向"
+        },
+        {
+          "intent": "想说「企业不投，政府补位」",
+          "phrases": [
+            "When private money sits idle, public investment steps in.",
+            "Government spending backstops the gap private capital left."
+          ],
+          "chunks": "private money sits idle · step in · backstop the gap",
+          "usage": "backstop 是金融/政策语境常用词"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "cn": "用「year-on-year」说：5月社零同比下降0.6%。",
+      "en": "May retail sales fell 0.6% year-on-year."
+    },
+    {
+      "cn": "用「on paper」说：房子从1000万变成800万，账面就亏了200万。",
+      "en": "The house dropped from 10 million to 8 million — that's a 2-million loss on paper."
+    },
+    {
+      "cn": "用「stopgap」说：快变量只是治标，为慢变量争取时间。",
+      "en": "Fast variables are a stopgap — they buy time for the slow ones."
+    },
+    {
+      "cn": "用「step in」说：企业投资低迷时，政府投资补位。",
+      "en": "When corporate investment is weak, government investment steps in."
+    }
+  ],
+  "pitfalls": [
+    {
+      "wrong": "Consumption is not active this year.",
+      "right": "Consumption has turned sluggish this year.",
+      "why": "active 是中式直译；消费冷清用 sluggish / weak / muted 等词更地道。"
+    },
+    {
+      "wrong": "The house price down makes people don't want to spend.",
+      "right": "Falling housing prices make people reluctant to spend.",
+      "why": "中式语序直接堆叠两个动词；用 make sb reluctant to spend 或 suppress the willingness to spend。"
+    },
+    {
+      "wrong": "The government should print money and give to people.",
+      "right": "The government is debating helicopter money — cash handouts to every citizen.",
+      "why": "print money 过于直白且有贬义；直升机撒钱是经济学专有名词 helicopter money，用 debate/handouts 更准确。"
+    },
+    {
+      "wrong": "Investment has already saturated, no need to invest.",
+      "right": "Some claim investment has hit saturation — but it's really about the type and effectiveness of investment.",
+      "why": "saturated 太绝对；经济学里更常讨论投资结构与有效性（effective investment）。"
+    }
+  ],
+  "shifts": [
+    {
+      "before": "促销节冷清=没人消费",
+      "after": "消费变理性了——先看值不值，再看热闹不热闹"
+    },
+    {
+      "before": "房价跌只是账面的事，跟自己无关",
+      "after": "资产缩水改变的是财富感，同样压低消费意愿"
+    },
+    {
+      "before": "刺激消费就是发钱、发消费券",
+      "after": "消费的根在收入、收入靠就业、就业靠有效投资——要顺着链条往上游做文章"
+    }
+  ],
+  "voice": "en-US-JennyNeural",
+  "audio_dir": "audio/en/china-consumption-confidence"
+}

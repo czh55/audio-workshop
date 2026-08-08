@@ -12,6 +12,7 @@ Task Progress:
 - [ ] 6. 生成 SVG（Node .mjs + svg-auto-height.mjs）
 - [ ] 6.5 生成语音讲解（edge-tts，从 SVG 提取旁白 → MP3）
 - [ ] 6.6 生成 HTML 版本（scripts/svg-to-html.py，SVG 保持不变）
+- [ ] 6.7 生成英文双语学习版（可选：en-content JSON → generate_en_html.py / generate_en_audio.py）
 - [ ] 7. 更新 index.json
 - [ ] 8. Git 提交并推送到 main（**必须**，Pages 才能展示）
 - [ ] 9. 清理临时文件
@@ -428,6 +429,62 @@ python3 scripts/svg-to-html.py foo-总结.svg   # 单篇
 
 ---
 
+## Step 6.7：生成英文双语学习版（可选）
+
+借鉴 `language_paraphrase` 项目的场景式学习卡形态：把播客知识总结做成**中英对照 + 表达提示 + Paraphrase + 今日可练/避坑/认知转变**的双语学习页，英文朗读用 edge-tts en-US。
+
+### 三件套（内容 / HTML / 音频）
+
+| 工具 | 作用 |
+|------|------|
+| `scripts/en_scaffold.py` | 从中文 HTML 自动提取结构，生成 `en-content/{slug}.json` 骨架（中文内容 + 空英文字段） |
+| `scripts/generate_en_html.py` | 读 `en-content/{slug}.json` → 生成 `docs/{slug}-en.html`（场景式双语学习页，含中/EN 切换、场景地图、逐句中英对照、可点击发音、中文语音讲解按钮） |
+| `scripts/generate_en_audio.py` | 读 `en-content/{slug}.json` → 生成 `docs/audio/en/{slug}/s{N}.mp3`（场景整段）+ `s{N}-{idx}.mp3`（逐句）+ `practice-{idx}.mp3`（练习） |
+
+### 标准流程
+
+```bash
+# 1. 生成骨架（首次 / 重新生成结构）
+python3 scripts/en_scaffold.py {slug}
+
+# 2. AI 填充英文字段（title_en / summary_en / 场景 en+note / paraphrase / practice / pitfalls / shifts）
+#    参考高质量范例 en-content/supermarket-choice.json，只填不增删场景与句子
+
+# 3. 生成英文版 HTML + 音频
+python3 scripts/generate_en_html.py {slug}
+python3 scripts/generate_en_audio.py {slug}
+
+# 4. 标记首页入口（index.json 加 "en": true + title_en；中文 HTML 自动出现 EN 按钮）
+python3 scripts/svg-to-html.py "docs/{slug}-总结.svg"
+```
+
+### 内容 JSON 结构（与 `en-content/supermarket-choice.json` 完全一致）
+
+| 字段 | 说明 |
+|------|------|
+| `slug` / `title` / `date` / `platform` / `duration` / `source_url` | meta，来自 index.json |
+| `title_en` | 英文标题（AI 填） |
+| `eyebrow` | 英文主题分类 |
+| `summary_cn` / `summary_en` | 一句话概括（中 / 英） |
+| `scenes[]` | 每个场景：`title_cn`/`title_en`/`context`(情境+语域)/`speak`(整段英文口播)/`sentences[]`(每条含 `cn`/`en`/`note` 表达提示)/`paraphrase[]`(intent+phrases+chunks+usage) |
+| `practice[]` | 4 条 `{cn, en}` 今日可练 |
+| `pitfalls[]` | 4 条 `{wrong, right, why}` 中式英语避坑 |
+| `shifts[]` | 3 条 `{before, after}` 认知转变 |
+| `voice` / `audio_dir` | 保留默认，勿改 |
+
+### 质量要求
+
+- 英文口语优先，非逐字直译；每句至少 1 条 `表达提示`（关键术语中英对译 + 语境）
+- 每个场景 2-4 组 Paraphrase（同义替换说法 + chunks + 场合标注）
+- `speak` 为拼接该场景英文句的自然口播段落，专有名词/数字写全
+- 首页入口：仅 `index.json` 中 `"en": true` 的条目显示「🌐 EN 双语版」链接，避免 404
+
+### 批量处理
+
+全部 106 篇已生成骨架（`en-content/*.json`）。批量时按 10 篇/批，AI 填充后依次运行生成脚本；英文音频每篇约 25-30 个 MP3（edge-tts），注意勿并发过多避免限流。
+
+---
+
 ## Step 7：质量自检
 
 - [ ] 每张卡片能回答"在问什么、关键理解、怎么用"
@@ -580,8 +637,11 @@ rm generate-{slug}.mjs
 | `{slug}.json` | Whisper JSON（含置信度） |
 | `docs/{slug}-总结.svg` | 内容总结长图 |
 | `docs/{slug}-总结.html` | 独立 HTML 版（`scripts/svg-to-html.py` 生成） |
+| `docs/{slug}-en.html` | 英文双语学习版（可选，`scripts/generate_en_html.py` 生成） |
 | `docs/audio/{slug}.mp3` | edge-tts 语音讲解 |
 | `docs/audio/{slug}.txt` | 语音旁白稿备份 |
+| `docs/audio/en/{slug}/` | 英文版音频目录：场景整段 `s{N}.mp3` + 逐句 `s{N}-{idx}.mp3` + 练习 `practice-{idx}.mp3`（可选） |
+| `en-content/{slug}.json` | 英文版内容数据（可选，需提交以支持重新生成） |
 
 **工作区辅助脚本**（`download_batch.mjs` / `transcribe_manager.py`）：批量下载与并发转录工具，未纳入 git 跟踪，属于本地操作工具。
 

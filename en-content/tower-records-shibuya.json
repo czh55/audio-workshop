@@ -1,0 +1,422 @@
+{
+  "slug": "tower-records-shibuya",
+  "date": "2026-08-01",
+  "platform": "小宇宙FM",
+  "title": "涩谷Tower Records全解析：45年唱片店的生存法则与日本音乐地标",
+  "title_en": "Tower Records Shibuya Unpacked: How a 45-Year-Old Record Store Survives — and Why It's a Landmark",
+  "eyebrow": "Music & Culture · 音乐/文化",
+  "duration": "1小时18分",
+  "source_url": "https://www.xiaoyuzhoufm.com/episode/5b67a8ce9a9d4f28a30cfd35",
+  "summary_cn": "Tower Records涩谷店，日本最大唱片店之一，从1979年开业至今45年。节目剖析它为什么能活下来：1）选品逻辑——不是所有音乐都卖，K-POP占比30%、J-POP 10%、还有爵士、西洋、摇滚、古典；2）经营智慧——把K-POP当潮牌卖、'靠周边盈利'的生意经；3）文化意义——实体唱片店成为音乐地标、Livehouse、签售会的综合体；4）商业启示——为什么其他唱片店死了而Tower活着：位置、选品、服务、线下体验。核心主题：实体唱片店不是夕阳产业，而是文化空间与商业模式的重新定义",
+  "summary_en": "Tower Records Shibuya, one of Japan's biggest record stores, has been open since 1979 — 45 years. The program dissects why it survived: its curation logic, since they don't sell every kind of music, with K-POP at 30 percent of floor space, J-POP at 10 percent, plus jazz, Western music, rock, and classical; its business smarts, selling K-POP like a trendy streetwear brand and making profit off merchandise; its cultural meaning, as the physical record store has become a music landmark, live venue, and signing-event space in one; and the business lesson of why other record stores died while Tower lives — location, curation, service, and the in-store experience. The core theme: the physical record store isn't a sunset industry — it's a redefinition of cultural space and business model.",
+  "scenes": [
+    {
+      "id": "s1",
+      "title_cn": "1. 为什么Tower Records涩谷店能活下来？",
+      "title_en": "Why Has the Shibuya Tower Records Survived?",
+      "context": "抛出核心问题：唱片店大面积死亡的时代，Tower涩谷为何45年不倒。语域：casual 播客点评。",
+      "speak": "The music industry has been collapsing for decades, yet Tower Records Shibuya has been open since 1979. The clue is its position: it's the exact center of Shibuya, a place where people naturally gather and spend. When you ask a Japanese person for directions to a meeting point, Tower Records is one of the standard answers — alongside Hachiko and the Shibuya scramble crossing. But that alone doesn't explain survival; the real answer is in what's inside the store.",
+      "sentences": [
+        {
+          "cn": "整个音乐行业都衰落了，为什么Tower Records涩谷店还能活下来？从1979年开店至今45年",
+          "en": "The whole music industry has been in decline, yet Tower Records Shibuya has been open since 1979 — 45 years.",
+          "note": "<span>表达提示</span>in decline → 衰落；survive → 活下来；record store → 唱片店"
+        },
+        {
+          "cn": "位置：涩谷的正中心，天然的聚人消费地。日本人问路集合点，除了忠犬八公、涩谷十字路口，就是Tower Records",
+          "en": "Location: the exact center of Shibuya, a natural gathering-and-spending spot. When Japanese people name a meeting point, besides Hachiko and the Shibuya scramble crossing, it's Tower Records.",
+          "note": "<span>表达提示</span>meeting point → 集合点；scramble crossing → 十字路口；gathering-and-spending spot → 聚人消费地"
+        },
+        {
+          "cn": "（引用）但位置只是必要条件，真正的原因是店里卖的东西。",
+          "en": "Quote: \"But location is only a necessary condition. The real reason is what the store sells.\"",
+          "note": "<span>表达提示</span>necessary condition → 必要条件；the real reason → 真正的原因"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「位置只是必要条件」",
+          "phrases": [
+            "Location is only a necessary condition.",
+            "Location gets you the foot traffic; it doesn't keep you alive."
+          ],
+          "chunks": "necessary condition · foot traffic",
+          "usage": "necessary condition 书面；foot traffic 商业口语"
+        },
+        {
+          "intent": "想说「天然聚人消费的地方」",
+          "phrases": [
+            "A natural place for people to gather and spend.",
+            "Where the crowd already hangs out and spends money."
+          ],
+          "chunks": "gather and spend · hang out and spend money",
+          "usage": "hang out 更口语化"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title_cn": "2. 选品逻辑：不是所有音乐都卖",
+      "title_en": "Curation Logic: They Don't Sell Every Kind of Music",
+      "context": "拆解货架构成与数据驱动的选品决策。语域：formal 商业分析。",
+      "speak": "Tower Shibuya carries about 1.5 million records across nine floors. The key isn't volume but what's on the floor: K-POP occupies 30 percent of floor space, J-POP 10 percent, and the rest is split between jazz, Western, rock, and classical. That ratio is no accident — it follows sales data. What streams well and what sells in a physical store are different things, and Tower reads that data to decide which artists get shelf space and how big their sections are.",
+      "sentences": [
+        {
+          "cn": "涩谷店全馆共9层，约有150万张唱片。关键不在于量大，而在于货架构成",
+          "en": "Tower Shibuya carries about 1.5 million records across nine floors. The key isn't volume but what's on the shelves.",
+          "note": "<span>表达提示</span>volume → 量；shelf composition → 货架构成；carry → 在售/经营"
+        },
+        {
+          "cn": "选品构成：K-POP占30%货架，J-POP占10%，剩下是爵士、西洋、摇滚、古典",
+          "en": "The curation mix: K-POP takes up 30 percent of the floor space, J-POP 10 percent, and the rest is jazz, Western, rock, and classical.",
+          "note": "<span>表达提示</span>curation → 选品；floor space → 货架面积；take up → 占据"
+        },
+        {
+          "cn": "数据驱动：流媒体平台听什么和实体店卖什么是两回事，Tower通过销售数据决定每个艺人的货架大小",
+          "en": "Data-driven: what streams well and what sells in a physical store are two different things. Tower uses sales data to decide each artist's shelf size.",
+          "note": "<span>表达提示</span>stream → 流媒体；sales data → 销售数据；shelf size → 货架大小"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「听什么和买什么是两回事」",
+          "phrases": [
+            "What you stream and what you buy in a store are different things.",
+            "Streaming habits don't always match in-store sales."
+          ],
+          "chunks": "stream vs buy · match in-store sales",
+          "usage": "第二句更直接点出对比"
+        },
+        {
+          "intent": "想说「货架面积分配给谁」",
+          "phrases": [
+            "Shelf space follows the sales data.",
+            "The data decides who gets the prime shelf space."
+          ],
+          "chunks": "shelf space · follow the data · prime",
+          "usage": "prime shelf space 强调黄金位置"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title_cn": "3. K-POP怎么成了Tower的\\\"潮牌\\\"？",
+      "title_en": "How K-POP Became Tower's 'Streetwear Brand'",
+      "context": "讲K-POP品类被当作潮牌运营的营销策略与利润逻辑。语域：formal 品牌运营分析。",
+      "speak": "K-POP at Tower is managed like a trendy streetwear brand. The store puts the K-POP section right next to the entrance, on the visible ground floor, where you can't miss it. The products mirror fashion merchandising: exclusive photo cards, member-specific covers, limited editions that push fans to collect. When a new album drops, the store holds display events that feel like a launch of a sneaker or a streetwear drop. It's the same logic as limited shoes — scarcity creates desire.",
+      "sentences": [
+        {
+          "cn": "K-POP在Tower被当作潮牌来运营：放在一进门最显眼的楼层，一眼就能看到",
+          "en": "K-POP at Tower is run like a streetwear brand: placed on the most visible floor right by the entrance, impossible to miss.",
+          "note": "<span>表达提示</span>streetwear → 潮牌；run like → 当作…运营；impossible to miss → 一眼就能看到"
+        },
+        {
+          "cn": "周边玩法：限定小卡、成员封面、限量版，都是让粉丝去收集的钩子",
+          "en": "The merchandise playbook: exclusive photo cards, member-specific covers, limited editions — all hooks that make fans want to collect.",
+          "note": "<span>表达提示</span>photo card → 小卡；limited edition → 限量版；collectible hook → 收集钩子"
+        },
+        {
+          "cn": "（引用）新专辑发售时，Tower会办陈列展，像球鞋发售、潮牌上新一样。限量逻辑：稀缺创造欲望",
+          "en": "When a new album drops, Tower holds display events like a sneaker drop or a streetwear release. The scarcity logic: scarcity creates desire.",
+          "note": "<span>表达提示</span>album drops → 专辑发售；sneaker drop → 球鞋发售；scarcity creates desire → 稀缺创造欲望"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「把K-POP当潮牌运营」",
+          "phrases": [
+            "They run the K-POP section like a streetwear label.",
+            "K-POP is merchandised the way sneaker brands move limited drops."
+          ],
+          "chunks": "run like a streetwear label · merchandised like sneaker drops",
+          "usage": "merchandise 作动词更专业"
+        },
+        {
+          "intent": "想说「稀缺创造欲望」",
+          "phrases": [
+            "Scarcity creates desire.",
+            "The less there is, the more fans want it."
+          ],
+          "chunks": "scarcity creates desire · the less there is",
+          "usage": "scarcity creates desire 是商业金句"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "title_cn": "4. 靠周边盈利：一张唱片背后的生意经",
+      "title_en": "Profit Runs Through Merchandise: The Business Behind a Single Record",
+      "context": "拆解唱片店如何靠周边和分层消费盈利。语域：formal 商业模式分析。",
+      "speak": "A single record's margin is thin, so Tower makes money through merchandise. When fans buy a K-POP album for the photo cards, they're buying the experience, not just the music — the record becomes a product with high unit economics. The store layers the spend: a plain album, then one with a bonus photo card, then limited-edition bundles, then display and fan-event tickets. Each layer has a different target customer, and the higher layers carry the real profit.",
+      "sentences": [
+        {
+          "cn": "唱片本身的利润很薄，Tower赚钱靠周边。粉丝为小卡买专辑，买的不是音乐而是体验——唱片变成单价经济很高的产品",
+          "en": "The margin on a single record is thin, so Tower profits through merchandise. When fans buy a K-POP album for the photo cards, they're buying the experience, not just the music — the record becomes a product with high unit economics.",
+          "note": "<span>表达提示</span>margin → 利润；unit economics → 单价经济；merchandise → 周边"
+        },
+        {
+          "cn": "分层消费：普通专辑 → 加赠小卡的版本 → 限量套装 → 陈列展/粉丝活动票，每层对应不同目标客户",
+          "en": "Layered spending: a plain album, then a version with a bonus photo card, then limited bundles, then display and fan-event tickets — each layer targets a different customer.",
+          "note": "<span>表达提示</span>layered spending → 分层消费；bundle → 套装；target customer → 目标客户"
+        },
+        {
+          "cn": "（引用）真正的利润来自上层：为粉丝活动付高价的客户，才是Tower想长期服务的对象",
+          "en": "The real profit sits at the top: customers willing to pay premium for fan events are the ones Tower wants to serve long-term.",
+          "note": "<span>表达提示</span>pay premium → 付高价；long-term → 长期；serve → 服务"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「利润很薄，靠周边赚钱」",
+          "phrases": [
+            "The record itself barely covers costs; the money is in merch.",
+            "Thin margins on records, fat margins on merchandise."
+          ],
+          "chunks": "barely cover costs · money is in merch · thin vs fat margins",
+          "usage": "thin vs fat margins 是对仗金句"
+        },
+        {
+          "intent": "想说「分层定价对应不同客户」",
+          "phrases": [
+            "Each tier targets a different type of fan.",
+            "Different spend levels, different customers."
+          ],
+          "chunks": "each tier · target a different fan · spend levels",
+          "usage": "tier 比 layer 更常见于商业定价"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "title_cn": "5. 涩谷店的音乐文化属性：不只是卖碟",
+      "title_en": "The Cultural Layer: More Than Just Selling Records",
+      "context": "讲唱片店作为音乐地标、Livehouse与签售会综合体的文化意义。语域：formal 文化评论。",
+      "speak": "Tower Shibuya is a landmark in the music world, not a warehouse for CDs. The store hosts in-store live performances — big acts have played there, and the store's stage has hosted artist appearances that fill the floors. It's also where artists hold release events, where the crowds gather to meet them. Because it exists, a physical place where music culture actually happens, artists treat it as a stage, and fans treat it as a destination. That's the cultural gravity that no streaming platform can reproduce.",
+      "sentences": [
+        {
+          "cn": "Tower涩谷是音乐世界的\"地标\"，不是CD仓库。店里会办店内演出，很多大牌都来演过",
+          "en": "Tower Shibuya is a landmark in the music world, not a CD warehouse. The store hosts in-store performances, and many big acts have played there.",
+          "note": "<span>表达提示</span>landmark → 地标；in-store performance → 店内演出；big act → 大牌"
+        },
+        {
+          "cn": "签售会：艺人发片时把签售场地选在店里，粉丝到店里来排队、见面、消费",
+          "en": "Signing events: when artists release records, they choose the store as the venue, and fans queue up, meet them, and spend money in the process.",
+          "note": "<span>表达提示</span>signing event → 签售会；queue up → 排队；venue → 场地"
+        },
+        {
+          "cn": "（引用）因为它是真实存在的物理空间，音乐文化在这里真实发生——艺人把它当舞台，粉丝把它当目的地",
+          "en": "Because it's a real physical space where music culture actually happens, artists treat it as a stage and fans treat it as a destination.",
+          "note": "<span>表达提示</span>physical space → 物理空间；treat as a stage → 当舞台；treat as a destination → 当目的地"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「艺人把它当舞台」",
+          "phrases": [
+            "Artists treat the store as a stage.",
+            "For musicians, playing the store is a milestone."
+          ],
+          "chunks": "treat as a stage · a milestone",
+          "usage": "milestone 强调对艺人的意义"
+        },
+        {
+          "intent": "想说「流媒体无法复制的文化引力」",
+          "phrases": [
+            "It's a cultural gravity no streaming platform can copy.",
+            "Streaming gives you the music but not the event."
+          ],
+          "chunks": "cultural gravity · can't copy · gives you the music but not the event",
+          "usage": "cultural gravity 比喻；第二句更口语"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "title_cn": "6. 商业启示：为什么其他唱片店死了，Tower活着？",
+      "title_en": "The Business Lesson: Why Others Died and Tower Survived",
+      "context": "对比死掉的唱片店，总结Tower的生存公式。语域：formal 商业总结。",
+      "speak": "Most record stores died because they kept doing the same thing: selling discs. Tower survived because it stopped being a record store and became a destination. The formula has four parts: location, since people still gather in Shibuya; curation, since the store decides what's worth buying instead of stocking everything; service, with trained staff who recommend music you might not know; and the in-store experience, since the store sells the feeling of being there, which the internet can't deliver.",
+      "sentences": [
+        {
+          "cn": "大多数唱片店死了，因为还在干同一件事：卖碟。Tower活下来，因为它不再是唱片店，而是一个目的地",
+          "en": "Most record stores died because they kept doing the same thing: selling discs. Tower survived because it stopped being a record store and became a destination.",
+          "note": "<span>表达提示</span>destination → 目的地；stop being → 不再只是；keep doing the same thing → 还在干同一件事"
+        },
+        {
+          "cn": "生存公式：①位置——人流还在涩谷；②选品——决定什么值得买而不是什么都进；③服务——有专业店员推荐你没听过的音乐；④线下体验——卖的是\"在场感\"，互联网给不了",
+          "en": "The survival formula: one, location — foot traffic is still in Shibuya; two, curation — the store decides what's worth buying instead of stocking everything; three, service — trained staff recommend music you haven't heard; four, the in-store experience — it sells the feeling of being there, which the internet can't deliver.",
+          "note": "<span>表达提示</span>foot traffic → 人流；survival formula → 生存公式；stock → 进货；the feeling of being there → 在场感"
+        },
+        {
+          "cn": "（引用）唱片店卖的不只是音乐，是\"在这个地方发生的事\"——是年轻人约会、打卡、偶遇明星的地方",
+          "en": "A record store sells more than music; it sells 'what happens in this place' — where young people date, check in, and run into celebrities.",
+          "note": "<span>表达提示</span>check in → 打卡；run into → 偶遇；date → 约会"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「不再是唱片店，而是目的地」",
+          "phrases": [
+            "It stopped being a record store and became a destination.",
+            "People don't go there to buy CDs; they go there to be there."
+          ],
+          "chunks": "stop being · become a destination · go to be there",
+          "usage": "第二句用重复结构强调意图"
+        },
+        {
+          "intent": "想说「卖的是在场感」",
+          "phrases": [
+            "The store sells the feeling of being there.",
+            "What you're buying is the atmosphere, not the plastic."
+          ],
+          "chunks": "the feeling of being there · buy the atmosphere",
+          "usage": "atmosphere 更口语化"
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "title_cn": "7. 数据盘点：涩谷店的一天",
+      "title_en": "A Day at the Shibuya Store, by the Numbers",
+      "context": "用客流量、人均消费等数据量化Tower涩谷的运营规模。语域：formal 数据盘点。",
+      "speak": "A few numbers to put the store in perspective: on a normal weekday, about 8,000 people walk through Tower Shibuya; on weekends and holidays, that number climbs to around 20,000. The average customer spends around 2,500 to 3,000 yen per visit. Per square meter, the store's sales rank among the highest in the entire Tower Records chain. That's how a physical store justifies prime Shibuya rent — by turning space into traffic and traffic into spending.",
+      "sentences": [
+        {
+          "cn": "客流数据：平日一天大约8000人进店，周末和节假日能到20000人",
+          "en": "Foot traffic: on a regular weekday, about 8,000 people walk through the store; on weekends and holidays, that climbs to around 20,000.",
+          "note": "<span>表达提示</span>foot traffic → 客流；walk through → 进店；climb to → 涨到"
+        },
+        {
+          "cn": "消费数据：人均消费约2500-3000日元。每平米销售额在整个Tower集团里排在前列",
+          "en": "Spending: the average customer spends about 2,500 to 3,000 yen per visit, and per-square-meter sales rank among the highest in the whole Tower group.",
+          "note": "<span>表达提示</span>per-square-meter sales → 每平米销售额；rank among the highest → 排在前列；per visit → 每次进店"
+        },
+        {
+          "cn": "（引用）这就是实体店能撑起涩谷黄金地段租金的原因：把空间变成人流，把人流变成消费",
+          "en": "That's how a physical store justifies prime Shibuya rent: turn space into foot traffic, and foot traffic into spending.",
+          "note": "<span>表达提示</span>prime location → 黄金地段；justify the rent → 撑起租金；turn A into B → 把A变成B"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「每平米销售额名列前茅」",
+          "phrases": [
+            "Its sales per square meter top the whole chain.",
+            "Per square meter, it's one of the best-performing stores anywhere."
+          ],
+          "chunks": "sales per square meter · top the chain · best-performing",
+          "usage": "top the chain 简洁；best-performing 更正式"
+        },
+        {
+          "intent": "想说「把空间变成人流，人流变成消费」",
+          "phrases": [
+            "Turn space into traffic and traffic into spending.",
+            "The store converts location into footfall and footfall into cash."
+          ],
+          "chunks": "turn space into traffic · convert footfall into cash",
+          "usage": "footfall 是零售业术语"
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "title_cn": "8. 总结：唱片店的未来",
+      "title_en": "Conclusion: The Future of the Record Store",
+      "context": "收束全篇：实体唱片店的未来不在卖碟，而在成为文化现场。语域：formal 观点总结。",
+      "speak": "So what's the future of the physical record store? It's not about selling more discs, because the internet already won that war. The store's future lies in becoming a cultural site — a place where releases happen, where artists appear, where fans gather. Tower Shibuya is the proof: a store that people come to for the event, and buy a record as a souvenir of having been there. The record store of the future is less a shop and more a stage.",
+      "sentences": [
+        {
+          "cn": "实体唱片店的未来不在卖碟——互联网已经赢下了这场战争。未来在于成为\"文化现场\"",
+          "en": "The future of the physical record store isn't selling more discs — the internet already won that war. The future lies in becoming a cultural site.",
+          "note": "<span>表达提示</span>cultural site → 文化现场；win the war → 赢下战争；lie in → 在于"
+        },
+        {
+          "cn": "人们为事件而来，唱片成了\"到过这里\"的纪念品",
+          "en": "People come for the event, and the record becomes a souvenir of having been there.",
+          "note": "<span>表达提示</span>souvenir → 纪念品；come for the event → 为事件而来"
+        },
+        {
+          "cn": "（引用）未来的唱片店与其说是商店，不如说是舞台",
+          "en": "The record store of the future is less a shop and more a stage.",
+          "note": "<span>表达提示</span>less A and more B → 与其说是A不如说是B"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「与其说是商店不如说是舞台」",
+          "phrases": [
+            "It's less a shop and more a stage.",
+            "A shop in name, a venue in function."
+          ],
+          "chunks": "less a shop and more a stage · in name · in function",
+          "usage": "in name / in function 是书面强调结构"
+        },
+        {
+          "intent": "想说「唱片成了到过这里的纪念品」",
+          "phrases": [
+            "The record becomes a souvenir of being there.",
+            "You buy the album as proof you were in the room."
+          ],
+          "chunks": "a souvenir of being there · proof you were in the room",
+          "usage": "第二句更口语、有画面感"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "cn": "用「foot traffic」说：位置好才有稳定客流。",
+      "en": "A good location guarantees steady foot traffic."
+    },
+    {
+      "cn": "用「scarcity creates desire」说：限量版让人想买。",
+      "en": "Limited editions work because scarcity creates desire."
+    },
+    {
+      "cn": "用「margin」说：唱片利润薄，钱在周边。",
+      "en": "The margins on records are thin; the money is in merchandise."
+    },
+    {
+      "cn": "用「less A and more B」说：唱片店更像舞台而非商店。",
+      "en": "The modern record store is less a shop and more a stage."
+    }
+  ],
+  "pitfalls": [
+    {
+      "wrong": "The record store sells not only music but also the feeling of being on the spot.",
+      "right": "The store sells more than music; it sells the feeling of being there.",
+      "why": "「在场感」是 the feeling of being there，不是 on the spot（当场/现场立即）；用词要对应。"
+    },
+    {
+      "wrong": "Tower put the K-POP area in the most obvious floor.",
+      "right": "Tower put the K-POP section on the most visible floor.",
+      "why": "「货架/区域」用 section 或 display；obvious 是「明显的」，形容位置应用 visible。"
+    },
+    {
+      "wrong": "Fans queue to buy the CD and take photos with the star.",
+      "right": "Fans queue up to buy the album and meet the artist at the signing event.",
+      "why": "take photos with 是「合影」，这里语境是「签售会见面」，用 meet/attend the signing；queue 常配 up。"
+    },
+    {
+      "wrong": "The store has high sales in every square meter.",
+      "right": "The store's per-square-meter sales are among the highest in the chain.",
+      "why": "「每平米销售额」是 per-square-meter sales；in every square meter 是中式直译，意思也偏离。"
+    }
+  ],
+  "shifts": [
+    {
+      "before": "以为实体唱片店是夕阳产业，迟早消失",
+      "after": "唱片店可以靠选品、周边和线下体验重新定义生意"
+    },
+    {
+      "before": "以为唱片店只是卖碟的地方",
+      "after": "它可以是地标、Livehouse、签售会与粉丝文化的综合体"
+    },
+    {
+      "before": "以为K-POP只靠粉丝应援爆火",
+      "after": "Tower把K-POP当潮牌运营，靠限量与收集逻辑做增长"
+    }
+  ],
+  "voice": "en-US-JennyNeural",
+  "audio_dir": "audio/en/tower-records-shibuya"
+}

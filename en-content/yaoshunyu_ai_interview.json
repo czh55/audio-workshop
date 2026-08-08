@@ -1,0 +1,365 @@
+{
+  "slug": "yaoshunyu_ai_interview",
+  "date": "2026-06-23",
+  "platform": "小宇宙FM",
+  "title": "140. 对姚顺宇的4小时访谈：请允许我小疯一下！",
+  "title_en": "140. A 4-Hour Interview with Yao Shunyu: Please Let Me Go a Little Wild!",
+  "eyebrow": "AI & Frontier Tech · AI 与前沿技术",
+  "duration": "3小时51分",
+  "source_url": "https://www.xiaoyuzhoufm.com/episode/6a00aa051b7bd50295dfe41d",
+  "summary_cn": "一句话概括：物理博士半道出家、先后参与 Claude 3.7/4.5 与 Gemini 3 训练的姚顺宇，用近四小时直言行业已进入「集体主义时代」：模型能力拉平后赌的是定义问题，靠谱比天才重要，壳难逃脱模型引力，Pre-train 远未到头",
+  "summary_en": "In one sentence: Yao Shunyu — a physics PhD who came to AI midway, working on Claude 3.7/4.5 and Gemini 3 training — spent nearly four hours telling it straight that the industry has entered a 'collectivist era': once model capabilities flatten out, the bet is on defining the problem; reliability beats genius; shells can't escape the model's gravity; and pre-training is far from done.",
+  "scenes": [
+    {
+      "id": "s1",
+      "title_cn": "一、行业格局：从追能力到赌定义",
+      "title_en": "Industry Landscape: From Chasing Capability to Betting on Definitions",
+      "context": "How the AI race shifted from catching up to OpenAI to defining the right problem. 语域：casual 深度访谈。",
+      "speak": "A year ago, everyone worried about whether they could catch OpenAI. Now none of the three — OpenAI, Anthropic, or Google — worries about falling behind. The harder thing is figuring out what to build, and that's a bet that requires human insight. On paper, the models have become highly similar: on benchmarks like SWE-bench, the gaps are mostly within one or two points of noise. But real usage still differs: Claude excels at agentic and tool-calling work, Codex is catching up in pure coding, and Gemini shines in reasoning and everyday scenarios. So when choosing a model, don't just read the leaderboard — test it against your actual use case. In the end, the most important trait in this industry isn't a big brain; it's being reliable. The era of individual heroism is over — we're all surfers now, and the wave is the real story.",
+      "sentences": [
+        {
+          "cn": "核心机制：一年前大家还担心「能不能追上 OpenAI」；现在 OpenAI、Anthropic、Google 三家都不担心追不上，更难的是想明白要做什么——这是一个 bet，需要人的 insight",
+          "en": "A year ago, everyone worried about whether they could catch up with OpenAI. Now none of the three — OpenAI, Anthropic, or Google — worries about falling behind. The harder thing is figuring out what to build, and that's a bet that requires human insight.",
+          "note": "<span>表达提示</span>catch up with → 追上；a bet → 一场豪赌；human insight → 人的洞察"
+        },
+        {
+          "cn": "关键理解：模型在纸面上已高度同质化（SWE-bench 等差距多在 1-2 个百分点的噪声），但实际使用体验仍有分化：Claude 擅长 Agent/工具调用，Codex 在纯 coding 追赶，Gemini 在 reasoning 和日常场景表现好",
+          "en": "The insight: on paper, the models have become highly similar — on benchmarks like SWE-bench, the gaps are mostly one or two points of noise. But real usage still differs: Claude excels at agentic and tool-calling work, Codex is catching up in pure coding, and Gemini shines in reasoning and everyday scenarios.",
+          "note": "<span>表达提示</span>highly similar → 高度同质化；agentic work → 智能体类工作；tool-calling → 工具调用"
+        },
+        {
+          "cn": "典型场景：选模型时不只看榜单，要按场景实测——写代码、做 Agent、日常对话的需求不同",
+          "en": "A typical case: when choosing a model, don't just read the leaderboard — test it against your actual scenario, because coding, agent work, and daily chat have different requirements.",
+          "note": "<span>表达提示</span>leaderboard → 榜单；test against your scenario → 按场景实测"
+        },
+        {
+          "cn": "（引用）原文依据：「现在就是在任何至少在这三家当中，没有哪一家会真的担心自己追不上……更难的事情是想明白要去做什么。」",
+          "en": "The original quote: 'Right now, among at least these three companies, no one is genuinely worried about falling behind... the harder thing is figuring out what to do.'",
+          "note": "<span>表达提示</span>genuinely worried → 真的担心；fall behind → 落后"
+        },
+        {
+          "cn": "（引用）相关概念：上半场 = 能力竞赛；下半场 = 问题定义 + 数据 + 工程细节的意愿博弈",
+          "en": "Related concept: the first half was a capability race; the second half is a battle of problem definition, data, and the willingness to sweat engineering details.",
+          "note": "<span>表达提示</span>capability race → 能力竞赛；problem definition → 问题定义；engineering details → 工程细节"
+        },
+        {
+          "cn": "AI 行业最重要的特质不是脑子，而是靠谱（couple）——做事细致、对自己做的事负责任。个人英雄主义时代已经过去，现在大家都是冲浪的人，本质上是那个浪，而不是冲浪的人",
+          "en": "The most important trait in AI isn't a big brain — it's being reliable: doing meticulous work and owning your results. The era of individual heroism is over. We're all surfers now, and the real story is the wave, not the surfer.",
+          "note": "<span>表达提示</span>meticulous work → 做事细致；own one's results → 对自己做的事负责；the era of heroism → 英雄主义时代"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「榜单差距都是噪声」",
+          "phrases": [
+            "The benchmark gaps are basically noise.",
+            "The leaderboard differences are within the margin of error."
+          ],
+          "chunks": "basically noise · within the margin of error",
+          "usage": "margin of error 是统计语境标准说法"
+        },
+        {
+          "intent": "想说「靠谱比天才重要」",
+          "phrases": [
+            "Reliability beats brilliance.",
+            "Give me dependable over dazzling any day."
+          ],
+          "chunks": "reliability beats brilliance · dependable over dazzling",
+          "usage": "dependable over dazzling 押韵口语，聊天很自然"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title_cn": "二、技术纵深：Pre-train、Coding 与蒸馏",
+      "title_en": "Technical Depth: Pre-training, Coding, and Distillation",
+      "context": "Why scaling laws still hold, why GitHub data is special, and where the next burst may come. 语域：casual 技术解读。",
+      "speak": "Scaling laws still hold, and pre-training is far from saturated. The bottleneck has shifted from raw compute to data quality, problem definition, and training details — many model differences come from engineering details you'd never imagine, like GitHub data being naturally higher quality. One way to see it: pre-training is also a form of reinforcement learning — train with finite context, then use it as if the context were infinite. This doesn't apply to small teams that have stopped scaling, but for leading labs it's still the main battlefield. GitHub gives you naturally high-quality, verifiable data; code can be automatically checked by compiling and testing, which closes an RL loop; and agents writing code make the product simpler — around 90 percent of Google's internal code is now generated by models. The next explosion may be robotics, where data and verification are hard, or longer-horizon agent tasks.",
+      "sentences": [
+        {
+          "cn": "核心机制：Scaling law 仍有效，预训练远未饱和。瓶颈从「算力不够」转向「数据质量、问题定义、训练细节」——很多模型差异来自想象不到的工程细节（如 GitHub 数据天然质量更高）",
+          "en": "The mechanism: scaling laws still hold, and pre-training is far from saturated. The bottleneck has shifted from 'not enough compute' to data quality, problem definition, and training details — many model differences come from engineering details you'd never imagine, like GitHub data being naturally higher quality.",
+          "note": "<span>表达提示</span>scaling law → 规模定律；bottleneck → 瓶颈；far from saturated → 远未饱和"
+        },
+        {
+          "cn": "关键理解：「Pre-train 也是一种 RL」——用有限上下文训练，使用时接近无限上下文（train-with-finite-context, use-as-infinite-context）",
+          "en": "The insight: 'pre-training is also a form of reinforcement learning' — you train with finite context, then use it as if the context were infinite. That's train-with-finite-context, use-as-infinite-context.",
+          "note": "<span>表达提示</span>train with finite context → 用有限上下文训练；use as infinite context → 当作无限上下文使用"
+        },
+        {
+          "cn": "适用边界：不适用于已放弃继续 scale 的小团队；对头部实验室仍是主战场",
+          "en": "Boundary conditions: this doesn't apply to small teams that have given up on scaling further — but for leading labs, it's still the main battlefield.",
+          "note": "<span>表达提示</span>leading labs → 头部实验室；main battlefield → 主战场"
+        },
+        {
+          "cn": "（引用）原文依据：「我觉得 Pre-train 没有到头……模型做到 train-with-finite-context, use-as-infinite-context。」",
+          "en": "The original quote: 'I don't think pre-training is done... the goal is to make a model that trains with finite context and runs as if the context were infinite.'",
+          "note": "<span>表达提示</span>train with finite context → 有限上下文训练；runs as if infinite → 使用时近乎无限"
+        },
+        {
+          "cn": "核心机制：① GitHub 提供天然高质量、可验证的数据；② 代码对错可自动检验（编译、测试），形成 RL 闭环；③ Agent 写代码让产品形态变简单——Google 内部约 90% 代码由模型产生",
+          "en": "The mechanism: first, GitHub provides naturally high-quality, verifiable data; second, code can be automatically checked by compiling and testing, which closes an RL loop; third, agents writing code makes the product simpler — around 90 percent of Google's internal code is now generated by models.",
+          "note": "<span>表达提示</span>verifiable data → 可验证的数据；close an RL loop → 形成强化学习闭环；generated by models → 由模型产生"
+        },
+        {
+          "cn": "典型场景：下一个爆发点可能是机器人（数据难、验证难）或更长 horizon 的 Agent 任务",
+          "en": "A typical prediction: the next explosion could be robotics — where data and verification are both hard — or longer-horizon agent tasks.",
+          "note": "<span>表达提示</span>explosion → 爆发点；longer-horizon → 更长时程的；agent tasks → 智能体任务"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「预训练远没到头」",
+          "phrases": [
+            "Pre-training is nowhere near done.",
+            "There's still a huge amount of runway left in pre-training."
+          ],
+          "chunks": "nowhere near done · runway left",
+          "usage": "runway 指「余量/跑道」，创业语境常用"
+        },
+        {
+          "intent": "想说「代码天然可验证，适合做 RL」",
+          "phrases": [
+            "Code is self-verifying, which makes it perfect for RL.",
+            "With code, correctness can be checked automatically — that's the closed loop."
+          ],
+          "chunks": "self-verifying · closed loop",
+          "usage": "self-verifying 是很好的技术口头表达"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title_cn": "三、组织与文化：Anthropic vs Google",
+      "title_en": "Organization & Culture: Anthropic vs. Google",
+      "context": "Top-down versus bottom-up decision-making, and why Yao left Anthropic in September 2025. 语域：casual 组织观察。",
+      "speak": "Executing a top-down approach requires the top technical person to also be a company decision-maker with credibility — Dario, Jared, and Sam all make the calls themselves. OpenAI struggled with that after Ilya left, and Google is traditionally bottom-up, where researchers choose their own directions. A startup's edge is making a bet: fast decisions, forceful execution. A big company's edge is betting on both sides, so whatever direction wins, it can follow. Yao left in September 2025 to learn something different, not to lead a project. At the time he was fairly pessimistic about Anthropic — selling tokens via API is a bad business, and only Google could sustain a price war — but products like Claude Code later proved his pessimism overdone. He has no regrets: his motive was self-improvement, and the choice was right.",
+      "sentences": [
+        {
+          "cn": "实行 top-down 需要技术一号位同时是公司决策人且有公信力——Dario/Jared/Sam 自己拍板。OpenAI 在 Ilya 离开后难做到；Google 是传统 bottom-up，研究员自己决定方向",
+          "en": "Executing a top-down approach requires the top technical person to also be a company decision-maker with credibility — Dario, Jared, and Sam all make the calls themselves. OpenAI struggled with that after Ilya left, and Google is traditionally bottom-up, with researchers choosing their own directions.",
+          "note": "<span>表达提示</span>top-down / bottom-up → 自上而下/自下而上；credibility → 公信力；make the calls → 拍板"
+        },
+        {
+          "cn": "Startup 的优势是 make-a-bet：快速决策、强力推进。大公司优势是两面下注、任何方向成了都能跟上",
+          "en": "A startup's edge is make-a-bet: fast decisions, forceful execution. A big company's edge is betting on both sides — whatever direction wins, it can follow along.",
+          "note": "<span>表达提示</span>forceful execution → 强力推进；bet on both sides → 两面下注"
+        },
+        {
+          "cn": "（引用）「闪超被（Anthropic）能够实行比较 top-down 的机制是一个很独特的事……技术的 leader 有公信力很重要，与此同时 CEO 没有成为一个阻力。」",
+          "en": "The quote: 'That Anthropic can operate fairly top-down is unusual... it's important that the technical leader has credibility, and at the same time the CEO doesn't become an obstacle.'",
+          "note": "<span>表达提示</span>operate top-down → 自上而下运作；become an obstacle → 成为阻力"
+        },
+        {
+          "cn": "核心机制：2025 年 9 月离开是为「学不一样的东西」，而非领导项目。当时对 Anthropic 偏悲观（API 卖 token 是差生意，只有 Google 能扛价格战），但后来 Claude Code 等产品巧思证明过度悲观",
+          "en": "The mechanism: he left in September 2025 to learn something different, not to lead a project. At the time he was fairly pessimistic about Anthropic — selling tokens through an API is a bad business, and only Google could sustain a price war — but products like Claude Code later proved his pessimism overdone.",
+          "note": "<span>表达提示</span>pessimistic about → 对…悲观；price war → 价格战；prove one's pessimism overdone → 证明悲观过头"
+        },
+        {
+          "cn": "关键理解：不后悔——个人动机是自我提升，选择没有错。OpenAI 被 Google 揍了一拳，Anthropic 自己上道了",
+          "en": "The takeaway: no regrets — his personal motive was self-improvement, and the choice was right. OpenAI took a punch from Google, while Anthropic found its own way up.",
+          "note": "<span>表达提示</span>self-improvement → 自我提升；take a punch → 挨了一拳；find one's own way up → 自己上道了"
+        },
+        {
+          "cn": "（引用）原文依据：「我离开的时候对这公司其实挺悲观的，但后来显然是我过度悲观了。」",
+          "en": "The original quote: 'When I left, I was quite pessimistic about this company — but obviously I was over-pessimistic.'",
+          "note": "<span>表达提示</span>quite pessimistic → 挺悲观；over-pessimistic → 过度悲观"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「做决定要能拍板」",
+          "phrases": [
+            "The technical lead needs the authority to just decide.",
+            "Somebody has to be able to call the shot."
+          ],
+          "chunks": "call the shot · have the authority to decide",
+          "usage": "call the shot 是口语，指最终拍板"
+        },
+        {
+          "intent": "想说「两面下注」",
+          "phrases": [
+            "Big companies bet on every horse in the race.",
+            "They hedge across all directions, so they can follow any winner."
+          ],
+          "chunks": "bet on every horse · hedge across directions",
+          "usage": "bet on every horse 生动口语；hedge 更书面"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "title_cn": "四、物理底色与思维迁移",
+      "title_en": "The Physics Foundation and Mental Transfer",
+      "context": "How a condensed-matter and high-energy physics background shaped his thinking about AI. 语域：casual 个人经历。",
+      "speak": "He did condensed matter and non-Hermitian systems as an undergrad at Tsinghua, then high-energy physics and quantum information for his Stanford PhD. Two weeks after defending, he quit the postdoc to move into AI — he always wants to challenge things he doesn't know how to do. Physics trains you to find the effective theory at different energy scales — classical physics is quantum physics degraded at large scales. That multi-scale abstraction skill transfers directly to understanding the layered structure of AI systems. Physics' biggest gift is learning how to find the right level of abstraction inside a very complex system. Andrew Chi-Chih Yao made the same jump, from physics to computer science, and reportedly said that after moving from physics to computing, no problem in the world seemed hard anymore.",
+      "sentences": [
+        {
+          "cn": "核心机制：清华本科做凝聚态/非厄米系统，斯坦福博士做高能物理与量子信息。博士毕业后两周博后即离职转 AI——「总想挑战一些自己不太会的事」",
+          "en": "The mechanism: he did condensed matter and non-Hermitian systems as an undergrad at Tsinghua, then high-energy physics and quantum information for his Stanford PhD. Two weeks after defending his thesis, he quit the postdoc to move into AI — 'I always want to challenge things I don't know how to do.'",
+          "note": "<span>表达提示</span>condensed matter → 凝聚态；non-Hermitian systems → 非厄米系统；defend a thesis → 博士答辩"
+        },
+        {
+          "cn": "关键理解：物理训练的是在不同能量尺度下找有效理论（重整化群）——经典物理是量子物理在大尺度下的退化。这种「多尺度抽象」思维有助于理解 AI 系统的层次结构",
+          "en": "The insight: physics trains you to find the effective theory at different energy scales — classical physics is quantum physics degraded at large scales. That multi-scale abstraction thinking transfers directly to understanding the layered structure of AI systems.",
+          "note": "<span>表达提示</span>effective theory → 有效理论；energy scale → 能量尺度；multi-scale abstraction → 多尺度抽象"
+        },
+        {
+          "cn": "典型场景：跨学科不是劣势，深水区可能需要物理/数学高阶知识",
+          "en": "A typical case: crossing disciplines is not a disadvantage — the deep water of AI may need high-level physics and math knowledge.",
+          "note": "<span>表达提示</span>the deep water → 深水区；high-level knowledge → 高阶知识"
+        },
+        {
+          "cn": "（引用）原文依据：「读物理最大的帮助就是……学会怎么在一个很复杂系统里找到正确的抽象层次。」",
+          "en": "The original quote: 'The biggest help from studying physics is... learning how to find the right level of abstraction in a very complex system.'",
+          "note": "<span>表达提示</span>level of abstraction → 抽象层次；a very complex system → 复杂系统"
+        },
+        {
+          "cn": "（引用）相关概念：姚期智也是物理转计算机——「从物理转到计算机后发现世界上没有什么难题了」",
+          "en": "Related note: Andrew Chi-Chih Yao also moved from physics to computer science — 'after switching from physics to computing, he found there was no hard problem left in the world.'",
+          "note": "<span>表达提示</span>switch from A to B → 从…转到…；no hard problem left → 没有什么难题了"
+        },
+        {
+          "cn": "无法被实验检验的理论（哲学、部分经济/政治）正确性靠信仰和权力决定。姚顺宇对「业内老登」的批评核心在此：无法检验却自封权威",
+          "en": "Theories that can't be tested by experiment — some philosophy, parts of economics and politics — have their correctness decided by faith and power. That's the core of Yao's critique of certain industry veterans: they claim authority over things that can't be verified.",
+          "note": "<span>表达提示</span>can't be tested by experiment → 无法被实验检验；claim authority → 自封权威"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「跨学科不是劣势」",
+          "phrases": [
+            "A physics background is an asset, not a handicap.",
+            "Crossing disciplines gave him an edge, not a gap."
+          ],
+          "chunks": "an asset, not a handicap · an edge, not a gap",
+          "usage": "A, not B 对照结构是地道强调法"
+        },
+        {
+          "intent": "想说「找到正确的抽象层次」",
+          "phrases": [
+            "The skill is finding the right level of abstraction.",
+            "Know which layer of the system to zoom into."
+          ],
+          "chunks": "level of abstraction · zoom into a layer",
+          "usage": "zoom into 很形象，口语科技讨论常用"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "title_cn": "五、技术预测与前沿方向",
+      "title_en": "Tech Predictions and Frontier Directions",
+      "context": "When AI will run experiments end-to-end, and what 'world model' actually means to different people. 语域：casual 前瞻讨论。",
+      "speak": "AI can already accelerate experiments — writing code and running tests — but the full chain isn't connected yet: write code, run the experiment, look at results, analyze, propose new hypotheses, design the next experiment. Over the next six to twelve months, that chain will gradually complete. The definition of 'AI doing experiments by itself' is still fuzzy; right now it's acceleration of human researchers, not full autonomy. Google's 'world model' leans toward end-to-end video and scene generation — given a state and an action, predict the next state — while labs like Fei-Fei Li's may define it completely differently. Continuous learning and long-context management have no essential difference, since a KV cache is itself a kind of weight. Ten thousand people, ten thousand world models — everyone might be talking about different things.",
+      "sentences": [
+        {
+          "cn": "核心机制：当前 AI 已能加速实验（写代码、跑实验），但完整链条——写 code → 跑实验 → 看结果 → 分析 → 提出新假设 → 设计新实验——尚未打通。未来半年到一年这条链将逐步完整",
+          "en": "The mechanism: AI can already accelerate experiments — writing code and running tests — but the full chain isn't connected yet: write code, run the experiment, look at results, analyze, propose new hypotheses, design the next experiment. Over the next six to twelve months, that chain will gradually complete.",
+          "note": "<span>表达提示</span>accelerate experiments → 加速实验；full chain → 完整链条；propose a hypothesis → 提出假设"
+        },
+        {
+          "cn": "适用边界：「AI 自己做实验」定义仍模糊；目前是对人类研究者的加速，非完全自主",
+          "en": "Boundary conditions: the definition of 'AI doing experiments by itself' is still fuzzy — right now it's acceleration of human researchers, not full autonomy.",
+          "note": "<span>表达提示</span>fuzzy definition → 定义模糊；full autonomy → 完全自主"
+        },
+        {
+          "cn": "（引用）原文依据：「未来六到十二个月 AI 就会自己做实验……这条链条目前还没有完整，但我觉得这条链条可能是下一步会慢慢变得完整的事。」",
+          "en": "The original quote: 'In the next six to twelve months, AI will run experiments by itself... the chain isn't complete yet, but I think it's the next thing that will gradually close.'",
+          "note": "<span>表达提示</span>run experiments by itself → 自己做实验；gradually close → 逐步完整"
+        },
+        {
+          "cn": "核心机制：Google 的「世界模型」偏 end-to-end 视频/场景生成（给定状态+动作预测下一状态）；李飞飞等 lab 的定义可能完全不同。Continuous learning 与 long-context 管理无本质区别——KV cache 也是一种权重",
+          "en": "The mechanism: Google's 'world model' leans toward end-to-end video and scene generation — given a state and an action, predict the next state — while labs like Fei-Fei Li's may define it completely differently. Continuous learning and long-context management have no essential difference, since a KV cache is itself a kind of weight.",
+          "note": "<span>表达提示</span>end-to-end generation → 端到端生成；continuous learning → 持续学习；KV cache → 键值缓存"
+        },
+        {
+          "cn": "（引用）原文依据：「世界模型一万个人又一万个世界模型……每个人说的世界模型可能也在说不一样的事。」",
+          "en": "The original quote: 'Ten thousand people, ten thousand world models... everyone might be talking about different things when they say world model.'",
+          "note": "<span>表达提示</span>ten thousand world models → 一万个世界模型；talk about different things → 说不一样的事"
+        },
+        {
+          "cn": "（引用）相关概念：范氏级变革 vs 有价值但非范式的进展（long horizon、硬件-模型协同）",
+          "en": "Related concept: paradigm-level change versus valuable-but-not-paradigmatic progress — like long-horizon tasks and hardware-model co-design.",
+          "note": "<span>表达提示</span>paradigm-level change → 范式级变革；long-horizon → 长时程；co-design → 协同设计"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「链条还没打通」",
+          "phrases": [
+            "The loop isn't closed end to end yet.",
+            "The full chain from experiment to hypothesis isn't there yet."
+          ],
+          "chunks": "close the loop · end to end",
+          "usage": "close the loop 是技术圈高频词"
+        },
+        {
+          "intent": "想说「一个词，一万种定义」",
+          "phrases": [
+            "Ten thousand people, ten thousand world models.",
+            "The term means different things to different labs."
+          ],
+          "chunks": "ten thousand definitions · mean different things to",
+          "usage": "口语谚语式表达，点评时很出彩"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "cn": "用「make a bet」说：下半场赌的是定义问题。",
+      "en": "The second half of the race is about making a bet on which problem is worth defining."
+    },
+    {
+      "cn": "用「reliability beats brilliance」说：靠谱比天才重要。",
+      "en": "In this industry, reliability beats brilliance — meticulous work and ownership matter most."
+    },
+    {
+      "cn": "用「runway」说：预训练还有很多空间。",
+      "en": "There's still a lot of runway left in pre-training; the bottleneck has moved to data quality."
+    },
+    {
+      "cn": "用「close the loop」说：AI 自己做实验的链条还没打通。",
+      "en": "The loop from running experiments to proposing new hypotheses isn't closed yet — but it will be within a year."
+    }
+  ],
+  "pitfalls": [
+    {
+      "wrong": "The model is very smart, I choose Claude.",
+      "right": "Don't just read leaderboards — test models against your actual scenario, because the gaps are mostly noise.",
+      "why": "选模型的核心是「按场景实测」；只谈 smart 和榜单是典型的外行判断。"
+    },
+    {
+      "wrong": "I left the company because I don't like it.",
+      "right": "I left to learn something different — my motive was self-improvement, not leadership or dissatisfaction.",
+      "why": "离开原因要翻出「学不一样的东西」的动机；like/dislike 太简单化。"
+    },
+    {
+      "wrong": "Physics has no use in AI.",
+      "right": "Physics teaches you to find the right level of abstraction in a complex system — that's the transferable skill.",
+      "why": "物理转 AI 的核心是可迁移的抽象思维，说 no use 完全反了。"
+    },
+    {
+      "wrong": "AI will replace human researchers soon.",
+      "right": "Right now AI accelerates human researchers; full autonomy in experiments is still a fuzzy, unfolding definition.",
+      "why": "「完全自主」尚未实现；加速 vs 替代的区别要讲清，才是准确的技术判断。"
+    }
+  ],
+  "shifts": [
+    {
+      "before": "以为 AI 竞赛拼的是「谁更聪明、谁能追平 OpenAI」",
+      "after": "模型已高度同质化，难的是想明白要做什么——这是赌定义、赌洞察"
+    },
+    {
+      "before": "以为个人天才决定一切，英雄主义叙事",
+      "after": "行业进入集体主义时代——靠谱、细致、负责任比天才更重要"
+    },
+    {
+      "before": "以为跨学科是劣势，物理背景浪费了",
+      "after": "物理练就的「多尺度抽象」正是理解复杂 AI 系统的关键能力"
+    }
+  ],
+  "voice": "en-US-JennyNeural",
+  "audio_dir": "audio/en/yaoshunyu_ai_interview"
+}

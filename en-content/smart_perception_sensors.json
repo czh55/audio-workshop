@@ -1,0 +1,468 @@
+{
+  "slug": "smart_perception_sensors",
+  "date": "2026-06-23",
+  "platform": "小宇宙FM",
+  "title": "摄像头、紫光波、激光雷达，UWB，谁才是智能感知的关键？",
+  "title_en": "Cameras, Millimeter-Wave, LiDAR, UWB — What Actually Drives Smart Perception?",
+  "eyebrow": "Auto & Tech · 汽车与技术",
+  "duration": "56分33秒",
+  "source_url": "https://www.xiaoyuzhoufm.com/episode/6a0df9471b7bd5029589a9e1",
+  "summary_cn": "一句话概括：三刀用大白话拆解新能源车五大传感器——超声波雷达、UWB、摄像头、毫米波雷达、激光雷达——从理想L9取消12颗超声波雷达改用UWB切入，讲清每种传感器的原理、优缺点与融合感知策略，帮买车人不被销售忽悠",
+  "summary_en": "The host breaks down the five sensors behind new-energy smart driving in plain language — ultrasonic radar, UWB, cameras, millimeter-wave radar, and LiDAR — starting from the Li L9 ditching its twelve ultrasonic sensors for UWB. Each sensor's principle, pros and cons, and fusion strategy is explained, so buyers can't be fooled by salespeople. The episode covers why ultrasonic radars lost their place, how UWB nails precise near-field positioning, why a camera that understands beats a camera that only sees, how 3D and 4D millimeter-wave radar differ, and why expensive LiDAR is still indispensable. The takeaway: no sensor or stack is perfect, so the real competition is fusing sensors well and letting algorithms grasp space.",
+  "scenes": [
+    {
+      "id": "s1",
+      "title_cn": "一、超声波雷达：被UWB取代的老将",
+      "title_en": "Ultrasonic Radar: The Veteran Replaced by UWB",
+      "context": "The host explains why the cheap, reliable ultrasonic radar is being phased out. 语域：casual 大白话科普。",
+      "speak": "Let's start with ultrasonic radar. It sends out ultrasonic waves like a bat and judges distance from the echo timing, which works great for close-range, low-speed stuff — reversing, parallel parking, creeping along a wall. It's cheap, stable, and mature, so it used to be standard on every trim. But it can only tell you that there's an obstacle and roughly how far away it is. In the eyes of an ultrasonic radar, a pillar, a trash can, a cat, and a plastic bag are basically the same thing — all just obstacles. That's why it's being replaced by UWB near-field sensing; the Li L9 dropped all twelve of its ultrasonic sensors at once. It only measures distance, can't grasp spatial meaning, gets fooled by rain and thin objects, and can't keep up with what advanced driving needs.",
+      "sentences": [
+        {
+          "cn": "核心机制：像蝙蝠一样发射超声波，通过回弹时间差判断距离，适合几米内低速近距离探测（倒车、侧方停车、靠墙挪车）",
+          "en": "The mechanism: it sends out ultrasonic waves like a bat and works out distance from the echo timing — great for close-range, low-speed detection within a few meters, like reversing, parallel parking, and creeping along a wall.",
+          "note": "<span>表达提示</span>ultrasonic waves → 超声波；echo timing → 回弹时间差；close-range detection → 近距离探测"
+        },
+        {
+          "cn": "关键理解：便宜（前装成本几乎可忽略）、稳定、成熟，曾是全系标配。但只能告诉你「这里有障碍物、离多远」，无法理解「这是柱子还是塑料袋」",
+          "en": "The insight: it's cheap — the front-install cost is nearly negligible — plus stable and mature, so it used to be standard on every trim. But it can only tell you 'there's an obstacle here and it's this far away'; it can't tell a pillar from a plastic bag.",
+          "note": "<span>表达提示</span>standard on every trim → 全系标配；obstacle → 障碍物；negligible cost → 成本可忽略"
+        },
+        {
+          "cn": "典型场景：基础倒车提醒、低速避障、前后泊车辅助",
+          "en": "Typical uses: basic reversing alerts, low-speed obstacle avoidance, and front and rear parking assist.",
+          "note": "<span>表达提示</span>reversing alerts → 倒车提醒；parking assist → 泊车辅助；obstacle avoidance → 避障"
+        },
+        {
+          "cn": "（引用）原文依据：「超声波雷达的眼里，柱子、垃圾桶、猫、塑料袋本质区别不大，对它来讲都是障碍物」",
+          "en": "As the show puts it: 'In the eyes of an ultrasonic radar, a pillar, a trash can, a cat, and a plastic bag are basically the same thing — they're all just obstacles.'",
+          "note": "<span>表达提示</span>in the eyes of → 在…眼里；basically the same → 本质区别不大"
+        },
+        {
+          "cn": "（引用）相关概念：被UWB近场感知取代，理想L9一口气取消12颗",
+          "en": "Related concept: it's being replaced by UWB near-field sensing — the Li L9 dropped all twelve of its ultrasonic sensors at once.",
+          "note": "<span>表达提示</span>near-field sensing → 近场感知；drop / replace → 取消/替换"
+        },
+        {
+          "cn": "原因：①只测距离，无法理解空间语义；②易受雨雪、积水、斜坡、细小障碍物影响（细柱子撞车案例）；③跟不上高阶智驾对空间定位的需求",
+          "en": "Why: first, it only measures distance and can't grasp spatial meaning; second, it's easily confused by rain, snow, standing water, slopes, and thin obstacles — there's a famous case of a car hitting a thin pole; third, it can't keep up with what advanced autonomous driving needs for spatial positioning.",
+          "note": "<span>表达提示</span>spatial meaning → 空间语义；spatial positioning → 空间定位；keep up with → 跟不上"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「全系标配」",
+          "phrases": [
+            "It used to come standard on every model.",
+            "It was standard equipment across the whole lineup."
+          ],
+          "chunks": "come standard on · standard equipment",
+          "usage": "come standard on 更口语"
+        },
+        {
+          "intent": "想说「本质区别不大」",
+          "phrases": [
+            "To it, they're basically all the same.",
+            "It can't tell them apart — they're all just obstacles."
+          ],
+          "chunks": "basically the same · can't tell apart",
+          "usage": "can't tell apart 更直白"
+        },
+        {
+          "intent": "想说「跟不上需求」",
+          "phrases": [
+            "It can't keep up with what ADAS needs.",
+            "It falls short of the spatial positioning new systems require."
+          ],
+          "chunks": "keep up with · fall short of",
+          "usage": "fall short of 偏书面"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title_cn": "二、UWB：精准近场定位的新星",
+      "title_en": "UWB: The New Star of Precise Near-Field Positioning",
+      "context": "The host explains why UWB is replacing ultrasonic sensors. 语域：casual 科普 + 类比。",
+      "speak": "Now UWB. It uses ultra-wideband radio signals for meter-level ranging accuracy, almost immune to temperature and humidity. It can recognize road signs, branches, and pets or toys under 20 centimeters, outputting distance and direction at once. In plain words, it's a really precise near-field positioning technology. Bluetooth knows someone is coming; UWB knows there's a person standing at the left front door, 1.2 meters or 1.1 meters away, moving toward the rear. It evolved from the BMW-led UWB digital key into part of the car's near-field sensing. During auto parking, the camera handles what we see, while UWB handles exact distance. But it solves positional relationships, not world modeling — great for hands-free entry and curb parking, useless at a distance.",
+      "sentences": [
+        {
+          "cn": "超宽带无线电信号实现1米级测距精度，几乎不受温湿度影响。能识别路牌、树枝、低于20cm的宠物/儿童玩具，同步输出距离与方向。但用大白话说，它就是一个特别精准的近场定位技术",
+          "en": "Ultra-wideband radio signals deliver meter-level ranging accuracy, almost unaffected by temperature and humidity. It can recognize road signs, branches, and pets or kids' toys under 20 centimeters, outputting distance and direction at the same time. In plain words, it's just a really precise near-field positioning technology.",
+          "note": "<span>表达提示</span>ultra-wideband → 超宽带；meter-level accuracy → 米级精度；near-field positioning → 近场定位；in plain words → 用大白话说"
+        },
+        {
+          "cn": "（引用）\"蓝牙是知道有人来了，UWB是知道有个人站在左前门，距离1.2米还是1.1米，正在朝车尾方向移动\"",
+          "en": "As the show puts it: 'Bluetooth knows someone is coming. UWB knows there's a person standing at the left front door, whether it's 1.2 meters or 1.1 meters away, and that they're moving toward the rear.'",
+          "note": "<span>表达提示</span>Bluetooth vs UWB → 蓝牙 vs 超宽带；moving toward → 朝…移动"
+        },
+        {
+          "cn": "核心机制：从宝马推动的UWB数字钥匙（无感解锁/上锁）进化到车辆近场感知系统的一部分。自动泊车时：摄像头负责「看见了什么」，UWB负责「精确测距」",
+          "en": "The mechanism: it evolved from the BMW-led UWB digital key for hands-free locking and unlocking into part of the car's near-field sensing. During auto parking, the camera handles 'what we see' while UWB handles 'exact distance.'",
+          "note": "<span>表达提示</span>digital key → 数字钥匙；hands-free unlock → 无感解锁；exact ranging → 精确测距"
+        },
+        {
+          "cn": "关键理解：解决的是位置关系，不是世界建模。适合无感进入、低速避障、贴边停车，远了不行",
+          "en": "The insight: UWB solves positional relationships, not world modeling. It's great for hands-free entry, low-speed obstacle avoidance, and parking tight against a curb — but it's useless at a distance.",
+          "note": "<span>表达提示</span>positional relationship → 位置关系；world modeling → 世界建模；tight against a curb → 贴边停车"
+        },
+        {
+          "cn": "典型场景：无感解锁、自动泊车、离车泊入、窄路通行",
+          "en": "Typical uses: hands-free unlock, auto parking, remote valet parking, and squeezing through narrow lanes.",
+          "note": "<span>表达提示</span>auto parking → 自动泊车；remote valet → 离车泊入；narrow lanes → 窄路"
+        },
+        {
+          "cn": "（引用）原文依据：「UWB解决位置关系而不是世界建模，它充其量用来解决近场感知需求」",
+          "en": "As the show says: 'UWB solves positional relationships, not world modeling — at best, it covers your near-field sensing needs.'",
+          "note": "<span>表达提示</span>at best → 充其量；cover needs → 满足需求"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「用大白话说」",
+          "phrases": [
+            "In plain words, it's precise positioning.",
+            "Put simply, it just tells you exactly where things are."
+          ],
+          "chunks": "in plain words · put simply",
+          "usage": "两者都口语，put simply 更短"
+        },
+        {
+          "intent": "想说「无感解锁」",
+          "phrases": [
+            "The car unlocks as you walk up.",
+            "It's hands-free — no touching the phone."
+          ],
+          "chunks": "unlocks as you walk up · hands-free",
+          "usage": "hands-free 是产品术语"
+        },
+        {
+          "intent": "想说「充其量」",
+          "phrases": [
+            "At best, it handles near-field needs.",
+            "It can't do much beyond close range."
+          ],
+          "chunks": "at best · beyond close range",
+          "usage": "at best 常用"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title_cn": "三、摄像头：看得懂比看得清重要",
+      "title_en": "Cameras: Understanding Beats Resolution",
+      "context": "The host explains why cameras are the most human-like sensor, and its limits. 语域：casual 科普 + 观点对比。",
+      "speak": "Cameras are the sensor closest to the human eye. Musk says people drive with their eyes, so cars should too — that's Tesla's vision-only approach. Chinese automakers mostly don't dare go vision-only, keeping LiDAR fusion instead. But cameras struggle with backlight, heavy rain, snow, fog, glare, and low light — human eyes can barely see at night, let alone a camera. Still, what makes cameras great isn't seeing clearly, it's understanding what they see. Fusing with LiDAR covers the bad-weather gap, and pairing with UWB delivers ranging while parking. Musk strictly controls costs and rejected LiDAR's price; after the 2021 white-truck crash, Tesla went fully vision-only around 2023. But under China's complex road conditions, LiDAR won't be abandoned anytime soon.",
+      "sentences": [
+        {
+          "cn": "核心机制：最接近人眼的传感器。马斯克认为人靠眼睛开车，车也该靠摄像头（特斯拉纯视觉）。中国车企大多不敢走纯视觉，仍保留激光雷达融合方案",
+          "en": "The mechanism: it's the sensor closest to the human eye. Musk argues that people drive with their eyes, so cars should too — that's Tesla's vision-only approach. Most Chinese automakers don't dare go vision-only and still keep LiDAR fusion.",
+          "note": "<span>表达提示</span>vision-only → 纯视觉；closest to the human eye → 最接近人眼；LiDAR fusion → 激光雷达融合"
+        },
+        {
+          "cn": "关键理解：摄像头怕逆光、大雨大雪、浓雾炫光、暗光环境——人眼晚上也看不清，何况摄像头",
+          "en": "The insight: cameras struggle with backlight, heavy rain and snow, fog and glare, and low light — human eyes can barely see at night, let alone a camera.",
+          "note": "<span>表达提示</span>backlight → 逆光；glare → 炫光；low light → 暗光；let alone → 何况"
+        },
+        {
+          "cn": "典型场景：车道识别、交通标志、行人检测、泊车视觉建图",
+          "en": "Typical uses: lane recognition, traffic-sign reading, pedestrian detection, and visual mapping for parking.",
+          "note": "<span>表达提示</span>lane recognition → 车道识别；pedestrian detection → 行人检测；visual mapping → 视觉建图"
+        },
+        {
+          "cn": "（引用）原文依据：「摄像头真正厉害的不是看得清，而是看得懂」",
+          "en": "As the show puts it: 'What makes cameras great isn't seeing clearly — it's understanding what they see.'",
+          "note": "<span>表达提示</span>see clearly vs understand → 看得清 vs 看得懂"
+        },
+        {
+          "cn": "（引用）相关概念：与激光雷达融合弥补恶劣天气短板；与UWB配合实现泊车测距",
+          "en": "Related concepts: fusing with LiDAR covers the weakness in bad weather, and pairing with UWB delivers precise ranging while parking.",
+          "note": "<span>表达提示</span>cover the weakness → 弥补短板；pair with → 与…配合"
+        },
+        {
+          "cn": "马斯克严格控制成本，不接受激光雷达价格。2021年白色卡车事故后，2023年前后特斯拉全面转向纯视觉。但纯视觉在恶劣天气下仍有明显短板，中国复杂路况下激光雷达短期内不会被抛弃",
+          "en": "Musk strictly controls costs and won't accept LiDAR's price. After the 2021 white-truck crash, Tesla went fully vision-only around 2023. But pure vision still has obvious weaknesses in bad weather, so under China's complex road conditions, LiDAR won't be abandoned anytime soon.",
+          "note": "<span>表达提示</span>control costs → 控制成本；complex road conditions → 复杂路况；abandon → 抛弃"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「纯视觉路线」",
+          "phrases": [
+            "Tesla is betting purely on cameras.",
+            "It's a vision-only approach."
+          ],
+          "chunks": "betting purely on cameras · vision-only",
+          "usage": "vision-only 是术语"
+        },
+        {
+          "intent": "想说「何况」",
+          "phrases": [
+            "If humans can barely see at night, a camera has no chance.",
+            "Let alone a camera — a camera is even worse."
+          ],
+          "chunks": "let alone · even worse",
+          "usage": "let alone 最常用"
+        },
+        {
+          "intent": "想说「不会很快被抛弃」",
+          "phrases": [
+            "LiDAR won't be abandoned anytime soon.",
+            "LiDAR is here to stay for now."
+          ],
+          "chunks": "not abandoned anytime soon · here to stay",
+          "usage": "here to stay 更口语"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "title_cn": "四、毫米波雷达：3D与4D的进化",
+      "title_en": "Millimeter-Wave Radar: From 3D to 4D",
+      "context": "The host explains the difference between 3D and 4D millimeter-wave radar. 语域：casual 科普 + 买车建议。",
+      "speak": "Millimeter-wave radar detects targets with electromagnetic waves, doesn't care about weather, and excels at speed and distance. It's like smell — you sense things without eyes, but the eyesight is mediocre. Its three classic metrics are speed, distance, and angle, hence 3D. The problem: 3D only has X and Y — no height. 4D adds the Z axis by measuring the elevation angle, and with higher resolution it builds high-precision point clouds — think Huawei ADS 4.0 or Israel's Arbe Felix 4D. But here's the catch: 4D radar does 30,000 points per second versus 3 million for a 256-line LiDAR. That generational gap means no replacement anytime soon. Highway ACC and AEB auto braking still lean on it heavily, while fine-grained urban modeling still needs LiDAR. When buying, ask the salesperson the difference between 3D and 4D — if they can nail the Z-axis answer, they know their stuff.",
+      "sentences": [
+        {
+          "cn": "核心机制：通过电磁波探测目标，对天气不敏感，擅长测速度和距离。像人的嗅觉——不需要眼睛也能感知，但视力不咋地",
+          "en": "The mechanism: it detects targets with electromagnetic waves, shrugs off weather, and excels at measuring speed and distance. Think of it as smell — you can sense things without eyes, but the 'eyesight' is mediocre.",
+          "note": "<span>表达提示</span>electromagnetic waves → 电磁波；shrug off weather → 对天气不敏感；excels at → 擅长"
+        },
+        {
+          "cn": "（引用）原文依据：「毫米波雷达最典型三个指标：速度、距离、角度——所以叫3D毫米波雷达」",
+          "en": "As the show says: 'Millimeter-wave radar's three classic metrics are speed, distance, and angle — that's why it's called 3D millimeter-wave radar.'",
+          "note": "<span>表达提示</span>three metrics → 三个指标；angle → 角度"
+        },
+        {
+          "cn": "核心机制：3D只有X/Y平面信息，缺少高度。4D通过测量俯仰角获取Z轴，加上分辨率提升，可生成高精度点云图。华为ADS 4.0、以色列Arbe Felix 4D是代表产品",
+          "en": "The mechanism: 3D only has X and Y plane info — no height. 4D measures the elevation angle to get the Z axis, and with better resolution it can build high-precision point clouds. Huawei's ADS 4.0 and Israel's Arbe Felix 4D are the flagship examples.",
+          "note": "<span>表达提示</span>elevation angle → 俯仰角；point cloud → 点云；flagship example → 代表产品"
+        },
+        {
+          "cn": "关键理解：4D测速点率3万点/秒 vs 256线激光雷达300万点/秒，代际差距决定短期内无法替代激光雷达",
+          "en": "The insight: 4D radar emits 30,000 points per second versus 3 million for a 256-line LiDAR — that generational gap means it can't replace LiDAR anytime soon.",
+          "note": "<span>表达提示</span>points per second → 点率；generational gap → 代际差距；256-line LiDAR → 256线激光雷达"
+        },
+        {
+          "cn": "适用边界：高速ACC、AEB主动刹车仍高度依赖；城区精细建模仍需激光雷达",
+          "en": "Where it works: highway ACC and AEB auto braking still lean on it heavily, while fine-grained urban modeling still needs LiDAR.",
+          "note": "<span>表达提示</span>ACC / AEB → 自适应巡航 / 主动刹车；lean on → 依赖；fine-grained → 精细的"
+        },
+        {
+          "cn": "（引用）怎么落地：买车时问销售「3D和4D差在哪」，能答出Z轴高度信息的就是专业销售",
+          "en": "How to use this: when you buy, ask the salesperson 'What's the difference between 3D and 4D?' If they can explain the Z-axis height info, they know their stuff.",
+          "note": "<span>表达提示</span>Z-axis → Z轴高度；know one's stuff → 懂行"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「对天气不敏感」",
+          "phrases": [
+            "Radar shrugs off rain and fog.",
+            "Weather doesn't faze it at all."
+          ],
+          "chunks": "shrug off · doesn't faze it",
+          "usage": "shrug off 形象，口语"
+        },
+        {
+          "intent": "想说「视力不咋地」",
+          "phrases": [
+            "Its 'eyesight' is pretty mediocre.",
+            "It can sense, but the picture is fuzzy."
+          ],
+          "chunks": "mediocre · fuzzy picture",
+          "usage": "fuzzy 更口语"
+        },
+        {
+          "intent": "想说「懂行的销售」",
+          "phrases": [
+            "That salesperson knows their stuff.",
+            "Anyone who nails that answer is a real pro."
+          ],
+          "chunks": "know one's stuff · nail an answer",
+          "usage": "know one's stuff 常用"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "title_cn": "五、激光雷达：贵但不可或缺",
+      "title_en": "LiDAR: Expensive but Indispensable",
+      "context": "The host explains why LiDAR's cost is worth it for complex scenarios. 语域：casual 科普 + 成本吐槽。",
+      "speak": "LiDAR keeps firing laser pulses and builds a 3D map from the return times. Its value isn't what it sees — it's precise ranging plus spatial modeling: what's ahead, how far, what shape. But it's pricey, and that's Musk's biggest concern; it devours compute because the data volume is huge, and repairs cost a fortune — the Li L9 has four units, so a rear-end isn't just a new bumper. It powers urban NOA, highway NOA, spatial understanding, and L4 preparation. Deployment-wise, a semi-solid-state unit sits on the roof as the main radar, while solid-state units cover side and rear blind spots. And it won't be everywhere soon: low-cost cars and base trims skip it — BYD's smart driving for all doesn't mean LiDAR for all — repairs are pricey, and the data drain is real.",
+      "sentences": [
+        {
+          "cn": "核心机制：不断发射激光，根据反射时间建立三维地图。价值不是「看见了什么」，而是精准测距+空间建模——知道前面有什么、多远、轮廓是什么",
+          "en": "The mechanism: it keeps firing laser pulses and builds a 3D map from their return times. Its value isn't 'what it sees' — it's precise ranging plus spatial modeling: knowing what's ahead, how far, and what shape it is.",
+          "note": "<span>表达提示</span>laser pulses → 激光脉冲；return time → 反射时间；spatial modeling → 空间建模"
+        },
+        {
+          "cn": "关键理解：贵（马斯克最大顾虑）、吃算力（数据量巨大）、维修成本高（理想L9四颗激光雷达，追尾不只是换保险杠）",
+          "en": "The insight: it's pricey — Musk's biggest concern — it devours compute because the data volume is huge, and repairs cost a fortune; the Li L9 has four LiDAR units, so a rear-end doesn't just mean a new bumper.",
+          "note": "<span>表达提示</span>devour compute → 吃算力；data volume → 数据量；rear-end → 追尾；bumper → 保险杠"
+        },
+        {
+          "cn": "典型场景：城区NOA、高速NOA、空间理解、L4自动驾驶准备",
+          "en": "Typical uses: urban NOA, highway NOA, spatial understanding, and getting ready for L4 autonomy.",
+          "note": "<span>表达提示</span>urban NOA → 城区领航辅助；L4 autonomy → L4自动驾驶"
+        },
+        {
+          "cn": "（引用）原文依据：「激光雷达的价值不是看见了什么，而是精准测距加上空间建模」",
+          "en": "As the show says: 'LiDAR's value isn't what it sees — it's precise ranging plus spatial modeling.'",
+          "note": "<span>表达提示</span>precise ranging → 精准测距；spatial modeling → 空间建模"
+        },
+        {
+          "cn": "（引用）相关概念：半固态（车顶主雷达）+ 全固态（侧面/尾部补盲）组合部署",
+          "en": "Related concept: semi-solid-state units sit on the roof as the main radar, while solid-state units cover blind spots at the sides and rear.",
+          "note": "<span>表达提示</span>semi-solid-state → 半固态；cover blind spots → 补盲"
+        },
+        {
+          "cn": "原因：①贵，低成本车/低配不会装（比亚迪全民智驾≠全民激光雷达）；②维修成本高；③数据量巨大，非常吃算力和电力",
+          "en": "Why it's not everywhere: first, cost — low-cost cars and base trims skip it, and BYD's 'smart driving for all' doesn't mean 'LiDAR for all'; second, repairs are expensive; third, the data volume is massive, draining compute and power.",
+          "note": "<span>表达提示</span>base trims → 低配；smart driving for all → 全民智驾；drain compute and power → 吃算力和电力"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「吃算力」",
+          "phrases": [
+            "The data volume is a compute hog.",
+            "It eats compute like crazy."
+          ],
+          "chunks": "a compute hog · eat compute",
+          "usage": "hog 口语夸张；devour 书面"
+        },
+        {
+          "intent": "想说「补盲」",
+          "phrases": [
+            "Solid-state units cover the blind spots.",
+            "They watch the sides where the main sensor can't."
+          ],
+          "chunks": "cover blind spots · watch the sides",
+          "usage": "cover blind spots 是术语"
+        },
+        {
+          "intent": "想说「低配不装」",
+          "phrases": [
+            "Base trims don't come with it.",
+            "Cheaper models skip LiDAR entirely."
+          ],
+          "chunks": "base trims · skip entirely",
+          "usage": "skip 口语"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "title_cn": "六、五大传感器横向对比",
+      "title_en": "The Five Sensors Compared",
+      "context": "The host wraps up with fusion strategy and buying advice. 语域：casual 总结 + 买车建议。",
+      "speak": "Here's the big picture: no single sensor is perfect, and no single stack is perfect either. Old-school cars understood the world mechanically; today it's about sensors perceiving the world plus algorithms understanding space. The tech is still iterating fast, with no ceiling in sight, so buy what meets today's needs instead of waiting forever. And remember — what's truly impressive isn't one killer sensor; it's whether the carmaker fuses the best sensors into one system that stays accurate and in control. Before you buy, ask what smart-driving solution it uses, test-drive it, talk to long-time owners, and don't let salespeople wow you with sensor counts.",
+      "sentences": [
+        {
+          "cn": "为什么重要：没有任何一个传感器是完美的，也没有任何一套方案是完美的。以前传统汽车靠机械理解世界，现在拼的是传感器感知世界+算法理解空间的能力",
+          "en": "Why it matters: no single sensor is perfect, and no single stack is perfect. Old-school cars understood the world mechanically; today the game is about sensors perceiving the world plus algorithms understanding space.",
+          "note": "<span>表达提示</span>sensor stack → 传感器方案；perceive the world → 感知世界；understand space → 理解空间"
+        },
+        {
+          "cn": "适用边界：技术仍在快速迭代（天花板看不到），满足当下需求就买，不必无限等待",
+          "en": "Where it stands: the tech is still iterating fast — no ceiling in sight — so buy what meets today's needs instead of waiting forever.",
+          "note": "<span>表达提示</span>no ceiling in sight → 天花板看不到；meet today's needs → 满足当下需求；iterating fast → 快速迭代"
+        },
+        {
+          "cn": "（引用）\"真正厉害的不是某一种传感器很厉害，而是这家车企能不能把最先进的传感器全部融合进来，系统又吃得准、拿捏得住\"",
+          "en": "As the show says: 'What's truly impressive isn't one killer sensor — it's whether the carmaker can fuse the best sensors into one system that stays accurate and in control.'",
+          "note": "<span>表达提示</span>fuse sensors → 融合传感器；stay accurate → 吃得准；stay in control → 拿捏得住"
+        },
+        {
+          "cn": "（引用）怎么落地：买车前先问「用的什么智驾方案」，再试驾体验，多跟老车主沟通，别被销售忽悠传感器数量",
+          "en": "How to use this: before buying, ask what smart-driving solution it uses, test-drive it, talk to long-time owners, and don't let salespeople wow you with sensor counts.",
+          "note": "<span>表达提示</span>smart-driving solution → 智驾方案；test-drive → 试驾；sensor counts → 传感器数量"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「没有完美方案」",
+          "phrases": [
+            "There's no one perfect sensor.",
+            "Every stack has trade-offs."
+          ],
+          "chunks": "no perfect sensor · trade-offs",
+          "usage": "trade-offs 是常用词"
+        },
+        {
+          "intent": "想说「天花板看不到」",
+          "phrases": [
+            "There's no ceiling in sight.",
+            "The tech is still climbing."
+          ],
+          "chunks": "no ceiling in sight · still climbing",
+          "usage": "两种都很口语"
+        },
+        {
+          "intent": "想说「被销售忽悠」",
+          "phrases": [
+            "Don't let salespeople fool you with sensor counts.",
+            "Numbers on a spec sheet don't equal capability."
+          ],
+          "chunks": "fool you · spec sheet numbers",
+          "usage": "spec sheet 指参数表"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "cn": "用「in plain words」说：用大白话说，UWB就是精准的近场定位。",
+      "en": "In plain words, UWB is just precise near-field positioning."
+    },
+    {
+      "cn": "用「let alone」说：人眼晚上都看不清，何况摄像头。",
+      "en": "Human eyes can barely see at night, let alone a camera."
+    },
+    {
+      "cn": "用「know one's stuff」说：能答出Z轴的销售是懂行的。",
+      "en": "A salesperson who explains the Z axis really knows their stuff."
+    },
+    {
+      "cn": "用「cover blind spots」说：全固态雷达负责补盲。",
+      "en": "Solid-state LiDAR units cover the side and rear blind spots."
+    }
+  ],
+  "pitfalls": [
+    {
+      "wrong": "Ultrasonic radar can see the pillar is a pillar.",
+      "right": "Ultrasonic radar knows there's an obstacle, but can't tell a pillar from a plastic bag.",
+      "why": "超声波雷达只能测距离，没有语义理解；see/understand 都指「识别出是什么」，这里必须用 can't tell A from B。"
+    },
+    {
+      "wrong": "UWB can solve the whole world model.",
+      "right": "UWB solves positional relationships, not world modeling.",
+      "why": "世界建模是激光雷达/视觉的活儿；UWB 只管近场位置关系，说反了就违背节目原意。"
+    },
+    {
+      "wrong": "Camera is better than LiDAR because it is cheaper.",
+      "right": "Tesla picked cameras for cost and philosophy, but Chinese makers keep LiDAR for complex road conditions.",
+      "why": "单纯「便宜」不是选择摄像头的唯一原因，还有马斯克的视觉哲学；要给出完整因果。"
+    },
+    {
+      "wrong": "4D radar can replace LiDAR now.",
+      "right": "4D radar's 30,000 points per second is still far below LiDAR's 3 million — no replacement yet.",
+      "why": "点率代际差距是硬数据；「替代」要说明时间与数据依据。"
+    }
+  ],
+  "shifts": [
+    {
+      "before": "以为传感器越多越安全",
+      "after": "决定安全性的是融合质量与算法，不是传感器数量（「拿捏得住」才是关键）"
+    },
+    {
+      "before": "以为激光雷达是智商税，纯视觉足够",
+      "after": "恶劣天气与复杂路况下激光雷达的测距+建模能力短期不可替代"
+    },
+    {
+      "before": "买车被销售用「12个雷达」话术忽悠",
+      "after": "先问智驾方案、再试驾、问老车主，用「3D和4D差在哪」检验销售专业度"
+    }
+  ],
+  "voice": "en-US-JennyNeural",
+  "audio_dir": "audio/en/smart_perception_sensors"
+}

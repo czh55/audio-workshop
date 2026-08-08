@@ -1,0 +1,390 @@
+{
+  "slug": "buy_car_impulse_guide",
+  "date": "2026-06-23",
+  "platform": "小宇宙FM",
+  "title": "便宜不是香，冲动才是贵，这期专治买车上头",
+  "title_en": "Cheap Isn't a Bargain — Impulse Is What Costs You",
+  "eyebrow": "Car Buying & Money · 购车与消费决策",
+  "duration": "41分钟",
+  "source_url": "https://www.xiaoyuzhoufm.com/episode/69e3b75f1d989496e7efabc1",
+  "summary_cn": "三刀答疑五类典型买车上头场景：6万油换电未必省钱、图岳VS5该看标还是看硬件、30万淘途锐3.0T为何不现实、给老人换零跑C10前先问意愿、报KOL名字砍价为何反被套路。核心心法：便宜不是香，冲动才是贵",
+  "summary_en": "The host Three-Dao answers five classic impulse-buying scenarios: trading a 60,000-yuan gas car for an EV doesn't always save money, whether to buy the VW Tuyue or Jetta VS5 for a senior first-time driver, why a 300,000-yuan budget for a used Touareg 3.0T is unrealistic, why you must ask your parents what they want before switching them to a Leapmotor C10, and why dropping a KOL's name at the dealership backfires. The core lesson: cheap isn't automatically good value — impulse is what actually costs you.",
+  "scenes": [
+    {
+      "id": "s1",
+      "title_cn": "Part 1 · 6万油换电：体验降级还是经济升级？",
+      "title_en": "Part 1 · Trading a 60K Gas Car for an EV: Downgraded Experience or Upgraded Economics?",
+      "context": "The host answers a listener question about swapping a 60,000-yuan gas car for an electric one. 语域：casual 答疑 + 算账分析。",
+      "speak": "Trading your 60,000-yuan gas car for an EV isn't the money-saver it looks like. A car now worth 60,000 was probably a hundred-thousand-plus car back then, so with the same budget you only get an A0-segment runabout like the Geely Xingyuan or the BYD Seagull — the chassis feel, driving dynamics, and sound insulation almost certainly take a downgrade. Most of these switches are emotionally driven: the old car feels tired, maintenance feels like a sunk cost, gas keeps climbing, and EV screens are gorgeous. And the math usually doesn't work out. A 70,000-yuan EV loses about 30,000 in value over three years while a comparable gas car loses about 10,000, and the 12,000 yuan you save on fuel can't cover that gap — plus EV insurance tends to cost more.",
+      "sentences": [
+        {
+          "cn": "核心机制：残值6万的油车，当年多半是十几万级别；同等预算只能买到吉利星愿、比亚迪海鸥等A0级小车，底盘质感、驾驶感、隔音几乎必然降级",
+          "en": "A gas car now worth 60,000 yuan was usually a mid-range, hundred-thousand-plus car back then. With the same budget you can only get an A0-segment runabout like the Geely Xingyuan or the BYD Seagull — so the chassis feel, driving dynamics, and sound insulation almost certainly take a downgrade.",
+          "note": "<span>表达提示</span>residual value → 残值；A0-segment → A0级小车；runabout → 代步小车；take a downgrade → 降级"
+        },
+        {
+          "cn": "关键理解：换电动机常来自「油车老了、保养像沉没成本、油价上涨、电车大屏好看」——情绪驱动大于理性算账",
+          "en": "The itch to switch usually comes from 'the gas car is old, maintenance feels like a sunk cost, gas prices keep climbing, and EVs have gorgeous big screens' — emotion drives the decision more than the math.",
+          "note": "<span>表达提示</span>the itch to do sth → 想做某事的冲动；sunk cost → 沉没成本；emotion-driven → 情绪驱动"
+        },
+        {
+          "cn": "典型场景：家里两台车，其中一台6万残值油车想零加钱换电，给女生14km/日通勤代步",
+          "en": "Typical case: a two-car household wants to swap a gas car worth 60,000 yuan for an EV at zero extra cash, as a 14-kilometer daily commuter for the girlfriend.",
+          "note": "<span>表达提示</span>swap A for B → 用A换B；at zero extra cash → 不加钱；commuter → 通勤车"
+        },
+        {
+          "cn": "（引用）原文依据：「你原来十几万的车变成6万买电车，一定是一个A0级的小车……底盘质感驾驶感百分之百是降级的。」",
+          "en": "As the host puts it: 'When a car you originally paid over 100,000 for turns into a 60,000-yuan EV, it's definitely going to be an A0-segment car... the chassis feel and driving dynamics are 100% a downgrade.'",
+          "note": "<span>表达提示</span>as sb puts it → 某人这样说（引用引导）；chassis → 底盘；100% a downgrade → 百分之百降级"
+        },
+        {
+          "cn": "（引用）相关概念：与「增购第二台电车」不同，卖油换电是「资产置换+级别降级」的双重决策",
+          "en": "Unlike adding a second EV, selling your gas car to buy an EV is a double decision — an asset swap plus a downgrade in vehicle class.",
+          "note": "<span>表达提示</span>asset swap → 资产置换；vehicle class → 车辆级别；a double decision → 双重决策"
+        },
+        {
+          "cn": "以7万落地小电车为例：首年卖约5万多（亏近2万），三年总贬损约3万；同场景油车三年贬损约1万出头。日通勤14km≈年5000-10000km，按每公里省4毛算三年省1.2万，抵不过多出的2万贬损，且电车保险通常更贵",
+          "en": "Take a small EV that costs 70,000 yuan on the road: it resells for about 50,000 in year one, a loss of nearly 20,000, and total depreciation over three years hits about 30,000. A comparable gas car would lose only a little over 10,000 in three years. A 14-kilometer daily commute means roughly 5,000 to 10,000 kilometers a year — saving 0.4 yuan per kilometer adds up to about 12,000 yuan over three years, which can't offset the extra 20,000 in depreciation, and EV insurance usually costs more.",
+          "note": "<span>表达提示</span>on the road → 落地价；depreciation → 贬损；offset → 抵销；insurance premium → 保费"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「预算只能买到更低级别的车」",
+          "phrases": [
+            "With the same budget, you only get an A0-segment runabout.",
+            "That money only stretches to a much smaller, lower-tier car."
+          ],
+          "chunks": "only get · the same budget · stretch to",
+          "usage": "stretch to 更口语，「勉强够到」；分析时两者都好用"
+        },
+        {
+          "intent": "想说「情绪驱动大于理性算账」",
+          "phrases": [
+            "The decision is driven by emotion more than by the math.",
+            "It's a heart decision, not a spreadsheet decision."
+          ],
+          "chunks": "driven by emotion · a heart decision · a spreadsheet decision",
+          "usage": "heart vs spreadsheet 对比很形象，日常聊天用"
+        },
+        {
+          "intent": "想说「省下的油钱抵不过贬损」",
+          "phrases": [
+            "The fuel savings can't offset the extra depreciation.",
+            "What you save on gas gets eaten up by the resale loss."
+          ],
+          "chunks": "offset · get eaten up by",
+          "usage": "offset 偏书面；get eaten up by 口语，生动"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title_cn": "Part 2 · 图岳 vs 捷达VS5：给55岁新手长辈怎么选",
+      "title_en": "Part 2 · Tuyue vs Jetta VS5: Picking for a 55-Year-Old First-Time Driver",
+      "context": "The host advises on choosing between the VW Tuyue and Jetta VS5 for a first-time senior driver. 语域：casual 咨询解答 + 长辈购车观察。",
+      "speak": "When it comes to the Tuyue versus the Jetta VS5 for a 55-year-old first-time driver, don't overthink it. Any workshop that can't fix a VW should just close its doors, and in small-town Sichuan the VW badge carries real weight. Mature models rarely have quality-control problems; if your elder worries about life after three years, spending two or three thousand yuan on an extended warranty — sometimes with free maintenance thrown in — is enough. And stop agonizing over the 1.4T versus the 1.5L engine. If he says the car feels sluggish, he might not even know what sluggish means. If he simply says he likes how it looks, just have him swipe the card. It's that simple.",
+      "sentences": [
+        {
+          "cn": "（引用）原文依据：「修不了大众的厂可以关门了……四川小地方大众的标更值钱，不用多解释这是什么车。」",
+          "en": "As the host says: 'Any workshop that can't fix a VW should just close its doors... In small-town Sichuan, the VW badge carries more weight — no need to explain what kind of car it is.'",
+          "note": "<span>表达提示</span>carry weight → 有分量/值钱；badge → 车标；close one's doors → 关门歇业"
+        },
+        {
+          "cn": "成熟车型品控问题不大；若长辈担心三年后市况，花两三千在4S买延保（有时送保养）即可。不必为1.4T vs 1.5L纠结——「他说肉，都可能听不懂肉是什么意思。」",
+          "en": "Mature models rarely have quality-control problems. If your elder worries about what happens after three years, spending two or three thousand yuan on an extended warranty at the dealership — sometimes with free maintenance thrown in — is enough. Don't agonize over the 1.4T versus 1.5L engines: 'If he says the car feels sluggish, he might not even know what sluggish means.'",
+          "note": "<span>表达提示</span>extended warranty → 延保；sluggish → 肉/动力弱；agonize over → 纠结于；quality control → 品控"
+        },
+        {
+          "cn": "（引用）「他只要淡淡说了一句好看，让他直接刷卡，就这么简单。」",
+          "en": "'If he simply says he likes how it looks, just have him swipe the card — it's that simple.'",
+          "note": "<span>表达提示</span>swipe the card → 刷卡；casually say → 淡淡地说；it's that simple → 就这么简单"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「大众标在当地有面子」",
+          "phrases": [
+            "The VW badge carries real weight in small towns.",
+            "The VW logo just holds more value where he lives."
+          ],
+          "chunks": "carry weight · hold value",
+          "usage": "carry weight 指符号价值，非常地道"
+        },
+        {
+          "intent": "想说「不要纠结细微差别」",
+          "phrases": [
+            "Don't agonize over the engine choice.",
+            "Don't sweat the small differences."
+          ],
+          "chunks": "agonize over · sweat the small stuff",
+          "usage": "sweat the small stuff 口语常用；正式场合用 agonize over"
+        },
+        {
+          "intent": "想说「老人喜欢就买，别啰嗦」",
+          "phrases": [
+            "If he likes it, just buy it — no lectures.",
+            "Once he says yes, get the card out and move on."
+          ],
+          "chunks": "just buy it · no lectures",
+          "usage": "no lectures 是「别在旁边说教」的礼貌说法"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title_cn": "Part 3 · 30万淘途锐3.0T：行情透明别为难车贩子",
+      "title_en": "Part 3 · Hunting a Touareg 3.0T at 300K: Transparent Pricing, Don't Squeeze the Dealer",
+      "context": "The host explains why a 300,000-yuan budget for a low-mileage 2022 Touareg 3.0T is unrealistic in a transparent used-car market. 语域：casual 二手车行情分析 + 播客点评。",
+      "speak": "Hunting a 2022 Touareg 3.0T on a 300,000-yuan budget? Let's be realistic. 3.0T owners tend to be guys who know their cars, have money to spare, and don't need Audi's four rings to prove themselves — they use the car for long highway runs, so 20,000 to 30,000 kilometers a year is completely normal. That means under 50,000 kilometers within your budget is almost impossible in today's transparent market; online prices sit at 320,000 to 330,000, and nobody hands over a good car out of the goodness of their heart. As the host puts it: if he could buy one at 290,000, would he be crazy enough to wholesale it for 300,000? So either pay a little more for a clean car and peace of mind, or lower your sights to the 2.0T and higher mileage.",
+      "sentences": [
+        {
+          "cn": "核心机制：买3.0T的多是懂车、不差钱、不需四环标证明自己的老哥，车为长途奔袭，年行驶2-3万公里很正常",
+          "en": "People who buy the 3.0T Touareg usually know their cars, have money to spare, and don't need Audi's four rings to prove themselves. They use it for long highway runs, so 20,000 to 30,000 kilometers a year is completely normal.",
+          "note": "<span>表达提示</span>have money to spare → 不差钱；the four rings → 奥迪四环标；long highway runs → 长途奔袭；prove oneself → 证明自己"
+        },
+        {
+          "cn": "关键理解：22年车至今四年，5万公里以内+30万预算在透明行情下几乎不现实（网价32-33万）；好货不会被「雷锋式」转让",
+          "en": "A 2022 model is now four years old. Under 50,000 kilometers within a 300,000-yuan budget is almost impossible in today's transparent market — online prices sit at 320,000 to 330,000. Good cars don't get handed over to strangers out of the goodness of someone's heart.",
+          "note": "<span>表达提示</span>transparent market → 透明行情；out of the goodness of one's heart → 大发善心（雷锋式的意译）；under … kilometers → 公里数以内"
+        },
+        {
+          "cn": "典型场景：预算30万想要22年低公里3.0T，担心事故车想找媒体找车源",
+          "en": "Typical case: a buyer with 300,000 yuan wants a low-mileage 2022 3.0T, worries about accident-damaged cars, and wants to use a media channel to source one.",
+          "note": "<span>表达提示</span>accident-damaged car → 事故车；source a car → 找车源；low-mileage → 低公里数"
+        },
+        {
+          "cn": "（引用）原文依据：「我要是能29万收到，转手批给同行30万我疯了？……好的东西永远是稀缺的。」",
+          "en": "As the host says: 'If I could buy one at 290,000, would I be crazy enough to wholesale it to a fellow dealer for 300,000? ... Good things are always scarce.'",
+          "note": "<span>表达提示</span>wholesale → 批发/转手；fellow dealer → 同行；scarce → 稀缺的"
+        },
+        {
+          "cn": "（引用）怎么落地：接受32-33万买精品安心；小红书/闲鱼求有缘人；若坚持30万，目标应下调至2.0T或接受更高里程",
+          "en": "How to land it: accept paying 320,000 to 330,000 for a clean car and peace of mind; hunt on Xiaohongshu and Xianyu for a seller who's meant to be; if you insist on 300,000, drop to the 2.0T or accept higher mileage.",
+          "note": "<span>表达提示</span>peace of mind → 安心；lower your sights → 下调目标；meant to be → 有缘"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「预算内根本找不到」",
+          "phrases": [
+            "That combination simply doesn't exist at your budget.",
+            "You're not going to find that spec anywhere near 300,000."
+          ],
+          "chunks": "doesn't exist · anywhere near",
+          "usage": "anywhere near 口语，强调差距很大"
+        },
+        {
+          "intent": "想说「好货不会便宜卖」",
+          "phrases": [
+            "Good cars never go cheap.",
+            "Nobody sells a gem at a giveaway price."
+          ],
+          "chunks": "go cheap · at a giveaway price",
+          "usage": "giveaway price 指「白送价」，很生动"
+        },
+        {
+          "intent": "想说「要么加钱要么降要求」",
+          "phrases": [
+            "Either pay up or lower your expectations.",
+            "You can raise the budget or downgrade the spec — pick one."
+          ],
+          "chunks": "pay up · lower expectations · pick one",
+          "usage": "pick one 适合给出二选一的建议"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "title_cn": "Part 4 · 给老人换零跑C10：先问意愿再谈参数",
+      "title_en": "Part 4 · Switching Your Parents to a Leapmotor C10: Wishes First, Specs Second",
+      "context": "The host warns against 'filial car-buying' that ignores the elderly parent's wishes when upgrading to a Leapmotor C10. 语域：casual 家庭购车决策 + 反套路提醒。",
+      "speak": "Before switching your parents to a Leapmotor C10, ask what they actually want. They may not want an EV at all — waiting at charging stations is hard on presbyopic eyes, and if their legs aren't what they used to be, trekking between home and the charging spot is a real hassle. An 8295 chip and a huge interior are not what elderly drivers actually need. If they want a worry-free car, a 120,000-yuan Toyota or VW gas car does the job. If they insist on the C10, take them on a highway run at 80-plus to test the noise and get an extended warranty, because independent garages are afraid to touch EVs. As the host puts it: listen to your elders — you just pay the bill and stop nagging.",
+      "sentences": [
+        {
+          "cn": "原因：老人可能不想开电车、充电站等待对老花眼不友好、腿脚不便往返家与桩位麻烦；8295芯片、大空间对老人非刚需",
+          "en": "Why: seniors may not want an EV at all; waiting at charging stations is a strain on presbyopic eyes; and if their legs aren't what they used to be, walking between home and the charging spot is a hassle. An 8295 chip and a huge interior space are not what elderly drivers actually need.",
+          "note": "<span>表达提示</span>presbyopic → 老花眼的；not what sb actually needs → 非刚需；a hassle → 麻烦事"
+        },
+        {
+          "cn": "解法：老人要省心→丰田/大众12万油车；若坚持C10，带老人高速80+试隔音，考虑延保（电车修理厂不敢修）",
+          "en": "The fix: if your parents want a worry-free car, a 120,000-yuan Toyota or VW gas car does the job. If they insist on the C10, take them on a highway run at 80-plus to test the noise, and consider an extended warranty — independent garages are afraid to touch EVs.",
+          "note": "<span>表达提示</span>worry-free → 省心的；be afraid to touch → 不敢碰/不敢修；highway run → 高速试驾"
+        },
+        {
+          "cn": "严重程度：致命（忽视意愿的「孝顺式选车」）",
+          "en": "Severity: fatal — this is 'filial car-buying' that ignores the parent's own wishes.",
+          "note": "<span>表达提示</span>filial → 孝顺的；severity → 严重程度；fatal → 致命"
+        },
+        {
+          "cn": "（引用）三刀说法：「给老人换车，听老人的建议……你付的给钱就行了，少在旁边逼逼。」",
+          "en": "As the host puts it: 'When buying a car for your elders, listen to what they want... You just pay the bill and stop nagging on the side.'",
+          "note": "<span>表达提示</span>listen to what they want → 听老人的建议；pay the bill → 掏钱；nag → 唠叨（「逼逼」的得体说法）"
+        },
+        {
+          "cn": "产品层面：半价理想、空间大配置高，无大面积共性投诉；短板是轮胎省成本、高速胎噪路噪偏大。换代等待对老人无意义——「老人要的是代步工具，不是电子产品。」",
+          "en": "On the product itself: it's a half-price Li Auto with big space and rich features, and no widespread complaints. The weak spots are cost-cut tires and louder road and tire noise at highway speeds. Waiting for a facelift is meaningless for seniors — 'what the elderly want is a tool to get around, not an electronic gadget.'",
+          "note": "<span>表达提示</span>half-price … → 半价的…；cost-cut → 省成本的；facelift → 中期改款；get around → 代步"
+        },
+        {
+          "cn": "适用边界：适合预算有限、接受胎噪的年轻家庭；不适合未征得老人同意、无充电条件的场景",
+          "en": "Boundaries: it suits young families with a limited budget who can live with tire noise; it doesn't suit cases where the parents never agreed or there's no place to charge.",
+          "note": "<span>表达提示</span>can live with → 能接受；applicable boundary → 适用边界；charging access → 充电条件"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「先问老人意愿」",
+          "phrases": [
+            "Ask what they want before you decide for them.",
+            "Check with the parents first — their wish comes before the specs."
+          ],
+          "chunks": "check with sb first · wish comes before specs",
+          "usage": "check with 日常口语；正式建议用 consult sb"
+        },
+        {
+          "intent": "想说「老人要的是代步工具」",
+          "phrases": [
+            "What seniors need is a way to get around, not a gadget.",
+            "For the elderly, it's a car, not an electronic toy."
+          ],
+          "chunks": "a way to get around · not a gadget",
+          "usage": "对比句适合强调观点"
+        },
+        {
+          "intent": "想说「别在旁边唠叨」",
+          "phrases": [
+            "Stop nagging and just pay the bill.",
+            "Hand over the wallet and keep quiet."
+          ],
+          "chunks": "stop nagging · hand over the wallet",
+          "usage": "nag 对应唠叨；hand over the wallet 更口语幽默"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "title_cn": "Part 5 · 报三刀名字买车：面子砍价为何反噬",
+      "title_en": "Part 5 · Dropping Three-Dao's Name at the Dealership: Why Name-Dropping Backfires",
+      "context": "The host explains the right way to use his channel for price verification and why name-dropping at the dealership hurts you. 语域：casual 买车实操指南 + 播客自述。",
+      "speak": "If you want to buy through my channel, here's the right way. Never drop my name inside the store — haggle until the salesperson has nothing left to give. Then add my WeChat the next morning and fill out the form with the bottom price, freebies, and subsidies in detail. I verify it through my dealership contacts, and if a better price is possible I connect you; if it's already the floor, you just sign. Dropping my name only hurts you, because once the dealership knows who you're connected to, the negotiating is over. And after you close, don't torture yourself with 'the next dealer might be cheaper' — that's a psychological trap. If you're not even willing to fill out the form, don't take up the channel.",
+      "sentences": [
+        {
+          "cn": "1. 店内绝不先报三刀名字，自己砍到销售「连裤衩子都砍完了」；2. 第二天白天加微信46415254填表（含底价、赠送、补贴明细）；3. 三刀通过店总/销总渠道核验，能更低则对接，已最低则直接定",
+          "en": "First, never drop Three-Dao's name inside the store — haggle until the salesperson has nothing left to give. Second, add the WeChat account 46415254 the next morning and fill out the form, listing the bottom price, freebies, and subsidies in detail. Third, Three-Dao verifies through his dealership contacts; if a better price is possible he connects you, and if it's already the floor, you just sign.",
+          "note": "<span>表达提示</span>drop sb's name → 报某人名字；haggle → 砍价；bottom price → 底价；freebies → 赠品"
+        },
+        {
+          "cn": "（引用）「报我名字吃亏的是你自己……我从来不让人去店里面报我的名字。」",
+          "en": "'Dropping my name only hurts you... I never tell anyone to mention my name inside the store.'",
+          "note": "<span>表达提示</span>mention sb's name → 报名字；backfire → 反噬；end up worse off → 吃亏"
+        },
+        {
+          "cn": "（引用）怎么落地：成交后别拿「下一家更便宜」反噬——同城最低价往往是「下一家报价」的心理陷阱",
+          "en": "How to land it: after you close the deal, don't torture yourself with 'the next dealer might be cheaper' — 'the best price in town' is often a psychological trap built on 'the next quote.'",
+          "note": "<span>表达提示</span>close the deal → 成交；torture oneself → 自我折磨；psychological trap → 心理陷阱"
+        },
+        {
+          "cn": "不卖车赚差价，靠真实销售线索换试驾车便利与广告合作；每月帮粉丝促成十几到几十单，4S店愿给内部底价核验。填表都不愿意，就别占用这条通道",
+          "en": "He doesn't flip cars for a margin — real sales referrals earn him test-drive access and ad partnerships. He helps fans close anywhere from a dozen to dozens of deals a month, so 4S dealerships are willing to verify internal bottom prices. If you're not even willing to fill out the form, don't take up the channel.",
+          "note": "<span>表达提示</span>flip cars → 倒卖车赚差价；referral → 销售线索；internal price → 内部底价；take up the channel → 占用通道"
+        },
+        {
+          "cn": "适用边界：适用于已谈到底价、需「临门一脚」核验；不适用于开口就问「最低多少钱」的报价机器需求",
+          "en": "Boundaries: it works when you've already haggled to a floor price and need that last push of verification; it doesn't work for 'quote-request machines' who open with 'what's the lowest price?'",
+          "note": "<span>表达提示</span>the last push → 临门一脚；quote-request → 只要报价；floor price → 底价"
+        },
+        {
+          "cn": "为什么重要：「便宜」的电车可能是体验降级+贬损加速；「冲动」的砍价报名字可能多花一两千还伤面子",
+          "en": "Why it matters: a 'cheap' EV can mean a downgraded experience plus faster depreciation, and an impulsive name-drop while haggling can cost you an extra thousand or two and bruise your pride.",
+          "note": "<span>表达提示</span>impulsive → 冲动的；an extra thousand or two → 多花一两千；bruise one's pride → 伤面子"
+        }
+      ],
+      "paraphrase": [
+        {
+          "intent": "想说「报名字反而吃亏」",
+          "phrases": [
+            "Name-dropping only ends up hurting you.",
+            "Mentioning his name kills your negotiating power."
+          ],
+          "chunks": "name-dropping · end up hurting · negotiating power",
+          "usage": "name-dropping 是固定说法，社交语境也常用"
+        },
+        {
+          "intent": "想说「砍价砍到不能再低」",
+          "phrases": [
+            "Haggle until the salesperson has nothing left to give.",
+            "Push them down to their absolute floor."
+          ],
+          "chunks": "nothing left to give · absolute floor",
+          "usage": "floor 指价格底线，商业通用"
+        },
+        {
+          "intent": "想说「别事后反悔比较」",
+          "phrases": [
+            "Don't second-guess yourself after you sign.",
+            "Stop comparing prices once the deal is done."
+          ],
+          "chunks": "second-guess · after the deal is done",
+          "usage": "second-guess 指事后怀疑自己的决定"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "cn": "用「carry weight」说：在小地方大众标很有分量。",
+      "en": "The VW badge carries real weight in small-town Sichuan."
+    },
+    {
+      "cn": "用「either…or」二选一说：要么加钱，要么降要求。",
+      "en": "Either raise your budget or lower your expectations — you can't have both at 300,000."
+    },
+    {
+      "cn": "用「ask what they want」说：换车前先问老人意愿。",
+      "en": "Before switching your parents to an EV, ask what they actually want."
+    },
+    {
+      "cn": "用「name-dropping」说：在店里报博主名字会反噬。",
+      "en": "Name-dropping the KOL at the dealership is the fastest way to lose your leverage."
+    }
+  ],
+  "pitfalls": [
+    {
+      "wrong": "The EV is cheap, so it must save money.",
+      "right": "The EV is cheaper to run, but the depreciation more than eats up the savings.",
+      "why": "cheap 只表达价格低；购车语境要分「使用成本」与「贬值」两条线，省油钱 ≠ 省钱。"
+    },
+    {
+      "wrong": "The car's meat is not good.",
+      "right": "The car feels sluggish on acceleration.",
+      "why": "中文「肉」不能直译成 meat；英文用 sluggish / unresponsive / gutless 描述动力不足。"
+    },
+    {
+      "wrong": "He is a Lei Feng, so he will sell it cheap to me.",
+      "right": "Good cars don't get sold cheap out of the goodness of someone's heart.",
+      "why": "「雷锋式转让」是中文语境；英文用 out of the goodness of one's heart 表达「大发善心」。"
+    },
+    {
+      "wrong": "Don't B-B in front of the old man.",
+      "right": "Don't nag your elders — just pay the bill and let them decide.",
+      "why": "「逼逼」是网络口语，英文对应 nag / lecture；B-B 不是英语，要用得体表达。"
+    }
+  ],
+  "shifts": [
+    {
+      "before": "以为 6 万油换电是在省钱",
+      "after": "算清折旧与体验降级后，很多「省钱」换电其实是多花钱"
+    },
+    {
+      "before": "以为长辈买车看参数、看性价比",
+      "after": "老人要的是省心代步工具，意愿优先于任何参数"
+    },
+    {
+      "before": "以为报博主名字砍价有面子、能拿到更低",
+      "after": "报名字只会让销售知道你的底牌，砍价空间立刻消失"
+    }
+  ],
+  "voice": "en-US-JennyNeural",
+  "audio_dir": "audio/en/buy_car_impulse_guide"
+}
