@@ -1,9 +1,82 @@
-{
-  "title": "012. 全季酒店：取一瓢东方美学，做全球代入的体面",
-  "audio_url": "https://media.xyzcdn.net/G8IC8Ss_IrIoA4A0zGfZ9Nkg1jOyWufXwqG8dA.m4a",
-  "duration": "48:58",
-  "duration_seconds": 2938,
-  "source_url": "https://www.xiaoyuzhoufm.com/episode/691481ac6018cc2c9885eaa1",
-  "extraction_timestamp": "2026-06-23T05:36:00Z",
-  "status": "success"
-}
+[
+  {
+    "id": "6a6c3d95b581962ce2be66f5",
+    "url": "https://www.xiaoyuzhoufm.com/episode/6a6c3d95b581962ce2be66f5",
+    "title": "Vol.36 谁说男人不会花钱？理性的尽头是个性 | Why Pay - 消费启示录",
+    "audio_url": "https://media.xyzcdn.net/668f43c2bad4d824d8b95649/lq3Fx48hLVsUbHEsk9M7EMmY6-Uh.m4a",
+    "duration_sec": 4300,
+    "slug": "why-pay-consumer-vol36"
+  },
+  {
+    "id": "6a738d0eab3a91c24a107895",
+    "url": "https://www.xiaoyuzhoufm.com/episode/6a738d0eab3a91c24a107895",
+    "title": "华境S到底值不值丨15万的“三折问界”，怎么就成了20万的宝骏？ - 百车全说丨别人研究车，而我研究你！",
+    "audio_url": "https://media.xyzcdn.net/5e4aa684418a84a046bfcbc0/luoCfXF9qqdVaU3Zx9XgDhFJkpEm.m4a",
+    "duration_sec": 3270,
+    "slug": "huajing-s-value"
+  },
+  {
+    "id": "68ca55762c82c9dccacf9689",
+    "url": "https://www.xiaoyuzhoufm.com/episode/68ca55762c82c9dccacf9689",
+    "title": "日本人的便利店，就像童年的小卖部｜Vol.10 - 范来张口FM",
+    "audio_url": "https://media.xyzcdn.net/687bafcee1b542f079fc420a/ljOP-iMHMHSXVfsAheWrVUTozMe3.m4a",
+    "duration_sec": 2381,
+    "slug": "japan-convenience-store"
+  },
+  {
+    "id": "6a6571816356eb2d9be867cb",
+    "url": "https://www.xiaoyuzhoufm.com/episode/6a6571816356eb2d9be867cb",
+    "title": "Vol.30 为什么牛市反而让你焦躁，因为人的欲望是三角形的 - 重阳Talk",
+    "audio_url": "https://media.xyzcdn.net/66d678924a0f950f841c4a8d/llu7ZUW3AaQyt5MkwcCxULOgCvyc.m4a",
+    "duration_sec": 1012,
+    "slug": "bull-market-desire"
+  },
+  {
+    "id": "6a54e4a827a4eec16c400c7e",
+    "url": "https://www.xiaoyuzhoufm.com/episode/6a54e4a827a4eec16c400c7e",
+    "title": "25 中国人为什么不敢花钱？贾康谈消费、房价与经济信心 - 武财人",
+    "audio_url": "https://media.xyzcdn.net/67da93ceee831906444a1fa5/ll7GtohQPYlx_IfYRpA40bdQGavY.m4a",
+    "duration_sec": 4297,
+    "slug": "china-consumption-confidence"
+  },
+  {
+    "id": "6a672ec356a3f3491ba5ba89",
+    "url": "https://www.xiaoyuzhoufm.com/episode/6a672ec356a3f3491ba5ba89",
+    "title": "对话汪顺、叶诗文、何峻毅、张翼祥｜有些好感受，只有一起才会有 - 对话好状态",
+    "audio_url": "https://media.xyzcdn.net/66dfdc9dbfd7110df48f5b9a/ltwHVCJvvS5X0G4iBm4Njq3exYtV.m4a",
+    "duration_sec": 5151,
+    "slug": "good-feelings-together"
+  },
+  {
+    "id": "6a6e5037ab3a91c24a0e471b",
+    "url": "https://www.xiaoyuzhoufm.com/episode/6a6e5037ab3a91c24a0e471b",
+    "title": "在日本，慢慢过出了属于我们的夏天｜Vol.55 - 范来张口FM",
+    "audio_url": "https://media.xyzcdn.net/687bafcee1b542f079fc420a/lk-w141ZisRyhRmg6P9co7WjrAAg.m4a",
+    "duration_sec": 5327,
+    "slug": "japan-summer-life"
+  },
+  {
+    "id": "697e2d43b4be4c149b686d29",
+    "url": "https://www.xiaoyuzhoufm.com/episode/697e2d43b4be4c149b686d29",
+    "title": "汇率暴跌，物价疯涨：聊聊日本十年间的物价变化｜Vol.29 - 范来张口FM",
+    "audio_url": "https://media.xyzcdn.net/687bafcee1b542f079fc420a/lk-66QmrrpwNAS9Is1mtGe_epQL7.m4a",
+    "duration_sec": 4335,
+    "slug": "japan-price-changes"
+  },
+  {
+    "id": "6a5746a9016dcc7e0542955e",
+    "url": "https://www.xiaoyuzhoufm.com/episode/6a5746a9016dcc7e0542955e",
+    "title": "VOL60 如何把一个看似遥远的目标，变成立刻可以迈出的第一步 - 另辟西径",
+    "audio_url": "https://media.xyzcdn.net/674935cfe9dd2ca54c03ac15/lmyVlVO_Yh3uTGfv5hXJi3CUnYQF.m4a",
+    "duration_sec": 2531,
+    "slug": "distant-goal-first-step"
+  },
+  {
+    "id": "6a5f0d4a6356eb2d9be5ed12",
+    "url": "https://www.xiaoyuzhoufm.com/episode/6a5f0d4a6356eb2d9be5ed12",
+    "title": "EP02｜我们为什么花钱让超市替自己做选择 - 逛街专家",
+    "audio_url": "https://media.xyzcdn.net/6a1ef9bc6979cc18d9615588/lt4whOzElGz9VnWlxca7PP_2u-bm.m4a",
+    "duration_sec": 2634,
+    "slug": "supermarket-choice"
+  }
+]
