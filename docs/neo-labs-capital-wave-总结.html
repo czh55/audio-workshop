@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>亲历中美neo labs资本狂潮：AI for AI、机制可解释性和Max Tegmark</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:20px 28px;text-align:center;min-width:160px;font-weight:700;font-size:16px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3{color:#92400e;margin-bottom:8px}
+.correction p{color:#92400e;font-size:15px}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card.card-red{border-left-color:#ef4444}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.speaker{display:inline-block;font-size:13px;font-weight:600;padding:2px 10px;border-radius:12px;margin-right:8px}
+.speaker-host{background:#dbeafe;color:#1e40af}
+.speaker-guest{background:#ede9fe;color:#6b21a8}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}
+.html-toolbar{position:sticky;top:0;z-index:100;display:flex;align-items:center;gap:16px;padding:12px 20px;background:rgba(248,250,252,.92);backdrop-filter:blur(8px);border-bottom:1px solid #e2e8f0;font-family:"PingFang SC","Microsoft YaHei",sans-serif}
+.html-toolbar .back-link{font-size:14px;color:#3b82f6;text-decoration:none;white-space:nowrap;font-weight:600}
+.html-toolbar .back-link:hover{text-decoration:underline}
+.html-toolbar-title{flex:1;font-size:14px;font-weight:600;color:#1e293b;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.html-toolbar .html-audio{width:260px;height:36px;border-radius:8px}
+.html-toolbar .html-svg-link{font-size:13px;color:#64748b;text-decoration:none;white-space:nowrap}
+.html-toolbar .html-svg-link:hover{color:#3b82f6;text-decoration:underline}
+@media (max-width:640px){
+  .html-toolbar{flex-wrap:wrap;gap:10px;padding:10px 12px}
+  .html-toolbar-title{flex-basis:100%;order:-1;font-size:13px}
+  .html-toolbar .html-audio{width:100%}
+}
+
+body{padding:0!important;margin:0!important}
+.container{padding:48px 60px}
+@media (max-width:640px){.container{padding:16px 12px!important}.container{max-width:100%!important}h1{font-size:24px!important}h2,.sec-title{font-size:18px!important}h3{font-size:16px!important}p,li{font-size:14px!important}.summary-line{font-size:15px!important;padding:14px 16px!important}.map,.card,.timeline{padding:16px!important;margin-bottom:16px!important}.map h2{font-size:18px!important}.diagram{gap:10px!important;padding:10px 0!important}.node{min-width:100px!important;padding:12px 16px!important;font-size:13px!important}.arrow{font-size:18px!important}.conclusion{padding:20px!important}.footer{padding:20px 0 12px!important}}
+</style>
+</head>
+<body>
+<div class="html-toolbar">
+  <a class="back-link" href="index.html">← 返回首页</a>
+  <div class="html-toolbar-title">亲历中美neo labs资本狂潮：AI for AI、机制可解释性和Max Tegmark</div>
+  <audio controls preload="metadata" class="html-audio" src="audio/neo-labs-capital-wave.mp3">您的浏览器不支持音频播放</audio>
+  <a class="html-svg-link" href="viewer.html?f=neo-labs-capital-wave-总结.svg" target="_blank">SVG 版 ↗</a>
+</div>
+<div class="container">
+
+<h1>亲历中美neo labs资本狂潮：AI for AI、机制可解释性和Max Tegmark</h1>
+<div class="meta">
+  <span class="tag tag-blue">AI/科技</span>
+  <span class="tag tag-purple">深度访谈</span>
+  <span class="tag tag-orange">约1小时50分</span>
+  <span class="tag tag-green">张小珺Jùn</span>
+</div>
+<div class="summary-line">清华AI助理教授刘子鸣（KAN网络一作）从MIT到Stanford再到回国创业，亲述中美neo labs资本狂潮的内在逻辑：为什么2026年中美两边的年轻研究者纷纷放弃大厂"大头兵"路径，涌入世界模型和Auto Research（AI for AI）赛道？以及他探索的一条非典型「Physics of AI → Automated Physics of AI → Meta Model」路线。</div>
+
+<div class="timeline">
+  <h3>关键时间轴</h3>
+  <div class="timeline-item"><span class="timeline-time">02:00</span><span class="timeline-text">刘子鸣自我介绍：北大物理→MIT→清华任教，KAN网络一作</span></div>
+  <div class="timeline-item"><span class="timeline-time">08:24</span><span class="timeline-text">研究者的类型："鸟人"vs"蛙人"，自己和Max都是典型鸟人</span></div>
+  <div class="timeline-item"><span class="timeline-time">10:24</span><span class="timeline-text">KAN网络诞生故事：两周做出原型，用可视化说服Max</span></div>
+  <div class="timeline-item"><span class="timeline-time">16:18</span><span class="timeline-text">核心执念：让模型设计本身成为一门可scale的科学</span></div>
+  <div class="timeline-item"><span class="timeline-time">28:00</span><span class="timeline-text">MIT→Stanford：信阳从scientist转为entrepreneur</span></div>
+  <div class="timeline-item"><span class="timeline-time">37:11</span><span class="timeline-text">中美neo labs涌现本质：人才选择 + 当前范式痛点</span></div>
+  <div class="timeline-item"><span class="timeline-time">42:41</span><span class="timeline-text">资本涌入最活跃两方向：世界模型 + Auto Research</span></div>
+  <div class="timeline-item"><span class="timeline-time">46:51</span><span class="timeline-text">vs 田渊栋RSI：更聪明 vs 更勤奋，两条正交路线</span></div>
+  <div class="timeline-item"><span class="timeline-time">54:53</span><span class="timeline-text">圆模型（Meta Model）：预测下一个curve，终极目标发现新架构</span></div>
+  <div class="timeline-item"><span class="timeline-time">1:04:20</span><span class="timeline-text">Physics of AI三轴：空间更细、时间演化、平行宇宙（控制实验）</span></div>
+  <div class="timeline-item"><span class="timeline-time">1:26:25</span><span class="timeline-text">中美AI for AI团队路线梳理全景</span></div>
+</div>
+
+<div class="map">
+  <h2>核心脉络</h2>
+  <div class="diagram">
+    <div class="node">Physics of AI<br/>（理解AI的原理）</div>
+    <div class="arrow">→</div>
+    <div class="node node-green">Auto Research<br/>（AI自动化做研究）</div>
+    <div class="arrow">→</div>
+    <div class="node node-orange">Meta Model<br/>（预测下一个曲线）</div>
+    <div class="arrow">→</div>
+    <div class="node">Training Autopilot<br/>（人人可训模型）</div>
+  </div>
+</div>
+
+<div class="correction">
+  <h3>认知纠偏</h3>
+  <p>AI for AI ≠ 让AI写paper的paper agent。刘子鸣的路线是：先理解AI（Physics of AI），再自动化这个过程（Auto Research），最终找到一个能预测模型性能的元模型（Meta Model）。核心分歧在于是否需要引入符号/结构主义作为中间步骤。</p>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">1. Neo Labs 为什么在2026年井喷？</h2>
+  <div class="card">
+    <h3>人才选择的三岔路口</h3>
+    <p><b>学界</b>：大多也会在业界跨一脚，但资源有限</p>
+    <p><b>大厂/模型厂</b>：当"大头兵"，参与的是别人的叙事</p>
+    <p><b>自己出来单干</b>：建立自己的范式</p>
+    <p><b>关键驱动</b>：顶尖人才不想做"大头兵"，觉得下一个transformer级别的范式可以是"我的路线"</p>
+  </div>
+  <div class="card card-purple">
+    <h3><span class="speaker speaker-guest">嘉宾观点</span> 当前范式的两个盲区</h3>
+    <p><b>Auto Research</b>：coding已经非常成功了，下一步自然是automate research。但research不像coding那样高度结构化——research的语言还没被创造出来。</p>
+    <p><b>世界模型</b>：需要设计很新颖的架构，不是"堆资源堆工程"就能解决的，需要大量前期research。</p>
+    <div class="quote">"当前范式的痛点就是现在范式的missing part。这些地方不是你上来堆资源堆工程就能做成的。"</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">2. Physics of AI：用物理学方法论理解AI</h2>
+  <div class="card">
+    <h3>三个维度：空间、时间、平行宇宙</h3>
+    <p><b>空间上看得更细</b>：不只看端到端行为，也看内部神经元、内部表征</p>
+    <p><b>时间上演化</b>：不只看最后的checkpoint，也看模型如何演化过来——"Nothing in biology makes sense except in light of evolution"</p>
+    <p><b>平行宇宙（控制实验）</b>：不同超参数训练不同模型，绘制"相图"——每个trick只在特定的"相"里work</p>
+    <div class="highlight">核心洞察：AI里有很多"相"（如水有固态液态气态）。大家混乱是因为所有人都在说"我的trick work"，但没人回答"在什么条件下work"。Physics of AI的任务就是理清适用条件。</div>
+  </div>
+  <div class="card card-orange">
+    <h3>Anthropic机制可解释性：尊重但不盲从</h3>
+    <p>Anthropic的方法：把混合表征升到高维稀疏空间，提取原子概念（如"说脏话的neuron"）</p>
+    <div class="pitfall">局限：换一个随机种子，同样的neuron可能就不存在了。这些故事"不够robust"，过于微观但不够鲁棒。</div>
+    <p>刘子鸣团队2022-2024年也大量做过类似工作，后来意识到这些发现类似于"AI的生物学"——没有自动化手段支持，需要几百年的古法科研。</p>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">3. 刘子鸣的路线：从KAN到Meta Model</h2>
+  <div class="card">
+    <h3>KAN网络：嫁接神经与符号的起点</h3>
+    <p><b>诞生故事</b>：2024年，基于Kolmogorov-Arnold定理设计了KAN网络。Max一开始不同意，因为1989年Tomaso Poggio就写了论文说这个定理无法变成有效算法。</p>
+    <p><b>物理学家思维</b>：不关心worst case，关心一般情况——"我们生活的宇宙不是最坏的宇宙，我们有漂亮的物理结构"</p>
+    <div class="quote">"All models are wrong but some are useful. 物理关心的东西都有漂亮的内部结构，这些不是最坏情况。"</div>
+    <p><b>核心执念</b>：模型设计本身应该是一门科学，不应该靠拍脑袋。transformer、GAN、ResNet都是"拍脑袋拍出来的"，这非常不scalable。</p>
+  </div>
+  <div class="card card-purple">
+    <h3><span class="speaker speaker-guest">嘉宾自述</span> Meta Model（圆模型）：把自己当模型训练了60天</h3>
+    <p>2026年初，刘子鸣做了一个"自我人体实验"：每天随机抽一个模型+数据集，在自己做实验之前先预测训练曲线会长什么样。</p>
+    <p><b>结果</b>：一开始完全不准。训练到四五十天后，开始变准了——甚至从language的实验迁移预测到vision的实验也能猜对。</p>
+    <div class="quote">"我大概做了60天，每天做。我把自己当成一个圆模型在训练。四五十天之后我突然grok了——我突然顿悟了。这让我相信圆模型是可能的。"</div>
+    <p><b>圆模型定义</b>：输入=模型架构+数据集+优化器，输出=训练曲线。目标是让自己拷贝一份，不需要睡觉吃饭，可以24小时观察实验并预测。</p>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">4. 技术路线对比</h2>
+  <div class="card">
+    <table>
+      <tr><th>维度</th><th>刘子鸣/圆环智能</th><th>田渊栋/RSI</th><th>孙天祥/百度</th></tr>
+      <tr><td>核心目标</td><td>用AI找到下一个架构（更聪明）</td><td>用coding agent加速科研迭代（更勤奋）</td><td>paper agent：自动写AI论文</td></tr>
+      <tr><td>方法哲学</td><td>先理解（Physics of AI），再加速（Auto Research）</td><td>强化memory系统，记住失败经验</td><td>Language is the whole world，用LLM统一一切</td></tr>
+      <tr><td>是否引入结构主义</td><td>是（短期必须，Bitter Lesson）</td><td>偏向经验驱动，不强调机制理解</td><td>偏向端到端，不引入额外结构</td></tr>
+      <tr><td>关键分歧</td><td colspan="3">不先理解为什么失败，昨天的经验明天可能就不适用（原因A→原因B变化）</td></tr>
+      <tr><td>关系判断</td><td colspan="3">两条路线正交而非冲突："更聪明"和"更勤奋"最终都需要，未来可能整合</td></tr>
+    </table>
+    <div class="highlight">刘子鸣对田渊栋路线的关键质疑：如果你的系统只记住了"昨天调学习率失败了"，但不理解为什么失败，那么今天失败可能是因为另一个完全不同的原因——"知道what不够，还需要知道why"。</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">5. AI认知的三个时代：从地谷到牛顿</h2>
+  <div class="card">
+    <h3>天文学三阶段类比</h3>
+    <table>
+      <tr><th>阶段</th><th>天文学</th><th>AI对应</th></tr>
+      <tr><td>第谷阶段</td><td>大量观测记录星星位置</td><td>我们可能还没到——因为过度聚焦transformer这一片"星区"</td></tr>
+      <tr><td>开普勒阶段</td><td>拟合椭圆轨道，发现经验定律</td><td>Scaling Law就是我们为数不多的"开普勒定律"</td></tr>
+      <tr><td>牛顿阶段</td><td>引力公式统一所有定律</td><td>AI的牛顿还未出现，Physics of AI就是奔着这个去的</td></tr>
+    </table>
+    <div class="relation">核心判断：我们可能处于第0.5-1.5阶段之间。取决于你怎么衡量——经验规律还太少（1.5），但数据多样性也还不够（0.5）。</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">6. 结构化Research：O-P-H-I-S方法论</h2>
+  <div class="card">
+    <h3>五步研究结构化框架</h3>
+    <p><b>O - Observation</b>：观察到了什么现象</p>
+    <p><b>P - Problem</b>：这个现象预示系统中有什么问题</p>
+    <p><b>H - Hypothesis</b>：关于这个问题有什么假设</p>
+    <p><b>I - Intervention</b>：假设告诉我们应该做什么操作</p>
+    <p><b>S - Speed up</b>：操作是否真的带来了训练提升</p>
+    <div class="highlight">核心逻辑：首先要创造一门"研究的语言"——把科研思维链结构化。有了结构化数据后，就可以像训练语言模型一样训练research语言模型。但当前99%的论文不包含清晰的思维链。</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">7. 创业体感：融资与产品</h2>
+  <div class="card card-purple">
+    <h3><span class="speaker speaker-guest">嘉宾体感</span> "太疯狂了"——2026年一级市场</h3>
+    <p><b>融资状态</b>：种子轮→加轮→加加轮→加加加轮，可以无限加下去。上一轮投资人没进来就开下一轮。</p>
+    <p><b>归类标签</b>：投资人常把他们归入AI for Science，但实际路线是AI for AI / Auto Research</p>
+    <div class="quote">"大家都在相互打探消息，投项目的动作都非常快。"</div>
+  </div>
+  <div class="card">
+    <h3>产品路线图：Training Autopilot</h3>
+    <p><b>6-12个月</b>：R&amp;D + 产品雏形，探索最佳方向</p>
+    <p><b>1年后</b>：开始产品化与商业化</p>
+    <p><b>终极愿景</b>："Vibe Training"——用户只需要说需求，系统端到端设计→训练→部署模型。不一定是LM，是各类垂直领域模型。</p>
+    <div class="quote">"不是自己做一家OpenAI，而是能孵化各行各业各个垂直领域的OpenAI。"</div>
+  </div>
+</div>
+
+<div class="conclusion">
+  <h2>总结与行动</h2>
+  <h3>核心要点</h3>
+  <ul>
+    <li>Neo labs井喷本质：顶尖人才拒绝当"大头兵" + 当前范式存在Auto Research和世界模型两个明显盲区</li>
+    <li>Physics of AI三个维度：空间（内部表征）、时间（训练演化）、平行宇宙（控制实验/相图）</li>
+    <li>圆模型（Meta Model）：预测训练曲线的模型，终极目标是让AI自己发现下一个transformer级别架构</li>
+    <li>结构化research（O-P-H-I-S）是AI for AI的先决条件——缺乏结构化科研数据是最大的瓶颈</li>
+    <li>刘子鸣路线 vs 田渊栋RSI是正交互补的：更聪明 vs 更勤奋，最终需要整合</li>
+  </ul>
+  <h3>行动清单</h3>
+  <ol>
+    <li>关注AI for AI赛道的中美创业团队动态（世界模型 + Auto Research）</li>
+    <li>如果你做AI研究，尝试用O-P-H-I-S方法论记录自己的思维链</li>
+    <li>重新审视Scaling Law的局限——它只是"开普勒定律"，远未到"牛顿定律"</li>
+    <li>理解Bitter Lesson的真正含义：短期需要结构，长期数据多了结构就没那么重要</li>
+  </ol>
+  <h3>关键认知转变</h3>
+  <p>以前认为AI的进步靠"拍脑袋"和"scaling"，现在理解了需要一门关于AI本身的科学（Physics of AI）。模型设计不是一个艺术，而是一门可以被结构化、自动化、规模化的科学。</p>
+</div>
+
+<div class="footer">来源：张小珺Jùn｜商业访谈录 · 小宇宙FM · 2026年7月</div>
+
+</div>
+</body>
+</html>

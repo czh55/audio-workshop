@@ -390,6 +390,24 @@ python3 scripts/generate_svg_audio.py --pregnancy   # 孕期全攻略专题
 
 ---
 
+## Step 6.6：生成 HTML 版本（SVG 保持不变）
+
+SVG 不变的前提下，为每篇播客总结另生成一份独立 HTML（相同内容，含顶栏 / 音频播放器 / SVG 版切换，自动适配移动端）。
+
+```bash
+python3 scripts/svg-to-html.py            # 全部 docs/*.svg（排除 topics/）
+python3 scripts/svg-to-html.py foo-总结.svg   # 单篇
+```
+
+产出：`docs/{slug}-总结.html`（与 SVG 同名不同扩展名）。
+
+- 首页卡片自动出现「📄 HTML 版」链接（`index.html` 由 `filename.replace(/\.svg$/i, '.html')` 推导，无需改 index.json）
+- HTML 内顶部工具栏提供「SVG 版 ↗」回链到 `viewer.html?f=...svg`
+- 若 `docs/audio/{slug}.mp3` 存在则自动内嵌播放器
+- 孕期专题（topics/）不在此范围
+
+---
+
 ## Step 7：质量自检
 
 - [ ] 每张卡片能回答"在问什么、关键理解、怎么用"

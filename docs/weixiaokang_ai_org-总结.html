@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>少有的深度参与过字节、美团组织建设的人｜对谈 AI 创业者魏小康</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,0.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:20px 28px;text-align:center;min-width:160px;font-weight:700;font-size:16px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3{color:#92400e;margin-bottom:8px}
+.correction p{color:#92400e;font-size:15px}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,0.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.speaker{display:inline-block;font-size:13px;font-weight:600;padding:2px 10px;border-radius:12px;margin-right:8px}
+.speaker-host{background:#dbeafe;color:#1e40af}
+.speaker-guest{background:#ede9fe;color:#6b21a8}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,0.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,0.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,0.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}
+.html-toolbar{position:sticky;top:0;z-index:100;display:flex;align-items:center;gap:16px;padding:12px 20px;background:rgba(248,250,252,.92);backdrop-filter:blur(8px);border-bottom:1px solid #e2e8f0;font-family:"PingFang SC","Microsoft YaHei",sans-serif}
+.html-toolbar .back-link{font-size:14px;color:#3b82f6;text-decoration:none;white-space:nowrap;font-weight:600}
+.html-toolbar .back-link:hover{text-decoration:underline}
+.html-toolbar-title{flex:1;font-size:14px;font-weight:600;color:#1e293b;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.html-toolbar .html-audio{width:260px;height:36px;border-radius:8px}
+.html-toolbar .html-svg-link{font-size:13px;color:#64748b;text-decoration:none;white-space:nowrap}
+.html-toolbar .html-svg-link:hover{color:#3b82f6;text-decoration:underline}
+@media (max-width:640px){
+  .html-toolbar{flex-wrap:wrap;gap:10px;padding:10px 12px}
+  .html-toolbar-title{flex-basis:100%;order:-1;font-size:13px}
+  .html-toolbar .html-audio{width:100%}
+}
+
+body{padding:0!important;margin:0!important}
+.container{padding:48px 60px}
+@media (max-width:640px){.container{padding:16px 12px!important}.container{max-width:100%!important}h1{font-size:24px!important}h2,.sec-title{font-size:18px!important}h3{font-size:16px!important}p,li{font-size:14px!important}.summary-line{font-size:15px!important;padding:14px 16px!important}.map,.card,.timeline{padding:16px!important;margin-bottom:16px!important}.map h2{font-size:18px!important}.diagram{gap:10px!important;padding:10px 0!important}.node{min-width:100px!important;padding:12px 16px!important;font-size:13px!important}.arrow{font-size:18px!important}.conclusion{padding:20px!important}.footer{padding:20px 0 12px!important}}
+</style>
+</head>
+<body>
+<div class="html-toolbar">
+  <a class="back-link" href="index.html">← 返回首页</a>
+  <div class="html-toolbar-title">少有的深度参与过字节、美团组织建设的人｜对谈 AI 创业者魏小康</div>
+  <audio controls preload="metadata" class="html-audio" src="audio/weixiaokang_ai_org.mp3">您的浏览器不支持音频播放</audio>
+  <a class="html-svg-link" href="viewer.html?f=weixiaokang_ai_org-总结.svg" target="_blank">SVG 版 ↗</a>
+</div>
+<div class="container">
+
+<h1>少有的深度参与过字节、美团组织建设的人｜对谈 AI 创业者魏小康</h1>
+<div class="meta">
+  <span class="tag tag-blue">播客</span>
+  <span class="tag tag-purple">组织建设</span>
+  <span class="tag tag-orange">招聘</span>
+  <span class="tag tag-green">AI创业</span>
+  <span class="tag tag-gray">50分21秒</span>
+</div>
+<div class="summary-line">前字节（2017-2020）与美团（2020-2026）招聘负责人魏小康，从稀缺的双公司内部视角拆解组织与人：优秀创始人的五维画像、字节 OKR 与美团运营计划的两套逻辑、招聘应把 60-80% 精力花在扩供给与背调而非面试，以及 AI 时代 OPC 不靠谱、程序员必须会 AI coding 的硬门槛。</div>
+
+<div class="timeline">
+  <h3>关键时间轴</h3>
+  <div class="timeline-item"><span class="timeline-time">02:15</span><span class="timeline-text">嘉宾背景：字节抖音高速增长期招聘负责人，后转美团 AI 产品经理与招聘</span></div>
+  <div class="timeline-item"><span class="timeline-time">05:30</span><span class="timeline-text">优秀创业者画像：学习能力+好奇心、自信且谦虚的「依构」、强动机、高精力</span></div>
+  <div class="timeline-item"><span class="timeline-time">12:30</span><span class="timeline-text">组织两大块：人的选育用留汰 + 业务目标拆解与合力运转</span></div>
+  <div class="timeline-item"><span class="timeline-time">18:23</span><span class="timeline-text">美团 721 理念：70% 靠打仗、20% 跟前辈学、10% 靠培训，最重要是给战场</span></div>
+  <div class="timeline-item"><span class="timeline-time">27:00</span><span class="timeline-text">招聘四环节：想清楚需求、扩供给、判断、谈预期；供给占 60-80% 时间</span></div>
+  <div class="timeline-item"><span class="timeline-time">38:00</span><span class="timeline-text">Google 短链条高毛利 vs 亚马逊长链条低毛利：两套招聘与组织范式</span></div>
+  <div class="timeline-item"><span class="timeline-time">45:00</span><span class="timeline-text">AI 时代变化：OPC 是浪费、按业务模块组队、程序员 100% 会 AI coding</span></div>
+  <div class="timeline-item"><span class="timeline-time">48:30</span><span class="timeline-text">魏小康创业方向：招聘 AI 化 + 蓝领求职防骗，提升供需匹配效率</span></div>
+</div>
+
+<div class="map">
+  <h2>核心脉络</h2>
+  <div class="diagram">
+    <div class="node">创始人特质<br/><small>学习·依构·动机·精力</small></div>
+    <div class="arrow">→</div>
+    <div class="node node-green">组织建设<br/><small>人 + 业务对齐</small></div>
+    <div class="arrow">→</div>
+    <div class="node node-orange">招聘飞轮<br/><small>供给 &gt; 面试</small></div>
+    <div class="arrow">→</div>
+    <div class="node">AI 时代适配<br/><small>精干团队+AI</small></div>
+  </div>
+</div>
+
+<div class="correction">
+  <h3>⚠ 常见误解 / 认知纠偏</h3>
+  <p><b>误区 1：</b>招聘主要花时间面试判断。→ <b>正解：</b>应把 60-80% 精力放在想清楚需求与扩供给；面试看走眼率创业期至少 1/3，背调比面试更可靠。</p>
+  <p><b>误区 2：</b>谷歌有钱所以砸几千人做招聘。→ <b>正解：</b>是早期就投入足够资源搞供给，有钱是结果不是原因。</p>
+  <p><b>误区 3：</b>AI 时代一个人+AI 就能创业（OPC）。→ <b>正解：</b>最差也是 PC 互联网初期，每个方向仍需 1-2 个好手带 AI 协作，OPC 是浪费。</p>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">一、优秀创业者与人才：五维画像</h2>
+
+  <div class="card">
+    <h3>创业者/高管的五项共性</h3>
+    <p><b>核心机制：</b>魏小康不愿评价具体大佬，但归纳出顶尖创业者普遍具备的五点：① 学习能力强且好奇心重（愿意追问为什么）；② 「依构」适中，自信能坚持判断又听得进意见；③ 动机足够强，能扛住精神层面的苦；④ 高精力；⑤ 能把组织建好，不靠单人作战。</p>
+    <p><b>关键理解：</b>智商不必万里挑一，SAT 前 1% 够创业；更要赶上行业浪潮，在智商够用+好时代+适度依构+听得进反馈的组合下，做成非凡事业概率很大。</p>
+    <p><b>典型场景：</b>判断联合创始人或 CEO 一号位时，与其看学历背景，不如看是否经历过挫折、能否在激烈竞争中扛住误解与挖角。</p>
+    <div class="relation">相关概念：与招聘中「200 万以内看四五项无短板，200 万以上看动机+精力」一脉相承</div>
+    <div class="highlight">原文依据：「我们只是时代浪潮的一朵浪花」「依构就是又很自信又很谦虚，打不倒他且知道自己不知道什么」</div>
+  </div>
+
+  <div class="card card-purple">
+    <h3><span class="speaker speaker-guest">嘉宾观点</span>200 万年薪是分界线</h3>
+    <p>200 万以内：前述四五项无短板、有一两项长板即可。200 万以上拉开差距的主要是<b>动机</b>（钱已够用，为何还要扛挫折）和<b>精力</b>（能否持续高强度）。选择新业务的勇气，在 AI 时代与动机高度绑定。</p>
+    <div class="quote">「正两百万跟正四百万对他人生质量提升没有什么特别差距，这个时候能让这个人把业务坚持搞下去，主要是动机。」</div>
+  </div>
+
+  <div class="card card-orange">
+    <h3>⚠ 别迷信「穷苦家庭更有动力」</h3>
+    <p><b>原因：</b>张一鸣、王兴并非物质上穷，创业的苦更多是精神上的：同行没搞定、得力下属被挖、对手发补贴恶性竞争。</p>
+    <div class="pitfall">嘉宾说法：「物质上的苦是一种苦，但创业者其实经历更多的是精神上的苦。」</div>
+    <p><b>解法：</b>评估高阶人才时，追问其在逆境中的动机来源，而非简单归因于出身。</p>
+    <p><b>严重程度：</b>小心（容易误判高净值创始人的韧性）</p>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">二、组织建设：字节 vs 美团的两套逻辑</h2>
+
+  <div class="card">
+    <h3>组织 = 人运转 + 业务对齐</h3>
+    <p><b>核心机制：</b>组织建设拆两块：① 人的选、用、育、留、汰（招聘、文化、薪酬、绩效等）；② 业务目标如何拆解到个人、形成合力、识别好坏并激励迭代。</p>
+    <p><b>关键理解：</b>字节学 Google（OKR 公开对齐），美团学亚马逊（运营计划 OP）。表面操作相反，底层文化与创始人观念相似；差异来自业务模式。</p>
+    <p><b>典型场景：</b>10 人创业公司每周对齐本周要达成什么；百人以上长链条业务可参考运营计划科学协作。</p>
+    <div class="highlight">原文依据：「字节叫短周期短链条高毛利率，美团叫长周期长业务链条低毛利率，两波团队分别研究什么样的组织适配业务。」</div>
+  </div>
+
+  <div class="card">
+    <h3>观点对比：字节/Google vs 美团/亚马逊</h3>
+    <table>
+      <tr><th>维度</th><th>字节 / Google 范式</th><th>美团 / 亚马逊范式</th><th>一句话结论</th></tr>
+      <tr><td>业务特征</td><td>短链条、高毛利、快变化</td><td>长链条、低毛利、零售苦活</td><td>组织工具必须匹配链条长度与毛利结构</td></tr>
+      <tr><td>目标管理</td><td>OKR 公开、长时间对齐</td><td>年度运营计划，花 1-2 月定明年目标与人力</td><td>创业公司可周/月滚动对齐；规模化后选适合的工具</td></tr>
+      <tr><td>招聘逻辑</td><td>先把好人弄进来，面试委员会背靠背，再匹配部门</td><td>按 OP 定人头，招团队前 5% 水平，年淘汰约 10%</td><td>两套都太重，创业期取背靠背、坦诚清晰等基础理念即可</td></tr>
+      <tr><td>适用边界</td><td>产品/广告等高毛利互联网</td><td>零售、本地生活、供应链重度业务</td><td>AI 应用公司多在中间带，可参考中型 SaaS/平台公司</td></tr>
+    </table>
+  </div>
+
+  <div class="card card-purple">
+    <h3><span class="speaker speaker-guest">嘉宾观点</span>创业公司不必搞职级体系</h3>
+    <p>文化靠核心十几人以身作则；绩效老板应能看清一线，增长快时多给少给无所谓；职级/晋升体系在 AI 快速变化下既费时间又误导员工为晋升做业绩。89% 时间应花在招聘上。</p>
+    <div class="quote">「人是培养不出来的，人是打完仗之后淘汰筛选出来的。最重要的事情其实是给大家战场。」</div>
+  </div>
+
+  <div class="card card-orange">
+    <h3>⚠ 创业公司过早模仿大厂绩效</h3>
+    <p><b>原因：</b>搞一个月绩效评估，公司就本干了；增长期薪酬差距被估值涨幅稀释，不必过度精细化。</p>
+    <p><b>解法：</b>先拿速度，老板/核心合伙人直接判断谁干得好；公司大到一眼看不到下面再引入科学绩效。</p>
+    <p><b>严重程度：</b>致命（节奏被管理系统拖死）</p>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">三、招聘方法论：供给决定组织上限</h2>
+
+  <div class="card">
+    <h3>招聘五环节与精力分配</h3>
+    <p><b>核心机制：</b>① 想清楚需求（业务要什么人在何时到位）；② 扩供给（市场上有哪些好人、如何触达）；③ 判断（面试等）；④ 谈预期（比谈钱更重要）；⑤ 入职跟进。多数团队把精力反了，花在面试上过多。</p>
+    <p><b>关键理解：</b>用人需求有 3-4 个月滞后，必须提前储备、提前见、甚至提前招；扩供给是「最最最最重要，没有之一」，直接决定组织能建成什么样、能不能打赢。</p>
+    <div class="action">怎么落地：每月复盘「业务问题→需要什么人→市场供给地图」；创始人亲自做 sourcing，HR 负责联络与背调。</div>
+    <div class="highlight">原文依据：「搞定供给是整个招聘工作乃至整个公司建设最最最最最重要的事情，没有之一。」</div>
+  </div>
+
+  <div class="card card-purple">
+    <h3><span class="speaker speaker-guest">嘉宾观点</span>背调 &gt; 面试</h3>
+    <p>大佬面试也有 10-20% 错误率，创业看走眼 1/3 已是最好比例。靠谱的人容易识别，不靠谱的人精心准备能骗过面试；90 分与 10 分的人有时反而难区分。现阶段最重要的是背调前主管与共事者。</p>
+    <div class="quote">「你知道他的前主管、跟他合作过的靠谱的人，一定要搞清楚这个人到底哪来的，这是最重要的。」</div>
+  </div>
+
+  <div class="card">
+    <h3>观点对比：招聘 vs 投资</h3>
+    <table>
+      <tr><th>维度</th><th>招聘</th><th>投资</th><th>一句话结论</th></tr>
+      <tr><td>第一步</td><td>扩供给 / sourcing</td><td>看足够多的项目</td><td>看得多才有「品味」，知道好人长什么样</td></tr>
+      <tr><td>判断环节</td><td>面试+背调，错误率高</td><td>聊几分钟有直觉，但仍会看走眼</td><td>都不能只靠临场感觉，要靠信息与网络验证</td></tr>
+      <tr><td>谈判核心</td><td>候选人未来 3-5 年要什么</td><td>创始人长期动机与选择</td><td>80-90% 的人其实没想清楚自己要什么</td></tr>
+    </table>
+  </div>
+
+  <div class="card card-orange">
+    <h3>⚠ 等业务出问题才招人</h3>
+    <p><b>原因：</b>好人 3-4 个月才能到位，临时需求神仙也解决不了。</p>
+    <div class="pitfall">嘉宾说法：「遇到业务问题了才想招人，这个是不对的。」</div>
+    <p><b>解法：</b>建立人才储备池；熟人内推是最重要渠道，创业公司影响力弱，必须各显神通动用圈子。</p>
+    <p><b>严重程度：</b>致命</p>
+  </div>
+
+  <div class="card card-purple">
+    <h3><span class="speaker speaker-host">主持人提问</span>谈薪还是谈预期？</h3>
+    <p>来创业公司的人多数不是为涨 30-50% 薪水，而是想做成有意义的事。面试应像心理咨询：追问过去什么让他开心、底层驱动力是成就感、影响力还是被认可，再结合行业判断 3-5 年需求能否被满足。</p>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">四、AI 时代的组织与人才新标准</h2>
+
+  <div class="card">
+    <h3>AI 时代组织形态变化</h3>
+    <p><b>核心机制：</b>产品/前端/后端/测试/算法边界模糊，可按业务模块组队，一人端到端+AI，沟通成本大降；非产研团队会 AI 后效率可翻 5-10 倍。协作在 AI 时代会简单很多，但 OPC（一人公司）仍不靠谱。</p>
+    <p><b>关键理解：</b>程序员必须 100% 会 AI coding；其他模块最好也会。每个方向 1-2 个好手带 AI，比纯靠个人+工具更能做大事。</p>
+    <p><b>典型场景：</b>早期 3-4 人公司：创始人自己做 sourcing（爬 LinkedIn/小红书/写爬虫），HR 做联络；一年招 8-10 个好手已是优秀 HR。</p>
+    <div class="relation">相关概念：与「90 后/95 后创业者更有圈子优势」呼应，因他们之前创过业、招过人、有同学网络</div>
+    <div class="highlight">原文依据：「OPC 是在这个时代的浪费」「如果每个方向有个好手带着 AI 一起干，这个公司应该能做出更伟大的成就。」</div>
+  </div>
+
+  <div class="card card-purple">
+    <h3><span class="speaker speaker-guest">嘉宾观点</span>AI 波前 2-3 年更看好有经验创始人</h3>
+    <p>大赛道窗口期可能只有半年到一年；00 后刚出校门、圈子浅、每个方向凑不齐好手、融资条款与竞争经验不足。战场里年轻人可以脱颖而出做研发负责人，但一号位在激烈赛道对抗已组好队、融好钱的对手，极难。需要「成熟又有少年感」的纯粹创业者。</p>
+    <div class="quote">「这个人得成熟，但是同时又有少年感。」</div>
+  </div>
+
+  <div class="card">
+    <h3>方法边界：何时招熟手 vs 高潜</h3>
+    <table>
+      <tr><th>场景</th><th>建议</th><th>边界</th></tr>
+      <tr><td>成熟供应链/确定性业务</td><td>招该方向熟手快速配资源</td><td>不必强求万里挑一，市场中上水平可能够用</td></tr>
+      <tr><td>全新方向（如 AI 搜索）</td><td>新手与老手差距没那么大，可看成长性</td><td>短期找不到高潜可招熟手解燃眉，文化没问题则好聚好散</td></tr>
+      <tr><td>组织目的</td><td>为业务痛点组概率最大的团队</td><td>不是为淘汰而招人；前几年没资格搞「招一批人淘汰」</td></tr>
+    </table>
+  </div>
+
+  <div class="card card-purple">
+    <h3><span class="speaker speaker-guest">嘉宾观点</span>魏小康的 AI 创业</h3>
+    <p>招聘本质是供需匹配，效率低且蓝领 99% 被骗过。创业方向：① 用 AI 提升招聘匹配效率、减少人的参与；② 帮助蓝领求职者少被骗、更快找到合适工作。欢迎会用 AI 的技术同学（超 2 包 Max 套餐）和搞 AI 变现场的非技术同学交流。</p>
+    <div class="quote">「招聘工作肯定会 AI 化……帮助好的业务主管和招聘同学提效。」</div>
+  </div>
+</div>
+
+<div class="card card-purple">
+  <h3>💡 心法：供给优先，战场育人</h3>
+  <p><b>为什么重要：</b>面试无法可靠区分 60 分与 80 分、甚至 90 分与 10 分；没有供给池就只能被动挨打。</p>
+  <div class="quote">「今年之后的每一天都是你最好招人的时候，以后供需会越来越紧张。」</div>
+  <div class="action">怎么落地：创始人每周花固定时间想人才需求与供给地图；用熟人网络内推；面试重点谈 3-5 年预期而非纠结几千块薪水；入职后给战场而非堆培训。</div>
+  <p><b>适用边界：</b>超早期可创始人兼 HR sourcing；规模化后再配专业招聘团队，但业务同学仍应参与找人与判断。</p>
+</div>
+
+<div class="conclusion">
+  <h2>总结与行动</h2>
+  <h3>核心要点</h3>
+  <ul>
+    <li>顶尖创业者：学习+好奇、适度依构、强动机、高精力、能建组织；智商前 1% 够创业，更要赶浪潮。</li>
+    <li>组织分「人」与「业务对齐」；字节/Google 适合短链高毛利，美团/亚马逊适合长链低毛利，创业期取对齐与坦诚等基础理念。</li>
+    <li>招聘 60-80% 精力在需求与扩供给；背调比面试可靠；谈预期重于谈薪；提前 3-4 月储备人才。</li>
+    <li>人靠战场成长（721），文化靠核心以身作则；创业期别搞复杂职级与绩效。</li>
+    <li>AI 时代：每方向 1-2 好手+AI，程序员必须 AI coding；OPC 不靠谱；有经验创始人短期更占先机。</li>
+  </ul>
+  <h3>行动清单</h3>
+  <ol>
+    <li>本月列出未来两个季度关键岗位需求表，并开始「提前见」而非等缺口出现。</li>
+    <li>绘制你所在赛道的供给地图：哪些公司、多少好手、你需要什么水准的人。</li>
+    <li>下一次关键招聘前，至少做 2 个独立背调来源，减少对 1-2 小时面试的依赖。</li>
+    <li>周会加入「本周目标三人复述」环节，确保 10 人团队理解一致。</li>
+    <li>技术岗面试增加 AI coding 实操；非技术岗评估其用 AI 提效的真实案例。</li>
+  </ol>
+  <h3>关键认知转变</h3>
+  <p>以前认为招聘是「面试选对人」；现在理解组织上限由供给池决定，面试只是最后一环，战场与背调才是筛人育人的主战场。以前觉得 AI 时代一个人就能创业；现在理解仍需要按业务模块配置好手，用 AI 放大团队而非替代团队。</p>
+</div>
+
+</div>
+</body>
+</html>

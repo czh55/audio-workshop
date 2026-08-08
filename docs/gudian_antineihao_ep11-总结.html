@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ep11. 古典歌单｜如何通过听音乐「反内耗」？巴赫·舒伯特·瓦格纳等各有话说</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,0.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:20px 28px;text-align:center;min-width:160px;font-weight:700;font-size:16px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.node-purple{background:linear-gradient(135deg,#ede9fe,#ddd6fe);border-color:#a78bfa;color:#6b21a8}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3{color:#92400e;margin-bottom:8px}
+.correction p{color:#92400e;font-size:15px}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,0.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.speaker{display:inline-block;font-size:13px;font-weight:600;padding:2px 10px;border-radius:12px;margin-right:8px}
+.speaker-host{background:#dbeafe;color:#1e40af}
+.speaker-guest{background:#ede9fe;color:#6b21a8}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,0.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,0.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,0.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}@media (max-width:640px){body,.container{padding:16px 12px!important}.container{max-width:100%!important}h1{font-size:24px!important}h2,.sec-title{font-size:18px!important}h3{font-size:16px!important}p,li{font-size:14px!important}.summary-line{font-size:15px!important;padding:14px 16px!important}.map,.card,.timeline{padding:16px!important;margin-bottom:16px!important}.map h2{font-size:18px!important}.diagram{gap:10px!important;padding:10px 0!important}.node{min-width:100px!important;padding:12px 16px!important;font-size:13px!important}.arrow{font-size:18px!important}.conclusion{padding:20px!important}.footer{padding:20px 0 12px!important}}
+.html-toolbar{position:sticky;top:0;z-index:100;display:flex;align-items:center;gap:16px;padding:12px 20px;background:rgba(248,250,252,.92);backdrop-filter:blur(8px);border-bottom:1px solid #e2e8f0;font-family:"PingFang SC","Microsoft YaHei",sans-serif}
+.html-toolbar .back-link{font-size:14px;color:#3b82f6;text-decoration:none;white-space:nowrap;font-weight:600}
+.html-toolbar .back-link:hover{text-decoration:underline}
+.html-toolbar-title{flex:1;font-size:14px;font-weight:600;color:#1e293b;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.html-toolbar .html-audio{width:260px;height:36px;border-radius:8px}
+.html-toolbar .html-svg-link{font-size:13px;color:#64748b;text-decoration:none;white-space:nowrap}
+.html-toolbar .html-svg-link:hover{color:#3b82f6;text-decoration:underline}
+@media (max-width:640px){
+  .html-toolbar{flex-wrap:wrap;gap:10px;padding:10px 12px}
+  .html-toolbar-title{flex-basis:100%;order:-1;font-size:13px}
+  .html-toolbar .html-audio{width:100%}
+}
+
+body{padding:0!important;margin:0!important}
+.container{padding:48px 60px}
+@media (max-width:640px){.container{padding:16px 12px!important}.container{max-width:100%!important}h1{font-size:24px!important}h2,.sec-title{font-size:18px!important}h3{font-size:16px!important}p,li{font-size:14px!important}.summary-line{font-size:15px!important;padding:14px 16px!important}.map,.card,.timeline{padding:16px!important;margin-bottom:16px!important}.map h2{font-size:18px!important}.diagram{gap:10px!important;padding:10px 0!important}.node{min-width:100px!important;padding:12px 16px!important;font-size:13px!important}.arrow{font-size:18px!important}.conclusion{padding:20px!important}.footer{padding:20px 0 12px!important}}
+</style>
+</head>
+<body>
+<div class="html-toolbar">
+  <a class="back-link" href="index.html">← 返回首页</a>
+  <div class="html-toolbar-title">ep11. 古典歌单｜如何通过听音乐「反内耗」？巴赫·舒伯特·瓦格纳等各有话说</div>
+  <audio controls preload="metadata" class="html-audio" src="audio/gudian_antineihao_ep11.mp3">您的浏览器不支持音频播放</audio>
+  <a class="html-svg-link" href="viewer.html?f=gudian_antineihao_ep11-总结.svg" target="_blank">SVG 版 ↗</a>
+</div>
+<div class="container">
+
+<h1>ep11. 古典歌单｜如何通过听音乐「反内耗」？巴赫·舒伯特·瓦格纳等各有话说</h1>
+<div class="meta">
+  <span class="tag tag-blue">播客</span>
+  <span class="tag tag-purple">古典不dan调</span>
+  <span class="tag tag-green">古典音乐</span>
+  <span class="tag tag-orange">48分</span>
+</div>
+<div class="summary-line">
+<strong>一句话概括：</strong>INFJ 资深内耗型主播以亲测歌单拆解三种内耗场景（对事/对人/对环境），核心心法不是消灭内耗而是<strong>转移注意力</strong>——把自己从对自我的过度凝视中拽出来；八首古典作品按场景匹配，从舒伯特即兴曲的情绪急刹车到瓦格纳「别怪自己」的宏大视角。
+</div>
+
+<div class="timeline">
+  <h3>关键时间轴</h3>
+  <div class="timeline-item">
+    <span class="timeline-time">00:00</span>
+    <span class="timeline-text">开场：内耗本质=转移注意力；三种场景歌单框架引出</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">04:24</span>
+    <span class="timeline-text">场景一·身心俱疲：舒伯特 G 大调即兴曲 D.899 No.3（开车情绪急刹车）</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">12:49</span>
+    <span class="timeline-text">巴赫 BWV 1056 第二乐章 Largo（散步时弦乐拨弦如心跳）</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">17:53</span>
+    <span class="timeline-text">Philip Glass 练习曲 No.6（窝家专注：重复有方向的流动）</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">23:52</span>
+    <span class="timeline-text">场景二·患得患失：舒曼 A 小调钢琴协奏曲 Op.54（双人格旋律拉扯）</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">30:53</span>
+    <span class="timeline-text">勃拉姆斯 B 大调钢琴三重奏 Op.8（浪漫主义最拧巴的作曲家）</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">37:03</span>
+    <span class="timeline-text">场景三·自闭式：皮亚佐拉 Libertango 管弦乐版（声音被子隔绝外界）</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">40:37</span>
+    <span class="timeline-text">柴可夫斯基第四交响曲「命运」第一乐章（情绪暴风雨宣泄）</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">44:32</span>
+    <span class="timeline-text">瓦格纳《罗恩格林》第三幕前奏曲：能怪别人别怪自己</span>
+  </div>
+</div>
+
+<div class="map">
+  <h2>核心脉络</h2>
+  <div class="diagram">
+    <div class="node">内耗来袭<br/><small>过度自我凝视</small></div>
+    <span class="arrow">→</span>
+    <div class="node-green">转移注意力<br/><small>新信息输入</small></div>
+    <span class="arrow">→</span>
+    <div class="node-orange">场景匹配<br/><small>对事/对人/对环境</small></div>
+    <span class="arrow">→</span>
+    <div class="node-purple">古典歌单<br/><small>8首亲测有效</small></div>
+  </div>
+</div>
+
+<div class="correction">
+  <h3>⚠ 常见误解 / 认知纠偏</h3>
+  <p><b>误解：</b>内耗必须被「彻底解决」，听几首歌就能根治。</p>
+  <p><b>纠偏：</b>内耗的另一面可能是敏锐、共情力强、直觉精准——我们需要的只是在它来临时平稳度过，而非消灭人格特质。古典音乐是成本最低、不用摇人、戴上耳机就能用的转移注意力工具。</p>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">一、身心俱疲式内耗（对事）</h2>
+
+  <div class="card">
+    <h3>舒伯特 · 即兴曲 D.899 No.3（G 大调）</h3>
+    <p><b>核心机制：</b>ABA 三段体具象描绘「从郁闷→内心挣扎→释怀想通」全过程。左手持续分解和弦是静的底色，右手优美旋律是千言万语；B 段转向更深沉不安，再回到 A 段时一切化解。</p>
+    <p><b>关键理解：</b>音乐带你走完情绪一圈，心里那件事也被梳理了一遍，不再那么拧巴。</p>
+    <p><b>典型场景：</b>开车堵车、被插队、上班迟到——心里乱糟糟完全静不下来时，给自己 6-7 分钟当情绪急刹车。</p>
+    <div class="relation">相关推荐：Christiane Jaccottet 演奏版，触键干净透明，有呼吸感</div>
+    <div class="highlight">原文依据：「当音乐带着你走完了这一圈，你心里那件事好像也跟着被梳理了一遍，就不会再那么拧拔了。」</div>
+  </div>
+
+  <div class="card card-green">
+    <h3>巴赫 · 键盘协奏曲 BWV 1056 第二乐章 Largo</h3>
+    <p><b>核心机制：</b>弦乐组从头到尾几乎都在拨弦，形成轻盈有弹性的节奏骨架——像心跳，也像散步时的步伐频率，刚好能对上。</p>
+    <p><b>关键理解：</b>散步时不要只盯键盘旋律，留意伴奏的弦乐拨弦，让身体与音乐同步。</p>
+    <p><b>典型场景：</b>放下手头工作，一个人出门散步——需要既不太抢戏、又不太寡淡的陪走音乐。</p>
+    <div class="action">怎么落地：把手机扔到一边，插耳机沿街道或公园慢走，专注感受脚步与拨弦节奏的呼应</div>
+    <p><b>适用边界：</b>需要身体能走动；若累得完全无法动弹，换 Glass 练习曲。</p>
+  </div>
+
+  <div class="card card-orange">
+    <h3>Philip Glass · 练习曲 No.6</h3>
+    <p><b>核心机制：</b>简约主义：有限和声框架内，极简素材不断重复与微变。左右手交替同一音形反复流动，重复有方向——把大脑从死胡同里拽进流动节奏。</p>
+    <p><b>关键理解：</b>内耗是大脑在同一死胡同反复打转；Glass 的重复会同步心跳呼吸，在意想不到处层层堆叠爆发，憋了很久的一口气终于吐出。</p>
+    <p><b>典型场景：</b>窝在家里，面前一堆工作，线上沟通结果不理想，思绪乱飞完全静不下来。</p>
+    <div class="pitfall">避坑：别在需要社交互动的场合听——它会把你拽进自己的流动里，适合独处专注。</div>
+    <p><b>适用边界：</b>推荐王羽佳 2024 维也纳独奏音乐会版本；不适合追求戏剧性旋律变化的听众。</p>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">二、患得患失式内耗（对人）</h2>
+
+  <div class="card card-purple">
+    <h3>
+      <span class="speaker speaker-guest">主播亲述</span>
+      说话不过脑子后的几小时内疯狂复盘
+    </h3>
+    <p>本意是好的但嘴巴比脑子快，说完自认为是没问题的话，对方却没给到好意甚至误解——若对方是重视的朋友，接下来几小时像被钉住：干事儿走神、反复重播对话、盘算要不要补发消息缓和气氛，同时另一个声音说「人家可能已经烦你了」。</p>
+    <div class="quote">「人家可能已经烦你了，你再发一条是不是更招人烦。Oh my god，太拧吧。」</div>
+  </div>
+
+  <div class="card">
+    <h3>舒曼 · A 小调钢琴协奏曲 Op.54 第一乐章</h3>
+    <p><b>核心机制：</b>浪漫主义双人格作曲家——弗洛雷斯坦（热烈冲动）与尤塞比乌斯（温柔内敛）一生在两种极端间摇摆。开头乐队气势拉满替你吼出情绪，钢琴独奏进来后几个音符重复缠绕，像在心里反复念叨同一句话。</p>
+    <p><b>关键理解：</b>舒曼的旋律走向温柔但带着没落定的悬置感——不会直直走到终点，而是绕弯、踏口气、再回来。</p>
+    <p><b>典型场景：</b>因某人的一句话、一个表情反复纠结时，从头听到尾，让乐队先替你吼，钢琴再替你说，最后一个音落下时纠结已被消化一半。</p>
+    <div class="highlight">原文依据：「它的旋律从始至终也没有一个真正的安定落点。」</div>
+  </div>
+
+  <div class="card card-purple">
+    <h3>勃拉姆斯 · B 大调钢琴三重奏 Op.8 第一乐章</h3>
+    <p><b>核心机制：</b>三重拧巴叠在一起——情感上爱上恩师舒曼的妻子克拉拉却从不说破；性格上极度自我怀疑写一首改十几遍；创作上身处浪漫主义浪潮却回头研究巴赫贝多芬。旋律在情感上盖一层薄薄的理智，往前踏一步又往后推半步。</p>
+    <p><b>关键理解：</b>二十岁的热情与五十多岁的克制修订同时存在；包容性极大，带着任何情绪去听都能接住你。</p>
+    <div class="action">分场景听法：① 内耗到极点→从展开部后半段听，乐器失控边缘帮你耗完那股劲；② 有好消息不能分享→从头听第一主题；③ 只想放空→9 分钟后三乐器各说各话互不打扰</div>
+    <div class="quote">「你带着任何一种情绪去听他，他都能接住你。」</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">三、自闭式内耗（对环境）</h2>
+
+  <div class="card">
+    <h3>皮亚佐拉 · Libertango（管弦乐改编版）</h3>
+    <p><b>核心机制：</b>新探戈标志曲目，管弦乐队版本音色层次更丰沛，弦乐群齐奏的音量和厚度比五重奏更有包裹感——像一床声音被子把你裹进去隔绝外界。</p>
+    <p><b>典型场景：</b>地铁、办公室、户外周遭太吵，只想安定待着；音量开到最大就听不到别人说什么。</p>
+    <p><b>适用边界：</b>造热型屏蔽外界，不适合需要安静思考的场景。</p>
+  </div>
+
+  <div class="card card-orange">
+    <h3>柴可夫斯基 · 第四交响曲 Op.36 第一乐章</h3>
+    <p><b>核心机制：</b>写给资助人梅克夫人，主题是命运——像达摩克利斯之剑悬在头上，无法战胜只能忍受。著名「命运号角」圆号小号齐奏如重拳砸下，弦乐翻滚汹涌，整个乐章如情绪暴风雨。</p>
+    <p><b>关键理解：</b>与皮亚佐拉同为造热型，但柴可夫斯基是让你在巨大声响里把压抑情绪和烦躁一起站出去。</p>
+    <p><b>推荐版本：</b>卡拉扬指挥维也纳爱乐</p>
+  </div>
+
+  <div class="card card-purple">
+    <h3>瓦格纳 ·《罗恩格林》第三幕前奏曲</h3>
+    <p><b>核心机制：</b>「无终旋律」——从头到尾不断流动的无穷旋律线，铜管齐鸣、弦乐狂奔、打击轰鸣，全速冲刺，不讨好、不照顾舒适区，用庞大音响把你推平。</p>
+    <p><b>关键理解：</b>当你道德感过强、太喜欢反思折磨自己、第一反应「是不是我哪里不对」时——能怪别人的事千万别怪自己。</p>
+    <div class="quote">「你听着他，你不会想到是不是自己做错了什么，只会觉得这个世界很大，我很渺小，那点破事算啥。」</div>
+    <div class="action">怎么落地：内耗源于给世界太多好脸色、太把某些人当回事时，用瓦格纳换视角</div>
+  </div>
+</div>
+
+<div class="card">
+  <h3>八首作品场景选型对比</h3>
+  <table>
+    <tr><th>维度</th><th>身心俱疲（对事）</th><th>患得患失（对人）</th><th>自闭式（对环境）</th></tr>
+    <tr><td>核心诉求</td><td>梳理情绪、恢复专注</td><td>消化人际纠结、被接住</td><td>屏蔽外界、换视角</td></tr>
+    <tr><td>音乐气质</td><td>ABA 释怀 / 拨弦陪走 / 重复流动</td><td>双人格拉扯 / 克制拧巴</td><td>造热包裹 / 命运暴风雨 / 宏大推平</td></tr>
+    <tr><td>代表曲目</td><td>舒伯特·巴赫·Glass</td><td>舒曼·勃拉姆斯</td><td>皮亚佐拉·柴可夫斯基·瓦格纳</td></tr>
+    <tr><td>一句话结论</td><td>让音乐替你把事想通</td><td>让作曲家替你消化对人的执念</td><td>用声响隔绝世界或把自己变小</td></tr>
+  </table>
+</div>
+
+<div class="card card-purple">
+  <h3>💡 心法：转移注意力，而非消灭内耗</h3>
+  <p><b>为什么重要：</b>对自我过度凝视的黑洞里，新信息输入（散步、看书、聊天、听音乐）能自然打断「我是不是说错了」的循环。</p>
+  <div class="quote">「解决内耗的本质其实就是转移注意力，把自己从那个对自我过度凝视的黑洞里面拽出来。」</div>
+  <div class="action">怎么落地：按当前内耗类型选场景→打开对应曲目→给自己完整听完一首的时间，不边听边刷手机</div>
+  <p><b>适用边界：</b>严重抑郁/焦虑需专业帮助；本期是场景化音乐处方，非心理学深度解析。歌单详情见公众号「古典不dan调」。</p>
+</div>
+
+<div class="conclusion">
+  <h2>总结与行动</h2>
+  <h3>核心要点</h3>
+  <ul>
+    <li>内耗不必彻底消灭——敏锐与共情可能是同一枚硬币的两面</li>
+    <li>古典音乐是成本最低、单人可用的注意力转移工具</li>
+    <li>三种场景：对事（身心俱疲）、对人（患得患失）、对环境（自闭式）</li>
+    <li>每首曲目按情绪机制匹配，而非随便挑「好听」的古典乐</li>
+    <li>瓦格纳结尾：道德感过强时，能怪别人别怪自己</li>
+  </ul>
+  <h3>行动清单</h3>
+  <ol>
+    <li>识别当前内耗属于哪种场景（事/人/环境），从本期 8 首中选一首先听完整首</li>
+    <li>开车堵心时收藏舒伯特 D.899 No.3，预留 6-7 分钟专门听完</li>
+    <li>散步时试巴赫 BWV 1056，专注感受弦乐拨弦与脚步同频</li>
+    <li>关注公众号「古典不dan调」获取完整歌单与 Spotify/网易云链接</li>
+    <li>内耗来袭时先问自己：我是在对事、对人还是对环境的过度反应？</li>
+  </ol>
+  <h3>关键认知转变</h3>
+  <p>以前认为内耗是性格缺陷必须根除；现在理解了它的本质是注意力卡在自我审视的死胡同——古典音乐不是逃避，而是用最低成本把意识拽回当下，甚至收获美妙的情感体验。</p>
+</div>
+
+<div class="footer">古典不dan调 · ep11 · 小宇宙播客总结</div>
+
+</div>
+</body>
+</html>

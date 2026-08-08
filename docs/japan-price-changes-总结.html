@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>日本物价三十年：从失去的三十年到涨价时代 | 日本物价观察</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+small{font-size:12px;font-weight:400;color:inherit;opacity:.85}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,0.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:18px 24px;text-align:center;min-width:140px;font-weight:700;font-size:15px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.node-red{background:linear-gradient(135deg,#fef2f2,#fee2e2);border-color:#fca5a5;color:#991b1b}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3{color:#92400e;margin-bottom:8px}
+.correction p{color:#92400e;font-size:15px;line-height:1.8}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,0.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card.card-red{border-left-color:#ef4444}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .insight{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.card .relation{background:#f5f3ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#6b21a8;border-left:4px solid #a78bfa}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,0.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,0.95);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,0.9);font-size:15px;line-height:1.8}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.key-data{display:inline-block;background:#1e40af;color:#fff;padding:2px 8px;border-radius:4px;font-size:13px;font-weight:700;margin-right:4px}@media (max-width:640px){body,.container{padding:16px 12px!important}.container{max-width:100%!important}h1{font-size:24px!important}h2,.sec-title{font-size:18px!important}h3{font-size:16px!important}p,li{font-size:14px!important}.summary-line{font-size:15px!important;padding:14px 16px!important}.map,.card,.timeline{padding:16px!important;margin-bottom:16px!important}.map h2{font-size:18px!important}.diagram{gap:10px!important;padding:10px 0!important}.node{min-width:100px!important;padding:12px 16px!important;font-size:13px!important}.arrow{font-size:18px!important}.conclusion{padding:20px!important}.footer{padding:20px 0 12px!important}}
+.html-toolbar{position:sticky;top:0;z-index:100;display:flex;align-items:center;gap:16px;padding:12px 20px;background:rgba(248,250,252,.92);backdrop-filter:blur(8px);border-bottom:1px solid #e2e8f0;font-family:"PingFang SC","Microsoft YaHei",sans-serif}
+.html-toolbar .back-link{font-size:14px;color:#3b82f6;text-decoration:none;white-space:nowrap;font-weight:600}
+.html-toolbar .back-link:hover{text-decoration:underline}
+.html-toolbar-title{flex:1;font-size:14px;font-weight:600;color:#1e293b;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.html-toolbar .html-audio{width:260px;height:36px;border-radius:8px}
+.html-toolbar .html-svg-link{font-size:13px;color:#64748b;text-decoration:none;white-space:nowrap}
+.html-toolbar .html-svg-link:hover{color:#3b82f6;text-decoration:underline}
+@media (max-width:640px){
+  .html-toolbar{flex-wrap:wrap;gap:10px;padding:10px 12px}
+  .html-toolbar-title{flex-basis:100%;order:-1;font-size:13px}
+  .html-toolbar .html-audio{width:100%}
+}
+
+body{padding:0!important;margin:0!important}
+.container{padding:48px 60px}
+@media (max-width:640px){.container{padding:16px 12px!important}.container{max-width:100%!important}h1{font-size:24px!important}h2,.sec-title{font-size:18px!important}h3{font-size:16px!important}p,li{font-size:14px!important}.summary-line{font-size:15px!important;padding:14px 16px!important}.map,.card,.timeline{padding:16px!important;margin-bottom:16px!important}.map h2{font-size:18px!important}.diagram{gap:10px!important;padding:10px 0!important}.node{min-width:100px!important;padding:12px 16px!important;font-size:13px!important}.arrow{font-size:18px!important}.conclusion{padding:20px!important}.footer{padding:20px 0 12px!important}}
+</style>
+</head>
+<body>
+<div class="html-toolbar">
+  <a class="back-link" href="index.html">← 返回首页</a>
+  <div class="html-toolbar-title">日本物价三十年：从失去的三十年到涨价时代 | 日本物价观察</div>
+  <audio controls preload="metadata" class="html-audio" src="audio/japan-price-changes.mp3">您的浏览器不支持音频播放</audio>
+  <a class="html-svg-link" href="viewer.html?f=japan-price-changes-总结.svg" target="_blank">SVG 版 ↗</a>
+</div>
+<div class="container">
+
+<h1>日本物价三十年：从失去的三十年到涨价时代 | 日本物价观察</h1>
+<div class="meta">
+  <span class="tag tag-blue">播客</span>
+  <span class="tag tag-purple">日本物价</span>
+  <span class="tag tag-green">通胀与通缩</span>
+  <span class="tag tag-purple">在日生活</span>
+  <span class="tag tag-red">汇率与成本</span>
+  <span class="tag tag-orange">约1小时40分</span>
+</div>
+
+<div class="summary-line">
+<strong>一句话概括：</strong>两个在日本生活了十年的中国人（老范 &amp; 雪梨），从留学时代的"6.7汇率、物价三十年不涨"，聊到今天的"汇率跌破4、物价成倍起飞"——用衣食住行的亲历账单，还原日本从"失去的三十年"通缩常态切换到"涨价时代"的荒诞撕裂感：游客觉得日本越来越便宜，而赚日元花日元的在日居民，正同时承受工资涨幅跑不赢物价、税率压顶、身份福利被抽走的四面挤压。
+</div>
+
+<div class="map">
+  <h2>🧩 核心脉络：从"失去的三十年"到"涨价时代"</h2>
+  <div class="diagram">
+    <div class="node">失去的三十年<br/><small>通缩常态<br/>物价30年几乎不涨<br/>社会稳定靠它维持</small></div>
+    <div class="arrow">→</div>
+    <div class="node node-green">2023年起<br/><small>通胀时代<br/>物价成倍起飞<br/>工资涨幅追不上</small></div>
+    <div class="arrow">→</div>
+    <div class="node node-orange">在日生活者<br/><small>实际购买力缩水25%<br/>税+年金+保险占1/3</small></div>
+  </div>
+  <div class="diagram" style="margin-top:16px;">
+    <div class="node node-red">日元汇率 6.7 → 4.x<br/><small>折算人民币工资缩水30%</small></div>
+    <div class="arrow">叠加</div>
+    <div class="node node-orange">物价上涨<br/><small>刚需直涨、外食缩量、房价翻倍</small></div>
+    <div class="arrow">造就</div>
+    <div class="node" style="font-size:14px;">撕裂感<br/><small>游客觉得便宜<br/>居民觉得昂贵</small></div>
+  </div>
+</div>
+
+<div class="correction">
+  <h3>⚠ 常见认知纠偏</h3>
+  <p><strong>纠偏1："日元贬值了，日本东西应该更便宜"</strong> → 只对"赚外币、花日元"的游客和代购成立。对赚日元花日元的在日居民，贬值没有好处，反而让以人民币计价的工资与储蓄自动缩水30%。</p>
+  <p style="margin-top:8px;"><strong>纠偏2："日本人工资在涨，生活应该越来越好"</strong> → 名义工资上涨但物价涨得更快，有研究显示实际购买力比之前反而缩水约25%。工资涨了，相当于没涨。</p>
+  <p style="margin-top:8px;"><strong>纠偏3："在日本生活很滋润、很体面"</strong> → 主播们直言：在日本生活跟在北京上海没本质区别，都要算计着花——半价便当、超市比价、研究积分是日常操作。</p>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">一、汇率与身份：钱的"度量衡"变了</h2>
+
+  <div class="card">
+    <h3>汇率体感：从"6.7的时代"到"4点几的时代"</h3>
+    <p><b>核心机制：</b>初到日本留学时汇率约6出头（高至6.7），买什么都自动换算成人民币；如今汇率跌到4点几，甚至一度逼近3字头。同样是25万日元月薪，按6.7算是1.5万人民币，按4点几只有1万出头。</p>
+    <p><b>关键理解：</b>汇率不是抽象的宏观数字，它直接改写以人民币计价的"身价表"——什么都没干，工资自动"少"了30%。赚日元花日元的人日常不受影响，但一回国、一换汇，落差立刻显形。</p>
+    <p><b>典型场景：</b>国内同学问起月薪时的尴尬换算；看到"有人用黑钻汇率换钱、汇率3.9"的帖子时，对未来的焦虑感。</p>
+    <div class="highlight">"现在4点几的汇率，就是我什么都没干，我这个工资就自动变少了30%。"</div>
+    <div class="relation"><strong>相关概念：</strong>与"游客视角的便宜"是同一枚硬币的两面——汇率正是撕裂感的根源。</div>
+  </div>
+
+  <div class="card card-red">
+    <h3>避坑：身份一变，补贴没了，税来了</h3>
+    <p><b>原因：</b>留学时是非课税身份，政府发钱都有份——疫情3年合计领了近60万日元（全国统一10万+学校5万+各市区町村3-10万不等）；打工时赶上迅销集团闭店仍按60%-80%发薪，加上满勤勤务，一个月挣30多万日元。毕业后变成课税身份，工资条里所得税+住民税+年金+保险已占近三分之一。</p>
+    <div class="pitfall">工资条最"恐怖"的地方：不管账面工资涨多少，到手金额差别不大——账面差3-5万，到手可能只差1-2万；公司还按顶格交年金保险（为了以后养老），当下现金流压力很大。</div>
+    <p><b>解法：</b>① 跳槽时把"账面工资"换算成"到手工资"再比较；② 了解高额疗养制度按收入分档；③ 别再期待"低收人群物价补贴"——课税后大概率与你无关。</p>
+    <div class="quote">"咱们以前就像是坐在餐桌上等着被分肉的那个人，然后现在咱们就是被分的那块肉。"</div>
+  </div>
+
+  <div class="card">
+    <h3>一张表看懂：留学时代 vs 社会人时代</h3>
+    <table>
+      <tr><th>维度</th><th>留学时代（非课税）</th><th>社会人时代（课税）</th></tr>
+      <tr><td><strong>收入</strong></td><td>打工月入约10万日元</td><td>月入20多万日元</td></tr>
+      <tr><td><strong>税负</strong></td><td>几乎为零，年金/保险可申请全额减免</td><td>所得税+住民税+年金+保险约占工资1/3</td></tr>
+      <tr><td><strong>补贴</strong></td><td>疫情3年累计领近60万日元</td><td>物价补贴只发给非课税（低收）人群</td></tr>
+      <tr><td><strong>心态</strong></td><td>汇率6.7，憧憬"工作后生活变好"</td><td>汇率4.x，工资折算人民币缩水30%</td></tr>
+    </table>
+    <div class="insight"><strong>本质：</strong>同一份东京物价，两个身份两本账——年轻时靠"减免+补贴"占便宜，成熟后靠"顶格缴纳"交回去，日本社保体系的再分配就是这么运转的。</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">二、吃：通胀最先体现在胃里</h2>
+
+  <div class="card">
+    <h3>令和大米荒：不是"没米"，是"被垄断的贵米"</h3>
+    <p><b>核心机制：</b>5公斤大米从约2000日元涨到4000多日元，超市货架搬空、一个家庭限购一袋。政府放储备米应对，农协（JA）却极力反对——农协不只是农产品组织，还有银行、医院、保险，是垄断级存在。</p>
+    <p><b>关键理解：</b>米价上涨并非单纯供需失衡，而是"垄断定价+储备米投放受阻+进口替代被关税挡住"三重结构的结果：据说米商不敢私自降价，否则来年拿不到农协配合。</p>
+    <p><b>典型场景：</b>事件过去小一年，超市里仍见不到储备米（"只在新闻里见过"）；特价3500日元/5kg的米一上架就抢空。</p>
+    <div class="highlight">"他规定大米4000，我有良心降到2000行吗？不行。所有人的定价都必须按照农协的要求，否则到第二年不给你配合。"</div>
+    <div class="relation"><strong>相关概念：</strong>对比"为什么不吃中国米"——进口米关税高达300-340%，再叠加繁杂手续与机场查验，国产替代被彻底锁死。</div>
+  </div>
+
+  <div class="card card-green">
+    <h3>故乡纳税：把税钱变成"大米折扣券"</h3>
+    <p><b>核心机制：</b>故乡纳税制度允许把应交税额变成购物额度，在指定网站消费，第二年用于抵税；自己只需掏2000日元手续费。</p>
+    <p><b>关键理解：</b>网站商品价格是市面价约3倍，但花的是"本来要交给国家的税钱"，等于白拿。算下来大米是其中性价比之王——主播每年换二三十公斤，够吃大半年。</p>
+    <p><b>典型场景：</b>同事一次买60公斤大米，设置分三次寄送，每次都是新鲜脱壳米，全年吃新米；额度不够的打工人，只能买20公斤以内。</p>
+    <div class="highlight">"你用的是你本来要交的这个税钱，虽然它贵，但是总比直接扔了强，总比直接交给国家强。"</div>
+    <div class="relation"><strong>相关概念：</strong>与"高额疗养、年金减免"同属日本税制里的"羊毛"，会薅与不会薅差距很大。</div>
+  </div>
+
+  <div class="card card-orange">
+    <h3>外食的"隐形涨价"：分量缩水比涨价更隐蔽</h3>
+    <p><b>核心机制：</b>刚需品（米、油、蛋）直接涨价你也得买；外食怕吓跑顾客，改为"微涨+减量"。麦当劳巨无霸从360日元涨到480日元、尺寸还缩了两圈，变相接近翻倍；居酒屋每样单品看着不贵，点一圈账单翻倍。</p>
+    <p><b>关键理解：</b>"悄悄涨价"利用了价格锚定——分量变化没有数字冲击，但换算成"每口的价格"其实涨得更狠。</p>
+    <p><b>典型场景：</b>麦辣鸡下架、最爱吃的两款从菜单消失；茶叶蛋因成本合不上停售（"锅都收起来了"）；4人聚餐从约8000日元涨到1.7万日元。</p>
+    <div class="highlight">"为了让你不要那么难受，然后分量就变小了……变相其实就是涨了两倍的价格。"</div>
+    <div class="relation"><strong>相关概念：</strong>对比刚需（米油蛋直接涨）与可选消费（缩量保价）两套完全不同的涨价策略。</div>
+  </div>
+
+  <div class="card">
+    <h3>一张表看懂：吃穿用涨价全景</h3>
+    <table>
+      <tr><th>品类</th><th>留学时代</th><th>现在</th><th>变化感受</th></tr>
+      <tr><td>大米（5kg）</td><td>约2000日元</td><td>3900-4500日元</td><td>翻倍+限购，储备米难觅</td></tr>
+      <tr><td>鸡蛋（10个）</td><td>79-100日元</td><td>299-499日元</td><td>涨2-4倍，茶叶蛋都停售</td></tr>
+      <tr><td>蔬菜</td><td>79-99日元</td><td>199-299日元</td><td>要挑超市、改买冷冻蔬菜</td></tr>
+      <tr><td>巨无霸</td><td>360日元</td><td>480日元+缩尺寸</td><td>变相接近翻倍</td></tr>
+      <tr><td>西瓜</td><td>约100元人民币</td><td>约200-300元人民币</td><td>改买盒装/切块装</td></tr>
+      <tr><td>居酒屋4人</td><td>约8000日元</td><td>约1.7万日元</td><td>账单翻倍</td></tr>
+    </table>
+    <div class="insight"><strong>生活费压力实感：</strong>一个人伙食费从每月1万多日元，涨到两人每月7万（自己做饭）到8-9万（外食多）——"工资涨了，相当于没涨，有可能还降工资了"。</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">三、住与行：东京房价翻倍与租客博弈</h2>
+
+  <div class="card">
+    <h3>东京房价：30年不涨，3年翻倍</h3>
+    <p><b>核心机制：</b>泡沫破灭后房价平稳了三十多年，最近3-5年却涨了约100%——东京新房均价突破1亿日元；低汇率把全球炒房客吸引进来，新房"秒没"。</p>
+    <p><b>关键理解：</b>房价涨而工资不涨，是"资产端通胀"与"收入端停滞"的错位。二手房涨幅相对温和，成为刚需避风港——主播们现在只看二手房。</p>
+    <p><b>典型场景：</b>住在千叶以为躲开了东京，结果郊区房价也水涨船高；"东京都内拥有二三十套房产"的帖子背后，是普通老百姓"根本买不起"的落差。</p>
+    <div class="highlight">"上一次这么高，还是泡沫的时候。"</div>
+    <div class="relation"><strong>相关概念：</strong>与房租上涨、停车费翻倍同源——都是地价在传导。</div>
+  </div>
+
+  <div class="card card-red">
+    <h3>避坑：房租涨价是可以拒绝的</h3>
+    <p><b>原因：</b>日本租房合同更新时可协商涨租，很多国内来的人习惯了"房东说涨就涨"直接接受——但日本法律其实偏向租客。</p>
+    <div class="pitfall">另一个隐性成本：前期料金约等于5倍月租（押金+中介费+礼金），房租涨1万，首次入住就要多掏约5万。8万月租的房，入住第一笔要交40万上下。</div>
+    <p><b>解法：</b>收到涨租通知先明确表示不接受，再谈判缓冲（有成功把"涨4000"谈到"不涨"的真实案例）；房东强制大涨可主张法律权益，甚至争取搬家赔偿。前提是你知道"可以拒绝"这件事。</p>
+    <div class="quote">"如果你不知道这个事情的话，那肯定你就争取不到你该有的这个权益。"</div>
+  </div>
+
+  <div class="card card-green">
+    <h3>行的账单：电车轮涨、油价反降、停车费翻倍</h3>
+    <p><b>核心机制：</b>电车约20年没涨价如今也要涨；停车费随地价水涨船高——以前一天900日元上限的停车场，如今上限取消、单价变成12分钟400-500日元；油价反而因补贴回落至133日元/升（约6块多人民币）。</p>
+    <p><b>关键理解：</b>价格变动不是单向的：既有"地价-停车费"的传导链，也有"政策补贴-油价"的调节器。区分"结构性上涨"与"政策性回落"，比笼统说"物价飞涨"更接近真相。</p>
+    <p><b>典型场景：</b>都内各站点收藏便宜停车场，还要分周中/周日两套价格；东京都内一个车位月租约4万日元，接近主播在千叶的月租（房租7万+车位）。</p>
+    <div class="highlight">"房价炒上来了，所以地涨钱了；地涨钱了以后，停车场也就涨钱了。"</div>
+    <div class="relation"><strong>相关概念：</strong>对比"东京都民福利更好（育儿补贴、电车高温补贴）"——高生活成本换取高福利。</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">四、衣与政策：从"价格锚定"到"签证门槛"</h2>
+
+  <div class="card">
+    <h3>价格锚定：不是买不起优衣库，是"觉得不值"</h3>
+    <p><b>核心机制：</b>基本款牛仔裤曾两三千日元，如今4999日元；衬衣从1999涨到3999。涨价本身之外，真正的心理冲击来自"价格锚点"——心里认定基本款就该值两三千。</p>
+    <p><b>关键理解：</b>涨价改写消费决策逻辑：不是"买不起"，而是"超过锚点就不值"。GU现在的价格正好是当年优衣库的价格，于是性价比心智整体转移。</p>
+    <p><b>典型场景：</b>毕业时用社员折扣买的GU衣服一直穿到今天；快时尚网购（Shein等）一件一两千日元、设计好看但品质一般。</p>
+    <div class="highlight">"在你意识里面已经认定了，这个基本款就应该是两三千块钱。如果是四千以上，你就觉得没必要了。"</div>
+    <div class="relation"><strong>相关概念：</strong>与优衣库"日本涨价、国内降价、价差被拉平"的全球化定价策略联动——代购的时代因此落幕。</div>
+  </div>
+
+  <div class="card card-orange">
+    <h3>避坑：海外网购的"一锤子买卖"</h3>
+    <p><b>原因：</b>淘宝/Shein款式多、199包邮很诱人，但版型与size不标准；在日本退换货成本高，基本买定离手，不合适就砸手里。</p>
+    <div class="pitfall">例证：去年买的雪服尺寸不合适，现在还扔在家里没处理；主播只能"认准一家店"——因为只有那家的尺寸和品控是验证过的。</div>
+    <p><b>解法：</b>① 先小单试水确认版型，再复购同一家；② 买前看清尺码表与退换政策；③ 高频、低风险品类（袜子、内衣）适合网购，正装外套优先线下试穿。</p>
+  </div>
+
+  <div class="card card-purple">
+    <h3>对外国人政策收紧：签证费、永住、拒签</h3>
+    <p><b>核心机制：</b>签证更新手续费4000→6000日元、永住8000→1万日元，甚至传出计划涨到3万-10万；永住更新时欠税、欠年金可能被拒签甚至取消。</p>
+    <p><b>关键理解：</b>涨价都是"成倍成倍"地涨，先用"3万-10万"的高价烟雾弹，再落地到"2万-5万"——典型的心理战术。本质是政府缺钱+收紧外国人流入。</p>
+    <p><b>典型场景：</b>东京拒签率变高，以前一半一半，现在大部分过不了；"要么按时缴税缴保险，要么走人"的信号越来越明显。</p>
+    <div class="highlight">"不管是物价也好，还是手续费也好，他们涨价都是成倍成倍涨……真不拿外国人当人。"</div>
+    <div class="relation"><strong>相关概念：</strong>与物价上涨同构——都在向"没有话语权的人"转嫁成本。</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">五、省钱方法论：积分、比价与半价</h2>
+
+  <div class="card">
+    <h3>积分经济（ポイント活）：被低估的"隐性收入"</h3>
+    <p><b>核心机制：</b>日本积分体系庞大：不同APP可绑定不同信用卡，研究"什么APP+什么卡+在什么店"组合最划算，结账时用积分抵扣。</p>
+    <p><b>关键理解：</b>积分是伴随物价上涨越来越值钱的"第二货币"——有人甚至靠积分生活、攒下几百万积分，生活品质不降反升。</p>
+    <p><b>典型场景：</b>结账必问"能积分吗"；主播立志做"百万积分"玩家，把研究积分当成家庭理财项目。</p>
+    <div class="highlight">"有一些厉害的人甚至有上百万的积分，天天就耗这些积分去生活，生活的品质可能比我们还好。"</div>
+    <div class="relation"><strong>相关概念：</strong>与故乡纳税、半价便当同属"信息差红利"——都在奖励研究制度的人。</div>
+  </div>
+
+  <div class="card card-green">
+    <h3>超市比价矩阵：按品类分配采购点</h3>
+    <p><b>核心机制：</b>不锁定一家超市，而是把高频清单拆开：鸡蛋肉虾去Costco、中国食材去物产店集中采购、冷冻蔬菜罐头去业务超市、晚上蹲超市半价便当和熟食。</p>
+    <p><b>关键理解：</b>省钱的本质不是"省单品价格"，而是"价格地图+路径规划"——知道哪家便宜，顺便完成跨品类采购，一趟省下的钱远超交通成本。</p>
+    <p><b>典型场景：</b>列清单→逐项比价→周末集中采买；去都内先停进收藏的便宜停车场。</p>
+    <div class="highlight">"先把要买的东西全列出来，然后挨个去看这个东西在哪个超市更便宜一些。"</div>
+    <div class="relation"><strong>相关概念：</strong>冷冻蔬菜口感与新鲜差别不大，是"冰箱容量"换"预算"的典型置换。</div>
+  </div>
+
+  <div class="card">
+    <h3>外食策略：午餐是最佳窗口</h3>
+    <p><b>核心机制：</b>午市定食比晚市便宜一大截，还常有晚餐没有的限定套餐；配合APP优惠券与积分，一餐千余日元能吃得很好。</p>
+    <p><b>关键理解：</b>同样的店、同样的菜，把外食需求挪到午市，预算立刻宽松——这是不需要改变生活方式就能落地的省钱法。</p>
+    <p><b>典型场景：</b>想解馋选工作日午餐；聚餐宴请留在月初预算充裕时，避免"点一圈下来发现比以前贵很多"的账单惊吓。</p>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">六、撕裂感：同一片东京，两种物价</h2>
+
+  <div class="card card-orange">
+    <h3>游客觉得便宜，居民觉得贵</h3>
+    <p><b>核心机制：</b>日元贬值对"赚外币花日元"的游客/代购是折扣（省30-40%），对"赚日元花日元"的居民没有实际好处；物价上涨对游客短期无感，对居民是每月账单。汇率+通胀叠加，在日外国人和日本本地人一起被挤压。</p>
+    <table>
+      <tr><th>维度</th><th>游客/代购视角</th><th>在日居民视角</th></tr>
+      <tr><td><strong>汇率4.x</strong></td><td>东西便宜，代购省30-40%</td><td>以人民币计的工资缩水30%</td></tr>
+      <tr><td><strong>物价上涨</strong></td><td>短期出行无感</td><td>工资涨幅跑不赢物价</td></tr>
+      <tr><td><strong>补贴/税</strong></td><td>与己无关</td><td>课税身份领不到，还要多缴</td></tr>
+      <tr><td><strong>消费决策</strong></td><td>买买买、排队扫货</td><td>半价便当、比价、积分精打细算</td></tr>
+    </table>
+    <div class="highlight">"现在的东京就有一种特别荒诞的撕裂感：对于游客来说，日本的东西好便宜呀；对于咱们生活在日本的外国人来说，生活成本和压力都在上升。"</div>
+    <div class="relation"><strong>相关概念：</strong>日本人也在用脚投票——国内游转向冲绳、九州、北海道等低消费地，替代出境游。</div>
+  </div>
+</div>
+
+<div class="conclusion">
+  <h2>总结：从"失去的三十年"到"涨价时代"</h2>
+
+  <h3>🎯 核心要点</h3>
+  <ul>
+    <li><strong>通缩稳态被打破：</strong>日本维持三十年的"物价不涨"戛然而止，近两年物价成倍上涨，工资涨幅追不上，实际购买力缩水约25%</li>
+    <li><strong>汇率是撕裂感的开关：</strong>从6.7跌到4点几，对赚日元花日元的居民无直接冲击，但以人民币计价的工资与储蓄缩水30%，游客与居民看到两个日本</li>
+    <li><strong>涨价结构分化：</strong>刚需直接涨价（米油蛋）、可选消费"缩量保价"（外食）、资产端由炒房资金推动（东京房价3年翻倍）</li>
+    <li><strong>身份转变=钱包转变：</strong>从非课税（领补贴）到课税（工资1/3缴税+年金+保险），同一份东京物价，两个世界的账</li>
+    <li><strong>省钱是"信息差红利"：</strong>故乡纳税、积分攻略、超市比价、午市窗口、半价便当——都在奖励研究制度的人</li>
+  </ul>
+
+  <h3>✅ 行动清单（可立即执行）</h3>
+  <ol>
+    <li>用同一张购物清单连续记账1个月，对比金额，识别"隐形涨价"（分量/尺寸缩水），为每月预算定基准线</li>
+    <li>搭建"超市比价地图"：把鸡蛋/肉/海鲜、中国食材、冷冻蔬菜分别固定到Costco/物产店/业务超市，周末集中采购</li>
+    <li>研究积分体系（ポイント活）：先挑1-2个常用APP绑定对应信用卡，坚持结账用积分，每月统计实际省下金额</li>
+    <li>收到房租更新通知时，先明确拒绝再谈判——日本法律偏向租客，争取"不涨"或缓涨；搬家前算清前期料金（约5倍月租）</li>
+    <li>把30%的外食需求挪到午市，配合APP优惠券+积分，同样的店预算立刻松动</li>
+    <li>关注签证/永住政策变化：按时缴税、年金、保险，避免更新期被拒签或取消</li>
+  </ol>
+
+  <h3>🔄 关键认知转变</h3>
+  <p><strong>以前以为：</strong>日本东西便宜、物价稳定，在日本生活体面又滋润，工资涨了生活自然往上走。</p>
+  <p><strong>现在理解：</strong>便宜只是"游客的错觉"；日本正从通缩常态进入涨价时代，居民要面对"工资与物价赛跑"的残酷现实——和在北上广深一样，过日子全靠算计：半价便当、比价、积分一个不少。真正的护城河不是汇率，而是对当地制度的理解（故乡纳税、租客权益、积分系统）与财务上的确定性规划。</p>
+</div>
+
+<div class="footer">
+  来源：小宇宙FM - 日本物价三十年：从失去的三十年到涨价时代（翻来张口｜老范 &amp; 雪梨） | 转录：Whisper | 生成时间：2026-08-08
+</div>
+
+</div>
+</body>
+</html>

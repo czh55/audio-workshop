@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>冈仁波齐徒步全攻略：5600米海拔、52公里山路、高反、暴雪与救援车</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:20px 28px;text-align:center;min-width:160px;font-weight:700;font-size:16px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3{color:#92400e;margin-bottom:8px}
+.correction p{color:#92400e;font-size:15px}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card.card-red{border-left-color:#ef4444}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.speaker{display:inline-block;font-size:13px;font-weight:600;padding:2px 10px;border-radius:12px;margin-right:8px}
+.speaker-host{background:#dbeafe;color:#1e40af}
+.speaker-guest{background:#ede9fe;color:#6b21a8}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}
+.html-toolbar{position:sticky;top:0;z-index:100;display:flex;align-items:center;gap:16px;padding:12px 20px;background:rgba(248,250,252,.92);backdrop-filter:blur(8px);border-bottom:1px solid #e2e8f0;font-family:"PingFang SC","Microsoft YaHei",sans-serif}
+.html-toolbar .back-link{font-size:14px;color:#3b82f6;text-decoration:none;white-space:nowrap;font-weight:600}
+.html-toolbar .back-link:hover{text-decoration:underline}
+.html-toolbar-title{flex:1;font-size:14px;font-weight:600;color:#1e293b;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.html-toolbar .html-audio{width:260px;height:36px;border-radius:8px}
+.html-toolbar .html-svg-link{font-size:13px;color:#64748b;text-decoration:none;white-space:nowrap}
+.html-toolbar .html-svg-link:hover{color:#3b82f6;text-decoration:underline}
+@media (max-width:640px){
+  .html-toolbar{flex-wrap:wrap;gap:10px;padding:10px 12px}
+  .html-toolbar-title{flex-basis:100%;order:-1;font-size:13px}
+  .html-toolbar .html-audio{width:100%}
+}
+
+body{padding:0!important;margin:0!important}
+.container{padding:48px 60px}
+@media (max-width:640px){.container{padding:16px 12px!important}.container{max-width:100%!important}h1{font-size:24px!important}h2,.sec-title{font-size:18px!important}h3{font-size:16px!important}p,li{font-size:14px!important}.summary-line{font-size:15px!important;padding:14px 16px!important}.map,.card,.timeline{padding:16px!important;margin-bottom:16px!important}.map h2{font-size:18px!important}.diagram{gap:10px!important;padding:10px 0!important}.node{min-width:100px!important;padding:12px 16px!important;font-size:13px!important}.arrow{font-size:18px!important}.conclusion{padding:20px!important}.footer{padding:20px 0 12px!important}}
+</style>
+</head>
+<body>
+<div class="html-toolbar">
+  <a class="back-link" href="index.html">← 返回首页</a>
+  <div class="html-toolbar-title">冈仁波齐徒步全攻略：5600米海拔、52公里山路、高反、暴雪与救援车</div>
+  <audio controls preload="metadata" class="html-audio" src="audio/kailash-trekking-guide.mp3">您的浏览器不支持音频播放</audio>
+  <a class="html-svg-link" href="viewer.html?f=kailash-trekking-guide-总结.svg" target="_blank">SVG 版 ↗</a>
+</div>
+<div class="container">
+
+<h1>冈仁波齐徒步全攻略：5600米海拔、52公里山路、高反、暴雪与救援车</h1>
+<div class="meta">
+  <span class="tag tag-blue">户外/旅行</span>
+  <span class="tag tag-orange">徒步攻略</span>
+  <span class="tag tag-red">高原安全</span>
+  <span class="tag tag-gray">约1小时25分</span>
+  <span class="tag tag-green">podcast: 苦中找乐</span>
+</div>
+<div class="summary-line">嘉宾松鹤分享冈仁波齐转山全攻略。核心内容：错峰旅行策略、冬游西藏卡、便携制氧机（闲鱼日租20元）、氧气袋/碳纤维氧气瓶对比、52公里环线路线拆解（塔钦→曲古寺→止热寺→天葬台→卓玛拉垭口5600米→不动地丁）、救援车机制（150-200元/人）、219公路暴风雪经历、低反（醉氧）体验。核心主题：高原徒步不是浪漫化的旅程，需要充分准备，知道什么时候该认怂坐车。</div>
+
+<div class="timeline">
+  <h3>关键时间轴</h3>
+  <div class="timeline-item"><span class="timeline-time">00:00</span><span class="timeline-text">开场：松鹤刚从云南→西藏→新疆沿219公路走了一圈</span></div>
+  <div class="timeline-item"><span class="timeline-time">02:25</span><span class="timeline-text">错峰旅行策略：黄金周前后的小低谷是体验最好的时间</span></div>
+  <div class="timeline-item"><span class="timeline-time">04:38</span><span class="timeline-text">冬游西藏政策：11月至3月所有A级景区免票</span></div>
+  <div class="timeline-item"><span class="timeline-time">06:30</span><span class="timeline-text">便携制氧机：闲鱼租一天20元，连续供氧不中断，比氧气瓶划算太多</span></div>
+  <div class="timeline-item"><span class="timeline-time">10:00</span><span class="timeline-text">氧气方案对比：氧气袋（大容量但一次性的）vs 碳纤维瓶（轻但贵）vs 制氧机（中途拿下来就可能高反）</span></div>
+  <div class="timeline-item"><span class="timeline-time">15:00</span><span class="timeline-text">冈仁波齐路线详解：52公里外环线，分两天完成</span></div>
+  <div class="timeline-item"><span class="timeline-time">18:00</span><span class="timeline-text">第一天路线：塔钦→曲古寺→止热寺，约20公里，住止热寺</span></div>
+  <div class="timeline-item"><span class="timeline-time">22:00</span><span class="timeline-text">第二天路线：止热寺→天葬台→卓玛拉垭口(5600米)→不动地丁→塔钦</span></div>
+  <div class="timeline-item"><span class="timeline-time">25:00</span><span class="timeline-text">救援车机制：不动地丁之后可以坐车，150-200元/人</span></div>
+  <div class="timeline-item"><span class="timeline-time">30:00</span><span class="timeline-text">亲身经历：暴风雪中过垭口，制氧机在关键时刻救了命</span></div>
+  <div class="timeline-item"><span class="timeline-time">40:00</span><span class="timeline-text">219公路暴风雪：能见度不足五米，积雪埋车，惊魂3小时</span></div>
+  <div class="timeline-item"><span class="timeline-time">48:00</span><span class="timeline-text">关于认怂：到了不动地丁就开始坐车是完全合理的</span></div>
+  <div class="timeline-item"><span class="timeline-time">55:00</span><span class="timeline-text">低反（醉氧）体验：从5000米到平原，开车只想睡觉</span></div>
+  <div class="timeline-item"><span class="timeline-time">1:10:00</span><span class="timeline-text">高原徒步装备清单和心理准备</span></div>
+</div>
+
+<div class="map">
+  <h2>核心脉络：冈仁波齐转山全流程</h2>
+  <div class="diagram">
+    <div class="node">塔钦<br/>起点/4600米</div>
+    <div class="arrow">&amp;rarr;</div>
+    <div class="node node-green">曲古寺<br/>第一天</div>
+    <div class="arrow">&amp;rarr;</div>
+    <div class="node">止热寺<br/>住宿/约5000米</div>
+    <div class="arrow">&amp;rarr;</div>
+    <div class="node node-orange">卓玛拉垭口<br/>最高点/5600米</div>
+    <div class="arrow">&amp;rarr;</div>
+    <div class="node node-green">不动地丁<br/>可坐救援车</div>
+    <div class="arrow">&amp;rarr;</div>
+    <div class="node">塔钦<br/>环线终点</div>
+  </div>
+</div>
+
+<div class="correction">
+  <h3>认知纠偏</h3>
+  <p>很多人把冈仁波齐转山浪漫化为"朝圣之旅"，但松鹤的核心观点是：高原徒步首先是物理挑战——氧气不足、温度骤降、体力透支是真实存在的。不在于走了多远，不在于有没有走完全程，而在于能不能快乐出发、平安回家。"认怂"是一门必修课——到了不动地丁果断坐救援车不是失败，是智慧。</p>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">1. 错峰旅行：同样的钱，天上地下的体验</h2>
+  <div class="card card-green">
+    <h3>松鹤的错峰哲学</h3>
+    <p><b>黄金周前后的小低谷</b>：10月8号到15号（技能冷却期）、调休的周末（都在上班准备旅行）、五一前一周。这些时间段的人少到令人难以置信。</p>
+    <p><b>冬游西藏免票政策</b>：每年11月到次年3月，所有自治区属A级景区免门票。这个时间段虽然冷，但游客极少、便宜、有一种独特的"西藏味道"。</p>
+    <div class="highlight">核心逻辑：如果你有法定年假，把假期用在黄金周前后的"低谷期"——前后挪一两天，体验天差地别。</div>
+    <p><b>实例分享</b>：松鹤4月下旬走云南（腾冲、丽江、大理），五一前到西藏，"一路上人少得不可思议"。他判断现在的趋势是：黄金周和小长假正日子爆满，但前后的弹剂越来越明显。</p>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">2. 高原氧气方案：怎么花最少的钱保命</h2>
+  <div class="card">
+    <h3>制氧机：被忽视的最优解</h3>
+    <p><b>闲鱼租便携制氧机</b>：一天20元左右，可以连续制氧不中断。比氧气瓶（一罐几十块几分钟用完）划算太多，而且可以边走路边吸。</p>
+    <p><b>使用策略</b>：保持全程佩戴——一旦中途拿下来，再戴上可能需要一段时间才能回到血氧水平。松鹤的建议是"从出发到结束一直戴着，睡觉也戴着"。</p>
+  </div>
+  <div class="card">
+    <table>
+      <tr><th>方案</th><th>优势</th><th>劣势</th><th>适合人群</th></tr>
+      <tr><td>便携制氧机</td><td>连续供氧、日租20元、边走边吸</td><td>电池需要充电、有一定重量、不能停</td><td>预算有限但要多日吸氧</td></tr>
+      <tr><td>医用氧气袋</td><td>容量大、一次充气用很久</td><td>不能重复充气、一次性、携带不便</td><td>短途、固定营地使用</td></tr>
+      <tr><td>碳纤维氧气瓶</td><td>超轻、便携</td><td>贵、需要提前买好</td><td>轻度高反、备用</td></tr>
+      <tr><td>普通氧气罐</td><td>最便宜</td><td>几分钟就吸完、等于没带</td><td>不推荐用于徒步</td></tr>
+    </table>
+    <div class="action">松鹤推荐：闲鱼上找"便携制氧机 日租"，一天20元，买一个属于自己的不如租一个 —— 回家后根本用不着。</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">3. 52公里环线路线详解</h2>
+  <div class="card">
+    <h3>第一天：塔钦 → 曲古寺 → 止热寺（约20公里）</h3>
+    <p><b>塔钦</b>：转山起点，海拔约4600米，有客栈和补给。</p>
+    <p><b>曲古寺</b>：第一个经幡聚集点，沿途可以看到冈仁波齐峰的西面。</p>
+    <p><b>止热寺</b>：第一天的住宿点，海拔约5000米。条件简陋但能避风，有简单的床和被子。建议自备睡袋内胆或羽绒睡袋。</p>
+    <div class="relation">第一天整体爬升不大，但始终在4600-5000米之间，每个人对海拔的反应不同——有人第一天就倒下了。</div>
+  </div>
+  <div class="card card-orange">
+    <h3>第二天：止热寺 → 天葬台 → 卓玛拉垭口 → 不动地丁 → 塔钦（约32公里）</h3>
+    <p><b>天葬台</b>：沿途标志性地点，很多朝圣者在此停留。</p>
+    <p><b>卓玛拉垭口（5600米）</b>：全线最高点！松鹤过垭口时遇到暴风雪，能见度极差。带制氧机的人都感受到了巨大的帮助。</p>
+    <p><b>不动地丁</b>：过了垭口后的平缓地带，这里是救援车的起点。150-200元/人可以直接坐车回到塔钦。松鹤强烈建议：如果体力不行了、天黑了、天气变差了，果断坐车。</p>
+    <p><b>剩余路段</b>：从不动地丁到塔钦还有相当一段距离，海拔下降但路程漫长。松鹤的朋友选择继续走完，而他选择了坐车——"各有各的选择"。</p>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">4. 真实的高反与极限体验</h2>
+  <div class="card card-red">
+    <h3>暴风雪过垭口：制氧机救了命</h3>
+    <p>松鹤在翻卓玛拉垭口时遭遇暴风雪，风把雪吹得根本睁不开眼，气温骤降。全程靠着便携制氧机保持呼吸平稳。同行的朋友中有人因为没带制氧设备，在垭口附近出现了严重的高反症状，不得不靠别人扶持。</p>
+    <div class="pitfall">关键教训：在5600米海拔遇到极端天气，没有氧气支持等于在拿命赌。便携制氧机的2000块"保险"值得花。</div>
+  </div>
+  <div class="card card-orange">
+    <h3>219公路暴风雪：能见度不足五米</h3>
+    <p>转山结束后，松鹤沿219公路从西藏往新疆方向开，遭遇了一场突如其来的暴风雪。雪在几分钟之内就把路面全部覆盖，能见度不到五米，积雪深到随时可能把车埋住。</p>
+    <p><b>决定</b>：松鹤选择硬着头皮往前开——"那个地方前不着村后不着店，停下来更危险，因为没人会来救你"。开了三个多小时才穿过雪区。</p>
+    <div class="highlight">高原生存铁律：在无人区遇到极端天气，移动比停留更安全。但如果判断自己无法前行——待在车里、等雪停、有卫星电话求救。</div>
+  </div>
+  <div class="card card-green">
+    <h3>低反（醉氧）：从5000米下到平原的奇怪体验</h3>
+    <p>从西藏回到平原地区后，松鹤经历了一种"醉氧"状态——开车的时候只想睡觉，怎么睡都睡不够，身体像被抽空了一样。</p>
+    <p><b>科学解释</b>：身体在高原已经适应了极低氧环境，突然回到富氧的平原，会产生一种类似"醉"的状态——嗜睡、乏力、反应迟钝。这其实是身体在重新适应。</p>
+    <div class="relation">低反的危险：开车是绝对禁忌。下高原后至少给自己两天修复时间，不要安排高强度工作或长途驾驶。</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">5. 认怂哲学：什么时候该坐车</h2>
+  <div class="card">
+    <h3>冈仁波齐的"救援车"不是耻辱</h3>
+    <p><b>费用</b>：从不动地丁坐救援车回塔钦，约150-200元/人。不是救护车，是当地人的皮卡车或面包车。</p>
+    <p><b>应该坐车的情况</b>：天色已暗、天气突变（暴风雪/大雨）、脚起泡走不动、高反症状持续加重、制氧设备电量耗尽。</p>
+    <div class="quote">"旅行的意义从来不在于一定走完全程。能够看清自己的身体，接受临时改变，最后快快乐乐地出发、平平安安地回来，可能才是真正重要的事。"</div>
+    <p><b>松鹤的选择</b>：到了不动地丁，他选择坐车。尽管有同伴继续走完了全程。"这不是比赛，没有人给你发奖牌。"</p>
+    <div class="highlight">核心经验：高原徒步的准则是"安全第一、体验第二、完赛最不重要"。认怂是成熟的表现，不是软弱。</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">6. 装备与准备清单</h2>
+  <div class="card">
+    <table>
+      <tr><th>类别</th><th>必备</th><th>选配/建议</th></tr>
+      <tr><td>氧气</td><td>便携制氧机（闲鱼租）</td><td>碳纤维氧气瓶备用</td></tr>
+      <tr><td>保暖</td><td>羽绒服、冲锋衣、抓绒衣、保暖内衣、防水裤</td><td>羽绒裤（晚上穿）</td></tr>
+      <tr><td>鞋袜</td><td>高帮防水徒步鞋、羊毛袜x3</td><td>营地鞋/拖鞋</td></tr>
+      <tr><td>睡眠</td><td>羽绒睡袋（-10°C温标）、睡袋内胆</td><td>充气睡垫</td></tr>
+      <tr><td>防护</td><td>太阳镜（雪盲）、50+防晒霜、宽檐帽、手套</td><td>面罩/魔术头巾</td></tr>
+      <tr><td>照明</td><td>头灯+备用电池</td><td></td></tr>
+      <tr><td>饮水</td><td>保温壶（1L+）</td><td>水袋（注意防冻）</td></tr>
+      <tr><td>药品</td><td>高原安/红景天（提前一周）、布洛芬、葡萄糖</td><td>地塞米松（紧急激素）</td></tr>
+      <tr><td>通讯</td><td>充电宝x2（大容量）、离线地图</td><td>卫星电话/北斗短信</td></tr>
+    </table>
+    <div class="action">最重要的三条：制氧机（不管你觉得需不需要）、保温壶（5600米喝一口热水是救命级别的体验）、羽绒睡袋（住宿条件极简陋）。</div>
+  </div>
+</div>
+
+<div class="conclusion">
+  <h2>总结与行动</h2>
+  <h3>核心要点</h3>
+  <ul>
+    <li>错峰旅行是性价比最高的策略：黄金周前后的低谷期体验天差地别，冬游西藏还有免票政策</li>
+    <li>便携制氧机是高原徒步的"性价比之王"：闲鱼日租20元 vs 氧气罐几分钟用完</li>
+    <li>冈仁波齐52公里环线不是体能刚需，是高原适应刚需——5500米+的高度每一口呼吸都珍贵</li>
+    <li>救援车（150-200元）不是失败：天气变差/天黑/高反加重时果断坐车，活着回家比什么都重要</li>
+    <li>219公路的暴风雪不是段子：无人区的极端天气真实存在，移动比停留更安全（但要在能力范围内）</li>
+    <li>低反（醉氧）是真实存在的：下高原后48小时不要开车、不要安排重要工作</li>
+  </ul>
+  <h3>行动清单</h3>
+  <ol>
+    <li>出发前1周：闲鱼找"便携制氧机 日租"，下单；开始吃红景天</li>
+    <li>出发前3天：检查装备清单——睡袋温标不低于-10°C、保温壶必带、充电宝2个满载</li>
+    <li>在塔钦：提前了解救援车联系方式，问清楚价格和运营时间；观察身体反应决定是否调整计划</li>
+    <li>过垭口：早上尽可能早出发（5-6点），赶在天黑和天气变差前穿越最高点</li>
+    <li>到不动地丁：诚实评估自己状态——可以走完不代表应该走完</li>
+    <li>下高原后：预留48小时恢复期，不驾车、不安排高强度活动</li>
+  </ol>
+  <h3>关键认知转变</h3>
+  <p>以前把高原徒步当成"挑战自己"的证明，现在理解了最美的高原体验不在于"走完了"——而在于你有没有带着足够的敬畏、给自己留了足够的安全冗余。"认怂"不是失败，是你对自己生命负责的表现。</p>
+</div>
+
+<div class="footer">来源：苦中找乐 · 小宇宙FM · "冈仁波齐徒步全攻略"</div>
+
+</div>
+</body>
+</html>

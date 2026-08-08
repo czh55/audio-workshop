@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>硅谷AI一线体感：从Model first到Problem first，我们用三年想明白了这件事</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,0.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:20px 28px;text-align:center;min-width:160px;font-weight:700;font-size:16px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3{color:#92400e;margin-bottom:8px}
+.correction p{color:#92400e;font-size:15px}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,0.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.speaker{display:inline-block;font-size:13px;font-weight:600;padding:2px 10px;border-radius:12px;margin-right:8px}
+.speaker-host{background:#dbeafe;color:#1e40af}
+.speaker-guest{background:#ede9fe;color:#6b21a8}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,0.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,0.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,0.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}
+.html-toolbar{position:sticky;top:0;z-index:100;display:flex;align-items:center;gap:16px;padding:12px 20px;background:rgba(248,250,252,.92);backdrop-filter:blur(8px);border-bottom:1px solid #e2e8f0;font-family:"PingFang SC","Microsoft YaHei",sans-serif}
+.html-toolbar .back-link{font-size:14px;color:#3b82f6;text-decoration:none;white-space:nowrap;font-weight:600}
+.html-toolbar .back-link:hover{text-decoration:underline}
+.html-toolbar-title{flex:1;font-size:14px;font-weight:600;color:#1e293b;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.html-toolbar .html-audio{width:260px;height:36px;border-radius:8px}
+.html-toolbar .html-svg-link{font-size:13px;color:#64748b;text-decoration:none;white-space:nowrap}
+.html-toolbar .html-svg-link:hover{color:#3b82f6;text-decoration:underline}
+@media (max-width:640px){
+  .html-toolbar{flex-wrap:wrap;gap:10px;padding:10px 12px}
+  .html-toolbar-title{flex-basis:100%;order:-1;font-size:13px}
+  .html-toolbar .html-audio{width:100%}
+}
+
+body{padding:0!important;margin:0!important}
+.container{padding:48px 60px}
+@media (max-width:640px){.container{padding:16px 12px!important}.container{max-width:100%!important}h1{font-size:24px!important}h2,.sec-title{font-size:18px!important}h3{font-size:16px!important}p,li{font-size:14px!important}.summary-line{font-size:15px!important;padding:14px 16px!important}.map,.card,.timeline{padding:16px!important;margin-bottom:16px!important}.map h2{font-size:18px!important}.diagram{gap:10px!important;padding:10px 0!important}.node{min-width:100px!important;padding:12px 16px!important;font-size:13px!important}.arrow{font-size:18px!important}.conclusion{padding:20px!important}.footer{padding:20px 0 12px!important}}
+</style>
+</head>
+<body>
+<div class="html-toolbar">
+  <a class="back-link" href="index.html">← 返回首页</a>
+  <div class="html-toolbar-title">硅谷AI一线体感：从Model first到Problem first，我们用三年想明白了这件事</div>
+  <audio controls preload="metadata" class="html-audio" src="audio/ai_model_problem_first.mp3">您的浏览器不支持音频播放</audio>
+  <a class="html-svg-link" href="viewer.html?f=ai_model_problem_first-总结.svg" target="_blank">SVG 版 ↗</a>
+</div>
+<div class="container">
+
+<h1>硅谷AI一线体感：从Model first到Problem first，我们用三年想明白了这件事</h1>
+<div class="meta">
+  <span class="tag tag-blue">播客</span>
+  <span class="tag tag-purple">AI Odyssey</span>
+  <span class="tag tag-orange">35分钟</span>
+  <span class="tag tag-green">硅谷创业</span>
+</div>
+<div class="summary-line">AI Odyssey 彭彭对话硅谷一线技术人 Leo：三年间 AI 从「模型发布即地震」祛魅为背景音，创业者从 Model first 转向 Problem first；API Wrapper 被证伪，Vertical AI + Domain Knowledge 成共识，模型吞噬焦虑真实存在。</div>
+
+<div class="timeline">
+  <h3>关键时间轴</h3>
+  <div class="timeline-item">
+    <span class="timeline-time">00:00</span>
+    <span class="timeline-text">开场：AI 从狂欢高潮变成日常背景音</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">03:30</span>
+    <span class="timeline-text">模型发布祛魅：看一眼 benchmark 换 API 继续搬砖</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">08:00</span>
+    <span class="timeline-text">模型分化与收敛：各家专长不同，半年内又聚敛到 Coding</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">14:00</span>
+    <span class="timeline-text">成本与开源：Fireworks 部署国产模型，OpenRouter 国产 token 占 50%</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">18:30</span>
+    <span class="timeline-text">工作流依赖：Groq 宕机全员摸鱼，ChatGPT 金融服务争议</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">24:00</span>
+    <span class="timeline-text">七大科技股 AI 策略拆解：Google 工程化路线最受欣赏</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">28:30</span>
+    <span class="timeline-text">创业范式：Wrapper 证伪，Vertical + AI Native SaaS 方向</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">32:00</span>
+    <span class="timeline-text">三年认知总结：Problem first、Token Cost、勇敢做 AI Native</span>
+  </div>
+</div>
+
+<div class="map">
+  <h2>核心脉络</h2>
+  <div class="diagram">
+    <div class="node">Model First<br/>2023 兴奋期</div>
+    <span class="arrow">→</span>
+    <div class="node-orange">祛魅背景音<br/>Benchmark 换 API</div>
+    <span class="arrow">→</span>
+    <div class="node-green">Problem First<br/>Vertical + 付费</div>
+  </div>
+</div>
+
+<div class="correction">
+  <h3>⚠ 常见误解 / 认知纠偏</h3>
+  <p>误区：模型越强产品越好，API Wrapper 套壳就能创业。现实：Foundation Model 持续变强已证伪 Wrapper 路线；模型能力趋同后，应用层差距取决于 Engineering Work 投入和成本控制，离模型越近被吞噬风险越大。</p>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">一、AI 祛魅：从地震到背景音</h2>
+
+  <div class="card">
+    <h3>AI 背景音化</h3>
+    <p><b>核心机制：</b>2023 年模型发布像地震，如今更像每周天气预报。开发者看一眼 benchmark、切换 API，能跑就继续搬砖。</p>
+    <p><b>关键理解：</b>大家已默认 AI 能做基础工作，兴奋点从「模型本身」转向「给生活和工作带来什么便利、如何降本增效」。</p>
+    <p><b>典型场景：</b>中大型公司给工程师每日 AI budget，新模型发布无需逐个研究 matrix，直接切换 API 即可。</p>
+    <div class="relation">相关概念：与「模型军备竞赛」不同，一线更关注实际体感而非 benchmark 分数</div>
+    <div class="highlight">原文依据：「模型发布，大家的动作又变成了看一眼 benchmark，然后 API 再介入一下，看看能不能嵌套到自己的 workflow 里面，就继续开始搬砖了」</div>
+  </div>
+
+  <div class="card card-purple">
+    <h3>
+      <span class="speaker speaker-guest">嘉宾观点</span>
+      团队管理者关注 Workflow 而非模型本身
+    </h3>
+    <p>作为管理团队的 startup 创始人，更重要的是 AI 如何服务于现有 workflow 和产品 feature，而非追逐每个新模型。</p>
+    <div class="quote">「大家从一个刚接触 AI 的新闻的状态，到逐渐适应了 AI 成为自己生活工作的一部分，从而逐步增强自己对 AI 的一个适用的能力。」</div>
+  </div>
+
+  <div class="card">
+    <h3>
+      <span class="speaker speaker-host">主持人提问</span>
+      模型差距是在拉大还是缩小？
+    </h3>
+    <p>早期顶尖模型功能趋同，中间两年各厂分化（DeepMind 多模态、xAI 服务自家产品、OpenAI 野心最大），但近半年又收敛到 Coding 赛道。</p>
+    <div class="relation">相关概念：Vibe Coding 正转向 Coding Agent，OpenAI Codex、xAI 收购 Cursor、Gemini 全力 Coding</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">二、应用层竞争：Engineering + 成本</h2>
+
+  <div class="card">
+    <h3>模型趋同后的应用层博弈</h3>
+    <p><b>核心机制：</b>模型能力再次趋同 + 应用层 Engineering，最终效果可能趋同，但过程中各团队需投入不同比例的力气在模型 API 上才能达到相同结果。</p>
+    <p><b>关键理解：</b>创业者对模型的 sense 比两三年前强得多，会反复测试选择最适合产品 feature 的模型。</p>
+    <p><b>典型场景：</b>工作流密集型业务选 Claude；成本敏感选开源自部署，只需付 GPU 消耗费用。</p>
+    <div class="highlight">原文依据：「大家都想用最牛逼的模型，但最牛逼的模型也意味着 cost 是最大的」</div>
+  </div>
+
+  <div class="card card-orange">
+    <h3>⚠ 盲目追最强模型</h3>
+    <p><b>原因：</b>最强模型 API 成本最高，对很多产品而言性能过剩，ROI 不划算。</p>
+    <div class="pitfall">嘉宾说法：「要根据产品所需的 cost 和 budget 范围之内选择最佳的 allows」</div>
+    <p><b>解法：</b>按产品性能需求选型，工作流类优先 Claude，成本敏感用开源 + Fireworks 等部署商。</p>
+    <p><b>严重程度：</b>小心</p>
+  </div>
+
+  <div class="card">
+    <h3>国产模型在硅谷的崛起</h3>
+    <p><b>核心机制：</b>OpenRouter 上小米、智谱、Kimi 等国产模型 token 调用量已占 50%。硅谷工程师通过 Fireworks 等部署商调用开源国产模型。</p>
+    <p><b>典型场景：</b>Cursor 因 Anthropic「背刺」转向用 Kimi Coding 模型做 post-training，xAI 收购 Cursor 提供算力与数据。</p>
+    <div class="highlight">原文依据：「Cursor 有很多常识就在模型的 post training，他们其实是在用 Kimi 的一个 coding 的模型做一些额外的训练」</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">三、一线工作流与 AI 依赖</h2>
+
+  <div class="card card-purple">
+    <h3>
+      <span class="speaker speaker-guest">嘉宾观点</span>
+      高度依赖 AI，Groq 宕机就摸鱼
+    </h3>
+    <p>所有代码、文案 summarize、报告撰写都用 AI。Groq 宕机时团队自然说「今天大家一起摸鱼」。</p>
+    <div class="quote">「当你找到一个快速的捷径可以让你产生非常好的结果的时候，你就会认为那个就是你现在唯一需要的。当这个捷径被封住了那一天，你会觉得我根本不自在。」</div>
+  </div>
+
+  <div class="card">
+    <h3>
+      <span class="speaker speaker-host">主持人提问</span>
+      ChatGPT 金融服务值得用吗？
+    </h3>
+    <p>Leo 暂不选择。美股情绪高涨时会夸大增长、掩盖风险，信息越多反而越难筛选有效判断依据。</p>
+    <div class="relation">相关概念：与「AI 帮你理财」的乐观叙事形成对比，嘉宾更担心信息过载</div>
+  </div>
+
+  <div class="card">
+    <h3>AI 相关股票投资</h3>
+    <p><b>核心机制：</b>投资反映行业理解 + 个人性格，而非「在 AI 行业所以更谨慎/激进」。</p>
+    <p><b>典型场景：</b>AI 相关仓位约 30%–70%，七大科技股最重；曾投 Neocloud 等被看衰标的，因自己分析判断需要。</p>
+    <div class="highlight">原文依据：「我并不是很谨慎，我永远是投我自己懂的」</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">四、七大科技股 AI 策略对比</h2>
+
+  <div class="card">
+    <h3>观点对比</h3>
+    <table>
+      <tr><th>公司</th><th>AI 策略</th><th>嘉宾评价</th><th>一句话结论</th></tr>
+      <tr><td>Google</td><td>DeepMind 做模型 → 下放到 Pixel/广告/Docs/YouTube</td><td>最欣赏：先做好 fundamental 再考虑产品</td><td>工程化路线典范，140–160 美元时加仓</td></tr>
+      <tr><td>Amazon</td><td>云业务 + 投资 OpenAI 和 Anthropic</td><td>坚持原有业务之上扩展</td><td>云 + 投资双轮驱动</td></tr>
+      <tr><td>Meta</td><td>Llama 服务于广告业务</td><td>中等关注</td><td>开源模型服务主业</td></tr>
+      <tr><td>Apple</td><td>AI 服务于 macOS/iOS 设备体验</td><td>设备端 AI</td><td>端侧 AI 路线</td></tr>
+      <tr><td>NVIDIA</td><td>GPU 基础设施</td><td>第二名，相信 Scale 能力</td><td>TPU 量太少，GPU 仍是主流</td></tr>
+    </table>
+  </div>
+
+  <div class="card card-orange">
+    <h3>⚠ GPU 抢购热潮</h3>
+    <p><b>原因：</b>国内外公司大量投入资金抢 GPU 资源，B300 国内价格从 600 多万涨到 1000 万。</p>
+    <div class="pitfall">嘉宾观察：「虽然招聘说 JAX 是 one level requirement，实际 TPU 使用的中大型公司非常少」</div>
+    <p><b>解法：</b>关注 GPU 供应链投资机会，但需区分炒作与实际需求。</p>
+    <p><b>严重程度：</b>可忽略（对个人投资者）</p>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">五、创业范式转变</h2>
+
+  <div class="card card-orange">
+    <h3>⚠ API Wrapper 创业路线</h3>
+    <p><b>原因：</b>Foundation Model 持续变强，简单套 API 做功能分已被证伪。</p>
+    <div class="pitfall">嘉宾说法：「很多人是做个 Wrapper，就用 API 的模型简单做一个小分的功能就做成 Startup 了，但现在我非常相信已经证伪了」</div>
+    <p><b>解法：</b>聚焦 Vertical 方向 + Domain Knowledge + 快速迭代客户需求。</p>
+    <p><b>严重程度：</b>致命</p>
+  </div>
+
+  <div class="card">
+    <h3>Vertical AI 成功要素</h3>
+    <p><b>核心机制：</b>大模型公司很难做大部分 Vertical（Coding 是 General Capability 而非 Vertical）。创业者需在行业有 Domain Knowledge，AI 产品与行业 Workflow 匹配。</p>
+    <p><b>关键理解：</b>产品逻辑自互联网时代未变：抓住刚需、团队够强、持续迭代 feature。</p>
+    <p><b>典型场景：</b>Y Combinator 最新批次：Coding Agent、AI Improv、教授客服等具体场景。</p>
+    <div class="action">怎么落地：问自己为什么做这个方向，无强烈 motivation 不要做；缺 knowledge 找靠谱合伙人合作</div>
+  </div>
+
+  <div class="card">
+    <h3>一人公司（OPC）在硅谷</h3>
+    <p><b>核心机制：</b>融资不错的 Vertical AI 初创团队往往仅几人，AI 可帮干很多事，但 Foundation Model 做不了 Vertical，仍需行业 knowledge 和资源积累。</p>
+    <p><b>适用边界：</b>自给自足或体验可以，要融资做大做强则核心需求和产品能力更重要。</p>
+  </div>
+
+  <div class="card card-purple">
+    <h3>
+      <span class="speaker speaker-guest">嘉宾观点</span>
+      AI Native SaaS 是未来方向
+    </h3>
+    <p>传统 SaaS 公司组织形态不适合 AI 时代，延续传统 SaaS mindset 是巨大瓶颈。从 0 到 1 做 AI Native Microsoft 三件套或 Salesforce 级客服 Agent，速度更快。</p>
+    <div class="quote">「Manus 就是办公三件套架上的 AI，这件事情最该做出来就是 Microsoft，但是它没有做出来。」</div>
+  </div>
+
+  <div class="card">
+    <h3>Physical AI 的现实</h3>
+    <p><b>核心机制：</b>数据是难突破的前提，缺乏丰富多样的机器人数据很难训练泛化模型。</p>
+    <p><b>适用边界：</b>春晚等特定场景可完美，换环境/灯光/人员则难以 scale up，发展周期非常长。</p>
+    <div class="relation">相关概念：与 Coding Agent 的短期火热形成对比，Physical AI 仍是理论节点</div>
+  </div>
+
+  <div class="card card-orange">
+    <h3>⚠ 被模型吞噬的风险</h3>
+    <p><b>原因：</b>模型能力越来越强，离模型越近被吞噬可能性越大，已被 Cursor/Anthropic 案例证实。</p>
+    <div class="pitfall">嘉宾说法：「大家已经默认模型能力一定会越来越强，你跟模型离得越近，其实你被吞噬的可能性就会越大」</div>
+    <p><b>解法：</b>建立分发、用户需求匹配、品牌、社区等护城河，2C 产品尤其重视 community 和 brand。</p>
+    <p><b>严重程度：</b>致命</p>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">六、三年认知转变</h2>
+
+  <div class="card">
+    <h3>观点对比：三年前 vs 现在</h3>
+    <table>
+      <tr><th>维度</th><th>三年前（Model First）</th><th>现在（Problem First）</th><th>一句话结论</th></tr>
+      <tr><td>产品逻辑</td><td>模型够强问题自然解决</td><td>涉及产品设计、组织流程、用户行为</td><td>2C 最大问题是用户行为</td></tr>
+      <tr><td>成本意识</td><td>以为 cost 不那么重要</td><td>Token/训练/部署成本越来越重要</td><td>芯片供应链带动多行业</td></tr>
+      <tr><td>创业方向</td><td>穿透传统 SaaS 大公司</td><td>勇敢做 AI Native，从 0 到 1</td><td>大公司并未快速干掉创新者</td></tr>
+      <tr><td>模型选型</td><td>默认 OpenAI API</td><td>按性能/成本/场景多模型选型</td><td>开源 + 国产模型崛起</td></tr>
+    </table>
+  </div>
+
+  <div class="card card-purple">
+    <h3>💡 心法：Problem First</h3>
+    <p><b>为什么重要：</b>追逐 fancy 科技而做产品，消费者眼里可能是低留存、低频功能。</p>
+    <div class="quote">「现在大家已经从 Model first 转换成一个 Problem first，我认为这才是一个产品的核心逻辑。」</div>
+    <div class="action">怎么落地：找具体的人、解决具体的问题、让他付钱；回归真实需求而非资本趋势</div>
+    <p><b>适用边界：</b>无论互联网还是 AI 时代，本质需求不变；早期模型惊艳 update 让人忽略了这一点</p>
+  </div>
+</div>
+
+<div class="conclusion">
+  <h2>总结与行动</h2>
+  <h3>核心要点</h3>
+  <ul>
+    <li>AI 已从模型发布狂欢祛魅为日常背景音，一线关注 workflow 集成与实际体感</li>
+    <li>模型能力趋同后，应用层竞争转向 Engineering 投入、成本控制和 Domain Knowledge</li>
+    <li>API Wrapper 创业路线已被证伪，Vertical AI + 行业 know-how 是存活关键</li>
+    <li>离模型越近被吞噬风险越大，需建立分发、品牌、社区等护城河</li>
+    <li>三年共识：Problem First 取代 Model First，Token Cost 越来越重要，AI Native SaaS 值得从 0 到 1 探索</li>
+  </ul>
+  <h3>行动清单</h3>
+  <ol>
+    <li>审计自己产品的 AI 依赖度：若某 API 宕机业务是否瘫痪？建立降级方案</li>
+    <li>按性能/成本/场景建立模型选型矩阵，测试开源和国产模型替代方案</li>
+    <li>创业或做产品前问三个问题：为什么做这个方向？Domain Knowledge 从哪来？谁愿意付钱？</li>
+    <li>评估产品离 Foundation Model 的距离，强化分发、workflow 匹配、品牌等差异化</li>
+    <li>关注 AI Native SaaS 机会：传统 SaaS 组织形态是瓶颈，从 0 到 1 可能更快</li>
+  </ol>
+  <h3>关键认知转变</h3>
+  <p>以前认为模型越强产品越好、套 API 就能创业；现在理解了 Problem First 才是核心，Engineering Work 和成本控制决定应用层差距，被模型吞噬是真实且已被证实的风险。</p>
+</div>
+
+</div>
+</body>
+</html>
