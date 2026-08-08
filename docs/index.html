@@ -1039,11 +1039,17 @@
             card.setAttribute('tabindex', '0');
             card.addEventListener('click', function(e) {
               if (e.target.closest('a')) return; // 内部链接自行处理
-              window.open(isError ? (item.url || '#') : viewerUrl(item.filename), '_blank');
+              var dest = isError
+                ? (item.url || '#')
+                : item.filename.replace(/\.svg$/i, '.html'); // 默认打开 HTML 版
+              window.open(dest, '_blank');
             });
             card.addEventListener('keydown', function(e) {
               if (e.key === 'Enter') {
-                window.open(isError ? (item.url || '#') : viewerUrl(item.filename), '_blank');
+                var dest = isError
+                  ? (item.url || '#')
+                  : item.filename.replace(/\.svg$/i, '.html');
+                window.open(dest, '_blank');
               }
             });
 
@@ -1066,10 +1072,6 @@
               ? '<a class="card-source-link" href="' + escapeHtml(item.url) + '" target="_blank">📎 原文链接</a>'
               : '';
 
-            var htmlLink = (!isError && item.filename)
-              ? '<a class="card-source-link" href="' + escapeHtml(item.filename.replace(/\.svg$/i, '.html')) + '" target="_blank">📄 HTML 版</a>'
-              : '';
-
             var enSlug = (!isError && item.filename)
               ? item.filename.replace(/-(?:播客)?总结\.svg$/i, '')
               : '';
@@ -1088,7 +1090,7 @@
               '<div class="card-summary">' + summaryText + '</div>' +
               tagsHtml +
               durationHtml +
-              '<div class="card-links">' + sourceLink + htmlLink + enLink + '</div>' +
+              '<div class="card-links">' + sourceLink + enLink + '</div>' +
               '<span class="card-link-icon">&#x2197;</span>';
 
             group.appendChild(card);
