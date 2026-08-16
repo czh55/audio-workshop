@@ -592,6 +592,67 @@
       font-size: 15px;
     }
 
+    /* ====== 英文搜索结果 ====== */
+    .en-results {
+      max-width: 860px;
+      margin: 0 auto 36px;
+      padding: 0 24px;
+    }
+    .en-results-title {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 18px;
+      font-weight: 800;
+      color: var(--text);
+      margin-bottom: 14px;
+    }
+    .en-results-title .count-badge {
+      font-size: 12px;
+      font-weight: 600;
+      color: #34d399;
+      background: rgba(52,211,153,0.12);
+      padding: 2px 10px;
+      border-radius: 10px;
+    }
+    .en-card .card-title {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .en-badge {
+      font-size: 11px;
+      font-weight: 700;
+      color: #34d399;
+      background: rgba(52,211,153,0.12);
+      padding: 2px 8px;
+      border-radius: 6px;
+      white-space: nowrap;
+    }
+    .en-snippet {
+      font-size: 13px;
+      color: var(--text-secondary);
+      line-height: 1.7;
+      margin-top: 8px;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    .en-snippet mark,
+    .en-title-mark {
+      background: rgba(96,165,250,0.28);
+      color: #93c5fd;
+      border-radius: 3px;
+      padding: 0 2px;
+    }
+    .en-loc {
+      font-size: 12px;
+      color: var(--text-muted);
+      margin-top: 10px;
+    }
+
     /* ====== 空状态 ====== */
     .empty-state {
       text-align: center;
@@ -723,6 +784,11 @@
       <div class="empty-hint">curl -X POST &lt;webhook-url&gt; -d '{"url":"..."}'</div>
     </div>
     <div class="timeline" id="timeline" style="display:none;"></div>
+    <!-- 英文搜索结果 -->
+    <div class="en-results" id="enResults" style="display:none;">
+      <div class="en-results-title" id="enResultsTitle"></div>
+      <div id="enResultsContainer"></div>
+    </div>
     <div class="search-empty" id="searchEmpty" style="display:none;">没有找到匹配的总结</div>
   </div>
 
@@ -730,6 +796,8 @@
     (function() {
       let allData = [];
       let allTopics = [];
+      let enIndex = [];
+      let enHitCount = 0;
       let dateMap = {};
       let calYear, calMonth;
 
@@ -823,6 +891,13 @@
         } catch (e) {
           allTopics = [];
         }
+        try {
+          const resp = await fetch('en-index.json');
+          if (!resp.ok) throw new Error('Failed');
+          enIndex = await resp.json();
+        } catch (e) {
+          enIndex = [];
+        }
         buildDateMap();
         render();
       }
@@ -859,6 +934,7 @@
 
         const query = $('searchInput').value.trim().toLowerCase();
         buildTopics(query);
+        renderEnResults(query);
 
         if (hasPodcasts) {
           renderPodcasts(query);
@@ -969,6 +1045,99 @@
         });
       }
 
+      function escapeRegExp(s) {
+        return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      }
+
+      /** 大小写不敏感地把命中词包进 <mark>（text 需已 HTML 转义或纯文本） */
+      function highlight(text, query) {
+        if (!query) return text;
+        const re = new RegExp('(' + escapeRegExp(query) + ')', 'gi');
+        return text.replace(re, '<mark>$1</mark>');
+      }
+
+      /** 以首个命中处为中心截取片段并高亮 */
+      function makeSnippet(text, query) {
+        const lower = text.toLowerCase();
+        const idx = lower.indexOf(query);
+        let slice;
+        if (idx === -1) {
+          slice = text.slice(0, 160);
+        } else {
+          const start = Math.max(0, idx - 60);
+          const end = Math.min(text.length, idx + query.length + 120);
+          slice = (start > 0 ? '…' : '') + text.slice(start, end) + (end < text.length ? '…' : '');
+        }
+        return highlight(escapeHtml(slice), query);
+      }
+
+      function renderEnResults(query) {
+        const container = $('enResultsContainer');
+        const wrap = $('enResults');
+        enHitCount = 0;
+
+        const isLatin = /[a-zA-Z]/.test(query);
+        if (!query || !isLatin || enIndex.length === 0) {
+          wrap.style.display = 'none';
+          container.innerHTML = '';
+          return;
+        }
+
+        let hits = [];
+        enIndex.forEach(function(entry) {
+          const titleLower = (entry.title_en || '').toLowerCase();
+          const titleHit = titleLower.indexOf(query) !== -1;
+          const blockHits = (entry.blocks || []).filter(function(b) {
+            return (b.text || '').toLowerCase().indexOf(query) !== -1;
+          });
+          if (!titleHit && blockHits.length === 0) return;
+          hits.push({ entry: entry, titleHit: titleHit, blockHits: blockHits });
+        });
+
+        enHitCount = hits.length;
+        if (hits.length === 0) {
+          wrap.style.display = 'none';
+          container.innerHTML = '';
+          return;
+        }
+
+        wrap.style.display = 'block';
+        $('enResultsTitle').innerHTML = '英文内容 <span class="count-badge">' + hits.length + ' 篇命中</span>';
+
+        hits.forEach(function(h) {
+          const entry = h.entry;
+          const firstBlock = h.blockHits[0];
+          const anchor = firstBlock && firstBlock.anchor ? firstBlock.anchor : '';
+          const href = entry.en_page + (anchor ? '#' + anchor : '');
+
+          const titleHtml = h.titleHit
+            ? highlight(escapeHtml(entry.title_en), query)
+            : escapeHtml(entry.title_en);
+
+          let snippetText, locLabel;
+          if (firstBlock) {
+            snippetText = makeSnippet(firstBlock.text, query);
+            locLabel = (firstBlock.label || '内容') + ' · ' + entry.en_page + (anchor ? ' #' + anchor : '');
+          } else {
+            snippetText = makeSnippet(entry.title_en, query);
+            locLabel = '英文标题 · ' + entry.en_page;
+          }
+
+          const card = document.createElement('a');
+          card.className = 'card en-card';
+          card.href = href;
+          card.target = '_blank';
+          card.innerHTML =
+            '<div class="card-header">' +
+              '<span class="card-title">' + titleHtml + '<span class="en-badge">EN</span></span>' +
+            '</div>' +
+            '<div class="en-snippet">' + snippetText + '</div>' +
+            '<div class="en-loc">' + escapeHtml(locLabel) + '</div>' +
+            '<span class="card-link-icon">&#x2197;</span>';
+          container.appendChild(card);
+        });
+      }
+
       function renderPodcasts(query) {
         const days = Object.keys(dateMap).sort().reverse();
         updateStats(allData.length, days.length);
@@ -980,6 +1149,7 @@
           filteredDays = days.filter(function(d) {
             const items = dateMap[d].filter(function(item) {
               return (item.title || '').toLowerCase().includes(query) ||
+                (item.title_en || '').toLowerCase().includes(query) ||
                 (item.summary || '').toLowerCase().includes(query) ||
                 (item.url || '').toLowerCase().includes(query) ||
                 (item.error_message || '').toLowerCase().includes(query);
@@ -992,7 +1162,7 @@
           days.forEach(function(d) { dateMap[d]._filtered = dateMap[d]; });
         }
 
-        if (query && visibleCount === 0 && !topicMatchesQuery(query)) {
+        if (query && visibleCount === 0 && !topicMatchesQuery(query) && enHitCount === 0) {
           $('timeline').style.display = 'none';
           $('searchEmpty').style.display = '';
         } else {
