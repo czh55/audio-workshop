@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>走一步看一步 EP01｜台北女巫店和她的三十年</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,0.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:20px 28px;text-align:center;min-width:160px;font-weight:700;font-size:16px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3{color:#92400e;margin-bottom:8px}
+.correction p{color:#92400e;font-size:15px}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,0.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.speaker{display:inline-block;font-size:13px;font-weight:600;padding:2px 10px;border-radius:12px;margin-right:8px}
+.speaker-host{background:#dbeafe;color:#1e40af}
+.speaker-guest{background:#ede9fe;color:#6b21a8}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,0.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,0.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,0.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}
+@media (max-width:640px){body,.container{padding:16px 12px!important}.container{max-width:100%!important}h1{font-size:24px!important}h2,.sec-title{font-size:18px!important}h3{font-size:16px!important}p,li{font-size:14px!important}.summary-line{font-size:15px!important;padding:14px 16px!important}.map,.card,.timeline{padding:16px!important;margin-bottom:16px!important}.map h2{font-size:18px!important}.diagram{gap:10px!important;padding:10px 0!important}.node{min-width:100px!important;padding:12px 16px!important;font-size:13px!important}.arrow{font-size:18px!important}.conclusion{padding:20px!important}.footer{padding:20px 0 12px!important}}
+.html-toolbar{position:sticky;top:0;z-index:100;display:flex;align-items:center;gap:16px;padding:12px 20px;background:rgba(248,250,252,.92);backdrop-filter:blur(8px);border-bottom:1px solid #e2e8f0;font-family:"PingFang SC","Microsoft YaHei",sans-serif}
+.html-toolbar .back-link{font-size:14px;color:#3b82f6;text-decoration:none;white-space:nowrap;font-weight:600}
+.html-toolbar .back-link:hover{text-decoration:underline}
+.html-toolbar-title{flex:1;font-size:14px;font-weight:600;color:#1e293b;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.html-toolbar .html-audio{width:260px;height:36px;border-radius:8px}
+       .html-toolbar .html-svg-link{font-size:13px;color:#64748b;text-decoration:none;white-space:nowrap}
+       .html-toolbar .html-svg-link:hover{color:#3b82f6;text-decoration:underline}
+       .html-toolbar .html-en-link{font-size:13px;color:#0d686c;text-decoration:none;white-space:nowrap;font-weight:600;padding:4px 10px;border:1px solid #99c6c0;border-radius:99px;background:#f0faf6}
+       .html-toolbar .html-en-link:hover{color:#3b82f6;border-color:#3b82f6}
+       @media (max-width:640px){
+  .html-toolbar{flex-wrap:wrap;gap:10px;padding:10px 12px}
+  .html-toolbar-title{flex-basis:100%;order:-1;font-size:13px}
+  .html-toolbar .html-audio{width:100%}
+}
+
+body{padding:0!important;margin:0!important}
+.container{padding:48px 60px}
+@media (max-width:640px){.container{padding:16px 12px!important}.container{max-width:100%!important}h1{font-size:24px!important}h2,.sec-title{font-size:18px!important}h3{font-size:16px!important}p,li{font-size:14px!important}.summary-line{font-size:15px!important;padding:14px 16px!important}.map,.card,.timeline{padding:16px!important;margin-bottom:16px!important}.map h2{font-size:18px!important}.diagram{gap:10px!important;padding:10px 0!important}.node{min-width:100px!important;padding:12px 16px!important;font-size:13px!important}.arrow{font-size:18px!important}.conclusion{padding:20px!important}.footer{padding:20px 0 12px!important}}
+</style>
+</head>
+<body>
+<div class="html-toolbar">
+  <a class="back-link" href="index.html">← 返回首页</a>
+  <div class="html-toolbar-title">走一步看一步 EP01｜台北女巫店和她的三十年</div>
+  <audio controls preload="metadata" class="html-audio" src="audio/taipei-witch-house.mp3">您的浏览器不支持音频播放</audio>
+  
+  <a class="html-svg-link" href="viewer.html?f=taipei-witch-house-总结.svg" target="_blank">SVG 版 ↗</a>
+</div>
+<div class="container">
+
+<!-- 文首区：标题 + 标签 + 一句话概括 + 时间轴 -->
+<h1>走一步看一步 EP01｜台北女巫店和她的三十年</h1>
+<div class="meta">
+  <span class="tag tag-blue">播客 · 小心地滑</span>
+  <span class="tag tag-purple">独立音乐</span>
+  <span class="tag tag-green">女性空间</span>
+  <span class="tag tag-orange">Livehouse</span>
+  <span class="tag tag-red">30周年</span>
+</div>
+
+<div class="summary-line">
+  从台大旁一栋「楼上女书店」的一楼店面，到台湾独立音乐的孕育之地，女巫店从来不是精心规划的产物：创始人彭郁晶是学烹饪的餐饮学徒，半推半就开店；一车从倒闭 Livehouse 拉来的器材，让这里意外有了演出；被邻居噪音投诉逼出的「不插电」，反而成就了她。三十年过去，她像一棵老榕树——不是最新最炫的，但一直在那里。
+</div>
+
+<!-- 关键时间轴 -->
+<div class="timeline">
+  <h3>关键时间轴</h3>
+  <div class="timeline-item"><span class="timeline-time">00:04</span><span class="timeline-text">新系列「走一步看一步」公布：爱写计划却更信直觉，想看看那些靠直觉与意外长成的人与空间</span></div>
+  <div class="timeline-item"><span class="timeline-time">02:00</span><span class="timeline-text">为何回望女巫店：沉迷台南女文化 + 恰逢创立三十周年；跳进兔子洞后发现「每一步都没剧本」</span></div>
+  <div class="timeline-item"><span class="timeline-time">04:20</span><span class="timeline-text">后解严时代：1987 解除戒严令、38 年军管结束，地下乐团与 Livehouse（西朗、人狗、蚂蚁）涌现</span></div>
+  <div class="timeline-item"><span class="timeline-time">05:16</span><span class="timeline-text">彭郁晶学烹饪：台大社会系毕业找不到工作，去西华饭店点心房当学徒，梦想开餐饮店</span></div>
+  <div class="timeline-item"><span class="timeline-time">08:26</span><span class="timeline-text">女巫店三原则：不插电 Unplugged ｜ 乐手拿出原创 ｜ 表演者女性优先</span></div>
+  <div class="timeline-item"><span class="timeline-time">13:08</span><span class="timeline-text">女性空间：1997 起女歌手涌现、每月「女巫祭」、大胆菜单与内衣文化、女巫店名的平反意义</span></div>
+  <div class="timeline-item"><span class="timeline-time">16:32</span><span class="timeline-text">独立精神不止于音乐：诗歌、布袋戏、舞台剧；女巫祭音乐节独立售票、不做厂牌</span></div>
+  <div class="timeline-item"><span class="timeline-time">19:49</span><span class="timeline-text">斜杠空间：咖啡馆 + Livehouse + 酒吧 + 桌游；2011 歇业风波与疫情桌游第二增长曲线</span></div>
+  <div class="timeline-item"><span class="timeline-time">23:24</span><span class="timeline-text">不拿时代赋予的名字套用：网友吐槽「混乱冷漠傲慢」，巴奈「你是客人但你还是个人」</span></div>
+  <div class="timeline-item"><span class="timeline-time">25:36</span><span class="timeline-text">写给女巫店的信念：老榕树与卡拉OK机——不是最新最炫的，但我会一直在那里</span></div>
+</div>
+
+<!-- 文首核心概念关系图 -->
+<div class="map">
+  <h2>核心脉络：一步接一步长出来的女巫店</h2>
+  <div class="diagram">
+    <div class="node">后解严时代<br/><small>1987 终于能说话的台湾</small></div>
+    <div class="arrow">→</div>
+    <div class="node node-orange">餐饮学徒彭郁晶<br/><small>与音乐无关的创业梦</small></div>
+    <div class="arrow">→</div>
+    <div class="node node-green">半推半就开店<br/><small>BB机 + 搬走的花店</small></div>
+  </div>
+  <div class="diagram" style="margin-top:8px;">
+    <div class="node">Scum 倒闭<br/><small>阿峰的原创理念与摇滚噪音</small></div>
+    <div class="arrow">→</div>
+    <div class="node">1996 一车器材搬入<br/><small>地下音乐的第一次地上化</small></div>
+    <div class="arrow">→</div>
+    <div class="node node-orange">三原则定调<br/><small>不插电 · 原创 · 女性优先</small></div>
+  </div>
+  <div class="diagram" style="margin-top:8px;">
+    <div class="node node-green">女性空间 + 独立精神<br/><small>女巫祭 · 诗歌 · 独立售票</small></div>
+    <div class="arrow">→</div>
+    <div class="node node-orange">斜杠生存<br/><small>咖啡 · 演出 · 酒吧 · 桌游</small></div>
+    <div class="arrow">→</div>
+    <div class="node">三十年的老榕树<br/><small>让每个人做自己的地方</small></div>
+  </div>
+</div>
+
+<!-- 认知纠偏 -->
+<div class="correction">
+  <h3>⚠ 常见误解 / 认知纠偏</h3>
+  <p><strong>误解1：「女巫店是精心策划出来的音乐圣地」</strong> → 真相：每一步都没剧本。创始人一开始是学做点心的餐饮学徒，演出是被一车倒闭 Livehouse 的器材「搬」出来的，店是半推半就开的。</p>
+  <p style="margin-top:8px;"><strong>误解2：「不插电是一种音乐立场」</strong> → 真相：是怕邻居嫌吵、被噪音投诉逼出来的妥协之道。但它反过来逼出表演者「近距离让观众投入」的技巧。</p>
+  <p style="margin-top:8px;"><strong>误解3：「女巫店应该温暖、周到、精致」</strong> → 真相：彭郁晶自己都说女巫店臭脸业界出名，网友吐槽「混乱冷漠傲慢」。她的好不在服务，而在「没有把人差别看待」。</p>
+</div>
+
+<!-- ============ 第一章 ============ -->
+<div class="section">
+  <h2 class="sec-title">一、稀里糊涂的开始：从餐饮梦到女巫店 [00:00–05:16]</h2>
+
+  <div class="card">
+    <h3>后解严时代：憋了很久终于能说话的台湾</h3>
+    <p><b>核心机制：</b>1987 年台湾正式解除戒严令，结束长达 38 年的军事管制。像一个人憋了很久没说话、终于得到可以喘气的机会，九十年代初整个社会蠢蠢欲动，都在寻找表达的出口——地下乐团出现，西朗、人狗、蚂蚁等为摇滚乐迷打造的 Livehouse 也慢慢出现。</p>
+    <p><b>关键理解：</b>一个社会的表达出口先于商业逻辑出现。Livehouse 不只是演出场地，更是「说话」的物理空间；独立音乐的土壤，本质是解严后释放的表达欲。</p>
+    <p><b>典型场景：</b>理解台湾独立音乐为什么在 90 年代集中爆发——先有「能说话」的社会，才有敢表达的音乐人。</p>
+    <div class="relation">与女巫店的关系：女巫店正是这一波表达潮流的空间产物之一，但它的特殊性来自后面被逼出来的三原则。</div>
+    <div class="highlight">原文依据：「那几十年的戒严刚结束，整个社会也蠢蠢欲动，大家都在寻找一个表达的出口。」</div>
+  </div>
+
+  <div class="card card-green">
+    <h3>彭郁晶：一开始和音乐完全不沾边</h3>
+    <p><b>核心机制：</b>彭郁晶就读台大社会学系，毕业后找不到工作。她喜欢美食，便去烹饪学校完成烹飪课程，又到西华饭店点心房当学徒，梦想是开一间属于自己的餐饮店。</p>
+    <p><b>关键理解：</b>女巫店的底色是「餐饮店」而不是「Livehouse 计划」。这个起点决定了它后来咖啡馆 + 演出的斜杠基因，也解释了为什么她敢做别人不敢做的空间实验。</p>
+    <p><b>典型场景：</b>当一个创业者「没有专业包袱」时，反而不会被行业惯例框住——彭郁晶不懂 Livehouse 的规矩，才可能另立规矩。</p>
+    <div class="highlight">原文依据：「非常有趣的是，女巫店的创始人彭郁晶在一开始和音乐这两个字基本上是不沾边的。」</div>
+  </div>
+
+  <div class="card card-purple">
+    <h3>BB机、搬走的花店与半推半就的开店</h3>
+    <p><b>核心机制：</b>上工两个多月时，楼上女书店店长音音用 BB 机（古早传呼机）传呼「要事几回」。彭郁晶回电才知道：女书店楼下的花店要搬走，音音请房东把店面留给她开店。她看了门面——场地没有柱子、在当时还算特别，加上家里亲戚愿意投资支持，便「稀里糊涂地成为了老板」。</p>
+    <p><b>关键理解：</b>开店不是她主动规划的结果，而是被身边人半推半就推着做的决定。她接受了偶然，这正是整期节目「走一步看一步」的核心主题。</p>
+    <p><b>典型场景：</b>当机会以「被安排」的形式出现，接住它的判断标准不是完美计划，而是「眼前这个条件还不错」的直觉。</p>
+    <div class="highlight">原文依据：「在这样的半推半就下，她去看了门面……就这样，她稀里糊涂地成为了老板。不过其实在那时，她也还是没有想过要开一间 Livehouse。」</div>
+  </div>
+</div>
+
+<!-- ============ 第二章 ============ -->
+<div class="section">
+  <h2 class="sec-title">二、阿峰与 Scum：摇滚噪音付出的代价</h2>
+
+  <div class="card">
+    <h3>Scum：最早要求「必须原创」的展演空间</h3>
+    <p><b>核心机制：</b>独立乐团骨皮肉成员阿峰（不是苏打绿的阿峰）在台大附近创立展演空间 Scum。与其他允许全翻唱的 Livehouse 不同，Scum 几乎是最早一批规定「上台乐团必须演奏原创曲目」的地方。</p>
+    <p><b>关键理解：</b>「必须原创」埋下了台湾独立乐团发展的种子。但当时地下乐团多演摇滚，超高声贝的噪音引来居民投诉抗议，Scum 吃了大量警察罚单——阿峰把赚的倒贴进去，还赔掉一台奔驰，最终倒闭。</p>
+    <p><b>典型场景：</b>当「理念正确」撞上「物理现实」（噪音扰民），没有妥协机制的理念会被成本压垮——这是女巫店后来最重要的反面教材。</p>
+    <div class="relation">与女巫店的关系：Scum 的原创理念被女巫店继承，噪音的教训被女巫店的「不插电」规避。</div>
+    <div class="highlight">原文依据：「Scum 几乎是最早一批规定，上台的乐团必须演奏一首原创曲目的地方。」</div>
+  </div>
+
+  <div class="card card-green">
+    <h3>1996 相遇：一车器材搬进女巫店</h3>
+    <p><b>核心机制：</b>关了店的阿峰找到彭郁晶，问她能否借出之前 Scum 店里的音乐器材，让他们在新空间表演。器材足足有一车，彭郁晶没想太多——她认为公共空间的运用有很多种，不一定只做餐饮——便同意阿峰他们来表演，也顺便让他们安排音控。</p>
+    <p><b>关键理解：</b>女巫店的演出是被一车器材「搬」出来的，不是商业规划。彭郁晶开玩笑说：「这是台湾地下音乐的第一次地上化」——从地下室的 Scum 到一楼的女巫店，地下音乐逐步长成了后来的独立音乐。</p>
+    <p><b>典型场景：</b>一个新空间如何起步？往往不需要宏大计划，只需要一个愿意「让事情发生」的开放态度。</p>
+    <div class="quote">「这是台湾地下音乐的第一次地上化。」——彭郁晶</div>
+    <div class="highlight">原文依据：「彭郁晶也没有想太多。她只想着，公共空间的运用其实也有很多种，也不一定只是要做餐饮，可以更多元一点。」</div>
+  </div>
+</div>
+
+<!-- ============ 第三章 ============ -->
+<div class="section">
+  <h2 class="sec-title">三、女巫店三原则：被现状逼出来的定调 [08:26]</h2>
+
+  <div class="card card-purple">
+    <h3>三原则总览：一次互相咬合的决定</h3>
+    <p>女巫店位于台大附近的居民区、店面在一楼且空间小、很难装隔音设备；即使让 Scum 原班人马操持，也没法把地下乐团整套模式复制进这个新开不久的小空间，否则照样吃罚单关门。同期又出现 Vibes 等阳刚摇滚风格的 Livehouse。彭郁晶由此探索最适合女巫店的风格，做了一个三点决定：</p>
+    <ul>
+      <li><b>① 所有演出不插电（Unplugged）</b>——先解决噪音的合法性，再谈其他。</li>
+      <li><b>② 乐手拿出自己原创的新作品</b>——确立独立姿态。</li>
+      <li><b>③ 表演者以女性为优先</b>——改写表达的主体。</li>
+    </ul>
+    <p><b>关键理解：</b>三条原则互相咬合成一个系统：不插电解决「能不能活」，原创解决「活成什么样」，女性优先解决「谁来定义」。限制没有被当成缺陷，而是被转念成可利用的优势。</p>
+    <div class="highlight">原文依据：「后来她做了一个决定，包括三点……这些其实都不必成为限制，反而可以成为一种可利用的优势。」</div>
+  </div>
+
+  <div class="card">
+    <h3>不插电：妥协之道的正面用法</h3>
+    <p><b>核心机制：</b>与其说 Unplugged 是一种音乐立场，不如说是担心邻居嫌吵、被现状逼出来的妥协。但它同时是鼓励——鼓励表演者在摇滚的喧嚣之外，去寻找「你和观众近距离时，怎么让他更投入」的技巧与法门。</p>
+    <p><b>关键理解：</b>妥协不是退让，而是换一条路竞争。噪音限制把竞争维度从「音量」切换到了「亲密感与技巧」——这反而成为女巫店的差异化优势。</p>
+    <p><b>典型场景：</b>在资源、场地、合规都受限时，把「不能做的事」翻译成「可以做得更好的事」，是最高性价比的定位方法。</p>
+    <div class="highlight">原文依据：「这是一个被现状逼出来的妥协之道。也是鼓励表演者在这种摇滚的喧嚣之外，去寻找那种在你和观众是近距离的时候，你怎么让他去更投入到这个音乐里面的一些技巧。」</div>
+  </div>
+
+  <div class="card">
+    <h3>原创与女性优先：独立姿态与表达权</h3>
+    <p><b>核心机制：</b>要求原创，是因为不断精进、做出自己创作的作品，是独立音乐人不依赖大型公司的独立姿态与能力，也才能在最大程度上展现自己的生活、观点，做出个人表达。优先女性，则因为当时泛滥的独立音乐风格是摇滚——重金属、嘶吼、呐喊本质上与男性气质更接近，缺乏女性的身体性；在地下乐团场景里，女性更多从观众席仰望台上（通常是男性）的表演对象，并不作为表达的主体。</p>
+    <p><b>关键理解：</b>「女性优先」不是简单的配额，而是把「表达权」倾斜给一直被摆在观众席上的人——让她们唱自己的歌、说自己的故事。这与摇滚对女性身体性的排除互为镜像。</p>
+    <p><b>典型场景：</b>任何场域（舞台、公司、社群）都可以自问：谁是默认的表达主体？谁始终坐在观众席？</p>
+    <div class="highlight">原文依据：「女性并不作为表达的主体，所以彭郁晶希望优先女性发声的权利，让她们可以唱自己的歌，说自己的故事。」</div>
+  </div>
+
+  <div class="card card-orange">
+    <h3>「给我原创，其余免谈」：用主观喜欢筛选</h3>
+    <p><b>核心机制：</b>女巫店某个 logo 上写着「给我原创，其余免谈」。想在女巫店演出的音乐人，必须先拿着 demo 到店里给彭郁晶听。她不会考虑知名度或话题度，只用主观的喜欢判断这个人是否适合在女巫店表演。</p>
+    <p><b>关键理解：</b>筛选标准定义了空间调性——慢慢筛掉一些人，也慢慢筛出与女巫店气质相符的一批表演者。主观标准看似随意，却比流量指标更能守住气质。</p>
+    <p><b>典型场景：</b>当你要运营一个「有调性」的空间/内容时，选择标准本身就是产品：明确写出你的 demo 门槛，比讨好所有人更能吸引对的人。</p>
+    <div class="highlight">原文依据：「她不会去考虑这个人的知名度，或者是话题的程度，只会用主观的喜欢去判断……慢慢筛选出了和女巫店的调性风格都相符合的一批表演者。」</div>
+  </div>
+
+  <div class="card card-green">
+    <h3>空间限制 → 可利用优势（冷知识）</h3>
+    <p><b>核心机制：</b>女巫店屋顶是木头建筑的横梁，不像水泥墙直接反射声音、造成杂音，而是可以吸收一部分中高频的声音、又不太影响低频。就声学而言，女巫店的空间条件对摇滚表演其实非常合适。</p>
+    <p><b>关键理解：</b>同一个物理条件，被解读成「限制」还是「优势」，取决于主人的转念能力。彭郁晶把「场地小、无法插电、入场人数有限」全部转化成了可经营的特征。</p>
+    <p><b>典型场景：</b>做空间决策前，先做一次「限制重估」：哪些看似劣势的条件，换个维度其实是不可复制的资产？</p>
+    <div class="highlight">原文依据：「原来的女巫店看起来是被场地限制了表演方式和入场的人数，不过在彭郁晶各种各样的转念影响里面，这些其实都不必成为限制，反而可以成为一种可利用的优势。」</div>
+  </div>
+</div>
+
+<!-- ============ 第四章 ============ -->
+<div class="section">
+  <h2 class="sec-title">四、女性空间：从观众席走上舞台 [13:08]</h2>
+
+  <div class="card">
+    <h3>1997 起：女性歌手第一次有了自己的舞台</h3>
+    <p><b>核心机制：</b>女巫店官网有名为「时光隧道」的年表，记录 1996 年以来许多乐团乐手的首次演出时间：开业第一年（1996）还是四分卫、骨皮这类摇滚乐队，年底才出现陈珊妮；从 1997 年开始，黄小桢、伊能静、陈绮贞陆续出现，1998 年巴奈，1999 年雷光夏和当时还未出道的安溥。此外，每个月有一天「女巫祭」，当天只有女性歌手可以演出。</p>
+    <p><b>关键理解：</b>「女巫祭」让女性创作者第一次有了属于自己的舞台，也让女巫店的调性彻底与其他音乐空间分开：一边是阳刚和音浪，一边是星星与文艺。</p>
+    <p><b>典型场景：</b>当你想支持一个被忽视的群体，与其做「平等的邀请」，不如做「倾斜的舞台」——固定时间、固定机制地让位。</p>
+    <div class="highlight">原文依据：「女性创作者们第一次有了属于自己的舞台，这也让女巫店的图景彻底和其他的音乐空间去分开。一边是阳刚和音浪的，另外一边是星星、文艺的。」</div>
+  </div>
+
+  <div class="card card-purple">
+    <h3>大胆菜单与空间宣言：让「难为情」进入公共空间</h3>
+    <p><b>核心机制：</b>彭郁晶一开始就把女巫店定位成「一间女生可以玩很晚的店」。店内餐饮自称「挑战人类极限最调皮的菜单」：月经冰茶、酒池肉淋、纵草莓；还有个不成文规定——只要敢脱下内衣挂在椅子上，就免费获得一杯饮料（彭开玩笑说基于卫生考量，希望大家规律更换内衣）。店里挂着女性摇滚乐手海报、各色女性玩偶，厕所里贴着探索女性性高潮的文章，也为女生准备卫生用品。</p>
+    <p><b>关键理解：</b>让「被认为是难为情的东西」出现在公共空间，本身就是一种女性主义的空间实践——它传递的是：这些东西并不值得难为情。</p>
+    <p><b>典型场景：</b>空间的意识形态不一定靠标语，也藏在菜单、陈设与不成文规则里——细节即宣言。</p>
+    <div class="highlight">原文依据：「这样的布置也是为了让大家意识到，这些东西也出现在公共空间，并不是什么值得难为情的事情。」</div>
+  </div>
+
+  <div class="card">
+    <h3>店名「女巫店」：突破女巫的污名</h3>
+    <p><b>核心机制：</b>彭郁晶取名女巫店，是在试图突破「女巫」一直以来的污名与歧视。她对女巫的理解是：传统社会里很有本事、强悍直接又特殊、不被容于社会的女性。女巫店官网这样描述：她们充满能量，眼光中闪烁着自信，勇于提出自己的看法，不为强权打压，不怕主流排挤，自信自在地存在着。</p>
+    <p><b>关键理解：</b>店名即宣言——把被污名化的力量重新命名。做一家让女生可以玩得很晚的店，不是轻巧的随口一说，其中需要的安全感分量非常厚重。</p>
+    <p><b>典型场景：</b>当你想要重新定义某个贬义词，最好的方式不是争论，而是活出一个让这个词骄傲起来的样子。</p>
+    <div class="highlight">原文依据：「要做一家让女生可以玩得很晚的店，对于彭郁晶来说并不是很轻巧的随口一说，因为其中需要的那种安全感的分量是非常厚重的。」她在写给女巫店的信念里还写过：「小美人鱼故事里的坏女巫，夺去小美人鱼的声音。女巫店却是要让不同的声音被更多人听到。」</div>
+  </div>
+
+  <div class="card card-green">
+    <h3>彭郁晶：从游行最前排到空间主人</h3>
+    <p><b>核心机制：</b>彭郁晶学生时代就受第三波女性主义思潮影响，参加过反对性骚扰等性别运动的游行，而且是跑在前面冲锋陷阵的那一批。有细节称她虽然瘦小，但游行时不怕，常喊：「来呀，不怕啊，台大就在立法院附近啦。」后来女巫店以及从中长起来的许多女歌手，也积极参与平权运动（最有名的是安溥）。</p>
+    <p><b>关键理解：</b>空间是主人意志的投射——彭郁晶活成什么样，女巫店就变成什么样。个人的政治表达，通过空间获得了更长久的生命。</p>
+    <p><b>典型场景：</b>创办一个空间/组织之前，先想清楚自己相信什么——你不必刻意设计文化，文化会从你的行动里长出来。</p>
+    <div class="highlight">原文依据：「彭郁晶活成了什么样，最后的女巫店也变成了什么样。」</div>
+  </div>
+</div>
+
+<!-- ============ 第五章 ============ -->
+<div class="section">
+  <h2 class="sec-title">五、独立精神不止于音乐 [16:32]</h2>
+
+  <div class="card">
+    <h3>不把自己框死：诗歌、布袋戏与舞台剧</h3>
+    <p><b>核心机制：</b>女巫店倡导的独立精神不限于独立音乐，也欢迎各种独立于商业的创作与表达。1999 年，彭郁晶的德国丈夫悠悠主持诗歌发表活动，鸿鸿、夏宇（另一个名字李格蒂）都曾发表诗歌，还有人用接近摇滚的爆发力朗诵诗歌，模糊了诗歌与乐曲的界限。店里也上演过阿中偶戏布袋戏——布袋戏起源于福建、在台湾全面发展，靠手指和手掌操控木偶，无真人参与，依赖后场音乐配合，女巫店正是合适的场地；此外还有舞台剧等。</p>
+    <p><b>关键理解：</b>「独立」是一种创作姿态，音乐只是其中一个面向。空间不框死自己，才能持续容纳不同形态的表达。</p>
+    <p><b>典型场景：</b>给你的空间/品牌保留「计划之外」的入口——真正的独特性常来自你愿意接住的意外。</p>
+    <div class="quote">「少数的观众、表演者和店家一起营造了一个不太需要定义的表演氛围。」——安溥</div>
+    <div class="highlight">原文依据：「她真的没有把自己框得很死，她所倡导的独立精神，指的不仅仅是独立音乐……音乐只是其中的一个面向、其中一种表达方式而已。」</div>
+  </div>
+
+  <div class="card card-green">
+    <h3>女巫祭音乐节：纯手工的独立售卖</h3>
+    <p><b>核心机制：</b>女巫店 20 周年时举办了「女巫祭」音乐节，完全独立售卖、不依赖中间售票商——用今天的话说就是「不要中间商赚差价」——他们用人工一张一张把门票寄给观众，是非常手工的方式。</p>
+    <p><b>关键理解：</b>安溥说，音乐真正的友善应该是你在外面买不到的那种手工感；纯手工的东西就是有它的独特性。独立的店家反映在票价上的，就是独立的运营成本——这是女巫店自己也向「独立」精神卖出的一步。</p>
+    <p><b>典型场景：</b>独立不仅是创作态度，也是运营细节：不依赖中间渠道、自己承担寄票的麻烦，换来的是与支持者的直接连接。</p>
+    <div class="quote">「纯手工的东西就是有他的独特性。」——安溥</div>
+    <div class="highlight">原文依据：「独立的店家反映在票价上的就是独立的运营成本。这个就是女巫店自己也像独立这个精神卖出的一步。」</div>
+  </div>
+
+  <div class="card card-orange">
+    <h3>不做厂牌：独立是选择的态度</h3>
+    <p><b>核心机制：</b>女巫店明明有很多资源可以签约、代理更多音乐人的发行与经济，但他们选择不做——不管是出于运营还是资金上的考量。因为厂牌形态里包含契约关系，需要处理和思考的商业规则，都与女巫店主张的自由精神相违背。</p>
+    <p><b>关键理解：</b>「独立」不是「没能力做大」的借口，而是主动选择不做的姿态。边界感本身就是产品的一部分。</p>
+    <p><b>典型场景：</b>当增长机会与核心价值冲突时，敢不敢对「看起来很划算」的事说不？这是每个独立品牌的灵魂拷问。</p>
+    <div class="highlight">原文依据：「独立就是他们选择的态度，因此他们也不去选择厂牌这样的形态，因为里面就会包含一些契约关系，需要去处理和思考的商业规则。」</div>
+  </div>
+</div>
+
+<!-- ============ 第六章 ============ -->
+<div class="section">
+  <h2 class="sec-title">六、Livehouse 界的斜杠空间 [19:49]</h2>
+
+  <div class="card">
+    <h3>咖啡馆 + Livehouse + 酒吧 + 桌游：多只脚走路</h3>
+    <p><b>核心机制：</b>女巫店对自己的定位一直是「Livehouse 界的斜杠空间」：一开始是咖啡馆，然后是 Livehouse 加酒吧；周四、周五、周六晚上九点都有表演，观众入场费 350 台币（约 75 元人民币）且附送一杯饮料。后来又有了桌游——装不了大钱，但也死不了。</p>
+    <p><b>关键理解：</b>从今天的视角看，独立音乐舞台、咖啡馆、酒吧、桌游全都做并不稀奇，甚至有点普通。但也许正是因为当年这样「杂」的定位，没有过度依赖音乐演出的收入，女巫店才能顺利营业至今，也给刚起步的创作者留下能喘气的创作空间。</p>
+    <p><b>典型场景：</b>「人果然还是要活得杂一点，店也可以尽力地杂一点」——多元收入不是不务正业，而是组织层面的冗余设计。</p>
+    <div class="highlight">原文依据：「也许正是因为当年这样杂的一个定位，没有过度依靠音乐演出带来的收入，而是依赖多只脚走路，女巫店才可以顺利的营业至今。」</div>
+  </div>
+
+  <div class="card card-orange">
+    <h3>2011 歇业风波：法规缺位差点关门</h3>
+    <p><b>核心机制：</b>台中阿拉酒吧一场大火带走 9 条生命，让相关部门开始重视 Livehouse 存在已久的法规问题。女巫店被频繁查访，被告知「分区使用和营业项目不符合标准」——因为在当时做 Livehouse 并不是那么合法的。压力之下彭郁晶想：「既然法律不允许，干，老娘不做总可以了吧。」</p>
+    <p><b>关键理解：</b>转折点是支持者：消息传出后，支持者线上声援、跑到市场信箱表达意见、到店里爆买商品，突破了彭郁晶的想象。相关部门随后修改条例，增加「音乐展演空间业」项目，让 Livehouse 业态得以成立，女巫店才挺过这场风波。</p>
+    <p><b>典型场景：</b>空间的合法性不是天然存在的——当一个业态不被制度承认，真正的护城河是它积累的真实支持者。</p>
+    <div class="quote">「既然法律不允许，干，老娘不做总可以了吧。」——彭郁晶</div>
+    <div class="highlight">原文依据：「后来相关部门才决定修改条例，增加一项叫做音乐展演空间业的项目，来让 Livehouse 的业态得以成立。女巫店这也才挺过了这场歇业风波。」</div>
+  </div>
+
+  <div class="card card-green">
+    <h3>疫情：桌游成为第二增长曲线</h3>
+    <p><b>核心机制：</b>疫情导致线下演出停摆，女巫店没有裁掉店里的小女巫。多亏她们从 2011 年就引入的桌游业务——这在台湾算很早，积累了一批忠实爱好者。有趣的是，平时消费者玩桌游并不需要另外付费，相当于依赖其他业务养活桌游；疫情一来，演出停摆，桌游反而成为第二增长曲线：在一个空间里大家总有事情做，家长陪小孩、情侣朋友一起玩。</p>
+    <p><b>关键理解：</b>平时「被补贴的副业」在主线停摆时成了救命曲线。多元收入的意义不在于每项都赚钱，而在于系统冗余——总有一条腿还站在地上。</p>
+    <p><b>典型场景：</b>为你的核心业务提前养一个「现在不赚钱但关键时刻能救命」的副线，越不起眼越好。</p>
+    <div class="highlight">原文依据：「凭借了这个势头，她们也把小女巫留了下来……逐游反而成为了第二增长曲线，她也拯救了无法全力进行演出业务的女巫店，撑起了一片天。」</div>
+  </div>
+</div>
+
+<!-- ============ 第七章 ============ -->
+<div class="section">
+  <h2 class="sec-title">七、滤镜与真相：不要拿时代的名字套用 [23:24]</h2>
+
+  <div class="card card-purple">
+    <h3>「混乱冷漠傲慢」与「你是客人但你还是个人」</h3>
+    <p><b>核心机制：</b>主播在研究女巫店的过程中，对它的滤镜只减不增：有网友去了之后吐槽女巫店「混乱冷漠傲慢」，对文艺空间的期待一一落空。主播很能理解这种感受——彭郁晶也承认女巫店的臭脸在业界出了名，在服务业越来越卷的当下，确实与其他精致周到的店相形见绌。</p>
+    <p><b>关键理解：</b>从女巫店长起来的歌手巴奈给了另一种解读：「女巫店没有把人差别看待——你是客人，但你还是个人。小女巫来工作，她也是个人，她不一定要面带微笑。」这个空间里没有因为你是消费者就特别伟大，人也不会因为工作的性质变得比较低。</p>
+    <p><b>典型场景：</b>评估一个空间时，把「服务体验」与「空间价值」分开看待——你期待的是被招待，还是被当人？</p>
+    <div class="quote">「女巫店没有把人差别看待，你是客人但你还是个人。小女巫来工作，她也是个人，她不一定要面带微笑。」——巴奈</div>
+    <div class="highlight">原文依据：「这个空间里面没有因为你是消费者就特别伟大，人也不会因为工作的性质变得比较低。」</div>
+  </div>
+
+  <div class="card">
+    <h3>也许，不要去拿时代赋予的名字套在今天的她头上</h3>
+    <p><b>核心机制：</b>主播坦言把网友吐槽与巴奈的话放在一起有「偷换概念」的嫌疑，但她的观点是：也许不要去拿时代赋予女巫店的姓名去套在如今她的头上会比较好，因为永远会有错位、对不起预期的那一天。女巫店最初被知道和期待的，其实不是温暖与服务，而是她大方地接纳了一个又一个选择女巫店的音乐人，让他们可以做自己、说出自己的声音、讲出自己的故事，并在他们远航之后一次次迎接回航。</p>
+    <p><b>关键理解：</b>滤镜源于我们的投射。把「记忆里的女巫店」当作「今天的女巫店」，错位就不可避免；而它的本分，从来只是让一些人可以做自己。</p>
+    <p><b>典型场景：</b>对任何被神化的对象（人物、品牌、空间），保留「两个版本」的认知：时代赋予它的，与它真实拥有的。</p>
+    <div class="highlight">原文依据：「也许不要去拿时代赋予女巫店的姓名去套在如今她的头上，会比较好。因为永远会有错位还有对不起预期的那一天。」</div>
+  </div>
+</div>
+
+<!-- 对比分析 -->
+<div class="card">
+  <h3>对比一：Scum vs 女巫店——同一理念，不同结局</h3>
+  <table>
+    <tr><th>维度</th><th>Scum（阿峰）</th><th>女巫店（彭郁晶）</th></tr>
+    <tr><td>音乐要求</td><td>几乎最早规定必须演奏原创曲目</td><td>不插电 + 拿原创 demo 来听</td></tr>
+    <tr><td>音量取向</td><td>超高声贝摇滚，噪音引投诉</td><td>Unplugged 不插电，先解决合规</td></tr>
+    <tr><td>空间气质</td><td>阳刚、男性的摇滚现场</td><td>女性优先、星星文艺的亲密空间</td></tr>
+    <tr><td>经营结局</td><td>罚单倒贴、赔掉奔驰、倒闭</td><td>三十年存活，成为独立音乐孕育地</td></tr>
+    <tr><td>一句话结论</td><td colspan="2">同样的「原创」理念，Scum 死在音量与制度，女巫店靠妥协与转念活了下来——原创要活下去，必须先解决「怎么合法地活」。</td></tr>
+  </table>
+</div>
+
+<div class="card">
+  <h3>对比二：摇滚 Livehouse vs 女巫店——两种表达权的分配</h3>
+  <table>
+    <tr><th>维度</th><th>摇滚 Livehouse（西朗 / Vibes 等）</th><th>女巫店</th></tr>
+    <tr><td>声音形态</td><td>高音量、音浪、嘶吼</td><td>不插电、近距离的投入技巧</td></tr>
+    <tr><td>表演主体</td><td>男性为主，女性在观众席仰望</td><td>女性优先，每月一天「女巫祭」只演女性</td></tr>
+    <tr><td>空间气质</td><td>阳刚、体力、爆发</td><td>亲密、文艺、把「难为情」摆上桌</td></tr>
+    <tr><td>一句话结论</td><td colspan="2">同一波后解严的 Livehouse 浪潮，女巫店选择把「表达权」从默认主体倾斜给女性——差异化不在音乐类型，而在谁可以说话。</td></tr>
+  </table>
+</div>
+
+<div class="card">
+  <h3>对比三：独立 vs 厂牌——同一个词，两种含义</h3>
+  <table>
+    <tr><th>维度</th><th>独立（女巫店的做法）</th><th>厂牌形态</th></tr>
+    <tr><td>创作筛选</td><td>主观喜欢，demo 听感定调性</td><td>商业考量、流量与市场判断</td></tr>
+    <tr><td>发售渠道</td><td>独立售卖、人工一张张寄票</td><td>依赖中间售票商 / 代理发行</td></tr>
+    <tr><td>关系结构</td><td>自由选择的态度，无契约包袱</td><td>契约关系与商业规则</td></tr>
+    <tr><td>运营成本</td><td>独立运营成本直接反映在票价</td><td>中间环节分摊利润</td></tr>
+    <tr><td>一句话结论</td><td colspan="2">独立不是「做不大」，而是「选择不做」：拒绝了厂牌的资源，也拒绝了厂牌的束缚，代价是亲力亲为，收益是精神一致。</td></tr>
+  </table>
+</div>
+
+<!-- 避坑总结 -->
+<div class="card card-orange">
+  <h3>⚠ 避坑总结：女巫店三十年教会我们别踩什么</h3>
+  <p><b>1. 在居民区做高音量摇滚演出。</b>Scum 的教训：超高声贝引来投诉与罚单，倒贴收入还赔掉奔驰，最终倒闭。解法：先确认空间的噪音边界，用不插电 / 隔音 / 限时段把「能合法地活」放在理念之前。</p>
+  <p style="margin-top:8px;"><b>2. 把别人的整套模式复制进自己的小空间。</b>即使有 Scum 原班人马，也没法把地下乐团模式搬进空间小、没隔音的一楼店面，否则照样照视罚单关门。解法：以空间条件为准绳重新设计模式，而不是硬套。</p>
+  <p style="margin-top:8px;"><b>3. 只靠单一线收入活命。</b>女巫店没过度依赖演出收入；疫情一来，全靠 2011 年就开始养着的桌游业务撑起第二增长曲线。解法：早点养一个「现在不赚钱但关键时刻救命」的副线。</p>
+  <p style="margin-top:8px;"><b>4. 带着「圣地滤镜」去消费。</b>网友对女巫店投射文艺期待，结果只看到「混乱冷漠傲慢」而落空。解法：把空间价值与服务体验分开期待；它接纳的是创作者，不是消费者。</p>
+  <p style="margin-top:8px;"><b>5. 默认现有法规是既定的、正当的。</b>2011 年女巫店差点因「分区使用和营业项目不符」关门——当年做 Livehouse 并不合法。解法：对新兴业态提前了解合规状态，并善用支持者力量推动规则改变。</p>
+</div>
+
+<!-- 方法边界 -->
+<div class="card card-purple">
+  <h3>方法边界：三原则与斜杠经营的适用上下限</h3>
+  <p><b>不插电的边界：</b>适用于小空间、居民区、近距离演出场景，能把「亲密投入」做成竞争力；但若目标是重金属、死核等重低音类型，或千人级大场地，不插电天然不兼容——它不是万能立场，而是特定空间约束下的最优解。</p>
+  <p><b>「给我原创」的边界：</b>主观喜欢筛选适合「塑造空间气质」的目标——筛出对的人，气质自然成立；但若目标是大流量、高票房，主观筛选会自我设限。它是一把守气质的筛子，不是一台赚规模的机器。</p>
+  <p><b>女性优先的边界：</b>是「优先」而非「排除」——1996 年开业第一年演的仍多是四分卫、骨皮等摇滚乐队，男性创作者并未被拒之门外；倾斜的是表达权，不是准入权。</p>
+  <p><b>斜杠多业务的边界：</b>多元收入成立的前提是各业务不互相拖累、且主线愿意长期补贴副线（桌游平时不另收费）；若补贴超出承载能力，或业务彼此抢空间抢人力，斜杠就会变成失焦。</p>
+  <p><b>独立售卖的边界：</b>人工寄票的手工模式适合小规模、高忠诚度支持者；当规模大到寄票成本失控时，「不依赖中间商」会从浪漫变成负担——手工感是规模限定的奢侈品。</p>
+</div>
+
+<!-- 结论区：三段式 -->
+<div class="conclusion">
+  <h2>总结与行动</h2>
+  <h3>核心要点</h3>
+  <ul>
+    <li>女巫店不是规划的产物：从餐饮学徒、BB机传呼、搬走的花店到一车器材，每一步都「走一步看一步」，靠直觉接住意外。</li>
+    <li>三原则（不插电 / 原创 / 女性优先）是被现状逼出的定调，也是限制转优势的典范——先解决「合法地活」，再谈「活成什么样」。</li>
+    <li>独立精神不止于音乐：诗歌、布袋戏、独立售票、不做厂牌，是同一套「不依附商业」的选择态度。</li>
+    <li>「多只脚走路」让女巫店熬过 2011 法规危机与疫情停摆——多元收入是组织的冗余设计。</li>
+    <li>不要拿时代赋予女巫店的姓名套在今天的她头上：她的本分是让一些人可以做自己，而不是满足访客的圣地想象。</li>
+  </ul>
+  <h3>行动清单</h3>
+  <ol>
+    <li>为你的空间、项目或社群写下三条自己的规则（类似不插电 / 原创 / 女性优先），并为每条配一个具体落实机制（如「先交 demo 再上台」）。</li>
+    <li>把当前最痛的限制（预算、场地、合规、噪音）列成清单，逐条翻译成「可以做得更好的差异点」。</li>
+    <li>去支持独立演出时，先买票、再看现场，把注意力放在音乐本身，而不是「圣地体验」。</li>
+    <li>为你现在的核心业务，提前养一个「现在不起眼、被主线补贴、关键时刻能救命」的第二增长曲线。</li>
+    <li>亲自办一次不依赖中间商的小活动：直接售票、人工寄票，建立你与支持者之间的直接连接。</li>
+  </ol>
+  <h3>关键认知转变</h3>
+  <p>以前认为：女巫店是精心策划、温暖精致的文艺圣地，值得带着朝圣的心前往。<br/>现在理解：她每一步都没剧本，靠直觉与真实长成；她不精致、不周到，甚至「混乱冷漠傲慢」，但从未差别看待任何人——像一棵接受自己只是「小榕树」的树，因为树荫让一些人获得了可以静静坐着的地方，也在阳光正好的时候，允许大家一起亲近歌唱。</p>
+</div>
+
+<!-- 结尾金句 -->
+<div class="card" style="margin-top:24px;">
+  <div class="quote">「对于独立音乐界，我希望你就像老榕树与卡拉OK机一般，不是最新最炫的，但我会一直在那里。」——彭郁晶写给女巫店（2011）</div>
+</div>
+
+<div class="footer">内容依据《小心地滑》「走一步看一步」EP01 整理 · 转写如有错漏以原音频为准</div>
+
+</div>
+</body>
+</html>

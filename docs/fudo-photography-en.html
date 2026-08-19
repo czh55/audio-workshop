@@ -1,0 +1,1002 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="对拍摄地方的执念是一种病？聊聊「风土摄影」 — Bilingual Learning Edition" />
+  <title>对拍摄地方的执念是一种病？聊聊「风土摄影」｜EN 双语学习版</title>
+  <style>:root{--teal-950:#073f42;--teal-800:#0d686c;--teal-700:#0f7c80;--teal-600:#14919b;--mint-100:#dff4ec;--mint-50:#f0faf6;--ink:#183536;--muted:#607879;--line:#d7e8e2;--paper:#fff;--amber:#a85d08;--shadow:0 12px 32px rgba(7,63,66,.08)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:24px}
+body{margin:0;color:var(--ink);background:#edf7f2;font-family:Inter,"PingFang SC","Noto Sans SC","Microsoft YaHei",system-ui,sans-serif;line-height:1.65}
+button,select{font:inherit}
+a{color:inherit}
+.hero{color:#fff;background:radial-gradient(circle at 85% 10%,rgba(129,230,196,.24),transparent 30%),linear-gradient(125deg,#073f42,#0d7377 56%,#14919b)}
+.hero-inner{width:min(1440px,100%);margin:auto;padding:44px clamp(20px,5vw,72px) 36px}
+.hero-flex{display:flex;gap:clamp(18px,3vw,40px);align-items:flex-start}
+.hero-cover{width:min(240px,42vw);height:auto;max-height:320px;object-fit:contain;object-position:center;border-radius:16px;border:1px solid rgba(255,255,255,.28);box-shadow:0 18px 44px rgba(0,0,0,.32);flex-shrink:0;background:rgba(255,255,255,.08)}
+.hero-text{min-width:0;flex:1}
+.eyebrow{margin:0 0 12px;font-size:.78rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;opacity:.8}
+h1{max-width:1020px;margin:0;font-size:clamp(1.7rem,3.6vw,3rem);line-height:1.15;letter-spacing:-.04em}
+.hero-en{margin:12px 0 22px;font-size:clamp(1rem,2vw,1.25rem);opacity:.82}
+.hero-meta{display:flex;flex-wrap:wrap;gap:9px;align-items:center}
+.chip{border:1px solid rgba(255,255,255,.28);border-radius:99px;padding:5px 11px;font-size:.82rem;background:rgba(255,255,255,.08)}
+.source-link{font-weight:750;text-decoration:none;border-bottom:1px solid rgba(255,255,255,.5)}
+.toolbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:22px}
+.toolbar label{font-size:.82rem;opacity:.82}
+.toolbar select{color:#fff;background:#0a5d61;border:1px solid rgba(255,255,255,.3);border-radius:8px;padding:7px 9px}
+.stop-btn{display:none;color:#fff;background:#8c3b2a;border:0;border-radius:8px;padding:8px 12px;cursor:pointer}
+.stop-btn.visible{display:inline-flex}
+.speech-status{min-height:1.4em;font-size:.82rem;opacity:.88}
+.lang-switch{display:inline-flex;gap:6px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.28);border-radius:99px;padding:4px}
+.lang-switch a{display:inline-block;padding:4px 13px;border-radius:99px;font-size:.8rem;font-weight:700;text-decoration:none;color:rgba(255,255,255,.75)}
+.lang-switch a.active{background:#fff;color:var(--teal-800)}
+.narration-player{margin-top:16px;padding:14px 18px;background:rgba(255,255,255,.1);border-radius:12px;border:1px solid rgba(255,255,255,.15)}
+.audio-label{color:rgba(255,255,255,.88);font-size:.82rem;font-weight:700;margin:0 0 8px}
+.page{width:min(1440px,100%);margin:auto;padding:28px clamp(16px,3vw,44px) 64px;display:grid;grid-template-columns:minmax(230px,280px) minmax(0,1fr);gap:30px;align-items:start}
+.sidebar{position:sticky;top:20px;min-width:0}
+.sidebar-box{background:rgba(255,255,255,.8);border:1px solid var(--line);border-radius:16px;padding:17px;box-shadow:var(--shadow);backdrop-filter:blur(12px)}
+.sidebar h2{margin:0 0 13px;font-size:.9rem;letter-spacing:.08em;color:var(--teal-800)}
+.map-link{display:grid;grid-template-columns:34px minmax(0,1fr);gap:9px;padding:10px 6px;text-decoration:none;border-top:1px solid var(--line)}
+.map-link:hover b{color:var(--teal-700)}
+.map-id{width:30px;height:30px;display:grid;place-items:center;border-radius:9px;color:#fff;background:var(--teal-700);font-size:.72rem;font-weight:800}
+.map-link b{display:block;font-size:.78rem;line-height:1.4}
+.map-link small{display:block;color:var(--muted);font-size:.67rem;line-height:1.4;margin-top:2px;overflow-wrap:anywhere}
+.content{min-width:0}
+.scene-card{background:var(--paper);border:1px solid var(--line);border-radius:20px;padding:clamp(20px,3vw,34px);margin-bottom:24px;box-shadow:var(--shadow);overflow:hidden}
+.scene-topline{display:flex;justify-content:space-between;gap:16px;align-items:center;margin-bottom:16px}
+.scene-id{display:inline-grid;place-items:center;min-width:42px;height:30px;padding:0 10px;color:#fff;background:var(--teal-700);border-radius:8px;font-size:.78rem;font-weight:850}
+.time{margin-left:10px;color:var(--muted);font-size:.82rem;font-variant-numeric:tabular-nums}
+.scene-card h2{margin:0 0 2px;font-size:clamp(1.35rem,2.4vw,2rem);line-height:1.25;color:var(--teal-950)}
+.scene-title-en{margin:0 0 18px;color:var(--teal-600);font-weight:700;font-size:.98rem}
+.context{margin:0 0 20px;padding:12px 15px;color:#496566;background:var(--mint-50);border-left:3px solid var(--teal-600);border-radius:0 10px 10px 0;font-size:.88rem}
+.context b{margin-right:10px;color:var(--teal-800)}
+.sentence-list{display:grid;gap:12px}
+.sentence{position:relative;display:grid;grid-template-columns:38px minmax(0,1fr);gap:12px;padding:16px;border:1px solid #e2ece8;border-radius:14px;background:#fcfefd;min-width:0}
+.sentence-no{color:var(--teal-600);font-size:.76rem;font-weight:850;font-variant-numeric:tabular-nums;padding-top:4px}
+.bilingual{min-width:0;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(14px,2vw,28px)}
+.lang-block{min-width:0}
+.lang-block p{margin:5px 0 0;overflow-wrap:anywhere}
+.en-block{padding-left:clamp(14px,2vw,28px);border-left:1px solid var(--line)}
+.en-block p{color:#0b5c60;font-weight:650}
+.lang-tag{display:inline-block;color:var(--muted);font-size:.66rem;font-weight:850;letter-spacing:.12em}
+.en-head{display:flex;justify-content:space-between;gap:10px;align-items:center;min-height:30px}
+.note{grid-column:2;margin:1px 0 0;color:#708182;font-size:.78rem}
+.note span{margin-right:7px;color:var(--amber);font-weight:750}
+.speak-btn{display:inline-flex;align-items:center;gap:7px;border:1px solid #b8d9d1;border-radius:9px;padding:7px 11px;color:var(--teal-800);background:#f5fbf8;cursor:pointer;white-space:nowrap;font-size:.78rem;font-weight:750;transition:.15s ease}
+.speak-btn:hover{color:#fff;background:var(--teal-700);border-color:var(--teal-700);transform:translateY(-1px)}
+.speak-btn.playing{color:#fff;background:var(--teal-700);border-color:var(--teal-700)}
+.speak-btn.compact{padding:4px 8px;font-size:.7rem}
+.speak-btn.icon-only{padding:3px 7px;margin-left:6px}
+.speak-btn.icon-only span:last-child{display:none}
+.pronounce-word{display:inline;margin:0;padding:0 2px;color:inherit;background:rgba(20,145,155,.08);border:0;border-bottom:1px dashed var(--teal-600);border-radius:3px;font:inherit;font-weight:inherit;line-height:inherit;cursor:pointer}
+.pronounce-word:hover,.pronounce-word:focus{color:var(--teal-950);background:#cceee4;border-bottom-style:solid;outline:3px solid rgba(20,145,155,.42);outline-offset:2px}
+.pronounce-word.playing{color:#fff;background:var(--teal-700);border-bottom-color:var(--teal-700)}
+.paraphrase{margin-top:18px;border-top:1px solid var(--line)}
+.paraphrase summary{padding:16px 0 3px;color:var(--teal-800);cursor:pointer;font-weight:800}
+.paraphrase summary span{color:var(--muted);font-size:.75rem;font-weight:500;margin-left:8px}
+.paraphrase ol{margin:12px 0 0;padding-left:22px}
+.paraphrase li{padding:7px 0 9px 5px}
+.paraphrase li p{margin:0;font-size:.9rem;font-weight:650}
+.paraphrase li small{display:block;color:var(--muted);font-size:.72rem;margin-top:2px}
+.chunks{margin-top:4px;color:var(--teal-700);font-size:.78rem}
+.study-section{margin:38px 0 0}
+.section-heading{display:flex;align-items:baseline;gap:10px;margin:0 0 15px;color:var(--teal-950);font-size:1.35rem}
+.section-heading small{color:var(--teal-600);font-size:.78rem;letter-spacing:.05em}
+.study-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.study-grid article{padding:17px;background:#fff;border:1px solid var(--line);border-radius:14px;box-shadow:0 6px 18px rgba(7,63,66,.05);min-width:0}
+.study-grid p{margin:0}
+.practice-en{margin-top:9px;color:var(--teal-700);font-weight:650;overflow-wrap:anywhere}
+.wrong{color:#a24831;text-decoration:line-through;overflow-wrap:anywhere}
+.right{color:var(--teal-700);font-weight:750;margin:5px 0;overflow-wrap:anywhere}
+.pitfalls p{color:var(--muted);font-size:.82rem}
+.shifts article{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1.5fr);gap:12px;align-items:center}
+.shifts b{color:var(--teal-600);font-size:1.2rem}
+.shifts strong{color:var(--teal-800)}
+footer{margin-top:38px;color:var(--muted);font-size:.78rem;text-align:center}
+.footer-note{margin-top:6px}
+@media (max-width:900px){
+  .page{grid-template-columns:1fr}
+  .sidebar{position:static}
+  .sidebar-box{overflow-x:auto;padding:12px}
+  .sidebar h2{padding-left:5px}
+  .map-nav{display:flex;width:max-content;gap:8px}
+  .map-link{width:240px;border:1px solid var(--line);border-radius:10px;padding:8px}
+  .bilingual{grid-template-columns:1fr}
+  .en-block{padding:12px 0 0;border-left:0;border-top:1px dashed var(--line)}
+}
+@media (max-width:620px){
+  .hero-inner{padding-top:30px}
+  .hero-flex{flex-direction:column;align-items:center}
+  .hero-cover{width:100%;max-width:360px}
+  .hero-text{text-align:center}
+  .page{padding-inline:10px;gap:18px}
+  .scene-card{border-radius:14px;padding:17px 13px}
+  .scene-topline{align-items:flex-start}
+  .scene-speak span:last-child{display:none}
+  .sentence{grid-template-columns:26px minmax(0,1fr);padding:13px 10px;gap:6px}
+  .note{grid-column:2}
+  .study-grid{grid-template-columns:1fr}
+  .shifts article{grid-template-columns:1fr;gap:5px}
+  .shifts b{transform:rotate(90deg);justify-self:start}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.speak-btn{transition:none}}</style>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="hero-flex">
+        <div class="hero-text">
+          <p class="eyebrow">Bilingual Learning · Podcast Knowledge</p>
+          <h1>对拍摄地方的执念是一种病？聊聊「风土摄影」</h1>
+          <p class="hero-en">Is Obsessing Over a Place a Sickness? Inside 'Fudo Photography'</p>
+          <p class="summary-en" style="margin:0 0 14px;padding:14px 16px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.22);border-radius:12px;font-size:.95rem;line-height:1.7">In one line: 'fudo photography' isn't the product of any photography school — it's an original concept the two hosts built from years of watching and thinking: turn your lens back on the 'fudo' you know and love best — a place's soil, climate, people, and culture — and photograph 'an obsession with a place.' Using five case studies — Alec Soth, Daido Moriyama and Kyoichi Tsuzuki, Lu Yuanmin, and a lineage from Soetsu Yanagi to Sari Shibata and Gong Le — they draw the line between fudo photography and landscape, travel, documentary, and street photography, explain why the places we know best are the easiest to overlook, and show how to carry your hometown's 'soil virtue' to any corner of the world.</p>
+          <div class="hero-meta">
+            <span class="chip">2026-08-19</span>
+            <span class="chip">小宇宙FM</span>
+            <span class="chip">约 1 小时 21 分钟</span>
+            <span class="chip">7 Scenes</span>
+            <span class="chip">Click underlined words to hear them</span>
+            <a class="source-link" href="https://www.xiaoyuzhoufm.com/episode/6a7ebdf417676351c571cafa" target="_blank" rel="noopener">原播客 ↗</a>
+          </div>
+        </div>
+      </div>
+      <div class="toolbar">
+        <div class="lang-switch"><div class="lang-switch"><a href="fudo-photography-总结.html">中文</a><a class="active" href="fudo-photography-en.html" aria-current="page">EN</a></div></div>
+        <label for="speech-rate">朗读速度</label>
+        <select id="speech-rate">
+          <option value="0.85">慢速 0.85×</option>
+          <option value="1" selected>正常 1×</option>
+          <option value="1.15">快速 1.15×</option>
+        </select>
+        <button id="stop-speech" class="stop-btn" type="button">■ 停止朗读</button>
+        <span id="speech-status" class="speech-status" role="status" aria-live="polite"></span>
+      </div>
+      <div class="narration-player">
+      <p class="audio-label">🎧 中文语音讲解</p>
+      <button class="speak-btn" type="button" data-audio="audio/fudo-photography.mp3" aria-label="播放语音讲解"><span aria-hidden="true">▶</span><span>播放语音讲解</span></button>
+    </div>
+    </div>
+  </header>
+  <main class="page">
+    <aside class="sidebar" aria-label="场景地图">
+      <div class="sidebar-box">
+        <h2>场景地图 · SCENE MAP</h2>
+        <nav class="map-nav">
+          <a class="map-link" href="#s1">
+          <span class="map-id">S1</span>
+          <span><b>一、什么是「风土」：一个古老汉字背后的两层含义</b><small> · What Is 'Fudo'? Two Layers Behind an Ancient Word</small></span>
+        </a>
+<a class="map-link" href="#s2">
+          <span class="map-id">S2</span>
+          <span><b>二、什么是「风土摄影」：拍「对地方的执念」</b><small> · What Is Fudo Photography? Photographing Your Obsession With a Place</small></span>
+        </a>
+<a class="map-link" href="#s3">
+          <span class="map-id">S3</span>
+          <span><b>三、五个案例：风土摄影长什么样</b><small> · Five Case Studies: What Fudo Photography Looks Like</small></span>
+        </a>
+<a class="map-link" href="#s4">
+          <span class="map-id">S4</span>
+          <span><b>四、对比分析：风土摄影 vs 其他摄影类型</b><small> · Fudo vs. Other Photography: The Comparison</small></span>
+        </a>
+<a class="map-link" href="#s5">
+          <span class="map-id">S5</span>
+          <span><b>五、避坑总结：风土摄影最常见的五个误区</b><small> · Five Pitfalls: Common Mistakes in Fudo Photography</small></span>
+        </a>
+<a class="map-link" href="#s6">
+          <span class="map-id">S6</span>
+          <span><b>六、方法边界：风土摄影在什么情况下不成立</b><small> · Where Fudo Photography Breaks Down</small></span>
+        </a>
+<a class="map-link" href="#s7">
+          <span class="map-id">S7</span>
+          <span><b>七、片尾彩蛋：一场关于「拍上海」的摄影批评</b><small> · Post-Credits: A Photography Critique About 'Shooting Shanghai'</small></span>
+        </a>
+        </nav>
+      </div>
+    </aside>
+    <div class="content">
+      <section class="scene-card" id="s1" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S1</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/fudo-photography/s1.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>一、什么是「风土」：一个古老汉字背后的两层含义</h2>
+      <p class="scene-title-en">What Is 'Fudo'? Two Layers Behind an Ancient Word</p>
+      <p class="context"><b>情境</b>The hosts break down the Chinese word 'fudo': its long history from pre-Qin texts to today, its two layers — natural climate and landform, plus the human layer of collective memory and shared wisdom — and why they chose 'fudo photography' over 'fudo-renjo photography'. They also bring in philosopher Watsuji Tetsuro's 1930s fudo theory. 语域：概念讲解 + 学术背景。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：「风土」在中文里历史非常悠久，从先秦古籍延续至今，意义没有太大变化——指一个地区的自然气候 + 客观地貌 + 地理环境（地形、城市构造）+ 气候变化，而且带有历史的纵深感</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/fudo-photography/s1-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">'Fudo' has a very long history in Chinese, from pre-Qin classics all the way to today, and its meaning hasn't shifted much — it refers to a region's natural climate, objective landforms, and geographical environment — terrain, urban structure — along with climate change, carrying a sense of historical depth.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>landform / terrain → 地貌/地形；geographical environment → 地理环境；pre-Qin classics → 先秦古籍；urban structure → 城市构造；historical depth → 历史的纵深感</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：只有时间才能养出某一种气候、形成某种土壤结构。「风土人情」在风土之上加入人文活动：这个地方的人们共同的集体记忆、因这片土地形成的共同人类智慧。但口语中人们常把它理解成具象结晶——某个节庆、一个特产、一处名胜</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/fudo-photography/s1-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key insight: only time can breed a certain climate and form a certain soil structure. 'Fudo renjo' — human sentiment — adds a human layer on top of fudo: the collective memory shared by a place's people and the common human wisdom formed by living on that land. But in casual speech people usually read it as something concrete and crystallized — a festival, a specialty product, a famous sight.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>collective memory → 集体记忆；crystallize → 具象结晶；specialty product → 特产；a famous sight → 名胜；in casual speech → 口语中</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>为什么用「风土摄影」而非「风土人情摄影」：回到更朴素、更抽象的那个层次——它不是对自然的单纯描述，也不是对已凝结好的非遗的描述，而是人与自然共存、长久生活在这片土地上的人与环境一起形成的、难以直接表述的庞大精神文明集合</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/fudo-photography/s1-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Why 'fudo photography' instead of 'fudo-renjo photography': it goes back to the plainer, more abstract layer — not a pure description of nature, and not a description of intangible heritage that's already been crystallized, but the vast, hard-to-put-into-words collection of spirit and civilization formed by people and nature coexisting, by people who've lived long on this land and grown together with their environment.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>intangible heritage → 非物质文化遗产；hard-to-put-into-words → 难以直接表述的；a collection of spirit and civilization → 精神文明集合；coexist → 共存</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据：「它人和自然共存的时候，或者说长久以来生活在这片土地上的人……形成了一些难以直接表述的庞大的、有这个精神文明的集合。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/fudo-photography/s1-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Quote from the show: 'When people and nature coexist — or people who have long lived on this land... formed a vast, hard-to-directly-express collection of this spiritual civilization.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>spiritual civilization → 精神文明；hard to express directly → 难以直接表述；a vast collection → 庞大的集合</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）与其他概念的关系：这是全片的基石——后面所有案例都在讲「如何把这个抽象集合拍进画面」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/fudo-photography/s1-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">How this connects: this is the cornerstone of the whole episode — every case study that follows is about how to get that abstract collection into the frame.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>cornerstone → 基石；case study → 案例；get A into the frame → 把A拍进画面</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>在讲什么：20 世纪初（1930 年代），日本哲学家和辻哲郎在研读黑格尔后提出「风土理论」：一个地方的自然环境会塑造这里人的精神状态与民族性</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/fudo-photography/s1-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The intellectual backstory: in the early 20th century, the 1930s, after studying Hegel, the Japanese philosopher Watsuji Tetsuro proposed his 'fudo theory' — a place's natural environment shapes the mental state and the national character of the people who live there.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>philosopher → 哲学家；national character / temperament → 民族性；mental state → 精神状态；propose a theory → 提出理论</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「只有时间才能养出风土」</p><div class="chunks">brew a climate · slow-cooked over generations</div><small>brew / slow-cook 用烹饪隐喻讲时间感，很生动；generations 强调代际</small></li>
+<li><p>想说「口语里的风土被理解得太具体」</p><div class="chunks">shrink A down to · get reduced to</div><small>shrink / reduce 都表「窄化」，get reduced to 更被动、口语</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s2" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S2</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/fudo-photography/s2.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>二、什么是「风土摄影」：拍「对地方的执念」</h2>
+      <p class="scene-title-en">What Is Fudo Photography? Photographing Your Obsession With a Place</p>
+      <p class="context"><b>情境</b>Fudo photography isn't a new category of pictures but a way of seeing beyond the old boxes — it moves from the external world toward the inner world, or at least holds both sides equally. Its ideal audience is locals, but it's precious for outsiders too. 语域：概念定义 + 理论辨析。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心机制：风土摄影不是简单集合风光、肖像、街拍等旧分类的画面，而是超越过往摄影概念的观看方式。最重要的是：它有一个由外部的世界走向精神世界的过程，或者起码要同时并重这两侧。规模上它很包容——大到一个城市、一个国家，小到一个行政区、一条街道，只要聚集了一群人、有共同记忆、有独特的气候 / 自然 / 民俗，就可以拥有自己的风土</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/fudo-photography/s2-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Fudo photography isn't a simple collection of pictures from old categories — landscape, portraits, street shots — but a way of seeing that goes beyond previous photographic concepts. Most importantly, it has a movement from the external world toward the spiritual world — or at least it weighs both sides equally. And it's very inclusive in scale: as big as a city or a country, as small as a district or a street — as long as people gather, share memories, and have their own climate, nature, or folk customs, it can have its own fudo.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>a way of seeing → 观看方式；go beyond → 超越；folk customs → 民俗；inclusive → 包容的；spiritual world → 精神世界</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：风土要有时间的厚度、要有人，所以它不是「决定性瞬间」的拍摄——一张照片难以感受到风土；当你看到一张风土照片，它自然引导你进入那个世界、进入那里生活的人的精神世界，信息量多于画面本身所给你的</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/fudo-photography/s2-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key insight: fudo needs the thickness of time and it needs people, so it's not 'decisive moment' shooting — a single photo can barely convey fudo. When you see a fudo photograph, it naturally guides you into that world, into the inner life of the people there — carrying more information than the frame itself gives you.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>decisive moment → 决定性瞬间；the thickness of time → 时间的厚度；inner world / inner life → 精神世界；carry information → 承载信息</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>怎么用：判断一张照片是不是风土摄影，看它是否具备「向内」的那一层：看完它，你会不会去想这个地方的人怎样生活、这个街区有什么气候与性格</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/fudo-photography/s2-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">How to use it: to test whether a photo is fudo photography, look for that 'inward' layer — after you look at it, do you start wondering how the people in this place live, what climate and what character this neighborhood has?</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>test / judge → 判断；the inward layer → 向内的一层；wonder how … → 会去想…；what character a place has → 这个地方有什么性格</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据：「它有一个由外部的世界走向精神世界的这么一个过程……它要有人，所以它不是一种决定性瞬间的这种拍摄……一张照片你是难以感受到风土的。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/fudo-photography/s2-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Quote from the show: 'It has a process of going from the external world to the spiritual world... it needs people, so it's not that decisive-moment kind of shooting... with a single photo you can hardly feel the fudo.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>go from A to B → 从A走向B；hardly → 难以；the external world → 外部世界</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）与其他概念的关系：它包含旧分类的画面（聚焦地区的风光、记录人的肖像、代表性的街拍），但强调「外部世界 + 精神世界」双侧重，这是它与风景摄影的决定性分界</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/fudo-photography/s2-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">How it connects: it does include pictures from the old categories — landscapes focused on a region, portraits documenting people, representative street shots — but it stresses weighing both 'external world + spiritual world', and that's the decisive dividing line between it and landscape photography.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>portrait → 肖像；document → 记录；dividing line → 分界线；representative → 有代表性的</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>在讲什么：风土摄影最适配的观众其实是本地人——它调动的是「你曾在苏州河畔走过」这种记忆；但对外地人同样珍贵：通过摄影这种残缺、间接的信息，你能被带进一个作为外地人很难触及的本地人的精神世界</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/fudo-photography/s2-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Who it's for: the ideal audience for fudo photography is actually the locals — it taps into memories like 'you once walked along the Suzhou Creek.' But it's equally precious for outsiders: through photography's partial, indirect information, you get carried into the inner world of locals that an outsider could rarely reach otherwise.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>tap into → 调动/挖掘；partial / indirect information → 残缺、间接的信息；locals vs outsiders → 本地人 vs 外地人；get carried into → 被带进</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「照片只是入口，看的是背后的精神世界」</p><div class="chunks">a door into · point beyond itself</div><small>a door into 口语又形象；point beyond itself 更书面</small></li>
+<li><p>想说「对本地人最有共鸣，对外地人也珍贵」</p><div class="chunks">feel it in their bones · a backstage pass</div><small>feel in one's bones 很地道；backstage pass 是比喻「平时到不了的内层」</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s3" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S3</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/fudo-photography/s3.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>三、五个案例：风土摄影长什么样</h2>
+      <p class="scene-title-en">Five Case Studies: What Fudo Photography Looks Like</p>
+      <p class="context"><b>情境</b>The hosts walk through examples: Alec Soth's Sleeping by the Mississippi, Daido Moriyama's Shinjuku street work, Kyoichi Tsuzuki's documentation of living rooms, Lu Yuanmin's Shanghai, and a lineage from Soetsu Yanagi to Sari Shibata and Gong Le. This scene details the Soth case and the Shinjuku example. 语域：艺术评论 + 案例分析。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>在讲什么：项目被明确的自然边界（密西西比河）框定，但拍摄时没有用宽画幅去拍河的样貌、河岸或景点，而是把镜头对准在那生活的人</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/fudo-photography/s3-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The project is defined by a clear natural boundary — the Mississippi River — yet he didn't use wide frames to shoot the river's shape, its banks, or its sights; he aimed the lens at the people living there.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>natural boundary → 自然边界；aim the lens at → 把镜头对准…；wide frame / wide shot → 宽画幅；bank → 河岸</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：他采用类似摆拍的方式，让被摄者把生活中积累的爱好、性格、梦想展现在画面里；也拍没有人的空镜（一张沙发）——当你看到这个物体，你想到的还是它的主人。画面中的物与人互相引导，形成物与人之间的流动感：看到拿飞机模型站在雪地家门口的男人，你会想到密西西比、那个地方的气候与人的梦想。《Niagara》围绕「爱」的主题，基于尼亚加拉（蜜月胜地）展开，拍了许多情侣，读起来像诗集</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/fudo-photography/s3-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key insight: he used a staged, almost directed approach, letting his subjects display the hobbies, characters, and dreams they'd accumulated in life; he also shot people-free 'empty frames' — a single sofa — where seeing the object still makes you think of its owner. The objects and people in the frame guide each other, forming a flow between them: see a man holding an airplane model at his snowy doorstep, and you think of the Mississippi, the region's climate, and one man's dreams. 'Niagara' is built around the theme of love, set against Niagara, the honeymoon capital, and shot through many couples — it reads like a poetry collection.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>staged / directed → 摆拍式的；empty frame → 空镜；honeymoon capital → 蜜月胜地；read like a book of poems → 读起来像诗集；flow between A and B → A与B之间的流动感</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>与其他概念的关系：刻意区别于「类型学」——不是把人拉到白墙前拍同构图的一排肖像，而是随着场景变换，用人的丰富程度与共性带你联想当地的精神面貌</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/fudo-photography/s3-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">How it differs from 'typology': he deliberately avoids lining people up against a white wall in identical compositions; instead, scenes keep shifting, and the richness and commonality of the people lead you to imagine the local spirit of the region.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>typology → 类型学；identical composition → 同构图；commonality → 共性；local spirit / ethos → 当地的精神面貌</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>怎么用：选一个有边界的「地点」，把镜头从风景转向生活其中的人，允许画面留出「让你去联想」的信息</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/fudo-photography/s3-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">How to use it: choose a 'place' with a clear boundary, turn your lens from the scenery to the people who live within it, and leave information in the frame that lets the viewer do the imagining.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>turn the lens from A to B → 把镜头从A转向B；leave room for imagination → 留下联想空间；the viewer → 观看者</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据：「画面中的物和人都会引导你去想到在这个地区的生活……它的信息量也是多于这个画面本身所给你的。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/fudo-photography/s3-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Quote from the show: 'The objects and people in the frame both lead you to think about life in this region... the information it carries exceeds what the frame itself gives you.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>lead you to think about → 引导你去想…；exceed → 多于/超过；the frame itself → 画面本身</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>在讲什么：新宿代表日本战后历史，是一个很典型的地点；森山大道一直生活在那里，他在新宿街头拍下的东西，被主播直接视为「新宿的风土摄影」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/fudo-photography/s3-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">And then there's Shinjuku: it stands for Japan's postwar history — a very typical location. Daido Moriyama has lived there his whole life, and what he shoots on the streets of Shinjuku is treated by the hosts as 'Shinjuku's fudo photography.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>stand for → 代表；postwar history → 战后历史；street photography → 街头摄影；treat A as B → 把A视为B</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「不拍风景，拍住在那里的人」</p><div class="chunks">skip A and shoot B · point the camera at</div><small>skip 很口语；point the camera at 比 shoot 更具体</small></li>
+<li><p>想说「画面留白，让观众自己去联想」</p><div class="chunks">leave gaps · just enough to start wondering</div><small>leave gaps 直接；start wondering 更口语化地描述观看体验</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s4" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S4</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/fudo-photography/s4.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>四、对比分析：风土摄影 vs 其他摄影类型</h2>
+      <p class="scene-title-en">Fudo vs. Other Photography: The Comparison</p>
+      <p class="context"><b>情境</b>The one-sentence conclusion of the whole comparison: fudo photography is not a technique but an obsession with a place — you must know it first, love it second, and only then lift the camera. 语域：结论总结。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）一句话结论：风土摄影不是一种拍摄技法，而是一种「对地方的执念」——它要求你先熟悉、再热爱，最后才举起相机</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/fudo-photography/s4-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">One-sentence conclusion: fudo photography isn't a shooting technique — it's an 'obsession with a place.' It asks you to first become familiar with it, then fall in love with it, and only then lift the camera.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>one-sentence takeaway → 一句话结论；obsession with → 对…的执念；become familiar with → 熟悉；fall in love with → 热爱；lift / raise the camera → 举起相机</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「先熟悉、再热爱、最后才拍摄」</p><div class="chunks">A first, B second, C last · comes before</div><small>三个排比首推口语；comes before 更书面</small></li>
+<li><p>想说「它不是技法，是执念」</p><div class="chunks">a fixation · miss the point</div><small>fixation 比 obsession 稍轻；miss the point 是常用口语</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s5" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S5</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/fudo-photography/s5.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>五、避坑总结：风土摄影最常见的五个误区</h2>
+      <p class="scene-title-en">Five Pitfalls: Common Mistakes in Fudo Photography</p>
+      <p class="context"><b>情境</b>The hosts list the most common mistakes: shooting whatever 'stimulates' you instead of what you truly know — the 'foreign guest' viewfinder — and overgeneralizing, claiming one tiny slice stands for the whole city. 语域：方法论避坑清单。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>原因：不自觉被场景「刺激」吸引，拍下与自己熟悉文化差异最大的瞬间（外国记者拍上海），画面成了奇观与滤镜</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/fudo-photography/s5-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The cause: you're unconsciously drawn to 'stimulating' scenes and capture the moments most unlike the culture you know well — a foreign journalist shooting Shanghai. The frame becomes spectacle and filter.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>be drawn to → 被…吸引；spectacle → 奇观；filter → 滤镜/失真；foreign journalist → 外国记者</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>解法：先证明你「住过」这个地方——真实接触、感受气候、因气候生过病、买过几轮衣服、学会在这里生存，再谈拍摄</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/fudo-photography/s5-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The fix: first prove you've actually 'lived' there — genuinely engaged with it, felt its climate, gotten sick because of that climate, bought several rounds of clothes, learned to survive in it — and only then talk about photographing it.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>the fix → 解决办法；engage with → 真实接触；get sick because of the climate → 因气候生过病；learn to survive → 学会生存</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>严重程度：致命——本地人一眼看穿，一出手就露怯</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/fudo-photography/s5-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">How serious is it? Fatal — locals see through it at a glance, and the moment you shoot, your unfamiliarity shows.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>see through → 一眼看穿；show / give you away → 露怯；fatal mistake → 致命错误；at a glance → 一眼</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）主播说法：「他可能还是会被上海的场景去刺激到，就有一种外宾视角。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/fudo-photography/s5-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Quote from a host: 'He might still get stimulated by the scenes of Shanghai — so there's a foreign-guest perspective.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>foreign-guest perspective → 外宾视角；get stimulated by → 被…刺激到；perspective → 视角</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>原因：如果你拍的是「城市病」这类共性主题，那没问题的；但「我认为上海某点不好」却宣称拍的是上海，就是一篇概全 / 以点带面</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/fudo-photography/s5-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Next pitfall: if you're shooting a common theme like 'urban disease', that's fine — but declaring 'I think one thing about Shanghai is bad' while calling it a picture of Shanghai is overgeneralization, mistaking a part for the whole.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>overgeneralization → 以偏概全；mistake a part for the whole → 以点带面；a common theme → 共性主题；declaring → 宣称</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>表现：站在很远的拍摄距离，画面里没有上海人的生活，只能展现一个小小的切片；标题却顶着「上海」这个全体关注的名字</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/fudo-photography/s5-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The symptom: shot from very far away, the frame shows no Shanghai people's lives — only a tiny slice — yet the title wears the name 'Shanghai', a name the whole world pays attention to.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>a tiny slice → 一个小小的切片；wear the title of → 顶着…的标题；pay attention to → 关注；from a distance → 很远的拍摄距离</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「被新鲜感牵着走，拍成了外宾视角」</p><div class="chunks">hijack the camera · reach for the shutter</div><small>hijack 比喻「被劫持」很形象；reach for the shutter 描述下意识动作</small></li>
+<li><p>想说「一个切片代表不了一座城」</p><div class="chunks">stand in for · wearing the whole city's name</div><small>stand in for 表代替；wearing … name 呼应标题用词，很贴切</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s6" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S6</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/fudo-photography/s6.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>六、方法边界：风土摄影在什么情况下不成立</h2>
+      <p class="scene-title-en">Where Fudo Photography Breaks Down</p>
+      <p class="context"><b>情境</b>The boundary of the method: fudo photography is a key for 're-looking at what's under your feet', but it demands time and sincerity, and leaves no room for shortcut-driven exoticism. 语域：方法边界总结。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）一句话：风土摄影是一把「重新注视脚下」的钥匙，但它要求时间与真心，容不下走捷径的猎奇</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/fudo-photography/s6-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">In one sentence: fudo photography is a key for 'looking at what's under your feet once more' — but it requires time and sincerity, and has no room for the shortcut-seeking hunt for the exotic.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>what's under your feet → 脚下；sincerity → 真心；hunt for the exotic → 猎奇；shortcut-seeking → 走捷径的</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「重新注视脚下」</p><div class="chunks">look again at · turn your gaze back to</div><small>turn your gaze back to 更书面；your own street 更口语</small></li>
+<li><p>想说「容不下猎奇」</p><div class="chunks">no place for · gets you nowhere</div><small>gets you nowhere 是地道口语；no place for 偏正式</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s7" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S7</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/fudo-photography/s7.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>七、片尾彩蛋：一场关于「拍上海」的摄影批评</h2>
+      <p class="scene-title-en">Post-Credits: A Photography Critique About 'Shooting Shanghai'</p>
+      <p class="context"><b>情境</b>As an epilogue, the hosts discuss the public criticism of a 'Shooting Shanghai' project: being criticized means being noticed, photo criticism is normal in mature photography cultures, and the works that can sustain an artist are those connected to their time, place, and people who understand them. 语域：评论性结语。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>在讲什么：被批评和被讨论说明作品受到更多关注，很多艺术家非常大度、可以接纳不同声音；摄影批评在摄影文化发达的地方很常见</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/fudo-photography/s7-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The epilogue: being criticized and being discussed means the work is getting attention — many artists are magnanimous and can take in different voices; photography criticism is common in places with a developed photography culture.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>magnanimous → 大度的；take in different voices → 接纳不同声音；photography culture → 摄影文化；get attention → 受到关注</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>核心主张：能养活艺术家的作品，全都是「跟时代、跟地方、跟能理解他的人产生连接」的作品；美术院校过分夸大艺术的自由与包容，而现实是「观众的自由比创作者的自由要大」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/fudo-photography/s7-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The core claim: the works that can support an artist are all works that 'connect with their time, with their place, and with people who can understand them.' Art schools overstate art's freedom and inclusiveness — in reality, 'the audience's freedom is larger than the creator's.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>overstate → 夸大；inclusiveness → 包容；the audience's freedom → 观众的自由；connect with → 与…产生连接</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）「图像是非常真实的，就是他能把你的意图非常真实的表露出来的。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/fudo-photography/s7-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Quote from the show: 'Images are very truthful — they can reveal your intentions very honestly.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>reveal one's intentions → 表露意图；truthful → 真实的；honestly → 如实地</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）与其他概念的关系：摄影批评 = 风土摄影的反向校验尺——作者是否真的「住过」、是否以点代面、标题是否严谨，都是可以当众讨论的问题</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/fudo-photography/s7-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The connection: photo criticism is the reverse litmus test for fudo photography — whether the maker truly 'lived' there, whether a part was passed off as the whole, whether the title is rigorous — all of these are questions open for public debate.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>litmus test → 试金石/校验尺；pass A off as B → 以点代面/把A冒充成B；rigorous → 严谨的；open for debate → 可以当众讨论的</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「被批评说明被看见」</p><div class="chunks">being seen · the price of being noticed</div><small>being seen 口语又有力；the price of being noticed 更像点评句</small></li>
+<li><p>想说「能养活艺术家的连接，不是自由」</p><div class="chunks">what feeds an artist · kept alive by being understood</div><small>feed 直白；kept alive by being understood 是金句式表达</small></li>
+        </ol>
+      </details>
+    </section>
+      <section class="study-section" id="practice">
+      <h2 class="section-heading">今日可练 <small>PRACTICE TODAY</small></h2>
+      <div class="study-grid">
+        <article>
+          <p>用「less A than B」说：风土摄影与其说是技法，不如说是对地方的执念。</p>
+          <div class="practice-en">
+            Fudo photography is less a technique than an obsession with a place.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/fudo-photography/practice-0.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「see through」说：本地人一眼看穿你拍的是外宾视角。</p>
+          <div class="practice-en">
+            Locals see through the foreign-guest perspective in a second.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/fudo-photography/practice-1.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「mistake a part for the whole」说：一张小小的切片被当成了整座上海。</p>
+          <div class="practice-en">
+            He mistook a tiny slice of the city for Shanghai itself.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/fudo-photography/practice-2.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「litmus test」说：摄影批评是风土摄影的反向校验尺。</p>
+          <div class="practice-en">
+            Photo criticism works as the reverse litmus test for fudo photography.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/fudo-photography/practice-3.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article>
+      </div>
+    </section>
+      <section class="study-section pitfalls" id="pitfalls">
+      <h2 class="section-heading">避坑 <small>PITFALLS</small></h2>
+      <div class="study-grid">
+        <article>
+          <div class="wrong">✕ He shoots the scenery of the river.</div>
+          <div class="right">✓ He shoots the people living along the river, not the river itself.</div>
+          <p>风土摄影刻意回避风景本身（scenery/sights），谈案例时用 people living there 才能抓到要领；scenery 只会滑回风景摄影的旧分类。</p>
+        </article><article>
+          <div class="wrong">✕ Fudo photography is a shooting skill.</div>
+          <div class="right">✓ Fudo photography isn't a skill — it's an obsession with a place.</div>
+          <p>skill/technique 是技法层面，本概念的核心是观看方式与情感投入；用 obsession 才对上「对地方的执念」。</p>
+        </article><article>
+          <div class="wrong">✕ I feel Shanghai, so I can shoot Shanghai.</div>
+          <div class="right">✓ You have to have actually lived in Shanghai before you can shoot it.</div>
+          <p>feel 太主观太轻；「住过、真实接触、因气候生过病」这类经历用 have lived there / truly engaged 表达才符合本期的论证。</p>
+        </article><article>
+          <div class="wrong">✕ The photo shows a small part of Shanghai.</div>
+          <div class="right">✓ A tiny slice of the city can't carry the title 'Shanghai'.</div>
+          <p>只说「拍了切片」本身没错，错的是标题顶着整座城市；把「切片」与「城市之名」之间的落差说出来，才是这个避坑点的要义。</p>
+        </article>
+      </div>
+    </section>
+      <section class="study-section shifts" id="mindset">
+      <h2 class="section-heading">认知转变 <small>MINDSET SHIFTS</small></h2>
+      <div class="study-grid">
+        <article>
+          <span>以为拍照 = 去陌生的地方猎奇、拍奇观</span>
+          <b aria-hidden="true">→</b>
+          <strong>风土摄影 = 先熟悉、再热爱你脚下最平常的地方，把镜头对准「你住过」的生活</strong>
+        </article><article>
+          <span>以为「风土」就是风景名胜、特产节庆</span>
+          <b aria-hidden="true">→</b>
+          <strong>风土是人与自然长期共处形成的、难以直接表述的精神文明集合</strong>
+        </article><article>
+          <span>以为拍得「远」、画面「独特」就高级</span>
+          <b aria-hidden="true">→</b>
+          <strong>以点代面的标题会被本地人一眼看穿——作品要与时代、地方、能理解它的人产生连接</strong>
+        </article>
+      </div>
+    </section>
+      <footer>
+        双语学习版 · 场景/句子朗读使用 edge-tts（en-US） · 单词发音使用浏览器 Web Speech API
+        <div class="footer-note">中文版：<a href="fudo-photography-总结.html">fudo-photography-总结.html</a> · SVG 版：<a href="viewer.html?f=fudo-photography-总结.svg" target="_blank">fudo-photography-总结.svg</a></div>
+      </footer>
+    </div>
+  </main>
+  <script>(() => {
+  let activeAudio = null;
+  let activeBtn = null;
+  const status = document.getElementById('speech-status');
+  const stopBtn = document.getElementById('stop-speech');
+  const rateSel = document.getElementById('speech-rate');
+
+  const reset = () => {
+    if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+    activeBtn?.classList.remove('playing');
+    activeBtn = null;
+    stopBtn.classList.remove('visible');
+    status.textContent = '';
+  };
+
+  const playAudio = (url, btn) => {
+    reset();
+    const audio = new Audio(url);
+    audio.playbackRate = Number(rateSel.value);
+    activeAudio = audio;
+    activeBtn = btn;
+    btn.classList.add('playing');
+    stopBtn.classList.add('visible');
+    status.textContent = btn.classList.contains('scene-speak')
+      ? 'Reading the whole scene…'
+      : 'Reading…';
+
+    audio.onended = () => { if (activeAudio === audio) reset(); };
+    audio.onerror = () => { status.textContent = 'Audio failed to load.'; if (activeAudio === audio) reset(); };
+    audio.play().catch(() => { status.textContent = 'Playback failed.'; if (activeAudio === audio) reset(); });
+  };
+
+  document.addEventListener('click', e => {
+    const btn = e.target.closest('[data-audio]');
+    if (!btn) return;
+    e.preventDefault();
+    if (btn === activeBtn && activeAudio) { reset(); return; }
+    playAudio(btn.dataset.audio, btn);
+  });
+
+  stopBtn.addEventListener('click', reset);
+
+  const synth = window.speechSynthesis;
+  const getEnglishVoice = () => {
+    const voices = synth.getVoices();
+    return voices.find(v => /^en-(US|GB)/i.test(v.lang))
+        || voices.find(v => /^en/i.test(v.lang)) || null;
+  };
+
+  const difficultWords = new Set([
+    'assortment', 'SKU', 'premium', 'margin', 'middleman', 'OEM', 'rebranding',
+    'hoarding', 'PTSD', 'curation', 'repurchase', 'touchpoint', 'backlash',
+    'reshuffle', 'funnel', 'anchor', 'contract', 'psychology', 'private', 'label',
+    'editorial', 'familiar', 'competitors', 'authorization', 'flexibility'
+  ]);
+
+  const shouldPronounce = word => {
+    const n = word.toLowerCase().replace(/^[^a-z]+|[^a-z]+$/g, '');
+    return n.replace(/[^a-z]/g, '').length >= 8 || difficultWords.has(n);
+  };
+
+  const markPronounceableWords = root => {
+    const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+    const nodes = [];
+    while (walker.nextNode()) nodes.push(walker.currentNode);
+    nodes.forEach(node => {
+      if (node.parentElement?.closest('button, script, style')) return;
+      const text = node.nodeValue;
+      let m, last = 0, changed = false;
+      const frag = document.createDocumentFragment();
+      const re = /[A-Za-z]+(?:[-'’][A-Za-z]+)*/g;
+      while ((m = re.exec(text))) {
+        if (!shouldPronounce(m[0])) continue;
+        changed = true;
+        frag.append(text.slice(last, m.index));
+        const wb = document.createElement('button');
+        wb.type = 'button'; wb.className = 'pronounce-word';
+        wb.dataset.speak = m[0];
+        wb.setAttribute('aria-label', '\u8bfb\u5355\u8bcd ' + m[0]);
+        wb.title = '\u70b9\u51fb\u542c\u53d1\u97f3';
+        wb.textContent = m[0];
+        frag.append(wb);
+        last = m.index + m[0].length;
+      }
+      if (!changed) return;
+      frag.append(text.slice(last));
+      node.replaceWith(frag);
+    });
+  };
+
+  document.querySelectorAll(
+    '.english, .scene-title-en, .paraphrase li p, .chunks, .practice-en, .wrong, .right, .summary-en'
+  ).forEach(markPronounceableWords);
+
+  document.addEventListener('click', e => {
+    const wb = e.target.closest('.pronounce-word');
+    if (!wb) return;
+    e.preventDefault();
+    if (!synth) return;
+    synth.cancel();
+    if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+    activeBtn?.classList.remove('playing');
+    activeBtn = wb;
+    wb.classList.add('playing');
+    const u = new SpeechSynthesisUtterance(wb.dataset.speak);
+    u.lang = 'en-US';
+    u.rate = 0.88;
+    const v = getEnglishVoice();
+    if (v) u.voice = v;
+    u.onend = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+    u.onerror = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+    synth.speak(u);
+  });
+})();</script>
+</body>
+</html>

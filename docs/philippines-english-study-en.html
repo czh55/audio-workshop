@@ -1,0 +1,1162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="去菲律宾学英语｜墙里墙外 — Bilingual Learning Edition" />
+  <title>去菲律宾学英语｜墙里墙外｜EN 双语学习版</title>
+  <style>:root{--teal-950:#073f42;--teal-800:#0d686c;--teal-700:#0f7c80;--teal-600:#14919b;--mint-100:#dff4ec;--mint-50:#f0faf6;--ink:#183536;--muted:#607879;--line:#d7e8e2;--paper:#fff;--amber:#a85d08;--shadow:0 12px 32px rgba(7,63,66,.08)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:24px}
+body{margin:0;color:var(--ink);background:#edf7f2;font-family:Inter,"PingFang SC","Noto Sans SC","Microsoft YaHei",system-ui,sans-serif;line-height:1.65}
+button,select{font:inherit}
+a{color:inherit}
+.hero{color:#fff;background:radial-gradient(circle at 85% 10%,rgba(129,230,196,.24),transparent 30%),linear-gradient(125deg,#073f42,#0d7377 56%,#14919b)}
+.hero-inner{width:min(1440px,100%);margin:auto;padding:44px clamp(20px,5vw,72px) 36px}
+.hero-flex{display:flex;gap:clamp(18px,3vw,40px);align-items:flex-start}
+.hero-cover{width:min(240px,42vw);height:auto;max-height:320px;object-fit:contain;object-position:center;border-radius:16px;border:1px solid rgba(255,255,255,.28);box-shadow:0 18px 44px rgba(0,0,0,.32);flex-shrink:0;background:rgba(255,255,255,.08)}
+.hero-text{min-width:0;flex:1}
+.eyebrow{margin:0 0 12px;font-size:.78rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;opacity:.8}
+h1{max-width:1020px;margin:0;font-size:clamp(1.7rem,3.6vw,3rem);line-height:1.15;letter-spacing:-.04em}
+.hero-en{margin:12px 0 22px;font-size:clamp(1rem,2vw,1.25rem);opacity:.82}
+.hero-meta{display:flex;flex-wrap:wrap;gap:9px;align-items:center}
+.chip{border:1px solid rgba(255,255,255,.28);border-radius:99px;padding:5px 11px;font-size:.82rem;background:rgba(255,255,255,.08)}
+.source-link{font-weight:750;text-decoration:none;border-bottom:1px solid rgba(255,255,255,.5)}
+.toolbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:22px}
+.toolbar label{font-size:.82rem;opacity:.82}
+.toolbar select{color:#fff;background:#0a5d61;border:1px solid rgba(255,255,255,.3);border-radius:8px;padding:7px 9px}
+.stop-btn{display:none;color:#fff;background:#8c3b2a;border:0;border-radius:8px;padding:8px 12px;cursor:pointer}
+.stop-btn.visible{display:inline-flex}
+.speech-status{min-height:1.4em;font-size:.82rem;opacity:.88}
+.lang-switch{display:inline-flex;gap:6px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.28);border-radius:99px;padding:4px}
+.lang-switch a{display:inline-block;padding:4px 13px;border-radius:99px;font-size:.8rem;font-weight:700;text-decoration:none;color:rgba(255,255,255,.75)}
+.lang-switch a.active{background:#fff;color:var(--teal-800)}
+.narration-player{margin-top:16px;padding:14px 18px;background:rgba(255,255,255,.1);border-radius:12px;border:1px solid rgba(255,255,255,.15)}
+.audio-label{color:rgba(255,255,255,.88);font-size:.82rem;font-weight:700;margin:0 0 8px}
+.page{width:min(1440px,100%);margin:auto;padding:28px clamp(16px,3vw,44px) 64px;display:grid;grid-template-columns:minmax(230px,280px) minmax(0,1fr);gap:30px;align-items:start}
+.sidebar{position:sticky;top:20px;min-width:0}
+.sidebar-box{background:rgba(255,255,255,.8);border:1px solid var(--line);border-radius:16px;padding:17px;box-shadow:var(--shadow);backdrop-filter:blur(12px)}
+.sidebar h2{margin:0 0 13px;font-size:.9rem;letter-spacing:.08em;color:var(--teal-800)}
+.map-link{display:grid;grid-template-columns:34px minmax(0,1fr);gap:9px;padding:10px 6px;text-decoration:none;border-top:1px solid var(--line)}
+.map-link:hover b{color:var(--teal-700)}
+.map-id{width:30px;height:30px;display:grid;place-items:center;border-radius:9px;color:#fff;background:var(--teal-700);font-size:.72rem;font-weight:800}
+.map-link b{display:block;font-size:.78rem;line-height:1.4}
+.map-link small{display:block;color:var(--muted);font-size:.67rem;line-height:1.4;margin-top:2px;overflow-wrap:anywhere}
+.content{min-width:0}
+.scene-card{background:var(--paper);border:1px solid var(--line);border-radius:20px;padding:clamp(20px,3vw,34px);margin-bottom:24px;box-shadow:var(--shadow);overflow:hidden}
+.scene-topline{display:flex;justify-content:space-between;gap:16px;align-items:center;margin-bottom:16px}
+.scene-id{display:inline-grid;place-items:center;min-width:42px;height:30px;padding:0 10px;color:#fff;background:var(--teal-700);border-radius:8px;font-size:.78rem;font-weight:850}
+.time{margin-left:10px;color:var(--muted);font-size:.82rem;font-variant-numeric:tabular-nums}
+.scene-card h2{margin:0 0 2px;font-size:clamp(1.35rem,2.4vw,2rem);line-height:1.25;color:var(--teal-950)}
+.scene-title-en{margin:0 0 18px;color:var(--teal-600);font-weight:700;font-size:.98rem}
+.context{margin:0 0 20px;padding:12px 15px;color:#496566;background:var(--mint-50);border-left:3px solid var(--teal-600);border-radius:0 10px 10px 0;font-size:.88rem}
+.context b{margin-right:10px;color:var(--teal-800)}
+.sentence-list{display:grid;gap:12px}
+.sentence{position:relative;display:grid;grid-template-columns:38px minmax(0,1fr);gap:12px;padding:16px;border:1px solid #e2ece8;border-radius:14px;background:#fcfefd;min-width:0}
+.sentence-no{color:var(--teal-600);font-size:.76rem;font-weight:850;font-variant-numeric:tabular-nums;padding-top:4px}
+.bilingual{min-width:0;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(14px,2vw,28px)}
+.lang-block{min-width:0}
+.lang-block p{margin:5px 0 0;overflow-wrap:anywhere}
+.en-block{padding-left:clamp(14px,2vw,28px);border-left:1px solid var(--line)}
+.en-block p{color:#0b5c60;font-weight:650}
+.lang-tag{display:inline-block;color:var(--muted);font-size:.66rem;font-weight:850;letter-spacing:.12em}
+.en-head{display:flex;justify-content:space-between;gap:10px;align-items:center;min-height:30px}
+.note{grid-column:2;margin:1px 0 0;color:#708182;font-size:.78rem}
+.note span{margin-right:7px;color:var(--amber);font-weight:750}
+.speak-btn{display:inline-flex;align-items:center;gap:7px;border:1px solid #b8d9d1;border-radius:9px;padding:7px 11px;color:var(--teal-800);background:#f5fbf8;cursor:pointer;white-space:nowrap;font-size:.78rem;font-weight:750;transition:.15s ease}
+.speak-btn:hover{color:#fff;background:var(--teal-700);border-color:var(--teal-700);transform:translateY(-1px)}
+.speak-btn.playing{color:#fff;background:var(--teal-700);border-color:var(--teal-700)}
+.speak-btn.compact{padding:4px 8px;font-size:.7rem}
+.speak-btn.icon-only{padding:3px 7px;margin-left:6px}
+.speak-btn.icon-only span:last-child{display:none}
+.pronounce-word{display:inline;margin:0;padding:0 2px;color:inherit;background:rgba(20,145,155,.08);border:0;border-bottom:1px dashed var(--teal-600);border-radius:3px;font:inherit;font-weight:inherit;line-height:inherit;cursor:pointer}
+.pronounce-word:hover,.pronounce-word:focus{color:var(--teal-950);background:#cceee4;border-bottom-style:solid;outline:3px solid rgba(20,145,155,.42);outline-offset:2px}
+.pronounce-word.playing{color:#fff;background:var(--teal-700);border-bottom-color:var(--teal-700)}
+.paraphrase{margin-top:18px;border-top:1px solid var(--line)}
+.paraphrase summary{padding:16px 0 3px;color:var(--teal-800);cursor:pointer;font-weight:800}
+.paraphrase summary span{color:var(--muted);font-size:.75rem;font-weight:500;margin-left:8px}
+.paraphrase ol{margin:12px 0 0;padding-left:22px}
+.paraphrase li{padding:7px 0 9px 5px}
+.paraphrase li p{margin:0;font-size:.9rem;font-weight:650}
+.paraphrase li small{display:block;color:var(--muted);font-size:.72rem;margin-top:2px}
+.chunks{margin-top:4px;color:var(--teal-700);font-size:.78rem}
+.study-section{margin:38px 0 0}
+.section-heading{display:flex;align-items:baseline;gap:10px;margin:0 0 15px;color:var(--teal-950);font-size:1.35rem}
+.section-heading small{color:var(--teal-600);font-size:.78rem;letter-spacing:.05em}
+.study-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.study-grid article{padding:17px;background:#fff;border:1px solid var(--line);border-radius:14px;box-shadow:0 6px 18px rgba(7,63,66,.05);min-width:0}
+.study-grid p{margin:0}
+.practice-en{margin-top:9px;color:var(--teal-700);font-weight:650;overflow-wrap:anywhere}
+.wrong{color:#a24831;text-decoration:line-through;overflow-wrap:anywhere}
+.right{color:var(--teal-700);font-weight:750;margin:5px 0;overflow-wrap:anywhere}
+.pitfalls p{color:var(--muted);font-size:.82rem}
+.shifts article{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1.5fr);gap:12px;align-items:center}
+.shifts b{color:var(--teal-600);font-size:1.2rem}
+.shifts strong{color:var(--teal-800)}
+footer{margin-top:38px;color:var(--muted);font-size:.78rem;text-align:center}
+.footer-note{margin-top:6px}
+@media (max-width:900px){
+  .page{grid-template-columns:1fr}
+  .sidebar{position:static}
+  .sidebar-box{overflow-x:auto;padding:12px}
+  .sidebar h2{padding-left:5px}
+  .map-nav{display:flex;width:max-content;gap:8px}
+  .map-link{width:240px;border:1px solid var(--line);border-radius:10px;padding:8px}
+  .bilingual{grid-template-columns:1fr}
+  .en-block{padding:12px 0 0;border-left:0;border-top:1px dashed var(--line)}
+}
+@media (max-width:620px){
+  .hero-inner{padding-top:30px}
+  .hero-flex{flex-direction:column;align-items:center}
+  .hero-cover{width:100%;max-width:360px}
+  .hero-text{text-align:center}
+  .page{padding-inline:10px;gap:18px}
+  .scene-card{border-radius:14px;padding:17px 13px}
+  .scene-topline{align-items:flex-start}
+  .scene-speak span:last-child{display:none}
+  .sentence{grid-template-columns:26px minmax(0,1fr);padding:13px 10px;gap:6px}
+  .note{grid-column:2}
+  .study-grid{grid-template-columns:1fr}
+  .shifts article{grid-template-columns:1fr;gap:5px}
+  .shifts b{transform:rotate(90deg);justify-self:start}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.speak-btn{transition:none}}</style>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="hero-flex">
+        <div class="hero-text">
+          <p class="eyebrow">Language Learning &amp; Study Abroad · 语言学习与游学</p>
+          <h1>去菲律宾学英语｜墙里墙外</h1>
+          <p class="hero-en">Studying English in the Philippines: Is It Worth It?</p>
+          <p class="summary-en" style="margin:0 0 14px;padding:14px 16px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.22);border-radius:12px;font-size:.95rem;line-height:1.7">Two women each spent a month studying English in the Philippines — one fought through a year of English-induced misery and rationally picked Cebu's strictest old-school Spartan campus to prep for IELTS; the other, swayed by a friend, dove headfirst into a five-star-resort-style new campus purely for fun and experience. They break down tuition, teachers, class-swapping hacks, safety anxiety, and culture shock, and land on the same verdict — 'worth it, and also not worth it.'</p>
+          <div class="hero-meta">
+            <span class="chip">2026-08-19</span>
+            <span class="chip">小宇宙FM</span>
+            <span class="chip">约 1 小时 02 分钟</span>
+            <span class="chip">7 Scenes</span>
+            <span class="chip">Click underlined words to hear them</span>
+            <a class="source-link" href="https://www.xiaoyuzhoufm.com/episode/678fa5cbc3617f02a44d7776" target="_blank" rel="noopener">原播客 ↗</a>
+          </div>
+        </div>
+      </div>
+      <div class="toolbar">
+        <div class="lang-switch"><div class="lang-switch"><a href="philippines-english-study-总结.html">中文</a><a class="active" href="philippines-english-study-en.html" aria-current="page">EN</a></div></div>
+        <label for="speech-rate">朗读速度</label>
+        <select id="speech-rate">
+          <option value="0.85">慢速 0.85×</option>
+          <option value="1" selected>正常 1×</option>
+          <option value="1.15">快速 1.15×</option>
+        </select>
+        <button id="stop-speech" class="stop-btn" type="button">■ 停止朗读</button>
+        <span id="speech-status" class="speech-status" role="status" aria-live="polite"></span>
+      </div>
+      <div class="narration-player">
+      <p class="audio-label">🎧 中文语音讲解</p>
+      <button class="speak-btn" type="button" data-audio="audio/philippines-english-study.mp3" aria-label="播放语音讲解"><span aria-hidden="true">▶</span><span>播放语音讲解</span></button>
+    </div>
+    </div>
+  </header>
+  <main class="page">
+    <aside class="sidebar" aria-label="场景地图">
+      <div class="sidebar-box">
+        <h2>场景地图 · SCENE MAP</h2>
+        <nav class="map-nav">
+          <a class="map-link" href="#s1">
+          <span class="map-id">S1</span>
+          <span><b>一、为什么去菲律宾学英语</b><small> · Why Study English in the Philippines</small></span>
+        </a>
+<a class="map-link" href="#s2">
+          <span class="map-id">S2</span>
+          <span><b>二、菲律宾英语教育产业与择校</b><small> · The Industry and Choosing a School: Spartan vs Semi-Spartan</small></span>
+        </a>
+<a class="map-link" href="#s3">
+          <span class="map-id">S3</span>
+          <span><b>三、费用、课程与实操攻略</b><small> · Costs, Courses, and the Class-Swapping Hack</small></span>
+        </a>
+<a class="map-link" href="#s4">
+          <span class="map-id">S4</span>
+          <span><b>四、实际体验与收获</b><small> · The Real Experience and What They Gained</small></span>
+        </a>
+<a class="map-link" href="#s5">
+          <span class="map-id">S5</span>
+          <span><b>五、安全与文化观察</b><small> · Safety and Culture: What They Saw on the Ground</small></span>
+        </a>
+<a class="map-link" href="#s6">
+          <span class="map-id">S6</span>
+          <span><b>六、对比分析：菲律宾 vs 国内 vs 欧美</b><small> · Philippines vs China vs the West: Where Each Route Wins</small></span>
+        </a>
+<a class="map-link" href="#s7">
+          <span class="map-id">S7</span>
+          <span><b>七、避坑总结与适用边界</b><small> · The Final Verdict: Who Should Go, Who Shouldn't</small></span>
+        </a>
+        </nav>
+      </div>
+    </aside>
+    <div class="content">
+      <section class="scene-card" id="s1" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S1</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/philippines-english-study/s1.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>一、为什么去菲律宾学英语</h2>
+      <p class="scene-title-en">Why Study English in the Philippines</p>
+      <p class="context"><b>情境</b>两位嘉宾开场交代背景：菲律宾语培是成熟产业，把密集课时、一对一、住宿托管、全英文环境打包成远低于欧美的价格。语域：casual 播客开场 + 产业拆解。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>在讲什么：菲律宾语培是一个成熟产业，把「密集课时 + 一对一教学 + 住宿托管 + 全英文环境」打包成一个远低于欧美的价格</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/philippines-english-study/s1-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">So here's the deal: English training in the Philippines is a full-blown industry. It bundles intensive class hours, one-on-one lessons, room and board, and a fully English-only environment into one package — at a price way below the US or Europe.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>full-blown industry → 成熟产业；bundle A, B, and C into one package → 把…打包成一个套餐；room and board → 食宿；way below → 远低于</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：核心卖点是「量大管饱」——从早到晚排满课、大量一对一。对比国内一对一的价格，这个组合拳把「沉浸感」的单价打了下来</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/philippines-english-study/s1-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The killer selling point is quantity — classes packed from morning till night, loads of one-on-one time. Compared with one-on-one prices back home in China, this combo drives down the per-hour cost of immersion.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>killer selling point → 核心卖点；packed from morning till night → 从早排到晚；combo → 组合拳；drive down the per-hour cost → 把单价打下来</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>典型场景：想短期密集开口的人、雅思冲刺的人、想要「游学 + 度假」双重体验的人</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/philippines-english-study/s1-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Who's it for? People who want to pack a lot of speaking practice into a short trip, people sprinting toward IELTS, and people who want the double experience of studying abroad plus a vacation.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>pack sth into a short trip → 短期内塞满；sprint toward → 冲刺（备考）；the double experience of A plus B → A+B 的双重体验</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据：「它是从早上上到晚上的那种斯巴达式的教育，全天候课程，然后也有很多的一对一课程，因为像我们如果在国内找那种一对一，还是挺贵的。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/philippines-english-study/s1-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">As she put it: 'It's that Spartan-style education, classes from morning till night, nonstop curriculum, and tons of one-on-one lessons — because back in China, finding that kind of private tutoring is pretty pricey.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>Spartan-style → 斯巴达式（严格苦修式）；nonstop curriculum → 全天候课程；one-on-one lesson / private tutoring → 一对一课程；pricey → 贵的（口语）</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）相关概念：斯巴达制度（排课密度）、一对一课程（产业标配）、游学产业（宿务集群）、雅思冲刺班</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/philippines-english-study/s1-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Key concepts: the Spartan system, meaning insane scheduling density; one-on-one lessons as the industry standard; the study-abroad industry clustered in Cebu; and IELTS sprint classes.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>industry standard → 产业标配；cluster → 聚集/集群（Cebu 宿务是菲律宾语培聚集地）；sprint class → 冲刺班；insane → 夸张的（口语强调）</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>主持人（理性派）被英语折磨一年多：周游世界时开不了口，回国四个月「想着没事干就去学英语吧」，把清迈、尼泊尔、爱尔兰、英国欧美各国全部扒了一遍，理性对比后选了菲律宾，目标是「最严苛、最能提升」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/philippines-english-study/s1-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The rational host had been tortured by English for over a year: traveling the world without being able to speak it, then four months back home thinking 'nothing to do, might as well go learn English.' She researched Chiang Mai, Nepal, Ireland, the UK — everywhere — and after a rational comparison picked the Philippines, aiming for the most rigorous, most improvement.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>be tortured by sth → 被…折磨；might as well → 干脆/不如；research … everywhere → 全都扒一遍（研究对比）；rigorous → 严苛的；aim for the most improvement → 最能提升</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「物美价廉：课时多、一对一多、价格低」</p><div class="chunks">a fraction of the cost · for the price of A, you get B</div><small>a fraction of the cost 是表达性价比的地道说法，正式口语都能用</small></li>
+<li><p>想说「它是为短期的强需求设计的」</p><div class="chunks">be built for · short intense push · slow burn · maximum output</div><small>slow burn 指细水长流的学习，与 sprint 形成对比，很有画面感</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s2" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S2</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/philippines-english-study/s2.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>二、菲律宾英语教育产业与择校</h2>
+      <p class="scene-title-en">The Industry and Choosing a School: Spartan vs Semi-Spartan</p>
+      <p class="context"><b>情境</b>嘉宾对比斯巴达与半斯巴达两种学校的纪律强度，并介绍 CIA 与 CPLS 两所代表学校的「人设」。语域：casual 亲历体验 + 产业观察。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>在讲什么：菲律宾语言学校按纪律强度分两类。斯巴达：早 8 点到晚 10 点，全天课程加三节自习，自习前不许外出，晚归一分钟扣分、扣到退学不退学费，「条款非常不近人情」。半斯巴达：六点下课，相对宽松</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/philippines-english-study/s2-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Philippine language schools fall into two camps based on how strict they are. Spartan schools run from 8 a.m. to 10 p.m. — full-day classes plus three self-study periods, no going out before study time, and if you're even a minute late coming back, points get deducted until they expel you without refunding tuition. 'The rules are brutally cold.' Semi-Spartan schools let you out at six, much more relaxed.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>two camps → 两类/两大阵营；self-study period → 自习；deduct points → 扣分；expel → 退学/开除；refund tuition → 退学费；brutally cold → 不近人情</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：斯巴达是为「雅思冲刺型选手」设计的爆肝模式，适合短期、有明确分数目标、自律强的人；但「全天候 + 全英文 + 听不懂也得坐着」对基础差、原动力不足的人是「坐牢」——嘉宾自己的原话是「轻微坐牢的感觉」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/philippines-english-study/s2-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key insight: Spartan mode is built for IELTS sprinters — short-term, goal-driven, disciplined types. But all-day, all-English, sit-there-even-if-you-don't-understand is basically prison for people with weak foundations and low motivation. The guest's own words: 'a faint sense of being in jail.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>goal-driven → 目标驱动的；sit there even if you don't understand → 听不懂也得坐着；faint sense → 轻微的感觉；feel like jail → 像坐牢；all-English environment → 全英文环境</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>边界：适合短期冲刺（1-2 个月）；不适合长期（读到 5-6 个月以上容易崩溃，有人读一两年，大家都会惊叹「这个人耐力怎么这么强」）</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/philippines-english-study/s2-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The boundary: it's great for a short push of one to two months, not for the long haul. Past five or six months people start to crack — anyone who lasts a year or two gets 'how do you have that much stamina?'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>for the long haul → 长期（坚持）；start to crack → 开始崩溃/撑不住；last → 坚持/熬过；stamina → 耐力</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）「我当时第一个反应就是抵触，虽然我很想提升我的英语。」——曾做过老师的嘉宾，对「重进校园」的天然抗拒</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/philippines-english-study/s2-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Quote: 'My first reaction was resistance, even though I really wanted to improve my English.' — the guest, a former teacher, instinctively recoiled at the idea of going back to school.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>resistance → 抵触；instinctively recoil at → 天然抗拒；go back to school → 重返校园；former teacher → 前教师</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）与其他概念关系：斯巴达/半斯巴达是「择校」的第一道筛选；它决定了你的日程强度、自由度，也决定了你的心理承受预算</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/philippines-english-study/s2-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">How it connects: Spartan versus semi-Spartan is the first filter in choosing a school. It decides your schedule intensity, your freedom, and your mental budget for how much pressure you can take.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>first filter → 第一道筛选；schedule intensity → 日程强度；mental budget → 心理承受预算；how much pressure you can take → 能承受多大压力</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>在讲什么：两家学校代表两种极端「人设」。CIA：宿务硬件排名第一的新校区，五星级酒店式装修，健身房全宿务最顶尖（海景落地窗），泳池、KTV、台球桌、大头贴机一应俱全，「周末被禁足也不会无聊」；学生 500-600 人，营销做得好，韩国老板还配套胶囊酒店「把学生出校园后的生活也赚走」。CPLS：宿务第一家语言学校，年代久远，宿舍昏暗压抑、空调噪音大，「像城中村待拆楼」，市中心位置</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/philippines-english-study/s2-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The two schools represent two extreme personalities. CIA: Cebu's top-ranked new campus for facilities — five-star hotel decor, the best gym in Cebu with ocean-view floor-to-ceiling windows, plus a pool, KTV, pool table, and photo booth, so 'even a weekend lockdown wouldn't be boring.' It has 500 to 600 students and strong marketing, and the Korean owner even runs a capsule hotel next door, 'squeezing money out of students' lives outside campus too.' CPLS: Cebu's very first language school, old and worn — dim, gloomy dorms, noisy AC, 'like a building slated for demolition in an old neighborhood,' right in the city center.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>represent two extreme personalities → 代表两种极端人设；floor-to-ceiling windows → 落地窗；one-stop amenities → 设施一应俱全；lockdown / be confined to campus → 被禁足；slated for demolition → 待拆的；gloomy → 昏暗压抑</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「斯巴达是给冲刺型选手的爆肝模式」</p><div class="chunks">sprint to a target score · a grind · high-intensity push</div><small>grind 指苦熬式学习/苦差事，非常口语；sprint to a target score 点出「为分数冲刺」</small></li>
+<li><p>想说「两所学校硬件天壤之别」</p><div class="chunks">night and day · condemned building · rundown</div><small>night and day 形容天壤之别；condemned building 呼应「待拆楼」，很形象</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s3" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S3</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/philippines-english-study/s3.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>三、费用、课程与实操攻略</h2>
+      <p class="scene-title-en">Costs, Courses, and the Class-Swapping Hack</p>
+      <p class="context"><b>情境</b>拆解学费构成、课程梯度（ESL→雅思→商务→NPMC），以及「一周换一次课表、指定老师」的换课攻略。语域：casual 攻略分享 + 信息整理。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>在讲什么：学费约 1.3 万人民币/月（CPLS），CIA 贵 1-2 千，通常含住宿（部分含餐），是「语培 + 住宿 + 管理」的打包价。课程梯度：ESL 生活英语（约 7 节/天）→ 雅思班（9 节 + 3 节自习 = 12 节）→ 商务英语 → NPMC 演讲自信表达课</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/philippines-english-study/s3-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Here's the money part: tuition runs about 13,000 RMB a month at CPLS, and CIA costs 1,000 to 2,000 more — usually including housing, sometimes meals. It's a bundle price for classes plus room plus management. The course ladder: ESL everyday English at about seven classes a day, IELTS prep at nine classes plus three study periods, business English, and NPMC, a public-speaking confidence course.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>run about … a month → 大约每月…；bundle price → 打包价；course ladder / curriculum track → 课程梯度；public speaking → 公开演讲/演讲表达</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：雅思班的画风是「所有人都没有笑容」，为分数拼命；而雅思本身是纯应试技巧，「不说人话的考试」。英语底子弱的人先上 ESL 过渡、再视情况进雅思，是更稳的路径</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/philippines-english-study/s3-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key takeaway: in IELTS classes, 'nobody smiles' — everyone's grinding for a score. And IELTS itself is pure test-taking technique, 'an exam that doesn't speak like a human.' If your foundation is weak, easing in with ESL first and then moving to IELTS is the safer path.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>grind for a score → 为分数拼命；test-taking technique → 应试技巧；ease in with … → 先用…过渡；the safer path → 更稳的路径</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）「雅思其实是完全只看应试技巧、不说人话的一个考试，它就是为了选拔。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/philippines-english-study/s3-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Quote: 'IELTS is basically an exam that only cares about test-taking technique — it doesn't speak like a human. It exists purely to select and filter.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>only care about → 只看重；doesn't speak like a human → 不说人话（戏谑说法）；select and filter → 选拔；test-taking technique → 应试技巧</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）与其他概念关系：ESL/雅思/商务/演讲构成「按目标选课」的坐标系——要生活交流选 ESL，要分数选雅思，要表达自信选 NPMC</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/philippines-english-study/s3-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">How it maps out: ESL, IELTS, business English, and NPMC form a coordinate system for choosing courses by goal — pick ESL for everyday conversation, IELTS for a score, NPMC for speaking confidence.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>map out → 梳理/展开；coordinate system → 坐标系；choose by goal → 按目标选；speaking confidence → 表达自信</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>在讲什么：学校入学会随机排课表，前一两周随机老师质量看运气，可能「带你做题、批改，就没了」，体验甚至不如跟 ChatGPT 互动。但学校有制度：一周可以申请换一次课表，还能指定老师</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/philippines-english-study/s3-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">When you enroll, the school randomly assigns your schedule, so for the first week or two your teacher quality is pure luck. Some teachers just 'go through exercises and grade your work, and that's it' — worse than chatting with ChatGPT. But there's a system: you can request a schedule change once a week, and you can even name your preferred teacher.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>randomly assign → 随机安排；pure luck → 纯看运气；go through exercises and grade → 做题批改；request a schedule change → 申请换课表；name your preferred teacher → 指定老师</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：嘉宾主动收集了校内「最顶尖雅思老师团队名单」，排兵布阵换课，体验指数级增长——「换了以后一天学到的内容，感觉比我一开始一周学的还要多」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/philippines-english-study/s3-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key move: the guest actively collected the school's list of the top IELTS teachers, then strategically rearranged her classes. The experience improved exponentially — 'after switching, what I learned in one day felt like more than what I'd learned in my first whole week.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>actively collect → 主动收集；strategically rearrange → 排兵布阵换课；exponentially → 指数级地；one day vs a whole week → 一天学的超过一周</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「花钱要花在刀刃上：按目标选课」</p><div class="chunks">match A to B · pick your track · get out of it</div><small>get out of it 指「从中获得什么」，很口语；track 对应「课程路线」</small></li>
+<li><p>想说「换对老师效果翻倍」</p><div class="chunks">make a world of difference · half the battle</div><small>make a world of difference 表示效果天差地别；half the battle 表示「成功了一大半」</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s4" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S4</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/philippines-english-study/s4.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>四、实际体验与收获</h2>
+      <p class="scene-title-en">The Real Experience and What They Gained</p>
+      <p class="context"><b>情境</b>嘉宾复盘一个月后的口语突破、仍存的阅读障碍，以及学校里遇到的各国同学。语域：casual 亲历复盘 + 人物观察。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>在讲什么：来之前「甚至对着 ChatGPT 都开不了口」，一个月后能把英语当成第二种语言自如表达——「基本上现在他们在说话，我都能听懂，我也能回复」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/philippines-english-study/s4-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Before coming, she 'couldn't even open her mouth to ChatGPT.' A month later she could use English as a second language, comfortably — 'basically now when people talk, I understand it all, and I can reply.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>couldn't even open my mouth → 开不了口；as a second language → 作为第二种语言；comfortably → 自如地；understand it all → 全都能听懂</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：口语突破的本质不是词汇量暴涨，而是「说出来」的心理阻力被高频环境磨掉了。但阅读仍是障碍：看到英文会直接翻译、连瞄都不想瞄，所以还想啃雅思</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/philippines-english-study/s4-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key insight: the real breakthrough wasn't exploding vocabulary — it was the psychological barrier to speaking that got worn down by constant high-frequency practice. Reading is still a wall: her eyes hit English and her brain auto-translates, and she doesn't even want to glance at it, which is why she's still thinking about tackling IELTS.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>psychological barrier → 心理阻力；wear down → 磨掉；high-frequency practice → 高频练习；auto-translate → 直接翻译；tackle → 啃（攻克）</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>适用边界：消除羞耻 ≈ 提升口语自信，不等于考试提分；阅读、写作等硬能力需要另外的路径（这也解释了为什么她们后来都动过考雅思的念头）</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/philippines-english-study/s4-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The boundary: killing the shame equals boosting speaking confidence — it's not the same as raising your test score. Hard skills like reading and writing need a different path, which is exactly why they both later considered taking IELTS.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>kill the shame → 消除羞耻；boost confidence → 提升自信；hard skills → 硬能力（阅读写作等）；a different path → 另外的路径</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）「到了后面的时候，其实你就完全自如地真的可以把英语当成自己的第二种语言去表达和沟通。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/philippines-english-study/s4-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Quote: 'By the later stage, you really can express and communicate in English completely comfortably, truly treating it as your second language.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>by the later stage → 到了后期；express and communicate → 表达和沟通；treat A as B → 把 A 当作 B；completely comfortably → 完全自如</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>在讲什么：语言学校聚拢了各国、各背景的人，人人都有故事：沙特的安全工程师辞职来学英语；蒙古同学刷新了「蒙古是一个真实国家」的认知盲区；越南室友报了 5-6 个月雅思班、跟不上后天天躺床；还有在非洲待过、参加过极限救援的帅气女生</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/philippines-english-study/s4-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Language schools gather people from everywhere, and everyone has a story: a safety engineer from Saudi Arabia quit his job to learn English; a Mongolian classmate shattered her blind spot that 'Mongolia isn't a real country'; a Vietnamese roommate signed up for a five-to-six-month IELTS program and after falling behind just stayed in bed all day; and there was a cool girl who'd lived in Africa and done extreme rescue work.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>quit one's job → 辞职；shatter a blind spot → 刷新认知盲区；fall behind → 跟不上；stay in bed all day → 天天躺床；extreme rescue → 极限救援</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：「每一个真的来到这里的人，他的内心都千回百转」——能负担并做出这个选择的人总有共性，学校像一个巨大筛选器把有意思的人聚到一起</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/philippines-english-study/s4-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key insight: 'everyone who actually makes it here has been through a thousand twists and turns inside.' People who can afford this choice and make it tend to share something in common — the school acts like a giant filter that gathers interesting people in one place.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>a thousand twists and turns → 千回百转；share something in common → 有共性；act like a filter → 像一个筛选器；gather … in one place → 把…聚到一起</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「口语突破的本质是克服心理障碍」</p><div class="chunks">more psychological than … · my nerve · word count</div><small>nerve 指胆量/心理素质，很地道；word count 对应「词汇量」，形成对比</small></li>
+<li><p>想说「学校把有意思的人聚到一起」</p><div class="chunks">a magnet for · take a leap · get stories</div><small>take a leap 指大胆跨出一步，呼应「做出选择」；a magnet for 形容吸引力</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s5" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S5</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/philippines-english-study/s5.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>五、安全与文化观察</h2>
+      <p class="scene-title-en">Safety and Culture: What They Saw on the Ground</p>
+      <p class="context"><b>情境</b>讨论「签证难办、危险」的焦虑 vs 实地感受，以及菲律宾老师乐观「懒散」的国民性格及其地理宗教根源。语域：casual 安全提醒 + 文化观察。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>在讲什么：来之前最大的心理障碍是「签证难办」和「危险」——朋友天天转发枪击案、绑架案。实地：问过在学校工作近一年的中国经理、长居的中介、中文潜水教练和本地老师，结合自身感受——「比来之前国内渲染的和自己想象中的要安全很多」，没感受到排华或歧视</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/philippines-english-study/s5-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Before coming, the biggest mental blockers were 'getting a visa is a pain' and 'it's dangerous' — friends kept forwarding headlines about shootings and kidnappings. On the ground: she asked a Chinese manager who'd worked at the school for almost a year, a long-term resident agent, a Chinese-speaking dive instructor, and local teachers. Combined with her own feelings — 'it's much safer than what the Chinese media made it sound and what I'd imagined' — she felt no anti-Chinese sentiment or discrimination.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>mental blocker → 心理障碍；a pain → 麻烦/难办；on the ground → 实地；make sth sound … → 把…渲染成…；anti-Chinese sentiment → 排华情绪</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：安全与否取决于你把自己置于什么环境：深夜独行、露财逛市区、缺乏风险预判，放哪个城市都危险。要警惕的硬现实：飞车抢劫、偷窃概率更高，持枪合法（保安抽屉里的枪、商超开包查枪）</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/philippines-english-study/s5-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The key insight: safety depends on what environments you put yourself in. Walking alone late at night, flashing money around downtown, having no sense of risk — that's dangerous in any city. The hard realities to watch out for: snatch-and-grab robbery and petty theft are more common, and guns are legal — security guards keep guns in their desk drawers, and supermarkets check your bag for weapons at the entrance.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>depend on … → 取决于…；flash money around → 露财；snatch-and-grab robbery → 飞车抢劫；petty theft → 小偷小摸；risk awareness → 风险预判；watch out for → 要警惕</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据：「总的来说是没有这么吓人，但是肯定是要基于你本身有一定的那种风险预判意识，不要把自己置于那种危险系数很高的环境中。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/philippines-english-study/s5-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Quote: 'Overall it's not that scary, but you definitely need a basic sense of risk awareness — don't put yourself in high-danger environments.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>not that scary → 没那么吓人；risk awareness → 风险意识；high-danger environment → 危险系数很高的环境；put yourself in … → 把自己置于…</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）怎么用：行前把现金分开放、买旅行保险、夜间不出门、不去治安差的区域；把「概率事件」交给常识，而不是被新闻吓到放弃整趟行程</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/philippines-english-study/s5-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">How to use it: split your cash into separate spots, buy travel insurance, don't go out at night, and stay out of bad neighborhoods. Leave 'probability events' to common sense — don't let scary headlines talk you out of the whole trip.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>split your cash → 把现金分开放；bad neighborhood → 治安差的区域；probability event → 概率事件；talk sb out of sth → 劝某人放弃某事</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>在讲什么：老师会在课间五分钟走廊上即兴高歌合唱，「甚至厕所排队也想唱就唱」；老师自己也承认大部分菲律宾人「懒散」，一个家庭五六个孩子只靠一个人赚钱，升职加薪但要多担责任一般都会拒绝</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/philippines-english-study/s5-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">About the culture: teachers burst into impromptu sing-alongs in the hallway during the five-minute break — 'they'll even sing while queuing for the bathroom.' The teachers themselves admit most Filipinos are 'laid-back.' A family of five or six kids is often supported by one breadwinner, and people usually turn down a promotion with a raise if it means taking on more responsibility.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>burst into an impromptu sing-along → 即兴高歌合唱；laid-back → 懒散/随性；breadwinner → 养家糊口的人；turn down a promotion → 拒绝升职；take on more responsibility → 多担责任</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>关键理解：这种性格的底层可能是地理与宗教：天主教国家 + 地震台风洪灾频发，「努力了反正也没什么用」，于是把精力放在爱和关系上；家庭地位极高，「家庭快乐他们就快乐」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/philippines-english-study/s5-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The deeper story might be geography and religion: it's a Catholic country, and earthquakes, typhoons, and floods are constant — 'working hard won't change much anyway,' so energy goes into love and relationships. Family sits at the very top; 'when the family is happy, they're happy.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>the deeper story → 底层原因；Catholic country → 天主教国家；constant → 频发的；won't change much anyway → 努力了反正也没用；family sits at the very top → 家庭地位极高</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「安全取决于你把自己放在什么环境」</p><div class="chunks">less about A, more about B · stay out of · risk drops</div><small>less about A, more about B 是澄清因果的常用结构；risk drops 口语自然</small></li>
+<li><p>想说「菲律宾人懒散但乐天」</p><div class="chunks">to the point of · easygoing · laid-back</div><small>to the point of 表示程度，如 easygoing to the point of seeming lazy；laid-back 是评价性格的常用词</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s6" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S6</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/philippines-english-study/s6.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>六、对比分析：菲律宾 vs 国内 vs 欧美</h2>
+      <p class="scene-title-en">Philippines vs China vs the West: Where Each Route Wins</p>
+      <p class="context"><b>情境</b>嘉宾对比「提分」与「练口语」两条路线的最优解，指出它们不在同一个地方。语域：casual 结论复盘 + 路线对比。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>嘉宾亲测结论：提分这件事，「B站一个免费视频可能比这里老师教一个月更有用」；中国人在应试提分上世界范围内有优势</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/philippines-english-study/s6-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The guest's firsthand conclusion on score improvement: 'a free video on Bilibili might be more useful than a month of classes here.' When it comes to test-score gains, Chinese learners have a worldwide advantage.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>firsthand conclusion → 亲测结论；free video → 免费视频；score gains / raise your score → 提分；have a worldwide advantage → 在世界范围内有优势</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>为什么重要：两条路线的最优解不在同一个地方。消除口语羞耻、敢开口、能聊天——菲律宾沉浸式最强；6 分左右想在 1 个月内快速提分——回国找机构（嘉宾点名学为贵）或看免费应试视频更快。把「提分」目标放进菲律宾，是把钱花错了地方</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/philippines-english-study/s6-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Why it matters: the best answer for each route lives in a different place. For killing speaking shame, daring to open your mouth, and just chatting — the Philippines' immersion is unbeatable. For jumping from around Band 6 to a higher score within a month — a Chinese test-prep agency, like Guixue, which the guest named, or free exam videos will get you there faster. Taking a 'raise my score' goal to the Philippines is spending your money in the wrong place.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>lives in a different place → 不在同一个地方；dare to open your mouth → 敢开口；immersion → 沉浸式；test-prep agency → 培训机构；Band 6 → 雅思 6 分（band score 计分）</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>适用边界：如果你底子差到连开口都不敢（如嘉宾「高考 59 分」），那菲律宾的「消除羞耻」就是提分的前提——先解决敢不敢，再谈分不分的</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/philippines-english-study/s6-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">The boundary: if your foundation is so weak that you can't even speak up — the guest scored 59 on her gaokao English — then the Philippines' shame-killing is the prerequisite for raising your score. Solve 'dare you?' first, then talk about 'how many points?'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>speak up → 开口；prerequisite → 前提；gaokao → 高考；solve X first, then talk about Y → 先解决…再谈…</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）「如果你有很具体的提分的这个诉求的话，我会觉得这个钱花得不是特别值得。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/philippines-english-study/s6-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Quote: 'If you have a very concrete goal of raising your score, I'd say this money isn't especially well spent.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>concrete goal → 具体诉求；raise your score → 提分；well spent → 花得值</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「不同目标的最优解在不同地方」</p><div class="chunks">point to · test-prep · go immerse</div><small>point to 表示「指向」；immerse 直接用作动词（go immerse）很口语</small></li>
+<li><p>想说「先解决敢不敢开口，再谈分数」</p><div class="chunks">fix the courage problem · before chasing · can't even say a sentence</div><small>chase a score 指追分，很形象；fix … before … 是「先解决…再…」的万能结构</small></li>
+        </ol>
+      </details>
+    </section>
+<section class="scene-card" id="s7" data-scene>
+      <div class="scene-topline">
+        <div><span class="scene-id">S7</span><span class="time"></span></div>
+        <button class="speak-btn scene-speak" type="button" data-audio="audio/en/philippines-english-study/s7.mp3" aria-label="朗读整个场景"><span aria-hidden="true">▶</span><span>朗读整个场景</span></button>
+      </div>
+      <h2>七、避坑总结与适用边界</h2>
+      <p class="scene-title-en">The Final Verdict: Who Should Go, Who Shouldn't</p>
+      <p class="context"><b>情境</b>给出适合/不适合人群清单、一句话总结与三句嘉宾金句收尾。语域：casual 总结 + 金句回顾。</p>
+      <div class="sentence-list">
+        <article class="sentence">
+          <div class="sentence-no">01</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>适合来菲律宾学英语：基础很差、讨厌英语、想感受新教学方式的人；5 分左右想冲到 6 分的人；想短期密集开口、消除口语羞耻的人；想要「游学 + 潜水 + 度假」综合体验的人</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/philippines-english-study/s7-01.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Who should go: people with a weak foundation who hate English and want to feel a totally new teaching style; people sitting around Band 5 trying to push up to Band 6; people who want short-term, intensive speaking practice to kill their speaking shame; and people who want the combo experience of studying, diving, and vacationing.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>weak foundation → 基础差；sit around Band 5 → 5 分左右；push up to → 冲到；intensive speaking practice → 密集开口；combo experience → 综合体验</p>
+        </article><article class="sentence">
+          <div class="sentence-no">02</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>不适合：雅思 6 分左右、想在 1 个月内快速提分的人（回国报机构更快）；完全无法忍受纪律与强度的人；计划长期（5-6 个月以上）纯应试学习的人；对生活品质有强要求、又没看过校区的人</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/philippines-english-study/s7-02.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Who shouldn't: people around Band 6 who want to jump a band within a month — a Chinese agency is faster; people who absolutely can't handle the discipline and intensity; people planning long-term, pure test-prep study of five to six months or more; and people with high standards for living quality who haven't even seen the campus.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>jump a band → 提高一档分数；can't handle the discipline → 无法忍受纪律；pure test-prep study → 纯应试学习；high standards for living quality → 对生活品质要求高</p>
+        </article><article class="sentence">
+          <div class="sentence-no">03</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>一句话总结：菲律宾解决「开口与自信」，国内机构解决「分数」，欧美解决「长期融入」——先想清楚你要买哪一种</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/philippines-english-study/s7-03.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">In one sentence: the Philippines solves 'speaking and confidence,' Chinese agencies solve 'scores,' and the West solves 'long-term immersion.' Figure out which one you're buying before you book.</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>in one sentence → 一句话总结；long-term immersion → 长期融入；solve A vs solve B → 分别解决…；figure out which one you're buying → 想清楚要买哪一种</p>
+        </article><article class="sentence">
+          <div class="sentence-no">04</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）原文依据：「我如果只是纯粹为了聊天，我应该找一个青旅住上一个 月，也进步很快。但还是不一样，你要真的能聊起来，还是要去找学校，老师会比较耐心地引导。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/philippines-english-study/s7-04.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Quote: 'If it were purely about chatting, I'd find a hostel and live there for a month — I'd improve fast too. But it's not the same. To really get to the level where you can hold a conversation, you still need a school, where teachers guide you patiently.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>hostel → 青旅；purely about → 纯粹为了；hold a conversation → 能聊起来；guide sb patiently → 耐心引导</p>
+        </article><article class="sentence">
+          <div class="sentence-no">05</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）「我们过来这边是交那么多钱，是过来当甲方的，我们应该主动让老师适应我们。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/philippines-english-study/s7-05.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Quote: 'We're paying a lot of money to come here — we're the client. We should proactively make the teachers adapt to us.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>the client / the paying customer → 甲方；proactively → 主动地；make sb adapt to us → 让老师适应我们；we're paying a lot → 交了那么多钱</p>
+        </article><article class="sentence">
+          <div class="sentence-no">06</div>
+          <div class="bilingual">
+            <div class="lang-block zh-block">
+              <span class="lang-tag">中文</span>
+              <p>（引用）「很多困难很多想象是你自己给自己的，其实迈出那步真的没有那么难。」</p>
+            </div>
+            <div class="lang-block en-block">
+              <div class="en-head">
+                <span class="lang-tag">EN</span>
+                <button class="speak-btn compact" type="button" data-audio="audio/en/philippines-english-study/s7-06.mp3" aria-label="朗读本句"><span aria-hidden="true">▶</span><span>朗读本句</span></button>
+              </div>
+              <p class="english">Quote: 'So many of the difficulties, so many of the fears, are ones you give yourself. Taking that first step really isn't that hard.'</p>
+            </div>
+          </div>
+          <p class="note"><span>表达提示</span>give yourself the fears → 自己给自己的想象；take the first step → 迈出那一步；not that hard → 没有那么难</p>
+        </article>
+      </div>
+      <details class="paraphrase">
+        <summary>Paraphrase &amp; Chunks <span>2 组表达</span></summary>
+        <ol>
+          <li><p>想说「先想清楚你要买哪一种服务」</p><div class="chunks">what you're actually buying · know your goal before you spend · not interchangeable</div><small>interchangeable 表示「可互换的」，点出三者不能混用，正式又准确</small></li>
+<li><p>想说「困难大多是想象出来的」</p><div class="chunks">lives in your head · build the wall yourself · the easy part</div><small>build the wall yourself / walk through it 呼应「迈出那一步」，画面感强</small></li>
+        </ol>
+      </details>
+    </section>
+      <section class="study-section" id="practice">
+      <h2 class="section-heading">今日可练 <small>PRACTICE TODAY</small></h2>
+      <div class="study-grid">
+        <article>
+          <p>用「bundle」说：菲律宾语培把课时、住宿和全英文环境打包成一个价格。</p>
+          <div class="practice-en">
+            Philippine language schools bundle class hours, housing, and a fully English-only environment into one price.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/philippines-english-study/practice-0.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「grind for a score」说：雅思班里所有人都在为分数拼命。</p>
+          <div class="practice-en">
+            In the IELTS track, everyone is grinding for a score.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/philippines-english-study/practice-1.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「wear down」说：高频环境磨掉了开口的心理阻力。</p>
+          <div class="practice-en">
+            The high-frequency environment wore down her fear of speaking.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/philippines-english-study/practice-2.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article><article>
+          <p>用「the prerequisite」说：消除羞耻是提分的前提。</p>
+          <div class="practice-en">
+            Killing the shame is the prerequisite for raising your score.
+            <button class="speak-btn icon-only" type="button" data-audio="audio/en/philippines-english-study/practice-3.mp3" aria-label="朗读练习句"><span aria-hidden="true">▶</span><span>朗读练习句</span></button>
+          </div>
+        </article>
+      </div>
+    </section>
+      <section class="study-section pitfalls" id="pitfalls">
+      <h2 class="section-heading">避坑 <small>PITFALLS</small></h2>
+      <div class="study-grid">
+        <article>
+          <div class="wrong">✕ The Philippines is very cheap.</div>
+          <div class="right">✓ The Philippines offers the same package at a much lower price — intensive hours and one-on-one classes for a fraction of the cost.</div>
+          <p>cheap 带「廉价低质」联想；谈性价比用 a fraction of the cost / much lower price / good value 更准确地道。</p>
+        </article><article>
+          <div class="wrong">✕ I went to the Philippines to improve my oral English.</div>
+          <div class="right">✓ I went to the Philippines to get more speaking practice and kill my fear of opening my mouth.</div>
+          <p>oral English 很「中式考试腔」；口语场景更常说 speaking practice，且点出具体目的（消除开口恐惧）更地道。</p>
+        </article><article>
+          <div class="wrong">✕ The Spartan school is very strict, so I don't like it.</div>
+          <div class="right">✓ Spartan mode is built for IELTS sprinters — intense and disciplined, and honestly a bit jail-like if you're not ready for it.</div>
+          <p>只说 strict 太干瘪；用 be built for / jail-like 表达「为冲刺设计」「坐牢感」这些播客里的具体语境才到位。</p>
+        </article><article>
+          <div class="wrong">✕ The teacher teaches me IELTS.</div>
+          <div class="right">✓ My teacher walks me through IELTS test-taking techniques.</div>
+          <p>teach me IELTS 是直译生硬；英文习惯说 teaches IELTS（教科目）+ walk sb through（带练），更自然。</p>
+        </article>
+      </div>
+    </section>
+      <section class="study-section shifts" id="mindset">
+      <h2 class="section-heading">认知转变 <small>MINDSET SHIFTS</small></h2>
+      <div class="study-grid">
+        <article>
+          <span>以为去菲律宾学英语是欧美留学的便宜平替</span>
+          <b aria-hidden="true">→</b>
+          <strong>贵不贵是次要，关键是它卖的「组合拳」——密集课时 + 一对一 + 全英文，把沉浸感的单价打了下来</strong>
+        </article><article>
+          <span>以为斯巴达越严越好，选最严的学校就能学好</span>
+          <b aria-hidden="true">→</b>
+          <strong>斯巴达只适合短期冲刺型选手；对基础弱、动力不足的人就是「坐牢」，择校要先算心理承受预算</strong>
+        </article><article>
+          <span>以为提升英语 = 报班花钱，花钱多进步就快</span>
+          <b aria-hidden="true">→</b>
+          <strong>不同目标的最优解在不同地方：开口自信去菲律宾、提分回国、长期融入去欧美——先想清楚要买哪一种</strong>
+        </article>
+      </div>
+    </section>
+      <footer>
+        双语学习版 · 场景/句子朗读使用 edge-tts（en-US） · 单词发音使用浏览器 Web Speech API
+        <div class="footer-note">中文版：<a href="philippines-english-study-总结.html">philippines-english-study-总结.html</a> · SVG 版：<a href="viewer.html?f=philippines-english-study-总结.svg" target="_blank">philippines-english-study-总结.svg</a></div>
+      </footer>
+    </div>
+  </main>
+  <script>(() => {
+  let activeAudio = null;
+  let activeBtn = null;
+  const status = document.getElementById('speech-status');
+  const stopBtn = document.getElementById('stop-speech');
+  const rateSel = document.getElementById('speech-rate');
+
+  const reset = () => {
+    if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+    activeBtn?.classList.remove('playing');
+    activeBtn = null;
+    stopBtn.classList.remove('visible');
+    status.textContent = '';
+  };
+
+  const playAudio = (url, btn) => {
+    reset();
+    const audio = new Audio(url);
+    audio.playbackRate = Number(rateSel.value);
+    activeAudio = audio;
+    activeBtn = btn;
+    btn.classList.add('playing');
+    stopBtn.classList.add('visible');
+    status.textContent = btn.classList.contains('scene-speak')
+      ? 'Reading the whole scene…'
+      : 'Reading…';
+
+    audio.onended = () => { if (activeAudio === audio) reset(); };
+    audio.onerror = () => { status.textContent = 'Audio failed to load.'; if (activeAudio === audio) reset(); };
+    audio.play().catch(() => { status.textContent = 'Playback failed.'; if (activeAudio === audio) reset(); });
+  };
+
+  document.addEventListener('click', e => {
+    const btn = e.target.closest('[data-audio]');
+    if (!btn) return;
+    e.preventDefault();
+    if (btn === activeBtn && activeAudio) { reset(); return; }
+    playAudio(btn.dataset.audio, btn);
+  });
+
+  stopBtn.addEventListener('click', reset);
+
+  const synth = window.speechSynthesis;
+  const getEnglishVoice = () => {
+    const voices = synth.getVoices();
+    return voices.find(v => /^en-(US|GB)/i.test(v.lang))
+        || voices.find(v => /^en/i.test(v.lang)) || null;
+  };
+
+  const difficultWords = new Set([
+    'assortment', 'SKU', 'premium', 'margin', 'middleman', 'OEM', 'rebranding',
+    'hoarding', 'PTSD', 'curation', 'repurchase', 'touchpoint', 'backlash',
+    'reshuffle', 'funnel', 'anchor', 'contract', 'psychology', 'private', 'label',
+    'editorial', 'familiar', 'competitors', 'authorization', 'flexibility'
+  ]);
+
+  const shouldPronounce = word => {
+    const n = word.toLowerCase().replace(/^[^a-z]+|[^a-z]+$/g, '');
+    return n.replace(/[^a-z]/g, '').length >= 8 || difficultWords.has(n);
+  };
+
+  const markPronounceableWords = root => {
+    const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+    const nodes = [];
+    while (walker.nextNode()) nodes.push(walker.currentNode);
+    nodes.forEach(node => {
+      if (node.parentElement?.closest('button, script, style')) return;
+      const text = node.nodeValue;
+      let m, last = 0, changed = false;
+      const frag = document.createDocumentFragment();
+      const re = /[A-Za-z]+(?:[-'’][A-Za-z]+)*/g;
+      while ((m = re.exec(text))) {
+        if (!shouldPronounce(m[0])) continue;
+        changed = true;
+        frag.append(text.slice(last, m.index));
+        const wb = document.createElement('button');
+        wb.type = 'button'; wb.className = 'pronounce-word';
+        wb.dataset.speak = m[0];
+        wb.setAttribute('aria-label', '\u8bfb\u5355\u8bcd ' + m[0]);
+        wb.title = '\u70b9\u51fb\u542c\u53d1\u97f3';
+        wb.textContent = m[0];
+        frag.append(wb);
+        last = m.index + m[0].length;
+      }
+      if (!changed) return;
+      frag.append(text.slice(last));
+      node.replaceWith(frag);
+    });
+  };
+
+  document.querySelectorAll(
+    '.english, .scene-title-en, .paraphrase li p, .chunks, .practice-en, .wrong, .right, .summary-en'
+  ).forEach(markPronounceableWords);
+
+  document.addEventListener('click', e => {
+    const wb = e.target.closest('.pronounce-word');
+    if (!wb) return;
+    e.preventDefault();
+    if (!synth) return;
+    synth.cancel();
+    if (activeAudio) { activeAudio.pause(); activeAudio = null; }
+    activeBtn?.classList.remove('playing');
+    activeBtn = wb;
+    wb.classList.add('playing');
+    const u = new SpeechSynthesisUtterance(wb.dataset.speak);
+    u.lang = 'en-US';
+    u.rate = 0.88;
+    const v = getEnglishVoice();
+    if (v) u.voice = v;
+    u.onend = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+    u.onerror = () => { activeBtn?.classList.remove('playing'); activeBtn = null; };
+    synth.speak(u);
+  });
+})();</script>
+</body>
+</html>
