@@ -327,6 +327,17 @@
     .tag-purple { background: var(--tag-purple); color: #a78bfa; }
     .tag-green  { background: var(--tag-green);  color: #34d399; }
     .tag-orange { background: var(--tag-orange); color: #fb923c; }
+    .card-author {
+      display: inline-block;
+      margin-top: 10px;
+      font-size: 12px;
+      font-weight: 600;
+      color: #a5b4fc;
+      background: rgba(167,139,250,0.12);
+      border: 1px solid rgba(167,139,250,0.2);
+      padding: 2px 10px;
+      border-radius: 999px;
+    }
     .card-link-icon {
       position: absolute;
       right: 20px;
@@ -585,6 +596,51 @@
       color: var(--text-muted);
       pointer-events: none;
     }
+
+    /* ====== 按作者筛选 ====== */
+    .author-filter {
+      max-width: 860px;
+      margin: -8px auto 28px;
+      padding: 0 24px;
+    }
+    .author-filter-label {
+      display: block;
+      font-size: 12px;
+      color: var(--text-muted);
+      margin-bottom: 10px;
+      letter-spacing: 0.05em;
+    }
+    .author-chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .author-chip {
+      padding: 6px 14px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: var(--surface);
+      color: var(--text-secondary);
+      font-size: 13px;
+      cursor: pointer;
+      transition: all 0.2s;
+      user-select: none;
+      white-space: nowrap;
+    }
+    .author-chip:hover {
+      border-color: rgba(96,165,250,0.4);
+      color: var(--text);
+    }
+    .author-chip.active {
+      background: rgba(96,165,250,0.15);
+      border-color: rgba(96,165,250,0.6);
+      color: #93c5fd;
+    }
+    .author-chip .chip-count {
+      opacity: 0.6;
+      margin-left: 4px;
+      font-size: 12px;
+    }
     .search-empty {
       text-align: center;
       padding: 48px 20px;
@@ -775,6 +831,12 @@
     <input class="search-input" id="searchInput" type="text" placeholder="搜索播客总结或知识专题...">
   </div>
 
+  <!-- 按作者筛选 -->
+  <div class="author-filter" id="authorFilter" style="display:none;">
+    <span class="author-filter-label">按作者筛选</span>
+    <div class="author-chips" id="authorChips"></div>
+  </div>
+
   <!-- 主内容 -->
   <div class="container" id="mainContainer">
     <div class="empty-state" id="emptyState">
@@ -800,6 +862,7 @@
       let enHitCount = 0;
       let dateMap = {};
       let calYear, calMonth;
+      let selectedAuthor = '';
 
       const $ = id => document.getElementById(id);
 
@@ -912,6 +975,42 @@
         });
       }
 
+      function buildAuthorChips() {
+        const container = $('authorChips');
+        container.innerHTML = '';
+        const counts = {};
+        allData.forEach(item => {
+          const a = item.author || '未署名';
+          counts[a] = (counts[a] || 0) + 1;
+        });
+        const authors = Object.keys(counts).sort((a, b) =>
+          counts[b] - counts[a] || a.localeCompare(b, 'zh-CN')
+        );
+        if (authors.length === 0) return;
+
+        $('authorFilter').style.display = 'block';
+
+        const allChip = document.createElement('button');
+        allChip.className = 'author-chip' + (selectedAuthor === '' ? ' active' : '');
+        allChip.textContent = '全部 ' + allData.length;
+        allChip.addEventListener('click', function() {
+          selectedAuthor = '';
+          render();
+        });
+        container.appendChild(allChip);
+
+        authors.forEach(author => {
+          const chip = document.createElement('button');
+          chip.className = 'author-chip' + (selectedAuthor === author ? ' active' : '');
+          chip.innerHTML = escapeHtml(author) + '<span class="chip-count">' + counts[author] + '</span>';
+          chip.addEventListener('click', function() {
+            selectedAuthor = (selectedAuthor === author) ? '' : author;
+            render();
+          });
+          container.appendChild(chip);
+        });
+      }
+
       function render() {
         const hasPodcasts = allData.length > 0;
         const hasTopics = allTopics.length > 0;
@@ -921,6 +1020,8 @@
         $('calendarWrapper').style.display = hasPodcasts ? 'block' : 'none';
         $('topicsSection').style.display = hasTopics ? 'block' : 'none';
         $('podcastHeading').style.display = hasPodcasts ? 'block' : 'none';
+        if (!hasPodcasts) $('authorFilter').style.display = 'none';
+        else buildAuthorChips();
 
         if (!hasData) {
           $('emptyState').style.display = '';
@@ -1148,6 +1249,7 @@
         if (query) {
           filteredDays = days.filter(function(d) {
             const items = dateMap[d].filter(function(item) {
+              if (selectedAuthor && (item.author || '未署名') !== selectedAuthor) return false;
               return (item.title || '').toLowerCase().includes(query) ||
                 (item.title_en || '').toLowerCase().includes(query) ||
                 (item.summary || '').toLowerCase().includes(query) ||
@@ -1158,17 +1260,26 @@
             if (items.length > 0) visibleCount++;
             return items.length > 0;
           });
+        } else if (selectedAuthor) {
+          filteredDays = days.filter(function(d) {
+            const items = dateMap[d].filter(function(item) {
+              return (item.author || '未署名') === selectedAuthor;
+            });
+            dateMap[d]._filtered = items;
+            if (items.length > 0) visibleCount++;
+            return items.length > 0;
+          });
         } else {
           days.forEach(function(d) { dateMap[d]._filtered = dateMap[d]; });
         }
 
-        if (query && visibleCount === 0 && !topicMatchesQuery(query) && enHitCount === 0) {
+        if ((query || selectedAuthor) && visibleCount === 0 && !topicMatchesQuery(query) && enHitCount === 0) {
           $('timeline').style.display = 'none';
           $('searchEmpty').style.display = '';
         } else {
-          $('timeline').style.display = query && visibleCount === 0 ? 'none' : '';
+          $('timeline').style.display = (query || selectedAuthor) && visibleCount === 0 ? 'none' : '';
           $('searchEmpty').style.display = 'none';
-          if (!query || visibleCount > 0) buildTimeline(filteredDays);
+          if ((!query && !selectedAuthor) || visibleCount > 0) buildTimeline(filteredDays);
         }
 
         buildCalendar();
@@ -1253,11 +1364,16 @@
               ? '<span class="card-duration">⏱ ' + escapeHtml(item.duration) + '</span>'
               : '';
 
+            var authorHtml = (!isError && item.author)
+              ? '<span class="card-author">' + escapeHtml(item.author) + '</span>'
+              : '';
+
             card.innerHTML =
               '<div class="card-header">' +
                 '<span class="card-title">' + titleText + '</span>' +
               '</div>' +
               '<div class="card-summary">' + summaryText + '</div>' +
+              authorHtml +
               tagsHtml +
               durationHtml +
               '<div class="card-links">' + sourceLink + enLink + '</div>' +
