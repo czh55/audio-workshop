@@ -42,7 +42,7 @@ export function estimateHeightFromHtml(html, width = 1320) {
   const dualBlocks = n(/class="dual"/g);
   const insightKey = n(/class="insight-key"/g);
   const listItems = n(/<li>/g);
-  const olItems = n(/<ol[\s>][\s\S]*?<\/ol>/gi);
+  const olItems = html.match(/<ol[\s>][\s\S]*?<\/ol>/gi) || [];
   const h1 = n(/<h1>/g);
   const h2 = n(/<h2[\s>]/gi);
   const h3 = n(/<h3[\s>]/gi);
@@ -71,8 +71,10 @@ export function estimateHeightFromHtml(html, width = 1320) {
   h += 80; // footer
 
   // 结论区有序列表常含长句，按字符数追加
-  for (const ol of olItems) {
-    h += Math.ceil(ol.length / 80) * 28;
+  if (Array.isArray(olItems)) {
+    for (const ol of olItems) {
+      h += Math.ceil(ol.length / 80) * 28;
+    }
   }
 
   // 宽表格/长代码块略增
@@ -116,9 +118,10 @@ export async function measureHtmlHeight(html, width = 1320) {
   const proc = spawn(
     chrome,
     [
-      '--headless=new',
+      '--headless',
       '--disable-gpu',
       '--no-first-run',
+      '--no-sandbox',
       '--no-default-browser-check',
       '--disable-dev-shm-usage',
       `--remote-debugging-port=${port}`,
