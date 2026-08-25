@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>播客转录搜索 · 播客知识墙</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    :root {
+      --bg: #0b1120;
+      --surface: rgba(255,255,255,0.04);
+      --border: rgba(255,255,255,0.08);
+      --text: #e2e8f0;
+      --text-secondary: #94a3b8;
+      --text-muted: #64748b;
+      --accent: #60a5fa;
+      --accent2: #a78bfa;
+      --accent3: #f472b6;
+      --tag-blue: rgba(96,165,250,0.15);
+      --tag-purple: rgba(167,139,250,0.15);
+      --tag-green: rgba(52,211,153,0.15);
+      --tag-orange: rgba(251,146,60,0.15);
+      --card-hover: rgba(255,255,255,0.08);
+    }
+    body {
+      font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: var(--bg);
+      min-height: 100vh;
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    /* ====== 顶部 ====== */
+    .hero {
+      position: relative;
+      padding: 56px 24px 40px;
+      text-align: center;
+      overflow: hidden;
+    }
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: -40%;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 700px;
+      height: 400px;
+      background: radial-gradient(ellipse at center, rgba(96,165,250,0.12), transparent 70%);
+      pointer-events: none;
+    }
+    .hero h1 {
+      font-size: 36px;
+      font-weight: 700;
+      margin-bottom: 12px;
+      background: linear-gradient(135deg, var(--text) 40%, var(--accent));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .hero p { color: var(--text-secondary); font-size: 15px; }
+    .back-link {
+      position: absolute;
+      top: 20px;
+      left: 24px;
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 14px;
+      padding: 8px 14px;
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      background: var(--surface);
+      transition: all .2s;
+    }
+    .back-link:hover { color: var(--accent); border-color: var(--accent); }
+
+    /* ====== 统计 ====== */
+    .stats-bar {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      padding: 0 24px 32px;
+      position: relative;
+    }
+    .stat-item { text-align: center; }
+    .stat-num {
+      font-size: 30px;
+      font-weight: 700;
+      color: var(--text);
+      font-variant-numeric: tabular-nums;
+    }
+    .stat-label { color: var(--text-muted); font-size: 13px; margin-top: 2px; }
+
+    /* ====== 搜索 ====== */
+    .search-bar {
+      max-width: 640px;
+      margin: 0 auto 16px;
+      padding: 0 24px;
+      position: relative;
+      z-index: 1;
+    }
+    .search-icon {
+      position: absolute;
+      left: 40px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--text-muted);
+      font-size: 16px;
+      pointer-events: none;
+    }
+    .search-input {
+      width: 100%;
+      padding: 14px 20px 14px 44px;
+      border-radius: 14px;
+      border: 1px solid var(--border);
+      background: var(--surface);
+      color: var(--text);
+      font-size: 15px;
+      outline: none;
+      transition: all .2s;
+    }
+    .search-input:focus {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px rgba(96,165,250,0.15);
+    }
+    .search-input::placeholder { color: var(--text-muted); }
+
+    /* ====== 作者筛选 ====== */
+    .author-filter {
+      max-width: 640px;
+      margin: 0 auto 20px;
+      padding: 0 24px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+      position: relative;
+      z-index: 1;
+    }
+    .author-filter-label { color: var(--text-muted); font-size: 13px; }
+    .author-chip {
+      padding: 5px 12px;
+      border-radius: 16px;
+      border: 1px solid var(--border);
+      background: var(--surface);
+      color: var(--text-secondary);
+      font-size: 12px;
+      cursor: pointer;
+      transition: all .2s;
+    }
+    .author-chip:hover { border-color: var(--accent); color: var(--accent); }
+    .author-chip.active {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: #fff;
+    }
+
+    /* ====== 结果列表 ====== */
+    .container {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 0 24px 60px;
+    }
+    .result-count { color: var(--text-muted); font-size: 13px; margin: 8px 0 16px; }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 20px 22px;
+      margin-bottom: 14px;
+      cursor: pointer;
+      transition: all .2s;
+    }
+    .card:hover { border-color: var(--accent); transform: translateY(-1px); }
+    .card-top { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; flex-wrap: wrap; }
+    .card-date { color: var(--text-muted); font-size: 12px; }
+    .card-author { color: var(--accent2); font-size: 12px; }
+    .card-title { font-size: 16px; font-weight: 600; margin-bottom: 10px; color: var(--text); }
+    .card-title:hover { color: var(--accent); }
+    .card-tags { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 10px; }
+    .card-tag {
+      padding: 3px 10px;
+      border-radius: 10px;
+      font-size: 11px;
+      color: var(--text-secondary);
+    }
+    .tag-0 { background: var(--tag-blue); }
+    .tag-1 { background: var(--tag-purple); }
+    .tag-2 { background: var(--tag-green); }
+    .tag-3 { background: var(--tag-orange); }
+
+    /* 匹配片段 */
+    .snippet {
+      font-size: 13px;
+      color: var(--text-secondary);
+      background: rgba(255,255,255,0.02);
+      border-radius: 8px;
+      padding: 10px 12px;
+      line-height: 1.8;
+      max-height: 96px;
+      overflow: hidden;
+      position: relative;
+    }
+    .snippet::after {
+      content: '';
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      height: 28px;
+      background: linear-gradient(transparent, rgba(255,255,255,0.03));
+    }
+    .snippet mark {
+      background: rgba(96,165,250,0.25);
+      color: var(--accent);
+      border-radius: 3px;
+      padding: 0 2px;
+    }
+    .card-meta { margin-top: 10px; color: var(--text-muted); font-size: 12px; display: flex; gap: 14px; }
+
+    .empty {
+      text-align: center;
+      color: var(--text-muted);
+      padding: 60px 0;
+    }
+    .empty-icon { font-size: 40px; display: block; margin-bottom: 12px; }
+    .loading { text-align: center; color: var(--text-muted); padding: 40px 0; }
+
+    @media (max-width: 640px) {
+      .hero h1 { font-size: 28px; }
+      .stats-bar { gap: 24px; }
+      .stat-num { font-size: 24px; }
+      .back-link { top: 14px; left: 14px; }
+    }
+  </style>
+</head>
+<body>
+  <a class="back-link" href="./index.html">&larr; 返回首页</a>
+
+  <div class="hero">
+    <h1>播客转录全文搜索</h1>
+    <p>搜索 118 篇播客的完整转录内容，找到你关心的每一句话</p>
+  </div>
+
+  <div class="stats-bar">
+    <div class="stat-item">
+      <div class="stat-num" id="totalCount">0</div>
+      <div class="stat-label">转录篇数</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num" id="totalWords">0</div>
+      <div class="stat-label">总字数</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num" id="totalDuration">0</div>
+      <div class="stat-label">总时长</div>
+    </div>
+  </div>
+
+  <div class="search-bar">
+    <span class="search-icon">&#x1F50D;</span>
+    <input class="search-input" id="searchInput" type="text" placeholder="搜索转录全文，如「通胀」「露营」「ESG」...">
+  </div>
+
+  <div class="author-filter" id="authorFilter" style="display:none;">
+    <span class="author-filter-label">按作者</span>
+    <div id="authorChips"></div>
+  </div>
+
+  <div class="container">
+    <div class="result-count" id="resultCount"></div>
+    <div class="loading" id="loading">正在加载转录索引...</div>
+    <div id="results"></div>
+    <div class="empty" id="emptyState" style="display:none;">
+      <span class="empty-icon">&#x1F4D2;</span>
+      没有找到匹配的转录
+    </div>
+  </div>
+
+  <script>
+    (function() {
+      const $ = id => document.getElementById(id);
+      let index = null;
+      let textCache = {};
+      let selectedAuthor = '';
+      let searchTimer = null;
+
+      const TAG_COLORS = ['tag-0', 'tag-1', 'tag-2', 'tag-3'];
+      const WORDS_PER_MIN = 240; // 中文语速近似
+
+      function escapeHtml(s) {
+        return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+          .replace(/"/g, '&quot;');
+      }
+
+      function formatWords(n) {
+        if (n >= 10000) return (n / 10000).toFixed(1) + ' 万字';
+        if (n >= 1000) return (n / 1000).toFixed(1) + ' 千字';
+        return n + ' 字';
+      }
+
+      // 从索引统计
+      function updateStats() {
+        if (!index) return;
+        $('totalCount').textContent = index.count;
+        let totalWords = 0;
+        for (const item of index.items) totalWords += item.words || 0;
+        $('totalWords').textContent = formatWords(totalWords);
+        // 时长：从 duration 字段解析分钟
+        let totalMin = 0;
+        for (const item of index.items) {
+          const m = String(item.duration || '').match(/(\d+)\s*小时/);
+          const mi = String(item.duration || '').match(/(\d+)\s*分/);
+          if (m) totalMin += parseInt(m[1], 10) * 60;
+          if (mi) totalMin += parseInt(mi[1], 10);
+        }
+        $('totalDuration').textContent = totalMin > 0 ? (totalMin / 60).toFixed(1) + 'h' : '--';
+      }
+
+      function buildAuthorChips() {
+        const chips = {};
+        for (const item of index.items) {
+          if (!item.author) continue;
+          const author = item.author;
+          if (!chips[author]) chips[author] = 0;
+          chips[author]++;
+        }
+        const authors = Object.keys(chips).sort();
+        if (authors.length <= 1) { $('authorFilter').style.display = 'none'; return; }
+        $('authorFilter').style.display = 'flex';
+        const container = $('authorChips');
+        container.innerHTML = '<span class="author-chip" data-author="">全部</span>' +
+          authors.map(function(a) {
+            return '<span class="author-chip" data-author="' + escapeHtml(a) + '">' +
+              escapeHtml(a) + ' (' + chips[a] + ')</span>';
+          }).join('');
+        container.querySelectorAll('.author-chip').forEach(function(chip) {
+          chip.addEventListener('click', function() {
+            container.querySelectorAll('.author-chip').forEach(function(c) { c.classList.remove('active'); });
+            chip.classList.add('active');
+            selectedAuthor = chip.dataset.author;
+            doSearch();
+          });
+        });
+      }
+
+      // 元数据搜索匹配
+      function matchMeta(item, q) {
+        if (!q) return true;
+        const hay = [
+          item.title, item.author, item.date,
+          (item.tags || []).join(' ')
+        ].join(' ').toLowerCase();
+        return hay.indexOf(q) !== -1;
+      }
+
+      // 全文搜索：返回片段数组
+      async function searchFullText(item, q) {
+        if (!q) return null;
+        let text = textCache[item.slug];
+        if (text === undefined) {
+          try {
+            const resp = await fetch(item.file);
+            text = await resp.text();
+          } catch (e) {
+            text = '';
+          }
+          textCache[item.slug] = text;
+        }
+        if (!text) return null;
+        const lower = text.toLowerCase();
+        const idx = lower.indexOf(q);
+        if (idx === -1) return null;
+        // 提取前后文片段
+        const start = Math.max(0, idx - 60);
+        const end = Math.min(text.length, idx + q.length + 80);
+        const snippet = (start > 0 ? '…' : '') + text.slice(start, end) +
+          (end < text.length ? '…' : '');
+        // 高亮所有匹配
+        const parts = snippet.split(new RegExp('(' + q.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'gi'));
+        const html = parts.map(function(p) {
+          return p.toLowerCase() === q.toLowerCase() ?
+            '<mark>' + escapeHtml(p) + '</mark>' : escapeHtml(p);
+        }).join('');
+        return { snippet: html, count: (text.match(new RegExp(q.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'gi')) || []).length };
+      }
+
+      async function doSearch() {
+        if (!index) return;
+        const q = $('searchInput').value.trim().toLowerCase();
+        const loading = $('loading');
+        const results = $('results');
+        const empty = $('emptyState');
+
+        // 1. 元数据过滤
+        let candidates = index.items.filter(function(item) {
+          if (selectedAuthor && item.author !== selectedAuthor) return false;
+          return matchMeta(item, q);
+        });
+
+        if (candidates.length === 0) {
+          results.innerHTML = '';
+          $('resultCount').textContent = '0 个结果';
+          empty.style.display = 'block';
+          return;
+        }
+
+        // 2. 全文搜索（逐个 fetch）
+        loading.style.display = 'block';
+        empty.style.display = 'none';
+        results.innerHTML = '';
+        $('resultCount').textContent = '正在搜索 ' + candidates.length + ' 篇转录...';
+
+        const items = [];
+        const batchSize = 4;
+        for (let i = 0; i < candidates.length; i += batchSize) {
+          const batch = candidates.slice(i, i + batchSize);
+          const batchResults = await Promise.all(batch.map(async function(item) {
+            if (q) {
+              const full = await searchFullText(item, q);
+              if (!full) return null;
+              return { item: item, full: full };
+            }
+            return { item: item, full: null };
+          }));
+          for (const r of batchResults) {
+            if (r) items.push(r);
+            // 增量渲染
+            renderCards(items, q);
+          }
+        }
+
+        loading.style.display = 'none';
+        if (items.length === 0) {
+          empty.style.display = 'block';
+          $('resultCount').textContent = '0 个结果';
+        } else {
+          empty.style.display = 'none';
+        }
+        renderCards(items, q);
+      }
+
+      function renderCards(items, q) {
+        const results = $('results');
+        const totalHits = items.reduce(function(sum, r) {
+          return sum + (r.full ? r.full.count : 0);
+        }, 0);
+        $('resultCount').textContent = q ?
+          items.length + ' 篇命中 · ' + totalHits + ' 处匹配' :
+          '共 ' + items.length + ' 篇转录';
+        results.innerHTML = items.map(function(r) {
+          const item = r.item;
+          const tagsHtml = (item.tags || []).map(function(t, i) {
+            return '<span class="card-tag ' + TAG_COLORS[i % TAG_COLORS.length] + '">' +
+              escapeHtml(t) + '</span>';
+          }).join('');
+          const snippetHtml = r.full ? '<div class="snippet">' + r.full.snippet + '</div>' : '';
+          const meta = [
+            item.date ? '<span>' + escapeHtml(item.date) + '</span>' : '',
+            item.duration ? '<span>' + escapeHtml(item.duration) + '</span>' : '',
+            '<span>' + formatWords(item.words) + '</span>'
+          ].filter(Boolean).join(' · ');
+          return '<div class="card" data-slug="' + escapeHtml(item.slug) + '">' +
+            '<div class="card-top">' +
+              (item.date ? '<span class="card-date">' + escapeHtml(item.date) + '</span>' : '') +
+              (item.author ? '<span class="card-author">' + escapeHtml(item.author) + '</span>' : '') +
+            '</div>' +
+            '<div class="card-title">' + escapeHtml(item.title) + '</div>' +
+            tagsHtml +
+            snippetHtml +
+            '<div class="card-meta">' + meta + '</div>' +
+          '</div>';
+        }).join('');
+        // 绑定点击跳转
+        results.querySelectorAll('.card').forEach(function(card) {
+          card.addEventListener('click', function() {
+            const slug = card.dataset.slug;
+            window.open('./' + slug + '-总结.html', '_blank');
+          });
+        });
+      }
+
+      function init() {
+        $('searchInput').addEventListener('input', function() {
+          clearTimeout(searchTimer);
+          searchTimer = setTimeout(doSearch, 250);
+        });
+        fetch('transcripts-index.json')
+          .then(function(r) { return r.json(); })
+          .then(function(data) {
+            index = data;
+            $('loading').textContent = '';
+            $('loading').style.display = 'none';
+            updateStats();
+            buildAuthorChips();
+            doSearch();
+          })
+          .catch(function(e) {
+            $('loading').innerHTML = '索引加载失败：' + escapeHtml(String(e));
+          });
+      }
+
+      init();
+    })();
+  </script>
+</body>
+</html>

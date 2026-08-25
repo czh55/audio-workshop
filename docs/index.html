@@ -66,6 +66,25 @@
       margin: 0 auto;
       position: relative;
     }
+    .transcript-link {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 22px;
+      border-radius: 24px;
+      border: 1px solid var(--accent);
+      color: var(--accent);
+      font-size: 14px;
+      text-decoration: none;
+      background: rgba(96,165,250,0.08);
+      transition: all .2s;
+      position: relative;
+      z-index: 1;
+    }
+    .transcript-link:hover {
+      background: var(--accent);
+      color: #fff;
+      transform: translateY(-1px);
+    }
 
     /* ====== 统计栏 ====== */
     .stats-bar {
@@ -767,6 +786,7 @@
   <div class="hero">
     <h1>播客知识墙</h1>
     <p>播客转录总结 · 知识专题长图 · 可滚动深度复习</p>
+    <a class="transcript-link" href="./transcripts.html">&#x1F50D; 转录全文搜索</a>
   </div>
 
   <div class="stats-bar" id="statsBar">

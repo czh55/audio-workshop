@@ -12,6 +12,8 @@
 *.txt
 !/*.txt
 !docs/audio/**/*.txt
+!docs/transcripts/*.txt
+!docs/transcripts-index.json
 !requirements.txt
 transcribe_run.log
 docs/audio/_batch.log
@@ -21,6 +23,7 @@ docs/audio/.tmp_*
 !docs/index.json
 !docs/topics.json
 !docs/en-index.json
+!docs/transcripts-index.json
 !en-content/**/*.json
 
 # Node modules
