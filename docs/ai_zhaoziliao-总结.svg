@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="5664" viewBox="0 0 1320 5664">
+  <foreignObject x="0" y="0" width="1320" height="5664">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,0.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:20px 28px;text-align:center;min-width:160px;font-weight:700;font-size:16px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3{color:#92400e;margin-bottom:8px}
+.correction p{color:#92400e;font-size:15px}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,0.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.speaker{display:inline-block;font-size:13px;font-weight:600;padding:2px 10px;border-radius:12px;margin-right:8px}
+.speaker-host{background:#dbeafe;color:#1e40af}
+.speaker-guest{background:#ede9fe;color:#6b21a8}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,0.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,0.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,0.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}
+@media (max-width:640px){body,.container{padding:16px 12px!important}.container{max-width:100%!important}h1{font-size:24px!important}h2,.sec-title{font-size:18px!important}h3{font-size:16px!important}p,li{font-size:14px!important}.summary-line{font-size:15px!important;padding:14px 16px!important}.map,.card,.timeline{padding:16px!important;margin-bottom:16px!important}.map h2{font-size:18px!important}.diagram{gap:10px!important;padding:10px 0!important}.node{min-width:100px!important;padding:12px 16px!important;font-size:13px!important}.arrow{font-size:18px!important}.conclusion{padding:20px!important}.footer{padding:20px 0 12px!important}}</style>
+      <div class="container">
+
+<h1>AI时代我们是怎么找资料的：从「开设一门大一课程」到几百个关键词的资料库</h1>
+<div class="meta">
+  <span class="tag tag-blue">播客</span>
+  <span class="tag tag-purple">AI实操</span>
+  <span class="tag tag-orange">知识管理</span>
+  <span class="tag tag-green">调研方法论</span>
+  <span class="tag tag-gray">众声杂谈 · 六寿 × 剧组成员</span>
+</div>
+<div class="summary-line">找资料 ≠ 搜索引擎搜三页。六寿团队把「找资料」视为内容创作的开端，它决定输出下限、贯穿你的创作意图。完整方法论分四步：①假装自己「要开设一门大一课程」→ 用 AI 生成课纲（涵盖多学科维度）；②把课纲反向变成几百个关键词（让图书管理员去搜）；③用引容量/期刊级别筛选论文，一天下 300 篇建立领域手感；④只与自建的资料库对话，AI 负责放大而非凭空生成。最后讨论：过度准备有害，创作者要建立「权重系统」而不是堆砌资料。</div>
+
+<div class="timeline">
+  <h3>关键时间轴</h3>
+  <div class="timeline-item">
+    <span class="timeline-time">00:00</span>
+    <span class="timeline-text">开场：本期聊「团队怎么找资料」；找资料=个人知识库管理的一部分</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">05:00</span>
+    <span class="timeline-text">为什么重要：①决定输出下限（AI是「天予虽宽不润无根之木」）；②找资料就是创作的一部分（人的意图在贯注）</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">12:00</span>
+    <span class="timeline-text">第一步：假设自己要开设一门元朝研究的大一课程——课纲即入门框架</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">20:00</span>
+    <span class="timeline-text">把课纲喂给三个 AI 各做一次 Deep Research → 得到三份「大学课纲」→ 读一遍即入门</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">28:00</span>
+    <span class="timeline-text">第二步：让「图书管理员」生成 100+ 关键词，多语言分列、按重要性排序、加限定词</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">35:00</span>
+    <span class="timeline-text">第三步：脱离 AI 的「苦功」——下论文/书/一手文献（郭泽尔伦、志王等渠道）</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">42:00</span>
+    <span class="timeline-text">筛选：引容量超 20（冷门领域放宽到 5）、期刊级别、分领域判断（睡论文陷阱）</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">50:00</span>
+    <span class="timeline-text">一天下 300 篇论文→看标题建立「领域手感」→知道该问什么问题、从时间轴发现研究热点</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">60:00</span>
+    <span class="timeline-text">实操演示：搜元代杂剧——从学术史到英文论文，一个关键词引出几百篇论文</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">70:00</span>
+    <span class="timeline-text">「过度准备有害」：创作者要克制「收集癖」，建立权重系统而非堆砌资料</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">80:00</span>
+    <span class="timeline-text">虚构创作 vs 非虚构创作的找资料差异；先找再做 vs 边做边找；专家书单法</span>
+  </div>
+</div>
+
+<div class="map">
+  <h2>核心脉络：四步找资料法</h2>
+  <div class="diagram">
+    <div class="node">①假装开课<br/>（AI生成课纲）</div>
+    <div class="arrow">→</div>
+    <div class="node">②关键词化<br/>（图书管理员）</div>
+    <div class="arrow">→</div>
+    <div class="node">③苦功下料<br/>（论文/书/一手）</div>
+    <div class="arrow">→</div>
+    <div class="node-green">④自建资料库<br/>（只和它对话）</div>
+  </div>
+</div>
+
+<div class="correction">
+  <h3>⚠ 常见误解 / 认知纠偏</h3>
+  <p>①「找资料=搜三页搜索引擎」是错的——它占工作量的 50%（非虚构创作），是学习的开始和创作意图的贯注；②「AI 只读资料的 20%」不是「只读前 20%」——它是通读后只能记住 20%，所以给更多高质量论文是「逼 AI 多读」而非堆数据；③「网上什么都有」是幻觉——大量一手资料（古籍、工程局馆声学设计）只有论文/文献里有；④「用同一个 Prompt 问 AI 就够了」不够——要分四步：课纲→关键词→下料→资料库，中间每一步都要人工判断；⑤「资料越多作品越好」是陷阱——过度准备有害，创作需要取舍和权重。</p>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">第一步：假装开设一门大一课程</h2>
+
+  <div class="card">
+    <h3>「我要教授一门关于元朝研究的大学课程」</h3>
+    <p><b>核心机制：</b>想了解任何领域，最快的方法是假设自己要教大一新生这门课——大一课是「通识入门」。「天予虽宽不润无根之木」：AI 需要材料，而你需要先建立领域框架。</p>
+    <p><b>关键理解：</b>让 AI 帮你优化 Prompt（别念提示词，让 AI 扩展它），覆盖历史/民族/语言/宗教/建筑/文学/艺术/地理/哲学多维度，要求它列出学术史、近百年研究动向、重要议题与学者。AI 会告诉你「元代全球史/蒙古世界体系」这类你完全想象不到的研究方向。</p>
+    <div class="quote">「我先通过它帮助我建立领域的框架，知道这个领域的前沿在看什么、有哪些被推翻的东西、哪些是历久弥新被大家使用的。」</div>
+  </div>
+
+  <div class="card card-green">
+    <h3>三个 AI 各做一次 Deep Research</h3>
+    <p><b>核心机制：</b>把优化后的 Prompt 丢给三个 AI（GPT/Claude/Perplexity）各做一次 Deep Research，因为每个 AI 的「先验知识」不同，会给你三份不同的「十到十四周课程大纲」。</p>
+    <p><b>关键理解：</b>「你读了三所 AI 大学的大一课纲，你已经基本上理解这个领域在研究什么」——然后自己完整读一遍（入门极快），并记下所有关键词。</p>
+    <div class="action">落地建议：任何新领域入门都用这个「虚拟大学」法，比随便搜索快一个数量级。</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">第二步：把课纲变成几百个关键词</h2>
+
+  <div class="card card-orange">
+    <h3>让 AI 扮演「图书管理员」</h3>
+    <p><b>核心机制：</b>对 AI 说：「研究经费极其充足，你不用考虑任何价格问题，尽可能全面地收集」——这个「无限预算」的设定是踩坑踩出来的。让它基于课纲生成 100 个关键词组合，且按语言分开（汉语/法语/蒙文/英语/俄语各 5 个）。</p>
+    <p><b>关键理解：</b>三份课纲→三份关键词清单（每份 200-250 个）→再丢回 AI 合并去重、按重要性排序、剔除「研究」这类无意义词、加限定词（如「元代瓷器」而非「瓷器」）——得到几百个多语言关键词清单。</p>
+    <div class="highlight">为什么这样设计：细节词（具体学者/著作）能搜到精准材料但覆盖窄；大词+限定词才能搜出领域的全貌。</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">第三步：脱离 AI 的苦功</h2>
+
+  <div class="card">
+    <h3>下什么：一手文献、论文、书</h3>
+    <p><b>核心机制：</b>研究充分领域用引容量超 20 的论文（冷门领域放宽到 5）；看发表在哪个期刊/平台；分领域判断（「睡论文」行业要跟着期刊/博士论文走）；法文资料最好下（郭泽尔伦/Z-Library 等渠道，用大学身份或找有权限的朋友）。</p>
+    <p><b>关键理解：</b>书也不能少——论文的引用会指向书，书给出体系；历史/古建筑类必须下古籍一手文献（如《马可·波罗游记》原文）。</p>
+    <div class="pitfall">避坑：别全下载——「知道到哪儿就够了」也是一种手感。下资料时同时开始读标题和摘要，这是建立领域直觉的起点。</div>
+  </div>
+
+  <div class="card card-purple">
+    <h3>「一天下 300 篇论文」的隐藏价值</h3>
+    <p><b>核心机制：</b>连续看几百篇论文标题，你会获得「领域该问什么问题」的感觉。发论文的时间轴会暴露研究热点（如「原材料短缺」从某年开始被大量讨论=国家政策变化）。</p>
+    <p><b>关键理解：</b>AI 引用论文时其实「通读后只记住 20%」，所以资料的质量和相关性（如「关汉卿的论文自然比普通杂剧论文占比高」）决定了 AI 输出的权重。</p>
+    <div class="relation">手感来源：每月做 1-2 次完整流程（大豆调研：中英法日四语、上千篇资料、每天 2-3 小时约一周）——「看得多了、下得多了，自然心里有数哪篇该读」。</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">第四步：只和自建的资料库对话</h2>
+
+  <div class="card card-green">
+    <h3>「你看到的我们的所有内容，全部来自自建资料库」</h3>
+    <p><b>核心机制：</b>团队自己写程序搭建个人知识管理库，AI 只和这个资料库交互。资料一旦入库，内容创作全部基于它——网上的东西只是入库前的来源。</p>
+    <p><b>关键理解：</b>虚构创作同样适用：为写志怪小说建「中国志怪小说一手文献+论文」数据库，写之前让 AI 从库里找类似故事、比对已有作品。</p>
+    <div class="action">落地建议：为你的长期主题建一个资料库（论文/书/一手文献），后续每次创作只和它对话——AI 会放大「写得好的人」，让它写得更好。</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">创作的克制：过度准备有害</h2>
+
+  <div class="card card-red">
+    <h3>「受害人是个河北农民，杀手是海南渔民」的陷阱</h3>
+    <p><b>核心机制：</b>资料越多，「收集癖」越膨胀——容易为展示资料而创作，把作品变成「毫无意义的资料堆砌」。好作品不是关于整个世界的纪录片，它有取舍和权重。</p>
+    <p><b>关键理解：</b>权重的例子：元代杂剧「有一个讲述者身份」勾起强权重（值得展开）；「戏剧形式如何流变」不勾起权重（不必事无巨细告知）。</p>
+    <div class="quote">「命运会让收集癖变成堆砌。核心还是要在心里建立一个权重系统——一个作品不是一个关于整个世界的纪录片，它是有取舍的。」</div>
+  </div>
+
+  <div class="card">
+    <h3>虚构 vs 非虚构：先找再做 vs 边做边找</h3>
+    <table>
+      <tr><th>维度</th><th>非虚构创作（六寿团队）</th><th>虚构创作（六寿听众/编剧）</th></tr>
+      <tr><td>主题</td><td>高度统一且浓缩（古建筑/历史）</td><td>多领域横截面（清朝悬疑=官场+法医+特务）</td></tr>
+      <tr><td>找法</td><td>先找再做，一次性把主题想明白</td><td>边做边找，写到哪发现哪（无法预判的横截面）</td></tr>
+      <tr><td>AI 用法</td><td>课纲→关键词→下料→资料库全流程</td><td>针对具体问题：让 AI 验证「情节是否可行」（但它只给肯定答案，价值有限）→直接读一手文献/找专家开书单</td></tr>
+      <tr><td>工具</td><td>引容量/期刊筛选、多语言关键词</td><td>Oxford Bibliographies（领域专家写的入门书单，最贵但最靠谱）</td></tr>
+    </table>
+  </div>
+
+  <div class="card card-green">
+    <h3>偷懒但不降质的方法：找专家开书单</h3>
+    <p><b>核心机制：</b>当创作需要某个具体行业/领域的知识（如清代某一行业的细节），找到研究该领域的人直接让他开书单，每个条目附「为什么读」的理由，再丢进资料库。</p>
+    <p><b>关键理解：</b>不总是认识每个领域的专家时，还是倾向自己走一遍完整流程建立框架——这是学习的一部分，值得花时间。</p>
+  </div>
+</div>
+
+<div class="card">
+  <h3>找资料流程全貌（可复用清单）</h3>
+  <ol>
+    <li><b>入门框架</b>：假设开大一课→AI 优化 Prompt→三个 AI 各做一次 Deep Research→读三份课纲</li>
+    <li><b>关键词化</b>：让「图书管理员」生成 100+ 关键词（无限预算设定）→三份合并去重→按语言分开→按重要性排序→加限定词</li>
+    <li><b>下料</b>：一手文献+论文+书；引容量≥20（冷门≥5）；期刊级别判断；分领域调整策略</li>
+    <li><b>建库</b>：自建资料库，AI 只和库交互；写自己的程序做知识管理</li>
+    <li><b>读库</b>：只读「权重高」的关键位置内容→融会贯通→知道缺什么该找什么</li>
+    <li><b>克制</b>：建立权重系统，为创作做取舍，不做资料堆砌</li>
+  </ol>
+</div>
+
+<div class="conclusion">
+  <h2>总结与行动</h2>
+  <h3>核心要点</h3>
+  <ul>
+    <li>找资料决定输出下限，且本身就是创作的一部分（贯注你的意图）</li>
+    <li>「虚拟大学法」：假装开一门大一课程→读三份 AI 课纲=最快入门方式</li>
+    <li>课纲→几百个关键词（多语言+限定词+重要性排序）是找料的「地图」</li>
+    <li>引容量/期刊/分领域判断是筛选论文的「标尺」；一天下 300 篇建立领域手感</li>
+    <li>资料库思维：AI 只和自建库对话；AI 放大写得好的，不负责凭空生成</li>
+    <li>过度准备有害：创作者要建立权重系统，克制收集癖</li>
+  </ul>
+  <h3>行动清单</h3>
+  <ol>
+    <li>新领域入门：用「虚拟大学」法（假开设课→3 个 AI Deep Research→读课纲），先花 2-3 小时建立框架</li>
+    <li>把课纲反推成 100+ 关键词清单（多语言、加限定词、按重要性排序），保存为可复用资产</li>
+    <li>下料时设置引容量阈值和期刊标准，学会分领域调整；一天批量下论文同时读标题</li>
+    <li>为你的长期主题建资料库（写程序或现成工具），此后所有创作只和资料库对话</li>
+    <li>创作前问自己：这是否只是「资料堆砌」？我在为它建立什么权重？哪些可以放下不写？</li>
+  </ol>
+  <h3>关键认知转变</h3>
+  <p>以前认为：找资料=搜索，越全越好，AI 能直接生成内容。现在理解了：找资料是创作的起点和意图的贯注，要分四步走；给 AI 的资料质量和相关性决定输出质量（它只记得 20%）；而真正的高手不是资料多，而是知道「到哪儿就够了」——权重与取舍才是作品的生命力。</p>
+</div>
+
+<div class="footer">来源：小宇宙《众声杂谈》(AI实操系列) · 生成于 2026-08-25</div>
+
+</div>
+    </div>
+  </foreignObject>
+</svg>

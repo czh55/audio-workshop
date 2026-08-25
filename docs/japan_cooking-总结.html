@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>来日本十年，我们都是这样学会做饭的</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,0.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:20px 28px;text-align:center;min-width:160px;font-weight:700;font-size:16px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3{color:#92400e;margin-bottom:8px}
+.correction p{color:#92400e;font-size:15px}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,0.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.speaker{display:inline-block;font-size:13px;font-weight:600;padding:2px 10px;border-radius:12px;margin-right:8px}
+.speaker-host{background:#dbeafe;color:#1e40af}
+.speaker-guest{background:#ede9fe;color:#6b21a8}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,0.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,0.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,0.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}
+@media (max-width:640px){body,.container{padding:16px 12px!important}.container{max-width:100%!important}h1{font-size:24px!important}h2,.sec-title{font-size:18px!important}h3{font-size:16px!important}p,li{font-size:14px!important}.summary-line{font-size:15px!important;padding:14px 16px!important}.map,.card,.timeline{padding:16px!important;margin-bottom:16px!important}.map h2{font-size:18px!important}.diagram{gap:10px!important;padding:10px 0!important}.node{min-width:100px!important;padding:12px 16px!important;font-size:13px!important}.arrow{font-size:18px!important}.conclusion{padding:20px!important}.footer{padding:20px 0 12px!important}}
+.html-toolbar{position:sticky;top:0;z-index:100;display:flex;align-items:center;gap:16px;padding:12px 20px;background:rgba(248,250,252,.92);backdrop-filter:blur(8px);border-bottom:1px solid #e2e8f0;font-family:"PingFang SC","Microsoft YaHei",sans-serif}
+.html-toolbar .back-link{font-size:14px;color:#3b82f6;text-decoration:none;white-space:nowrap;font-weight:600}
+.html-toolbar .back-link:hover{text-decoration:underline}
+.html-toolbar-title{flex:1;font-size:14px;font-weight:600;color:#1e293b;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.html-toolbar .html-audio{width:260px;height:36px;border-radius:8px}
+       .html-toolbar .html-svg-link{font-size:13px;color:#64748b;text-decoration:none;white-space:nowrap}
+       .html-toolbar .html-svg-link:hover{color:#3b82f6;text-decoration:underline}
+       .html-toolbar .html-en-link{font-size:13px;color:#0d686c;text-decoration:none;white-space:nowrap;font-weight:600;padding:4px 10px;border:1px solid #99c6c0;border-radius:99px;background:#f0faf6}
+       .html-toolbar .html-en-link:hover{color:#3b82f6;border-color:#3b82f6}
+       @media (max-width:640px){
+  .html-toolbar{flex-wrap:wrap;gap:10px;padding:10px 12px}
+  .html-toolbar-title{flex-basis:100%;order:-1;font-size:13px}
+  .html-toolbar .html-audio{width:100%}
+}
+
+body{padding:0!important;margin:0!important}
+.container{padding:48px 60px}
+@media (max-width:640px){.container{padding:16px 12px!important}.container{max-width:100%!important}h1{font-size:24px!important}h2,.sec-title{font-size:18px!important}h3{font-size:16px!important}p,li{font-size:14px!important}.summary-line{font-size:15px!important;padding:14px 16px!important}.map,.card,.timeline{padding:16px!important;margin-bottom:16px!important}.map h2{font-size:18px!important}.diagram{gap:10px!important;padding:10px 0!important}.node{min-width:100px!important;padding:12px 16px!important;font-size:13px!important}.arrow{font-size:18px!important}.conclusion{padding:20px!important}.footer{padding:20px 0 12px!important}}
+</style>
+</head>
+<body>
+<div class="html-toolbar">
+  <a class="back-link" href="index.html">← 返回首页</a>
+  <div class="html-toolbar-title">来日本十年，我们都是这样学会做饭的</div>
+  <audio controls preload="metadata" class="html-audio" src="audio/japan_cooking.mp3">您的浏览器不支持音频播放</audio>
+  
+  <a class="html-svg-link" href="viewer.html?f=japan_cooking-总结.svg" target="_blank">SVG 版 ↗</a>
+</div>
+<div class="container">
+
+<h1>来日本十年，我们都是这样学会做饭的</h1>
+<div class="meta">
+  <span class="tag tag-blue">播客</span>
+  <span class="tag tag-purple">日本生活</span>
+  <span class="tag tag-orange">做饭/美食</span>
+  <span class="tag tag-green">换成帐篷</span>
+  <span class="tag tag-gray">老饭 × 雪梨</span>
+</div>
+<div class="summary-line">老饭在国内有十几年做饭经验（从烧柴灶开始），雪梨在国内从不碰锅，到日本才从零学做饭。两人恰好对应「会做饭」和「不会做饭」两种留子：一个靠肌肉记忆完美复刻卤煮、煎饼果子，一个从煎速冻饺子、炒不熟土豆块开始，靠下厨房APP和超市调研一步步成长。这期聊透在日做饭的现实：认菜认肉的困难、业务超市与物产店攻略、调料差异、以及两人合租后「备菜的人」和「做饭的人」的完美分工。</div>
+
+<div class="timeline">
+  <h3>关键时间轴</h3>
+  <div class="timeline-item">
+    <span class="timeline-time">00:00</span>
+    <span class="timeline-text">开场：感谢听友；预告8月起每月探店做美食推荐节目</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">02:00</span>
+    <span class="timeline-text">人设对照：老饭从小在院子烧柴灶→西红柿炒蛋→熬鱼，出国前已有15年做饭经验；雪梨从小被爸妈劝退「水烧着危险」</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">13:00</span>
+    <span class="timeline-text">雪梨的起点：宿舍公用厨房、百元店锅、电饭煲，煎速冻饺子是第一顿「饭」</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">20:00</span>
+    <span class="timeline-text">从炒土豆片切手到「模仿爸妈做家常菜」：醋溜土豆、茄子炒辣椒、蒜末炒青菜</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">30:00</span>
+    <span class="timeline-text">业务超市发现中国调料；红豆饭翻车（没泡豆子）；泡菜炒饭捏饭团；深夜搓鲜芋圆</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">40:00</span>
+    <span class="timeline-text">老饭视角：偏僻学校物产店在20多公里外、微信群下单周五送货；日本酱油只有浓口/淡口</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">48:00</span>
+    <span class="timeline-text">在日本买菜的差异：按做法卖肉、羊肉只有烤/涮两种、鱼的差异、难买的菜</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">60:00</span>
+    <span class="timeline-text">合租后分工：老饭做饭、雪梨备菜收纳；从「凑合」到「用心」</span>
+  </div>
+  <div class="timeline-item">
+    <span class="timeline-time">70:00</span>
+    <span class="timeline-text">厨房黑科技：微波炉炼猪油、咖啡滤纸滤油、冷冻蔬菜分装便当</span>
+  </div>
+</div>
+
+<div class="map">
+  <h2>核心脉络</h2>
+  <div class="diagram">
+    <div class="node">国内会做饭<br/>（老饭：15年经验）</div>
+    <div class="arrow">→</div>
+    <div class="node">国外从零学<br/>（雪梨：宿舍起步）</div>
+    <div class="arrow">→</div>
+    <div class="node-orange">适应差异<br/>（调料/肉类/食材）</div>
+    <div class="arrow">→</div>
+    <div class="node-green">合租分工<br/>（做饭+备菜）</div>
+    <div class="arrow">→</div>
+    <div class="node-green">家乡味复刻<br/>（卤煮/煎饼果子）</div>
+  </div>
+</div>
+
+<div class="correction">
+  <h3>⚠ 常见误解 / 认知纠偏</h3>
+  <p>①「海外留子人均大厨」是滤镜——真实情况是大多数人都买速冻食品，微波炉能活一辈子；②「日本肉是按部位卖的」是错觉——更多是按做法卖（烤的肉/涮的肉），羊肉全日本只分「烤的」和「蒜的」两种；③「日本超市干净到不用洗菜」是可能的——菠菜/青菜确实洗不出灰，但偶尔会有芝麻大小的虫；④「做饭必须讲究火候」——微波炉炼猪油又快又白，咖啡滤纸滤油比100目滤网还干净，凑合也能做出讲究的味道。</p>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">两种留子的做饭起点</h2>
+
+  <div class="card">
+    <h3>老饭：院子烧柴到完美复刻家乡味</h3>
+    <p><b>核心机制：</b>从小在平房院里的灶台帮大人烧柴→搬楼房后帮洗菜切菜→小学第一次独立做西红柿炒鸡蛋（最难的是用打火机点煤气罐，躲慢了烧手）→高中放假家里基本他做饭。出国前「对厨房不陌生了，这条可以写进简历」。</p>
+    <p><b>关键理解：</b>十五年肌肉记忆，让他在日本能轻松做鱼香肉丝、红烧排骨、粉丝蒸扇贝，甚至给天津朋友「完美复刻」八珍豆腐、锅塌里脊、爆两样，得到本地人认可。</p>
+    <div class="quote">「做完卤煮我不知道味对不对，问雪梨，她说你吃了这么多年忘了什么味了？我知道可能有九成相似，但我不记得那百分之十差在哪。」</div>
+  </div>
+
+  <div class="card card-purple">
+    <h3>雪梨：从「切手炒不熟土豆」到给宿舍做饭最好的人</h3>
+    <p><b>核心机制：</b>在国内被爸妈「劝退」（水烧着危险、怕她烫着），来日本后反而向往做饭。用宿舍公用厨房+百元店浅锅+电磁炉+自带电饭煲起步，第一顿「饭」是煎速冻饺子。</p>
+    <p><b>关键理解：</b>用下厨房APP自学：炒土豆片切手→改成炒不熟的土豆块→意识到「刀工高的暂时挑战不了」→做醋溜土豆、茄子炒辣椒、蒜末炒青菜（小松菜），靠「模仿记忆里爸妈做饭的样子」成为宿舍做饭最好的人。</p>
+    <div class="highlight">原文：「最开始炒土豆片，果不其然切手了……炒完之后没有任何色香味可言，就是酱酱熟、芯有点硬，但还是吃完了，也不怕中毒。」</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">在日本买菜的「差异课」</h2>
+
+  <div class="card card-orange">
+    <h3>调料：日本酱油只有浓口/淡口</h3>
+    <p><b>核心机制：</b>国内分生抽/老抽/味极鲜，日本只有浓口/淡口/减盐。淡口颜色太浅没法上色，浓口颜色够了却太咸——刚来做饭经常「特别咸」。中国调料只能去业务超市/物产店买（生抽老抽镇江香醋山西陈醋），偏远的学校要靠「物产店微信群下单、每周五送货上门」。</p>
+    <p><b>关键理解：</b>酱油味道差异（「一股豆子味」）是很多菜「差点意思」的根源。老饭家现在「除了料酒全是国内调料」，还集运了草果、白芷、六种辣椒、两种花椒（偏香/偏麻）和土豆/玉米两种淀粉。</p>
+    <div class="action">落地建议：到日本先办常去超市会员卡，用备忘录记下每家常菜均价、打折时间；先找到物产店（微信社群能解决一切中国食材）再谈做饭。</div>
+  </div>
+
+  <div class="card">
+    <h3>认菜认肉：日本超市的「功能式卖法」</h3>
+    <table>
+      <tr><th>类别</th><th>国内</th><th>日本</th></tr>
+      <tr><td>肉</td><td>按部位卖（里脊、五花）</td><td>更多按做法卖：烤肉/涮肉/炒肉；肋眼=リブロース、上脑=カタロース（肩井肉）、五花=バラ</td></tr>
+      <tr><td>羊肉</td><td>部位细分</td><td>全日本只分「烤的」和「蒜的」两种，数量少得可怜</td></tr>
+      <tr><td>鱼</td><td>淡水鱼（胖头/鲫鱼/白鲢）为主</td><td>几乎全是海鱼：鲭鱼/秋刀鱼/银鲳；带鱼又宽又厚（品种不同）</td></tr>
+      <tr><td>菜</td><td>油麦菜、菜心常见</td><td>小松菜（日本油菜）、茼蒿；木耳菜被误认成菜心（粘液）；油麦菜很难见</td></tr>
+      <tr><td>排骨/猪蹄</td><td>常见</td><td>排骨是整根肋排很贵、猪蹄几乎没有生的，内脏倒是处理得很干净（切好洗净）</td></tr>
+    </table>
+  </div>
+
+  <div class="card card-green">
+    <h3>买菜地图：哪里买什么</h3>
+    <p><b>核心机制：</b>日本最大的好处是「超市卖菜干净」，连根都没有泥，甚至切好的配菜包一袋袋卖（拌沙拉直接倒）。两人把以家为圆心50公里内的超市都跑遍了。</p>
+    <ul>
+      <li><b>肉（排骨/肘子/猪蹄）</b>：Costco / Lopia / 牛头店（都内到处有，黄底黑牛头标志）</li>
+      <li><b>活海鲜（皮皮虾/大闸蟹/带鱼）</b>：上野阿美横町地下海鲜市场（日本人超市几乎买不到活的）</li>
+      <li><b>中国调料/特殊食材</b>：大型物产店（批发的源头）</li>
+      <li><b>薅羊毛</b>：中国人种菜多了会送人——收到过「连根带泥的香菜」，日本人没见过种茴香的</li>
+    </ul>
+    <div class="pitfall">买不到清单：鱿鱼、酸梅丁（夏天泡酸梅汤）、砍骨刀、蒜臼、电动拉蒜器、擦丝器——这些需要从国内集运；茴香、香椿在日本买不到（想种香椿树怕种错成臭椿）。</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">合租后的分工与「厨房黑科技」</h2>
+
+  <div class="card">
+    <h3>「做饭的人」和「备菜的人」的完美分工</h3>
+    <p><b>核心机制：</b>老饭做饭（一个人做无聊，两个人做是享受），雪梨负责备菜：买完菜从下往上码放整齐、怕压的放上面、回家分装、大份肉类拆成小份铺平冷冻。「收纳真的特别爽，乐在其中」。</p>
+    <p><b>关键理解：</b>雪梨还负责「摆盘拍照」（过年给老饭爸妈做的一桌菜全是她摆的盘）和「情绪价值」——但不是无脑吹，不好吃也会说，因为「一个东西好不好吃，做完之后自己就知道」。</p>
+    <div class="relation">工具进化：从百元店的100日元筷子（用久了变形飘起来）到成套的瓷碗盘、昂贵的筷子、各种锅（高压锅×2、电火锅、章鱼小丸子烤盘、鸳鸯锅、铸铁锅）；老饭还想买铜锅、厨师机、石臼和冰柜（被雪梨以「占地」否了）。</div>
+  </div>
+
+  <div class="card card-green">
+    <h3>三个「发现新大陆」级的厨房技巧</h3>
+    <p><b>① 微波炉炼猪油：</b>以前熬猪油要洗切焯水慢慢熬2-3小时，微波炉几分钟出油「特别白」，比熬的还白，从此再也不自己熬。</p>
+    <p><b>② 咖啡滤纸滤油：</b>炸完东西用100日元的手冲滤杯+滤纸（百元店一大袋），比100目/200目滤网滤得还干净，缺点只是滴得慢——放着让它慢慢滴就好。</p>
+    <p><b>③ 冷冻分装便当：</b>周末多做几道菜分装成3-5盒冻上，出勤日微波炉一打；冷冻蔬菜（业务超市）直接下锅很方便；葱姜蒜切碎冷冻、用的时候掰一块，更新鲜。</p>
+    <div class="highlight">原文：老饭灵机一动想出咖啡滤纸滤油，没看任何教程——「我说这人简直是天才，这么有智慧。后来她去网上一搜，原来很多人都在用。」</div>
+  </div>
+</div>
+
+<div class="card">
+  <h3>观点对照：老饭 vs 雪梨的「吃饭哲学」</h3>
+  <table>
+    <tr><th>维度</th><th>老饭（男生）</th><th>雪梨（女生）</th></tr>
+    <tr><td>吃法</td><td>认准一个东西反复吃（「定时刷新的NPC」）；学生时代90%吃鸡肉+大头菜</td><td>一定要换口味：这周吃这个下周吃那个，追求新鲜感</td></tr>
+    <tr><td>厨具观</td><td>一个煮锅一个小锅+微波炉就够了</td><td>烤箱、高压锅、蒸锅、砂锅全都要有，锅碗瓢盆越买越专业</td></tr>
+    <tr><td>做饭心态</td><td>凑合能吃饱就行（学生时代）</td><td>对做饭本身有向往，为摆盘拍照而做菜</td></tr>
+    <tr><td>合租后的改变</td><td>菜色极大丰富（被雪梨带动）</td><td>厨房用品极大丰富（被老饭带动）</td></tr>
+  </table>
+</div>
+
+<div class="conclusion">
+  <h2>总结与行动</h2>
+  <h3>核心要点</h3>
+  <ul>
+    <li>海外留子做饭的两极：多数凑合（速冻+微波炉），少数认真钻研——差别在「凑合心态」还是「对做饭的向往」</li>
+    <li>日本做饭最大的坎不是厨艺，是「认菜认肉认调料」：按做法卖肉、酱油只分浓淡、羊肉只有两种</li>
+    <li>业务超市+物产店微信群+国内集运是解决中国食材的三板斧</li>
+    <li>合租让做饭从「一个人凑合」变成「两个人享受」：做饭+备菜的分工是乐趣放大器</li>
+    <li>实用黑科技：微波炉炼猪油、咖啡滤纸滤油、冷冻分装便当</li>
+  </ul>
+  <h3>行动清单</h3>
+  <ol>
+    <li>刚到日本：先办2-3家常去超市会员卡+备忘录记账（哪个菜哪个超市便宜、几点打折），步行扫荡方圆2公里</li>
+    <li>找物产店并加入微信群（偏远地区每周五送货上门是常态），买齐生抽老抽醋再谈做中国菜</li>
+    <li>买肉认词：カタロース=上脑、リブロース=肋眼、バラ=五花、モモ=腿肉；羊肉默认只有烤/涮两种</li>
+    <li>尝试微波炉炼猪油（白且快）、咖啡滤纸滤油（干净）、周末分装冷冻便当（忙时一热就吃）</li>
+    <li>想吃家乡味找不到食材？芹菜用Kishimen扁乌冬当面皮做凉皮、云吞皮炸出煎饼果子的果篦——先查替代方案再放弃</li>
+  </ol>
+  <h3>关键认知转变</h3>
+  <p>以前认为：做饭就是厨艺问题，在国外做饭难在「没有国内的条件」。现在理解了：最大的区别是「人的心态」——凑合着过是吃速冻，用心生活是连滤油都要想办法；而当有一个人愿意吃你做的菜、帮你备菜摆盘，做饭就从生存技能变成表达爱意的方式。</p>
+</div>
+
+<div class="footer">来源：小宇宙《换成帐篷》· 生成于 2026-08-25</div>
+
+</div>
+</body>
+</html>
