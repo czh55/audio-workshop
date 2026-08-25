@@ -893,7 +893,10 @@
       }
 
       function viewerUrl(filename) {
-        return 'viewer.html?f=' + encodeURIComponent(filename);
+        // .html 专题文件直接打开，SVG 走 viewer
+        return /\.html$/i.test(filename)
+          ? filename
+          : 'viewer.html?f=' + encodeURIComponent(filename);
       }
 
       const TAG_COLORS = ['tag-blue','tag-purple','tag-green','tag-orange'];
