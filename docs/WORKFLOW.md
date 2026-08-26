@@ -570,7 +570,16 @@ git add docs/{slug}-总结.svg docs/{slug}-总结.html docs/index.json
 git commit -m "podcast: summarize {播客标题}"
 ```
 
-语音产物（`docs/audio/{slug}.mp3` / `.txt`）单独一个 commit，或与 SVG 同 commit 均可（参考历史：批量总结与 voiceovers 曾分两个 commit）。
+**转录稿必须归档保存到 git（硬性要求）**：`{slug}.txt` 是唯一完整保留播客内容的地方（原始音频清理后即不可再转录），每次提交都必须把全部转录归档到 `docs/transcripts/` 并提交，禁止只提交总结产物而遗漏转录。
+
+```bash
+python3 scripts/build_transcripts_index.py   # 归档根目录 *.txt → docs/transcripts/ 并生成 docs/transcripts-index.json
+git add docs/transcripts/{slug}.txt docs/transcripts-index.json
+```
+
+- 若该篇为新转录：`build_transcripts_index.py` 会把 `{slug}.txt` 复制进 `docs/transcripts/` 并重建索引
+- 若根目录已有该篇但未归档：脚本会补齐复制
+- 语音产物（`docs/audio/{slug}.mp3` / `.txt`）单独一个 commit，或与 SVG 同 commit 均可（参考历史：批量总结与 voiceovers 曾分两个 commit）
 
 ### 9.2 分支流程（仅批量改造 / 高风险变更时）
 
@@ -610,7 +619,7 @@ git push -u origin main
 # 删除生成脚本
 rm generate-{slug}.mjs
 
-# 可选：删除原始音频文件节省空间（转录稿保留）
+# 可选：删除原始音频文件节省空间（转录稿必须保留，且已归档到 docs/transcripts/ 并随 git 提交）
 # rm {slug}.m4a
 ```
 
@@ -631,10 +640,12 @@ rm generate-{slug}.mjs
 | 文件 | 说明 |
 |------|------|
 | `{slug}.m4a` | 原始音频（清理时可删） |
-| `{slug}.txt` | 纯文本转录稿 |
+| `{slug}.txt` | 纯文本转录稿（**必须归档到 `docs/transcripts/` 并提交**） |
 | `{slug}.srt` | SRT 字幕 |
 | `{slug}.vtt` | WebVTT 字幕 |
 | `{slug}.json` | Whisper JSON（含置信度） |
+| `docs/transcripts/{slug}.txt` | 转录稿归档副本（`scripts/build_transcripts_index.py` 生成，供转录全文搜索页加载，需提交） |
+| `docs/transcripts-index.json` | 转录搜索索引（含 slug/title/author/words/file，需提交） |
 | `docs/{slug}-总结.svg` | 内容总结长图 |
 | `docs/{slug}-总结.html` | 独立 HTML 版（`scripts/svg-to-html.py` 生成） |
 | `docs/{slug}-en.html` | 英文双语学习版（可选，`scripts/generate_en_html.py` 生成） |
@@ -650,8 +661,8 @@ rm generate-{slug}.mjs
 ## 约束
 
 - 仅处理小宇宙（xiaoyuzhoufm.com）链接
-- 不修改非 `docs/` 目录的文件（`generate-{slug}.mjs` 除外，用完删除）
-- 不修改 `.gitignore`
+- 不修改非 `docs/` 目录的文件（`generate-{slug}.mjs` 除外，用完删除；根目录 `{slug}.txt` 转录稿仅用于归档到 `docs/transcripts/`，归档完成后可删除）
+- 不修改 `.gitignore`（转录白名单 `!/*.txt`、`!docs/transcripts/*.txt`、`!docs/transcripts-index.json` 已内置，无需改动）
 - 每个 URL 只处理一次（检查 `index.json` 中是否已存在相同 `url` 的条目）
 - 严禁使用 `rsvg-convert` 或 Inkscape 渲染 SVG
 - **必须将产出推送到 `main` 分支**，否则 GitHub Pages 无法展示，视为任务未完成
