@@ -215,6 +215,24 @@
       padding: 0 2px;
     }
     .card-meta { margin-top: 10px; color: var(--text-muted); font-size: 12px; display: flex; gap: 14px; }
+    .card-links { margin-top: 12px; display: flex; gap: 10px; flex-wrap: wrap; }
+    .card-link {
+      font-size: 12px;
+      color: var(--text-secondary);
+      text-decoration: none;
+      padding: 6px 14px;
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      transition: all .2s;
+      background: var(--surface);
+    }
+    .card-link:hover { color: var(--accent); border-color: var(--accent); }
+    .card-link.primary {
+      color: var(--accent);
+      border-color: rgba(96,165,250,0.4);
+      background: rgba(96,165,250,0.08);
+    }
+    .card-link.primary:hover { color: #fff; background: rgba(96,165,250,0.2); }
 
     .empty {
       text-align: center;
@@ -237,7 +255,7 @@
 
   <div class="hero">
     <h1>播客转录全文搜索</h1>
-    <p>搜索 118 篇播客的完整转录内容，找到你关心的每一句话</p>
+    <p>搜索 120 篇播客的完整转录原文，找到你关心的每一句话</p>
   </div>
 
   <div class="stats-bar">
@@ -467,13 +485,18 @@
             tagsHtml +
             snippetHtml +
             '<div class="card-meta">' + meta + '</div>' +
+            '<div class="card-links">' +
+              '<a class="card-link primary" href="transcript-viewer.html?slug=' + encodeURIComponent(item.slug) + '" target="_blank">📄 阅读转录原文</a>' +
+              '<a class="card-link" href="./' + encodeURIComponent(item.slug) + '-总结.html" target="_blank">📖 总结文档</a>' +
+            '</div>' +
           '</div>';
         }).join('');
         // 绑定点击跳转
         results.querySelectorAll('.card').forEach(function(card) {
-          card.addEventListener('click', function() {
+          card.addEventListener('click', function(e) {
+            if (e.target.closest('a')) return; // 内部链接自行处理
             const slug = card.dataset.slug;
-            window.open('./' + slug + '-总结.html', '_blank');
+            window.open('./transcript-viewer.html?slug=' + encodeURIComponent(slug), '_blank');
           });
         });
       }
