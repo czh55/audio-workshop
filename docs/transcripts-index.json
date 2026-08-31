@@ -1,6 +1,6 @@
 {
  "generated": "2026-08-25",
- "count": 129,
+ "count": 130,
  "items": [
   {
    "slug": "brand_premium_decline",
@@ -135,6 +135,21 @@
    "duration": "43分",
    "words": 11221,
    "file": "transcripts/yiwu_small_goods.txt"
+  },
+  {
+   "slug": "zhang_ailing_analysis",
+   "title": "010.张爱玲逐篇解析11小时超长，深度广度拉满",
+   "date": "2026-08-31",
+   "author": "这个月的播客",
+   "tags": [
+    "文学",
+    "张爱玲",
+    "细读"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/696f7ac3ef1cf272a7797086",
+   "duration": "10小时48分",
+   "words": 174596,
+   "file": "transcripts/zhang_ailing_analysis.txt"
   },
   {
    "slug": "finding-kindred",

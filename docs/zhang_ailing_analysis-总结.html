@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>010.张爱玲逐篇解析：11小时深度广度拉满</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:110px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,0.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:16px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:16px 22px;text-align:center;min-width:140px;font-weight:700;font-size:15px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.node-purple{background:linear-gradient(135deg,#f5f3ff,#ede9fe);border-color:#c4b5fd;color:#5b21b6}
+.arrow{font-size:22px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3{color:#92400e;margin-bottom:8px}
+.correction p{color:#92400e;font-size:15px}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,0.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.speaker{display:inline-block;font-size:13px;font-weight:600;padding:2px 10px;border-radius:12px;margin-right:8px}
+.speaker-host{background:#dbeafe;color:#1e40af}
+.speaker-guest{background:#ede9fe;color:#6b21a8}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,0.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,0.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,0.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}
+@media (max-width:640px){body,.container{padding:16px 12px!important}.container{max-width:100%!important}h1{font-size:24px!important}h2,.sec-title{font-size:18px!important}h3{font-size:16px!important}p,li{font-size:14px!important}.summary-line{font-size:15px!important;padding:14px 16px!important}.map,.card,.timeline{padding:16px!important;margin-bottom:16px!important}.map h2{font-size:18px!important}.diagram{gap:10px!important;padding:10px 0!important}.node{min-width:100px!important;padding:12px 16px!important;font-size:13px!important}.arrow{font-size:18px!important}.conclusion{padding:20px!important}.footer{padding:20px 0 12px!important}}
+.html-toolbar{position:sticky;top:0;z-index:100;display:flex;align-items:center;gap:16px;padding:12px 20px;background:rgba(248,250,252,.92);backdrop-filter:blur(8px);border-bottom:1px solid #e2e8f0;font-family:"PingFang SC","Microsoft YaHei",sans-serif}
+.html-toolbar .back-link{font-size:14px;color:#3b82f6;text-decoration:none;white-space:nowrap;font-weight:600}
+.html-toolbar .back-link:hover{text-decoration:underline}
+.html-toolbar-title{flex:1;font-size:14px;font-weight:600;color:#1e293b;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.html-toolbar .html-audio{width:260px;height:36px;border-radius:8px}
+       .html-toolbar .html-svg-link{font-size:13px;color:#64748b;text-decoration:none;white-space:nowrap}
+       .html-toolbar .html-svg-link:hover{color:#3b82f6;text-decoration:underline}
+       .html-toolbar .html-en-link{font-size:13px;color:#0d686c;text-decoration:none;white-space:nowrap;font-weight:600;padding:4px 10px;border:1px solid #99c6c0;border-radius:99px;background:#f0faf6}
+       .html-toolbar .html-en-link:hover{color:#3b82f6;border-color:#3b82f6}
+       @media (max-width:640px){
+  .html-toolbar{flex-wrap:wrap;gap:10px;padding:10px 12px}
+  .html-toolbar-title{flex-basis:100%;order:-1;font-size:13px}
+  .html-toolbar .html-audio{width:100%}
+}
+
+body{padding:0!important;margin:0!important}
+.container{padding:48px 60px}
+@media (max-width:640px){.container{padding:16px 12px!important}.container{max-width:100%!important}h1{font-size:24px!important}h2,.sec-title{font-size:18px!important}h3{font-size:16px!important}p,li{font-size:14px!important}.summary-line{font-size:15px!important;padding:14px 16px!important}.map,.card,.timeline{padding:16px!important;margin-bottom:16px!important}.map h2{font-size:18px!important}.diagram{gap:10px!important;padding:10px 0!important}.node{min-width:100px!important;padding:12px 16px!important;font-size:13px!important}.arrow{font-size:18px!important}.conclusion{padding:20px!important}.footer{padding:20px 0 12px!important}}
+</style>
+</head>
+<body>
+<div class="html-toolbar">
+  <a class="back-link" href="index.html">← 返回首页</a>
+  <div class="html-toolbar-title">010.张爱玲逐篇解析：11小时深度广度拉满</div>
+  <audio controls preload="metadata" class="html-audio" src="audio/zhang_ailing_analysis.mp3">您的浏览器不支持音频播放</audio>
+  
+  <a class="html-svg-link" href="viewer.html?f=zhang_ailing_analysis-总结.svg" target="_blank">SVG 版 ↗</a>
+</div>
+<div class="container">
+
+<h1>010.张爱玲逐篇解析：11小时深度广度拉满</h1>
+<div class="meta">
+  <span class="tag tag-blue">播客</span>
+  <span class="tag tag-purple">张爱玲</span>
+  <span class="tag tag-orange">文学细读</span>
+  <span class="tag tag-green">这个月</span>
+  <span class="tag tag-gray">10小时48分</span>
+</div>
+<a class="source-link" href="https://www.xiaoyuzhoufm.com/episode/696f7ac3ef1cf272a7797086">小宇宙原集链接</a>
+
+<div class="summary-line">
+<strong>一句话概括：</strong>主持人「这个月」用约11小时重置张爱玲作品合集细读——拒绝「恋爱脑/小情小爱」式概括，按作品展开人性、婚姻、金钱、战争夹缝与苍凉美学；本期音频不含《红玫瑰与白玫瑰》《琉璃瓦》《心经》《茉莉香片》（收入其新书《昭语记》），《小团圆》另有3小时专集。
+</div>
+
+<div class="timeline">
+  <h3>关键时间轴（按内容段落，非精确分钟）</h3>
+  <div class="timeline-item"><span class="timeline-time">开场</span><span class="timeline-text">重置合集动机、篇目说明、新书《昭语记》与四篇缺席作品</span></div>
+  <div class="timeline-item"><span class="timeline-time">早期短篇</span><span class="timeline-text">《第一炉香》→《第二炉香》→《封锁》→《年轻的时候》</span></div>
+  <div class="timeline-item"><span class="timeline-time">经典中核</span><span class="timeline-text">《金锁记》→《五四遗事》→《花凋》→《倾城之恋》→《鸿鸾禧》</span></div>
+  <div class="timeline-item"><span class="timeline-time">长篇与变奏</span><span class="timeline-text">《半生缘/十八春》→《小艾》→《色戒》（兼李安电影）</span></div>
+  <div class="timeline-item"><span class="timeline-time">晚年与自传</span><span class="timeline-text">《浮花浪蕊》气质篇 → 性格/家族侧写 →《雷峰塔》《易经》收束</span></div>
+</div>
+
+<div class="map">
+  <h2>核心脉络：作品谱系 × 主题线索</h2>
+  <div class="diagram">
+    <div class="node">炉香双篇<br/><small>欲望支点 / 性教育</small></div>
+    <div class="arrow">→</div>
+    <div class="node node-green">封锁·年轻<br/><small>时代夹缝</small></div>
+    <div class="arrow">→</div>
+    <div class="node node-orange">金锁·花凋<br/><small>金枷 / 一寸寸死去</small></div>
+    <div class="arrow">→</div>
+    <div class="node node-purple">倾城·半生缘<br/><small>工具化爱情</small></div>
+  </div>
+  <div class="diagram" style="margin-top:8px;">
+    <div class="node" style="font-size:14px;">婚姻与金钱<br/><small>七巧 / 白流苏</small></div>
+    <div class="arrow">→</div>
+    <div class="node node-green" style="font-size:14px;">战争与虚无<br/><small>倾城 / 色戒</small></div>
+    <div class="arrow">→</div>
+    <div class="node node-orange" style="font-size:14px;">苍凉美学<br/><small>五太太 / 月亮</small></div>
+    <div class="arrow">→</div>
+    <div class="node node-purple" style="font-size:14px;">自传织体<br/><small>雷峰塔·易经</small></div>
+  </div>
+  <p style="margin-top:12px;font-size:15px;color:#64748b;text-align:center;">主持人主张：微观写人 = 四两拨千斤；「小情小爱」恰恰可能是最大格局</p>
+</div>
+
+<div class="correction">
+  <h3>常见误解 / 认知纠偏</h3>
+  <p><strong>误解1：「第一炉香=恋爱脑」</strong> → 概括式阅读只剩情节标签；细读看见的是葛薇龙在姑妈/乔琪/老男人三角中寻找「活下去的支点」，与《色戒》王佳芝放走易先生同属支点崩塌/重建逻辑。</p>
+  <p style="margin-top:8px;"><strong>误解2：「张爱玲只会写小情小爱、格局小」</strong> → 主持人反驳：被困在闺阁与宅院的女性故事，因其限制反而深不见底；《花凋》可与卡夫卡《变形记》并置，爱具体的人而非抽象的人。</p>
+  <p style="margin-top:8px;"><strong>误解3：「王佳芝是恋爱脑」</strong> → 她几乎不爱；「有目的」的关系比彻底虚无的同学圈更可忍受，死在「起码知道自己在干什么」上。</p>
+  <p style="margin-top:8px;"><strong>误解4：「张爱玲至死不愿见母亲」</strong> → 1957年前后她在美一贫如洗、为赖雅治病掏空，不去见临终母亲更可能是真没钱，而非冷漠借口。</p>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">一、读法总纲：拒绝概括式阅读</h2>
+
+  <div class="card card-purple">
+    <h3><span class="speaker speaker-host">主持人</span>概括式阅读如何把人养废</h3>
+    <p><b>在讲什么：</b>用「恋爱脑」一句话打发《第一炉香》，等于用同样方法把《战争与和平》缩成「帅哥死了老婆又爱上公主」——情节标签消灭了人性与美学。</p>
+    <p><b>关键理解：</b>简单化训练只剩下批判、失去共情；下一步是人与人、人与社会、最终人对自己都失去理解。</p>
+    <div class="action">怎么用：读张时先禁止一句话剧透标签；逼自己回答「人物为什么这样选」而不是「她对不对」。</div>
+    <div class="highlight">原文依据：「按照概括式的阅读……文艺作品就只能打在我们身上……只能是那些最肤浅和锋利的部分。」</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">二、炉香双篇：支点与性教育</h2>
+
+  <div class="card">
+    <h3>《第一炉香》：乔琪的「摆烂告白」杀猪盘</h3>
+    <p><b>在讲什么：</b>乔琪从不说「我爱你」，而说「我不配、不结婚、从不骗你」——正话反说叠上「抵制姑妈生活方式」的人设，成为葛薇龙定制诱惑。</p>
+    <p><b>关键理解：</b>聪明女孩更容易吃这套：听起来比「我喜欢你」更动人，走出大屋才发现人家从未承诺过爱与婚姻。</p>
+    <div class="relation">相关：与《色戒》对照——人活着总要有个支点；葛薇龙在三角压迫中找到「自愿当高级妓女」的精神平衡，王佳芝则在放走易先生时支点崩塌。</div>
+    <div class="action">怎么用：遇「我很坏所以不骗你」话术，复述对方实际承诺了什么（往往是零）。</div>
+    <div class="quote">「人家从来都没说过我喜欢你……那至于你怎么感觉……你活该。」</div>
+  </div>
+
+  <div class="card card-orange">
+    <h3>《第二炉香》：过度保护 = 失去保护</h3>
+    <p><b>在讲什么：</b>素馨对婚姻与性一无所知，罗杰被圈子传成「变态」后精神崩溃自杀；「小蓝牙齿」串联姐妹的牙、煤气火焰与口口相传的人言。</p>
+    <p><b>关键理解：</b>讳莫如深的贞洁理想，是要人一辈子保持无知女童状态；留白本可有秩序，自知不理则成隐患。</p>
+    <div class="pitfall">避坑：别把性教育缺席当成「保护女孩」；也别把小说读成「暴露厌女」而错过人言可畏与教育批判。</div>
+    <div class="highlight">方法边界：本篇冷门因「纯外国人故事+叙事迷惑性+所批问题至今仍在」；水土不服不等于浅。</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">三、夹缝中的现代性：《封锁》《年轻的时候》《五四遗事》</h2>
+
+  <div class="card">
+    <h3>《封锁》：电车上的时代夹缝</h3>
+    <p><b>在讲什么：</b>五页半短篇——封锁暂停时空，吕宗桢因「让女人脸红」而心动，封锁结束瞬间坐回原位；吴翠远卡在「好女儿/好学生」与真实欲望之间。</p>
+    <p><b>关键理解：</b>男性心动常是工具性的（找回「单纯男子」人设）；求婚式赞美撕碎的是「婚姻=最高奖赏」心态，不是平等婚姻本身。</p>
+    <div class="relation">空间诗学：多数女性故事困在宅院；《封锁》在「前进的电车」上又遭遇封锁——进步元素被卡住，正是吴翠远处境的隐喻。</div>
+    <div class="quote">「宗桢没有想过她能够使一个女人脸红……对于这个不知道她底细的女人，他只是一个单纯的男子。」</div>
+    <div class="highlight">周边：胡兰成因读《封锁》路转粉——主持人调侃「不知道震撼这人好还是不好」。</div>
+  </div>
+
+  <div class="card card-green">
+    <h3>《年轻的时候》与《五四遗事》：符号恋爱 vs 时尚进步</h3>
+    <p><b>在讲什么：</b>潘汝良把俄国女孩当「德语/奖学金/新闻学」等新世界符号，一见血肉细节就下头；罗文涛以新文化之名离婚再娶，最终一夫三妻打麻将收场。</p>
+    <p><b>关键理解：</b>「爱国/进步」常是自我感动包装；鲁迅问娜拉走后怎样（堕落或回来），张爱玲则追问婚姻制度与人性道德在「先进」话术下如何复辟。</p>
+    <div class="action">怎么用：检查自己喜欢的是对方本人，还是对方所代表的生活方式标签。</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">四、金枷与枯萎：《金锁记》《花凋》</h2>
+
+  <div class="card">
+    <h3>《金锁记》：情欲标本与「没有光的所在」</h3>
+    <p><b>在讲什么：</b>曹七巧被黄金枷锁钉成「玻璃匣子里的蝴蝶标本」；毁女儿长安、儿媳芝寿，长安「美丽而苍凉的手势」主动放弃婚约，母女同走入没有光的楼梯。</p>
+    <p><b>关键理解：</b>七巧爱的未必是季泽本人，而是「精壮男子符号」对一生匮乏的补偿；晚年回忆卖猪肉的小伙终于有了名字——错过的可能性才变得具体。</p>
+    <div class="quote">「三十年前的月亮早已沉下去……然而三十年前的故事还没完——完不了。」</div>
+    <div class="relation">编织术：月亮、帐子、脚的颜色来回勾连，文字在做影像做不到的多层信息同传。</div>
+  </div>
+
+  <div class="card card-purple">
+    <h3>《花凋》：一寸一寸死去的张力</h3>
+    <p><b>在讲什么：</b>郑川嫦在遗少家庭夹缝中病亡；章云藩「我总是等着你」后两年动摇；结尾皮鞋「总可以穿两三年」紧接「她死在三周后」。</p>
+    <p><b>关键理解：</b>张爱玲极少写滥情，却在旗袍扫过脚背、冰凉科学的手指、眼泪「蒙着水的壳」里写出心照不宣；世界爱抽象悲剧、怕具体病痛。</p>
+    <div class="action">怎么用：读到「希望→踩空」句式时停下来感受张力，这是训练文学感受力的最小单元。</div>
+    <div class="highlight">对照卡夫卡《变形记》与「爱具体的人」；反驳「格局小」：署名若换成某男作家，评价权重可能翻倍——这是性别偏见，不是作品上限。</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">五、倾城、半生缘、小艾、色戒</h2>
+
+  <div class="card">
+    <h3>《倾城之恋》：爱情是工具，战争成全了计算</h3>
+    <p><b>在讲什么：</b>白流苏与范柳原的「爱情战争」建立在家族算计与同居污名上；香港沦陷意外成全婚姻——「倾城」成全一对凡人。</p>
+    <p><b>关键理解：</b>主持人开篇即点题：爱情很工具化，但用处不在我们以为的地方；流苏聪明地硬耗，却也清楚自己在牌桌上。</p>
+    <div class="relation">与《封锁》同属「非常态时空」改写关系；与《金锁记》对照：同是婚姻博弈，一个毁人，一个勉强得救。</div>
+  </div>
+
+  <div class="card card-green">
+    <h3>《半生缘》：懦弱如何写成命运</h3>
+    <p><b>在讲什么：</b>原名《十八春》（戏曲标题传统）；沈世钧的懦弱是有意为之——吃醋十年、推卸责任又想破坏一切，多层情感叠在短对话里。</p>
+    <p><b>关键理解：</b>囚禁情节脱胎于张爱玲被父亲囚禁的真实经历，刻骨到晚年自传仍反复写。</p>
+    <div class="action">怎么用：读对话时数「一层话里叠了几层情绪」，练张式心理密度。</div>
+  </div>
+
+  <div class="card">
+    <h3>《小艾》：苍凉是启示，悲壮是完成</h3>
+    <p><b>在讲什么：</b>五太太与小艾的主仆苦难；「从葱绿配桃红」的层次对照；张爱玲晚年不喜以「小艾」为题，因不满后半小艾塑造。</p>
+    <p><b>关键理解：</b>苍凉给人启示，大红大绿的完成感反而是另一种封闭；原版曾有更「光明」的结局，擅自发表令作者难堪。</p>
+    <div class="quote">「悲壮是一种完成，苍凉是一种启示。」（主持人转述张爱玲美学）</div>
+  </div>
+
+  <div class="card card-purple">
+    <h3>《色戒》：虚无废墟里的「有目的」</h3>
+    <p><b>在讲什么：</b>王佳芝不爱易先生；同学圈的美人计从一开始就背着她——她对易的全部感情，是「至少知道自己在干什么」。</p>
+    <p><b>关键理解：</b>李安电影还原苍凉绝望又加温情；1023黄包车编号等细节；易先生甚至感激她的死带来的大风浪。</p>
+    <div class="pitfall">避坑：用「恋爱脑」概括王佳芝 = 错过整部作品的虚无主题；亦勿把易先生读成单薄纯恶。</div>
+    <div class="highlight">主持人引用：电影里「彻头彻尾的虚无」——爱情荒谬、友情是笑话，唯有行动尚有形状。</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">六、人与书：性格、母女、自传</h2>
+
+  <div class="card card-green">
+    <h3>外冷内烫，不是薄情</h3>
+    <p><b>在讲什么：</b>外界觉其冷淡清高，主持人强调她对同学与同代女作家更多是心心相惜；敏感像神经裸露，外面冰层又太厚，于是弹回自我灼伤。</p>
+    <p><b>关键理解：</b>遗少形象在作品里多为负面，不宜把「贵族炫耀」当成她的自我认同。</p>
+  </div>
+
+  <div class="card">
+    <h3>《雷峰塔》《易经》：自传织体与弟弟</h3>
+    <p><b>在讲什么：</b>两书本为一册：出生到逃家（《雷峰塔》）、再到港战回沪（《易经》）；沈琵琶眼中弟弟、父亲、后母才是一家人。</p>
+    <p><b>关键理解：</b>囚禁、耳光签支票等情节与小说互文；见弟弟最后一面时后悔没多带钱——童话式点心撞上真实贫苦。</p>
+    <div class="action">怎么用：读完代表作再读自传体，用「眼熟的人」做索引，体会她如何把家史炼成虚构。</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">七、对比、避坑与方法边界</h2>
+
+  <div class="card">
+    <h3>张爱玲细读 vs 主流误读</h3>
+    <table>
+      <tr><th>维度</th><th>常见说法</th><th>本期纠正</th><th>一句话结论</th></tr>
+      <tr><td>格局</td><td>小情小爱、杯水风波</td><td>微观写人四两拨千斤；限制即深渊</td><td>人心大于世界</td></tr>
+      <tr><td>第一炉香</td><td>恋爱脑堕落史</td><td>支点叙事 + 摆烂告白机制</td><td>看选择结构，不看道德标签</td></tr>
+      <tr><td>色戒</td><td>女特工爱上汉奸</td><td>虚无废墟中的目的感</td><td>几乎不爱，死于形状</td></tr>
+      <tr><td>五四叙事</td><td>新青年必然进步</td><td>《五四遗事》笑柄式复辟</td><td>话术≠能力与担当</td></tr>
+      <tr><td>母女</td><td>冷血不奔丧</td><td>美国赤贫+为夫治病</td><td>先查物质条件再判心</td></tr>
+    </table>
+  </div>
+
+  <div class="card card-orange">
+    <h3>避坑清单</h3>
+    <p><b>1. 概括式标签阅读：</b>三观检测替代细读 → 共情消失，只剩审判。</p>
+    <p><b>2. 用异性关注度自我估价：</b>背诵《封锁》吕宗桢心理——心动可以很廉价。</p>
+    <p><b>3. 把「不骗你」当深情：</b>《第一炉香》示范：未承诺的坦白仍是操控。</p>
+    <p><b>4. 性教育讳莫如深：</b>《第二炉香》——过度保护制造隐患与人言屠刀。</p>
+    <p><b>5. 只爱戏剧化苦难：</b>《花凋》——具体病痛的人被当作怪物；练习爱具体的人。</p>
+    <p><b>严重程度：</b>1–2 致命（毁阅读力与自尊校准）；3–5 小心（毁亲密关系与判断）。</p>
+  </div>
+
+  <div class="card card-purple">
+    <h3>方法边界：这套细读何时适用</h3>
+    <p><b>适用：</b>愿意放慢、能忍受道德不适、关心心理密度与文体编织的读者；适合当「回家路上的长陪伴」精听或选篇精听。</p>
+    <p><b>不适用：</b>只想要剧情爽感或人物人设打分；也不替代学术考据——主持人带强烈粉丝热情与情绪化朗读，宜对照纸质文本。</p>
+    <p><b>本集边界：</b>缺四短篇 +《小团圆》另集；Whisper 转写有大量专名错字，总结已按通行书名校正。</p>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">八、金句摘录</h2>
+  <div class="card">
+    <div class="quote">「人活着总要有个支点。」——串联《第一炉香》与《色戒》</div>
+    <div class="quote">「过度保护的背后是失去保护。」——《第二炉香》</div>
+    <div class="quote">「男子对女子最隆重的赞美是求婚」——《金锁记》话头，在《封锁》里被撕碎其不平等心态</div>
+    <div class="quote">「美丽而苍凉的手势」——长安主动结束完美一段</div>
+    <div class="quote">「我总是等着你」→「她死在三周后」——《花凋》张力公式</div>
+    <div class="quote">「悲壮是一种完成，苍凉是一种启示。」</div>
+    <div class="quote">「原来你也在这里。」——主持人收束：漫长陪伴后的相遇</div>
+  </div>
+</div>
+
+<div class="conclusion">
+  <h2>总结与行动</h2>
+  <h3>核心要点</h3>
+  <ul>
+    <li>张爱玲的「小」是被历史限制的舞台，不是格局上限；细读看见的是人性支点、夹缝现代性与苍凉美学。</li>
+    <li>经典机制可复用：摆烂告白、工具性心动、希望→踩空张力、月亮/帐子式编织、进步话术下的复辟。</li>
+    <li>代表作路径建议：炉香 → 封锁 → 金锁记 → 花凋 → 倾城 → 半生缘 → 色戒 → 雷峰塔/易经。</li>
+    <li>把她当心理大师读：心理学成绩优于语文——鬼压床式全能暴怒、多层情绪短对话皆是例证。</li>
+    <li>单人解读播客：情绪浓、歌单穿插；当陪读教练，最终仍要回到纸书原文。</li>
+  </ul>
+  <h3>行动清单</h3>
+  <ol>
+    <li>本周精读一篇（建议《封锁》或《花凋》），禁止用一句话标签概括，写 5 条「人物为什么这样选」。</li>
+    <li>遇到「我不配所以对你诚实」话术，列出对方可核验的承诺（通常为空）。</li>
+    <li>读《金锁记》结尾时，只盯月亮与「没有光的所在」两处呼应，体会编织而非情节。</li>
+    <li>看李安《色戒》前后各读小说一过，专门找「虚无」而非「爱情」证据。</li>
+    <li>若听完全集：对照《昭语记》补缺四篇；《小团圆》听专集，勿与本集混为一谈。</li>
+  </ol>
+  <h3>关键认知转变</h3>
+  <p>以前可能觉得张爱玲=怨女传奇+金句语录，或「会写但格局小」。现在理解：她是在微观尺度上处理欲望、金钱、战争与现代性夹缝的文体工程师；读她练的是看见复杂、爱具体的人，以及识别生活中那些精致的精神胜利法。</p>
+</div>
+
+<div class="footer">来源：这个月的播客 · 010.张爱玲逐篇解析 · 总结图由音频转录生成 · 专名已据通行书名校正</div>
+
+</div>
+</body>
+</html>
