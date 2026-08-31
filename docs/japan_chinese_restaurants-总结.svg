@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="5143" viewBox="0 0 1320 5143">
+  <foreignObject x="0" y="0" width="1320" height="5143">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,0.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:20px 28px;text-align:center;min-width:160px;font-weight:700;font-size:16px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3{color:#92400e;margin-bottom:8px}
+.correction p{color:#92400e;font-size:15px}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,0.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.speaker{display:inline-block;font-size:13px;font-weight:600;padding:2px 10px;border-radius:12px;margin-right:8px}
+.speaker-host{background:#dbeafe;color:#1e40af}
+.speaker-guest{background:#ede9fe;color:#6b21a8}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,0.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,0.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,0.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}
+@media (max-width:640px){body,.container{padding:16px 12px!important}.container{max-width:100%!important}h1{font-size:24px!important}h2,.sec-title{font-size:18px!important}h3{font-size:16px!important}p,li{font-size:14px!important}.summary-line{font-size:15px!important;padding:14px 16px!important}.map,.card,.timeline{padding:16px!important;margin-bottom:16px!important}.map h2{font-size:18px!important}.diagram{gap:10px!important;padding:10px 0!important}.node{min-width:100px!important;padding:12px 16px!important;font-size:13px!important}.arrow{font-size:18px!important}.conclusion{padding:20px!important}.footer{padding:20px 0 12px!important}}</style>
+      
+<div class="container">
+
+<h1>日本的中餐馆：家的味道与漂泊的治愈</h1>
+<div class="meta">
+  <span class="tag tag-blue">播客</span>
+  <span class="tag tag-purple">日本生活</span>
+  <span class="tag tag-green">中餐</span>
+  <span class="tag tag-orange">49分钟</span>
+  <span class="tag tag-gray">饭来张口FM</span>
+</div>
+<div class="summary-line">老饭（大阪留学）与雪梨（石川山里）对照多年在日中餐记忆：从 780 日元酸菜白肉定食到海底捞「猎奇不失望」、从不正宗东北兰州面到山里东北人开的台湾料理微信群送餐，再到千叶六点开门的豆浆油条店——味道可以挑剔，真正留下的是人情、烟火与一国他乡的避风港。</div>
+
+<a class="source-link" href="https://www.xiaoyuzhoufm.com/episode/68ea9a78224325ea70c08f20">小宇宙原集</a>
+
+<div class="timeline">
+  <h3>关键时间轴</h3>
+  <div class="timeline-item"><span class="timeline-time">00:00</span><span class="timeline-text">开场：正经中餐 vs 中华料理；两人留学坐标（大阪 / 石川）</span></div>
+  <div class="timeline-item"><span class="timeline-time">08:00</span><span class="timeline-text">难波恒远小吃酸菜白肉定食；时薪与「改善生活」逻辑</span></div>
+  <div class="timeline-item"><span class="timeline-time">16:00</span><span class="timeline-text">张亮劝退、烧烤店预约、螺蛳粉肉夹馍、不正宗牛肉面</span></div>
+  <div class="timeline-item"><span class="timeline-time">24:00</span><span class="timeline-text">中国茶房烤鸭；海底捞大阪/东京对比与学生折扣</span></div>
+  <div class="timeline-item"><span class="timeline-time">32:00</span><span class="timeline-text">山里台湾料理：隐藏菜单、送餐、钓胖头鱼、春节聚会据点</span></div>
+  <div class="timeline-item"><span class="timeline-time">42:00</span><span class="timeline-text">千叶早餐店人情味；东京选择多但距离远；避风港结语</span></div>
+</div>
+
+<div class="map">
+  <h2>核心脉络</h2>
+  <div class="diagram">
+    <div class="node node-orange">匮乏期<br/><small>有得吃就满足</small></div>
+    <div class="arrow">→</div>
+    <div class="node">选择变多<br/><small>开始挑剔味道</small></div>
+    <div class="arrow">→</div>
+    <div class="node">连锁/猎奇<br/><small>海底捞=熟悉感</small></div>
+    <div class="arrow">→</div>
+    <div class="node node-green">避风港店<br/><small>人情 &gt; 装潢</small></div>
+  </div>
+</div>
+
+<div class="correction">
+  <h3>常见误解 / 认知纠偏</h3>
+  <p>「在日本吃中餐=不正宗就该吐槽」忽略阶段差：没选择时亲切感压过正宗；有选择后才有资格挑。旅游吃海底捞不是离谱——是把熟悉品牌搬到异国验证的仪式。东京店更好吃更漂亮，也往往更冷漠；山里/早餐小店输在品类，赢在据点感。</p>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">一、大阪：留学胃的进阶</h2>
+
+  <div class="card">
+    <h3><span class="speaker speaker-host">老饭</span> 恒远小吃：780–980 的「发工资仪式」</h3>
+    <p><b>在讲什么：</b>难波小门脸东北馆，午晚定食；酸菜白肉量大实惠；包子饺子看着后厨手包。</p>
+    <p><b>关键理解：</b>月伙食 1–1.5 万日元时，药店打工时薪约 1100–1300，一小时工资≈一顿定食；「不惨」是主观感受，改善靠偶发仪式。</p>
+    <p><b>怎么用：</b>在异地找「发薪日固定款」店，比追网红更抗情绪波动。</p>
+    <div class="highlight">原文依据：「打工发了工资……点一份酸菜白肉的定食……旁边店换了多少代，这家还是记忆中的样子。」</div>
+  </div>
+
+  <div class="card card-orange">
+    <h3>⚠ 卫生观感与定价劝退</h3>
+    <p><b>原因：</b>张亮麻辣烫门脸「不够干净」零进店欲；汤底近千+菜另计，2018 年觉得没必要花两三千。</p>
+    <div class="pitfall">面向中国团的喜茶店：杯袋吸管堆着、店员玩手机不收——像快倒闭，体验差到「想买也走了」。</div>
+    <p><b>解法：</b>连锁熟悉感要叠加现场卫生与座位流转；脏乱不是「正宗加分」。</p>
+    <p><b>严重程度：</b>小心</p>
+  </div>
+
+  <div class="card">
+    <h3>不正宗牛肉面 vs 有得选之后的挑剔</h3>
+    <p>东北人开兰州面：二细三细同粗，开料罐舀粉兑水——仍觉好吃，因「没得选」+亲切。到东京面店变多，才开始批判比较。</p>
+    <div class="relation">相关：烧烤店「上上千」需微信预约、凉皮甜辣；人均炒菜三四千日元时烧烤更「舍得」。</div>
+    <div class="quote">「还轮不到挑的时候……先有的吃再说……有的选了甚至我还批判。」</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">二、连锁猎奇与山里据点</h2>
+
+  <div class="card card-purple">
+    <h3><span class="speaker speaker-host">老饭</span> / <span class="speaker speaker-guest">雪梨</span> 海底捞：猎奇不失望</h3>
+    <p>大阪 2018.10 开业，同学聚餐贵但味近国内；父母更早在东京吃（约 700+ 人民币）被不解——实则同一心态：熟悉品牌跨国验证。要的是「在他乡吃到海底捞的感觉」，平平无奇也算赢。</p>
+    <div class="quote">「它只要能做得不出错它就已经赢了……要的只是在一国他乡体验海底捞儿的这么一个感觉。」</div>
+    <div class="highlight">原文依据：学生卡 85 折仍一年一两次；水果台用丑橘西柚凑数，西瓜别想。</div>
+  </div>
+
+  <div class="card card-green">
+    <h3><span class="speaker speaker-guest">雪梨</span> 山里东北人开的「台湾料理」</h3>
+    <p><b>核心机制：</b>主客日本人→日式中华菜单；中国学生多了→口头点锅包肉水煮鱼→手写隐藏菜单；再演进微信群早发今日菜、校门口交便当；老板钓鱼 500 日元一条胖头鱼；疫情春节店内投影春晚=据点。</p>
+    <p><b>关键理解：</b>店从餐厅变成社区节点；城里竞品卷烤串小龙虾后老板退出配送，学生仍回「熟悉那家」。</p>
+    <div class="action">在选择稀缺地区：和老板建立固定关系，比追新店更保值。</div>
+    <div class="highlight">原文依据：「已经不是我们为了吃饭的一个地方了……像一个据点一样。」</div>
+  </div>
+
+  <div class="card">
+    <h3>观点对比：大阪繁华胃 vs 石川山里胃</h3>
+    <table>
+      <tr><th>维度</th><th>大阪留学（老饭）</th><th>石川山里（雪梨）</th></tr>
+      <tr><td>供给</td><td>难波中餐密集、更新快</td><td>方圆几公里一两家，极稳定</td></tr>
+      <tr><td>情绪</td><td>从抠到舍得，逐步挑剔</td><td>有吃就行→逼出身手厨艺</td></tr>
+      <tr><td>记忆锚</td><td>定食店、烧烤预约、海底捞</td><td>隐藏菜单、送餐群、春晚聚</td></tr>
+      <tr><td>后来东京</td><td>选择爆炸</td><td>缺山里那种亲切，直到早餐店</td></tr>
+    </table>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">三、避风港：早餐店与方法边界</h2>
+
+  <div class="card card-purple">
+    <h3>💡 心法：人情味店 &gt; 都内网红早茶</h3>
+    <p>日本传统「中式早餐」稀缺；千叶老夫妻六点卖豆浆油条豆腐脑，路边双闪车排队像国内街边。油条约 150 日元 vs 都内 250–350；都内半成品早茶两人 3000+ 只换来更想这家。</p>
+    <div class="quote">「它可以不大它可以不好吃，但是它可以让我们感受到家的温暖。」</div>
+    <div class="action">帮收拾桌子、群里问还剩什么馅再出门、累了劝歇——从顾客变成共同维护据点的人。</div>
+    <p><b>适用边界：</b>追求米其林/探店清单不适用；要情绪稳定与归属感时适用。</p>
+  </div>
+
+  <div class="card card-orange">
+    <h3>⚠ 体验翻车：热拉面店与关门神店</h3>
+    <p><b>原因：</b>夏日长条店空调不足+后厨热气，味觉记忆被「煎熬」覆盖；大连炸串神店奶奶+儿子手作，再访已关门改行卖房。</p>
+    <div class="pitfall">只靠谷歌高分也可能踩环境雷；心动店要珍惜当下，别默认永远开着。</div>
+    <p><b>严重程度：</b>可忽略到小心</p>
+  </div>
+
+  <div class="card">
+    <h3>方法边界与金句</h3>
+    <table>
+      <tr><th>需求</th><th>更适合</th><th>别强求</th></tr>
+      <tr><td>情绪归属</td><td>固定小店、老板熟、可帮忙</td><td>最新网红、装潢最好</td></tr>
+      <tr><td>尝正宗/多样</td><td>东京等选择多的城市</td><td>山里唯一中餐店</td></tr>
+      <tr><td>猎奇熟悉品牌</td><td>海外连锁（海底捞等）</td><td>当成本地最佳中餐</td></tr>
+      <tr><td>穷学生改善</td><td>定食/烧烤人均可控</td><td>动辄人均三四千炒菜</td></tr>
+    </table>
+    <div class="quote">「选择多了装潢好了味道好了，但是人和人的距离就变得很远。」</div>
+  </div>
+</div>
+
+<div class="conclusion">
+  <h2>总结与行动</h2>
+  <h3>核心要点</h3>
+  <ul>
+    <li>中餐记忆随「匮乏→丰裕」升级：先亲切，后挑剔。</li>
+    <li>经得起时间的是小门脸不变装的店，不是半年换一茬的街。</li>
+    <li>海外连锁满足的是熟悉仪式，不是发现本地最佳。</li>
+    <li>供给稀缺处，一家店可进化成送餐、聚会、据点。</li>
+    <li>漂泊治愈靠人情烟火；主动维护比被动消费更稳。</li>
+  </ul>
+  <h3>行动清单</h3>
+  <ol>
+    <li>在现居城市找 1 家「情绪稳定款」中餐/早餐，固定去到被记住。</li>
+    <li>穷游/留学期：先定「发薪仪式店」，再谈探店清单。</li>
+    <li>进店先看卫生与翻台，别用脏乱自我说服「正宗」。</li>
+    <li>对神店：当场吃够、可加微信；默认它可能明年不在。</li>
+    <li>评论区可记：你在他乡的「避风港」店是哪一家。</li>
+  </ol>
+  <h3>关键认知转变</h3>
+  <p>以前觉得留学中餐叙事是「哪家更正宗、哪家更便宜」。现在理解：真正被反复提起的，是能把陌生人变成「一起希望这家店长久开下去」的角落——味道只是入场券，治愈来自被当作自家孩子的那一声招呼。</p>
+</div>
+
+<div class="footer">饭来张口FM · 日本中餐馆 · 音频总结 SVG</div>
+</div>
+
+    </div>
+  </foreignObject>
+</svg>

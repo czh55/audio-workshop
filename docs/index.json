@@ -1,5 +1,139 @@
 [
   {
+    "date": "2026-08-31",
+    "filename": "italian_food_ordering-总结.svg",
+    "title": "38. 如何急头白脸地吃好一顿意大利菜",
+    "summary": "前半教选店、道次、酒与礼仪，后半用城邦史与哥伦布大交换说明「没有单一正宗意餐」；核心是风土与共餐。",
+    "tags": [
+      "意大利菜",
+      "餐桌礼仪",
+      "饮食史"
+    ],
+    "url": "https://www.xiaoyuzhoufm.com/episode/6a84e4725aeb2a5712e8f1ac",
+    "duration": "2小时1分",
+    "svg_height": 11734,
+    "author": "游时"
+  },
+  {
+    "date": "2026-08-31",
+    "filename": "learning_in_the_cracks-总结.svg",
+    "title": "闲聊｜成年人如何在夹缝中学习？｜Vol.027",
+    "summary": "成年人夹缝学习卡在惰性与无反馈；用恐惧×兴趣驱动，J 人双周时段表与 P 人外部死线各有解法。",
+    "tags": [
+      "成人学习",
+      "时间管理"
+    ],
+    "url": "https://www.xiaoyuzhoufm.com/episode/6a8aee6e1352af56ff3aadbb",
+    "duration": "43分",
+    "svg_height": 9152,
+    "author": "乐乐欲试"
+  },
+  {
+    "date": "2026-08-31",
+    "filename": "japan_travel_food_chain-总结.svg",
+    "title": "22.日本旅游也有“鄙视链”？我不信。",
+    "summary": "用口音鄙视链开玩笑拆日本旅行分层，落地心法是先定要什么，再插入「浪费时间」与当场买手作；初次仍走大众线。",
+    "tags": [
+      "日本旅行",
+      "温泉红叶",
+      "生活方式"
+    ],
+    "url": "https://www.xiaoyuzhoufm.com/episode/674ea3e18b91f86ee4d44a52",
+    "duration": "1小时1分",
+    "svg_height": 5679,
+    "author": "真实的人类"
+  },
+  {
+    "date": "2026-08-31",
+    "filename": "yiwu_small_goods-总结.svg",
+    "title": "EP03｜小商品天堂义乌：便宜是便宜，真的是好货",
+    "summary": "义乌是线下商业课：好且便宜、安全线过滤入口商品、伴手礼与仪式礼物分场景；看见溢价后再清醒为品牌付钱。",
+    "tags": [
+      "消费观察",
+      "义乌",
+      "供应链"
+    ],
+    "url": "https://www.xiaoyuzhoufm.com/episode/6a6b4946b581962ce2be0cdd",
+    "duration": "43分",
+    "svg_height": 5063,
+    "author": "逛街专家"
+  },
+  {
+    "date": "2026-08-31",
+    "filename": "five_sounds_end_of_world-总结.svg",
+    "title": "020 | 去世界尽头，听五种声音",
+    "summary": "主持人带你听深海、火山、高山、流冰、沙漠五处世界尽头的田野录音，用原样声景感受地球细小缓慢的秩序与正在消失的声音。",
+    "tags": [
+      "田野录音",
+      "声音艺术",
+      "自然"
+    ],
+    "url": "https://www.xiaoyuzhoufm.com/episode/6a5b8f1aa3fec224d59fa176",
+    "duration": "42分",
+    "svg_height": 8390,
+    "author": "听起来不错！"
+  },
+  {
+    "date": "2026-08-31",
+    "filename": "japan_chinese_restaurants-总结.svg",
+    "title": "日本的中餐馆：家的味道与漂泊的治愈｜Vol.13",
+    "summary": "大阪与石川对照在日中餐记忆：从匮乏满足到有得挑剔，真正治愈的是人情据点与千叶早餐店式避风港。",
+    "tags": [
+      "日本生活",
+      "中餐",
+      "留学"
+    ],
+    "url": "https://www.xiaoyuzhoufm.com/episode/68ea9a78224325ea70c08f20",
+    "duration": "49分",
+    "svg_height": 5143,
+    "author": "范来张口FM"
+  },
+  {
+    "date": "2026-08-31",
+    "filename": "extreme_weather_future-总结.svg",
+    "title": "博物&气象局：极端天气我们还要忍受多久！！",
+    "summary": "气象局专家拆清天气/气候与「多少年一遇」误解，用 IPCC 数据说明升温速率才是风险，并教你用预警、雷达与会商结论应对怪天。",
+    "tags": [
+      "气候科学",
+      "极端天气",
+      "科普"
+    ],
+    "url": "https://www.xiaoyuzhoufm.com/episode/6a7df54436641f136d87ddbf",
+    "duration": "1小时20分",
+    "svg_height": 12505,
+    "author": "博物聊天中心"
+  },
+  {
+    "date": "2026-08-31",
+    "filename": "europe_filter_cracked-总结.svg",
+    "title": "E179. 第一次去欧洲，我的“发达国家”滤镜有点碎了",
+    "summary": "首次欧洲十六天：处处收费、分区治理与街头落差打碎「发达国家」滤镜，罗马古文明仍震撼，带长辈旅行更考验表达与体力。",
+    "tags": [
+      "旅行观察",
+      "文化对比",
+      "欧洲"
+    ],
+    "url": "https://www.xiaoyuzhoufm.com/episode/6a855e9efb87252df2ec5475",
+    "duration": "1小时",
+    "svg_height": 11585,
+    "author": "高贵FM"
+  },
+  {
+    "date": "2026-08-31",
+    "filename": "brand_premium_decline-总结.svg",
+    "title": "EP07｜品牌溢价失效了吗？我们越来越不愿意为故事买单",
+    "summary": "故事与氛围感溢价在退潮，品质与信任仍值钱；女装去品牌化，医美缺能扛信任的牌子。",
+    "tags": [
+      "品牌溢价",
+      "消费决策",
+      "逛街专家"
+    ],
+    "url": "https://www.xiaoyuzhoufm.com/episode/6a8c2e39ef65145dfcc49bcd",
+    "duration": "29分",
+    "svg_height": 8429,
+    "author": "逛街专家"
+  },
+  {
     "date": "2026-08-25",
     "filename": "gene_therapy_death-总结.svg",
     "title": "当治愈成为诱惑：6岁女童基因治疗死亡事件全复盘",

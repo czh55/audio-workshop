@@ -1,7 +1,141 @@
 {
  "generated": "2026-08-25",
- "count": 120,
+ "count": 129,
  "items": [
+  {
+   "slug": "brand_premium_decline",
+   "title": "EP07｜品牌溢价失效了吗？我们越来越不愿意为故事买单",
+   "date": "2026-08-31",
+   "author": "逛街专家",
+   "tags": [
+    "品牌溢价",
+    "消费决策",
+    "逛街专家"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/6a8c2e39ef65145dfcc49bcd",
+   "duration": "29分",
+   "words": 8095,
+   "file": "transcripts/brand_premium_decline.txt"
+  },
+  {
+   "slug": "europe_filter_cracked",
+   "title": "E179. 第一次去欧洲，我的“发达国家”滤镜有点碎了",
+   "date": "2026-08-31",
+   "author": "高贵FM",
+   "tags": [
+    "旅行观察",
+    "文化对比",
+    "欧洲"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/6a855e9efb87252df2ec5475",
+   "duration": "1小时",
+   "words": 18559,
+   "file": "transcripts/europe_filter_cracked.txt"
+  },
+  {
+   "slug": "extreme_weather_future",
+   "title": "博物&气象局：极端天气我们还要忍受多久！！",
+   "date": "2026-08-31",
+   "author": "博物聊天中心",
+   "tags": [
+    "气候科学",
+    "极端天气",
+    "科普"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/6a7df54436641f136d87ddbf",
+   "duration": "1小时20分",
+   "words": 19628,
+   "file": "transcripts/extreme_weather_future.txt"
+  },
+  {
+   "slug": "five_sounds_end_of_world",
+   "title": "020 | 去世界尽头，听五种声音",
+   "date": "2026-08-31",
+   "author": "听起来不错！",
+   "tags": [
+    "田野录音",
+    "声音艺术",
+    "自然"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/6a5b8f1aa3fec224d59fa176",
+   "duration": "42分",
+   "words": 3008,
+   "file": "transcripts/five_sounds_end_of_world.txt"
+  },
+  {
+   "slug": "italian_food_ordering",
+   "title": "38. 如何急头白脸地吃好一顿意大利菜",
+   "date": "2026-08-31",
+   "author": "游时",
+   "tags": [
+    "意大利菜",
+    "餐桌礼仪",
+    "饮食史"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/6a84e4725aeb2a5712e8f1ac",
+   "duration": "2小时1分",
+   "words": 38781,
+   "file": "transcripts/italian_food_ordering.txt"
+  },
+  {
+   "slug": "japan_chinese_restaurants",
+   "title": "日本的中餐馆：家的味道与漂泊的治愈｜Vol.13",
+   "date": "2026-08-31",
+   "author": "范来张口FM",
+   "tags": [
+    "日本生活",
+    "中餐",
+    "留学"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/68ea9a78224325ea70c08f20",
+   "duration": "49分",
+   "words": 13045,
+   "file": "transcripts/japan_chinese_restaurants.txt"
+  },
+  {
+   "slug": "japan_travel_food_chain",
+   "title": "22.日本旅游也有“鄙视链”？我不信。",
+   "date": "2026-08-31",
+   "author": "真实的人类",
+   "tags": [
+    "日本旅行",
+    "温泉红叶",
+    "生活方式"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/674ea3e18b91f86ee4d44a52",
+   "duration": "1小时1分",
+   "words": 17836,
+   "file": "transcripts/japan_travel_food_chain.txt"
+  },
+  {
+   "slug": "learning_in_the_cracks",
+   "title": "闲聊｜成年人如何在夹缝中学习？｜Vol.027",
+   "date": "2026-08-31",
+   "author": "乐乐欲试",
+   "tags": [
+    "成人学习",
+    "时间管理"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/6a8aee6e1352af56ff3aadbb",
+   "duration": "43分",
+   "words": 12533,
+   "file": "transcripts/learning_in_the_cracks.txt"
+  },
+  {
+   "slug": "yiwu_small_goods",
+   "title": "EP03｜小商品天堂义乌：便宜是便宜，真的是好货",
+   "date": "2026-08-31",
+   "author": "逛街专家",
+   "tags": [
+    "消费观察",
+    "义乌",
+    "供应链"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/6a6b4946b581962ce2be0cdd",
+   "duration": "43分",
+   "words": 11221,
+   "file": "transcripts/yiwu_small_goods.txt"
+  },
   {
    "slug": "finding-kindred",
    "title": "No.214 寻找同类：小红书、bilibili，以及五花八门的那些社区｜中国互联网故事 26 - 半拿铁",

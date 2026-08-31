@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>博物&amp;气象局：极端天气我们还要忍受多久！！</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,0.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:20px 28px;text-align:center;min-width:160px;font-weight:700;font-size:16px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3{color:#92400e;margin-bottom:8px}
+.correction p{color:#92400e;font-size:15px}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,0.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.speaker{display:inline-block;font-size:13px;font-weight:600;padding:2px 10px;border-radius:12px;margin-right:8px}
+.speaker-host{background:#dbeafe;color:#1e40af}
+.speaker-guest{background:#ede9fe;color:#6b21a8}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,0.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,0.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,0.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}
+@media (max-width:640px){body,.container{padding:16px 12px!important}.container{max-width:100%!important}h1{font-size:24px!important}h2,.sec-title{font-size:18px!important}h3{font-size:16px!important}p,li{font-size:14px!important}.summary-line{font-size:15px!important;padding:14px 16px!important}.map,.card,.timeline{padding:16px!important;margin-bottom:16px!important}.map h2{font-size:18px!important}.diagram{gap:10px!important;padding:10px 0!important}.node{min-width:100px!important;padding:12px 16px!important;font-size:13px!important}.arrow{font-size:18px!important}.conclusion{padding:20px!important}.footer{padding:20px 0 12px!important}}
+.html-toolbar{position:sticky;top:0;z-index:100;display:flex;align-items:center;gap:16px;padding:12px 20px;background:rgba(248,250,252,.92);backdrop-filter:blur(8px);border-bottom:1px solid #e2e8f0;font-family:"PingFang SC","Microsoft YaHei",sans-serif}
+.html-toolbar .back-link{font-size:14px;color:#3b82f6;text-decoration:none;white-space:nowrap;font-weight:600}
+.html-toolbar .back-link:hover{text-decoration:underline}
+.html-toolbar-title{flex:1;font-size:14px;font-weight:600;color:#1e293b;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.html-toolbar .html-audio{width:260px;height:36px;border-radius:8px}
+       .html-toolbar .html-svg-link{font-size:13px;color:#64748b;text-decoration:none;white-space:nowrap}
+       .html-toolbar .html-svg-link:hover{color:#3b82f6;text-decoration:underline}
+       .html-toolbar .html-en-link{font-size:13px;color:#0d686c;text-decoration:none;white-space:nowrap;font-weight:600;padding:4px 10px;border:1px solid #99c6c0;border-radius:99px;background:#f0faf6}
+       .html-toolbar .html-en-link:hover{color:#3b82f6;border-color:#3b82f6}
+       @media (max-width:640px){
+  .html-toolbar{flex-wrap:wrap;gap:10px;padding:10px 12px}
+  .html-toolbar-title{flex-basis:100%;order:-1;font-size:13px}
+  .html-toolbar .html-audio{width:100%}
+}
+
+body{padding:0!important;margin:0!important}
+.container{padding:48px 60px}
+@media (max-width:640px){.container{padding:16px 12px!important}.container{max-width:100%!important}h1{font-size:24px!important}h2,.sec-title{font-size:18px!important}h3{font-size:16px!important}p,li{font-size:14px!important}.summary-line{font-size:15px!important;padding:14px 16px!important}.map,.card,.timeline{padding:16px!important;margin-bottom:16px!important}.map h2{font-size:18px!important}.diagram{gap:10px!important;padding:10px 0!important}.node{min-width:100px!important;padding:12px 16px!important;font-size:13px!important}.arrow{font-size:18px!important}.conclusion{padding:20px!important}.footer{padding:20px 0 12px!important}}
+</style>
+</head>
+<body>
+<div class="html-toolbar">
+  <a class="back-link" href="index.html">← 返回首页</a>
+  <div class="html-toolbar-title">博物&amp;气象局：极端天气我们还要忍受多久！！</div>
+  <audio controls preload="metadata" class="html-audio" src="audio/extreme_weather_future.mp3">您的浏览器不支持音频播放</audio>
+  
+  <a class="html-svg-link" href="viewer.html?f=extreme_weather_future-总结.svg" target="_blank">SVG 版 ↗</a>
+</div>
+<div class="container">
+
+<h1>博物&amp;气象局：极端天气我们还要忍受多久！！</h1>
+<div class="meta">
+  <span class="tag tag-blue">播客</span>
+  <span class="tag tag-purple">气候科学</span>
+  <span class="tag tag-green">极端天气</span>
+  <span class="tag tag-orange">80分</span>
+</div>
+<div class="summary-line">国家气候中心邵鹏诚与气象科普中心崔国辉，拆开「天气 vs 气候」「偏 vs 怪」「多少年一遇」的误解，讲清升温速率、厄尔尼诺边界、会商如何拍板，以及老百姓如何用预警和雷达图避险。</div>
+<a class="source-link" href="https://www.xiaoyuzhoufm.com/episode/6a7df54436641f136d87ddbf">小宇宙原集链接</a>
+
+<div class="timeline">
+  <h3>关键时间轴</h3>
+  <div class="timeline-item"><span class="timeline-time">00:00</span><span class="timeline-text">开场：录制遇暴雨预警，引出「预报准不准」</span></div>
+  <div class="timeline-item"><span class="timeline-time">约08:00</span><span class="timeline-text">天气 vs 气候；「偏」与「怪（极端）」两层含义</span></div>
+  <div class="timeline-item"><span class="timeline-time">约18:00</span><span class="timeline-text">今年案例：华南暴雨、和田小时雨量、吐鲁番 50.2℃</span></div>
+  <div class="timeline-item"><span class="timeline-time">约28:00</span><span class="timeline-text">体感温度 vs 百叶箱气温；「多少年一遇」是概率</span></div>
+  <div class="timeline-item"><span class="timeline-time">约40:00</span><span class="timeline-text">三尺度气候变化 + IPCC：人类贡献 1.24℃ / 1.26℃</span></div>
+  <div class="timeline-item"><span class="timeline-time">约52:00</span><span class="timeline-text">气候临界点、温盐环流风险；厄尔尼诺/拉尼娜</span></div>
+  <div class="timeline-item"><span class="timeline-time">约62:00</span><span class="timeline-text">影响中国气候的「东西南北中」与全国大会商</span></div>
+  <div class="timeline-item"><span class="timeline-time">约72:00</span><span class="timeline-text">老百姓怎么用预报：敬畏自然、雷达图、集合信息</span></div>
+</div>
+
+<div class="map">
+  <h2>核心脉络</h2>
+  <div class="diagram">
+    <div class="node">短期天气<br/>几天体感</div>
+    <div class="arrow">→</div>
+    <div class="node node-orange">极端事件<br/>小概率「怪」</div>
+    <div class="arrow">→</div>
+    <div class="node">工业革命后<br/>升温速率</div>
+    <div class="arrow">→</div>
+    <div class="node node-green">预警+会商<br/>避险适应</div>
+  </div>
+</div>
+
+<div class="correction">
+  <h3>常见误解 / 认知纠偏</h3>
+  <p>① 暴雨红色预警≠全市每条街下满 24 小时——是累计雨量与面雨量达标，山区与城区体感可差很多。② 「50 年一遇」不是「50 年只发生一次」，是历史概率换算。③ 预报气温是百叶箱标准观测，闷热难受常来自湿度与暴晒，不是气象局「不敢报 40℃」。④ 拉尼娜≠一定冷冬——只是多因素之一，以国家气候中心会商结论为准。</p>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">人物与提问</h2>
+  <div class="card">
+    <h3><span class="speaker speaker-host">主持人</span>老信｜博物聊天中心</h3>
+    <p>带着杂志气象主题与公众「今年怪天」的体感，向气象系统专家追问定义、数据与生活应对。</p>
+  </div>
+  <div class="card card-purple">
+    <h3><span class="speaker speaker-guest">嘉宾</span>邵鹏诚｜国家气候中心高级工程师</h3>
+    <p>侧重气候尺度、趋势、厄尔尼诺机制、中国气候驱动因子与气候预测会商逻辑。</p>
+  </div>
+  <div class="card card-purple">
+    <h3><span class="speaker speaker-guest">嘉宾</span>崔国辉｜气象宣传与科普中心高级工程师</h3>
+    <p>侧重公众误解辟谣、体感温度、会商现场感、农业气象服务与出行避险建议。</p>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">概念拆解：天气、气候、极端</h2>
+  <div class="card">
+    <h3>天气 vs 气候</h3>
+    <p><b>在讲什么：</b>天气是几天内实实在在感受到的阴晴雨雪；气候是长时间尺度（标准常取 30 年平均）的统计描述，如「北方冬干冷、夏温和多雨」。</p>
+    <p><b>关键理解：</b>抱怨「怪天」时，先分清是短期波动，还是长期统计偏离。</p>
+    <div class="relation">关系：「偏」=偏离气候值但仍属自然波动；「怪」=极端异常，历史上的小概率事件。</div>
+    <div class="highlight">原文依据：「天气……比较短的时间可能是几天以内……气候……一般上标准是用30年平均……统计值是算出来的。」</div>
+  </div>
+
+  <div class="card">
+    <h3>今年「怪」的证据链</h3>
+    <p><b>在讲什么：</b>高温从「三大火炉」扩到华东华北西北大范围；台风北上深入内陆更常见。案例：5 月华南最强区域暴雨过程；和田小时雨量 34.3mm，接近当地往年全年降水的大部分；吐鲁番艾丁湖景区日最高气温 50.20℃（空气温度，非地表），刷新极端记录。</p>
+    <p><b>怎么用：</b>看《中国气候变化蓝皮书》趋势——1961 年以来极端高温与极端日降水频次总体增加；1961 年是标准化站网质量更可靠的起点，不是「以前没天气」。</p>
+    <div class="highlight">原文依据：「不管是极端高温事件的发生频次还是极端日降水量……都是呈现增加的那么一个趋势。」</div>
+  </div>
+
+  <div class="card card-orange">
+    <h3>避坑：体感 vs 预报气温</h3>
+    <p><b>原因：</b>标准气温在遮阴百叶箱观测；体感还受湿度、风速、暴晒影响。闷热时觉得「才报三十多」常是冤枉预报。</p>
+    <div class="pitfall">嘉宾：气象部门「永远是最想说真话的人」；全球统一百叶箱标准。解法：看 APP 的体感温度/舒适度指数，同时信预警不信体感赌气。</div>
+    <p><b>严重程度：</b>小心——误解会削弱对预警的信任。</p>
+  </div>
+
+  <div class="card card-orange">
+    <h3>避坑：「多少年一遇」</h3>
+    <p><b>在讲什么：</b>是用历史极端事件次数算出的概率再换算成「多少年一遇」，不是日历上保证间隔。</p>
+    <div class="pitfall">去年「50 年一遇」、明年又来，不等于算法骗人，而是极端事件本身变多 + 表述易误解。嘉宾称业务上已少用此表述以免误导。</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">升温速率才是真正吓人的点</h2>
+  <div class="card">
+    <h3>三尺度：地质 / 历史文明 / 仪器观测</h3>
+    <p><b>地质时期：</b>冰期与间冰期循环，靠冰芯、树木、岩层同位素重建，有过更暖与更冷。恐龙时代等相对温暖。</p>
+    <p><b>人类历史：</b>竺可桢曲线用考古与古籍重建五千年中国气温，与格陵兰冰芯序列一致；仰韶、商周、隋唐偏暖，明清小冰期等。</p>
+    <p><b>近百年：</b>工业革命以来仪器观测；现在说的「全球变暖」主要指人类活动驱动。</p>
+    <div class="quote">「从来没有出现过像现在过去几十年就是温度如此快速的这么一个上升……归咎于人类活动。」</div>
+  </div>
+
+  <div class="card card-purple">
+    <h3><span class="speaker speaker-guest">嘉宾数据</span>IPCC：人类几乎贡献了全部升温</h3>
+    <p>2016–2025 十年均值相对 1850–1900 升约 1.26℃，其中人类贡献约 1.24℃；若无人类活动，古气候视角下约只升 0.02℃ 量级。</p>
+    <p><b>关键理解：</b>仰韶/唐朝某些时期气温可能仍高于「现在绝对值」；真正危险是速率——自然波动慢，生态与经济社会来不及适应。</p>
+    <div class="highlight">原文依据：「如此短的时间内温度升高了这么多就是这个升温速率历史上是从来没有过的这是我们现在最担心的。」</div>
+  </div>
+
+  <div class="card">
+    <h3>气候临界点与温盐环流</h3>
+    <p><b>在讲什么：</b>珊瑚白化、海平面上升、冰盖融化等临界点一旦突破，可能进入不可逆状态。极地升温更快（「纬度越高升温越显著」）；海冰融水稀释盐度、减小温度梯度，温盐环流有崩溃风险——举例四大渔场变三大、太平洋岛国与印尼等受海平面影响。</p>
+    <div class="relation">与农业：种植带北移可能增产也带风险；国家气候中心做农业气候区划普查，指导「能种到哪、灾害怎么防」。</div>
+    <div class="action">边界：沙漠不会消失，强行在缺水区种绿可能更糟；绿洲化需降水条件 + 合理管理（如三北工程）。</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">厄尔尼诺与中国气候驱动</h2>
+  <div class="card">
+    <h3>厄尔尼诺 / 拉尼娜：机制与边界</h3>
+    <p><b>机制：</b>赤道信风把暖水吹向西太暖池；信风减弱暖水回流 → 中东太平洋偏暖=厄尔尼诺；信风增强东边冷水上涌=拉尼娜。二者周期性出现，也有正常年；可连续多年同相。</p>
+    <p><b>传统统计：</b>厄尔尼诺年夏季常南方多雨北方少雨、冬季偏暖——近年叠加全球变暖，规律更复杂，不能一概而论。</p>
+    <div class="pitfall">避坑：把每次暴雨都甩锅给「又是厄尔尼诺」；它是主因之一，不是唯一。</div>
+    <div class="highlight">原文依据：「也不能这么说吧他只能说是主因之一……影响咱们中国气候的因素是非常复杂的。」</div>
+  </div>
+
+  <div class="card">
+    <h3>「东西南北中」拆解中国气候</h3>
+    <table>
+      <tr><th>方位</th><th>主要因子</th><th>怎么用这句话</th></tr>
+      <tr><td>东</td><td>海洋：厄尔尼诺/拉尼娜与西太副高联动</td><td>别单看一个海温指数下结论</td></tr>
+      <tr><td>西</td><td>青藏高原热力「高原风机」抽吸气流</td><td>无高原则中纬更易成沙漠；江南降水与其密切相关</td></tr>
+      <tr><td>南</td><td>印度洋/南海海温与水汽、西南季风</td><td>台风+西南季风叠加可致「台风不强但雨极大」</td></tr>
+      <tr><td>北</td><td>中高纬冷空气、北极海冰</td><td>冬季欧亚与北美冷暖常此消彼长</td></tr>
+      <tr><td>季节进程</td><td>华南前汛期→梅雨→七下八上北方防汛</td><td>用官方汛期/冬季气候预测，不看自媒体「冷冬神断」</td></tr>
+    </table>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">预报如何诞生：真人会商</h2>
+  <div class="card card-purple">
+    <h3><span class="speaker speaker-guest">嘉宾</span>天气会商 vs 气候会商</h3>
+    <p><b>国家气象中心（中央气象台）：</b>约 14 天以内天气预报；每日会商，重大过程下午加密会商。</p>
+    <p><b>国家气候中心：</b>季节到年际气候预测；汛期（约 3 月）、冬季（约 10 月底）全国大会商，高校与科研院所专家齐聚，再滚动修订。</p>
+    <p><b>关键理解：</b>数据相同，专家角度不同（海冰/海温/高原等），会商重点在「差异处」博弈权重，最终首席负责拍板；大气混沌，存在不确定性。</p>
+    <div class="quote">「原来这种气象的天气的最终给我们的判断是有很多真人在那儿博弈和会商出来的结果。」</div>
+    <div class="highlight">原文依据：北京「7·23」等过程中，模式报出从未经历过的量级，多位首席与市台一起研判——压力来自「明天就验货」。</div>
+  </div>
+
+  <div class="card">
+    <h3>精度阶梯（方法边界）</h3>
+    <p>约 3 天内较准；约 7 天看降水/温度趋势；预警覆盖 24–48 小时灾害窗口更准。递进式服务：超长期粗范围 → 滚动加密到临近精细，服务防灾减灾。</p>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">对比表与生活应对</h2>
+  <div class="card">
+    <h3>观点对比</h3>
+    <table>
+      <tr><th>维度</th><th>公众常见说法</th><th>嘉宾澄清</th><th>一句话结论</th></tr>
+      <tr><td>怪天</td><td>预报老不准</td><td>体感≠百叶箱；面雨量≠你家门口</td><td>先对齐指标再骂</td></tr>
+      <tr><td>变暖</td><td>谎言 / 地质期也热过</td><td>绝对值有过更暖；速率前所未有</td><td>怕的是快，不是「有没有热过」</td></tr>
+      <tr><td>厄尔尼诺</td><td>一切怪天元凶</td><td>主因之一，规律被变暖改写</td><td>看官方综合会商</td></tr>
+      <tr><td>沙漠变绿</td><td>马上沧海桑田</td><td>降水线西移+管理可局部变绿；沙漠有生态价值</td><td>别强行绿化缺水区</td></tr>
+    </table>
+  </div>
+
+  <div class="card card-green">
+    <h3>💡 心法：敬畏自然 + 集合预报</h3>
+    <p><b>为什么重要：</b>露营、河滩、山区多在汛期；科技发达≠车里绝对安全。</p>
+    <div class="quote">「一定要敬畏自然……宁可信其有。」</div>
+    <div class="action">落地：①关注官方灾害预警；②手机雷达回波——红区（「西红柿」）强、黄区（「鸡蛋」）可能加强，看距离做避险；③自建「集合」：中央气象台看大形势 + 本地 APP 小时预报 + 临近雷达；④日常生活可参照 24 节气「顺应天时」。</div>
+    <p><b>适用边界：</b>雷达适合短时出行；跨省长途仍以 3–7 天趋势 + 滚动修订为准。</p>
+  </div>
+</div>
+
+<div class="conclusion">
+  <h2>总结与行动</h2>
+  <h3>核心要点</h3>
+  <ul>
+    <li>极端天气=小概率事件变频繁；「偏」与「怪」要分开谈。</li>
+    <li>真正危险是升温速率与临界点，不是「古代也曾更热」。</li>
+    <li>预报是模式+经验+会商的真人产品，存在不确定性但精度在提高。</li>
+    <li>厄尔尼诺等只是中国气候拼图之一；季节预测听国家气候中心。</li>
+  </ul>
+  <h3>行动清单</h3>
+  <ol>
+    <li>手机打开中央气象台/气象局官方预警推送，重大天气以预警为准。</li>
+    <li>学会看雷达回波颜色与移动方向，短途出门前看一眼。</li>
+    <li>对比「预报气温」与「体感/舒适度」，停止用体感否定标准气温。</li>
+    <li>汛期避开河滩露营与山区冒险；「车里躲雨」不等于安全。</li>
+    <li>需要季节展望时，查国家气候中心汛期/冬季气候预测，勿信自媒体单因子神断。</li>
+  </ol>
+  <h3>关键认知转变</h3>
+  <p>以前觉得「怪天=预报不行」或「变暖是遥远政治口号」；现在理解怪天有统计与物理基础，预报是会商出来的责任产品，而个人能做的是敬畏自然、读懂预警与雷达。</p>
+</div>
+
+<div class="footer">博物聊天中心 × 中国气象局｜extreme_weather_future｜总结 SVG</div>
+</div>
+</body>
+</html>
