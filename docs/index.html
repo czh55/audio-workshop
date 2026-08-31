@@ -1097,8 +1097,8 @@
             stats.images ? '<span class="topic-stat"><strong>' + stats.images + '</strong> 张长图</span>' : '',
             stats.doctors ? '<span class="topic-stat"><strong>' + stats.doctors + '</strong> 位医生</span>' : '',
             stats.podcasts ? '<span class="topic-stat">跨 <strong>' + stats.podcasts + '</strong> 档播客</span>' : '',
-            stats.cards ? '<span class="topic-stat"><strong>' + stats.cards + '</strong> 条话术</span>' : '',
-            stats.types ? '<span class="topic-stat"><strong>' + stats.types + '</strong> 类话术</span>' : '',
+            stats.cards ? '<span class="topic-stat"><strong>' + stats.cards + '</strong> ' + (stats.cards_label || '条话术') + '</span>' : '',
+            stats.types ? '<span class="topic-stat"><strong>' + stats.types + '</strong> ' + (stats.types_label || '类话术') + '</span>' : '',
             stats.duration ? '<span class="topic-stat">总时长 <strong>' + escapeHtml(stats.duration) + '</strong></span>' : ''
           ].filter(Boolean).join('');
 
