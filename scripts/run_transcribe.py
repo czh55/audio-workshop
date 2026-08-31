@@ -16,14 +16,14 @@ def is_done(base):
 def start_one(base):
     log = open(ROOT / f'{base}-whisper.log', 'w')
     p = subprocess.Popen(
-        ['python3', str(ROOT / 'scripts' / 'transcribe_one.py'), base, '4'],
+        ['python3', str(ROOT / 'scripts' / 'transcribe_one.py'), base, '4', '--force'],
         stdout=log, stderr=subprocess.STDOUT)
     print(f'[start] {base} {time.strftime("%H:%M:%S")}', flush=True)
     return p, log
 
 
-queue = [f for f in FILES if not is_done(f)]
-print(f'queue size: {len(queue)}', flush=True)
+queue = list(FILES)
+print(f'queue size: {len(queue)} (force re-transcribe)', flush=True)
 running = {}
 
 while queue or running:
