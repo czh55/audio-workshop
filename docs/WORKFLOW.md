@@ -106,21 +106,41 @@ export PATH="$PATH:/Users/chenzhiheng/Library/Python/3.9/bin"
 
 ## Step 4：Whisper 转录
 
+推荐用 `scripts/transcribe_one.py`（faster-whisper small），超长音频用 `scripts/transcribe_tiny.py`：
+
 ```bash
-export PATH="$PATH:/Users/chenzhiheng/Library/Python/3.9/bin"
 cd ~/Projects/audio-workshop
-whisper {slug}.m4a --model small --language Chinese --output_dir .
+python3 scripts/transcribe_one.py {slug} 4          # 默认 small
+python3 scripts/transcribe_one.py {slug} 4 --force # 强制重跑
+python3 scripts/transcribe_tiny.py zhang_ailing_analysis  # 11h 等超长
 ```
 
 **模型选择**：
 
 | 模型 | 中文质量 | 速度 | 适用 |
 |------|---------|------|------|
-| tiny | 一般 | 极快 | 快速预览 |
+| tiny | 一般 | 极快 | 超长预览 / 11h+ |
 | **small** | 较好 | 中等(~1h 音频≈1.5h) | **默认** |
 | medium | 很好 | 慢(~1h 音频≈4h) | 高质量需求 |
 
-转录产物：`{slug}.txt` `{slug}.srt` `{slug}.vtt` `{slug}.json`。
+转录产物（四件套，由 `scripts/transcript_format.py` 统一格式化）：
+
+| 文件 | 内容 |
+|------|------|
+| `{slug}.txt` | **主阅读稿**：每段 `[MM:SS - MM:SS]` 时间头 + 中文标点正文；停顿 ≥1.2s 空行分段 |
+| `{slug}.srt` | 逐句字幕（含毫秒时间轴） |
+| `{slug}.vtt` | WebVTT 字幕 |
+| `{slug}.json` | 分段 JSON（`start` / `end` / `text`） |
+
+`txt` 示例：
+
+```text
+[00:00 - 00:18]
+大家好，欢迎来到逛街专家，我是盈露。
+
+[00:19 - 01:05]
+我们今天非常荣幸请来了一位飞行嘉宾……
+```
 
 **批量转录并发管理（关键经验）**：
 
@@ -573,8 +593,8 @@ git commit -m "podcast: summarize {播客标题}"
 **转录稿必须归档保存到 git（硬性要求）**：`{slug}.txt` 是唯一完整保留播客内容的地方（原始音频清理后即不可再转录），每次提交都必须把全部转录归档到 `docs/transcripts/` 并提交，禁止只提交总结产物而遗漏转录。
 
 ```bash
-python3 scripts/build_transcripts_index.py   # 归档根目录 *.txt → docs/transcripts/ 并生成 docs/transcripts-index.json
-git add docs/transcripts/{slug}.txt docs/transcripts-index.json
+python3 scripts/build_transcripts_index.py   # 归档根目录 txt/srt/vtt/json → docs/transcripts/ 并生成 docs/transcripts-index.json
+git add docs/transcripts/{slug}.{txt,srt,vtt,json} docs/transcripts-index.json
 ```
 
 - 若该篇为新转录：`build_transcripts_index.py` 会把 `{slug}.txt` 复制进 `docs/transcripts/` 并重建索引
@@ -643,8 +663,11 @@ rm generate-{slug}.mjs
 | `{slug}.txt` | 纯文本转录稿（**必须归档到 `docs/transcripts/` 并提交**） |
 | `{slug}.srt` | SRT 字幕 |
 | `{slug}.vtt` | WebVTT 字幕 |
-| `{slug}.json` | Whisper JSON（含置信度） |
-| `docs/transcripts/{slug}.txt` | 转录稿归档副本（`scripts/build_transcripts_index.py` 生成，供转录全文搜索页加载，需提交） |
+| `{slug}.json` | 分段 JSON（`start` / `end` / `text`） |
+| `docs/transcripts/{slug}.txt` | 转录主稿归档（带时间戳段落，供阅读页加载） |
+| `docs/transcripts/{slug}.srt` | SRT 归档副本 |
+| `docs/transcripts/{slug}.vtt` | VTT 归档副本 |
+| `docs/transcripts/{slug}.json` | JSON 归档副本 |
 | `docs/transcripts-index.json` | 转录搜索索引（含 slug/title/author/words/file，需提交） |
 | `docs/{slug}-总结.svg` | 内容总结长图 |
 | `docs/{slug}-总结.html` | 独立 HTML 版（`scripts/svg-to-html.py` 生成） |

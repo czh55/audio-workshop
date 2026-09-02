@@ -13,6 +13,8 @@
 !/*.txt
 !docs/audio/**/*.txt
 !docs/transcripts/*.txt
+!docs/transcripts/*.srt
+!docs/transcripts/*.vtt
 !docs/transcripts-index.json
 !requirements.txt
 transcribe_run.log
@@ -24,6 +26,7 @@ docs/audio/.tmp_*
 !docs/topics.json
 !docs/en-index.json
 !docs/transcripts-index.json
+!docs/transcripts/*.json
 !en-content/**/*.json
 
 # Node modules

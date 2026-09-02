@@ -135,11 +135,28 @@
       border-radius: 14px;
       padding: 22px 24px;
       font-size: 15px;
-      line-height: 2;
+      line-height: 1.9;
       color: var(--text);
-      white-space: pre-wrap;
       word-break: break-word;
     }
+    .text.plain { white-space: pre-wrap; }
+    .para-block { margin-bottom: 22px; }
+    .para-block:last-child { margin-bottom: 0; }
+    .para-time {
+      display: inline-block;
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--accent);
+      background: rgba(96,165,250,0.12);
+      border: 1px solid rgba(96,165,250,0.25);
+      border-radius: 8px;
+      padding: 3px 10px;
+      margin-bottom: 8px;
+      font-variant-numeric: tabular-nums;
+    }
+    .para-body { color: var(--text); }
+    .para-line { margin: 0 0 6px; }
+    .para-line:last-child { margin-bottom: 0; }
     .text mark {
       background: rgba(96,165,250,0.3);
       color: var(--accent);
@@ -212,6 +229,77 @@
 
     function escapeRegExp(s) {
       return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    }
+
+    function parseFormattedTranscript(text) {
+      var blocks = text.trim().split(/\n\s*\n/);
+      var parsed = [];
+      var re = /^\[(\d{2}:\d{2}(?::\d{2})?)\s*-\s*(\d{2}:\d{2}(?::\d{2})?)\]\s*$/;
+      blocks.forEach(function(block) {
+        var lines = block.split('\n');
+        if (!lines.length) return;
+        var m = lines[0].trim().match(re);
+        if (m) {
+          parsed.push({
+            start: m[1],
+            end: m[2],
+            lines: lines.slice(1).filter(function(l) { return l.trim(); })
+          });
+        } else {
+          parsed.push({ start: '', end: '', lines: lines.filter(function(l) { return l.trim(); }) });
+        }
+      });
+      var hasTime = parsed.some(function(p) { return p.start; });
+      return hasTime ? parsed : null;
+    }
+
+    function renderTranscriptBody(text, highlightQuery) {
+      var body = document.getElementById('textBody');
+      var parsed = parseFormattedTranscript(text);
+      body.className = 'text' + (parsed ? '' : ' plain');
+
+      function applyHighlight(html) {
+        if (!highlightQuery) return html;
+        var re = new RegExp('(' + escapeRegExp(highlightQuery) + ')', 'gi');
+        return html.replace(re, '<mark>$1</mark>');
+      }
+
+      if (!parsed) {
+        if (highlightQuery) {
+          var re = new RegExp('(' + escapeRegExp(highlightQuery) + ')', 'gi');
+          body.innerHTML = escapeHtml(text).replace(re, '<mark>$1</mark>');
+        } else {
+          body.textContent = text;
+        }
+        return;
+      }
+
+      body.innerHTML = parsed.map(function(p) {
+        var timeHtml = p.start
+          ? '<div class="para-time">' + escapeHtml(p.start + ' - ' + p.end) + '</div>'
+          : '';
+        var linesHtml = p.lines.map(function(line) {
+          var content = highlightQuery
+            ? applyHighlight(escapeHtml(line))
+            : escapeHtml(line);
+          return '<p class="para-line">' + content + '</p>';
+        }).join('');
+        return '<section class="para-block">' + timeHtml + '<div class="para-body">' + linesHtml + '</div></section>';
+      }).join('');
+    }
+
+    function countParagraphs(text) {
+      var parsed = parseFormattedTranscript(text);
+      if (parsed) return parsed.length;
+      return text.split(/\n\s*\n/).filter(function(p) { return p.trim(); }).length;
+    }
+
+    function countWords(text) {
+      var parsed = parseFormattedTranscript(text);
+      if (!parsed) return text.replace(/\s+/g, '').length;
+      return parsed.reduce(function(n, p) {
+        return n + p.lines.join('').replace(/\s+/g, '').length;
+      }, 0);
     }
 
     function showError(msg) {
@@ -307,26 +395,18 @@
         var input = document.getElementById('textSearch');
         input.addEventListener('input', function() {
           var q = input.value.trim();
-          var body = document.getElementById('textBody');
-          if (!q) {
-            body.innerHTML = '';
-            body.appendChild(document.createTextNode(text));
-            return;
-          }
-          var re = new RegExp('(' + escapeRegExp(q) + ')', 'gi');
-          body.innerHTML = escapeHtml(text).replace(re, '<mark>$1</mark>');
+          renderTranscriptBody(text, q || null);
         });
       }
 
-      // 正文
-      document.getElementById('textBody').textContent = text;
+      renderTranscriptBody(text, null);
 
-      // 底部统计
-      var paragraphs = text.split(/\n\s*\n/).filter(function(p) { return p.trim(); }).length;
+      var paragraphs = countParagraphs(text);
+      var words = countWords(text);
       document.getElementById('statsBar').innerHTML =
-        '<span>共 ' + text.length + ' 字</span>' +
+        '<span>共 ' + words + ' 字</span>' +
         '<span>' + paragraphs + ' 个段落</span>' +
-        '<span>AI 语音转写 · 原样呈现</span>';
+        '<span>含时间戳 · AI 语音转写</span>';
     }
   })();
   </script>
