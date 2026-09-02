@@ -1,16 +1,21 @@
 #!/usr/bin/env python3
 """临时调度器：并发 ≤2 转录指定批次。用法: python3 scripts/run_transcribe.py <slug> [<slug>...]"""
-import subprocess, time, sys, os
+import subprocess, time, sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT / 'scripts'))
+from transcript_format import has_timestamp_format
+
 CONCURRENCY = 2
 FILES = sys.argv[1:]
 
 
 def is_done(base):
     p = ROOT / f'{base}.txt'
-    return p.exists() and p.stat().st_size > 100
+    if not p.exists() or p.stat().st_size <= 100:
+        return False
+    return has_timestamp_format(p.read_text(encoding='utf-8'))
 
 
 def start_one(base):

@@ -14,9 +14,12 @@ from transcript_format import Segment, write_transcript_bundle
 
 
 def reformat_one(base: str) -> bool:
-    src = ROOT / f'{base}.json'
-    if not src.exists():
-        print(f'[skip] {base} 无 {src.name}', flush=True)
+    for candidate in (ROOT / f'{base}.json', ROOT / 'docs' / 'transcripts' / f'{base}.json'):
+        if candidate.exists():
+            src = candidate
+            break
+    else:
+        print(f'[skip] {base} 无 json', flush=True)
         return False
     doc = json.loads(src.read_text(encoding='utf-8'))
     segments = [
