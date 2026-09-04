@@ -616,25 +616,29 @@
       pointer-events: none;
     }
 
-    /* ====== 按作者筛选 ====== */
-    .author-filter {
+    /* ====== 筛选条（主题 / 作者） ====== */
+    .filter-bar {
       max-width: 860px;
-      margin: -8px auto 28px;
+      margin: -8px auto 20px;
       padding: 0 24px;
     }
-    .author-filter-label {
+    .filter-bar + .filter-bar {
+      margin-top: 0;
+      margin-bottom: 28px;
+    }
+    .filter-bar-label {
       display: block;
       font-size: 12px;
       color: var(--text-muted);
       margin-bottom: 10px;
       letter-spacing: 0.05em;
     }
-    .author-chips {
+    .filter-chips {
       display: flex;
       flex-wrap: wrap;
       gap: 8px;
     }
-    .author-chip {
+    .filter-chip {
       padding: 6px 14px;
       border-radius: 999px;
       border: 1px solid var(--border);
@@ -646,16 +650,21 @@
       user-select: none;
       white-space: nowrap;
     }
-    .author-chip:hover {
+    .filter-chip:hover {
       border-color: rgba(96,165,250,0.4);
       color: var(--text);
     }
-    .author-chip.active {
+    .filter-chip.active {
       background: rgba(96,165,250,0.15);
       border-color: rgba(96,165,250,0.6);
       color: #93c5fd;
     }
-    .author-chip .chip-count {
+    .filter-chip.topic-chip.active {
+      background: rgba(167,139,250,0.15);
+      border-color: rgba(167,139,250,0.55);
+      color: #c4b5fd;
+    }
+    .filter-chip .chip-count {
       opacity: 0.6;
       margin-left: 4px;
       font-size: 12px;
@@ -851,10 +860,16 @@
     <input class="search-input" id="searchInput" type="text" placeholder="搜索播客总结或知识专题...">
   </div>
 
+  <!-- 按主题筛选 -->
+  <div class="filter-bar" id="topicFilter" style="display:none;">
+    <span class="filter-bar-label">按主题筛选</span>
+    <div class="filter-chips" id="topicChips"></div>
+  </div>
+
   <!-- 按作者筛选 -->
-  <div class="author-filter" id="authorFilter" style="display:none;">
-    <span class="author-filter-label">按作者筛选</span>
-    <div class="author-chips" id="authorChips"></div>
+  <div class="filter-bar" id="authorFilter" style="display:none;">
+    <span class="filter-bar-label">按作者筛选</span>
+    <div class="filter-chips" id="authorChips"></div>
   </div>
 
   <!-- 主内容 -->
@@ -883,8 +898,67 @@
       let dateMap = {};
       let calYear, calMonth;
       let selectedAuthor = '';
+      let selectedTopic = '';
 
       const $ = id => document.getElementById(id);
+
+      /** 播客主题分类：按标签/标题/摘要关键词归属（可多主题） */
+      const TOPIC_CATEGORIES = [
+        { id: '科技·AI', keywords: ['AI','人工智能','大模型','科技','芯片','TPU','RAG','蒸馏','算法','编程','软件','互联网','云计算','模型','OpenAI','DeepSeek','智能体','机器人','传感器'] },
+        { id: '汽车·出行', keywords: ['汽车','新能源','智能驾驶','电动车','电池','OTA','车贷','车展','Model Y','比亚迪','小鹏','特斯拉','智驾'] },
+        { id: '商业·消费', keywords: ['商业','消费','品牌','零售','营销','创业','资本','投资','经济','溢价','义乌','增长','商业模式','公关','搞钱','深圳'] },
+        { id: '摄影·影像', keywords: ['摄影','相机','影像','徕卡','胶片','镜头','拍照','Leica'] },
+        { id: '旅行·户外', keywords: ['旅行','户外','徒步','登山','旅游','日本生活','日本文化','日本','出行','环球','尼泊尔','冈仁波齐'] },
+        { id: '生活·文化', keywords: ['生活','文化','文学','历史','音乐','古典音乐','读书','电影','艺术','审美','张爱玲','哲学'] },
+        { id: '成长·职场', keywords: ['自我成长','职场','心理','心理学','成长','管理','组织','沟通','教育','学习','简历','求职','毕业','社会化'] },
+        { id: '健康·运动', keywords: ['健康','运动','减肥','营养','孕期','医学','科学','足球','世界杯','体育','健身','基因治疗'] },
+        { id: '美食·咖啡', keywords: ['咖啡','美食','餐饮','茶','食品','意大利菜','饮食','餐桌'] },
+        { id: '社会·法律', keywords: ['法律','维权','婚姻','家事','伦理','罪案','社会','医疗','安全'] },
+        { id: '家居·设计', keywords: ['家居','设计','IKEA','宜家','装修','空间'] }
+      ];
+
+      function itemTopicBlob(item) {
+        return [
+          (item.tags || []).join(' '),
+          item.title || '',
+          item.summary || '',
+          item.author || ''
+        ].join(' ');
+      }
+
+      function inferTopics(item) {
+        const blob = itemTopicBlob(item);
+        const lower = blob.toLowerCase();
+        const hits = [];
+        TOPIC_CATEGORIES.forEach(function(cat) {
+          for (let i = 0; i < cat.keywords.length; i++) {
+            const kw = cat.keywords[i];
+            if (lower.indexOf(kw.toLowerCase()) !== -1) {
+              hits.push(cat.id);
+              return;
+            }
+          }
+        });
+        return hits.length ? hits : ['其他'];
+      }
+
+      function itemMatchesTopic(item, topic) {
+        if (!topic) return true;
+        return inferTopics(item).indexOf(topic) !== -1;
+      }
+
+      function itemMatchesFilters(item, query) {
+        if (selectedAuthor && (item.author || '未署名') !== selectedAuthor) return false;
+        if (!itemMatchesTopic(item, selectedTopic)) return false;
+        if (!query) return true;
+        return (item.title || '').toLowerCase().includes(query) ||
+          (item.title_en || '').toLowerCase().includes(query) ||
+          (item.summary || '').toLowerCase().includes(query) ||
+          (item.url || '').toLowerCase().includes(query) ||
+          (item.error_message || '').toLowerCase().includes(query) ||
+          (item.author || '').toLowerCase().includes(query) ||
+          (item.tags || []).join(' ').toLowerCase().includes(query);
+      }
 
       function escapeHtml(s) {
         const d = document.createElement('div');
@@ -998,6 +1072,47 @@
         });
       }
 
+      function buildTopicChips() {
+        const container = $('topicChips');
+        container.innerHTML = '';
+        const counts = {};
+        TOPIC_CATEGORIES.forEach(function(cat) { counts[cat.id] = 0; });
+        counts['其他'] = 0;
+
+        allData.forEach(function(item) {
+          inferTopics(item).forEach(function(t) {
+            counts[t] = (counts[t] || 0) + 1;
+          });
+        });
+
+        const topics = TOPIC_CATEGORIES.map(function(c) { return c.id; })
+          .concat(['其他'])
+          .filter(function(t) { return counts[t] > 0; });
+
+        if (topics.length === 0) return;
+        $('topicFilter').style.display = 'block';
+
+        const allChip = document.createElement('button');
+        allChip.className = 'filter-chip topic-chip' + (selectedTopic === '' ? ' active' : '');
+        allChip.textContent = '全部 ' + allData.length;
+        allChip.addEventListener('click', function() {
+          selectedTopic = '';
+          render();
+        });
+        container.appendChild(allChip);
+
+        topics.forEach(function(topic) {
+          const chip = document.createElement('button');
+          chip.className = 'filter-chip topic-chip' + (selectedTopic === topic ? ' active' : '');
+          chip.innerHTML = escapeHtml(topic) + '<span class="chip-count">' + counts[topic] + '</span>';
+          chip.addEventListener('click', function() {
+            selectedTopic = (selectedTopic === topic) ? '' : topic;
+            render();
+          });
+          container.appendChild(chip);
+        });
+      }
+
       function buildAuthorChips() {
         const container = $('authorChips');
         container.innerHTML = '';
@@ -1014,7 +1129,7 @@
         $('authorFilter').style.display = 'block';
 
         const allChip = document.createElement('button');
-        allChip.className = 'author-chip' + (selectedAuthor === '' ? ' active' : '');
+        allChip.className = 'filter-chip' + (selectedAuthor === '' ? ' active' : '');
         allChip.textContent = '全部 ' + allData.length;
         allChip.addEventListener('click', function() {
           selectedAuthor = '';
@@ -1024,7 +1139,7 @@
 
         authors.forEach(author => {
           const chip = document.createElement('button');
-          chip.className = 'author-chip' + (selectedAuthor === author ? ' active' : '');
+          chip.className = 'filter-chip' + (selectedAuthor === author ? ' active' : '');
           chip.innerHTML = escapeHtml(author) + '<span class="chip-count">' + counts[author] + '</span>';
           chip.addEventListener('click', function() {
             selectedAuthor = (selectedAuthor === author) ? '' : author;
@@ -1043,8 +1158,13 @@
         $('calendarWrapper').style.display = hasPodcasts ? 'block' : 'none';
         $('topicsSection').style.display = hasTopics ? 'block' : 'none';
         $('podcastHeading').style.display = hasPodcasts ? 'block' : 'none';
-        if (!hasPodcasts) $('authorFilter').style.display = 'none';
-        else buildAuthorChips();
+        if (!hasPodcasts) {
+          $('authorFilter').style.display = 'none';
+          $('topicFilter').style.display = 'none';
+        } else {
+          buildTopicChips();
+          buildAuthorChips();
+        }
 
         if (!hasData) {
           $('emptyState').style.display = '';
@@ -1271,25 +1391,12 @@
 
         let filteredDays = days;
         let visibleCount = 0;
+        const hasFilter = !!(query || selectedAuthor || selectedTopic);
 
-        if (query) {
+        if (hasFilter) {
           filteredDays = days.filter(function(d) {
             const items = dateMap[d].filter(function(item) {
-              if (selectedAuthor && (item.author || '未署名') !== selectedAuthor) return false;
-              return (item.title || '').toLowerCase().includes(query) ||
-                (item.title_en || '').toLowerCase().includes(query) ||
-                (item.summary || '').toLowerCase().includes(query) ||
-                (item.url || '').toLowerCase().includes(query) ||
-                (item.error_message || '').toLowerCase().includes(query);
-            });
-            dateMap[d]._filtered = items;
-            if (items.length > 0) visibleCount++;
-            return items.length > 0;
-          });
-        } else if (selectedAuthor) {
-          filteredDays = days.filter(function(d) {
-            const items = dateMap[d].filter(function(item) {
-              return (item.author || '未署名') === selectedAuthor;
+              return itemMatchesFilters(item, query);
             });
             dateMap[d]._filtered = items;
             if (items.length > 0) visibleCount++;
@@ -1299,13 +1406,13 @@
           days.forEach(function(d) { dateMap[d]._filtered = dateMap[d]; });
         }
 
-        if ((query || selectedAuthor) && visibleCount === 0 && !topicMatchesQuery(query) && enHitCount === 0) {
+        if (hasFilter && visibleCount === 0 && !topicMatchesQuery(query) && enHitCount === 0) {
           $('timeline').style.display = 'none';
           $('searchEmpty').style.display = '';
         } else {
-          $('timeline').style.display = (query || selectedAuthor) && visibleCount === 0 ? 'none' : '';
+          $('timeline').style.display = hasFilter && visibleCount === 0 ? 'none' : '';
           $('searchEmpty').style.display = 'none';
-          if ((!query && !selectedAuthor) || visibleCount > 0) buildTimeline(filteredDays);
+          if (!hasFilter || visibleCount > 0) buildTimeline(filteredDays);
         }
 
         buildCalendar();
