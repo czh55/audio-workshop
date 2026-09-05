@@ -220,6 +220,7 @@
     var params = new URLSearchParams(location.search);
     var file = params.get('f') || '';
     var slug = params.get('slug') || '';
+    var initialQ = (params.get('q') || '').trim();
 
     function escapeHtml(s) {
       var d = document.createElement('div');
@@ -388,7 +389,7 @@
       // 搜索框（站内高亮）
       var searchBox = document.getElementById('searchBox');
       var hint = document.getElementById('searchHint');
-      if (text.length > 2000) {
+      if (text.length > 2000 || initialQ) {
         searchBox.style.display = '';
         hint.style.display = '';
         hint.textContent = '全文 ' + text.length + ' 字 · 在下方输入关键词可高亮定位';
@@ -397,9 +398,15 @@
           var q = input.value.trim();
           renderTranscriptBody(text, q || null);
         });
+        if (initialQ) {
+          input.value = initialQ;
+          renderTranscriptBody(text, initialQ);
+        } else {
+          renderTranscriptBody(text, null);
+        }
+      } else {
+        renderTranscriptBody(text, null);
       }
-
-      renderTranscriptBody(text, null);
 
       var paragraphs = countParagraphs(text);
       var words = countWords(text);

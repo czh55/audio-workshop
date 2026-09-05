@@ -669,6 +669,136 @@
       margin-left: 4px;
       font-size: 12px;
     }
+    .filter-chip.more-chip {
+      border-style: dashed;
+      color: var(--accent);
+    }
+
+    /* ====== 模式切换 ====== */
+    .mode-tabs {
+      display: flex;
+      justify-content: center;
+      gap: 8px;
+      flex-wrap: wrap;
+      padding: 0 24px 20px;
+    }
+    .mode-tab {
+      padding: 10px 20px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: var(--surface);
+      color: var(--text-secondary);
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all .2s;
+    }
+    .mode-tab:hover {
+      color: var(--text);
+      border-color: rgba(96,165,250,0.4);
+    }
+    .mode-tab.active {
+      background: rgba(96,165,250,0.15);
+      border-color: rgba(96,165,250,0.55);
+      color: #93c5fd;
+    }
+    .mode-tab .tab-count {
+      opacity: 0.65;
+      font-weight: 500;
+      margin-left: 4px;
+      font-size: 12px;
+    }
+
+    /* ====== 统一搜索结果 ====== */
+    .unified-results {
+      max-width: 860px;
+      margin: 0 auto 28px;
+      padding: 0 24px;
+    }
+    .unified-section {
+      margin-bottom: 28px;
+    }
+    .unified-section-title {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      font-size: 16px;
+      font-weight: 800;
+      color: var(--text);
+      margin-bottom: 12px;
+    }
+    .unified-section-title .count-badge {
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--accent);
+      background: rgba(96,165,250,0.12);
+      padding: 2px 10px;
+      border-radius: 10px;
+    }
+    .unified-more {
+      font-size: 13px;
+      color: var(--accent);
+      text-decoration: none;
+    }
+    .unified-more:hover { text-decoration: underline; }
+    .unified-empty {
+      font-size: 13px;
+      color: var(--text-muted);
+      padding: 8px 0 4px;
+    }
+    .hit-card {
+      display: block;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 16px 18px;
+      margin-bottom: 10px;
+      text-decoration: none;
+      color: inherit;
+      transition: all .2s;
+    }
+    .hit-card:hover {
+      background: var(--card-hover);
+      border-color: rgba(255,255,255,0.15);
+    }
+    .hit-card .hit-title {
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 6px;
+    }
+    .hit-card .hit-meta {
+      font-size: 12px;
+      color: var(--text-muted);
+      margin-bottom: 6px;
+    }
+    .hit-card .hit-snippet {
+      font-size: 13px;
+      color: var(--text-secondary);
+      line-height: 1.6;
+    }
+    .hit-card mark {
+      background: rgba(96,165,250,0.25);
+      color: #93c5fd;
+      border-radius: 3px;
+      padding: 0 2px;
+    }
+
+    /* ====== 原文浏览 ====== */
+    .transcripts-browse {
+      max-width: 860px;
+      margin: 0 auto 40px;
+      padding: 0 24px;
+    }
+    .browse-hint {
+      font-size: 14px;
+      color: var(--text-secondary);
+      margin-bottom: 16px;
+      line-height: 1.7;
+    }
+    .browse-hint a { color: var(--accent); }
+
     .search-empty {
       text-align: center;
       padding: 48px 20px;
@@ -788,14 +918,16 @@
       .search-bar { padding: 0 12px; }
       .search-input { padding: 12px 16px 12px 40px; }
       .search-icon { left: 28px; }
+      .mode-tabs { padding: 0 12px 16px; gap: 6px; }
+      .mode-tab { padding: 8px 14px; font-size: 13px; }
+      .unified-results, .transcripts-browse { padding: 0 12px; }
     }
   </style>
 </head>
 <body>
   <div class="hero">
     <h1>播客知识墙</h1>
-    <p>播客转录总结 · 知识专题长图 · 可滚动深度复习</p>
-    <a class="transcript-link" href="./transcripts.html">&#x1F50D; 转录全文搜索</a>
+    <p>先选意图再找内容 · 总结 / 专题 / 原文</p>
   </div>
 
   <div class="stats-bar" id="statsBar">
@@ -817,25 +949,64 @@
     </div>
   </div>
 
+  <!-- 模式切换 -->
+  <div class="mode-tabs" id="modeTabs" style="display:none;">
+    <button type="button" class="mode-tab active" data-mode="summaries">找总结<span class="tab-count" id="tabCountSummaries"></span></button>
+    <button type="button" class="mode-tab" data-mode="topics">找专题<span class="tab-count" id="tabCountTopics"></span></button>
+    <button type="button" class="mode-tab" data-mode="transcripts">找原文<span class="tab-count" id="tabCountTranscripts"></span></button>
+  </div>
+
+  <!-- 搜索 -->
+  <div class="search-bar" id="searchBar" style="display:none;">
+    <span class="search-icon">&#x1F50D;</span>
+    <input class="search-input" id="searchInput" type="text" placeholder="统一搜索：总结、专题、转录原文…">
+  </div>
+
+  <!-- 按主题筛选（仅总结模式） -->
+  <div class="filter-bar" id="topicFilter" style="display:none;">
+    <span class="filter-bar-label">按主题筛选</span>
+    <div class="filter-chips" id="topicChips"></div>
+  </div>
+
+  <!-- 按作者筛选（仅总结模式） -->
+  <div class="filter-bar" id="authorFilter" style="display:none;">
+    <span class="filter-bar-label">按作者筛选</span>
+    <div class="filter-chips" id="authorChips"></div>
+  </div>
+
+  <!-- 统一搜索结果 -->
+  <div class="unified-results" id="unifiedResults" style="display:none;"></div>
+
   <!-- 知识专题 -->
   <div class="topics-section" id="topicsSection" style="display:none;">
     <div class="section-heading">
       <div>
         <h2>知识专题</h2>
-        <p>系列课程浓缩的可滚动知识长图</p>
+        <p>方法论手册与系列长图，适合按问题进入</p>
       </div>
     </div>
     <div id="topicsContainer"></div>
   </div>
 
+  <!-- 原文浏览 -->
+  <div class="transcripts-browse" id="transcriptsBrowse" style="display:none;">
+    <div class="section-heading">
+      <div>
+        <h2>转录原文</h2>
+        <p class="browse-hint">按篇浏览，或在上方搜索框输入关键词做全文检索。也可打开 <a href="./transcripts.html">独立转录搜索页</a>。</p>
+      </div>
+    </div>
+    <div id="transcriptsList"></div>
+  </div>
+
   <!-- 播客标题 -->
   <div class="podcast-section-heading" id="podcastHeading" style="display:none;">
     <h2>播客总结</h2>
-    <p>小宇宙播客自动转录与深度总结</p>
+    <p>按时间浏览，或用主题 / 作者筛选</p>
   </div>
 
   <!-- 日历 -->
-  <div class="calendar-wrapper" id="calendarWrapper">
+  <div class="calendar-wrapper" id="calendarWrapper" style="display:none;">
     <div class="cal-header">
       <button class="cal-nav-btn" id="calPrev">&larr;</button>
       <span class="cal-title" id="calTitle"></span>
@@ -854,24 +1025,6 @@
     <button class="cal-today-btn" id="calToday">回到今天</button>
   </div>
 
-  <!-- 搜索 -->
-  <div class="search-bar" id="searchBar">
-    <span class="search-icon">&#x1F50D;</span>
-    <input class="search-input" id="searchInput" type="text" placeholder="搜索播客总结或知识专题...">
-  </div>
-
-  <!-- 按主题筛选 -->
-  <div class="filter-bar" id="topicFilter" style="display:none;">
-    <span class="filter-bar-label">按主题筛选</span>
-    <div class="filter-chips" id="topicChips"></div>
-  </div>
-
-  <!-- 按作者筛选 -->
-  <div class="filter-bar" id="authorFilter" style="display:none;">
-    <span class="filter-bar-label">按作者筛选</span>
-    <div class="filter-chips" id="authorChips"></div>
-  </div>
-
   <!-- 主内容 -->
   <div class="container" id="mainContainer">
     <div class="empty-state" id="emptyState">
@@ -886,7 +1039,7 @@
       <div class="en-results-title" id="enResultsTitle"></div>
       <div id="enResultsContainer"></div>
     </div>
-    <div class="search-empty" id="searchEmpty" style="display:none;">没有找到匹配的总结</div>
+    <div class="search-empty" id="searchEmpty" style="display:none;">没有找到匹配的内容</div>
   </div>
 
   <script>
@@ -894,11 +1047,18 @@
       let allData = [];
       let allTopics = [];
       let enIndex = [];
+      let transcriptIndex = null;
+      let transcriptTextCache = {};
       let enHitCount = 0;
       let dateMap = {};
       let calYear, calMonth;
       let selectedAuthor = '';
       let selectedTopic = '';
+      let viewMode = 'summaries'; // summaries | topics | transcripts
+      let authorExpanded = false;
+      let searchTimer = null;
+      const AUTHOR_TOP_N = 8;
+      const TRANSCRIPT_SEARCH_CAP = 24;
 
       const $ = id => document.getElementById(id);
 
@@ -1058,8 +1218,28 @@
         } catch (e) {
           enIndex = [];
         }
+        try {
+          const resp = await fetch('transcripts-index.json');
+          if (!resp.ok) throw new Error('Failed');
+          transcriptIndex = await resp.json();
+        } catch (e) {
+          transcriptIndex = { count: 0, items: [] };
+        }
         buildDateMap();
+        bindModeTabs();
         render();
+      }
+
+      function bindModeTabs() {
+        document.querySelectorAll('.mode-tab').forEach(function(btn) {
+          btn.addEventListener('click', function() {
+            viewMode = btn.getAttribute('data-mode') || 'summaries';
+            document.querySelectorAll('.mode-tab').forEach(function(b) {
+              b.classList.toggle('active', b.getAttribute('data-mode') === viewMode);
+            });
+            render();
+          });
+        });
       }
 
       function buildDateMap() {
@@ -1137,7 +1317,8 @@
         });
         container.appendChild(allChip);
 
-        authors.forEach(author => {
+        const visible = authorExpanded ? authors : authors.slice(0, AUTHOR_TOP_N);
+        visible.forEach(author => {
           const chip = document.createElement('button');
           chip.className = 'filter-chip' + (selectedAuthor === author ? ' active' : '');
           chip.innerHTML = escapeHtml(author) + '<span class="chip-count">' + counts[author] + '</span>';
@@ -1147,44 +1328,306 @@
           });
           container.appendChild(chip);
         });
+
+        if (selectedAuthor && !authorExpanded && authors.indexOf(selectedAuthor) >= AUTHOR_TOP_N) {
+          const chip = document.createElement('button');
+          chip.className = 'filter-chip active';
+          chip.innerHTML = escapeHtml(selectedAuthor) + '<span class="chip-count">' + counts[selectedAuthor] + '</span>';
+          chip.addEventListener('click', function() {
+            selectedAuthor = '';
+            render();
+          });
+          container.appendChild(chip);
+        }
+
+        if (authors.length > AUTHOR_TOP_N) {
+          const more = document.createElement('button');
+          more.className = 'filter-chip more-chip';
+          more.textContent = authorExpanded
+            ? '收起作者'
+            : ('更多作者 +' + (authors.length - AUTHOR_TOP_N));
+          more.addEventListener('click', function() {
+            authorExpanded = !authorExpanded;
+            buildAuthorChips();
+          });
+          container.appendChild(more);
+        }
+      }
+
+      function filterTopics(query) {
+        return allTopics.filter(function(topic) {
+          if (!query) return true;
+          const haystack = [
+            topic.title,
+            topic.subtitle,
+            topic.summary,
+            (topic.tags || []).join(' ')
+          ].concat((topic.items || []).map(function(item) {
+            return [item.title, item.summary].join(' ');
+          })).join(' ').toLowerCase();
+          return haystack.indexOf(query) !== -1;
+        });
+      }
+
+      function filterSummaries(query) {
+        return allData.filter(function(item) {
+          return itemMatchesFilters(item, query);
+        });
+      }
+
+      function matchTranscriptMeta(item, q) {
+        if (!q) return true;
+        const hay = [
+          item.title, item.author, item.date,
+          (item.tags || []).join(' ')
+        ].join(' ').toLowerCase();
+        return hay.indexOf(q) !== -1;
+      }
+
+      async function searchTranscriptSnippet(item, q) {
+        let text = transcriptTextCache[item.slug];
+        if (text === undefined) {
+          try {
+            const resp = await fetch(item.file);
+            text = await resp.text();
+          } catch (e) {
+            text = '';
+          }
+          transcriptTextCache[item.slug] = text;
+        }
+        if (!text) return null;
+        const lower = text.toLowerCase();
+        const idx = lower.indexOf(q);
+        if (idx === -1) return null;
+        const start = Math.max(0, idx - 50);
+        const end = Math.min(text.length, idx + q.length + 70);
+        const slice = (start > 0 ? '…' : '') + text.slice(start, end) + (end < text.length ? '…' : '');
+        return highlight(escapeHtml(slice), q);
+      }
+
+      function renderTranscriptsBrowse() {
+        const list = $('transcriptsList');
+        list.innerHTML = '';
+        const items = (transcriptIndex && transcriptIndex.items) ? transcriptIndex.items.slice() : [];
+        items.sort(function(a, b) {
+          return String(b.date || '').localeCompare(String(a.date || ''));
+        });
+        if (!items.length) {
+          list.innerHTML = '<p class="unified-empty">暂无转录索引</p>';
+          return;
+        }
+        items.slice(0, 40).forEach(function(item) {
+          const a = document.createElement('a');
+          a.className = 'hit-card';
+          a.href = 'transcript-viewer.html?slug=' + encodeURIComponent(item.slug);
+          a.target = '_blank';
+          a.innerHTML =
+            '<div class="hit-title">' + escapeHtml(item.title || item.slug) + '</div>' +
+            '<div class="hit-meta">' +
+              escapeHtml([item.author, item.date, item.duration].filter(Boolean).join(' · ')) +
+            '</div>';
+          list.appendChild(a);
+        });
+        if (items.length > 40) {
+          const more = document.createElement('p');
+          more.className = 'browse-hint';
+          more.innerHTML = '仅展示最近 40 篇。完整列表与全文搜索见 <a href="./transcripts.html">转录搜索页</a>。';
+          list.appendChild(more);
+        }
+      }
+
+      async function renderUnifiedSearch(query) {
+        const wrap = $('unifiedResults');
+        wrap.style.display = 'block';
+        wrap.innerHTML = '<p class="unified-empty">正在搜索…</p>';
+
+        const topicHits = filterTopics(query);
+        const summaryHits = filterSummaries(query);
+
+        let html = '';
+
+        html += '<div class="unified-section"><div class="unified-section-title">' +
+          '<span>知识专题 <span class="count-badge">' + topicHits.length + '</span></span>' +
+          (viewMode !== 'topics' ? '<button type="button" class="unified-more" data-jump="topics">只看专题</button>' : '') +
+          '</div>';
+        if (!topicHits.length) {
+          html += '<p class="unified-empty">无专题命中</p>';
+        } else {
+          topicHits.forEach(function(topic) {
+            const href = viewerUrl(topic.cover || ((topic.items && topic.items[0] && topic.items[0].filename) || '#'));
+            html += '<a class="hit-card" href="' + escapeHtml(href) + '" target="_blank">' +
+              '<div class="hit-title">' + highlight(escapeHtml(topic.title || ''), query) + '</div>' +
+              '<div class="hit-meta">' + escapeHtml(topic.subtitle || '') + '</div>' +
+              '<div class="hit-snippet">' + highlight(escapeHtml((topic.summary || '').slice(0, 140)), query) + '</div>' +
+              '</a>';
+          });
+        }
+        html += '</div>';
+
+        html += '<div class="unified-section"><div class="unified-section-title">' +
+          '<span>播客总结 <span class="count-badge">' + summaryHits.length + '</span></span>' +
+          (viewMode !== 'summaries' ? '<button type="button" class="unified-more" data-jump="summaries">只看总结</button>' : '') +
+          '</div>';
+        if (!summaryHits.length) {
+          html += '<p class="unified-empty">无总结命中</p>';
+        } else {
+          summaryHits.slice(0, 20).forEach(function(item) {
+            const dest = item.error
+              ? (item.url || '#')
+              : (item.filename || '').replace(/\.svg$/i, '.html');
+            html += '<a class="hit-card" href="' + escapeHtml(dest) + '" target="_blank">' +
+              '<div class="hit-title">' + highlight(escapeHtml(item.title || ''), query) + '</div>' +
+              '<div class="hit-meta">' + escapeHtml([item.author, item.date].filter(Boolean).join(' · ')) + '</div>' +
+              '<div class="hit-snippet">' + highlight(escapeHtml((item.summary || '').slice(0, 140)), query) + '</div>' +
+              '</a>';
+          });
+          if (summaryHits.length > 20) {
+            html += '<p class="unified-empty">另有 ' + (summaryHits.length - 20) + ' 条，可切到「找总结」并配合筛选查看</p>';
+          }
+        }
+        html += '</div>';
+
+        // 转录：先元数据，再对前若干篇做全文
+        const tItems = (transcriptIndex && transcriptIndex.items) ? transcriptIndex.items : [];
+        const metaHits = tItems.filter(function(item) { return matchTranscriptMeta(item, query); });
+        const candidates = metaHits.length ? metaHits : tItems.slice(0, TRANSCRIPT_SEARCH_CAP);
+        const toScan = candidates.slice(0, TRANSCRIPT_SEARCH_CAP);
+
+        wrap.innerHTML = html +
+          '<div class="unified-section" id="unifiedTranscriptSection">' +
+          '<div class="unified-section-title"><span>转录原文 <span class="count-badge">…</span></span>' +
+          '<a class="unified-more" href="./transcripts.html?q=' + encodeURIComponent(query) + '">打开全文搜索页</a></div>' +
+          '<p class="unified-empty">正在检索原文…</p></div>';
+
+        wrap.querySelectorAll('[data-jump]').forEach(function(btn) {
+          btn.addEventListener('click', function() {
+            viewMode = btn.getAttribute('data-jump');
+            document.querySelectorAll('.mode-tab').forEach(function(b) {
+              b.classList.toggle('active', b.getAttribute('data-mode') === viewMode);
+            });
+            $('searchInput').value = query;
+            render();
+          });
+        });
+
+        const fullHits = [];
+        for (let i = 0; i < toScan.length; i++) {
+          const item = toScan[i];
+          const snip = await searchTranscriptSnippet(item, query);
+          if (snip) fullHits.push({ item: item, snippet: snip });
+          if (fullHits.length >= 8) break;
+        }
+
+        // 若全文无果但元数据有，也展示元数据命中
+        let tHtml = '<div class="unified-section-title"><span>转录原文 <span class="count-badge">' +
+          (fullHits.length || metaHits.length) + '</span></span>' +
+          '<a class="unified-more" href="./transcripts.html?q=' + encodeURIComponent(query) + '">打开全文搜索页</a></div>';
+        if (fullHits.length) {
+          fullHits.forEach(function(r) {
+            tHtml += '<a class="hit-card" href="transcript-viewer.html?slug=' + encodeURIComponent(r.item.slug) +
+              '&q=' + encodeURIComponent(query) + '" target="_blank">' +
+              '<div class="hit-title">' + highlight(escapeHtml(r.item.title || r.item.slug), query) + '</div>' +
+              '<div class="hit-meta">' + escapeHtml([r.item.author, r.item.date].filter(Boolean).join(' · ')) + '</div>' +
+              '<div class="hit-snippet">' + r.snippet + '</div></a>';
+          });
+        } else if (metaHits.length) {
+          metaHits.slice(0, 8).forEach(function(item) {
+            tHtml += '<a class="hit-card" href="transcript-viewer.html?slug=' + encodeURIComponent(item.slug) +
+              '" target="_blank">' +
+              '<div class="hit-title">' + highlight(escapeHtml(item.title || item.slug), query) + '</div>' +
+              '<div class="hit-meta">' + escapeHtml([item.author, item.date].filter(Boolean).join(' · ')) + '</div>' +
+              '<div class="hit-snippet">标题/标签命中 · 点开阅读原文</div></a>';
+          });
+        } else {
+          tHtml += '<p class="unified-empty">无原文命中（可到全文搜索页扩大检索）</p>';
+        }
+        const sec = $('unifiedTranscriptSection');
+        if (sec) sec.innerHTML = tHtml;
+
+        const anyHit = topicHits.length || summaryHits.length || fullHits.length || metaHits.length;
+        $('searchEmpty').style.display = anyHit ? 'none' : '';
+        return anyHit;
       }
 
       function render() {
         const hasPodcasts = allData.length > 0;
         const hasTopics = allTopics.length > 0;
-        const hasData = hasPodcasts || hasTopics;
+        const hasTranscripts = !!(transcriptIndex && transcriptIndex.items && transcriptIndex.items.length);
+        const hasData = hasPodcasts || hasTopics || hasTranscripts;
 
+        $('modeTabs').style.display = hasData ? 'flex' : 'none';
         $('searchBar').style.display = hasData ? 'block' : 'none';
-        $('calendarWrapper').style.display = hasPodcasts ? 'block' : 'none';
-        $('topicsSection').style.display = hasTopics ? 'block' : 'none';
-        $('podcastHeading').style.display = hasPodcasts ? 'block' : 'none';
-        if (!hasPodcasts) {
-          $('authorFilter').style.display = 'none';
-          $('topicFilter').style.display = 'none';
-        } else {
-          buildTopicChips();
-          buildAuthorChips();
-        }
+        $('tabCountSummaries').textContent = hasPodcasts ? allData.length : '';
+        $('tabCountTopics').textContent = hasTopics ? allTopics.length : '';
+        $('tabCountTranscripts').textContent = hasTranscripts ? transcriptIndex.count : '';
 
         if (!hasData) {
           $('emptyState').style.display = '';
           $('timeline').style.display = 'none';
           $('searchEmpty').style.display = 'none';
+          $('unifiedResults').style.display = 'none';
+          $('topicsSection').style.display = 'none';
+          $('transcriptsBrowse').style.display = 'none';
+          $('calendarWrapper').style.display = 'none';
+          $('podcastHeading').style.display = 'none';
+          $('topicFilter').style.display = 'none';
+          $('authorFilter').style.display = 'none';
           updateStats(0, 0);
           return;
         }
 
         $('emptyState').style.display = 'none';
-
         const query = $('searchInput').value.trim().toLowerCase();
-        buildTopics(query);
-        renderEnResults(query);
 
-        if (hasPodcasts) {
-          renderPodcasts(query);
-        } else {
+        // 有搜索词：统一结果，隐藏浏览区
+        if (query) {
+          $('topicsSection').style.display = 'none';
+          $('transcriptsBrowse').style.display = 'none';
+          $('calendarWrapper').style.display = 'none';
+          $('podcastHeading').style.display = 'none';
+          $('topicFilter').style.display = 'none';
+          $('authorFilter').style.display = 'none';
           $('timeline').style.display = 'none';
-          $('searchEmpty').style.display = 'none';
+          renderEnResults(query);
+          renderUnifiedSearch(query);
+          updateStats(allData.length, Object.keys(dateMap).length);
+          $('totalTopics').textContent = allTopics.length;
+          return;
+        }
+
+        $('unifiedResults').style.display = 'none';
+        $('searchEmpty').style.display = 'none';
+        $('enResults').style.display = 'none';
+
+        const showSummaries = viewMode === 'summaries';
+        const showTopics = viewMode === 'topics';
+        const showTranscripts = viewMode === 'transcripts';
+
+        $('topicsSection').style.display = showTopics && hasTopics ? 'block' : 'none';
+        $('transcriptsBrowse').style.display = showTranscripts && hasTranscripts ? 'block' : 'none';
+        $('calendarWrapper').style.display = showSummaries && hasPodcasts ? 'block' : 'none';
+        $('podcastHeading').style.display = showSummaries && hasPodcasts ? 'block' : 'none';
+
+        if (showSummaries && hasPodcasts) {
+          buildTopicChips();
+          buildAuthorChips();
+          renderPodcasts('');
+        } else {
+          $('topicFilter').style.display = 'none';
+          $('authorFilter').style.display = 'none';
+          $('timeline').style.display = 'none';
+          updateStats(allData.length, Object.keys(dateMap).length);
+        }
+
+        if (showTopics && hasTopics) {
+          buildTopics('');
+          $('totalTopics').textContent = allTopics.length;
+        } else {
+          $('totalTopics').textContent = allTopics.length;
+        }
+
+        if (showTranscripts && hasTranscripts) {
+          renderTranscriptsBrowse();
         }
       }
 
@@ -1639,7 +2082,8 @@
         buildCalendar();
       });
       $('searchInput').addEventListener('input', function() {
-        render();
+        clearTimeout(searchTimer);
+        searchTimer = setTimeout(function() { render(); }, 220);
       });
 
       loadData();
