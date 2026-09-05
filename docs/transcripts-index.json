@@ -1,7 +1,142 @@
 {
- "generated": "2026-09-03",
- "count": 130,
+ "generated": "2026-09-06",
+ "count": 139,
  "items": [
+  {
+   "slug": "altay_tour_7days_13k",
+   "title": "12. 在新疆阿勒泰｜1个人花1万3跟团玩7天什么体验",
+   "date": "2026-09-05",
+   "author": "还没想好 POSTCARD",
+   "tags": [
+    "旅行",
+    "新疆",
+    "阿勒泰"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/68663f2793fd2d72b855cd6a",
+   "duration": "2小时16分",
+   "words": 37248,
+   "file": "transcripts/altay_tour_7days_13k.txt"
+  },
+  {
+   "slug": "bridal_gift_gossip_ep119",
+   "title": "119、三观碎一地：3000万彩礼与6000字长文的狂欢、好心救人反赔一万九",
+   "date": "2026-09-05",
+   "author": "话锋不转弯",
+   "tags": [
+    "热点",
+    "社会",
+    "舆论"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/6a967f18a0210c197dcb9791",
+   "duration": "1小时13分",
+   "words": 25246,
+   "file": "transcripts/bridal_gift_gossip_ep119.txt"
+  },
+  {
+   "slug": "guizhou_travel_scenic_fail",
+   "title": "48 🇨🇳 贵州 好山好水 好吃好玩 人也好 只有景区真的不行👋",
+   "date": "2026-09-05",
+   "author": "好果酱Radio",
+   "tags": [
+    "旅行",
+    "贵州",
+    "户外"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/6a2685b67444b57222355c5f",
+   "duration": "53分",
+   "words": 14793,
+   "file": "transcripts/guizhou_travel_scenic_fail.txt"
+  },
+  {
+   "slug": "independent_thinking_outsource",
+   "title": "13.思考外包泛滥，我们该如何培养独立思考能力？",
+   "date": "2026-09-05",
+   "author": "马尔克斯的朋友",
+   "tags": [
+    "思考",
+    "认知",
+    "学习"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/6a92457ca0210c197dc9eb9a",
+   "duration": "46分",
+   "words": 13252,
+   "file": "transcripts/independent_thinking_outsource.txt"
+  },
+  {
+   "slug": "interview_15_offers_ep17",
+   "title": "ep17 不要脸的人先享受offer，手握15个大厂offer的面经分享",
+   "date": "2026-09-05",
+   "author": "看我72变",
+   "tags": [
+    "求职",
+    "面试",
+    "职场"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/6a8f1c5eef65145dfcc5f3c9",
+   "duration": "47分",
+   "words": 17286,
+   "file": "transcripts/interview_15_offers_ep17.txt"
+  },
+  {
+   "slug": "japan_study_six_questions",
+   "title": "关于日本留学的六个问题，其实都在问生活｜Vol.14",
+   "date": "2026-09-05",
+   "author": "范来张口FM",
+   "tags": [
+    "留学",
+    "日本",
+    "生活"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/68f3e15c456ffec65e6abdcc",
+   "duration": "57分",
+   "words": 16854,
+   "file": "transcripts/japan_study_six_questions.txt"
+  },
+  {
+   "slug": "ningbo_manufacturing_champions",
+   "title": "No.217 🧲 宁波往事：从方太到申洲，从油烟机到中国最大服装代工巨头",
+   "date": "2026-09-05",
+   "author": "半拿铁 | 商业沉浮录",
+   "tags": [
+    "商业",
+    "制造业",
+    "宁波"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/6a9661cca0210c197dcb8152",
+   "duration": "1小时35分",
+   "words": 28687,
+   "file": "transcripts/ningbo_manufacturing_champions.txt"
+  },
+  {
+   "slug": "one_piece_finale_roundtable",
+   "title": "One Piece 到底是什么？完结前与国内最懂《海贼王》的一群人聊聊看！",
+   "date": "2026-09-05",
+   "author": "菠萝油子丨成年人听的动漫播客",
+   "tags": [
+    "动漫",
+    "海贼王",
+    "圆桌"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/6a8eec871352af56ff3c80f5",
+   "duration": "2小时31分",
+   "words": 51058,
+   "file": "transcripts/one_piece_finale_roundtable.txt"
+  },
+  {
+   "slug": "thirty_money_security_ep71",
+   "title": "EP71. 高位买房、低位割肉、追星氪金……30+放弃暴富，只求稳稳的幸福！",
+   "date": "2026-09-05",
+   "author": "三十不而已",
+   "tags": [
+    "理财",
+    "消费",
+    "三十岁"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/6a7ad1ea17676351c5702852",
+   "duration": "2小时07分",
+   "words": 41032,
+   "file": "transcripts/thirty_money_security_ep71.txt"
+  },
   {
    "slug": "brand_premium_decline",
    "title": "EP07｜品牌溢价失效了吗？我们越来越不愿意为故事买单",

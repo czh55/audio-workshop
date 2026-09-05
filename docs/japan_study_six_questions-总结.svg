@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="6396" viewBox="0 0 1320 6396">
+  <foreignObject x="0" y="0" width="1320" height="6396">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,0.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:20px 28px;text-align:center;min-width:160px;font-weight:700;font-size:16px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3{color:#92400e;margin-bottom:8px}
+.correction p{color:#92400e;font-size:15px}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,0.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.speaker{display:inline-block;font-size:13px;font-weight:600;padding:2px 10px;border-radius:12px;margin-right:8px}
+.speaker-host{background:#dbeafe;color:#1e40af}
+.speaker-guest{background:#ede9fe;color:#6b21a8}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,0.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,0.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,0.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}
+@media (max-width:640px){body,.container{padding:16px 12px!important}.container{max-width:100%!important}h1{font-size:24px!important}h2,.sec-title{font-size:18px!important}h3{font-size:16px!important}p,li{font-size:14px!important}.summary-line{font-size:15px!important;padding:14px 16px!important}.map,.card,.timeline{padding:16px!important;margin-bottom:16px!important}.map h2{font-size:18px!important}.diagram{gap:10px!important;padding:10px 0!important}.node{min-width:100px!important;padding:12px 16px!important;font-size:13px!important}.arrow{font-size:18px!important}.conclusion{padding:20px!important}.footer{padding:20px 0 12px!important}}</style>
+      <div class="container">
+
+<h1>关于日本留学的六个问题，其实都在问生活｜Vol.14</h1>
+<div class="meta">
+  <span class="tag tag-blue">播客</span>
+  <span class="tag tag-purple">留学</span>
+  <span class="tag tag-green">日本</span>
+  <span class="tag tag-orange">生活</span>
+  <span class="tag tag-gray">57分</span>
+  <span class="tag tag-gray">范来张口FM</span>
+</div>
+
+<div class="summary-line">
+  钱、N1、专门学校、就业、同胞陷阱、心理——六个「留学问题」最终都指向同一件事：学会在异乡规划、取舍、求援，把留学读成生活，而不是镀金或逃课。
+</div>
+
+<a class="source-link" href="https://www.xiaoyuzhoufm.com/episode/68f3e15c456ffec65e6abdcc">小宇宙原集 →</a>
+
+<div class="timeline">
+  <h3>关键时间轴</h3>
+  <div class="timeline-item"><span class="timeline-time">00:00</span><span class="timeline-text">开场：普通家庭视角，希望少被「一条龙割韭菜」</span></div>
+  <div class="timeline-item"><span class="timeline-time">02:33</span><span class="timeline-text">Q1 留学很烧钱？费用现实 + 奖学金/打工/算账</span></div>
+  <div class="timeline-item"><span class="timeline-time">19:08</span><span class="timeline-text">Q2 N1≠通行证：语言考试只是入场券</span></div>
+  <div class="timeline-item"><span class="timeline-time">22:30</span><span class="timeline-text">Q3 专门学校 vs 大学：并行路线，不是大专退路</span></div>
+  <div class="timeline-item"><span class="timeline-time">27:23</span><span class="timeline-text">Q4 就业过高期待：日企收紧、年功、外资英语</span></div>
+  <div class="timeline-item"><span class="timeline-time">32:34</span><span class="timeline-text">Q5 警惕不熟识同胞：诈骗/灰产/中介回扣</span></div>
+  <div class="timeline-item"><span class="timeline-time">42:31</span><span class="timeline-text">私塾坑：营销重于辅导，DIY 进学可省大钱</span></div>
+  <div class="timeline-item"><span class="timeline-time">49:23</span><span class="timeline-text">Q6 心理健康：近四成焦虑，允许脆弱、找出口</span></div>
+  <div class="timeline-item"><span class="timeline-time">54:09</span><span class="timeline-text">结语：留学是被迫成长，读的是生活</span></div>
+</div>
+
+<div class="map">
+  <h2>核心脉络</h2>
+  <div class="diagram">
+    <div class="node">钱是门票<br/>规划才是续航</div>
+    <div class="arrow">→</div>
+    <div class="node">N1 只是开端<br/>场景语感才算</div>
+    <div class="arrow">→</div>
+    <div class="node node-green">路径选型<br/>专校/大学/目的</div>
+    <div class="arrow">→</div>
+    <div class="node node-orange">就业现实<br/>防同胞坑<br/>护心理健康</div>
+  </div>
+  <p style="text-align:center;color:#64748b;font-size:15px;margin-top:8px">六个问题 → 同一答案：学习一种新的生活方式，塑造自己</p>
+</div>
+
+<div class="correction">
+  <h3>⚠ 常见误解 / 认知纠偏</h3>
+  <p>「日本留学不贵」多半是跟欧美比；「很贵」多半是跟国内公办比。嘉宾立场：需要一笔钱，但不是烧钱游戏，而是规划与取舍的博弈。N1 证明应试成功，不等于开口与社交通关。专门学校≠国内大专次等——在日本与大学并行，技能导向。同胞献殷勤≠可信。</p>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">Q1 · 留学真的需要很多钱吗？</h2>
+
+  <div class="card">
+    <h3>费用现实：前期一次性 + 学费 + 生活费</h3>
+    <p><b>在讲什么：</b>报名/签证/机票/体检/中介、海外审查租房（押金礼金更高）、家具交通卡；公立年学费约 53–56 万日元 + 入学金约 28 万；私立约 100 万/年（外国人常有约 30% 减免）。</p>
+    <p><b>关键理解：</b>生活费因地区与生活方式差极大——偏远约 10 万日元/月可过；东京当下更现实是 12–18 万才「不勒裤腰带」，也可 10 万或上不封顶。按人民币粗算：生活费一年约 7–8 万起，学费+生活费一年约 10–15 万起。</p>
+    <p><b>怎么用：</b>先按「基础 10 万人民币/年」做家庭预算底线，再按城市与消费欲加减；东京当作「无上限城市」做自我管理，而不是跟有钱同学比。</p>
+    <div class="highlight">原文依据：汇率从约 6.7 降到「低破 5」，日元涨价但人民币总账未必暴增；「十万是一个基础……稍微多一些大概十三到十五，上不封顶。」</div>
+  </div>
+
+  <div class="card card-green">
+    <h3>
+      <span class="speaker speaker-guest">嘉宾观点</span>
+      钱是门票，规划决定能不能走下去
+    </h3>
+    <p>奖学金（学费减免可申请多次；财团/地方/企业助学金；语言学校也有少量）、合法打工每周 ≤28h、假期可打满、校园 TA/RA 时薪更高。家庭负担可降到约 1/3–1/2；国立 + 减免后一年家庭出几万人民币也常见。双职工一年约 5 万支援 ≈ 每月四千出头。</p>
+    <div class="quote">「钱，它是门票，它不决定你能不能走下去。真正决定的是准备心态、规划能力，以及在现实里维持生活的勇气。」</div>
+    <div class="action">落地：记每一笔账（雪梨习惯）；合租/自炊/二手家具/学生定期券内出行；打工注意年收入约 103 万日元门槛——超额影响税、保险与高额疗养负担上限（低收入可约 3.3 万封顶，超额门槛抬高可能得不偿失）。</div>
+    <p><b>适用边界：</b>「半工半读能扛」适用于自律且学业允许者；硕士/研究室岗位并非人人有；东京极致省钱会牺牲体验，需主动取舍而非假装无成本。</p>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">Q2 · 有了 N1 就万事大吉？</h2>
+
+  <div class="card card-purple">
+    <h3>
+      <span class="speaker speaker-host">主持人提问</span>
+      考到 N1 之后就天下无敌了？
+    </h3>
+    <p><b>纠偏：</b>典型语言万能论。N1/N2 只说明应试教育成功，不等于开口、听力场景、方言/省略/委婉语感。</p>
+    <p><b>关键理解：</b>课堂、职场、超市、医院用语完全不同；商务日语课往往比纸面课本更有用。日本人爱模糊拒绝（「下次一起吧」= 婉拒），听不出就社交碰壁。国内 N1 是相对优势，到了日本大家站同一起跑线。</p>
+    <div class="quote">「有了 N1，其实你日语的学习才刚刚开始。」</div>
+    <div class="relation">相关：英语托业（TOEIC）800+ 在日本求职/考学性价比高——日本人英语整体偏弱，外资与「日企外资化」更看重英语实用。</div>
+    <p><b>适用边界：</b>N1 仍是签证/入学的必要门票；否定的是「考完就结束」，不是「不用考」。</p>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">Q3 · 专门学校比大学低级吗？</h2>
+
+  <div class="card">
+    <h3>并行路线，不是「大专退路」</h3>
+    <p><b>在讲什么：</b>国内学历神话把专门学校等同职高/次等；日本体系里专门学校与大学并行——强调实用技能与资格认证路径，大学/大学院偏学术。</p>
+    <p><b>关键理解：</b>动画等强专业在专门学校顶尖；企业常把专校生视为「即战力」，文科硕反而要当白纸培训。反直觉：学历越高就业面可能越窄（博士被锁死专业匹配），公司有时更爱可从零培养的「白纸」。</p>
+    <div class="highlight">选型心法：镀金回国 → 名校；真爱研究 → 专业强的研究型院校（可无名气）；要就业 → 看想干的技能，专校或本科毕业直接就职都可，别把大学四年只当「学技能」而忽略融入社会。</div>
+    <div class="quote">「在日本，学历没有高低贵贱之分，只是人生选择的方向不同。」</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">Q4 · 留日就业很容易？过高期待</h2>
+
+  <div class="card card-orange">
+    <h3>⚠ 就业物语 vs 市场收紧</h3>
+    <p><b>原因：</b>「日本缺人、招聘会跪求入职」是片面叙事。对留学生并不特别友好，且越来越紧；招收国际生比率约 35%；传统日企对中生更谨慎；大企业名额也在缩。</p>
+    <p><b>理想化职场的另一面：</b>秩序与稳定 ↔ 等级森严、年功序列；大手涨薪可能一年仅数千日元，跑不赢通胀。想赚钱反而常要离开「大手」去小公司——反直觉。</p>
+    <div class="pitfall">嘉宾说法：文科院女生更难；找不到对口就被迫转岗很常见。英语别丢——外资/创业型/「日企外资化」（如佩佩类、Future 咨询等）更友好但英语要求高。</div>
+    <p><b>解法：</b>提前练语言、资格、实习、交流；受不了日企紧绷文化就瞄准外资，并冲 TOEIC 800+；华人企业要擦亮眼（接下题）。</p>
+    <p><b>严重程度：</b>致命级误解——带着「毕业必好找、终身雇用躺平」来会崩。</p>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">Q5 · 警惕不认识的华人同胞</h2>
+
+  <div class="card card-orange">
+    <h3>⚠ 同胞 ≠ 可信</h3>
+    <p><b>在讲什么：</b>出国后，对「不熟却献殷勤」的中国人要留心。诈骗、非法兼职、租房坑、代购、假中介——「几乎都是中国人干的」；行业收紧某种程度是「前人砍树后人曝晒」。</p>
+    <p><b>典型局：</b>内部房源收钱消失；高薪送货灰产；代带违禁品；电话卡合约机回扣（嘉宾亲历：每人办 5000 日元/月机，中介吃返点还不说解约金）；租房中介两头赚（房东广告费 + 向你收中介费，「免中介费」不代表不赚钱）。</p>
+    <div class="action">铁律：不交现金给陌生人；不私下换汇；不借护照/在留卡；手续走正规合同与可查注册主体；有事找老师/警察；可疑推销拿市面价对比。租房：入住拍照、看清解约与损耗条款、宅建士说明、退房本人到场；清洁费可能已预付，态度要硬，可找消费生活中心。</div>
+    <div class="quote">「中国人只坑中国人；坑讲中文的，一定是中国人。」（调侃中的防骗口诀）</div>
+    <p><b>边界：</b>心存善意的同胞仍是大多数（如早餐店大妈）；警惕的是「不认识 + 急着帮你办事」的组合，不是全体华人。</p>
+  </div>
+
+  <div class="card card-orange">
+    <h3>⚠ 私塾：营销型收钱不办事</h3>
+    <p>大课几十万日元 → 教材 + 松散辅导 + 大学生改研究计划；想退课「报了就不能退」。私塾转卖课时中间商吃大差价（例：对外 1 万人民币/时，给老师 4 千）。</p>
+    <p><b>解法：</b>能力强可 DIY（联系教授、往年题、官网信息），甚至不必要语言学校；听学长真实评价；补基础/EJU/专业课可考虑，一对一「进学保姆」尽量不上。进了院还要靠自己跟节奏——私塾只降低入门，不替代能力。</p>
+    <p><b>严重程度：</b>金钱与时间双损，可小心到致命（三十几万打水漂）。</p>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">Q6 · 留学生心理健康是必修课</h2>
+
+  <div class="card card-purple">
+    <h3>
+      <span class="speaker speaker-guest">嘉宾观点</span>
+      文化适应期 ≠ 你失败了
+    </h3>
+    <p>疫情后更明显：语言/生活/身份冲击 + 回国难 + 线上课 → 孤独压抑难被朋友圈消解。厚劳省 2024 调查：近四成留学生曾有焦虑、失眠、情绪低落。叠加学业、情感、经济压力可滑向抑郁（嘉宾曾急救中度抑郁同学）。</p>
+    <p><b>怎么用：</b>学校心理咨询室（多语）、社区中心、华人互助热线；未严重时：朋友前辈倾诉、小红书社团、徒步滑雪聚餐、爱好与运动、规律作息、与家人沟通。</p>
+    <div class="quote">「允许自己脆弱……人不是机器。照顾好自己的情绪其实也是一门必修课。」</div>
+    <p><b>边界：</b>头半年到一年的低落常是适应过程；持续失眠/抑郁念头要立刻求助，不要硬扛。</p>
+  </div>
+</div>
+
+<div class="card">
+  <h3>路径与期待对比</h3>
+  <table>
+    <tr><th>维度</th><th>常见迷思</th><th>嘉宾接地气说法</th><th>一句话结论</th></tr>
+    <tr><td>钱</td><td>要么不花钱要么必须富二代</td><td>普通家庭可负担；靠减免+打工减半</td><td>钱是门票，算账是续航</td></tr>
+    <tr><td>语言</td><td>N1=日本通关证</td><td>应试入场券；场景与委婉才刚开始</td><td>N1 是开端不是终点</td></tr>
+    <tr><td>学历</td><td>专门学校=次等大专</td><td>与大学并行；即战力常被高看</td><td>按目的选型，不按鄙视链</td></tr>
+    <tr><td>就业</td><td>缺人所以留学生好找</td><td>市场收紧；日企年功；外资要英语</td><td>提前准备，别理想化终身雇用</td></tr>
+    <tr><td>社交信任</td><td>同胞天然可靠</td><td>诈骗灰产多盯新生与中文依赖</td><td>正规合同；不借证；敢报警</td></tr>
+    <tr><td>心理</td><td>扛不住=留学失败</td><td>适应期正常；近四成有症状</td><td>情绪也是必修；允许脆弱</td></tr>
+  </table>
+</div>
+
+<div class="card card-orange">
+  <h3>⚠ 避坑总清单</h3>
+  <ul>
+    <li>别把东京消费欲当标配；打工别盲目冲破 103 万门槛</li>
+    <li>别把 N1 当口语毕业证；别扔掉英语</li>
+    <li>别为「学历鄙视链」盲目读硕博若目标是就业</li>
+    <li>别轻信「毕业必好找、大手躺平涨薪」</li>
+    <li>不熟同胞：不交现金、不换汇、不借护照在留卡、不点陌生链接</li>
+    <li>中介/电话卡/租房：比价、看合同、入住拍照、退房到场</li>
+    <li>私塾能不上就不上；能力够就 DIY 进学</li>
+    <li>心理问题别硬扛：咨询室/热线/警察与老师</li>
+  </ul>
+</div>
+
+<div class="conclusion">
+  <h2>总结与行动</h2>
+  <h3>核心要点</h3>
+  <ul>
+    <li>日本留学需要钱，但更需要规划、取舍与自我管理；奖学金与打工可显著降低家庭负担。</li>
+    <li>N1 是入场券；真正的日语在场景、方言与模糊表达里。</li>
+    <li>专门学校与大学是并行路线；按回国镀金 / 研究 / 就职目的选型。</li>
+    <li>就业并不自动友好：收紧、年功、英语与路径选择决定体验。</li>
+    <li>不认识的同胞献殷勤要警惕；手续走正规；私塾营销水分大。</li>
+    <li>心理健康是必修课；允许脆弱，及时找出口与专业帮助。</li>
+  </ul>
+  <h3>行动清单</h3>
+  <ol>
+    <li>做一张「年总成本」表：学费底线 + 目标城市生活费区间 + 奖学金/打工可覆盖比例。</li>
+    <li>开记账本（月度复盘）；设定东京/大城市「欲望上限」规则。</li>
+    <li>语言计划：N 级备考之外，加商务/场景口语；同步冲 TOEIC 800+ 若目标就业。</li>
+    <li>按目的选路径（名校镀金 / 研究强校 / 专校技能 / 本科即就职），写清「我为什么来」。</li>
+    <li>防骗清单贴备忘录：护照不外借、现金不私下交、租房合同与瑕疵拍照模板化；私塾报名前问学长并算「不报能否 DIY」。</li>
+    <li>收藏学校心理咨询与当地求助渠道；每周固定一项社交或运动，给情绪留容错空间。</li>
+  </ol>
+  <h3>关键认知转变</h3>
+  <p>以前以为留学问题是钱够不够、N1 有没有、学校够不够名——现在理解：钱、语言、学校、工作、签证、心理，每一问都是「怎么过日子」。留学不是逃也不是光环，是被迫成长；读的不只是书，更是如何在一国他乡与自己相处、照顾好自己。</p>
+</div>
+
+<div class="footer">范来张口FM · Vol.14 · 音频总结 SVG · 源：xiaoyuzhoufm.com</div>
+
+</div>
+    </div>
+  </foreignObject>
+</svg>

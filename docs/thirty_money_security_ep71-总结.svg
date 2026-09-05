@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="11593" viewBox="0 0 1320 11593">
+  <foreignObject x="0" y="0" width="1320" height="11593">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,0.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:20px 28px;text-align:center;min-width:160px;font-weight:700;font-size:16px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3{color:#92400e;margin-bottom:8px}
+.correction p{color:#92400e;font-size:15px}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,0.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.speaker{display:inline-block;font-size:13px;font-weight:600;padding:2px 10px;border-radius:12px;margin-right:8px}
+.speaker-host{background:#dbeafe;color:#1e40af}
+.speaker-guest{background:#ede9fe;color:#6b21a8}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,0.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,0.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,0.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}
+@media (max-width:640px){body,.container{padding:16px 12px!important}.container{max-width:100%!important}h1{font-size:24px!important}h2,.sec-title{font-size:18px!important}h3{font-size:16px!important}p,li{font-size:14px!important}.summary-line{font-size:15px!important;padding:14px 16px!important}.map,.card,.timeline{padding:16px!important;margin-bottom:16px!important}.map h2{font-size:18px!important}.diagram{gap:10px!important;padding:10px 0!important}.node{min-width:100px!important;padding:12px 16px!important;font-size:13px!important}.arrow{font-size:18px!important}.conclusion{padding:20px!important}.footer{padding:20px 0 12px!important}}</style>
+      
+<div class="container">
+
+<h1>EP71. 高位买房、低位割肉、追星氪金……30+放弃暴富，只求稳稳的幸福！</h1>
+<div class="meta">
+  <span class="tag tag-blue">播客</span>
+  <span class="tag tag-purple">理财</span>
+  <span class="tag tag-orange">消费</span>
+  <span class="tag tag-green">三十岁</span>
+  <span class="tag tag-gray">2小时07分</span>
+  <span class="tag tag-gray">三十不而已</span>
+</div>
+<div class="summary-line">三位三十岁主播坦白：收入不再暴涨、存款却总在原地摇摆。从高位买房腰斩、追星七天八千、股市杠杆爆仓，到拆出「FU money」与娱乐资金、用长期主义消费换安全感——放弃一夜暴富幻想，重建可兜底的财富观。</div>
+
+<div class="timeline">
+  <h3>关键时间轴</h3>
+  <div class="timeline-item"><span class="timeline-time">00:00</span><span class="timeline-text">开场：存款止步不前，三十岁认清自己是「路人甲 NPC」</span></div>
+  <div class="timeline-item"><span class="timeline-time">21:10</span><span class="timeline-text">心态转变：不再奢求大富大贵，只求「稳稳的幸福」</span></div>
+  <div class="timeline-item"><span class="timeline-time">22:06</span><span class="timeline-text">高位买房血泪：2020 上车盘、月供≈工资、后腰斩置换</span></div>
+  <div class="timeline-item"><span class="timeline-time">43:58</span><span class="timeline-text">追星账单：杭州一周约 7900，单价幻觉 vs 总价现实</span></div>
+  <div class="timeline-item"><span class="timeline-time">51:33</span><span class="timeline-text">股市 FOMO 与杠杆：账面富贵→平仓归零</span></div>
+  <div class="timeline-item"><span class="timeline-time">59:19</span><span class="timeline-text">兜底理财：大额存单/财富险 vs 货币基金利率下行</span></div>
+  <div class="timeline-item"><span class="timeline-time">01:08:30</span><span class="timeline-text">FU money：能对讨厌工作说 no 的自由资金</span></div>
+  <div class="timeline-item"><span class="timeline-time">01:10:32</span><span class="timeline-text">资产拆分：稳健兜底 + 高风险「学费娱乐」</span></div>
+  <div class="timeline-item"><span class="timeline-time">01:38:00</span><span class="timeline-text">理财第一步：先摸清消费结构与最低生存成本</span></div>
+  <div class="timeline-item"><span class="timeline-time">01:48:37</span><span class="timeline-text">长期主义消费：少买破烂，买能用很久的一件</span></div>
+  <div class="timeline-item"><span class="timeline-time">01:57:29</span><span class="timeline-text">广义财富：技能、健康、平静、睡眠、现金流</span></div>
+  <div class="timeline-item"><span class="timeline-time">02:01:35</span><span class="timeline-text">收束：所有钱与理念，都是给自己买安全感</span></div>
+</div>
+
+<div class="map">
+  <h2>核心脉络</h2>
+  <div class="diagram">
+    <div class="node node-orange">暴富幻想<br/>FOMO 上车</div>
+    <div class="arrow">→</div>
+    <div class="node">踩坑三连<br/>房/追星/杠杆</div>
+    <div class="arrow">→</div>
+    <div class="node node-green">拆分资产<br/>稳健+娱乐</div>
+    <div class="arrow">→</div>
+    <div class="node">广义财富<br/>健康·技能·现金流</div>
+    <div class="arrow">→</div>
+    <div class="node node-green">稳稳的幸福<br/>安全感</div>
+  </div>
+</div>
+
+<div class="correction">
+  <h3>⚠ 常见误解 / 认知纠偏</h3>
+  <p>「强制储蓄=买房」常常只是强制负债；纳斯达克定投≠稳稳储蓄；快乐与安全感并不对立——关键是把钱拆成几份，而不是二选一。</p>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">一、三十岁：放弃暴富，留下 FU money</h2>
+
+  <div class="card card-purple">
+    <h3><span class="speaker speaker-guest">嘉宾·小李</span> Gap 底气来自提前攒下的 FU money</h3>
+    <p><b>在讲什么：</b>不上班不慌，是因为 gap 前就刻意存了一笔「对讨厌的工作可以说去你的」的自由资金。</p>
+    <p><b>关键理解：</b>FU money 不是炫富数字，而是「零收入也能稳稳生活好几年」的护身符；它要求高流动性、低风险，绝不能锁死在到期日未知的产品里。</p>
+    <p><b>怎么用：</b>每月发薪还完信用卡后盘点总资产；按最低生存成本 × 可撑月数，算出这笔钱的下限，再只放固收/低风险渠道。</p>
+    <div class="quote">「一笔足够让你在任何时候，都能对不喜欢的工作、不喜欢的生活 say no 的自由资金。」</div>
+    <div class="highlight">原文依据：约 01:08:30–01:10:32，小李谈 gap 前存 FU money、要立刻可转出。</div>
+  </div>
+
+  <div class="card">
+    <h3><span class="speaker speaker-host">主持人视角</span> 收入难再暴涨，花钱却没少</h3>
+    <p><b>在讲什么：</b>跳槽涨幅从「30% 起跳」变成个位数；存款随发薪上去又很快落回原位。</p>
+    <p><b>关键理解：</b>三十岁常见拐点是「收入天花板」先于「欲望天花板」到来——继续赌职场暴富，不如先管住现金流与风险敞口。</p>
+    <div class="relation">相关：与 FU money 对照——一边是被动等待涨薪，一边是主动购买说 no 的权利。</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">二、高位买房血泪史</h2>
+
+  <div class="card card-orange">
+    <h3><span class="speaker speaker-guest">嘉宾·小柳</span> 2020「上车盘」：工资刚 cover 月供</h3>
+    <p><b>在讲什么：</b>落户后被家人与中介情绪裹挟，四天看房签下四环老破小；裸价 400 多万、单价轻松破 7 万；到手工资一万出头时月供约一万。</p>
+    <p><b>关键理解：</b>当时叙事是「房价只会涨、买房=投资+强制储蓄」；事后看，几乎每个节点都不是自己冷静问过「我真的需要、真的准备好负债了吗」。</p>
+    <p><b>结果：</b>小区同户型一度腰斩到约 250 万；满五后以约 300 万售出再补差价换同小区「老破中」——数学上难算赚亏，心理上只能「减亏自洽」。</p>
+    <div class="pitfall">「看似用固定资产抵御消费陷阱，其实掉进了更大的消费陷阱；强制储蓄没存到，强制负债倒是十成十。」</div>
+    <div class="highlight">原文依据：约 22:06–38:31，买房决策链、腰斩与置换。</div>
+  </div>
+
+  <div class="card card-green">
+    <h3>买房决策边界（本期共识）</h3>
+    <p><b>适用：</b>有明确刚需、能承受现金流压力、不把涨跌当主叙事时，自住可以入场。</p>
+    <p><b>不适用：</b>「抄底」「永远不完的上车」「为婚恋市场囤资产」等外部情绪驱动；更不要用未来涨薪幻想覆盖当下月供。</p>
+    <div class="action">落地问三句：此刻最需要这套房吗？月供后还能剩多少安全感？生活阶段变化后会不会立刻不够住？</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">三、追星账单：单价幻觉</h2>
+
+  <div class="card card-orange">
+    <h3><span class="speaker speaker-guest">嘉宾·特特</span> 杭州一周：机票+酒店+12 场票≈7900</h3>
+    <p><b>在讲什么：</b>单项都「看起来不贵」（机票约 2164、七晚酒店约 1513、门票合计约 3580），加总却是一周八千级。</p>
+    <p><b>关键理解：</b>月光的常见机制不是「一笔大钱」，而是把总价拆成可接受的单价，再自我合理化；快乐本身可不后悔，后悔的是从未学过「快乐与安全感可同时兼顾」。</p>
+    <div class="quote">「原来我花的不是单价，我花的是总价——这就是我没存款的原因。」</div>
+    <div class="action">开「追星小金库」：定年度上限（如 2 万），每月固定存入；超限就不去，换墙头也要先断旧仓，禁止从生活费/衣服预算挪账做假账。</div>
+    <div class="highlight">原文依据：约 45:37–51:16、01:41:35–01:43:08。</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">四、股市杠杆：一夜暴富的反面</h2>
+
+  <div class="card card-orange">
+    <h3><span class="speaker speaker-guest">嘉宾·小李</span> FOMO 入场 + 四倍杠杆 = 平仓归零</h3>
+    <p><b>在讲什么：</b>AI/科技行情下社交媒体晒收益，催生「全世界都在发财」焦虑；上涨时自封股神、想加仓，下跌时「不卖就没亏」死扛；上杠杆后发现有平仓机制——跌约 25% 即可让 4 倍仓位本金蒸发。</p>
+    <p><b>关键理解：</b>不上杠杆时「不看盘还能扛」；上杠杆后心率与 K 线绑定，用的是输不起的钱，情绪必然失控。</p>
+    <div class="pitfall">严重程度：致命。借钱炒股、上平台杠杆、把生活本金当赌注，都是同一类行为。</div>
+    <div class="quote">「相比一夜暴富幻想，普通人还是保本、能兜底的理财最重要。」</div>
+    <div class="highlight">原文依据：约 51:33–59:19、01:55:56–01:57:12。</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">五、兜底理财与资产拆分</h2>
+
+  <div class="card card-green">
+    <h3><span class="speaker speaker-guest">嘉宾·小李</span> 两笔钱：稳健底仓 + 娱乐学费</h3>
+    <p><b>稳健仓：</b>绝对不冒险、要高流动性；分散在银行/互联网银行低风险固收，享受「每天稳稳涨几块」的确定性——这是 gap 底气。</p>
+    <p><b>娱乐/学习仓：</b>股票等高风险资金，当作「付费兴趣班」：赚了意外之喜，赔了交学费，绝不影响正常生活与底仓。</p>
+    <div class="relation">纠偏：把收入 40% 定投纳指不算「储蓄率」，那是风险投资；整存整取利率下行时，才显出早年锁定 2～3% 保本产品的价值。</div>
+    <div class="highlight">原文依据：约 01:10:32–01:13:42；小柳定投讨论约 01:01:38–01:03:38。</div>
+  </div>
+
+  <div class="card">
+    <h3>理财第一步：先认识自己的钱</h3>
+    <p><b>在讲什么：</b>很多人存不下，是因为不知道钱花哪、一个月最低活着要多少、没收入时需要准备多少才安心。</p>
+    <p><b>怎么用：</b>先摸清消费结构与固定支出 → 算出「绝对不能出事」的生存金 → 再谈投资收益；乱花钱也要提前从预算里切出娱乐份额，而不是透支未来。</p>
+    <div class="quote">「理财的第一步不是投资，而是先了解自己。」</div>
+    <div class="highlight">原文依据：约 01:38:00–01:44:31。</div>
+  </div>
+
+  <div class="card card-purple">
+    <h3><span class="speaker speaker-guest">嘉宾·小李</span> 长期防线：年金/财富险思路（非产品推销）</h3>
+    <p><b>在讲什么：</b>固收收益下行、养老金预期变薄；老年大额存款易成诈骗目标。保险的意义更像「趁年轻把钱硬锁给未来的自己」，换几十年后的稳定现金流。</p>
+    <p><b>边界：</b>前期退保有损失；适合作为长期兜底的一部分，不能替代应急流动资金。本期强调先咨询规划、弄清风险点，而非盲目买某一款。</p>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">六、长期主义消费 &amp; 广义财富观</h2>
+
+  <div class="card">
+    <h3><span class="speaker speaker-host">消费观</span> 少买「平替破烂」，买一件就够的长期件</h3>
+    <p><b>在讲什么：</b>从 PDD 小破烂转向消费能力内相对高价、耐用、能「买完死心」的大件（手机壳用两年不发黄、装修选看得上的家具）。</p>
+    <p><b>关键理解：</b>平替往往只能平掉一时支付能力，平不掉情绪缺口——像先啃黄瓜饼干最后仍吃螺蛳粉，总热量更高。</p>
+    <p><b>边界：</b>「长期主义」不能变成一柜子名牌；适用于「生命里有一个就够、且要用很久」的品类，不适用于跟风虚荣与身份展示消费。</p>
+    <div class="highlight">原文依据：约 01:48:37–01:52:45；后悔清单侧重未拆封的冲动小物约 02:05:27–02:06:40。</div>
+  </div>
+
+  <div class="card card-green">
+    <h3>广义资产：不止房产与股票</h3>
+    <p><b>在讲什么：</b>房产在部分城市已难当优质投资；更该积累可带来本职外现金流的技能，以及身体健康、心理健康。</p>
+    <p><b>五要素心法：</b>平静、睡眠、肌肉量、好代谢、现金流——其余多为白噪音。钱花在枕头床品、饮食运动、心流爱好（陶艺/插花等）上，本质是买安全感。</p>
+    <div class="quote">「我们所有的钱和理念，其实都应该给自己买一份安心感。」</div>
+    <div class="highlight">原文依据：约 01:57:29–02:01:59。</div>
+  </div>
+</div>
+
+<div class="card">
+  <h3>观点对比</h3>
+  <table>
+    <tr><th>维度</th><th>旧叙事 / 踩坑做法</th><th>本期主张</th><th>一句话结论</th></tr>
+    <tr><td>买房</td><td>上车盘=投资+强制储蓄</td><td>刚需自住、问清现金流；勿被情绪催单</td><td>能住不等于会涨</td></tr>
+    <tr><td>追星/娱乐</td><td>只看单价，边 earn 边氪</td><td>年度上限+专属金库，快乐与保障并存</td><td>算总价再决定</td></tr>
+    <tr><td>股市</td><td>FOMO、加杠杆、死扛</td><td>只用输得起的「学费仓」，不上杠杆</td><td>保命钱不进赌场</td></tr>
+    <tr><td>储蓄</td><td>活期躺平 / 全仓指数当储蓄</td><td>稳健仓保流动性；投资仓单独记账</td><td>先拆分再进取</td></tr>
+    <tr><td>消费</td><td>大量平替与跟风</td><td>长期件一件到位；拒绝面子消费</td><td>买完能死心才算赢</td></tr>
+    <tr><td>财富定义</td><td>房+股才是资产</td><td>技能、健康、现金流同属广义财富</td><td>安全感才是 ROI</td></tr>
+  </table>
+</div>
+
+<div class="card card-orange">
+  <h3>⚠ 避坑总结</h3>
+  <ul>
+    <li>被「现在是低点/疫情结束必涨」话术推着签大宗合同——先停一停问自己是否刚需、是否扛得住负债。</li>
+    <li>只盯机票酒店门票单价，从不加总；以及「没工作正好多玩几天」的反向激励。</li>
+    <li>杠杆、借贷炒股、把生活本/老婆本梭哈——平仓后可归零且无翻本资本。</li>
+    <li>把高波动定投口头叫成「储蓄率」；或存款到「30 万临界」后智商下线乱买房买车。</li>
+    <li>用信用卡/花呗预支追星与体验；以及平台推荐驱动的未拆封小破烂囤货。</li>
+    <li>跟风虚荣消费（只因别人都在买）；把「长期主义」误用成无限扩柜的奢侈品借口。</li>
+  </ul>
+</div>
+
+<div class="conclusion">
+  <h2>总结与行动</h2>
+  <h3>核心要点</h3>
+  <ul>
+    <li>三十岁常见真相：收入难再暴涨，欲望不会自动下降——目标从暴富转向「稳稳握住当下」。</li>
+    <li>买房、追星、杠杆，踩坑机制高度相似：外部情绪 + 自我合理化 + 低估总风险。</li>
+    <li>FU money / 稳健仓解决「能说 no」；娱乐仓解决「想玩金融」——两笔钱不能混。</li>
+    <li>理财始于自知：最低生存成本、年度娱乐上限、应急月数，先于任何产品。</li>
+    <li>广义财富=技能+健康+平静睡眠代谢+现金流；花钱优先买安全感。</li>
+  </ul>
+  <h3>行动清单</h3>
+  <ol>
+    <li>算出「零收入可撑 N 个月」的金额，单独放入高流动性低风险账户，标为 FU / 兜底，禁止挪去炒股。</li>
+    <li>列本月固定支出与最低生活成本；给追星/旅行开专属金库并设年度硬顶。</li>
+    <li>检查是否有杠杆、分期冲动、未拆封囤货；能清则清，投资只用输得起的钱。</li>
+    <li>大宗消费（房/车/装修）写下「刚需三问」再决策；能等就等，拒绝四天签约式情绪单。</li>
+    <li>选 1～2 个「一件就够」的长期消费品类升级；同步为健康与可变现技能各定一笔固定投入。</li>
+  </ol>
+  <h3>关键认知转变</h3>
+  <p>以前认为：要么现在开心，要么未来有保障；买房就能强制储蓄；理财=找高收益产品暴富。现在理解：安全感可以预算化拆分——稳健仓保命、娱乐仓付学费、消费买长期与健康；三十岁以后，真正的财富自由不是账户数字炫目，而是能对不喜欢的生活说 no，同时仍留得住一点点稳稳的幸福。</p>
+</div>
+
+<div class="footer">来源：小宇宙 · 三十不而已 EP71 · https://www.xiaoyuzhoufm.com/episode/6a7ad1ea17676351c5702852</div>
+
+</div>
+
+    </div>
+  </foreignObject>
+</svg>
