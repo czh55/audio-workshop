@@ -1,51 +1,36 @@
 {
- "generated": "2026-09-11",
- "count": 133,
+ "generated": "2026-09-12",
+ "count": 132,
  "items": [
   {
-   "slug": "denmark_happiness_myth",
-   "title": "06 “最难投胎Top1”的北欧，真的这么幸福吗？",
-   "date": "2026-09-11",
-   "author": "此地无可替代",
+   "slug": "haixiu-social-performance-anxiety",
+   "title": "100. 为什么越想表现自己，越容易在社交中露怯？",
+   "date": "2026-09-12",
+   "author": "嗨咻",
    "tags": [
-    "旅行",
-    "北欧",
-    "幸福"
+    "社交",
+    "技巧",
+    "心态"
    ],
-   "url": "https://www.xiaoyuzhoufm.com/episode/6a48722a3fb7233cbf437411",
-   "duration": "1小时37分",
-   "words": 33057,
-   "file": "transcripts/denmark_happiness_myth.txt"
+   "url": "https://www.xiaoyuzhoufm.com/episode/6a69b08ab581962ce2bd4da5",
+   "duration": "46分",
+   "words": 13655,
+   "file": "transcripts/haixiu-social-performance-anxiety.txt"
   },
   {
-   "slug": "hidden_menu_vip_dining",
-   "title": "EP09 | 隐藏菜单、熟客饭局：那些很难吃到的饭，真的更好吃吗？",
-   "date": "2026-09-11",
-   "author": "逛街专家",
+   "slug": "lidan-deng-sichuan-chef-50y",
+   "title": "40.与邓师傅闲聊：做川菜五十年",
+   "date": "2026-09-12",
+   "author": "李诞",
    "tags": [
-    "餐饮",
-    "消费",
-    "社交"
+    "川菜",
+    "厨师",
+    "口述"
    ],
-   "url": "https://www.xiaoyuzhoufm.com/episode/6a9255b2a0210c197dc9f2a0",
-   "duration": "38分",
-   "words": 12230,
-   "file": "transcripts/hidden_menu_vip_dining.txt"
-  },
-  {
-   "slug": "yanwai_immature_parents",
-   "title": "燕外之意｜哪有什么父母，不过是孩子在养孩子",
-   "date": "2026-09-11",
-   "author": "燕外之意",
-   "tags": [
-    "原生家庭",
-    "心理",
-    "亲子"
-   ],
-   "url": "https://www.xiaoyuzhoufm.com/episode/6a9e4818f03e74ee6b0649f0",
-   "duration": "2小时29分",
-   "words": 54078,
-   "file": "transcripts/yanwai_immature_parents.txt"
+   "url": "https://www.xiaoyuzhoufm.com/episode/6a966be2a0210c197dcb88ab",
+   "duration": "1小时24分",
+   "words": 24445,
+   "file": "transcripts/lidan-deng-sichuan-chef-50y.txt"
   },
   {
    "slug": "brand_premium_decline",
