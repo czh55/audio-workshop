@@ -1,36 +1,126 @@
 {
- "generated": "2026-09-12",
- "count": 132,
+ "generated": "2026-09-20",
+ "count": 138,
  "items": [
   {
-   "slug": "haixiu-social-performance-anxiety",
-   "title": "100. 为什么越想表现自己，越容易在社交中露怯？",
-   "date": "2026-09-12",
-   "author": "嗨咻",
+   "slug": "exit_expression_contest_daily_life",
+   "title": "053｜退出表达竞赛，我只想当“过日子人”",
+   "date": "2026-09-19",
+   "author": "异见房间",
    "tags": [
-    "社交",
-    "技巧",
-    "心态"
+    "文化",
+    "表达",
+    "生活"
    ],
-   "url": "https://www.xiaoyuzhoufm.com/episode/6a69b08ab581962ce2bd4da5",
-   "duration": "46分",
-   "words": 13655,
-   "file": "transcripts/haixiu-social-performance-anxiety.txt"
+   "url": "https://www.xiaoyuzhoufm.com/episode/6aa16292492687f6aad76f44",
+   "duration": "1小时14分",
+   "words": 25190,
+   "file": "transcripts/exit_expression_contest_daily_life.txt"
   },
   {
-   "slug": "lidan-deng-sichuan-chef-50y",
-   "title": "40.与邓师傅闲聊：做川菜五十年",
-   "date": "2026-09-12",
-   "author": "李诞",
+   "slug": "guizhou_hiking_food_postcard",
+   "title": "09. 在贵州｜我们满眼新奇的爬山玩水，也吃到许多让人热泪盈眶的美食",
+   "date": "2026-09-19",
+   "author": "还没想好 POSTCARD",
    "tags": [
-    "川菜",
-    "厨师",
-    "口述"
+    "旅行",
+    "贵州",
+    "美食"
    ],
-   "url": "https://www.xiaoyuzhoufm.com/episode/6a966be2a0210c197dcb88ab",
-   "duration": "1小时24分",
-   "words": 24445,
-   "file": "transcripts/lidan-deng-sichuan-chef-50y.txt"
+   "url": "https://www.xiaoyuzhoufm.com/episode/6671e00bb6a8412729b8a268",
+   "duration": "1小时6分",
+   "words": 19372,
+   "file": "transcripts/guizhou_hiking_food_postcard.txt"
+  },
+  {
+   "slug": "gym_beauty_knowledge_pay_ep08",
+   "title": "EP08 | 健身房、美容院、知识付费：办张卡就能成为更好的自己吗？",
+   "date": "2026-09-19",
+   "author": "逛街专家",
+   "tags": [
+    "消费",
+    "办卡",
+    "自我"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/6a8eed7def65145dfcc5dd87",
+   "duration": "51分",
+   "words": 15810,
+   "file": "transcripts/gym_beauty_knowledge_pay_ep08.txt"
+  },
+  {
+   "slug": "harry_potter_hogwarts_architecture",
+   "title": "13｜哈利波特中的建筑：霍格沃茨之迷",
+   "date": "2026-09-19",
+   "author": "阿尔法城",
+   "tags": [
+    "建筑",
+    "电影",
+    "奇幻"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/6aa828e09d326477816924ee",
+   "duration": "1小时6分",
+   "words": 18038,
+   "file": "transcripts/harry_potter_hogwarts_architecture.txt"
+  },
+  {
+   "slug": "morandi_color_misconception",
+   "title": "“莫兰迪色系”是对莫兰迪最大的误解",
+   "date": "2026-09-19",
+   "author": "艺术折叠",
+   "tags": [
+    "艺术",
+    "色彩",
+    "策展"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/6aa430bd9d3264778167c9ab",
+   "duration": "42分",
+   "words": 13891,
+   "file": "transcripts/morandi_color_misconception.txt"
+  },
+  {
+   "slug": "norway_solo_walk_20days",
+   "title": "Vol.129 独自在挪威行走20天的女生｜理想的自我是一只独立的疯子",
+   "date": "2026-09-19",
+   "author": "出发计划",
+   "tags": [
+    "徒步",
+    "独行",
+    "挪威"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/6a9ced0af03e74ee6b05c103",
+   "duration": "1小时0分",
+   "words": 18009,
+   "file": "transcripts/norway_solo_walk_20days.txt"
+  },
+  {
+   "slug": "siwen_pregnancy_experience",
+   "title": "111.怀孕让我经历了什么",
+   "date": "2026-09-19",
+   "author": "思文，败类",
+   "tags": [
+    "生育",
+    "身体",
+    "成长"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/6a9e8e6ea0210c197dcee909",
+   "duration": "51分",
+   "words": 18588,
+   "file": "transcripts/siwen_pregnancy_experience.txt"
+  },
+  {
+   "slug": "utmb_brand_presence_ep113",
+   "title": "今年UTMB，运动品牌都是如何刷存在感的？EP113",
+   "date": "2026-09-19",
+   "author": "迪谈盖论",
+   "tags": [
+    "运动",
+    "营销",
+    "越野跑"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/6aa6e9e69d3264778168898b",
+   "duration": "1小时46分",
+   "words": 38358,
+   "file": "transcripts/utmb_brand_presence_ep113.txt"
   },
   {
    "slug": "brand_premium_decline",

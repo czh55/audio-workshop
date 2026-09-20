@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="2197" viewBox="0 0 1320 2197">
+  <foreignObject x="0" y="0" width="1320" height="2197">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:30px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:24px;font-weight:700;color:#1e40af;margin:28px 0 14px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:18px;font-weight:700;color:#334155;margin-bottom:10px}
+p{font-size:15px;line-height:1.75;color:#475569;margin-bottom:8px}
+ul,ol{padding-left:22px;margin:8px 0}li{font-size:14px;line-height:1.75;color:#475569;margin-bottom:5px}
+.tag{display:inline-block;padding:3px 12px;border-radius:20px;font-size:12px;font-weight:600;margin-right:6px}
+.tag-blue{background:#dbeafe;color:#1e40af}.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:10px 0 16px}
+.summary-line{font-size:17px;line-height:1.7;color:#334155;padding:18px 22px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:18px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:14px;padding:20px 24px;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline h3{color:#1e40af;margin-bottom:10px}
+.timeline-item{display:flex;gap:10px;padding:6px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:13px;font-weight:700;color:#3b82f6;min-width:64px}
+.timeline-text{font-size:14px;color:#475569}
+.map{background:#fff;border-radius:16px;padding:28px;margin-bottom:22px;box-shadow:0 4px 20px rgba(0,0,0,.05)}
+.map h2{margin-top:0;border:none;padding:0}
+.diagram{display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:center;padding:12px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:14px;padding:12px 16px;font-weight:700;font-size:13px;color:#1e40af;text-align:center}
+.node-g{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-o{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{color:#94a3b8;font-size:18px}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:16px 20px;border-radius:12px;margin-bottom:20px}
+.correction h3,.correction p{color:#92400e;font-size:14px}
+.sec-title{font-size:20px;font-weight:700;color:#1e40af;margin:24px 0 12px;padding-left:12px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:14px;padding:22px;margin-bottom:14px;box-shadow:0 3px 16px rgba(0,0,0,.05);border-left:5px solid #3b82f6}
+.card.g{border-left-color:#10b981}.card.o{border-left-color:#f59e0b}.card.p{border-left-color:#8b5cf6}.card.r{border-left-color:#ef4444}
+.card h3{color:#1e40af}
+.quote{background:#f8fafc;padding:10px 14px;border-radius:8px;margin:10px 0;font-size:14px;color:#64748b;border-left:3px solid #cbd5e1;font-style:italic}
+.pitfall{background:#fef2f2;padding:10px 14px;border-radius:8px;margin:10px 0;font-size:14px;color:#991b1b;border-left:3px solid #ef4444}
+.action{background:#eff6ff;padding:10px 14px;border-radius:8px;margin:10px 0;font-size:14px;color:#1e40af;border-left:3px solid #3b82f6}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:16px;padding:28px;margin-top:24px}
+.conclusion h2{color:#fff;border-color:rgba(255,255,255,.25);margin-top:0}
+.conclusion h3{color:rgba(255,255,255,.9);margin:14px 0 8px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.9);font-size:14px}
+.footer{text-align:center;color:#94a3b8;font-size:12px;padding:24px 0 8px}</style>
+      
+<div class="container">
+  <h1>Vol.129 独自在挪威行走20天｜理想的自我是一只独立的疯子</h1>
+  <div class="meta"><span class="tag tag-blue">播客</span><span class="tag tag-purple">出发计划</span><span class="tag tag-orange">约60分</span><span class="tag tag-green">徒步</span></div>
+  <div class="summary-line">体育生Ace独自挪威20天：三大奇石硬核线+罗弗敦+北极圈。独立=向内求；疯子=对世界过度好奇。暴雨中仍上恶魔之门，遇同行见彩虹；体能来自习惯与备赛，勇气来自一个人把包背到底。</div>
+  <div class="timeline"><h3>关键时间轴</h3><div class="timeline-item"><span class="timeline-time">行程</span><span class="timeline-text">奥斯陆→斯塔万格三大石→卑尔根→罗弗敦→特罗姆瑟</span></div>
+<div class="timeline-item"><span class="timeline-time">三石</span><span class="timeline-text">布道石8km；奇石攀岩11km；舌石超长爬升</span></div>
+<div class="timeline-item"><span class="timeline-time">暴雨</span><span class="timeline-text">犹豫后仍出发；无人山路；最终三人同行见彩虹</span></div>
+<div class="timeline-item"><span class="timeline-time"> equip</span><span class="timeline-text">过夜火车延误；当地人留言佩服独行</span></div>
+<div class="timeline-item"><span class="timeline-time">意义</span><span class="timeline-text">独立向内求；疯子=热爱探索；与自然平等</span></div></div>
+  <div class="map"><h2>核心脉络</h2><div class="diagram"><div class="node ">独行</div><span class="arrow">→</span><div class="node node-o">三大石</div><span class="arrow">→</span><div class="node ">恶劣天气</div><span class="arrow">→</span><div class="node node-g">同行机缘</div><span class="arrow">→</span><div class="node node-g">独立的疯子</div></div></div>
+  <div class="correction"><h3>常见误解 / 认知纠偏</h3><p>· 「打卡照=轻松」——舌石可达28km级，有坠落风险。</p><p>· 「女人不该独行」——她遇到的惊讶恰恰说明稀缺不是禁止。</p><p>· ASR：步道石→布道石；奇迹石→奇岩；扭摸/恶魔之舌→挪威舌石 Trolltunga。</p></div>
+  <h2 class="sec-title">一、路线硬度</h2><div class="card o"><h3>三大石不是网红散步</h3><p>布道石往返约8km/4-5h；奇石非铺装攀岩；舌石长距离大爬升。Ace因体育生+日常徒步习惯显著更快。</p><div class="action">去前按爬升与路况分级，不按照片分级。</div></div><h2 class="sec-title">二、独行时刻</h2><div class="card g"><h3>雨中恶魔之门</h3><p>无人、湿滑失败支线；后遇两人再上，见双彩虹。</p><div class="quote">理想的自我是一只独立的疯子——向内求，又极度好奇世界。</div></div><h2 class="sec-title">三、力量从哪来</h2><div class="card "><h3>习惯>鸡血</h3><p>暑假前就当备赛；冰岛搬石玩笑；挪威人留言佩服独行中国女性。</p></div>
+  <div class="conclusion"><h2>总结与行动</h2><h3>核心要点</h3><ul><li>独行是能力与选择，不是逞强表演</li><li>奇观线路要按体能与天气决策</li><li>独立与狂热好奇可以并存</li></ul><h3>行动清单</h3><ol><li>每周固定徒步当「体能账户」</li><li>恶劣天气设撤退条件仍保留尝试窗口</li><li>独行分享真实风险，不美化</li></ol><h3>关键认知转变</h3><p>以前：独自=孤独危险；现在：独自=把世界当成可平视探索的对象。</p></div>
+  <div class="footer">小宇宙播客总结 · Whisper 转录整理 · 2026-09-19</div>
+</div>
+    </div>
+  </foreignObject>
+</svg>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="7358" viewBox="0 0 1320 7358">
+  <foreignObject x="0" y="0" width="1320" height="7358">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#fdf2f8,#fce7f3);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:32px;font-weight:900;background:linear-gradient(135deg,#9d174d,#db2777);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#9d174d;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #fbcfe8}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}.tag-purple{background:#fce7f3;color:#9d174d}
+.tag-red{background:#fee2e2;color:#991b1b}.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #db2777;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline h3{color:#9d174d;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #fce7f3}
+.timeline-time{font-size:14px;font-weight:700;color:#db2777;min-width:70px}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;color:#9d174d}
+.diagram{display:flex;align-items:center;justify-content:center;gap:14px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#fdf2f8,#fce7f3);border:2px solid #f9a8d4;border-radius:16px;padding:16px 20px;text-align:center;min-width:110px;font-weight:700;font-size:14px;color:#9d174d}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:22px;color:#f9a8d4}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3,.correction p{color:#92400e}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#9d174d;margin-bottom:16px;padding-left:16px;border-left:4px solid #db2777}
+.card{background:#fff;border-radius:16px;padding:28px;margin-bottom:18px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #db2777}
+.card.card-green{border-left-color:#10b981}.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}.card.card-red{border-left-color:#ef4444}
+.card h3{font-size:19px;font-weight:700;color:#9d174d;margin-bottom:10px}
+.card .quote{background:#fdf2f8;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #f9a8d4;font-style:italic}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action{background:#fdf2f8;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#9d174d;border-left:4px solid #db2777}
+.conclusion{background:linear-gradient(135deg,#9d174d,#db2777);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;color:#fff;border-bottom:1px solid rgba(255,255,255,.2);padding-bottom:8px}
+.conclusion h3{font-size:18px;color:rgba(255,255,255,.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.9);font-size:15px}
+.footer{text-align:center;color:#f9a8d4;font-size:13px;padding:32px 0 16px}</style>
+      
+<div class="container">
+  <h1>111.怀孕让我经历了什么</h1>
+  <div class="meta">
+    <span class="tag tag-purple">播客</span>
+    <span class="tag tag-orange">思文，败类</span>
+    <span class="tag tag-blue">约51分钟</span>
+    <span class="tag tag-green">生育</span>
+    <span class="tag tag-gray">单口</span>
+  </div>
+  <div class="summary-line">从不想生、多囊时竟窃喜，到意外怀孕、孕期崩溃与剖腹产疤痕恐惧；月嫂范阿姨点破「没有完美妈妈」。妈味来自隐形劳动与看不下去——建设比解构难；有妈味也证明有力量。不生育同样成立，像不爱海鲜就不遗憾。</div>
+
+  <div class="timeline">
+    <h3>关键时间轴</h3>
+    <div class="timeline-item"><span class="timeline-time">00:12</span><span class="timeline-text">敢聊生育：35岁悬刀、怕触雷；宝宝已一岁</span></div>
+    <div class="timeline-item"><span class="timeline-time">01:19</span><span class="timeline-text">母亲竖剖疤与「妈味」恐惧：丢掉自我</span></div>
+    <div class="timeline-item"><span class="timeline-time">03:59</span><span class="timeline-text">多囊宣判：不孕？内心窃喜；前男友「宽恕」违和</span></div>
+    <div class="timeline-item"><span class="timeline-time">05:44</span><span class="timeline-text">现伴侣尊重不想生；意外怀孕震惊</span></div>
+    <div class="timeline-item"><span class="timeline-time">18:55</span><span class="timeline-text">孕期情绪：伴侣唯一可分担是接住脾气；躲楼洞遇流浪猫</span></div>
+    <div class="timeline-item"><span class="timeline-time">21:00</span><span class="timeline-text">「保持美好心情」很不要脸；想早剖 vs 足月</span></div>
+    <div class="timeline-item"><span class="timeline-time">22:50</span><span class="timeline-text">想顺产避疤 → 羊水浑浊剖腹产；血压178</span></div>
+    <div class="timeline-item"><span class="timeline-time">36:14</span><span class="timeline-text">范阿姨懂小孩；天选妈妈却抛家带别人的娃</span></div>
+    <div class="timeline-item"><span class="timeline-time">45:21</span><span class="timeline-text">「多多妈妈」身份：出门仍是自己；足够好即可</span></div>
+    <div class="timeline-item"><span class="timeline-time">46:58</span><span class="timeline-text">妈味解码：看不下去→隐形劳动→烦躁；建设难嘲笑易</span></div>
+  </div>
+
+  <div class="map">
+    <h2>核心脉络</h2>
+    <div class="diagram">
+      <div class="node">恐惧妈味</div><span class="arrow">→</span>
+      <div class="node node-orange">身体功课</div><span class="arrow">→</span>
+      <div class="node">情绪分裂</div><span class="arrow">→</span>
+      <div class="node node-green">足够好</div><span class="arrow">→</span>
+      <div class="node node-green">有力量</div>
+    </div>
+  </div>
+
+  <div class="correction">
+    <h3>常见误解 / 认知纠偏</h3>
+    <p>· 「怀孕要保持美好心情」——激素+身体痛苦下几乎不可能；压抑与爆发都带来内疚。</p>
+    <p>· 「完美妈妈存在」——范阿姨：最懂孩子的人也无法陪自己的孩子；互相羡慕的是对方拥有的那一半。</p>
+    <p>· 「妈味=人格缺陷」——往往是隐形托底劳动+别人轻微不配合就会气炸；建设难、嘲笑易。</p>
+    <p>· 「不生育=遗憾」——像不爱吃海鲜的人：没吃过也不觉得可怜。</p>
+    <p>· ASR：「声域/声誉→生育」「认身纹→妊娠纹」「抛肤产→剖腹产」「妈卫→妈味」。</p>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">一、为什么曾决意不生</h2>
+    <div class="card">
+      <h3>身体创伤与「妈味」想象</h3>
+      <p>母亲22岁竖剖、疤如凹陷；多数妈妈操心被嫌、念叨诉苦、好东西留给别人——丢掉自我令她恐惧。养儿防老对本代不成立，可爱小猫也能给。</p>
+      <div class="quote">除了毁掉身材、占用精力、带来负担，她还能带给我什么？</div>
+    </div>
+    <div class="card card-orange">
+      <h3>多囊：宣判与窃喜</h3>
+      <p>医生说严重多囊可能不孕，心中竟松一口气。传统男友「接纳缺陷」的宽恕感让她不适——她没做错值得被宽恕的事。与现伴侣「你会想过生孩子吗」的尊重语气，才是走到一起的前提。</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">二、孕期：身体功课与情绪死结</h2>
+    <div class="card card-red">
+      <h3>痛苦无法被分担，只能被接住</h3>
+      <p>同学说抓老公脸是男人唯一作用。伴侣大多接得住，但她也会吼「你没有子宫还敢反驳」。躲进门洞遇流浪猫——想静却惊恐；一边失控一边怕伤害胎儿神经系统。</p>
+      <div class="pitfall">网络鸡汤「一定美好心情」加剧羞耻；早剖冲动与足月健康叙事拉锯。</div>
+    </div>
+    <div class="card">
+      <h3>疤痕恐惧与剖腹产之夜</h3>
+      <p>身高150多、宝宝6.5斤，医生说顺产已到极限；仍想顺产只为肚皮光溜。39周羊水浑浊必须剖——术前血压178，麻醉下感触无痛、喘不上气，隔壁婴儿哭声戏剧性响起。</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">三、足够好的妈妈</h2>
+    <div class="card card-green">
+      <h3>范阿姨：天选妈妈与抛家之痛</h3>
+      <p>夸骑车停住的小孩、听懂回音啊啊叫、解释「不是嘲笑是可爱」——宝宝认阿姨。阿姨83年、三孩在乡，说：哪有完美妈妈；我懂孩子却不能陪自己的；羡慕你有能力请人带。</p>
+      <div class="quote">一份母爱给了别人的孩子，自己的孩子就没有了。</div>
+      <div class="action">互认：经济能力与陪伴能力常常不可兼得；足够好 &gt; 完美幻想。</div>
+    </div>
+    <div class="card card-purple">
+      <h3>「多多妈妈」与自我</h3>
+      <p>曾怕被称呼淹没姓名；现视为多一个职位——出门仍是自己。自责「太有自我」时，想起：每个妈妈都想完美，但都已足够好。</p>
+    </div>
+    <div class="card">
+      <h3>妈味从哪来 → 为何也是力量</h3>
+      <p>以前：饿了让他爸看着办。现在：看不下去→只能自己托底→隐形劳动最多→别人一点点破坏就气炸。少年感解构一切容易；当妈妈/带团队是建设——成形难、嘲笑易。有妈味=肩上有担当与力量。</p>
+      <div class="quote">有妈味证明我很厉害……证明我可以做到很多妈妈该做的事情。</div>
+    </div>
+  </div>
+
+  <div class="conclusion">
+    <h2>总结与行动</h2>
+    <h3>核心要点</h3>
+    <ul>
+      <li>生育是身体与关系功课，不是鸡汤心情管理</li>
+      <li>没有完美妈妈；足够好即可，自我与母职可并存</li>
+      <li>妈味常来自隐形托底；建设难于解构——也是力量证明</li>
+      <li>不生育同样完整，无需被遗憾叙事绑架</li>
+    </ul>
+    <h3>行动清单</h3>
+    <ol>
+      <li>若孕期崩溃：允许接住情绪，少用「美好心情」自我审判</li>
+      <li>伴侣分工：身体痛无法分担，明确「接情绪」是任务</li>
+      <li>带娃者互相看见：经济托底与情感陪伴的结构性不公</li>
+      <li>自检妈味烦躁：列清本周隐形劳动，谈可见的支持</li>
+      <li>未生育朋友：用「海鲜」测试——不爱就不遗憾，停止劝生</li>
+    </ol>
+    <h3>关键认知转变</h3>
+    <p>以前：妈味是丢掉自我的诅咒；现在：那是建设责任时肩膀变宽的副作用——可以有自我，也可以有力量，也可以选择不攀这座峰。</p>
+  </div>
+  <div class="footer">思文，败类 · 小宇宙 · Whisper 转录整理</div>
+</div>
+    </div>
+  </foreignObject>
+</svg>

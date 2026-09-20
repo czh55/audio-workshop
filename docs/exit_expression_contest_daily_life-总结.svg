@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="2282" viewBox="0 0 1320 2282">
+  <foreignObject x="0" y="0" width="1320" height="2282">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:30px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:24px;font-weight:700;color:#1e40af;margin:28px 0 14px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:18px;font-weight:700;color:#334155;margin-bottom:10px}
+p{font-size:15px;line-height:1.75;color:#475569;margin-bottom:8px}
+ul,ol{padding-left:22px;margin:8px 0}li{font-size:14px;line-height:1.75;color:#475569;margin-bottom:5px}
+.tag{display:inline-block;padding:3px 12px;border-radius:20px;font-size:12px;font-weight:600;margin-right:6px}
+.tag-blue{background:#dbeafe;color:#1e40af}.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:10px 0 16px}
+.summary-line{font-size:17px;line-height:1.7;color:#334155;padding:18px 22px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:18px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:14px;padding:20px 24px;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline h3{color:#1e40af;margin-bottom:10px}
+.timeline-item{display:flex;gap:10px;padding:6px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:13px;font-weight:700;color:#3b82f6;min-width:64px}
+.timeline-text{font-size:14px;color:#475569}
+.map{background:#fff;border-radius:16px;padding:28px;margin-bottom:22px;box-shadow:0 4px 20px rgba(0,0,0,.05)}
+.map h2{margin-top:0;border:none;padding:0}
+.diagram{display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:center;padding:12px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:14px;padding:12px 16px;font-weight:700;font-size:13px;color:#1e40af;text-align:center}
+.node-g{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-o{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{color:#94a3b8;font-size:18px}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:16px 20px;border-radius:12px;margin-bottom:20px}
+.correction h3,.correction p{color:#92400e;font-size:14px}
+.sec-title{font-size:20px;font-weight:700;color:#1e40af;margin:24px 0 12px;padding-left:12px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:14px;padding:22px;margin-bottom:14px;box-shadow:0 3px 16px rgba(0,0,0,.05);border-left:5px solid #3b82f6}
+.card.g{border-left-color:#10b981}.card.o{border-left-color:#f59e0b}.card.p{border-left-color:#8b5cf6}.card.r{border-left-color:#ef4444}
+.card h3{color:#1e40af}
+.quote{background:#f8fafc;padding:10px 14px;border-radius:8px;margin:10px 0;font-size:14px;color:#64748b;border-left:3px solid #cbd5e1;font-style:italic}
+.pitfall{background:#fef2f2;padding:10px 14px;border-radius:8px;margin:10px 0;font-size:14px;color:#991b1b;border-left:3px solid #ef4444}
+.action{background:#eff6ff;padding:10px 14px;border-radius:8px;margin:10px 0;font-size:14px;color:#1e40af;border-left:3px solid #3b82f6}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:16px;padding:28px;margin-top:24px}
+.conclusion h2{color:#fff;border-color:rgba(255,255,255,.25);margin-top:0}
+.conclusion h3{color:rgba(255,255,255,.9);margin:14px 0 8px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.9);font-size:14px}
+.footer{text-align:center;color:#94a3b8;font-size:12px;padding:24px 0 8px}</style>
+      
+<div class="container">
+  <h1>053｜退出表达竞赛，我只想当“过日子人”</h1>
+  <div class="meta"><span class="tag tag-blue">播客</span><span class="tag tag-purple">异见房间</span><span class="tag tag-orange">约74分</span><span class="tag tag-green">文化</span></div>
+  <div class="summary-line">从「模证人」到「过日子人」：解释过剩、意义饥荒后的精神转向。模证凡事必命名；过日子让凡事只是凡事。退出表达竞赛不是反智，而是不让理论代替生活——买菜就是买菜。</div>
+  <div class="timeline"><h3>关键时间轴</h3><div class="timeline-item"><span class="timeline-time">开场</span><span class="timeline-text">纯过日子人设流行；曾有模证时期</span></div>
+<div class="timeline-item"><span class="timeline-time">游戏</span><span class="timeline-text">把退群说成建立边界——翻译成人话</span></div>
+<div class="timeline-item"><span class="timeline-time">对比</span><span class="timeline-text">模证找终极解释；日子人因饿而吃</span></div>
+<div class="timeline-item"><span class="timeline-time">成因</span><span class="timeline-text">采访/意义/解释过剩；信息茧与金句疲劳</span></div>
+<div class="timeline-item"><span class="timeline-time">边界</span><span class="timeline-text">理论应帮助理解生活，不代替生活</span></div>
+<div class="timeline-item"><span class="timeline-time">收</span><span class="timeline-text">今天过好今天；具体家务也是生活</span></div></div>
+  <div class="map"><h2>核心脉络</h2><div class="diagram"><div class="node ">意义饥荒</div><span class="arrow">→</span><div class="node node-o">解释过剩</div><span class="arrow">→</span><div class="node ">表达竞赛</div><span class="arrow">→</span><div class="node node-g">退出</div><span class="arrow">→</span><div class="node node-g">凡事即凡事</div></div></div>
+  <div class="correction"><h3>常见误解 / 认知纠偏</h3><p>· 「过日子=躺平反智」——拒绝的是每分钟被优化，不是思考本身。</p><p>· 「情绪必须追溯童年」——有时想哭就是想哭。</p><p>· ASR：模证人/摩扇人/魔症→（网络用语）模因/解释型自我；意见房间→异见房间。</p></div>
+  <h2 class="sec-title">一、两种人</h2><div class="card o"><h3>模证 vs 日子</h3><p>模证：分手要分析依恋，迷茫要对齐奥德赛期。日子：哭因想哭，菜因倒了。</p><div class="quote">意义想多了威胁健康。</div></div><h2 class="sec-title">二、为何转向</h2><div class="card g"><h3>解释过剩</h3><p>访谈要看完再看解释；金句截图脱离语境循环二创；人人要提供认知增量命名。</p><div class="action">发现自己在「表演成长」时，翻译回人话：我到底想做什么？</div></div><h2 class="sec-title">三、怎么退赛不弃疗</h2><div class="card "><h3>理论服务生活</h3><p>可以有完整人生理论，冰箱空了仍得买菜。避免用抽象议题逃避具体关系与家务。</p><div class="pitfall">把过日子再做成新的人设竞赛。</div></div>
+  <div class="conclusion"><h2>总结与行动</h2><h3>核心要点</h3><ul><li>表达竞赛源于意义饥荒与解释产业</li><li>过日子=降低强制赋予意义的频率</li><li>退出竞赛≠放弃理解世界</li></ul><h3>行动清单</h3><ol><li>一周一次「人话日」：禁用三个流行心理词</li><li>家务与见朋友排进日程，不排进自我叙事</li><li>想发长分析前先写一句动机人话</li></ol><h3>关键认知转变</h3><p>以前：不解释就不深刻；现在：能把日子过具体，才有余力真正思考。</p></div>
+  <div class="footer">小宇宙播客总结 · Whisper 转录整理 · 2026-09-19</div>
+</div>
+    </div>
+  </foreignObject>
+</svg>

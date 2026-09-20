@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="2230" viewBox="0 0 1320 2230">
+  <foreignObject x="0" y="0" width="1320" height="2230">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:30px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:24px;font-weight:700;color:#1e40af;margin:28px 0 14px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:18px;font-weight:700;color:#334155;margin-bottom:10px}
+p{font-size:15px;line-height:1.75;color:#475569;margin-bottom:8px}
+ul,ol{padding-left:22px;margin:8px 0}li{font-size:14px;line-height:1.75;color:#475569;margin-bottom:5px}
+.tag{display:inline-block;padding:3px 12px;border-radius:20px;font-size:12px;font-weight:600;margin-right:6px}
+.tag-blue{background:#dbeafe;color:#1e40af}.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:10px 0 16px}
+.summary-line{font-size:17px;line-height:1.7;color:#334155;padding:18px 22px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:18px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:14px;padding:20px 24px;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline h3{color:#1e40af;margin-bottom:10px}
+.timeline-item{display:flex;gap:10px;padding:6px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:13px;font-weight:700;color:#3b82f6;min-width:64px}
+.timeline-text{font-size:14px;color:#475569}
+.map{background:#fff;border-radius:16px;padding:28px;margin-bottom:22px;box-shadow:0 4px 20px rgba(0,0,0,.05)}
+.map h2{margin-top:0;border:none;padding:0}
+.diagram{display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:center;padding:12px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:14px;padding:12px 16px;font-weight:700;font-size:13px;color:#1e40af;text-align:center}
+.node-g{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-o{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{color:#94a3b8;font-size:18px}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:16px 20px;border-radius:12px;margin-bottom:20px}
+.correction h3,.correction p{color:#92400e;font-size:14px}
+.sec-title{font-size:20px;font-weight:700;color:#1e40af;margin:24px 0 12px;padding-left:12px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:14px;padding:22px;margin-bottom:14px;box-shadow:0 3px 16px rgba(0,0,0,.05);border-left:5px solid #3b82f6}
+.card.g{border-left-color:#10b981}.card.o{border-left-color:#f59e0b}.card.p{border-left-color:#8b5cf6}.card.r{border-left-color:#ef4444}
+.card h3{color:#1e40af}
+.quote{background:#f8fafc;padding:10px 14px;border-radius:8px;margin:10px 0;font-size:14px;color:#64748b;border-left:3px solid #cbd5e1;font-style:italic}
+.pitfall{background:#fef2f2;padding:10px 14px;border-radius:8px;margin:10px 0;font-size:14px;color:#991b1b;border-left:3px solid #ef4444}
+.action{background:#eff6ff;padding:10px 14px;border-radius:8px;margin:10px 0;font-size:14px;color:#1e40af;border-left:3px solid #3b82f6}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:16px;padding:28px;margin-top:24px}
+.conclusion h2{color:#fff;border-color:rgba(255,255,255,.25);margin-top:0}
+.conclusion h3{color:rgba(255,255,255,.9);margin:14px 0 8px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.9);font-size:14px}
+.footer{text-align:center;color:#94a3b8;font-size:12px;padding:24px 0 8px}</style>
+      
+<div class="container">
+  <h1>13｜哈利波特中的建筑：霍格沃茨之谜</h1>
+  <div class="meta"><span class="tag tag-blue">播客</span><span class="tag tag-purple">阿尔法城</span><span class="tag tag-orange">约66分</span><span class="tag tag-green">建筑</span></div>
+  <div class="summary-line">霍格沃茨是虚构城堡，却由修道院、中世纪城堡、英国寄宿制学院三重原型叠合，再用哥特视觉语言统一。电影比原著更「建」出空间；垂直学院性格、迷宫生长与大厅秩序，让魔法感可被建筑学读懂。</div>
+  <div class="timeline"><h3>关键时间轴</h3><div class="timeline-item"><span class="timeline-time">开场</span><span class="timeline-text">原著描写不详 vs 电影视觉建构</span></div>
+<div class="timeline-item"><span class="timeline-time">一</span><span class="timeline-text">修道院型：集体生活全纳于一建筑</span></div>
+<div class="timeline-item"><span class="timeline-time">二</span><span class="timeline-text">城堡：防御·居住·行政；大厅如大礼堂</span></div>
+<div class="timeline-item"><span class="timeline-time">三</span><span class="timeline-text">学院制：四长桌+高桌；垂直=性格</span></div>
+<div class="timeline-item"><span class="timeline-time">四</span><span class="timeline-text">哥特取景：牛津基督堂、大教堂等拼贴</span></div>
+<div class="timeline-item"><span class="timeline-time">收</span><span class="timeline-text">三原型+哥特统一=既假又真</span></div></div>
+  <div class="map"><h2>核心脉络</h2><div class="diagram"><div class="node ">修道院</div><span class="arrow">→</span><div class="node ">城堡</div><span class="arrow">→</span><div class="node ">学院制</div><span class="arrow">→</span><div class="node node-o">哥特语言</div><span class="arrow">→</span><div class="node node-g">可探索迷宫</div></div></div>
+  <div class="correction"><h3>常见误解 / 认知纠偏</h3><p>· 「霍格沃茨=某座真实城堡」——多地借用剪辑而成。</p><p>· 「原著规定哥特」——哥特主要是电影视觉选择。</p><p>· ASR：霍国词→霍格沃茨；技术制→寄宿制；鬼草→大厅 Great Hall。</p></div>
+  <h2 class="sec-title">一、三重原型</h2><div class="card g"><h3>修道院 / 城堡 / 学院</h3><p>居住工作饮食礼拜一体；防御+迷宫神秘；寄宿制宿舍休息室与知识共同体制度感。</p></div><h2 class="sec-title">二、空间魔法从哪来</h2><div class="card "><h3>复杂·垂直·生长</h3><p>千年增补如迷宫；地牢斯莱特林 vs 塔楼格兰芬多；密室与有求必应屋随成长出现。</p><div class="quote">高度本身就是性格的一部分。</div></div><h2 class="sec-title">三、电影建造术</h2><div class="card o"><h3>取景拼贴</h3><p>大礼堂秩序参考牛津基督堂大厅；图书馆隔间制；哥特拱券花窗注入中世纪时间感。</p><div class="pitfall">电影未用原著「许多小圆桌」——跨校联欢时个体性弱化。</div></div>
+  <div class="conclusion"><h2>总结与行动</h2><h3>核心要点</h3><ul><li>魔法感可被建筑类型学解释</li><li>电影完成了原著未画的图纸</li><li>探索城堡=人物成长线</li></ul><h3>行动清单</h3><ol><li>重温时标：这是修道院/城堡/学院哪一层？</li><li>对照真实牛津大厅照片</li><li>想虚构世界：先选空间原型再加奇观</li></ol><h3>关键认知转变</h3><p>以前：魔法靠特效；现在：秩序与迷宫的建筑语法才是魔法底座。</p></div>
+  <div class="footer">小宇宙播客总结 · Whisper 转录整理 · 2026-09-19</div>
+</div>
+    </div>
+  </foreignObject>
+</svg>
