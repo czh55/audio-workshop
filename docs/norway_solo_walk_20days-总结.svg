@@ -1,62 +1,163 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="2197" viewBox="0 0 1320 2197">
-  <foreignObject x="0" y="0" width="1320" height="2197">
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="3767" viewBox="0 0 1320 3767">
+  <foreignObject x="0" y="0" width="1320" height="3767">
     <div xmlns="http://www.w3.org/1999/xhtml">
       <style>*{margin:0;padding:0;box-sizing:border-box}
-body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e8e4df);padding:48px 60px;color:#1e293b}
 .container{max-width:1200px;margin:0 auto}
-h1{font-size:30px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
-h2{font-size:24px;font-weight:700;color:#1e40af;margin:28px 0 14px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
-h3{font-size:18px;font-weight:700;color:#334155;margin-bottom:10px}
-p{font-size:15px;line-height:1.75;color:#475569;margin-bottom:8px}
-ul,ol{padding-left:22px;margin:8px 0}li{font-size:14px;line-height:1.75;color:#475569;margin-bottom:5px}
-.tag{display:inline-block;padding:3px 12px;border-radius:20px;font-size:12px;font-weight:600;margin-right:6px}
+h1{font-size:32px;font-weight:900;background:linear-gradient(135deg,#57534e,#a8a29e);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#57534e;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
 .tag-blue{background:#dbeafe;color:#1e40af}.tag-green{background:#d1fae5;color:#065f46}
 .tag-orange{background:#ffedd5;color:#9a3412}.tag-purple{background:#ede9fe;color:#6b21a8}
-.tag-red{background:#fee2e2;color:#991b1b}.tag-gray{background:#f1f5f9;color:#64748b}
-.meta{margin:10px 0 16px}
-.summary-line{font-size:17px;line-height:1.7;color:#334155;padding:18px 22px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:18px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
-.timeline{background:#fff;border-radius:14px;padding:20px 24px;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
-.timeline h3{color:#1e40af;margin-bottom:10px}
-.timeline-item{display:flex;gap:10px;padding:6px 0;border-bottom:1px solid #f1f5f9}
-.timeline-time{font-size:13px;font-weight:700;color:#3b82f6;min-width:64px}
-.timeline-text{font-size:14px;color:#475569}
-.map{background:#fff;border-radius:16px;padding:28px;margin-bottom:22px;box-shadow:0 4px 20px rgba(0,0,0,.05)}
-.map h2{margin-top:0;border:none;padding:0}
-.diagram{display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:center;padding:12px 0}
-.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:14px;padding:12px 16px;font-weight:700;font-size:13px;color:#1e40af;text-align:center}
-.node-g{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
-.node-o{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
-.arrow{color:#94a3b8;font-size:18px}
-.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:16px 20px;border-radius:12px;margin-bottom:20px}
-.correction h3,.correction p{color:#92400e;font-size:14px}
-.sec-title{font-size:20px;font-weight:700;color:#1e40af;margin:24px 0 12px;padding-left:12px;border-left:4px solid #3b82f6}
-.card{background:#fff;border-radius:14px;padding:22px;margin-bottom:14px;box-shadow:0 3px 16px rgba(0,0,0,.05);border-left:5px solid #3b82f6}
-.card.g{border-left-color:#10b981}.card.o{border-left-color:#f59e0b}.card.p{border-left-color:#8b5cf6}.card.r{border-left-color:#ef4444}
-.card h3{color:#1e40af}
-.quote{background:#f8fafc;padding:10px 14px;border-radius:8px;margin:10px 0;font-size:14px;color:#64748b;border-left:3px solid #cbd5e1;font-style:italic}
-.pitfall{background:#fef2f2;padding:10px 14px;border-radius:8px;margin:10px 0;font-size:14px;color:#991b1b;border-left:3px solid #ef4444}
-.action{background:#eff6ff;padding:10px 14px;border-radius:8px;margin:10px 0;font-size:14px;color:#1e40af;border-left:3px solid #3b82f6}
-.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:16px;padding:28px;margin-top:24px}
-.conclusion h2{color:#fff;border-color:rgba(255,255,255,.25);margin-top:0}
-.conclusion h3{color:rgba(255,255,255,.9);margin:14px 0 8px}
-.conclusion p,.conclusion li{color:rgba(255,255,255,.9);font-size:14px}
-.footer{text-align:center;color:#94a3b8;font-size:12px;padding:24px 0 8px}</style>
+.tag-gray{background:#f5f5f4;color:#57534e}.tag-red{background:#fee2e2;color:#991b1b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #a8a29e;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+.timeline h3{color:#57534e;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f5f5f4}
+.timeline-time{font-size:14px;font-weight:700;color:#78716c;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0;color:#57534e}
+.diagram{display:flex;align-items:center;justify-content:center;gap:14px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#fafaf9,#e7e5e4);border:2px solid #d6d3d1;border-radius:16px;padding:16px 20px;text-align:center;min-width:120px;font-weight:700;font-size:14px;color:#57534e}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:22px;color:#a8a29e}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3,.correction p{color:#92400e}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#57534e;margin-bottom:16px;padding-left:16px;border-left:4px solid #a8a29e}
+.card{background:#fff;border-radius:16px;padding:28px;margin-bottom:18px;box-shadow:0 4px 24px rgba(0,0,0,.06);border-left:5px solid #a8a29e}
+.card.card-green{border-left-color:#10b981}.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}.card.card-red{border-left-color:#ef4444}
+.card h3{font-size:19px;font-weight:700;color:#57534e;margin-bottom:10px}
+.card .quote{background:#fafaf9;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #d6d3d1;font-style:italic}
+.card .relation{background:#f5f5f4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#57534e}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action{background:#fafaf9;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#44403c;border-left:4px solid #a8a29e}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f5f5f4;padding:12px 16px;text-align:left;font-weight:700;color:#57534e;border-bottom:2px solid #d6d3d1}
+td{padding:12px 16px;border-bottom:1px solid #e7e5e4;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafaf9}
+.conclusion{background:linear-gradient(135deg,#57534e,#a8a29e);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,.9);font-size:15px}
+.footer{text-align:center;color:#a8a29e;font-size:13px;padding:32px 0 16px}</style>
       
 <div class="container">
   <h1>Vol.129 独自在挪威行走20天｜理想的自我是一只独立的疯子</h1>
-  <div class="meta"><span class="tag tag-blue">播客</span><span class="tag tag-purple">出发计划</span><span class="tag tag-orange">约60分</span><span class="tag tag-green">徒步</span></div>
-  <div class="summary-line">体育生Ace独自挪威20天：三大奇石硬核线+罗弗敦+北极圈。独立=向内求；疯子=对世界过度好奇。暴雨中仍上恶魔之门，遇同行见彩虹；体能来自习惯与备赛，勇气来自一个人把包背到底。</div>
-  <div class="timeline"><h3>关键时间轴</h3><div class="timeline-item"><span class="timeline-time">行程</span><span class="timeline-text">奥斯陆→斯塔万格三大石→卑尔根→罗弗敦→特罗姆瑟</span></div>
-<div class="timeline-item"><span class="timeline-time">三石</span><span class="timeline-text">布道石8km；奇石攀岩11km；舌石超长爬升</span></div>
-<div class="timeline-item"><span class="timeline-time">暴雨</span><span class="timeline-text">犹豫后仍出发；无人山路；最终三人同行见彩虹</span></div>
-<div class="timeline-item"><span class="timeline-time"> equip</span><span class="timeline-text">过夜火车延误；当地人留言佩服独行</span></div>
-<div class="timeline-item"><span class="timeline-time">意义</span><span class="timeline-text">独立向内求；疯子=热爱探索；与自然平等</span></div></div>
-  <div class="map"><h2>核心脉络</h2><div class="diagram"><div class="node ">独行</div><span class="arrow">→</span><div class="node node-o">三大石</div><span class="arrow">→</span><div class="node ">恶劣天气</div><span class="arrow">→</span><div class="node node-g">同行机缘</div><span class="arrow">→</span><div class="node node-g">独立的疯子</div></div></div>
-  <div class="correction"><h3>常见误解 / 认知纠偏</h3><p>· 「打卡照=轻松」——舌石可达28km级，有坠落风险。</p><p>· 「女人不该独行」——她遇到的惊讶恰恰说明稀缺不是禁止。</p><p>· ASR：步道石→布道石；奇迹石→奇岩；扭摸/恶魔之舌→挪威舌石 Trolltunga。</p></div>
-  <h2 class="sec-title">一、路线硬度</h2><div class="card o"><h3>三大石不是网红散步</h3><p>布道石往返约8km/4-5h；奇石非铺装攀岩；舌石长距离大爬升。Ace因体育生+日常徒步习惯显著更快。</p><div class="action">去前按爬升与路况分级，不按照片分级。</div></div><h2 class="sec-title">二、独行时刻</h2><div class="card g"><h3>雨中恶魔之门</h3><p>无人、湿滑失败支线；后遇两人再上，见双彩虹。</p><div class="quote">理想的自我是一只独立的疯子——向内求，又极度好奇世界。</div></div><h2 class="sec-title">三、力量从哪来</h2><div class="card "><h3>习惯>鸡血</h3><p>暑假前就当备赛；冰岛搬石玩笑；挪威人留言佩服独行中国女性。</p></div>
-  <div class="conclusion"><h2>总结与行动</h2><h3>核心要点</h3><ul><li>独行是能力与选择，不是逞强表演</li><li>奇观线路要按体能与天气决策</li><li>独立与狂热好奇可以并存</li></ul><h3>行动清单</h3><ol><li>每周固定徒步当「体能账户」</li><li>恶劣天气设撤退条件仍保留尝试窗口</li><li>独行分享真实风险，不美化</li></ol><h3>关键认知转变</h3><p>以前：独自=孤独危险；现在：独自=把世界当成可平视探索的对象。</p></div>
-  <div class="footer">小宇宙播客总结 · Whisper 转录整理 · 2026-09-19</div>
+  <div class="meta">
+    <span class="tag tag-gray">播客</span>
+    <span class="tag tag-purple">出发计划</span>
+    <span class="tag tag-orange">约60分钟</span>
+    <span class="tag tag-blue">徒步</span>
+    <span class="tag tag-green">访谈</span>
+  </div>
+  <div class="summary-line">周周 × 老吴 × Ace（体育老师）：签证窗口只给一周，五天做出攻略，一人背包挪威约20天——三大石（普利亚/奇迹石/恶魔之舌）到罗弗敦再到北极圈看球，并绕道冰岛。体能靠「每周一山」；图书馆当城市入口；陌生人寄语与过夜委屈并存。理想自我=物种诚实 + 独立行动 + 一点点疯子勇气；破刻板印象只能靠亲眼去。</div>
+
+  <div class="timeline">
+    <h3>关键时间轴</h3>
+    <div class="timeline-item"><span class="timeline-time">00:30</span><span class="timeline-text">嘉宾Ace：体育老师；奥斯陆→斯塔万格→卑尔根→罗弗敦→特罗姆瑟</span></div>
+    <div class="timeline-item"><span class="timeline-time">05:39</span><span class="timeline-text">从裁判高压到教师容错；五天规划挪威</span></div>
+    <div class="timeline-item"><span class="timeline-time">08:57</span><span class="timeline-text">图书馆寄语；公交厕所洁癖级干净</span></div>
+    <div class="timeline-item"><span class="timeline-time">13:52</span><span class="timeline-text">三大石耗时碾压常人；行前每周一山训练</span></div>
+    <div class="timeline-item"><span class="timeline-time">19:24</span><span class="timeline-text">法国摩洛哥小哥寄语：好奇心与即刻行动</span></div>
+    <div class="timeline-item"><span class="timeline-time">29:13</span><span class="timeline-text">行程被打乱：露宿加油站/车库/楼梯间后仍爬恶魔之舌</span></div>
+    <div class="timeline-item"><span class="timeline-time">37:28</span><span class="timeline-text">三种「改观」：台湾人、在日华人、西方人看见中国女性独行</span></div>
+    <div class="timeline-item"><span class="timeline-time">48:34</span><span class="timeline-text">破刻板：洗手间/外卖/支付/老年情侣徒步</span></div>
+    <div class="timeline-item"><span class="timeline-time">51:26</span><span class="timeline-text">理想自我是一只独立的疯子；下步乞力马扎罗 vs 朝圣之路</span></div>
+  </div>
+
+  <div class="map">
+    <h2>核心脉络</h2>
+    <div class="diagram">
+      <div class="node">每周一山</div><span class="arrow">→</span>
+      <div class="node node-orange">三大石</div><span class="arrow">→</span>
+      <div class="node">陌生人与委屈</div><span class="arrow">→</span>
+      <div class="node node-green">独立疯子</div>
+    </div>
+  </div>
+
+  <div class="correction">
+    <h3>常见误解 / 认知纠偏</h3>
+    <p>· 「独行=无畏无泪」——Ace四次落泪：感动与露宿委屈都有；勇气包含承认害怕。</p>
+    <p>· 「国外脏乱/爱情不纯粹/支付落后」——亲眼看到：公厕极净、老年情侣同住青旅徒步、Apple Pay普及；差异背后有劳动法与生活方式合理性。</p>
+    <p>· 「必须挑战深渊裂缝」——自我认知清楚：能挑战再上；害怕就别跨，风景不是KPI。</p>
+    <p>· ASR：「奥斯路→奥斯陆」「比尔根→卑尔根」「罗佛敦→罗弗敦」「门克→蒙克」「扭摸之石→普利亚之岩/Trolltunga一带」「奇迹时→奇迹石/Preikestolen」「恶魔之蛇/舌→恶魔之舌」「浅红→浅烘」「福岗咖啡→Fuglen等」「纪语→寄语」「青女→青旅」「起立马扎罗→乞力马扎罗」「朝生之路→朝圣之路」。</p>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">一、路线与准备</h2>
+    <div class="card">
+      <h3>硬核但不莽：五天攻略 + 数月体能</h3>
+      <p>签证预约窗口紧，规划只做五天，但3–6月「每周一山」雷打不动（西湖群山画路线找乐趣）。三大石：常人8–12小时的线，她3.5–4.5小时级完成——心理恐惧（悬崖落脚）比台阶路更难。</p>
+      <div class="action">出国硬线前：用本地固定节奏练「知道自己几斤几两」，而非只收藏攻略。</div>
+    </div>
+    <div class="card card-green">
+      <h3>图书馆当城市接口</h3>
+      <p>奥斯陆公立图书馆请管理员写行前/行后寄语；去冰岛再折返仍坐半天。比只刷地标更能嵌入当地生活。蒙克美术馆偶遇三稿同展；北欧浅烘手冲=「让人静下来慢慢品」。</p>
+      <div class="relation">裁判生涯高压 → 教师容错更大 → 才有时间把旅行当主线。</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">二、人的部分：寄语、露宿、改观</h2>
+    <div class="card">
+      <h3>陌生人比景点更长久</h3>
+      <p>奇迹石遇法国-摩洛哥阿丹：写「30岁仍感一无所有，但你有好奇与即刻行动」；恶魔之舌遇英国父子竞速又互相等待。完全陌生人几小时路就能掏心掏肺。</p>
+      <div class="quote">请你一定要坚持自我，绝不放弃追求。</div>
+    </div>
+    <div class="card card-orange">
+      <h3>行程崩了仍上山</h3>
+      <p>台风改期导致无住宿：加油站、地下车库、居民楼楼梯间轮换，被摩托车溅水、不敢睡——委屈落泪后仍赶上第一班车，无睡无吃爬完恶魔之舌并第一个下山。同伴「吊起肾上腺素」比鸡汤更管用。</p>
+      <div class="pitfall">露宿偏僻小镇有真实风险；经验是备选住宿与弹性预算，不是鼓励硬刚。</div>
+    </div>
+    <div class="card card-purple">
+      <h3>独行女性带来的「改观」</h3>
+      <p>台湾教育者拼桌聊两岸教育；在日华人惊叹大陆年轻女性敢表达；挪威作家因对话想再写中国。旅行输出的不只是风景照片，还有具体的人打破刻板印象。</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">三、方法论与自我叙事</h2>
+    <div class="card">
+      <h3>打破思维定式：只能亲眼</h3>
+      <p>主持人强调：不是立「中外对立」人设，而是承认双方都有刻板印象；见到差异背后的合理性后再判断。八九十岁情侣同住青旅徒步、家庭周末集体露营——比剧情小说更正。</p>
+    </div>
+    <div class="card card-green">
+      <h3>一只 · 独立 · 疯子</h3>
+      <p>理想自我拆词：承认人是物种（身体极限诚实）；独立行动；保留一点不被完全规训的疯。下步犹豫：乞力马扎罗 vs 西班牙朝圣之路约800公里——听众投票式开放结局。</p>
+      <div class="action">给自己一句可重复的自我定义，用行动校准，而不是只发签名档。</div>
+    </div>
+  </div>
+
+  <div class="conclusion">
+    <h2>总结与行动</h2>
+    <h3>核心要点</h3>
+    <ul>
+      <li>硬核徒步=提前体能账 + 清晰自我评估 + 接受情绪波动</li>
+      <li>图书馆、寄语、偶遇，往往比打卡三大石更留存</li>
+      <li>刻板印象只能被具体相遇打破；独行是一种可见的表达</li>
+    </ul>
+    <h3>行动清单</h3>
+    <ol>
+      <li>若有大徒步：先定「每周一山」8–12周，再定机票</li>
+      <li>每座城市留半天图书馆/公共空间，不写进「效率行程」</li>
+      <li>悬崖项目：提前演练恐惧阈值；不行就只观景不下脚</li>
+      <li>备份住宿与交通；改期预算单独留一笔</li>
+      <li>旅行中主动开口：一次认真对话&gt;十张同款机位</li>
+    </ol>
+    <h3>关键认知转变</h3>
+    <p>以前：独行挪威是体力炫技；现在：是「独立的疯子」用身体验证自我认知——风景是考场，陌生人与一夜委屈才是成绩单。</p>
+  </div>
+  <div class="footer">出发计划 · 周周 × 老吴 × Ace · 小宇宙 · Whisper 转录整理 · 2026-09-19</div>
 </div>
     </div>
   </foreignObject>
