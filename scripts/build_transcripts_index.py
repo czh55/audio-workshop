@@ -46,11 +46,18 @@ def main() -> None:
         }
 
     OUT_DIR.mkdir(exist_ok=True)
-    entries = []
-    for f in sorted(ROOT.glob('*.txt')):
+
+    # 根目录 *.txt（待归档）+ docs/transcripts/*.txt（已归档）都纳入索引
+    slugs = set()
+    for f in ROOT.glob('*.txt'):
         if f.name == 'requirements.txt':
             continue
-        slug = f.stem
+        slugs.add(f.stem)
+    for f in OUT_DIR.glob('*.txt'):
+        slugs.add(f.stem)
+
+    entries = []
+    for slug in sorted(slugs):
         if slug not in by_slug:
             meta = {
                 'slug': slug,
@@ -64,17 +71,25 @@ def main() -> None:
         else:
             meta = by_slug[slug]
 
-        text = f.read_text(encoding='utf-8')
-        words = word_count(text)
-        if words < 100:
-            continue
-
         for ext in ARTIFACTS:
             src = ROOT / f'{slug}{ext}'
             if src.exists():
                 dest = OUT_DIR / f'{slug}{ext}'
                 if not dest.exists() or dest.stat().st_size != src.stat().st_size:
                     shutil.copy2(src, dest)
+
+        txt_path = OUT_DIR / f'{slug}.txt'
+        if not txt_path.exists():
+            root_txt = ROOT / f'{slug}.txt'
+            if root_txt.exists():
+                txt_path = root_txt
+            else:
+                continue
+
+        text = txt_path.read_text(encoding='utf-8')
+        words = word_count(text)
+        if words < 100:
+            continue
 
         entries.append({
             **meta,

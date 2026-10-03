@@ -412,6 +412,15 @@
       color: var(--accent);
       border-bottom-style: solid;
     }
+    .card-links .card-transcript-link {
+      color: #0f766e;
+      font-weight: 600;
+      border-bottom: 1px dashed rgba(15, 118, 110, 0.45);
+    }
+    .card-links .card-transcript-link:hover {
+      color: var(--accent);
+      border-bottom-style: solid;
+    }
     .card-duration {
       display: inline-block;
       font-size: 12px;
@@ -1048,6 +1057,7 @@
       let allTopics = [];
       let enIndex = [];
       let transcriptIndex = null;
+      let transcriptSlugSet = new Set();
       let transcriptTextCache = {};
       let enHitCount = 0;
       let dateMap = {};
@@ -1225,9 +1235,19 @@
         } catch (e) {
           transcriptIndex = { count: 0, items: [] };
         }
+        transcriptSlugSet = new Set(
+          (transcriptIndex.items || []).map(function(i) { return i.slug; })
+        );
         buildDateMap();
         bindModeTabs();
         render();
+      }
+
+      /** 总结 filename → 与转录索引对齐的 slug */
+      function summarySlug(filename) {
+        return (filename || '')
+          .replace(/-(?:播客)?总结\.svg$/i, '')
+          .replace(/\.svg$/i, '');
       }
 
       function bindModeTabs() {
@@ -1929,11 +1949,14 @@
               ? '<a class="card-source-link" href="' + escapeHtml(item.url) + '" target="_blank">📎 原文链接</a>'
               : '';
 
-            var enSlug = (!isError && item.filename)
-              ? item.filename.replace(/-(?:播客)?总结\.svg$/i, '')
-              : '';
+            var enSlug = (!isError && item.filename) ? summarySlug(item.filename) : '';
             var enLink = (item.en && enSlug)
               ? '<a class="card-source-link card-en-link" href="' + escapeHtml(enSlug + '-en.html') + '" target="_blank">🌐 EN 双语版</a>'
+              : '';
+
+            var transcriptLink = (enSlug && transcriptSlugSet.has(enSlug))
+              ? '<a class="card-source-link card-transcript-link" href="transcript-viewer.html?slug=' +
+                encodeURIComponent(enSlug) + '" target="_blank">📄 找原文</a>'
               : '';
 
             var durationHtml = (item.duration && !isError)
@@ -1952,7 +1975,7 @@
               authorHtml +
               tagsHtml +
               durationHtml +
-              '<div class="card-links">' + sourceLink + enLink + '</div>' +
+              '<div class="card-links">' + transcriptLink + sourceLink + enLink + '</div>' +
               '<span class="card-link-icon">&#x2197;</span>';
 
             group.appendChild(card);

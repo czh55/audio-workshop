@@ -1,6 +1,6 @@
 {
- "generated": "2026-09-20",
- "count": 138,
+ "generated": "2026-10-03",
+ "count": 162,
  "items": [
   {
    "slug": "exit_expression_contest_daily_life",
@@ -121,6 +121,216 @@
    "duration": "1小时46分",
    "words": 38358,
    "file": "transcripts/utmb_brand_presence_ep113.txt"
+  },
+  {
+   "slug": "haixiu-social-performance-anxiety",
+   "title": "100. 为什么越想表现自己，越容易在社交中露怯？",
+   "date": "2026-09-12",
+   "author": "嗨咻",
+   "tags": [
+    "社交",
+    "技巧",
+    "心态"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/6a69b08ab581962ce2bd4da5",
+   "duration": "46分",
+   "words": 13655,
+   "file": "transcripts/haixiu-social-performance-anxiety.txt"
+  },
+  {
+   "slug": "lidan-deng-sichuan-chef-50y",
+   "title": "40.与邓师傅闲聊：做川菜五十年",
+   "date": "2026-09-12",
+   "author": "李诞",
+   "tags": [
+    "川菜",
+    "厨师",
+    "口述"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/6a966be2a0210c197dcb88ab",
+   "duration": "1小时24分",
+   "words": 24445,
+   "file": "transcripts/lidan-deng-sichuan-chef-50y.txt"
+  },
+  {
+   "slug": "denmark_happiness_myth",
+   "title": "06 “最难投胎Top1”的北欧，真的这么幸福吗？",
+   "date": "2026-09-11",
+   "author": "此地无可替代",
+   "tags": [
+    "旅行",
+    "北欧",
+    "幸福"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/6a48722a3fb7233cbf437411",
+   "duration": "1小时37分",
+   "words": 33057,
+   "file": "transcripts/denmark_happiness_myth.txt"
+  },
+  {
+   "slug": "hidden_menu_vip_dining",
+   "title": "EP09 | 隐藏菜单、熟客饭局：那些很难吃到的饭，真的更好吃吗？",
+   "date": "2026-09-11",
+   "author": "逛街专家",
+   "tags": [
+    "餐饮",
+    "消费",
+    "社交"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/6a9255b2a0210c197dc9f2a0",
+   "duration": "38分",
+   "words": 12230,
+   "file": "transcripts/hidden_menu_vip_dining.txt"
+  },
+  {
+   "slug": "yanwai_immature_parents",
+   "title": "燕外之意｜哪有什么父母，不过是孩子在养孩子",
+   "date": "2026-09-11",
+   "author": "燕外之意",
+   "tags": [
+    "原生家庭",
+    "心理",
+    "亲子"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/6a9e4818f03e74ee6b0649f0",
+   "duration": "2小时29分",
+   "words": 54078,
+   "file": "transcripts/yanwai_immature_parents.txt"
+  },
+  {
+   "slug": "altay_tour_7days_13k",
+   "title": "12. 在新疆阿勒泰｜1个人花1万3跟团玩7天什么体验",
+   "date": "2026-09-05",
+   "author": "还没想好 POSTCARD",
+   "tags": [
+    "旅行",
+    "新疆",
+    "阿勒泰"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/68663f2793fd2d72b855cd6a",
+   "duration": "2小时16分",
+   "words": 37248,
+   "file": "transcripts/altay_tour_7days_13k.txt"
+  },
+  {
+   "slug": "bridal_gift_gossip_ep119",
+   "title": "119、三观碎一地：3000万彩礼与6000字长文的狂欢、好心救人反赔一万九",
+   "date": "2026-09-05",
+   "author": "话锋不转弯",
+   "tags": [
+    "热点",
+    "社会",
+    "舆论"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/6a967f18a0210c197dcb9791",
+   "duration": "1小时13分",
+   "words": 25246,
+   "file": "transcripts/bridal_gift_gossip_ep119.txt"
+  },
+  {
+   "slug": "guizhou_travel_scenic_fail",
+   "title": "48 🇨🇳 贵州 好山好水 好吃好玩 人也好 只有景区真的不行👋",
+   "date": "2026-09-05",
+   "author": "好果酱Radio",
+   "tags": [
+    "旅行",
+    "贵州",
+    "户外"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/6a2685b67444b57222355c5f",
+   "duration": "53分",
+   "words": 14793,
+   "file": "transcripts/guizhou_travel_scenic_fail.txt"
+  },
+  {
+   "slug": "independent_thinking_outsource",
+   "title": "13.思考外包泛滥，我们该如何培养独立思考能力？",
+   "date": "2026-09-05",
+   "author": "马尔克斯的朋友",
+   "tags": [
+    "思考",
+    "认知",
+    "学习"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/6a92457ca0210c197dc9eb9a",
+   "duration": "46分",
+   "words": 13252,
+   "file": "transcripts/independent_thinking_outsource.txt"
+  },
+  {
+   "slug": "interview_15_offers_ep17",
+   "title": "ep17 不要脸的人先享受offer，手握15个大厂offer的面经分享",
+   "date": "2026-09-05",
+   "author": "看我72变",
+   "tags": [
+    "求职",
+    "面试",
+    "职场"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/6a8f1c5eef65145dfcc5f3c9",
+   "duration": "47分",
+   "words": 17286,
+   "file": "transcripts/interview_15_offers_ep17.txt"
+  },
+  {
+   "slug": "japan_study_six_questions",
+   "title": "关于日本留学的六个问题，其实都在问生活｜Vol.14",
+   "date": "2026-09-05",
+   "author": "范来张口FM",
+   "tags": [
+    "留学",
+    "日本",
+    "生活"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/68f3e15c456ffec65e6abdcc",
+   "duration": "57分",
+   "words": 16854,
+   "file": "transcripts/japan_study_six_questions.txt"
+  },
+  {
+   "slug": "ningbo_manufacturing_champions",
+   "title": "No.217 🧲 宁波往事：从方太到申洲，从油烟机到中国最大服装代工巨头",
+   "date": "2026-09-05",
+   "author": "半拿铁 | 商业沉浮录",
+   "tags": [
+    "商业",
+    "制造业",
+    "宁波"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/6a9661cca0210c197dcb8152",
+   "duration": "1小时35分",
+   "words": 28687,
+   "file": "transcripts/ningbo_manufacturing_champions.txt"
+  },
+  {
+   "slug": "one_piece_finale_roundtable",
+   "title": "One Piece 到底是什么？完结前与国内最懂《海贼王》的一群人聊聊看！",
+   "date": "2026-09-05",
+   "author": "菠萝油子丨成年人听的动漫播客",
+   "tags": [
+    "动漫",
+    "海贼王",
+    "圆桌"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/6a8eec871352af56ff3c80f5",
+   "duration": "2小时31分",
+   "words": 51058,
+   "file": "transcripts/one_piece_finale_roundtable.txt"
+  },
+  {
+   "slug": "thirty_money_security_ep71",
+   "title": "EP71. 高位买房、低位割肉、追星氪金……30+放弃暴富，只求稳稳的幸福！",
+   "date": "2026-09-05",
+   "author": "三十不而已",
+   "tags": [
+    "理财",
+    "消费",
+    "三十岁"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/6a7ad1ea17676351c5702852",
+   "duration": "2小时07分",
+   "words": 41032,
+   "file": "transcripts/thirty_money_security_ep71.txt"
   },
   {
    "slug": "brand_premium_decline",
@@ -270,6 +480,146 @@
    "duration": "10小时48分",
    "words": 186248,
    "file": "transcripts/zhang_ailing_analysis.txt"
+  },
+  {
+   "slug": "ai_zhaoziliao",
+   "title": "EP27 AI 时代如何更好地找资料？feat. 六兽",
+   "date": "2026-08-25",
+   "author": "诗梳风",
+   "tags": [
+    "AI实操",
+    "知识管理"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/6a7c53be17676351c570d997",
+   "duration": "49分",
+   "words": 15206,
+   "file": "transcripts/ai_zhaoziliao.txt"
+  },
+  {
+   "slug": "coffee_20years",
+   "title": "EP05｜我们消费咖啡的二十年，从喝杯星巴克的虚荣心到9块9瑞一下",
+   "date": "2026-08-25",
+   "author": "逛街专家",
+   "tags": [
+    "消费/商业",
+    "咖啡产业"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/6a81308436641f136d88dc99",
+   "duration": "48分",
+   "words": 13144,
+   "file": "transcripts/coffee_20years.txt"
+  },
+  {
+   "slug": "distillation_storm",
+   "title": "179: 蒸馏风暴：一场无人公开谈论的技术竞赛",
+   "date": "2026-08-25",
+   "author": "晚点聊",
+   "tags": [
+    "AI",
+    "大模型"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/6a8239f72e27ea5b21e918a4",
+   "duration": "49分",
+   "words": 16132,
+   "file": "transcripts/distillation_storm.txt"
+  },
+  {
+   "slug": "duanju_chuhai",
+   "title": "43.从短剧出海到AI短剧：内容行业的门槛在哪里？",
+   "date": "2026-08-25",
+   "author": "藏金阁",
+   "tags": [
+    "AI内容",
+    "短剧出海"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/6a7d84f717676351c5715447",
+   "duration": "57分",
+   "words": 19917,
+   "file": "transcripts/duanju_chuhai.txt"
+  },
+  {
+   "slug": "gene_therapy_death",
+   "title": "当治愈成为诱惑：6岁女童基因治疗死亡事件全复盘",
+   "date": "2026-08-25",
+   "author": "自然选择",
+   "tags": [
+    "基因治疗",
+    "伦理调查",
+    "医疗"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/6a69e86056a3f3491ba6f440",
+   "duration": "46分",
+   "words": 14355,
+   "file": "transcripts/gene_therapy_death.txt"
+  },
+  {
+   "slug": "hunyin_caichan",
+   "title": "101.跟桂律师聊天｜为什么感情越好，越该把钱说清楚？",
+   "date": "2026-08-25",
+   "author": "嗨咻",
+   "tags": [
+    "法律",
+    "婚姻/家事"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/6a7c39fe36641f136d87226b",
+   "duration": "1小时40分",
+   "words": 29853,
+   "file": "transcripts/hunyin_caichan.txt"
+  },
+  {
+   "slug": "japan_cooking",
+   "title": "热爱生活，从认真做饭开始｜聊聊在日本下厨｜Vol.54",
+   "date": "2026-08-25",
+   "author": "范来张口FM",
+   "tags": [
+    "日本生活",
+    "做饭/美食"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/6a64ec096356eb2d9be8538a",
+   "duration": "1小时10分",
+   "words": 20966,
+   "file": "transcripts/japan_cooking.txt"
+  },
+  {
+   "slug": "paris_xindong",
+   "title": "72 提到巴黎，谁又心动了",
+   "date": "2026-08-25",
+   "author": "心都野了",
+   "tags": [
+    "城市/文化",
+    "巴黎"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/6a85cea0fb87252df2ec90d9",
+   "duration": "1小时8分",
+   "words": 22984,
+   "file": "transcripts/paris_xindong.txt"
+  },
+  {
+   "slug": "shemei_qutong",
+   "title": "拍得越多越像，审美趋同怎么破？2025首届中文摄影播客节",
+   "date": "2026-08-25",
+   "author": "接触印相",
+   "tags": [
+    "摄影",
+    "审美"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/69647072e235ea65bc61e7c5",
+   "duration": "59分",
+   "words": 17821,
+   "file": "transcripts/shemei_qutong.txt"
+  },
+  {
+   "slug": "shenghuo_huibianhao",
+   "title": "112｜生活是真的会突然变好，所以请你活一活、再活一活",
+   "date": "2026-08-25",
+   "author": "庸人不扰",
+   "tags": [
+    "生活哲思"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/6a4b46e92e335a35a80ec08a",
+   "duration": "1小时1分",
+   "words": 21198,
+   "file": "transcripts/shenghuo_huibianhao.txt"
   },
   {
    "slug": "finding-kindred",

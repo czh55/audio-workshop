@@ -27,6 +27,8 @@ PAGE_CSS = """\
        .html-toolbar .html-svg-link:hover{color:#3b82f6;text-decoration:underline}
        .html-toolbar .html-en-link{font-size:13px;color:#0d686c;text-decoration:none;white-space:nowrap;font-weight:600;padding:4px 10px;border:1px solid #99c6c0;border-radius:99px;background:#f0faf6}
        .html-toolbar .html-en-link:hover{color:#3b82f6;border-color:#3b82f6}
+       .html-toolbar .html-transcript-link{font-size:13px;color:#0f766e;text-decoration:none;white-space:nowrap;font-weight:600;padding:4px 10px;border:1px solid #99d1c8;border-radius:99px;background:#f0fdfa}
+       .html-toolbar .html-transcript-link:hover{color:#3b82f6;border-color:#3b82f6}
        @media (max-width:640px){
   .html-toolbar{flex-wrap:wrap;gap:10px;padding:10px 12px}
   .html-toolbar-title{flex-basis:100%;order:-1;font-size:13px}
@@ -83,6 +85,12 @@ def build_html(css: str, body: str, title: str, svg_name: str) -> str:
         if (DOCS / en_html).exists()
         else ""
     )
+    transcript_link = (
+        f'<a class="html-transcript-link" href="transcript-viewer.html?slug={en_stem}" '
+        f'target="_blank">📄 找原文 ↗</a>'
+        if (DOCS / "transcripts" / f"{en_stem}.txt").exists()
+        else ""
+    )
     return f"""<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -102,6 +110,7 @@ body{{padding:0!important;margin:0!important}}
   <a class="back-link" href="index.html">← 返回首页</a>
   <div class="html-toolbar-title">{title}</div>
   {audio_html}
+  {transcript_link}
   {en_link}
   <a class="html-svg-link" href="viewer.html?f={svg_href}" target="_blank">SVG 版 ↗</a>
 </div>
