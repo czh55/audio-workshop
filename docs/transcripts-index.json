@@ -1,7 +1,149 @@
 {
  "generated": "2026-10-03",
- "count": 162,
+ "count": 171,
  "items": [
+  {
+   "slug": "bakery_shutdown_8w_hutuiju",
+   "title": "不止虎头局，半年关店8万家，烘焙行业不香了吗？",
+   "date": "2026-10-03",
+   "author": "难得正经｜商业版今夜不设防",
+   "tags": [
+    "烘焙",
+    "商业",
+    "零售",
+    "供应链"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/6a6d78de1b5e24969ce71e65",
+   "duration": "57分",
+   "words": 21859,
+   "file": "transcripts/bakery_shutdown_8w_hutuiju.txt"
+  },
+  {
+   "slug": "germany_travel_orleans",
+   "title": "vol 51. 德国旅行20天后，我进入了人生的奥尔良时期",
+   "date": "2026-10-03",
+   "author": "马上开摆",
+   "tags": [
+    "德国旅行",
+    "生活方式",
+    "旅行",
+    "马上开摆"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/6ab0266aac389df82734eb61",
+   "duration": "3小时12分",
+   "words": 61437,
+   "file": "transcripts/germany_travel_orleans.txt"
+  },
+  {
+   "slug": "gift_iphone_dji_pocket",
+   "title": "EP11 | 从iPhone到大疆Pocket：礼物消费的逻辑变了吗",
+   "date": "2026-10-03",
+   "author": "逛街专家",
+   "tags": [
+    "礼物消费",
+    "消费洞察",
+    "生活方式",
+    "电商"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/6aa2118a9d3264778166cec4",
+   "duration": "45分",
+   "words": 14204,
+   "file": "transcripts/gift_iphone_dji_pocket.txt"
+  },
+  {
+   "slug": "guoqing_world_travel_2026",
+   "title": "Vol.87 长假预备备！2026国庆环球旅行灵感大赏来啦！",
+   "date": "2026-10-03",
+   "author": "稻此一游",
+   "tags": [
+    "国庆旅行",
+    "环球灵感",
+    "挖地策略",
+    "稻此一游"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/6aa349005827b53dd230ee00",
+   "duration": "1小时15分",
+   "words": 26541,
+   "file": "transcripts/guoqing_world_travel_2026.txt"
+  },
+  {
+   "slug": "hulunbuir_autumn_trek",
+   "title": "Vol.88 穿越大兴安岭林海，我们抵达呼伦贝尔的童话秋天",
+   "date": "2026-10-03",
+   "author": "稻此一游",
+   "tags": [
+    "呼伦贝尔",
+    "秋色旅行",
+    "大兴安岭",
+    "人文地理"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/6aaf15dc863c97e2d3216bfa",
+   "duration": "42分",
+   "words": 14339,
+   "file": "transcripts/hulunbuir_autumn_trek.txt"
+  },
+  {
+   "slug": "japan_inconvenience_v56",
+   "title": "你的方便，我的方便好像不一样｜聊聊日本的“不方便”｜Vol.56",
+   "date": "2026-10-03",
+   "author": "范来张口FM",
+   "tags": [
+    "日本文化",
+    "生活方式",
+    "旅行观察"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/6a776588c4079d62c57f67c9",
+   "duration": "59分",
+   "words": 19983,
+   "file": "transcripts/japan_inconvenience_v56.txt"
+  },
+  {
+   "slug": "painless_office_11y",
+   "title": "Vol.160 上了11年班，我终于学会了怎么“无痛上班”",
+   "date": "2026-10-03",
+   "author": "不三不四Vibes",
+   "tags": [
+    "职场",
+    "心态",
+    "工作方法",
+    "自我管理"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/6aa8dbbb129fe965d332c0a3",
+   "duration": "2小时4分",
+   "words": 41428,
+   "file": "transcripts/painless_office_11y.txt"
+  },
+  {
+   "slug": "shanghai_guangzhou_life",
+   "title": "Vol.131 上海与广州，不同的气质和不同的生活",
+   "date": "2026-10-03",
+   "author": "出发计划",
+   "tags": [
+    "城市气质",
+    "生活方式",
+    "商业"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/6ab23d41f04646b3a9556905",
+   "duration": "51分",
+   "words": 14552,
+   "file": "transcripts/shanghai_guangzhou_life.txt"
+  },
+  {
+   "slug": "smalltalk_scenes_art",
+   "title": "Vol. 181 随时随地开启smalltalk！地铁、办公室、茶餐厅，各种场景下的闲聊艺术",
+   "date": "2026-10-03",
+   "author": "钱婧老师的会客厅",
+   "tags": [
+    "沟通",
+    "社交",
+    "职场",
+    "闲聊"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/6ab35f5293d5eb3bdc79a503",
+   "duration": "1小时7分",
+   "words": 19309,
+   "file": "transcripts/smalltalk_scenes_art.txt"
+  },
   {
    "slug": "exit_expression_contest_daily_life",
    "title": "053｜退出表达竞赛，我只想当“过日子人”",
