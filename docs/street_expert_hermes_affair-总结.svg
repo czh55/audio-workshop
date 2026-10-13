@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="4059" viewBox="0 0 1320 4059">
+  <foreignObject x="0" y="0" width="1320" height="4059">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,0.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:16px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:16px 22px;text-align:center;min-width:140px;font-weight:700;font-size:15px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.node-purple{background:linear-gradient(135deg,#f5f3ff,#ede9fe);border-color:#c4b5fd;color:#5b21b6}
+.arrow{font-size:22px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3{color:#92400e;margin-bottom:8px}
+.correction p{color:#92400e;font-size:15px}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:28px;margin-bottom:18px;box-shadow:0 4px 24px rgba(0,0,0,0.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card h3{font-size:19px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.speaker{display:inline-block;font-size:13px;font-weight:600;padding:2px 10px;border-radius:12px;margin-right:8px}
+.speaker-host{background:#dbeafe;color:#1e40af}
+.speaker-guest{background:#ede9fe;color:#6b21a8}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,0.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,0.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,0.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}</style>
+      
+<div class="container">
+  <h1>逛街专家 EP13｜我跟爱马仕的关系，像见不得光的情人</h1>
+  <div class="meta">
+    <span class="tag tag-blue">播客</span>
+    <span class="tag tag-purple">奢侈品祛魅</span>
+    <span class="tag tag-orange">约50分钟</span>
+    <span class="tag tag-green">云路 × Zoe</span>
+  </div>
+  <div class="summary-line">
+    不是劝你别买，也不是教你怎么配货——这是一次历时20多年的消费关系复盘：从假货羞耻到LV初恋，再到爱马仕保级与「开口就能拿到」的失落，最后在离婚清仓与彻底休息里完成祛魅。市场从暴涨到下跌，个人欲望也从饥渴走到没感觉。
+  </div>
+
+  <div class="timeline">
+    <h3>关键时间轴</h3>
+    <div class="timeline-item"><span class="timeline-time">00:00</span><span class="timeline-text">内地奢侈品市场暴涨暴跌：个人经验并不孤单</span></div>
+    <div class="timeline-item"><span class="timeline-time">02:21</span><span class="timeline-text">某一天起对奢侈品「没感觉了」</span></div>
+    <div class="timeline-item"><span class="timeline-time">04:25</span><span class="timeline-text">假阿迪达斯的羞耻，埋下「再也不穿假货」的种子</span></div>
+    <div class="timeline-item"><span class="timeline-time">07:19</span><span class="timeline-text">22年前瞒父母去香港买第一只LV</span></div>
+    <div class="timeline-item"><span class="timeline-time">15:02</span><span class="timeline-text">数量带来的祛魅：买得越多越寻常</span></div>
+    <div class="timeline-item"><span class="timeline-time">18:23</span><span class="timeline-text">配货、保级与爱马仕专柜规则</span></div>
+    <div class="timeline-item"><span class="timeline-time">30:27</span><span class="timeline-text">奢侈品像「见不得光的情人」</span></div>
+    <div class="timeline-item"><span class="timeline-time">33:10</span><span class="timeline-text">离婚时卖掉几乎所有包和珠宝</span></div>
+    <div class="timeline-item"><span class="timeline-time">45:45</span><span class="timeline-text">奖励自己的方式：从买包变成彻底休息</span></div>
+  </div>
+
+  <div class="map">
+    <h2>核心脉络</h2>
+    <div class="diagram">
+      <div class="node">羞耻 / 初恋</div>
+      <div class="arrow">→</div>
+      <div class="node node-orange">规则内卷<br/>配货保级</div>
+      <div class="arrow">→</div>
+      <div class="node node-purple">开口可得<br/>欲望熄火</div>
+      <div class="arrow">→</div>
+      <div class="node node-green">清仓 / 休息<br/>多元奖励</div>
+    </div>
+  </div>
+
+  <div class="correction">
+    <h3>认知纠偏</h3>
+    <p>「没感觉了」不等于道德觉醒或鄙视消费，而是拥有足够多之后，身份想象与稀缺感被耗尽。节目明确声明：这是朋友间的坦白局，不代表所有人，也不给奢侈品消费者下结论。</p>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">欲望是怎么长出来的</h2>
+    <div class="card">
+      <h3>假货羞耻 → 真品执念</h3>
+      <p><span class="speaker speaker-guest">Zoe</span>高中假阿迪被同学识破，羞耻感逼出「以后绝不穿假货」。实习第一笔钱瞒着父母去香港买第一只LV——兴奋与害怕并存，名牌开始承担「证明我是谁」的功能。</p>
+      <div class="quote">背着名牌挤地铁时，会怀疑究竟是人背包，还是包在背人。</div>
+      <div class="relation">关系：早期购买的核心燃料不是「好用」，而是补偿羞耻 + 建立身份边界。</div>
+    </div>
+    <div class="card card-orange">
+      <h3>配货与保级：欲望被规则驯化</h3>
+      <p>为了爱马仕等级，她熟悉每个城市专柜规则，甚至请朋友帮忙消费保级。系统把「想要」变成「达成任务」，购买从快乐变成 KPI。</p>
+      <div class="pitfall">陷阱：当你为了下一只包去买不需要的配货，你已经不是在消费审美，而是在维持游戏资格。</div>
+      <div class="highlight">转折：当最想要的包「只要开口就能得到」，稀缺感崩塌，反而不着急了——欲望需要阻力，阻力消失，欲望也熄火。</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">祛魅发生在哪里</h2>
+    <div class="card card-purple">
+      <h3>数量与身体：贵≠适配生活</h3>
+      <p>买得越多，东西越寻常；昂贵的鞋依然磨脚，精心设计的包未必适合真实通勤。奢侈品开始从「符号」退回「物件」——物件要过生活这一关。</p>
+      <div class="action">怎么用：买之前问三句——我能每周背/穿吗？它解决什么真实摩擦？没有它我会少快乐几天？</div>
+    </div>
+    <div class="card">
+      <h3>「见不得光的情人」隐喻</h3>
+      <p>奢侈品对她像地下恋情：投入巨大、难以对外坦白的程度、与公开身份不完全匹配，又带来隐秘兴奋。离婚清仓时卖掉几乎所有包和珠宝，像结束一段长期关系——钱变成物件，物件再变回钱，中间留下的是记忆与审美训练。</p>
+      <div class="quote">见不得光，不是因为违法，而是因为那段欲望很难用「刚需」或「投资」对外解释。</div>
+    </div>
+    <div class="card card-green">
+      <h3>冒名顶替感与「谁更配」</h3>
+      <p>她曾觉得自己不够「适配」奢侈品，直到遇见外形、工作与场景都高度匹配的人，才意识到：配得感经常是外部投射，不是商品本身的属性。消费羞耻与冒名顶替综合征，会把人推得更用力买，或买了也不敢用。</p>
+      <div class="pitfall">别用「别人更配」当借口继续加购，也别用它当借口否定已经拥有的审美训练。</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>阶段对比：欲望燃料怎么换了</h3>
+    <table>
+      <tr><th>阶段</th><th>主要燃料</th><th>典型行为</th><th>边界 / 代价</th></tr>
+      <tr><td>初恋期</td><td>羞耻补偿、稀缺兴奋</td><td>第一只LV、隐瞒家人</td><td>情感强度高，样本量小</td></tr>
+      <tr><td>规则期</td><td>会员等级、配货资格</td><td>多城扫店、请人保级</td><td>购买被 KPI 化，快乐稀释</td></tr>
+      <tr><td>可得期</td><td>阻力消失</td><td>开口就能拿到仍不急</td><td>稀缺崩塌 → 欲望熄火</td></tr>
+      <tr><td>放下期</td><td>生活适配、多元奖励</td><td>离婚清仓；休息当奖励</td><td>适合「已经拥有很多」的人，不是劝穷劝素</td></tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">方法边界</h2>
+    <div class="card card-orange">
+      <h3>这期话术适用 / 不适用</h3>
+      <p><strong>适用</strong>：已经买过一轮大牌、开始「没感觉」、想理解欲望为何熄火的人；想把「奖励自己」从购物里拆出来的人。</p>
+      <p><strong>不适用</strong>：刚进入消费升级、需要建立基础审美样本的人——过早祛魅可能变成自我审查；也不适合当成「奢侈品都是智商税」的立场文。</p>
+      <div class="relation">市场背景：2020 内地个人奢侈品 +48%，2024 近 -20%。个人祛魅与宏观降温同频，但不等于因果唯一。</div>
+    </div>
+  </div>
+
+  <div class="conclusion">
+    <h2>总结与行动</h2>
+    <h3>核心要点</h3>
+    <ul>
+      <li>欲望依赖阻力：开口可得时，稀缺感与兴奋同步坍塌。</li>
+      <li>规则内卷会把审美消费变成保级游戏，快乐被 KPI 抽干。</li>
+      <li>奢侈品既是物件也是关系隐喻；结束关系（清仓）不等于否定曾经的审美训练。</li>
+      <li>奖励通道可以替换：播客、休息、旅行、客户认可，未必弱于新包。</li>
+    </ul>
+    <h3>行动清单</h3>
+    <ol>
+      <li>列出你最近一次「奖励型购买」——快乐持续超过两周了吗？没有就记下替代奖励。</li>
+      <li>检查是否在为下一件「目标款」买配货；是的话先暂停 30 天保级动作。</li>
+      <li>对柜上/闲置各选一件：本周真实使用一次，记录磨脚、容量、场景摩擦。</li>
+      <li>写一句对外能说出口的购买理由；说不出口的，标成「见不得光的欲望」并限预算。</li>
+      <li>设计一个「彻底休息日」作为非购物奖励，先试一次。</li>
+    </ol>
+    <h3>关键认知转变</h3>
+    <p>从「买到证明我是谁」转向「用得住、快乐还在、奖励可替换」——祛魅不是禁欲，是把消费从身份幻觉里救回生活。</p>
+  </div>
+
+  <div class="footer">来源：逛街专家 EP13 · 音频转写总结 · audio-workshop</div>
+</div>
+
+    </div>
+  </foreignObject>
+</svg>

@@ -1,0 +1,269 @@
+/**
+ * OpenDoor EP46 · 从君士坦丁堡到伊斯坦布尔：看见一座城市的层叠历史 → SVG
+ */
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+import { buildSvg } from './svg-auto-height.mjs';
+
+const DIR = path.dirname(fileURLToPath(import.meta.url));
+const OUT = path.join(DIR, 'docs/opendoor_ep46_istanbul-总结.svg');
+
+const CSS = `*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:34px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,0.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:16px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:16px 22px;text-align:center;min-width:140px;font-weight:700;font-size:15px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.node-purple{background:linear-gradient(135deg,#f5f3ff,#ede9fe);border-color:#c4b5fd;color:#5b21b6}
+.arrow{font-size:22px;color:#94a3b8}
+.layers{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:16px}
+.layer{border-radius:14px;padding:16px 14px;text-align:center;border:2px solid}
+.layer h4{font-size:15px;font-weight:800;margin-bottom:6px}
+.layer p{font-size:13px;line-height:1.55;margin:0;color:inherit;opacity:0.9}
+.layer-1{background:#eff6ff;border-color:#93c5fd;color:#1e40af}
+.layer-2{background:#f5f3ff;border-color:#c4b5fd;color:#5b21b6}
+.layer-3{background:#ecfdf5;border-color:#6ee7b7;color:#065f46}
+.layer-4{background:#fff7ed;border-color:#fdba74;color:#9a3412}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3{color:#92400e;margin-bottom:8px}
+.correction p{color:#92400e;font-size:15px}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:28px;margin-bottom:18px;box-shadow:0 4px 24px rgba(0,0,0,0.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card h3{font-size:19px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.speaker{display:inline-block;font-size:13px;font-weight:600;padding:2px 10px;border-radius:12px;margin-right:8px}
+.speaker-host{background:#dbeafe;color:#1e40af}
+.speaker-guest{background:#ede9fe;color:#6b21a8}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,0.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,0.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,0.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}`;
+
+const body = `
+<div class="container">
+  <h1>OpenDoor EP46｜从君士坦丁堡到伊斯坦布尔：看见一座城市的层叠历史</h1>
+  <div class="meta">
+    <span class="tag tag-blue">播客</span>
+    <span class="tag tag-purple">人文旅行</span>
+    <span class="tag tag-orange">约68分钟</span>
+    <span class="tag tag-green">闲云 · 野鸟 · 起阳</span>
+  </div>
+  <div class="summary-line">
+    伊斯坦布尔不是「东西方混搭」四个字能讲完的：表面满是清真寺宣礼塔，内核却是罗马—拜占庭骨架。以 1453 为刀锋切开两层城市——君士坦丁堡遗迹与奥斯曼新造——再顺着圣索菲亚的身份变迁，看见东正教、伊斯兰与世俗共和国如何在同一座穹顶下反复改写「谁拥有空间」。本期是拜占庭文明路线的声音路书：教你怎么「看层」，而不是只打卡蓝顶。
+  </div>
+
+  <div class="timeline">
+    <h3>关键节点时间轴</h3>
+    <div class="timeline-item"><span class="timeline-time">00:45</span><span class="timeline-text">「免签中产破产」？机场天价 ≠ 全市物价；游客区 vs 本地区差三倍</span></div>
+    <div class="timeline-item"><span class="timeline-time">05:35</span><span class="timeline-text">Museum Pass：≤3天建议单买；4–5天伊市通票；不含圣索菲亚/地下水宫</span></div>
+    <div class="timeline-item"><span class="timeline-time">09:00</span><span class="timeline-text">伊斯坦布尔「包裹」君士坦丁堡：伊斯兰视觉壳 × 罗马拜占庭内核</span></div>
+    <div class="timeline-item"><span class="timeline-time">11:06</span><span class="timeline-text">东罗马人自称罗马人；「拜占庭」是西欧他称，带贬低罗马正统之意</span></div>
+    <div class="timeline-item"><span class="timeline-time">13:54</span><span class="timeline-text">1453：穆罕默德二世破城——之前君士坦丁堡，之后伊斯坦布尔</span></div>
+    <div class="timeline-item"><span class="timeline-time">19:22</span><span class="timeline-text">青铜蛇柱：广场最古老身份象征；三蛇缠绕如三名交织</span></div>
+    <div class="timeline-item"><span class="timeline-time">24:58</span><span class="timeline-text">狄奥多拉：从演员到共治皇后；尼卡暴动名言 + 女性权益立法</span></div>
+    <div class="timeline-item"><span class="timeline-time">30:22</span><span class="timeline-text">美杜莎石柱倒置：异教提醒，还是压邪避灾？视觉冲击本身即记忆装置</span></div>
+    <div class="timeline-item"><span class="timeline-time">32:10</span><span class="timeline-text">三面环水一面靠陆：狄奥多西城墙 + 金角湾铁链 =「天选之城」</span></div>
+    <div class="timeline-item"><span class="timeline-time">34:24</span><span class="timeline-text">破防：巨炮轰墙 + 如梅利封锁海峡 + 陆上行船绕开铁链</span></div>
+    <div class="timeline-item"><span class="timeline-time">41:46</span><span class="timeline-text">加拉太塔：热那亚中立下的操作基地，「路上行船」奇迹见证者</span></div>
+    <div class="timeline-item"><span class="timeline-time">45:05</span><span class="timeline-text">圣索菲亚：大教堂 / 清真寺 / 博物馆——身份从未定格</span></div>
+    <div class="timeline-item"><span class="timeline-time">50:04</span><span class="timeline-text">两年前后对比：从地毯上祈祷感 → 只能站二层回廊俯瞰，人被抬高距离拉远</span></div>
+    <div class="timeline-item"><span class="timeline-time">52:20</span><span class="timeline-text">近1500年不断改身份却保住穹顶骨架——建筑的生命力在「叠加」而非「封存」</span></div>
+    <div class="timeline-item"><span class="timeline-time">57:18</span><span class="timeline-text">科拉教堂：帝国边缘的黄昏艺术；基督踏碎地狱门，主动拉人出黑暗</span></div>
+    <div class="timeline-item"><span class="timeline-time">64:41</span><span class="timeline-text">紫衣贵族宫黄昏天台：金角湾全景 = 拜占庭帝国的黄昏剪影</span></div>
+  </div>
+
+  <div class="map">
+    <h2>层叠历史脉络图</h2>
+    <div class="diagram">
+      <div class="node">拜占庭<br/>古希腊殖民点</div>
+      <div class="arrow">→</div>
+      <div class="node node-purple">君士坦丁堡<br/>东罗马正统</div>
+      <div class="arrow">→</div>
+      <div class="node node-orange">1453 刀锋<br/>破城更名</div>
+      <div class="arrow">→</div>
+      <div class="node node-green">伊斯坦布尔<br/>奥斯曼+共和国</div>
+    </div>
+    <div class="layers">
+      <div class="layer layer-1"><h4>① 异教古典层</h4><p>蛇柱、美杜莎柱头、赛马场废墟——城市最老的身份底片</p></div>
+      <div class="layer layer-2"><h4>② 东正教/拜占庭层</h4><p>圣索菲亚穹顶、地下水宫、科拉壁画、紫衣宫、狄奥多西城墙</p></div>
+      <div class="layer layer-3"><h4>③ 伊斯兰/奥斯曼层</h4><p>宣礼塔、托普卡帕、蓝清真寺、书法文饰——视觉上最醒目的壳</p></div>
+      <div class="layer layer-4"><h4>④ 世俗共和国层</h4><p>凯末尔博物馆化 → 近年再宗教化；游客区与本地区分裂并存</p></div>
+    </div>
+  </div>
+
+  <div class="correction">
+    <h3>认知纠偏</h3>
+    <p>别把「拜占庭」当成东罗马人的自称——他们始终认为自己是罗马人；西欧用「拜占庭」来否定其罗马正统。也别把圣索菲亚当成定格在某一个时代的「某一物」：它近1500年不断被赋予新身份，却始终保持生命力。物价方面：机场/景区天价 ≠ 全市；避开游客圈 200 米以上，本地区大约接近北京水准。</p>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">怎么切开这座城：1453 与两条路线</h2>
+    <div class="card">
+      <h3>三个名字 = 三层身份</h3>
+      <p><span class="speaker speaker-host">野鸟</span>这座城先后叫拜占庭 → 君士坦丁堡 → 伊斯坦布尔。表面满是奥斯曼与伊斯兰印记（老城山丘上密密麻麻的宣礼塔），内核却是罗马拜占庭文化。第二次在欧洲区长住十天，有了参照锚点，才看清：现在名叫伊斯坦布尔的城市，其实包裹着一座叫君士坦丁堡的城市。</p>
+      <div class="highlight">关键理解：东罗马帝国与「拜占庭帝国」是同一实体的不同称呼；前者是自称，后者是西欧他称（同行相轻式的正统争夺）。</div>
+      <div class="action">怎么用：出行前把景点按「1453 前 / 后」分两列——索菲亚、水宫、加拉太、科拉、紫衣宫 vs 托普卡帕、大巴扎、蓝清真寺、苏莱曼尼耶——走路时主动切换图层，而不是混着打卡。</div>
+      <div class="relation">关系：节目梳理出两条特色路书——「君士坦丁堡与拜占庭文明」线（本期）与「伊斯坦布尔与伊斯兰文明」线（下期）。</div>
+    </div>
+    <div class="card card-orange">
+      <h3>物价与通票：先把预算层看清</h3>
+      <p>机场矿泉水可到约 85 里拉，市中心小超市约 25 里拉；景区周边一餐人均 100+ 人民币常见。托普卡帕半年涨约 60%；圣索菲亚现约 25 欧。民宿 + 远离景点 200 米用餐，本地区物价可接近北京。</p>
+      <div class="pitfall">2025 通票不含圣索菲亚、地下水宫等最贵点；≤3 天建议单买；4–5 天伊市通票（约 105 欧）可考虑；出发前务必再查官网，物价波动极快。</div>
+      <div class="action">怎么用：门票预算按 2023 年的 2–3 倍准备；City Walk 本身（海鸥、街景、城墙）也可以是主菜，不必每点都买票。</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">广场地下与权力夫妻：读最老的一层</h2>
+    <div class="card">
+      <h3>苏丹艾哈迈德广场 = 昔日赛马场</h3>
+      <p>今日热门广场，原是君士坦丁堡赛马场——拜占庭体育与社交中心，四轮战车竞技。今天看到的只是当年场地的一小截；中间三座纪念碑里，青铜蛇柱是最古老的身份象征：原供奉阿波罗的德尔斐献礼，后迁至竞技场，蛇头已失，只留缠绕蛇身。</p>
+      <div class="quote">三条蛇互相缠绕，像这座城市的三个名字一样交织在柱上。</div>
+      <div class="pitfall">第一次来常失望：对比罗马广场，废墟感太弱、咖啡馆太多、历史「失真」——那是因为你只看见热闹壳，没看见地下与柱身里的地层。</div>
+    </div>
+    <div class="card card-purple">
+      <h3>地下水宫 · 狄奥多拉 · 美杜莎</h3>
+      <p>水宫由查士丁尼与狄奥多拉主持修建，约 140×70 米、储水超 8 万立方米，服务城市逾千年。狄奥多拉出身竞技场演员，后成为共治皇后；尼卡暴动时一句「愿我永远不要被剥夺紫袍」扭转逃亡局势；她还推动保护女性权益的立法。</p>
+      <div class="highlight">美杜莎柱头倒置：一说提醒异教神庙→巴西利卡→水宫的材料循环；一说压邪避灾。倒置后柱头贴近观者，恐惧感被放大——本身就是「看层」的装置艺术。</div>
+      <div class="action">怎么用：广场三碑 → 北侧水宫；进水宫先找美杜莎，再问自己：这根柱子上一世是什么建筑？</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">城防与破防：天选之城如何失守</h2>
+    <div class="card card-orange">
+      <h3>狄奥多西城墙 + 金角湾铁链</h3>
+      <p>北金角湾、南马尔马拉、东博斯普鲁斯，西面唯一陆路——东罗马把地形优势推到极致：双层主墙、塔楼交叉火力、护城河与矮墙；金角湾入口巨大铁链封锁舰队。1453 前波斯、阿拉伯、十字军都未能从西墙或水上彻底破局，欧洲长期相信「攻不破」。</p>
+      <div class="relation">关系：城墙（守）—如梅利城堡（掐海峡补给）—加拉太塔（陆上行船基地）= 「城防史 + 破防史」一条线。</div>
+    </div>
+    <div class="card">
+      <h3>21 岁苏丹的两套破局</h3>
+      <p><span class="speaker speaker-host">野鸟</span>穆罕默德二世硬碰城墙与铁链无望，改用：① 匈牙利工程师沃尔班巨炮轰狄奥多西墙薄弱点；② 如梅利城堡切断黑海援助；③ 买通热那亚商人借道加拉太，一夜把约 80 艘战舰经滑道拖入金角湾——绕开铁链。</p>
+      <div class="quote">加拉太塔见证「路上行船」：热那亚口头中立，却未阻止眼皮底下的滑道作业——中立本身也可成为破城条件。</div>
+      <div class="action">怎么用：专程走一段狄奥多西城墙 → 如梅利 → 加拉太塔顶 360°；站在加拉达桥上看塔与金角湾南岸遗迹，脑补铁链位置。</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">圣索菲亚：东正教 / 伊斯兰 / 世俗的同一穹顶</h2>
+    <div class="card card-purple">
+      <h3>身份从未定格的 1500 年</h3>
+      <p>主体是拜占庭大教堂（希腊十字变体、中央穹顶）；1453 后改清真寺并加四座宣礼塔；凯末尔世俗化改革后改为博物馆；2020 年再恢复清真寺，2024 年修缮后重开。每次身份转变都未拆掉核心结构——只是叠加宣礼塔、书法、地毯与参观规则。</p>
+      <div class="highlight">关键理解：圣索菲亚几乎是土耳其近几十年宗教环境的风向标。宗教场所功能强化、游客时段与着装更严；但区域差异明显——欧洲区仍咖啡馆酒吧热闹，老城区宗教氛围更浓。</div>
+      <div class="quote">两年前还能坐在祈祷室地毯上；这一次只能站二层回廊俯瞰——人被抬高了，距离却被拉远了。</div>
+      <div class="pitfall">别只问「该叫教堂还是清真寺」——更有用的问题是：这一次入场规则把我放在哪一层空间？我看见的是哪一种权力对空间的定义？</div>
+      <div class="action">怎么用：外观最佳机位——老城广场东北角 Seven Hills Hotel 天台（可喂鸽、用餐、看穹顶与宣礼塔同框）。</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">拜占庭的黄昏：科拉与紫衣宫</h2>
+    <div class="card card-green">
+      <h3>科拉教堂：神主动拉人出黑暗</h3>
+      <p>城市边缘、帝国衰落期的重要建筑。壁画里基督身披白衣踏碎地狱之门——不是温柔牵引，而是奋力把亚当夏娃从黑暗拽起。叙事从圣母童年展开，罕见地画出女性生命史；空间动线像视觉朝圣之路。奥斯曼时期的保护性遮盖反而保住了原始质感。</p>
+      <div class="relation">关系：同一「基督降入地狱」母题后来在高加索修道院本土化，再回响整个东正教世界——拜占庭神学图像的传播链。</div>
+      <div class="action">怎么用：进科拉先找「降入地狱」与圣母童年序列；问自己看见的是「人走向神」还是「神走向人」。</div>
+    </div>
+    <div class="card">
+      <h3>紫衣贵族宫：活着的遗迹</h3>
+      <p>13–14 世纪拜占庭中后期皇族相关宫殿，红砖与白大理石相间；奥斯曼后改陶瓷工坊生产伊znik 瓷砖——宫殿变工坊，功能转化本身即时代变迁。黄昏登天台俯瞰金角湾，断壁残垣泛暖光，像「拜占庭帝国的黄昏剪影」。</p>
+      <div class="quote">它不像被封存的古迹停在某一刻，而是在保留历史肌理的同时被赋予新功能——跨时代对话感，正是伊斯坦布尔的魅力。</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>层面对比：东正教 · 伊斯兰 · 世俗共和国</h3>
+    <table>
+      <tr><th>层面</th><th>空间特征</th><th>典型载体</th><th>旅行者怎么「看层」</th></tr>
+      <tr><td>东正教 / 拜占庭</td><td>穹顶神学、马赛克、救赎叙事</td><td>圣索菲亚主体、科拉壁画、水宫柱林</td><td>找「神主动进入黑暗」与材料循环（异教柱→教堂→水宫）</td></tr>
+      <tr><td>伊斯兰 / 奥斯曼</td><td>宣礼塔、书法、礼拜朝向、地毯</td><td>蓝清真寺、托普卡帕、索菲亚的叠加层</td><td>分清「壳」与「骨」：哪些是 1453 后加建</td></tr>
+      <tr><td>世俗共和国</td><td>博物馆化、游客动线、政教距离</td><td>凯末尔时期开放博物馆；欧洲区咖啡馆文化</td><td>观察规则：谁能进主殿、站哪一层、着装与时段</td></tr>
+      <tr><td>当代再宗教化</td><td>礼拜优先、游客抬升至回廊</td><td>2020 索菲亚再改清真寺后的参观体验</td><td>对比两次到访的身体距离——距离变化即政治变化</td></tr>
+    </table>
+  </div>
+
+  <div class="card">
+    <h3>对比：1453 前 vs 后，景点怎么切</h3>
+    <table>
+      <tr><th>时期</th><th>代表遗迹</th><th>读法关键词</th></tr>
+      <tr><td>君士坦丁堡及以前</td><td>圣索菲亚主体、地下水宫、加拉太塔、科拉、紫衣宫、赛马场/蛇柱、狄奥多西城墙</td><td>罗马正统、城防、神学图像、异教底片</td></tr>
+      <tr><td>伊斯坦布尔及以后</td><td>托普卡帕宫、大巴扎、蓝色清真寺、苏莱曼尼耶、法提赫清真寺</td><td>苏丹权力、商业帝国、伊斯兰视觉秩序</td></tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">方法边界</h2>
+    <div class="card card-orange">
+      <h3>这期路书适用 / 不适用</h3>
+      <p><strong>适用</strong>：想用「地层阅读」走老城的人；关心 1453 前后如何分线；会对圣索菲亚身份争论保持开放好奇、愿意对比两次参观规则的人；准备春节/免签后去伊市、需要实用预算锚点的人。</p>
+      <p><strong>不适用</strong>：只想要蓝顶打卡清单与购物攻略的快闪游客；把播客叙事当成严谨史学定论或土耳其政治判决书的人；期望本期覆盖完整「伊斯兰文明线」（明确留给下期）。</p>
+      <div class="relation">边界：闲云/野鸟是旅行者观察 + 二次梳理，参考朗西曼《1453》、韦尔斯《拜占庭的赠礼》等，但不是现场考古报告；通票价格与开放规则以出发前官网为准。</div>
+    </div>
+  </div>
+
+  <div class="conclusion">
+    <h2>总结与行动</h2>
+    <h3>核心要点</h3>
+    <ul>
+      <li>伊斯坦布尔「包裹」君士坦丁堡：伊斯兰视觉壳下是罗马拜占庭骨；1453 是切开两层的刀锋。</li>
+      <li>「拜占庭」是他称，「罗马人」是自称——命名本身就是正统争夺。</li>
+      <li>城防史与破防史可走一条线：狄奥多西城墙 → 如梅利 → 加拉太「路上行船」。</li>
+      <li>圣索菲亚的价值在持续叠加身份而非定格；身体距离（地毯 vs 二层回廊）是读当代宗教氛围的量表。</li>
+      <li>科拉与紫衣宫把「帝国黄昏」变成可走入的情感现场：救赎图像 + 金角湾夕照。</li>
+    </ul>
+    <h3>行动清单</h3>
+    <ol>
+      <li>出发前做两列表：1453 前 / 后景点各 5 个；通票是否划算按天数重算，并单独预算索菲亚+水宫。</li>
+      <li>老城半日「看层」：赛马场三碑（蛇柱）→ 地下水宫（美杜莎）→ 圣索菲亚（分清骨与壳）→ Seven Hills 天台外观。</li>
+      <li>城防半日：狄奥多西城墙一段 → 如梅利城堡 → 加拉太塔顶 → 加拉达桥望金角湾。</li>
+      <li>黄昏线：科拉「降入地狱」+ 紫衣宫天台金角湾——专门留给帝国黄昏的情绪，不要塞进赶路清单。</li>
+      <li>住宿选民宿、用餐离景点 200 米+；每次进宗教空间记三问：我被放在哪一层？规则服务谁？我看见的是哪一层历史？</li>
+    </ol>
+    <h3>关键认知转变</h3>
+    <p>从「去伊斯坦布尔看东西方混搭」转向「学会切换图层」——蛇柱、穹顶、宣礼塔、回廊规则、黄昏断壁，可以同时为真；旅行者的工作不是选一个正确名字，而是看见城市如何一层层改写自己，却仍活着。</p>
+  </div>
+
+  <div class="footer">来源：OpenDoor EP46 · 闲云 / 野鸟 / 起阳 · 音频转写总结 · audio-workshop</div>
+</div>
+`;
+
+const { svg, height } = await buildSvg({ css: CSS, body, width: 1320 });
+fs.mkdirSync(path.dirname(OUT), { recursive: true });
+fs.writeFileSync(OUT, svg, 'utf8');
+console.log('Generated:', OUT, 'height:', height, 'px');

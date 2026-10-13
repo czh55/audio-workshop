@@ -1,0 +1,245 @@
+/**
+ * 隐藏菜单 25 · 高奢酒店代订见闻录 → SVG
+ */
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+import { buildSvg } from './svg-auto-height.mjs';
+
+const DIR = path.dirname(fileURLToPath(import.meta.url));
+const OUT = path.join(DIR, 'docs/hidden_menu_luxury_hotel-总结.svg');
+
+const CSS = `*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:78px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,0.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:16px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:16px 22px;text-align:center;min-width:140px;font-weight:700;font-size:15px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.node-purple{background:linear-gradient(135deg,#f5f3ff,#ede9fe);border-color:#c4b5fd;color:#5b21b6}
+.node-red{background:linear-gradient(135deg,#fef2f2,#fee2e2);border-color:#fca5a5;color:#991b1b}
+.arrow{font-size:22px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3{color:#92400e;margin-bottom:8px}
+.correction p{color:#92400e;font-size:15px}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:28px;margin-bottom:18px;box-shadow:0 4px 24px rgba(0,0,0,0.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card.card-red{border-left-color:#ef4444}
+.card h3{font-size:19px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.speaker{display:inline-block;font-size:13px;font-weight:600;padding:2px 10px;border-radius:12px;margin-right:8px}
+.speaker-host{background:#dbeafe;color:#1e40af}
+.speaker-guest{background:#ede9fe;color:#6b21a8}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,0.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,0.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,0.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}`;
+
+const body = `
+<div class="container">
+  <h1>隐藏菜单 25｜一个只有中国人在做的生意：高奢酒店代订见闻录</h1>
+  <div class="meta">
+    <span class="tag tag-blue">播客</span>
+    <span class="tag tag-purple">酒店代订</span>
+    <span class="tag tag-orange">约115分钟</span>
+    <span class="tag tag-green">uu × 一斤 × 李马克</span>
+    <span class="tag tag-red">行业内幕</span>
+  </div>
+  <div class="summary-line">
+    高奢酒店代订不是「官网更便宜那么简单」：它起源于长旅客卖出高卡权益，演变为同住人 / GDS·FHR / 积分房券 / 赌场卡房等多条供应链；行业毛利约 8–15 点，靠的是算价、情绪劳动与风险兜底。有钱人找代订，图的是时间、权益与确定性——而从业者与客户两侧，骗局与客诉同样真实。
+  </div>
+
+  <div class="timeline">
+    <h3>关键时间轴</h3>
+    <div class="timeline-item"><span class="timeline-time">03:35</span><span class="timeline-text">奢华 / 高奢 / 顶奢：按预算与稀缺性划价格带</span></div>
+    <div class="timeline-item"><span class="timeline-time">07:46</span><span class="timeline-text">为何只有中国人在做：长旅客保级 → 同住人供给链</span></div>
+    <div class="timeline-item"><span class="timeline-time">15:21</span><span class="timeline-text">行业鄙视链：倒刷水料 / 假低价 vs 正规渠道</span></div>
+    <div class="timeline-item"><span class="timeline-time">20:16</span><span class="timeline-text">GDS 与 FHR：分销佣金、到店付、100 美金权益</span></div>
+    <div class="timeline-item"><span class="timeline-time">23:35</span><span class="timeline-text">早餐经济学：高卡双早可拆卖</span></div>
+    <div class="timeline-item"><span class="timeline-time">28:13</span><span class="timeline-text">毛利揭秘：宝格丽可能只赚 10 元；贴佣抢客</span></div>
+    <div class="timeline-item"><span class="timeline-time">36:39</span><span class="timeline-text">有钱人为何找代订：便宜一点 + 省决策 + 代办权益</span></div>
+    <div class="timeline-item"><span class="timeline-time">41:16</span><span class="timeline-text">聚水聚财：风水朝向与景观套房玄学需求</span></div>
+    <div class="timeline-item"><span class="timeline-time">44:44</span><span class="timeline-text">对有钱人祛魅：私密空间里的众生相</span></div>
+    <div class="timeline-item"><span class="timeline-time">49:21</span><span class="timeline-text">客诉与情绪劳动：代订是酒店与客人之间的缓冲带</span></div>
+    <div class="timeline-item"><span class="timeline-time">01:02:26</span><span class="timeline-text">入行：闲鱼搜希尔顿套房 → 挑战拿高卡 → 跑腿群</span></div>
+    <div class="timeline-item"><span class="timeline-time">01:13:08</span><span class="timeline-text">转型：新加坡金沙送卡房 → 高奢旅行定制</span></div>
+    <div class="timeline-item"><span class="timeline-time">01:32:32</span><span class="timeline-text">谁适合入行：兴趣不够，关键是抗离型与耐心</span></div>
+    <div class="timeline-item"><span class="timeline-time">01:35:26</span><span class="timeline-text">骗局：跑路派单、资金盘、换汇骗局（赔几十万才算入门）</span></div>
+  </div>
+
+  <div class="map">
+    <h2>核心脉络</h2>
+    <div class="diagram">
+      <div class="node">高卡保级<br/>权益过剩</div>
+      <div class="arrow">→</div>
+      <div class="node node-orange">多渠道代订<br/>同住 / GDS / 券</div>
+      <div class="arrow">→</div>
+      <div class="node node-purple">薄利服务<br/>情绪缓冲带</div>
+      <div class="arrow">→</div>
+      <div class="node node-green">定制旅行<br/>体系化 SOP</div>
+      <div class="arrow">→</div>
+      <div class="node node-red">骗局与亏损<br/>风险入场券</div>
+    </div>
+  </div>
+
+  <div class="correction">
+    <h3>认知纠偏</h3>
+    <p>① 代订≠黑产：酒店与「野生销售」在分销上相互依存，前台对同住人常见默许（因店而异）。② 便宜≠赚很多：行业毛利大致 8–15 点，贴佣、拆权益、算价才是日常；订一单宝格丽可能只赚十几块。③ 有钱人仍比价：A8–A10 客户要的是时间、权益与确定性，不是「不差那几百」。④ 低价必有坑：比官网低一千以上、闲鱼 Booking 担保单、到店突然加价——优先怀疑销售端骗局或倒刷。</p>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">为何只有中国人在做</h2>
+    <div class="card">
+      <h3>供需起点：长旅客的高卡「卖不完」</h3>
+      <p><span class="speaker speaker-guest">uu</span>指出：国外几乎没有「专做酒店代订」这条业态。国内早年的长旅客沉迷头等舱、酒店高卡与信用卡玩法，年年要保级却自己住不满房晚——于是把升级、双早、健身等权益做成同住人：会员本人开房、加客户姓名，客户拿到会员房待遇。</p>
+      <div class="quote">「中国人走到外面去特别能赚钱」——但把会员权益做成二级市场、再叠上微信群与闲鱼获客，是高度本地化的供应链文化。</div>
+      <div class="relation">关系：供给来自「权益过剩」，需求来自「官网贵 / 不会申请权益 / 不想花决策时间」；两边一对接，行业就长出来了。</div>
+    </div>
+    <div class="card card-orange">
+      <h3>酒店为什么不赶尽杀绝</h3>
+      <p>酒店触达渠道主要是 OTA + 官网；仍需要奢华代理 / 旅行顾问做 2C 一对一推销。从业者自称「酒店野生销售」：自媒体与私域帮酒店种草、拉散客。国内成熟十年有余，不少前台「看脸就知是代订」——部分默许、部分排斥，取决于业主与总经理风格。</p>
+      <div class="highlight">关键理解：代订是分销缝隙产业，不是单一「薅羊毛」故事；合规边界在「能否安全入住并兑现承诺权益」。</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">代订价值链</h2>
+    <div class="card card-purple">
+      <h3>几条主流管道（从正规到灰）</h3>
+      <p><strong>同住人</strong>：高卡会员到前台开房加名，当天给房号——听起来怪，但 uu 认为这是成熟玩法，价差常来自「升级后带双早」对标官网行政房。</p>
+      <p><strong>GDS / FHR</strong>：全球分销 / 运通高端酒店计划，包装成小程序；可赚佣金，常见「赠 100 美金、升级、延迟退房、双早」。预付 vs 到店付决定谁先垫资、谁易被假低价套。</p>
+      <p><strong>积分房 / 房券</strong>：积分换房（如万豪住五付四）、官方房券二级市场倒卖——类似月饼券逻辑。</p>
+      <p><strong>赌场卡房</strong>：澳门 / 新加坡金沙等，赌客积分兑换客房再二次售卖。</p>
+      <div class="pitfall">鄙视链底端：用「水料」（盗刷信用卡信息）倒刷 Booking / 刷积分；海外风控松，国内信用卡审查严。销售端假低价诱导到店补差价，佣金照拿——渠道看似正规，话术是坑。</div>
+    </div>
+    <div class="card">
+      <h3>钱从哪来、薄到什么程度</h3>
+      <p>行业毛利约 8–10 点；更高端品牌佣金可达 8–15 点（文华东方、安曼等年度政策可到 15–20，扣掉小程序/旅行社手续费后代理到手仍有限）。有人贴 5–6 点给客户抢单，自己只吃 2 点。早餐可从高卡权益拆出单独卖——数字能力是核心竞争力之一。</p>
+      <div class="action">怎么用（消费者）：问清渠道类型（同住 / GDS / 积分）、付款节点（预付还是到店）、确认号能否官网/酒店查到、权益清单是否书面。</div>
+    </div>
+    <div class="card card-green">
+      <h3>一级跑腿 × 二级派单 × 公司化</h3>
+      <p>一线城市到处是「跑腿」开房；派单人与接单人单次合作、关系松散。uu 从医手（跑房）做到二手（获客派单），再收拢渠道、手搓表格/SaaS、建 SOP，把分散生意做成月数千间夜、年流水三千万级公司，再转型高奢定制（金沙送卡房是门槛契机）。</p>
+      <div class="relation">价值链真相：利润薄，规模靠渠道密度与客服带宽；真正护城河是风险可控的渠道库 + 情绪劳动组织，不是「认识一家酒店」。</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">客户动机与众生相</h2>
+    <div class="card">
+      <h3>为什么还差那几百块</h3>
+      <p>住得起上万的人仍在意便宜一点（「人尽」）。更重要的是：长期信任降低决策成本；代办升级、香槟、蛋糕、锁房——官网不会自动给你的权益。A8–A10 客户买的是稀缺、野奢、确定性（安曼十万一晚、古建筑改建、聚水景观套房），不是「五星」两个字。</p>
+      <div class="quote">「一万对他们可能只是日常生活方式；他们买的是面面俱到，不用再操心细节。」</div>
+      <div class="highlight">纠偏：预算决定层级——千元档豪华（威斯汀/喜来登）、1.5–2k 高奢（丽思/瑞吉）、上万顶奢（安曼/宝格丽等）。上来就说「订五星」的人，先拆预算。</div>
+    </div>
+    <div class="card card-orange">
+      <h3>风水、亲子与人生节点客户</h3>
+      <p>粤闽客户常要通透大堂、水局、朝向与「磁场」；广州瑰丽西关楼套房「珠江从脚下流过」被讲成聚水位。亲子客要托管双语、儿童用品与设施。还有从恋爱订房跟到求婚、婚礼、蜜月、带娃的长期客户——代订嵌入人生节点，粘性远超一单差价。</p>
+    </div>
+    <div class="card card-purple">
+      <h3>祛魅：五星不等于高素质</h3>
+      <p>房间里生孩子、弄脏到像「野蛮人进城」、凌晨富二代任性改行程……私密空间里什么都可能发生。uu 把代订定位为<strong>缓冲带</strong>：客户有问题协同酒店；酒店有问题站客户；尖锐冲突先收尾再让双方见面——本质是情绪劳动与 24 小时在线。</p>
+      <div class="pitfall">入行劝退信号：把爱好当工作、玻璃心、扛不住无故责骂；晚到五分钟被骂到「要离婚」这种单，情绪崩了单就崩了。</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">坑与边界</h2>
+    <div class="card card-red">
+      <h3>从业者侧：赚钱几百、亏钱几十万</h3>
+      <p><strong>跑路</strong>：群里转账全款、拒绝走闲鱼；合作多次后大单消失（「账户被法院冻结」话术）。<strong>资金盘</strong>：熟人局拉充值订房后卷款。<strong>换汇骗局</strong>：港币/美金打款后撤销到账，套走本地货币（uu 自述被骗约 21 万港币量级经验；熟人代理仍中招）。</p>
+      <div class="quote">「不赔个二三十万，说明你真的还没入行。」——学费以亏损计。</div>
+      <div class="action">从业风控：建渠道评分库（回复速度、客诉处理、酒店关系、价格、沟通），ABC 分级派单；大资金订单确认不可撤销到账再放款；绝不只因低价找陌生人。</div>
+    </div>
+    <div class="card card-orange">
+      <h3>消费者侧：认低价 = 认灾</h3>
+      <p>假低价 GDS 单：确认号能查，到店变原价，人在海外只能补差价——对方靠你入住拿佣金。闲鱼三折四折海外单、标注 Booking 代订，高度可疑倒刷。员工价、非法积分更难自测。</p>
+      <div class="pitfall">「只要有房住就行」是骗局设计好的心理出口；决策成本在境外被绑架的那一刻已经输了。</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>对比表：渠道与角色怎么选</h3>
+    <table>
+      <tr><th>维度</th><th>同住人</th><th>GDS / FHR</th><th>积分 / 房券 / 卡房</th><th>倒刷 / 假低价</th></tr>
+      <tr><td>价差来源</td><td>升级+双早对标官网</td><td>协议佣金与权益包</td><td>积分兑换、券二级市场、赌场积分</td><td>盗刷或虚假报价</td></tr>
+      <tr><td>典型体验</td><td>当天给房号、需信任</td><td>确认号、可含百美金</td><td>折扣大、规则复杂</td><td>极低价、到店翻车</td></tr>
+      <tr><td>谁适合用</td><td>国内成熟酒店、信得过代理</td><td>要权益清单的高奢客</td><td>懂规则的长旅客/老客</td><td>谁都不该用</td></tr>
+      <tr><td>主要风险</td><td>酒店排斥同住、跑腿失联</td><td>到店付假低价、贴佣内卷</td><td>积分非法来源被拒住</td><td>拒住、补差价、骗佣</td></tr>
+      <tr><td>行业态度</td><td>主流、部分默许</td><td>正规分销包装</td><td>常见二级市场</td><td>鄙视链底端</td></tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">方法边界</h2>
+    <div class="card card-orange">
+      <h3>这期知识适用 / 不适用</h3>
+      <p><strong>适用</strong>：想理解闲鱼/小红书「住三付二」「赠 100 美金」从哪来的人；高奢出行想省决策与要权益、但怕踩坑的消费者；考虑入行、需要先听劝退与骗局样本的人。</p>
+      <p><strong>不适用</strong>：当作「教你倒刷/伪造低价」的操作手册；用一期 intern 故事替代当地法规与酒店政策核实；把「只有中国人在做」理解成优越或贬义——它描述的是供应链文化与会员体系玩法密度，不是道德判决。</p>
+      <div class="relation">边界口令：能讲清渠道、付款、确认号、权益四件事 → 才谈下单；讲不清却极度便宜 → 默认走开。</div>
+    </div>
+  </div>
+
+  <div class="conclusion">
+    <h2>总结与行动</h2>
+    <h3>核心要点</h3>
+    <ul>
+      <li>代订是高卡权益过剩 + 酒店分销缝隙 + 中国式私域获客叠出来的本地业态。</li>
+      <li>价值链多管道并行；正规赚薄利与服务费，灰色靠倒刷与话术骗局。</li>
+      <li>客户买单的是价格、时间与确定性；从业者交付的是算价、缓冲与风险兜底。</li>
+      <li>入行门槛不是兴趣，是抗压、耐心，以及把亏损当学费的风险意识。</li>
+    </ul>
+    <h3>行动清单</h3>
+    <ol>
+      <li>下次订高奢前先写清预算档（千元 / 1.5–2k / 5k+ / 上万），再让代理按档推荐，而不是只说「五星」。</li>
+      <li>问代理四件事：渠道类型、预付还是到店、确认号如何自查、权益是否书面——答不全就换人。</li>
+      <li>见到比官网低 1000+、闲鱼 Booking 单、要求大额换汇/全款转账陌生人：直接拒绝。</li>
+      <li>若长期出行，选能代办升级与特殊需求、且出问题站得出来的「缓冲带」代理，而不是最低价。</li>
+      <li>想入行：先旁听客诉与骗局样本，评估自己是否「不离型」；没有渠道评分与垫资能力，不要接大额二级派单。</li>
+    </ol>
+    <h3>关键认知转变</h3>
+    <p>从「代订=偷偷打折」转向「代订=缝隙分销 + 情绪劳动 + 风险管理」——便宜只是表层，真正稀缺的是可信渠道与人在境外时仍站得住的那个人。</p>
+  </div>
+
+  <div class="footer">来源：隐藏菜单 Off Menu EP25 · uu 从业见闻 · 音频转写总结 · audio-workshop</div>
+</div>
+`;
+
+const { svg, height } = await buildSvg({ css: CSS, body, width: 1320 });
+fs.writeFileSync(OUT, svg, 'utf8');
+console.log('Generated:', OUT, 'height:', height, 'px');

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="5768" viewBox="0 0 1320 5768">
+  <foreignObject x="0" y="0" width="1320" height="5768">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:34px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,0.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:16px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:16px 22px;text-align:center;min-width:140px;font-weight:700;font-size:15px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.node-purple{background:linear-gradient(135deg,#f5f3ff,#ede9fe);border-color:#c4b5fd;color:#5b21b6}
+.arrow{font-size:22px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3{color:#92400e;margin-bottom:8px}
+.correction p{color:#92400e;font-size:15px}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:28px;margin-bottom:18px;box-shadow:0 4px 24px rgba(0,0,0,0.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card h3{font-size:19px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.speaker{display:inline-block;font-size:13px;font-weight:600;padding:2px 10px;border-radius:12px;margin-right:8px}
+.speaker-host{background:#dbeafe;color:#1e40af}
+.speaker-guest{background:#ede9fe;color:#6b21a8}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,0.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,0.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,0.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}</style>
+      
+<div class="container">
+  <h1>OpenDoor EP51｜第比利斯与哥里：在东正教堂与斯大林故乡之间，寻找格鲁吉亚</h1>
+  <div class="meta">
+    <span class="tag tag-blue">播客</span>
+    <span class="tag tag-purple">人文旅行</span>
+    <span class="tag tag-orange">约61分钟</span>
+    <span class="tag tag-green">野鸟 · 单口</span>
+  </div>
+  <div class="summary-line">
+    格鲁吉亚不是一张「雪山教堂瑞士平替」的风景明信片：第比利斯把中世纪信仰、苏联残影与旅游烟火叠在同一条河谷；哥里把同乡斯大林放在「不追捧也不彻底否定」的模糊地带；街头偶遇的「接孩子」又揭开代孕产业链的阴影。野鸟用 CityWalk 说明——旅行要同时看见阳光与背后的拉力。
+  </div>
+
+  <div class="timeline">
+    <h3>关键时间轴</h3>
+    <div class="timeline-item"><span class="timeline-time">01:10</span><span class="timeline-text">第比利斯＝「温暖之地」：硫磺温泉、库拉河与混搭城景</span></div>
+    <div class="timeline-item"><span class="timeline-time">03:18</span><span class="timeline-text">老城广场偶遇城市解谜 NPC：热情到离谱的旅游商业化</span></div>
+    <div class="timeline-item"><span class="timeline-time">09:03</span><span class="timeline-text">锡奥尼穹顶＝「天国之窗」：目光从天国一步步落回人间</span></div>
+    <div class="timeline-item"><span class="timeline-time">10:59</span><span class="timeline-text">圣王后凯特万：拒绝改宗、殉道成民族圣像</span></div>
+    <div class="timeline-item"><span class="timeline-time">15:00</span><span class="timeline-text">东正教「基督降入地狱」：救赎优先于审判恐惧</span></div>
+    <div class="timeline-item"><span class="timeline-time">20:33</span><span class="timeline-text">圣三一金顶：苏联无神论后，国家重建信仰的巨型宣言</span></div>
+    <div class="timeline-item"><span class="timeline-time">28:21</span><span class="timeline-text">阿利洛圣诞游行：像街头 Cosplay 的朴素喜悦</span></div>
+    <div class="timeline-item"><span class="timeline-time">33:46</span><span class="timeline-text">哥里前夜读托洛茨基《斯大林评传》：时空交错感</span></div>
+    <div class="timeline-item"><span class="timeline-time">37:32</span><span class="timeline-text">斯大林博物馆的空洞：不否认争议，也不正面面对</span></div>
+    <div class="timeline-item"><span class="timeline-time">43:49</span><span class="timeline-text">地下印刷厂老爷爷翻出茅盾散文，激情讲解历史回响</span></div>
+    <div class="timeline-item"><span class="timeline-time">48:00</span><span class="timeline-text">「瑞士平替」标签 vs 中餐厅大姐的清净自在</span></div>
+    <div class="timeline-item"><span class="timeline-time">52:25</span><span class="timeline-text">「接孩子」的另一层意思 → 代孕天堂的现实代价</span></div>
+  </div>
+
+  <div class="map">
+    <h2>核心脉络</h2>
+    <div class="diagram">
+      <div class="node">CityWalk<br/>混搭第比利斯</div>
+      <div class="arrow">→</div>
+      <div class="node node-purple">东正教壁画<br/>救赎纵轴</div>
+      <div class="arrow">→</div>
+      <div class="node node-orange">哥里 / 同乡<br/>记忆分裂</div>
+      <div class="arrow">→</div>
+      <div class="node node-green">瑞士平替<br/>× 代孕阴影</div>
+    </div>
+  </div>
+
+  <div class="correction">
+    <h3>认知纠偏</h3>
+    <p>别把格鲁吉亚简化成「便宜的瑞士」或「斯大林故乡打卡地」。国家博物馆里他是有明确罪责的历史人物；哥里博物馆与地下印刷厂仍保留革命者叙事——分裂本身才是当代认同的缩影。「代孕天堂」听起来像产业繁荣，对底层代孕母亲往往是监控、分批结算与权力不对等。本期是野鸟单口观察，不是政策指南。</p>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">第比利斯：温暖之地与信仰纵轴</h2>
+    <div class="card">
+      <h3>混搭城市：为什么适合漫无目的的 CityWalk</h3>
+      <p><span class="speaker speaker-host">野鸟</span>第比利斯在格鲁吉亚语里是「温暖之地」——地下硫磺温泉、库拉河两岸山丘铺满老宅。中世纪石砌教堂、波斯风浴场、苏联粗野主义楼房与网红餐厅/文创店叠在同一座谷地。自由广场从苏联时期的列宁广场换成圣乔治屠龙像：独立后的身份重塑写在广场立柱上。</p>
+      <div class="pitfall">市中心商业化成熟到「走三五步就被搭讪推销」——热情友善与硬核推销并存；礼貌拒绝即可，别把推销当成全民敌意。</div>
+      <div class="action">怎么用：把 CityWalk 当「时代地层阅读」——问自己每条街看见的是哪一层（信仰 / 帝国 / 苏联 / 消费），而不是只拍网红点。</div>
+      <div class="relation">关系：上期「信仰纵轴」（天空到人间）在本期落到穹顶壁画与圣诞游行的日常身体里。</div>
+    </div>
+    <div class="card card-purple">
+      <h3>锡奥尼壁画：天国之窗与「降入地狱」</h3>
+      <p>锡奥尼对应耶路撒冷锡安山；核心城市主教堂命名锡奥尼，是精神根系与圣地相连的仪式。穹顶称「天国之窗」：抬头望天国，目光落下回到人间。壁画里女性地位高——圣王后凯特万拒绝改宗伊斯兰教，受酷刑殉道，成为民族圣像；中世纪格鲁吉亚多次出现女性执掌王权，在同时代欧洲亦罕见。</p>
+      <div class="highlight">关键理解：东正教反复画「基督降入地狱」——基督主动进入黑暗，把人拉回光明；天主教描绘地狱更常强调审判、罪与罚。重点不是恐惧，而是救赎。</div>
+      <div class="quote">人物比例按神圣秩序而非透视写实（反向透视）：不是让你站在画外旁观，而是邀请你走进叙事。</div>
+      <div class="action">怎么用：进教堂先找「基督降入地狱」与女性圣像——比只拍外立面更能读懂本地神学气质。</div>
+    </div>
+    <div class="card card-green">
+      <h3>圣三一与阿利洛：重建信仰的国家仪式</h3>
+      <p>1995 年前后，苏联解体、国家独立不久——七十年无神论之后，举全国之力建起巨大的圣三一大教堂；金顶像悬浮城市之上的琉璃宝塔。圣诞夜大牧首主持弥撒，野鸟看见老奶奶举烛，蜡油滴在手背却毫不在意。次日阿利洛游行像大型街头 Cosplay：天使、牧羊人、倔驴与熄火花车——混乱却朴素。</p>
+      <div class="quote">没有商场金戈贝尔式的千篇一律，是邻里节庆的温情喜悦；游行散去，垃圾车立刻清场，广场恢复干净。</div>
+      <div class="relation">关系：金顶是「国家级信仰宣言」；游行是「民间身体性庆祝」——同一宗教，两种温度。</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">哥里：同乡、博物馆与无法抹去的回响</h2>
+    <div class="card card-orange">
+      <h3>两套斯大林：国家罪人 vs 故乡叙事</h3>
+      <p><span class="speaker speaker-host">野鸟</span>去哥里前夜读托洛茨基《斯大林评传》（作者遇刺前仍在写），又联想起墨西哥托洛茨基故居——旅途里的历史线索重叠。哥里博物馆仍偏苏联主流叙事：领袖、二战英雄、工业化工程师。青年「科巴」写诗、用格鲁吉亚语签名、深爱故乡民歌《苏丽珂》；展览却几乎不谈大清洗规模、古拉格成形，也不深挖家人悲剧——不否认，也不面对。</p>
+      <div class="highlight">关键理解：第比利斯国家历史博物馆把斯大林定义为有明确历史罪责的人物；哥里与地下印刷厂保留革命者怀念。哥里人把他放在「不再全民追捧，却也没有彻底否定」的模糊位置。</div>
+      <div class="pitfall">别把「同乡英雄馆」当成完整史观；故乡叙事会系统性省略受害者名单——读完要补对照另一套展陈。</div>
+      <div class="action">怎么用：同一国家至少看两处对立叙事（首都批判展 + 故乡纪念馆），问「谁被省略了」比问「哪边对」更有用。</div>
+    </div>
+    <div class="card">
+      <h3>地下印刷厂老爷爷：激情未熄的现场声音</h3>
+      <p><span class="speaker speaker-guest">现场</span>老爷爷见中国人眼睛发亮，翻出人教版初中语文课本里茅盾《第比利斯的地下印刷所》，按着书页喊 “Photo!”；墙上挂着毛与斯大林合影。他亲吻列宁之名，对美国啐一口——革命激情几乎未改，院子却破败、少人投资修缮。</p>
+      <div class="quote">野鸟：这是无法被抹去的历史回响——认知分裂或许正是国家认同的缩影：我们是受害者，还是同乡？背负苏联过往，还是奔赴欧洲未来？</div>
+      <div class="relation">关系：博物馆冷展陈 vs 老人热讲述——制度叙事与个人记忆并行，答案不在「选边」而在看见张力。</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">今天的标签：瑞士平替与代孕天堂</h2>
+    <div class="card card-green">
+      <h3>「瑞士平替」：景观同源，生活另一面</h3>
+      <p>游客标签：雪山、老城、慢节奏、物价约瑞士十分之一。野鸟补充：阿尔卑斯—喜马拉雅造山带共享地质机制，卡兹别克「雪山+山顶教堂」更是瑞士难完全对应的组合。<span class="speaker speaker-guest">现场</span>大连大姐开中餐厅三年：「疫情前就来了，憋坏了；远离七大姑八大姨，累归累，清净自在。」</p>
+      <div class="action">怎么用：用标签当入口可以，落地后改成「同源景观 + 本地节奏 + 真实物价」三句话自检，避免只消费滤镜。</div>
+      <div class="pitfall">冬季山区普通家用车无雪地胎/防滑链容易卡坡——野鸟租车冲圣剑山失败，司机放《Heal the World》的画面本身成了故事。</div>
+    </div>
+    <div class="card card-orange">
+      <h3>「接孩子」：旅行者看不见的产业链</h3>
+      <p>中餐厅偶遇中国人问「你们只是旅游吗？」——他是来接代孕出生的孩子回国。格鲁吉亚法律曾对海外委托方极友好：出生证明可直接登记委托父母，代孕母亲签协议后放弃亲权。代孕母亲多来自经济薄弱乡村，报酬分批结算，流产/异常则大幅缩水；中介集中居住、监控作息，医疗方案常由诊所/委托人主导。</p>
+      <div class="highlight">教会公开反对代孕（割裂婚姻与生命神圣性），但产业链覆盖诊所、中介、律师、托管，经济利益与人口外流现实互相拉扯；2023 限制外籍商业代孕草案因阻力未落地。</div>
+      <div class="pitfall">一边向外输送新生儿、一边本土人口萎缩——「天堂」标签掩盖底层女性的弱势与信息黑箱；普通旅行攻略几乎不提诊所藏在普通商业楼里。</div>
+      <div class="relation">关系：金顶圣三一与代孕阴影同城——风景明信片与全球产业链节点叠合，才是「复杂世界」。</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>对比：三处「斯大林」怎么被讲</h3>
+    <table>
+      <tr><th>场域</th><th>叙事重心</th><th>省略 / 张力</th><th>旅行者怎么读</th></tr>
+      <tr><td>第比利斯国家历史博物馆</td><td>苏联占领与历史罪责</td><td>强调灾难与受害者记忆</td><td>建立批判基线</td></tr>
+      <tr><td>哥里斯大林博物馆</td><td>领袖、英雄、青年科巴诗意同乡</td><td>大清洗、古拉格几乎不谈；不否认也不面对</td><td>识别「故乡叙事」的空洞</td></tr>
+      <tr><td>地下印刷厂（老爷爷）</td><td>革命秘密印刷、个人激情</td><td>设施破败、少人修缮；意识形态仍热</td><td>听见未被制度化的回响</td></tr>
+    </table>
+  </div>
+
+  <div class="card">
+    <h3>对比：东正教 vs 常见天主教地狱想象</h3>
+    <table>
+      <tr><th>维度</th><th>东正教（本期观察）</th><th>天主教常见强调</th></tr>
+      <tr><td>地狱主题画</td><td>基督主动降入黑暗、拉人回光明</td><td>审判、罪与罚、恐惧警示</td></tr>
+      <tr><td>画面空间</td><td>反向透视，邀请观者进入</td><td>更常强调写实透视与旁观</td></tr>
+      <tr><td>情感基调</td><td>救赎、温柔、克制</td><td>威严、罪疚、敬畏</td></tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">方法边界</h2>
+    <div class="card card-orange">
+      <h3>这期观察适用 / 不适用</h3>
+      <p><strong>适用</strong>：想用 CityWalk 读懂「风景背后制度与记忆」的人；准备去高加索、需要把攻略标签拆成可检验问题的人；对博物馆叙事分裂、当代伦理议题（代孕）保持好奇的人。</p>
+      <p><strong>不适用</strong>：只想要打卡清单与美食价目的快闪游客（本期深度远超清单）；把单口见闻当成国际法/代孕政策建议书的人；期望「一种正确斯大林史观」结案的人——节目刻意保留张力。</p>
+      <div class="relation">边界：野鸟是旅行讲述者 + 现场偶遇转述，不是当地学者或法律顾问；代孕部分应再对照专业报道与法规更新。</div>
+    </div>
+  </div>
+
+  <div class="conclusion">
+    <h2>总结与行动</h2>
+    <h3>核心要点</h3>
+    <ul>
+      <li>第比利斯的魅力是「地层叠合」：信仰、帝国、苏联、消费同框；CityWalk 是读时代，不只是逛街。</li>
+      <li>东正教视觉神学强调救赎进入黑暗，而非单纯恐吓——穹顶与壁画是可走入的信仰纵轴。</li>
+      <li>斯大林在格鲁吉亚是分裂符号：首都罪责叙事 vs 故乡纪念 vs 老人革命余烬；模糊地带本身是认同现实。</li>
+      <li>「瑞士平替」「代孕天堂」都是入口标签：前者可检验景观与生活，后者要求看见委托方友好法律下的母亲弱势。</li>
+    </ul>
+    <h3>行动清单</h3>
+    <ol>
+      <li>出行前写三句自检：我想看见哪一层历史？哪两个对立展陈我必须都去？哪个标签我准备拆掉？</li>
+      <li>第比利斯路线：自由广场 → 锡奥尼（找降入地狱与女性圣像）→ 圣三一夜景 → 至少一处苏联批判展。</li>
+      <li>若去哥里：对照「省略了什么」做笔记；有机会再听地下印刷厂现场讲述，区分展陈与口述。</li>
+      <li>拒推销、核餐厅小票、山区确认四驱/防滑；标签攻略之外，主动检索当地当代社会议题（而不只是景点）。</li>
+      <li>看见「阳光背后的阴影」时，问一句：这条产业链里谁有声音、谁被省略？——把旅行从滤镜升级为理解世界的方式。</li>
+    </ol>
+    <h3>关键认知转变</h3>
+    <p>从「打卡美丽小国」转向「在同一座城里同时握住金顶与阴影」——同乡与罪人、救赎与审判、平替风光与人口外流，可以共存；旅行者的工作不是快速站队，而是学会阅读张力。</p>
+  </div>
+
+  <div class="footer">来源：OpenDoor EP51 · 野鸟 · 音频转写总结 · audio-workshop</div>
+</div>
+
+    </div>
+  </foreignObject>
+</svg>

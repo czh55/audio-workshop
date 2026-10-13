@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="5157" viewBox="0 0 1320 5157">
+  <foreignObject x="0" y="0" width="1320" height="5157">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:34px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}.tag-purple{background:#ede9fe;color:#6b21a8}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,0.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:12px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:14px 18px;text-align:center;min-width:120px;font-weight:700;font-size:14px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.node-purple{background:linear-gradient(135deg,#f5f3ff,#ede9fe);border-color:#c4b5fd;color:#5b21b6}
+.arrow{font-size:22px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3{color:#92400e;margin-bottom:8px}.correction p{color:#92400e;font-size:15px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:28px;margin-bottom:18px;box-shadow:0 4px 24px rgba(0,0,0,0.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}.card.card-orange{border-left-color:#f59e0b}.card.card-purple{border-left-color:#8b5cf6}
+.card h3{font-size:19px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.speaker{display:inline-block;font-size:13px;font-weight:600;padding:2px 10px;border-radius:12px;margin-right:8px}
+.speaker-host{background:#dbeafe;color:#1e40af}.speaker-guest{background:#ede9fe;color:#6b21a8}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,0.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,0.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,0.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}</style>
+      
+<div class="container">
+  <h1>非正常旅行 Ep.223｜城市漫游：新加坡可以玩出什么不一样？</h1>
+  <div class="meta">
+    <span class="tag tag-blue">播客</span>
+    <span class="tag tag-purple">城市漫游 / 狮城</span>
+    <span class="tag tag-orange">约64分钟</span>
+    <span class="tag tag-green">季季 × 布莱尔</span>
+  </div>
+  <div class="summary-line">
+    新加坡常被当成「干净安全的转机点」，但十刷嘉宾布莱尔给出另一套读法：面积有限、层次无限。从圣淘沙与星耀樟宜的表层，下探到娘惹街区、小贩中心、东海岸本地骑行、国家美术馆与老店屋精品酒店——玩法不在多打卡，而在换一层住进这座城。
+  </div>
+
+  <div class="timeline">
+    <h3>关键时间轴</h3>
+    <div class="timeline-item"><span class="timeline-time">01:07</span><span class="timeline-text">十刷新加坡：从最佳转机地到解锁城市深层小众游</span></div>
+    <div class="timeline-item"><span class="timeline-time">06:48</span><span class="timeline-text">城市关键词：融合、自强与秩序——不止干净花园</span></div>
+    <div class="timeline-item"><span class="timeline-time">11:57</span><span class="timeline-text">加东–如切：娘惹文化街区与本土生活秩序</span></div>
+    <div class="timeline-item"><span class="timeline-time">15:56</span><span class="timeline-text">娘惹美食：功夫菜黑果焖鸡与老字号味道</span></div>
+    <div class="timeline-item"><span class="timeline-time">23:14</span><span class="timeline-text">小贩中心：非遗美食地标，也是阶层与语言观察场</span></div>
+    <div class="timeline-item"><span class="timeline-time">30:36</span><span class="timeline-text">东海岸 PCN 骑行：本地后花园 vs 圣淘沙游客岛</span></div>
+    <div class="timeline-item"><span class="timeline-time">38:10</span><span class="timeline-text">国家美术馆：最高法院改建与东南亚艺术</span></div>
+    <div class="timeline-item"><span class="timeline-time">43:36</span><span class="timeline-text">住宿策略：商务区 → 店屋社区 → 娘惹/马来街区</span></div>
+    <div class="timeline-item"><span class="timeline-time">54:10</span><span class="timeline-text">打破同质化：密度与层次——从表层读到底层逻辑</span></div>
+  </div>
+
+  <div class="map">
+    <h2>核心脉络</h2>
+    <div class="diagram">
+      <div class="node">表层风光<br/>金沙·机场·圣淘沙</div>
+      <div class="arrow">→</div>
+      <div class="node node-orange">族群文化层<br/>娘惹·马来·印度</div>
+      <div class="arrow">→</div>
+      <div class="node node-purple">城市运作层<br/>秩序·填海·保育</div>
+      <div class="arrow">→</div>
+      <div class="node node-green">深层怀旧<br/>侨批·香料·考古</div>
+    </div>
+  </div>
+
+  <div class="correction">
+    <h3>认知纠偏</h3>
+    <p>「新加坡不大 = 三天玩完」是面积误判。圣淘沙约 4.7 km²（不到全国 1%）就能玩两三天；全国约 735 km²，剩下 99% 多数游客根本没开始。转机游停在表层；真正不一样的玩法，是换住宿片区、进小贩中心、走 PCN，用「有效旅行时间」把每一天都用在城里，而不是路上。</p>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">三个词读懂狮城</h2>
+    <div class="card">
+      <h3>融合 · 自强 · 秩序</h3>
+      <p><span class="speaker speaker-guest">布莱尔</span>用三个词更新「干净/花园」的刻板印象：华人比例约降至 74%+，融合更深；资源贫乏催生危机感与国民服役式自强；秩序极端——朋友教他的判据是「谁站在指定圆圈里抽烟」：有顶不能抽、户外还得进圈，本地人角都不越界。</p>
+      <div class="quote">干净卫生安全没错，但那更像口罩前的第一层形容；口罩后再去，更能感到多元加速与规则内化。</div>
+      <div class="relation">关系：秩序不是旅游口号，而是你走在街上能看见的日常合规——理解它，才理解为什么这座城「高效到几乎每分钟都可玩」。</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">可执行目的地卡片</h2>
+
+    <div class="card card-orange">
+      <h3>娘惹美食：加东–如切 + 黑果焖鸡</h3>
+      <p>加东–如切是东部娘惹文化聚集带；政府保育老字号，不少店内还有「微型博物馆」讲前世今生。娘惹（Baba Nyonya / Peranakan）源自华人男性与马来女性通婚后裔，菜系是闽粤与马来香料的几百年融合——不是游客旗号，是活着的地方菜。</p>
+      <p><strong>试金石菜：</strong>黑果焖鸡（Ayam Buah Keluak）。黑果仁含天然氰化物相关成分，须经浸泡发酵去毒后方可食用，处理极费工时，类似「河豚级」信心菜；咸酸微苦甘香交织，常被用来判断娘惹餐厅水准。</p>
+      <div class="action">怎么用：去 Chilli Padi Nonya Restaurant 点黑果焖鸡；在加东–如切一带按本地清单扫老字号，别只吃「游客娘惹套餐」。</div>
+      <div class="pitfall">黑果不建议自行处理；认准合规老店。另：节目里「如切」常被转写音近，对应 Joo Chiat。</div>
+    </div>
+
+    <div class="card card-green">
+      <h3>小贩中心：非遗餐桌，不是美食广场</h3>
+      <p>政府规划的开放式熟食中心，服务各阶层用餐与小贩生计；2020 年新加坡小贩文化入选联合国非遗。十分钟步行圈内常能找到一家，可能上百年、第三代在档口；西装与工服同桌，中英马来闽粤潮汕混响。</p>
+      <p><strong>清单（show notes）：</strong>叻沙、海南鸡饭、肉骨茶、咖椰吐司、辣椒蟹、炒福建虾面、云吞面。布莱尔提到 Golden Mile 半地下层的福建排骨汤面 + 南洋咖啡约 S$7.2；牛顿熟食中心的香辣蟹亦常被推荐。</p>
+      <div class="highlight">点单代码：说「Kopi」= 咖啡+炼乳+糖——南洋咖啡（罗布斯塔翻炒传统）是高效融合的微观样本。小贩中心也在迭代：精品咖啡、创意料理、年轻二代接手，不是冻在「古早」里。</div>
+      <div class="action">怎么用：至少吃一顿社区小贩（非景区档口）；学两句点单词；观察谁在吃、谁在讲什么语言——这是城市观察，不只是打卡。</div>
+    </div>
+
+    <div class="card">
+      <h3>东海岸骑行：本地后花园 vs 圣淘沙</h3>
+      <p>圣淘沙是做给游客的度假岛；东海岸更像新加坡人自己的后花园。走 PCN（Park Connector Network 公园连道）：禁机动车、车道极宽（可并排多辆自行车）。布莱尔借朋友的脚车（本地称自行车）沿东海岸骑到滨海、新加坡河入海口水坝，隔河遥望金沙与「阿凡达树」景观。</p>
+      <div class="relation">对比：圣淘沙 ≈ 游客滤镜；东海岸 PCN ≈ 本地日常运动与海岸线。想「不像转机游」，优先换一条本地动线。</div>
+      <div class="action">怎么用：租/借一辆脚车，走一段 PCN；备透气衣物、防晒、折伞与薄外套（赤道湿热 + 强冷气）。不必为玩本岛而租车——地铁出租极方便；租车更适合新马跨境（新山乐高乐园→马六甲→吉隆坡）。</div>
+    </div>
+
+    <div class="card card-purple">
+      <h3>国家美术馆：最高法院改建的城市美学</h3>
+      <p>原最高法院改建为国家美术馆（约 2015），审判厅空间变成逛展路径，建筑本身就是历史文本。馆内有吴冠中相关展厅——他把大量作品留给新加坡。周边艺术生态丰富：公民可申请小型艺术空间办展，不只是「逛大馆」。</p>
+      <div class="quote">为什么最高法院改成美术馆而不是拆成商场？——这一问已经进入「城市运作层」。</div>
+      <div class="action">怎么用：留半日给国家美术馆；对建筑改造与东南亚艺术感兴趣再往外扩公共艺术与小型空间。</div>
+    </div>
+
+    <div class="card card-orange">
+      <h3>住宿：片区升级 = 旅行层次升级</h3>
+      <p><strong>挑店三标准：</strong>① 餐厅/早餐是否与本地发生关系（全球同款大陆式 = 酒店不想入乡）；② 前台礼宾是否推荐本地人下班去的地方；③ 老楼改造要真旧，忌假仿古。</p>
+      <p><strong>片区策略：</strong>第1次 → 滨海湾/市中心地标旁省心（但商务区夜晚空）；第2次 → 牛车水、丹戎巴葛、达士敦店屋带，楼下餐厅酒吧 + 早上看小贩；第3次 → 加东如切（娘惹安静）或甘榜格南（马来/阿拉伯、哈芝巷）；亲子且孩子小可住圣淘沙，但二刷起建议离开。</p>
+      <p><strong>精品酒店（show notes）：</strong></p>
+      <ul>
+        <li><strong>21 Carpenter</strong>：牛车水与克拉码头之间，原侨批汇兑机构；四栋 1936 保育店屋 + WOHA 新建穿孔铝板（书信意象/遮阳）；建筑师协会大奖、Design Hotels。</li>
+        <li><strong>Duxton Reserve</strong>：丹戎巴葛/达士敦，八栋 19 世纪店屋；Anouska Hempel 黑金黄、屏风与书法墙纸。</li>
+        <li><strong>The Warehouse Hotel</strong>：河畔旧码头仓库，高天花天窗工业感；店内 Po 餐厅本地热门。</li>
+      </ul>
+      <div class="pitfall">精品老改通常贵、客房偏小——为地段与叙事买单，不是为面积。先泼冷水再订。</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>对比表：同质化行程 vs 城市漫游</h3>
+    <table>
+      <tr><th>维度</th><th>转机 / 三天特种兵</th><th>布莱尔式城市漫游</th><th>边界</th></tr>
+      <tr><td>空间</td><td>圣淘沙 + 金沙 + 星耀樟宜</td><td>加东如切、东海岸 PCN、社区小贩、店屋酒店</td><td>亲子首次仍可圣淘沙，二刷起换本岛</td></tr>
+      <tr><td>吃饭</td><td>景区档口 / 连锁</td><td>娘惹功夫菜 + 小贩非遗 + Kopi 点单</td><td>黑果等须认准合规店</td></tr>
+      <tr><td>住宿</td><td>滨海湾商务连锁</td><td>按次数迁入牛车水/达士敦/甘榜格南</td><td>老改精品价高房小</td></tr>
+      <tr><td>移动</td><td>打卡点之间赶路</td><td>有效旅行时间高：地铁/出租；PCN 骑行</td><td>本岛一般不需租车</td></tr>
+      <tr><td>认知层</td><td>干净漂亮安全</td><td>融合→族群→运作逻辑→侨批怀旧</td><td>层次要时间，不是攻略清单越长越好</td></tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">方法边界</h2>
+    <div class="card card-green">
+      <h3>听完能带走的，与带不走的</h3>
+      <p><strong>可迁移：</strong>用「面积 vs 层次」重估小国；用住宿片区换旅行深度；把小贩中心当地文化观察场；用早餐/礼宾是否本地化筛选酒店；节日按族群日历走（牛车水春节、甘榜格南开斋节、小印度屠妖节、1 月艺术周、9 月 F1）。</p>
+      <p><strong>不可直接复制：</strong>十刷人脉与朋友家本地视角；精品酒店预算；跨境自驾体验不等于「玩新加坡要租车」。节目含璞缇客合作路线，当灵感来源即可，不必当成唯一正确行程。</p>
+      <div class="quote">面积总是有限的，但层次无限——新加坡耐刮，靠的是密度与层次，不是摊开跑远。</div>
+    </div>
+  </div>
+
+  <div class="conclusion">
+    <h2>总结与行动</h2>
+    <h3>核心要点</h3>
+    <ul>
+      <li>圣淘沙不到 1% 面积就能玩三天 → 「新加坡小」不是三天清完的理由。</li>
+      <li>关键词从干净花园，升级为融合、自强、秩序。</li>
+      <li>吃：娘惹黑果焖鸡 + 小贩中心非遗餐桌 + Kopi 点单代码。</li>
+      <li>动：东海岸 PCN 本地骑行，对照圣淘沙游客岛。</li>
+      <li>住：商务区 → 店屋社区 → 娘惹/马来街区，片区即层次。</li>
+      <li>看：最高法院改建美术馆，追问城市为什么这样运作。</li>
+    </ul>
+    <h3>行动清单：新加坡怎么玩才不像转机游</h3>
+    <ol>
+      <li>删掉「只打卡金沙+机场瀑布」的默认三天清单；保留星耀樟宜夜场水舞，但本岛至少留两整天。</li>
+      <li>按次数选住宿：一刷滨海湾；二刷牛车水/达士敦店屋；三刷加东如切或甘榜格南。</li>
+      <li>吃一顿娘惹（试黑果焖鸡）+ 一顿社区小贩（学说 Kopi），记下看到的语言与人群。</li>
+      <li>租/借脚车走一段东海岸 PCN，骑到滨海或河口水坝——感受本地后花园而非乐园岛。</li>
+      <li>半天国家美术馆：先看建筑改造，再看东南亚与吴冠中线索。</li>
+      <li>查当年节日：春节牛车水、开斋节甘榜格南、屠妖节小印度——用节庆进族群街区。</li>
+      <li>订房前查早餐是否本地化、礼宾是否推荐「店员下班去处」；老改精品接受「贵且小」。</li>
+    </ol>
+    <h3>关键认知转变</h3>
+    <p>从「新加坡适合转机」转向「面积有限、层次无限」——不像转机游，不是多打几个点，而是换一层住进这座城：吃它的非遗餐桌、骑它的本地海岸、住进保育店屋，再问一句这座城为什么这样运行。</p>
+  </div>
+
+  <div class="footer">来源：非正常旅行 Ep.223 · 音频转写 + show notes 旅行笔记 · audio-workshop</div>
+</div>
+
+    </div>
+  </foreignObject>
+</svg>

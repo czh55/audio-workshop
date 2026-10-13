@@ -1,0 +1,260 @@
+/**
+ * 今日9集播客 × 世界本质九条 → 知识脉络 SVG
+ */
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+import { buildSvg } from './svg-auto-height.mjs';
+
+const DIR = path.dirname(fileURLToPath(import.meta.url));
+const OUT = path.join(DIR, 'docs/世界本质九条-今日播客验真图谱.svg');
+
+const CSS = `*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:34px;font-weight:900;background:linear-gradient(135deg,#1e40af,#7c3aed);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:24px;font-weight:700;color:#1e40af;margin:28px 0 14px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:18px;font-weight:700;color:#334155;margin-bottom:10px}
+p{font-size:15px;line-height:1.75;color:#475569;margin-bottom:8px}
+ul,ol{padding-left:22px;margin:8px 0}
+li{font-size:14px;line-height:1.75;color:#475569;margin-bottom:5px}
+.tag{display:inline-block;padding:3px 12px;border-radius:16px;font-size:12px;font-weight:600;margin-right:6px;margin-bottom:4px}
+.tag-blue{background:#dbeafe;color:#1e40af}.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:10px 0 18px}
+.summary-line{font-size:17px;line-height:1.7;color:#334155;padding:18px 22px;background:#fff;border-radius:12px;border-left:4px solid #7c3aed;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.map{background:#fff;border-radius:20px;padding:28px 32px;margin-bottom:24px;box-shadow:0 4px 24px rgba(0,0,0,0.06)}
+.map h2{margin-top:0;border-bottom:none;padding-bottom:0;font-size:22px}
+.diagram{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;padding:16px 0 8px}
+.chip{border-radius:12px;padding:10px 14px;font-size:13px;font-weight:700;border:2px solid;text-align:center;min-width:110px}
+.chip-b{background:#eff6ff;border-color:#93c5fd;color:#1e40af}
+.chip-g{background:#ecfdf5;border-color:#6ee7b7;color:#065f46}
+.chip-o{background:#fffbeb;border-color:#fcd34d;color:#92400e}
+.chip-p{background:#f5f3ff;border-color:#c4b5fd;color:#5b21b6}
+.chip-r{background:#fef2f2;border-color:#fca5a5;color:#991b1b}
+.flow{display:flex;align-items:center;justify-content:center;gap:8px;flex-wrap:wrap;margin-top:12px;font-size:13px;color:#64748b}
+.flow b{color:#1e40af}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:18px 22px;border-radius:12px;margin-bottom:22px}
+.correction h3{color:#92400e;margin-bottom:6px}.correction p{color:#92400e;font-size:14px}
+.sec-title{font-size:20px;font-weight:700;color:#1e40af;margin:28px 0 14px;padding-left:14px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:14px;padding:24px 26px;margin-bottom:14px;box-shadow:0 3px 18px rgba(0,0,0,0.05);border-left:5px solid #3b82f6}
+.card.g{border-left-color:#10b981}.card.o{border-left-color:#f59e0b}.card.p{border-left-color:#8b5cf6}.card.r{border-left-color:#ef4444}
+.card h3{font-size:17px;color:#1e40af;margin-bottom:8px}
+.card .idx{display:inline-block;font-size:12px;font-weight:800;color:#94a3b8;margin-right:8px}
+.quote{background:#f8fafc;padding:10px 14px;border-radius:8px;margin:10px 0;font-size:14px;color:#64748b;border-left:3px solid #cbd5e1;font-style:italic}
+.insight{background:#eff6ff;padding:10px 14px;border-radius:8px;margin:8px 0;font-size:14px;color:#1e40af;border-left:3px solid #3b82f6}
+.relation{background:#f0fdf4;padding:10px 14px;border-radius:8px;margin:8px 0;font-size:13px;color:#166534}
+.pitfall{background:#fef2f2;padding:10px 14px;border-radius:8px;margin:8px 0;font-size:14px;color:#991b1b;border-left:3px solid #ef4444}
+.action{background:#fffbeb;padding:10px 14px;border-radius:8px;margin:8px 0;font-size:14px;color:#92400e;border-left:3px solid #f59e0b}
+.src{font-size:12px;color:#94a3b8;margin-top:8px}
+table{width:100%;border-collapse:collapse;margin:12px 0;font-size:13px}
+th{background:#f1f5f9;padding:10px 12px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:10px 12px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media (max-width:900px){.grid2{grid-template-columns:1fr}}
+.mini{background:#f8fafc;border-radius:10px;padding:14px 16px;border:1px solid #e2e8f0}
+.mini h4{font-size:14px;color:#1e40af;margin-bottom:6px}
+.mini p{font-size:13px;margin:0}
+.conclusion{background:linear-gradient(135deg,#1e40af,#7c3aed);color:#fff;border-radius:18px;padding:32px;margin-top:28px}
+.conclusion h2{color:#fff;border-bottom:1px solid rgba(255,255,255,0.25);margin-top:0}
+.conclusion h3{color:rgba(255,255,255,0.92);font-size:16px;margin:16px 0 8px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,0.9);font-size:14px}
+.footer{text-align:center;color:#94a3b8;font-size:12px;padding:28px 0 12px}
+.qrow{display:flex;gap:10px;align-items:flex-start;margin:8px 0}
+.qnum{flex-shrink:0;width:28px;height:28px;border-radius:50%;background:#1e40af;color:#fff;font-size:13px;font-weight:800;display:flex;align-items:center;justify-content:center}
+.qbody{flex:1;font-size:14px;color:#475569;line-height:1.6}
+.qbody b{color:#1e40af}`;
+
+const body = `
+<div class="container">
+  <h1>世界本质九条 × 今日九集：出门验真图谱</h1>
+  <div class="meta">
+    <span class="tag tag-purple">知识脉络</span>
+    <span class="tag tag-blue">九条本质</span>
+    <span class="tag tag-orange">五问清单</span>
+    <span class="tag tag-green">2026-10-13 · 9 集播客</span>
+  </div>
+  <div class="summary-line">
+    今天听的不是九个互不相关的故事——奢侈品祛魅、LeanFIRE、高加索与伊斯坦布尔、新加坡漫游、旅行搭子、父子谈钱、高奢代订——它们反复撞上同一套底层问题：结构、匹配、稀缺与预期、阶段与激励、注意力与验收。本图用「世界本质九条」当坐标系，把九集压成可出门复用的验真肌肉。
+  </div>
+
+  <div class="map">
+    <h2>总脉络：五问收束九条</h2>
+    <div class="diagram">
+      <div class="chip chip-b">01 结构先于故事</div>
+      <div class="chip chip-b">02 没有最优只有匹配</div>
+      <div class="chip chip-g">03 人按预期行动</div>
+      <div class="chip chip-g">04 稀缺与约束默认</div>
+      <div class="chip chip-o">05 阶段决定使劲</div>
+      <div class="chip chip-o">06 激励规则塑行为</div>
+      <div class="chip chip-p">07 注意力是战场</div>
+      <div class="chip chip-p">08 感受验收不外包</div>
+      <div class="chip chip-p">09 交换与边界</div>
+    </div>
+    <div class="flow">
+      <b>出门口令</b>：结构？ → 匹配？ → 抢什么？ → 该不该使劲？ → 谁验收？
+    </div>
+  </div>
+
+  <div class="correction">
+    <h3>认知纠偏</h3>
+    <p>别把九集当成「旅行攻略 + 消费鸡汤 + 历史知识」三堆素材。滤镜游、配货保级、半年上班、父子理财课——表皮题材不同，内核都是：约束下的均衡、预期驱动的欲望、以及你有没有把验收留在自己手里。答不清五问就先别跟叙事上头。</p>
+  </div>
+
+  <h2 class="sec-title">一、今日节目 → 九条挂载</h2>
+
+  <div class="card">
+    <h3><span class="idx">01</span>结构先于故事</h3>
+    <p>表面是情怀与滤镜，底下是利润池、文明装置、分销缝隙。</p>
+    <div class="insight"><b>隐藏菜单</b>：高奢代订不是「会订房」，而是高卡权益过剩 × 分销缝隙 × 私域获客叠出的薄利结构——客户买时间与确定性，从业者交付算价与风险兜底。</div>
+    <div class="insight"><b>伊斯坦布尔 / 亚美尼亚</b>：圣索菲亚的身份叠加、圣山可望不可及——先读帝国/教会/流散如何运转，再听民族故事。</div>
+    <div class="insight"><b>格鲁吉亚</b>：东正教堂与斯大林故乡的张力，不是风景标签，是记忆结构的分裂。</div>
+    <div class="action">怎么用：听完先写一句「钱/权力/注意力从哪来到哪去」；写不出就还在故事层。</div>
+    <div class="src">出处：隐藏菜单 25 · OpenDoor EP46/49/51</div>
+  </div>
+
+  <div class="card g">
+    <h3><span class="idx">02</span>没有最优，只有匹配</h3>
+    <p>最好的城市玩法、最好的 FIRE、最好的搭子——都不存在；只有约束匹配。</p>
+    <div class="insight"><b>新加坡</b>：不是「三天打卡最优解」，而是换片区住宿、进小贩与 PCN——面积有限、层次无限，匹配的是你想读哪一层。</div>
+    <div class="insight"><b>Bruce LeanFIRE</b>：穷躺依赖极低月费 + 可中断就业；复制半年上班却无节流/无日语，是把别人的均衡当通用真理。</div>
+    <div class="insight"><b>旅行搭子</b>：最熟≠最配；要对齐节奏、负担与边界，目的是彼此舒服且不冒犯。</div>
+    <div class="pitfall">别做：把名古屋生活成本或爱马仕柜规当人生标准答案。</div>
+    <div class="src">出处：非正常旅行 Ep.223 · FIRE 33 · 拍脑门儿 208</div>
+  </div>
+
+  <div class="card g">
+    <h3><span class="idx">03–04</span>预期行动 · 稀缺约束</h3>
+    <p>欲望跟稀缺走；稀缺崩了，预期就改写行为。</p>
+    <div class="quote">爱马仕「开口就能拿到」时反而不急——阻力消失，欲望熄火。（逛街专家 EP13）</div>
+    <div class="insight"><b>预期</b>：配货保级把「想要」驯化成 KPI；父子谈钱时，胜率派老爸 vs 赔率派少年——争的是风险坐标系，不是公式对错。</div>
+    <div class="insight"><b>稀缺</b>：Bruce 抢的是可中断时间与父母陪伴窗口；高奢客户抢确定性；新加坡漫游抢的是「本地日常」而非网红清单。</div>
+    <div class="action">怎么用：任何上头冲动先标稀缺物——钱 / 时间 / 注意力 / 信任 / 窗口——再决定跟不跟。</div>
+    <div class="src">出处：逛街专家 EP13 · 听懂涨声 · FIRE 33 · 隐藏菜单 25</div>
+  </div>
+
+  <div class="card o">
+    <h3><span class="idx">05–06</span>阶段 · 激励规则</h3>
+    <p>用力错阶段会空转；人响应场域奖惩，不响应金句。</p>
+    <div class="insight"><b>阶段</b>：Zoe 从假货羞耻→保级游戏→开口可得→清仓休息，是欲望生命周期；Bruce 因父母变老「再排五年班」，FIRE 从数字游戏改成时间与衰老权衡。</div>
+    <div class="insight"><b>激励</b>：爱马仕会员规则塑造扫店行为；合住没有清规则就会把物资/劳动摩擦放大成公平危机；代订行业的激励是成交与售后兜底，不是「帮有钱人炫富」。</div>
+    <div class="action">怎么用：先说清现在是探索/建设/收割/撤退哪一段；想改行为先改默认路径与回报，别只改口号。</div>
+    <div class="src">出处：逛街专家 EP13 · FIRE 33 · 拍脑门儿 208 · 隐藏菜单 25</div>
+  </div>
+
+  <div class="card p">
+    <h3><span class="idx">07–09</span>注意力 · 验收 · 交换边界</h3>
+    <p>谁定义你盯什么？谁拍板？你在用什么换什么？</p>
+    <div class="insight"><b>注意力</b>：刷大牌新品像「看图也兴奋」——直到某天没感觉；夺回注意力后，奖励从买包换成彻底休息/播客/做饭认可。</div>
+    <div class="insight"><b>验收</b>：贵鞋仍磨脚、包不适配通勤——身体与生活场景是最终验收，不能外包给柜哥或舆论；父子谈钱缺的不是理财课，是平等坦白的验收场。</div>
+    <div class="insight"><b>交换边界</b>：奢侈品像「见不得光的情人」——投入大、难对外解释；旅行搭子要把劳动与开销边界写清；家庭金钱关系也是交换，边界不清就变成道德审判。</div>
+    <div class="relation">三联：注意力决定你看见什么稀缺 → 验收决定你信哪套故事 → 边界决定交换能否持续。</div>
+    <div class="src">出处：逛街专家 EP13 · 听懂涨声 · 拍脑门儿 208 · OpenDoor 文明三部曲</div>
+  </div>
+
+  <h2 class="sec-title">二、五问验真样例（今日节目）</h2>
+
+  <div class="card r">
+    <h3>样例 A · 逛街专家：奢侈品「没感觉了」</h3>
+    <div class="qrow"><div class="qnum">1</div><div class="qbody"><b>结构：</b>会员等级/配货资格在运转，不是「审美突然升华」。</div></div>
+    <div class="qrow"><div class="qnum">2</div><div class="qbody"><b>匹配：</b>适合「已经拥有很多」的祛魅叙事；不适合刚要建立审美样本的人。</div></div>
+    <div class="qrow"><div class="qnum">3</div><div class="qbody"><b>抢什么：</b>曾经抢稀缺与身份想象；开口可得后稀缺崩塌，预期改写。</div></div>
+    <div class="qrow"><div class="qnum">4</div><div class="qbody"><b>阶段：</b>从规则期进入放下期；继续保级是错阶段使劲。</div></div>
+    <div class="qrow"><div class="qnum">5</div><div class="qbody"><b>验收：</b>用真实穿着/快乐半衰期验收；奖励通道可替换为休息，别交给柜面话术。</div></div>
+  </div>
+
+  <div class="card r">
+    <h3>样例 B · FIRE 33：日本低欲望十年</h3>
+    <div class="qrow"><div class="qnum">1</div><div class="qbody"><b>结构：</b>极低支出 + 间歇派遣就业；不是「躺平心灵鸡汤」。</div></div>
+    <div class="qrow"><div class="qnum">2</div><div class="qbody"><b>匹配：</b>LeanFIRE 适配能降物质、有再就业弹性的人；国内无缓冲硬搬会变无保险失业。</div></div>
+    <div class="qrow"><div class="qnum">3</div><div class="qbody"><b>抢什么：</b>可中断时间、父母陪伴窗口；不是「攒够 X 万」的抽象自由。</div></div>
+    <div class="qrow"><div class="qnum">4</div><div class="qbody"><b>阶段：</b>因衰老与赡养改计划——阶段变了，再工作五年是对齐窗口，不是叛变理想。</div></div>
+    <div class="qrow"><div class="qnum">5</div><div class="qbody"><b>验收：</b>躺平是否抑郁、梦里是否还在上班；感受归自己，别外包给 FIRE 社群审美。</div></div>
+  </div>
+
+  <div class="card r">
+    <h3>样例 C · 隐藏菜单：高奢酒店代订</h3>
+    <div class="qrow"><div class="qnum">1</div><div class="qbody"><b>结构：</b>权益过剩找不到出口 + 代理价差 + 私域信任链。</div></div>
+    <div class="qrow"><div class="qnum">2</div><div class="qbody"><b>匹配：</b>客户要的是确定性与省心；从业者要扛售后与汇率/取消风险——角色别混。</div></div>
+    <div class="qrow"><div class="qnum">3</div><div class="qbody"><b>抢什么：</b>客户的时间与焦虑；从业者的信任与赔付能力。</div></div>
+    <div class="qrow"><div class="qnum">4</div><div class="qbody"><b>阶段：</b>薄利服务业靠流程与风控深挖，不靠「结识富人」叙事扩张。</div></div>
+    <div class="qrow"><div class="qnum">5</div><div class="qbody"><b>验收：</b>订单落地与异常兜底；别用「只有中国人在做」当身份滤镜替代尽调。</div></div>
+  </div>
+
+  <div class="card r">
+    <h3>样例 D · 拍脑门儿：旅行搭子</h3>
+    <div class="qrow"><div class="qnum">1</div><div class="qbody"><b>结构：</b>合住高压把物资、劳动、节奏摩擦放大——公平危机的生产装置。</div></div>
+    <div class="qrow"><div class="qnum">2</div><div class="qbody"><b>匹配：</b>熟人不等于节奏匹配；要选约束相容的人。</div></div>
+    <div class="qrow"><div class="qnum">3</div><div class="qbody"><b>抢什么：</b>体力、耐心、被公平对待的感觉。</div></div>
+    <div class="qrow"><div class="qnum">4</div><div class="qbody"><b>阶段：</b>出发前定规则（建设），路上只做微调；事后复盘再决定要不要同队。</div></div>
+    <div class="qrow"><div class="qnum">5</div><div class="qbody"><b>验收：</b>彼此舒服且不冒犯；边界谈不清就降级为短途或分房。</div></div>
+  </div>
+
+  <div class="grid2" style="margin-bottom:16px">
+    <div class="mini">
+      <h4>文明三部曲怎么用五问</h4>
+      <p>伊斯坦布尔 / 格鲁吉亚 / 亚美尼亚：先问结构（帝国·教会·流散如何运转），再问匹配（你是游客滤镜还是想读层叠），稀缺是「可理解的历史深度」，阶段是行程天数决定读表层还是读骨，验收看你是否还在用风景标签代替记忆结构。</p>
+    </div>
+    <div class="mini">
+      <h4>新加坡 · 听懂涨声</h4>
+      <p>新加坡：结构是高密度多层城市日常；匹配你的住宿片区。父子谈钱：结构是代际风险坐标系；匹配「能不能当平等搭档坦白」；验收是关系有没有被审判话术关掉。</p>
+    </div>
+  </div>
+
+  <h2 class="sec-title">三、九集速查矩阵</h2>
+  <div class="card">
+    <table>
+      <tr><th>节目</th><th>主撞本质</th><th>五问里最关键的一问</th><th>一句话锚点</th></tr>
+      <tr><td>逛街专家 EP13</td><td>03 预期 · 04 稀缺 · 06 激励</td><td>3 抢什么？</td><td>开口可得 → 欲望熄火</td></tr>
+      <tr><td>FIRE 33 Bruce</td><td>02 匹配 · 05 阶段 · 04 约束</td><td>2 匹配？</td><td>穷躺是可计算的支出结构</td></tr>
+      <tr><td>隐藏菜单 25</td><td>01 结构 · 09 交换</td><td>1 结构？</td><td>代订卖的是确定性</td></tr>
+      <tr><td>拍脑门儿 208</td><td>02 匹配 · 09 边界 · 06 规则</td><td>5 谁验收？</td><td>最熟≠最配</td></tr>
+      <tr><td>听懂涨声</td><td>03 预期 · 08 验收 · 09 边界</td><td>5 谁验收？</td><td>缺的是坦白场不是课</td></tr>
+      <tr><td>新加坡漫游</td><td>02 匹配 · 01 结构</td><td>2 匹配？</td><td>换片区才算读城</td></tr>
+      <tr><td>伊斯坦布尔 EP46</td><td>01 结构 · 07 注意力</td><td>1 结构？</td><td>1453 切开层叠身份</td></tr>
+      <tr><td>格鲁吉亚 EP51</td><td>01 结构 · 08 验收</td><td>1 结构？</td><td>教堂与故乡的记忆分裂</td></tr>
+      <tr><td>亚美尼亚 EP49</td><td>01 结构 · 04 约束</td><td>1 结构？</td><td>无国家却未失去自己</td></tr>
+    </table>
+  </div>
+
+  <h2 class="sec-title">四、对照：出门问题 ↔ 本质 ↔ 今日证据</h2>
+  <div class="card">
+    <table>
+      <tr><th>出门问题</th><th>对应本质</th><th>今日最硬证据</th></tr>
+      <tr><td>1. 结构？</td><td>01</td><td>代订价值链；帝国/教会/流散装置</td></tr>
+      <tr><td>2. 匹配？</td><td>02</td><td>LeanFIRE 约束；搭子节奏；新加坡层次</td></tr>
+      <tr><td>3. 抢什么？</td><td>03 · 04</td><td>稀缺崩塌的包；陪伴窗口；确定性</td></tr>
+      <tr><td>4. 该不该使劲？</td><td>05 · 06</td><td>保级 KPI；再工作五年；出发前定规则</td></tr>
+      <tr><td>5. 谁验收？</td><td>07 · 08 · 09</td><td>磨脚与休息；父子坦白；交换边界</td></tr>
+    </table>
+  </div>
+
+  <div class="conclusion">
+    <h2>带走什么</h2>
+    <h3>核心要点</h3>
+    <ul>
+      <li>九集题材分散，五问不变：结构、匹配、稀缺预期、阶段激励、注意力验收。</li>
+      <li>欲望、旅行、家庭金钱、文明叙事——都能被同一套坐标系验真。</li>
+      <li>「没感觉了 / 想躺平 / 要代订 / 找搭子」首先是约束与激励问题，其次才是态度问题。</li>
+    </ul>
+    <h3>行动清单（今晚就能做）</h3>
+    <ol>
+      <li>任选今天一集，只答五问各一行；写不出的那一行，标成「缺证据」而非「我不深刻」。</li>
+      <li>对一次消费或旅行冲动：标出稀缺物（钱/时间/信任/窗口）再决定。</li>
+      <li>若有合住/家庭金钱议题：先写交换边界三句（谁出什么、谁验收、冲突怎么停）。</li>
+      <li>把「别人的最优解」改写成「匹配句」：适合 A，不适合我，因为____。</li>
+      <li>设一个非购物奖励（彻底休息日），用身体感受做验收，不交给算法推荐。</li>
+    </ol>
+    <h3>关键认知转变</h3>
+    <p>从「收藏九期干货」转向「用九条坐标系反复打孔」——行业观点会过期，五问不过期。</p>
+  </div>
+
+  <div class="footer">框架：世界本质九条 · 出门决策清单 · 验真素材：2026-10-13 九集小宇宙转写总结 · audio-workshop</div>
+</div>
+`;
+
+const { svg, height } = await buildSvg({ css: CSS, body, width: 1320 });
+fs.writeFileSync(OUT, svg, 'utf8');
+console.log('Generated:', OUT, 'height:', height, 'px');

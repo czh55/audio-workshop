@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="4786" viewBox="0 0 1320 4786">
+  <foreignObject x="0" y="0" width="1320" height="4786">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:34px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,0.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:16px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:16px 22px;text-align:center;min-width:140px;font-weight:700;font-size:15px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.node-purple{background:linear-gradient(135deg,#f5f3ff,#ede9fe);border-color:#c4b5fd;color:#5b21b6}
+.arrow{font-size:22px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3{color:#92400e;margin-bottom:8px}
+.correction p{color:#92400e;font-size:15px}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:28px;margin-bottom:18px;box-shadow:0 4px 24px rgba(0,0,0,0.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card h3{font-size:19px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.speaker{display:inline-block;font-size:13px;font-weight:600;padding:2px 10px;border-radius:12px;margin-right:8px}
+.speaker-host{background:#dbeafe;color:#1e40af}
+.speaker-guest{background:#ede9fe;color:#6b21a8}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,0.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,0.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,0.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}</style>
+      
+<div class="container">
+  <h1>拍脑门儿 EP208｜旅行是场放大镜！找对搭子不容易</h1>
+  <div class="meta">
+    <span class="tag tag-blue">播客</span>
+    <span class="tag tag-purple">旅行搭子</span>
+    <span class="tag tag-orange">约85分钟</span>
+    <span class="tag tag-green">露台 · 小啊 · 歪歪 · 张耳朵</span>
+  </div>
+  <div class="summary-line">
+    节后吐槽局：旅行把日常里可忽略的小事放大成「不公平感」——化妆品分量、谁先洗澡、靠窗还是靠厕、谁说英文谁背包、谁给谁出片。四人用亲身经历说明：找搭子不是找最熟的人，而是找节奏、负担与边界能对齐的人；目的是「让自己舒服，也不冒犯别人」。
+  </div>
+
+  <div class="timeline">
+    <h3>关键时间轴</h3>
+    <div class="timeline-item"><span class="timeline-time">00:02</span><span class="timeline-text">节后吐槽开场：旅行里不如意才是常态</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:02</span><span class="timeline-text">独旅习惯 vs 迁就型合旅：距离迅速拉近，边界感告急</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:05</span><span class="timeline-text">核心机制：同屋生活会「放大」不公平（化妆品/小样）</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:09</span><span class="timeline-text">母女欧洲行：翻包减负 vs 中年人的战备安全感</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:28</span><span class="timeline-text">标准房玄机：靠窗 / 靠厕、分床轮换、厕所焦虑</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:34</span><span class="timeline-text">谁先洗澡、热水配额、浴室「接客级」清理</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:51</span><span class="timeline-text">「完美搭子」反例：无脑跟随被夸，服务型人格被默认干一切</span></div>
+    <div class="timeline-item"><span class="timeline-time">00:58</span><span class="timeline-text">出片义务：不好意思开口要人拍照 vs 对等互拍</span></div>
+    <div class="timeline-item"><span class="timeline-time">01:15</span><span class="timeline-text">情侣出游更易吵；母女相爱相杀；结尾：舒服且不冒犯</span></div>
+  </div>
+
+  <div class="map">
+    <h2>核心脉络</h2>
+    <div class="diagram">
+      <div class="node">同屋高压<br/>细节被放大</div>
+      <div class="arrow">→</div>
+      <div class="node node-orange">资源/劳动<br/>分配冲突</div>
+      <div class="arrow">→</div>
+      <div class="node node-purple">默默忍 / 服务人格<br/>或当场翻车</div>
+      <div class="arrow">→</div>
+      <div class="node node-green">先对齐节奏<br/>选对搭子 · 及时说</div>
+    </div>
+  </div>
+
+  <div class="correction">
+    <h3>认知纠偏</h3>
+    <p>「在旅行里计较化妆品、床位、谁先洗澡」≠小气。家常里可以无限分享的东西，一旦装箱成「刚好够用的救命库存」，再默默被占用就会触发公平感崩溃。另一纠偏：最熟的人不等于最好的旅行搭子——朋友礼貌底线有时比情侣更高，情侣反而因边界消失更容易为鸡毛蒜皮互气出走。</p>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">放大镜机制</h2>
+    <div class="card">
+      <h3>为什么小事会变成大事</h3>
+      <p><span class="speaker speaker-host">露台等</span>日常里「用一下你的卸妆」无所谓；合旅时每人行李箱都是极限精选（「后宫选妃」式打包），对方精心算好三天用量的小样被蹭光，就会觉得秩序被打破。合住把人推到「像两口子过日子」的密度：推门、占背包、走外侧……微观付出是否对等，会被反复复盘。</p>
+      <div class="quote">两个人老在一个屋檐下生活，他就会放大这些不公平的事情。</div>
+      <div class="relation">机制：资源稀缺（小样/热水/厕所时段）+ 24小时共处 + 怕「我占便宜」的互惠焦虑 → 放大镜。</div>
+      <div class="action">怎么用：出门前把可共享清单说死——「化妆棉我带一包，你别带」；没说好的默认各用各的，别默默蹭。</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">冲突类型现场解剖</h2>
+    <div class="card card-orange">
+      <h3>物资与负重：蹭用、塞包、替背</h3>
+      <p>蹭精华小样、把东西塞进对方大包、帮妈背「老年战备包」——表面是贴心，实质是把对方当移动货架。中年人塞满包常是安全感，不是穿搭；你替她减负，她可能当晚又偷偷装回去。</p>
+      <div class="pitfall">陷阱：你替人负重，减的是对方的恐惧，加的是自己的委屈——「哪有什么轻装上阵，总有人替你负重」。</div>
+    </div>
+    <div class="card">
+      <h3>空间与身体：床位、厕所、洗澡顺序</h3>
+      <p>标准房谁靠窗谁靠厕（气溶胶、干湿分离玻璃房）、半熟朋友上厕所的尴尬、热水民宿要轮流「留热水」、洗完要把掉发擦到「浴室可接客」才叫人进来——全是合住摩擦。</p>
+      <div class="highlight">可行补丁：床位/洗澡按天轮换（「像分床一样」）；厕所焦虑者优先靠窗；半熟同行带小音箱挡尴尬音。</div>
+    </div>
+    <div class="card card-purple">
+      <h3>劳动与角色：英文、丢行李、出片、导游感</h3>
+      <p>明明别人英语更好，却默认外向的人 check-in、包车、找丢包、点咖啡——服务型人格越能干越像免费导游，玩变成上班。出片同理：不好意思说「你帮我拍」，需求被压成假客气。</p>
+      <div class="quote">我好像导游啊，可是我明明是来玩的——还不付你钱。</div>
+      <div class="pitfall">别把「我更外向」当成必须承包一切对外沟通的合同；累了要当场轮岗，别等回来才后悔「怎么开口」。</div>
+    </div>
+    <div class="card card-green">
+      <h3>关系结构：情侣 / 朋友 / 母女</h3>
+      <p>情侣边界更低，鸡毛蒜皮更容易吵到互气出走（甚至公园蹦床上睡两小时）；朋友还留着礼貌底线。母女则是「我不累我陪你逛」白天硬撑、回酒店喊累的相爱相杀——后半程往往才缓和，聊家里聊不到的话。</p>
+      <div class="relation">同一套放大镜，作用在不同关系上：情侣放大控制欲与对照；朋友放大公平；亲子放大迁就与内疚。</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">怎么选人 · 关系怎么修</h2>
+    <div class="card">
+      <h3>选搭子：对齐的是节奏，不是熟悉度</h3>
+      <p>「无脑跟随 + 一路真好」会被夸成完美搭子，但也可能只是你零期望；真正可持续的是：愿互拍出片、敢轮流说话、能接受对方厕所/起床/逛点节奏、不会默认你当导游。独旅党若强行合旅，往往一边迁就一边憋屈——可以合旅，但先声明「我需要自己的半天」。</p>
+      <div class="action">行前三问：①谁订行程/谁付款透明吗？②合住红线（床/厕/起床）说了吗？③对外沟通与拍照如何轮换？</div>
+    </div>
+    <div class="card card-orange">
+      <h3>关系修复：当场说 &gt; 回来忘</h3>
+      <p>服务人格常「回来就忘了」，关系看似没裂，但远线/外文线再也不想一起走。更优路径：当场问「为什么默认是我去点咖啡？」；物资冲突靠事先声明；母女负重靠翻包谈判但接受安全感回潮；情侣吵架后别赌气远走失联——先保安全再谈面子。</p>
+      <div class="highlight">节目收束：旅行目的是「让自己舒服，然后也不冒犯别人，大家一起舒服」——舒服是双边约束，不是单方面忍。</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>搭子类型对比</h3>
+    <table>
+      <tr><th>关系</th><th>常见摩擦</th><th>优势</th><th>风险边界</th></tr>
+      <tr><td>好友合旅</td><td>物资公平、洗澡床位、出片不好意思开口</td><td>有礼貌底线，易轮换协商</td><td>半熟比极熟更尴尬；服务人格易默默扛活</td></tr>
+      <tr><td>情侣合旅</td><td>鸡毛蒜皮、对照别人对象、互气出走</td><td>审美/口味一致时可一起吐槽</td><td>边界消失 → 比朋友更易吵；需安全阀（冷静空间）</td></tr>
+      <tr><td>亲子合旅</td><td>战备包负重、「我不累」硬撑、白天迁就夜间爆发</td><td>后半程常有深度闲聊</td><td>10天以上易前段紧后段软；别用朋友公平期待父母</td></tr>
+      <tr><td>「情绪价值」型</td><td>被疑阴阳（啥都说好）、或被当成气氛组</td><td>降低决策焦虑，旅途更松</td><td>若零参与规划，后期可能被嫌「假捧」</td></tr>
+      <tr><td>服务/外向承包型</td><td>英文、丢包、订车全包 → 导游感</td><td>救急能力强，团队推进快</td><td>不可持续；须轮岗，否则只剩负担回忆</td></tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">方法边界</h2>
+    <div class="card card-orange">
+      <h3>这期经验适用 / 不适用</h3>
+      <p><strong>适用</strong>：准备跟人合住合行程（尤其女生多人行）、已有「合旅后关系变淡」阴影、想减少默默憋屈的人；也可作情侣/亲子出行前的摩擦预演清单。</p>
+      <p><strong>不适用</strong>：纯独旅、或「我就是要被照顾全程」且双方事先谈妥的包办局——硬套「绝对公平轮换」会破坏本来舒服的分工；也不是劝你别跟家人出门，而是别用朋友契约硬套亲子。</p>
+      <div class="relation">边界一句话：放大镜放大的是「未说清的期待」；说清之后，很多小事会重新缩小回日常。</div>
+    </div>
+  </div>
+
+  <div class="conclusion">
+    <h2>总结与行动</h2>
+    <h3>核心要点</h3>
+    <ul>
+      <li>旅行 = 放大镜：合住密度把库存、劳动、礼貌全部推上公平秤。</li>
+      <li>冲突多落在四类：物资负重、空间身体、角色劳动、关系结构。</li>
+      <li>好搭子对齐节奏与负担，不迷信「最熟」或「一路说好」。</li>
+      <li>修复靠行前声明 + 当场轮岗；回来才说，往往只剩「再也不去远的」。</li>
+    </ul>
+    <h3>行动清单</h3>
+    <ol>
+      <li>下次合旅前发一张「共享清单」：哪些东西共用、哪些绝对私用。</li>
+      <li>订房时写明偏好：靠窗/靠厕、是否接受玻璃卫浴、热水是否紧张。</li>
+      <li>指定每日「对外沟通官」轮值（点餐/check-in/叫车），禁止默认同一个人。</li>
+      <li>出片需求说出口：互拍 10 分钟，或雇当地人——别用假客气攒怨气。</li>
+      <li>情侣/亲子行：约定冷静协议（回房间独处 30 分钟）+ 每天诚实能量检查（累就直说）。</li>
+    </ol>
+    <h3>关键认知转变</h3>
+    <p>从「熟就一定能一起玩」转向「先对齐节奏、负担与开口权」——完美搭子不是零摩擦的人，而是摩擦可以被说开、且双方都仍觉得舒服的人。</p>
+  </div>
+
+  <div class="footer">来源：拍脑门儿 EP208 · 音频转写总结 · audio-workshop</div>
+</div>
+
+    </div>
+  </foreignObject>
+</svg>

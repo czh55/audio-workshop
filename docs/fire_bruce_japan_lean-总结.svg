@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="3505" viewBox="0 0 1320 3505">
+  <foreignObject x="0" y="0" width="1320" height="3505">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:34px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}.tag-purple{background:#ede9fe;color:#6b21a8}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:70px}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,0.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:14px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:16px 20px;text-align:center;min-width:130px;font-weight:700;font-size:14px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:22px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3{color:#92400e;margin-bottom:8px}.correction p{color:#92400e;font-size:15px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:28px;margin-bottom:18px;box-shadow:0 4px 24px rgba(0,0,0,0.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}.card.card-orange{border-left-color:#f59e0b}.card.card-purple{border-left-color:#8b5cf6}
+.card h3{font-size:19px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.speaker{display:inline-block;font-size:13px;font-weight:600;padding:2px 10px;border-radius:12px;margin-right:8px}
+.speaker-host{background:#dbeafe;color:#1e40af}.speaker-guest{background:#ede9fe;color:#6b21a8}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,0.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,0.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,0.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}</style>
+      
+<div class="container">
+  <h1>提前退休那些事儿 33｜在日本，低欲望生活的十年</h1>
+  <div class="meta">
+    <span class="tag tag-blue">播客</span>
+    <span class="tag tag-purple">LeanFIRE / 穷躺</span>
+    <span class="tag tag-orange">约57分钟</span>
+    <span class="tag tag-green">大狮姐 × Bruce</span>
+  </div>
+  <div class="summary-line">
+    Bruce 在名古屋实践「一年工作半年 + 回国躺三个月」近十年。他曾自认怪胎；当躺平、低欲望、不婚成为更多人的选项时，时代反而追上了他。本期关键不是「攒够多少钱」，而是：把工作排到人生第五六位之后，时间、衰老与父母陪伴如何重新定价。
+  </div>
+
+  <div class="timeline">
+    <h3>关键时间轴</h3>
+    <div class="timeline-item"><span class="timeline-time">02:00</span><span class="timeline-text">名古屋：工作被撤掉，一个月内又找到新工作</span></div>
+    <div class="timeline-item"><span class="timeline-time">07:01</span><span class="timeline-text">从不理解到理解：泡沫后日本人的躺平逻辑</span></div>
+    <div class="timeline-item"><span class="timeline-time">14:36</span><span class="timeline-text">广告业高强度内耗：上海到北京</span></div>
+    <div class="timeline-item"><span class="timeline-time">16:22</span><span class="timeline-text">回老家躺平半年：人生最快乐时段之一</span></div>
+    <div class="timeline-item"><span class="timeline-time">19:18</span><span class="timeline-text">2016 赴日：IT 派遣，重排工作-生活优先级</span></div>
+    <div class="timeline-item"><span class="timeline-time">22:27</span><span class="timeline-text">无意中已在践行 FIRE / LeanFIRE</span></div>
+    <div class="timeline-item"><span class="timeline-time">25:40</span><span class="timeline-text">极限节流：房租、吃饭、医疗的真实数字</span></div>
+    <div class="timeline-item"><span class="timeline-time">39:01</span><span class="timeline-text">FIRE 不是数字游戏，是时间与衰老的权衡</span></div>
+    <div class="timeline-item"><span class="timeline-time">46:31</span><span class="timeline-text">35 岁之后，路才真正清晰</span></div>
+  </div>
+
+  <div class="map">
+    <h2>核心脉络</h2>
+    <div class="diagram">
+      <div class="node">广告内耗<br/>创业失败</div>
+      <div class="arrow">→</div>
+      <div class="node node-orange">赴日派遣<br/>工作半年制</div>
+      <div class="arrow">→</div>
+      <div class="node">LeanFIRE<br/>低欲望运行</div>
+      <div class="arrow">→</div>
+      <div class="node node-green">父母变老<br/>再排五年班</div>
+    </div>
+  </div>
+
+  <div class="correction">
+    <h3>认知纠偏</h3>
+    <p>「日本躺平」不是滤镜乌托邦：就业可以尚可，但经济未必「变好」；想来日本躺平需要语言、签证/工作路径与极低消费结构。Bruce 的模式是 LeanFIRE（穷躺），不是高净值 CoastFIRE 广告。</p>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">他到底怎么活的</h2>
+    <div class="card">
+      <h3>半工作、半回国：时间表优先于职级</h3>
+      <p><span class="speaker speaker-guest">Bruce</span>一年大约工作半年，每年回国躺平约三个月。工作在他排序里约第五、六位——不是不干活，而是拒绝让工作占据人生主叙事。</p>
+      <div class="quote">躺平时不抑郁；反而常梦见上班——说明「不上班」对他是恢复，不是逃避后的空虚。</div>
+      <div class="relation">与主流叙事对比：多数人用升职定义进步；他用「可中断的工作块」定义自由度。</div>
+    </div>
+    <div class="card card-orange">
+      <h3>极限节流是引擎，不是个性标签</h3>
+      <p>节目谈到日本普通打工人到手收入、房租吃饭医疗的真实数字。低欲望不是美学姿态，而是让「少工作」在数学上成立的前提：支出曲线压低后，储蓄与喘息空间才出现。</p>
+      <div class="pitfall">复制风险：没有同等节流能力 / 稳定派遣入口 / 日语交流能力，硬搬「半年上班」会变成无缓冲失业。</div>
+      <div class="action">先算自己的「躺平月费」：房租+吃+医疗+交通的下限；再反推一年需要工作几个月。</div>
+    </div>
+    <div class="card card-purple">
+      <h3>从「怪胎」到被时代追上</h3>
+      <p>不想结婚生育、不想卷事业时，他长期觉得自己格格不入。当 00 后更多人做出相似选择，审视彼此的标准从「资源和出身」松绑——孤独感反而下降。</p>
+      <div class="highlight">关键转变：FIRE 对他不是「攒够 X 万」，而是看见父母变老后，用再工作五年去换陪伴窗口。</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>观点对比：几种「不卷」路径</h3>
+    <table>
+      <tr><th>路径</th><th>核心机制</th><th>适用条件</th><th>上限 / 代价</th></tr>
+      <tr><td>Bruce LeanFIRE</td><td>极低支出 + 间歇就业</td><td>能接受物质降级、有可中断工作</td><td>抗风险弱；父母/健康冲击会改计划</td></tr>
+      <tr><td>经典 FIRE</td><td>高储蓄率 + 投资组合</td><td>稳定高收入窗口</td><td>积累期很长，可能错过陪伴窗口</td></tr>
+      <tr><td>国内「躺平想象」</td><td>降低期望、减少比较</td><td>有家庭缓冲或低固定成本</td><td>易停在情绪层，缺可执行现金流设计</td></tr>
+      <tr><td>日本滤镜旅居</td><td>换环境逃避内耗</td><td>签证与语言</td><td>环境不自动修复人生排序</td></tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2 class="sec-title">方法边界</h2>
+    <div class="card card-green">
+      <h3>听完能带走的，与带不走的</h3>
+      <p><strong>可迁移</strong>：把工作从「第一身份」降级；用支出下限定义自由度；把父母陪伴写入财务计划时间表；区分「闲着的负罪感」与真实抑郁。</p>
+      <p><strong>不可直接复制</strong>：日本 IT 派遣的进出弹性、名古屋生活成本结构、他个人的情感选择与家庭支持（母亲预期管理）。</p>
+      <div class="quote">事业对我来说是一个虚无缥缈的词——这是价值排序声明，不是反对所有人立业。</div>
+    </div>
+  </div>
+
+  <div class="conclusion">
+    <h2>总结与行动</h2>
+    <h3>核心要点</h3>
+    <ul>
+      <li>低欲望是现金流策略，不只是性格标签。</li>
+      <li>间歇就业依赖「可中断的工作形态」+ 极低月费。</li>
+      <li>FIRE 的深题是时间与衰老：钱够不够，不如窗口还在不在。</li>
+      <li>孤独往往来自「我是怪胎」的自我叙事；同温层出现后会缓解。</li>
+    </ul>
+    <h3>行动清单</h3>
+    <ol>
+      <li>写出人生排序前六位，看工作排第几；若第1，试着写一版「第5位」的一周日历。</li>
+      <li>测算「最低可活月费」，再算按当前储蓄能买多少个月自由。</li>
+      <li>若有父母赡养窗口，把「再工作 N 年」写成明确陪伴目标，而非模糊奋斗。</li>
+      <li>一次「无负罪感完全休息」实验（哪怕两天），观察身体与情绪变化。</li>
+      <li>想来日本/换环境前，先列签证路径、语言门槛、解雇后的再就业周期——再谈躺平。</li>
+    </ol>
+    <h3>关键认知转变</h3>
+    <p>从「我要不要成功」转向「我要用什么样的支出结构，买回可中断的时间」——穷躺不是光荣，是一种可计算的生活设计。</p>
+  </div>
+  <div class="footer">来源：提前退休那些事儿 EP33 · 音频转写总结 · audio-workshop</div>
+</div>
+
+    </div>
+  </foreignObject>
+</svg>
