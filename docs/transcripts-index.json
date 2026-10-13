@@ -1,7 +1,147 @@
 {
- "generated": "2026-10-03",
- "count": 171,
+ "generated": "2026-10-13",
+ "count": 180,
  "items": [
+  {
+   "slug": "feizhengchang_sg_citywalk",
+   "title": "Ep.223 城市漫游：新加坡可以玩出什么不一样？",
+   "date": "2026-10-13",
+   "author": "非正常旅行",
+   "tags": [
+    "新加坡",
+    "城市漫游",
+    "旅行"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/6aa8b3a29d32647781694657",
+   "duration": "1小时04分",
+   "words": 19337,
+   "file": "transcripts/feizhengchang_sg_citywalk.txt"
+  },
+  {
+   "slug": "fire_bruce_japan_lean",
+   "title": "33. 在日本，低欲望生活的十年【Bruce的退休故事】",
+   "date": "2026-10-13",
+   "author": "提前退休那些事儿｜FIRE Works",
+   "tags": [
+    "FIRE",
+    "提前退休",
+    "日本",
+    "低欲望"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/69863ef2e55399e22025887a",
+   "duration": "57分",
+   "words": 18943,
+   "file": "transcripts/fire_bruce_japan_lean.txt"
+  },
+  {
+   "slug": "hidden_menu_luxury_hotel",
+   "title": "一个只有中国人在做的生意：高奢酒店代订见闻录 | 隐藏菜单 25",
+   "date": "2026-10-13",
+   "author": "隐藏菜单 Off Menu",
+   "tags": [
+    "高奢酒店",
+    "代订",
+    "商业",
+    "旅行"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/6a93ef03f03e74ee6b020fba",
+   "duration": "1小时55分",
+   "words": 36103,
+   "file": "transcripts/hidden_menu_luxury_hotel.txt"
+  },
+  {
+   "slug": "opendoor_ep46_istanbul",
+   "title": "EP46. 从君士坦丁堡到伊斯坦布尔：看见一座城市的层叠历史",
+   "date": "2026-10-13",
+   "author": "OpenDoor",
+   "tags": [
+    "伊斯坦布尔",
+    "拜占庭",
+    "历史",
+    "旅行"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/6987347c66e2c303774c37d8",
+   "duration": "1小时08分",
+   "words": 19546,
+   "file": "transcripts/opendoor_ep46_istanbul.txt"
+  },
+  {
+   "slug": "opendoor_ep49_armenia",
+   "title": "EP49 . 亚美尼亚：圣山、修道院与石榴的颜色——一个长期“没有国家”的国家",
+   "date": "2026-10-13",
+   "author": "OpenDoor",
+   "tags": [
+    "亚美尼亚",
+    "高加索",
+    "历史",
+    "旅行"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/6a1d7f377460cabdeb596737",
+   "duration": "1小时42分",
+   "words": 29493,
+   "file": "transcripts/opendoor_ep49_armenia.txt"
+  },
+  {
+   "slug": "opendoor_ep51_georgia",
+   "title": "EP51. 第比利斯与哥里：在东正教堂与斯大林故乡之间，寻找格鲁吉亚",
+   "date": "2026-10-13",
+   "author": "OpenDoor",
+   "tags": [
+    "格鲁吉亚",
+    "旅行",
+    "历史",
+    "高加索"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/6a4a4a353fb7233cbf4409f4",
+   "duration": "1小时01分",
+   "words": 16374,
+   "file": "transcripts/opendoor_ep51_georgia.txt"
+  },
+  {
+   "slug": "painao_travel_partner_208",
+   "title": "旅行是场放大镜！找对搭子不容易！「208」",
+   "date": "2026-10-13",
+   "author": "拍脑门儿",
+   "tags": [
+    "旅行",
+    "旅行搭子",
+    "人际关系"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/6ac67d5f195d838e2aee5a5d",
+   "duration": "1小时26分",
+   "words": 26894,
+   "file": "transcripts/painao_travel_partner_208.txt"
+  },
+  {
+   "slug": "street_expert_hermes_affair",
+   "title": "EP13 | 我跟爱马仕的关系，像见不得光的情人",
+   "date": "2026-10-13",
+   "author": "逛街专家",
+   "tags": [
+    "奢侈品",
+    "消费心理",
+    "爱马仕"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/6ab329cb93d5eb3bdc798552",
+   "duration": "50分",
+   "words": 14394,
+   "file": "transcripts/street_expert_hermes_affair.txt"
+  },
+  {
+   "slug": "tingdong_family_money",
+   "title": "中国家庭最缺的一课：一对父子关于钱、认知与风险的坦白局",
+   "date": "2026-10-13",
+   "author": "听懂涨声",
+   "tags": [
+    "家庭财商",
+    "投资",
+    "亲子沟通"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/6ac77fd3e742e36efcbfdde6",
+   "duration": "1小时29分",
+   "words": 27527,
+   "file": "transcripts/tingdong_family_money.txt"
+  },
   {
    "slug": "bakery_shutdown_8w_hutuiju",
    "title": "不止虎头局，半年关店8万家，烘焙行业不香了吗？",
