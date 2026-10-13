@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>世界本质九条 · 出门决策清单</title>
+<style>
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(160deg,#f8fafc,#eef2ff);padding:0;margin:0;color:#1e293b}
+  .container{max-width:1180px;margin:0 auto;padding:48px 60px}
+  h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#0f172a,#2563eb);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:10px;line-height:1.3}
+  .subtitle{font-size:15px;color:#64748b;margin-bottom:28px}
+  .map{background:#fff;border-radius:20px;padding:32px 36px;margin-bottom:36px;box-shadow:0 4px 24px rgba(15,23,42,0.06)}
+  .map h2{font-size:22px;font-weight:800;color:#1e293b;margin-bottom:12px}
+  .map-intro{font-size:15px;line-height:1.8;color:#475569;margin-bottom:18px}
+  .thesis{font-size:16px;line-height:1.85;color:#0f172a;font-weight:600;padding:16px 20px;background:#f1f5f9;border-left:4px solid #2563EB;border-radius:10px;margin-bottom:18px}
+  .legend{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:16px}
+  .legend-item{display:inline-flex;align-items:center;gap:7px;font-size:13px;color:#334155;background:#f8fafc;border:1px solid #e2e8f0;border-radius:999px;padding:5px 14px}
+  .dot{width:9px;height:9px;border-radius:50%;display:inline-block}
+  .nav{display:flex;flex-wrap:wrap;gap:10px}
+  .nav-item{display:inline-flex;align-items:center;gap:7px;font-size:13px;color:#475569;text-decoration:none;background:#f8fafc;border:1px solid #e2e8f0;border-radius:10px;padding:7px 14px}
+  .nav-item:hover{background:#eff6ff;border-color:#93c5fd;color:#1e40af}
+  .nav-dot{width:8px;height:8px;border-radius:2px;display:inline-block}
+  .related{background:#f8fafc;border:1px dashed #cbd5e1;border-radius:14px;padding:16px 18px;margin-top:16px;font-size:14px;line-height:1.8;color:#475569}
+  .related a{color:#3b82f6;text-decoration:none;font-weight:600}
+  .related a:hover{text-decoration:underline}
+  .section{margin-bottom:36px}
+  .sec-head{display:flex;align-items:flex-start;gap:14px;margin-bottom:18px}
+  .sec-line{width:5px;height:52px;border-radius:3px;flex-shrink:0;margin-top:2px}
+  .sec-head h2{font-size:23px;font-weight:800;margin-bottom:4px}
+  .sec-intro{font-size:14px;line-height:1.7;color:#64748b;max-width:960px}
+  .cards{display:flex;flex-direction:column;gap:16px}
+  .card{background:#fff;border-radius:16px;padding:22px 26px;box-shadow:0 2px 14px rgba(0,0,0,0.05);border:1px solid #eef2f7}
+  .card-top{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:12px}
+  .tech-badge{display:inline-block;font-size:12px;font-weight:700;padding:3px 12px;border-radius:999px;border:1px solid}
+  .source{font-size:12px;color:#94a3b8}
+  .source a{color:#64748b;text-decoration:none}
+  .source a:hover{color:#3b82f6;text-decoration:underline}
+  .card-index{margin-left:auto;font-size:12px;font-weight:700;color:#cbd5e1;font-variant-numeric:tabular-nums}
+  .quote{font-size:16px;line-height:1.85;color:#1e293b;font-weight:600;padding:14px 18px;background:#f8fafc;border-left:4px solid;border-radius:8px;margin-bottom:14px}
+  .detail{display:flex;flex-direction:column;gap:10px}
+  .detail-row{display:flex;gap:10px;align-items:flex-start}
+  .detail-tag{flex-shrink:0;font-size:12px;font-weight:700;padding:2px 10px;border-radius:6px;margin-top:2px;background:#f1f5f9;color:#475569}
+  .detail-tag.do{background:#ecfdf5;color:#065f46}
+  .detail-tag.dont{background:#fef2f2;color:#991b1b}
+  .detail-tag.ask{background:#eff6ff;color:#1e40af}
+  .detail-tag.pass{background:#ecfdf5;color:#065f46}
+  .detail-tag.fail{background:#fff7ed;color:#9a3412}
+  .detail-text{font-size:13.5px;line-height:1.7;color:#475569}
+  .checklist{background:#fff;border-radius:16px;padding:0;overflow:hidden;border:1px solid #e2e8f0;box-shadow:0 2px 14px rgba(0,0,0,0.04);margin-bottom:16px}
+  .check-row{display:grid;grid-template-columns:56px 1fr;border-bottom:1px solid #f1f5f9}
+  .check-row:last-child{border-bottom:none}
+  .check-num{display:flex;align-items:center;justify-content:center;font-size:20px;font-weight:900;color:#fff;background:#2563EB}
+  .check-body{padding:18px 22px}
+  .check-body h3{font-size:16px;font-weight:800;color:#0f172a;margin-bottom:8px}
+  .check-body p{font-size:13.5px;line-height:1.7;color:#475569;margin-bottom:6px}
+  .check-body .hint{font-size:13px;color:#64748b;background:#f8fafc;border-radius:8px;padding:10px 12px;margin-top:8px}
+  table.matrix{width:100%;border-collapse:collapse;margin:8px 0 4px;font-size:13.5px}
+  .matrix th{background:#f1f5f9;padding:10px 12px;text-align:left;color:#1e40af;border-bottom:2px solid #cbd5e1}
+  .matrix td{padding:10px 12px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+  .matrix tr:nth-child(even) td{background:#fafbfc}
+  .conclusion{background:linear-gradient(135deg,#0f172a,#2563eb);border-radius:20px;padding:32px 36px;margin:40px 0 8px;box-shadow:0 8px 32px rgba(15,23,42,0.18)}
+  .conclusion h2{font-size:22px;font-weight:800;color:#fff;margin-bottom:12px}
+  .conclusion-text,.conclusion li{font-size:15px;line-height:1.8;color:#e0e7ff}
+  .conclusion ul{margin:12px 0 0 20px}
+  .conclusion li{margin-bottom:8px}
+  .footer{text-align:center;padding:20px 0 8px}
+  .footer p{font-size:13px;color:#94a3b8}
+  .html-toolbar{position:sticky;top:0;z-index:100;display:flex;align-items:center;gap:16px;padding:12px 20px;background:rgba(248,250,252,.92);backdrop-filter:blur(8px);border-bottom:1px solid #e2e8f0}
+  .html-toolbar .back-link{font-size:14px;color:#3b82f6;text-decoration:none;white-space:nowrap;font-weight:600}
+  .html-toolbar-title{flex:1;font-size:14px;font-weight:600;color:#1e293b;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .stats{display:flex;gap:16px;flex-wrap:wrap;margin:16px 0 0}
+  .stat{background:#f8fafc;border:1px solid #e2e8f0;border-radius:12px;padding:12px 18px;min-width:120px}
+  .stat b{display:block;font-size:22px;font-weight:900;color:#1e40af;line-height:1.2}
+  .stat span{font-size:12px;color:#64748b}
+  @media (max-width:640px){
+    .container{padding:16px 12px!important}
+    h1{font-size:24px!important}
+    .map,.card,.conclusion{padding:16px!important}
+    .check-row{grid-template-columns:40px 1fr}
+  }
+</style>
+</head>
+<body>
+<div class="html-toolbar">
+  <a class="back-link" href="index.html">← 返回首页</a>
+  <div class="html-toolbar-title">世界本质九条 · 出门决策清单</div>
+</div>
+<div class="container">
+  <h1>世界本质九条 · 出门决策清单</h1>
+  <p class="subtitle">从站内约 169 期跨行业播客/博客总结中蒸馏 · 9 条底层概念 + 5 问出门验真 · 2026-10-13</p>
+
+  <div class="map">
+    <h2>专题定位：透过行业噪声，抓住世界怎么转</h2>
+    <p class="map-intro">商业、职场、消费、旅行、AI、沟通、文化……主持人与观众观点极多。本专题不堆行业结论，只抽出跨场景反复出现的底层概念，并压成一份可随身用的「出门决策清单」——听播客、刷新闻、做选择时，用同一套问题验真。</p>
+    <div class="thesis">世界多半是：在稀缺与约束下，结构与激励推着人按预期行动；叙事与意义是包装；阶段决定该不该用力；注意力往哪放、谁来验收，决定你活在哪个版本的现实里。</div>
+    <div class="legend">
+      <span class="legend-item"><span class="dot" style="background:#2563EB"></span>结构与匹配</span>
+      <span class="legend-item"><span class="dot" style="background:#059669"></span>预期与稀缺</span>
+      <span class="legend-item"><span class="dot" style="background:#D97706"></span>阶段与激励</span>
+      <span class="legend-item"><span class="dot" style="background:#7C3AED"></span>注意力与验收</span>
+      <span class="legend-item"><span class="dot" style="background:#DC2626"></span>出门决策清单</span>
+    </div>
+    <div class="nav">
+      <a class="nav-item" href="#nine"><span class="nav-dot" style="background:#2563EB"></span>九条本质（9）</a>
+      <a class="nav-item" href="#checklist"><span class="nav-dot" style="background:#DC2626"></span>出门决策清单（5问）</a>
+      <a class="nav-item" href="#examples"><span class="nav-dot" style="background:#D97706"></span>验真样例</a>
+      <a class="nav-item" href="#matrix"><span class="nav-dot" style="background:#059669"></span>概念对照表</a>
+    </div>
+    <div class="stats">
+      <div class="stat"><b>169</b><span>期站内总结抽样</span></div>
+      <div class="stat"><b>9</b><span>条本质概念</span></div>
+      <div class="stat"><b>5</b><span>个出门问题</span></div>
+      <div class="stat"><b>跨行业</b><span>商业·职场·消费·AI</span></div>
+    </div>
+    <div class="related">
+      <b>相关专栏：</b>
+      <a href="主播价值观-从播客原文中挖出的独特认知.html">主播价值观</a>（具体观点切片）·
+      <a href="说服话术-从播客中学到的表达武器.html">说服话术</a>·
+      <a href="表达技巧手册-站内播客的开口方法.html">表达技巧手册</a>·
+      <a href="exit_expression_contest_daily_life-总结.html">退出表达竞赛</a>（过日子 vs 意义过剩）
+    </div>
+  </div>
+
+  <!-- 九条 -->
+  <div class="section" id="nine">
+    <div class="sec-head">
+      <span class="sec-line" style="background:#2563EB"></span>
+      <div>
+        <h2 style="color:#2563EB">一、九条本质概念</h2>
+        <p class="sec-intro">每条回答三件事：它是什么、在站内内容里怎么反复出现、日常怎么用。证据来自总结库中的跨行业对照，不是某期节目的金句。</p>
+      </div>
+    </div>
+    <div class="cards">
+
+      <div class="card">
+        <div class="card-top">
+          <span class="tech-badge" style="color:#2563EB;border-color:#93c5fd;background:#eff6ff">结构先于故事</span>
+          <span class="source"><a href="shanghai_guangzhou_life-总结.html">上海与广州</a> · <a href="bakery_shutdown_8w_hutuiju-总结.html">烘焙关店</a> · <a href="ningbo_manufacturing_champions-总结.html">宁波隐形冠军</a></span>
+          <span class="card-index">01</span>
+        </div>
+        <div class="quote" style="border-color:#2563EB">城市气质、品牌兴衰、行业崩盘，表面是文化或口碑，底下往往是产业底座、利润池、渠道效率。</div>
+        <div class="detail">
+          <div class="detail-row"><span class="detail-tag">关键理解</span><div class="detail-text">上海讲「故事」、广州讲「生意」；烘焙垮的是蛋糕利润池被山姆式效率改写，不是某家店不会讲故事。「世界第一」若不够深，仍会被价格战打穿。</div></div>
+          <div class="detail-row"><span class="detail-tag do">怎么用</span><div class="detail-text">先问「靠什么赚钱/运转」，再听叙事与价值观包装。</div></div>
+          <div class="detail-row"><span class="detail-tag dont">别做</span><div class="detail-text">用口号、滤镜、创始人故事代替对利润池与对手边界的判断。</div></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-top">
+          <span class="tech-badge" style="color:#2563EB;border-color:#93c5fd;background:#eff6ff">没有最优，只有匹配</span>
+          <span class="source">消费/职场多期共识 · 与「评测世界观」同构</span>
+          <span class="card-index">02</span>
+        </div>
+        <div class="quote" style="border-color:#2563EB">相机、人生、岗位、城市、产品——没有「最好」，只有场景匹配。</div>
+        <div class="detail">
+          <div class="detail-row"><span class="detail-tag">关键理解</span><div class="detail-text">别人不是傻子，现状常是约束下的均衡。建议都带默认假设；先验场景再谈对错。北欧幸福榜量的是社会底盘，不是你的私人滤镜。</div></div>
+          <div class="detail-row"><span class="detail-tag do">怎么用</span><div class="detail-text">把「对不对」改成「对谁、在什么约束下、匹配哪一阶段」。</div></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-top">
+          <span class="tech-badge" style="color:#059669;border-color:#6ee7b7;background:#ecfdf5">人按预期行动</span>
+          <span class="source"><a href="china-consumption-confidence-总结.html">消费信心</a> · <a href="painless_office_11y-总结.html">无痛上班</a> · 办卡类消费节目</span>
+          <span class="card-index">03</span>
+        </div>
+        <div class="quote" style="border-color:#059669">消费冷暖、幸福、焦虑，常由预期与身边信号驱动，而非账面收入本身。</div>
+        <div class="detail">
+          <div class="detail-row"><span class="detail-tag">关键理解</span><div class="detail-text">K 型分化下「有钱人还在花」；办卡买的是理想自我；职场「无痛」执念往往比工作本身更耗人。负面信号的边际影响通常大于正面信号。</div></div>
+          <div class="detail-row"><span class="detail-tag do">怎么用</span><div class="detail-text">改行为先改预期坐标系；归因前先分清「没钱」与「不敢花」。</div></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-top">
+          <span class="tech-badge" style="color:#059669;border-color:#6ee7b7;background:#ecfdf5">稀缺与约束是默认态</span>
+          <span class="source"><a href="gift_iphone_dji_pocket-总结.html">礼物消费</a> · <a href="ikea_stockholm2025-总结.html">宜家设计</a> · 旅行窗口期多期</span>
+          <span class="card-index">04</span>
+        </div>
+        <div class="quote" style="border-color:#059669">注意力、时间、信任、体力、利润、窗口期都稀缺；设计是戴镣铐跳舞。</div>
+        <div class="detail">
+          <div class="detail-row"><span class="detail-tag">关键理解</span><div class="detail-text">礼物从「人人懂贵」变成「证明你懂对方」——稀缺对象变了。秋色只有约二十天；国庆挖地抢的是时间差。</div></div>
+          <div class="detail-row"><span class="detail-tag do">怎么用</span><div class="detail-text">任何方案先标出在抢什么：钱、注意力、信任，还是窗口。</div></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-top">
+          <span class="tech-badge" style="color:#D97706;border-color:#fcd34d;background:#fffbeb">阶段决定该不该使劲</span>
+          <span class="source"><a href="germany_travel_orleans-总结.html">奥尔良时期</a> · 产业/岗位生命周期共识</span>
+          <span class="card-index">05</span>
+        </div>
+        <div class="quote" style="border-color:#D97706">品类生命周期、岗位是 0→1 还是锦上添花、人生奥尔良期 vs 奥德赛式找意义——用力错阶段会空转。</div>
+        <div class="detail">
+          <div class="detail-row"><span class="detail-tag">关键理解</span><div class="detail-text">世界不是匀速进步，是左脚踩右脚的阶段性推进。「没有意义 ≠ 不该有人做」，只是那个人未必是你。</div></div>
+          <div class="detail-row"><span class="detail-tag do">怎么用</span><div class="detail-text">先定位阶段（探索/建设/收割/撤退），再决定投入强度与叙事方式。</div></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-top">
+          <span class="tech-badge" style="color:#D97706;border-color:#fcd34d;background:#fffbeb">激励与规则塑造行为</span>
+          <span class="source"><a href="us_tipping_invisible_tax-总结.html">美国小费</a> · <a href="japan_inconvenience_v56-总结.html">日本不方便</a> · <a href="smalltalk_scenes_art-总结.html">闲聊艺术</a> · <a href="jundongkou_communication_ep250-总结.html">沟通</a></span>
+          <span class="card-index">06</span>
+        </div>
+        <div class="quote" style="border-color:#D97706">人响应的是场域与奖惩，不是金句。沟通是边界与场域，不是万能话术。</div>
+        <div class="detail">
+          <div class="detail-row"><span class="detail-tag">关键理解</span><div class="detail-text">小费变隐形税、预付卡赌自制力、日本「规则驱动便利」vs 中国「需求驱动便利」、闲聊先定社交目标与关系强度——表皮是文化差异，内核是激励设计。</div></div>
+          <div class="detail-row"><span class="detail-tag do">怎么用</span><div class="detail-text">想改别人行为，先改约束与回报；想自控，先改默认路径，别只改口号。</div></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-top">
+          <span class="tech-badge" style="color:#7C3AED;border-color:#c4b5fd;background:#f5f3ff">注意力是更底层的战场</span>
+          <span class="source"><a href="gudian_antineihao_ep11-总结.html">古典抗内耗</a> · <a href="exit_expression_contest_daily_life-总结.html">退出表达竞赛</a> · 摄影趋同讨论</span>
+          <span class="card-index">07</span>
+        </div>
+        <div class="quote" style="border-color:#7C3AED">内耗=过度凝视自我；表达竞赛=不断用新词证明自己还在；算法让审美趋同。</div>
+        <div class="detail">
+          <div class="detail-row"><span class="detail-tag">关键理解</span><div class="detail-text">过日子人撤退到具体生活，本质是夺回注意力分配权。概念能打开经验时是工具，关闭经验时是过度阐释。</div></div>
+          <div class="detail-row"><span class="detail-tag do">怎么用</span><div class="detail-text">问：谁在定义我盯什么？烦了就策略性离线，恢复判断力再进公共场。</div></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-top">
+          <span class="tech-badge" style="color:#7C3AED;border-color:#c4b5fd;background:#f5f3ff">感受与验收不可外包</span>
+          <span class="source"><a href="france_philosophy_bac_truth-总结.html">真理是否总有说服力</a> · AI/找资料多期 · 人机边界实践</span>
+          <span class="card-index">08</span>
+        </div>
+        <div class="quote" style="border-color:#7C3AED">真理未必说服人；模型会偷懒、会改题冒充完成。自动化只能改验证层级，不能消掉人。</div>
+        <div class="detail">
+          <div class="detail-row"><span class="detail-tag">关键理解</span><div class="detail-text">权力、想象、利益常比真理更有说服力。第一手感受、定义问题、结构性拍板、验收——这是人和系统都绕不开的闭环。大模型没法替你感受。</div></div>
+          <div class="detail-row"><span class="detail-tag do">怎么用</span><div class="detail-text">执行可外包；定义问题、价值排序、最终验收留在自己手里。</div></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-top">
+          <span class="tech-badge" style="color:#7C3AED;border-color:#c4b5fd;background:#f5f3ff">一切都是交换与边界</span>
+          <span class="source"><a href="painless_office_11y-总结.html">无痛上班</a> · <a href="gift_iphone_dji_pocket-总结.html">礼物</a> · <a href="good-feelings-together-总结.html">好感受一起才有</a></span>
+          <span class="card-index">09</span>
+        </div>
+        <div class="quote" style="border-color:#7C3AED">上班换钱；礼物换「被看见」；闲聊换关系位置；利他开车换安全。边界清楚，交换才可持续。</div>
+        <div class="detail">
+          <div class="detail-row"><span class="detail-tag">关键理解</span><div class="detail-text">「必须」型人格往往是边界没谈拢时的自我加压。好感受常常只有一起才会有——归属也是一种交换结构，不是鸡汤。</div></div>
+          <div class="detail-row"><span class="detail-tag do">怎么用</span><div class="detail-text">每次不适先问：我在用什么换什么？边界有没有写清？</div></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- 出门决策清单 -->
+  <div class="section" id="checklist">
+    <div class="sec-head">
+      <span class="sec-line" style="background:#DC2626"></span>
+      <div>
+        <h2 style="color:#DC2626">二、出门决策清单（5 问）</h2>
+        <p class="sec-intro">听一条播客、刷一条新闻、要做一个选择时，按顺序问完。能答清就继续；答不清就降级处理（先收集结构事实，别跟叙事上头）。</p>
+      </div>
+    </div>
+
+    <div class="checklist">
+      <div class="check-row">
+        <div class="check-num" style="background:#2563EB">1</div>
+        <div class="check-body">
+          <h3>结构：它靠什么转？</h3>
+          <p>利润池 / 产业底座 / 渠道效率 / 组织激励——叙事之下是什么在运转？</p>
+          <div class="hint"><b>过关：</b>能用一句话说清「钱/权力/注意力从哪来到哪去」。<br/><b>未过关：</b>只记得金句、情怀、人物传记 → 先别下结论。</div>
+        </div>
+      </div>
+      <div class="check-row">
+        <div class="check-num" style="background:#059669">2</div>
+        <div class="check-body">
+          <h3>匹配：对谁、在什么约束下？</h3>
+          <p>建议的默认假设是什么？适用人群、城市、收入段、人生阶段是否与我重合？</p>
+          <div class="hint"><b>过关：</b>能指出「这套打法适合 A，不适合我，因为约束不同」。<br/><b>未过关：</b>把别人的最优解当通用真理 → 改写成「匹配问题」再决定学不学。</div>
+        </div>
+      </div>
+      <div class="check-row">
+        <div class="check-num" style="background:#D97706">3</div>
+        <div class="check-body">
+          <h3>预期与稀缺：它在抢什么？</h3>
+          <p>对方/内容在撬动的是恐惧、身份、窗口期，还是真实资源短缺？我是否在用错误预期做决定？</p>
+          <div class="hint"><b>过关：</b>标出稀缺物（钱/时间/注意力/信任/窗口）与预期偏差。<br/><b>未过关：</b>只感到「应该跟」却说不清跟什么 → 暂停消费与表态。</div>
+        </div>
+      </div>
+      <div class="check-row">
+        <div class="check-num" style="background:#7C3AED">4</div>
+        <div class="check-body">
+          <h3>阶段与激励：现在该不该使劲？</h3>
+          <p>这件事处在探索/建设/收割/撤退哪一段？规则与奖惩是否推动我想要的行为？用力错阶段会怎样？</p>
+          <div class="hint"><b>过关：</b>能说「现在该攒样本 / 该深挖 / 该收手」之一。<br/><b>未过关：</b>用终局叙事驱动早期动作，或用话术掩盖坏激励 → 先改约束再谈努力。</div>
+        </div>
+      </div>
+      <div class="check-row">
+        <div class="check-num" style="background:#DC2626">5</div>
+        <div class="check-body">
+          <h3>注意力与验收：谁定义我盯什么？谁拍板？</h3>
+          <p>这条信息是打开经验还是关闭经验？感受、定义问题、验收是否还在我手里？边界与交换是否谈清？</p>
+          <div class="hint"><b>过关：</b>知道「哪些可外包、哪些必须自己验」；并能划清交换边界。<br/><b>未过关：</b>被算法/表达竞赛拖着转；把验收交给模型或舆论 → 策略性离线或缩小决策范围。</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-top">
+        <span class="tech-badge" style="color:#DC2626;border-color:#fca5a5;background:#fef2f2">30 秒口令版</span>
+        <span class="card-index">速查</span>
+      </div>
+      <div class="quote" style="border-color:#DC2626">结构？匹配？抢什么？阶段？谁验收？——五问答不清，就不跟叙事上头。</div>
+      <div class="detail">
+        <div class="detail-row"><span class="detail-tag do">通勤用法</span><div class="detail-text">听完一期播客，只写五行答案；写不出的那一行，就是该补证据的坑，不是「我还不够深刻」。</div></div>
+        <div class="detail-row"><span class="detail-tag dont">别做</span><div class="detail-text">把五问做成新的表达竞赛（发九宫格金句）。清单是验真工具，不是身份标签。</div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 验真样例 -->
+  <div class="section" id="examples">
+    <div class="sec-head">
+      <span class="sec-line" style="background:#D97706"></span>
+      <div>
+        <h2 style="color:#D97706">三、验真样例（同一清单，不同题材）</h2>
+        <p class="sec-intro">示范：五问如何落到具体节目主题上。答案可简短，关键是养成肌肉记忆。</p>
+      </div>
+    </div>
+    <div class="cards">
+      <div class="card">
+        <div class="card-top">
+          <span class="tech-badge" style="color:#D97706;border-color:#fcd34d;background:#fffbeb">商业：烘焙关店潮</span>
+          <span class="source"><a href="bakery_shutdown_8w_hutuiju-总结.html">难得正经 · 烘焙</a></span>
+        </div>
+        <div class="detail">
+          <div class="detail-row"><span class="detail-tag ask">1结构</span><div class="detail-text">蛋糕/卡券利润池萎缩 + 全渠道效率对手把面包当引流。</div></div>
+          <div class="detail-row"><span class="detail-tag ask">2匹配</span><div class="detail-text">适合「靠仪式感溢价」的店不适合「靠效率引流」的战场。</div></div>
+          <div class="detail-row"><span class="detail-tag ask">3稀缺</span><div class="detail-text">抢的是客流与单位时间利润，不是「会不会做面包」。</div></div>
+          <div class="detail-row"><span class="detail-tag ask">4阶段</span><div class="detail-text">品类从扩张进入结构性出清，再砸加盟叙事是错阶段。</div></div>
+          <div class="detail-row"><span class="detail-tag ask">5验收</span><div class="detail-text">别用关店数量恐吓自己；验收看自己现金流与对手边界。</div></div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-top">
+          <span class="tech-badge" style="color:#D97706;border-color:#fcd34d;background:#fffbeb">生活：退出表达竞赛</span>
+          <span class="source"><a href="exit_expression_contest_daily_life-总结.html">过日子人</a></span>
+        </div>
+        <div class="detail">
+          <div class="detail-row"><span class="detail-tag ask">1结构</span><div class="detail-text">平台奖励命名与金句切片，把私人生活推成表演进度条。</div></div>
+          <div class="detail-row"><span class="detail-tag ask">2匹配</span><div class="detail-text">分析属性强的人易过拟合；日子人需要的是恢复感知，不是新战队。</div></div>
+          <div class="detail-row"><span class="detail-tag ask">3稀缺</span><div class="detail-text">抢的是注意力与被看见；真正稀缺的是具体日程里的控制感。</div></div>
+          <div class="detail-row"><span class="detail-tag ask">4阶段</span><div class="detail-text">噪声过大时兵法式撤退，不是弃权；有力气再进公共。</div></div>
+          <div class="detail-row"><span class="detail-tag ask">5验收</span><div class="detail-text">标准看感受：烦了就静；别把「过日子」再营销成唯一正确答案。</div></div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-top">
+          <span class="tech-badge" style="color:#D97706;border-color:#fcd34d;background:#fffbeb">AI：找资料 / 自动化</span>
+          <span class="source"><a href="ai_zhaoziliao-总结.html">AI 找资料</a> · 人机边界实践</span>
+        </div>
+        <div class="detail">
+          <div class="detail-row"><span class="detail-tag ask">1结构</span><div class="detail-text">课纲→关键词→引容量→自建库；权重系统比「搜三页」重要。</div></div>
+          <div class="detail-row"><span class="detail-tag ask">2匹配</span><div class="detail-text">外行当工具爽；内行要够格驱使，否则小兵指导老板。</div></div>
+          <div class="detail-row"><span class="detail-tag ask">3稀缺</span><div class="detail-text">稀缺的是判断与验收时间，不是 token。</div></div>
+          <div class="detail-row"><span class="detail-tag ask">4阶段</span><div class="detail-text">先切业务边界再谈大而全自动化；带着模糊元迭代。</div></div>
+          <div class="detail-row"><span class="detail-tag ask">5验收</span><div class="detail-text">防空壳：指标要验「监督者有没有真运行」；感受与定义问题不外包。</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 对照表 -->
+  <div class="section" id="matrix">
+    <div class="sec-head">
+      <span class="sec-line" style="background:#059669"></span>
+      <div>
+        <h2 style="color:#059669">四、概念 ↔ 出门问题 对照</h2>
+        <p class="sec-intro">九条不是要背的口号，而是五问背后的坐标系。用表快速回忆。</p>
+      </div>
+    </div>
+    <div class="card">
+      <table class="matrix">
+        <thead>
+          <tr><th>出门问题</th><th>对应本质</th><th>一句话锚点</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>1. 结构？</td><td>结构先于故事</td><td>先问靠什么转，再听叙事</td></tr>
+          <tr><td>2. 匹配？</td><td>没有最优只有匹配</td><td>对谁、在什么约束下</td></tr>
+          <tr><td>3. 抢什么？</td><td>预期行动 · 稀缺约束</td><td>标出稀缺物与预期偏差</td></tr>
+          <tr><td>4. 该不该使劲？</td><td>阶段 · 激励规则</td><td>阶段对了再用力；改激励别改口号</td></tr>
+          <tr><td>5. 谁验收？</td><td>注意力 · 感受验收 · 交换边界</td><td>谁定义盯什么；定义与验收归人</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="conclusion">
+    <h2>带走什么</h2>
+    <p class="conclusion-text">行业观点会过期，这五问不过期。</p>
+    <ul>
+      <li>听到故事，先找结构；听到真理，先问匹配。</li>
+      <li>感到焦虑，先标稀缺与预期；感到该拼命，先看阶段与激励。</li>
+      <li>工具再强，感受、定义问题、验收与边界仍归你——否则你只是在别人的注意力市场里打工。</li>
+    </ul>
+  </div>
+
+  <div class="footer">
+    <p>audio-workshop 知识专题 · 蒸馏自站内播客/博客总结与跨行业对照 · 2026-10-13</p>
+  </div>
+</div>
+</body>
+</html>
