@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vol.63 网红景点去腻了：本地人的老家打开方式</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,0.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:20px 28px;text-align:center;min-width:160px;font-weight:700;font-size:16px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3{color:#92400e;margin-bottom:8px}
+.correction p{color:#92400e;font-size:15px}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,0.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.speaker{display:inline-block;font-size:13px;font-weight:600;padding:2px 10px;border-radius:12px;margin-right:8px}
+.speaker-host{background:#dbeafe;color:#1e40af}
+.speaker-guest{background:#ede9fe;color:#6b21a8}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,0.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,0.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,0.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}
+@media (max-width:640px){.container{padding:16px 12px!important}.container{max-width:100%!important}h1{font-size:24px!important}h2,.sec-title{font-size:18px!important}h3{font-size:16px!important}p,li{font-size:14px!important}.summary-line{font-size:15px!important;padding:14px 16px!important}.map,.card,.timeline{padding:16px!important;margin-bottom:16px!important}.map h2{font-size:18px!important}.diagram{gap:10px!important;padding:10px 0!important}.node{min-width:100px!important;padding:12px 16px!important;font-size:13px!important}.arrow{font-size:18px!important}.conclusion{padding:20px!important}.footer{padding:20px 0 12px!important}}
+.html-toolbar{position:sticky;top:0;z-index:100;display:flex;align-items:center;gap:16px;padding:12px 20px;background:rgba(248,250,252,.92);backdrop-filter:blur(8px);border-bottom:1px solid #e2e8f0;font-family:"PingFang SC","Microsoft YaHei",sans-serif}
+.html-toolbar .back-link{font-size:14px;color:#3b82f6;text-decoration:none;white-space:nowrap;font-weight:600}
+.html-toolbar .back-link:hover{text-decoration:underline}
+.html-toolbar-title{flex:1;font-size:14px;font-weight:600;color:#1e293b;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.html-toolbar .html-audio{width:260px;height:36px;border-radius:8px}
+       .html-toolbar .html-svg-link{font-size:13px;color:#64748b;text-decoration:none;white-space:nowrap}
+       .html-toolbar .html-svg-link:hover{color:#3b82f6;text-decoration:underline}
+       .html-toolbar .html-en-link{font-size:13px;color:#0d686c;text-decoration:none;white-space:nowrap;font-weight:600;padding:4px 10px;border:1px solid #99c6c0;border-radius:99px;background:#f0faf6}
+       .html-toolbar .html-en-link:hover{color:#3b82f6;border-color:#3b82f6}
+       .html-toolbar .html-transcript-link{font-size:13px;color:#0f766e;text-decoration:none;white-space:nowrap;font-weight:600;padding:4px 10px;border:1px solid #99d1c8;border-radius:99px;background:#f0fdfa}
+       .html-toolbar .html-transcript-link:hover{color:#3b82f6;border-color:#3b82f6}
+       @media (max-width:640px){
+  .html-toolbar{flex-wrap:wrap;gap:10px;padding:10px 12px}
+  .html-toolbar-title{flex-basis:100%;order:-1;font-size:13px}
+  .html-toolbar .html-audio{width:100%}
+}
+
+body{padding:0!important;margin:0!important}
+.container{padding:48px 60px}
+@media (max-width:640px){.container{padding:16px 12px!important}.container{max-width:100%!important}h1{font-size:24px!important}h2,.sec-title{font-size:18px!important}h3{font-size:16px!important}p,li{font-size:14px!important}.summary-line{font-size:15px!important;padding:14px 16px!important}.map,.card,.timeline{padding:16px!important;margin-bottom:16px!important}.map h2{font-size:18px!important}.diagram{gap:10px!important;padding:10px 0!important}.node{min-width:100px!important;padding:12px 16px!important;font-size:13px!important}.arrow{font-size:18px!important}.conclusion{padding:20px!important}.footer{padding:20px 0 12px!important}}
+</style>
+</head>
+<body>
+<div class="html-toolbar">
+  <a class="back-link" href="index.html">← 返回首页</a>
+  <div class="html-toolbar-title">Vol.63 网红景点去腻了：本地人的老家打开方式</div>
+  <audio controls preload="metadata" class="html-audio" src="audio/daoci_local_hidden_spots.mp3">您的浏览器不支持音频播放</audio>
+  
+  
+  <a class="html-svg-link" href="viewer.html?f=daoci_local_hidden_spots-总结.svg" target="_blank">SVG 版 ↗</a>
+</div>
+<div class="container">
+<h1>Vol.63 网红景点去腻了：本地人的老家打开方式</h1>
+<div class="meta">
+  <span class="tag tag-blue">播客</span>
+  <span class="tag tag-purple">旅行</span>
+  <span class="tag tag-orange">1小时23分</span>
+  <span class="tag tag-gray">稻此一游</span>
+</div>
+<a class="source-link" href="https://www.xiaoyuzhoufm.com/episode/693bbb67dac38001e427bdf1">原始节目</a>
+<div class="summary-line">旅行常被说成离开自己待腻的地方，去看别人待腻的地方。这期把镜头收回老家：昆明的最佳打开是睡觉和滇池，南昌三顿都吃粉，青岛啤酒要喝本地小麦味，厦门不一定有哇，开封的松弛不靠基建。本地人私藏的不是另一份打卡清单，而是一种不用表演的过法。</div>
+<div class="timeline">
+  <h3>关键时间轴</h3>
+  <div class="timeline-item"><span class="timeline-time">01:44</span><span class="timeline-text">云南刻板印象：山歌、孔雀、傣装，还有更暗的边境故事</span></div>
+  <div class="timeline-item"><span class="timeline-time">13:55</span><span class="timeline-text">昆明：含氧高，先睡午觉，傍晚再去滇池</span></div>
+  <div class="timeline-item"><span class="timeline-time">23:08</span><span class="timeline-text">保山腾冲：驼峰航线、高黎贡，老街手艺</span></div>
+  <div class="timeline-item"><span class="timeline-time">26:51</span><span class="timeline-text">上海：烂尾楼躺平、安福路、华政本部走到傍晚</span></div>
+  <div class="timeline-item"><span class="timeline-time">35:41</span><span class="timeline-text">南昌：一块钱半粉，三顿吃一样，红谷滩摩天轮</span></div>
+  <div class="timeline-item"><span class="timeline-time">43:21</span><span class="timeline-text">台州靠山面海的绿道，不是默认带你去新荣记</span></div>
+  <div class="timeline-item"><span class="timeline-time">48:01</span><span class="timeline-text">青岛：啤酒要尝出小麦，大学路，喂海鸥</span></div>
+  <div class="timeline-item"><span class="timeline-time">52:33</span><span class="timeline-text">厦门不大，三天很难有哇，海鲜也不是唯一记忆</span></div>
+  <div class="timeline-item"><span class="timeline-time">56:59</span><span class="timeline-text">台湾：台中像无锡，推荐夹在两条山脉中间的路</span></div>
+  <div class="timeline-item"><span class="timeline-time">01:04:11</span><span class="timeline-text">开封：接受基建一般，人很松弛，王婆还在选</span></div>
+  <div class="timeline-item"><span class="timeline-time">01:07:54</span><span class="timeline-text">东北预告：长春公交、吉林打车、给退休的妈妈种一颗旅行种子</span></div>
+</div>
+<div class="map">
+  <h2>核心脉络</h2>
+  <div class="diagram">
+    <div class="node">外地刻板印象</div>
+    <div class="arrow">→</div>
+    <div class="node node-orange">本地一天怎么过</div>
+    <div class="arrow">→</div>
+    <div class="node node-green">不必有哇的地方</div>
+  </div>
+</div>
+<div class="correction">
+  <h3>常见误解 / 认知纠偏</h3>
+  <p>老家攻略如果还是「最美机位 + 必吃榜」，只是把网红景点换了个城市名。这期反复出现的打开方式是：先睡、先吃日常的那一碗、接受这座城不大也不先进。本地人愿意讲的，常常是含金量很低的重复，不是隐藏款网红。</p>
+</div>
+<div class="section">
+  <h2 class="sec-title">云南：印象很多，昆明的正确答案是睡</h2>
+  <div class="card">
+    <h3>刻板印象背后还有产业和边境</h3>
+    <p><b>在讲什么：</b>山歌、孔雀、傣装是外地人的云南。现场也聊到缅甸血统但不会缅甸话、比电影更暗的故事、八九十年代碟片和 MV 为什么火、拍百族照片形成产业。摩托车在当地不限，和上海黄牌不是同一套规则。</p>
+    <p><b>关键理解：</b>艺术感和「吃了菌子」可以同时为真。拿其中一层当全部，就会把取景地当成生活。</p>
+  </div>
+  <div class="card card-green">
+    <h3>昆明最佳打开：含氧、午觉、滇池</h3>
+    <p><b>在讲什么：</b>含氧量高，睡眠会空前好，尤其住南市区。建议不安排紧行程，先睡午觉，下午再出门，晚饭可以是腾冲或普洱风味，然后去滇池散步。野生菌要当天从县城运到，所以兴趣在速度，不在打卡店名。</p>
+    <p><b>怎么用：</b>第一次去昆明，把「必须打卡」换成「保证一次长觉 + 一次湖边走」。海拔和干燥比景点更决定体感。</p>
+    <div class="highlight">原文依据：最美不一定是某个景区名，昆明的舒服来自你可以什么都不安排。</div>
+  </div>
+  <div class="card">
+    <h3>保山、腾冲：航线是打出来的，山在两城之间</h3>
+    <p><b>在讲什么：</b>修机场、开辟航线和驼峰有关，是美国人帮忙守住生存线的历史，不是旅游口号。从大理进这个方向曾经很远，高速没通时高黎贡横在中间。城里老街还有手艺人，早餐中午晚上都可以吃。和顺为什么没被炸掉，是本地人才会停下来讲的问题。</p>
+    <p><b>适用边界：</b>把腾冲只记成温泉和古镇，会错过航线和山。但也不必为了「深度」把每一顿都吃成考察。</p>
+  </div>
+</div>
+<div class="section">
+  <h2 class="sec-title">上海、南昌、台州：快乐可以很小</h2>
+  <div class="card">
+    <h3>上海私藏不是网红路，是一种没事做的快乐</h3>
+    <p><b>在讲什么：</b>有人租大约一百平、建好但没人住的房子躺平。想到迪士尼就会快乐，不必走进去。新华路、愚园路被觉得没什么可打卡，安福路也普通。华政本部适合走到傍晚。还有人按日落之后就睡、一天两顿，来对齐旅修的节奏。</p>
+    <p><b>关键理解：</b>本地一日游的单位是心情，不是机位。能开车进上海、能钓鱼，就已经是方案。</p>
+  </div>
+  <div class="card card-orange">
+    <h3>南昌：三顿吃一样，才叫老家</h3>
+    <p><b>原因：</b>拌粉、肉饼汤，大约一块钱半粉、五毛钱汤的记忆，现在仍觉得物价低。辣是被早饭练出来的。点菜可以说「好恰」。江西菜偏油。红谷滩有摩天轮，像另一边的浦东，但推荐句仍然是「马上去吃粉」。</p>
+    <p><b>解法：</b>别用「有没有高级餐厅」衡量老家。三顿不见面、吃的却是同一种，才是特征。</p>
+    <p><b>严重程度：</b>可忽略spicy的不适，致命的是把这座城写成空白。</p>
+  </div>
+  <div class="card">
+    <h3>台州不默认带你去新荣记</h3>
+    <p>靠山面海，绿道经过石子滩和普通沙滩。外号可以很洋气，生活不必配米其林。本地人的私藏是能走的海边，不是一张难订的桌。</p>
+  </div>
+</div>
+<div class="section">
+  <h2 class="sec-title">海边、小岛、开封和东北</h2>
+  <div class="card">
+    <h3>青岛啤酒和厦门的「没有哇」</h3>
+    <p><b>在讲什么：</b>在家待一个多月，感受最深的是啤酒文化。本地酒一入口的小麦味，和家里喝的、非青岛产的不一样。冬天可以喂海鸥、走大学路。中山路一带服装画廊很多已经封了，能进的也过度商业。厦门三天如果要哇，主持人觉得没有：吃海鲜，城市不大，顺利的话打车绕一圈30到50分钟。挡台风的是三千米以上的山，爬山可能没信号。</p>
+    <p><b>关键理解：</b>正宗往往是一种只能当地喝到的味道，不是更贵的店。小城的诚实是承认它无聊，而不是硬做主题。</p>
+  </div>
+  <div class="card card-purple">
+    <h3><span class="speaker speaker-host">听友</span>台湾的山路，开封的倒过来的红绿灯</h3>
+    <p>台中的规划感觉像无锡。推荐的不是没商店的空洞街区，而是夹在中央山脉和海岸山脉之间的路。原住民的歌是「带你去我家看太平洋」。开封：信被反复打开才懂「开封」不只是地名；景区在选王婆给当地人介绍对象；红绿灯小人是倒的，基建不好，人很松弛。接受这一切，才谈得上热爱。</p>
+    <div class="quote">「好地方都有一个特征，就是三顿必须得吃一样。」</div>
+  </div>
+  <div class="card">
+    <h3>东北只是预热：给妈妈种一颗种子</h3>
+    <p><b>在讲什么：</b>长春堵车就坐开得飞快的公交。吉林火车站到景点打车大约35块，被说成皇帝价，也是考大学前父亲开车去朱雀山祈祷的地方。自己看过太多风景就不爱出门了，妈妈退休第一天，要给她种一颗旅行的种子。山民会拦你：山上冷，别上去。沟是两山之间的秋色，再到本溪下面的县。</p>
+    <p><b>适用边界：</b>这期东北是预告，不是完整攻略。米线在东北被说成「最正宗的云南」是玩笑，用来提醒食物原产地会被本地改写。</p>
+  </div>
+</div>
+<div class="card">
+  <h3>外地清单和本地一天</h3>
+  <table>
+    <tr><th>地方</th><th>外地人容易要的</th><th>这期本地人给的</th><th>边界</th></tr>
+    <tr><td>昆明</td><td>民族打卡</td><td>睡觉、滇池、当天的菌</td><td>别把MV当生活</td></tr>
+    <tr><td>南昌</td><td>景点名</td><td>粉、辣、便宜</td><td>油和辣要自己扛</td></tr>
+    <tr><td>青岛 / 厦门</td><td>哇和海鲜大餐</td><td>本地啤酒、承认不大</td><td>封掉的老街不必硬逛</td></tr>
+    <tr><td>开封</td><td>完整古城基建</td><td>松弛和还在运转的人情</td><td>接受，再决定爱不爱</td></tr>
+  </table>
+</div>
+<div class="conclusion">
+  <h2>总结与行动</h2>
+  <h3>核心要点</h3>
+  <ul>
+    <li>老家玩法是重复的日常，不是隐藏版网红。</li>
+    <li>昆明的奢侈是睡眠，南昌的特征是三顿一样。</li>
+    <li>青岛的啤酒差在小麦味，厦门可以没有哇。</li>
+    <li>开封用松弛补偿基建，台湾用山路代替商店街。</li>
+    <li>把旅行种子种给父母，比再收集一个机位更具体。</li>
+  </ul>
+  <h3>行动清单</h3>
+  <ol>
+    <li>回自己老家时只排两件事：一口只有那里才对的味道，一段不用打卡的路。</li>
+    <li>请本地人推荐时加一句：请不要带我去你自己也不去的网红店。</li>
+    <li>带父母出门，用一天能完成的路程，而不是你自己的高强度清单。</li>
+  </ol>
+  <h3>关键认知转变</h3>
+  <p>以前认为玩透一座城等于覆盖景点。现在理解了本地人的私藏往往是「可以什么都不安排」：睡觉、吃粉、喝对的啤酒、接受这座城就这么大。</p>
+</div>
+<div class="footer">稻此一游 · CC / 早早 / 鱿鱼 · 2026-10-17</div>
+</div>
+</body>
+</html>

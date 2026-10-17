@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="4504" viewBox="0 0 1320 4504">
+  <foreignObject x="0" y="0" width="1320" height="4504">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,0.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:20px 28px;text-align:center;min-width:160px;font-weight:700;font-size:16px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3{color:#92400e;margin-bottom:8px}
+.correction p{color:#92400e;font-size:15px}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,0.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.speaker{display:inline-block;font-size:13px;font-weight:600;padding:2px 10px;border-radius:12px;margin-right:8px}
+.speaker-host{background:#dbeafe;color:#1e40af}
+.speaker-guest{background:#ede9fe;color:#6b21a8}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,0.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,0.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,0.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}
+@media (max-width:640px){.container{padding:16px 12px!important}.container{max-width:100%!important}h1{font-size:24px!important}h2,.sec-title{font-size:18px!important}h3{font-size:16px!important}p,li{font-size:14px!important}.summary-line{font-size:15px!important;padding:14px 16px!important}.map,.card,.timeline{padding:16px!important;margin-bottom:16px!important}.map h2{font-size:18px!important}.diagram{gap:10px!important;padding:10px 0!important}.node{min-width:100px!important;padding:12px 16px!important;font-size:13px!important}.arrow{font-size:18px!important}.conclusion{padding:20px!important}.footer{padding:20px 0 12px!important}}</style>
+      <div class="container">
+<h1>Ep.226 徒步三冠：走完美国12000多公里，需要准备什么？</h1>
+<div class="meta">
+  <span class="tag tag-blue">播客</span>
+  <span class="tag tag-purple">徒步</span>
+  <span class="tag tag-orange">1小时07分</span>
+  <span class="tag tag-gray">非正常旅行</span>
+</div>
+<a class="source-link" href="https://www.xiaoyuzhoufm.com/episode/6ac8ef0ce742e36efcc07a34">原始节目</a>
+<div class="summary-line">PCT、AT、CDT 三条长距离步道加起来超过12000公里，走完的人叫徒步三冠。白马狗熊讲的准备不是装备清单崇拜，而是一套许可、轻量、邮寄补给、水源和低信号导航的系统；步道能存在，靠的是政府搭框架、民间维护和一代代步道天使。</div>
+<div class="timeline">
+  <h3>关键时间轴</h3>
+  <div class="timeline-item"><span class="timeline-time">01:57</span><span class="timeline-text">三冠：PCT、AT、CDT，每条要走4到6个月</span></div>
+  <div class="timeline-item"><span class="timeline-time">09:12</span><span class="timeline-text">国家公园与国家森林：缪尔和平肖是两条线</span></div>
+  <div class="timeline-item"><span class="timeline-time">20:30</span><span class="timeline-text">政府搭框架，Trail Crew 和俱乐部做维护，荒野里禁用机械</span></div>
+  <div class="timeline-item"><span class="timeline-time">26:53</span><span class="timeline-text">步道天使：冰水、接送、五块钱小客栈</span></div>
+  <div class="timeline-item"><span class="timeline-time">33:09</span><span class="timeline-text">Leave No Trace 不只是不扔垃圾</span></div>
+  <div class="timeline-item"><span class="timeline-time">39:29</span><span class="timeline-text">签证窗口、预算、PCT 许可；AT 和 CDT 不用许可证</span></div>
+  <div class="timeline-item"><span class="timeline-time">45:34</span><span class="timeline-text">从二十多公斤口粮减到轻装，衣服在镇上洗</span></div>
+  <div class="timeline-item"><span class="timeline-time">57:27</span><span class="timeline-text">水源过滤和步道天使的桶装水网络</span></div>
+  <div class="timeline-item"><span class="timeline-time">01:00:52</span><span class="timeline-text">低信号：协会官网、Facebook 群、路标和离线地图</span></div>
+</div>
+<div class="map">
+  <h2>核心脉络</h2>
+  <div class="diagram">
+    <div class="node">三条步道</div>
+    <div class="arrow">→</div>
+    <div class="node node-orange">许可与季节</div>
+    <div class="arrow">→</div>
+    <div class="node">轻量 + 邮寄补给</div>
+    <div class="arrow">→</div>
+    <div class="node node-green">水、路、人</div>
+  </div>
+</div>
+<div class="correction">
+  <h3>常见误解 / 认知纠偏</h3>
+  <p>三冠不是办一张证书。奖牌可以去步道协会做，也可以不做。另一件事：无信号不等于瞎走。协会官网、路段地图、水源群和离线导航是出发前就要装进系统里的，不是走到岔路再下载。</p>
+</div>
+<div class="section">
+  <h2 class="sec-title">这三步道为什么走得下去</h2>
+  <div class="card">
+    <h3>框架是公共的，维护是民间的</h3>
+    <p><b>在讲什么：</b>PCT 约从墨西哥到加拿大，AT 在东部，CDT 沿落基从加拿大到墨西哥，合计大约12000公里以上。AT 从上世纪二十年代提出，二战前已成形。国家公园（缪尔、优胜美地）和国家森林是两套公共系统。Trail Crew 维护时甚至不能用机械，因为荒野法把机械化挡在外面。</p>
+    <p><b>关键理解：</b>步道穿过后院，当地人会在季前清理杂草和落石。CCC 那种以工代赈打下底子，俱乐部把维护接过来。政府搭框架，民间做主力。</p>
+    <p><b>适用边界：</b>这是美国土地制度和志愿传统，不能直接翻译成「国内也应有人免费养路」。能迁移的是：长距离路线如果没有稳定维护者，信息再全也会在一个季节里失效。</p>
+  </div>
+  <div class="card card-purple">
+    <h3><span class="speaker speaker-guest">嘉宾 白马狗熊</span>五块钱的房子和路边的水果</h3>
+    <p>有人在步道边买房做小客栈，一晚五美元。也有人每个周末搭一个月帐篷，放水果和吃的。东部 Trail Magic 没西部那么密，但突然出现的小桌仍然常见。科罗拉多步道不在国家步道体系里，照样有民间 Boot Camp 把检查做到很细。</p>
+    <div class="quote">「步道天使不求回报。这个文化一代一代往下传，新一代作风不同，善意还在。」</div>
+    <div class="relation">和朝圣路上的接待、藏线河长的帮助是同一类结构：路很长，所以沿途必须有人愿意让陌生人停下。</div>
+  </div>
+  <div class="card card-orange">
+    <h3>不留痕迹不是一句口号</h3>
+    <p><b>原因：</b>只记「不扔垃圾」会在扎营、猫洞、离水源距离、离步道距离上犯错。预设营地优先；没有预设时，不能贴着步道，也不能离得过远。</p>
+    <p><b>解法：</b>出发前读该步道协会的「应该 / 不应该」，而不是套用另一条线的习惯。</p>
+    <p><b>严重程度：</b>小心到致命。破坏植被和水源影响的是后面所有人，不只是你的照片。</p>
+  </div>
+</div>
+<div class="section">
+  <h2 class="sec-title">出发前真正要排的四件事</h2>
+  <div class="card">
+    <h3>签证、许可、季节，先于背包品牌</h3>
+    <p><b>在讲什么：</b>PCT 许可要自己申请，时间窗大约六个月，走路大约四到五个月，必须在窗口内走完，下一次还要续。AT 和 CDT 目前不需要许可证。PCT 北端进加拿大，十月已经冷。内华达雪季从十二月到五月，大雪年积雪可以到三四米。AT 若走将近六个月，就会碰到续签。</p>
+    <p><b>关键理解：</b>预算的大头不是一双鞋，而是你每进一次城住不住旅馆。天天住，PCT 会变成另一种消费；能露营并接受冷，才是长距离的成本结构。</p>
+    <div class="action">先画季节和签证，再买装备。雪线装备只在你会走到雪线时进包。</div>
+  </div>
+  <div class="card">
+    <h3>轻量是减掉你不会用的那一公斤</h3>
+    <p><b>在讲什么：</b>早期七天口粮可以二十多公斤，后来平均越来越轻。内衣一套，其他衣服在补给点洗。用不上的寄到下一点，用得上的再拿出来。手机可以拍，不必为了 vlog 加一堆设备。</p>
+    <p><b>关键理解：</b>重量决定你能不能连续走几个月，不是决定照片好不好看。</p>
+    <p><b>适用边界：</b>第一次可以菜鸟出发，蓝领工作未必有时间提前练体能，节奏是走出来的。但食物和保暖不能靠「走到再说」。</p>
+  </div>
+  <div class="card card-green">
+    <h3>补给：算好每一袋，寄到每一个点</h3>
+    <p><b>在讲什么：</b>烘干食物按补给点分装邮寄。一天的结构是方便主食、零食、早晨麦片面包，热量用椰子油一类做成压缩饼。城里再吃一顿更正常的。早期很多人这么干，后来南加州补给变方便，越往北人越少，CDT 穿过最空的地带，邮寄仍然合理。也遇到过出山时袋子里只剩一根能量棒。</p>
+    <p><b>关键理解：</b>本地化能省钱，但空段不能赌商店开门。关门了有时还能把包裹拿走，这是备用，不是计划。</p>
+    <div class="pitfall">不要用「美国小镇很方便」概括三条线。南加州和 CDT 不是同一个补给密度。</div>
+  </div>
+  <div class="card">
+    <h3>水和路：多带半升到一升，地图先于信号</h3>
+    <p><b>在讲什么：</b>用 Sawyer 一类过滤器。按季节标可靠和不可靠水源。2016年在缺水段分享位置不被鼓励，现在步道天使每年放桶，有人更新加仑数。经验是在计算量之外多带大约半升到一升。2016年信号少，现在多了，PCT 仍有 Facebook 群同步水点。真正迷路时靠路标、地图和 Gaia / FarOut 一类离线导航。</p>
+    <p><b>关键理解：</b>水网和路网都是人群协作的结果。你要会用，也要自己有底，不能假设下一个桶一定还在。</p>
+  </div>
+</div>
+<div class="card">
+  <h3>三条线怎么选准备强度</h3>
+  <table>
+    <tr><th>维度</th><th>PCT</th><th>AT</th><th>CDT</th></tr>
+    <tr><td>许可</td><td>要自己申请，有时间窗</td><td>目前不用许可证</td><td>目前不用许可证</td></tr>
+    <tr><td>补给</td><td>南边方便，北边变稀</td><td>小镇相对密，仍要邮寄</td><td>最空，邮寄是主计划</td></tr>
+    <tr><td>季节风险</td><td>北端十月冷，雪线装备</td><td>走太久会碰到续签</td><td>人烟少，出错更难补</td></tr>
+    <tr><td>一句话</td><td>许可和节奏卡死</td><td>人文和志愿传统最厚</td><td>准备冗余要最大</td></tr>
+  </table>
+  <p><b>适用边界：</b>认证奖牌不影响你是否走完。预算按「露营为主、进城为辅」估算，若改成酒店链，数字整个换档。</p>
+</div>
+<div class="conclusion">
+  <h2>总结与行动</h2>
+  <h3>核心要点</h3>
+  <ul>
+    <li>三冠是三条线、几年时间，不是一次打卡。</li>
+    <li>路能走，是因为维护者和步道天使还在。</li>
+    <li>PCT 先解决许可和六个月窗口，AT / CDT 先解决空段补给。</li>
+    <li>轻量、邮寄、过滤水和离线地图是同一套系统。</li>
+    <li>不留痕迹包括营地和水源，不只是垃圾袋。</li>
+  </ul>
+  <h3>行动清单</h3>
+  <ol>
+    <li>选定一条线后，打开步道协会官网，记下许可、季前维护和水源规则。</li>
+    <li>按4到7天一段列出邮寄点，食物按段装袋，不按「一路买」假设。</li>
+    <li>包里只留一套替换和雪线真正会用的装备，其余寄到下一点。</li>
+    <li>离线地图和水过滤在家里先走通一次短线，再谈几个月。</li>
+  </ol>
+  <h3>关键认知转变</h3>
+  <p>以前认为走完一万公里靠意志和装备。现在理解了完成靠的是时间窗、沿途的人和你提前算好的水和食物；意志只决定你还愿不愿意进下一个空段。</p>
+</div>
+<div class="footer">非正常旅行 · 季季 · 嘉宾白马狗熊 · 2026-10-17</div>
+</div>
+    </div>
+  </foreignObject>
+</svg>

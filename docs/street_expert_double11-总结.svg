@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="5359" viewBox="0 0 1320 5359">
+  <foreignObject x="0" y="0" width="1320" height="5359">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,0.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:20px 28px;text-align:center;min-width:160px;font-weight:700;font-size:16px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3{color:#92400e;margin-bottom:8px}
+.correction p{color:#92400e;font-size:15px}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,0.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.speaker{display:inline-block;font-size:13px;font-weight:600;padding:2px 10px;border-radius:12px;margin-right:8px}
+.speaker-host{background:#dbeafe;color:#1e40af}
+.speaker-guest{background:#ede9fe;color:#6b21a8}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,0.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,0.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,0.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}
+@media (max-width:640px){.container{padding:16px 12px!important}.container{max-width:100%!important}h1{font-size:24px!important}h2,.sec-title{font-size:18px!important}h3{font-size:16px!important}p,li{font-size:14px!important}.summary-line{font-size:15px!important;padding:14px 16px!important}.map,.card,.timeline{padding:16px!important;margin-bottom:16px!important}.map h2{font-size:18px!important}.diagram{gap:10px!important;padding:10px 0!important}.node{min-width:100px!important;padding:12px 16px!important;font-size:13px!important}.arrow{font-size:18px!important}.conclusion{padding:20px!important}.footer{padding:20px 0 12px!important}}</style>
+      <div class="container">
+<h1>EP16｜双十一天天有，到底谁在薅谁的羊毛？</h1>
+<div class="meta">
+  <span class="tag tag-blue">播客</span>
+  <span class="tag tag-purple">消费</span>
+  <span class="tag tag-orange">38分</span>
+  <span class="tag tag-gray">逛街专家</span>
+</div>
+<a class="source-link" href="https://www.xiaoyuzhoufm.com/episode/6acf0813e742e36efcc2b967">原始节目</a>
+<div class="summary-line">双十一已经从一天的峰值变成全年经营节律：标价、券、直播价、顺手买一件把「正常价」藏起来。云露和周一的结论是买的不如卖的精——真正划算只发生在你用得完、且价格低于心里那条公允线的时候。</div>
+<div class="timeline">
+  <h3>关键时间轴</h3>
+  <div class="timeline-item"><span class="timeline-time">00:12</span><span class="timeline-text">双十一拉长到30多天，平台已多年不晒GMV，天天都是大促</span></div>
+  <div class="timeline-item"><span class="timeline-time">02:23</span><span class="timeline-text">同一款泳镜：标价1919，有人八百出头，有人看到一千二</span></div>
+  <div class="timeline-item"><span class="timeline-time">06:38</span><span class="timeline-text">促销少的品牌反而被高看：标多少就花多少买走</span></div>
+  <div class="timeline-item"><span class="timeline-time">08:20</span><span class="timeline-text">同一品牌多家店，同一件外套从403到305</span></div>
+  <div class="timeline-item"><span class="timeline-time">09:36</span><span class="timeline-text">购物「做作业」：满减表多半是平台算过的转化漏斗</span></div>
+  <div class="timeline-item"><span class="timeline-time">11:54</span><span class="timeline-text">闲鱼意外变成公允价参照：成交价比官网更齐</span></div>
+  <div class="timeline-item"><span class="timeline-time">15:13</span><span class="timeline-text">凑单、顺手买一件、邮费：咸菜四包吃不完</span></div>
+  <div class="timeline-item"><span class="timeline-time">19:27</span><span class="timeline-text">19.9一只鸡：为赠品和套餐把店挤垮，口味也掉</span></div>
+  <div class="timeline-item"><span class="timeline-time">22:38</span><span class="timeline-text">酒店房券和赠送旅拍：下单划算，入住才开始加价</span></div>
+  <div class="timeline-item"><span class="timeline-time">36:27</span><span class="timeline-text">反薅指南：不凑单、不看赠品、先问会不会用完</span></div>
+</div>
+<div class="map">
+  <h2>核心脉络</h2>
+  <div class="diagram">
+    <div class="node">标价失真</div>
+    <div class="arrow">→</div>
+    <div class="node node-orange">做功课 / 凑单</div>
+    <div class="arrow">→</div>
+    <div class="node">时间与库存被反薅</div>
+    <div class="arrow">→</div>
+    <div class="node node-green">用得完 × 低于公允价</div>
+  </div>
+</div>
+<div class="correction">
+  <h3>常见误解 / 认知纠偏</h3>
+  <p>「等到双十一再买」和「做完功课就能薅到最便宜」都过时了。大促已日常化，券和直播价被设计成催成交；真正能占到便宜的窗口，主持人认为几乎只剩清库存，而且仍要先问自己用不用得完。</p>
+</div>
+<div class="section">
+  <h2 class="sec-title">价格为什么没有一个准</h2>
+  <div class="card">
+    <h3>同一件东西，没有稳定售价</h3>
+    <p><b>在讲什么：</b>泳镜标价1919，周一八百出头买到，朋友看到一千二就觉得贵；同一链接一天打开两次价格可以不同，不同手机弹出的券也不一样。</p>
+    <p><b>关键理解：</b>标价成了锚，真实成交价藏在直播专享、店铺券、限时券和复购优惠里。保价常常不含直播间和返利渠道，所以「我买贵了」无法用官方规则补回来。</p>
+    <p><b>怎么用：</b>先给自己设一条心里公允价。到了就买，不到就不为了再省十块去做分享任务。</p>
+    <div class="relation">相关概念：和线下「标多少就是多少」相反。主持人把促销少的品牌看成更高的信任信号，因为不用再做数学题。</div>
+    <div class="highlight">原文依据：「我们已经不是过购物节了，我们过的是购物上午和购物下午。」</div>
+  </div>
+  <div class="card card-purple">
+    <h3><span class="speaker speaker-host">云露 / 周一</span>分享好友省十块，第二天更便宜</h3>
+    <p>带泡茶的分享两好友减10元，第二天同款更低、还不需要分享。省下的钱能算清，花掉的注意力和人情算不进订单。</p>
+    <div class="quote">「我那天找人点的时候就像一个傻子一样……在这个所谓的分享出去薅羊毛的过程中，我好像才是那头羊。」</div>
+  </div>
+  <div class="card">
+    <h3>同品牌多店，是为了精准薅到每一只羊</h3>
+    <p><b>在讲什么：</b>小红书一家女装在同品牌下开多家店，同一件外套从403到305。</p>
+    <p><b>关键理解：</b>多价格不是标错，是把不同耐心、不同渠道的人切成不同成交价。</p>
+    <p><b>适用边界：</b>百亿补贴不等于线下同款；拼多多专供和1688一件代发会让「更便宜」变成另一件东西。比价前先确认是不是同一货号。</p>
+  </div>
+</div>
+<div class="section">
+  <h2 class="sec-title">做功课本身就是漏斗</h2>
+  <div class="card">
+    <h3>满减表、种草作业、什么值得买</h3>
+    <p><b>在讲什么：</b>周一做过微博营销，把618满减做成粗糙Excel，经营销号发出去当「购物作业」。现在看直播、刷短剧才能解锁价，步骤更长。</p>
+    <p><b>关键理解：</b>能被你看到的凑单步骤，多半平台已经算过：它一步步让你买更多。恰好需要那些凑单商品、又能用完的人是极少数。折扣平台也是消费品广告的投放位，不是中立价签。</p>
+    <div class="pitfall">别把「有人整理好的满减表」当成帮你省钱的公益。它的默认目标是提高客单。</div>
+  </div>
+  <div class="card card-green">
+    <h3>闲鱼为什么反而像公允价</h3>
+    <p><b>在讲什么：</b>泳镜闲鱼七百多，磁吸录音笔闲鱼多家都挂699；杯鼎线下零折扣，闲鱼有大量经销商；京东保洁套装闲鱼约40元。</p>
+    <p><b>关键理解：</b>想快速成交就会去搜当前成交带，于是二手/经销商挂牌把价格拉齐。官网和直播间反而各说各话。</p>
+    <p><b>适用边界：</b>闲鱼不透明、售后弱，电子和美妆要防假。它适合当参照，不适合当唯一购买渠道。居家充值类在闲鱼更容易踩坑，主持人明确说要另开一期。</p>
+    <div class="action">想知道「正常大概多少钱」：先搜闲鱼同款成交带，再决定要不要等券。</div>
+  </div>
+</div>
+<div class="section">
+  <h2 class="sec-title">反薅的三种现场</h2>
+  <div class="card card-orange">
+    <h3>邮费与凑单：咸菜四包吃不完</h3>
+    <p><b>原因：</b>9.9一包咸菜加6元运费是15.6；四包免邮但保质期几个月也吃不完。水果劝你买二十斤，多出来的重量在家里会坏。</p>
+    <p><b>解法：</b>把运费摊进你会吃掉的那部分，而不是摊进标价重量。吃得完的一包，比吃不完的四包更便宜。</p>
+    <p><b>严重程度：</b>小心。单笔不大，但会堆成冰箱和柜子里的沉没成本。</p>
+    <div class="pitfall">「顺手买一件」把19.9的东西变成6.9，价格更没准，也更容易把小样按克重算并不划算的东西带回家。</div>
+  </div>
+  <div class="card card-orange">
+    <h3>套餐与赠品：19.9一只鸡，旅拍开始宰人</h3>
+    <p><b>原因：</b>全上海抢19.9鸡，店接待和后厨撑不住，汤底和口味下降，吃两次就不香。餐厅把价值800的菜捆成300的套餐，你真正想吃的可能单点更值。酒店送旅拍、动物园门票，入住后用话术加片、加胡萝卜、加打卡照。</p>
+    <p><b>解法：</b>套餐先拆出你真会吃的单品价。旅拍在对方进门前说清预算，或直接放弃赠送权益。赠品去闲鱼搜单价，只买赠品、不买主品。</p>
+    <p><b>严重程度：</b>致命的是心情损失和被现场加价；可忽略的是你事先预算内、真想要的那几张照片。</p>
+    <div class="quote">「消费者很难很难占到商家的便宜。」所谓bug价，真出bug时商家还能起诉把差价要回去。</div>
+  </div>
+  <div class="card">
+    <h3>囤券与保洁：买的不如卖的精</h3>
+    <p><b>在讲什么：</b>酒店房券囤了，到出行日常价更低，打开日历就是暴击。京东保洁送洗衣液、洗手液、牙膏，家里库存用几年。奶茶为挂件花三十块只喝一口；为五块洗澡巾买两杯溢价咖啡。</p>
+    <p><b>关键理解：</b>赠品的快乐转瞬。妈妈视角：收纳时算废物的，下单时就不该为它付钱。用完才不亏，和办健身卡同一条逻辑。</p>
+    <div class="highlight">原文依据：「买的不如卖的精，我们永远记住这句话就好了。」</div>
+  </div>
+</div>
+<div class="card">
+  <h3>观点对比：什么时候还算真的便宜</h3>
+  <table>
+    <tr><th>场景</th><th>看起来</th><th>实际</th><th>一句话</th></tr>
+    <tr><td>直播券 / 限时分享</td><td>比刚才便宜</td><td>催成交，明天可能更低</td><td>省的是注意力，不是钱</td></tr>
+    <tr><td>凑单免邮 / 顺手买</td><td>单价下降</td><td>买回吃不完、用不上</td><td>只摊你消耗得了的量</td></tr>
+    <tr><td>闲鱼同款扎堆价</td><td>像二手乱价</td><td>成交带把价格拉齐</td><td>适合当公允参照</td></tr>
+    <tr><td>清库存且低于心里价</td><td>错过不再有</td><td>少数真能低于公价的窗口</td><td>仍要问用不用得完</td></tr>
+  </table>
+  <p><b>适用边界：</b>清库存便宜，只在你本来就要买、品质没因团购掉档、有效期内用得完时成立。为了「不买就亏」下单，不在这条边界里。</p>
+</div>
+<div class="card card-purple">
+  <h3>心法：先问喜欢的是东西，还是今天这个价格</h3>
+  <p><b>为什么重要：</b>反面是袜子拼单：公允价57.93，拉人拼后退款拿到37.9三双。操作很心机，省下的钱配不上这一套。</p>
+  <div class="quote">「我喜欢的是这个东西，还是今天这个价格？」</div>
+  <div class="action">反薅清单：不凑单；不看赠品，赠品单独去闲鱼；存货先问三年内用不用得完、品质会不会掉；到了心里价就停，不等下一个节。</div>
+  <p><b>适用边界：</b>主持人自己也说很难做到。它约束的是冲动加购，不禁止你为一次真实想要的体验付钱，比如那口奶茶买的是当时的快乐，就别再事后算亏。</p>
+</div>
+<div class="conclusion">
+  <h2>总结与行动</h2>
+  <h3>核心要点</h3>
+  <ul>
+    <li>双十一已变成全年节律，不存在一个稳定的「正常价」。</li>
+    <li>券、多店、作业表是转化设计，默认把你往更高客单推。</li>
+    <li>闲鱼扎堆成交价，常常比官网更接近公允。</li>
+    <li>免邮、套餐、赠品、旅拍的便宜停在下单那一秒。</li>
+    <li>用得完，且低于自己设的价，才叫没亏。</li>
+  </ul>
+  <h3>行动清单</h3>
+  <ol>
+    <li>给常买的三类东西各写一个心里价，到价就买，不再跨平台做题。</li>
+    <li>加购前删掉所有「为了凑单/赠品」的行，只留本周会用的。</li>
+    <li>酒店和套餐：把赠送旅拍、动物园、加菜从权益里划掉，按单点重算。</li>
+    <li>家里洗衣液、咸菜、小样先盘点，用完前不再因保洁或满减补货。</li>
+  </ol>
+  <h3>关键认知转变</h3>
+  <p>以前认为多比价、等大促就能薅到平台。现在理解了买的不如卖的精：省下的十块往往是用时间和库存换的，公允价比最低价更值得追。</p>
+</div>
+<div class="footer">逛街专家 · 云露 / 周一 · 2026-10-17</div>
+</div>
+    </div>
+  </foreignObject>
+</svg>

@@ -300,11 +300,37 @@ def split_text(text: str, max_len: int = MAX_CHUNK_LEN) -> list[str]:
     return chunks
 
 
+def _patch_edge_tts_endpoint() -> None:
+    """Microsoft 已将部分区域切到 api.msedgeservices.com；旧 bing 端点会 403。"""
+    import edge_tts.communicate as cm
+    from edge_tts.constants import TRUSTED_CLIENT_TOKEN
+
+    new_url = (
+        "wss://api.msedgeservices.com/tts/cognitiveservices/websocket/v1"
+        f"?Ocp-Apim-Subscription-Key={TRUSTED_CLIENT_TOKEN}"
+    )
+    if getattr(cm, "WSS_URL", None) != new_url:
+        cm.WSS_URL = new_url
+
+
 async def _synthesize_chunk(text: str, output: Path, voice: str):
     import edge_tts
 
-    communicate = edge_tts.Communicate(text, voice)
-    await asyncio.wait_for(communicate.save(str(output)), timeout=120)
+    _patch_edge_tts_endpoint()
+    last_err: Exception | None = None
+    for attempt in range(4):
+        try:
+            communicate = edge_tts.Communicate(text, voice)
+            await asyncio.wait_for(communicate.save(str(output)), timeout=180)
+            return
+        except Exception as e:
+            last_err = e
+            msg = str(e)
+            if "429" not in msg and "403" not in msg:
+                raise
+            await asyncio.sleep(15 * (attempt + 1))
+    assert last_err is not None
+    raise last_err
 
 
 def _concat_mp3(files: list[Path], output: Path):

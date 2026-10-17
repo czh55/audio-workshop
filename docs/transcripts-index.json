@@ -1,7 +1,112 @@
 {
- "generated": "2026-10-13",
- "count": 180,
+ "generated": "2026-10-17",
+ "count": 187,
  "items": [
+  {
+   "slug": "daoci_local_hidden_spots",
+   "title": "Vol.63 网红景点去吐了？从南到北，本地人私藏玩法大公开！",
+   "date": "2026-10-17",
+   "author": "稻此一游",
+   "tags": [
+    "旅行",
+    "本地生活",
+    "城市"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/693bbb67dac38001e427bdf1",
+   "duration": "1小时23分",
+   "words": 29178,
+   "file": "transcripts/daoci_local_hidden_spots.txt"
+  },
+  {
+   "slug": "durex_adult_market",
+   "title": "杜蕾斯不只是会写文案：与操盘手聊聊成人用品市场",
+   "date": "2026-10-17",
+   "author": "难得正经｜商业版今夜不设防",
+   "tags": [
+    "品牌",
+    "营销",
+    "杜蕾斯"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/6a65e50ca3fec224d5a38d4c",
+   "duration": "55分",
+   "words": 20140,
+   "file": "transcripts/durex_adult_market.txt"
+  },
+  {
+   "slug": "fanlai_cn_jp_lifestyle",
+   "title": "你的生活，无需解释｜聊聊中日不同的生活方式｜Vol.65",
+   "date": "2026-10-17",
+   "author": "范来张口FM",
+   "tags": [
+    "日本",
+    "生活方式",
+    "社交"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/6aca7a8de742e36efcc108af",
+   "duration": "1小时36分",
+   "words": 30475,
+   "file": "transcripts/fanlai_cn_jp_lifestyle.txt"
+  },
+  {
+   "slug": "median_city_linfen",
+   "title": "城市就是这样22｜中国的“中位数城市”是哪座？",
+   "date": "2026-10-17",
+   "author": "商业就是这样",
+   "tags": [
+    "城市",
+    "临汾",
+    "社会观察"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/6ac65b91e742e36efcbf66c8",
+   "duration": "59分",
+   "words": 20360,
+   "file": "transcripts/median_city_linfen.txt"
+  },
+  {
+   "slug": "museum_staged_reality",
+   "title": "277 | 博物馆有什么好看的？ - 看见、看到、普通人和舞台化真实的风险",
+   "date": "2026-10-17",
+   "author": "壮游者|人文旅行声音游记",
+   "tags": [
+    "博物馆",
+    "旅行",
+    "人文"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/6acc0f2251b8eaeca64075fa",
+   "duration": "1小时21分",
+   "words": 26952,
+   "file": "transcripts/museum_staged_reality.txt"
+  },
+  {
+   "slug": "street_expert_double11",
+   "title": "EP 16 | 双十一天天有，到底谁在薅谁的羊毛？",
+   "date": "2026-10-17",
+   "author": "逛街专家",
+   "tags": [
+    "消费",
+    "双十一",
+    "电商"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/6acf0813e742e36efcc2b967",
+   "duration": "38分",
+   "words": 11778,
+   "file": "transcripts/street_expert_double11.txt"
+  },
+  {
+   "slug": "triple_crown_hike_prep",
+   "title": "Ep.226 徒步三冠：走完美国12000多公里，需要准备什么？",
+   "date": "2026-10-17",
+   "author": "非正常旅行",
+   "tags": [
+    "徒步",
+    "美国",
+    "旅行"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/6ac8ef0ce742e36efcc07a34",
+   "duration": "1小时07分",
+   "words": 22758,
+   "file": "transcripts/triple_crown_hike_prep.txt"
+  },
   {
    "slug": "feizhengchang_sg_citywalk",
    "title": "Ep.223 城市漫游：新加坡可以玩出什么不一样？",
