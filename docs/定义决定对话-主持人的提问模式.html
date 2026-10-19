@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>定义决定对话 · 主持人的提问模式</title>
+<style>
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(160deg,#f8fafc,#eef2ff);padding:0;margin:0;color:#1e293b}
+  .container{max-width:1180px;margin:0 auto;padding:48px 60px}
+  h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#7c3aed);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:10px;line-height:1.3}
+  .subtitle{font-size:15px;color:#64748b;margin-bottom:28px}
+  .map{background:#fff;border-radius:20px;padding:32px 36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(30,64,175,0.06)}
+  .map h2{font-size:22px;font-weight:800;color:#1e293b;margin-bottom:12px}
+  .map-intro{font-size:15px;line-height:1.8;color:#475569;margin-bottom:18px}
+  .chain{display:flex;align-items:center;justify-content:center;gap:12px;flex-wrap:wrap;margin:8px 0 18px}
+  .node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:14px;padding:14px 18px;min-width:140px;text-align:center;font-weight:800;color:#1e40af}
+  .node span{display:block;font-size:12px;font-weight:600;color:#64748b;margin-top:4px}
+  .node.orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+  .node.green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+  .arrow{font-size:22px;color:#94a3b8}
+  .legend{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:8px}
+  .legend-item{display:inline-flex;align-items:center;gap:7px;font-size:13px;color:#334155;background:#f8fafc;border:1px solid #e2e8f0;border-radius:999px;padding:5px 14px}
+  .related{background:#f8fafc;border:1px dashed #cbd5e1;border-radius:14px;padding:16px 18px;margin-top:16px;font-size:14px;line-height:1.8;color:#475569}
+  .related a{color:#3b82f6;text-decoration:none;font-weight:600}
+  .section{margin-bottom:36px}
+  .sec-head{display:flex;align-items:flex-start;gap:14px;margin-bottom:18px}
+  .sec-line{width:5px;height:52px;border-radius:3px;flex-shrink:0;margin-top:2px}
+  .sec-head h2{font-size:23px;font-weight:800;margin-bottom:4px}
+  .sec-intro{font-size:14px;line-height:1.7;color:#64748b;max-width:960px}
+  .cards{display:flex;flex-direction:column;gap:16px}
+  .card{background:#fff;border-radius:16px;padding:22px 26px;box-shadow:0 2px 14px rgba(0,0,0,0.05);border:1px solid #eef2f7}
+  .card-top{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:12px}
+  .tech-badge{display:inline-block;font-size:12px;font-weight:700;padding:3px 12px;border-radius:999px;border:1px solid}
+  .source{font-size:12px;color:#94a3b8}
+  .source a{color:#64748b;text-decoration:none}
+  .source a:hover{color:#3b82f6;text-decoration:underline}
+  .card-index{margin-left:auto;font-size:12px;font-weight:700;color:#cbd5e1;font-variant-numeric:tabular-nums}
+  .quote{font-size:16px;line-height:1.85;color:#1e293b;font-weight:600;padding:14px 18px;background:#f8fafc;border-left:4px solid;border-radius:8px;margin-bottom:14px}
+  .detail{display:flex;flex-direction:column;gap:10px}
+  .detail-row{display:flex;gap:10px;align-items:flex-start}
+  .detail-tag{flex-shrink:0;font-size:12px;font-weight:700;padding:2px 10px;border-radius:6px;margin-top:2px;background:#f1f5f9;color:#475569}
+  .detail-tag.do{background:#ecfdf5;color:#065f46}
+  .detail-tag.dont{background:#fef2f2;color:#991b1b}
+  .detail-text{font-size:13.5px;line-height:1.7;color:#475569}
+  .script{background:#eff6ff;border:1px solid #bfdbfe;border-radius:12px;padding:14px 16px;font-size:14px;line-height:1.75;color:#1e40af;margin-top:4px}
+  .script b{color:#1e3a8a}
+  table.matrix{width:100%;border-collapse:collapse;margin:8px 0 4px;font-size:13.5px}
+  .matrix th{background:#f1f5f9;padding:10px 12px;text-align:left;color:#1e40af;border-bottom:2px solid #cbd5e1}
+  .matrix td{padding:10px 12px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+  .matrix tr:nth-child(even) td{background:#fafbfc}
+  .matrix a{color:#3b82f6;text-decoration:none}
+  .conclusion{background:linear-gradient(135deg,#1e40af,#7c3aed);border-radius:20px;padding:32px 36px;margin:40px 0 8px;box-shadow:0 8px 32px rgba(30,64,175,0.18)}
+  .conclusion h2{font-size:22px;font-weight:800;color:#fff;margin-bottom:12px}
+  .conclusion-text,.conclusion li{font-size:15px;line-height:1.8;color:#e0e7ff}
+  .conclusion ul,.conclusion ol{margin:12px 0 0 20px}
+  .conclusion li{margin-bottom:8px}
+  .footer{text-align:center;padding:20px 0 8px}
+  .footer p{font-size:13px;color:#94a3b8}
+  .html-toolbar{position:sticky;top:0;z-index:100;display:flex;align-items:center;gap:16px;padding:12px 20px;background:rgba(248,250,252,.92);backdrop-filter:blur(8px);border-bottom:1px solid #e2e8f0}
+  .html-toolbar .back-link{font-size:14px;color:#3b82f6;text-decoration:none;white-space:nowrap;font-weight:600}
+  .html-toolbar-title{flex:1;font-size:14px;font-weight:600;color:#1e293b;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  @media (max-width:640px){
+    .container{padding:16px 12px!important}
+    h1{font-size:24px!important}
+    .map,.card,.conclusion{padding:16px!important}
+    .node{min-width:100px}
+  }
+</style>
+</head>
+<body>
+<div class="html-toolbar">
+  <a class="back-link" href="index.html">← 返回首页</a>
+  <div class="html-toolbar-title">定义决定对话 · 主持人的提问模式</div>
+</div>
+<div class="container">
+  <h1>定义决定对话 · 主持人的提问模式</h1>
+  <p class="subtitle">延续「定义 → 态度 → 行为」· 把站内访谈压成 7 个可切换的提问模式 · 2026-10-19</p>
+
+  <div class="map">
+    <h2>一条链，一场对话只做一件事</h2>
+    <p class="map-intro">一个人定义事物的方式，决定他看待它的态度，再决定他的行为。语文、数学、英语都是表达世界的语言，没有谁更本质。对话也一样：故事、数字、概念只是三种说法。主持人要问出来的，是对方把这件事<strong>定义成什么</strong>。定义一亮，见解、故事、情绪、共鸣和碰撞会自己跟着来。</p>
+    <div class="chain">
+      <div class="node">定义<span>把X当成什么</span></div>
+      <div class="arrow">→</div>
+      <div class="node orange">态度<span>因此怎么看</span></div>
+      <div class="arrow">→</div>
+      <div class="node green">行为<span>因此怎么做</span></div>
+    </div>
+    <p class="map-intro">使用 harness、相机或提问，是同一件事：自动模式能用，但场景一变就要换模式。经验不是记更多话术，是知道这场该用哪一档。</p>
+    <div class="legend">
+      <span class="legend-item">自动 · 暖场</span>
+      <span class="legend-item">定义 · 对焦</span>
+      <span class="legend-item">故事 · 抓瞬间</span>
+      <span class="legend-item">碰撞 · 多曝光</span>
+      <span class="legend-item">情绪 · 人像</span>
+      <span class="legend-item">边界 · 景深</span>
+      <span class="legend-item">沉默 · 不按快门</span>
+    </div>
+    <div class="related">和 <a href="表达技巧手册-站内播客的开口方法.html">表达技巧手册</a> 分工：那本练「我怎么说」，这本练「我怎么问」。说服话术见 <a href="说服话术-从播客中学到的表达武器.html">表达武器</a>。</div>
+  </div>
+
+  <div class="section">
+    <div class="sec-head">
+      <div class="sec-line" style="background:#1e40af"></div>
+      <div>
+        <h2>开口前的 10 秒检验</h2>
+        <p class="sec-intro">下一句若只能换来「是什么、多少、在哪」，你还停在自动模式。合格的问题要让对方交出定义，并至少带出下面两项。</p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="quote" style="border-left-color:#1e40af">有价值的问题 = 引出对方对一件事的定义，并由此带出见解、故事、情绪、共鸣或碰撞。</div>
+      <table class="matrix">
+        <tr><th>你听到的</th><th>说明问到了</th><th>下一档</th></tr>
+        <tr><td>一个判断句：「我把X当成……」</td><td>定义</td><td>故事：哪一次让你这么定义的</td></tr>
+        <tr><td>一个具体场面，有人、时间、代价</td><td>故事</td><td>情绪：当时身体或关系上怎样</td></tr>
+        <tr><td>「按你的定义，这件事就不成立」</td><td>碰撞</td><td>边界：你的定义在哪失效</td></tr>
+        <tr><td>停顿、说不清、想收回</td><td>还无以自明</td><td>沉默，把问题留在桌上</td></tr>
+        <tr><td>只有名词、清单、正确话</td><td>还在自动模式</td><td>把名词收成定义：「所以你把这叫作什么？」</td></tr>
+      </table>
+      <div class="script"><b>现场只记这一句：</b>「你把 ____ 定义成什么？」填进空格的必须是这件事本身（公平、便宜、老家、谈钱、一次好的对话），填进形容词或立场，问题就散了。</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="sec-head">
+      <div class="sec-line" style="background:#7c3aed"></div>
+      <div>
+        <h2>七种模式 · 像换相机档位</h2>
+        <p class="sec-intro">同一话题可以连问三档。默认从自动进到定义，再按对方交出的东西切故事、碰撞、情绪或边界。一次只开一档。</p>
+      </div>
+    </div>
+    <div class="cards">
+
+      <div class="card">
+        <div class="card-top">
+          <span class="tech-badge" style="color:#475569;border-color:#cbd5e1;background:#f8fafc">自动</span>
+          <span class="source">暖场 · <a href="haixiu-social-performance-anxiety-总结.html">嗨咻：先保持「温」</a></span>
+          <span class="card-index">01</span>
+        </div>
+        <div class="quote" style="border-left-color:#94a3b8">关系还没热时，自动模式的工作是让对方愿意继续，不是立刻挖价值观。</div>
+        <div class="detail">
+          <div class="detail-row"><span class="detail-tag">何时</span><span class="detail-text">陌生局、饭局前五分钟、对方明显在表演或防备。</span></div>
+          <div class="detail-row"><span class="detail-tag do">问法</span><span class="detail-text">问一件刚发生的小事，或称赞一个你真看见的细节。前辈局里你先当主持人，把话筒递给对方。</span></div>
+          <div class="detail-row"><span class="detail-tag dont">停在这档</span><span class="detail-text">一直「然后呢」「感觉怎么样」，对话会停在信息层。对方愿意多说一句之后，立刻切定义档。</span></div>
+        </div>
+        <div class="script"><b>可直接说：</b>「你刚才提到的那件小事，你当时是怎么处理的？」</div>
+      </div>
+
+      <div class="card">
+        <div class="card-top">
+          <span class="tech-badge" style="color:#1e40af;border-color:#93c5fd;background:#eff6ff">定义</span>
+          <span class="source">主档 · <a href="median_city_linfen-总结.html">中位数城市</a> · <a href="street_expert_double11-总结.html">双十一</a> · <a href="tingdong_family_money-总结.html">父子谈钱</a></span>
+          <span class="card-index">02</span>
+        </div>
+        <div class="quote" style="border-left-color:#3b82f6">David 问的是「大家都过上好日子了吗」，以及一个人的选择，而不是籍贯。逛街专家问的是：喜欢的是这个东西，还是今天这个价格。谈钱之前，先问家里把「谈钱」定义成忌讳，还是两个平等的人。</div>
+        <div class="detail">
+          <div class="detail-row"><span class="detail-tag">何时</span><span class="detail-text">你要深度、见解或价值观的任何时刻。这是访谈的默认工作档。</span></div>
+          <div class="detail-row"><span class="detail-tag do">问法</span><span class="detail-text">把话题收成一个名词，请对方给判断句。问选择，问他用这个词时排除了什么。</span></div>
+          <div class="detail-row"><span class="detail-tag">合格</span><span class="detail-text">对方说出「我把X当成Y」，并且Y不是X的同义词。</span></div>
+        </div>
+        <div class="script"><b>可直接说：</b>「先别讲过程。在你这里，____ 到底算什么？」<br><b>接一句：</b>「按这个定义，什么才算做得对？」</div>
+      </div>
+
+      <div class="card">
+        <div class="card-top">
+          <span class="tech-badge" style="color:#9a3412;border-color:#fdba74;background:#fff7ed">故事</span>
+          <span class="source"><a href="museum_staged_reality-总结.html">博物馆</a> · <a href="lidan-deng-sichuan-chef-50y-总结.html">邓师傅</a> · <a href="durex_adult_market-总结.html">杜蕾斯</a></span>
+          <span class="card-index">03</span>
+        </div>
+        <div class="quote" style="border-left-color:#f59e0b">博物馆好看，不在藏品数量，在愿不愿意为一件东西讲完一个故事。杜蕾斯的社会传播也不是一句文案，是产品、收银台和日常一起转的那一次。</div>
+        <div class="detail">
+          <div class="detail-row"><span class="detail-tag">何时</span><span class="detail-text">定义已经出现，但还是抽象口号。用一场具体的事把它钉住。</span></div>
+          <div class="detail-row"><span class="detail-tag do">问法</span><span class="detail-text">要时间、地点、另一个人、一个你能看见的动作。邓师傅的「你喜欢的菜就是拿手菜」，来自五十年里哪一道菜被留下来。</span></div>
+          <div class="detail-row"><span class="detail-tag">合格</span><span class="detail-text">听众能复述这一场，并且听得出定义是从这场里长出来的。</span></div>
+        </div>
+        <div class="script"><b>可直接说：</b>「这个定义是从哪一次开始的？那天在场的还有谁，你做了哪个动作？」</div>
+      </div>
+
+      <div class="card">
+        <div class="card-top">
+          <span class="tech-badge" style="color:#6b21a8;border-color:#d8b4fe;background:#faf5ff">碰撞</span>
+          <span class="source"><a href="painao_travel_partner_208-总结.html">旅行搭子</a> · <a href="fanlai_cn_jp_lifestyle-总结.html">中日生活</a> · <a href="tingdong_family_money-总结.html">胜率对赔率</a></span>
+          <span class="card-index">04</span>
+        </div>
+        <div class="quote" style="border-left-color:#8b5cf6">旅行里的不公平，常常是两个人对「公平」的定义不同：谁背包、谁出片、谁先洗澡。父子谈钱，是胜率和赔率两套定义坐在一辆车里。一人食的隔板，对一个人是解放，对另一个人是被隔离。</div>
+        <div class="detail">
+          <div class="detail-row"><span class="detail-tag">何时</span><span class="detail-text">两套定义都在场，或你感觉到气，但还没人说出气从哪来。</span></div>
+          <div class="detail-row"><span class="detail-tag do">问法</span><span class="detail-text">把两套定义并排，问按对方的定义这件事还成不成立。目标是看清裂缝，不是辩赢。</span></div>
+          <div class="detail-row"><span class="detail-tag dont">停在这档</span><span class="detail-text">变成立场比赛时，把话收回定义：「我们吵的是事实，还是这个词的意思？」</span></div>
+        </div>
+        <div class="script"><b>可直接说：</b>「如果按你的定义，我刚才那件事就不算公平。你的公平里，必须包含哪一条？」</div>
+      </div>
+
+      <div class="card">
+        <div class="card-top">
+          <span class="tech-badge" style="color:#9f1239;border-color:#fda4af;background:#fff1f2">情绪</span>
+          <span class="source"><a href="museum_staged_reality-总结.html">不舒服是设计出来的</a> · <a href="jundongkou_communication_ep250-总结.html">君子动口</a></span>
+          <span class="card-index">05</span>
+        </div>
+        <div class="quote" style="border-left-color:#e11d48">柏林犹太人博物馆用空间让人自己感到缺席，而不是把情绪句子写满。沟通也一样：情绪是定义碰到身体和关系时的读数，不是单独的话题。</div>
+        <div class="detail">
+          <div class="detail-row"><span class="detail-tag">何时</span><span class="detail-text">对方的定义很完整，却没有温度；或场域里已经有羞、怒、心疼，还没被命名。</span></div>
+          <div class="detail-row"><span class="detail-tag do">问法</span><span class="detail-text">问当时哪里紧、想收回哪句话、这个定义保护了谁。按摩时敢说需求、父母催婚时先分清场域，都是先承认情绪有边界。</span></div>
+          <div class="detail-row"><span class="detail-tag">合格</span><span class="detail-text">出现一个具体感受或关系代价，而不是「挺感动的」「还行」。</span></div>
+        </div>
+        <div class="script"><b>可直接说：</b>「按你这个定义活下去，你最不想再经历的是哪一种感觉？」</div>
+      </div>
+
+      <div class="card">
+        <div class="card-top">
+          <span class="tech-badge" style="color:#065f46;border-color:#6ee7b7;background:#ecfdf5">边界</span>
+          <span class="source"><a href="triple_crown_hike_prep-总结.html">徒步三冠</a> · <a href="median_city_linfen-总结.html">不敢说谁代表中国</a></span>
+          <span class="card-index">06</span>
+        </div>
+        <div class="quote" style="border-left-color:#10b981">走完一万公里不是一张奖牌。熟悉上海也不是熟悉中国。一个能用的定义，必须自己说出失效的地方。</div>
+        <div class="detail">
+          <div class="detail-row"><span class="detail-tag">何时</span><span class="detail-text">对方的定义开始被当成所有场景的答案。工具、方法、人生建议最容易停在这里。</span></div>
+          <div class="detail-row"><span class="detail-tag do">问法</span><span class="detail-text">请他指出一个反例：这个定义在哪类人、哪段时间、哪种关系里不能用。</span></div>
+          <div class="detail-row"><span class="detail-tag">合格</span><span class="detail-text">例外是具体的，而且他承认那不是补充论点，是另一套定义。</span></div>
+        </div>
+        <div class="script"><b>可直接说：</b>「这个定义很清楚。它在什么情况下会害了你，或者根本不适用？」</div>
+      </div>
+
+      <div class="card">
+        <div class="card-top">
+          <span class="tech-badge" style="color:#334155;border-color:#cbd5e1;background:#f8fafc">沉默</span>
+          <span class="source"><a href="liuzhenyun_ep01_dialogue-总结.html">刘震云：无以自明就不说话</a></span>
+          <span class="card-index">07</span>
+        </div>
+        <div class="quote" style="border-left-color:#64748b">觉着无以自明的时候，就不说话。沉默不是冷场，是定义还在穿鞋。继续追问，只会逼出一句完整但假的话。</div>
+        <div class="detail">
+          <div class="detail-row"><span class="detail-tag">何时</span><span class="detail-text">对方重复、绕、笑着岔开，或明确说「这个我说不清」。</span></div>
+          <div class="detail-row"><span class="detail-tag do">问法</span><span class="detail-text">把问题留在桌上，换一个更小的定义，或结束这一问。「你先放着。我们回头只谈其中一件小事。」</span></div>
+          <div class="detail-row"><span class="detail-tag dont">误用</span><span class="detail-text">用沉默惩罚对方，或自己急着把答案说完。那是主持人在表现，不是在等定义。</span></div>
+        </div>
+        <div class="script"><b>可直接说：</b>「这个先不用答圆。你要是只记得一个画面，我们从那个画面再来。」</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="sec-head">
+      <div class="sec-line" style="background:#0f766e"></div>
+      <div>
+        <h2>五类场景 · 开场就切对档</h2>
+        <p class="sec-intro">先认定这场对话在定义哪一个词，再选模式。词选错，后面的故事和情绪都会偏。</p>
+      </div>
+    </div>
+    <div class="cards">
+      <div class="card">
+        <div class="card-top"><span class="tech-badge" style="color:#1e40af;border-color:#93c5fd;background:#eff6ff">访谈 / 聊天主持</span><span class="card-index">A</span></div>
+        <div class="detail-text">默认顺序：自动 1 分钟 → 定义 → 故事 → 看情况加碰撞或边界。一次节目只死磕一个词。</div>
+        <div class="script" style="margin-top:12px"><b>三连问：</b><br>1. 在你这里，____ 算什么？<br>2. 哪一次让你决定就这么算？<br>3. 如果听众用另一个词定义它，你们会在哪一句分开？</div>
+      </div>
+      <div class="card">
+        <div class="card-top"><span class="tech-badge" style="color:#9a3412;border-color:#fdba74;background:#fff7ed">家庭谈钱、催婚、选择</span><span class="source"><a href="tingdong_family_money-总结.html">听懂涨声</a> · <a href="jundongkou_communication_ep250-总结.html">君子动口</a></span><span class="card-index">B</span></div>
+        <div class="detail-text">先对齐「我们现在是在做什么」：是两个平等的人交换定义，还是长辈在下达态度。场域没对齐，方法会变成顶嘴。</div>
+        <div class="script" style="margin-top:12px"><b>可直接说：</b>「咱们先说好，这次把谈钱定义成两个人交换看法，还是你来定、我来听？我想用第一种。」</div>
+      </div>
+      <div class="card">
+        <div class="card-top"><span class="tech-badge" style="color:#6b21a8;border-color:#d8b4fe;background:#faf5ff">搭子、合作、一起出门</span><span class="source"><a href="painao_travel_partner_208-总结.html">拍脑门儿 208</a></span><span class="card-index">C</span></div>
+        <div class="detail-text">出发前对三个定义：节奏、负担、边界。熟不代表定义相同。路上的气，多半是其中一个词没问过。</div>
+        <div class="script" style="margin-top:12px"><b>可直接说：</b>「你把这次旅行里的公平，定义成平均付钱，还是各做自己不烦的那份？」</div>
+      </div>
+      <div class="card">
+        <div class="card-top"><span class="tech-badge" style="color:#9f1239;border-color:#fda4af;background:#fff1f2">消费、种草、要不要买</span><span class="source"><a href="street_expert_double11-总结.html">逛街专家 EP16</a></span><span class="card-index">D</span></div>
+        <div class="detail-text">便宜、划算、不买就亏，是三种定义。先问自己喜欢的是东西还是今天的价格，再决定要不要做功课。</div>
+        <div class="script" style="margin-top:12px"><b>可直接说：</b>「你现在想要的是这件东西，还是这个价格带来的没亏的感觉？」</div>
+      </div>
+      <div class="card">
+        <div class="card-top"><span class="tech-badge" style="color:#065f46;border-color:#6ee7b7;background:#ecfdf5">工具、harness、相机</span><span class="card-index">E</span></div>
+        <div class="detail-text">一直开自动，等于所有场景都用「然后呢」。经验是一张对照表：这场要速度就自动，要判断就定义，要复盘就故事，要选型就边界。语文、数学、英语、提示词，都是把同一个世界说出来的语言，换语言之前先问你要对方交出哪一种定义。</div>
+        <div class="script" style="margin-top:12px"><b>可直接说：</b>「这件事我现在是在要一个能用的定义，还是在要一段能照做的步骤？两档我只会先要一个。」</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="sec-head">
+      <div class="sec-line" style="background:#b45309"></div>
+      <div>
+        <h2>十分钟练习</h2>
+        <p class="sec-intro">选一件你最近真在意的事：一门课、一次出门、一个工具、一段关系。写完就能拿去当主持人。</p>
+      </div>
+    </div>
+    <div class="card">
+      <table class="matrix">
+        <tr><th>分钟</th><th>写下</th><th>写完的样子</th></tr>
+        <tr><td>0–2</td><td>定义</td><td>我把 ____ 当成 ____ 。</td></tr>
+        <tr><td>2–4</td><td>态度</td><td>所以我看它时，首先注意到 ____ 。</td></tr>
+        <tr><td>4–6</td><td>行为</td><td>所以我下次会 ____ ，不会 ____ 。</td></tr>
+        <tr><td>6–8</td><td>三档问题</td><td>定义问、故事问、边界问，各一句，都能说出口。</td></tr>
+        <tr><td>8–10</td><td>检验</td><td>哪一句能引出故事或碰撞？留这句。另外两句降级或删掉。</td></tr>
+      </table>
+      <div class="script"><b>示范（语文 / 数学 / 英语）：</b>我把它们定义成表达世界的三种语言。态度是不再分主科副科。行为是遇到一个想法，就问它适合用概念、数量还是叙述说出来。定义问：「你把这道题定义成计算，还是定义成把世界说清楚？」</div>
+    </div>
+  </div>
+
+  <div class="conclusion">
+    <h2>带去下一场对话</h2>
+    <ol>
+      <li>先选定一个词。一场只问透这一个定义。</li>
+      <li>自动模式只负责开场。对方愿意多说，就切到「你把它当成什么」。</li>
+      <li>有了判断句，就追一场具体的事；有了两套定义，就并排看裂缝。</li>
+      <li>对方说不清时，停止追问。无以自明的沉默，本身就是对话的一部分。</li>
+      <li>结束前补一句边界：这个定义在哪里不能用。</li>
+    </ol>
+    <p class="conclusion-text" style="margin-top:16px">见解、故事、情绪、共鸣、碰撞，都是定义被问出来之后的现象。主持人掌握的是档位，不是更多的问题。</p>
+  </div>
+  <div class="footer"><p>站内播客蒸馏 · 定义决定对话 · 2026-10-19</p></div>
+</div>
+</body>
+</html>
