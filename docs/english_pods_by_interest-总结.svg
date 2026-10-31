@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="3602" viewBox="0 0 1320 3602">
+  <foreignObject x="0" y="0" width="1320" height="3602">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,0.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:20px 28px;text-align:center;min-width:140px;font-weight:700;font-size:15px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3{color:#92400e;margin-bottom:8px}
+.correction p{color:#92400e;font-size:15px}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,0.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.speaker{display:inline-block;font-size:13px;font-weight:600;padding:2px 10px;border-radius:12px;margin-right:8px}
+.speaker-host{background:#dbeafe;color:#1e40af}
+.speaker-guest{background:#ede9fe;color:#6b21a8}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,0.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,0.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,0.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}
+@media (max-width:640px){body,.container{padding:16px 12px!important}.container{max-width:100%!important}h1{font-size:24px!important}h2,.sec-title{font-size:18px!important}h3{font-size:16px!important}p,li{font-size:14px!important}.summary-line{font-size:15px!important;padding:14px 16px!important}.map,.card,.timeline{padding:16px!important;margin-bottom:16px!important}.map h2{font-size:18px!important}.diagram{gap:10px!important;padding:10px 0!important}.node{min-width:100px!important;padding:12px 16px!important;font-size:13px!important}.arrow{font-size:18px!important}.conclusion{padding:20px!important}.footer{padding:20px 0 12px!important}}</style>
+      
+<div class="container">
+
+<h1>EP191 别再找「学英文」的 Podcast 了！</h1>
+<div class="meta">
+  <span class="tag tag-blue">播客</span>
+  <span class="tag tag-purple">英语听力</span>
+  <span class="tag tag-green">推荐清单</span>
+  <span class="tag tag-orange">20分</span>
+</div>
+<div class="summary-line">接 EP188：想把英文 Podcast 听下去，别先找「最适合学英文」的节目。选你已有背景知识、真想知道 What happens next? 的领域——David 直接开清单：商业故事、体育故事、儿童故事。</div>
+
+<div class="timeline">
+  <h3>关键时间轴</h3>
+  <div class="timeline-item"><span class="timeline-time">00:00</span><span class="timeline-text">原则回顾：兴趣 + background knowledge &gt; 「学习向」标签</span></div>
+  <div class="timeline-item"><span class="timeline-time">02:11</span><span class="timeline-text">Business：Foundering / Business Wars / Acquired</span></div>
+  <div class="timeline-item"><span class="timeline-time">12:19</span><span class="timeline-text">Sports：30 for 30 与球队周边节目</span></div>
+  <div class="timeline-item"><span class="timeline-time">约后段</span><span class="timeline-text">Kids：听故事学英文、Forever Ago、Smash Boom Best 等</span></div>
+</div>
+
+<div class="map">
+  <h2>核心脉络</h2>
+  <div class="diagram">
+    <div class="node">先问兴趣<br/>想听什么</div>
+    <div class="arrow">→</div>
+    <div class="node node-green">背景知识<br/>猜得出来</div>
+    <div class="arrow">→</div>
+    <div class="node">持续听力<br/>What next?</div>
+    <div class="arrow">→</div>
+    <div class="node node-orange">英文进生活<br/>不是作业</div>
+  </div>
+</div>
+
+<div class="correction">
+  <h3>⚠ 常见误解 / 认知纠偏</h3>
+  <p>「适合学英文」≠ 听得下去。学习向节目常因内容无聊而断更；不熟领域的 3–4 小时 Acquired 会累死。也不要纠结听懂 70% 还是 90%——悬念比正确率更能驱动复听。</p>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">一、方法：四张知识卡</h2>
+
+  <div class="card">
+    <h3>Background / Context / 熟悉起点 / What happens next?</h3>
+    <table>
+      <tr><th>卡片</th><th>做法</th><th>边界</th></tr>
+      <tr><td>Background knowledge</td><td>选已认识人物/公司/球队的领域</td><td>纯猎奇新领域会更难</td></tr>
+      <tr><td>Context</td><td>用上下文猜漏听，不逐字翻译</td><td>仍需该领域常用词底</td></tr>
+      <tr><td>从熟悉开始</td><td>Acquired 先挑你极熟的公司；太难则下沉儿童节目</td><td>别一上来超长全英</td></tr>
+      <tr><td>What happens next?</td><td>找让你想知道下文的故事</td><td>别把正确率当 KPI</td></tr>
+    </table>
+    <div class="quote">不要先问哪个 Podcast 最适合学英文；先问什么是你真的想听的。</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">二、Business｜商业故事</h2>
+
+  <div class="card card-green">
+    <h3>不要利率预测局，要故事线</h3>
+    <p>David 不爱专家闲聊 Fed/EPS；要的是把公司、创始人、商战讲成 documentary。</p>
+    <table>
+      <tr><th>节目</th><th>为什么听</th><th>怎么入</th></tr>
+      <tr><td><b>Foundering</b>（Bloomberg）</td><td>一季一家/一人；大量访谈；有悬疑感（Amazon、WeWork、Sam Altman）</td><td>制作慢、一年一季，质量优先</td></tr>
+      <tr><td><b>Business Wars</b></td><td>Nike vs Adidas 等对战；场景+对话 re-enact，像 audio drama</td><td>练 conversation / negotiation 听力</td></tr>
+      <tr><td><b>Acquired</b></td><td>3–4 小时拆 history / model / strategy；主播各花百小时备课</td><td>先听你极熟的 NVIDIA/Meta/TSMC 等</td></tr>
+    </table>
+    <div class="highlight">Foundering 讲 Sam Altman：不只要懂 AI，要懂他如何攒 influence、董事会危机才立体。</div>
+    <div class="pitfall">英文还不稳时硬上 Acquired 全长 = 听力自虐。</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">三、Sports｜体育故事</h2>
+
+  <div class="card">
+    <h3>30 for 30：体育入口讲人与权力</h3>
+    <p>ESPN 制作：从体育切入金钱、种族、犯罪、家庭、政治、名人。同 Foundering 的「故事化」，入口换成运动。也可听自己球队（如 Michigan football、Seahawks）建立背景后再扩故事向。</p>
+    <div class="action">若你只懂一门运动：先订该队周边节目，再加一集 30 for 30 人物故事。</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">四、Kids &amp; Stories｜下沉也不丢人</h2>
+
+  <div class="card card-purple">
+    <h3>发音清楚、句子简单 = 合法脚手架</h3>
+    <p>推荐：《听故事学英文》（中文辅助）、Forever Ago、Smash Boom Best、Circle Round、Story Pirates、Storynory。爸爸场景可亲子共听，降低启动摩擦。</p>
+    <div class="relation">与「学英文 Podcast」的差别：儿童故事目标是听完故事，附带练听力；学习向常目标是练听力，故事很弱。</div>
+    <div class="action">本周：在 Apple/Spotify 订阅 1 个商业故事 + 1 个儿童节目；只听你已有背景的一集。</div>
+  </div>
+</div>
+
+<div class="conclusion">
+  <h2>总结与行动</h2>
+  <h3>核心要点</h3>
+  <ul>
+    <li>可持续听力靠兴趣与背景知识，不靠「学习向」标签。</li>
+    <li>商业听故事不听预测：Foundering / Business Wars / Acquired。</li>
+    <li>体育用 30 for 30 学叙事；球队节目铺 context。</li>
+    <li>太难就下沉儿童故事，不丢人。</li>
+    <li>KPI 是 What happens next?，不是听懂百分比。</li>
+  </ul>
+  <h3>行动清单</h3>
+  <ol>
+    <li>写下 3 个你已有背景的英文话题（公司/球队/爱好）。</li>
+    <li>每个话题订阅 1 档故事向 Podcast，先听最短/最熟的一集。</li>
+    <li>若 Foundering 更新慢：用 Business Wars 补场景对话听力。</li>
+    <li>Acquired 只挑你能向朋友复述商业模式的那家公司。</li>
+    <li>连续 7 天通勤只听「想知道下文」的节目，禁止换学习向清单。</li>
+  </ol>
+  <h3>关键认知转变</h3>
+  <p>以前把英文 Podcast 当作业选教材；现在把它当生活内容源——英文是载体，好奇心才是引擎。</p>
+</div>
+
+<div class="footer">来源：Blend Inn · 主播 David · 承接 EP188 听力方法</div>
+<a class="source-link" href="https://www.xiaoyuzhoufm.com/episode/6ad1d5d50e4e410a05bdd139">小宇宙原集链接</a>
+
+</div>
+
+    </div>
+  </foreignObject>
+</svg>

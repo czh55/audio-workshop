@@ -1,7 +1,22 @@
 {
  "generated": "2026-10-31",
- "count": 191,
+ "count": 192,
  "items": [
+  {
+   "slug": "ancient_jokes_serial",
+   "title": "古人讲起笑话，那真是没轻没重啊！｜串个台",
+   "date": "2026-10-31",
+   "author": "无聊斋 / 古籍新说",
+   "tags": [
+    "古籍",
+    "喜剧",
+    "文化"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/6adc656597726cd46756ef26",
+   "duration": "1小时07分",
+   "words": 21769,
+   "file": "transcripts/ancient_jokes_serial.txt"
+  },
   {
    "slug": "gen80_family_cfo",
    "title": "从“垮掉的一代”到全家CFO：80 后的消费何去何从？",
@@ -2807,15 +2822,15 @@
    "file": "transcripts/SpaceX开发史-播客总结.txt"
   },
   {
-   "slug": "ancient_jokes_serial",
-   "title": "ancient_jokes_serial",
+   "slug": "english_pods_by_interest",
+   "title": "english_pods_by_interest",
    "date": "",
    "author": "",
    "tags": [],
    "url": "",
    "duration": "",
-   "words": 21769,
-   "file": "transcripts/ancient_jokes_serial.txt"
+   "words": 9256,
+   "file": "transcripts/english_pods_by_interest.txt"
   },
   {
    "slug": "leica-dlux8",
