@@ -1,6 +1,6 @@
 {
  "generated": "2026-10-31",
- "count": 198,
+ "count": 199,
  "items": [
   {
    "slug": "ancient_jokes_serial",
@@ -16,6 +16,21 @@
    "duration": "1小时07分",
    "words": 21769,
    "file": "transcripts/ancient_jokes_serial.txt"
+  },
+  {
+   "slug": "consumerism_whats_expensive",
+   "title": "Ep 204｜消费主义带不动我以后，才发现什么是最贵的",
+   "date": "2026-10-31",
+   "author": "宁浪别野",
+   "tags": [
+    "消费",
+    "时间",
+    "生活"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/6a99225ea0210c197dccd1b6",
+   "duration": "1小时12分",
+   "words": 22483,
+   "file": "transcripts/consumerism_whats_expensive.txt"
   },
   {
    "slug": "dalian_seafood_happiness",
