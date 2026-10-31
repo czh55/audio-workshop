@@ -1,6 +1,6 @@
 {
  "generated": "2026-10-31",
- "count": 197,
+ "count": 198,
  "items": [
   {
    "slug": "ancient_jokes_serial",
@@ -91,6 +91,21 @@
    "duration": "1小时01分",
    "words": 20554,
    "file": "transcripts/lost_found_false_alarm.txt"
+  },
+  {
+   "slug": "newbie_camera_buying",
+   "title": "拍了十几年照片，给新手买相机提供一些思路～",
+   "date": "2026-10-31",
+   "author": "岸边坐着",
+   "tags": [
+    "摄影",
+    "器材",
+    "新手"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/6ad77933ef67611cac799439",
+   "duration": "42分钟",
+   "words": 14111,
+   "file": "transcripts/newbie_camera_buying.txt"
   },
   {
    "slug": "on_the_road_answers",
