@@ -1,7 +1,22 @@
 {
  "generated": "2026-10-31",
- "count": 189,
+ "count": 190,
  "items": [
+  {
+   "slug": "gen80_family_cfo",
+   "title": "从“垮掉的一代”到全家CFO：80 后的消费何去何从？",
+   "date": "2026-10-31",
+   "author": "难得正经｜商业版今夜不设防",
+   "tags": [
+    "消费",
+    "80后",
+    "商业"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/6add798f97726cd467573873",
+   "duration": "50分",
+   "words": 18310,
+   "file": "transcripts/gen80_family_cfo.txt"
+  },
   {
    "slug": "wet_market_observation",
    "title": "32.菜市场观察笔记：逛过几十座菜市场，在这里看见了城市最真实的日常",
@@ -2777,17 +2792,6 @@
    "file": "transcripts/SpaceX开发史-播客总结.txt"
   },
   {
-   "slug": "gen80_family_cfo",
-   "title": "gen80_family_cfo",
-   "date": "",
-   "author": "",
-   "tags": [],
-   "url": "",
-   "duration": "",
-   "words": 18310,
-   "file": "transcripts/gen80_family_cfo.txt"
-  },
-  {
    "slug": "leica-dlux8",
    "title": "leica-dlux8",
    "date": "",
@@ -2797,6 +2801,17 @@
    "duration": "",
    "words": 2155,
    "file": "transcripts/leica-dlux8.txt"
+  },
+  {
+   "slug": "on_the_road_answers",
+   "title": "on_the_road_answers",
+   "date": "",
+   "author": "",
+   "tags": [],
+   "url": "",
+   "duration": "",
+   "words": 23849,
+   "file": "transcripts/on_the_road_answers.txt"
   },
   {
    "slug": "spacex_history_podcast",
