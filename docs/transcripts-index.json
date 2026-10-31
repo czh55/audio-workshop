@@ -1,6 +1,6 @@
 {
- "generated": "2026-10-17",
- "count": 187,
+ "generated": "2026-10-31",
+ "count": 188,
  "items": [
   {
    "slug": "daoci_local_hidden_spots",
@@ -2782,6 +2782,17 @@
    "duration": "",
    "words": 52224,
    "file": "transcripts/spacex_history_podcast.txt"
+  },
+  {
+   "slug": "wet_market_observation",
+   "title": "wet_market_observation",
+   "date": "",
+   "author": "",
+   "tags": [],
+   "url": "",
+   "duration": "",
+   "words": 19080,
+   "file": "transcripts/wet_market_observation.txt"
   }
  ]
 }
