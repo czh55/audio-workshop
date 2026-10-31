@@ -1,6 +1,6 @@
 {
  "generated": "2026-10-31",
- "count": 195,
+ "count": 196,
  "items": [
   {
    "slug": "ancient_jokes_serial",
@@ -33,6 +33,21 @@
    "file": "transcripts/english_pods_by_interest.txt"
   },
   {
+   "slug": "food_love_to_know",
+   "title": "从爱吃，会吃到懂吃，你对美食的爱有多深？赞助. 鸭觅",
+   "date": "2026-10-31",
+   "author": "杂食者餐桌",
+   "tags": [
+    "饮食",
+    "方法论",
+    "餐厅"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/694b74680b60b7bf752c3d77",
+   "duration": "1小时44分",
+   "words": 35201,
+   "file": "transcripts/food_love_to_know.txt"
+  },
+  {
    "slug": "gen80_family_cfo",
    "title": "从“垮掉的一代”到全家CFO：80 后的消费何去何从？",
    "date": "2026-10-31",
@@ -46,6 +61,21 @@
    "duration": "50分",
    "words": 18310,
    "file": "transcripts/gen80_family_cfo.txt"
+  },
+  {
+   "slug": "lost_found_false_alarm",
+   "title": "Ep 207｜希望所有失去都是虚惊一场",
+   "date": "2026-10-31",
+   "author": "宁浪别野",
+   "tags": [
+    "失而复得",
+    "日常",
+    "寻宠"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/6ab4d7b3e742e36efcbac2a1",
+   "duration": "1小时01分",
+   "words": 20554,
+   "file": "transcripts/lost_found_false_alarm.txt"
   },
   {
    "slug": "on_the_road_answers",
@@ -2865,17 +2895,6 @@
    "duration": "3小时01分",
    "words": 52185,
    "file": "transcripts/SpaceX开发史-播客总结.txt"
-  },
-  {
-   "slug": "food_love_to_know",
-   "title": "food_love_to_know",
-   "date": "",
-   "author": "",
-   "tags": [],
-   "url": "",
-   "duration": "",
-   "words": 35201,
-   "file": "transcripts/food_love_to_know.txt"
   },
   {
    "slug": "leica-dlux8",
