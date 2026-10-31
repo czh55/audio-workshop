@@ -1,6 +1,6 @@
 {
  "generated": "2026-10-31",
- "count": 190,
+ "count": 191,
  "items": [
   {
    "slug": "gen80_family_cfo",
@@ -16,6 +16,21 @@
    "duration": "50分",
    "words": 18310,
    "file": "transcripts/gen80_family_cfo.txt"
+  },
+  {
+   "slug": "on_the_road_answers",
+   "title": "Ep 016｜问题不是坐在原地解决的，越迷茫越要“在路上”",
+   "date": "2026-10-31",
+   "author": "女子立风",
+   "tags": [
+    "创作",
+    "旅行",
+    "成长"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/6adca01fc96c8942ec1193c4",
+   "duration": "1小时20分",
+   "words": 23849,
+   "file": "transcripts/on_the_road_answers.txt"
   },
   {
    "slug": "wet_market_observation",
@@ -2792,6 +2807,17 @@
    "file": "transcripts/SpaceX开发史-播客总结.txt"
   },
   {
+   "slug": "ancient_jokes_serial",
+   "title": "ancient_jokes_serial",
+   "date": "",
+   "author": "",
+   "tags": [],
+   "url": "",
+   "duration": "",
+   "words": 21769,
+   "file": "transcripts/ancient_jokes_serial.txt"
+  },
+  {
    "slug": "leica-dlux8",
    "title": "leica-dlux8",
    "date": "",
@@ -2801,17 +2827,6 @@
    "duration": "",
    "words": 2155,
    "file": "transcripts/leica-dlux8.txt"
-  },
-  {
-   "slug": "on_the_road_answers",
-   "title": "on_the_road_answers",
-   "date": "",
-   "author": "",
-   "tags": [],
-   "url": "",
-   "duration": "",
-   "words": 23849,
-   "file": "transcripts/on_the_road_answers.txt"
   },
   {
    "slug": "spacex_history_podcast",
