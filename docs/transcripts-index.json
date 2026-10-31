@@ -1,6 +1,6 @@
 {
  "generated": "2026-10-31",
- "count": 192,
+ "count": 193,
  "items": [
   {
    "slug": "ancient_jokes_serial",
@@ -16,6 +16,21 @@
    "duration": "1小时07分",
    "words": 21769,
    "file": "transcripts/ancient_jokes_serial.txt"
+  },
+  {
+   "slug": "english_pods_by_interest",
+   "title": "EP191 别再找「学英文」的 Podcast 了！",
+   "date": "2026-10-31",
+   "author": "Blend Inn",
+   "tags": [
+    "英语",
+    "播客推荐",
+    "听力"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/6ad1d5d50e4e410a05bdd139",
+   "duration": "20分",
+   "words": 9256,
+   "file": "transcripts/english_pods_by_interest.txt"
   },
   {
    "slug": "gen80_family_cfo",
@@ -2822,17 +2837,6 @@
    "file": "transcripts/SpaceX开发史-播客总结.txt"
   },
   {
-   "slug": "english_pods_by_interest",
-   "title": "english_pods_by_interest",
-   "date": "",
-   "author": "",
-   "tags": [],
-   "url": "",
-   "duration": "",
-   "words": 9256,
-   "file": "transcripts/english_pods_by_interest.txt"
-  },
-  {
    "slug": "leica-dlux8",
    "title": "leica-dlux8",
    "date": "",
@@ -2842,6 +2846,17 @@
    "duration": "",
    "words": 2155,
    "file": "transcripts/leica-dlux8.txt"
+  },
+  {
+   "slug": "share_happy_unhappy",
+   "title": "share_happy_unhappy",
+   "date": "",
+   "author": "",
+   "tags": [],
+   "url": "",
+   "duration": "",
+   "words": 24228,
+   "file": "transcripts/share_happy_unhappy.txt"
   },
   {
    "slug": "spacex_history_podcast",
