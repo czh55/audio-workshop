@@ -1,6 +1,6 @@
 {
  "generated": "2026-10-31",
- "count": 194,
+ "count": 195,
  "items": [
   {
    "slug": "ancient_jokes_serial",
@@ -76,6 +76,21 @@
    "duration": "1小时12分",
    "words": 24228,
    "file": "transcripts/share_happy_unhappy.txt"
+  },
+  {
+   "slug": "street_harassment_response",
+   "title": "燕外之意｜遇到街头骚扰怎么办",
+   "date": "2026-10-31",
+   "author": "燕外之意",
+   "tags": [
+    "安全",
+    "女性",
+    "互助"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/6ad596e10e4e410a05bef67d",
+   "duration": "1小时45分",
+   "words": 33720,
+   "file": "transcripts/street_harassment_response.txt"
   },
   {
    "slug": "wet_market_observation",
@@ -2852,6 +2867,17 @@
    "file": "transcripts/SpaceX开发史-播客总结.txt"
   },
   {
+   "slug": "food_love_to_know",
+   "title": "food_love_to_know",
+   "date": "",
+   "author": "",
+   "tags": [],
+   "url": "",
+   "duration": "",
+   "words": 35201,
+   "file": "transcripts/food_love_to_know.txt"
+  },
+  {
    "slug": "leica-dlux8",
    "title": "leica-dlux8",
    "date": "",
@@ -2872,17 +2898,6 @@
    "duration": "",
    "words": 52224,
    "file": "transcripts/spacex_history_podcast.txt"
-  },
-  {
-   "slug": "street_harassment_response",
-   "title": "street_harassment_response",
-   "date": "",
-   "author": "",
-   "tags": [],
-   "url": "",
-   "duration": "",
-   "words": 33720,
-   "file": "transcripts/street_harassment_response.txt"
   }
  ]
 }
