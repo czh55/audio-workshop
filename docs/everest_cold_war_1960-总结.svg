@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="3387" viewBox="0 0 1320 3387">
+  <foreignObject x="0" y="0" width="1320" height="3387">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#0f172a}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:30px;font-weight:900;background:linear-gradient(135deg,#0f172a,#334155);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e293b;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #cbd5e1}
+h3{font-size:20px;font-weight:700;color:#0f172a;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#334155;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-slate{background:#e2e8f0;color:#1e293b}
+.tag-red{background:#fee2e2;color:#991b1b}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-amber{background:#fef3c7;color:#92400e}
+.tag-green{background:#d1fae5;color:#065f46}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #475569;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline h3{color:#1e293b;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#475569;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,0.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0;color:#1e293b}
+.diagram{display:flex;align-items:center;justify-content:center;gap:14px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#f8fafc,#e2e8f0);border:2px solid #94a3b8;border-radius:16px;padding:16px 20px;text-align:center;min-width:110px;font-weight:700;font-size:13px;color:#1e293b}
+.node-red{background:linear-gradient(135deg,#fef2f2,#fee2e2);border-color:#fca5a5;color:#991b1b}
+.node-blue{background:linear-gradient(135deg,#eff6ff,#dbeafe);border-color:#93c5fd;color:#1e40af}
+.node-amber{background:linear-gradient(135deg,#fffbeb,#fef3c7);border-color:#fcd34d;color:#92400e}
+.arrow{font-size:20px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3{color:#92400e;margin-bottom:8px}
+.correction p{color:#92400e;font-size:15px}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e293b;margin-bottom:16px;padding-left:16px;border-left:4px solid #475569}
+.card{background:#fff;border-radius:16px;padding:28px;margin-bottom:18px;box-shadow:0 4px 24px rgba(0,0,0,0.06);border-left:5px solid #475569}
+.card.card-red{border-left-color:#ef4444}
+.card.card-blue{border-left-color:#3b82f6}
+.card.card-amber{border-left-color:#f59e0b}
+.card.card-green{border-left-color:#10b981}
+.card h3{font-size:19px;font-weight:700;color:#1e293b;margin-bottom:12px}
+.card p{font-size:15px;line-height:1.8;color:#475569;margin-bottom:10px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .action{background:#f1f5f9;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e293b;border-left:4px solid #64748b}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:14px}
+th{background:#f1f5f9;padding:12px 14px;text-align:left;font-weight:700;color:#1e293b;border-bottom:2px solid #cbd5e1}
+td{padding:12px 14px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#f8fafc}
+.conclusion{background:linear-gradient(135deg,#0f172a,#334155);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,0.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,0.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,0.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#475569;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}
+@media (max-width:640px){body,.container{padding:16px 12px!important}.container{max-width:100%!important}h1{font-size:22px!important}h2,.sec-title{font-size:18px!important}h3{font-size:16px!important}p,li{font-size:14px!important}.summary-line{font-size:15px!important;padding:14px 16px!important}.map,.card,.timeline{padding:16px!important}.diagram{gap:10px!important}.node{min-width:100px!important;padding:12px 14px!important;font-size:12px!important}.conclusion{padding:20px!important}}</style>
+      
+<div class="container">
+
+<h1>150 珠峰上的冷战：1960 年中苏分裂与中印对峙下的攀登</h1>
+<div class="meta">
+  <span class="tag tag-slate">播客</span>
+  <span class="tag tag-red">历史</span>
+  <span class="tag tag-blue">登山</span>
+  <span class="tag tag-amber">冷战</span>
+  <span class="tag tag-green">58分钟</span>
+</div>
+<div class="summary-line">1960-05-25 凌晨，王富洲、贡布、屈银华从北坡登顶珠峰——中国人首次、人类首次北坡成功。无峰顶影像曾遭质疑；背后是中苏联合计划中止、中尼划界、中印隔空竞逐、绒布寺大本营与数百人运输链。登山史收集者马德民与高海博还原：这是极限攀登，更是国家、边界与时代叙事。</div>
+
+<div class="timeline">
+  <h3>关键时间轴</h3>
+  <div class="timeline-item"><span class="timeline-time">01:30</span><span class="timeline-text">从户外编辑到登山口述史</span></div>
+  <div class="timeline-item"><span class="timeline-time">05:46</span><span class="timeline-text">无峰顶影像，为何一度被质疑</span></div>
+  <div class="timeline-item"><span class="timeline-time">10:12</span><span class="timeline-text">中苏合作与慕士塔格登顶起步</span></div>
+  <div class="timeline-item"><span class="timeline-time">18:25</span><span class="timeline-text">贡嘎山遇难后，专业组织如何建立</span></div>
+  <div class="timeline-item"><span class="timeline-time">21:15</span><span class="timeline-text">中尼划界 + 中苏转冷：计划为何改道</span></div>
+  <div class="timeline-item"><span class="timeline-time">31:21</span><span class="timeline-text">苏联撤出后，中国队独自面对北坡</span></div>
+  <div class="timeline-item"><span class="timeline-time">40:20</span><span class="timeline-text">第二台阶：刘连满人梯，屈银华脱鞋</span></div>
+  <div class="timeline-item"><span class="timeline-time">46:23</span><span class="timeline-text">氧气耗尽、深夜登顶：为何无照片</span></div>
+  <div class="timeline-item"><span class="timeline-time">51:39</span><span class="timeline-text">1975 再登顶：影像、测量与更多人</span></div>
+  <div class="timeline-item"><span class="timeline-time">53:28</span><span class="timeline-text">珠峰的个人化与商业化</span></div>
+</div>
+
+<div class="map">
+  <h2>核心脉络</h2>
+  <div class="diagram">
+    <div class="node">中苏联合<br/>计划</div>
+    <div class="arrow">→</div>
+    <div class="node node-red">关系转冷<br/>苏方撤出</div>
+    <div class="arrow">→</div>
+    <div class="node node-amber">独自北坡<br/>国家动员</div>
+    <div class="arrow">→</div>
+    <div class="node node-blue">1960 登顶<br/>边界叙事</div>
+  </div>
+</div>
+
+<div class="correction">
+  <h3>⚠ 常见误解 / 认知纠偏</h3>
+  <p>「没有峰顶照片 = 没登顶」忽略了氧气耗尽与深夜冲顶的极限条件；质疑长期存在，但北坡首次成功的历史意义不因影像缺失而自动作废。珠峰也不是纯体育赛事——中尼划界、西藏局势、中印竞争与中苏分裂，把登山写成冷战边疆上的国家行动。</p>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">一、为何必须登：从合作到独自</h2>
+
+  <div class="card">
+    <h3>苏联风格 vs 英联邦远征</h3>
+    <p>苏联登山偏团队竞赛、全员安全与训练营体系，群众基础厚；1953 英联邦队则靠亨特式军事化管理 + 丹增已探路线，完成南坡首次确证登顶。中国经慕士塔格（中苏联合）起步，贡嘎山独立证明实力却代价惨重，催生登山处/中国登山协会——目的被定为：科学考察、经济建设与国防安全服务。</p>
+    <div class="highlight">珠峰计划原属中苏联合；关系转冷后苏方撤出，中国队必须在有限窗口独自完成北坡。</div>
+  </div>
+
+  <div class="card card-blue">
+    <h3>划界与边疆政治</h3>
+    <p>尼泊尔侧已有登顶叙事时，中尼边界谈判需要「站上峰顶」的权重；西藏评判与中印隔空竞逐，使珠峰同时成为政治与军事意义的高地。修路、绒布寺气象站、装备采购与数百人运输链，才是登顶前真正的国家工程。</p>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">二、如何登上去：人梯与无影像</h2>
+
+  <div class="card card-amber">
+    <h3>第二台阶与战士叙事</h3>
+    <table>
+      <tr><th>节点</th><th>人物 / 动作</th><th>意义</th></tr>
+      <tr><td>~8600m 第二台阶</td><td>刘连满搭人梯；屈银华脱鞋攀岩</td><td>北坡最难技术关，打破「北坡不可登」论断</td></tr>
+      <tr><td>突击组</td><td>王富洲、贡布、屈银华</td><td>1960-05-25 凌晨登顶</td></tr>
+      <tr><td>下撤氧气</td><td>刘连满留氧供队友</td><td>「珠峰上的人梯」集体伦理</td></tr>
+      <tr><td>无峰顶照</td><td>氧气耗尽 + 深夜</td><td>长期国际质疑的根源</td></tr>
+    </table>
+    <div class="quote">队员自视为战士：极限条件下的服从与牺牲，是冷战年代国家登山的精神语法。</div>
+    <div class="pitfall">把 1960 简化成「个人英雄冲顶」，会抹掉运输接力、大本营指挥（韩复东等）与组织史。</div>
+  </div>
+
+  <div class="card card-green">
+    <h3>1975 与之后</h3>
+    <p>1975 年九人北坡登顶，潘多为北坡首位女性；留下影像与高程测量，补上档案空白。此后珠峰走向个人化与商业化——与 1960 的国家动员形成对照：同一座山，不同时代的登法与叙事。</p>
+    <div class="action">延伸阅读：马德民《冬攀时代》；关注其珠峰史新书；对照马洛里/欧文北坡之谜与希拉里—丹增南坡确证。</div>
+  </div>
+</div>
+
+<div class="conclusion">
+  <h2>总结与行动</h2>
+  <h3>核心要点</h3>
+  <ul>
+    <li>1960 北坡登顶 = 体育极限 + 划界政治 + 中苏分裂后的独自证明。</li>
+    <li>无影像不等于无行动；极限夜登解释了档案缺口，也解释了质疑。</li>
+    <li>人梯与留氧体现集体伦理，而非个人纪录崇拜。</li>
+    <li>后勤与组织（路、站、运输、协会）是登顶的真正底座。</li>
+    <li>从国家动员到商业个人化，是珠峰史的长时段变化。</li>
+  </ul>
+  <h3>行动清单</h3>
+  <ol>
+    <li>对照时间轴重读一次：把「登顶日」放回 1958–1960 外交年表。</li>
+    <li>记下第二台阶三人角色分工，避免只记突击组姓名。</li>
+    <li>区分 1953 南坡确证 vs 1960 北坡首次 vs 1975 影像补全。</li>
+    <li>若关心当代珠峰：比较国家队时代与商业向导时代的风险结构。</li>
+    <li>找一部口述/纪录片，听运输队员而非只听冲顶叙事。</li>
+  </ol>
+  <h3>关键认知转变</h3>
+  <p>以前把珠峰当作英雄登高故事；现在看见 1960 是冷战边疆上的国家工程——山在那里，意义由边界、同盟破裂与时代语法写成。</p>
+</div>
+
+<div class="footer">来源：历史学人 · 高海博 × 马德民 · 单向街基金会</div>
+<a class="source-link" href="https://www.xiaoyuzhoufm.com/episode/6aaf9a880916f6f8b4463184">小宇宙原集链接</a>
+
+</div>
+
+    </div>
+  </foreignObject>
+</svg>

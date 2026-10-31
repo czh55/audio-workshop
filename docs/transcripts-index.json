@@ -1,6 +1,6 @@
 {
  "generated": "2026-10-31",
- "count": 200,
+ "count": 201,
  "items": [
   {
    "slug": "ancient_jokes_serial",
@@ -61,6 +61,21 @@
    "duration": "20分",
    "words": 9256,
    "file": "transcripts/english_pods_by_interest.txt"
+  },
+  {
+   "slug": "everest_cold_war_1960",
+   "title": "150 珠峰上的冷战：1960 年中苏分裂与中印对峙下的攀登",
+   "date": "2026-10-31",
+   "author": "历史学人",
+   "tags": [
+    "历史",
+    "登山",
+    "冷战"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/6aaf9a880916f6f8b4463184",
+   "duration": "58分钟",
+   "words": 16926,
+   "file": "transcripts/everest_cold_war_1960.txt"
   },
   {
    "slug": "food_love_to_know",
