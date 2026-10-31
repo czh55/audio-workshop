@@ -1,7 +1,22 @@
 {
  "generated": "2026-10-31",
- "count": 188,
+ "count": 189,
  "items": [
+  {
+   "slug": "wet_market_observation",
+   "title": "32.菜市场观察笔记：逛过几十座菜市场，在这里看见了城市最真实的日常",
+   "date": "2026-10-31",
+   "author": "再吃一口 one more BITE",
+   "tags": [
+    "城市观察",
+    "饮食",
+    "菜市场"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/6ade94e197726cd467578e3d",
+   "duration": "56分",
+   "words": 19080,
+   "file": "transcripts/wet_market_observation.txt"
+  },
   {
    "slug": "daoci_local_hidden_spots",
    "title": "Vol.63 网红景点去吐了？从南到北，本地人私藏玩法大公开！",
@@ -2762,6 +2777,17 @@
    "file": "transcripts/SpaceX开发史-播客总结.txt"
   },
   {
+   "slug": "gen80_family_cfo",
+   "title": "gen80_family_cfo",
+   "date": "",
+   "author": "",
+   "tags": [],
+   "url": "",
+   "duration": "",
+   "words": 18310,
+   "file": "transcripts/gen80_family_cfo.txt"
+  },
+  {
    "slug": "leica-dlux8",
    "title": "leica-dlux8",
    "date": "",
@@ -2782,17 +2808,6 @@
    "duration": "",
    "words": 52224,
    "file": "transcripts/spacex_history_podcast.txt"
-  },
-  {
-   "slug": "wet_market_observation",
-   "title": "wet_market_observation",
-   "date": "",
-   "author": "",
-   "tags": [],
-   "url": "",
-   "duration": "",
-   "words": 19080,
-   "file": "transcripts/wet_market_observation.txt"
   }
  ]
 }
