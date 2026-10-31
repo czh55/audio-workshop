@@ -1,6 +1,6 @@
 {
  "generated": "2026-10-31",
- "count": 196,
+ "count": 197,
  "items": [
   {
    "slug": "ancient_jokes_serial",
@@ -16,6 +16,21 @@
    "duration": "1小时07分",
    "words": 21769,
    "file": "transcripts/ancient_jokes_serial.txt"
+  },
+  {
+   "slug": "dalian_seafood_happiness",
+   "title": "16.北纬39度的美食诱惑，去大连吃海鲜看海就很幸福啊！",
+   "date": "2026-10-31",
+   "author": "下一站小城",
+   "tags": [
+    "定居",
+    "美食",
+    "旅行"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/684d54502a38b4d9799f92ef",
+   "duration": "1小时45分",
+   "words": 32618,
+   "file": "transcripts/dalian_seafood_happiness.txt"
   },
   {
    "slug": "english_pods_by_interest",
