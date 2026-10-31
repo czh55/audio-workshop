@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="3896" viewBox="0 0 1320 3896">
+  <foreignObject x="0" y="0" width="1320" height="3896">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#f8fafc,#e2e8f0);padding:48px 60px;color:#1e293b}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:36px;font-weight:900;background:linear-gradient(135deg,#1e40af,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#1e40af;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e2e8f0}
+h3{font-size:20px;font-weight:700;color:#334155;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#475569;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-orange{background:#ffedd5;color:#9a3412}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-red{background:#fee2e2;color:#991b1b}
+.tag-gray{background:#f1f5f9;color:#64748b}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#334155;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #3b82f6;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline h3{color:#1e40af;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #f1f5f9}
+.timeline-time{font-size:14px;font-weight:700;color:#3b82f6;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#475569}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,0.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0}
+.diagram{display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:16px;padding:20px 28px;text-align:center;min-width:130px;font-weight:700;font-size:15px;color:#1e40af}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.node-orange{background:linear-gradient(135deg,#fff7ed,#ffedd5);border-color:#fdba74;color:#9a3412}
+.arrow{font-size:24px;color:#94a3b8}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3{color:#92400e;margin-bottom:8px}
+.correction p{color:#92400e;font-size:15px}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#1e40af;margin-bottom:16px;padding-left:16px;border-left:4px solid #3b82f6}
+.card{background:#fff;border-radius:16px;padding:32px;margin-bottom:20px;box-shadow:0 4px 24px rgba(0,0,0,0.06);border-left:5px solid #3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card.card-orange{border-left-color:#f59e0b}
+.card.card-purple{border-left-color:#8b5cf6}
+.card h3{font-size:20px;font-weight:700;color:#1e40af;margin-bottom:12px}
+.card p{font-size:16px;line-height:1.8;color:#475569;margin-bottom:10px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#f8fafc;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#64748b;border-left:4px solid #cbd5e1;font-style:italic}
+.card .relation{background:#f0fdf4;padding:10px 14px;border-radius:10px;margin:8px 0;font-size:14px;color:#166534}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+.card .action{background:#eff6ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#1e40af;border-left:4px solid #3b82f6}
+.speaker{display:inline-block;font-size:13px;font-weight:600;padding:2px 10px;border-radius:12px;margin-right:8px}
+.speaker-host{background:#dbeafe;color:#1e40af}
+.speaker-guest{background:#ede9fe;color:#6b21a8}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:15px}
+th{background:#f1f5f9;padding:12px 16px;text-align:left;font-weight:700;color:#1e40af;border-bottom:2px solid #cbd5e1}
+td{padding:12px 16px;border-bottom:1px solid #e2e8f0;color:#475569;vertical-align:top}
+tr:nth-child(even) td{background:#fafbfc}
+.conclusion{background:linear-gradient(135deg,#1e40af,#3b82f6);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,0.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,0.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,0.9);font-size:15px}
+.footer{text-align:center;color:#94a3b8;font-size:13px;padding:32px 0 16px}
+.source-link{color:#3b82f6;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}
+@media (max-width:640px){body,.container{padding:16px 12px!important}.container{max-width:100%!important}h1{font-size:24px!important}h2,.sec-title{font-size:18px!important}h3{font-size:16px!important}p,li{font-size:14px!important}.summary-line{font-size:15px!important;padding:14px 16px!important}.map,.card,.timeline{padding:16px!important;margin-bottom:16px!important}.map h2{font-size:18px!important}.diagram{gap:10px!important;padding:10px 0!important}.node{min-width:100px!important;padding:12px 16px!important;font-size:13px!important}.arrow{font-size:18px!important}.conclusion{padding:20px!important}.footer{padding:20px 0 12px!important}}</style>
+      
+<div class="container">
+
+<h1>燕外之意｜遇到街头骚扰怎么办</h1>
+<div class="meta">
+  <span class="tag tag-blue">播客</span>
+  <span class="tag tag-purple">安全</span>
+  <span class="tag tag-orange">互助</span>
+  <span class="tag tag-red">1小时45分</span>
+</div>
+<div class="summary-line">朋友私信：广州街头反复被搭话、碰手臂，查「能不能报警」却只看到「忍忍算了」。主播与听友把应对说透——大声命名、开团秒跟、留下报警痕迹、帮陌生人挡位；并强调：没少块肉也是真实伤害，穿什么都与「活该」无关。</div>
+
+<div class="timeline">
+  <h3>关键时间轴（议题脉络）</h3>
+  <div class="timeline-item"><span class="timeline-time">00:00</span><span class="timeline-text">私信引题：言语+轻微肢体骚扰如何应对</span></div>
+  <div class="timeline-item"><span class="timeline-time">01:32</span><span class="timeline-text">北京地铁「猎狼小组」与报警为何仍要做</span></div>
+  <div class="timeline-item"><span class="timeline-time">中段</span><span class="timeline-text">听友案例：公交、电梯、扶梯追加微信、偷拍、尾随</span></div>
+  <div class="timeline-item"><span class="timeline-time">后段</span><span class="timeline-text">互助：换位挡人、统一开团、气势与取证</span></div>
+  <div class="timeline-item"><span class="timeline-time">01:44</span><span class="timeline-text">收束：持续谈论，抵制「不是大事」话语</span></div>
+</div>
+
+<div class="map">
+  <h2>核心脉络</h2>
+  <div class="diagram">
+    <div class="node">命名骚扰<br/>别忍成默认</div>
+    <div class="arrow">→</div>
+    <div class="node node-green">当场策略<br/>声量·离场</div>
+    <div class="arrow">→</div>
+    <div class="node">记录报警<br/>留下痕迹</div>
+    <div class="arrow">→</div>
+    <div class="node node-orange">同伴开团<br/>陌生人互助</div>
+  </div>
+</div>
+
+<div class="correction">
+  <h3>⚠ 常见误解 / 认知纠偏</h3>
+  <p>「也没少块肉」「你太敏感」是消音话术。骚扰与打扮、长短发、羽绒服或裙裤无关——拒绝后被骂「骚」正是权力报复。报警未必一次见效，但多次立案会抬高后续权重；警察管不了的那一刻，仍可优先离场保命。</p>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">一、为什么要一直说</h2>
+
+  <div class="card">
+    <h3>不是大事吗？</h3>
+    <p>私信朋友：无严重外伤，但走街提心吊胆。主播立场：它真实滋扰生活，不公平，就要一直说。社会近年「没少块肉」话术变少——进步仍不够。</p>
+    <div class="quote">猎狼小组跟拍案例：受害女生穿普通衬衣牛仔裤；色狼自称「喜欢长头发」——受害者没有做错任何事。</div>
+  </div>
+
+  <div class="card card-green">
+    <h3>报警：有用没用，先留下痕迹</h3>
+    <p>广东听友被长期跟踪：第一次警告无效，第二次警察明确肯定「你该来」，深夜追逐躲进店后才真正处理。茶餐厅对面唱 fuck you 骚扰——服务员劝无效时，策略只能是快吃离开。</p>
+    <div class="action">能报警就报：留申请记录；判断人身危险优先时，先撤离到有人处，再补证据。</div>
+    <div class="pitfall">别因「警察可能不管」而自我取消报案权。</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">二、当场应对工具箱</h2>
+
+  <div class="card">
+    <h3>听友实操对照</h3>
+    <table>
+      <tr><th>场景</th><th>做法</th><th>要点</th></tr>
+      <tr><td>碰触/摸</td><td>大声命名：「别碰我」「性骚扰」</td><td>妈妈在公交上的示范可代际传递</td></tr>
+      <tr><td>电梯打量</td><td>默数超 5 秒直接质问并提报警</td><td>把凝视从「暧昧」改成「违规」</td></tr>
+      <tr><td>扶梯追加微信/捅胳膊</td><td>别笑着拒；直拒+「再跟报警」；同伴换位挡人</td><td>笑拒会被读成矜持</td></tr>
+      <tr><td>偷拍</td><td>指认+要手机查删；查「上面还有没有」</td><td>朋友开团秒跟，气势比单打强</td></tr>
+      <tr><td>尾随/碰脚</td><td>尽快脱离；事后练力量不等于怂</td><td>高跟鞋追不上是现实约束</td></tr>
+    </table>
+    <div class="highlight">花城汇天桥：一人盯梢、一人要手机、第三人提醒相册上层——统一开团，不让对方用「至于吗」糊弄过去。</div>
+  </div>
+
+  <div class="card card-orange">
+    <h3>⚠ 身体对抗要谨慎</h3>
+    <p>有听友冲上去踹露阴者——解气，但主播强调人身风险。幻想「我是巨石强生」很常见；现实优先保命与取证。清秀男生/穿女装的高个男生也会被搭讪——目标是「可被性化的符号」，不唯「真女人」。</p>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">三、帮朋友与帮陌生人</h2>
+
+  <div class="card card-purple">
+    <h3>💡 心法：开团秒跟 + 换位</h3>
+    <p>王府井扶梯：同伴从「蒙圈」学会换位置挡住；公交上挡在受害女生与偷看裙底的老人之间。力量来自人数与一致口径，不是单打独斗的勇敢表演。</p>
+    <div class="action">和常出门的朋友约定暗语：一句「报警了啊」即切换防守阵型。</div>
+    <div class="relation">驾校无证教练摸大腿 → 查资质举报换教练：制度路径与当场声量可并行。</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">四、穿什么都不是原因</h2>
+
+  <div class="card">
+    <h3>裙裤与羽绒服都被骂「骚」</h3>
+    <p>北京两次：拒绝带路/澄清没叫车后，驾驶座喊辱骂。本质是猎物逻辑——你拒绝成为猎物，对方就用辱骂夺回权力。</p>
+    <div class="quote">你长什么样其实没有关系；你只要能被当成女性符号，就可能被放进骚扰剧本。</div>
+  </div>
+</div>
+
+<div class="conclusion">
+  <h2>总结与行动</h2>
+  <h3>核心要点</h3>
+  <ul>
+    <li>骚扰伤害真实：情绪与安全都算数，不是「没少块肉」。</li>
+    <li>当场：大声命名、直拒、离场；同伴开团秒跟。</li>
+    <li>事后：能报就报，留下痕迹；查删偷拍、举报无资质。</li>
+    <li>与穿着无关；拒绝后的辱骂是报复，不是你的错。</li>
+    <li>持续公开讨论，压缩「忍忍算了」的社会空间。</li>
+  </ul>
+  <h3>行动清单</h3>
+  <ol>
+    <li>练一句出口成章的拒绝/命名句，手机备忘录置顶。</li>
+    <li>与 1–2 位常同行朋友约定骚扰时的换位与暗语。</li>
+    <li>若被跟踪/反复滋扰：第一次就报警留底，不要等「更严重」。</li>
+    <li>路遇陌生女孩被缠：询问「需要帮忙吗」比旁观更有力。</li>
+    <li>拒绝「她穿成那样」的归因话术，当面纠正。</li>
+  </ol>
+  <h3>关键认知转变</h3>
+  <p>以前觉得轻微骚扰「报警也没用」所以不必作为；现在明白作为本身改变权重——对警察、对同伴、对自己：这不是鸡毛蒜皮，是边界。</p>
+</div>
+
+<div class="footer">来源：燕外之意 · 主播 @在也门钓鲑鱼 @尉迟燕窝 · 第 259 期</div>
+<a class="source-link" href="https://www.xiaoyuzhoufm.com/episode/6ad596e10e4e410a05bef67d">小宇宙原集链接</a>
+
+</div>
+
+    </div>
+  </foreignObject>
+</svg>

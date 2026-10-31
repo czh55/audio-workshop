@@ -1,6 +1,6 @@
 {
  "generated": "2026-10-31",
- "count": 193,
+ "count": 194,
  "items": [
   {
    "slug": "ancient_jokes_serial",
@@ -61,6 +61,21 @@
    "duration": "1小时20分",
    "words": 23849,
    "file": "transcripts/on_the_road_answers.txt"
+  },
+  {
+   "slug": "share_happy_unhappy",
+   "title": "Ep 209｜把开心的、不开心的事儿，说出来！让大家高兴高兴！",
+   "date": "2026-10-31",
+   "author": "宁浪别野",
+   "tags": [
+    "友情",
+    "日常",
+    "女性"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/6ad9f63cc96c8942ec10b083",
+   "duration": "1小时12分",
+   "words": 24228,
+   "file": "transcripts/share_happy_unhappy.txt"
   },
   {
    "slug": "wet_market_observation",
@@ -2848,17 +2863,6 @@
    "file": "transcripts/leica-dlux8.txt"
   },
   {
-   "slug": "share_happy_unhappy",
-   "title": "share_happy_unhappy",
-   "date": "",
-   "author": "",
-   "tags": [],
-   "url": "",
-   "duration": "",
-   "words": 24228,
-   "file": "transcripts/share_happy_unhappy.txt"
-  },
-  {
    "slug": "spacex_history_podcast",
    "title": "spacex_history_podcast",
    "date": "",
@@ -2868,6 +2872,17 @@
    "duration": "",
    "words": 52224,
    "file": "transcripts/spacex_history_podcast.txt"
+  },
+  {
+   "slug": "street_harassment_response",
+   "title": "street_harassment_response",
+   "date": "",
+   "author": "",
+   "tags": [],
+   "url": "",
+   "duration": "",
+   "words": 33720,
+   "file": "transcripts/street_harassment_response.txt"
   }
  ]
 }
