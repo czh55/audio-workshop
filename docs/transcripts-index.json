@@ -1,6 +1,6 @@
 {
  "generated": "2026-11-07",
- "count": 208,
+ "count": 209,
  "items": [
   {
    "slug": "creative_coffee_signature",
@@ -16,6 +16,21 @@
    "duration": "1小时32分",
    "words": 30729,
    "file": "transcripts/creative_coffee_signature.txt"
+  },
+  {
+   "slug": "open_relationship_how_open",
+   "title": "Vol.58-聊聊开放式关系，到底能有多开放？",
+   "date": "2026-11-07",
+   "author": "短期逃离",
+   "tags": [
+    "亲密关系",
+    "开放关系",
+    "播客"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/692dbe9d6758707405bc551e",
+   "duration": "1小时08分",
+   "words": 21677,
+   "file": "transcripts/open_relationship_how_open.txt"
   },
   {
    "slug": "shangk_male_models",
