@@ -1,6 +1,6 @@
 {
  "generated": "2026-11-07",
- "count": 207,
+ "count": 208,
  "items": [
   {
    "slug": "creative_coffee_signature",
@@ -16,6 +16,21 @@
    "duration": "1小时32分",
    "words": 30729,
    "file": "transcripts/creative_coffee_signature.txt"
+  },
+  {
+   "slug": "shangk_male_models",
+   "title": "E116. 商K点男模观察：炒币韭菜、游泳教练、自媒体大V",
+   "date": "2026-11-07",
+   "author": "双响屁",
+   "tags": [
+    "播客",
+    "男色消费",
+    "观察"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/6a1510a48b5c94538eb6d290",
+   "duration": "42分",
+   "words": 14945,
+   "file": "transcripts/shangk_male_models.txt"
   },
   {
    "slug": "china_population_3h",
