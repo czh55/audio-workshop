@@ -1,7 +1,22 @@
 {
  "generated": "2026-11-07",
- "count": 206,
+ "count": 207,
  "items": [
+  {
+   "slug": "creative_coffee_signature",
+   "title": "83 创意特调咖啡是“糖水刺客”吗？",
+   "date": "2026-11-07",
+   "author": "Coffeeplus播客",
+   "tags": [
+    "咖啡",
+    "特调",
+    "研发"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/6824db4b1ced30a2315d5ec4",
+   "duration": "1小时32分",
+   "words": 30729,
+   "file": "transcripts/creative_coffee_signature.txt"
+  },
   {
    "slug": "china_population_3h",
    "title": "三小时，我们来彻底聊聊人口问题",

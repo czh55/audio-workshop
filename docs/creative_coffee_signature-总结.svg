@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="3130" viewBox="0 0 1320 3130">
+  <foreignObject x="0" y="0" width="1320" height="3130">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#fafaf9,#f5f5f4);padding:48px 60px;color:#292524}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:28px;font-weight:900;background:linear-gradient(135deg,#44403c,#78716c);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#44403c;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #e7e5e4}
+h3{font-size:20px;font-weight:700;color:#292524;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#57534e;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#57534e;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-stone{background:#e7e5e4;color:#44403c}
+.tag-amber{background:#fef3c7;color:#92400e}
+.tag-brown{background:#ffedd5;color:#9a3412}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#44403c;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #78716c;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline h3{color:#44403c;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:7px 0;border-bottom:1px solid #fafaf9}
+.timeline-time{font-size:13px;font-weight:700;color:#78716c;min-width:72px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:14px;color:#57534e}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,0.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0;color:#44403c}
+.diagram{display:flex;align-items:center;justify-content:center;gap:14px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#fafaf9,#e7e5e4);border:2px solid #d6d3d1;border-radius:16px;padding:16px 20px;text-align:center;min-width:110px;font-weight:700;font-size:13px;color:#44403c}
+.node-amber{background:linear-gradient(135deg,#fffbeb,#fef3c7);border-color:#fcd34d;color:#92400e}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.arrow{font-size:20px;color:#a8a29e}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3{color:#92400e;margin-bottom:8px}
+.correction p{color:#92400e;font-size:15px}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#44403c;margin-bottom:16px;padding-left:16px;border-left:4px solid #78716c}
+.card{background:#fff;border-radius:16px;padding:28px;margin-bottom:18px;box-shadow:0 4px 24px rgba(0,0,0,0.06);border-left:5px solid #78716c}
+.card.card-amber{border-left-color:#f59e0b}
+.card.card-green{border-left-color:#10b981}
+.card.card-blue{border-left-color:#3b82f6}
+.card h3{font-size:19px;font-weight:700;color:#44403c;margin-bottom:12px}
+.card p{font-size:15px;line-height:1.8;color:#57534e;margin-bottom:10px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#fafaf9;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#78716c;border-left:4px solid #d6d3d1;font-style:italic}
+.card .action{background:#f5f5f4;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#44403c;border-left:4px solid #78716c}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:14px}
+th{background:#f5f5f4;padding:12px 14px;text-align:left;font-weight:700;color:#44403c;border-bottom:2px solid #d6d3d1}
+td{padding:12px 14px;border-bottom:1px solid #e7e5e4;color:#57534e;vertical-align:top}
+tr:nth-child(even) td{background:#fafaf9}
+.conclusion{background:linear-gradient(135deg,#44403c,#78716c);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,0.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,0.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,0.9);font-size:15px}
+.footer{text-align:center;color:#a8a29e;font-size:13px;padding:32px 0 16px}
+.source-link{color:#78716c;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}
+@media (max-width:640px){body,.container{padding:16px 12px!important}.container{max-width:100%!important}h1{font-size:22px!important}h2,.sec-title{font-size:18px!important}h3{font-size:16px!important}p,li{font-size:14px!important}.summary-line{font-size:15px!important;padding:14px 16px!important}.map,.card,.timeline{padding:16px!important}.diagram{gap:10px!important}.node{min-width:100px!important;padding:12px 14px!important;font-size:12px!important}.conclusion{padding:20px!important}}</style>
+      
+<div class="container">
+
+<h1>83 创意特调咖啡是「糖水刺客」吗？</h1>
+<div class="meta">
+  <span class="tag tag-stone">播客</span>
+  <span class="tag tag-amber">咖啡</span>
+  <span class="tag tag-brown">特调</span>
+  <span class="tag tag-green">研发</span>
+  <span class="tag tag-blue">1小时32分</span>
+</div>
+<div class="summary-line">Coffeeplus 对话 BATHE COFFEE（澡堂咖啡）铅笔：从皇家/爱尔兰等花式咖啡，到 WBC Signature Drink 语境下的特调。好喝是王道；自制≠高级；拒绝原料堆砌与猎奇故事。拆解奶洗/油洗/澄清、风味糖浆与香气组合——打破购买信息差。</div>
+
+<div class="timeline">
+  <h3>关键时间轴</h3>
+  <div class="timeline-item"><span class="timeline-time">03:25</span><span class="timeline-text">是不是正经咖啡不重要，好喝是王道</span></div>
+  <div class="timeline-item"><span class="timeline-time">09:31</span><span class="timeline-text">古早花式：皇家咖啡</span></div>
+  <div class="timeline-item"><span class="timeline-time">11:49</span><span class="timeline-text">爱尔兰咖啡：烈酒元老（赛事指定单品）</span></div>
+  <div class="timeline-item"><span class="timeline-time">17:53</span><span class="timeline-text">脱胎精品赛事，特调火爆市场</span></div>
+  <div class="timeline-item"><span class="timeline-time">23:43</span><span class="timeline-text">拒绝堆砌；自制食材一定高级吗？</span></div>
+  <div class="timeline-item"><span class="timeline-time">29:14</span><span class="timeline-text">特调是糖水刺客吗？</span></div>
+  <div class="timeline-item"><span class="timeline-time">36:07</span><span class="timeline-text">食材搭配的 N 种方式</span></div>
+  <div class="timeline-item"><span class="timeline-time">38:57</span><span class="timeline-text">奶洗、油洗、澄清</span></div>
+  <div class="timeline-item"><span class="timeline-time">50:21</span><span class="timeline-text">冠军风味秘籍</span></div>
+  <div class="timeline-item"><span class="timeline-time">01:00</span><span class="timeline-text">豆风味：凸显还是平衡？品质还重要吗？</span></div>
+  <div class="timeline-item"><span class="timeline-time">01:14</span><span class="timeline-text">卖故事还是卖咖啡？</span></div>
+  <div class="timeline-item"><span class="timeline-time">01:26</span><span class="timeline-text">入门指北</span></div>
+</div>
+
+<div class="map">
+  <h2>核心脉络</h2>
+  <div class="diagram">
+    <div class="node">花式前身<br/>皇家·爱尔兰</div>
+    <div class="arrow">→</div>
+    <div class="node node-amber">赛事 Signature<br/>精品语境</div>
+    <div class="arrow">→</div>
+    <div class="node">风味设计<br/>处理·糖浆</div>
+    <div class="arrow">→</div>
+    <div class="node node-green">好喝落地<br/>非刺客</div>
+  </div>
+</div>
+
+<div class="correction">
+  <h3>⚠ 常见误解 / 认知纠偏</h3>
+  <p>「像果汁就不是咖啡」过时——特调生长于精品赛事创意环节，与古早花式有仪式感血缘，但逻辑不同。自制糖浆/食材不等于高级；堆砌猎奇食材与只卖故事是反例。加满料也不等于豆品质无所谓——平衡与载体仍决定高级感。国外不流行≠国内特调无意义（市场语境不同）。</p>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">一、从花式到特调</h2>
+
+  <div class="card">
+    <h3>谱系与边界</h3>
+    <p>皇家咖啡、爱尔兰咖啡（咖啡+威士忌+奶油）流传数十年，爱尔兰咖啡甚至是咖啡烈酒赛事决赛指定项；原始制法要灼烧酒精柔化酒感，快节奏店难做，酒吧更常见。WBC 的 Signature Drink 译成「创意咖啡」，市场叫「特调」——本质接近，定义因人而异：有人强调保留豆本味，有人强调风味重组。</p>
+    <div class="quote">特调咖啡是不是正经咖啡不重要，好喝是王道。</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">二、怎么做一杯好喝的特调</h2>
+
+  <div class="card card-amber">
+    <h3>铅笔的研发工具箱</h3>
+    <table>
+      <tr><th>主题</th><th>要点</th></tr>
+      <tr><td>好喝标准</td><td>落地口感优先于概念堆砌</td></tr>
+      <tr><td>处理技巧</td><td>奶洗 / 油洗 / 澄清 等改变质地与香气呈现</td></tr>
+      <tr><td>备料</td><td>低温慢煮做风味载体；自制风味糖浆可控；不爱用发酵液备料（有理由）</td></tr>
+      <tr><td>香气组合</td><td>拆解层次；高级感靠平衡与细节，非猎奇</td></tr>
+      <tr><td>豆子</td><td>凸显或平衡看配方目标；品质在「加满料」时仍重要</td></tr>
+      <tr><td>热 vs 冰</td><td>热特调更难做</td></tr>
+    </table>
+    <div class="highlight">拒绝原料堆砌；别太抽象的猎奇食材博眼球——问自己卖的是故事还是咖啡。</div>
+    <div class="pitfall">咖啡师热情解说可能让 I 人不知所措：服务强度也要匹配客人节奏。</div>
+    <div class="action">听完留言：你还觉得特调是糖水刺客吗？可参与 BATHE 霸王餐抽奖（上海永康路到店兑换）。</div>
+  </div>
+</div>
+
+<div class="conclusion">
+  <h2>总结与行动</h2>
+  <h3>核心要点</h3>
+  <ul>
+    <li>特调有花式血缘，但定调于精品赛事创意语境。</li>
+    <li>好喝落地 &gt; 是否「正经」标签；自制≠高级。</li>
+    <li>处理与糖浆是可控工具，猎奇堆砌是陷阱。</li>
+    <li>豆品质与平衡仍在；热特调难度高于冰。</li>
+    <li>卖故事可以，但不能替代杯子里的完成度。</li>
+  </ul>
+  <h3>行动清单</h3>
+  <ol>
+    <li>点特调时问店员：豆种/处理法，以及甜感来自糖浆还是食材。</li>
+    <li>对比同一店冰/热特调，体会「热更难」的完成度差。</li>
+    <li>家做入门：先控糖浆与一种水果/香料，别一次堆五种。</li>
+    <li>避开「抽象猎奇」菜单，优先季节食材逻辑清晰的店。</li>
+    <li>上海听友可留意评论区 BATHE 福利规则。</li>
+  </ol>
+  <h3>关键认知转变</h3>
+  <p>以前容易把特调一竿子打成糖水刺客；现在看见它有赛事方法论与风味工程。刺客往往出在堆砌与叙事凌驾口感——好特调是设计出来的好喝，不是加糖加料的遮羞布。</p>
+</div>
+
+<div class="footer">来源：Coffeeplus 播客 · Yujia × 铅笔（BATHE COFFEE）</div>
+<a class="source-link" href="https://www.xiaoyuzhoufm.com/episode/6824db4b1ced30a2315d5ec4">小宇宙原集链接</a>
+
+</div>
+
+    </div>
+  </foreignObject>
+</svg>
