@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="3350" viewBox="0 0 1320 3350">
+  <foreignObject x="0" y="0" width="1320" height="3350">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#fdf2f8,#fce7f3);padding:48px 60px;color:#831843}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:30px;font-weight:900;background:linear-gradient(135deg,#9d174d,#ec4899);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#9d174d;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #fbcfe8}
+h3{font-size:20px;font-weight:700;color:#831843;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#9d174d;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#be185d;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-pink{background:#fce7f3;color:#9d174d}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-green{background:#d1fae5;color:#065f46}
+.tag-amber{background:#fef3c7;color:#92400e}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#9d174d;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #ec4899;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline h3{color:#9d174d;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #fdf2f8}
+.timeline-time{font-size:14px;font-weight:700;color:#db2777;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#be185d}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,0.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0;color:#9d174d}
+.diagram{display:flex;align-items:center;justify-content:center;gap:16px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#fdf2f8,#fce7f3);border:2px solid #f9a8d4;border-radius:16px;padding:18px 22px;text-align:center;min-width:120px;font-weight:700;font-size:14px;color:#9d174d}
+.node-blue{background:linear-gradient(135deg,#eff6ff,#dbeafe);border-color:#93c5fd;color:#1e40af}
+.node-purple{background:linear-gradient(135deg,#faf5ff,#ede9fe);border-color:#c4b5fd;color:#6b21a8}
+.arrow{font-size:22px;color:#f9a8d4}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3{color:#92400e;margin-bottom:8px}
+.correction p{color:#92400e;font-size:15px}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#9d174d;margin-bottom:16px;padding-left:16px;border-left:4px solid #ec4899}
+.card{background:#fff;border-radius:16px;padding:28px;margin-bottom:18px;box-shadow:0 4px 24px rgba(0,0,0,0.06);border-left:5px solid #ec4899}
+.card.card-blue{border-left-color:#3b82f6}
+.card.card-purple{border-left-color:#8b5cf6}
+.card.card-green{border-left-color:#10b981}
+.card h3{font-size:19px;font-weight:700;color:#9d174d;margin-bottom:12px}
+.card p{font-size:15px;line-height:1.8;color:#be185d;margin-bottom:10px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#fdf2f8;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#9d174d;border-left:4px solid #f9a8d4;font-style:italic}
+.card .action{background:#fce7f3;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#9d174d;border-left:4px solid #ec4899}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:14px}
+th{background:#fce7f3;padding:12px 14px;text-align:left;font-weight:700;color:#9d174d;border-bottom:2px solid #f9a8d4}
+td{padding:12px 14px;border-bottom:1px solid #fbcfe8;color:#be185d;vertical-align:top}
+tr:nth-child(even) td{background:#fdf2f8}
+.conclusion{background:linear-gradient(135deg,#9d174d,#ec4899);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,0.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,0.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,0.9);font-size:15px}
+.footer{text-align:center;color:#f9a8d4;font-size:13px;padding:32px 0 16px}
+.source-link{color:#db2777;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}
+@media (max-width:640px){body,.container{padding:16px 12px!important}.container{max-width:100%!important}h1{font-size:22px!important}h2,.sec-title{font-size:18px!important}h3{font-size:16px!important}p,li{font-size:14px!important}.summary-line{font-size:15px!important;padding:14px 16px!important}.map,.card,.timeline{padding:16px!important}.diagram{gap:10px!important}.node{min-width:100px!important;padding:12px 16px!important;font-size:13px!important}.conclusion{padding:20px!important}}</style>
+      
+<div class="container">
+
+<h1>10月新歌推荐｜朱婧汐、柏林护士、LISA、Ashe…</h1>
+<div class="meta">
+  <span class="tag tag-pink">播客</span>
+  <span class="tag tag-purple">音乐</span>
+  <span class="tag tag-blue">新歌</span>
+  <span class="tag tag-green">推荐</span>
+  <span class="tag tag-amber">1小时51分</span>
+</div>
+<div class="summary-line">Vibration 歪波音室主播拾壹精选 2026 年 10 月华语/外语各 8 张：从朱婧汐乌龙茶灵感 Footwork，到沼泽把 21 年前旋律与海边环境声叠进同一张碟，再到 LISA 用母语与家乡视觉重介绍自己。名单偏个人口味，风格跨电子、摇滚、嘻哈、爵士与灵魂。</div>
+
+<div class="timeline">
+  <h3>华语精选时间轴</h3>
+  <div class="timeline-item"><span class="timeline-time">02:27</span><span class="timeline-text">朱婧汐《乌龙》ft. GALI — Footwork / 摇青意象</span></div>
+  <div class="timeline-item"><span class="timeline-time">07:07</span><span class="timeline-text">HOW1E &amp; byn《duk 自悲傷》</span></div>
+  <div class="timeline-item"><span class="timeline-time">12:13</span><span class="timeline-text">林冠良《启程》— 向 1986 致敬</span></div>
+  <div class="timeline-item"><span class="timeline-time">21:08</span><span class="timeline-text">柏林护士《Mars》</span></div>
+  <div class="timeline-item"><span class="timeline-time">30:23</span><span class="timeline-text">禅波《BLUE GRAY》</span></div>
+  <div class="timeline-item"><span class="timeline-time">35:42</span><span class="timeline-text">完美倒立《Polaroid of Us》</span></div>
+  <div class="timeline-item"><span class="timeline-time">41:54</span><span class="timeline-text">沼泽《当时只道是寻常》— 时间作素材</span></div>
+  <div class="timeline-item"><span class="timeline-time">48:44</span><span class="timeline-text">吴汶芳《Bali Vibe》— 冲浪与节奏修复</span></div>
+</div>
+
+<div class="timeline">
+  <h3>海外精选时间轴</h3>
+  <div class="timeline-item"><span class="timeline-time">53:05</span><span class="timeline-text">LISA《Cut U Off》— PRESS PLAY / 身份电影</span></div>
+  <div class="timeline-item"><span class="timeline-time">58:01</span><span class="timeline-text">Ashe《Stop The Wedding!》</span></div>
+  <div class="timeline-item"><span class="timeline-time">1:03</span><span class="timeline-text">Quadeca《Baby steps》</span></div>
+  <div class="timeline-item"><span class="timeline-time">1:09</span><span class="timeline-text">Lennon Stella《Comedy Show》</span></div>
+  <div class="timeline-item"><span class="timeline-time">1:14</span><span class="timeline-text">The Avalanches《Together》</span></div>
+  <div class="timeline-item"><span class="timeline-time">1:20</span><span class="timeline-text">Olēka《Human Error》</span></div>
+  <div class="timeline-item"><span class="timeline-time">1:27</span><span class="timeline-text">Fontaines D.C.《Where Is Gone?》</span></div>
+  <div class="timeline-item"><span class="timeline-time">1:34</span><span class="timeline-text">Michael Kiwanuka《Love In My Heart》→ 结束曲 Steve's Paradise</span></div>
+</div>
+
+<div class="map">
+  <h2>核心脉络</h2>
+  <div class="diagram">
+    <div class="node">个人口味<br/>华语×8</div>
+    <div class="arrow">→</div>
+    <div class="node node-blue">概念/情绪<br/>怎么听</div>
+    <div class="arrow">→</div>
+    <div class="node node-purple">海外×8<br/>身份与叙事</div>
+    <div class="arrow">→</div>
+    <div class="node">歌单收藏<br/>评论补缺</div>
+  </div>
+</div>
+
+<div class="correction">
+  <h3>⚠ 常见误解 / 认知纠偏</h3>
+  <p>这不是「十月榜单权威」，而是主播耳选：风格故意多元，新旧名字混排。LISA 的 PRESS PLAY 音乐未必有惊喜，但母语与家乡视觉把「国际明星」重新锚定回泰国身份——有时视觉与人物设定比 Hook 更值得听。</p>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">一、华语：从舞池到时间胶囊</h2>
+
+  <div class="card">
+    <h3>几张值得优先点开的</h3>
+    <table>
+      <tr><th>作品</th><th>在讲什么</th><th>怎么听</th></tr>
+      <tr><td>朱婧汐《乌龙》</td><td>摇青碰撞 → 舞池试探；~160BPM Footwork</td><td>世界建构变轻松，面向舞池日常情绪</td></tr>
+      <tr><td>沼泽《当时只道是寻常》</td><td>21 年前旋律 + 18 年前海边环境声</td><td>时间当素材；弦乐四重奏加层</td></tr>
+      <tr><td>吴汶芳《Bali Vibe》</td><td>冲浪一分钟长浪，低潮时回声</td><td>Bossa 轻盈，适合不赶时间的下午</td></tr>
+      <tr><td>柏林护士 / 禅波 / 完美倒立等</td><td>摇滚到电子灰调</td><td>按时间轴跳听，找自己的入口</td></tr>
+    </table>
+    <div class="quote">时间当然不可能倒退；但多年前写下的旋律与海边录音，现在可以被重新听见。</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">二、海外：身份电影与熟悉惊喜</h2>
+
+  <div class="card card-blue">
+    <h3>LISA PRESS PLAY 与其余</h3>
+    <p>六首歌约 16 分钟、无 feat，自称人生电影：Sawadee Ka 强调泰国身份，Tarantino / Cut U Off 借用《杀死比尔》口哨与动作女主形象。音乐仍偏嘻哈流行 Hook；更鲜明的是文化方向选择。Ashe、Quadeca、Avalanches、Fontaines D.C.、Kiwanuka 等覆盖创作流行到实验与灵魂——边界是个人推荐密度高，不是流派教材。</p>
+    <div class="highlight">方法边界：用一期节目扫 16 张，适合「发现入口」；深度消化请跟 show notes 歌单单开专辑听完。</div>
+    <div class="action">打开网易云/Spotify 配套歌单，先收藏本期 3 首「想再听」；评论区丢你本月最佳新歌，帮主播查漏补缺。</div>
+    <div class="pitfall">别把「推荐」当必须全盘喜欢——名单本来就承认主观与多元。</div>
+  </div>
+</div>
+
+<div class="conclusion">
+  <h2>总结与行动</h2>
+  <h3>核心要点</h3>
+  <ul>
+    <li>华语 8 + 外语 8，个人口味驱动，风格故意跨界。</li>
+    <li>朱婧汐：概念世界回到舞池日常；乌龙=摇青隐喻。</li>
+    <li>沼泽：把时间轴叠进一张碟；吴汶芳用冲浪修复生活节奏。</li>
+    <li>LISA：音乐未必新，身份与家乡视觉更值得看。</li>
+    <li>听完用歌单收藏 + 评论分享，形成双向补缺。</li>
+  </ul>
+  <h3>行动清单</h3>
+  <ol>
+    <li>从时间轴挑 2 首华语 + 2 首外语，完整听完再决定要不要整专。</li>
+    <li>收藏 show notes 双平台歌单，设「十月精选」播放列表。</li>
+    <li>对沼泽：对照「旧素材重录」听法，注意环境声层。</li>
+    <li>对 LISA：先看 Sawadee Ka MV 文化符号，再评 Hook。</li>
+    <li>评论区写本月你的最佳新歌，完成节目邀请。</li>
+  </ol>
+  <h3>关键认知转变</h3>
+  <p>以前新歌推荐容易沦为名词清单；这期示范的是「作品在讲什么 → 为何此刻推荐 → 怎么听」的路径。歌荒时缺的不是更多算法，而是有人替你做完第一轮主观筛选。</p>
+</div>
+
+<div class="footer">来源：Vibration 歪波音室 · 拾壹 · 歌单见 show notes</div>
+<a class="source-link" href="https://www.xiaoyuzhoufm.com/episode/6ae3c1b0680a4638fb84b03e">小宇宙原集链接</a>
+
+</div>
+
+    </div>
+  </foreignObject>
+</svg>
