@@ -1,6 +1,6 @@
 {
  "generated": "2026-11-06",
- "count": 204,
+ "count": 205,
  "items": [
   {
    "slug": "china_population_3h",
@@ -16,6 +16,21 @@
    "duration": "3小时48分",
    "words": 79224,
    "file": "transcripts/china_population_3h.txt"
+  },
+  {
+   "slug": "county_bakery_hanshou",
+   "title": "回县城开面包店是一门好生意吗 | ChIBao Vol.027",
+   "date": "2026-11-06",
+   "author": "吃包编辑部",
+   "tags": [
+    "烘焙",
+    "创业",
+    "县城"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/6a4d9348805636caa9a4c576",
+   "duration": "54分钟",
+   "words": 15823,
+   "file": "transcripts/county_bakery_hanshou.txt"
   },
   {
    "slug": "october_new_songs",
