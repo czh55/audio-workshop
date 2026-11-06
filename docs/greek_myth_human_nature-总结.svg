@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="2982" viewBox="0 0 1320 2982">
+  <foreignObject x="0" y="0" width="1320" height="2982">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#faf5ff,#ede9fe);padding:48px 60px;color:#4c1d95}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:28px;font-weight:900;background:linear-gradient(135deg,#6b21a8,#a855f7);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+h2{font-size:26px;font-weight:700;color:#6b21a8;margin:32px 0 16px;padding-bottom:8px;border-bottom:2px solid #ddd6fe}
+h3{font-size:20px;font-weight:700;color:#5b21b6;margin-bottom:12px}
+p{font-size:16px;line-height:1.8;color:#6b21a8;margin-bottom:10px}
+ul,ol{padding-left:24px;margin:8px 0}
+li{font-size:15px;line-height:1.8;color:#7c3aed;margin-bottom:6px}
+.tag{display:inline-block;padding:4px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-right:8px}
+.tag-purple{background:#ede9fe;color:#6b21a8}
+.tag-pink{background:#fce7f3;color:#9d174d}
+.tag-blue{background:#dbeafe;color:#1e40af}
+.tag-amber{background:#fef3c7;color:#92400e}
+.tag-green{background:#d1fae5;color:#065f46}
+.meta{margin:12px 0 20px}
+.summary-line{font-size:18px;line-height:1.7;color:#5b21b6;padding:20px 24px;background:#fff;border-radius:12px;border-left:4px solid #a855f7;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline{background:#fff;border-radius:16px;padding:24px 28px;margin-bottom:24px;box-shadow:0 2px 12px rgba(0,0,0,0.04)}
+.timeline h3{color:#6b21a8;margin-bottom:12px}
+.timeline-item{display:flex;align-items:baseline;padding:8px 0;border-bottom:1px solid #faf5ff}
+.timeline-time{font-size:14px;font-weight:700;color:#9333ea;min-width:70px;font-variant-numeric:tabular-nums}
+.timeline-text{font-size:15px;color:#7c3aed}
+.map{background:#fff;border-radius:20px;padding:36px;margin-bottom:28px;box-shadow:0 4px 24px rgba(0,0,0,0.06)}
+.map h2{font-size:24px;margin-top:0;border-bottom:none;padding-bottom:0;color:#6b21a8}
+.diagram{display:flex;align-items:center;justify-content:center;gap:14px;flex-wrap:wrap;padding:20px 0}
+.node{background:linear-gradient(135deg,#faf5ff,#ede9fe);border:2px solid #c4b5fd;border-radius:16px;padding:16px 20px;text-align:center;min-width:110px;font-weight:700;font-size:13px;color:#6b21a8}
+.node-pink{background:linear-gradient(135deg,#fdf2f8,#fce7f3);border-color:#f9a8d4;color:#9d174d}
+.node-amber{background:linear-gradient(135deg,#fffbeb,#fef3c7);border-color:#fcd34d;color:#92400e}
+.node-green{background:linear-gradient(135deg,#ecfdf5,#d1fae5);border-color:#6ee7b7;color:#065f46}
+.arrow{font-size:20px;color:#c4b5fd}
+.correction{background:linear-gradient(135deg,#fef3c7,#fef9c3);border-left:4px solid #f59e0b;padding:20px 24px;border-radius:12px;margin-bottom:24px}
+.correction h3{color:#92400e;margin-bottom:8px}
+.correction p{color:#92400e;font-size:15px}
+.section{margin-bottom:32px}
+.sec-title{font-size:22px;font-weight:700;color:#6b21a8;margin-bottom:16px;padding-left:16px;border-left:4px solid #a855f7}
+.card{background:#fff;border-radius:16px;padding:28px;margin-bottom:18px;box-shadow:0 4px 24px rgba(0,0,0,0.06);border-left:5px solid #a855f7}
+.card.card-pink{border-left-color:#ec4899}
+.card.card-amber{border-left-color:#f59e0b}
+.card.card-blue{border-left-color:#3b82f6}
+.card.card-green{border-left-color:#10b981}
+.card h3{font-size:19px;font-weight:700;color:#6b21a8;margin-bottom:12px}
+.card p{font-size:15px;line-height:1.8;color:#7c3aed;margin-bottom:10px}
+.card .highlight{background:#fef3c7;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#92400e;border-left:4px solid #f59e0b}
+.card .quote{background:#faf5ff;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#6b21a8;border-left:4px solid #c4b5fd;font-style:italic}
+.card .action{background:#ede9fe;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#6b21a8;border-left:4px solid #a855f7}
+.card .pitfall{background:#fef2f2;padding:12px 16px;border-radius:10px;margin:12px 0;font-size:15px;color:#991b1b;border-left:4px solid #ef4444}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:14px}
+th{background:#ede9fe;padding:12px 14px;text-align:left;font-weight:700;color:#6b21a8;border-bottom:2px solid #c4b5fd}
+td{padding:12px 14px;border-bottom:1px solid #ddd6fe;color:#7c3aed;vertical-align:top}
+tr:nth-child(even) td{background:#faf5ff}
+.conclusion{background:linear-gradient(135deg,#6b21a8,#a855f7);color:#fff;border-radius:20px;padding:36px;margin-top:32px}
+.conclusion h2{font-size:26px;font-weight:800;margin-top:0;margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,0.2);color:#fff}
+.conclusion h3{font-size:18px;font-weight:700;color:rgba(255,255,255,0.9);margin:20px 0 10px}
+.conclusion p,.conclusion li{color:rgba(255,255,255,0.9);font-size:15px}
+.footer{text-align:center;color:#c4b5fd;font-size:13px;padding:32px 0 16px}
+.source-link{color:#9333ea;font-size:14px;text-decoration:none;margin-bottom:24px;display:inline-block}
+@media (max-width:640px){body,.container{padding:16px 12px!important}.container{max-width:100%!important}h1{font-size:22px!important}h2,.sec-title{font-size:18px!important}h3{font-size:16px!important}p,li{font-size:14px!important}.summary-line{font-size:15px!important;padding:14px 16px!important}.map,.card,.timeline{padding:16px!important}.diagram{gap:10px!important}.node{min-width:100px!important;padding:12px 14px!important;font-size:12px!important}.conclusion{padding:20px!important}}</style>
+      
+<div class="container">
+
+<h1>人性，千百年来就没变过｜108 希腊神话</h1>
+<div class="meta">
+  <span class="tag tag-purple">播客</span>
+  <span class="tag tag-pink">神话</span>
+  <span class="tag tag-blue">文化</span>
+  <span class="tag tag-amber">女性主义</span>
+  <span class="tag tag-green">1小时12分</span>
+</div>
+<div class="summary-line">about 热水频道对话《读懂古希腊神话》作者杨黎红：玫瑰、星座、星巴克塞壬、行星命名——神话早已渗入日常。美杜莎从工具人反派翻成女性主义图腾；英雄拼血统、躲不开命运；中国神仙靠修炼、希腊拼血统。科技解决工具，解决不了人性——所以人们不断重写神话。</div>
+
+<div class="timeline">
+  <h3>关键时间轴</h3>
+  <div class="timeline-item"><span class="timeline-time">03:06</span><span class="timeline-text">红玫瑰=爱情？星巴克美人鱼是谁？</span></div>
+  <div class="timeline-item"><span class="timeline-time">06:04</span><span class="timeline-text">七大行星几乎全用希腊/罗马神名</span></div>
+  <div class="timeline-item"><span class="timeline-time">10:19</span><span class="timeline-text">为何女性常被写成灾难源头？</span></div>
+  <div class="timeline-item"><span class="timeline-time">12:00</span><span class="timeline-text">美杜莎如何翻身成女性主义图腾</span></div>
+  <div class="timeline-item"><span class="timeline-time">20:54</span><span class="timeline-text">佩涅罗佩：被低估的「狠人」</span></div>
+  <div class="timeline-item"><span class="timeline-time">25:48</span><span class="timeline-text">英雄与道德无关，看血统？</span></div>
+  <div class="timeline-item"><span class="timeline-time">39:42</span><span class="timeline-text">为何英雄总躲不开命运</span></div>
+  <div class="timeline-item"><span class="timeline-time">40:53</span><span class="timeline-text">中国神仙靠修炼 vs 希腊拼血统</span></div>
+  <div class="timeline-item"><span class="timeline-time">58:38</span><span class="timeline-text">科技解决工具，解决不了人性</span></div>
+  <div class="timeline-item"><span class="timeline-time">01:03</span><span class="timeline-text">记不住神名？当八卦剧看</span></div>
+</div>
+
+<div class="map">
+  <h2>核心脉络</h2>
+  <div class="diagram">
+    <div class="node">日常剪影<br/>玫瑰·星座</div>
+    <div class="arrow">→</div>
+    <div class="node node-pink">女性叙事<br/>改写逆袭</div>
+    <div class="arrow">→</div>
+    <div class="node node-amber">英雄·命运<br/>宙斯法则</div>
+    <div class="arrow">→</div>
+    <div class="node node-green">对照当下<br/>重写神话</div>
+  </div>
+</div>
+
+<div class="correction">
+  <h3>⚠ 常见误解 / 认知纠偏</h3>
+  <p>神话不是死去的古董，而是被每个时代按自己的三观重讲。美杜莎「天生坏」是英雄叙事需要反派；奥维德补前因后，才露出制度逼成怪物的受害者。范思哲 logo 消费美杜莎的绝美致命，删掉苦难——典型文化扁平化。希腊英雄厉害≠道德楷模；越努力逃避命运，往往越精准踩中命运。</p>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">一、女性：从工具人到图腾</h2>
+
+  <div class="card card-pink">
+    <h3>美杜莎与佩涅罗佩</h3>
+    <table>
+      <tr><th>人物</th><th>经典叙事</th><th>后世改写</th></tr>
+      <tr><td>美杜莎</td><td>波塞冬污神庙→雅典娜罚女→英雄斩杀除暴</td><td>奥维德补身世；西苏《美杜莎的笑声》翻盘为女权图腾</td></tr>
+      <tr><td>佩涅罗佩</td><td>忠贞等待 20 年的好妻子</td><td>阿特伍德《珀涅罗珀记》：忠贞是监狱；昼织夜拆是拆枷锁</td></tr>
+      <tr><td>赫拉等</td><td>嫉妒正房、红颜祸水</td><td>折射男性秩序合法化，而非「女人天生如此」</td></tr>
+    </table>
+    <div class="quote">神话跟着时代进化、觉醒、甚至逆袭。——杨黎红</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="sec-title">二、英雄、命运与中西对照</h2>
+
+  <div class="card card-amber">
+    <h3>血统 vs 修炼；爱与美的想象</h3>
+    <p>古希腊英雄常与道德脱钩，看血统与「宙斯法则」；命运网越逃越紧（俄狄浦斯范式）。中国神仙叙事更强调修炼成神；希腊神系拼血统出身。对「爱与美」的想象亦不同——神话折射审美与秩序观差异，不是简单谁高级。</p>
+    <div class="highlight">科技能解决工具问题，解决不了人性问题——科学越精密，人越需要神话提供神秘感、敬畏感与对照自我的镜子。</div>
+    <div class="action">入门法：当八卦剧连载读（别死记神名）；对照一则故事的古代版与当代改写（电影/小说），问「这个时代改了什么」。</div>
+    <div class="pitfall">只收藏范思哲式「致命性感」标签，会错过美杜莎作为受害者与愤怒象征的整层历史。</div>
+  </div>
+</div>
+
+<div class="conclusion">
+  <h2>总结与行动</h2>
+  <h3>核心要点</h3>
+  <ul>
+    <li>日常物象里到处是希腊神话剪影（玫瑰、行星、品牌、星座）。</li>
+    <li>女性形象常被写成灾难源头，服务男性英雄秩序；后世可逆袭改写。</li>
+    <li>英雄叙事≠道德叙事；命运主题训诫「越逃越中」。</li>
+    <li>中西成神逻辑不同：修炼 vs 血统。</li>
+    <li>重写神话是因为人性问题科技解不了。</li>
+  </ul>
+  <h3>行动清单</h3>
+  <ol>
+    <li>读杨黎红《读懂古希腊神话》选 2–3 章对照节目时间轴。</li>
+    <li>对照《变形记》美杜莎段与西苏《美杜莎的笑声》各读一段。</li>
+    <li>看一部当代改写（如《浪浪山小妖怪》类）问：改的是谁的声音。</li>
+    <li>评论区写下最打动你的神话人物与原因。</li>
+    <li>下次看到品牌挪用神话符号，问删掉了哪一层苦难/伦理。</li>
+  </ol>
+  <h3>关键认知转变</h3>
+  <p>以前觉得希腊神话遥远琐碎；现在看见它是活着的文化软件——每个时代往里写进自己的恐惧、愤怒与秩序想象。读通了，更容易接纳复杂人性，也更敢做自己生活里的英雄。</p>
+</div>
+
+<div class="footer">来源：about 热水频道 · Vivi × 杨黎红 · 《读懂古希腊神话》</div>
+<a class="source-link" href="https://www.xiaoyuzhoufm.com/episode/6ae22cf797726cd467594ef9">小宇宙原集链接</a>
+
+</div>
+
+    </div>
+  </foreignObject>
+</svg>

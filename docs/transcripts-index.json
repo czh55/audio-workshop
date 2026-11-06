@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-06",
- "count": 205,
+ "generated": "2026-11-07",
+ "count": 206,
  "items": [
   {
    "slug": "china_population_3h",
@@ -31,6 +31,21 @@
    "duration": "54分钟",
    "words": 15823,
    "file": "transcripts/county_bakery_hanshou.txt"
+  },
+  {
+   "slug": "greek_myth_human_nature",
+   "title": "人性，千百年来就没变过｜108希腊神话",
+   "date": "2026-11-06",
+   "author": "about热水频道",
+   "tags": [
+    "神话",
+    "文化",
+    "女性主义"
+   ],
+   "url": "https://www.xiaoyuzhoufm.com/episode/6ae22cf797726cd467594ef9",
+   "duration": "1小时12分",
+   "words": 18313,
+   "file": "transcripts/greek_myth_human_nature.txt"
   },
   {
    "slug": "october_new_songs",
